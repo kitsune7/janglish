@@ -1,0 +1,6 @@
+# Copy to worker/.dev.vars for local `wrangler dev`. Must match the value in
+# the repo-root .env so cmd/contrib and the Worker sign/verify the same tokens.
+JANGLISH_HMAC_SECRET=change-me
+# For local dev, * is convenient (browser on localhost:8765, worker on localhost:8787).
+# In production this is set via `wrangler secret put ALLOWED_ORIGIN` to the Pages origin only.
+ALLOWED_ORIGIN=*

@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "janglish-recordings",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-05-01",
+  "observability": {
+    "enabled": true
+  },
+  "r2_buckets": [
+    {
+      "binding": "RECORDINGS",
+      "bucket_name": "janglish-recordings"
+    }
+  ]
+  // Secrets (JANGLISH_HMAC_SECRET, ALLOWED_ORIGIN) are set via:
+  //   - .dev.vars (local, gitignored)
+  //   - `wrangler secret put` (deployed)
+}
