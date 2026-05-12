@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Janglish recording</title>
+    <meta name="janglish-api" content="https://janglish-recordings.janglish.workers.dev" />
+    <style>
+      body { font-family: system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; color: #222; }
+      h1 { font-size: 1.25rem; margin-bottom: 0.25rem; }
+      #greeting { color: #555; margin-top: 0; }
+      #progress { font-family: ui-monospace, monospace; color: #555; margin: 0.5rem 0; }
+      #sentence { font-size: 1.5rem; line-height: 1.4; padding: 1.25rem; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; min-height: 5rem; }
+      .controls { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+      button { font-size: 1rem; padding: 0.6rem 1rem; border-radius: 6px; border: 1px solid #bbb; background: #fff; cursor: pointer; }
+      button:disabled { opacity: 0.4; cursor: not-allowed; }
+      button.primary { background: #0a7; color: #fff; border-color: #095; }
+      button.primary:disabled { background: #0a7; }
+      button.danger { background: #c33; color: #fff; border-color: #a22; }
+      #status { margin-top: 1rem; font-family: ui-monospace, monospace; font-size: 0.9rem; white-space: pre-wrap; min-height: 1.4em; }
+      .error { color: #c33; }
+      .ok { color: #0a7; }
+      audio { display: block; margin-top: 1rem; width: 100%; }
+      .done-marker { display: inline-block; width: 1em; text-align: center; }
+      #fatal { padding: 1rem; border-radius: 8px; background: #fee; color: #900; border: 1px solid #fbb; }
+      #completed-banner { padding: 1rem; border-radius: 8px; background: #efe; color: #060; border: 1px solid #bdb; margin-top: 1rem; }
+    </style>
+  </head>
+  <body>
+    <h1>Janglish recording</h1>
+    <p id="greeting"></p>
+
+    <div id="app" hidden>
+      <div id="progress"></div>
+      <div id="sentence"></div>
+
+      <div class="controls">
+        <button id="record" class="primary">● Record</button>
+        <button id="stop" class="danger" disabled>■ Stop</button>
+        <button id="play" disabled>▶ Play</button>
+        <button id="upload" disabled>↑ Upload</button>
+      </div>
+      <div class="controls">
+        <button id="prev">← Prev</button>
+        <button id="next">Next →</button>
+      </div>
+
+      <audio id="player" controls preload="none"></audio>
+      <div id="status"></div>
+
+      <div id="completed-banner" hidden>All sentences uploaded. Thank you! You can close this tab.</div>
+    </div>
+
+    <div id="fatal" hidden></div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
