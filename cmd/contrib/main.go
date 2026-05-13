@@ -7,10 +7,11 @@
 //	    16 kHz mono FLAC under data/manual/<name>/<id>.flac, deletes the WAVs,
 //	    and appends matching rows to data/data-pairs.csv. Idempotent.
 //
-//	contrib gen-assignment <name> <id> [<id>...]
-//	    Looks up sentence IDs in data/wanted-sentences.csv and writes
-//	    work/uploads/assignments/<name>.json with the assigned sentences. In
-//	    Phase 1 this is a local file; Phase 2 will upload it to R2.
+//	contrib gen-assignment <name>
+//	    Selects every row in data/wanted-sentences.csv whose Name column matches
+//	    <name>, assigns each a zero-padded sequential ID (001, 002, ...) in CSV
+//	    order, writes work/uploads/assignments/<name>.json, uploads it to R2,
+//	    and prints a signed share URL.
 //
 //	contrib gen-token <name> [ttl]
 //	    Prints a signed HMAC token for the contributor. ttl defaults to 168h
@@ -30,6 +31,7 @@ import (
 	"path/filepath"
 	"regexp"
 	"sort"
+	"strconv"
 	"strings"
 	"time"
 
@@ -86,7 +88,7 @@ func main() {
 func usage() {
 	fmt.Fprintln(os.Stderr, "usage:")
 	fmt.Fprintln(os.Stderr, "  contrib pull")
-	fmt.Fprintln(os.Stderr, "  contrib gen-assignment <name> <id> [<id>...]")
+	fmt.Fprintln(os.Stderr, "  contrib gen-assignment <name>")
 	fmt.Fprintln(os.Stderr, "  contrib gen-token <name> [ttl]")
 	fmt.Fprintln(os.Stderr, "  contrib list-progress [name]")
 }
@@ -175,11 +177,17 @@ func runPull() error {
 		name := parts[0]
 		id := strings.TrimSuffix(parts[1], filepath.Ext(parts[1]))
 
-		text, ok := wanted[id]
+		texts, ok := wanted[name]
 		if !ok {
-			skipped = append(skipped, fmt.Sprintf("%s (id %q not in %s)", wav, id, wantedCSV))
+			skipped = append(skipped, fmt.Sprintf("%s (name %q not in %s)", wav, name, wantedCSV))
 			continue
 		}
+		seq, err := strconv.Atoi(id)
+		if err != nil || seq < 1 || seq > len(texts) {
+			skipped = append(skipped, fmt.Sprintf("%s (id %q out of range for name %q)", wav, id, name))
+			continue
+		}
+		text := texts[seq-1]
 
 		outDir := filepath.Join(manualOutputDir, name)
 		if err := os.MkdirAll(outDir, 0o755); err != nil {
@@ -229,11 +237,10 @@ func runPull() error {
 // to R2, signs a contributor token, and prints the share URL. The local copy
 // under work/uploads/assignments/<name>.json is kept for inspection.
 func runGenAssignment(args []string) error {
-	if len(args) < 2 {
-		return errors.New("expected: <name> <id> [<id>...]")
+	if len(args) != 1 {
+		return errors.New("expected: <name>")
 	}
 	name := args[0]
-	ids := args[1:]
 
 	if !validName(name) {
 		return fmt.Errorf("invalid name %q: must match [a-z0-9][a-z0-9-]*", name)
@@ -243,18 +250,18 @@ func runGenAssignment(args []string) error {
 	if err != nil {
 		return err
 	}
+	texts, ok := wanted[name]
+	if !ok || len(texts) == 0 {
+		return fmt.Errorf("no sentences for name %q in %s", name, wantedCSV)
+	}
 
 	type sentence struct {
 		ID   string `json:"id"`
 		Text string `json:"text"`
 	}
-	sentences := make([]sentence, 0, len(ids))
-	for _, id := range ids {
-		text, ok := wanted[id]
-		if !ok {
-			return fmt.Errorf("id %q not found in %s", id, wantedCSV)
-		}
-		sentences = append(sentences, sentence{ID: id, Text: text})
+	sentences := make([]sentence, len(texts))
+	for i, text := range texts {
+		sentences[i] = sentence{ID: sentenceID(i), Text: text}
 	}
 
 	if err := os.MkdirAll(assignmentsDir, 0o755); err != nil {
@@ -406,25 +413,30 @@ func countLocalFLACs(name string) int {
 	return n
 }
 
-// loadWanted reads data/wanted-sentences.csv into an id->text map. The file is
-// pipe-delimited CSV with a header row.
-func loadWanted() (map[string]string, error) {
+// loadWanted reads data/wanted-sentences.csv into a name->[sentence, ...] map,
+// preserving CSV row order within each name. The file is pipe-delimited with a
+// "Name|Sentence" header. A sentence's position in its name's slice is its
+// implicit ID: index 0 → "001", index 1 → "002", etc.
+func loadWanted() (map[string][]string, error) {
 	rows, err := readPipeCSV(wantedCSV)
 	if err != nil {
 		return nil, err
 	}
-	out := make(map[string]string, len(rows))
+	out := make(map[string][]string)
 	for _, row := range rows {
-		id := strings.TrimSpace(row[0])
-		if id == "" {
+		name := strings.TrimSpace(row[0])
+		if name == "" {
 			continue
 		}
-		if _, dup := out[id]; dup {
-			return nil, fmt.Errorf("%s: duplicate id %q", wantedCSV, id)
-		}
-		out[id] = row[1]
+		out[name] = append(out[name], row[1])
 	}
 	return out, nil
+}
+
+// sentenceID formats a 1-based row index as the zero-padded ID used in
+// assignment JSON and upload filenames.
+func sentenceID(idx int) string {
+	return fmt.Sprintf("%03d", idx+1)
 }
 
 // findWAVs returns every *.wav file under root, sorted for deterministic

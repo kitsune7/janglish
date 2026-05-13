@@ -12,6 +12,8 @@
 import { encodeWav } from "./wav-encoder.js";
 
 const OUT_RATE = 16000;
+const KANJI_RE = /[\u3400-\u4DBF\u4E00-\u9FFF々]/u;
+const KUROMOJI_DICT_PATH = "https://unpkg.com/kuromoji@0.1.2/dict/";
 
 // API base: ?api= override → <meta name="janglish-api"> → same origin.
 const params = new URLSearchParams(location.search);
@@ -50,6 +52,10 @@ let currentBlob = null; // WAV blob for the sentence currently on screen
 let isRecording = false;
 let isUploading = false;
 let recorder = null;
+let kuroshiro = null;
+let kuroshiroInit = null;
+const furiganaCache = new Map(); // sentence text -> escaped HTML with ruby tags
+const furiganaPending = new Map(); // sentence text -> Promise<void>
 
 // --- bootstrap ---
 (async function main() {
@@ -106,7 +112,7 @@ function render() {
   const marker = completed[s.id] ? "✓" : "•";
 
   els.progress.textContent = `Sentence ${idx + 1} of ${total}   (${doneCount}/${total} uploaded)`;
-  els.sentence.innerHTML = `<span class="done-marker ${completed[s.id] ? "ok" : ""}">${marker}</span> ${escapeHtml(s.text)}`;
+  els.sentence.innerHTML = `<span class="done-marker ${completed[s.id] ? "ok" : ""}">${marker}</span> ${renderSentenceText(s.text)}`;
 
   els.prev.disabled = idx === 0;
   els.next.disabled = idx === total - 1;
@@ -288,6 +294,85 @@ function fatal(msg) {
   els.fatal.hidden = false;
   els.app.hidden = true;
   els.greeting.textContent = "";
+}
+
+function renderSentenceText(text) {
+  if (!hasKanji(text)) return escapeHtml(text);
+  const cached = furiganaCache.get(text);
+  if (cached) return cached;
+
+  queueFurigana(text);
+  return escapeHtml(text);
+}
+
+function queueFurigana(text) {
+  if (furiganaPending.has(text)) return;
+
+  const pending = getKuroshiro()
+    .then((converter) => converter.convert(text, {
+      to: "hiragana",
+      mode: "furigana_map",
+      includeKatakana: false,
+    }))
+    .then((result) => {
+      furiganaCache.set(text, renderFuriganaMap(result, text));
+      if (assignment?.sentences?.[idx]?.text === text) render();
+    })
+    .catch((err) => {
+      console.warn("furigana:", err);
+      furiganaCache.set(text, escapeHtml(text));
+    })
+    .finally(() => furiganaPending.delete(text));
+
+  furiganaPending.set(text, pending);
+}
+
+function getKuroshiro() {
+  if (kuroshiro) return Promise.resolve(kuroshiro);
+  if (kuroshiroInit) return kuroshiroInit;
+
+  kuroshiroInit = (async () => {
+    const KuroshiroClass = window.Kuroshiro?.default || window.Kuroshiro;
+    const KuromojiAnalyzerClass = window.KuromojiAnalyzer?.default || window.KuromojiAnalyzer;
+    if (!KuroshiroClass || !KuromojiAnalyzerClass) {
+      throw new Error("Kuroshiro scripts did not load");
+    }
+
+    const converter = new KuroshiroClass();
+    await converter.init(new KuromojiAnalyzerClass({ dictPath: KUROMOJI_DICT_PATH }));
+    kuroshiro = converter;
+    return converter;
+  })();
+
+  return kuroshiroInit;
+}
+
+function renderFuriganaMap(result, originalText) {
+  const text = typeof result?.text === "string" ? result.text : originalText;
+  const ruby = Array.isArray(result?.ruby) ? result.ruby : [];
+  let html = "";
+  let pos = 0;
+
+  for (const span of ruby) {
+    const start = Number.isInteger(span.s) ? span.s : -1;
+    const end = Number.isInteger(span.e) ? span.e : -1;
+    if (start < pos || end <= start || end > text.length || typeof span.rt !== "string") continue;
+
+    html += escapeHtml(text.slice(pos, start));
+    const base = text.slice(start, end);
+    html += hasKanji(base) ? renderRuby(base, span.rt) : escapeHtml(base);
+    pos = end;
+  }
+
+  return html + escapeHtml(text.slice(pos));
+}
+
+function renderRuby(text, reading) {
+  return `<ruby>${escapeHtml(text)}<rp>(</rp><rt>${escapeHtml(reading)}</rt><rp>)</rp></ruby>`;
+}
+
+function hasKanji(text) {
+  return KANJI_RE.test(text);
 }
 
 function escapeHtml(s) {

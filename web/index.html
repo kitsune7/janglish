@@ -10,7 +10,9 @@
       h1 { font-size: 1.25rem; margin-bottom: 0.25rem; }
       #greeting { color: #555; margin-top: 0; }
       #progress { font-family: ui-monospace, monospace; color: #555; margin: 0.5rem 0; }
-      #sentence { font-size: 1.5rem; line-height: 1.4; padding: 1.25rem; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; min-height: 5rem; }
+      #sentence { font-size: 1.5rem; line-height: 1.8; padding: 1.25rem; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; min-height: 5rem; }
+      ruby { ruby-position: over; }
+      rt { font-size: 0.55em; color: #555; }
       .controls { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
       button { font-size: 1rem; padding: 0.6rem 1rem; border-radius: 6px; border: 1px solid #bbb; background: #fff; cursor: pointer; }
       button:disabled { opacity: 0.4; cursor: not-allowed; }
@@ -53,6 +55,8 @@
 
     <div id="fatal" hidden></div>
 
+    <script src="https://unpkg.com/kuroshiro-enhance@2.0.0/dist/kuroshiro.min.js"></script>
+    <script src="https://unpkg.com/kuroshiro-analyzer-kuromoji@1.1.0/dist/kuroshiro-analyzer-kuromoji.min.js"></script>
     <script type="module" src="./app.js"></script>
   </body>
 </html>
