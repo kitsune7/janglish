@@ -12,3 +12,6 @@ gen-token name ttl="168h":
 
 list-progress name="":
     go run ./cmd/contrib list-progress {{name}}
+
+deploy-worker:
+    npm --prefix worker run deploy

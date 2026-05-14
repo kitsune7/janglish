@@ -97,12 +97,12 @@ interface Claims {
   exp: number;
 }
 
-async function verifyToken(tok: string, secret: string): Promise<Claims | null> {
-  if (!tok || !secret) return null;
-  const dot = tok.indexOf(".");
-  if (dot < 0 || dot === tok.length - 1) return null;
-  const payloadB64 = tok.slice(0, dot);
-  const sigB64 = tok.slice(dot + 1);
+async function verifyToken(token: string, secret: string): Promise<Claims | null> {
+  if (!token || !secret) return null;
+  const dot = token.indexOf(".");
+  if (dot < 0 || dot === token.length - 1) return null;
+  const payloadB64 = token.slice(0, dot);
+  const sigB64 = token.slice(dot + 1);
 
   const key = await crypto.subtle.importKey(
     "raw",
@@ -125,7 +125,7 @@ async function verifyToken(tok: string, secret: string): Promise<Claims | null> 
     return null;
   }
   if (typeof claims.name !== "string" || typeof claims.exp !== "number") return null;
-  if (!/^[a-z0-9][a-z0-9-]*$/.test(claims.name)) return null;
+  if (!/^[A-Za-z0-9][A-Za-z0-9-]*$/.test(claims.name)) return null;
   if (claims.exp * 1000 < Date.now()) return null;
   return claims;
 }
