@@ -341,7 +341,7 @@ function renderLocalFurigana(text) {
     const match = FURIGANA_BY_LENGTH.find(([base]) => text.startsWith(base, i));
     if (match) {
       const [base, reading] = match;
-      html += renderRuby(base, reading);
+      html += renderFuriganaEntry(base, reading);
       i += base.length;
       continue;
     }
@@ -355,12 +355,60 @@ function renderLocalFurigana(text) {
   return { html, missingKanji };
 }
 
+function renderFuriganaEntry(text, reading) {
+  const runs = segmentByKanji(text);
+  let readingIndex = 0;
+  let html = "";
+
+  for (let i = 0; i < runs.length; i++) {
+    const run = runs[i];
+    if (!run.isKanji) {
+      html += escapeHtml(run.text);
+      const kanaReading = toHiragana(run.text);
+      if (reading.startsWith(kanaReading, readingIndex)) {
+        readingIndex += kanaReading.length;
+      }
+      continue;
+    }
+
+    const nextKanaRun = runs.slice(i + 1).find((candidate) => !candidate.isKanji);
+    const nextKanaReading = nextKanaRun ? toHiragana(nextKanaRun.text) : "";
+    const nextKanaIndex = nextKanaReading ? reading.indexOf(nextKanaReading, readingIndex) : -1;
+    const runReading = nextKanaIndex >= readingIndex
+      ? reading.slice(readingIndex, nextKanaIndex)
+      : reading.slice(readingIndex);
+
+    html += runReading ? renderRuby(run.text, runReading) : escapeHtml(run.text);
+    readingIndex += runReading.length;
+  }
+
+  return html;
+}
+
+function segmentByKanji(text) {
+  const runs = [];
+  for (const char of text) {
+    const isKanji = hasKanji(char);
+    const last = runs[runs.length - 1];
+    if (last?.isKanji === isKanji) {
+      last.text += char;
+    } else {
+      runs.push({ text: char, isKanji });
+    }
+  }
+  return runs;
+}
+
 function renderRuby(text, reading) {
   return `<ruby>${escapeHtml(text)}<rp>(</rp><rt>${escapeHtml(reading)}</rt><rp>)</rp></ruby>`;
 }
 
 function hasKanji(text) {
   return KANJI_RE.test(text);
+}
+
+function toHiragana(text) {
+  return text.replace(/[\u30A1-\u30FA]/g, (char) => String.fromCharCode(char.charCodeAt(0) - 0x60));
 }
 
 function escapeHtml(s) {
