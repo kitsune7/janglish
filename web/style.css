@@ -1,0 +1,155 @@
+:root {
+  --color-text: #222;
+  --color-muted: #555;
+  --color-surface: #fff;
+  --color-surface-subtle: #fafafa;
+  --color-border: #ddd;
+  --color-button-border: #bbb;
+  --color-primary: #0a7;
+  --color-primary-border: #095;
+  --color-danger: #c33;
+  --color-danger-border: #a22;
+  --color-fatal-background: #fee;
+  --color-fatal-text: #900;
+  --color-fatal-border: #fbb;
+  --color-success-background: #efe;
+  --color-success-text: #060;
+  --color-success-border: #bdb;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 42rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  color: var(--color-text);
+}
+
+h1 {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+#greeting {
+  color: var(--color-muted);
+  margin-top: 0;
+}
+
+#progress {
+  font-family: ui-monospace, monospace;
+  color: var(--color-muted);
+  margin: 0.5rem 0;
+}
+
+#sentence {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  padding: 1.25rem;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: var(--color-surface-subtle);
+  min-height: 5rem;
+}
+
+#furigana-status {
+  margin-top: 0.35rem;
+  font-family: ui-monospace, monospace;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  min-height: 1.2em;
+}
+
+ruby {
+  ruby-position: over;
+}
+
+rt {
+  font-size: 0.55em;
+  color: var(--color-muted);
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--color-button-border);
+  background: var(--color-surface);
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+button.primary {
+  background: var(--color-primary);
+  color: var(--color-surface);
+  border-color: var(--color-primary-border);
+}
+
+button.primary:disabled {
+  background: var(--color-primary);
+}
+
+button.danger {
+  background: var(--color-danger);
+  color: var(--color-surface);
+  border-color: var(--color-danger-border);
+}
+
+#status {
+  margin-top: 1rem;
+  font-family: ui-monospace, monospace;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+  min-height: 1.4em;
+}
+
+.error {
+  color: var(--color-danger);
+}
+
+.ok {
+  color: var(--color-primary);
+}
+
+.loading {
+  color: var(--color-muted);
+}
+
+audio {
+  display: block;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.done-marker {
+  display: inline-block;
+  width: 1em;
+  text-align: center;
+}
+
+#fatal {
+  padding: 1rem;
+  border-radius: 8px;
+  background: var(--color-fatal-background);
+  color: var(--color-fatal-text);
+  border: 1px solid var(--color-fatal-border);
+}
+
+#completed-banner {
+  padding: 1rem;
+  border-radius: 8px;
+  background: var(--color-success-background);
+  color: var(--color-success-text);
+  border: 1px solid var(--color-success-border);
+  margin-top: 1rem;
+}

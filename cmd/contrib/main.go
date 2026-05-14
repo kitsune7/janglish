@@ -243,7 +243,7 @@ func runGenAssignment(args []string) error {
 	name := args[0]
 
 	if !validName(name) {
-		return fmt.Errorf("invalid name %q: must match [a-z0-9][a-z0-9-]*", name)
+		return fmt.Errorf("invalid name %q: must match [a-zA-Z0-9][a-zA-Z0-9-]*", name)
 	}
 
 	wanted, err := loadWanted()
@@ -312,7 +312,7 @@ func runGenAssignment(args []string) error {
 
 // nameRE matches the same shape the Worker enforces on token claims and R2
 // keys: lowercase ASCII alnum plus dashes, not leading with a dash.
-var nameRE = regexp.MustCompile(`^[a-z0-9][a-z0-9-]*$`)
+var nameRE = regexp.MustCompile(`^[a-zA-Z0-9][a-zA-Z0-9-]*$`)
 
 func validName(s string) bool { return nameRE.MatchString(s) }
 
