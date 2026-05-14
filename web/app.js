@@ -9,10 +9,12 @@
 // The audio path mirrors web/wav-encoder.js + web/downsampler-worklet.js
 // from Phase 3a.
 
+import { FURIGANA_ENTRIES } from "./furigana-data.js";
 import { encodeWav } from "./wav-encoder.js";
 
 const OUT_RATE = 16000;
 const KANJI_RE = /[\u3400-\u4DBF\u4E00-\u9FFF々]/u;
+const FURIGANA_BY_LENGTH = [...FURIGANA_ENTRIES].sort((a, b) => b[0].length - a[0].length);
 
 // API base: ?api= override → <meta name="janglish-api"> → same origin.
 const params = new URLSearchParams(location.search);
@@ -53,11 +55,7 @@ let isRecording = false;
 let isUploading = false;
 let recorder = null;
 const furiganaCache = new Map(); // sentence text -> escaped HTML with ruby tags
-const furiganaState = new Map(); // sentence text -> "ready" | "fallback"
-const furiganaPending = new Set(); // sentence text currently queued in the worker
-const furiganaRequests = new Map(); // request id -> sentence text
-let furiganaWorker = null;
-let furiganaRequestId = 0;
+const furiganaState = new Map(); // sentence text -> "ready" | "partial"
 
 // --- bootstrap ---
 (async function main() {
@@ -304,8 +302,10 @@ function renderSentenceText(text) {
   const cached = furiganaCache.get(text);
   if (cached) return cached;
 
-  queueFurigana(text);
-  return escapeHtml(text);
+  const rendered = renderLocalFurigana(text);
+  furiganaCache.set(text, rendered.html);
+  furiganaState.set(text, rendered.missingKanji ? "partial" : "ready");
+  return rendered.html;
 }
 
 function renderFuriganaStatus(text) {
@@ -317,105 +317,42 @@ function renderFuriganaStatus(text) {
   }
 
   elements.furiganaStatus.hidden = false;
-  if (furiganaPending.has(text)) {
-    elements.furiganaStatus.textContent = "Loading furigana...";
-    elements.furiganaStatus.className = "loading";
-    return;
-  }
-
-  if (furiganaState.get(text) === "fallback") {
-    elements.furiganaStatus.textContent = "Furigana unavailable; showing plain text.";
+  if (furiganaState.get(text) === "partial") {
+    elements.furiganaStatus.textContent = "Some furigana missing from the local table.";
     elements.furiganaStatus.className = "error";
     return;
   }
 
   if (furiganaState.get(text) === "ready") {
-    elements.furiganaStatus.textContent = "Furigana ready.";
+    elements.furiganaStatus.textContent = "Furigana loaded from local table.";
     elements.furiganaStatus.className = "ok";
     return;
   }
 
-  elements.furiganaStatus.textContent = "Preparing furigana...";
-  elements.furiganaStatus.className = "loading";
+  elements.furiganaStatus.textContent = "";
+  elements.furiganaStatus.className = "";
 }
 
-function queueFurigana(text) {
-  if (furiganaPending.has(text)) return;
-
-  const worker = getFuriganaWorker();
-  if (!worker) {
-    furiganaCache.set(text, escapeHtml(text));
-    furiganaState.set(text, "fallback");
-    return;
-  }
-
-  const id = ++furiganaRequestId;
-  furiganaPending.add(text);
-  furiganaRequests.set(id, text);
-  worker.postMessage({ id, text });
-}
-
-function getFuriganaWorker() {
-  if (!("Worker" in window)) return null;
-  if (furiganaWorker) return furiganaWorker;
-
-  try {
-    furiganaWorker = new Worker("./furigana-worker.js");
-  } catch (err) {
-    console.warn("furigana worker:", err);
-    return null;
-  }
-  furiganaWorker.addEventListener("message", ({ data }) => {
-    const text = furiganaRequests.get(data?.id);
-    if (!text) return;
-
-    furiganaRequests.delete(data.id);
-    furiganaPending.delete(text);
-    if (data.error) {
-      console.warn("furigana:", data.error);
-      furiganaCache.set(text, escapeHtml(text));
-      furiganaState.set(text, "fallback");
-    } else {
-      furiganaCache.set(text, renderFuriganaMap(data.result, text));
-      furiganaState.set(text, "ready");
-    }
-
-    if (assignment?.sentences?.[index]?.text === text) render();
-  });
-  furiganaWorker.addEventListener("error", (event) => {
-    console.warn("furigana worker:", event.message);
-    furiganaWorker?.terminate();
-    furiganaWorker = null;
-    for (const text of furiganaPending) {
-      furiganaCache.set(text, escapeHtml(text));
-      furiganaState.set(text, "fallback");
-    }
-    furiganaPending.clear();
-    furiganaRequests.clear();
-    render();
-  });
-
-  return furiganaWorker;
-}
-
-function renderFuriganaMap(result, originalText) {
-  const text = typeof result?.text === "string" ? result.text : originalText;
-  const ruby = Array.isArray(result?.ruby) ? result.ruby : [];
+function renderLocalFurigana(text) {
   let html = "";
-  let pos = 0;
+  let missingKanji = false;
 
-  for (const span of ruby) {
-    const start = Number.isInteger(span.s) ? span.s : -1;
-    const end = Number.isInteger(span.e) ? span.e : -1;
-    if (start < pos || end <= start || end > text.length || typeof span.rt !== "string") continue;
+  for (let i = 0; i < text.length;) {
+    const match = FURIGANA_BY_LENGTH.find(([base]) => text.startsWith(base, i));
+    if (match) {
+      const [base, reading] = match;
+      html += renderRuby(base, reading);
+      i += base.length;
+      continue;
+    }
 
-    html += escapeHtml(text.slice(pos, start));
-    const base = text.slice(start, end);
-    html += hasKanji(base) ? renderRuby(base, span.rt) : escapeHtml(base);
-    pos = end;
+    const char = text[i];
+    if (hasKanji(char)) missingKanji = true;
+    html += escapeHtml(char);
+    i += 1;
   }
 
-  return html + escapeHtml(text.slice(pos));
+  return { html, missingKanji };
 }
 
 function renderRuby(text, reading) {
