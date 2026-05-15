@@ -17,6 +17,10 @@
 //	    Prints a signed HMAC token for the contributor. ttl defaults to 168h
 //	    (7 days); accepts any duration Go's time.ParseDuration understands.
 //	    Requires JANGLISH_HMAC_SECRET in env or .env.
+//
+//	contrib add-wanted <name>
+//	    Moves 10 primarily English and 10 primarily Japanese sentences from
+//	    data/mixed-sentences.csv into data/wanted-sentences.csv for <name>.
 package main
 
 import (
@@ -40,6 +44,7 @@ import (
 
 const (
 	wantedCSV       = "data/wanted-sentences.csv"
+	mixedCSV        = "data/mixed-sentences.csv"
 	pairsCSV        = "data/data-pairs.csv"
 	uploadsDir      = "work/uploads/manual"
 	assignmentsDir  = "work/uploads/assignments"
@@ -74,6 +79,11 @@ func main() {
 			fmt.Fprintf(os.Stderr, "gen-token: %v\n", err)
 			os.Exit(1)
 		}
+	case "add-wanted":
+		if err := runAddWanted(os.Args[2:]); err != nil {
+			fmt.Fprintf(os.Stderr, "add-wanted: %v\n", err)
+			os.Exit(1)
+		}
 	case "list-progress":
 		if err := runListProgress(os.Args[2:]); err != nil {
 			fmt.Fprintf(os.Stderr, "list-progress: %v\n", err)
@@ -90,6 +100,7 @@ func usage() {
 	fmt.Fprintln(os.Stderr, "  contrib pull")
 	fmt.Fprintln(os.Stderr, "  contrib gen-assignment <name>")
 	fmt.Fprintln(os.Stderr, "  contrib gen-token <name> [ttl]")
+	fmt.Fprintln(os.Stderr, "  contrib add-wanted <name>")
 	fmt.Fprintln(os.Stderr, "  contrib list-progress [name]")
 }
 
@@ -121,6 +132,69 @@ func runGenToken(args []string) error {
 		return err
 	}
 	fmt.Println(tok)
+	return nil
+}
+
+// runAddWanted moves 20 rows out of the mixed sentence pool into the wanted
+// sentence list for one contributor. It requires the full 10 EN-base + 10
+// JP-base set before writing anything, so a failed run leaves both CSVs alone.
+func runAddWanted(args []string) error {
+	if len(args) != 1 {
+		return errors.New("expected: <name>")
+	}
+	name := args[0]
+	if !validName(name) {
+		return fmt.Errorf("invalid name %q: must match [A-Za-z0-9][A-Za-z0-9-]*", name)
+	}
+
+	mixedRows, err := readPipeCSV(mixedCSV)
+	if err != nil {
+		return err
+	}
+
+	var selected []int
+	enNeeded, jpNeeded := 10, 10
+	for i, row := range mixedRows {
+		if len(row) < 1 {
+			continue
+		}
+		sentence := row[0]
+		switch primaryLanguage(sentence) {
+		case "en":
+			if enNeeded > 0 {
+				selected = append(selected, i)
+				enNeeded--
+			}
+		case "jp":
+			if jpNeeded > 0 {
+				selected = append(selected, i)
+				jpNeeded--
+			}
+		}
+		if enNeeded == 0 && jpNeeded == 0 {
+			break
+		}
+	}
+
+	if enNeeded > 0 || jpNeeded > 0 {
+		return fmt.Errorf("not enough mixed sentences in %s: need %d more primarily English and %d more primarily Japanese", mixedCSV, enNeeded, jpNeeded)
+	}
+
+	selectedSet := make(map[int]struct{}, len(selected))
+	wantedRows := make([][]string, 0, len(selected))
+	for _, idx := range selected {
+		selectedSet[idx] = struct{}{}
+		wantedRows = append(wantedRows, []string{name, mixedRows[idx][0]})
+	}
+
+	if err := appendWanted(wantedRows); err != nil {
+		return err
+	}
+	if err := rewriteMixedWithout(mixedRows, selectedSet); err != nil {
+		return err
+	}
+
+	fmt.Printf("moved %d sentence(s) from %s to %s for %s\n", len(selected), mixedCSV, wantedCSV, name)
 	return nil
 }
 
@@ -524,6 +598,97 @@ func appendPairs(paths, texts []string) (int, error) {
 		return 0, err
 	}
 	return len(toAdd), nil
+}
+
+func appendWanted(rows [][]string) error {
+	needsHeader := false
+	if info, err := os.Stat(wantedCSV); err != nil {
+		if !errors.Is(err, fs.ErrNotExist) {
+			return err
+		}
+		needsHeader = true
+	} else if info.Size() == 0 {
+		needsHeader = true
+	}
+
+	f, err := os.OpenFile(wantedCSV, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0o644)
+	if err != nil {
+		return err
+	}
+	defer f.Close()
+
+	w := csv.NewWriter(f)
+	w.Comma = '|'
+	if needsHeader {
+		if err := w.Write([]string{"Name", "Sentence"}); err != nil {
+			return err
+		}
+	}
+	if err := w.WriteAll(rows); err != nil {
+		return err
+	}
+	w.Flush()
+	return w.Error()
+}
+
+func rewriteMixedWithout(rows [][]string, remove map[int]struct{}) error {
+	tmp := mixedCSV + ".tmp"
+	f, err := os.OpenFile(tmp, os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0o644)
+	if err != nil {
+		return err
+	}
+
+	w := csv.NewWriter(f)
+	w.Comma = '|'
+	if err := w.Write([]string{"Sentence", "Gloss"}); err != nil {
+		f.Close()
+		return err
+	}
+	for i, row := range rows {
+		if _, ok := remove[i]; ok {
+			continue
+		}
+		if err := w.Write(row); err != nil {
+			f.Close()
+			return err
+		}
+	}
+	w.Flush()
+	if err := w.Error(); err != nil {
+		f.Close()
+		return err
+	}
+	if err := f.Close(); err != nil {
+		return err
+	}
+	return os.Rename(tmp, mixedCSV)
+}
+
+func primaryLanguage(sentence string) string {
+	jpCount := 0
+	latinCount := 0
+	for _, c := range sentence {
+		if isJapaneseRune(c) {
+			jpCount++
+			continue
+		}
+		if c <= 127 && ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z')) {
+			latinCount++
+		}
+	}
+	if jpCount > latinCount {
+		return "jp"
+	}
+	if latinCount > jpCount {
+		return "en"
+	}
+	return ""
+}
+
+func isJapaneseRune(c rune) bool {
+	return ('\u3040' <= c && c <= '\u30ff') ||
+		('\u4e00' <= c && c <= '\u9fff') ||
+		('\uff66' <= c && c <= '\uff9f')
 }
 
 // readPipeCSV reads a pipe-delimited CSV and returns the data rows (minus
