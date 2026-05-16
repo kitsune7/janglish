@@ -1,5 +1,0 @@
-package eval
-
-func main() {
-	
-}

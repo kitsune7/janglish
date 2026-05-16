@@ -16,5 +16,8 @@ add-wanted name:
 list-progress name="":
     go run ./cmd/contrib list-progress {{name}}
 
+eval *args:
+    uv run python cmd/eval/main.py {{args}}
+
 deploy-worker:
     npm --prefix worker run deploy
