@@ -2,16 +2,23 @@ from __future__ import annotations
 
 import argparse
 import csv
+import re
 import sys
 from dataclasses import dataclass
 from pathlib import Path
 
+from fugashi import Tagger
 import jiwer
 from faster_whisper import WhisperModel
+from pykakasi import kakasi
 
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_DATA_PAIRS = REPO_ROOT / "data" / "data-pairs.csv"
+JAPANESE_TEXT_PATTERN = re.compile(r"[\u3040-\u30ff\u3400-\u9fff]")
+ROMAJI_TOKEN_PATTERN = re.compile(r"[a-z0-9']+")
+JAPANESE_TAGGER = Tagger()
+KAKASI_CONVERTER = kakasi()
 
 
 @dataclass(frozen=True)
@@ -24,6 +31,8 @@ class SentenceData:
 class EvalResult:
     sentence: SentenceData
     transcription: str
+    normalized_sentence: str
+    normalized_transcription: str
     word_error_rate: float
     character_error_rate: float
 
@@ -124,28 +133,94 @@ def transcribe(model: WhisperModel, audio_path: Path, beam_size: int) -> str:
 
 
 def evaluate(sentence: SentenceData, transcription: str) -> EvalResult:
+    use_japanese_normalization = has_japanese_text(sentence.text) or has_japanese_text(
+        transcription
+    )
+    normalized_sentence = normalize_for_error_rates(
+        sentence.text,
+        use_japanese_normalization,
+    )
+    normalized_transcription = normalize_for_error_rates(
+        transcription,
+        use_japanese_normalization,
+    )
+
     return EvalResult(
         sentence=sentence,
         transcription=transcription,
-        word_error_rate=jiwer.wer(sentence.text, transcription),
-        character_error_rate=jiwer.cer(sentence.text, transcription),
+        normalized_sentence=normalized_sentence,
+        normalized_transcription=normalized_transcription,
+        word_error_rate=jiwer.wer(normalized_sentence, normalized_transcription),
+        character_error_rate=jiwer.cer(normalized_sentence, normalized_transcription),
     )
+
+
+def has_japanese_text(text: str) -> bool:
+    return bool(JAPANESE_TEXT_PATTERN.search(text))
+
+
+def normalize_for_error_rates(
+    text: str,
+    use_japanese_normalization: bool | None = None,
+) -> str:
+    if use_japanese_normalization is None:
+        use_japanese_normalization = has_japanese_text(text)
+
+    if not use_japanese_normalization:
+        return " ".join(text.split())
+
+    if not has_japanese_text(text):
+        return " ".join(ROMAJI_TOKEN_PATTERN.findall(text.lower()))
+
+    tokens: list[str] = []
+    for token in JAPANESE_TAGGER(text):
+        romaji = "".join(
+            item["hepburn"] for item in KAKASI_CONVERTER.convert(token.surface)
+        )
+        for romaji_part in romaji.split():
+            append_romaji_tokens(tokens, romaji_part)
+
+    return " ".join(tokens)
+
+
+def append_romaji_tokens(tokens: list[str], text: str) -> None:
+    token = text.lower()
+    if token == "'" and tokens:
+        tokens[-1] += "'"
+        return
+
+    matches = ROMAJI_TOKEN_PATTERN.findall(token)
+    if not matches:
+        return
+
+    if tokens and tokens[-1].endswith("'"):
+        tokens[-1] += matches[0]
+        tokens.extend(matches[1:])
+        return
+
+    tokens.extend(matches)
 
 
 def print_results(results: list[EvalResult]) -> None:
     for result in results:
         print(f"Audio: {result.sentence.audio_path.relative_to(REPO_ROOT)}")
-        print(f"Sentence: {result.sentence.text}")
-        print(f"Transcription: {result.transcription}")
-        print(f"Word Error Rate: {result.word_error_rate:.6f}")
-        print(f"Character Error Rate: {result.character_error_rate:.6f}")
+        print(f"Sentence:\t{result.sentence.text}")
+        print(f"Transcription:\t{result.transcription}")
+        if (
+            result.normalized_sentence != result.sentence.text
+            or result.normalized_transcription != result.transcription
+        ):
+            print(f"Normalized Sentence:\t\t{result.normalized_sentence}")
+            print(f"Normalized Transcription:\t{result.normalized_transcription}")
+        print(f"Word Error Rate:\t{result.word_error_rate:.6f}")
+        print(f"Character Error Rate:\t{result.character_error_rate:.6f}")
         print("--------------------------------")
 
-    references = [result.sentence.text for result in results]
-    hypotheses = [result.transcription for result in results]
-    print(f"Evaluated files: {len(results)}")
-    print(f"Aggregate Word Error Rate: {jiwer.wer(references, hypotheses):.6f}")
-    print(f"Aggregate Character Error Rate: {jiwer.cer(references, hypotheses):.6f}")
+    references = [result.normalized_sentence for result in results]
+    hypotheses = [result.normalized_transcription for result in results]
+    print(f"Evaluated files:\t\t{len(results)}")
+    print(f"Aggregate Word Error Rate:\t{jiwer.wer(references, hypotheses):.6f}")
+    print(f"Aggregate Character Error Rate:\t{jiwer.cer(references, hypotheses):.6f}")
 
 
 if __name__ == "__main__":
