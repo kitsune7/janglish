@@ -19,5 +19,12 @@ list-progress name="":
 eval *args:
     uv run python cmd/eval/main.py {{args}}
 
+train:
+    uv run python cmd/train/train_loop.py
+
 deploy-worker:
     npm --prefix worker run deploy
+
+generate-audio csv:
+    uv run python cmd/audio_gen/generate_audio.py {{csv}} \
+    --references data/speaker-clips/jp --out-root out --device mps

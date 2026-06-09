@@ -50,10 +50,7 @@ def main() -> int:
         compute_type=args.compute_type,
     )
 
-    results = [
-        evaluate(sentence, transcribe(model, sentence.audio_path, args.beam_size))
-        for sentence in sentence_data
-    ]
+    results = [evaluate(sentence, transcribe(model, sentence.audio_path, args.beam_size)) for sentence in sentence_data]
 
     print_results(results)
     return 0
@@ -133,9 +130,7 @@ def transcribe(model: WhisperModel, audio_path: Path, beam_size: int) -> str:
 
 
 def evaluate(sentence: SentenceData, transcription: str) -> EvalResult:
-    use_japanese_normalization = has_japanese_text(sentence.text) or has_japanese_text(
-        transcription
-    )
+    use_japanese_normalization = has_japanese_text(sentence.text) or has_japanese_text(transcription)
     normalized_sentence = normalize_for_error_rates(
         sentence.text,
         use_japanese_normalization,
@@ -174,9 +169,7 @@ def normalize_for_error_rates(
 
     tokens: list[str] = []
     for token in JAPANESE_TAGGER(text):
-        romaji = "".join(
-            item["hepburn"] for item in KAKASI_CONVERTER.convert(token.surface)
-        )
+        romaji = "".join(item["hepburn"] for item in KAKASI_CONVERTER.convert(token.surface))
         for romaji_part in romaji.split():
             append_romaji_tokens(tokens, romaji_part)
 

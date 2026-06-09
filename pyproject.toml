@@ -3,9 +3,28 @@ name = "janglish"
 version = "0.1.0"
 requires-python = ">=3.11"
 dependencies = [
-    "faster-whisper",
-    "fugashi>=1.5.2",
-    "jiwer",
-    "pykakasi>=2.3.0",
-    "unidic-lite>=1.0.8",
+  "accelerate>=1.1.0",
+  "coqui-tts>=0.27.5",
+  "dotenv>=0.9.9",
+  "faster-whisper",
+  "fugashi>=1.5.2",
+  "jiwer",
+  "pykakasi>=2.3.0",
+  "scikit-learn>=1.8.0",
+  "scipy>=1.17.1",
+  "soundfile>=0.13.1",
+  "torch>=2.12.0",
+  "transformers>=5.9.0",
+  "unidic-lite>=1.0.8",
 ]
+
+[dependency-groups]
+dev = [
+  "ruff>=0.15.11",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W"]

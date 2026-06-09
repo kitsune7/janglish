@@ -74,21 +74,95 @@ THEMES = [
 
 BANNED_WORDS = [
     # Shared phonology / loanwords pronounced the same
-    "sushi", "sashimi", "tempura", "ramen", "udon", "soba", "miso", "wasabi",
-    "tofu", "mochi", "matcha", "sake", "bento", "onigiri", "edamame", "teriyaki",
-    "anime", "manga", "karaoke", "karate", "judo", "sumo", "ninja", "samurai",
-    "shogun", "geisha", "kimono", "futon", "tsunami", "typhoon", "sayonara",
-    "sensei", "senpai", "kohai", "konnichiwa", "arigatou", "arigato",
-    "pikachu", "pokemon", "nintendo", "tamagotchi", "emoji", "tycoon",
-    "tofu", "yakuza", "zen", "banzai", "bonsai", "origami", "haiku",
-    "konbini", "izakaya", "onsen", "ryokan", "shinkansen", "tatami",
-    "katana", "wagyu", "hibachi", "teppanyaki", "sudoku", "daikon",
-    "nori", "shiitake", "panko", "yuzu", "kombu", "dashi", "umami",
-    "okonomiyaki", "takoyaki", "mochi",
+    "sushi",
+    "sashimi",
+    "tempura",
+    "ramen",
+    "udon",
+    "soba",
+    "miso",
+    "wasabi",
+    "tofu",
+    "mochi",
+    "matcha",
+    "sake",
+    "bento",
+    "onigiri",
+    "edamame",
+    "teriyaki",
+    "anime",
+    "manga",
+    "karaoke",
+    "karate",
+    "judo",
+    "sumo",
+    "ninja",
+    "samurai",
+    "shogun",
+    "geisha",
+    "kimono",
+    "futon",
+    "tsunami",
+    "typhoon",
+    "sayonara",
+    "sensei",
+    "senpai",
+    "kohai",
+    "konnichiwa",
+    "arigatou",
+    "arigato",
+    "pikachu",
+    "pokemon",
+    "nintendo",
+    "tamagotchi",
+    "emoji",
+    "tycoon",
+    "tofu",
+    "yakuza",
+    "zen",
+    "banzai",
+    "bonsai",
+    "origami",
+    "haiku",
+    "konbini",
+    "izakaya",
+    "onsen",
+    "ryokan",
+    "shinkansen",
+    "tatami",
+    "katana",
+    "wagyu",
+    "hibachi",
+    "teppanyaki",
+    "sudoku",
+    "daikon",
+    "nori",
+    "shiitake",
+    "panko",
+    "yuzu",
+    "kombu",
+    "dashi",
+    "umami",
+    "okonomiyaki",
+    "takoyaki",
+    "mochi",
     # Brand/proper nouns that are identical in both
-    "toyota", "honda", "sony", "nintendo", "canon", "nissan", "mazda",
-    "fuji", "tokyo", "osaka", "kyoto", "yokohama", "sapporo", "nagoya",
-    "hokkaido", "okinawa",
+    "toyota",
+    "honda",
+    "sony",
+    "nintendo",
+    "canon",
+    "nissan",
+    "mazda",
+    "fuji",
+    "tokyo",
+    "osaka",
+    "kyoto",
+    "yokohama",
+    "sapporo",
+    "nagoya",
+    "hokkaido",
+    "okinawa",
 ]
 
 SYSTEM_PROMPT = """You generate bilingual Japanese/English mixed ("janglish") sentences for language learners.
@@ -172,9 +246,7 @@ def call_model(client, direction: str, theme: str, n: int, seed_salt: str) -> li
         accept="application/json",
     )
     payload = json.loads(resp["body"].read())
-    text = "".join(
-        block.get("text", "") for block in payload.get("content", []) if block.get("type") == "text"
-    )
+    text = "".join(block.get("text", "") for block in payload.get("content", []) if block.get("type") == "text")
     return [ln.strip() for ln in text.splitlines() if ln.strip()]
 
 
@@ -204,10 +276,7 @@ def has_banned(sent: str) -> bool:
 
 
 def has_japanese(s: str) -> bool:
-    return any(
-        "぀" <= c <= "ヿ" or "一" <= c <= "鿿" or "ｦ" <= c <= "ﾟ"
-        for c in s
-    )
+    return any("぀" <= c <= "ヿ" or "一" <= c <= "鿿" or "ｦ" <= c <= "ﾟ" for c in s)
 
 
 def has_latin_word(s: str) -> bool:
@@ -215,10 +284,29 @@ def has_latin_word(s: str) -> bool:
 
 
 VERB_ENDINGS = (
-    "した", "しました", "している", "していた", "された", "されている",
-    "られた", "られる", "っている", "ってきた", "ってくる",
-    "になった", "になる", "になって", "だった", "ている", "ていた",
-    "えた", "いた", "った", "って", "せる", "せた",
+    "した",
+    "しました",
+    "している",
+    "していた",
+    "された",
+    "されている",
+    "られた",
+    "られる",
+    "っている",
+    "ってきた",
+    "ってくる",
+    "になった",
+    "になる",
+    "になって",
+    "だった",
+    "ている",
+    "ていた",
+    "えた",
+    "いた",
+    "った",
+    "って",
+    "せる",
+    "せた",
 )
 
 
@@ -239,11 +327,7 @@ def validate(direction: str, sent: str) -> bool:
         return False
     if has_banned(sent):
         return False
-    jp_count = sum(
-        1
-        for c in sent
-        if "぀" <= c <= "ヿ" or "一" <= c <= "鿿"
-    )
+    jp_count = sum(1 for c in sent if "぀" <= c <= "ヿ" or "一" <= c <= "鿿")
     latin_count = sum(1 for c in sent if c.isascii() and c.isalpha())
     if direction == "JP_BASE" and jp_count <= latin_count:
         return False
@@ -287,11 +371,7 @@ def load_existing(path: Path) -> tuple[int, int, Dedup]:
             sent, _ = parsed
             dedup.add(sent)
             # Rough classification by script dominance
-            jp_c = sum(
-                1
-                for c in sent
-                if "぀" <= c <= "ヿ" or "一" <= c <= "鿿"
-            )
+            jp_c = sum(1 for c in sent if "぀" <= c <= "ヿ" or "一" <= c <= "鿿")
             la_c = sum(1 for c in sent if c.isascii() and c.isalpha())
             if jp_c > la_c:
                 jp_count += 1
@@ -311,8 +391,7 @@ def run(target_jp: int, target_en: int, batch_size: int, workers: int):
     need_jp = max(0, target_jp - have_jp)
     need_en = max(0, target_en - have_en)
     print(
-        f"Have: JP={have_jp} EN={have_en} | Need: JP={need_jp} EN={need_en} "
-        f"| Total target: {target_jp + target_en}",
+        f"Have: JP={have_jp} EN={have_en} | Need: JP={need_jp} EN={need_en} | Total target: {target_jp + target_en}",
         flush=True,
     )
     if need_jp == 0 and need_en == 0:
@@ -329,7 +408,7 @@ def run(target_jp: int, target_en: int, batch_size: int, workers: int):
         i = 0
         while remaining > 0:
             theme = theme_cycle[i % len(theme_cycle)]
-            salt = f"{direction}-{random.randint(10**9, 10**10-1)}"
+            salt = f"{direction}-{random.randint(10**9, 10**10 - 1)}"
             jobs.append((direction, theme, salt))
             remaining -= batch_size
             i += 1
@@ -394,7 +473,7 @@ def run(target_jp: int, target_en: int, batch_size: int, workers: int):
         print(
             f"[{direction}/{theme[:24]:<24}] +{len(accepted):>2} "
             f"| JP={cur_jp} EN={cur_en} ({pct:.1f}%) "
-            f"| {rate:.1f}/s ETA {eta/60:.1f}m",
+            f"| {rate:.1f}/s ETA {eta / 60:.1f}m",
             flush=True,
         )
         return len(accepted)
@@ -417,18 +496,22 @@ def run(target_jp: int, target_en: int, batch_size: int, workers: int):
                 extras: list[tuple[str, str, str]] = []
                 if short_jp > 0:
                     for _ in range(max(1, (short_jp // batch_size) + 2)):
-                        extras.append((
-                            "JP_BASE",
-                            random.choice(THEMES),
-                            f"JP_BASE-top{topup_round}-{random.randint(10**9, 10**10-1)}",
-                        ))
+                        extras.append(
+                            (
+                                "JP_BASE",
+                                random.choice(THEMES),
+                                f"JP_BASE-top{topup_round}-{random.randint(10**9, 10**10 - 1)}",
+                            )
+                        )
                 if short_en > 0:
                     for _ in range(max(1, (short_en // batch_size) + 2)):
-                        extras.append((
-                            "EN_BASE",
-                            random.choice(THEMES),
-                            f"EN_BASE-top{topup_round}-{random.randint(10**9, 10**10-1)}",
-                        ))
+                        extras.append(
+                            (
+                                "EN_BASE",
+                                random.choice(THEMES),
+                                f"EN_BASE-top{topup_round}-{random.randint(10**9, 10**10 - 1)}",
+                            )
+                        )
                 print(
                     f"[top-up round {topup_round}] short JP={short_jp} EN={short_en}, "
                     f"queueing {len(extras)} more batches",
