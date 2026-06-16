@@ -2,19 +2,40 @@
   "audio_path": "synthetic/jp/jp7.flac",
   "sentence": "毎日日本語を勉強しています。",
   "sample_rate": 16000,
-  "duration_ms": 2036,
+  "duration_ms": 2057,
   "reference_speaker": "jp/speaker_030_78b8d1b530d5.mp3",
+  "seed": 64,
+  "tts_language": "ja",
+  "alignment": "forced",
   "spans": [
     {
       "lang": "ja",
       "text": "毎日日本語を勉強しています。",
       "start_sample": 0,
-      "end_sample": 32570,
+      "end_sample": 32909,
       "start_ms": 0,
-      "end_ms": 2036
+      "end_ms": 2057
     }
   ],
+  "renders": {
+    "ja": {
+      "text": "毎日日本語を勉強しています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2057,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎日日本語を勉強しています。",
+          "start_sample": 0,
+          "end_sample": 32909,
+          "start_ms": 0,
+          "end_ms": 2057
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 102,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 103,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

@@ -1,34 +1,105 @@
 {
+  "audio_path": "manual/Johnny/017.flac",
   "sentence": "髪をcurlyにしたいので、パーマをかけようと思っています。",
   "sample_rate": 16000,
-  "duration_ms": 5797,
+  "duration_ms": 4131,
+  "reference_speaker": "en/speaker_064_1645aca50c6f.mp3",
+  "seed": 174,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "ja",
       "text": "髪を",
-      "start_ms": 0,
-      "end_ms": 640,
       "start_sample": 0,
-      "end_sample": 10240
+      "end_sample": 6075,
+      "start_ms": 0,
+      "end_ms": 380
     },
     {
       "lang": "en",
       "text": "curly",
-      "start_ms": 640,
-      "end_ms": 1040,
-      "start_sample": 10240,
-      "end_sample": 16640
+      "start_sample": 6075,
+      "end_sample": 12721,
+      "start_ms": 380,
+      "end_ms": 795
     },
     {
       "lang": "ja",
       "text": "にしたいので、パーマをかけようと思っています。",
-      "start_ms": 1040,
-      "end_ms": 5797,
-      "start_sample": 16640,
-      "end_sample": 92751
+      "start_sample": 12721,
+      "end_sample": 66100,
+      "start_ms": 795,
+      "end_ms": 4131
     }
   ],
+  "renders": {
+    "en": {
+      "text": "kami wo curly ni shi tai no de paama wo kakeyou to omotsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8588,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "髪を",
+          "start_sample": 0,
+          "end_sample": 9448,
+          "start_ms": 0,
+          "end_ms": 590
+        },
+        {
+          "lang": "en",
+          "text": "curly",
+          "start_sample": 9448,
+          "end_sample": 16494,
+          "start_ms": 590,
+          "end_ms": 1031
+        },
+        {
+          "lang": "ja",
+          "text": "にしたいので、パーマをかけようと思っています。",
+          "start_sample": 16494,
+          "end_sample": 137404,
+          "start_ms": 1031,
+          "end_ms": 8588
+        }
+      ]
+    },
+    "ja": {
+      "text": "髪をcurlyにしたいので、パーマをかけようと思っています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4183,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "髪を",
+          "start_sample": 0,
+          "end_sample": 6275,
+          "start_ms": 0,
+          "end_ms": 392
+        },
+        {
+          "lang": "en",
+          "text": "curly",
+          "start_sample": 6275,
+          "end_sample": 13355,
+          "start_ms": 392,
+          "end_ms": 835
+        },
+        {
+          "lang": "ja",
+          "text": "にしたいので、パーマをかけようと思っています。",
+          "start_sample": 13355,
+          "end_sample": 66934,
+          "start_ms": 835,
+          "end_ms": 4183
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 290,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 207,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

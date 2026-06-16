@@ -1,34 +1,105 @@
 {
+  "audio_path": "manual/Ryan/016.flac",
   "sentence": "美容院でhighlightsを入れてもらったら、印象が変わりました。",
   "sample_rate": 16000,
-  "duration_ms": 7407,
+  "duration_ms": 4242,
+  "reference_speaker": "jp/speaker_093_07cc15abd510.mp3",
+  "seed": 213,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "ja",
       "text": "美容院で",
-      "start_ms": 0,
-      "end_ms": 2000,
       "start_sample": 0,
-      "end_sample": 32000
+      "end_sample": 13606,
+      "start_ms": 0,
+      "end_ms": 850
     },
     {
       "lang": "en",
       "text": "highlights",
-      "start_ms": 2000,
-      "end_ms": 2680,
-      "start_sample": 32000,
-      "end_sample": 42880
+      "start_sample": 13606,
+      "end_sample": 32918,
+      "start_ms": 850,
+      "end_ms": 2057
     },
     {
       "lang": "ja",
       "text": "を入れてもらったら、印象が変わりました。",
-      "start_ms": 2680,
-      "end_ms": 7407,
-      "start_sample": 42880,
-      "end_sample": 118508
+      "start_sample": 32918,
+      "end_sample": 67875,
+      "start_ms": 2057,
+      "end_ms": 4242
     }
   ],
+  "renders": {
+    "en": {
+      "text": "biyou in de highlights wo ire te moratsu tara inshou ga kawari mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6530,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "美容院で",
+          "start_sample": 0,
+          "end_sample": 13300,
+          "start_ms": 0,
+          "end_ms": 831
+        },
+        {
+          "lang": "en",
+          "text": "highlights",
+          "start_sample": 13300,
+          "end_sample": 33012,
+          "start_ms": 831,
+          "end_ms": 2063
+        },
+        {
+          "lang": "ja",
+          "text": "を入れてもらったら、印象が変わりました。",
+          "start_sample": 33012,
+          "end_sample": 104484,
+          "start_ms": 2063,
+          "end_ms": 6530
+        }
+      ]
+    },
+    "ja": {
+      "text": "美容院でhighlightsを入れてもらったら、印象が変わりました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3813,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "美容院で",
+          "start_sample": 0,
+          "end_sample": 13806,
+          "start_ms": 0,
+          "end_ms": 863
+        },
+        {
+          "lang": "en",
+          "text": "highlights",
+          "start_sample": 13806,
+          "end_sample": 25848,
+          "start_ms": 863,
+          "end_ms": 1616
+        },
+        {
+          "lang": "ja",
+          "text": "を入れてもらったら、印象が変わりました。",
+          "start_sample": 25848,
+          "end_sample": 61005,
+          "start_ms": 1616,
+          "end_ms": 3813
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 370,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 213,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

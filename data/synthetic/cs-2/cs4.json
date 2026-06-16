@@ -2,51 +2,152 @@
   "audio_path": "synthetic/cs-2/cs4.flac",
   "sentence": "I study 漢字 every morning and 文法 every evening.",
   "sample_rate": 16000,
-  "duration_ms": 6325,
+  "duration_ms": 2741,
   "reference_speaker": "jp/speaker_081_eaf9ef4ec81f.mp3",
+  "seed": 111,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "I study",
       "start_sample": 0,
-      "end_sample": 16064,
+      "end_sample": 6224,
       "start_ms": 0,
-      "end_ms": 1004
+      "end_ms": 389
     },
     {
       "lang": "ja",
       "text": "漢字",
-      "start_sample": 16064,
-      "end_sample": 39720,
-      "start_ms": 1004,
-      "end_ms": 2482
+      "start_sample": 6224,
+      "end_sample": 11763,
+      "start_ms": 389,
+      "end_ms": 735
     },
     {
       "lang": "en",
       "text": "every morning and",
-      "start_sample": 39720,
-      "end_sample": 67629,
-      "start_ms": 2482,
-      "end_ms": 4227
+      "start_sample": 11763,
+      "end_sample": 23577,
+      "start_ms": 735,
+      "end_ms": 1474
     },
     {
       "lang": "ja",
       "text": "文法",
-      "start_sample": 67629,
-      "end_sample": 86103,
-      "start_ms": 4227,
-      "end_ms": 5381
+      "start_sample": 23577,
+      "end_sample": 31202,
+      "start_ms": 1474,
+      "end_ms": 1950
     },
     {
       "lang": "en",
       "text": "every evening.",
-      "start_sample": 86103,
-      "end_sample": 101205,
-      "start_ms": 5381,
-      "end_ms": 6325
+      "start_sample": 31202,
+      "end_sample": 43855,
+      "start_ms": 1950,
+      "end_ms": 2741
     }
   ],
+  "renders": {
+    "en": {
+      "text": "I study kanji every morning and bunpou every evening.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2752,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I study",
+          "start_sample": 0,
+          "end_sample": 6424,
+          "start_ms": 0,
+          "end_ms": 402
+        },
+        {
+          "lang": "ja",
+          "text": "漢字",
+          "start_sample": 6424,
+          "end_sample": 12692,
+          "start_ms": 402,
+          "end_ms": 793
+        },
+        {
+          "lang": "en",
+          "text": "every morning and",
+          "start_sample": 12692,
+          "end_sample": 24906,
+          "start_ms": 793,
+          "end_ms": 1557
+        },
+        {
+          "lang": "ja",
+          "text": "文法",
+          "start_sample": 24906,
+          "end_sample": 31173,
+          "start_ms": 1557,
+          "end_ms": 1948
+        },
+        {
+          "lang": "en",
+          "text": "every evening.",
+          "start_sample": 31173,
+          "end_sample": 44026,
+          "start_ms": 1948,
+          "end_ms": 2752
+        }
+      ]
+    },
+    "ja": {
+      "text": "I study 漢字 every morning and 文法 every evening.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3511,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I study",
+          "start_sample": 0,
+          "end_sample": 7704,
+          "start_ms": 0,
+          "end_ms": 482
+        },
+        {
+          "lang": "ja",
+          "text": "漢字",
+          "start_sample": 7704,
+          "end_sample": 13643,
+          "start_ms": 482,
+          "end_ms": 853
+        },
+        {
+          "lang": "en",
+          "text": "every morning and",
+          "start_sample": 13643,
+          "end_sample": 33227,
+          "start_ms": 853,
+          "end_ms": 2077
+        },
+        {
+          "lang": "ja",
+          "text": "文法",
+          "start_sample": 33227,
+          "end_sample": 41252,
+          "start_ms": 2077,
+          "end_ms": 2578
+        },
+        {
+          "lang": "en",
+          "text": "every evening.",
+          "start_sample": 41252,
+          "end_sample": 56178,
+          "start_ms": 2578,
+          "end_ms": 3511
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 317,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 138,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

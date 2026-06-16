@@ -2,51 +2,152 @@
   "audio_path": "synthetic/cs-3/cs4.flac",
   "sentence": "今日 is my birthday and 明日 is my brother's 誕生日.",
   "sample_rate": 16000,
-  "duration_ms": 7412,
+  "duration_ms": 4077,
   "reference_speaker": "jp/speaker_080_c886ae0e1a09.mp3",
+  "seed": 132,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "ja",
       "text": "今日",
       "start_sample": 0,
-      "end_sample": 22579,
+      "end_sample": 3484,
       "start_ms": 0,
-      "end_ms": 1411
+      "end_ms": 218
     },
     {
       "lang": "en",
       "text": "is my birthday and",
-      "start_sample": 22579,
-      "end_sample": 54768,
-      "start_ms": 1411,
-      "end_ms": 3423
+      "start_sample": 3484,
+      "end_sample": 30651,
+      "start_ms": 218,
+      "end_ms": 1916
     },
     {
       "lang": "ja",
       "text": "明日",
-      "start_sample": 54768,
-      "end_sample": 77006,
-      "start_ms": 3423,
-      "end_ms": 4813
+      "start_sample": 30651,
+      "end_sample": 37782,
+      "start_ms": 1916,
+      "end_ms": 2361
     },
     {
       "lang": "en",
       "text": "is my brother's",
-      "start_sample": 77006,
-      "end_sample": 108721,
-      "start_ms": 4813,
-      "end_ms": 6795
+      "start_sample": 37782,
+      "end_sample": 54532,
+      "start_ms": 2361,
+      "end_ms": 3408
     },
     {
       "lang": "ja",
       "text": "誕生日.",
-      "start_sample": 108721,
-      "end_sample": 118587,
-      "start_ms": 6795,
-      "end_ms": 7412
+      "start_sample": 54532,
+      "end_sample": 65225,
+      "start_ms": 3408,
+      "end_ms": 4077
     }
   ],
+  "renders": {
+    "en": {
+      "text": "kyou is my birthday and ashita is my brother's tanjou nichi",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4908,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日",
+          "start_sample": 0,
+          "end_sample": 8013,
+          "start_ms": 0,
+          "end_ms": 501
+        },
+        {
+          "lang": "en",
+          "text": "is my birthday and",
+          "start_sample": 8013,
+          "end_sample": 35580,
+          "start_ms": 501,
+          "end_ms": 2224
+        },
+        {
+          "lang": "ja",
+          "text": "明日",
+          "start_sample": 35580,
+          "end_sample": 41991,
+          "start_ms": 2224,
+          "end_ms": 2624
+        },
+        {
+          "lang": "en",
+          "text": "is my brother's",
+          "start_sample": 41991,
+          "end_sample": 59141,
+          "start_ms": 2624,
+          "end_ms": 3696
+        },
+        {
+          "lang": "ja",
+          "text": "誕生日.",
+          "start_sample": 59141,
+          "end_sample": 78533,
+          "start_ms": 3696,
+          "end_ms": 4908
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日 is my birthday and 明日 is my brother's 誕生日.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3985,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日",
+          "start_sample": 0,
+          "end_sample": 3684,
+          "start_ms": 0,
+          "end_ms": 230
+        },
+        {
+          "lang": "en",
+          "text": "is my birthday and",
+          "start_sample": 3684,
+          "end_sample": 29477,
+          "start_ms": 230,
+          "end_ms": 1842
+        },
+        {
+          "lang": "ja",
+          "text": "明日",
+          "start_sample": 29477,
+          "end_sample": 37008,
+          "start_ms": 1842,
+          "end_ms": 2313
+        },
+        {
+          "lang": "en",
+          "text": "is my brother's",
+          "start_sample": 37008,
+          "end_sample": 52868,
+          "start_ms": 2313,
+          "end_ms": 3304
+        },
+        {
+          "lang": "ja",
+          "text": "誕生日.",
+          "start_sample": 52868,
+          "end_sample": 63761,
+          "start_ms": 3304,
+          "end_ms": 3985
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 371,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 204,
+  "frame_labels": "jjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

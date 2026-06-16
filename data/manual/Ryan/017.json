@@ -1,34 +1,105 @@
 {
+  "audio_path": "manual/Ryan/017.flac",
   "sentence": "爪にnude colorのマニキュアを塗ってみました。",
   "sample_rate": 16000,
-  "duration_ms": 5574,
+  "duration_ms": 3156,
+  "reference_speaker": "en/speaker_069_688632e24cd4.mp3",
+  "seed": 214,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "ja",
       "text": "爪に",
-      "start_ms": 0,
-      "end_ms": 1340,
       "start_sample": 0,
-      "end_sample": 21440
+      "end_sample": 5757,
+      "start_ms": 0,
+      "end_ms": 360
     },
     {
       "lang": "en",
       "text": "nude color",
-      "start_ms": 1340,
-      "end_ms": 2680,
-      "start_sample": 21440,
-      "end_sample": 42880
+      "start_sample": 5757,
+      "end_sample": 25425,
+      "start_ms": 360,
+      "end_ms": 1589
     },
     {
       "lang": "ja",
       "text": "のマニキュアを塗ってみました。",
-      "start_ms": 2680,
-      "end_ms": 5574,
-      "start_sample": 42880,
-      "end_sample": 89182
+      "start_sample": 25425,
+      "end_sample": 50497,
+      "start_ms": 1589,
+      "end_ms": 3156
     }
   ],
+  "renders": {
+    "en": {
+      "text": "tsume ni nude color no manikyua wo nutsu te mi mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4555,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "爪に",
+          "start_sample": 0,
+          "end_sample": 7384,
+          "start_ms": 0,
+          "end_ms": 462
+        },
+        {
+          "lang": "en",
+          "text": "nude color",
+          "start_sample": 7384,
+          "end_sample": 27452,
+          "start_ms": 462,
+          "end_ms": 1716
+        },
+        {
+          "lang": "ja",
+          "text": "のマニキュアを塗ってみました。",
+          "start_sample": 27452,
+          "end_sample": 72882,
+          "start_ms": 1716,
+          "end_ms": 4555
+        }
+      ]
+    },
+    "ja": {
+      "text": "爪にnude colorのマニキュアを塗ってみました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2636,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "爪に",
+          "start_sample": 0,
+          "end_sample": 5957,
+          "start_ms": 0,
+          "end_ms": 372
+        },
+        {
+          "lang": "en",
+          "text": "nude color",
+          "start_sample": 5957,
+          "end_sample": 16905,
+          "start_ms": 372,
+          "end_ms": 1057
+        },
+        {
+          "lang": "ja",
+          "text": "のマニキュアを塗ってみました。",
+          "start_sample": 16905,
+          "end_sample": 42177,
+          "start_ms": 1057,
+          "end_ms": 2636
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 279,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 158,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

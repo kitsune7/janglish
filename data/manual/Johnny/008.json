@@ -1,34 +1,105 @@
 {
+  "audio_path": "manual/Johnny/008.flac",
   "sentence": "She reviewed every 明細 on her bank statement before signing.",
   "sample_rate": 16000,
-  "duration_ms": 3478,
+  "duration_ms": 3786,
+  "reference_speaker": "en/speaker_055_a1e62e8e91e0.mp3",
+  "seed": 165,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "She reviewed every",
-      "start_ms": 0,
-      "end_ms": 1540,
       "start_sample": 0,
-      "end_sample": 24640
+      "end_sample": 14224,
+      "start_ms": 0,
+      "end_ms": 889
     },
     {
       "lang": "ja",
       "text": "明細",
-      "start_ms": 1540,
-      "end_ms": 1960,
-      "start_sample": 24640,
-      "end_sample": 31360
+      "start_sample": 14224,
+      "end_sample": 24562,
+      "start_ms": 889,
+      "end_ms": 1535
     },
     {
       "lang": "en",
       "text": "on her bank statement before signing.",
-      "start_ms": 1960,
-      "end_ms": 3478,
-      "start_sample": 31360,
-      "end_sample": 55642
+      "start_sample": 24562,
+      "end_sample": 60582,
+      "start_ms": 1535,
+      "end_ms": 3786
     }
   ],
+  "renders": {
+    "en": {
+      "text": "She reviewed every meisai on her bank statement before signing.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3806,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She reviewed every",
+          "start_sample": 0,
+          "end_sample": 14424,
+          "start_ms": 0,
+          "end_ms": 902
+        },
+        {
+          "lang": "ja",
+          "text": "明細",
+          "start_sample": 14424,
+          "end_sample": 24681,
+          "start_ms": 902,
+          "end_ms": 1543
+        },
+        {
+          "lang": "en",
+          "text": "on her bank statement before signing.",
+          "start_sample": 24681,
+          "end_sample": 60901,
+          "start_ms": 1543,
+          "end_ms": 3806
+        }
+      ]
+    },
+    "ja": {
+      "text": "She reviewed every 明細 on her bank statement before signing.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5189,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She reviewed every",
+          "start_sample": 0,
+          "end_sample": 22278,
+          "start_ms": 0,
+          "end_ms": 1392
+        },
+        {
+          "lang": "ja",
+          "text": "明細",
+          "start_sample": 22278,
+          "end_sample": 33016,
+          "start_ms": 1392,
+          "end_ms": 2064
+        },
+        {
+          "lang": "en",
+          "text": "on her bank statement before signing.",
+          "start_sample": 33016,
+          "end_sample": 83020,
+          "start_ms": 2064,
+          "end_ms": 5189
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 174,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 190,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

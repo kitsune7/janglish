@@ -1,34 +1,105 @@
 {
+  "audio_path": "manual/Johnny/007.flac",
   "sentence": "I'm honestly 驚き at how fast compound interest adds up.",
   "sample_rate": 16000,
-  "duration_ms": 4727,
+  "duration_ms": 3287,
+  "reference_speaker": "en/speaker_081_ce72da759902.mp3",
+  "seed": 164,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "I'm honestly",
-      "start_ms": 0,
-      "end_ms": 1200,
       "start_sample": 0,
-      "end_sample": 19200
+      "end_sample": 8803,
+      "start_ms": 0,
+      "end_ms": 550
     },
     {
       "lang": "ja",
       "text": "驚き",
-      "start_ms": 1200,
-      "end_ms": 1860,
-      "start_sample": 19200,
-      "end_sample": 29760
+      "start_sample": 8803,
+      "end_sample": 20778,
+      "start_ms": 550,
+      "end_ms": 1299
     },
     {
       "lang": "en",
       "text": "at how fast compound interest adds up.",
-      "start_ms": 1860,
-      "end_ms": 4727,
-      "start_sample": 29760,
-      "end_sample": 75637
+      "start_sample": 20778,
+      "end_sample": 52588,
+      "start_ms": 1299,
+      "end_ms": 3287
     }
   ],
+  "renders": {
+    "en": {
+      "text": "I'm honestly odoroki at how fast compound interest adds up.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3076,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I'm honestly",
+          "start_sample": 0,
+          "end_sample": 9003,
+          "start_ms": 0,
+          "end_ms": 563
+        },
+        {
+          "lang": "ja",
+          "text": "驚き",
+          "start_sample": 9003,
+          "end_sample": 17209,
+          "start_ms": 563,
+          "end_ms": 1076
+        },
+        {
+          "lang": "en",
+          "text": "at how fast compound interest adds up.",
+          "start_sample": 17209,
+          "end_sample": 49219,
+          "start_ms": 1076,
+          "end_ms": 3076
+        }
+      ]
+    },
+    "ja": {
+      "text": "I'm honestly 驚き at how fast compound interest adds up.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4680,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I'm honestly",
+          "start_sample": 0,
+          "end_sample": 17352,
+          "start_ms": 0,
+          "end_ms": 1084
+        },
+        {
+          "lang": "ja",
+          "text": "驚き",
+          "start_sample": 17352,
+          "end_sample": 29727,
+          "start_ms": 1084,
+          "end_ms": 1858
+        },
+        {
+          "lang": "en",
+          "text": "at how fast compound interest adds up.",
+          "start_sample": 29727,
+          "end_sample": 74882,
+          "start_ms": 1858,
+          "end_ms": 4680
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 236,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 165,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

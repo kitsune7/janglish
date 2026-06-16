@@ -1,34 +1,105 @@
 {
+  "audio_path": "manual/Johnny/001.flac",
   "sentence": "Their 財布 was stolen right outside the currency exchange.",
   "sample_rate": 16000,
-  "duration_ms": 6310,
+  "duration_ms": 3949,
+  "reference_speaker": "jp/speaker_003_7f373ff7d9ea.mp3",
+  "seed": 158,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "Their",
-      "start_ms": 0,
-      "end_ms": 1520,
       "start_sample": 0,
-      "end_sample": 24320
+      "end_sample": 3327,
+      "start_ms": 0,
+      "end_ms": 208
     },
     {
       "lang": "ja",
       "text": "財布",
-      "start_ms": 1520,
-      "end_ms": 1940,
-      "start_sample": 24320,
-      "end_sample": 31040
+      "start_sample": 3327,
+      "end_sample": 9983,
+      "start_ms": 208,
+      "end_ms": 624
     },
     {
       "lang": "en",
       "text": "was stolen right outside the currency exchange.",
-      "start_ms": 1940,
-      "end_ms": 6310,
-      "start_sample": 31040,
-      "end_sample": 100964
+      "start_sample": 9983,
+      "end_sample": 63177,
+      "start_ms": 624,
+      "end_ms": 3949
     }
   ],
+  "renders": {
+    "en": {
+      "text": "Their saifu was stolen right outside the currency exchange.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4129,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their",
+          "start_sample": 0,
+          "end_sample": 3527,
+          "start_ms": 0,
+          "end_ms": 220
+        },
+        {
+          "lang": "ja",
+          "text": "財布",
+          "start_sample": 3527,
+          "end_sample": 12666,
+          "start_ms": 220,
+          "end_ms": 792
+        },
+        {
+          "lang": "en",
+          "text": "was stolen right outside the currency exchange.",
+          "start_sample": 12666,
+          "end_sample": 66060,
+          "start_ms": 792,
+          "end_ms": 4129
+        }
+      ]
+    },
+    "ja": {
+      "text": "Their 財布 was stolen right outside the currency exchange.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5032,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their",
+          "start_sample": 0,
+          "end_sample": 3848,
+          "start_ms": 0,
+          "end_ms": 240
+        },
+        {
+          "lang": "ja",
+          "text": "財布",
+          "start_sample": 3848,
+          "end_sample": 10904,
+          "start_ms": 240,
+          "end_ms": 682
+        },
+        {
+          "lang": "en",
+          "text": "was stolen right outside the currency exchange.",
+          "start_sample": 10904,
+          "end_sample": 80505,
+          "start_ms": 682,
+          "end_ms": 5032
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 316,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 198,
+  "frame_labels": "eeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

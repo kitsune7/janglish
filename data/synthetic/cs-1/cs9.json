@@ -2,35 +2,104 @@
   "audio_path": "synthetic/cs-1/cs9.flac",
   "sentence": "Don't forget your 傘 before you leave.",
   "sample_rate": 16000,
-  "duration_ms": 6318,
+  "duration_ms": 2939,
   "reference_speaker": "jp/speaker_079_e96ebb016d7a.mp3",
+  "seed": 81,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "Don't forget your",
       "start_sample": 0,
-      "end_sample": 53890,
+      "end_sample": 13598,
       "start_ms": 0,
-      "end_ms": 3368
+      "end_ms": 850
     },
     {
       "lang": "ja",
       "text": "傘",
-      "start_sample": 53890,
-      "end_sample": 84687,
-      "start_ms": 3368,
-      "end_ms": 5293
+      "start_sample": 13598,
+      "end_sample": 20912,
+      "start_ms": 850,
+      "end_ms": 1307
     },
     {
       "lang": "en",
       "text": "before you leave.",
-      "start_sample": 84687,
-      "end_sample": 101091,
-      "start_ms": 5293,
-      "end_ms": 6318
+      "start_sample": 20912,
+      "end_sample": 47024,
+      "start_ms": 1307,
+      "end_ms": 2939
     }
   ],
+  "renders": {
+    "en": {
+      "text": "Don't forget your kasa before you leave.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3209,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Don't forget your",
+          "start_sample": 0,
+          "end_sample": 13798,
+          "start_ms": 0,
+          "end_ms": 862
+        },
+        {
+          "lang": "ja",
+          "text": "傘",
+          "start_sample": 13798,
+          "end_sample": 25030,
+          "start_ms": 862,
+          "end_ms": 1564
+        },
+        {
+          "lang": "en",
+          "text": "before you leave.",
+          "start_sample": 25030,
+          "end_sample": 51342,
+          "start_ms": 1564,
+          "end_ms": 3209
+        }
+      ]
+    },
+    "ja": {
+      "text": "Don't forget your 傘 before you leave.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2933,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Don't forget your",
+          "start_sample": 0,
+          "end_sample": 21535,
+          "start_ms": 0,
+          "end_ms": 1346
+        },
+        {
+          "lang": "ja",
+          "text": "傘",
+          "start_sample": 21535,
+          "end_sample": 29249,
+          "start_ms": 1346,
+          "end_ms": 1828
+        },
+        {
+          "lang": "en",
+          "text": "before you leave.",
+          "start_sample": 29249,
+          "end_sample": 46923,
+          "start_ms": 1828,
+          "end_ms": 2933
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 316,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 147,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

@@ -1,34 +1,105 @@
 {
+  "audio_path": "manual/Sakamoto/014.flac",
   "sentence": "Can you break this into smaller 金額 so it's easier to handle?",
   "sample_rate": 16000,
-  "duration_ms": 6068,
+  "duration_ms": 3374,
+  "reference_speaker": "en/speaker_013_74491ccd3495.mp3",
+  "seed": 191,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "Can you break this into smaller",
-      "start_ms": 0,
-      "end_ms": 3360,
       "start_sample": 0,
-      "end_sample": 53760
+      "end_sample": 21013,
+      "start_ms": 0,
+      "end_ms": 1313
     },
     {
       "lang": "ja",
       "text": "金額",
-      "start_ms": 3360,
-      "end_ms": 4020,
-      "start_sample": 53760,
-      "end_sample": 64320
+      "start_sample": 21013,
+      "end_sample": 30720,
+      "start_ms": 1313,
+      "end_ms": 1920
     },
     {
       "lang": "en",
       "text": "so it's easier to handle?",
-      "start_ms": 4020,
-      "end_ms": 6068,
-      "start_sample": 64320,
-      "end_sample": 97094
+      "start_sample": 30720,
+      "end_sample": 53980,
+      "start_ms": 1920,
+      "end_ms": 3374
     }
   ],
+  "renders": {
+    "en": {
+      "text": "Can you break this into smaller kingaku so it's easier to handle?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3515,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you break this into smaller",
+          "start_sample": 0,
+          "end_sample": 21213,
+          "start_ms": 0,
+          "end_ms": 1326
+        },
+        {
+          "lang": "ja",
+          "text": "金額",
+          "start_sample": 21213,
+          "end_sample": 32784,
+          "start_ms": 1326,
+          "end_ms": 2049
+        },
+        {
+          "lang": "en",
+          "text": "so it's easier to handle?",
+          "start_sample": 32784,
+          "end_sample": 56244,
+          "start_ms": 2049,
+          "end_ms": 3515
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you break this into smaller 金額 so it's easier to handle?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4732,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you break this into smaller",
+          "start_sample": 0,
+          "end_sample": 40101,
+          "start_ms": 0,
+          "end_ms": 2506
+        },
+        {
+          "lang": "ja",
+          "text": "金額",
+          "start_sample": 40101,
+          "end_sample": 50208,
+          "start_ms": 2506,
+          "end_ms": 3138
+        },
+        {
+          "lang": "en",
+          "text": "so it's easier to handle?",
+          "start_sample": 50208,
+          "end_sample": 75711,
+          "start_ms": 3138,
+          "end_ms": 4732
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 303,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 169,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

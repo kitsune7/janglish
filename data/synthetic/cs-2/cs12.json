@@ -2,51 +2,152 @@
   "audio_path": "synthetic/cs-2/cs12.flac",
   "sentence": "新しいlaptopとtabletを買いました。",
   "sample_rate": 16000,
-  "duration_ms": 5934,
+  "duration_ms": 2958,
   "reference_speaker": "en/speaker_060_be3496638824.mp3",
+  "seed": 119,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "ja",
       "text": "新しい",
       "start_sample": 0,
-      "end_sample": 13285,
+      "end_sample": 9264,
       "start_ms": 0,
-      "end_ms": 830
+      "end_ms": 579
     },
     {
       "lang": "en",
       "text": "laptop",
-      "start_sample": 13285,
-      "end_sample": 41850,
-      "start_ms": 830,
-      "end_ms": 2616
+      "start_sample": 9264,
+      "end_sample": 17205,
+      "start_ms": 579,
+      "end_ms": 1075
     },
     {
       "lang": "ja",
       "text": "と",
-      "start_sample": 41850,
-      "end_sample": 60574,
-      "start_ms": 2616,
-      "end_ms": 3786
+      "start_sample": 17205,
+      "end_sample": 20655,
+      "start_ms": 1075,
+      "end_ms": 1291
     },
     {
       "lang": "en",
       "text": "tablet",
-      "start_sample": 60574,
-      "end_sample": 80117,
-      "start_ms": 3786,
-      "end_ms": 5007
+      "start_sample": 20655,
+      "end_sample": 34372,
+      "start_ms": 1291,
+      "end_ms": 2148
     },
     {
       "lang": "ja",
       "text": "を買いました。",
-      "start_sample": 80117,
-      "end_sample": 94939,
-      "start_ms": 5007,
-      "end_ms": 5934
+      "start_sample": 34372,
+      "end_sample": 47324,
+      "start_ms": 2148,
+      "end_ms": 2958
     }
   ],
+  "renders": {
+    "en": {
+      "text": "atarashii laptop to tablet wo kai mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3870,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 13153,
+          "start_ms": 0,
+          "end_ms": 822
+        },
+        {
+          "lang": "en",
+          "text": "laptop",
+          "start_sample": 13153,
+          "end_sample": 21494,
+          "start_ms": 822,
+          "end_ms": 1343
+        },
+        {
+          "lang": "ja",
+          "text": "と",
+          "start_sample": 21494,
+          "end_sample": 28552,
+          "start_ms": 1343,
+          "end_ms": 1784
+        },
+        {
+          "lang": "en",
+          "text": "tablet",
+          "start_sample": 28552,
+          "end_sample": 42669,
+          "start_ms": 1784,
+          "end_ms": 2667
+        },
+        {
+          "lang": "ja",
+          "text": "を買いました。",
+          "start_sample": 42669,
+          "end_sample": 61916,
+          "start_ms": 2667,
+          "end_ms": 3870
+        }
+      ]
+    },
+    "ja": {
+      "text": "新しいlaptopとtabletを買いました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2827,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 9464,
+          "start_ms": 0,
+          "end_ms": 592
+        },
+        {
+          "lang": "en",
+          "text": "laptop",
+          "start_sample": 9464,
+          "end_sample": 18609,
+          "start_ms": 592,
+          "end_ms": 1163
+        },
+        {
+          "lang": "ja",
+          "text": "と",
+          "start_sample": 18609,
+          "end_sample": 22459,
+          "start_ms": 1163,
+          "end_ms": 1404
+        },
+        {
+          "lang": "en",
+          "text": "tablet",
+          "start_sample": 22459,
+          "end_sample": 32085,
+          "start_ms": 1404,
+          "end_ms": 2005
+        },
+        {
+          "lang": "ja",
+          "text": "を買いました。",
+          "start_sample": 32085,
+          "end_sample": 45237,
+          "start_ms": 2005,
+          "end_ms": 2827
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 297,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 148,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

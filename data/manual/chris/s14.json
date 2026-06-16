@@ -1,26 +1,81 @@
 {
+  "audio_path": "manual/chris/s14.flac",
   "sentence": "お疲れ様でした, see you tomorrow morning.",
   "sample_rate": 16000,
-  "duration_ms": 2980,
+  "duration_ms": 2984,
+  "reference_speaker": "en/speaker_009_2840e1708b34.mp3",
+  "seed": 156,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "ja",
       "text": "お疲れ様でした,",
-      "start_ms": 0,
-      "end_ms": 1460,
       "start_sample": 0,
-      "end_sample": 23360
+      "end_sample": 30925,
+      "start_ms": 0,
+      "end_ms": 1933
     },
     {
       "lang": "en",
       "text": "see you tomorrow morning.",
-      "start_ms": 1460,
-      "end_ms": 2980,
-      "start_sample": 23360,
-      "end_sample": 47680
+      "start_sample": 30925,
+      "end_sample": 47748,
+      "start_ms": 1933,
+      "end_ms": 2984
     }
   ],
+  "renders": {
+    "en": {
+      "text": "o tsukare sama deshi ta see you tomorrow morning.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4778,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お疲れ様でした,",
+          "start_sample": 0,
+          "end_sample": 59429,
+          "start_ms": 0,
+          "end_ms": 3714
+        },
+        {
+          "lang": "en",
+          "text": "see you tomorrow morning.",
+          "start_sample": 59429,
+          "end_sample": 76452,
+          "start_ms": 3714,
+          "end_ms": 4778
+        }
+      ]
+    },
+    "ja": {
+      "text": "お疲れ様でした, see you tomorrow morning.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4954,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お疲れ様でした,",
+          "start_sample": 0,
+          "end_sample": 31125,
+          "start_ms": 0,
+          "end_ms": 1945
+        },
+        {
+          "lang": "en",
+          "text": "see you tomorrow morning.",
+          "start_sample": 31125,
+          "end_sample": 79259,
+          "start_ms": 1945,
+          "end_ms": 4954
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 149,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 150,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

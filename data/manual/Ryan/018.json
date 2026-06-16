@@ -1,34 +1,105 @@
 {
+  "audio_path": "manual/Ryan/018.flac",
   "sentence": "このtoner、使い続けたら毛穴が目立たなくなりました。",
   "sample_rate": 16000,
-  "duration_ms": 7939,
+  "duration_ms": 4705,
+  "reference_speaker": "jp/speaker_097_1c56b79c3d3b.mp3",
+  "seed": 215,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "ja",
       "text": "この",
-      "start_ms": 0,
-      "end_ms": 1100,
       "start_sample": 0,
-      "end_sample": 17600
+      "end_sample": 2852,
+      "start_ms": 0,
+      "end_ms": 178
     },
     {
       "lang": "en",
       "text": "toner、",
-      "start_ms": 1100,
-      "end_ms": 1980,
-      "start_sample": 17600,
-      "end_sample": 31680
+      "start_sample": 2852,
+      "end_sample": 26321,
+      "start_ms": 178,
+      "end_ms": 1645
     },
     {
       "lang": "ja",
       "text": "使い続けたら毛穴が目立たなくなりました。",
-      "start_ms": 1980,
-      "end_ms": 7939,
-      "start_sample": 31680,
-      "end_sample": 127022
+      "start_sample": 26321,
+      "end_sample": 75275,
+      "start_ms": 1645,
+      "end_ms": 4705
     }
   ],
+  "renders": {
+    "en": {
+      "text": "kono toner、 tsukai tsuzuke tara keana ga medata naku nari mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10513,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5606,
+          "start_ms": 0,
+          "end_ms": 350
+        },
+        {
+          "lang": "en",
+          "text": "toner、",
+          "start_sample": 5606,
+          "end_sample": 29475,
+          "start_ms": 350,
+          "end_ms": 1842
+        },
+        {
+          "lang": "ja",
+          "text": "使い続けたら毛穴が目立たなくなりました。",
+          "start_sample": 29475,
+          "end_sample": 168206,
+          "start_ms": 1842,
+          "end_ms": 10513
+        }
+      ]
+    },
+    "ja": {
+      "text": "このtoner、使い続けたら毛穴が目立たなくなりました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3855,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3052,
+          "start_ms": 0,
+          "end_ms": 191
+        },
+        {
+          "lang": "en",
+          "text": "toner、",
+          "start_sample": 3052,
+          "end_sample": 12530,
+          "start_ms": 191,
+          "end_ms": 783
+        },
+        {
+          "lang": "ja",
+          "text": "使い続けたら毛穴が目立たなくなりました。",
+          "start_sample": 12530,
+          "end_sample": 61684,
+          "start_ms": 783,
+          "end_ms": 3855
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 397,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 236,
+  "frame_labels": "jjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

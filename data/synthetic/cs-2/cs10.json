@@ -2,51 +2,152 @@
   "audio_path": "synthetic/cs-2/cs10.flac",
   "sentence": "I bought a new 自転車 and 傘 yesterday.",
   "sample_rate": 16000,
-  "duration_ms": 7322,
+  "duration_ms": 3494,
   "reference_speaker": "en/speaker_075_373f531aa159.mp3",
+  "seed": 117,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "I bought a new",
       "start_sample": 0,
-      "end_sample": 19820,
+      "end_sample": 13090,
       "start_ms": 0,
-      "end_ms": 1239
+      "end_ms": 818
     },
     {
       "lang": "ja",
       "text": "自転車",
-      "start_sample": 19820,
-      "end_sample": 32782,
-      "start_ms": 1239,
-      "end_ms": 2049
+      "start_sample": 13090,
+      "end_sample": 25666,
+      "start_ms": 818,
+      "end_ms": 1604
     },
     {
       "lang": "en",
       "text": "and",
-      "start_sample": 32782,
-      "end_sample": 43135,
-      "start_ms": 2049,
-      "end_ms": 2696
+      "start_sample": 25666,
+      "end_sample": 30871,
+      "start_ms": 1604,
+      "end_ms": 1929
     },
     {
       "lang": "ja",
       "text": "傘",
-      "start_sample": 43135,
-      "end_sample": 64085,
-      "start_ms": 2696,
-      "end_ms": 4005
+      "start_sample": 30871,
+      "end_sample": 40242,
+      "start_ms": 1929,
+      "end_ms": 2515
     },
     {
       "lang": "en",
       "text": "yesterday.",
-      "start_sample": 64085,
-      "end_sample": 117151,
-      "start_ms": 4005,
-      "end_ms": 7322
+      "start_sample": 40242,
+      "end_sample": 55896,
+      "start_ms": 2515,
+      "end_ms": 3494
     }
   ],
+  "renders": {
+    "en": {
+      "text": "I bought a new jiten kuruma and kasa yesterday.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4124,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I bought a new",
+          "start_sample": 0,
+          "end_sample": 13290,
+          "start_ms": 0,
+          "end_ms": 831
+        },
+        {
+          "lang": "ja",
+          "text": "自転車",
+          "start_sample": 13290,
+          "end_sample": 33469,
+          "start_ms": 831,
+          "end_ms": 2092
+        },
+        {
+          "lang": "en",
+          "text": "and",
+          "start_sample": 33469,
+          "end_sample": 39074,
+          "start_ms": 2092,
+          "end_ms": 2442
+        },
+        {
+          "lang": "ja",
+          "text": "傘",
+          "start_sample": 39074,
+          "end_sample": 50124,
+          "start_ms": 2442,
+          "end_ms": 3133
+        },
+        {
+          "lang": "en",
+          "text": "yesterday.",
+          "start_sample": 50124,
+          "end_sample": 65978,
+          "start_ms": 3133,
+          "end_ms": 4124
+        }
+      ]
+    },
+    "ja": {
+      "text": "I bought a new 自転車 and 傘 yesterday.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4105,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I bought a new",
+          "start_sample": 0,
+          "end_sample": 22105,
+          "start_ms": 0,
+          "end_ms": 1382
+        },
+        {
+          "lang": "ja",
+          "text": "自転車",
+          "start_sample": 22105,
+          "end_sample": 35081,
+          "start_ms": 1382,
+          "end_ms": 2193
+        },
+        {
+          "lang": "en",
+          "text": "and",
+          "start_sample": 35081,
+          "end_sample": 43091,
+          "start_ms": 2193,
+          "end_ms": 2693
+        },
+        {
+          "lang": "ja",
+          "text": "傘",
+          "start_sample": 43091,
+          "end_sample": 52862,
+          "start_ms": 2693,
+          "end_ms": 3304
+        },
+        {
+          "lang": "en",
+          "text": "yesterday.",
+          "start_sample": 52862,
+          "end_sample": 65677,
+          "start_ms": 3304,
+          "end_ms": 4105
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 367,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 175,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

@@ -1,26 +1,81 @@
 {
+  "audio_path": "manual/Sakamoto/001.flac",
   "sentence": "high contrastな写真は雰囲気がありますね。",
   "sample_rate": 16000,
-  "duration_ms": 5026,
+  "duration_ms": 2893,
+  "reference_speaker": "en/speaker_068_b68d35e57012.mp3",
+  "seed": 178,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "high contrast",
-      "start_ms": 0,
-      "end_ms": 2220,
       "start_sample": 0,
-      "end_sample": 35520
+      "end_sample": 14071,
+      "start_ms": 0,
+      "end_ms": 879
     },
     {
       "lang": "ja",
       "text": "な写真は雰囲気がありますね。",
-      "start_ms": 2220,
-      "end_ms": 5026,
-      "start_sample": 35520,
-      "end_sample": 80410
+      "start_sample": 14071,
+      "end_sample": 46293,
+      "start_ms": 879,
+      "end_ms": 2893
     }
   ],
+  "renders": {
+    "en": {
+      "text": "high contrast na shashin ha fun'iki ga ari masu ne",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5231,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "high contrast",
+          "start_sample": 0,
+          "end_sample": 14271,
+          "start_ms": 0,
+          "end_ms": 892
+        },
+        {
+          "lang": "ja",
+          "text": "な写真は雰囲気がありますね。",
+          "start_sample": 14271,
+          "end_sample": 83701,
+          "start_ms": 892,
+          "end_ms": 5231
+        }
+      ]
+    },
+    "ja": {
+      "text": "high contrastな写真は雰囲気がありますね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2769,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "high contrast",
+          "start_sample": 0,
+          "end_sample": 11878,
+          "start_ms": 0,
+          "end_ms": 742
+        },
+        {
+          "lang": "ja",
+          "text": "な写真は雰囲気がありますね。",
+          "start_sample": 11878,
+          "end_sample": 44300,
+          "start_ms": 742,
+          "end_ms": 2769
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 251,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 145,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

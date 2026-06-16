@@ -1,34 +1,105 @@
 {
+  "audio_path": "manual/chris/s13.flac",
   "sentence": "Some store-bought カレー leaves a weird residue at the top of my mouth.",
   "sample_rate": 16000,
-  "duration_ms": 4440,
+  "duration_ms": 4078,
+  "reference_speaker": "en/speaker_059_8cc960ae4dc2.mp3",
+  "seed": 155,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "Some store-bought",
-      "start_ms": 0,
-      "end_ms": 1620,
       "start_sample": 0,
-      "end_sample": 25920
+      "end_sample": 16308,
+      "start_ms": 0,
+      "end_ms": 1019
     },
     {
       "lang": "ja",
       "text": "カレー",
-      "start_ms": 1620,
-      "end_ms": 1800,
-      "start_sample": 25920,
-      "end_sample": 28800
+      "start_sample": 16308,
+      "end_sample": 22011,
+      "start_ms": 1019,
+      "end_ms": 1376
     },
     {
       "lang": "en",
       "text": "leaves a weird residue at the top of my mouth.",
-      "start_ms": 1800,
-      "end_ms": 4440,
-      "start_sample": 28800,
-      "end_sample": 71040
+      "start_sample": 22011,
+      "end_sample": 65248,
+      "start_ms": 1376,
+      "end_ms": 4078
     }
   ],
+  "renders": {
+    "en": {
+      "text": "Some store-bought karee leaves a weird residue at the top of my mouth.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4328,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Some store-bought",
+          "start_sample": 0,
+          "end_sample": 16508,
+          "start_ms": 0,
+          "end_ms": 1032
+        },
+        {
+          "lang": "ja",
+          "text": "カレー",
+          "start_sample": 16508,
+          "end_sample": 25804,
+          "start_ms": 1032,
+          "end_ms": 1613
+        },
+        {
+          "lang": "en",
+          "text": "leaves a weird residue at the top of my mouth.",
+          "start_sample": 25804,
+          "end_sample": 69241,
+          "start_ms": 1613,
+          "end_ms": 4328
+        }
+      ]
+    },
+    "ja": {
+      "text": "Some store-bought カレー leaves a weird residue at the top of my mouth.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4396,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Some store-bought",
+          "start_sample": 0,
+          "end_sample": 14293,
+          "start_ms": 0,
+          "end_ms": 893
+        },
+        {
+          "lang": "ja",
+          "text": "カレー",
+          "start_sample": 14293,
+          "end_sample": 20396,
+          "start_ms": 893,
+          "end_ms": 1275
+        },
+        {
+          "lang": "en",
+          "text": "leaves a weird residue at the top of my mouth.",
+          "start_sample": 20396,
+          "end_sample": 70341,
+          "start_ms": 1275,
+          "end_ms": 4396
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 222,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 204,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

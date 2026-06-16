@@ -2,59 +2,176 @@
   "audio_path": "synthetic/cs-3/cs3.flac",
   "sentence": "Let's meet at the 駅 at seven and eat 寿司 at the new 店.",
   "sample_rate": 16000,
-  "duration_ms": 5605,
+  "duration_ms": 2671,
   "reference_speaker": "en/speaker_069_688632e24cd4.mp3",
+  "seed": 131,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "Let's meet at the",
       "start_sample": 0,
-      "end_sample": 17527,
+      "end_sample": 10265,
       "start_ms": 0,
-      "end_ms": 1095
+      "end_ms": 642
     },
     {
       "lang": "ja",
       "text": "駅",
-      "start_sample": 17527,
-      "end_sample": 32247,
-      "start_ms": 1095,
-      "end_ms": 2015
+      "start_sample": 10265,
+      "end_sample": 13724,
+      "start_ms": 642,
+      "end_ms": 858
     },
     {
       "lang": "en",
       "text": "at seven and eat",
-      "start_sample": 32247,
-      "end_sample": 49117,
-      "start_ms": 2015,
-      "end_ms": 3070
+      "start_sample": 13724,
+      "end_sample": 28298,
+      "start_ms": 858,
+      "end_ms": 1769
     },
     {
       "lang": "ja",
       "text": "寿司",
-      "start_sample": 49117,
-      "end_sample": 63688,
-      "start_ms": 3070,
-      "end_ms": 3980
+      "start_sample": 28298,
+      "end_sample": 32560,
+      "start_ms": 1769,
+      "end_ms": 2035
     },
     {
       "lang": "en",
       "text": "at the new",
-      "start_sample": 63688,
-      "end_sample": 77219,
-      "start_ms": 3980,
-      "end_ms": 4826
+      "start_sample": 32560,
+      "end_sample": 39083,
+      "start_ms": 2035,
+      "end_ms": 2443
     },
     {
       "lang": "ja",
       "text": "店.",
-      "start_sample": 77219,
-      "end_sample": 89681,
-      "start_ms": 4826,
-      "end_ms": 5605
+      "start_sample": 39083,
+      "end_sample": 42737,
+      "start_ms": 2443,
+      "end_ms": 2671
     }
   ],
+  "renders": {
+    "en": {
+      "text": "Let's meet at the eki at seven and eat sushi at the new mise",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3139,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Let's meet at the",
+          "start_sample": 0,
+          "end_sample": 10465,
+          "start_ms": 0,
+          "end_ms": 654
+        },
+        {
+          "lang": "ja",
+          "text": "駅",
+          "start_sample": 10465,
+          "end_sample": 14812,
+          "start_ms": 654,
+          "end_ms": 926
+        },
+        {
+          "lang": "en",
+          "text": "at seven and eat",
+          "start_sample": 14812,
+          "end_sample": 29786,
+          "start_ms": 926,
+          "end_ms": 1862
+        },
+        {
+          "lang": "ja",
+          "text": "寿司",
+          "start_sample": 29786,
+          "end_sample": 36226,
+          "start_ms": 1862,
+          "end_ms": 2264
+        },
+        {
+          "lang": "en",
+          "text": "at the new",
+          "start_sample": 36226,
+          "end_sample": 43149,
+          "start_ms": 2264,
+          "end_ms": 2697
+        },
+        {
+          "lang": "ja",
+          "text": "店.",
+          "start_sample": 43149,
+          "end_sample": 50227,
+          "start_ms": 2697,
+          "end_ms": 3139
+        }
+      ]
+    },
+    "ja": {
+      "text": "Let's meet at the 駅 at seven and eat 寿司 at the new 店.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3135,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Let's meet at the",
+          "start_sample": 0,
+          "end_sample": 14791,
+          "start_ms": 0,
+          "end_ms": 924
+        },
+        {
+          "lang": "ja",
+          "text": "駅",
+          "start_sample": 14791,
+          "end_sample": 18650,
+          "start_ms": 924,
+          "end_ms": 1166
+        },
+        {
+          "lang": "en",
+          "text": "at seven and eat",
+          "start_sample": 18650,
+          "end_sample": 34889,
+          "start_ms": 1166,
+          "end_ms": 2181
+        },
+        {
+          "lang": "ja",
+          "text": "寿司",
+          "start_sample": 34889,
+          "end_sample": 39551,
+          "start_ms": 2181,
+          "end_ms": 2472
+        },
+        {
+          "lang": "en",
+          "text": "at the new",
+          "start_sample": 39551,
+          "end_sample": 46304,
+          "start_ms": 2472,
+          "end_ms": 2894
+        },
+        {
+          "lang": "ja",
+          "text": "店.",
+          "start_sample": 46304,
+          "end_sample": 50158,
+          "start_ms": 2894,
+          "end_ms": 3135
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 281,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 134,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjj"
 }

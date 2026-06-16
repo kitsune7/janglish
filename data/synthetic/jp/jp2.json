@@ -2,19 +2,40 @@
   "audio_path": "synthetic/jp/jp2.flac",
   "sentence": "今日はとても暑いですね。",
   "sample_rate": 16000,
-  "duration_ms": 2616,
+  "duration_ms": 1703,
   "reference_speaker": "en/speaker_009_2840e1708b34.mp3",
+  "seed": 59,
+  "tts_language": "ja",
+  "alignment": "forced",
   "spans": [
     {
       "lang": "ja",
       "text": "今日はとても暑いですね。",
       "start_sample": 0,
-      "end_sample": 41856,
+      "end_sample": 27252,
       "start_ms": 0,
-      "end_ms": 2616
+      "end_ms": 1703
     }
   ],
+  "renders": {
+    "ja": {
+      "text": "今日はとても暑いですね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 1703,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日はとても暑いですね。",
+          "start_sample": 0,
+          "end_sample": 27252,
+          "start_ms": 0,
+          "end_ms": 1703
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 131,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 86,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

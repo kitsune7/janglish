@@ -2,19 +2,40 @@
   "audio_path": "synthetic/jp/jp3.flac",
   "sentence": "駅はどこですか？",
   "sample_rate": 16000,
-  "duration_ms": 2066,
+  "duration_ms": 1027,
   "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 60,
+  "tts_language": "ja",
+  "alignment": "forced",
   "spans": [
     {
       "lang": "ja",
       "text": "駅はどこですか？",
       "start_sample": 0,
-      "end_sample": 33060,
+      "end_sample": 16433,
       "start_ms": 0,
-      "end_ms": 2066
+      "end_ms": 1027
     }
   ],
+  "renders": {
+    "ja": {
+      "text": "駅はどこですか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 1027,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "駅はどこですか？",
+          "start_sample": 0,
+          "end_sample": 16433,
+          "start_ms": 0,
+          "end_ms": 1027
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 104,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 52,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

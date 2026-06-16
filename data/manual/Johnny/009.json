@@ -1,34 +1,105 @@
 {
+  "audio_path": "manual/Johnny/009.flac",
   "sentence": "The 担保 they required for the mortgage was substantial.",
   "sample_rate": 16000,
-  "duration_ms": 3459,
+  "duration_ms": 5386,
+  "reference_speaker": "jp/speaker_068_ac494b5e1767.mp3",
+  "seed": 166,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "The",
-      "start_ms": 0,
-      "end_ms": 620,
       "start_sample": 0,
-      "end_sample": 9920
+      "end_sample": 1400,
+      "start_ms": 0,
+      "end_ms": 88
     },
     {
       "lang": "ja",
       "text": "担保",
-      "start_ms": 620,
-      "end_ms": 1140,
-      "start_sample": 9920,
-      "end_sample": 18240
+      "start_sample": 1400,
+      "end_sample": 12233,
+      "start_ms": 88,
+      "end_ms": 765
     },
     {
       "lang": "en",
       "text": "they required for the mortgage was substantial.",
-      "start_ms": 1140,
-      "end_ms": 3459,
-      "start_sample": 18240,
-      "end_sample": 55341
+      "start_sample": 12233,
+      "end_sample": 86170,
+      "start_ms": 765,
+      "end_ms": 5386
     }
   ],
+  "renders": {
+    "en": {
+      "text": "The tanpo they required for the mortgage was substantial.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6225,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1600,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "担保",
+          "start_sample": 1600,
+          "end_sample": 25459,
+          "start_ms": 100,
+          "end_ms": 1591
+        },
+        {
+          "lang": "en",
+          "text": "they required for the mortgage was substantial.",
+          "start_sample": 25459,
+          "end_sample": 99596,
+          "start_ms": 1591,
+          "end_ms": 6225
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 担保 they required for the mortgage was substantial.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6519,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5935,
+          "start_ms": 0,
+          "end_ms": 371
+        },
+        {
+          "lang": "ja",
+          "text": "担保",
+          "start_sample": 5935,
+          "end_sample": 17168,
+          "start_ms": 371,
+          "end_ms": 1073
+        },
+        {
+          "lang": "en",
+          "text": "they required for the mortgage was substantial.",
+          "start_sample": 17168,
+          "end_sample": 104307,
+          "start_ms": 1073,
+          "end_ms": 6519
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 173,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 270,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

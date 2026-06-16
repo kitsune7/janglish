@@ -1,34 +1,105 @@
 {
+  "audio_path": "manual/Sakamoto/011.flac",
   "sentence": "The 税金 deducted from my paycheck was higher than I expected.",
   "sample_rate": 16000,
-  "duration_ms": 5921,
+  "duration_ms": 3480,
+  "reference_speaker": "jp/speaker_027_61aa1045acea.mp3",
+  "seed": 188,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "The",
-      "start_ms": 0,
-      "end_ms": 1120,
       "start_sample": 0,
-      "end_sample": 17920
+      "end_sample": 1564,
+      "start_ms": 0,
+      "end_ms": 98
     },
     {
       "lang": "ja",
       "text": "税金",
-      "start_ms": 1120,
-      "end_ms": 1720,
-      "start_sample": 17920,
-      "end_sample": 27520
+      "start_sample": 1564,
+      "end_sample": 11603,
+      "start_ms": 98,
+      "end_ms": 725
     },
     {
       "lang": "en",
       "text": "deducted from my paycheck was higher than I expected.",
-      "start_ms": 1720,
-      "end_ms": 5921,
-      "start_sample": 27520,
-      "end_sample": 94729
+      "start_sample": 11603,
+      "end_sample": 55674,
+      "start_ms": 725,
+      "end_ms": 3480
     }
   ],
+  "renders": {
+    "en": {
+      "text": "The zeikin deducted from my paycheck was higher than I expected.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3248,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1764,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "税金",
+          "start_sample": 1764,
+          "end_sample": 7699,
+          "start_ms": 110,
+          "end_ms": 481
+        },
+        {
+          "lang": "en",
+          "text": "deducted from my paycheck was higher than I expected.",
+          "start_sample": 7699,
+          "end_sample": 51970,
+          "start_ms": 481,
+          "end_ms": 3248
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 税金 deducted from my paycheck was higher than I expected.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4497,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4818,
+          "start_ms": 0,
+          "end_ms": 301
+        },
+        {
+          "lang": "ja",
+          "text": "税金",
+          "start_sample": 4818,
+          "end_sample": 15257,
+          "start_ms": 301,
+          "end_ms": 954
+        },
+        {
+          "lang": "en",
+          "text": "deducted from my paycheck was higher than I expected.",
+          "start_sample": 15257,
+          "end_sample": 71947,
+          "start_ms": 954,
+          "end_ms": 4497
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 296,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 174,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

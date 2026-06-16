@@ -28,4 +28,4 @@ deploy-worker:
 audio-gen csv:
     PYTHONWARNINGS="ignore:An output with one or more elements was resized:UserWarning" \
     uv run python cmd/audio_gen/generate_audio.py {{csv}} --has-header \
-    --references data/speaker-clips/en data/speaker-clips/jp --out-root data --device mps
+    --references data/speaker-clips/en data/speaker-clips/jp --out-root data --device mps --seed 42

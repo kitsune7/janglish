@@ -2,19 +2,40 @@
   "audio_path": "synthetic/en/en8.flac",
   "sentence": "My favorite restaurant is closed on Mondays.",
   "sample_rate": 16000,
-  "duration_ms": 4086,
+  "duration_ms": 3124,
   "reference_speaker": "en/speaker_036_d0b62ac1e57e.mp3",
+  "seed": 50,
+  "tts_language": "en",
+  "alignment": "forced",
   "spans": [
     {
       "lang": "en",
       "text": "My favorite restaurant is closed on Mondays.",
       "start_sample": 0,
-      "end_sample": 65373,
+      "end_sample": 49980,
       "start_ms": 0,
-      "end_ms": 4086
+      "end_ms": 3124
     }
   ],
+  "renders": {
+    "en": {
+      "text": "My favorite restaurant is closed on Mondays.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3124,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My favorite restaurant is closed on Mondays.",
+          "start_sample": 0,
+          "end_sample": 49980,
+          "start_ms": 0,
+          "end_ms": 3124
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 205,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 157,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

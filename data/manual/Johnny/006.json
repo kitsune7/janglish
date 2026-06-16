@@ -1,34 +1,105 @@
 {
+  "audio_path": "manual/Johnny/006.flac",
   "sentence": "The 不正 on my statement was caught within hours.",
   "sample_rate": 16000,
-  "duration_ms": 3749,
+  "duration_ms": 3341,
+  "reference_speaker": "jp/speaker_084_122c648d361d.mp3",
+  "seed": 163,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "The",
-      "start_ms": 0,
-      "end_ms": 200,
       "start_sample": 0,
-      "end_sample": 3200
+      "end_sample": 1726,
+      "start_ms": 0,
+      "end_ms": 108
     },
     {
       "lang": "ja",
       "text": "不正",
-      "start_ms": 200,
-      "end_ms": 820,
-      "start_sample": 3200,
-      "end_sample": 13120
+      "start_sample": 1726,
+      "end_sample": 11119,
+      "start_ms": 108,
+      "end_ms": 695
     },
     {
       "lang": "en",
       "text": "on my statement was caught within hours.",
-      "start_ms": 820,
-      "end_ms": 3749,
-      "start_sample": 13120,
-      "end_sample": 59985
+      "start_sample": 11119,
+      "end_sample": 53461,
+      "start_ms": 695,
+      "end_ms": 3341
     }
   ],
+  "renders": {
+    "en": {
+      "text": "The fusei on my statement was caught within hours.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3692,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1926,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "不正",
+          "start_sample": 1926,
+          "end_sample": 16536,
+          "start_ms": 120,
+          "end_ms": 1034
+        },
+        {
+          "lang": "en",
+          "text": "on my statement was caught within hours.",
+          "start_sample": 16536,
+          "end_sample": 59078,
+          "start_ms": 1034,
+          "end_ms": 3692
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 不正 on my statement was caught within hours.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3853,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4495,
+          "start_ms": 0,
+          "end_ms": 281
+        },
+        {
+          "lang": "ja",
+          "text": "不正",
+          "start_sample": 4495,
+          "end_sample": 14288,
+          "start_ms": 281,
+          "end_ms": 893
+        },
+        {
+          "lang": "en",
+          "text": "on my statement was caught within hours.",
+          "start_sample": 14288,
+          "end_sample": 61647,
+          "start_ms": 893,
+          "end_ms": 3853
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 187,
-  "frame_labels": "eeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 168,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

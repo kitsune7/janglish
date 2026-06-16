@@ -2,51 +2,152 @@
   "audio_path": "synthetic/cs-2/cs3.flac",
   "sentence": "My お母さん and お父さん are visiting tomorrow.",
   "sample_rate": 16000,
-  "duration_ms": 12685,
+  "duration_ms": 4631,
   "reference_speaker": "en/speaker_050_6b3579133fec.mp3",
+  "seed": 110,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "My",
       "start_sample": 0,
-      "end_sample": 60803,
+      "end_sample": 21133,
       "start_ms": 0,
-      "end_ms": 3800
+      "end_ms": 1321
     },
     {
       "lang": "ja",
       "text": "お母さん",
-      "start_sample": 60803,
-      "end_sample": 92345,
-      "start_ms": 3800,
-      "end_ms": 5772
+      "start_sample": 21133,
+      "end_sample": 34358,
+      "start_ms": 1321,
+      "end_ms": 2147
     },
     {
       "lang": "en",
       "text": "and",
-      "start_sample": 92345,
-      "end_sample": 150093,
-      "start_ms": 5772,
-      "end_ms": 9381
+      "start_sample": 34358,
+      "end_sample": 42941,
+      "start_ms": 2147,
+      "end_ms": 2684
     },
     {
       "lang": "ja",
       "text": "お父さん",
-      "start_sample": 150093,
-      "end_sample": 179880,
-      "start_ms": 9381,
-      "end_ms": 11242
+      "start_sample": 42941,
+      "end_sample": 53120,
+      "start_ms": 2684,
+      "end_ms": 3320
     },
     {
       "lang": "en",
       "text": "are visiting tomorrow.",
-      "start_sample": 179880,
-      "end_sample": 202965,
-      "start_ms": 11242,
-      "end_ms": 12685
+      "start_sample": 53120,
+      "end_sample": 74091,
+      "start_ms": 3320,
+      "end_ms": 4631
     }
   ],
+  "renders": {
+    "en": {
+      "text": "My o haha san and o chichi san are visiting tomorrow.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7258,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 21333,
+          "start_ms": 0,
+          "end_ms": 1333
+        },
+        {
+          "lang": "ja",
+          "text": "お母さん",
+          "start_sample": 21333,
+          "end_sample": 73785,
+          "start_ms": 1333,
+          "end_ms": 4612
+        },
+        {
+          "lang": "en",
+          "text": "and",
+          "start_sample": 73785,
+          "end_sample": 82768,
+          "start_ms": 4612,
+          "end_ms": 5173
+        },
+        {
+          "lang": "ja",
+          "text": "お父さん",
+          "start_sample": 82768,
+          "end_sample": 94959,
+          "start_ms": 5173,
+          "end_ms": 5935
+        },
+        {
+          "lang": "en",
+          "text": "are visiting tomorrow.",
+          "start_sample": 94959,
+          "end_sample": 116130,
+          "start_ms": 5935,
+          "end_ms": 7258
+        }
+      ]
+    },
+    "ja": {
+      "text": "My お母さん and お父さん are visiting tomorrow.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3566,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 8655,
+          "start_ms": 0,
+          "end_ms": 541
+        },
+        {
+          "lang": "ja",
+          "text": "お母さん",
+          "start_sample": 8655,
+          "end_sample": 22280,
+          "start_ms": 541,
+          "end_ms": 1392
+        },
+        {
+          "lang": "en",
+          "text": "and",
+          "start_sample": 22280,
+          "end_sample": 26287,
+          "start_ms": 1392,
+          "end_ms": 1643
+        },
+        {
+          "lang": "ja",
+          "text": "お父さん",
+          "start_sample": 26287,
+          "end_sample": 36866,
+          "start_ms": 1643,
+          "end_ms": 2304
+        },
+        {
+          "lang": "en",
+          "text": "are visiting tomorrow.",
+          "start_sample": 36866,
+          "end_sample": 57062,
+          "start_ms": 2304,
+          "end_ms": 3566
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 635,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 232,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

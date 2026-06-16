@@ -2,19 +2,40 @@
   "audio_path": "synthetic/jp/jp14.flac",
   "sentence": "毎朝六時に起きます。",
   "sample_rate": 16000,
-  "duration_ms": 2561,
+  "duration_ms": 1785,
   "reference_speaker": "jp/speaker_080_c886ae0e1a09.mp3",
+  "seed": 71,
+  "tts_language": "ja",
+  "alignment": "forced",
   "spans": [
     {
       "lang": "ja",
       "text": "毎朝六時に起きます。",
       "start_sample": 0,
-      "end_sample": 40969,
+      "end_sample": 28553,
       "start_ms": 0,
-      "end_ms": 2561
+      "end_ms": 1785
     }
   ],
+  "renders": {
+    "ja": {
+      "text": "毎朝六時に起きます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 1785,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝六時に起きます。",
+          "start_sample": 0,
+          "end_sample": 28553,
+          "start_ms": 0,
+          "end_ms": 1785
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 129,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 90,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

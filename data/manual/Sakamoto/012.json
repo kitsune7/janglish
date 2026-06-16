@@ -1,34 +1,105 @@
 {
+  "audio_path": "manual/Sakamoto/012.flac",
   "sentence": "He looked 不安 when the teller asked him for a second ID.",
   "sample_rate": 16000,
-  "duration_ms": 5058,
+  "duration_ms": 3378,
+  "reference_speaker": "en/speaker_024_d461ea23a991.mp3",
+  "seed": 189,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "He looked",
-      "start_ms": 0,
-      "end_ms": 1480,
       "start_sample": 0,
-      "end_sample": 23680
+      "end_sample": 5732,
+      "start_ms": 0,
+      "end_ms": 358
     },
     {
       "lang": "ja",
       "text": "不安",
-      "start_ms": 1480,
-      "end_ms": 2020,
-      "start_sample": 23680,
-      "end_sample": 32320
+      "start_sample": 5732,
+      "end_sample": 12564,
+      "start_ms": 358,
+      "end_ms": 785
     },
     {
       "lang": "en",
       "text": "when the teller asked him for a second ID.",
-      "start_ms": 2020,
-      "end_ms": 5058,
-      "start_sample": 32320,
-      "end_sample": 80926
+      "start_sample": 12564,
+      "end_sample": 54049,
+      "start_ms": 785,
+      "end_ms": 3378
     }
   ],
+  "renders": {
+    "en": {
+      "text": "He looked fuan when the teller asked him for a second ID.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3688,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He looked",
+          "start_sample": 0,
+          "end_sample": 5932,
+          "start_ms": 0,
+          "end_ms": 371
+        },
+        {
+          "lang": "ja",
+          "text": "不安",
+          "start_sample": 5932,
+          "end_sample": 17316,
+          "start_ms": 371,
+          "end_ms": 1082
+        },
+        {
+          "lang": "en",
+          "text": "when the teller asked him for a second ID.",
+          "start_sample": 17316,
+          "end_sample": 59001,
+          "start_ms": 1082,
+          "end_ms": 3688
+        }
+      ]
+    },
+    "ja": {
+      "text": "He looked 不安 when the teller asked him for a second ID.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3314,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He looked",
+          "start_sample": 0,
+          "end_sample": 6428,
+          "start_ms": 0,
+          "end_ms": 402
+        },
+        {
+          "lang": "ja",
+          "text": "不安",
+          "start_sample": 6428,
+          "end_sample": 13660,
+          "start_ms": 402,
+          "end_ms": 854
+        },
+        {
+          "lang": "en",
+          "text": "when the teller asked him for a second ID.",
+          "start_sample": 13660,
+          "end_sample": 53030,
+          "start_ms": 854,
+          "end_ms": 3314
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 253,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 169,
+  "frame_labels": "eeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

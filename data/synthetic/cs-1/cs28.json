@@ -2,35 +2,104 @@
   "audio_path": "synthetic/cs-1/cs28.flac",
   "sentence": "毎朝gymで一時間運動しています。",
   "sample_rate": 16000,
-  "duration_ms": 4213,
+  "duration_ms": 2668,
   "reference_speaker": "jp/speaker_038_fa40784c77e2.mp3",
+  "seed": 100,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "ja",
       "text": "毎朝",
       "start_sample": 0,
-      "end_sample": 21858,
+      "end_sample": 8949,
       "start_ms": 0,
-      "end_ms": 1366
+      "end_ms": 559
     },
     {
       "lang": "en",
       "text": "gym",
-      "start_sample": 21858,
-      "end_sample": 39639,
-      "start_ms": 1366,
-      "end_ms": 2477
+      "start_sample": 8949,
+      "end_sample": 13679,
+      "start_ms": 559,
+      "end_ms": 855
     },
     {
       "lang": "ja",
       "text": "で一時間運動しています。",
-      "start_sample": 39639,
-      "end_sample": 67409,
-      "start_ms": 2477,
-      "end_ms": 4213
+      "start_sample": 13679,
+      "end_sample": 42691,
+      "start_ms": 855,
+      "end_ms": 2668
     }
   ],
+  "renders": {
+    "en": {
+      "text": "maiasa gym de ichi jikan undou shi te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4227,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝",
+          "start_sample": 0,
+          "end_sample": 10578,
+          "start_ms": 0,
+          "end_ms": 661
+        },
+        {
+          "lang": "en",
+          "text": "gym",
+          "start_sample": 10578,
+          "end_sample": 15708,
+          "start_ms": 661,
+          "end_ms": 982
+        },
+        {
+          "lang": "ja",
+          "text": "で一時間運動しています。",
+          "start_sample": 15708,
+          "end_sample": 67639,
+          "start_ms": 982,
+          "end_ms": 4227
+        }
+      ]
+    },
+    "ja": {
+      "text": "毎朝gymで一時間運動しています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2749,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝",
+          "start_sample": 0,
+          "end_sample": 9149,
+          "start_ms": 0,
+          "end_ms": 572
+        },
+        {
+          "lang": "en",
+          "text": "gym",
+          "start_sample": 9149,
+          "end_sample": 14767,
+          "start_ms": 572,
+          "end_ms": 923
+        },
+        {
+          "lang": "ja",
+          "text": "で一時間運動しています。",
+          "start_sample": 14767,
+          "end_sample": 43979,
+          "start_ms": 923,
+          "end_ms": 2749
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 211,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 134,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

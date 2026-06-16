@@ -2,83 +2,248 @@
   "audio_path": "synthetic/cs-4/cs3.flac",
   "sentence": "毎朝gymでworkoutしてからprotein shakeを飲んでofficeに行きます。",
   "sample_rate": 16000,
-  "duration_ms": 16814,
+  "duration_ms": 6502,
   "reference_speaker": "en/speaker_042_89322a521184.mp3",
+  "seed": 142,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "ja",
       "text": "毎朝",
       "start_sample": 0,
-      "end_sample": 23513,
+      "end_sample": 6212,
       "start_ms": 0,
-      "end_ms": 1470
+      "end_ms": 388
     },
     {
       "lang": "en",
       "text": "gym",
-      "start_sample": 23513,
-      "end_sample": 104878,
-      "start_ms": 1470,
-      "end_ms": 6555
+      "start_sample": 6212,
+      "end_sample": 24723,
+      "start_ms": 388,
+      "end_ms": 1545
     },
     {
       "lang": "ja",
       "text": "で",
-      "start_sample": 104878,
-      "end_sample": 120439,
-      "start_ms": 6555,
-      "end_ms": 7527
+      "start_sample": 24723,
+      "end_sample": 26889,
+      "start_ms": 1545,
+      "end_ms": 1681
     },
     {
       "lang": "en",
       "text": "workout",
-      "start_sample": 120439,
-      "end_sample": 144355,
-      "start_ms": 7527,
-      "end_ms": 9022
+      "start_sample": 26889,
+      "end_sample": 37868,
+      "start_ms": 1681,
+      "end_ms": 2367
     },
     {
       "lang": "ja",
       "text": "してから",
-      "start_sample": 144355,
-      "end_sample": 173061,
-      "start_ms": 9022,
-      "end_ms": 10816
+      "start_sample": 37868,
+      "end_sample": 45484,
+      "start_ms": 2367,
+      "end_ms": 2843
     },
     {
       "lang": "en",
       "text": "protein shake",
-      "start_sample": 173061,
-      "end_sample": 210481,
-      "start_ms": 10816,
-      "end_ms": 13155
+      "start_sample": 45484,
+      "end_sample": 72009,
+      "start_ms": 2843,
+      "end_ms": 4501
     },
     {
       "lang": "ja",
       "text": "を飲んで",
-      "start_sample": 210481,
-      "end_sample": 234416,
-      "start_ms": 13155,
-      "end_ms": 14651
+      "start_sample": 72009,
+      "end_sample": 78983,
+      "start_ms": 4501,
+      "end_ms": 4936
     },
     {
       "lang": "en",
       "text": "office",
-      "start_sample": 234416,
-      "end_sample": 247839,
-      "start_ms": 14651,
-      "end_ms": 15490
+      "start_sample": 78983,
+      "end_sample": 93328,
+      "start_ms": 4936,
+      "end_ms": 5833
     },
     {
       "lang": "ja",
       "text": "に行きます。",
-      "start_sample": 247839,
-      "end_sample": 269016,
-      "start_ms": 15490,
-      "end_ms": 16814
+      "start_sample": 93328,
+      "end_sample": 104029,
+      "start_ms": 5833,
+      "end_ms": 6502
     }
   ],
+  "renders": {
+    "en": {
+      "text": "maiasa gym de workout shi te kara protein shake wo non de office ni iki masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10638,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝",
+          "start_sample": 0,
+          "end_sample": 14423,
+          "start_ms": 0,
+          "end_ms": 901
+        },
+        {
+          "lang": "en",
+          "text": "gym",
+          "start_sample": 14423,
+          "end_sample": 33334,
+          "start_ms": 901,
+          "end_ms": 2083
+        },
+        {
+          "lang": "ja",
+          "text": "で",
+          "start_sample": 33334,
+          "end_sample": 50163,
+          "start_ms": 2083,
+          "end_ms": 3135
+        },
+        {
+          "lang": "en",
+          "text": "workout",
+          "start_sample": 50163,
+          "end_sample": 61542,
+          "start_ms": 3135,
+          "end_ms": 3846
+        },
+        {
+          "lang": "ja",
+          "text": "してから",
+          "start_sample": 61542,
+          "end_sample": 80775,
+          "start_ms": 3846,
+          "end_ms": 5048
+        },
+        {
+          "lang": "en",
+          "text": "protein shake",
+          "start_sample": 80775,
+          "end_sample": 107700,
+          "start_ms": 5048,
+          "end_ms": 6731
+        },
+        {
+          "lang": "ja",
+          "text": "を飲んで",
+          "start_sample": 107700,
+          "end_sample": 133183,
+          "start_ms": 6731,
+          "end_ms": 8324
+        },
+        {
+          "lang": "en",
+          "text": "office",
+          "start_sample": 133183,
+          "end_sample": 147928,
+          "start_ms": 8324,
+          "end_ms": 9246
+        },
+        {
+          "lang": "ja",
+          "text": "に行きます。",
+          "start_sample": 147928,
+          "end_sample": 170204,
+          "start_ms": 9246,
+          "end_ms": 10638
+        }
+      ]
+    },
+    "ja": {
+      "text": "毎朝gymでworkoutしてからprotein shakeを飲んでofficeに行きます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4309,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝",
+          "start_sample": 0,
+          "end_sample": 6412,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "en",
+          "text": "gym",
+          "start_sample": 6412,
+          "end_sample": 10420,
+          "start_ms": 401,
+          "end_ms": 651
+        },
+        {
+          "lang": "ja",
+          "text": "で",
+          "start_sample": 10420,
+          "end_sample": 12986,
+          "start_ms": 651,
+          "end_ms": 812
+        },
+        {
+          "lang": "en",
+          "text": "workout",
+          "start_sample": 12986,
+          "end_sample": 21483,
+          "start_ms": 812,
+          "end_ms": 1343
+        },
+        {
+          "lang": "ja",
+          "text": "してから",
+          "start_sample": 21483,
+          "end_sample": 29499,
+          "start_ms": 1343,
+          "end_ms": 1844
+        },
+        {
+          "lang": "en",
+          "text": "protein shake",
+          "start_sample": 29499,
+          "end_sample": 44570,
+          "start_ms": 1844,
+          "end_ms": 2786
+        },
+        {
+          "lang": "ja",
+          "text": "を飲んで",
+          "start_sample": 44570,
+          "end_sample": 51944,
+          "start_ms": 2786,
+          "end_ms": 3246
+        },
+        {
+          "lang": "en",
+          "text": "office",
+          "start_sample": 51944,
+          "end_sample": 58036,
+          "start_ms": 3246,
+          "end_ms": 3627
+        },
+        {
+          "lang": "ja",
+          "text": "に行きます。",
+          "start_sample": 58036,
+          "end_sample": 68937,
+          "start_ms": 3627,
+          "end_ms": 4309
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 841,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 326,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

@@ -1,34 +1,105 @@
 {
+  "audio_path": "manual/Sakamoto/018.flac",
   "sentence": "The whole 取引 took less than thirty seconds online.",
   "sample_rate": 16000,
-  "duration_ms": 4483,
+  "duration_ms": 2928,
+  "reference_speaker": "en/speaker_041_b54335ce95b5.mp3",
+  "seed": 195,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "The whole",
-      "start_ms": 0,
-      "end_ms": 1400,
       "start_sample": 0,
-      "end_sample": 22400
+      "end_sample": 5735,
+      "start_ms": 0,
+      "end_ms": 358
     },
     {
       "lang": "ja",
       "text": "取引",
-      "start_ms": 1400,
-      "end_ms": 2160,
-      "start_sample": 22400,
-      "end_sample": 34560
+      "start_sample": 5735,
+      "end_sample": 17058,
+      "start_ms": 358,
+      "end_ms": 1066
     },
     {
       "lang": "en",
       "text": "took less than thirty seconds online.",
-      "start_ms": 2160,
-      "end_ms": 4483,
-      "start_sample": 34560,
-      "end_sample": 71724
+      "start_sample": 17058,
+      "end_sample": 46855,
+      "start_ms": 1066,
+      "end_ms": 2928
     }
   ],
+  "renders": {
+    "en": {
+      "text": "The whole torihiki took less than thirty seconds online.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2847,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole",
+          "start_sample": 0,
+          "end_sample": 5935,
+          "start_ms": 0,
+          "end_ms": 371
+        },
+        {
+          "lang": "ja",
+          "text": "取引",
+          "start_sample": 5935,
+          "end_sample": 15561,
+          "start_ms": 371,
+          "end_ms": 973
+        },
+        {
+          "lang": "en",
+          "text": "took less than thirty seconds online.",
+          "start_sample": 15561,
+          "end_sample": 45558,
+          "start_ms": 973,
+          "end_ms": 2847
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole 取引 took less than thirty seconds online.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5800,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole",
+          "start_sample": 0,
+          "end_sample": 14769,
+          "start_ms": 0,
+          "end_ms": 923
+        },
+        {
+          "lang": "ja",
+          "text": "取引",
+          "start_sample": 14769,
+          "end_sample": 26492,
+          "start_ms": 923,
+          "end_ms": 1656
+        },
+        {
+          "lang": "en",
+          "text": "took less than thirty seconds online.",
+          "start_sample": 26492,
+          "end_sample": 92806,
+          "start_ms": 1656,
+          "end_ms": 5800
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 224,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 147,
+  "frame_labels": "eeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

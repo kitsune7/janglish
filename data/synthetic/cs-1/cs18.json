@@ -2,35 +2,104 @@
   "audio_path": "synthetic/cs-1/cs18.flac",
   "sentence": "新しいprojectを来週から始めます。",
   "sample_rate": 16000,
-  "duration_ms": 4299,
+  "duration_ms": 3025,
   "reference_speaker": "en/speaker_024_d461ea23a991.mp3",
+  "seed": 90,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "ja",
       "text": "新しい",
       "start_sample": 0,
-      "end_sample": 13446,
+      "end_sample": 7206,
       "start_ms": 0,
-      "end_ms": 840
+      "end_ms": 450
     },
     {
       "lang": "en",
       "text": "project",
-      "start_sample": 13446,
-      "end_sample": 41228,
-      "start_ms": 840,
-      "end_ms": 2577
+      "start_sample": 7206,
+      "end_sample": 21077,
+      "start_ms": 450,
+      "end_ms": 1317
     },
     {
       "lang": "ja",
       "text": "を来週から始めます。",
-      "start_sample": 41228,
-      "end_sample": 68782,
-      "start_ms": 2577,
-      "end_ms": 4299
+      "start_sample": 21077,
+      "end_sample": 48403,
+      "start_ms": 1317,
+      "end_ms": 3025
     }
   ],
+  "renders": {
+    "en": {
+      "text": "atarashii project wo raishuu kara hajime masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5151,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 11224,
+          "start_ms": 0,
+          "end_ms": 702
+        },
+        {
+          "lang": "en",
+          "text": "project",
+          "start_sample": 11224,
+          "end_sample": 25495,
+          "start_ms": 702,
+          "end_ms": 1593
+        },
+        {
+          "lang": "ja",
+          "text": "を来週から始めます。",
+          "start_sample": 25495,
+          "end_sample": 82418,
+          "start_ms": 1593,
+          "end_ms": 5151
+        }
+      ]
+    },
+    "ja": {
+      "text": "新しいprojectを来週から始めます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2757,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 7406,
+          "start_ms": 0,
+          "end_ms": 463
+        },
+        {
+          "lang": "en",
+          "text": "project",
+          "start_sample": 7406,
+          "end_sample": 16583,
+          "start_ms": 463,
+          "end_ms": 1036
+        },
+        {
+          "lang": "ja",
+          "text": "を来週から始めます。",
+          "start_sample": 16583,
+          "end_sample": 44109,
+          "start_ms": 1036,
+          "end_ms": 2757
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 215,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 152,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

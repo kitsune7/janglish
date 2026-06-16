@@ -1,34 +1,105 @@
 {
+  "audio_path": "manual/Sakamoto/004.flac",
   "sentence": "あの写真はblack and whiteに変換した方がいいかも。",
   "sample_rate": 16000,
-  "duration_ms": 5227,
+  "duration_ms": 3600,
+  "reference_speaker": "jp/speaker_010_4289b80b598b.mp3",
+  "seed": 181,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "ja",
       "text": "あの写真は",
-      "start_ms": 0,
-      "end_ms": 1660,
       "start_sample": 0,
-      "end_sample": 26560
+      "end_sample": 13265,
+      "start_ms": 0,
+      "end_ms": 829
     },
     {
       "lang": "en",
       "text": "black and white",
-      "start_ms": 1660,
-      "end_ms": 2440,
-      "start_sample": 26560,
-      "end_sample": 39040
+      "start_sample": 13265,
+      "end_sample": 37596,
+      "start_ms": 829,
+      "end_ms": 2350
     },
     {
       "lang": "ja",
       "text": "に変換した方がいいかも。",
-      "start_ms": 2440,
-      "end_ms": 5227,
-      "start_sample": 39040,
-      "end_sample": 83635
+      "start_sample": 37596,
+      "end_sample": 57594,
+      "start_ms": 2350,
+      "end_ms": 3600
     }
   ],
+  "renders": {
+    "en": {
+      "text": "ano shashin ha black and white ni henkan shi ta hou ga ii ka mo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5058,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの写真は",
+          "start_sample": 0,
+          "end_sample": 37574,
+          "start_ms": 0,
+          "end_ms": 2348
+        },
+        {
+          "lang": "en",
+          "text": "black and white",
+          "start_sample": 37574,
+          "end_sample": 62305,
+          "start_ms": 2348,
+          "end_ms": 3894
+        },
+        {
+          "lang": "ja",
+          "text": "に変換した方がいいかも。",
+          "start_sample": 62305,
+          "end_sample": 80934,
+          "start_ms": 3894,
+          "end_ms": 5058
+        }
+      ]
+    },
+    "ja": {
+      "text": "あの写真はblack and whiteに変換した方がいいかも。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3447,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの写真は",
+          "start_sample": 0,
+          "end_sample": 13465,
+          "start_ms": 0,
+          "end_ms": 842
+        },
+        {
+          "lang": "en",
+          "text": "black and white",
+          "start_sample": 13465,
+          "end_sample": 34947,
+          "start_ms": 842,
+          "end_ms": 2184
+        },
+        {
+          "lang": "ja",
+          "text": "に変換した方がいいかも。",
+          "start_sample": 34947,
+          "end_sample": 55145,
+          "start_ms": 2184,
+          "end_ms": 3447
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 261,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 180,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

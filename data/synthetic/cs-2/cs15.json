@@ -2,51 +2,152 @@
   "audio_path": "synthetic/cs-2/cs15.flac",
   "sentence": "来週からprojectとtrainingが始まります。",
   "sample_rate": 16000,
-  "duration_ms": 6151,
+  "duration_ms": 3028,
   "reference_speaker": "en/speaker_072_33acedb4c9a7.mp3",
+  "seed": 122,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "ja",
       "text": "来週から",
       "start_sample": 0,
-      "end_sample": 24194,
+      "end_sample": 14129,
       "start_ms": 0,
-      "end_ms": 1512
+      "end_ms": 883
     },
     {
       "lang": "en",
       "text": "project",
-      "start_sample": 24194,
-      "end_sample": 48523,
-      "start_ms": 1512,
-      "end_ms": 3033
+      "start_sample": 14129,
+      "end_sample": 25311,
+      "start_ms": 883,
+      "end_ms": 1582
     },
     {
       "lang": "ja",
       "text": "と",
-      "start_sample": 48523,
-      "end_sample": 67620,
-      "start_ms": 3033,
-      "end_ms": 4226
+      "start_sample": 25311,
+      "end_sample": 27488,
+      "start_ms": 1582,
+      "end_ms": 1718
     },
     {
       "lang": "en",
       "text": "training",
-      "start_sample": 67620,
-      "end_sample": 79270,
-      "start_ms": 4226,
-      "end_ms": 4954
+      "start_sample": 27488,
+      "end_sample": 35291,
+      "start_ms": 1718,
+      "end_ms": 2206
     },
     {
       "lang": "ja",
       "text": "が始まります。",
-      "start_sample": 79270,
-      "end_sample": 98414,
-      "start_ms": 4954,
-      "end_ms": 6151
+      "start_sample": 35291,
+      "end_sample": 48448,
+      "start_ms": 2206,
+      "end_ms": 3028
     }
   ],
+  "renders": {
+    "en": {
+      "text": "raishuu kara project to training ga hajimari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4342,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "来週から",
+          "start_sample": 0,
+          "end_sample": 16401,
+          "start_ms": 0,
+          "end_ms": 1025
+        },
+        {
+          "lang": "en",
+          "text": "project",
+          "start_sample": 16401,
+          "end_sample": 27983,
+          "start_ms": 1025,
+          "end_ms": 1749
+        },
+        {
+          "lang": "ja",
+          "text": "と",
+          "start_sample": 27983,
+          "end_sample": 30074,
+          "start_ms": 1749,
+          "end_ms": 1880
+        },
+        {
+          "lang": "en",
+          "text": "training",
+          "start_sample": 30074,
+          "end_sample": 38277,
+          "start_ms": 1880,
+          "end_ms": 2392
+        },
+        {
+          "lang": "ja",
+          "text": "が始まります。",
+          "start_sample": 38277,
+          "end_sample": 69477,
+          "start_ms": 2392,
+          "end_ms": 4342
+        }
+      ]
+    },
+    "ja": {
+      "text": "来週からprojectとtrainingが始まります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3179,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "来週から",
+          "start_sample": 0,
+          "end_sample": 14329,
+          "start_ms": 0,
+          "end_ms": 896
+        },
+        {
+          "lang": "en",
+          "text": "project",
+          "start_sample": 14329,
+          "end_sample": 25760,
+          "start_ms": 896,
+          "end_ms": 1610
+        },
+        {
+          "lang": "ja",
+          "text": "と",
+          "start_sample": 25760,
+          "end_sample": 28337,
+          "start_ms": 1610,
+          "end_ms": 1771
+        },
+        {
+          "lang": "en",
+          "text": "training",
+          "start_sample": 28337,
+          "end_sample": 37514,
+          "start_ms": 1771,
+          "end_ms": 2345
+        },
+        {
+          "lang": "ja",
+          "text": "が始まります。",
+          "start_sample": 37514,
+          "end_sample": 50871,
+          "start_ms": 2345,
+          "end_ms": 3179
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 308,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 152,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

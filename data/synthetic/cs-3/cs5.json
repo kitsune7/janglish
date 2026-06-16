@@ -2,67 +2,200 @@
   "audio_path": "synthetic/cs-3/cs5.flac",
   "sentence": "I studied 漢字 and 文法 and 語彙 for the test.",
   "sample_rate": 16000,
-  "duration_ms": 5672,
+  "duration_ms": 3557,
   "reference_speaker": "jp/speaker_075_35b3b5e9beb2.mp3",
+  "seed": 133,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "I studied",
       "start_sample": 0,
-      "end_sample": 16762,
+      "end_sample": 9580,
       "start_ms": 0,
-      "end_ms": 1048
+      "end_ms": 599
     },
     {
       "lang": "ja",
       "text": "漢字",
-      "start_sample": 16762,
-      "end_sample": 28446,
-      "start_ms": 1048,
-      "end_ms": 1778
+      "start_sample": 9580,
+      "end_sample": 18156,
+      "start_ms": 599,
+      "end_ms": 1135
     },
     {
       "lang": "en",
       "text": "and",
-      "start_sample": 28446,
-      "end_sample": 39060,
-      "start_ms": 1778,
-      "end_ms": 2441
+      "start_sample": 18156,
+      "end_sample": 20964,
+      "start_ms": 1135,
+      "end_ms": 1310
     },
     {
       "lang": "ja",
       "text": "文法",
-      "start_sample": 39060,
-      "end_sample": 48982,
-      "start_ms": 2441,
-      "end_ms": 3061
+      "start_sample": 20964,
+      "end_sample": 29539,
+      "start_ms": 1310,
+      "end_ms": 1846
     },
     {
       "lang": "en",
       "text": "and",
-      "start_sample": 48982,
-      "end_sample": 57404,
-      "start_ms": 3061,
-      "end_ms": 3588
+      "start_sample": 29539,
+      "end_sample": 35874,
+      "start_ms": 1846,
+      "end_ms": 2242
     },
     {
       "lang": "ja",
       "text": "語彙",
-      "start_sample": 57404,
-      "end_sample": 74070,
-      "start_ms": 3588,
-      "end_ms": 4629
+      "start_sample": 35874,
+      "end_sample": 40923,
+      "start_ms": 2242,
+      "end_ms": 2558
     },
     {
       "lang": "en",
       "text": "for the test.",
-      "start_sample": 74070,
-      "end_sample": 90754,
-      "start_ms": 4629,
-      "end_ms": 5672
+      "start_sample": 40923,
+      "end_sample": 56919,
+      "start_ms": 2558,
+      "end_ms": 3557
     }
   ],
+  "renders": {
+    "en": {
+      "text": "I studied kanji and bunpou and goi for the test.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4149,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I studied",
+          "start_sample": 0,
+          "end_sample": 9780,
+          "start_ms": 0,
+          "end_ms": 611
+        },
+        {
+          "lang": "ja",
+          "text": "漢字",
+          "start_sample": 9780,
+          "end_sample": 17959,
+          "start_ms": 611,
+          "end_ms": 1122
+        },
+        {
+          "lang": "en",
+          "text": "and",
+          "start_sample": 17959,
+          "end_sample": 21167,
+          "start_ms": 1122,
+          "end_ms": 1323
+        },
+        {
+          "lang": "ja",
+          "text": "文法",
+          "start_sample": 21167,
+          "end_sample": 36242,
+          "start_ms": 1323,
+          "end_ms": 2265
+        },
+        {
+          "lang": "en",
+          "text": "and",
+          "start_sample": 36242,
+          "end_sample": 42977,
+          "start_ms": 2265,
+          "end_ms": 2686
+        },
+        {
+          "lang": "ja",
+          "text": "語彙",
+          "start_sample": 42977,
+          "end_sample": 50194,
+          "start_ms": 2686,
+          "end_ms": 3137
+        },
+        {
+          "lang": "en",
+          "text": "for the test.",
+          "start_sample": 50194,
+          "end_sample": 66390,
+          "start_ms": 3137,
+          "end_ms": 4149
+        }
+      ]
+    },
+    "ja": {
+      "text": "I studied 漢字 and 文法 and 語彙 for the test.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3746,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I studied",
+          "start_sample": 0,
+          "end_sample": 12339,
+          "start_ms": 0,
+          "end_ms": 771
+        },
+        {
+          "lang": "ja",
+          "text": "漢字",
+          "start_sample": 12339,
+          "end_sample": 21315,
+          "start_ms": 771,
+          "end_ms": 1332
+        },
+        {
+          "lang": "en",
+          "text": "and",
+          "start_sample": 21315,
+          "end_sample": 26283,
+          "start_ms": 1332,
+          "end_ms": 1643
+        },
+        {
+          "lang": "ja",
+          "text": "文法",
+          "start_sample": 26283,
+          "end_sample": 35258,
+          "start_ms": 1643,
+          "end_ms": 2204
+        },
+        {
+          "lang": "en",
+          "text": "and",
+          "start_sample": 35258,
+          "end_sample": 40387,
+          "start_ms": 2204,
+          "end_ms": 2524
+        },
+        {
+          "lang": "ja",
+          "text": "語彙",
+          "start_sample": 40387,
+          "end_sample": 45836,
+          "start_ms": 2524,
+          "end_ms": 2865
+        },
+        {
+          "lang": "en",
+          "text": "for the test.",
+          "start_sample": 45836,
+          "end_sample": 59938,
+          "start_ms": 2865,
+          "end_ms": 3746
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 284,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 178,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

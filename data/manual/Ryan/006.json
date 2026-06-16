@@ -1,34 +1,105 @@
 {
+  "audio_path": "manual/Ryan/006.flac",
   "sentence": "Can you please describe where the 痛み is most intense?",
   "sample_rate": 16000,
-  "duration_ms": 4510,
+  "duration_ms": 2865,
+  "reference_speaker": "jp/speaker_020_8ca1bbc6858e.mp3",
+  "seed": 203,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "Can you please describe where the",
-      "start_ms": 0,
-      "end_ms": 2400,
       "start_sample": 0,
-      "end_sample": 38400
+      "end_sample": 22966,
+      "start_ms": 0,
+      "end_ms": 1435
     },
     {
       "lang": "ja",
       "text": "痛み",
-      "start_ms": 2400,
-      "end_ms": 2900,
-      "start_sample": 38400,
-      "end_sample": 46400
+      "start_sample": 22966,
+      "end_sample": 28502,
+      "start_ms": 1435,
+      "end_ms": 1781
     },
     {
       "lang": "en",
       "text": "is most intense?",
-      "start_ms": 2900,
-      "end_ms": 4510,
-      "start_sample": 46400,
-      "end_sample": 72154
+      "start_sample": 28502,
+      "end_sample": 45833,
+      "start_ms": 1781,
+      "end_ms": 2865
     }
   ],
+  "renders": {
+    "en": {
+      "text": "Can you please describe where the itami is most intense?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3056,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you please describe where the",
+          "start_sample": 0,
+          "end_sample": 23166,
+          "start_ms": 0,
+          "end_ms": 1448
+        },
+        {
+          "lang": "ja",
+          "text": "痛み",
+          "start_sample": 23166,
+          "end_sample": 31371,
+          "start_ms": 1448,
+          "end_ms": 1961
+        },
+        {
+          "lang": "en",
+          "text": "is most intense?",
+          "start_sample": 31371,
+          "end_sample": 48902,
+          "start_ms": 1961,
+          "end_ms": 3056
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you please describe where the 痛み is most intense?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3309,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you please describe where the",
+          "start_sample": 0,
+          "end_sample": 30805,
+          "start_ms": 0,
+          "end_ms": 1925
+        },
+        {
+          "lang": "ja",
+          "text": "痛み",
+          "start_sample": 30805,
+          "end_sample": 36741,
+          "start_ms": 1925,
+          "end_ms": 2296
+        },
+        {
+          "lang": "en",
+          "text": "is most intense?",
+          "start_sample": 36741,
+          "end_sample": 52944,
+          "start_ms": 2296,
+          "end_ms": 3309
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 225,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 144,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

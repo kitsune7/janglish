@@ -2,35 +2,104 @@
   "audio_path": "synthetic/cs-1/cs23.flac",
   "sentence": "今日はscheduleがとても忙しいです。",
   "sample_rate": 16000,
-  "duration_ms": 4613,
+  "duration_ms": 3444,
   "reference_speaker": "jp/speaker_055_b88f2897e0f4.mp3",
+  "seed": 95,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "ja",
       "text": "今日は",
       "start_sample": 0,
-      "end_sample": 17972,
+      "end_sample": 5435,
       "start_ms": 0,
-      "end_ms": 1123
+      "end_ms": 340
     },
     {
       "lang": "en",
       "text": "schedule",
-      "start_sample": 17972,
-      "end_sample": 51158,
-      "start_ms": 1123,
-      "end_ms": 3197
+      "start_sample": 5435,
+      "end_sample": 34696,
+      "start_ms": 340,
+      "end_ms": 2168
     },
     {
       "lang": "ja",
       "text": "がとても忙しいです。",
-      "start_sample": 51158,
-      "end_sample": 73811,
-      "start_ms": 3197,
-      "end_ms": 4613
+      "start_sample": 34696,
+      "end_sample": 55101,
+      "start_ms": 2168,
+      "end_ms": 3444
     }
   ],
+  "renders": {
+    "en": {
+      "text": "kyou ha schedule ga totemo isogashii desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6153,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日は",
+          "start_sample": 0,
+          "end_sample": 14910,
+          "start_ms": 0,
+          "end_ms": 932
+        },
+        {
+          "lang": "en",
+          "text": "schedule",
+          "start_sample": 14910,
+          "end_sample": 44571,
+          "start_ms": 932,
+          "end_ms": 2786
+        },
+        {
+          "lang": "ja",
+          "text": "がとても忙しいです。",
+          "start_sample": 44571,
+          "end_sample": 98441,
+          "start_ms": 2786,
+          "end_ms": 6153
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日はscheduleがとても忙しいです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2194,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日は",
+          "start_sample": 0,
+          "end_sample": 5635,
+          "start_ms": 0,
+          "end_ms": 352
+        },
+        {
+          "lang": "en",
+          "text": "schedule",
+          "start_sample": 5635,
+          "end_sample": 14491,
+          "start_ms": 352,
+          "end_ms": 906
+        },
+        {
+          "lang": "ja",
+          "text": "がとても忙しいです。",
+          "start_sample": 14491,
+          "end_sample": 35096,
+          "start_ms": 906,
+          "end_ms": 2194
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 231,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 173,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

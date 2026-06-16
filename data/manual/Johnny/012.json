@@ -1,34 +1,105 @@
 {
+  "audio_path": "manual/Johnny/012.flac",
   "sentence": "彼女はcandidな瞬間を撮るのが得意です。",
   "sample_rate": 16000,
-  "duration_ms": 5684,
+  "duration_ms": 2838,
+  "reference_speaker": "jp/speaker_065_12fed3376ff0.mp3",
+  "seed": 169,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "ja",
       "text": "彼女は",
-      "start_ms": 0,
-      "end_ms": 940,
       "start_sample": 0,
-      "end_sample": 15040
+      "end_sample": 9109,
+      "start_ms": 0,
+      "end_ms": 569
     },
     {
       "lang": "en",
       "text": "candid",
-      "start_ms": 940,
-      "end_ms": 1740,
-      "start_sample": 15040,
-      "end_sample": 27840
+      "start_sample": 9109,
+      "end_sample": 15115,
+      "start_ms": 569,
+      "end_ms": 945
     },
     {
       "lang": "ja",
       "text": "な瞬間を撮るのが得意です。",
-      "start_ms": 1740,
-      "end_ms": 5684,
-      "start_sample": 27840,
-      "end_sample": 90945
+      "start_sample": 15115,
+      "end_sample": 45410,
+      "start_ms": 945,
+      "end_ms": 2838
     }
   ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha candid na shunkan wo toru no ga tokui desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6466,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 19859,
+          "start_ms": 0,
+          "end_ms": 1241
+        },
+        {
+          "lang": "en",
+          "text": "candid",
+          "start_sample": 19859,
+          "end_sample": 26265,
+          "start_ms": 1241,
+          "end_ms": 1642
+        },
+        {
+          "lang": "ja",
+          "text": "な瞬間を撮るのが得意です。",
+          "start_sample": 26265,
+          "end_sample": 103460,
+          "start_ms": 1642,
+          "end_ms": 6466
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はcandidな瞬間を撮るのが得意です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3050,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 9309,
+          "start_ms": 0,
+          "end_ms": 582
+        },
+        {
+          "lang": "en",
+          "text": "candid",
+          "start_sample": 9309,
+          "end_sample": 18299,
+          "start_ms": 582,
+          "end_ms": 1144
+        },
+        {
+          "lang": "ja",
+          "text": "な瞬間を撮るのが得意です。",
+          "start_sample": 18299,
+          "end_sample": 48794,
+          "start_ms": 1144,
+          "end_ms": 3050
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 284,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 142,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

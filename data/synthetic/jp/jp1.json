@@ -2,18 +2,39 @@
   "audio_path": "synthetic/jp/jp1.flac",
   "sentence": "お名前は何ですか？",
   "sample_rate": 16000,
-  "duration_ms": 1309,
+  "duration_ms": 1319,
   "reference_speaker": "jp/speaker_009_33102318f73b.mp3",
+  "seed": 58,
+  "tts_language": "ja",
+  "alignment": "forced",
   "spans": [
     {
       "lang": "ja",
       "text": "お名前は何ですか？",
       "start_sample": 0,
-      "end_sample": 20937,
+      "end_sample": 21108,
       "start_ms": 0,
-      "end_ms": 1309
+      "end_ms": 1319
     }
   ],
+  "renders": {
+    "ja": {
+      "text": "お名前は何ですか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 1319,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お名前は何ですか？",
+          "start_sample": 0,
+          "end_sample": 21108,
+          "start_ms": 0,
+          "end_ms": 1319
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
   "num_frames": 66,
   "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"

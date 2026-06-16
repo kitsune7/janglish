@@ -1,34 +1,105 @@
 {
+  "audio_path": "manual/Ryan/001.flac",
   "sentence": "I've been 節約 all year just to afford this down payment.",
   "sample_rate": 16000,
-  "duration_ms": 5982,
+  "duration_ms": 2987,
+  "reference_speaker": "jp/speaker_053_8435a3c28f36.mp3",
+  "seed": 198,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
   "spans": [
     {
       "lang": "en",
       "text": "I've been",
-      "start_ms": 0,
-      "end_ms": 1660,
       "start_sample": 0,
-      "end_sample": 26560
+      "end_sample": 4794,
+      "start_ms": 0,
+      "end_ms": 300
     },
     {
       "lang": "ja",
       "text": "節約",
-      "start_ms": 1660,
-      "end_ms": 2280,
-      "start_sample": 26560,
-      "end_sample": 36480
+      "start_sample": 4794,
+      "end_sample": 15136,
+      "start_ms": 300,
+      "end_ms": 946
     },
     {
       "lang": "en",
       "text": "all year just to afford this down payment.",
-      "start_ms": 2280,
-      "end_ms": 5982,
-      "start_sample": 36480,
-      "end_sample": 95718
+      "start_sample": 15136,
+      "end_sample": 47799,
+      "start_ms": 946,
+      "end_ms": 2987
     }
   ],
+  "renders": {
+    "en": {
+      "text": "I've been setsuyaku all year just to afford this down payment.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2980,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've been",
+          "start_sample": 0,
+          "end_sample": 4994,
+          "start_ms": 0,
+          "end_ms": 312
+        },
+        {
+          "lang": "ja",
+          "text": "節約",
+          "start_sample": 4994,
+          "end_sample": 14822,
+          "start_ms": 312,
+          "end_ms": 926
+        },
+        {
+          "lang": "en",
+          "text": "all year just to afford this down payment.",
+          "start_sample": 14822,
+          "end_sample": 47685,
+          "start_ms": 926,
+          "end_ms": 2980
+        }
+      ]
+    },
+    "ja": {
+      "text": "I've been 節約 all year just to afford this down payment.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3647,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've been",
+          "start_sample": 0,
+          "end_sample": 6893,
+          "start_ms": 0,
+          "end_ms": 431
+        },
+        {
+          "lang": "ja",
+          "text": "節約",
+          "start_sample": 6893,
+          "end_sample": 17635,
+          "start_ms": 431,
+          "end_ms": 1102
+        },
+        {
+          "lang": "en",
+          "text": "all year just to afford this down payment.",
+          "start_sample": 17635,
+          "end_sample": 58359,
+          "start_ms": 1102,
+          "end_ms": 3647
+        }
+      ]
+    }
+  },
   "frame_rate_hz": 50,
-  "num_frames": 299,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 150,
+  "frame_labels": "eeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }
