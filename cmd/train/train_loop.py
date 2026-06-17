@@ -1,11 +1,17 @@
-import torch
-import torch.nn.functional as F
-from sklearn.metrics import accuracy_score, f1_score
-from transformers import Trainer, TrainingArguments
+import os
 
-from model_setup import model, feature_extractor
+import torch
+import wandb
 from data_collator import FrameLabelCollator
 from dataset import test_data, training_data, validation_data
+from dotenv import load_dotenv
+from model_setup import feature_extractor, model
+from sklearn.metrics import accuracy_score, f1_score
+from torch.nn import functional
+from transformers import Trainer, TrainingArguments
+
+load_dotenv()
+os.environ.setdefault("WANDB_PROJECT", "janglish")
 
 if len(training_data) == 0:
     raise RuntimeError("No training examples found. Check data/data-pairs.csv and matching .flac/.json files.")
@@ -20,7 +26,7 @@ class LidTrainer(Trainer):
         mask = labels.sum(-1) > 0
         targets = labels.argmax(-1)
         if mask.any():
-            loss = F.cross_entropy(logits[mask], targets[mask])
+            loss = functional.cross_entropy(logits[mask], targets[mask])
         else:
             loss = logits.sum() * 0
 
@@ -57,6 +63,8 @@ args = TrainingArguments(
     metric_for_best_model="f1_macro",
     greater_is_better=True,
     logging_steps=5,
+    report_to="wandb",
+    run_name="lid-wav2vec2",
     fp16=torch.cuda.is_available(),
     dataloader_num_workers=0,
     dataloader_pin_memory=False,
@@ -71,5 +79,9 @@ trainer = LidTrainer(
     data_collator=FrameLabelCollator(feature_extractor),
     compute_metrics=compute_metrics,
 )
-trainer.train()
-trainer.evaluate(eval_dataset=test_data, metric_key_prefix="test")
+try:
+    trainer.train()
+    trainer.evaluate(eval_dataset=test_data, metric_key_prefix="test")
+finally:
+    if wandb.run is not None:
+        wandb.finish()
