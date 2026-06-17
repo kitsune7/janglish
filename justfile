@@ -22,6 +22,9 @@ eval *args:
 train:
     uv run python cmd/train/train_loop.py
 
+predict checkpoint audio:
+    uv run python cmd/train/predict.py {{checkpoint}} {{audio}}
+
 deploy-worker:
     npm --prefix worker run deploy
 
