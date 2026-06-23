@@ -142,9 +142,12 @@ def train(
                 continue
 
             if scaler.is_enabled():
+                scaler.unscale_(optimizer)
+                torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
                 scaler.step(optimizer)
                 scaler.update()
             else:
+                torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
                 optimizer.step()
             lr_scheduler.step()
             optimizer.zero_grad(set_to_none=True)
