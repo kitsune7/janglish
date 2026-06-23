@@ -249,10 +249,7 @@ def _render_text_for_language(
         return sentence
 
     parts = [
-        _romanize_japanese_text(span.text, tagger, converter)
-        if span.lang == "ja"
-        else span.text
-        for span in spans
+        _romanize_japanese_text(span.text, tagger, converter) if span.lang == "ja" else span.text for span in spans
     ]
     return " ".join(part for part in parts if part.strip())
 
@@ -328,9 +325,7 @@ def _frame_labels(
     labels: list[str] = []
     for f in range(num_frames):
         center = f * FRAME_STRIDE + FRAME_STRIDE // 2
-        if boundary_ambig_samples > 0 and any(
-            abs(center - sp) <= boundary_ambig_samples for sp in switch_points
-        ):
+        if boundary_ambig_samples > 0 and any(abs(center - sp) <= boundary_ambig_samples for sp in switch_points):
             labels.append("a")
         else:
             labels.append(LANG_TO_CHAR[_find_lang_at(center, spans)])
@@ -366,10 +361,7 @@ class ForcedAligner:
             emission, _ = self.model(wav)
             token_spans = self.aligner(emission[0], self.tokenizer(words))
         ratio = wav.size(1) / emission.size(1)
-        return [
-            (int(spans[0].start * ratio), int(spans[-1].end * ratio))
-            for spans in token_spans
-        ]
+        return [(int(spans[0].start * ratio), int(spans[-1].end * ratio)) for spans in token_spans]
 
 
 def _aligner_words(spans: list[Span], tagger: Tagger, converter) -> tuple[list[str], list[int]]:
@@ -377,11 +369,7 @@ def _aligner_words(spans: list[Span], tagger: Tagger, converter) -> tuple[list[s
     words: list[str] = []
     owner: list[int] = []
     for i, span in enumerate(spans):
-        text = (
-            _romanize_japanese_text(span.text, tagger, converter)
-            if span.lang == "ja"
-            else span.text
-        )
+        text = _romanize_japanese_text(span.text, tagger, converter) if span.lang == "ja" else span.text
         for w in ROMAJI_TOKEN_RE.findall(text.lower()):
             words.append(w)
             owner.append(i)
@@ -519,10 +507,7 @@ class XTTSCodeSwitchSynthesizer:
 
         exts = {".wav", ".mp3", ".flac"}
         self.references = sorted(
-            p
-            for reference_dir in reference_dirs
-            for p in reference_dir.glob("*")
-            if p.suffix.lower() in exts
+            p for reference_dir in reference_dirs for p in reference_dir.glob("*") if p.suffix.lower() in exts
         )
         if not self.references:
             dirs = ", ".join(str(p) for p in reference_dirs)
@@ -640,10 +625,7 @@ class XTTSCodeSwitchSynthesizer:
             needed_langs = ["ja"]
         else:
             needed_langs = ["en", "ja"]
-        renders = {
-            lang: self._synthesize_render(sentence, spans, expected, lang, ref_path)
-            for lang in needed_langs
-        }
+        renders = {lang: self._synthesize_render(sentence, spans, expected, lang, ref_path) for lang in needed_langs}
         render_audio = {lang: render.audio for lang, render in renders.items()}
 
         empty_renders = [lang for lang, render in renders.items() if render.audio.size == 0]
