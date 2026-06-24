@@ -111,7 +111,12 @@ def train(
     device: torch.device,
 ) -> None:
     scaler = torch.amp.GradScaler("cuda", enabled=device.type == "cuda")
-    best_f1 = float("-inf")
+    best_validation_loss = float("inf")
+    best_model_state: dict[str, torch.Tensor] | None = None
+    best_metrics: dict[str, float | list[float]] | None = None
+    best_epoch = 0
+    best_global_step = 0
+    best_train_loss = 0.0
     global_step = 0
 
     optimizer.zero_grad(set_to_none=True)
@@ -119,6 +124,8 @@ def train(
         model.train()
         recent_loss = 0.0
         recent_batches = 0
+        epoch_loss = 0.0
+        epoch_batches = 0
 
         for batch_index, batch in enumerate(train_loader, start=1):
             batch = move_to_device(batch, device)
@@ -133,11 +140,10 @@ def train(
 
             recent_loss += loss.item()
             recent_batches += 1
+            epoch_loss += loss.item()
+            epoch_batches += 1
 
-            should_step = (
-                batch_index % config.gradient_accumulation_steps == 0
-                or batch_index == len(train_loader)
-            )
+            should_step = batch_index % config.gradient_accumulation_steps == 0 or batch_index == len(train_loader)
             if not should_step:
                 continue
 
@@ -164,24 +170,64 @@ def train(
                     step=global_step,
                 )
                 print(
-                    f"epoch={epoch} step={global_step} "
-                    f"loss={average_loss:.4f} lr={lr_scheduler.get_last_lr()[0]:.2e}"
+                    f"epoch={epoch} step={global_step} loss={average_loss:.4f} lr={lr_scheduler.get_last_lr()[0]:.2e}"
                 )
                 recent_loss = 0.0
                 recent_batches = 0
 
+        train_loss = epoch_loss / epoch_batches
         metrics = evaluate(model, validation_loader, device)
-        wandb.log(prefix_metrics(metrics, "validation") | {"epoch": epoch}, step=global_step)
+        validation_loss = float(metrics["loss"])
+        is_best = validation_loss < best_validation_loss
+        if is_best:
+            best_validation_loss = validation_loss
+            best_model_state = copy_model_state_dict(model)
+            best_metrics = copy_metrics(metrics)
+            best_epoch = epoch
+            best_global_step = global_step
+            best_train_loss = train_loss
+
+        epoch_log = prefix_metrics(metrics, "validation") | {
+            "train/epoch_loss": train_loss,
+            "epoch": epoch,
+        }
+        if is_best:
+            epoch_log |= prefix_metrics(metrics, "best") | {
+                "best/epoch": epoch,
+                "best/global_step": global_step,
+                "best/train_loss": train_loss,
+            }
+        wandb.log(epoch_log, step=global_step)
+
+        best_marker = " best" if is_best else ""
         print(
-            f"epoch={epoch} validation "
-            f"loss={metrics['loss']:.4f} accuracy={metrics['accuracy']:.4f} "
-            f"f1_macro={metrics['f1_macro']:.4f}"
+            f"epoch={epoch} train_loss={train_loss:.4f} "
+            f"validation_loss={metrics['loss']:.4f} accuracy={metrics['accuracy']:.4f} "
+            f"f1_macro={metrics['f1_macro']:.4f} {format_per_class_f1(metrics)} "
+            f"lr={lr_scheduler.get_last_lr()[0]:.2e}{best_marker}"
         )
 
-        if metrics["f1_macro"] > best_f1:
-            best_f1 = metrics["f1_macro"]
-            save_best_checkpoint(config.output_dir, metrics, epoch, global_step)
-            wandb.log({"best/f1_macro": best_f1, "best/epoch": epoch}, step=global_step)
+    if best_model_state is None or best_metrics is None:
+        raise RuntimeError("Training completed without selecting a best model.")
+
+    model.load_state_dict(best_model_state)
+    save_final_model(model, config.output_dir)
+    wandb.log(
+        prefix_metrics(best_metrics, "chosen")
+        | {
+            "chosen/epoch": best_epoch,
+            "chosen/global_step": best_global_step,
+            "chosen/train_loss": best_train_loss,
+        },
+        step=global_step,
+    )
+    print(
+        f"saved final model to {config.output_dir} "
+        f"chosen_epoch={best_epoch} chosen_step={best_global_step} "
+        f"train_loss={best_train_loss:.4f} validation_loss={best_metrics['loss']:.4f} "
+        f"accuracy={best_metrics['accuracy']:.4f} f1_macro={best_metrics['f1_macro']:.4f} "
+        f"{format_per_class_f1(best_metrics)}"
+    )
 
 
 def autocast_context(device: torch.device):
@@ -192,6 +238,14 @@ def autocast_context(device: torch.device):
 
 def move_to_device(batch: dict[str, torch.Tensor], device: torch.device) -> dict[str, torch.Tensor]:
     return {key: value.to(device) for key, value in batch.items()}
+
+
+def copy_model_state_dict(model: torch.nn.Module) -> dict[str, torch.Tensor]:
+    return {name: value.detach().cpu().clone() for name, value in model.state_dict().items()}
+
+
+def copy_metrics(metrics: dict[str, float | list[float]]) -> dict[str, float | list[float]]:
+    return {name: value.copy() if isinstance(value, list) else float(value) for name, value in metrics.items()}
 
 
 def compute_loss(model: torch.nn.Module, batch: dict[str, torch.Tensor]) -> tuple[torch.Tensor, torch.Tensor]:
@@ -264,20 +318,17 @@ def prefix_metrics(metrics: dict[str, float | list[float]], prefix: str) -> dict
     return prefixed
 
 
-def save_best_checkpoint(
-    output_dir: Path,
-    metrics: dict[str, float | list[float]],
-    epoch: int,
-    global_step: int,
-) -> None:
-    checkpoint_dir = output_dir / "checkpoint-best"
-    checkpoint_dir.mkdir(parents=True, exist_ok=True)
-    model.save_pretrained(checkpoint_dir)
-    feature_extractor.save_pretrained(checkpoint_dir)
-    print(
-        f"saved best checkpoint to {checkpoint_dir} "
-        f"epoch={epoch} step={global_step} f1_macro={metrics['f1_macro']:.4f}"
-    )
+def format_per_class_f1(metrics: dict[str, float | list[float]]) -> str:
+    per_class = metrics["f1_per_class"]
+    if isinstance(per_class, list) and len(per_class) == 2:
+        return f"f1_e={per_class[0]:.4f} f1_j={per_class[1]:.4f}"
+    return "f1_e=0.0000 f1_j=0.0000"
+
+
+def save_final_model(model: torch.nn.Module, output_dir: Path) -> None:
+    output_dir.mkdir(parents=True, exist_ok=True)
+    model.save_pretrained(output_dir)
+    feature_extractor.save_pretrained(output_dir)
 
 
 if __name__ == "__main__":

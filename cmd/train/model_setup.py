@@ -1,6 +1,5 @@
-from transformers import Wav2Vec2ForAudioFrameClassification, Wav2Vec2FeatureExtractor
-
 from dataset import ID_TO_LABEL, LABEL_TO_ID
+from transformers import Wav2Vec2FeatureExtractor, Wav2Vec2ForAudioFrameClassification
 
 MODEL_ID = "facebook/wav2vec2-xls-r-300m"
 NUM_LABELS = len(LABEL_TO_ID)

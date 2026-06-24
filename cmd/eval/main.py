@@ -7,11 +7,10 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 
-from fugashi import Tagger
 import jiwer
 from faster_whisper import WhisperModel
+from fugashi import Tagger
 from pykakasi import kakasi
-
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_DATA_PAIRS = REPO_ROOT / "data" / "data-pairs.csv"

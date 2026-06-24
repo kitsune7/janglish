@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import csv
 import json
-from math import gcd
 from dataclasses import dataclass
+from math import gcd
 from pathlib import Path
 
 import numpy as np
@@ -11,7 +11,6 @@ import soundfile as sf
 from scipy.signal import resample_poly
 from sklearn.model_selection import GroupShuffleSplit
 from torch.utils.data import Dataset
-
 
 SAMPLE_RATE = 16_000
 LABEL_TO_ID = {"e": 0, "j": 1}

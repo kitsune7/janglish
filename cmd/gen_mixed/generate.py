@@ -170,14 +170,32 @@ SYSTEM_PROMPT = """You generate bilingual Japanese/English mixed ("janglish") se
 HARD RULES:
 1. Output format: one sentence per line, then a pipe, then a plain English gloss.
    Example: 今日はmeetingが三つあります。|I have three meetings today.
-2. The mixed sentence MUST switch naturally between Japanese and English mid-sentence. The switch must make sense in context.
-3. The minority-language words must be NOUNS, ADJECTIVES, or ADVERBS only. NEVER use verbs that require conjugation. NEVER mix grammar/particles/inflections from one language onto a word of the other. Specifically for EN-primary sentences: the Japanese borrowed word must be a bare noun/na-adjective/i-adjective in dictionary form or an adverb. NEVER use Japanese verb forms like 感動した, 落ち着いた, 解放された, している, された, ってくる, になった, 驚いた, 黙って, 混雑した — these are VERBS and are forbidden. Use nouns (e.g., 感動, 余裕, 雰囲気, 本音, 建前) or na-adjectives (e.g., 静か, 丁寧, 新鮮, 豪華) instead.
-4. NEVER use words that sound identical in both languages (loanwords). Examples to AVOID: sushi, ramen, anime, karaoke, karate, ninja, samurai, tsunami, emoji, tofu, matcha, sake, bento, mochi, pikachu, pokemon, nintendo, tokyo, kyoto, osaka, sensei, arigato, konnichiwa, kimono, futon, zen, origami, haiku, bonsai, katana, wagyu, hibachi, yuzu, panko, nori, miso, wasabi, udon, soba, tempura, sashimi, izakaya, konbini, ryokan, onsen, shinkansen, okonomiyaki, takoyaki, shiitake, dashi, umami, daikon.
+2. The mixed sentence MUST switch naturally between Japanese and English mid-sentence.
+   The switch must make sense in context.
+3. The minority-language words must be NOUNS, ADJECTIVES, or ADVERBS only.
+   NEVER use verbs that require conjugation.
+   NEVER mix grammar/particles/inflections from one language onto a word of the other.
+   Specifically for EN-primary sentences: the Japanese borrowed word must be a bare
+   noun/na-adjective/i-adjective in dictionary form or an adverb.
+   NEVER use Japanese verb forms like 感動した, 落ち着いた, 解放された, している, された, ってくる,
+   になった, 驚いた, 黙って, 混雑した — these are VERBS and are forbidden.
+   Use nouns (e.g., 感動, 余裕, 雰囲気, 本音, 建前) or na-adjectives
+   (e.g., 静か, 丁寧, 新鮮, 豪華) instead.
+4. NEVER use words that sound identical in both languages (loanwords). Examples to AVOID:
+   sushi, ramen, anime, karaoke, karate, ninja, samurai, tsunami, emoji, tofu, matcha,
+   sake, bento, mochi, pikachu, pokemon, nintendo, tokyo, kyoto, osaka, sensei,
+   arigato, konnichiwa, kimono, futon, zen, origami, haiku, bonsai, katana, wagyu,
+   hibachi, yuzu, panko, nori, miso, wasabi, udon, soba, tempura, sashimi, izakaya,
+   konbini, ryokan, onsen, shinkansen, okonomiyaki, takoyaki, shiitake, dashi, umami,
+   daikon.
 5. The gloss must be natural plain English (translate any Japanese words).
-6. Use real, common vocabulary. No romaji — write Japanese in actual Japanese script (hiragana/katakana/kanji with ひらがな readings where useful).
-7. Do NOT number the lines. Do NOT add any header, explanation, markdown, or quoting. Output ONLY the sentence|gloss lines.
+6. Use real, common vocabulary. No romaji — write Japanese in actual Japanese script
+   (hiragana/katakana/kanji with ひらがな readings where useful).
+7. Do NOT number the lines. Do NOT add any header, explanation, markdown, or quoting.
+   Output ONLY the sentence|gloss lines.
 8. Do not repeat sentences you've produced before in this batch.
-9. Do not use "san", "chan", "kun", "sama", or similar honorifics as the lone borrowed word — pick something more content-bearing.
+9. Do not use "san", "chan", "kun", "sama", or similar honorifics as the lone borrowed
+   word — pick something more content-bearing.
 """
 
 USER_TEMPLATE = """Generate exactly {n} bilingual sentences on the theme: {theme}.
@@ -186,8 +204,10 @@ DIRECTION: {direction}
 
 {direction_detail}
 
-Vary sentence structures (statements, questions, requests, exclamations, past/present/future, first/second/third person).
-Vary which English/Japanese words are borrowed — don't reuse the same borrowed word across more than 2 lines in this batch.
+Vary sentence structures (statements, questions, requests, exclamations,
+past/present/future, first/second/third person).
+Vary which English/Japanese words are borrowed — don't reuse the same borrowed word
+across more than 2 lines in this batch.
 Avoid clichés.
 
 Output format, one per line:

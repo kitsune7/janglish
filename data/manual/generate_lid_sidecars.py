@@ -83,8 +83,8 @@ import os
 import sys
 
 import numpy as np
-import soundfile as sf
 import pykakasi
+import soundfile as sf
 
 FRAME_HZ = 50
 FRAME_MS = 1000 // FRAME_HZ  # 20 ms per frame

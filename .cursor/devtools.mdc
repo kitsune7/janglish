@@ -1,0 +1,4 @@
+---
+alwaysApply: true
+---
+This project uses `uv` for working with Python. Prefix your commands with `uv run` so that the dependencies in `pyproject.toml` resolve correctly. Don't use pip for anything or expect python packages like `ruff` or `pytest` to be installed globally. Manage dependencies and run tools and scripts with `uv`.
