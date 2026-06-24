@@ -19,8 +19,8 @@ list-progress name="":
 eval *args:
     uv run python cmd/eval/main.py {{args}}
 
-train *args:
-    uv run python cmd/train/train_loop.py {{args}}
+train:
+    uv run python cmd/train/train_loop.py
 
 predict checkpoint audio:
     uv run python cmd/train/predict.py {{checkpoint}} {{audio}}

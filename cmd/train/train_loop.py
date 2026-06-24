@@ -33,7 +33,7 @@ class TrainingConfig:
     gradient_accumulation_steps: int = 4  # effective batch 8; tune to your VRAM
     learning_rate: float = 3e-5  # standard for wav2vec2 fine-tuning
     warmup_steps: int = 4
-    num_train_epochs: int = 20
+    num_train_epochs: int = 40
     lr_scheduler_type: str = "linear"
     logging_steps: int = 5
     run_name: str = "lid-wav2vec2"
@@ -78,6 +78,7 @@ def main() -> None:
         name=config.run_name,
         config=wandb_config(config, device, total_optimizer_steps),
     )
+    configure_wandb_metrics()
     try:
         train(model, train_loader, validation_loader, optimizer, lr_scheduler, config, device)
     finally:
@@ -99,6 +100,15 @@ def wandb_config(config: TrainingConfig, device: torch.device, total_optimizer_s
     values["device"] = str(device)
     values["total_optimizer_steps"] = total_optimizer_steps
     return values
+
+
+def configure_wandb_metrics() -> None:
+    wandb.define_metric("epoch")
+    wandb.define_metric("train/epoch")
+    wandb.define_metric("train/*", step_metric="train/epoch")
+    wandb.define_metric("validation/*", step_metric="epoch")
+    wandb.define_metric("best/*", step_metric="epoch")
+    wandb.define_metric("chosen/*", step_metric="epoch")
 
 
 def train(
@@ -161,10 +171,13 @@ def train(
             global_step += 1
             if global_step % config.logging_steps == 0:
                 average_loss = recent_loss / recent_batches
+                epoch_progress = epoch - 1 + batch_index / len(train_loader)
                 wandb.log(
                     {
                         "train/loss": average_loss,
                         "train/learning_rate": lr_scheduler.get_last_lr()[0],
+                        "train/epoch": epoch_progress,
+                        "train/global_step": global_step,
                         "epoch": epoch,
                     },
                     step=global_step,
@@ -189,6 +202,8 @@ def train(
 
         epoch_log = prefix_metrics(metrics, "validation") | {
             "train/epoch_loss": train_loss,
+            "train/epoch": float(epoch),
+            "train/global_step": global_step,
             "epoch": epoch,
         }
         if is_best:
@@ -218,6 +233,7 @@ def train(
             "chosen/epoch": best_epoch,
             "chosen/global_step": best_global_step,
             "chosen/train_loss": best_train_loss,
+            "epoch": best_epoch,
         },
         step=global_step,
     )
