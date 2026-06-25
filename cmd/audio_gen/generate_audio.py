@@ -23,6 +23,7 @@ only stitches cuts from full-sentence renders.
 
 CSV format (no header by default; pass --has-header if yours has one):
     path/to/output.wav | the sentence to encode, 日本語 included
+    manual/... rows are recorded clips and are ignored for synthesis.
 
 Outputs per row:
     {out-root}/{path}.wav     — mono 16-bit PCM at TARGET_SR
@@ -692,6 +693,8 @@ def iter_rows(csv_path: Path, has_header: bool) -> Iterator[tuple[str, str]]:
                 continue
             path = row[0].strip()
             text = row[1].strip()
+            if path.replace("\\", "/").split("/", 1)[0].lower() == "manual":
+                continue
             if path and text:
                 yield path, text
 
