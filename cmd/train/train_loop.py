@@ -1,32 +1,32 @@
 from __future__ import annotations
 
 import os
+import random
 from contextlib import nullcontext
 from dataclasses import asdict, dataclass
 from math import ceil
 from pathlib import Path
 
+import numpy as np
 import torch
 from data_collator import FrameLabelCollator
-from dataset import training_data, validation_data
+from dataset import load_datasets
 from dotenv import load_dotenv
-from model_setup import feature_extractor, model
+from model_setup import load_model_and_feature_extractor
 from sklearn.metrics import accuracy_score, f1_score
 from torch.nn import functional
 from torch.utils.data import DataLoader
-from transformers import get_scheduler
+from transformers import Wav2Vec2FeatureExtractor, get_scheduler
 
 import wandb
 
 load_dotenv()
 os.environ.setdefault("WANDB_PROJECT", "janglish")
 
-if len(training_data) == 0:
-    raise RuntimeError("No training examples found. Check data/data-pairs.csv and matching .flac/.json files.")
-
 
 @dataclass(frozen=True)
 class TrainingConfig:
+    seed: int = 13
     output_dir: Path = Path("./models/lid-wav2vec2")
     train_batch_size: int = 2
     eval_batch_size: int = 2
@@ -43,8 +43,16 @@ class TrainingConfig:
 
 def main() -> None:
     config = TrainingConfig()
+    seed_everything(config.seed)
+    training_data, validation_data, _ = load_datasets(seed=config.seed)
+    if len(training_data) == 0:
+        raise RuntimeError("No training examples found. Check data/data-pairs.csv and matching .flac/.json files.")
+
     device = resolve_device()
+    model, feature_extractor = load_model_and_feature_extractor()
     collator = FrameLabelCollator(feature_extractor)
+    train_generator = seeded_torch_generator(config.seed)
+    validation_generator = seeded_torch_generator(config.seed)
     train_loader = DataLoader(
         training_data,
         batch_size=config.train_batch_size,
@@ -52,6 +60,8 @@ def main() -> None:
         collate_fn=collator,
         num_workers=config.dataloader_num_workers,
         pin_memory=config.dataloader_pin_memory,
+        generator=train_generator,
+        worker_init_fn=seed_worker,
     )
     validation_loader = DataLoader(
         validation_data,
@@ -60,6 +70,8 @@ def main() -> None:
         collate_fn=collator,
         num_workers=config.dataloader_num_workers,
         pin_memory=config.dataloader_pin_memory,
+        generator=validation_generator,
+        worker_init_fn=seed_worker,
     )
 
     model.to(device)
@@ -80,10 +92,30 @@ def main() -> None:
     )
     configure_wandb_metrics()
     try:
-        train(model, train_loader, validation_loader, optimizer, lr_scheduler, config, device)
+        train(model, feature_extractor, train_loader, validation_loader, optimizer, lr_scheduler, config, device)
     finally:
         if wandb.run is not None:
             wandb.finish()
+
+
+def seed_everything(seed: int) -> None:
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
+
+
+def seeded_torch_generator(seed: int) -> torch.Generator:
+    generator = torch.Generator()
+    generator.manual_seed(seed)
+    return generator
+
+
+def seed_worker(_worker_id: int) -> None:
+    worker_seed = torch.initial_seed() % 2**32
+    random.seed(worker_seed)
+    np.random.seed(worker_seed)
 
 
 def resolve_device() -> torch.device:
@@ -113,6 +145,7 @@ def configure_wandb_metrics() -> None:
 
 def train(
     model: torch.nn.Module,
+    feature_extractor: Wav2Vec2FeatureExtractor,
     train_loader: DataLoader,
     validation_loader: DataLoader,
     optimizer: torch.optim.Optimizer,
@@ -226,7 +259,7 @@ def train(
         raise RuntimeError("Training completed without selecting a best model.")
 
     model.load_state_dict(best_model_state)
-    save_final_model(model, config.output_dir)
+    save_final_model(model, feature_extractor, config.output_dir)
     wandb.log(
         prefix_metrics(best_metrics, "chosen")
         | {
@@ -341,7 +374,7 @@ def format_per_class_f1(metrics: dict[str, float | list[float]]) -> str:
     return "f1_e=0.0000 f1_j=0.0000"
 
 
-def save_final_model(model: torch.nn.Module, output_dir: Path) -> None:
+def save_final_model(model: torch.nn.Module, feature_extractor: Wav2Vec2FeatureExtractor, output_dir: Path) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
     model.save_pretrained(output_dir)
     feature_extractor.save_pretrained(output_dir)

@@ -163,11 +163,19 @@ def _read_labels(path: Path) -> np.ndarray:
 
 
 all_examples = discover_examples()
-train_examples, validation_examples, test_examples = split_examples(all_examples)
 
-training_data = LidFrameDataset(train_examples)
-validation_data = LidFrameDataset(validation_examples)
-test_data = LidFrameDataset(test_examples)
+
+def load_datasets(seed: int = 13) -> tuple[LidFrameDataset, LidFrameDataset, LidFrameDataset]:
+    train_examples, validation_examples, test_examples = split_examples(all_examples, seed=seed)
+    return (
+        LidFrameDataset(train_examples),
+        LidFrameDataset(validation_examples),
+        LidFrameDataset(test_examples),
+    )
+
+
+training_data, validation_data, test_data = load_datasets()
+
 
 # Kept for the existing training loop import.
 evaluation_data = validation_data
