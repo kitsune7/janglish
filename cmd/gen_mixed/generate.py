@@ -23,8 +23,19 @@ import boto3
 from botocore.config import Config
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-OUTPUT_PATH = REPO_ROOT / "data" / "mixed-sentences.csv"
-HEADER = "Sentence|Gloss"
+OUTPUT_PATH = REPO_ROOT / "data" / "cs-multi.csv"
+HEADER = "cs_level|direction|sentence"
+
+# Per-bucket targets, keyed by (direction, cs_level). cs_level = number of
+# minority-language islands (code-switches). cs-4 means "4 or more".
+TARGETS: dict[tuple[str, int], int] = {
+    ("EN_BASE", 2): 3388,
+    ("JP_BASE", 2): 3496,
+    ("EN_BASE", 3): 1850,
+    ("JP_BASE", 3): 1850,
+    ("EN_BASE", 4): 500,
+    ("JP_BASE", 4): 500,
+}
 
 MODEL_ID = os.environ.get("GEN_MODEL_ID", "us.anthropic.claude-sonnet-4-6")
 REGION = os.environ.get("AWS_REGION", "us-east-2")
@@ -204,6 +215,8 @@ DIRECTION: {direction}
 
 {direction_detail}
 
+{island_detail}
+
 Vary sentence structures (statements, questions, requests, exclamations,
 past/present/future, first/second/third person).
 Vary which English/Japanese words are borrowed — don't reuse the same borrowed word
@@ -218,15 +231,38 @@ Produce exactly {n} lines. No preamble, no numbering, no blank lines."""
 DIRECTION_DETAILS = {
     "JP_BASE": (
         "Each sentence is PRIMARILY JAPANESE (subject, verb, particles, sentence structure in Japanese) "
-        "with 1 to 3 ENGLISH words borrowed in as nouns/adjectives/adverbs. "
-        "The English word should feel like a natural loanword-style insertion a bilingual speaker would use."
+        "with ENGLISH words borrowed in as nouns/adjectives/adverbs. "
+        "The English words should feel like natural loanword-style insertions a bilingual speaker would use."
     ),
     "EN_BASE": (
         "Each sentence is PRIMARILY ENGLISH (subject, verb, grammar, structure in English) "
-        "with 1 to 3 JAPANESE words borrowed in as nouns/adjectives/adverbs, written in Japanese script. "
-        "The Japanese word should feel like a natural word a bilingual speaker would code-switch to."
+        "with JAPANESE words borrowed in as nouns/adjectives/adverbs, written in Japanese script. "
+        "The Japanese words should feel like natural words a bilingual speaker would code-switch to."
     ),
 }
+
+# Minority-language word for each direction, used in the island instructions.
+_MINORITY = {"JP_BASE": "English", "EN_BASE": "Japanese"}
+
+
+def island_detail(direction: str, cs_level: int) -> str:
+    minority = _MINORITY[direction]
+    if cs_level >= 4:
+        count_phrase = "FOUR OR MORE separate"
+        n_word = "four or more"
+    else:
+        words = {2: "TWO", 3: "THREE"}[cs_level]
+        count_phrase = f"EXACTLY {words} separate"
+        n_word = {2: "two", 3: "three"}[cs_level]
+    return (
+        f"CODE-SWITCH COUNT: Each sentence must contain {count_phrase} {minority} "
+        f"island(s) — that is, {n_word} distinct runs of {minority} text separated by "
+        f"the primary language. Each island is one or more {minority} words (nouns, "
+        f"adjectives, or adverbs only) sitting at a DIFFERENT point in the sentence, "
+        f"with primary-language text in between them. Do not let the islands touch or "
+        f"merge into one run. Two adjacent {minority} words with nothing between them "
+        f"count as ONE island, not two — keep them apart."
+    )
 
 LINE_RE = re.compile(r"^(.+?)\|(.+)$")
 
@@ -241,12 +277,13 @@ def make_client():
     return boto3.client("bedrock-runtime", config=cfg)
 
 
-def call_model(client, direction: str, theme: str, n: int, seed_salt: str) -> list[str]:
+def call_model(client, direction: str, cs_level: int, theme: str, n: int, seed_salt: str) -> list[str]:
     user = USER_TEMPLATE.format(
         n=n,
         theme=theme,
         direction=direction,
         direction_detail=DIRECTION_DETAILS[direction],
+        island_detail=island_detail(direction, cs_level),
     )
     # Give the model a little per-batch uniqueness hint to reduce repetition across calls
     user += f"\n\n[batch-id: {seed_salt}]"
@@ -340,22 +377,80 @@ def has_jp_verb_segment(sent: str) -> bool:
     return False
 
 
-def validate(direction: str, sent: str) -> bool:
+def _char_class(c: str) -> str | None:
+    """j = Japanese script, e = Latin letter, None = ignored for island runs."""
+    if "぀" <= c <= "ヿ" or "一" <= c <= "鿿" or "ｦ" <= c <= "ﾟ":
+        return "j"
+    if c.isascii() and c.isalpha():
+        return "e"
+    return None
+
+
+def count_islands(sent: str, minority: str) -> int:
+    """Number of `minority`-language islands (code-switches).
+
+    Classify each char as Japanese ('j') / Latin ('e') / ignored, run-length
+    encode the j/e sequence, and count the runs of the minority language.
+    The minority is the inserted language, known from the generation direction
+    (JP_BASE inserts English 'e', EN_BASE inserts Japanese 'j') — passing it in
+    is more robust than inferring it from char counts on borderline sentences.
+    """
+    runs: list[str] = []
+    for c in sent:
+        k = _char_class(c)
+        if k is None:
+            continue
+        if not runs or runs[-1] != k:
+            runs.append(k)
+    return runs.count(minority)
+
+
+def has_hiragana(s: str) -> bool:
+    """Hiragana signals Japanese grammar (particles は/が/を/に/と, okurigana)."""
+    return any("぀" <= c <= "ゟ" for c in s)
+
+
+# English function words: their presence signals English grammatical scaffolding.
+_EN_FUNCTION_WORDS = {
+    "the", "a", "an", "is", "are", "was", "were", "be", "been", "to", "of", "in",
+    "on", "at", "and", "or", "but", "for", "with", "my", "your", "his", "her",
+    "their", "our", "this", "that", "these", "those", "i", "you", "he", "she",
+    "we", "they", "it", "do", "did", "does", "have", "has", "had", "will",
+    "would", "can", "could", "should", "from", "as", "so", "if", "when",
+}
+
+
+def has_en_function_word(s: str) -> bool:
+    return any(w in _EN_FUNCTION_WORDS for w in re.findall(r"[A-Za-z']+", s.lower()))
+
+
+def validate(direction: str, cs_level: int, sent: str) -> bool:
     jp = has_japanese(sent)
     en = has_latin_word(sent)
     if not (jp and en):
         return False
     if has_banned(sent):
         return False
-    jp_count = sum(1 for c in sent if "぀" <= c <= "ヿ" or "一" <= c <= "鿿")
-    latin_count = sum(1 for c in sent if c.isascii() and c.isalpha())
-    if direction == "JP_BASE" and jp_count <= latin_count:
+    # "Primarily X" means X provides the grammatical scaffolding (particles,
+    # function words) — NOT that X has the most characters. Packing in several
+    # short minority-language islands can flip the raw char count while the
+    # sentence stays structurally in the base language, so gate on grammar.
+    if direction == "JP_BASE" and not has_hiragana(sent):
         return False
-    if direction == "EN_BASE" and latin_count <= jp_count:
+    if direction == "EN_BASE" and not has_en_function_word(sent):
         return False
     # For EN-primary sentences, the Japanese borrowed segment must not be
     # a conjugated verb form.
     if direction == "EN_BASE" and has_jp_verb_segment(sent):
+        return False
+    # Switch-count gate: cs-2/3 require an exact island count; cs-4 means 4+.
+    # Minority language = the inserted one: 'e' (English) for JP_BASE, 'j' for EN_BASE.
+    minority = "e" if direction == "JP_BASE" else "j"
+    islands = count_islands(sent, minority)
+    if cs_level >= 4:
+        if islands < 4:
+            return False
+    elif islands != cs_level:
         return False
     return True
 
@@ -374,186 +469,201 @@ class Dedup:
             return True
 
 
-def load_existing(path: Path) -> tuple[int, int, Dedup]:
+def load_existing(path: Path) -> tuple[dict[tuple[str, int], int], Dedup]:
+    """Return per-bucket counts {(direction, cs_level): n} and a primed Dedup."""
     dedup = Dedup()
-    jp_count = en_count = 0
+    counts: dict[tuple[str, int], int] = {k: 0 for k in TARGETS}
     if not path.exists():
-        return 0, 0, dedup
+        return counts, dedup
     with path.open("r", encoding="utf-8") as f:
         header = f.readline()
         if header.strip() != HEADER:
             # treat as empty and rewrite
-            return 0, 0, dedup
+            return counts, dedup
         for ln in f:
-            parsed = clean_line(ln)
-            if not parsed:
+            parts = ln.rstrip("\n").split("|", 2)
+            if len(parts) != 3:
                 continue
-            sent, _ = parsed
+            level_s, direction, sent = parts
+            try:
+                key = (direction, int(level_s))
+            except ValueError:
+                continue
             dedup.add(sent)
-            # Rough classification by script dominance
-            jp_c = sum(1 for c in sent if "぀" <= c <= "ヿ" or "一" <= c <= "鿿")
-            la_c = sum(1 for c in sent if c.isascii() and c.isalpha())
-            if jp_c > la_c:
-                jp_count += 1
-            else:
-                en_count += 1
-    return jp_count, en_count, dedup
+            if key in counts:
+                counts[key] += 1
+    return counts, dedup
 
 
-def run(target_jp: int, target_en: int, batch_size: int, workers: int):
+def run(batch_size: int, workers: int, max_topups: int):
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    new_file = not OUTPUT_PATH.exists()
-    if new_file:
+    if not OUTPUT_PATH.exists():
         with OUTPUT_PATH.open("w", encoding="utf-8") as f:
             f.write(HEADER + "\n")
 
-    have_jp, have_en, dedup = load_existing(OUTPUT_PATH)
-    need_jp = max(0, target_jp - have_jp)
-    need_en = max(0, target_en - have_en)
-    print(
-        f"Have: JP={have_jp} EN={have_en} | Need: JP={need_jp} EN={need_en} | Total target: {target_jp + target_en}",
-        flush=True,
-    )
-    if need_jp == 0 and need_en == 0:
+    counts, dedup = load_existing(OUTPUT_PATH)
+    counts_lock = threading.Lock()
+    file_lock = threading.Lock()
+    goal = sum(TARGETS.values())
+    start = time.time()
+
+    need = {k: max(0, TARGETS[k] - counts[k]) for k in TARGETS}
+    print("Per-bucket status:", flush=True)
+    for k in TARGETS:
+        print(f"  {k[0]} cs-{k[1]}: have {counts[k]} / {TARGETS[k]} (need {need[k]})", flush=True)
+    if all(v == 0 for v in need.values()):
         print("Already complete.")
         return
 
-    # Build work queue: list of (direction, theme, seed_salt)
-    jobs: list[tuple[str, str, str]] = []
+    # Build initial work queue: list of (direction, cs_level, theme, salt).
+    # Over-provision ~20% because validation (island count, verb, loanword) drops lines.
+    jobs: list[tuple[str, int, str, str]] = []
 
-    def enqueue(direction: str, need: int):
-        remaining = need
+    def enqueue(key: tuple[str, int], n_needed: int):
+        direction, level = key
+        remaining = int(n_needed * 1.2) + batch_size
         theme_cycle = THEMES.copy()
         random.shuffle(theme_cycle)
         i = 0
         while remaining > 0:
             theme = theme_cycle[i % len(theme_cycle)]
-            salt = f"{direction}-{random.randint(10**9, 10**10 - 1)}"
-            jobs.append((direction, theme, salt))
+            salt = f"{direction}-cs{level}-{random.randint(10**9, 10**10 - 1)}"
+            jobs.append((direction, level, theme, salt))
             remaining -= batch_size
             i += 1
 
-    # Rough: we'll over-provision by ~20% because validation drops some lines
-    enqueue("JP_BASE", int(need_jp * 1.2) + batch_size)
-    enqueue("EN_BASE", int(need_en * 1.2) + batch_size)
+    for k in TARGETS:
+        if need[k] > 0:
+            enqueue(k, need[k])
     random.shuffle(jobs)
 
     client = make_client()
-    file_lock = threading.Lock()
-    counts = {"JP_BASE": have_jp, "EN_BASE": have_en}
-    counts_lock = threading.Lock()
-    targets = {"JP_BASE": target_jp, "EN_BASE": target_en}
-    start = time.time()
 
-    def worker(direction: str, theme: str, salt: str):
+    def worker(direction: str, level: int, theme: str, salt: str):
+        key = (direction, level)
         with counts_lock:
-            if counts[direction] >= targets[direction]:
+            if counts[key] >= TARGETS[key]:
                 return 0
         try:
-            raw_lines = call_model(client, direction, theme, batch_size, salt)
+            raw_lines = call_model(client, direction, level, theme, batch_size, salt)
         except Exception as e:
-            print(f"[ERR] {direction}/{theme}: {e}", flush=True)
+            print(f"[ERR] {direction}/cs-{level}/{theme}: {e}", flush=True)
             return 0
 
-        accepted: list[tuple[str, str]] = []
+        accepted: list[str] = []
         for ln in raw_lines:
             parsed = clean_line(ln)
             if not parsed:
                 continue
-            sent, gloss = parsed
-            if not validate(direction, sent):
+            sent, _gloss = parsed
+            if not validate(direction, level, sent):
                 continue
             if not dedup.add(sent):
                 continue
-            accepted.append((sent, gloss))
+            accepted.append(sent)
 
         if not accepted:
             return 0
 
         with counts_lock:
-            remaining = targets[direction] - counts[direction]
+            remaining = TARGETS[key] - counts[key]
             if remaining <= 0:
                 return 0
             accepted = accepted[:remaining]
-            counts[direction] += len(accepted)
-            cur_jp = counts["JP_BASE"]
-            cur_en = counts["EN_BASE"]
+            counts[key] += len(accepted)
+            total = sum(counts.values())
 
         with file_lock:
             with OUTPUT_PATH.open("a", encoding="utf-8") as f:
-                for sent, gloss in accepted:
-                    f.write(f"{sent}|{gloss}\n")
+                for sent in accepted:
+                    f.write(f"{level}|{direction}|{sent}\n")
 
         elapsed = time.time() - start
-        total = cur_jp + cur_en
-        goal = targets["JP_BASE"] + targets["EN_BASE"]
         pct = total / goal * 100 if goal else 0
         rate = total / elapsed if elapsed > 0 else 0
         eta = (goal - total) / rate if rate > 0 else 0
         print(
-            f"[{direction}/{theme[:24]:<24}] +{len(accepted):>2} "
-            f"| JP={cur_jp} EN={cur_en} ({pct:.1f}%) "
-            f"| {rate:.1f}/s ETA {eta / 60:.1f}m",
+            f"[{direction}/cs-{level}/{theme[:20]:<20}] +{len(accepted):>2} "
+            f"| {total}/{goal} ({pct:.1f}%) | {rate:.1f}/s ETA {eta / 60:.1f}m",
             flush=True,
         )
         return len(accepted)
 
-    max_topups = 10
     topup_round = 0
     with cf.ThreadPoolExecutor(max_workers=workers) as ex:
-        futures = [ex.submit(worker, d, t, s) for (d, t, s) in jobs]
-        # As jobs complete, if we're still short, queue more (bounded)
-        pending = set(futures)
+        pending = {ex.submit(worker, d, lv, t, s) for (d, lv, t, s) in jobs}
         while pending:
-            done, pending = cf.wait(pending, return_when=cf.FIRST_COMPLETED)
-            for _ in done:
-                pass
+            _done, pending = cf.wait(pending, return_when=cf.FIRST_COMPLETED)
             with counts_lock:
-                short_jp = targets["JP_BASE"] - counts["JP_BASE"]
-                short_en = targets["EN_BASE"] - counts["EN_BASE"]
-            if not pending and (short_jp > 0 or short_en > 0) and topup_round < max_topups:
+                short = {k: TARGETS[k] - counts[k] for k in TARGETS}
+            if not pending and any(v > 0 for v in short.values()) and topup_round < max_topups:
                 topup_round += 1
-                extras: list[tuple[str, str, str]] = []
-                if short_jp > 0:
-                    for _ in range(max(1, (short_jp // batch_size) + 2)):
+                extras: list[tuple[str, int, str, str]] = []
+                for (direction, level), s in short.items():
+                    if s <= 0:
+                        continue
+                    for _ in range(max(1, (s // batch_size) + 2)):
                         extras.append(
                             (
-                                "JP_BASE",
+                                direction,
+                                level,
                                 random.choice(THEMES),
-                                f"JP_BASE-top{topup_round}-{random.randint(10**9, 10**10 - 1)}",
+                                f"{direction}-cs{level}-top{topup_round}-{random.randint(10**9, 10**10 - 1)}",
                             )
                         )
-                if short_en > 0:
-                    for _ in range(max(1, (short_en // batch_size) + 2)):
-                        extras.append(
-                            (
-                                "EN_BASE",
-                                random.choice(THEMES),
-                                f"EN_BASE-top{topup_round}-{random.randint(10**9, 10**10 - 1)}",
-                            )
-                        )
-                print(
-                    f"[top-up round {topup_round}] short JP={short_jp} EN={short_en}, "
-                    f"queueing {len(extras)} more batches",
-                    flush=True,
-                )
-                for d, t, s in extras:
-                    pending.add(ex.submit(worker, d, t, s))
+                short_str = ", ".join(f"{k[0]}cs{k[1]}={v}" for k, v in short.items() if v > 0)
+                print(f"[top-up round {topup_round}] short {short_str}, queueing {len(extras)} batches", flush=True)
+                for d, lv, t, s in extras:
+                    pending.add(ex.submit(worker, d, lv, t, s))
 
-    have_jp, have_en, _ = load_existing(OUTPUT_PATH)
-    print(f"\nFinal: JP={have_jp} EN={have_en} total={have_jp + have_en}", flush=True)
+    counts, _ = load_existing(OUTPUT_PATH)
+    print("\nFinal per-bucket:", flush=True)
+    for k in TARGETS:
+        print(f"  {k[0]} cs-{k[1]}: {counts[k]} / {TARGETS[k]}", flush=True)
+    print(f"Total: {sum(counts.values())} / {goal}", flush=True)
+
+
+def self_check():
+    """Assert count_islands matches the definition on canonical examples."""
+    # (sentence, minority language, expected island count)
+    cases = [
+        ("I went to 東京 and visited 京都 last summer.", "j", 2),  # EN cs-2
+        ("She ate 寿司 and drank お茶 at the restaurant.", "j", 2),
+        ("新しいlaptopとtabletを買いました。", "e", 2),  # JP cs-2
+        ("My お母さん bought 野菜 and お肉 at the market.", "j", 3),  # EN cs-3
+        ("今日はmeetingとlunchとpresentationがありました。", "e", 3),  # JP cs-3
+        ("今日 I ate 寿司 for lunch and 天ぷら for dinner with お茶 afterward.", "j", 4),  # EN cs-4
+        ("毎朝gymでworkoutしてからprotein shakeを飲んでofficeに行きます。", "e", 4),  # JP cs-4
+        ("I really want to eat 寿司 tonight.", "j", 1),  # cs-1 sanity
+        ("新しいlaptoptabletを買いました。", "e", 1),  # adjacent minority words = ONE island
+    ]
+    for sent, minority, expected in cases:
+        got = count_islands(sent, minority)
+        assert got == expected, f"count_islands({sent!r}, {minority!r}) = {got}, expected {expected}"
+
+    # Structural gate: a JP-grammar sentence stays valid even when its 4+ English
+    # islands make Latin the character-majority (the bug that stalled JP cs-4).
+    jp4 = "彼はmeetingでpresentationをしてからclientにemailとreportを送りました。"
+    assert count_islands(jp4, "e") >= 4, "expected 4+ English islands"
+    assert validate("JP_BASE", 4, jp4), "JP-grammar cs-4 must validate despite Latin char-majority"
+    # And an English-grammar sentence with many Japanese islands stays valid.
+    en4 = "The 朝食 was 静か, the 景色 lovely, and the whole 雰囲気 felt 上品."
+    assert validate("EN_BASE", 4, en4), "EN-grammar cs-4 must validate"
+    print(f"self-check OK ({len(cases)} count cases + structural gates)")
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--total", type=int, default=12000)
     ap.add_argument("--batch-size", type=int, default=40)
     ap.add_argument("--workers", type=int, default=8)
+    ap.add_argument("--max-topups", type=int, default=40)
+    ap.add_argument("--self-check", action="store_true", help="Run count_islands asserts and exit.")
     args = ap.parse_args()
 
-    target_jp = args.total // 2
-    target_en = args.total - target_jp
-    run(target_jp, target_en, args.batch_size, args.workers)
+    if args.self_check:
+        self_check()
+        return
+    run(args.batch_size, args.workers, args.max_topups)
 
 
 if __name__ == "__main__":
