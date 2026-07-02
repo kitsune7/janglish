@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10130.flac",
+  "sentence": "彼女はいつもアクセサリーのlayeringが上手い。",
+  "sample_rate": 16000,
+  "duration_ms": 3105,
+  "reference_speaker": "jp/speaker_015_c26b5026d437.mp3",
+  "seed": 10172,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女はいつもアクセサリーの",
+      "start_sample": 0,
+      "end_sample": 29080,
+      "start_ms": 0,
+      "end_ms": 1818
+    },
+    {
+      "lang": "en",
+      "text": "layering",
+      "start_sample": 29080,
+      "end_sample": 39424,
+      "start_ms": 1818,
+      "end_ms": 2464
+    },
+    {
+      "lang": "ja",
+      "text": "が上手い。",
+      "start_sample": 39424,
+      "end_sample": 49676,
+      "start_ms": 2464,
+      "end_ms": 3105
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha itsu mo akusesarii no layering ga umai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5372,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女はいつもアクセサリーの",
+          "start_sample": 0,
+          "end_sample": 57405,
+          "start_ms": 0,
+          "end_ms": 3588
+        },
+        {
+          "lang": "en",
+          "text": "layering",
+          "start_sample": 57405,
+          "end_sample": 68149,
+          "start_ms": 3588,
+          "end_ms": 4259
+        },
+        {
+          "lang": "ja",
+          "text": "が上手い。",
+          "start_sample": 68149,
+          "end_sample": 85946,
+          "start_ms": 4259,
+          "end_ms": 5372
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はいつもアクセサリーのlayeringが上手い。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3076,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女はいつもアクセサリーの",
+          "start_sample": 0,
+          "end_sample": 29280,
+          "start_ms": 0,
+          "end_ms": 1830
+        },
+        {
+          "lang": "en",
+          "text": "layering",
+          "start_sample": 29280,
+          "end_sample": 38772,
+          "start_ms": 1830,
+          "end_ms": 2423
+        },
+        {
+          "lang": "ja",
+          "text": "が上手い。",
+          "start_sample": 38772,
+          "end_sample": 49224,
+          "start_ms": 2423,
+          "end_ms": 3076
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 156,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

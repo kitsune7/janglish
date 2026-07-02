@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1330.flac",
+  "sentence": "The curator spoke about 美意識 as though it were something 普遍的.",
+  "sample_rate": 16000,
+  "duration_ms": 4238,
+  "reference_speaker": "en/speaker_021_0c003e301f78.mp3",
+  "seed": 18185,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The curator spoke about",
+      "start_sample": 0,
+      "end_sample": 17619,
+      "start_ms": 0,
+      "end_ms": 1101
+    },
+    {
+      "lang": "ja",
+      "text": "美意識",
+      "start_sample": 17619,
+      "end_sample": 30850,
+      "start_ms": 1101,
+      "end_ms": 1928
+    },
+    {
+      "lang": "en",
+      "text": "as though it were something",
+      "start_sample": 30850,
+      "end_sample": 54210,
+      "start_ms": 1928,
+      "end_ms": 3388
+    },
+    {
+      "lang": "ja",
+      "text": "普遍的.",
+      "start_sample": 54210,
+      "end_sample": 67800,
+      "start_ms": 3388,
+      "end_ms": 4238
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The curator spoke about bi ishiki as though it were something fuhen teki",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4555,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The curator spoke about",
+          "start_sample": 0,
+          "end_sample": 17819,
+          "start_ms": 0,
+          "end_ms": 1114
+        },
+        {
+          "lang": "ja",
+          "text": "美意識",
+          "start_sample": 17819,
+          "end_sample": 28094,
+          "start_ms": 1114,
+          "end_ms": 1756
+        },
+        {
+          "lang": "en",
+          "text": "as though it were something",
+          "start_sample": 28094,
+          "end_sample": 51854,
+          "start_ms": 1756,
+          "end_ms": 3241
+        },
+        {
+          "lang": "ja",
+          "text": "普遍的.",
+          "start_sample": 51854,
+          "end_sample": 72882,
+          "start_ms": 3241,
+          "end_ms": 4555
+        }
+      ]
+    },
+    "ja": {
+      "text": "The curator spoke about 美意識 as though it were something 普遍的.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6796,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The curator spoke about",
+          "start_sample": 0,
+          "end_sample": 45545,
+          "start_ms": 0,
+          "end_ms": 2847
+        },
+        {
+          "lang": "ja",
+          "text": "美意識",
+          "start_sample": 45545,
+          "end_sample": 59176,
+          "start_ms": 2847,
+          "end_ms": 3698
+        },
+        {
+          "lang": "en",
+          "text": "as though it were something",
+          "start_sample": 59176,
+          "end_sample": 94940,
+          "start_ms": 3698,
+          "end_ms": 5934
+        },
+        {
+          "lang": "ja",
+          "text": "普遍的.",
+          "start_sample": 94940,
+          "end_sample": 108730,
+          "start_ms": 5934,
+          "end_ms": 6796
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 212,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

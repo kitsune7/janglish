@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3661.flac",
+  "sentence": "She always orders her whiskey 水割り style, even at fancy bars.",
+  "sample_rate": 16000,
+  "duration_ms": 4840,
+  "reference_speaker": "en/speaker_026_a41b49f8d6ee.mp3",
+  "seed": 3703,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She always orders her whiskey",
+      "start_sample": 0,
+      "end_sample": 26253,
+      "start_ms": 0,
+      "end_ms": 1641
+    },
+    {
+      "lang": "ja",
+      "text": "水割り",
+      "start_sample": 26253,
+      "end_sample": 35315,
+      "start_ms": 1641,
+      "end_ms": 2207
+    },
+    {
+      "lang": "en",
+      "text": "style, even at fancy bars.",
+      "start_sample": 35315,
+      "end_sample": 77438,
+      "start_ms": 2207,
+      "end_ms": 4840
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She always orders her whiskey mizuwari style, even at fancy bars.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5010,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She always orders her whiskey",
+          "start_sample": 0,
+          "end_sample": 26453,
+          "start_ms": 0,
+          "end_ms": 1653
+        },
+        {
+          "lang": "ja",
+          "text": "水割り",
+          "start_sample": 26453,
+          "end_sample": 37836,
+          "start_ms": 1653,
+          "end_ms": 2365
+        },
+        {
+          "lang": "en",
+          "text": "style, even at fancy bars.",
+          "start_sample": 37836,
+          "end_sample": 80159,
+          "start_ms": 2365,
+          "end_ms": 5010
+        }
+      ]
+    },
+    "ja": {
+      "text": "She always orders her whiskey 水割り style, even at fancy bars.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4810,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She always orders her whiskey",
+          "start_sample": 0,
+          "end_sample": 29823,
+          "start_ms": 0,
+          "end_ms": 1864
+        },
+        {
+          "lang": "ja",
+          "text": "水割り",
+          "start_sample": 29823,
+          "end_sample": 39285,
+          "start_ms": 1864,
+          "end_ms": 2455
+        },
+        {
+          "lang": "en",
+          "text": "style, even at fancy bars.",
+          "start_sample": 39285,
+          "end_sample": 76966,
+          "start_ms": 2455,
+          "end_ms": 4810
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 242,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

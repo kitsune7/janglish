@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs505.flac",
+  "sentence": "The 第一印象 you make in the first thirty seconds really does matter.",
+  "sample_rate": 16000,
+  "duration_ms": 5010,
+  "reference_speaker": "en/speaker_016_fcffb37fddea.mp3",
+  "seed": 547,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1562,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "第一印象",
+      "start_sample": 1562,
+      "end_sample": 24411,
+      "start_ms": 98,
+      "end_ms": 1526
+    },
+    {
+      "lang": "en",
+      "text": "you make in the first thirty seconds really does matter.",
+      "start_sample": 24411,
+      "end_sample": 80156,
+      "start_ms": 1526,
+      "end_ms": 5010
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The dai ichi inshou you make in the first thirty seconds really does matter.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7554,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1762,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "第一印象",
+          "start_sample": 1762,
+          "end_sample": 64922,
+          "start_ms": 110,
+          "end_ms": 4058
+        },
+        {
+          "lang": "en",
+          "text": "you make in the first thirty seconds really does matter.",
+          "start_sample": 64922,
+          "end_sample": 120867,
+          "start_ms": 4058,
+          "end_ms": 7554
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 第一印象 you make in the first thirty seconds really does matter.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9219,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6571,
+          "start_ms": 0,
+          "end_ms": 411
+        },
+        {
+          "lang": "ja",
+          "text": "第一印象",
+          "start_sample": 6571,
+          "end_sample": 29820,
+          "start_ms": 411,
+          "end_ms": 1864
+        },
+        {
+          "lang": "en",
+          "text": "you make in the first thirty seconds really does matter.",
+          "start_sample": 29820,
+          "end_sample": 147506,
+          "start_ms": 1864,
+          "end_ms": 9219
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 251,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

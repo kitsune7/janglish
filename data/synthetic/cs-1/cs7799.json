@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs7799.flac",
+  "sentence": "stormyな夜は、家でお茶を飲みながら本を読むのが最高だ。",
+  "sample_rate": 16000,
+  "duration_ms": 4454,
+  "reference_speaker": "en/speaker_034_add467545a59.mp3",
+  "seed": 7841,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "stormy",
+      "start_sample": 0,
+      "end_sample": 13261,
+      "start_ms": 0,
+      "end_ms": 829
+    },
+    {
+      "lang": "ja",
+      "text": "な夜は、家でお茶を飲みながら本を読むのが最高だ。",
+      "start_sample": 13261,
+      "end_sample": 71264,
+      "start_ms": 829,
+      "end_ms": 4454
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "stormy na yoru ha ie de o cha wo nomi nagara hon wo yomu no ga saikou da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8954,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "stormy",
+          "start_sample": 0,
+          "end_sample": 13461,
+          "start_ms": 0,
+          "end_ms": 841
+        },
+        {
+          "lang": "ja",
+          "text": "な夜は、家でお茶を飲みながら本を読むのが最高だ。",
+          "start_sample": 13461,
+          "end_sample": 143267,
+          "start_ms": 841,
+          "end_ms": 8954
+        }
+      ]
+    },
+    "ja": {
+      "text": "stormyな夜は、家でお茶を飲みながら本を読むのが最高だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4109,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "stormy",
+          "start_sample": 0,
+          "end_sample": 7536,
+          "start_ms": 0,
+          "end_ms": 471
+        },
+        {
+          "lang": "ja",
+          "text": "な夜は、家でお茶を飲みながら本を読むのが最高だ。",
+          "start_sample": 7536,
+          "end_sample": 65739,
+          "start_ms": 471,
+          "end_ms": 4109
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 223,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

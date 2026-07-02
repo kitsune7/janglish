@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8424.flac",
+  "sentence": "Can you help me figure out these 手数料 they keep adding?",
+  "sample_rate": 16000,
+  "duration_ms": 2896,
+  "reference_speaker": "jp/speaker_045_fda9acd0702e.mp3",
+  "seed": 8466,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you help me figure out these",
+      "start_sample": 0,
+      "end_sample": 22340,
+      "start_ms": 0,
+      "end_ms": 1396
+    },
+    {
+      "lang": "ja",
+      "text": "手数料",
+      "start_sample": 22340,
+      "end_sample": 33024,
+      "start_ms": 1396,
+      "end_ms": 2064
+    },
+    {
+      "lang": "en",
+      "text": "they keep adding?",
+      "start_sample": 33024,
+      "end_sample": 46342,
+      "start_ms": 2064,
+      "end_ms": 2896
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you help me figure out these tesuu ryou they keep adding?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3059,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you help me figure out these",
+          "start_sample": 0,
+          "end_sample": 22540,
+          "start_ms": 0,
+          "end_ms": 1409
+        },
+        {
+          "lang": "ja",
+          "text": "手数料",
+          "start_sample": 22540,
+          "end_sample": 35421,
+          "start_ms": 1409,
+          "end_ms": 2214
+        },
+        {
+          "lang": "en",
+          "text": "they keep adding?",
+          "start_sample": 35421,
+          "end_sample": 48939,
+          "start_ms": 2214,
+          "end_ms": 3059
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you help me figure out these 手数料 they keep adding?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3493,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you help me figure out these",
+          "start_sample": 0,
+          "end_sample": 28109,
+          "start_ms": 0,
+          "end_ms": 1757
+        },
+        {
+          "lang": "ja",
+          "text": "手数料",
+          "start_sample": 28109,
+          "end_sample": 39193,
+          "start_ms": 1757,
+          "end_ms": 2450
+        },
+        {
+          "lang": "en",
+          "text": "they keep adding?",
+          "start_sample": 39193,
+          "end_sample": 55894,
+          "start_ms": 2450,
+          "end_ms": 3493
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 145,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs7180.flac",
+  "sentence": "smoothな路面だとタイヤの減りが少なくて済む。",
+  "sample_rate": 16000,
+  "duration_ms": 3265,
+  "reference_speaker": "jp/speaker_037_97f38629e8a3.mp3",
+  "seed": 7222,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "smooth",
+      "start_sample": 0,
+      "end_sample": 10226,
+      "start_ms": 0,
+      "end_ms": 639
+    },
+    {
+      "lang": "ja",
+      "text": "な路面だとタイヤの減りが少なくて済む。",
+      "start_sample": 10226,
+      "end_sample": 52235,
+      "start_ms": 639,
+      "end_ms": 3265
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "smooth na romen da to taiya no heri ga sukunaku te sumu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5995,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "smooth",
+          "start_sample": 0,
+          "end_sample": 10426,
+          "start_ms": 0,
+          "end_ms": 652
+        },
+        {
+          "lang": "ja",
+          "text": "な路面だとタイヤの減りが少なくて済む。",
+          "start_sample": 10426,
+          "end_sample": 95926,
+          "start_ms": 652,
+          "end_ms": 5995
+        }
+      ]
+    },
+    "ja": {
+      "text": "smoothな路面だとタイヤの減りが少なくて済む。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3081,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "smooth",
+          "start_sample": 0,
+          "end_sample": 7089,
+          "start_ms": 0,
+          "end_ms": 443
+        },
+        {
+          "lang": "ja",
+          "text": "な路面だとタイヤの減りが少なくて済む。",
+          "start_sample": 7089,
+          "end_sample": 49298,
+          "start_ms": 443,
+          "end_ms": 3081
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 164,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

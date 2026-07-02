@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4430.flac",
+  "sentence": "I forgot to pack a 歯ブラシ, but thankfully the hotel had one at the front desk.",
+  "sample_rate": 16000,
+  "duration_ms": 4516,
+  "reference_speaker": "jp/speaker_062_ec2cf7781d6b.mp3",
+  "seed": 4472,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I forgot to pack a",
+      "start_sample": 0,
+      "end_sample": 14257,
+      "start_ms": 0,
+      "end_ms": 891
+    },
+    {
+      "lang": "ja",
+      "text": "歯ブラシ,",
+      "start_sample": 14257,
+      "end_sample": 27478,
+      "start_ms": 891,
+      "end_ms": 1717
+    },
+    {
+      "lang": "en",
+      "text": "but thankfully the hotel had one at the front desk.",
+      "start_sample": 27478,
+      "end_sample": 72255,
+      "start_ms": 1717,
+      "end_ms": 4516
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I forgot to pack a ha burashi but thankfully the hotel had one at the front desk.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4879,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I forgot to pack a",
+          "start_sample": 0,
+          "end_sample": 14457,
+          "start_ms": 0,
+          "end_ms": 904
+        },
+        {
+          "lang": "ja",
+          "text": "歯ブラシ,",
+          "start_sample": 14457,
+          "end_sample": 33093,
+          "start_ms": 904,
+          "end_ms": 2068
+        },
+        {
+          "lang": "en",
+          "text": "but thankfully the hotel had one at the front desk.",
+          "start_sample": 33093,
+          "end_sample": 78070,
+          "start_ms": 2068,
+          "end_ms": 4879
+        }
+      ]
+    },
+    "ja": {
+      "text": "I forgot to pack a 歯ブラシ, but thankfully the hotel had one at the front desk.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5789,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I forgot to pack a",
+          "start_sample": 0,
+          "end_sample": 21792,
+          "start_ms": 0,
+          "end_ms": 1362
+        },
+        {
+          "lang": "ja",
+          "text": "歯ブラシ,",
+          "start_sample": 21792,
+          "end_sample": 35413,
+          "start_ms": 1362,
+          "end_ms": 2213
+        },
+        {
+          "lang": "en",
+          "text": "but thankfully the hotel had one at the front desk.",
+          "start_sample": 35413,
+          "end_sample": 92620,
+          "start_ms": 2213,
+          "end_ms": 5789
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 226,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

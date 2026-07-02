@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2841.flac",
+  "sentence": "The portions here are so 大きい that I never finish my plate.",
+  "sample_rate": 16000,
+  "duration_ms": 3814,
+  "reference_speaker": "en/speaker_082_0d071699a4ef.mp3",
+  "seed": 2883,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The portions here are so",
+      "start_sample": 0,
+      "end_sample": 19868,
+      "start_ms": 0,
+      "end_ms": 1242
+    },
+    {
+      "lang": "ja",
+      "text": "大きい",
+      "start_sample": 19868,
+      "end_sample": 29432,
+      "start_ms": 1242,
+      "end_ms": 1840
+    },
+    {
+      "lang": "en",
+      "text": "that I never finish my plate.",
+      "start_sample": 29432,
+      "end_sample": 61018,
+      "start_ms": 1840,
+      "end_ms": 3814
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The portions here are so ookii that I never finish my plate.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3793,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The portions here are so",
+          "start_sample": 0,
+          "end_sample": 20068,
+          "start_ms": 0,
+          "end_ms": 1254
+        },
+        {
+          "lang": "ja",
+          "text": "大きい",
+          "start_sample": 20068,
+          "end_sample": 28898,
+          "start_ms": 1254,
+          "end_ms": 1806
+        },
+        {
+          "lang": "en",
+          "text": "that I never finish my plate.",
+          "start_sample": 28898,
+          "end_sample": 60684,
+          "start_ms": 1806,
+          "end_ms": 3793
+        }
+      ]
+    },
+    "ja": {
+      "text": "The portions here are so 大きい that I never finish my plate.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4781,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The portions here are so",
+          "start_sample": 0,
+          "end_sample": 31820,
+          "start_ms": 0,
+          "end_ms": 1989
+        },
+        {
+          "lang": "ja",
+          "text": "大きい",
+          "start_sample": 31820,
+          "end_sample": 41784,
+          "start_ms": 1989,
+          "end_ms": 2612
+        },
+        {
+          "lang": "en",
+          "text": "that I never finish my plate.",
+          "start_sample": 41784,
+          "end_sample": 76493,
+          "start_ms": 2612,
+          "end_ms": 4781
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 191,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

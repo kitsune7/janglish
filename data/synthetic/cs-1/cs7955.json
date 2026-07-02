@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7955.flac",
+  "sentence": "ガレージにsports carが一台止まっているのが見えた。",
+  "sample_rate": 16000,
+  "duration_ms": 3688,
+  "reference_speaker": "jp/speaker_092_08c69e35de07.mp3",
+  "seed": 7997,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "ガレージに",
+      "start_sample": 0,
+      "end_sample": 9588,
+      "start_ms": 0,
+      "end_ms": 599
+    },
+    {
+      "lang": "en",
+      "text": "sports car",
+      "start_sample": 9588,
+      "end_sample": 27918,
+      "start_ms": 599,
+      "end_ms": 1745
+    },
+    {
+      "lang": "ja",
+      "text": "が一台止まっているのが見えた。",
+      "start_sample": 27918,
+      "end_sample": 59015,
+      "start_ms": 1745,
+      "end_ms": 3688
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "gareeji ni sports car ga ichi dai tomatsu te iru no ga mie ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8384,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ガレージに",
+          "start_sample": 0,
+          "end_sample": 15207,
+          "start_ms": 0,
+          "end_ms": 950
+        },
+        {
+          "lang": "en",
+          "text": "sports car",
+          "start_sample": 15207,
+          "end_sample": 33937,
+          "start_ms": 950,
+          "end_ms": 2121
+        },
+        {
+          "lang": "ja",
+          "text": "が一台止まっているのが見えた。",
+          "start_sample": 33937,
+          "end_sample": 134149,
+          "start_ms": 2121,
+          "end_ms": 8384
+        }
+      ]
+    },
+    "ja": {
+      "text": "ガレージにsports carが一台止まっているのが見えた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3310,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ガレージに",
+          "start_sample": 0,
+          "end_sample": 9788,
+          "start_ms": 0,
+          "end_ms": 612
+        },
+        {
+          "lang": "en",
+          "text": "sports car",
+          "start_sample": 9788,
+          "end_sample": 21665,
+          "start_ms": 612,
+          "end_ms": 1354
+        },
+        {
+          "lang": "ja",
+          "text": "が一台止まっているのが見えた。",
+          "start_sample": 21665,
+          "end_sample": 52962,
+          "start_ms": 1354,
+          "end_ms": 3310
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 185,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11536.flac",
+  "sentence": "I find the 朝の通勤 exhausting even before the workday starts.",
+  "sample_rate": 16000,
+  "duration_ms": 7413,
+  "reference_speaker": "en/speaker_027_12abacd76d5f.mp3",
+  "seed": 11578,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I find the",
+      "start_sample": 0,
+      "end_sample": 10378,
+      "start_ms": 0,
+      "end_ms": 649
+    },
+    {
+      "lang": "ja",
+      "text": "朝の通勤",
+      "start_sample": 10378,
+      "end_sample": 34802,
+      "start_ms": 649,
+      "end_ms": 2175
+    },
+    {
+      "lang": "en",
+      "text": "exhausting even before the workday starts.",
+      "start_sample": 34802,
+      "end_sample": 118607,
+      "start_ms": 2175,
+      "end_ms": 7413
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I find the asa no tsuukin exhausting even before the workday starts.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9218,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I find the",
+          "start_sample": 0,
+          "end_sample": 10578,
+          "start_ms": 0,
+          "end_ms": 661
+        },
+        {
+          "lang": "ja",
+          "text": "朝の通勤",
+          "start_sample": 10578,
+          "end_sample": 63484,
+          "start_ms": 661,
+          "end_ms": 3968
+        },
+        {
+          "lang": "en",
+          "text": "exhausting even before the workday starts.",
+          "start_sample": 63484,
+          "end_sample": 147489,
+          "start_ms": 3968,
+          "end_ms": 9218
+        }
+      ]
+    },
+    "ja": {
+      "text": "I find the 朝の通勤 exhausting even before the workday starts.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7367,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I find the",
+          "start_sample": 0,
+          "end_sample": 14092,
+          "start_ms": 0,
+          "end_ms": 881
+        },
+        {
+          "lang": "ja",
+          "text": "朝の通勤",
+          "start_sample": 14092,
+          "end_sample": 38916,
+          "start_ms": 881,
+          "end_ms": 2432
+        },
+        {
+          "lang": "en",
+          "text": "exhausting even before the workday starts.",
+          "start_sample": 38916,
+          "end_sample": 117871,
+          "start_ms": 2432,
+          "end_ms": 7367
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 371,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

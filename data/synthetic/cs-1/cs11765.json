@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11765.flac",
+  "sentence": "Letting kids experience small 失敗 builds resilience over time.",
+  "sample_rate": 16000,
+  "duration_ms": 5024,
+  "reference_speaker": "en/speaker_052_622e6181fea2.mp3",
+  "seed": 11807,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Letting kids experience small",
+      "start_sample": 0,
+      "end_sample": 37583,
+      "start_ms": 0,
+      "end_ms": 2349
+    },
+    {
+      "lang": "ja",
+      "text": "失敗",
+      "start_sample": 37583,
+      "end_sample": 44403,
+      "start_ms": 2349,
+      "end_ms": 2775
+    },
+    {
+      "lang": "en",
+      "text": "builds resilience over time.",
+      "start_sample": 44403,
+      "end_sample": 80386,
+      "start_ms": 2775,
+      "end_ms": 5024
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Letting kids experience small shippai builds resilience over time.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5143,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Letting kids experience small",
+          "start_sample": 0,
+          "end_sample": 37783,
+          "start_ms": 0,
+          "end_ms": 2361
+        },
+        {
+          "lang": "ja",
+          "text": "失敗",
+          "start_sample": 37783,
+          "end_sample": 46108,
+          "start_ms": 2361,
+          "end_ms": 2882
+        },
+        {
+          "lang": "en",
+          "text": "builds resilience over time.",
+          "start_sample": 46108,
+          "end_sample": 82291,
+          "start_ms": 2882,
+          "end_ms": 5143
+        }
+      ]
+    },
+    "ja": {
+      "text": "Letting kids experience small 失敗 builds resilience over time.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4252,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Letting kids experience small",
+          "start_sample": 0,
+          "end_sample": 31288,
+          "start_ms": 0,
+          "end_ms": 1956
+        },
+        {
+          "lang": "ja",
+          "text": "失敗",
+          "start_sample": 31288,
+          "end_sample": 38508,
+          "start_ms": 1956,
+          "end_ms": 2407
+        },
+        {
+          "lang": "en",
+          "text": "builds resilience over time.",
+          "start_sample": 38508,
+          "end_sample": 68029,
+          "start_ms": 2407,
+          "end_ms": 4252
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 252,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

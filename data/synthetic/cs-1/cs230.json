@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs230.flac",
+  "sentence": "今回の旅でone-wayチケットしか買っていません。",
+  "sample_rate": 16000,
+  "duration_ms": 3527,
+  "reference_speaker": "jp/speaker_053_8435a3c28f36.mp3",
+  "seed": 272,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今回の旅で",
+      "start_sample": 0,
+      "end_sample": 16213,
+      "start_ms": 0,
+      "end_ms": 1013
+    },
+    {
+      "lang": "en",
+      "text": "one-way",
+      "start_sample": 16213,
+      "end_sample": 27510,
+      "start_ms": 1013,
+      "end_ms": 1719
+    },
+    {
+      "lang": "ja",
+      "text": "チケットしか買っていません。",
+      "start_sample": 27510,
+      "end_sample": 56430,
+      "start_ms": 1719,
+      "end_ms": 3527
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "konkai no tabi de one-way chiketto shika katsu te i mase n",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5348,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今回の旅で",
+          "start_sample": 0,
+          "end_sample": 30763,
+          "start_ms": 0,
+          "end_ms": 1923
+        },
+        {
+          "lang": "en",
+          "text": "one-way",
+          "start_sample": 30763,
+          "end_sample": 42460,
+          "start_ms": 1923,
+          "end_ms": 2654
+        },
+        {
+          "lang": "ja",
+          "text": "チケットしか買っていません。",
+          "start_sample": 42460,
+          "end_sample": 85561,
+          "start_ms": 2654,
+          "end_ms": 5348
+        }
+      ]
+    },
+    "ja": {
+      "text": "今回の旅でone-wayチケットしか買っていません。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3379,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今回の旅で",
+          "start_sample": 0,
+          "end_sample": 16413,
+          "start_ms": 0,
+          "end_ms": 1026
+        },
+        {
+          "lang": "en",
+          "text": "one-way",
+          "start_sample": 16413,
+          "end_sample": 24941,
+          "start_ms": 1026,
+          "end_ms": 1559
+        },
+        {
+          "lang": "ja",
+          "text": "チケットしか買っていません。",
+          "start_sample": 24941,
+          "end_sample": 54061,
+          "start_ms": 1559,
+          "end_ms": 3379
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

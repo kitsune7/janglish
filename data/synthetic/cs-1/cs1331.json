@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1331.flac",
+  "sentence": "I always feel so 憂鬱 when the sky stays gray for days on end.",
+  "sample_rate": 16000,
+  "duration_ms": 5305,
+  "reference_speaker": "en/speaker_015_995e028794f8.mp3",
+  "seed": 1373,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always feel so",
+      "start_sample": 0,
+      "end_sample": 22431,
+      "start_ms": 0,
+      "end_ms": 1402
+    },
+    {
+      "lang": "ja",
+      "text": "憂鬱",
+      "start_sample": 22431,
+      "end_sample": 40137,
+      "start_ms": 1402,
+      "end_ms": 2509
+    },
+    {
+      "lang": "en",
+      "text": "when the sky stays gray for days on end.",
+      "start_sample": 40137,
+      "end_sample": 84883,
+      "start_ms": 2509,
+      "end_ms": 5305
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always feel so yuuutsu when the sky stays gray for days on end.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5016,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel so",
+          "start_sample": 0,
+          "end_sample": 22631,
+          "start_ms": 0,
+          "end_ms": 1414
+        },
+        {
+          "lang": "ja",
+          "text": "憂鬱",
+          "start_sample": 22631,
+          "end_sample": 35313,
+          "start_ms": 1414,
+          "end_ms": 2207
+        },
+        {
+          "lang": "en",
+          "text": "when the sky stays gray for days on end.",
+          "start_sample": 35313,
+          "end_sample": 80259,
+          "start_ms": 2207,
+          "end_ms": 5016
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always feel so 憂鬱 when the sky stays gray for days on end.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8933,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel so",
+          "start_sample": 0,
+          "end_sample": 32364,
+          "start_ms": 0,
+          "end_ms": 2023
+        },
+        {
+          "lang": "ja",
+          "text": "憂鬱",
+          "start_sample": 32364,
+          "end_sample": 50470,
+          "start_ms": 2023,
+          "end_ms": 3154
+        },
+        {
+          "lang": "en",
+          "text": "when the sky stays gray for days on end.",
+          "start_sample": 50470,
+          "end_sample": 142921,
+          "start_ms": 3154,
+          "end_ms": 8933
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 266,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

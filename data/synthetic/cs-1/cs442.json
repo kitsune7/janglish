@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs442.flac",
+  "sentence": "We worked 一緒に to clean the whole house from top to bottom in under four hours.",
+  "sample_rate": 16000,
+  "duration_ms": 4455,
+  "reference_speaker": "jp/speaker_083_f660ed2250be.mp3",
+  "seed": 484,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We worked",
+      "start_sample": 0,
+      "end_sample": 8768,
+      "start_ms": 0,
+      "end_ms": 548
+    },
+    {
+      "lang": "ja",
+      "text": "一緒に",
+      "start_sample": 8768,
+      "end_sample": 14462,
+      "start_ms": 548,
+      "end_ms": 904
+    },
+    {
+      "lang": "en",
+      "text": "to clean the whole house from top to bottom in under four hours.",
+      "start_sample": 14462,
+      "end_sample": 71276,
+      "start_ms": 904,
+      "end_ms": 4455
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We worked issho ni to clean the whole house from top to bottom in under four hours.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5345,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We worked",
+          "start_sample": 0,
+          "end_sample": 8968,
+          "start_ms": 0,
+          "end_ms": 560
+        },
+        {
+          "lang": "ja",
+          "text": "一緒に",
+          "start_sample": 8968,
+          "end_sample": 28507,
+          "start_ms": 560,
+          "end_ms": 1782
+        },
+        {
+          "lang": "en",
+          "text": "to clean the whole house from top to bottom in under four hours.",
+          "start_sample": 28507,
+          "end_sample": 85521,
+          "start_ms": 1782,
+          "end_ms": 5345
+        }
+      ]
+    },
+    "ja": {
+      "text": "We worked 一緒に to clean the whole house from top to bottom in under four hours.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4871,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We worked",
+          "start_sample": 0,
+          "end_sample": 8017,
+          "start_ms": 0,
+          "end_ms": 501
+        },
+        {
+          "lang": "ja",
+          "text": "一緒に",
+          "start_sample": 8017,
+          "end_sample": 14111,
+          "start_ms": 501,
+          "end_ms": 882
+        },
+        {
+          "lang": "en",
+          "text": "to clean the whole house from top to bottom in under four hours.",
+          "start_sample": 14111,
+          "end_sample": 77931,
+          "start_ms": 882,
+          "end_ms": 4871
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 223,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

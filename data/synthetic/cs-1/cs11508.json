@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11508.flac",
+  "sentence": "I've never met someone so 上手 at doing a cat-eye flick on the first try.",
+  "sample_rate": 16000,
+  "duration_ms": 3772,
+  "reference_speaker": "en/speaker_041_b54335ce95b5.mp3",
+  "seed": 11550,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I've never met someone so",
+      "start_sample": 0,
+      "end_sample": 17778,
+      "start_ms": 0,
+      "end_ms": 1111
+    },
+    {
+      "lang": "ja",
+      "text": "上手",
+      "start_sample": 17778,
+      "end_sample": 26847,
+      "start_ms": 1111,
+      "end_ms": 1678
+    },
+    {
+      "lang": "en",
+      "text": "at doing a cat-eye flick on the first try.",
+      "start_sample": 26847,
+      "end_sample": 60359,
+      "start_ms": 1678,
+      "end_ms": 3772
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I've never met someone so jouzu at doing a cat-eye flick on the first try.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3652,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've never met someone so",
+          "start_sample": 0,
+          "end_sample": 17978,
+          "start_ms": 0,
+          "end_ms": 1124
+        },
+        {
+          "lang": "ja",
+          "text": "上手",
+          "start_sample": 17978,
+          "end_sample": 24721,
+          "start_ms": 1124,
+          "end_ms": 1545
+        },
+        {
+          "lang": "en",
+          "text": "at doing a cat-eye flick on the first try.",
+          "start_sample": 24721,
+          "end_sample": 58433,
+          "start_ms": 1545,
+          "end_ms": 3652
+        }
+      ]
+    },
+    "ja": {
+      "text": "I've never met someone so 上手 at doing a cat-eye flick on the first try.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6700,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've never met someone so",
+          "start_sample": 0,
+          "end_sample": 31290,
+          "start_ms": 0,
+          "end_ms": 1956
+        },
+        {
+          "lang": "ja",
+          "text": "上手",
+          "start_sample": 31290,
+          "end_sample": 40759,
+          "start_ms": 1956,
+          "end_ms": 2547
+        },
+        {
+          "lang": "en",
+          "text": "at doing a cat-eye flick on the first try.",
+          "start_sample": 40759,
+          "end_sample": 107195,
+          "start_ms": 2547,
+          "end_ms": 6700
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 189,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

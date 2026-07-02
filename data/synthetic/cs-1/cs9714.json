@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9714.flac",
+  "sentence": "小鳥がcageから逃げ出して、部屋中を飛び回っています！",
+  "sample_rate": 16000,
+  "duration_ms": 2986,
+  "reference_speaker": "jp/speaker_063_0760e257c60c.mp3",
+  "seed": 9756,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "小鳥が",
+      "start_sample": 0,
+      "end_sample": 5409,
+      "start_ms": 0,
+      "end_ms": 338
+    },
+    {
+      "lang": "en",
+      "text": "cage",
+      "start_sample": 5409,
+      "end_sample": 12549,
+      "start_ms": 338,
+      "end_ms": 784
+    },
+    {
+      "lang": "ja",
+      "text": "から逃げ出して、部屋中を飛び回っています！",
+      "start_sample": 12549,
+      "end_sample": 47771,
+      "start_ms": 784,
+      "end_ms": 2986
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kotori ga cage kara nigedashi te heya naka wo tobimawatsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7299,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "小鳥が",
+          "start_sample": 0,
+          "end_sample": 14919,
+          "start_ms": 0,
+          "end_ms": 932
+        },
+        {
+          "lang": "en",
+          "text": "cage",
+          "start_sample": 14919,
+          "end_sample": 22459,
+          "start_ms": 932,
+          "end_ms": 1404
+        },
+        {
+          "lang": "ja",
+          "text": "から逃げ出して、部屋中を飛び回っています！",
+          "start_sample": 22459,
+          "end_sample": 116788,
+          "start_ms": 1404,
+          "end_ms": 7299
+        }
+      ]
+    },
+    "ja": {
+      "text": "小鳥がcageから逃げ出して、部屋中を飛び回っています！",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2885,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "小鳥が",
+          "start_sample": 0,
+          "end_sample": 5609,
+          "start_ms": 0,
+          "end_ms": 351
+        },
+        {
+          "lang": "en",
+          "text": "cage",
+          "start_sample": 5609,
+          "end_sample": 10738,
+          "start_ms": 351,
+          "end_ms": 671
+        },
+        {
+          "lang": "ja",
+          "text": "から逃げ出して、部屋中を飛び回っています！",
+          "start_sample": 10738,
+          "end_sample": 46160,
+          "start_ms": 671,
+          "end_ms": 2885
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 150,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs1180.flac",
+  "sentence": "The 集荷 time printed on the box didn't match the driver's actual 到着 time at all.",
+  "sample_rate": 16000,
+  "duration_ms": 5619,
+  "reference_speaker": "en/speaker_031_dcac4ff5a983.mp3",
+  "seed": 18035,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1241,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "集荷",
+      "start_sample": 1241,
+      "end_sample": 10300,
+      "start_ms": 78,
+      "end_ms": 644
+    },
+    {
+      "lang": "en",
+      "text": "time printed on the box didn't match the driver's actual",
+      "start_sample": 10300,
+      "end_sample": 66457,
+      "start_ms": 644,
+      "end_ms": 4154
+    },
+    {
+      "lang": "ja",
+      "text": "到着",
+      "start_sample": 66457,
+      "end_sample": 78722,
+      "start_ms": 4154,
+      "end_ms": 4920
+    },
+    {
+      "lang": "en",
+      "text": "time at all.",
+      "start_sample": 78722,
+      "end_sample": 89897,
+      "start_ms": 4920,
+      "end_ms": 5619
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shuuka time printed on the box didn't match the driver's actual touchaku time at all.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5768,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1441,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "集荷",
+          "start_sample": 1441,
+          "end_sample": 14259,
+          "start_ms": 90,
+          "end_ms": 891
+        },
+        {
+          "lang": "en",
+          "text": "time printed on the box didn't match the driver's actual",
+          "start_sample": 14259,
+          "end_sample": 70816,
+          "start_ms": 891,
+          "end_ms": 4426
+        },
+        {
+          "lang": "ja",
+          "text": "到着",
+          "start_sample": 70816,
+          "end_sample": 80909,
+          "start_ms": 4426,
+          "end_ms": 5057
+        },
+        {
+          "lang": "en",
+          "text": "time at all.",
+          "start_sample": 80909,
+          "end_sample": 92284,
+          "start_ms": 5057,
+          "end_ms": 5768
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 集荷 time printed on the box didn't match the driver's actual 到着 time at all.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 10461,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5449,
+          "start_ms": 0,
+          "end_ms": 341
+        },
+        {
+          "lang": "ja",
+          "text": "集荷",
+          "start_sample": 5449,
+          "end_sample": 14908,
+          "start_ms": 341,
+          "end_ms": 932
+        },
+        {
+          "lang": "en",
+          "text": "time printed on the box didn't match the driver's actual",
+          "start_sample": 14908,
+          "end_sample": 135952,
+          "start_ms": 932,
+          "end_ms": 8497
+        },
+        {
+          "lang": "ja",
+          "text": "到着",
+          "start_sample": 135952,
+          "end_sample": 148617,
+          "start_ms": 8497,
+          "end_ms": 9289
+        },
+        {
+          "lang": "en",
+          "text": "time at all.",
+          "start_sample": 148617,
+          "end_sample": 167373,
+          "start_ms": 9289,
+          "end_ms": 10461
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 281,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

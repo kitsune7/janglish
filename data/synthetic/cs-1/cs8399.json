@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8399.flac",
+  "sentence": "I bought a new 雑巾 because the old one had completely fallen apart.",
+  "sample_rate": 16000,
+  "duration_ms": 3458,
+  "reference_speaker": "jp/speaker_099_c404e17fc007.mp3",
+  "seed": 8441,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I bought a new",
+      "start_sample": 0,
+      "end_sample": 9418,
+      "start_ms": 0,
+      "end_ms": 589
+    },
+    {
+      "lang": "ja",
+      "text": "雑巾",
+      "start_sample": 9418,
+      "end_sample": 18490,
+      "start_ms": 589,
+      "end_ms": 1156
+    },
+    {
+      "lang": "en",
+      "text": "because the old one had completely fallen apart.",
+      "start_sample": 18490,
+      "end_sample": 55320,
+      "start_ms": 1156,
+      "end_ms": 3458
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I bought a new zoukin because the old one had completely fallen apart.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3467,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I bought a new",
+          "start_sample": 0,
+          "end_sample": 9618,
+          "start_ms": 0,
+          "end_ms": 601
+        },
+        {
+          "lang": "ja",
+          "text": "雑巾",
+          "start_sample": 9618,
+          "end_sample": 18435,
+          "start_ms": 601,
+          "end_ms": 1152
+        },
+        {
+          "lang": "en",
+          "text": "because the old one had completely fallen apart.",
+          "start_sample": 18435,
+          "end_sample": 55465,
+          "start_ms": 1152,
+          "end_ms": 3467
+        }
+      ]
+    },
+    "ja": {
+      "text": "I bought a new 雑巾 because the old one had completely fallen apart.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5879,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I bought a new",
+          "start_sample": 0,
+          "end_sample": 17815,
+          "start_ms": 0,
+          "end_ms": 1113
+        },
+        {
+          "lang": "ja",
+          "text": "雑巾",
+          "start_sample": 17815,
+          "end_sample": 27287,
+          "start_ms": 1113,
+          "end_ms": 1705
+        },
+        {
+          "lang": "en",
+          "text": "because the old one had completely fallen apart.",
+          "start_sample": 27287,
+          "end_sample": 94063,
+          "start_ms": 1705,
+          "end_ms": 5879
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 173,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

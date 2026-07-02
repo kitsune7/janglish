@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2928.flac",
+  "sentence": "The artist's use of 空白 in the composition is what makes it so powerful.",
+  "sample_rate": 16000,
+  "duration_ms": 5822,
+  "reference_speaker": "jp/speaker_097_1c56b79c3d3b.mp3",
+  "seed": 2970,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The artist's use of",
+      "start_sample": 0,
+      "end_sample": 19877,
+      "start_ms": 0,
+      "end_ms": 1242
+    },
+    {
+      "lang": "ja",
+      "text": "空白",
+      "start_sample": 19877,
+      "end_sample": 31344,
+      "start_ms": 1242,
+      "end_ms": 1959
+    },
+    {
+      "lang": "en",
+      "text": "in the composition is what makes it so powerful.",
+      "start_sample": 31344,
+      "end_sample": 93149,
+      "start_ms": 1959,
+      "end_ms": 5822
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The artist's use of kuuhaku in the composition is what makes it so powerful.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5863,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The artist's use of",
+          "start_sample": 0,
+          "end_sample": 20077,
+          "start_ms": 0,
+          "end_ms": 1255
+        },
+        {
+          "lang": "ja",
+          "text": "空白",
+          "start_sample": 20077,
+          "end_sample": 31804,
+          "start_ms": 1255,
+          "end_ms": 1988
+        },
+        {
+          "lang": "en",
+          "text": "in the composition is what makes it so powerful.",
+          "start_sample": 31804,
+          "end_sample": 93809,
+          "start_ms": 1988,
+          "end_ms": 5863
+        }
+      ]
+    },
+    "ja": {
+      "text": "The artist's use of 空白 in the composition is what makes it so powerful.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6916,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The artist's use of",
+          "start_sample": 0,
+          "end_sample": 30790,
+          "start_ms": 0,
+          "end_ms": 1924
+        },
+        {
+          "lang": "ja",
+          "text": "空白",
+          "start_sample": 30790,
+          "end_sample": 42657,
+          "start_ms": 1924,
+          "end_ms": 2666
+        },
+        {
+          "lang": "en",
+          "text": "in the composition is what makes it so powerful.",
+          "start_sample": 42657,
+          "end_sample": 110653,
+          "start_ms": 2666,
+          "end_ms": 6916
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 292,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

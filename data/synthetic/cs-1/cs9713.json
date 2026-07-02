@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9713.flac",
+  "sentence": "この猫はindoorで育てているので、外に出たがりません。",
+  "sample_rate": 16000,
+  "duration_ms": 3376,
+  "reference_speaker": "en/speaker_023_9d57aeaf822c.mp3",
+  "seed": 9755,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この猫は",
+      "start_sample": 0,
+      "end_sample": 11215,
+      "start_ms": 0,
+      "end_ms": 701
+    },
+    {
+      "lang": "en",
+      "text": "indoor",
+      "start_sample": 11215,
+      "end_sample": 18039,
+      "start_ms": 701,
+      "end_ms": 1127
+    },
+    {
+      "lang": "ja",
+      "text": "で育てているので、外に出たがりません。",
+      "start_sample": 18039,
+      "end_sample": 54022,
+      "start_ms": 1127,
+      "end_ms": 3376
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono neko ha indoor de sodate te iru no de soto ni shutsu tagari mase n",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7263,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この猫は",
+          "start_sample": 0,
+          "end_sample": 28411,
+          "start_ms": 0,
+          "end_ms": 1776
+        },
+        {
+          "lang": "en",
+          "text": "indoor",
+          "start_sample": 28411,
+          "end_sample": 35635,
+          "start_ms": 1776,
+          "end_ms": 2227
+        },
+        {
+          "lang": "ja",
+          "text": "で育てているので、外に出たがりません。",
+          "start_sample": 35635,
+          "end_sample": 116212,
+          "start_ms": 2227,
+          "end_ms": 7263
+        }
+      ]
+    },
+    "ja": {
+      "text": "この猫はindoorで育てているので、外に出たがりません。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3337,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この猫は",
+          "start_sample": 0,
+          "end_sample": 11415,
+          "start_ms": 0,
+          "end_ms": 713
+        },
+        {
+          "lang": "en",
+          "text": "indoor",
+          "start_sample": 11415,
+          "end_sample": 17205,
+          "start_ms": 713,
+          "end_ms": 1075
+        },
+        {
+          "lang": "ja",
+          "text": "で育てているので、外に出たがりません。",
+          "start_sample": 17205,
+          "end_sample": 53388,
+          "start_ms": 1075,
+          "end_ms": 3337
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 169,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

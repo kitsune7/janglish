@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7986.flac",
+  "sentence": "秋にはleavesが色づいて、庭が一番美しくなる。",
+  "sample_rate": 16000,
+  "duration_ms": 4193,
+  "reference_speaker": "en/speaker_036_d0b62ac1e57e.mp3",
+  "seed": 8028,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "秋には",
+      "start_sample": 0,
+      "end_sample": 10070,
+      "start_ms": 0,
+      "end_ms": 629
+    },
+    {
+      "lang": "en",
+      "text": "leaves",
+      "start_sample": 10070,
+      "end_sample": 15438,
+      "start_ms": 629,
+      "end_ms": 965
+    },
+    {
+      "lang": "ja",
+      "text": "が色づいて、庭が一番美しくなる。",
+      "start_sample": 15438,
+      "end_sample": 67086,
+      "start_ms": 965,
+      "end_ms": 4193
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "aki ni ha leaves ga irozui te niwa ga ichiban utsukushiku naru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7671,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "秋には",
+          "start_sample": 0,
+          "end_sample": 39899,
+          "start_ms": 0,
+          "end_ms": 2494
+        },
+        {
+          "lang": "en",
+          "text": "leaves",
+          "start_sample": 39899,
+          "end_sample": 45667,
+          "start_ms": 2494,
+          "end_ms": 2854
+        },
+        {
+          "lang": "ja",
+          "text": "が色づいて、庭が一番美しくなる。",
+          "start_sample": 45667,
+          "end_sample": 122741,
+          "start_ms": 2854,
+          "end_ms": 7671
+        }
+      ]
+    },
+    "ja": {
+      "text": "秋にはleavesが色づいて、庭が一番美しくなる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4474,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "秋には",
+          "start_sample": 0,
+          "end_sample": 10270,
+          "start_ms": 0,
+          "end_ms": 642
+        },
+        {
+          "lang": "en",
+          "text": "leaves",
+          "start_sample": 10270,
+          "end_sample": 19741,
+          "start_ms": 642,
+          "end_ms": 1234
+        },
+        {
+          "lang": "ja",
+          "text": "が色づいて、庭が一番美しくなる。",
+          "start_sample": 19741,
+          "end_sample": 71589,
+          "start_ms": 1234,
+          "end_ms": 4474
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

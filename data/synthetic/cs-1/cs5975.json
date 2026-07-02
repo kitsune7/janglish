@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5975.flac",
+  "sentence": "あの運転手はいつもon timeで来るから信頼できる。",
+  "sample_rate": 16000,
+  "duration_ms": 3241,
+  "reference_speaker": "jp/speaker_045_fda9acd0702e.mp3",
+  "seed": 6017,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの運転手はいつも",
+      "start_sample": 0,
+      "end_sample": 18343,
+      "start_ms": 0,
+      "end_ms": 1146
+    },
+    {
+      "lang": "en",
+      "text": "on time",
+      "start_sample": 18343,
+      "end_sample": 30452,
+      "start_ms": 1146,
+      "end_ms": 1903
+    },
+    {
+      "lang": "ja",
+      "text": "で来るから信頼できる。",
+      "start_sample": 30452,
+      "end_sample": 51852,
+      "start_ms": 1903,
+      "end_ms": 3241
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano unten te ha itsu mo on time de kuru kara shinrai dekiru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5152,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの運転手はいつも",
+          "start_sample": 0,
+          "end_sample": 40732,
+          "start_ms": 0,
+          "end_ms": 2546
+        },
+        {
+          "lang": "en",
+          "text": "on time",
+          "start_sample": 40732,
+          "end_sample": 53241,
+          "start_ms": 2546,
+          "end_ms": 3328
+        },
+        {
+          "lang": "ja",
+          "text": "で来るから信頼できる。",
+          "start_sample": 53241,
+          "end_sample": 82427,
+          "start_ms": 3328,
+          "end_ms": 5152
+        }
+      ]
+    },
+    "ja": {
+      "text": "あの運転手はいつもon timeで来るから信頼できる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2983,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの運転手はいつも",
+          "start_sample": 0,
+          "end_sample": 18543,
+          "start_ms": 0,
+          "end_ms": 1159
+        },
+        {
+          "lang": "en",
+          "text": "on time",
+          "start_sample": 18543,
+          "end_sample": 26121,
+          "start_ms": 1159,
+          "end_ms": 1633
+        },
+        {
+          "lang": "ja",
+          "text": "で来るから信頼できる。",
+          "start_sample": 26121,
+          "end_sample": 47721,
+          "start_ms": 1633,
+          "end_ms": 2983
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 163,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

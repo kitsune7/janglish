@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8486.flac",
+  "sentence": "私のbackgroundが御社の求めるものと合っていると思います。",
+  "sample_rate": 16000,
+  "duration_ms": 3757,
+  "reference_speaker": "jp/speaker_045_fda9acd0702e.mp3",
+  "seed": 8528,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "私の",
+      "start_sample": 0,
+      "end_sample": 7012,
+      "start_ms": 0,
+      "end_ms": 438
+    },
+    {
+      "lang": "en",
+      "text": "background",
+      "start_sample": 7012,
+      "end_sample": 17041,
+      "start_ms": 438,
+      "end_ms": 1065
+    },
+    {
+      "lang": "ja",
+      "text": "が御社の求めるものと合っていると思います。",
+      "start_sample": 17041,
+      "end_sample": 60113,
+      "start_ms": 1065,
+      "end_ms": 3757
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "watashi no background ga o sha no motomeru mono to atsu te iru to omoi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6418,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私の",
+          "start_sample": 0,
+          "end_sample": 14120,
+          "start_ms": 0,
+          "end_ms": 882
+        },
+        {
+          "lang": "en",
+          "text": "background",
+          "start_sample": 14120,
+          "end_sample": 24549,
+          "start_ms": 882,
+          "end_ms": 1534
+        },
+        {
+          "lang": "ja",
+          "text": "が御社の求めるものと合っていると思います。",
+          "start_sample": 24549,
+          "end_sample": 102690,
+          "start_ms": 1534,
+          "end_ms": 6418
+        }
+      ]
+    },
+    "ja": {
+      "text": "私のbackgroundが御社の求めるものと合っていると思います。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3906,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私の",
+          "start_sample": 0,
+          "end_sample": 7212,
+          "start_ms": 0,
+          "end_ms": 451
+        },
+        {
+          "lang": "en",
+          "text": "background",
+          "start_sample": 7212,
+          "end_sample": 19232,
+          "start_ms": 451,
+          "end_ms": 1202
+        },
+        {
+          "lang": "ja",
+          "text": "が御社の求めるものと合っていると思います。",
+          "start_sample": 19232,
+          "end_sample": 62504,
+          "start_ms": 1202,
+          "end_ms": 3906
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

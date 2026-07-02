@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs553.flac",
+  "sentence": "He chose every word carefully to avoid any 誤解 and to project an image of 信頼.",
+  "sample_rate": 16000,
+  "duration_ms": 5490,
+  "reference_speaker": "en/speaker_079_9589554d8179.mp3",
+  "seed": 17408,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He chose every word carefully to avoid any",
+      "start_sample": 0,
+      "end_sample": 47128,
+      "start_ms": 0,
+      "end_ms": 2946
+    },
+    {
+      "lang": "ja",
+      "text": "誤解",
+      "start_sample": 47128,
+      "end_sample": 53148,
+      "start_ms": 2946,
+      "end_ms": 3322
+    },
+    {
+      "lang": "en",
+      "text": "and to project an image of",
+      "start_sample": 53148,
+      "end_sample": 80985,
+      "start_ms": 3322,
+      "end_ms": 5062
+    },
+    {
+      "lang": "ja",
+      "text": "信頼.",
+      "start_sample": 80985,
+      "end_sample": 87844,
+      "start_ms": 5062,
+      "end_ms": 5490
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He chose every word carefully to avoid any gokai and to project an image of shinrai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6157,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He chose every word carefully to avoid any",
+          "start_sample": 0,
+          "end_sample": 47328,
+          "start_ms": 0,
+          "end_ms": 2958
+        },
+        {
+          "lang": "ja",
+          "text": "誤解",
+          "start_sample": 47328,
+          "end_sample": 61447,
+          "start_ms": 2958,
+          "end_ms": 3840
+        },
+        {
+          "lang": "en",
+          "text": "and to project an image of",
+          "start_sample": 61447,
+          "end_sample": 89684,
+          "start_ms": 3840,
+          "end_ms": 5605
+        },
+        {
+          "lang": "ja",
+          "text": "信頼.",
+          "start_sample": 89684,
+          "end_sample": 98505,
+          "start_ms": 5605,
+          "end_ms": 6157
+        }
+      ]
+    },
+    "ja": {
+      "text": "He chose every word carefully to avoid any 誤解 and to project an image of 信頼.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6480,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He chose every word carefully to avoid any",
+          "start_sample": 0,
+          "end_sample": 53444,
+          "start_ms": 0,
+          "end_ms": 3340
+        },
+        {
+          "lang": "ja",
+          "text": "誤解",
+          "start_sample": 53444,
+          "end_sample": 59864,
+          "start_ms": 3340,
+          "end_ms": 3742
+        },
+        {
+          "lang": "en",
+          "text": "and to project an image of",
+          "start_sample": 59864,
+          "end_sample": 96619,
+          "start_ms": 3742,
+          "end_ms": 6039
+        },
+        {
+          "lang": "ja",
+          "text": "信頼.",
+          "start_sample": 96619,
+          "end_sample": 103678,
+          "start_ms": 6039,
+          "end_ms": 6480
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 275,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjj"
+}

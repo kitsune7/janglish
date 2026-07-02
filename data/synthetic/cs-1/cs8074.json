@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8074.flac",
+  "sentence": "I still feel a trace of 未練 whenever I pass by that old neighborhood.",
+  "sample_rate": 16000,
+  "duration_ms": 4306,
+  "reference_speaker": "en/speaker_055_a1e62e8e91e0.mp3",
+  "seed": 8116,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I still feel a trace of",
+      "start_sample": 0,
+      "end_sample": 20945,
+      "start_ms": 0,
+      "end_ms": 1309
+    },
+    {
+      "lang": "ja",
+      "text": "未練",
+      "start_sample": 20945,
+      "end_sample": 30006,
+      "start_ms": 1309,
+      "end_ms": 1875
+    },
+    {
+      "lang": "en",
+      "text": "whenever I pass by that old neighborhood.",
+      "start_sample": 30006,
+      "end_sample": 68892,
+      "start_ms": 1875,
+      "end_ms": 4306
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I still feel a trace of miren whenever I pass by that old neighborhood.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4245,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I still feel a trace of",
+          "start_sample": 0,
+          "end_sample": 21145,
+          "start_ms": 0,
+          "end_ms": 1322
+        },
+        {
+          "lang": "ja",
+          "text": "未練",
+          "start_sample": 21145,
+          "end_sample": 28834,
+          "start_ms": 1322,
+          "end_ms": 1802
+        },
+        {
+          "lang": "en",
+          "text": "whenever I pass by that old neighborhood.",
+          "start_sample": 28834,
+          "end_sample": 67920,
+          "start_ms": 1802,
+          "end_ms": 4245
+        }
+      ]
+    },
+    "ja": {
+      "text": "I still feel a trace of 未練 whenever I pass by that old neighborhood.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6574,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I still feel a trace of",
+          "start_sample": 0,
+          "end_sample": 31587,
+          "start_ms": 0,
+          "end_ms": 1974
+        },
+        {
+          "lang": "ja",
+          "text": "未練",
+          "start_sample": 31587,
+          "end_sample": 41048,
+          "start_ms": 1974,
+          "end_ms": 2566
+        },
+        {
+          "lang": "en",
+          "text": "whenever I pass by that old neighborhood.",
+          "start_sample": 41048,
+          "end_sample": 105188,
+          "start_ms": 2566,
+          "end_ms": 6574
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 216,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

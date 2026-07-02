@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1093.flac",
+  "sentence": "このfeedに流れてきたメッセージは本物かどうか怪しい。",
+  "sample_rate": 16000,
+  "duration_ms": 3792,
+  "reference_speaker": "jp/speaker_073_b4ca3157591f.mp3",
+  "seed": 1135,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3171,
+      "start_ms": 0,
+      "end_ms": 198
+    },
+    {
+      "lang": "en",
+      "text": "feed",
+      "start_sample": 3171,
+      "end_sample": 10792,
+      "start_ms": 198,
+      "end_ms": 674
+    },
+    {
+      "lang": "ja",
+      "text": "に流れてきたメッセージは本物かどうか怪しい。",
+      "start_sample": 10792,
+      "end_sample": 60680,
+      "start_ms": 674,
+      "end_ms": 3792
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono feed ni nagare te ki ta messeeji ha honmono ka dou ka ayashii",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7359,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5132,
+          "start_ms": 0,
+          "end_ms": 321
+        },
+        {
+          "lang": "en",
+          "text": "feed",
+          "start_sample": 5132,
+          "end_sample": 13153,
+          "start_ms": 321,
+          "end_ms": 822
+        },
+        {
+          "lang": "ja",
+          "text": "に流れてきたメッセージは本物かどうか怪しい。",
+          "start_sample": 13153,
+          "end_sample": 117737,
+          "start_ms": 822,
+          "end_ms": 7359
+        }
+      ]
+    },
+    "ja": {
+      "text": "このfeedに流れてきたメッセージは本物かどうか怪しい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3692,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3371,
+          "start_ms": 0,
+          "end_ms": 211
+        },
+        {
+          "lang": "en",
+          "text": "feed",
+          "start_sample": 3371,
+          "end_sample": 8990,
+          "start_ms": 211,
+          "end_ms": 562
+        },
+        {
+          "lang": "ja",
+          "text": "に流れてきたメッセージは本物かどうか怪しい。",
+          "start_sample": 8990,
+          "end_sample": 59078,
+          "start_ms": 562,
+          "end_ms": 3692
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "jjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

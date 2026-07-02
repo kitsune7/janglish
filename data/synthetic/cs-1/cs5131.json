@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5131.flac",
+  "sentence": "The bartender slid a 冷たい glass across the counter without a word.",
+  "sample_rate": 16000,
+  "duration_ms": 4046,
+  "reference_speaker": "jp/speaker_084_122c648d361d.mp3",
+  "seed": 5173,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The bartender slid a",
+      "start_sample": 0,
+      "end_sample": 17897,
+      "start_ms": 0,
+      "end_ms": 1119
+    },
+    {
+      "lang": "ja",
+      "text": "冷たい",
+      "start_sample": 17897,
+      "end_sample": 26179,
+      "start_ms": 1119,
+      "end_ms": 1636
+    },
+    {
+      "lang": "en",
+      "text": "glass across the counter without a word.",
+      "start_sample": 26179,
+      "end_sample": 64736,
+      "start_ms": 1636,
+      "end_ms": 4046
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The bartender slid a tsumetai glass across the counter without a word.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4104,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bartender slid a",
+          "start_sample": 0,
+          "end_sample": 18097,
+          "start_ms": 0,
+          "end_ms": 1131
+        },
+        {
+          "lang": "ja",
+          "text": "冷たい",
+          "start_sample": 18097,
+          "end_sample": 26905,
+          "start_ms": 1131,
+          "end_ms": 1682
+        },
+        {
+          "lang": "en",
+          "text": "glass across the counter without a word.",
+          "start_sample": 26905,
+          "end_sample": 65662,
+          "start_ms": 1682,
+          "end_ms": 4104
+        }
+      ]
+    },
+    "ja": {
+      "text": "The bartender slid a 冷たい glass across the counter without a word.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4340,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bartender slid a",
+          "start_sample": 0,
+          "end_sample": 22666,
+          "start_ms": 0,
+          "end_ms": 1417
+        },
+        {
+          "lang": "ja",
+          "text": "冷たい",
+          "start_sample": 22666,
+          "end_sample": 31348,
+          "start_ms": 1417,
+          "end_ms": 1959
+        },
+        {
+          "lang": "en",
+          "text": "glass across the counter without a word.",
+          "start_sample": 31348,
+          "end_sample": 69444,
+          "start_ms": 1959,
+          "end_ms": 4340
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10630.flac",
+  "sentence": "She finally got a seat after three packed 電車 passed without stopping.",
+  "sample_rate": 16000,
+  "duration_ms": 4221,
+  "reference_speaker": "en/speaker_040_ec293248c910.mp3",
+  "seed": 10672,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She finally got a seat after three packed",
+      "start_sample": 0,
+      "end_sample": 35562,
+      "start_ms": 0,
+      "end_ms": 2223
+    },
+    {
+      "lang": "ja",
+      "text": "電車",
+      "start_sample": 35562,
+      "end_sample": 45766,
+      "start_ms": 2223,
+      "end_ms": 2860
+    },
+    {
+      "lang": "en",
+      "text": "passed without stopping.",
+      "start_sample": 45766,
+      "end_sample": 67535,
+      "start_ms": 2860,
+      "end_ms": 4221
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She finally got a seat after three packed densha passed without stopping.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3949,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She finally got a seat after three packed",
+          "start_sample": 0,
+          "end_sample": 35762,
+          "start_ms": 0,
+          "end_ms": 2235
+        },
+        {
+          "lang": "ja",
+          "text": "電車",
+          "start_sample": 35762,
+          "end_sample": 41215,
+          "start_ms": 2235,
+          "end_ms": 2576
+        },
+        {
+          "lang": "en",
+          "text": "passed without stopping.",
+          "start_sample": 41215,
+          "end_sample": 63184,
+          "start_ms": 2576,
+          "end_ms": 3949
+        }
+      ]
+    },
+    "ja": {
+      "text": "She finally got a seat after three packed 電車 passed without stopping.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5543,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She finally got a seat after three packed",
+          "start_sample": 0,
+          "end_sample": 53185,
+          "start_ms": 0,
+          "end_ms": 3324
+        },
+        {
+          "lang": "ja",
+          "text": "電車",
+          "start_sample": 53185,
+          "end_sample": 63789,
+          "start_ms": 3324,
+          "end_ms": 3987
+        },
+        {
+          "lang": "en",
+          "text": "passed without stopping.",
+          "start_sample": 63789,
+          "end_sample": 88691,
+          "start_ms": 3987,
+          "end_ms": 5543
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 212,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

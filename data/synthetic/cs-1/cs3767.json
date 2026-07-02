@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3767.flac",
+  "sentence": "夏のheatwaveで、外に出るのが怖くなりました。",
+  "sample_rate": 16000,
+  "duration_ms": 3103,
+  "reference_speaker": "en/speaker_014_9db071da66e5.mp3",
+  "seed": 3809,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "夏の",
+      "start_sample": 0,
+      "end_sample": 5748,
+      "start_ms": 0,
+      "end_ms": 359
+    },
+    {
+      "lang": "en",
+      "text": "heatwave",
+      "start_sample": 5748,
+      "end_sample": 15441,
+      "start_ms": 359,
+      "end_ms": 965
+    },
+    {
+      "lang": "ja",
+      "text": "で、外に出るのが怖くなりました。",
+      "start_sample": 15441,
+      "end_sample": 49643,
+      "start_ms": 965,
+      "end_ms": 3103
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "natsu no heatwave de soto ni deru no ga kowaku nari mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8030,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "夏の",
+          "start_sample": 0,
+          "end_sample": 29318,
+          "start_ms": 0,
+          "end_ms": 1832
+        },
+        {
+          "lang": "en",
+          "text": "heatwave",
+          "start_sample": 29318,
+          "end_sample": 39411,
+          "start_ms": 1832,
+          "end_ms": 2463
+        },
+        {
+          "lang": "ja",
+          "text": "で、外に出るのが怖くなりました。",
+          "start_sample": 39411,
+          "end_sample": 128486,
+          "start_ms": 2463,
+          "end_ms": 8030
+        }
+      ]
+    },
+    "ja": {
+      "text": "夏のheatwaveで、外に出るのが怖くなりました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3175,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "夏の",
+          "start_sample": 0,
+          "end_sample": 5948,
+          "start_ms": 0,
+          "end_ms": 372
+        },
+        {
+          "lang": "en",
+          "text": "heatwave",
+          "start_sample": 5948,
+          "end_sample": 16399,
+          "start_ms": 372,
+          "end_ms": 1025
+        },
+        {
+          "lang": "ja",
+          "text": "で、外に出るのが怖くなりました。",
+          "start_sample": 16399,
+          "end_sample": 50801,
+          "start_ms": 1025,
+          "end_ms": 3175
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 156,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

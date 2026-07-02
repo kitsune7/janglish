@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5971.flac",
+  "sentence": "忙しい朝でも、overtimeで残った夜でも、このバスは走っている。",
+  "sample_rate": 16000,
+  "duration_ms": 4657,
+  "reference_speaker": "jp/speaker_082_d12288b68351.mp3",
+  "seed": 6013,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "忙しい朝でも、",
+      "start_sample": 0,
+      "end_sample": 18599,
+      "start_ms": 0,
+      "end_ms": 1162
+    },
+    {
+      "lang": "en",
+      "text": "overtime",
+      "start_sample": 18599,
+      "end_sample": 33095,
+      "start_ms": 1162,
+      "end_ms": 2068
+    },
+    {
+      "lang": "ja",
+      "text": "で残った夜でも、このバスは走っている。",
+      "start_sample": 33095,
+      "end_sample": 74507,
+      "start_ms": 2068,
+      "end_ms": 4657
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "isogashii asa de mo overtime de nokotsu ta yoru de mo kono basu ha hashitsu te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9730,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "忙しい朝でも、",
+          "start_sample": 0,
+          "end_sample": 36038,
+          "start_ms": 0,
+          "end_ms": 2252
+        },
+        {
+          "lang": "en",
+          "text": "overtime",
+          "start_sample": 36038,
+          "end_sample": 50934,
+          "start_ms": 2252,
+          "end_ms": 3183
+        },
+        {
+          "lang": "ja",
+          "text": "で残った夜でも、このバスは走っている。",
+          "start_sample": 50934,
+          "end_sample": 155686,
+          "start_ms": 3183,
+          "end_ms": 9730
+        }
+      ]
+    },
+    "ja": {
+      "text": "忙しい朝でも、overtimeで残った夜でも、このバスは走っている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4539,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "忙しい朝でも、",
+          "start_sample": 0,
+          "end_sample": 18799,
+          "start_ms": 0,
+          "end_ms": 1175
+        },
+        {
+          "lang": "en",
+          "text": "overtime",
+          "start_sample": 18799,
+          "end_sample": 31011,
+          "start_ms": 1175,
+          "end_ms": 1938
+        },
+        {
+          "lang": "ja",
+          "text": "で残った夜でも、このバスは走っている。",
+          "start_sample": 31011,
+          "end_sample": 72623,
+          "start_ms": 1938,
+          "end_ms": 4539
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 233,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

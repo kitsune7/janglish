@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs7498.flac",
+  "sentence": "pensionの受け取り方法について相談したい。",
+  "sample_rate": 16000,
+  "duration_ms": 3004,
+  "reference_speaker": "jp/speaker_098_e4abe7929ff4.mp3",
+  "seed": 7540,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "pension",
+      "start_sample": 0,
+      "end_sample": 9113,
+      "start_ms": 0,
+      "end_ms": 570
+    },
+    {
+      "lang": "ja",
+      "text": "の受け取り方法について相談したい。",
+      "start_sample": 9113,
+      "end_sample": 48059,
+      "start_ms": 570,
+      "end_ms": 3004
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "pension no uketori houhou ni tsui te soudan shi tai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5780,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "pension",
+          "start_sample": 0,
+          "end_sample": 9313,
+          "start_ms": 0,
+          "end_ms": 582
+        },
+        {
+          "lang": "ja",
+          "text": "の受け取り方法について相談したい。",
+          "start_sample": 9313,
+          "end_sample": 92488,
+          "start_ms": 582,
+          "end_ms": 5780
+        }
+      ]
+    },
+    "ja": {
+      "text": "pensionの受け取り方法について相談したい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2900,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "pension",
+          "start_sample": 0,
+          "end_sample": 7250,
+          "start_ms": 0,
+          "end_ms": 453
+        },
+        {
+          "lang": "ja",
+          "text": "の受け取り方法について相談したい。",
+          "start_sample": 7250,
+          "end_sample": 46396,
+          "start_ms": 453,
+          "end_ms": 2900
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 151,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

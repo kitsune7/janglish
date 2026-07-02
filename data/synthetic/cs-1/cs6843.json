@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6843.flac",
+  "sentence": "She bought a 手袋 for her trip to the mountains during the winter holidays.",
+  "sample_rate": 16000,
+  "duration_ms": 4623,
+  "reference_speaker": "en/speaker_052_622e6181fea2.mp3",
+  "seed": 6885,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She bought a",
+      "start_sample": 0,
+      "end_sample": 10553,
+      "start_ms": 0,
+      "end_ms": 660
+    },
+    {
+      "lang": "ja",
+      "text": "手袋",
+      "start_sample": 10553,
+      "end_sample": 17679,
+      "start_ms": 660,
+      "end_ms": 1105
+    },
+    {
+      "lang": "en",
+      "text": "for her trip to the mountains during the winter holidays.",
+      "start_sample": 17679,
+      "end_sample": 73972,
+      "start_ms": 1105,
+      "end_ms": 4623
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She bought a tebukuro for her trip to the mountains during the winter holidays.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5477,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She bought a",
+          "start_sample": 0,
+          "end_sample": 10753,
+          "start_ms": 0,
+          "end_ms": 672
+        },
+        {
+          "lang": "ja",
+          "text": "手袋",
+          "start_sample": 10753,
+          "end_sample": 31137,
+          "start_ms": 672,
+          "end_ms": 1946
+        },
+        {
+          "lang": "en",
+          "text": "for her trip to the mountains during the winter holidays.",
+          "start_sample": 31137,
+          "end_sample": 87630,
+          "start_ms": 1946,
+          "end_ms": 5477
+        }
+      ]
+    },
+    "ja": {
+      "text": "She bought a 手袋 for her trip to the mountains during the winter holidays.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5705,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She bought a",
+          "start_sample": 0,
+          "end_sample": 11369,
+          "start_ms": 0,
+          "end_ms": 711
+        },
+        {
+          "lang": "ja",
+          "text": "手袋",
+          "start_sample": 11369,
+          "end_sample": 18895,
+          "start_ms": 711,
+          "end_ms": 1181
+        },
+        {
+          "lang": "en",
+          "text": "for her trip to the mountains during the winter holidays.",
+          "start_sample": 18895,
+          "end_sample": 91277,
+          "start_ms": 1181,
+          "end_ms": 5705
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 232,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

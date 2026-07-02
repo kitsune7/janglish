@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7738.flac",
+  "sentence": "手術後のpain managementについて相談したいです。",
+  "sample_rate": 16000,
+  "duration_ms": 3209,
+  "reference_speaker": "jp/speaker_019_45c9ebd0ae18.mp3",
+  "seed": 7780,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "手術後の",
+      "start_sample": 0,
+      "end_sample": 8949,
+      "start_ms": 0,
+      "end_ms": 559
+    },
+    {
+      "lang": "en",
+      "text": "pain management",
+      "start_sample": 8949,
+      "end_sample": 29713,
+      "start_ms": 559,
+      "end_ms": 1857
+    },
+    {
+      "lang": "ja",
+      "text": "について相談したいです。",
+      "start_sample": 29713,
+      "end_sample": 51341,
+      "start_ms": 1857,
+      "end_ms": 3209
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shujutsu nochi no pain management ni tsui te soudan shi tai desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6112,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "手術後の",
+          "start_sample": 0,
+          "end_sample": 33186,
+          "start_ms": 0,
+          "end_ms": 2074
+        },
+        {
+          "lang": "en",
+          "text": "pain management",
+          "start_sample": 33186,
+          "end_sample": 54350,
+          "start_ms": 2074,
+          "end_ms": 3397
+        },
+        {
+          "lang": "ja",
+          "text": "について相談したいです。",
+          "start_sample": 54350,
+          "end_sample": 97798,
+          "start_ms": 3397,
+          "end_ms": 6112
+        }
+      ]
+    },
+    "ja": {
+      "text": "手術後のpain managementについて相談したいです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2789,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "手術後の",
+          "start_sample": 0,
+          "end_sample": 9149,
+          "start_ms": 0,
+          "end_ms": 572
+        },
+        {
+          "lang": "en",
+          "text": "pain management",
+          "start_sample": 9149,
+          "end_sample": 22793,
+          "start_ms": 572,
+          "end_ms": 1425
+        },
+        {
+          "lang": "ja",
+          "text": "について相談したいです。",
+          "start_sample": 22793,
+          "end_sample": 44621,
+          "start_ms": 1425,
+          "end_ms": 2789
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 161,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

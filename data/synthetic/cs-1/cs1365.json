@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1365.flac",
+  "sentence": "The 黄砂 drifting in from the continent left a fine dust on every car.",
+  "sample_rate": 16000,
+  "duration_ms": 12133,
+  "reference_speaker": "en/speaker_027_12abacd76d5f.mp3",
+  "seed": 1407,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1242,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "黄砂",
+      "start_sample": 1242,
+      "end_sample": 14460,
+      "start_ms": 78,
+      "end_ms": 904
+    },
+    {
+      "lang": "en",
+      "text": "drifting in from the continent left a fine dust on every car.",
+      "start_sample": 14460,
+      "end_sample": 194122,
+      "start_ms": 904,
+      "end_ms": 12133
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kousa drifting in from the continent left a fine dust on every car.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 11682,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1442,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "黄砂",
+          "start_sample": 1442,
+          "end_sample": 7053,
+          "start_ms": 90,
+          "end_ms": 441
+        },
+        {
+          "lang": "en",
+          "text": "drifting in from the continent left a fine dust on every car.",
+          "start_sample": 7053,
+          "end_sample": 186915,
+          "start_ms": 441,
+          "end_ms": 11682
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 黄砂 drifting in from the continent left a fine dust on every car.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7811,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 7850,
+          "start_ms": 0,
+          "end_ms": 491
+        },
+        {
+          "lang": "ja",
+          "text": "黄砂",
+          "start_sample": 7850,
+          "end_sample": 21468,
+          "start_ms": 491,
+          "end_ms": 1342
+        },
+        {
+          "lang": "en",
+          "text": "drifting in from the continent left a fine dust on every car.",
+          "start_sample": 21468,
+          "end_sample": 124970,
+          "start_ms": 1342,
+          "end_ms": 7811
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 607,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

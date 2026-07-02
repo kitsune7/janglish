@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs100.flac",
+  "sentence": "I really should thin out these 芽 before they start competing for space.",
+  "sample_rate": 16000,
+  "duration_ms": 4041,
+  "reference_speaker": "jp/speaker_086_b5416e90d3b7.mp3",
+  "seed": 142,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I really should thin out these",
+      "start_sample": 0,
+      "end_sample": 20330,
+      "start_ms": 0,
+      "end_ms": 1271
+    },
+    {
+      "lang": "ja",
+      "text": "芽",
+      "start_sample": 20330,
+      "end_sample": 23947,
+      "start_ms": 1271,
+      "end_ms": 1497
+    },
+    {
+      "lang": "en",
+      "text": "before they start competing for space.",
+      "start_sample": 23947,
+      "end_sample": 64650,
+      "start_ms": 1497,
+      "end_ms": 4041
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I really should thin out these me before they start competing for space.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4070,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I really should thin out these",
+          "start_sample": 0,
+          "end_sample": 20530,
+          "start_ms": 0,
+          "end_ms": 1283
+        },
+        {
+          "lang": "ja",
+          "text": "芽",
+          "start_sample": 20530,
+          "end_sample": 24219,
+          "start_ms": 1283,
+          "end_ms": 1514
+        },
+        {
+          "lang": "en",
+          "text": "before they start competing for space.",
+          "start_sample": 24219,
+          "end_sample": 65122,
+          "start_ms": 1514,
+          "end_ms": 4070
+        }
+      ]
+    },
+    "ja": {
+      "text": "I really should thin out these 芽 before they start competing for space.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4981,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I really should thin out these",
+          "start_sample": 0,
+          "end_sample": 25062,
+          "start_ms": 0,
+          "end_ms": 1566
+        },
+        {
+          "lang": "ja",
+          "text": "芽",
+          "start_sample": 25062,
+          "end_sample": 29079,
+          "start_ms": 1566,
+          "end_ms": 1817
+        },
+        {
+          "lang": "en",
+          "text": "before they start competing for space.",
+          "start_sample": 29079,
+          "end_sample": 79690,
+          "start_ms": 1817,
+          "end_ms": 4981
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

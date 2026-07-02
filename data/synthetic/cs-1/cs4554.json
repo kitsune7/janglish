@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4554.flac",
+  "sentence": "The client wants 詳細 on the pricing structure by Thursday.",
+  "sample_rate": 16000,
+  "duration_ms": 3770,
+  "reference_speaker": "en/speaker_041_b54335ce95b5.mp3",
+  "seed": 4596,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The client wants",
+      "start_sample": 0,
+      "end_sample": 11186,
+      "start_ms": 0,
+      "end_ms": 699
+    },
+    {
+      "lang": "ja",
+      "text": "詳細",
+      "start_sample": 11186,
+      "end_sample": 23632,
+      "start_ms": 699,
+      "end_ms": 1477
+    },
+    {
+      "lang": "en",
+      "text": "on the pricing structure by Thursday.",
+      "start_sample": 23632,
+      "end_sample": 60317,
+      "start_ms": 1477,
+      "end_ms": 3770
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The client wants shousai on the pricing structure by Thursday.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3809,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The client wants",
+          "start_sample": 0,
+          "end_sample": 11386,
+          "start_ms": 0,
+          "end_ms": 712
+        },
+        {
+          "lang": "ja",
+          "text": "詳細",
+          "start_sample": 11386,
+          "end_sample": 24055,
+          "start_ms": 712,
+          "end_ms": 1503
+        },
+        {
+          "lang": "en",
+          "text": "on the pricing structure by Thursday.",
+          "start_sample": 24055,
+          "end_sample": 60940,
+          "start_ms": 1503,
+          "end_ms": 3809
+        }
+      ]
+    },
+    "ja": {
+      "text": "The client wants 詳細 on the pricing structure by Thursday.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5801,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The client wants",
+          "start_sample": 0,
+          "end_sample": 31633,
+          "start_ms": 0,
+          "end_ms": 1977
+        },
+        {
+          "lang": "ja",
+          "text": "詳細",
+          "start_sample": 31633,
+          "end_sample": 44479,
+          "start_ms": 1977,
+          "end_ms": 2780
+        },
+        {
+          "lang": "en",
+          "text": "on the pricing structure by Thursday.",
+          "start_sample": 44479,
+          "end_sample": 92809,
+          "start_ms": 2780,
+          "end_ms": 5801
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 189,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

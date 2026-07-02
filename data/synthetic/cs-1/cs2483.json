@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2483.flac",
+  "sentence": "先生がcriticalに論文を読んでくれています。",
+  "sample_rate": 16000,
+  "duration_ms": 4140,
+  "reference_speaker": "en/speaker_098_f600c480bfab.mp3",
+  "seed": 2525,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "先生が",
+      "start_sample": 0,
+      "end_sample": 15680,
+      "start_ms": 0,
+      "end_ms": 980
+    },
+    {
+      "lang": "en",
+      "text": "critical",
+      "start_sample": 15680,
+      "end_sample": 31304,
+      "start_ms": 980,
+      "end_ms": 1956
+    },
+    {
+      "lang": "ja",
+      "text": "に論文を読んでくれています。",
+      "start_sample": 31304,
+      "end_sample": 66235,
+      "start_ms": 1956,
+      "end_ms": 4140
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sensei ga critical ni ronbun wo yon de kure te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6730,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先生が",
+          "start_sample": 0,
+          "end_sample": 32048,
+          "start_ms": 0,
+          "end_ms": 2003
+        },
+        {
+          "lang": "en",
+          "text": "critical",
+          "start_sample": 32048,
+          "end_sample": 48072,
+          "start_ms": 2003,
+          "end_ms": 3004
+        },
+        {
+          "lang": "ja",
+          "text": "に論文を読んでくれています。",
+          "start_sample": 48072,
+          "end_sample": 107681,
+          "start_ms": 3004,
+          "end_ms": 6730
+        }
+      ]
+    },
+    "ja": {
+      "text": "先生がcriticalに論文を読んでくれています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4111,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先生が",
+          "start_sample": 0,
+          "end_sample": 15880,
+          "start_ms": 0,
+          "end_ms": 992
+        },
+        {
+          "lang": "en",
+          "text": "critical",
+          "start_sample": 15880,
+          "end_sample": 30639,
+          "start_ms": 992,
+          "end_ms": 1915
+        },
+        {
+          "lang": "ja",
+          "text": "に論文を読んでくれています。",
+          "start_sample": 30639,
+          "end_sample": 65770,
+          "start_ms": 1915,
+          "end_ms": 4111
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 207,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

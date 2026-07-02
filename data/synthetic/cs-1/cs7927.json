@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7927.flac",
+  "sentence": "高速道路のmerge laneが怖くていつも緊張する。",
+  "sample_rate": 16000,
+  "duration_ms": 4738,
+  "reference_speaker": "en/speaker_071_72384e582e15.mp3",
+  "seed": 7969,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "高速道路の",
+      "start_sample": 0,
+      "end_sample": 19508,
+      "start_ms": 0,
+      "end_ms": 1219
+    },
+    {
+      "lang": "en",
+      "text": "merge lane",
+      "start_sample": 19508,
+      "end_sample": 36114,
+      "start_ms": 1219,
+      "end_ms": 2257
+    },
+    {
+      "lang": "ja",
+      "text": "が怖くていつも緊張する。",
+      "start_sample": 36114,
+      "end_sample": 75811,
+      "start_ms": 2257,
+      "end_ms": 4738
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kousoku douro no merge lane ga kowaku te itsu mo kinchou suru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6197,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "高速道路の",
+          "start_sample": 0,
+          "end_sample": 32408,
+          "start_ms": 0,
+          "end_ms": 2026
+        },
+        {
+          "lang": "en",
+          "text": "merge lane",
+          "start_sample": 32408,
+          "end_sample": 49414,
+          "start_ms": 2026,
+          "end_ms": 3088
+        },
+        {
+          "lang": "ja",
+          "text": "が怖くていつも緊張する。",
+          "start_sample": 49414,
+          "end_sample": 99147,
+          "start_ms": 3088,
+          "end_ms": 6197
+        }
+      ]
+    },
+    "ja": {
+      "text": "高速道路のmerge laneが怖くていつも緊張する。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4506,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "高速道路の",
+          "start_sample": 0,
+          "end_sample": 19708,
+          "start_ms": 0,
+          "end_ms": 1232
+        },
+        {
+          "lang": "en",
+          "text": "merge lane",
+          "start_sample": 19708,
+          "end_sample": 32205,
+          "start_ms": 1232,
+          "end_ms": 2013
+        },
+        {
+          "lang": "ja",
+          "text": "が怖くていつも緊張する。",
+          "start_sample": 32205,
+          "end_sample": 72102,
+          "start_ms": 2013,
+          "end_ms": 4506
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 237,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

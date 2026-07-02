@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3920.flac",
+  "sentence": "She has a very 穏やか personality that puts everyone at ease.",
+  "sample_rate": 16000,
+  "duration_ms": 4848,
+  "reference_speaker": "en/speaker_065_22dd21ffb5a9.mp3",
+  "seed": 3962,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She has a very",
+      "start_sample": 0,
+      "end_sample": 14734,
+      "start_ms": 0,
+      "end_ms": 921
+    },
+    {
+      "lang": "ja",
+      "text": "穏やか",
+      "start_sample": 14734,
+      "end_sample": 23011,
+      "start_ms": 921,
+      "end_ms": 1438
+    },
+    {
+      "lang": "en",
+      "text": "personality that puts everyone at ease.",
+      "start_sample": 23011,
+      "end_sample": 77568,
+      "start_ms": 1438,
+      "end_ms": 4848
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She has a very odayaka personality that puts everyone at ease.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4998,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She has a very",
+          "start_sample": 0,
+          "end_sample": 14934,
+          "start_ms": 0,
+          "end_ms": 933
+        },
+        {
+          "lang": "ja",
+          "text": "穏やか",
+          "start_sample": 14934,
+          "end_sample": 25212,
+          "start_ms": 933,
+          "end_ms": 1576
+        },
+        {
+          "lang": "en",
+          "text": "personality that puts everyone at ease.",
+          "start_sample": 25212,
+          "end_sample": 79969,
+          "start_ms": 1576,
+          "end_ms": 4998
+        }
+      ]
+    },
+    "ja": {
+      "text": "She has a very 穏やか personality that puts everyone at ease.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4499,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She has a very",
+          "start_sample": 0,
+          "end_sample": 12373,
+          "start_ms": 0,
+          "end_ms": 773
+        },
+        {
+          "lang": "ja",
+          "text": "穏やか",
+          "start_sample": 12373,
+          "end_sample": 21050,
+          "start_ms": 773,
+          "end_ms": 1316
+        },
+        {
+          "lang": "en",
+          "text": "personality that puts everyone at ease.",
+          "start_sample": 21050,
+          "end_sample": 71986,
+          "start_ms": 1316,
+          "end_ms": 4499
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 243,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs1399.flac",
+  "sentence": "countryに向かう道は思ったより狭かったです。",
+  "sample_rate": 16000,
+  "duration_ms": 3128,
+  "reference_speaker": "jp/speaker_085_c431b4a9ddfb.mp3",
+  "seed": 1441,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "country",
+      "start_sample": 0,
+      "end_sample": 7493,
+      "start_ms": 0,
+      "end_ms": 468
+    },
+    {
+      "lang": "ja",
+      "text": "に向かう道は思ったより狭かったです。",
+      "start_sample": 7493,
+      "end_sample": 50051,
+      "start_ms": 468,
+      "end_ms": 3128
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "country ni mukau michi ha omotsu ta yori semakatsu ta desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6331,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "country",
+          "start_sample": 0,
+          "end_sample": 7693,
+          "start_ms": 0,
+          "end_ms": 481
+        },
+        {
+          "lang": "ja",
+          "text": "に向かう道は思ったより狭かったです。",
+          "start_sample": 7693,
+          "end_sample": 101302,
+          "start_ms": 481,
+          "end_ms": 6331
+        }
+      ]
+    },
+    "ja": {
+      "text": "countryに向かう道は思ったより狭かったです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3195,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "country",
+          "start_sample": 0,
+          "end_sample": 8359,
+          "start_ms": 0,
+          "end_ms": 522
+        },
+        {
+          "lang": "ja",
+          "text": "に向かう道は思ったより狭かったです。",
+          "start_sample": 8359,
+          "end_sample": 51117,
+          "start_ms": 522,
+          "end_ms": 3195
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 157,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

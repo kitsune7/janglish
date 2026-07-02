@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5554.flac",
+  "sentence": "She found a surprisingly 便利 little brush for cleaning between the tiles.",
+  "sample_rate": 16000,
+  "duration_ms": 4136,
+  "reference_speaker": "jp/speaker_031_8da19046583d.mp3",
+  "seed": 5596,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She found a surprisingly",
+      "start_sample": 0,
+      "end_sample": 24149,
+      "start_ms": 0,
+      "end_ms": 1509
+    },
+    {
+      "lang": "ja",
+      "text": "便利",
+      "start_sample": 24149,
+      "end_sample": 30008,
+      "start_ms": 1509,
+      "end_ms": 1876
+    },
+    {
+      "lang": "en",
+      "text": "little brush for cleaning between the tiles.",
+      "start_sample": 30008,
+      "end_sample": 66171,
+      "start_ms": 1876,
+      "end_ms": 4136
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She found a surprisingly benri little brush for cleaning between the tiles.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4225,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She found a surprisingly",
+          "start_sample": 0,
+          "end_sample": 24349,
+          "start_ms": 0,
+          "end_ms": 1522
+        },
+        {
+          "lang": "ja",
+          "text": "便利",
+          "start_sample": 24349,
+          "end_sample": 31237,
+          "start_ms": 1522,
+          "end_ms": 1952
+        },
+        {
+          "lang": "en",
+          "text": "little brush for cleaning between the tiles.",
+          "start_sample": 31237,
+          "end_sample": 67600,
+          "start_ms": 1952,
+          "end_ms": 4225
+        }
+      ]
+    },
+    "ja": {
+      "text": "She found a surprisingly 便利 little brush for cleaning between the tiles.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5055,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She found a surprisingly",
+          "start_sample": 0,
+          "end_sample": 27441,
+          "start_ms": 0,
+          "end_ms": 1715
+        },
+        {
+          "lang": "ja",
+          "text": "便利",
+          "start_sample": 27441,
+          "end_sample": 33700,
+          "start_ms": 1715,
+          "end_ms": 2106
+        },
+        {
+          "lang": "en",
+          "text": "little brush for cleaning between the tiles.",
+          "start_sample": 33700,
+          "end_sample": 80879,
+          "start_ms": 2106,
+          "end_ms": 5055
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 207,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

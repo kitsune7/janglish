@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4154.flac",
+  "sentence": "家族のgroup chatにおじがよく面白い動画を送ってくる。",
+  "sample_rate": 16000,
+  "duration_ms": 4129,
+  "reference_speaker": "en/speaker_011_d1413283d794.mp3",
+  "seed": 4196,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "家族の",
+      "start_sample": 0,
+      "end_sample": 8328,
+      "start_ms": 0,
+      "end_ms": 520
+    },
+    {
+      "lang": "en",
+      "text": "group chat",
+      "start_sample": 8328,
+      "end_sample": 26840,
+      "start_ms": 520,
+      "end_ms": 1678
+    },
+    {
+      "lang": "ja",
+      "text": "におじがよく面白い動画を送ってくる。",
+      "start_sample": 26840,
+      "end_sample": 66059,
+      "start_ms": 1678,
+      "end_ms": 4129
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kazoku no group chat ni oji ga yoku omoshiroi douga wo okutsu te kuru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6251,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "家族の",
+          "start_sample": 0,
+          "end_sample": 10578,
+          "start_ms": 0,
+          "end_ms": 661
+        },
+        {
+          "lang": "en",
+          "text": "group chat",
+          "start_sample": 10578,
+          "end_sample": 29490,
+          "start_ms": 661,
+          "end_ms": 1843
+        },
+        {
+          "lang": "ja",
+          "text": "におじがよく面白い動画を送ってくる。",
+          "start_sample": 29490,
+          "end_sample": 100011,
+          "start_ms": 1843,
+          "end_ms": 6251
+        }
+      ]
+    },
+    "ja": {
+      "text": "家族のgroup chatにおじがよく面白い動画を送ってくる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3741,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "家族の",
+          "start_sample": 0,
+          "end_sample": 8528,
+          "start_ms": 0,
+          "end_ms": 533
+        },
+        {
+          "lang": "en",
+          "text": "group chat",
+          "start_sample": 8528,
+          "end_sample": 20435,
+          "start_ms": 533,
+          "end_ms": 1277
+        },
+        {
+          "lang": "ja",
+          "text": "におじがよく面白い動画を送ってくる。",
+          "start_sample": 20435,
+          "end_sample": 59854,
+          "start_ms": 1277,
+          "end_ms": 3741
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 207,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1557.flac",
+  "sentence": "週末はsketchingをするのが好きです。",
+  "sample_rate": 16000,
+  "duration_ms": 2260,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 1599,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "週末は",
+      "start_sample": 0,
+      "end_sample": 8485,
+      "start_ms": 0,
+      "end_ms": 530
+    },
+    {
+      "lang": "en",
+      "text": "sketching",
+      "start_sample": 8485,
+      "end_sample": 18503,
+      "start_ms": 530,
+      "end_ms": 1156
+    },
+    {
+      "lang": "ja",
+      "text": "をするのが好きです。",
+      "start_sample": 18503,
+      "end_sample": 36153,
+      "start_ms": 1156,
+      "end_ms": 2260
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shuumatsu ha sketching wo suru no ga suki desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6151,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "週末は",
+          "start_sample": 0,
+          "end_sample": 27089,
+          "start_ms": 0,
+          "end_ms": 1693
+        },
+        {
+          "lang": "en",
+          "text": "sketching",
+          "start_sample": 27089,
+          "end_sample": 37507,
+          "start_ms": 1693,
+          "end_ms": 2344
+        },
+        {
+          "lang": "ja",
+          "text": "をするのが好きです。",
+          "start_sample": 37507,
+          "end_sample": 98417,
+          "start_ms": 2344,
+          "end_ms": 6151
+        }
+      ]
+    },
+    "ja": {
+      "text": "週末はsketchingをするのが好きです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2131,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "週末は",
+          "start_sample": 0,
+          "end_sample": 8685,
+          "start_ms": 0,
+          "end_ms": 543
+        },
+        {
+          "lang": "en",
+          "text": "sketching",
+          "start_sample": 8685,
+          "end_sample": 16245,
+          "start_ms": 543,
+          "end_ms": 1015
+        },
+        {
+          "lang": "ja",
+          "text": "をするのが好きです。",
+          "start_sample": 16245,
+          "end_sample": 34095,
+          "start_ms": 1015,
+          "end_ms": 2131
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 113,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

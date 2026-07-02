@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs111.flac",
+  "sentence": "Have you seen the new 刑事 drama that everyone's been talking about?",
+  "sample_rate": 16000,
+  "duration_ms": 3819,
+  "reference_speaker": "jp/speaker_056_e4a42336440b.mp3",
+  "seed": 153,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you seen the new",
+      "start_sample": 0,
+      "end_sample": 15247,
+      "start_ms": 0,
+      "end_ms": 953
+    },
+    {
+      "lang": "ja",
+      "text": "刑事",
+      "start_sample": 15247,
+      "end_sample": 29449,
+      "start_ms": 953,
+      "end_ms": 1841
+    },
+    {
+      "lang": "en",
+      "text": "drama that everyone's been talking about?",
+      "start_sample": 29449,
+      "end_sample": 61105,
+      "start_ms": 1841,
+      "end_ms": 3819
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you seen the new keiji drama that everyone's been talking about?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3419,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you seen the new",
+          "start_sample": 0,
+          "end_sample": 15447,
+          "start_ms": 0,
+          "end_ms": 965
+        },
+        {
+          "lang": "ja",
+          "text": "刑事",
+          "start_sample": 15447,
+          "end_sample": 22849,
+          "start_ms": 965,
+          "end_ms": 1428
+        },
+        {
+          "lang": "en",
+          "text": "drama that everyone's been talking about?",
+          "start_sample": 22849,
+          "end_sample": 54705,
+          "start_ms": 1428,
+          "end_ms": 3419
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you seen the new 刑事 drama that everyone's been talking about?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6458,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you seen the new",
+          "start_sample": 0,
+          "end_sample": 38991,
+          "start_ms": 0,
+          "end_ms": 2437
+        },
+        {
+          "lang": "ja",
+          "text": "刑事",
+          "start_sample": 38991,
+          "end_sample": 53593,
+          "start_ms": 2437,
+          "end_ms": 3350
+        },
+        {
+          "lang": "en",
+          "text": "drama that everyone's been talking about?",
+          "start_sample": 53593,
+          "end_sample": 103332,
+          "start_ms": 3350,
+          "end_ms": 6458
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 191,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

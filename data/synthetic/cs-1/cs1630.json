@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1630.flac",
+  "sentence": "I wish the 授業 started just thirty minutes later every morning.",
+  "sample_rate": 16000,
+  "duration_ms": 2746,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 1672,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I wish the",
+      "start_sample": 0,
+      "end_sample": 6210,
+      "start_ms": 0,
+      "end_ms": 388
+    },
+    {
+      "lang": "ja",
+      "text": "授業",
+      "start_sample": 6210,
+      "end_sample": 11922,
+      "start_ms": 388,
+      "end_ms": 745
+    },
+    {
+      "lang": "en",
+      "text": "started just thirty minutes later every morning.",
+      "start_sample": 11922,
+      "end_sample": 43939,
+      "start_ms": 745,
+      "end_ms": 2746
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I wish the jugyou started just thirty minutes later every morning.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2825,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I wish the",
+          "start_sample": 0,
+          "end_sample": 6410,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "ja",
+          "text": "授業",
+          "start_sample": 6410,
+          "end_sample": 12981,
+          "start_ms": 401,
+          "end_ms": 811
+        },
+        {
+          "lang": "en",
+          "text": "started just thirty minutes later every morning.",
+          "start_sample": 12981,
+          "end_sample": 45198,
+          "start_ms": 811,
+          "end_ms": 2825
+        }
+      ]
+    },
+    "ja": {
+      "text": "I wish the 授業 started just thirty minutes later every morning.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4302,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I wish the",
+          "start_sample": 0,
+          "end_sample": 9649,
+          "start_ms": 0,
+          "end_ms": 603
+        },
+        {
+          "lang": "ja",
+          "text": "授業",
+          "start_sample": 9649,
+          "end_sample": 15761,
+          "start_ms": 603,
+          "end_ms": 985
+        },
+        {
+          "lang": "en",
+          "text": "started just thirty minutes later every morning.",
+          "start_sample": 15761,
+          "end_sample": 68832,
+          "start_ms": 985,
+          "end_ms": 4302
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 138,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

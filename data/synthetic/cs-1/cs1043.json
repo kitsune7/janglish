@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1043.flac",
+  "sentence": "このバーのドレスcodeは何ですか？",
+  "sample_rate": 16000,
+  "duration_ms": 4192,
+  "reference_speaker": "jp/speaker_092_08c69e35de07.mp3",
+  "seed": 1085,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このバーのドレス",
+      "start_sample": 0,
+      "end_sample": 19553,
+      "start_ms": 0,
+      "end_ms": 1222
+    },
+    {
+      "lang": "en",
+      "text": "code",
+      "start_sample": 19553,
+      "end_sample": 52814,
+      "start_ms": 1222,
+      "end_ms": 3301
+    },
+    {
+      "lang": "ja",
+      "text": "は何ですか？",
+      "start_sample": 52814,
+      "end_sample": 67067,
+      "start_ms": 3301,
+      "end_ms": 4192
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono baa no doresu code ha nani desu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5951,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このバーのドレス",
+          "start_sample": 0,
+          "end_sample": 38949,
+          "start_ms": 0,
+          "end_ms": 2434
+        },
+        {
+          "lang": "en",
+          "text": "code",
+          "start_sample": 38949,
+          "end_sample": 72610,
+          "start_ms": 2434,
+          "end_ms": 4538
+        },
+        {
+          "lang": "ja",
+          "text": "は何ですか？",
+          "start_sample": 72610,
+          "end_sample": 95209,
+          "start_ms": 4538,
+          "end_ms": 5951
+        }
+      ]
+    },
+    "ja": {
+      "text": "このバーのドレスcodeは何ですか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2509,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このバーのドレス",
+          "start_sample": 0,
+          "end_sample": 19753,
+          "start_ms": 0,
+          "end_ms": 1235
+        },
+        {
+          "lang": "en",
+          "text": "code",
+          "start_sample": 19753,
+          "end_sample": 25696,
+          "start_ms": 1235,
+          "end_ms": 1606
+        },
+        {
+          "lang": "ja",
+          "text": "は何ですか？",
+          "start_sample": 25696,
+          "end_sample": 40149,
+          "start_ms": 1606,
+          "end_ms": 2509
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

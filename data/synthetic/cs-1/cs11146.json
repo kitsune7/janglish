@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11146.flac",
+  "sentence": "彼女はcoldな日でも、薄着で平気そうにしている。",
+  "sample_rate": 16000,
+  "duration_ms": 4195,
+  "reference_speaker": "jp/speaker_076_e83c8bab36f0.mp3",
+  "seed": 11188,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は",
+      "start_sample": 0,
+      "end_sample": 8473,
+      "start_ms": 0,
+      "end_ms": 530
+    },
+    {
+      "lang": "en",
+      "text": "cold",
+      "start_sample": 8473,
+      "end_sample": 26039,
+      "start_ms": 530,
+      "end_ms": 1627
+    },
+    {
+      "lang": "ja",
+      "text": "な日でも、薄着で平気そうにしている。",
+      "start_sample": 26039,
+      "end_sample": 67117,
+      "start_ms": 1627,
+      "end_ms": 4195
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha cold na nichi de mo usugi de heiki sou ni shi te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7639,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 21013,
+          "start_ms": 0,
+          "end_ms": 1313
+        },
+        {
+          "lang": "en",
+          "text": "cold",
+          "start_sample": 21013,
+          "end_sample": 38979,
+          "start_ms": 1313,
+          "end_ms": 2436
+        },
+        {
+          "lang": "ja",
+          "text": "な日でも、薄着で平気そうにしている。",
+          "start_sample": 38979,
+          "end_sample": 122229,
+          "start_ms": 2436,
+          "end_ms": 7639
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はcoldな日でも、薄着で平気そうにしている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3634,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 8673,
+          "start_ms": 0,
+          "end_ms": 542
+        },
+        {
+          "lang": "en",
+          "text": "cold",
+          "start_sample": 8673,
+          "end_sample": 16865,
+          "start_ms": 542,
+          "end_ms": 1054
+        },
+        {
+          "lang": "ja",
+          "text": "な日でも、薄着で平気そうにしている。",
+          "start_sample": 16865,
+          "end_sample": 58143,
+          "start_ms": 1054,
+          "end_ms": 3634
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

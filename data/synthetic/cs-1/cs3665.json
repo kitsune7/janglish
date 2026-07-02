@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3665.flac",
+  "sentence": "The bar's 品揃え is impressive — they stock over two hundred different spirits.",
+  "sample_rate": 16000,
+  "duration_ms": 5543,
+  "reference_speaker": "en/speaker_087_5027771311b0.mp3",
+  "seed": 3707,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The bar's",
+      "start_sample": 0,
+      "end_sample": 6213,
+      "start_ms": 0,
+      "end_ms": 388
+    },
+    {
+      "lang": "ja",
+      "text": "品揃え",
+      "start_sample": 6213,
+      "end_sample": 20421,
+      "start_ms": 388,
+      "end_ms": 1276
+    },
+    {
+      "lang": "en",
+      "text": "is impressive — they stock over two hundred different spirits.",
+      "start_sample": 20421,
+      "end_sample": 88689,
+      "start_ms": 1276,
+      "end_ms": 5543
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The bar's shinazoroe is impressive — they stock over two hundred different spirits.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5332,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bar's",
+          "start_sample": 0,
+          "end_sample": 6413,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "ja",
+          "text": "品揃え",
+          "start_sample": 6413,
+          "end_sample": 16836,
+          "start_ms": 401,
+          "end_ms": 1052
+        },
+        {
+          "lang": "en",
+          "text": "is impressive — they stock over two hundred different spirits.",
+          "start_sample": 16836,
+          "end_sample": 85304,
+          "start_ms": 1052,
+          "end_ms": 5332
+        }
+      ]
+    },
+    "ja": {
+      "text": "The bar's 品揃え is impressive — they stock over two hundred different spirits.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7123,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bar's",
+          "start_sample": 0,
+          "end_sample": 13001,
+          "start_ms": 0,
+          "end_ms": 813
+        },
+        {
+          "lang": "ja",
+          "text": "品揃え",
+          "start_sample": 13001,
+          "end_sample": 27609,
+          "start_ms": 813,
+          "end_ms": 1726
+        },
+        {
+          "lang": "en",
+          "text": "is impressive — they stock over two hundred different spirits.",
+          "start_sample": 27609,
+          "end_sample": 113965,
+          "start_ms": 1726,
+          "end_ms": 7123
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 278,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

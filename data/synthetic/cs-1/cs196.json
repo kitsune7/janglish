@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs196.flac",
+  "sentence": "彼女のeyelashesはとても長くてカールしていました。",
+  "sample_rate": 16000,
+  "duration_ms": 3372,
+  "reference_speaker": "jp/speaker_022_b672c364242e.mp3",
+  "seed": 238,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女の",
+      "start_sample": 0,
+      "end_sample": 8471,
+      "start_ms": 0,
+      "end_ms": 529
+    },
+    {
+      "lang": "en",
+      "text": "eyelashes",
+      "start_sample": 8471,
+      "end_sample": 18018,
+      "start_ms": 529,
+      "end_ms": 1126
+    },
+    {
+      "lang": "ja",
+      "text": "はとても長くてカールしていました。",
+      "start_sample": 18018,
+      "end_sample": 53949,
+      "start_ms": 1126,
+      "end_ms": 3372
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo no eyelashes ha totemo nagaku te kaaru shi te i mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7299,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の",
+          "start_sample": 0,
+          "end_sample": 10587,
+          "start_ms": 0,
+          "end_ms": 662
+        },
+        {
+          "lang": "en",
+          "text": "eyelashes",
+          "start_sample": 10587,
+          "end_sample": 20534,
+          "start_ms": 662,
+          "end_ms": 1283
+        },
+        {
+          "lang": "ja",
+          "text": "はとても長くてカールしていました。",
+          "start_sample": 20534,
+          "end_sample": 116788,
+          "start_ms": 1283,
+          "end_ms": 7299
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女のeyelashesはとても長くてカールしていました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3453,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の",
+          "start_sample": 0,
+          "end_sample": 8671,
+          "start_ms": 0,
+          "end_ms": 542
+        },
+        {
+          "lang": "en",
+          "text": "eyelashes",
+          "start_sample": 8671,
+          "end_sample": 19111,
+          "start_ms": 542,
+          "end_ms": 1194
+        },
+        {
+          "lang": "ja",
+          "text": "はとても長くてカールしていました。",
+          "start_sample": 19111,
+          "end_sample": 55242,
+          "start_ms": 1194,
+          "end_ms": 3453
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 169,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10470.flac",
+  "sentence": "She unfolded the 地図 and spread it across the hood of the car.",
+  "sample_rate": 16000,
+  "duration_ms": 3689,
+  "reference_speaker": "en/speaker_067_3f15e2fece31.mp3",
+  "seed": 10512,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She unfolded the",
+      "start_sample": 0,
+      "end_sample": 17119,
+      "start_ms": 0,
+      "end_ms": 1070
+    },
+    {
+      "lang": "ja",
+      "text": "地図",
+      "start_sample": 17119,
+      "end_sample": 22019,
+      "start_ms": 1070,
+      "end_ms": 1376
+    },
+    {
+      "lang": "en",
+      "text": "and spread it across the hood of the car.",
+      "start_sample": 22019,
+      "end_sample": 59024,
+      "start_ms": 1376,
+      "end_ms": 3689
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She unfolded the chizu and spread it across the hood of the car.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3849,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She unfolded the",
+          "start_sample": 0,
+          "end_sample": 17319,
+          "start_ms": 0,
+          "end_ms": 1082
+        },
+        {
+          "lang": "ja",
+          "text": "地図",
+          "start_sample": 17319,
+          "end_sample": 24376,
+          "start_ms": 1082,
+          "end_ms": 1524
+        },
+        {
+          "lang": "en",
+          "text": "and spread it across the hood of the car.",
+          "start_sample": 24376,
+          "end_sample": 61581,
+          "start_ms": 1524,
+          "end_ms": 3849
+        }
+      ]
+    },
+    "ja": {
+      "text": "She unfolded the 地図 and spread it across the hood of the car.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4678,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She unfolded the",
+          "start_sample": 0,
+          "end_sample": 16220,
+          "start_ms": 0,
+          "end_ms": 1014
+        },
+        {
+          "lang": "ja",
+          "text": "地図",
+          "start_sample": 16220,
+          "end_sample": 21520,
+          "start_ms": 1014,
+          "end_ms": 1345
+        },
+        {
+          "lang": "en",
+          "text": "and spread it across the hood of the car.",
+          "start_sample": 21520,
+          "end_sample": 74845,
+          "start_ms": 1345,
+          "end_ms": 4678
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 185,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

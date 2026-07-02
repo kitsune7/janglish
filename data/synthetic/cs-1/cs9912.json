@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9912.flac",
+  "sentence": "このlotionは肌にとても優しいと聞きました。",
+  "sample_rate": 16000,
+  "duration_ms": 4378,
+  "reference_speaker": "en/speaker_065_22dd21ffb5a9.mp3",
+  "seed": 9954,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3818,
+      "start_ms": 0,
+      "end_ms": 239
+    },
+    {
+      "lang": "en",
+      "text": "lotion",
+      "start_sample": 3818,
+      "end_sample": 12707,
+      "start_ms": 239,
+      "end_ms": 794
+    },
+    {
+      "lang": "ja",
+      "text": "は肌にとても優しいと聞きました。",
+      "start_sample": 12707,
+      "end_sample": 70055,
+      "start_ms": 794,
+      "end_ms": 4378
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono lotion ha hada ni totemo yasashii to kiki mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6586,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4483,
+          "start_ms": 0,
+          "end_ms": 280
+        },
+        {
+          "lang": "en",
+          "text": "lotion",
+          "start_sample": 4483,
+          "end_sample": 13772,
+          "start_ms": 280,
+          "end_ms": 861
+        },
+        {
+          "lang": "ja",
+          "text": "は肌にとても優しいと聞きました。",
+          "start_sample": 13772,
+          "end_sample": 105377,
+          "start_ms": 861,
+          "end_ms": 6586
+        }
+      ]
+    },
+    "ja": {
+      "text": "このlotionは肌にとても優しいと聞きました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4380,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4018,
+          "start_ms": 0,
+          "end_ms": 251
+        },
+        {
+          "lang": "en",
+          "text": "lotion",
+          "start_sample": 4018,
+          "end_sample": 12539,
+          "start_ms": 251,
+          "end_ms": 784
+        },
+        {
+          "lang": "ja",
+          "text": "は肌にとても優しいと聞きました。",
+          "start_sample": 12539,
+          "end_sample": 70087,
+          "start_ms": 784,
+          "end_ms": 4380
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 219,
+  "frame_labels": "jjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

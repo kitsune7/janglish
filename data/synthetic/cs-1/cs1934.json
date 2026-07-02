@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1934.flac",
+  "sentence": "このpriority便だと明日の朝一番に届きます。",
+  "sample_rate": 16000,
+  "duration_ms": 5656,
+  "reference_speaker": "en/speaker_002_7eff9a54bdb0.mp3",
+  "seed": 1976,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3494,
+      "start_ms": 0,
+      "end_ms": 218
+    },
+    {
+      "lang": "en",
+      "text": "priority",
+      "start_sample": 3494,
+      "end_sample": 32717,
+      "start_ms": 218,
+      "end_ms": 2045
+    },
+    {
+      "lang": "ja",
+      "text": "便だと明日の朝一番に届きます。",
+      "start_sample": 32717,
+      "end_sample": 90500,
+      "start_ms": 2045,
+      "end_ms": 5656
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono priority bin da to ashita no asa ichi ban ni todoki masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9908,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4803,
+          "start_ms": 0,
+          "end_ms": 300
+        },
+        {
+          "lang": "en",
+          "text": "priority",
+          "start_sample": 4803,
+          "end_sample": 34426,
+          "start_ms": 300,
+          "end_ms": 2152
+        },
+        {
+          "lang": "ja",
+          "text": "便だと明日の朝一番に届きます。",
+          "start_sample": 34426,
+          "end_sample": 158523,
+          "start_ms": 2152,
+          "end_ms": 9908
+        }
+      ]
+    },
+    "ja": {
+      "text": "このpriority便だと明日の朝一番に届きます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4718,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3694,
+          "start_ms": 0,
+          "end_ms": 231
+        },
+        {
+          "lang": "en",
+          "text": "priority",
+          "start_sample": 3694,
+          "end_sample": 17508,
+          "start_ms": 231,
+          "end_ms": 1094
+        },
+        {
+          "lang": "ja",
+          "text": "便だと明日の朝一番に届きます。",
+          "start_sample": 17508,
+          "end_sample": 75491,
+          "start_ms": 1094,
+          "end_ms": 4718
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 283,
+  "frame_labels": "jjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

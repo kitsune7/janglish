@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1339.flac",
+  "sentence": "The docent described the artist's 世界観 as deeply 個人的.",
+  "sample_rate": 16000,
+  "duration_ms": 4722,
+  "reference_speaker": "jp/speaker_053_8435a3c28f36.mp3",
+  "seed": 18194,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The docent described the artist's",
+      "start_sample": 0,
+      "end_sample": 29222,
+      "start_ms": 0,
+      "end_ms": 1826
+    },
+    {
+      "lang": "ja",
+      "text": "世界観",
+      "start_sample": 29222,
+      "end_sample": 45977,
+      "start_ms": 1826,
+      "end_ms": 2874
+    },
+    {
+      "lang": "en",
+      "text": "as deeply",
+      "start_sample": 45977,
+      "end_sample": 58761,
+      "start_ms": 2874,
+      "end_ms": 3673
+    },
+    {
+      "lang": "ja",
+      "text": "個人的.",
+      "start_sample": 58761,
+      "end_sample": 75554,
+      "start_ms": 3673,
+      "end_ms": 4722
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The docent described the artist's sekai kan as deeply kojin teki",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4562,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The docent described the artist's",
+          "start_sample": 0,
+          "end_sample": 29422,
+          "start_ms": 0,
+          "end_ms": 1839
+        },
+        {
+          "lang": "ja",
+          "text": "世界観",
+          "start_sample": 29422,
+          "end_sample": 46143,
+          "start_ms": 1839,
+          "end_ms": 2884
+        },
+        {
+          "lang": "en",
+          "text": "as deeply",
+          "start_sample": 46143,
+          "end_sample": 59327,
+          "start_ms": 2884,
+          "end_ms": 3708
+        },
+        {
+          "lang": "ja",
+          "text": "個人的.",
+          "start_sample": 59327,
+          "end_sample": 72988,
+          "start_ms": 3708,
+          "end_ms": 4562
+        }
+      ]
+    },
+    "ja": {
+      "text": "The docent described the artist's 世界観 as deeply 個人的.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6253,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The docent described the artist's",
+          "start_sample": 0,
+          "end_sample": 53229,
+          "start_ms": 0,
+          "end_ms": 3327
+        },
+        {
+          "lang": "ja",
+          "text": "世界観",
+          "start_sample": 53229,
+          "end_sample": 70384,
+          "start_ms": 3327,
+          "end_ms": 4399
+        },
+        {
+          "lang": "en",
+          "text": "as deeply",
+          "start_sample": 70384,
+          "end_sample": 83051,
+          "start_ms": 4399,
+          "end_ms": 5191
+        },
+        {
+          "lang": "ja",
+          "text": "個人的.",
+          "start_sample": 83051,
+          "end_sample": 100044,
+          "start_ms": 5191,
+          "end_ms": 6253
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 237,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

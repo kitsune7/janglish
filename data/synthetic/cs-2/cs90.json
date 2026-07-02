@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs90.flac",
+  "sentence": "そのmeetingのsummaryを午前中に送ってください。",
+  "sample_rate": 16000,
+  "duration_ms": 3198,
+  "reference_speaker": "jp/speaker_053_8435a3c28f36.mp3",
+  "seed": 16945,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その",
+      "start_sample": 0,
+      "end_sample": 3183,
+      "start_ms": 0,
+      "end_ms": 199
+    },
+    {
+      "lang": "en",
+      "text": "meeting",
+      "start_sample": 3183,
+      "end_sample": 13862,
+      "start_ms": 199,
+      "end_ms": 866
+    },
+    {
+      "lang": "ja",
+      "text": "の",
+      "start_sample": 13862,
+      "end_sample": 15878,
+      "start_ms": 866,
+      "end_ms": 992
+    },
+    {
+      "lang": "en",
+      "text": "summary",
+      "start_sample": 15878,
+      "end_sample": 23828,
+      "start_ms": 992,
+      "end_ms": 1489
+    },
+    {
+      "lang": "ja",
+      "text": "を午前中に送ってください。",
+      "start_sample": 23828,
+      "end_sample": 51174,
+      "start_ms": 1489,
+      "end_ms": 3198
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono meeting no summary wo gozen naka ni okutsu te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4777,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 3371,
+          "start_ms": 0,
+          "end_ms": 211
+        },
+        {
+          "lang": "en",
+          "text": "meeting",
+          "start_sample": 3371,
+          "end_sample": 14450,
+          "start_ms": 211,
+          "end_ms": 903
+        },
+        {
+          "lang": "ja",
+          "text": "の",
+          "start_sample": 14450,
+          "end_sample": 20230,
+          "start_ms": 903,
+          "end_ms": 1264
+        },
+        {
+          "lang": "en",
+          "text": "summary",
+          "start_sample": 20230,
+          "end_sample": 28580,
+          "start_ms": 1264,
+          "end_ms": 1786
+        },
+        {
+          "lang": "ja",
+          "text": "を午前中に送ってください。",
+          "start_sample": 28580,
+          "end_sample": 76425,
+          "start_ms": 1786,
+          "end_ms": 4777
+        }
+      ]
+    },
+    "ja": {
+      "text": "そのmeetingのsummaryを午前中に送ってください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3121,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 3383,
+          "start_ms": 0,
+          "end_ms": 211
+        },
+        {
+          "lang": "en",
+          "text": "meeting",
+          "start_sample": 3383,
+          "end_sample": 11923,
+          "start_ms": 211,
+          "end_ms": 745
+        },
+        {
+          "lang": "ja",
+          "text": "の",
+          "start_sample": 11923,
+          "end_sample": 14339,
+          "start_ms": 745,
+          "end_ms": 896
+        },
+        {
+          "lang": "en",
+          "text": "summary",
+          "start_sample": 14339,
+          "end_sample": 22396,
+          "start_ms": 896,
+          "end_ms": 1400
+        },
+        {
+          "lang": "ja",
+          "text": "を午前中に送ってください。",
+          "start_sample": 22396,
+          "end_sample": 49942,
+          "start_ms": 1400,
+          "end_ms": 3121
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "jjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

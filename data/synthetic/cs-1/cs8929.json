@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8929.flac",
+  "sentence": "The bank sent a 通知 about suspicious activity on my card.",
+  "sample_rate": 16000,
+  "duration_ms": 4415,
+  "reference_speaker": "jp/speaker_034_3e5442a60675.mp3",
+  "seed": 8971,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The bank sent a",
+      "start_sample": 0,
+      "end_sample": 14569,
+      "start_ms": 0,
+      "end_ms": 911
+    },
+    {
+      "lang": "ja",
+      "text": "通知",
+      "start_sample": 14569,
+      "end_sample": 24767,
+      "start_ms": 911,
+      "end_ms": 1548
+    },
+    {
+      "lang": "en",
+      "text": "about suspicious activity on my card.",
+      "start_sample": 24767,
+      "end_sample": 70640,
+      "start_ms": 1548,
+      "end_ms": 4415
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The bank sent a tsuuchi about suspicious activity on my card.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4656,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bank sent a",
+          "start_sample": 0,
+          "end_sample": 14769,
+          "start_ms": 0,
+          "end_ms": 923
+        },
+        {
+          "lang": "ja",
+          "text": "通知",
+          "start_sample": 14769,
+          "end_sample": 28415,
+          "start_ms": 923,
+          "end_ms": 1776
+        },
+        {
+          "lang": "en",
+          "text": "about suspicious activity on my card.",
+          "start_sample": 28415,
+          "end_sample": 74488,
+          "start_ms": 1776,
+          "end_ms": 4656
+        }
+      ]
+    },
+    "ja": {
+      "text": "The bank sent a 通知 about suspicious activity on my card.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4898,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bank sent a",
+          "start_sample": 0,
+          "end_sample": 23282,
+          "start_ms": 0,
+          "end_ms": 1455
+        },
+        {
+          "lang": "ja",
+          "text": "通知",
+          "start_sample": 23282,
+          "end_sample": 33880,
+          "start_ms": 1455,
+          "end_ms": 2118
+        },
+        {
+          "lang": "en",
+          "text": "about suspicious activity on my card.",
+          "start_sample": 33880,
+          "end_sample": 78360,
+          "start_ms": 2118,
+          "end_ms": 4898
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 221,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

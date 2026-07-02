@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2222.flac",
+  "sentence": "I can't believe we got front-row seats — it was 最高 from start to finish.",
+  "sample_rate": 16000,
+  "duration_ms": 5288,
+  "reference_speaker": "jp/speaker_086_b5416e90d3b7.mp3",
+  "seed": 2264,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I can't believe we got front-row seats — it was",
+      "start_sample": 0,
+      "end_sample": 54437,
+      "start_ms": 0,
+      "end_ms": 3402
+    },
+    {
+      "lang": "ja",
+      "text": "最高",
+      "start_sample": 54437,
+      "end_sample": 62371,
+      "start_ms": 3402,
+      "end_ms": 3898
+    },
+    {
+      "lang": "en",
+      "text": "from start to finish.",
+      "start_sample": 62371,
+      "end_sample": 84602,
+      "start_ms": 3898,
+      "end_ms": 5288
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I can't believe we got front-row seats — it was saikou from start to finish.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5408,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I can't believe we got front-row seats — it was",
+          "start_sample": 0,
+          "end_sample": 54637,
+          "start_ms": 0,
+          "end_ms": 3415
+        },
+        {
+          "lang": "ja",
+          "text": "最高",
+          "start_sample": 54637,
+          "end_sample": 64091,
+          "start_ms": 3415,
+          "end_ms": 4006
+        },
+        {
+          "lang": "en",
+          "text": "from start to finish.",
+          "start_sample": 64091,
+          "end_sample": 86522,
+          "start_ms": 4006,
+          "end_ms": 5408
+        }
+      ]
+    },
+    "ja": {
+      "text": "I can't believe we got front-row seats — it was 最高 from start to finish.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6010,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I can't believe we got front-row seats — it was",
+          "start_sample": 0,
+          "end_sample": 44715,
+          "start_ms": 0,
+          "end_ms": 2795
+        },
+        {
+          "lang": "ja",
+          "text": "最高",
+          "start_sample": 44715,
+          "end_sample": 53049,
+          "start_ms": 2795,
+          "end_ms": 3316
+        },
+        {
+          "lang": "en",
+          "text": "from start to finish.",
+          "start_sample": 53049,
+          "end_sample": 96161,
+          "start_ms": 3316,
+          "end_ms": 6010
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 265,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

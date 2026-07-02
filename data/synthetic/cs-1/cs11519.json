@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11519.flac",
+  "sentence": "The new 路線 cuts my commute time nearly in half.",
+  "sample_rate": 16000,
+  "duration_ms": 3635,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 11561,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The new",
+      "start_sample": 0,
+      "end_sample": 4284,
+      "start_ms": 0,
+      "end_ms": 268
+    },
+    {
+      "lang": "ja",
+      "text": "路線",
+      "start_sample": 4284,
+      "end_sample": 9185,
+      "start_ms": 268,
+      "end_ms": 574
+    },
+    {
+      "lang": "en",
+      "text": "cuts my commute time nearly in half.",
+      "start_sample": 9185,
+      "end_sample": 58160,
+      "start_ms": 574,
+      "end_ms": 3635
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The new rosen cuts my commute time nearly in half.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4205,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new",
+          "start_sample": 0,
+          "end_sample": 4484,
+          "start_ms": 0,
+          "end_ms": 280
+        },
+        {
+          "lang": "ja",
+          "text": "路線",
+          "start_sample": 4484,
+          "end_sample": 18100,
+          "start_ms": 280,
+          "end_ms": 1131
+        },
+        {
+          "lang": "en",
+          "text": "cuts my commute time nearly in half.",
+          "start_sample": 18100,
+          "end_sample": 67275,
+          "start_ms": 1131,
+          "end_ms": 4205
+        }
+      ]
+    },
+    "ja": {
+      "text": "The new 路線 cuts my commute time nearly in half.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2510,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new",
+          "start_sample": 0,
+          "end_sample": 5139,
+          "start_ms": 0,
+          "end_ms": 321
+        },
+        {
+          "lang": "ja",
+          "text": "路線",
+          "start_sample": 5139,
+          "end_sample": 10440,
+          "start_ms": 321,
+          "end_ms": 652
+        },
+        {
+          "lang": "en",
+          "text": "cuts my commute time nearly in half.",
+          "start_sample": 10440,
+          "end_sample": 40153,
+          "start_ms": 652,
+          "end_ms": 2510
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 182,
+  "frame_labels": "eeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3285.flac",
+  "sentence": "館内ではflashを使った撮影は禁止されています。",
+  "sample_rate": 16000,
+  "duration_ms": 4378,
+  "reference_speaker": "en/speaker_082_0d071699a4ef.mp3",
+  "seed": 3327,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "館内では",
+      "start_sample": 0,
+      "end_sample": 12304,
+      "start_ms": 0,
+      "end_ms": 769
+    },
+    {
+      "lang": "en",
+      "text": "flash",
+      "start_sample": 12304,
+      "end_sample": 25047,
+      "start_ms": 769,
+      "end_ms": 1565
+    },
+    {
+      "lang": "ja",
+      "text": "を使った撮影は禁止されています。",
+      "start_sample": 25047,
+      "end_sample": 70053,
+      "start_ms": 1565,
+      "end_ms": 4378
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kannai de ha flash wo tsukatsu ta satsuei ha kinshi sa re te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6432,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "館内では",
+          "start_sample": 0,
+          "end_sample": 10579,
+          "start_ms": 0,
+          "end_ms": 661
+        },
+        {
+          "lang": "en",
+          "text": "flash",
+          "start_sample": 10579,
+          "end_sample": 23722,
+          "start_ms": 661,
+          "end_ms": 1483
+        },
+        {
+          "lang": "ja",
+          "text": "を使った撮影は禁止されています。",
+          "start_sample": 23722,
+          "end_sample": 102905,
+          "start_ms": 1483,
+          "end_ms": 6432
+        }
+      ]
+    },
+    "ja": {
+      "text": "館内ではflashを使った撮影は禁止されています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4068,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "館内では",
+          "start_sample": 0,
+          "end_sample": 12504,
+          "start_ms": 0,
+          "end_ms": 782
+        },
+        {
+          "lang": "en",
+          "text": "flash",
+          "start_sample": 12504,
+          "end_sample": 19878,
+          "start_ms": 782,
+          "end_ms": 1242
+        },
+        {
+          "lang": "ja",
+          "text": "を使った撮影は禁止されています。",
+          "start_sample": 19878,
+          "end_sample": 65084,
+          "start_ms": 1242,
+          "end_ms": 4068
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 219,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3664.flac",
+  "sentence": "He drank three 冷たい beers before the game even started.",
+  "sample_rate": 16000,
+  "duration_ms": 3367,
+  "reference_speaker": "jp/speaker_049_435108c1173c.mp3",
+  "seed": 3706,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He drank three",
+      "start_sample": 0,
+      "end_sample": 10857,
+      "start_ms": 0,
+      "end_ms": 679
+    },
+    {
+      "lang": "ja",
+      "text": "冷たい",
+      "start_sample": 10857,
+      "end_sample": 18812,
+      "start_ms": 679,
+      "end_ms": 1176
+    },
+    {
+      "lang": "en",
+      "text": "beers before the game even started.",
+      "start_sample": 18812,
+      "end_sample": 53866,
+      "start_ms": 1176,
+      "end_ms": 3367
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He drank three tsumetai beers before the game even started.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3465,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He drank three",
+          "start_sample": 0,
+          "end_sample": 11057,
+          "start_ms": 0,
+          "end_ms": 691
+        },
+        {
+          "lang": "ja",
+          "text": "冷たい",
+          "start_sample": 11057,
+          "end_sample": 20192,
+          "start_ms": 691,
+          "end_ms": 1262
+        },
+        {
+          "lang": "en",
+          "text": "beers before the game even started.",
+          "start_sample": 20192,
+          "end_sample": 55446,
+          "start_ms": 1262,
+          "end_ms": 3465
+        }
+      ]
+    },
+    "ja": {
+      "text": "He drank three 冷たい beers before the game even started.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4438,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He drank three",
+          "start_sample": 0,
+          "end_sample": 14461,
+          "start_ms": 0,
+          "end_ms": 904
+        },
+        {
+          "lang": "ja",
+          "text": "冷たい",
+          "start_sample": 14461,
+          "end_sample": 22816,
+          "start_ms": 904,
+          "end_ms": 1426
+        },
+        {
+          "lang": "en",
+          "text": "beers before the game even started.",
+          "start_sample": 22816,
+          "end_sample": 71016,
+          "start_ms": 1426,
+          "end_ms": 4438
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 169,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1494.flac",
+  "sentence": "We should go shopping for 爪 polish this weekend.",
+  "sample_rate": 16000,
+  "duration_ms": 3532,
+  "reference_speaker": "en/speaker_037_fbb436f58f44.mp3",
+  "seed": 1536,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We should go shopping for",
+      "start_sample": 0,
+      "end_sample": 27407,
+      "start_ms": 0,
+      "end_ms": 1713
+    },
+    {
+      "lang": "ja",
+      "text": "爪",
+      "start_sample": 27407,
+      "end_sample": 32797,
+      "start_ms": 1713,
+      "end_ms": 2050
+    },
+    {
+      "lang": "en",
+      "text": "polish this weekend.",
+      "start_sample": 32797,
+      "end_sample": 56510,
+      "start_ms": 2050,
+      "end_ms": 3532
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We should go shopping for tsume polish this weekend.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3732,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We should go shopping for",
+          "start_sample": 0,
+          "end_sample": 27607,
+          "start_ms": 0,
+          "end_ms": 1725
+        },
+        {
+          "lang": "ja",
+          "text": "爪",
+          "start_sample": 27607,
+          "end_sample": 35792,
+          "start_ms": 1725,
+          "end_ms": 2237
+        },
+        {
+          "lang": "en",
+          "text": "polish this weekend.",
+          "start_sample": 35792,
+          "end_sample": 59705,
+          "start_ms": 2237,
+          "end_ms": 3732
+        }
+      ]
+    },
+    "ja": {
+      "text": "We should go shopping for 爪 polish this weekend.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3820,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We should go shopping for",
+          "start_sample": 0,
+          "end_sample": 27181,
+          "start_ms": 0,
+          "end_ms": 1699
+        },
+        {
+          "lang": "ja",
+          "text": "爪",
+          "start_sample": 27181,
+          "end_sample": 32971,
+          "start_ms": 1699,
+          "end_ms": 2061
+        },
+        {
+          "lang": "en",
+          "text": "polish this weekend.",
+          "start_sample": 32971,
+          "end_sample": 61112,
+          "start_ms": 2061,
+          "end_ms": 3820
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

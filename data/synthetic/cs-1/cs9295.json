@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9295.flac",
+  "sentence": "We need to stop by the 郵便局 and mail that package today.",
+  "sample_rate": 16000,
+  "duration_ms": 3426,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 9337,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We need to stop by the",
+      "start_sample": 0,
+      "end_sample": 17743,
+      "start_ms": 0,
+      "end_ms": 1109
+    },
+    {
+      "lang": "ja",
+      "text": "郵便局",
+      "start_sample": 17743,
+      "end_sample": 27950,
+      "start_ms": 1109,
+      "end_ms": 1747
+    },
+    {
+      "lang": "en",
+      "text": "and mail that package today.",
+      "start_sample": 27950,
+      "end_sample": 54824,
+      "start_ms": 1747,
+      "end_ms": 3426
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We need to stop by the yuubin kyoku and mail that package today.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3925,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We need to stop by the",
+          "start_sample": 0,
+          "end_sample": 17943,
+          "start_ms": 0,
+          "end_ms": 1121
+        },
+        {
+          "lang": "ja",
+          "text": "郵便局",
+          "start_sample": 17943,
+          "end_sample": 35726,
+          "start_ms": 1121,
+          "end_ms": 2233
+        },
+        {
+          "lang": "en",
+          "text": "and mail that package today.",
+          "start_sample": 35726,
+          "end_sample": 62800,
+          "start_ms": 2233,
+          "end_ms": 3925
+        }
+      ]
+    },
+    "ja": {
+      "text": "We need to stop by the 郵便局 and mail that package today.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3133,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We need to stop by the",
+          "start_sample": 0,
+          "end_sample": 17352,
+          "start_ms": 0,
+          "end_ms": 1084
+        },
+        {
+          "lang": "ja",
+          "text": "郵便局",
+          "start_sample": 17352,
+          "end_sample": 27959,
+          "start_ms": 1084,
+          "end_ms": 1747
+        },
+        {
+          "lang": "en",
+          "text": "and mail that package today.",
+          "start_sample": 27959,
+          "end_sample": 50133,
+          "start_ms": 1747,
+          "end_ms": 3133
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 172,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

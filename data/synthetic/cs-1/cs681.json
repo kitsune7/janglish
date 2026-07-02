@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs681.flac",
+  "sentence": "このscrubを使うと肌がすべすべになります。",
+  "sample_rate": 16000,
+  "duration_ms": 2827,
+  "reference_speaker": "jp/speaker_072_6a4d94080268.mp3",
+  "seed": 723,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 2206,
+      "start_ms": 0,
+      "end_ms": 138
+    },
+    {
+      "lang": "en",
+      "text": "scrub",
+      "start_sample": 2206,
+      "end_sample": 13836,
+      "start_ms": 138,
+      "end_ms": 865
+    },
+    {
+      "lang": "ja",
+      "text": "を使うと肌がすべすべになります。",
+      "start_sample": 13836,
+      "end_sample": 45238,
+      "start_ms": 865,
+      "end_ms": 2827
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono scrub wo tsukau to hada ga subesube ni nari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5092,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 6255,
+          "start_ms": 0,
+          "end_ms": 391
+        },
+        {
+          "lang": "en",
+          "text": "scrub",
+          "start_sample": 6255,
+          "end_sample": 18285,
+          "start_ms": 391,
+          "end_ms": 1143
+        },
+        {
+          "lang": "ja",
+          "text": "を使うと肌がすべすべになります。",
+          "start_sample": 18285,
+          "end_sample": 81480,
+          "start_ms": 1143,
+          "end_ms": 5092
+        }
+      ]
+    },
+    "ja": {
+      "text": "このscrubを使うと肌がすべすべになります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2466,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 2406,
+          "start_ms": 0,
+          "end_ms": 150
+        },
+        {
+          "lang": "en",
+          "text": "scrub",
+          "start_sample": 2406,
+          "end_sample": 7860,
+          "start_ms": 150,
+          "end_ms": 491
+        },
+        {
+          "lang": "ja",
+          "text": "を使うと肌がすべすべになります。",
+          "start_sample": 7860,
+          "end_sample": 39462,
+          "start_ms": 491,
+          "end_ms": 2466
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 142,
+  "frame_labels": "jjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

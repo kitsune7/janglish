@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs593.flac",
+  "sentence": "このmonthlyレポートの締め切りは明日の朝だ。",
+  "sample_rate": 16000,
+  "duration_ms": 3400,
+  "reference_speaker": "jp/speaker_015_c26b5026d437.mp3",
+  "seed": 635,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3344,
+      "start_ms": 0,
+      "end_ms": 209
+    },
+    {
+      "lang": "en",
+      "text": "monthly",
+      "start_sample": 3344,
+      "end_sample": 15610,
+      "start_ms": 209,
+      "end_ms": 976
+    },
+    {
+      "lang": "ja",
+      "text": "レポートの締め切りは明日の朝だ。",
+      "start_sample": 15610,
+      "end_sample": 54396,
+      "start_ms": 976,
+      "end_ms": 3400
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono monthly repooto no shimekiri ha ashita no asa da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7355,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5451,
+          "start_ms": 0,
+          "end_ms": 341
+        },
+        {
+          "lang": "en",
+          "text": "monthly",
+          "start_sample": 5451,
+          "end_sample": 18117,
+          "start_ms": 341,
+          "end_ms": 1132
+        },
+        {
+          "lang": "ja",
+          "text": "レポートの締め切りは明日の朝だ。",
+          "start_sample": 18117,
+          "end_sample": 117685,
+          "start_ms": 1132,
+          "end_ms": 7355
+        }
+      ]
+    },
+    "ja": {
+      "text": "このmonthlyレポートの締め切りは明日の朝だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3142,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3544,
+          "start_ms": 0,
+          "end_ms": 222
+        },
+        {
+          "lang": "en",
+          "text": "monthly",
+          "start_sample": 3544,
+          "end_sample": 11278,
+          "start_ms": 222,
+          "end_ms": 705
+        },
+        {
+          "lang": "ja",
+          "text": "レポートの締め切りは明日の朝だ。",
+          "start_sample": 11278,
+          "end_sample": 50264,
+          "start_ms": 705,
+          "end_ms": 3142
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 170,
+  "frame_labels": "jjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

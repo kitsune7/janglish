@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs149.flac",
+  "sentence": "My daughter has been so わがまま lately — she refuses to eat anything green.",
+  "sample_rate": 16000,
+  "duration_ms": 6004,
+  "reference_speaker": "jp/speaker_067_07a7e7b35c3a.mp3",
+  "seed": 191,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My daughter has been so",
+      "start_sample": 0,
+      "end_sample": 31074,
+      "start_ms": 0,
+      "end_ms": 1942
+    },
+    {
+      "lang": "ja",
+      "text": "わがまま",
+      "start_sample": 31074,
+      "end_sample": 42691,
+      "start_ms": 1942,
+      "end_ms": 2668
+    },
+    {
+      "lang": "en",
+      "text": "lately — she refuses to eat anything green.",
+      "start_sample": 42691,
+      "end_sample": 96057,
+      "start_ms": 2668,
+      "end_ms": 6004
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My daughter has been so wagamama lately — she refuses to eat anything green.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7418,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My daughter has been so",
+          "start_sample": 0,
+          "end_sample": 31274,
+          "start_ms": 0,
+          "end_ms": 1955
+        },
+        {
+          "lang": "ja",
+          "text": "わがまま",
+          "start_sample": 31274,
+          "end_sample": 65116,
+          "start_ms": 1955,
+          "end_ms": 4070
+        },
+        {
+          "lang": "en",
+          "text": "lately — she refuses to eat anything green.",
+          "start_sample": 65116,
+          "end_sample": 118682,
+          "start_ms": 4070,
+          "end_ms": 7418
+        }
+      ]
+    },
+    "ja": {
+      "text": "My daughter has been so わがまま lately — she refuses to eat anything green.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5768,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My daughter has been so",
+          "start_sample": 0,
+          "end_sample": 26595,
+          "start_ms": 0,
+          "end_ms": 1662
+        },
+        {
+          "lang": "ja",
+          "text": "わがまま",
+          "start_sample": 26595,
+          "end_sample": 38612,
+          "start_ms": 1662,
+          "end_ms": 2413
+        },
+        {
+          "lang": "en",
+          "text": "lately — she refuses to eat anything green.",
+          "start_sample": 38612,
+          "end_sample": 92284,
+          "start_ms": 2413,
+          "end_ms": 5768
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 301,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

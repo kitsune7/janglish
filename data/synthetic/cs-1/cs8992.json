@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8992.flac",
+  "sentence": "The manager was 厳しい about following the return policy for damaged goods.",
+  "sample_rate": 16000,
+  "duration_ms": 5010,
+  "reference_speaker": "en/speaker_046_c5e6fd979dbd.mp3",
+  "seed": 9034,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The manager was",
+      "start_sample": 0,
+      "end_sample": 12464,
+      "start_ms": 0,
+      "end_ms": 779
+    },
+    {
+      "lang": "ja",
+      "text": "厳しい",
+      "start_sample": 12464,
+      "end_sample": 25222,
+      "start_ms": 779,
+      "end_ms": 1576
+    },
+    {
+      "lang": "en",
+      "text": "about following the return policy for damaged goods.",
+      "start_sample": 25222,
+      "end_sample": 80166,
+      "start_ms": 1576,
+      "end_ms": 5010
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The manager was ikameshii about following the return policy for damaged goods.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5450,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The manager was",
+          "start_sample": 0,
+          "end_sample": 12664,
+          "start_ms": 0,
+          "end_ms": 792
+        },
+        {
+          "lang": "ja",
+          "text": "厳しい",
+          "start_sample": 12664,
+          "end_sample": 32060,
+          "start_ms": 792,
+          "end_ms": 2004
+        },
+        {
+          "lang": "en",
+          "text": "about following the return policy for damaged goods.",
+          "start_sample": 32060,
+          "end_sample": 87204,
+          "start_ms": 2004,
+          "end_ms": 5450
+        }
+      ]
+    },
+    "ja": {
+      "text": "The manager was 厳しい about following the return policy for damaged goods.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6599,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The manager was",
+          "start_sample": 0,
+          "end_sample": 28562,
+          "start_ms": 0,
+          "end_ms": 1785
+        },
+        {
+          "lang": "ja",
+          "text": "厳しい",
+          "start_sample": 28562,
+          "end_sample": 41720,
+          "start_ms": 1785,
+          "end_ms": 2608
+        },
+        {
+          "lang": "en",
+          "text": "about following the return policy for damaged goods.",
+          "start_sample": 41720,
+          "end_sample": 105582,
+          "start_ms": 2608,
+          "end_ms": 6599
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 251,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

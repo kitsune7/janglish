@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3834.flac",
+  "sentence": "在宅で働き始めてから、morning routineが大切だと気づいた。",
+  "sample_rate": 16000,
+  "duration_ms": 5488,
+  "reference_speaker": "en/speaker_018_b0dec8b93359.mp3",
+  "seed": 3876,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "在宅で働き始めてから、",
+      "start_sample": 0,
+      "end_sample": 32497,
+      "start_ms": 0,
+      "end_ms": 2031
+    },
+    {
+      "lang": "en",
+      "text": "morning routine",
+      "start_sample": 32497,
+      "end_sample": 62358,
+      "start_ms": 2031,
+      "end_ms": 3897
+    },
+    {
+      "lang": "ja",
+      "text": "が大切だと気づいた。",
+      "start_sample": 62358,
+      "end_sample": 87803,
+      "start_ms": 3897,
+      "end_ms": 5488
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "zaitaku de hataraki hajime te kara morning routine ga taisetsu da to kizui ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9766,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "在宅で働き始めてから、",
+          "start_sample": 0,
+          "end_sample": 72207,
+          "start_ms": 0,
+          "end_ms": 4513
+        },
+        {
+          "lang": "en",
+          "text": "morning routine",
+          "start_sample": 72207,
+          "end_sample": 102468,
+          "start_ms": 4513,
+          "end_ms": 6404
+        },
+        {
+          "lang": "ja",
+          "text": "が大切だと気づいた。",
+          "start_sample": 102468,
+          "end_sample": 156263,
+          "start_ms": 6404,
+          "end_ms": 9766
+        }
+      ]
+    },
+    "ja": {
+      "text": "在宅で働き始めてから、morning routineが大切だと気づいた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4648,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "在宅で働き始めてから、",
+          "start_sample": 0,
+          "end_sample": 32697,
+          "start_ms": 0,
+          "end_ms": 2044
+        },
+        {
+          "lang": "en",
+          "text": "morning routine",
+          "start_sample": 32697,
+          "end_sample": 48726,
+          "start_ms": 2044,
+          "end_ms": 3045
+        },
+        {
+          "lang": "ja",
+          "text": "が大切だと気づいた。",
+          "start_sample": 48726,
+          "end_sample": 74371,
+          "start_ms": 3045,
+          "end_ms": 4648
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 275,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

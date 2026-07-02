@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs129.flac",
+  "sentence": "Has anyone else noticed how 細かい the background details in that show are?",
+  "sample_rate": 16000,
+  "duration_ms": 4790,
+  "reference_speaker": "jp/speaker_079_e96ebb016d7a.mp3",
+  "seed": 171,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Has anyone else noticed how",
+      "start_sample": 0,
+      "end_sample": 25456,
+      "start_ms": 0,
+      "end_ms": 1591
+    },
+    {
+      "lang": "ja",
+      "text": "細かい",
+      "start_sample": 25456,
+      "end_sample": 35307,
+      "start_ms": 1591,
+      "end_ms": 2207
+    },
+    {
+      "lang": "en",
+      "text": "the background details in that show are?",
+      "start_sample": 35307,
+      "end_sample": 76636,
+      "start_ms": 2207,
+      "end_ms": 4790
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Has anyone else noticed how komakai the background details in that show are?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5332,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Has anyone else noticed how",
+          "start_sample": 0,
+          "end_sample": 25656,
+          "start_ms": 0,
+          "end_ms": 1604
+        },
+        {
+          "lang": "ja",
+          "text": "細かい",
+          "start_sample": 25656,
+          "end_sample": 43775,
+          "start_ms": 1604,
+          "end_ms": 2736
+        },
+        {
+          "lang": "en",
+          "text": "the background details in that show are?",
+          "start_sample": 43775,
+          "end_sample": 85304,
+          "start_ms": 2736,
+          "end_ms": 5332
+        }
+      ]
+    },
+    "ja": {
+      "text": "Has anyone else noticed how 細かい the background details in that show are?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6527,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Has anyone else noticed how",
+          "start_sample": 0,
+          "end_sample": 45649,
+          "start_ms": 0,
+          "end_ms": 2853
+        },
+        {
+          "lang": "ja",
+          "text": "細かい",
+          "start_sample": 45649,
+          "end_sample": 55900,
+          "start_ms": 2853,
+          "end_ms": 3494
+        },
+        {
+          "lang": "en",
+          "text": "the background details in that show are?",
+          "start_sample": 55900,
+          "end_sample": 104432,
+          "start_ms": 3494,
+          "end_ms": 6527
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 240,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

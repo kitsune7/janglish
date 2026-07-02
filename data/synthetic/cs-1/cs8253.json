@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8253.flac",
+  "sentence": "I read that chronic 睡眠不足 can seriously impair your cardiovascular health.",
+  "sample_rate": 16000,
+  "duration_ms": 7329,
+  "reference_speaker": "jp/speaker_058_a8a05baeecbd.mp3",
+  "seed": 8295,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I read that chronic",
+      "start_sample": 0,
+      "end_sample": 25477,
+      "start_ms": 0,
+      "end_ms": 1592
+    },
+    {
+      "lang": "ja",
+      "text": "睡眠不足",
+      "start_sample": 25477,
+      "end_sample": 53099,
+      "start_ms": 1592,
+      "end_ms": 3319
+    },
+    {
+      "lang": "en",
+      "text": "can seriously impair your cardiovascular health.",
+      "start_sample": 53099,
+      "end_sample": 117257,
+      "start_ms": 3319,
+      "end_ms": 7329
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I read that chronic suimin fusoku can seriously impair your cardiovascular health.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7182,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I read that chronic",
+          "start_sample": 0,
+          "end_sample": 25677,
+          "start_ms": 0,
+          "end_ms": 1605
+        },
+        {
+          "lang": "ja",
+          "text": "睡眠不足",
+          "start_sample": 25677,
+          "end_sample": 50555,
+          "start_ms": 1605,
+          "end_ms": 3160
+        },
+        {
+          "lang": "en",
+          "text": "can seriously impair your cardiovascular health.",
+          "start_sample": 50555,
+          "end_sample": 114913,
+          "start_ms": 3160,
+          "end_ms": 7182
+        }
+      ]
+    },
+    "ja": {
+      "text": "I read that chronic 睡眠不足 can seriously impair your cardiovascular health.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 10628,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I read that chronic",
+          "start_sample": 0,
+          "end_sample": 54442,
+          "start_ms": 0,
+          "end_ms": 3403
+        },
+        {
+          "lang": "ja",
+          "text": "睡眠不足",
+          "start_sample": 54442,
+          "end_sample": 82464,
+          "start_ms": 3403,
+          "end_ms": 5154
+        },
+        {
+          "lang": "en",
+          "text": "can seriously impair your cardiovascular health.",
+          "start_sample": 82464,
+          "end_sample": 170054,
+          "start_ms": 5154,
+          "end_ms": 10628
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 367,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

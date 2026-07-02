@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7137.flac",
+  "sentence": "My son is obsessed with 虫 and collects them in little jars all summer.",
+  "sample_rate": 16000,
+  "duration_ms": 4118,
+  "reference_speaker": "en/speaker_041_b54335ce95b5.mp3",
+  "seed": 7179,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My son is obsessed with",
+      "start_sample": 0,
+      "end_sample": 20003,
+      "start_ms": 0,
+      "end_ms": 1250
+    },
+    {
+      "lang": "ja",
+      "text": "虫",
+      "start_sample": 20003,
+      "end_sample": 26971,
+      "start_ms": 1250,
+      "end_ms": 1686
+    },
+    {
+      "lang": "en",
+      "text": "and collects them in little jars all summer.",
+      "start_sample": 26971,
+      "end_sample": 65894,
+      "start_ms": 1686,
+      "end_ms": 4118
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My son is obsessed with mushi and collects them in little jars all summer.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4149,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My son is obsessed with",
+          "start_sample": 0,
+          "end_sample": 20203,
+          "start_ms": 0,
+          "end_ms": 1263
+        },
+        {
+          "lang": "ja",
+          "text": "虫",
+          "start_sample": 20203,
+          "end_sample": 27258,
+          "start_ms": 1263,
+          "end_ms": 1704
+        },
+        {
+          "lang": "en",
+          "text": "and collects them in little jars all summer.",
+          "start_sample": 27258,
+          "end_sample": 66381,
+          "start_ms": 1704,
+          "end_ms": 4149
+        }
+      ]
+    },
+    "ja": {
+      "text": "My son is obsessed with 虫 and collects them in little jars all summer.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5886,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My son is obsessed with",
+          "start_sample": 0,
+          "end_sample": 28831,
+          "start_ms": 0,
+          "end_ms": 1802
+        },
+        {
+          "lang": "ja",
+          "text": "虫",
+          "start_sample": 28831,
+          "end_sample": 36199,
+          "start_ms": 1802,
+          "end_ms": 2262
+        },
+        {
+          "lang": "en",
+          "text": "and collects them in little jars all summer.",
+          "start_sample": 36199,
+          "end_sample": 94183,
+          "start_ms": 2262,
+          "end_ms": 5886
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 206,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

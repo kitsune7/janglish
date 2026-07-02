@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1116.flac",
+  "sentence": "The clinic ran out of the 点滴 supplies during the busy season.",
+  "sample_rate": 16000,
+  "duration_ms": 3174,
+  "reference_speaker": "en/speaker_095_862d569c1af2.mp3",
+  "seed": 1158,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The clinic ran out of the",
+      "start_sample": 0,
+      "end_sample": 14914,
+      "start_ms": 0,
+      "end_ms": 932
+    },
+    {
+      "lang": "ja",
+      "text": "点滴",
+      "start_sample": 14914,
+      "end_sample": 24135,
+      "start_ms": 932,
+      "end_ms": 1508
+    },
+    {
+      "lang": "en",
+      "text": "supplies during the busy season.",
+      "start_sample": 24135,
+      "end_sample": 50783,
+      "start_ms": 1508,
+      "end_ms": 3174
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The clinic ran out of the tenteki supplies during the busy season.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3135,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The clinic ran out of the",
+          "start_sample": 0,
+          "end_sample": 15114,
+          "start_ms": 0,
+          "end_ms": 945
+        },
+        {
+          "lang": "ja",
+          "text": "点滴",
+          "start_sample": 15114,
+          "end_sample": 23316,
+          "start_ms": 945,
+          "end_ms": 1457
+        },
+        {
+          "lang": "en",
+          "text": "supplies during the busy season.",
+          "start_sample": 23316,
+          "end_sample": 50164,
+          "start_ms": 1457,
+          "end_ms": 3135
+        }
+      ]
+    },
+    "ja": {
+      "text": "The clinic ran out of the 点滴 supplies during the busy season.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4490,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The clinic ran out of the",
+          "start_sample": 0,
+          "end_sample": 30304,
+          "start_ms": 0,
+          "end_ms": 1894
+        },
+        {
+          "lang": "ja",
+          "text": "点滴",
+          "start_sample": 30304,
+          "end_sample": 39925,
+          "start_ms": 1894,
+          "end_ms": 2495
+        },
+        {
+          "lang": "en",
+          "text": "supplies during the busy season.",
+          "start_sample": 39925,
+          "end_sample": 71833,
+          "start_ms": 2495,
+          "end_ms": 4490
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

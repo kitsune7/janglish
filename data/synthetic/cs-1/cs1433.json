@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1433.flac",
+  "sentence": "彼女の帽子のbrimがとても広くておしゃれです。",
+  "sample_rate": 16000,
+  "duration_ms": 3277,
+  "reference_speaker": "en/speaker_036_d0b62ac1e57e.mp3",
+  "seed": 1475,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女の帽子の",
+      "start_sample": 0,
+      "end_sample": 14230,
+      "start_ms": 0,
+      "end_ms": 889
+    },
+    {
+      "lang": "en",
+      "text": "brim",
+      "start_sample": 14230,
+      "end_sample": 18798,
+      "start_ms": 889,
+      "end_ms": 1175
+    },
+    {
+      "lang": "ja",
+      "text": "がとても広くておしゃれです。",
+      "start_sample": 18798,
+      "end_sample": 52429,
+      "start_ms": 1175,
+      "end_ms": 3277
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo no boushi no brim ga totemo hiroku te oshare desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6210,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の帽子の",
+          "start_sample": 0,
+          "end_sample": 51922,
+          "start_ms": 0,
+          "end_ms": 3245
+        },
+        {
+          "lang": "en",
+          "text": "brim",
+          "start_sample": 51922,
+          "end_sample": 56890,
+          "start_ms": 3245,
+          "end_ms": 3556
+        },
+        {
+          "lang": "ja",
+          "text": "がとても広くておしゃれです。",
+          "start_sample": 56890,
+          "end_sample": 99356,
+          "start_ms": 3556,
+          "end_ms": 6210
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女の帽子のbrimがとても広くておしゃれです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3347,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の帽子の",
+          "start_sample": 0,
+          "end_sample": 14430,
+          "start_ms": 0,
+          "end_ms": 902
+        },
+        {
+          "lang": "en",
+          "text": "brim",
+          "start_sample": 14430,
+          "end_sample": 19722,
+          "start_ms": 902,
+          "end_ms": 1233
+        },
+        {
+          "lang": "ja",
+          "text": "がとても広くておしゃれです。",
+          "start_sample": 19722,
+          "end_sample": 53553,
+          "start_ms": 1233,
+          "end_ms": 3347
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 164,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

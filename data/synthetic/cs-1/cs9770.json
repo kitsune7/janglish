@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9770.flac",
+  "sentence": "彼はproactive な姿勢が評価されて内定をもらいました。",
+  "sample_rate": 16000,
+  "duration_ms": 4736,
+  "reference_speaker": "en/speaker_049_4b799abf92c3.mp3",
+  "seed": 9812,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼は",
+      "start_sample": 0,
+      "end_sample": 7008,
+      "start_ms": 0,
+      "end_ms": 438
+    },
+    {
+      "lang": "en",
+      "text": "proactive",
+      "start_sample": 7008,
+      "end_sample": 27760,
+      "start_ms": 438,
+      "end_ms": 1735
+    },
+    {
+      "lang": "ja",
+      "text": "な姿勢が評価されて内定をもらいました。",
+      "start_sample": 27760,
+      "end_sample": 75779,
+      "start_ms": 1735,
+      "end_ms": 4736
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha proactive na shisei ga hyouka sa re te naitei wo morai mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10576,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 22272,
+          "start_ms": 0,
+          "end_ms": 1392
+        },
+        {
+          "lang": "en",
+          "text": "proactive",
+          "start_sample": 22272,
+          "end_sample": 43424,
+          "start_ms": 1392,
+          "end_ms": 2714
+        },
+        {
+          "lang": "ja",
+          "text": "な姿勢が評価されて内定をもらいました。",
+          "start_sample": 43424,
+          "end_sample": 169208,
+          "start_ms": 2714,
+          "end_ms": 10576
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はproactive な姿勢が評価されて内定をもらいました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4285,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 7208,
+          "start_ms": 0,
+          "end_ms": 450
+        },
+        {
+          "lang": "en",
+          "text": "proactive",
+          "start_sample": 7208,
+          "end_sample": 20344,
+          "start_ms": 450,
+          "end_ms": 1272
+        },
+        {
+          "lang": "ja",
+          "text": "な姿勢が評価されて内定をもらいました。",
+          "start_sample": 20344,
+          "end_sample": 68563,
+          "start_ms": 1272,
+          "end_ms": 4285
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 237,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

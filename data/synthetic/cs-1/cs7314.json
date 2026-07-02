@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7314.flac",
+  "sentence": "The 台所 was an absolute disaster after last night's dinner party.",
+  "sample_rate": 16000,
+  "duration_ms": 4693,
+  "reference_speaker": "en/speaker_066_73a931d5f7bb.mp3",
+  "seed": 7356,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2685,
+      "start_ms": 0,
+      "end_ms": 168
+    },
+    {
+      "lang": "ja",
+      "text": "台所",
+      "start_sample": 2685,
+      "end_sample": 13680,
+      "start_ms": 168,
+      "end_ms": 855
+    },
+    {
+      "lang": "en",
+      "text": "was an absolute disaster after last night's dinner party.",
+      "start_sample": 13680,
+      "end_sample": 75081,
+      "start_ms": 855,
+      "end_ms": 4693
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The daidokoro was an absolute disaster after last night's dinner party.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4853,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2885,
+          "start_ms": 0,
+          "end_ms": 180
+        },
+        {
+          "lang": "ja",
+          "text": "台所",
+          "start_sample": 2885,
+          "end_sample": 16040,
+          "start_ms": 180,
+          "end_ms": 1002
+        },
+        {
+          "lang": "en",
+          "text": "was an absolute disaster after last night's dinner party.",
+          "start_sample": 16040,
+          "end_sample": 77641,
+          "start_ms": 1002,
+          "end_ms": 4853
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 台所 was an absolute disaster after last night's dinner party.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5256,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5133,
+          "start_ms": 0,
+          "end_ms": 321
+        },
+        {
+          "lang": "ja",
+          "text": "台所",
+          "start_sample": 5133,
+          "end_sample": 16528,
+          "start_ms": 321,
+          "end_ms": 1033
+        },
+        {
+          "lang": "en",
+          "text": "was an absolute disaster after last night's dinner party.",
+          "start_sample": 16528,
+          "end_sample": 84096,
+          "start_ms": 1033,
+          "end_ms": 5256
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 235,
+  "frame_labels": "eeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

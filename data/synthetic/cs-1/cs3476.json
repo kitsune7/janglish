@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3476.flac",
+  "sentence": "この秋はとくにleafの色づきが早かったと思います。",
+  "sample_rate": 16000,
+  "duration_ms": 4037,
+  "reference_speaker": "en/speaker_036_d0b62ac1e57e.mp3",
+  "seed": 3518,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この秋はとくに",
+      "start_sample": 0,
+      "end_sample": 20312,
+      "start_ms": 0,
+      "end_ms": 1270
+    },
+    {
+      "lang": "en",
+      "text": "leaf",
+      "start_sample": 20312,
+      "end_sample": 32903,
+      "start_ms": 1270,
+      "end_ms": 2056
+    },
+    {
+      "lang": "ja",
+      "text": "の色づきが早かったと思います。",
+      "start_sample": 32903,
+      "end_sample": 64591,
+      "start_ms": 2056,
+      "end_ms": 4037
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono aki ha tokuni leaf no iro zuki ga hayakatsu ta to omoi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6816,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この秋はとくに",
+          "start_sample": 0,
+          "end_sample": 35767,
+          "start_ms": 0,
+          "end_ms": 2235
+        },
+        {
+          "lang": "en",
+          "text": "leaf",
+          "start_sample": 35767,
+          "end_sample": 48758,
+          "start_ms": 2235,
+          "end_ms": 3047
+        },
+        {
+          "lang": "ja",
+          "text": "の色づきが早かったと思います。",
+          "start_sample": 48758,
+          "end_sample": 109063,
+          "start_ms": 3047,
+          "end_ms": 6816
+        }
+      ]
+    },
+    "ja": {
+      "text": "この秋はとくにleafの色づきが早かったと思います。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3646,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この秋はとくに",
+          "start_sample": 0,
+          "end_sample": 20512,
+          "start_ms": 0,
+          "end_ms": 1282
+        },
+        {
+          "lang": "en",
+          "text": "leaf",
+          "start_sample": 20512,
+          "end_sample": 26441,
+          "start_ms": 1282,
+          "end_ms": 1653
+        },
+        {
+          "lang": "ja",
+          "text": "の色づきが早かったと思います。",
+          "start_sample": 26441,
+          "end_sample": 58329,
+          "start_ms": 1653,
+          "end_ms": 3646
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

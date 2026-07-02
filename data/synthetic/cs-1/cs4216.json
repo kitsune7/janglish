@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4216.flac",
+  "sentence": "The 木陰 under the maple is the perfect place to rest.",
+  "sample_rate": 16000,
+  "duration_ms": 4556,
+  "reference_speaker": "jp/speaker_076_e83c8bab36f0.mp3",
+  "seed": 4258,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1405,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "木陰",
+      "start_sample": 1405,
+      "end_sample": 13035,
+      "start_ms": 88,
+      "end_ms": 815
+    },
+    {
+      "lang": "en",
+      "text": "under the maple is the perfect place to rest.",
+      "start_sample": 13035,
+      "end_sample": 72898,
+      "start_ms": 815,
+      "end_ms": 4556
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kokage under the maple is the perfect place to rest.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4537,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1605,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "木陰",
+          "start_sample": 1605,
+          "end_sample": 12526,
+          "start_ms": 100,
+          "end_ms": 783
+        },
+        {
+          "lang": "en",
+          "text": "under the maple is the perfect place to rest.",
+          "start_sample": 12526,
+          "end_sample": 72589,
+          "start_ms": 783,
+          "end_ms": 4537
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 木陰 under the maple is the perfect place to rest.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4451,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4649,
+          "start_ms": 0,
+          "end_ms": 291
+        },
+        {
+          "lang": "ja",
+          "text": "木陰",
+          "start_sample": 4649,
+          "end_sample": 16679,
+          "start_ms": 291,
+          "end_ms": 1042
+        },
+        {
+          "lang": "en",
+          "text": "under the maple is the perfect place to rest.",
+          "start_sample": 16679,
+          "end_sample": 71213,
+          "start_ms": 1042,
+          "end_ms": 4451
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 228,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4617.flac",
+  "sentence": "I've always thought foxes have the most 不思議 eyes of any wild animal.",
+  "sample_rate": 16000,
+  "duration_ms": 4712,
+  "reference_speaker": "en/speaker_054_103b0eb5778e.mp3",
+  "seed": 4659,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I've always thought foxes have the most",
+      "start_sample": 0,
+      "end_sample": 37657,
+      "start_ms": 0,
+      "end_ms": 2354
+    },
+    {
+      "lang": "ja",
+      "text": "不思議",
+      "start_sample": 37657,
+      "end_sample": 46232,
+      "start_ms": 2354,
+      "end_ms": 2890
+    },
+    {
+      "lang": "en",
+      "text": "eyes of any wild animal.",
+      "start_sample": 46232,
+      "end_sample": 75388,
+      "start_ms": 2890,
+      "end_ms": 4712
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I've always thought foxes have the most fushigi eyes of any wild animal.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4832,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've always thought foxes have the most",
+          "start_sample": 0,
+          "end_sample": 37857,
+          "start_ms": 0,
+          "end_ms": 2366
+        },
+        {
+          "lang": "ja",
+          "text": "不思議",
+          "start_sample": 37857,
+          "end_sample": 47964,
+          "start_ms": 2366,
+          "end_ms": 2998
+        },
+        {
+          "lang": "en",
+          "text": "eyes of any wild animal.",
+          "start_sample": 47964,
+          "end_sample": 77320,
+          "start_ms": 2998,
+          "end_ms": 4832
+        }
+      ]
+    },
+    "ja": {
+      "text": "I've always thought foxes have the most 不思議 eyes of any wild animal.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5289,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've always thought foxes have the most",
+          "start_sample": 0,
+          "end_sample": 43112,
+          "start_ms": 0,
+          "end_ms": 2694
+        },
+        {
+          "lang": "ja",
+          "text": "不思議",
+          "start_sample": 43112,
+          "end_sample": 52087,
+          "start_ms": 2694,
+          "end_ms": 3255
+        },
+        {
+          "lang": "en",
+          "text": "eyes of any wild animal.",
+          "start_sample": 52087,
+          "end_sample": 84622,
+          "start_ms": 3255,
+          "end_ms": 5289
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 236,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

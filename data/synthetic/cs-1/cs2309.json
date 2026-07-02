@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs2309.flac",
+  "sentence": "tripodを持ってこなかったので、手ぶれがひどい。",
+  "sample_rate": 16000,
+  "duration_ms": 3215,
+  "reference_speaker": "jp/speaker_052_8e5df296063d.mp3",
+  "seed": 2351,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "tripod",
+      "start_sample": 0,
+      "end_sample": 11664,
+      "start_ms": 0,
+      "end_ms": 729
+    },
+    {
+      "lang": "ja",
+      "text": "を持ってこなかったので、手ぶれがひどい。",
+      "start_sample": 11664,
+      "end_sample": 51447,
+      "start_ms": 729,
+      "end_ms": 3215
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "tripod wo motsu te ko nakatsu ta no de tebure ga hidoi",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6233,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "tripod",
+          "start_sample": 0,
+          "end_sample": 11864,
+          "start_ms": 0,
+          "end_ms": 742
+        },
+        {
+          "lang": "ja",
+          "text": "を持ってこなかったので、手ぶれがひどい。",
+          "start_sample": 11864,
+          "end_sample": 99723,
+          "start_ms": 742,
+          "end_ms": 6233
+        }
+      ]
+    },
+    "ja": {
+      "text": "tripodを持ってこなかったので、手ぶれがひどい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2962,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "tripod",
+          "start_sample": 0,
+          "end_sample": 7416,
+          "start_ms": 0,
+          "end_ms": 464
+        },
+        {
+          "lang": "ja",
+          "text": "を持ってこなかったので、手ぶれがひどい。",
+          "start_sample": 7416,
+          "end_sample": 47399,
+          "start_ms": 464,
+          "end_ms": 2962
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 161,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

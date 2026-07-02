@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2295.flac",
+  "sentence": "このplantは直射日光が苦手なので、日陰に置いてあげてください。",
+  "sample_rate": 16000,
+  "duration_ms": 6627,
+  "reference_speaker": "jp/speaker_090_d408fe95e0f2.mp3",
+  "seed": 2337,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 4613,
+      "start_ms": 0,
+      "end_ms": 288
+    },
+    {
+      "lang": "en",
+      "text": "plant",
+      "start_sample": 4613,
+      "end_sample": 19590,
+      "start_ms": 288,
+      "end_ms": 1224
+    },
+    {
+      "lang": "ja",
+      "text": "は直射日光が苦手なので、日陰に置いてあげてください。",
+      "start_sample": 19590,
+      "end_sample": 106035,
+      "start_ms": 1224,
+      "end_ms": 6627
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono plant ha chokusha nikkou ga nigate na no de hikage ni oi te age te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10752,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5926,
+          "start_ms": 0,
+          "end_ms": 370
+        },
+        {
+          "lang": "en",
+          "text": "plant",
+          "start_sample": 5926,
+          "end_sample": 21303,
+          "start_ms": 370,
+          "end_ms": 1331
+        },
+        {
+          "lang": "ja",
+          "text": "は直射日光が苦手なので、日陰に置いてあげてください。",
+          "start_sample": 21303,
+          "end_sample": 172028,
+          "start_ms": 1331,
+          "end_ms": 10752
+        }
+      ]
+    },
+    "ja": {
+      "text": "このplantは直射日光が苦手なので、日陰に置いてあげてください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6398,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4813,
+          "start_ms": 0,
+          "end_ms": 301
+        },
+        {
+          "lang": "en",
+          "text": "plant",
+          "start_sample": 4813,
+          "end_sample": 15724,
+          "start_ms": 301,
+          "end_ms": 983
+        },
+        {
+          "lang": "ja",
+          "text": "は直射日光が苦手なので、日陰に置いてあげてください。",
+          "start_sample": 15724,
+          "end_sample": 102369,
+          "start_ms": 983,
+          "end_ms": 6398
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 332,
+  "frame_labels": "jjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

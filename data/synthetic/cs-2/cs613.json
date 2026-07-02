@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs613.flac",
+  "sentence": "She always speaks in 本音 when we talk on the phone, which is actually 貴重.",
+  "sample_rate": 16000,
+  "duration_ms": 3701,
+  "reference_speaker": "en/speaker_095_862d569c1af2.mp3",
+  "seed": 17468,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She always speaks in",
+      "start_sample": 0,
+      "end_sample": 14707,
+      "start_ms": 0,
+      "end_ms": 919
+    },
+    {
+      "lang": "ja",
+      "text": "本音",
+      "start_sample": 14707,
+      "end_sample": 21513,
+      "start_ms": 919,
+      "end_ms": 1345
+    },
+    {
+      "lang": "en",
+      "text": "when we talk on the phone, which is actually",
+      "start_sample": 21513,
+      "end_sample": 50931,
+      "start_ms": 1345,
+      "end_ms": 3183
+    },
+    {
+      "lang": "ja",
+      "text": "貴重.",
+      "start_sample": 50931,
+      "end_sample": 59217,
+      "start_ms": 3183,
+      "end_ms": 3701
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She always speaks in honne when we talk on the phone, which is actually kichou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3667,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She always speaks in",
+          "start_sample": 0,
+          "end_sample": 14907,
+          "start_ms": 0,
+          "end_ms": 932
+        },
+        {
+          "lang": "ja",
+          "text": "本音",
+          "start_sample": 14907,
+          "end_sample": 22281,
+          "start_ms": 932,
+          "end_ms": 1393
+        },
+        {
+          "lang": "en",
+          "text": "when we talk on the phone, which is actually",
+          "start_sample": 22281,
+          "end_sample": 52099,
+          "start_ms": 1393,
+          "end_ms": 3256
+        },
+        {
+          "lang": "ja",
+          "text": "貴重.",
+          "start_sample": 52099,
+          "end_sample": 58670,
+          "start_ms": 3256,
+          "end_ms": 3667
+        }
+      ]
+    },
+    "ja": {
+      "text": "She always speaks in 本音 when we talk on the phone, which is actually 貴重.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4964,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She always speaks in",
+          "start_sample": 0,
+          "end_sample": 24177,
+          "start_ms": 0,
+          "end_ms": 1511
+        },
+        {
+          "lang": "ja",
+          "text": "本音",
+          "start_sample": 24177,
+          "end_sample": 31383,
+          "start_ms": 1511,
+          "end_ms": 1961
+        },
+        {
+          "lang": "en",
+          "text": "when we talk on the phone, which is actually",
+          "start_sample": 31383,
+          "end_sample": 70933,
+          "start_ms": 1961,
+          "end_ms": 4433
+        },
+        {
+          "lang": "ja",
+          "text": "貴重.",
+          "start_sample": 70933,
+          "end_sample": 79419,
+          "start_ms": 4433,
+          "end_ms": 4964
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 186,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4477.flac",
+  "sentence": "We use 内線 for everything between floors in our office.",
+  "sample_rate": 16000,
+  "duration_ms": 4212,
+  "reference_speaker": "jp/speaker_050_3d86fef9a9be.mp3",
+  "seed": 4519,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We use",
+      "start_sample": 0,
+      "end_sample": 5895,
+      "start_ms": 0,
+      "end_ms": 368
+    },
+    {
+      "lang": "ja",
+      "text": "内線",
+      "start_sample": 5895,
+      "end_sample": 13855,
+      "start_ms": 368,
+      "end_ms": 866
+    },
+    {
+      "lang": "en",
+      "text": "for everything between floors in our office.",
+      "start_sample": 13855,
+      "end_sample": 67390,
+      "start_ms": 866,
+      "end_ms": 4212
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We use naisen for everything between floors in our office.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4170,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We use",
+          "start_sample": 0,
+          "end_sample": 6095,
+          "start_ms": 0,
+          "end_ms": 381
+        },
+        {
+          "lang": "ja",
+          "text": "内線",
+          "start_sample": 6095,
+          "end_sample": 12993,
+          "start_ms": 381,
+          "end_ms": 812
+        },
+        {
+          "lang": "en",
+          "text": "for everything between floors in our office.",
+          "start_sample": 12993,
+          "end_sample": 66728,
+          "start_ms": 812,
+          "end_ms": 4170
+        }
+      ]
+    },
+    "ja": {
+      "text": "We use 内線 for everything between floors in our office.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3276,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We use",
+          "start_sample": 0,
+          "end_sample": 7556,
+          "start_ms": 0,
+          "end_ms": 472
+        },
+        {
+          "lang": "ja",
+          "text": "内線",
+          "start_sample": 7556,
+          "end_sample": 15916,
+          "start_ms": 472,
+          "end_ms": 995
+        },
+        {
+          "lang": "en",
+          "text": "for everything between floors in our office.",
+          "start_sample": 15916,
+          "end_sample": 52409,
+          "start_ms": 995,
+          "end_ms": 3276
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 211,
+  "frame_labels": "eeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

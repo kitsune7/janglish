@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9318.flac",
+  "sentence": "The 地方 governments are struggling to implement the new regulations.",
+  "sample_rate": 16000,
+  "duration_ms": 4189,
+  "reference_speaker": "en/speaker_080_2ec83f7b270e.mp3",
+  "seed": 9360,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2683,
+      "start_ms": 0,
+      "end_ms": 168
+    },
+    {
+      "lang": "ja",
+      "text": "地方",
+      "start_sample": 2683,
+      "end_sample": 11581,
+      "start_ms": 168,
+      "end_ms": 724
+    },
+    {
+      "lang": "en",
+      "text": "governments are struggling to implement the new regulations.",
+      "start_sample": 11581,
+      "end_sample": 67019,
+      "start_ms": 724,
+      "end_ms": 4189
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The chihou governments are struggling to implement the new regulations.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4109,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2883,
+          "start_ms": 0,
+          "end_ms": 180
+        },
+        {
+          "lang": "ja",
+          "text": "地方",
+          "start_sample": 2883,
+          "end_sample": 10099,
+          "start_ms": 180,
+          "end_ms": 631
+        },
+        {
+          "lang": "en",
+          "text": "governments are struggling to implement the new regulations.",
+          "start_sample": 10099,
+          "end_sample": 65737,
+          "start_ms": 631,
+          "end_ms": 4109
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 地方 governments are struggling to implement the new regulations.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5410,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6570,
+          "start_ms": 0,
+          "end_ms": 411
+        },
+        {
+          "lang": "ja",
+          "text": "地方",
+          "start_sample": 6570,
+          "end_sample": 15868,
+          "start_ms": 411,
+          "end_ms": 992
+        },
+        {
+          "lang": "en",
+          "text": "governments are struggling to implement the new regulations.",
+          "start_sample": 15868,
+          "end_sample": 86561,
+          "start_ms": 992,
+          "end_ms": 5410
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "eeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

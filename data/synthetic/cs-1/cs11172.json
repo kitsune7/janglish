@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11172.flac",
+  "sentence": "そのoutletまで車で一時間かかるよ。",
+  "sample_rate": 16000,
+  "duration_ms": 2494,
+  "reference_speaker": "jp/speaker_058_a8a05baeecbd.mp3",
+  "seed": 11214,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その",
+      "start_sample": 0,
+      "end_sample": 5569,
+      "start_ms": 0,
+      "end_ms": 348
+    },
+    {
+      "lang": "en",
+      "text": "outlet",
+      "start_sample": 5569,
+      "end_sample": 13344,
+      "start_ms": 348,
+      "end_ms": 834
+    },
+    {
+      "lang": "ja",
+      "text": "まで車で一時間かかるよ。",
+      "start_sample": 13344,
+      "end_sample": 39910,
+      "start_ms": 834,
+      "end_ms": 2494
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono outlet ma de kuruma de ichi jikan kakaru yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4187,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 5930,
+          "start_ms": 0,
+          "end_ms": 371
+        },
+        {
+          "lang": "en",
+          "text": "outlet",
+          "start_sample": 5930,
+          "end_sample": 14105,
+          "start_ms": 371,
+          "end_ms": 882
+        },
+        {
+          "lang": "ja",
+          "text": "まで車で一時間かかるよ。",
+          "start_sample": 14105,
+          "end_sample": 66998,
+          "start_ms": 882,
+          "end_ms": 4187
+        }
+      ]
+    },
+    "ja": {
+      "text": "そのoutletまで車で一時間かかるよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2745,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 5769,
+          "start_ms": 0,
+          "end_ms": 361
+        },
+        {
+          "lang": "en",
+          "text": "outlet",
+          "start_sample": 5769,
+          "end_sample": 17150,
+          "start_ms": 361,
+          "end_ms": 1072
+        },
+        {
+          "lang": "ja",
+          "text": "まで車で一時間かかるよ。",
+          "start_sample": 17150,
+          "end_sample": 43916,
+          "start_ms": 1072,
+          "end_ms": 2745
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 125,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

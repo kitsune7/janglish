@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs8169.flac",
+  "sentence": "shortcutを使えばもっと早く着きます。",
+  "sample_rate": 16000,
+  "duration_ms": 2712,
+  "reference_speaker": "en/speaker_052_622e6181fea2.mp3",
+  "seed": 8211,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "shortcut",
+      "start_sample": 0,
+      "end_sample": 13911,
+      "start_ms": 0,
+      "end_ms": 869
+    },
+    {
+      "lang": "ja",
+      "text": "を使えばもっと早く着きます。",
+      "start_sample": 13911,
+      "end_sample": 43388,
+      "start_ms": 869,
+      "end_ms": 2712
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shortcut wo tsukae ba motto hayaku tsuki masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5352,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "shortcut",
+          "start_sample": 0,
+          "end_sample": 14111,
+          "start_ms": 0,
+          "end_ms": 882
+        },
+        {
+          "lang": "ja",
+          "text": "を使えばもっと早く着きます。",
+          "start_sample": 14111,
+          "end_sample": 85627,
+          "start_ms": 882,
+          "end_ms": 5352
+        }
+      ]
+    },
+    "ja": {
+      "text": "shortcutを使えばもっと早く着きます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2366,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "shortcut",
+          "start_sample": 0,
+          "end_sample": 8181,
+          "start_ms": 0,
+          "end_ms": 511
+        },
+        {
+          "lang": "ja",
+          "text": "を使えばもっと早く着きます。",
+          "start_sample": 8181,
+          "end_sample": 37858,
+          "start_ms": 511,
+          "end_ms": 2366
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 136,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

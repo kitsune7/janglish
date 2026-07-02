@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8458.flac",
+  "sentence": "Can you confirm the 明細 on last month's bank statement?",
+  "sample_rate": 16000,
+  "duration_ms": 3050,
+  "reference_speaker": "jp/speaker_072_6a4d94080268.mp3",
+  "seed": 8500,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you confirm the",
+      "start_sample": 0,
+      "end_sample": 13495,
+      "start_ms": 0,
+      "end_ms": 843
+    },
+    {
+      "lang": "ja",
+      "text": "明細",
+      "start_sample": 13495,
+      "end_sample": 21773,
+      "start_ms": 843,
+      "end_ms": 1361
+    },
+    {
+      "lang": "en",
+      "text": "on last month's bank statement?",
+      "start_sample": 21773,
+      "end_sample": 48797,
+      "start_ms": 1361,
+      "end_ms": 3050
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you confirm the meisai on last month's bank statement?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3121,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you confirm the",
+          "start_sample": 0,
+          "end_sample": 13695,
+          "start_ms": 0,
+          "end_ms": 856
+        },
+        {
+          "lang": "ja",
+          "text": "明細",
+          "start_sample": 13695,
+          "end_sample": 22718,
+          "start_ms": 856,
+          "end_ms": 1420
+        },
+        {
+          "lang": "en",
+          "text": "on last month's bank statement?",
+          "start_sample": 22718,
+          "end_sample": 49942,
+          "start_ms": 1420,
+          "end_ms": 3121
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you confirm the 明細 on last month's bank statement?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3375,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you confirm the",
+          "start_sample": 0,
+          "end_sample": 15749,
+          "start_ms": 0,
+          "end_ms": 984
+        },
+        {
+          "lang": "ja",
+          "text": "明細",
+          "start_sample": 15749,
+          "end_sample": 24427,
+          "start_ms": 984,
+          "end_ms": 1527
+        },
+        {
+          "lang": "en",
+          "text": "on last month's bank statement?",
+          "start_sample": 24427,
+          "end_sample": 53994,
+          "start_ms": 1527,
+          "end_ms": 3375
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 153,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

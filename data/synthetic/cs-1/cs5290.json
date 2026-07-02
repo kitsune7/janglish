@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5290.flac",
+  "sentence": "ねこがソファの上で grooming しているのをずっと眺めていました。",
+  "sample_rate": 16000,
+  "duration_ms": 3576,
+  "reference_speaker": "en/speaker_066_73a931d5f7bb.mp3",
+  "seed": 5332,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "ねこがソファの上で",
+      "start_sample": 0,
+      "end_sample": 18872,
+      "start_ms": 0,
+      "end_ms": 1180
+    },
+    {
+      "lang": "en",
+      "text": "grooming",
+      "start_sample": 18872,
+      "end_sample": 25368,
+      "start_ms": 1180,
+      "end_ms": 1586
+    },
+    {
+      "lang": "ja",
+      "text": "しているのをずっと眺めていました。",
+      "start_sample": 25368,
+      "end_sample": 57221,
+      "start_ms": 1586,
+      "end_ms": 3576
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "neko ga sofa no ue de grooming shi te iru no wo zutto nagame te i mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6896,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ねこがソファの上で",
+          "start_sample": 0,
+          "end_sample": 26459,
+          "start_ms": 0,
+          "end_ms": 1654
+        },
+        {
+          "lang": "en",
+          "text": "grooming",
+          "start_sample": 26459,
+          "end_sample": 33355,
+          "start_ms": 1654,
+          "end_ms": 2085
+        },
+        {
+          "lang": "ja",
+          "text": "しているのをずっと眺めていました。",
+          "start_sample": 33355,
+          "end_sample": 110334,
+          "start_ms": 2085,
+          "end_ms": 6896
+        }
+      ]
+    },
+    "ja": {
+      "text": "ねこがソファの上で grooming しているのをずっと眺めていました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3806,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ねこがソファの上で",
+          "start_sample": 0,
+          "end_sample": 19072,
+          "start_ms": 0,
+          "end_ms": 1192
+        },
+        {
+          "lang": "en",
+          "text": "grooming",
+          "start_sample": 19072,
+          "end_sample": 28848,
+          "start_ms": 1192,
+          "end_ms": 1803
+        },
+        {
+          "lang": "ja",
+          "text": "しているのをずっと眺めていました。",
+          "start_sample": 28848,
+          "end_sample": 60901,
+          "start_ms": 1803,
+          "end_ms": 3806
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 179,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5411.flac",
+  "sentence": "彼はそのシリーズの最新volumeをもう読み終えた。",
+  "sample_rate": 16000,
+  "duration_ms": 3608,
+  "reference_speaker": "jp/speaker_037_97f38629e8a3.mp3",
+  "seed": 5453,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼はそのシリーズの最新",
+      "start_sample": 0,
+      "end_sample": 28281,
+      "start_ms": 0,
+      "end_ms": 1768
+    },
+    {
+      "lang": "en",
+      "text": "volume",
+      "start_sample": 28281,
+      "end_sample": 40877,
+      "start_ms": 1768,
+      "end_ms": 2555
+    },
+    {
+      "lang": "ja",
+      "text": "をもう読み終えた。",
+      "start_sample": 40877,
+      "end_sample": 57728,
+      "start_ms": 2555,
+      "end_ms": 3608
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha sono shiriizu no saishin volume wo mou yomi oe ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7501,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼はそのシリーズの最新",
+          "start_sample": 0,
+          "end_sample": 77815,
+          "start_ms": 0,
+          "end_ms": 4863
+        },
+        {
+          "lang": "en",
+          "text": "volume",
+          "start_sample": 77815,
+          "end_sample": 90811,
+          "start_ms": 4863,
+          "end_ms": 5676
+        },
+        {
+          "lang": "ja",
+          "text": "をもう読み終えた。",
+          "start_sample": 90811,
+          "end_sample": 120009,
+          "start_ms": 5676,
+          "end_ms": 7501
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はそのシリーズの最新volumeをもう読み終えた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3359,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼はそのシリーズの最新",
+          "start_sample": 0,
+          "end_sample": 28481,
+          "start_ms": 0,
+          "end_ms": 1780
+        },
+        {
+          "lang": "en",
+          "text": "volume",
+          "start_sample": 28481,
+          "end_sample": 36688,
+          "start_ms": 1780,
+          "end_ms": 2293
+        },
+        {
+          "lang": "ja",
+          "text": "をもう読み終えた。",
+          "start_sample": 36688,
+          "end_sample": 53739,
+          "start_ms": 2293,
+          "end_ms": 3359
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 181,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

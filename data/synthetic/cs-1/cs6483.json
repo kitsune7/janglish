@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6483.flac",
+  "sentence": "洗い終わった食器をdish rackに重ねないように並べてください。",
+  "sample_rate": 16000,
+  "duration_ms": 3966,
+  "reference_speaker": "jp/speaker_022_b672c364242e.mp3",
+  "seed": 6525,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "洗い終わった食器を",
+      "start_sample": 0,
+      "end_sample": 19985,
+      "start_ms": 0,
+      "end_ms": 1249
+    },
+    {
+      "lang": "en",
+      "text": "dish rack",
+      "start_sample": 19985,
+      "end_sample": 31130,
+      "start_ms": 1249,
+      "end_ms": 1946
+    },
+    {
+      "lang": "ja",
+      "text": "に重ねないように並べてください。",
+      "start_sample": 31130,
+      "end_sample": 63451,
+      "start_ms": 1946,
+      "end_ms": 3966
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "arai owatsu ta shokki wo dish rack ni omone nai you ni narabe te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8659,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "洗い終わった食器を",
+          "start_sample": 0,
+          "end_sample": 63822,
+          "start_ms": 0,
+          "end_ms": 3989
+        },
+        {
+          "lang": "en",
+          "text": "dish rack",
+          "start_sample": 63822,
+          "end_sample": 75367,
+          "start_ms": 3989,
+          "end_ms": 4710
+        },
+        {
+          "lang": "ja",
+          "text": "に重ねないように並べてください。",
+          "start_sample": 75367,
+          "end_sample": 138547,
+          "start_ms": 4710,
+          "end_ms": 8659
+        }
+      ]
+    },
+    "ja": {
+      "text": "洗い終わった食器をdish rackに重ねないように並べてください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3965,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "洗い終わった食器を",
+          "start_sample": 0,
+          "end_sample": 20185,
+          "start_ms": 0,
+          "end_ms": 1262
+        },
+        {
+          "lang": "en",
+          "text": "dish rack",
+          "start_sample": 20185,
+          "end_sample": 30919,
+          "start_ms": 1262,
+          "end_ms": 1932
+        },
+        {
+          "lang": "ja",
+          "text": "に重ねないように並べてください。",
+          "start_sample": 30919,
+          "end_sample": 63440,
+          "start_ms": 1932,
+          "end_ms": 3965
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 199,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

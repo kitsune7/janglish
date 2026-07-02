@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs9963.flac",
+  "sentence": "instrumentalの部分が長すぎて少し退屈に感じた。",
+  "sample_rate": 16000,
+  "duration_ms": 3581,
+  "reference_speaker": "jp/speaker_070_8f5dfeca773f.mp3",
+  "seed": 10005,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "instrumental",
+      "start_sample": 0,
+      "end_sample": 15499,
+      "start_ms": 0,
+      "end_ms": 969
+    },
+    {
+      "lang": "ja",
+      "text": "の部分が長すぎて少し退屈に感じた。",
+      "start_sample": 15499,
+      "end_sample": 57292,
+      "start_ms": 969,
+      "end_ms": 3581
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "instrumental no bubun ga chou sugi te sukoshi taikutsu ni kanji ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7970,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "instrumental",
+          "start_sample": 0,
+          "end_sample": 15699,
+          "start_ms": 0,
+          "end_ms": 981
+        },
+        {
+          "lang": "ja",
+          "text": "の部分が長すぎて少し退屈に感じた。",
+          "start_sample": 15699,
+          "end_sample": 127524,
+          "start_ms": 981,
+          "end_ms": 7970
+        }
+      ]
+    },
+    "ja": {
+      "text": "instrumentalの部分が長すぎて少し退屈に感じた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3358,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "instrumental",
+          "start_sample": 0,
+          "end_sample": 11741,
+          "start_ms": 0,
+          "end_ms": 734
+        },
+        {
+          "lang": "ja",
+          "text": "の部分が長すぎて少し退屈に感じた。",
+          "start_sample": 11741,
+          "end_sample": 53734,
+          "start_ms": 734,
+          "end_ms": 3358
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 180,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

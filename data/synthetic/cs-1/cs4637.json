@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4637.flac",
+  "sentence": "The way 子馬 stand up within minutes of being born still amazes me every time I see it.",
+  "sample_rate": 16000,
+  "duration_ms": 4442,
+  "reference_speaker": "jp/speaker_009_33102318f73b.mp3",
+  "seed": 4679,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The way",
+      "start_sample": 0,
+      "end_sample": 3338,
+      "start_ms": 0,
+      "end_ms": 209
+    },
+    {
+      "lang": "ja",
+      "text": "子馬",
+      "start_sample": 3338,
+      "end_sample": 9027,
+      "start_ms": 209,
+      "end_ms": 564
+    },
+    {
+      "lang": "en",
+      "text": "stand up within minutes of being born still amazes me every time I see it.",
+      "start_sample": 9027,
+      "end_sample": 71070,
+      "start_ms": 564,
+      "end_ms": 4442
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The way kouma stand up within minutes of being born still amazes me every time I see it.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4483,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The way",
+          "start_sample": 0,
+          "end_sample": 3538,
+          "start_ms": 0,
+          "end_ms": 221
+        },
+        {
+          "lang": "ja",
+          "text": "子馬",
+          "start_sample": 3538,
+          "end_sample": 9490,
+          "start_ms": 221,
+          "end_ms": 593
+        },
+        {
+          "lang": "en",
+          "text": "stand up within minutes of being born still amazes me every time I see it.",
+          "start_sample": 9490,
+          "end_sample": 71733,
+          "start_ms": 593,
+          "end_ms": 4483
+        }
+      ]
+    },
+    "ja": {
+      "text": "The way 子馬 stand up within minutes of being born still amazes me every time I see it.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7230,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The way",
+          "start_sample": 0,
+          "end_sample": 6729,
+          "start_ms": 0,
+          "end_ms": 421
+        },
+        {
+          "lang": "ja",
+          "text": "子馬",
+          "start_sample": 6729,
+          "end_sample": 12818,
+          "start_ms": 421,
+          "end_ms": 801
+        },
+        {
+          "lang": "en",
+          "text": "stand up within minutes of being born still amazes me every time I see it.",
+          "start_sample": 12818,
+          "end_sample": 115686,
+          "start_ms": 801,
+          "end_ms": 7230
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 223,
+  "frame_labels": "eeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

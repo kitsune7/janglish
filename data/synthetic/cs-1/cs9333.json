@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9333.flac",
+  "sentence": "The 与党 narrowly avoided a no-confidence vote last Thursday.",
+  "sample_rate": 16000,
+  "duration_ms": 4078,
+  "reference_speaker": "jp/speaker_052_8e5df296063d.mp3",
+  "seed": 9375,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 921,
+      "start_ms": 0,
+      "end_ms": 58
+    },
+    {
+      "lang": "ja",
+      "text": "与党",
+      "start_sample": 921,
+      "end_sample": 5498,
+      "start_ms": 58,
+      "end_ms": 344
+    },
+    {
+      "lang": "en",
+      "text": "narrowly avoided a no-confidence vote last Thursday.",
+      "start_sample": 5498,
+      "end_sample": 65250,
+      "start_ms": 344,
+      "end_ms": 4078
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The yotou narrowly avoided a no-confidence vote last Thursday.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4508,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1121,
+          "start_ms": 0,
+          "end_ms": 70
+        },
+        {
+          "lang": "ja",
+          "text": "与党",
+          "start_sample": 1121,
+          "end_sample": 12182,
+          "start_ms": 70,
+          "end_ms": 761
+        },
+        {
+          "lang": "en",
+          "text": "narrowly avoided a no-confidence vote last Thursday.",
+          "start_sample": 12182,
+          "end_sample": 72134,
+          "start_ms": 761,
+          "end_ms": 4508
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 与党 narrowly avoided a no-confidence vote last Thursday.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4033,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2244,
+          "start_ms": 0,
+          "end_ms": 140
+        },
+        {
+          "lang": "ja",
+          "text": "与党",
+          "start_sample": 2244,
+          "end_sample": 7221,
+          "start_ms": 140,
+          "end_ms": 451
+        },
+        {
+          "lang": "en",
+          "text": "narrowly avoided a no-confidence vote last Thursday.",
+          "start_sample": 7221,
+          "end_sample": 64531,
+          "start_ms": 451,
+          "end_ms": 4033
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "eeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

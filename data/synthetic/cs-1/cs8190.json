@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8190.flac",
+  "sentence": "この仕事はremoteでできるので、どこにいても大丈夫です。",
+  "sample_rate": 16000,
+  "duration_ms": 5583,
+  "reference_speaker": "jp/speaker_050_3d86fef9a9be.mp3",
+  "seed": 8232,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この仕事は",
+      "start_sample": 0,
+      "end_sample": 12948,
+      "start_ms": 0,
+      "end_ms": 809
+    },
+    {
+      "lang": "en",
+      "text": "remote",
+      "start_sample": 12948,
+      "end_sample": 42545,
+      "start_ms": 809,
+      "end_ms": 2659
+    },
+    {
+      "lang": "ja",
+      "text": "でできるので、どこにいても大丈夫です。",
+      "start_sample": 42545,
+      "end_sample": 89324,
+      "start_ms": 2659,
+      "end_ms": 5583
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono shigoto ha remote de dekiru no de doko ni i te mo daijoubu desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7840,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この仕事は",
+          "start_sample": 0,
+          "end_sample": 58228,
+          "start_ms": 0,
+          "end_ms": 3639
+        },
+        {
+          "lang": "en",
+          "text": "remote",
+          "start_sample": 58228,
+          "end_sample": 88225,
+          "start_ms": 3639,
+          "end_ms": 5514
+        },
+        {
+          "lang": "ja",
+          "text": "でできるので、どこにいても大丈夫です。",
+          "start_sample": 88225,
+          "end_sample": 125440,
+          "start_ms": 5514,
+          "end_ms": 7840
+        }
+      ]
+    },
+    "ja": {
+      "text": "この仕事はremoteでできるので、どこにいても大丈夫です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4249,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この仕事は",
+          "start_sample": 0,
+          "end_sample": 13148,
+          "start_ms": 0,
+          "end_ms": 822
+        },
+        {
+          "lang": "en",
+          "text": "remote",
+          "start_sample": 13148,
+          "end_sample": 21005,
+          "start_ms": 822,
+          "end_ms": 1313
+        },
+        {
+          "lang": "ja",
+          "text": "でできるので、どこにいても大丈夫です。",
+          "start_sample": 21005,
+          "end_sample": 67984,
+          "start_ms": 1313,
+          "end_ms": 4249
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 280,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

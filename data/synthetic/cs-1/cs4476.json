@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4476.flac",
+  "sentence": "He always sounds so 元気 when he calls, no matter what time it is.",
+  "sample_rate": 16000,
+  "duration_ms": 4201,
+  "reference_speaker": "jp/speaker_038_fa40784c77e2.mp3",
+  "seed": 4518,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He always sounds so",
+      "start_sample": 0,
+      "end_sample": 18939,
+      "start_ms": 0,
+      "end_ms": 1184
+    },
+    {
+      "lang": "ja",
+      "text": "元気",
+      "start_sample": 18939,
+      "end_sample": 26727,
+      "start_ms": 1184,
+      "end_ms": 1670
+    },
+    {
+      "lang": "en",
+      "text": "when he calls, no matter what time it is.",
+      "start_sample": 26727,
+      "end_sample": 67214,
+      "start_ms": 1670,
+      "end_ms": 4201
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He always sounds so genki when he calls, no matter what time it is.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4222,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He always sounds so",
+          "start_sample": 0,
+          "end_sample": 19139,
+          "start_ms": 0,
+          "end_ms": 1196
+        },
+        {
+          "lang": "ja",
+          "text": "元気",
+          "start_sample": 19139,
+          "end_sample": 26859,
+          "start_ms": 1196,
+          "end_ms": 1679
+        },
+        {
+          "lang": "en",
+          "text": "when he calls, no matter what time it is.",
+          "start_sample": 26859,
+          "end_sample": 67546,
+          "start_ms": 1679,
+          "end_ms": 4222
+        }
+      ]
+    },
+    "ja": {
+      "text": "He always sounds so 元気 when he calls, no matter what time it is.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4575,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He always sounds so",
+          "start_sample": 0,
+          "end_sample": 24883,
+          "start_ms": 0,
+          "end_ms": 1555
+        },
+        {
+          "lang": "ja",
+          "text": "元気",
+          "start_sample": 24883,
+          "end_sample": 33071,
+          "start_ms": 1555,
+          "end_ms": 2067
+        },
+        {
+          "lang": "en",
+          "text": "when he calls, no matter what time it is.",
+          "start_sample": 33071,
+          "end_sample": 73204,
+          "start_ms": 2067,
+          "end_ms": 4575
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 211,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

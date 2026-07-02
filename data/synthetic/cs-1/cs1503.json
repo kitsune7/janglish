@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1503.flac",
+  "sentence": "The stylist added soft 巻き to her ends for the shoot.",
+  "sample_rate": 16000,
+  "duration_ms": 7099,
+  "reference_speaker": "en/speaker_067_3f15e2fece31.mp3",
+  "seed": 1545,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The stylist added soft",
+      "start_sample": 0,
+      "end_sample": 32209,
+      "start_ms": 0,
+      "end_ms": 2013
+    },
+    {
+      "lang": "ja",
+      "text": "巻き",
+      "start_sample": 32209,
+      "end_sample": 37097,
+      "start_ms": 2013,
+      "end_ms": 2319
+    },
+    {
+      "lang": "en",
+      "text": "to her ends for the shoot.",
+      "start_sample": 37097,
+      "end_sample": 113586,
+      "start_ms": 2319,
+      "end_ms": 7099
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The stylist added soft maki to her ends for the shoot.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7240,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The stylist added soft",
+          "start_sample": 0,
+          "end_sample": 32409,
+          "start_ms": 0,
+          "end_ms": 2026
+        },
+        {
+          "lang": "ja",
+          "text": "巻き",
+          "start_sample": 32409,
+          "end_sample": 39148,
+          "start_ms": 2026,
+          "end_ms": 2447
+        },
+        {
+          "lang": "en",
+          "text": "to her ends for the shoot.",
+          "start_sample": 39148,
+          "end_sample": 115837,
+          "start_ms": 2447,
+          "end_ms": 7240
+        }
+      ]
+    },
+    "ja": {
+      "text": "The stylist added soft 巻き to her ends for the shoot.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4106,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The stylist added soft",
+          "start_sample": 0,
+          "end_sample": 31087,
+          "start_ms": 0,
+          "end_ms": 1943
+        },
+        {
+          "lang": "ja",
+          "text": "巻き",
+          "start_sample": 31087,
+          "end_sample": 36375,
+          "start_ms": 1943,
+          "end_ms": 2273
+        },
+        {
+          "lang": "en",
+          "text": "to her ends for the shoot.",
+          "start_sample": 36375,
+          "end_sample": 65700,
+          "start_ms": 2273,
+          "end_ms": 4106
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 355,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

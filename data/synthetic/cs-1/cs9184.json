@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9184.flac",
+  "sentence": "The cybersecurity team issued a 緊急 patch for the newly discovered vulnerability.",
+  "sample_rate": 16000,
+  "duration_ms": 5822,
+  "reference_speaker": "en/speaker_034_add467545a59.mp3",
+  "seed": 9226,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The cybersecurity team issued a",
+      "start_sample": 0,
+      "end_sample": 34017,
+      "start_ms": 0,
+      "end_ms": 2126
+    },
+    {
+      "lang": "ja",
+      "text": "緊急",
+      "start_sample": 34017,
+      "end_sample": 44514,
+      "start_ms": 2126,
+      "end_ms": 2782
+    },
+    {
+      "lang": "en",
+      "text": "patch for the newly discovered vulnerability.",
+      "start_sample": 44514,
+      "end_sample": 93146,
+      "start_ms": 2782,
+      "end_ms": 5822
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The cybersecurity team issued a kinkyuu patch for the newly discovered vulnerability.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5763,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The cybersecurity team issued a",
+          "start_sample": 0,
+          "end_sample": 34217,
+          "start_ms": 0,
+          "end_ms": 2139
+        },
+        {
+          "lang": "ja",
+          "text": "緊急",
+          "start_sample": 34217,
+          "end_sample": 43373,
+          "start_ms": 2139,
+          "end_ms": 2711
+        },
+        {
+          "lang": "en",
+          "text": "patch for the newly discovered vulnerability.",
+          "start_sample": 43373,
+          "end_sample": 92205,
+          "start_ms": 2711,
+          "end_ms": 5763
+        }
+      ]
+    },
+    "ja": {
+      "text": "The cybersecurity team issued a 緊急 patch for the newly discovered vulnerability.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6830,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The cybersecurity team issued a",
+          "start_sample": 0,
+          "end_sample": 48071,
+          "start_ms": 0,
+          "end_ms": 3004
+        },
+        {
+          "lang": "ja",
+          "text": "緊急",
+          "start_sample": 48071,
+          "end_sample": 58968,
+          "start_ms": 3004,
+          "end_ms": 3686
+        },
+        {
+          "lang": "en",
+          "text": "patch for the newly discovered vulnerability.",
+          "start_sample": 58968,
+          "end_sample": 109282,
+          "start_ms": 3686,
+          "end_ms": 6830
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 292,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

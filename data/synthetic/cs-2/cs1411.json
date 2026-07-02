@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1411.flac",
+  "sentence": "The tailor's 手仕事 on the hem was so precise it felt almost 芸術的.",
+  "sample_rate": 16000,
+  "duration_ms": 5617,
+  "reference_speaker": "en/speaker_083_60e45fe6f2e9.mp3",
+  "seed": 18266,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The tailor's",
+      "start_sample": 0,
+      "end_sample": 8779,
+      "start_ms": 0,
+      "end_ms": 549
+    },
+    {
+      "lang": "ja",
+      "text": "手仕事",
+      "start_sample": 8779,
+      "end_sample": 17680,
+      "start_ms": 549,
+      "end_ms": 1105
+    },
+    {
+      "lang": "en",
+      "text": "on the hem was so precise it felt almost",
+      "start_sample": 17680,
+      "end_sample": 79017,
+      "start_ms": 1105,
+      "end_ms": 4939
+    },
+    {
+      "lang": "ja",
+      "text": "芸術的.",
+      "start_sample": 79017,
+      "end_sample": 89879,
+      "start_ms": 4939,
+      "end_ms": 5617
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The tailor's teshigoto on the hem was so precise it felt almost geijutsu teki",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6474,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The tailor's",
+          "start_sample": 0,
+          "end_sample": 8979,
+          "start_ms": 0,
+          "end_ms": 561
+        },
+        {
+          "lang": "ja",
+          "text": "手仕事",
+          "start_sample": 8979,
+          "end_sample": 23571,
+          "start_ms": 561,
+          "end_ms": 1473
+        },
+        {
+          "lang": "en",
+          "text": "on the hem was so precise it felt almost",
+          "start_sample": 23571,
+          "end_sample": 85308,
+          "start_ms": 1473,
+          "end_ms": 5332
+        },
+        {
+          "lang": "ja",
+          "text": "芸術的.",
+          "start_sample": 85308,
+          "end_sample": 103587,
+          "start_ms": 5332,
+          "end_ms": 6474
+        }
+      ]
+    },
+    "ja": {
+      "text": "The tailor's 手仕事 on the hem was so precise it felt almost 芸術的.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5332,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The tailor's",
+          "start_sample": 0,
+          "end_sample": 13308,
+          "start_ms": 0,
+          "end_ms": 832
+        },
+        {
+          "lang": "ja",
+          "text": "手仕事",
+          "start_sample": 13308,
+          "end_sample": 22609,
+          "start_ms": 832,
+          "end_ms": 1413
+        },
+        {
+          "lang": "en",
+          "text": "on the hem was so precise it felt almost",
+          "start_sample": 22609,
+          "end_sample": 74242,
+          "start_ms": 1413,
+          "end_ms": 4640
+        },
+        {
+          "lang": "ja",
+          "text": "芸術的.",
+          "start_sample": 74242,
+          "end_sample": 85304,
+          "start_ms": 4640,
+          "end_ms": 5332
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 281,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

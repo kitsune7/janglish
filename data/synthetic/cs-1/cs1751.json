@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1751.flac",
+  "sentence": "このsedanは見た目よりもトランクのスペースが広くて驚いた。",
+  "sample_rate": 16000,
+  "duration_ms": 4689,
+  "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 1793,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3967,
+      "start_ms": 0,
+      "end_ms": 248
+    },
+    {
+      "lang": "en",
+      "text": "sedan",
+      "start_sample": 3967,
+      "end_sample": 17035,
+      "start_ms": 248,
+      "end_ms": 1065
+    },
+    {
+      "lang": "ja",
+      "text": "は見た目よりもトランクのスペースが広くて驚いた。",
+      "start_sample": 17035,
+      "end_sample": 75018,
+      "start_ms": 1065,
+      "end_ms": 4689
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono sedan ha ken ta me yori mo toranku no supeesu ga hiroku te odoroi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6233,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4488,
+          "start_ms": 0,
+          "end_ms": 280
+        },
+        {
+          "lang": "en",
+          "text": "sedan",
+          "start_sample": 4488,
+          "end_sample": 17956,
+          "start_ms": 280,
+          "end_ms": 1122
+        },
+        {
+          "lang": "ja",
+          "text": "は見た目よりもトランクのスペースが広くて驚いた。",
+          "start_sample": 17956,
+          "end_sample": 99723,
+          "start_ms": 1122,
+          "end_ms": 6233
+        }
+      ]
+    },
+    "ja": {
+      "text": "このsedanは見た目よりもトランクのスペースが広くて驚いた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4308,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4167,
+          "start_ms": 0,
+          "end_ms": 260
+        },
+        {
+          "lang": "en",
+          "text": "sedan",
+          "start_sample": 4167,
+          "end_sample": 10739,
+          "start_ms": 260,
+          "end_ms": 671
+        },
+        {
+          "lang": "ja",
+          "text": "は見た目よりもトランクのスペースが広くて驚いた。",
+          "start_sample": 10739,
+          "end_sample": 68922,
+          "start_ms": 671,
+          "end_ms": 4308
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 235,
+  "frame_labels": "jjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

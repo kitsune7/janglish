@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1927.flac",
+  "sentence": "郵便番号をzip codeと言う国もありますよ。",
+  "sample_rate": 16000,
+  "duration_ms": 3295,
+  "reference_speaker": "jp/speaker_031_8da19046583d.mp3",
+  "seed": 1969,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "郵便番号を",
+      "start_sample": 0,
+      "end_sample": 15730,
+      "start_ms": 0,
+      "end_ms": 983
+    },
+    {
+      "lang": "en",
+      "text": "zip code",
+      "start_sample": 15730,
+      "end_sample": 29596,
+      "start_ms": 983,
+      "end_ms": 1850
+    },
+    {
+      "lang": "ja",
+      "text": "と言う国もありますよ。",
+      "start_sample": 29596,
+      "end_sample": 52724,
+      "start_ms": 1850,
+      "end_ms": 3295
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "yuubin bangou wo zip code to iu kuni mo ari masu yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7734,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "郵便番号を",
+          "start_sample": 0,
+          "end_sample": 32858,
+          "start_ms": 0,
+          "end_ms": 2054
+        },
+        {
+          "lang": "en",
+          "text": "zip code",
+          "start_sample": 32858,
+          "end_sample": 47124,
+          "start_ms": 2054,
+          "end_ms": 2945
+        },
+        {
+          "lang": "ja",
+          "text": "と言う国もありますよ。",
+          "start_sample": 47124,
+          "end_sample": 123742,
+          "start_ms": 2945,
+          "end_ms": 7734
+        }
+      ]
+    },
+    "ja": {
+      "text": "郵便番号をzip codeと言う国もありますよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3339,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "郵便番号を",
+          "start_sample": 0,
+          "end_sample": 15930,
+          "start_ms": 0,
+          "end_ms": 996
+        },
+        {
+          "lang": "en",
+          "text": "zip code",
+          "start_sample": 15930,
+          "end_sample": 30090,
+          "start_ms": 996,
+          "end_ms": 1881
+        },
+        {
+          "lang": "ja",
+          "text": "と言う国もありますよ。",
+          "start_sample": 30090,
+          "end_sample": 53418,
+          "start_ms": 1881,
+          "end_ms": 3339
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 165,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

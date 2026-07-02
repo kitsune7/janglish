@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs170.flac",
+  "sentence": "We have a whole 行事 planned for the kids every weekend this month.",
+  "sample_rate": 16000,
+  "duration_ms": 4314,
+  "reference_speaker": "jp/speaker_029_debaa03f9928.mp3",
+  "seed": 212,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We have a whole",
+      "start_sample": 0,
+      "end_sample": 22377,
+      "start_ms": 0,
+      "end_ms": 1399
+    },
+    {
+      "lang": "ja",
+      "text": "行事",
+      "start_sample": 22377,
+      "end_sample": 28398,
+      "start_ms": 1399,
+      "end_ms": 1775
+    },
+    {
+      "lang": "en",
+      "text": "planned for the kids every weekend this month.",
+      "start_sample": 28398,
+      "end_sample": 69029,
+      "start_ms": 1775,
+      "end_ms": 4314
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We have a whole gyouji planned for the kids every weekend this month.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4644,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We have a whole",
+          "start_sample": 0,
+          "end_sample": 22577,
+          "start_ms": 0,
+          "end_ms": 1411
+        },
+        {
+          "lang": "ja",
+          "text": "行事",
+          "start_sample": 22577,
+          "end_sample": 33466,
+          "start_ms": 1411,
+          "end_ms": 2092
+        },
+        {
+          "lang": "en",
+          "text": "planned for the kids every weekend this month.",
+          "start_sample": 33466,
+          "end_sample": 74297,
+          "start_ms": 2092,
+          "end_ms": 4644
+        }
+      ]
+    },
+    "ja": {
+      "text": "We have a whole 行事 planned for the kids every weekend this month.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4013,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We have a whole",
+          "start_sample": 0,
+          "end_sample": 16210,
+          "start_ms": 0,
+          "end_ms": 1013
+        },
+        {
+          "lang": "ja",
+          "text": "行事",
+          "start_sample": 16210,
+          "end_sample": 22631,
+          "start_ms": 1013,
+          "end_ms": 1414
+        },
+        {
+          "lang": "en",
+          "text": "planned for the kids every weekend this month.",
+          "start_sample": 22631,
+          "end_sample": 64205,
+          "start_ms": 1414,
+          "end_ms": 4013
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 216,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

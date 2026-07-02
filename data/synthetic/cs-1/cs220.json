@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs220.flac",
+  "sentence": "海沿いのsunsetを見ながら散歩するのが好きです。",
+  "sample_rate": 16000,
+  "duration_ms": 2673,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 262,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "海沿いの",
+      "start_sample": 0,
+      "end_sample": 5912,
+      "start_ms": 0,
+      "end_ms": 370
+    },
+    {
+      "lang": "en",
+      "text": "sunset",
+      "start_sample": 5912,
+      "end_sample": 17236,
+      "start_ms": 370,
+      "end_ms": 1077
+    },
+    {
+      "lang": "ja",
+      "text": "を見ながら散歩するのが好きです。",
+      "start_sample": 17236,
+      "end_sample": 42771,
+      "start_ms": 1077,
+      "end_ms": 2673
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "umizoi no sunset wo ken nagara sanpo suru no ga suki desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5942,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "海沿いの",
+          "start_sample": 0,
+          "end_sample": 20552,
+          "start_ms": 0,
+          "end_ms": 1284
+        },
+        {
+          "lang": "en",
+          "text": "sunset",
+          "start_sample": 20552,
+          "end_sample": 32276,
+          "start_ms": 1284,
+          "end_ms": 2017
+        },
+        {
+          "lang": "ja",
+          "text": "を見ながら散歩するのが好きです。",
+          "start_sample": 32276,
+          "end_sample": 95065,
+          "start_ms": 2017,
+          "end_ms": 5942
+        }
+      ]
+    },
+    "ja": {
+      "text": "海沿いのsunsetを見ながら散歩するのが好きです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2352,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "海沿いの",
+          "start_sample": 0,
+          "end_sample": 6112,
+          "start_ms": 0,
+          "end_ms": 382
+        },
+        {
+          "lang": "en",
+          "text": "sunset",
+          "start_sample": 6112,
+          "end_sample": 11904,
+          "start_ms": 382,
+          "end_ms": 744
+        },
+        {
+          "lang": "ja",
+          "text": "を見ながら散歩するのが好きです。",
+          "start_sample": 11904,
+          "end_sample": 37639,
+          "start_ms": 744,
+          "end_ms": 2352
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 134,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

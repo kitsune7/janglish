@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6728.flac",
+  "sentence": "Are you feeling anything 甘い, or do you want something savory instead?",
+  "sample_rate": 16000,
+  "duration_ms": 5051,
+  "reference_speaker": "en/speaker_079_9589554d8179.mp3",
+  "seed": 6770,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Are you feeling anything",
+      "start_sample": 0,
+      "end_sample": 17600,
+      "start_ms": 0,
+      "end_ms": 1100
+    },
+    {
+      "lang": "ja",
+      "text": "甘い,",
+      "start_sample": 17600,
+      "end_sample": 31138,
+      "start_ms": 1100,
+      "end_ms": 1946
+    },
+    {
+      "lang": "en",
+      "text": "or do you want something savory instead?",
+      "start_sample": 31138,
+      "end_sample": 80816,
+      "start_ms": 1946,
+      "end_ms": 5051
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Are you feeling anything amai or do you want something savory instead?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5653,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Are you feeling anything",
+          "start_sample": 0,
+          "end_sample": 17800,
+          "start_ms": 0,
+          "end_ms": 1112
+        },
+        {
+          "lang": "ja",
+          "text": "甘い,",
+          "start_sample": 17800,
+          "end_sample": 40575,
+          "start_ms": 1112,
+          "end_ms": 2536
+        },
+        {
+          "lang": "en",
+          "text": "or do you want something savory instead?",
+          "start_sample": 40575,
+          "end_sample": 90453,
+          "start_ms": 2536,
+          "end_ms": 5653
+        }
+      ]
+    },
+    "ja": {
+      "text": "Are you feeling anything 甘い, or do you want something savory instead?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5347,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Are you feeling anything",
+          "start_sample": 0,
+          "end_sample": 27556,
+          "start_ms": 0,
+          "end_ms": 1722
+        },
+        {
+          "lang": "ja",
+          "text": "甘い,",
+          "start_sample": 27556,
+          "end_sample": 41494,
+          "start_ms": 1722,
+          "end_ms": 2593
+        },
+        {
+          "lang": "en",
+          "text": "or do you want something savory instead?",
+          "start_sample": 41494,
+          "end_sample": 85553,
+          "start_ms": 2593,
+          "end_ms": 5347
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 253,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

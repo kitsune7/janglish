@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10537.flac",
+  "sentence": "I could feel the 緊張 in the room the moment we walked in.",
+  "sample_rate": 16000,
+  "duration_ms": 2758,
+  "reference_speaker": "jp/speaker_089_6207739e2e58.mp3",
+  "seed": 10579,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I could feel the",
+      "start_sample": 0,
+      "end_sample": 10105,
+      "start_ms": 0,
+      "end_ms": 632
+    },
+    {
+      "lang": "ja",
+      "text": "緊張",
+      "start_sample": 10105,
+      "end_sample": 17910,
+      "start_ms": 632,
+      "end_ms": 1119
+    },
+    {
+      "lang": "en",
+      "text": "in the room the moment we walked in.",
+      "start_sample": 17910,
+      "end_sample": 44127,
+      "start_ms": 1119,
+      "end_ms": 2758
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I could feel the kinchou in the room the moment we walked in.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2778,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I could feel the",
+          "start_sample": 0,
+          "end_sample": 10305,
+          "start_ms": 0,
+          "end_ms": 644
+        },
+        {
+          "lang": "ja",
+          "text": "緊張",
+          "start_sample": 10305,
+          "end_sample": 18039,
+          "start_ms": 644,
+          "end_ms": 1127
+        },
+        {
+          "lang": "en",
+          "text": "in the room the moment we walked in.",
+          "start_sample": 18039,
+          "end_sample": 44456,
+          "start_ms": 1127,
+          "end_ms": 2778
+        }
+      ]
+    },
+    "ja": {
+      "text": "I could feel the 緊張 in the room the moment we walked in.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3016,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I could feel the",
+          "start_sample": 0,
+          "end_sample": 13830,
+          "start_ms": 0,
+          "end_ms": 864
+        },
+        {
+          "lang": "ja",
+          "text": "緊張",
+          "start_sample": 13830,
+          "end_sample": 22035,
+          "start_ms": 864,
+          "end_ms": 1377
+        },
+        {
+          "lang": "en",
+          "text": "in the room the moment we walked in.",
+          "start_sample": 22035,
+          "end_sample": 48254,
+          "start_ms": 1377,
+          "end_ms": 3016
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 138,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2634.flac",
+  "sentence": "The 時刻表 posted on the wall was from three years ago, which explained the confusion.",
+  "sample_rate": 16000,
+  "duration_ms": 5147,
+  "reference_speaker": "en/speaker_086_0a418a567872.mp3",
+  "seed": 2676,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1401,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "時刻表",
+      "start_sample": 1401,
+      "end_sample": 13661,
+      "start_ms": 88,
+      "end_ms": 854
+    },
+    {
+      "lang": "en",
+      "text": "posted on the wall was from three years ago, which explained the confusion.",
+      "start_sample": 13661,
+      "end_sample": 82346,
+      "start_ms": 854,
+      "end_ms": 5147
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The jikoku omote posted on the wall was from three years ago, which explained the confusion.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5306,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1601,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "時刻表",
+          "start_sample": 1601,
+          "end_sample": 16019,
+          "start_ms": 100,
+          "end_ms": 1001
+        },
+        {
+          "lang": "en",
+          "text": "posted on the wall was from three years ago, which explained the confusion.",
+          "start_sample": 16019,
+          "end_sample": 84904,
+          "start_ms": 1001,
+          "end_ms": 5306
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 時刻表 posted on the wall was from three years ago, which explained the confusion.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8553,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4645,
+          "start_ms": 0,
+          "end_ms": 290
+        },
+        {
+          "lang": "ja",
+          "text": "時刻表",
+          "start_sample": 4645,
+          "end_sample": 17305,
+          "start_ms": 290,
+          "end_ms": 1082
+        },
+        {
+          "lang": "en",
+          "text": "posted on the wall was from three years ago, which explained the confusion.",
+          "start_sample": 17305,
+          "end_sample": 136848,
+          "start_ms": 1082,
+          "end_ms": 8553
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 258,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

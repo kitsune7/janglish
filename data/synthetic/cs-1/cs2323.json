@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2323.flac",
+  "sentence": "撮影前に必ずwhite balanceを確認するようにしている。",
+  "sample_rate": 16000,
+  "duration_ms": 3805,
+  "reference_speaker": "jp/speaker_080_c886ae0e1a09.mp3",
+  "seed": 2365,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "撮影前に必ず",
+      "start_sample": 0,
+      "end_sample": 23742,
+      "start_ms": 0,
+      "end_ms": 1484
+    },
+    {
+      "lang": "en",
+      "text": "white balance",
+      "start_sample": 23742,
+      "end_sample": 38740,
+      "start_ms": 1484,
+      "end_ms": 2421
+    },
+    {
+      "lang": "ja",
+      "text": "を確認するようにしている。",
+      "start_sample": 38740,
+      "end_sample": 60875,
+      "start_ms": 2421,
+      "end_ms": 3805
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "satsuei mae ni kanarazu white balance wo kakunin suru you ni shi te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6195,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "撮影前に必ず",
+          "start_sample": 0,
+          "end_sample": 35607,
+          "start_ms": 0,
+          "end_ms": 2225
+        },
+        {
+          "lang": "en",
+          "text": "white balance",
+          "start_sample": 35607,
+          "end_sample": 51005,
+          "start_ms": 2225,
+          "end_ms": 3188
+        },
+        {
+          "lang": "ja",
+          "text": "を確認するようにしている。",
+          "start_sample": 51005,
+          "end_sample": 99121,
+          "start_ms": 3188,
+          "end_ms": 6195
+        }
+      ]
+    },
+    "ja": {
+      "text": "撮影前に必ずwhite balanceを確認するようにしている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3917,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "撮影前に必ず",
+          "start_sample": 0,
+          "end_sample": 23942,
+          "start_ms": 0,
+          "end_ms": 1496
+        },
+        {
+          "lang": "en",
+          "text": "white balance",
+          "start_sample": 23942,
+          "end_sample": 40334,
+          "start_ms": 1496,
+          "end_ms": 2521
+        },
+        {
+          "lang": "ja",
+          "text": "を確認するようにしている。",
+          "start_sample": 40334,
+          "end_sample": 62669,
+          "start_ms": 2521,
+          "end_ms": 3917
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 191,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

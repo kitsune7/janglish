@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5432.flac",
+  "sentence": "映画のtrailerを見ただけで鳥肌が立った。",
+  "sample_rate": 16000,
+  "duration_ms": 3409,
+  "reference_speaker": "jp/speaker_041_36b0f2924199.mp3",
+  "seed": 5474,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "映画の",
+      "start_sample": 0,
+      "end_sample": 6698,
+      "start_ms": 0,
+      "end_ms": 419
+    },
+    {
+      "lang": "en",
+      "text": "trailer",
+      "start_sample": 6698,
+      "end_sample": 24246,
+      "start_ms": 419,
+      "end_ms": 1515
+    },
+    {
+      "lang": "ja",
+      "text": "を見ただけで鳥肌が立った。",
+      "start_sample": 24246,
+      "end_sample": 54542,
+      "start_ms": 1515,
+      "end_ms": 3409
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "eiga no trailer wo ken ta dake de torihada ga tatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6170,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "映画の",
+          "start_sample": 0,
+          "end_sample": 12178,
+          "start_ms": 0,
+          "end_ms": 761
+        },
+        {
+          "lang": "en",
+          "text": "trailer",
+          "start_sample": 12178,
+          "end_sample": 30126,
+          "start_ms": 761,
+          "end_ms": 1883
+        },
+        {
+          "lang": "ja",
+          "text": "を見ただけで鳥肌が立った。",
+          "start_sample": 30126,
+          "end_sample": 98714,
+          "start_ms": 1883,
+          "end_ms": 6170
+        }
+      ]
+    },
+    "ja": {
+      "text": "映画のtrailerを見ただけで鳥肌が立った。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2728,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "映画の",
+          "start_sample": 0,
+          "end_sample": 6898,
+          "start_ms": 0,
+          "end_ms": 431
+        },
+        {
+          "lang": "en",
+          "text": "trailer",
+          "start_sample": 6898,
+          "end_sample": 13159,
+          "start_ms": 431,
+          "end_ms": 822
+        },
+        {
+          "lang": "ja",
+          "text": "を見ただけで鳥肌が立った。",
+          "start_sample": 13159,
+          "end_sample": 43655,
+          "start_ms": 822,
+          "end_ms": 2728
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 171,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

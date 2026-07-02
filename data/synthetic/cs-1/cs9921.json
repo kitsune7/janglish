@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9921.flac",
+  "sentence": "試着室でtoo tightだとわかったのですぐ戻しました。",
+  "sample_rate": 16000,
+  "duration_ms": 3552,
+  "reference_speaker": "jp/speaker_049_435108c1173c.mp3",
+  "seed": 9963,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "試着室で",
+      "start_sample": 0,
+      "end_sample": 13131,
+      "start_ms": 0,
+      "end_ms": 821
+    },
+    {
+      "lang": "en",
+      "text": "too tight",
+      "start_sample": 13131,
+      "end_sample": 23941,
+      "start_ms": 821,
+      "end_ms": 1496
+    },
+    {
+      "lang": "ja",
+      "text": "だとわかったのですぐ戻しました。",
+      "start_sample": 23941,
+      "end_sample": 56827,
+      "start_ms": 1496,
+      "end_ms": 3552
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shichaku shitsu de too tight da to wakatsu ta no de sugu modoshi mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8548,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "試着室で",
+          "start_sample": 0,
+          "end_sample": 36833,
+          "start_ms": 0,
+          "end_ms": 2302
+        },
+        {
+          "lang": "en",
+          "text": "too tight",
+          "start_sample": 36833,
+          "end_sample": 48043,
+          "start_ms": 2302,
+          "end_ms": 3003
+        },
+        {
+          "lang": "ja",
+          "text": "だとわかったのですぐ戻しました。",
+          "start_sample": 48043,
+          "end_sample": 136763,
+          "start_ms": 3003,
+          "end_ms": 8548
+        }
+      ]
+    },
+    "ja": {
+      "text": "試着室でtoo tightだとわかったのですぐ戻しました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3554,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "試着室で",
+          "start_sample": 0,
+          "end_sample": 13331,
+          "start_ms": 0,
+          "end_ms": 833
+        },
+        {
+          "lang": "en",
+          "text": "too tight",
+          "start_sample": 13331,
+          "end_sample": 23772,
+          "start_ms": 833,
+          "end_ms": 1486
+        },
+        {
+          "lang": "ja",
+          "text": "だとわかったのですぐ戻しました。",
+          "start_sample": 23772,
+          "end_sample": 56858,
+          "start_ms": 1486,
+          "end_ms": 3554
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 178,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7564.flac",
+  "sentence": "私のdormの部屋は狭いけど居心地がいい。",
+  "sample_rate": 16000,
+  "duration_ms": 4348,
+  "reference_speaker": "jp/speaker_090_d408fe95e0f2.mp3",
+  "seed": 7606,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "私の",
+      "start_sample": 0,
+      "end_sample": 8615,
+      "start_ms": 0,
+      "end_ms": 538
+    },
+    {
+      "lang": "en",
+      "text": "dorm",
+      "start_sample": 8615,
+      "end_sample": 31948,
+      "start_ms": 538,
+      "end_ms": 1997
+    },
+    {
+      "lang": "ja",
+      "text": "の部屋は狭いけど居心地がいい。",
+      "start_sample": 31948,
+      "end_sample": 69574,
+      "start_ms": 1997,
+      "end_ms": 4348
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "watashi no dorm no heya ha semai kedo igokochi ga ii",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8840,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私の",
+          "start_sample": 0,
+          "end_sample": 12347,
+          "start_ms": 0,
+          "end_ms": 772
+        },
+        {
+          "lang": "en",
+          "text": "dorm",
+          "start_sample": 12347,
+          "end_sample": 36080,
+          "start_ms": 772,
+          "end_ms": 2255
+        },
+        {
+          "lang": "ja",
+          "text": "の部屋は狭いけど居心地がいい。",
+          "start_sample": 36080,
+          "end_sample": 141433,
+          "start_ms": 2255,
+          "end_ms": 8840
+        }
+      ]
+    },
+    "ja": {
+      "text": "私のdormの部屋は狭いけど居心地がいい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3286,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私の",
+          "start_sample": 0,
+          "end_sample": 8815,
+          "start_ms": 0,
+          "end_ms": 551
+        },
+        {
+          "lang": "en",
+          "text": "dorm",
+          "start_sample": 8815,
+          "end_sample": 14746,
+          "start_ms": 551,
+          "end_ms": 922
+        },
+        {
+          "lang": "ja",
+          "text": "の部屋は狭いけど居心地がいい。",
+          "start_sample": 14746,
+          "end_sample": 52572,
+          "start_ms": 922,
+          "end_ms": 3286
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

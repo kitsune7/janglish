@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4038.flac",
+  "sentence": "I've been adding more 有酸素運動 into my weekly routine lately.",
+  "sample_rate": 16000,
+  "duration_ms": 4556,
+  "reference_speaker": "jp/speaker_058_a8a05baeecbd.mp3",
+  "seed": 4080,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I've been adding more",
+      "start_sample": 0,
+      "end_sample": 20623,
+      "start_ms": 0,
+      "end_ms": 1289
+    },
+    {
+      "lang": "ja",
+      "text": "有酸素運動",
+      "start_sample": 20623,
+      "end_sample": 36412,
+      "start_ms": 1289,
+      "end_ms": 2276
+    },
+    {
+      "lang": "en",
+      "text": "into my weekly routine lately.",
+      "start_sample": 36412,
+      "end_sample": 72894,
+      "start_ms": 2276,
+      "end_ms": 4556
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I've been adding more ari sanso undou into my weekly routine lately.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5446,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've been adding more",
+          "start_sample": 0,
+          "end_sample": 20823,
+          "start_ms": 0,
+          "end_ms": 1301
+        },
+        {
+          "lang": "ja",
+          "text": "有酸素運動",
+          "start_sample": 20823,
+          "end_sample": 50458,
+          "start_ms": 1301,
+          "end_ms": 3154
+        },
+        {
+          "lang": "en",
+          "text": "into my weekly routine lately.",
+          "start_sample": 50458,
+          "end_sample": 87140,
+          "start_ms": 3154,
+          "end_ms": 5446
+        }
+      ]
+    },
+    "ja": {
+      "text": "I've been adding more 有酸素運動 into my weekly routine lately.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4247,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've been adding more",
+          "start_sample": 0,
+          "end_sample": 17309,
+          "start_ms": 0,
+          "end_ms": 1082
+        },
+        {
+          "lang": "ja",
+          "text": "有酸素運動",
+          "start_sample": 17309,
+          "end_sample": 33498,
+          "start_ms": 1082,
+          "end_ms": 2094
+        },
+        {
+          "lang": "en",
+          "text": "into my weekly routine lately.",
+          "start_sample": 33498,
+          "end_sample": 67959,
+          "start_ms": 2094,
+          "end_ms": 4247
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 228,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

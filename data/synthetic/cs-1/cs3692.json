@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3692.flac",
+  "sentence": "The 混雑 at the bar was so intense that it took twenty minutes just to get a drink order in.",
+  "sample_rate": 16000,
+  "duration_ms": 8856,
+  "reference_speaker": "en/speaker_027_12abacd76d5f.mp3",
+  "seed": 3734,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 3001,
+      "start_ms": 0,
+      "end_ms": 188
+    },
+    {
+      "lang": "ja",
+      "text": "混雑",
+      "start_sample": 3001,
+      "end_sample": 19093,
+      "start_ms": 188,
+      "end_ms": 1193
+    },
+    {
+      "lang": "en",
+      "text": "at the bar was so intense that it took twenty minutes just to get a drink order in.",
+      "start_sample": 19093,
+      "end_sample": 141692,
+      "start_ms": 1193,
+      "end_ms": 8856
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The konzatsu at the bar was so intense that it took twenty minutes just to get a drink order in.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8906,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3201,
+          "start_ms": 0,
+          "end_ms": 200
+        },
+        {
+          "lang": "ja",
+          "text": "混雑",
+          "start_sample": 3201,
+          "end_sample": 19692,
+          "start_ms": 200,
+          "end_ms": 1231
+        },
+        {
+          "lang": "en",
+          "text": "at the bar was so intense that it took twenty minutes just to get a drink order in.",
+          "start_sample": 19692,
+          "end_sample": 142491,
+          "start_ms": 1231,
+          "end_ms": 8906
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 混雑 at the bar was so intense that it took twenty minutes just to get a drink order in.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 11008,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6724,
+          "start_ms": 0,
+          "end_ms": 420
+        },
+        {
+          "lang": "ja",
+          "text": "混雑",
+          "start_sample": 6724,
+          "end_sample": 23216,
+          "start_ms": 420,
+          "end_ms": 1451
+        },
+        {
+          "lang": "en",
+          "text": "at the bar was so intense that it took twenty minutes just to get a drink order in.",
+          "start_sample": 23216,
+          "end_sample": 176124,
+          "start_ms": 1451,
+          "end_ms": 11008
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 443,
+  "frame_labels": "eeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

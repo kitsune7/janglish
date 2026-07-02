@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8335.flac",
+  "sentence": "彼はsportywなスタイルが好みのようです。",
+  "sample_rate": 16000,
+  "duration_ms": 2966,
+  "reference_speaker": "en/speaker_052_622e6181fea2.mp3",
+  "seed": 8377,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼は",
+      "start_sample": 0,
+      "end_sample": 5116,
+      "start_ms": 0,
+      "end_ms": 320
+    },
+    {
+      "lang": "en",
+      "text": "sportyw",
+      "start_sample": 5116,
+      "end_sample": 21401,
+      "start_ms": 320,
+      "end_ms": 1338
+    },
+    {
+      "lang": "ja",
+      "text": "なスタイルが好みのようです。",
+      "start_sample": 21401,
+      "end_sample": 47459,
+      "start_ms": 1338,
+      "end_ms": 2966
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha sportyw na sutairu ga konomi no you desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7219,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 36576,
+          "start_ms": 0,
+          "end_ms": 2286
+        },
+        {
+          "lang": "en",
+          "text": "sportyw",
+          "start_sample": 36576,
+          "end_sample": 53261,
+          "start_ms": 2286,
+          "end_ms": 3329
+        },
+        {
+          "lang": "ja",
+          "text": "なスタイルが好みのようです。",
+          "start_sample": 53261,
+          "end_sample": 115504,
+          "start_ms": 3329,
+          "end_ms": 7219
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はsportywなスタイルが好みのようです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2517,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 5316,
+          "start_ms": 0,
+          "end_ms": 332
+        },
+        {
+          "lang": "en",
+          "text": "sportyw",
+          "start_sample": 5316,
+          "end_sample": 14017,
+          "start_ms": 332,
+          "end_ms": 876
+        },
+        {
+          "lang": "ja",
+          "text": "なスタイルが好みのようです。",
+          "start_sample": 14017,
+          "end_sample": 40275,
+          "start_ms": 876,
+          "end_ms": 2517
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 149,
+  "frame_labels": "jjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

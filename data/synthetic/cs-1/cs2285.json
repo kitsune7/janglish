@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2285.flac",
+  "sentence": "川のほとりにwillowの木が並んでいて、とても絵になる景色だ。",
+  "sample_rate": 16000,
+  "duration_ms": 4300,
+  "reference_speaker": "en/speaker_067_3f15e2fece31.mp3",
+  "seed": 2327,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "川のほとりに",
+      "start_sample": 0,
+      "end_sample": 16482,
+      "start_ms": 0,
+      "end_ms": 1030
+    },
+    {
+      "lang": "en",
+      "text": "willow",
+      "start_sample": 16482,
+      "end_sample": 28101,
+      "start_ms": 1030,
+      "end_ms": 1756
+    },
+    {
+      "lang": "ja",
+      "text": "の木が並んでいて、とても絵になる景色だ。",
+      "start_sample": 28101,
+      "end_sample": 68804,
+      "start_ms": 1756,
+      "end_ms": 4300
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kawa no hotori ni willow no ki ga naran de i te totemo e ni naru keshiki da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6530,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "川のほとりに",
+          "start_sample": 0,
+          "end_sample": 20993,
+          "start_ms": 0,
+          "end_ms": 1312
+        },
+        {
+          "lang": "en",
+          "text": "willow",
+          "start_sample": 20993,
+          "end_sample": 33012,
+          "start_ms": 1312,
+          "end_ms": 2063
+        },
+        {
+          "lang": "ja",
+          "text": "の木が並んでいて、とても絵になる景色だ。",
+          "start_sample": 33012,
+          "end_sample": 104484,
+          "start_ms": 2063,
+          "end_ms": 6530
+        }
+      ]
+    },
+    "ja": {
+      "text": "川のほとりにwillowの木が並んでいて、とても絵になる景色だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4070,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "川のほとりに",
+          "start_sample": 0,
+          "end_sample": 16682,
+          "start_ms": 0,
+          "end_ms": 1043
+        },
+        {
+          "lang": "en",
+          "text": "willow",
+          "start_sample": 16682,
+          "end_sample": 24221,
+          "start_ms": 1043,
+          "end_ms": 1514
+        },
+        {
+          "lang": "ja",
+          "text": "の木が並んでいて、とても絵になる景色だ。",
+          "start_sample": 24221,
+          "end_sample": 65124,
+          "start_ms": 1514,
+          "end_ms": 4070
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 216,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

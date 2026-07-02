@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4672.flac",
+  "sentence": "She folded every piece of clothing with such 丁寧さ before packing.",
+  "sample_rate": 16000,
+  "duration_ms": 4908,
+  "reference_speaker": "en/speaker_003_7963691c43c8.mp3",
+  "seed": 4714,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She folded every piece of clothing with such",
+      "start_sample": 0,
+      "end_sample": 47882,
+      "start_ms": 0,
+      "end_ms": 2993
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧さ",
+      "start_sample": 47882,
+      "end_sample": 59012,
+      "start_ms": 2993,
+      "end_ms": 3688
+    },
+    {
+      "lang": "en",
+      "text": "before packing.",
+      "start_sample": 59012,
+      "end_sample": 78525,
+      "start_ms": 3688,
+      "end_ms": 4908
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She folded every piece of clothing with such teinei sa before packing.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5309,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She folded every piece of clothing with such",
+          "start_sample": 0,
+          "end_sample": 48082,
+          "start_ms": 0,
+          "end_ms": 3005
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧さ",
+          "start_sample": 48082,
+          "end_sample": 65231,
+          "start_ms": 3005,
+          "end_ms": 4077
+        },
+        {
+          "lang": "en",
+          "text": "before packing.",
+          "start_sample": 65231,
+          "end_sample": 84944,
+          "start_ms": 4077,
+          "end_ms": 5309
+        }
+      ]
+    },
+    "ja": {
+      "text": "She folded every piece of clothing with such 丁寧さ before packing.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5665,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She folded every piece of clothing with such",
+          "start_sample": 0,
+          "end_sample": 61976,
+          "start_ms": 0,
+          "end_ms": 3874
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧さ",
+          "start_sample": 61976,
+          "end_sample": 73506,
+          "start_ms": 3874,
+          "end_ms": 4594
+        },
+        {
+          "lang": "en",
+          "text": "before packing.",
+          "start_sample": 73506,
+          "end_sample": 90641,
+          "start_ms": 4594,
+          "end_ms": 5665
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 246,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

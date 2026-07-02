@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10036.flac",
+  "sentence": "I could see the 戸惑い on her face when he changed his story.",
+  "sample_rate": 16000,
+  "duration_ms": 2916,
+  "reference_speaker": "jp/speaker_023_d9597f21cb60.mp3",
+  "seed": 10078,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I could see the",
+      "start_sample": 0,
+      "end_sample": 10581,
+      "start_ms": 0,
+      "end_ms": 661
+    },
+    {
+      "lang": "ja",
+      "text": "戸惑い",
+      "start_sample": 10581,
+      "end_sample": 18689,
+      "start_ms": 661,
+      "end_ms": 1168
+    },
+    {
+      "lang": "en",
+      "text": "on her face when he changed his story.",
+      "start_sample": 18689,
+      "end_sample": 46659,
+      "start_ms": 1168,
+      "end_ms": 2916
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I could see the tomadoi on her face when he changed his story.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3018,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I could see the",
+          "start_sample": 0,
+          "end_sample": 10781,
+          "start_ms": 0,
+          "end_ms": 674
+        },
+        {
+          "lang": "ja",
+          "text": "戸惑い",
+          "start_sample": 10781,
+          "end_sample": 20119,
+          "start_ms": 674,
+          "end_ms": 1257
+        },
+        {
+          "lang": "en",
+          "text": "on her face when he changed his story.",
+          "start_sample": 20119,
+          "end_sample": 48289,
+          "start_ms": 1257,
+          "end_ms": 3018
+        }
+      ]
+    },
+    "ja": {
+      "text": "I could see the 戸惑い on her face when he changed his story.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3631,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I could see the",
+          "start_sample": 0,
+          "end_sample": 13640,
+          "start_ms": 0,
+          "end_ms": 852
+        },
+        {
+          "lang": "ja",
+          "text": "戸惑い",
+          "start_sample": 13640,
+          "end_sample": 22148,
+          "start_ms": 852,
+          "end_ms": 1384
+        },
+        {
+          "lang": "en",
+          "text": "on her face when he changed his story.",
+          "start_sample": 22148,
+          "end_sample": 58101,
+          "start_ms": 1384,
+          "end_ms": 3631
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 146,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

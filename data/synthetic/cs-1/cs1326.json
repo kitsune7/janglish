@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1326.flac",
+  "sentence": "水回りのplumbing工事に三日もかかると言われた。",
+  "sample_rate": 16000,
+  "duration_ms": 2888,
+  "reference_speaker": "en/speaker_073_3c0d9d6a3b88.mp3",
+  "seed": 1368,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "水回りの",
+      "start_sample": 0,
+      "end_sample": 10111,
+      "start_ms": 0,
+      "end_ms": 632
+    },
+    {
+      "lang": "en",
+      "text": "plumbing",
+      "start_sample": 10111,
+      "end_sample": 15970,
+      "start_ms": 632,
+      "end_ms": 998
+    },
+    {
+      "lang": "ja",
+      "text": "工事に三日もかかると言われた。",
+      "start_sample": 15970,
+      "end_sample": 46216,
+      "start_ms": 998,
+      "end_ms": 2888
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mizumawari no plumbing kouji ni san nichi mo kakaru to iwa re ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4374,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "水回りの",
+          "start_sample": 0,
+          "end_sample": 13161,
+          "start_ms": 0,
+          "end_ms": 823
+        },
+        {
+          "lang": "en",
+          "text": "plumbing",
+          "start_sample": 13161,
+          "end_sample": 19420,
+          "start_ms": 823,
+          "end_ms": 1214
+        },
+        {
+          "lang": "ja",
+          "text": "工事に三日もかかると言われた。",
+          "start_sample": 19420,
+          "end_sample": 69978,
+          "start_ms": 1214,
+          "end_ms": 4374
+        }
+      ]
+    },
+    "ja": {
+      "text": "水回りのplumbing工事に三日もかかると言われた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3121,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "水回りの",
+          "start_sample": 0,
+          "end_sample": 10311,
+          "start_ms": 0,
+          "end_ms": 644
+        },
+        {
+          "lang": "en",
+          "text": "plumbing",
+          "start_sample": 10311,
+          "end_sample": 19496,
+          "start_ms": 644,
+          "end_ms": 1218
+        },
+        {
+          "lang": "ja",
+          "text": "工事に三日もかかると言われた。",
+          "start_sample": 19496,
+          "end_sample": 49942,
+          "start_ms": 1218,
+          "end_ms": 3121
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 145,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

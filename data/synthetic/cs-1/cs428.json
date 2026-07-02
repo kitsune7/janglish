@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs428.flac",
+  "sentence": "She organized the linen closet in such a 完璧な way that I almost don't want to disturb it.",
+  "sample_rate": 16000,
+  "duration_ms": 5686,
+  "reference_speaker": "en/speaker_015_995e028794f8.mp3",
+  "seed": 470,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She organized the linen closet in such a",
+      "start_sample": 0,
+      "end_sample": 37113,
+      "start_ms": 0,
+      "end_ms": 2320
+    },
+    {
+      "lang": "ja",
+      "text": "完璧な",
+      "start_sample": 37113,
+      "end_sample": 47613,
+      "start_ms": 2320,
+      "end_ms": 2976
+    },
+    {
+      "lang": "en",
+      "text": "way that I almost don't want to disturb it.",
+      "start_sample": 47613,
+      "end_sample": 90972,
+      "start_ms": 2976,
+      "end_ms": 5686
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She organized the linen closet in such a kanpeki na way that I almost don't want to disturb it.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5765,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She organized the linen closet in such a",
+          "start_sample": 0,
+          "end_sample": 37313,
+          "start_ms": 0,
+          "end_ms": 2332
+        },
+        {
+          "lang": "ja",
+          "text": "完璧な",
+          "start_sample": 37313,
+          "end_sample": 48683,
+          "start_ms": 2332,
+          "end_ms": 3043
+        },
+        {
+          "lang": "en",
+          "text": "way that I almost don't want to disturb it.",
+          "start_sample": 48683,
+          "end_sample": 92242,
+          "start_ms": 3043,
+          "end_ms": 5765
+        }
+      ]
+    },
+    "ja": {
+      "text": "She organized the linen closet in such a 完璧な way that I almost don't want to disturb it.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8376,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She organized the linen closet in such a",
+          "start_sample": 0,
+          "end_sample": 63959,
+          "start_ms": 0,
+          "end_ms": 3997
+        },
+        {
+          "lang": "ja",
+          "text": "完璧な",
+          "start_sample": 63959,
+          "end_sample": 74859,
+          "start_ms": 3997,
+          "end_ms": 4679
+        },
+        {
+          "lang": "en",
+          "text": "way that I almost don't want to disturb it.",
+          "start_sample": 74859,
+          "end_sample": 134008,
+          "start_ms": 4679,
+          "end_ms": 8376
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 285,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

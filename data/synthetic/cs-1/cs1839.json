@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs1839.flac",
+  "sentence": "marinadeに一晩漬けた鶏肉を焼きましょう。",
+  "sample_rate": 16000,
+  "duration_ms": 3055,
+  "reference_speaker": "jp/speaker_003_7f373ff7d9ea.mp3",
+  "seed": 1881,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "marinade",
+      "start_sample": 0,
+      "end_sample": 16660,
+      "start_ms": 0,
+      "end_ms": 1041
+    },
+    {
+      "lang": "ja",
+      "text": "に一晩漬けた鶏肉を焼きましょう。",
+      "start_sample": 16660,
+      "end_sample": 48874,
+      "start_ms": 1041,
+      "end_ms": 3055
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "marinade ni ichi ban tsuke ta toriniku wo yaki mashou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5740,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "marinade",
+          "start_sample": 0,
+          "end_sample": 16860,
+          "start_ms": 0,
+          "end_ms": 1054
+        },
+        {
+          "lang": "ja",
+          "text": "に一晩漬けた鶏肉を焼きましょう。",
+          "start_sample": 16860,
+          "end_sample": 91846,
+          "start_ms": 1054,
+          "end_ms": 5740
+        }
+      ]
+    },
+    "ja": {
+      "text": "marinadeに一晩漬けた鶏肉を焼きましょう。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2547,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "marinade",
+          "start_sample": 0,
+          "end_sample": 8344,
+          "start_ms": 0,
+          "end_ms": 522
+        },
+        {
+          "lang": "ja",
+          "text": "に一晩漬けた鶏肉を焼きましょう。",
+          "start_sample": 8344,
+          "end_sample": 40758,
+          "start_ms": 522,
+          "end_ms": 2547
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 153,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

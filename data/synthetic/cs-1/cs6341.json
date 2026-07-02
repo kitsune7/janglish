@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6341.flac",
+  "sentence": "昨日のデートはawkwardな瞬間が多かった。",
+  "sample_rate": 16000,
+  "duration_ms": 2788,
+  "reference_speaker": "jp/speaker_022_b672c364242e.mp3",
+  "seed": 6383,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "昨日のデートは",
+      "start_sample": 0,
+      "end_sample": 13125,
+      "start_ms": 0,
+      "end_ms": 820
+    },
+    {
+      "lang": "en",
+      "text": "awkward",
+      "start_sample": 13125,
+      "end_sample": 24106,
+      "start_ms": 820,
+      "end_ms": 1507
+    },
+    {
+      "lang": "ja",
+      "text": "な瞬間が多かった。",
+      "start_sample": 24106,
+      "end_sample": 44614,
+      "start_ms": 1507,
+      "end_ms": 2788
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kinou no deeto ha awkward na shunkan ga ookatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6551,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "昨日のデートは",
+          "start_sample": 0,
+          "end_sample": 54974,
+          "start_ms": 0,
+          "end_ms": 3436
+        },
+        {
+          "lang": "en",
+          "text": "awkward",
+          "start_sample": 54974,
+          "end_sample": 66355,
+          "start_ms": 3436,
+          "end_ms": 4147
+        },
+        {
+          "lang": "ja",
+          "text": "な瞬間が多かった。",
+          "start_sample": 66355,
+          "end_sample": 104820,
+          "start_ms": 4147,
+          "end_ms": 6551
+        }
+      ]
+    },
+    "ja": {
+      "text": "昨日のデートはawkwardな瞬間が多かった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2609,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "昨日のデートは",
+          "start_sample": 0,
+          "end_sample": 13325,
+          "start_ms": 0,
+          "end_ms": 833
+        },
+        {
+          "lang": "en",
+          "text": "awkward",
+          "start_sample": 13325,
+          "end_sample": 21031,
+          "start_ms": 833,
+          "end_ms": 1314
+        },
+        {
+          "lang": "ja",
+          "text": "な瞬間が多かった。",
+          "start_sample": 21031,
+          "end_sample": 41739,
+          "start_ms": 1314,
+          "end_ms": 2609
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 140,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2850.flac",
+  "sentence": "That dessert looked so 綺麗 I didn't want to eat it at first.",
+  "sample_rate": 16000,
+  "duration_ms": 3731,
+  "reference_speaker": "jp/speaker_033_59cc0d3a6bc8.mp3",
+  "seed": 2892,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That dessert looked so",
+      "start_sample": 0,
+      "end_sample": 16646,
+      "start_ms": 0,
+      "end_ms": 1040
+    },
+    {
+      "lang": "ja",
+      "text": "綺麗",
+      "start_sample": 16646,
+      "end_sample": 29573,
+      "start_ms": 1040,
+      "end_ms": 1848
+    },
+    {
+      "lang": "en",
+      "text": "I didn't want to eat it at first.",
+      "start_sample": 29573,
+      "end_sample": 59694,
+      "start_ms": 1848,
+      "end_ms": 3731
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That dessert looked so kirei I didn't want to eat it at first.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3730,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That dessert looked so",
+          "start_sample": 0,
+          "end_sample": 16846,
+          "start_ms": 0,
+          "end_ms": 1053
+        },
+        {
+          "lang": "ja",
+          "text": "綺麗",
+          "start_sample": 16846,
+          "end_sample": 29361,
+          "start_ms": 1053,
+          "end_ms": 1835
+        },
+        {
+          "lang": "en",
+          "text": "I didn't want to eat it at first.",
+          "start_sample": 29361,
+          "end_sample": 59682,
+          "start_ms": 1835,
+          "end_ms": 3730
+        }
+      ]
+    },
+    "ja": {
+      "text": "That dessert looked so 綺麗 I didn't want to eat it at first.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4797,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That dessert looked so",
+          "start_sample": 0,
+          "end_sample": 31952,
+          "start_ms": 0,
+          "end_ms": 1997
+        },
+        {
+          "lang": "ja",
+          "text": "綺麗",
+          "start_sample": 31952,
+          "end_sample": 45279,
+          "start_ms": 1997,
+          "end_ms": 2830
+        },
+        {
+          "lang": "en",
+          "text": "I didn't want to eat it at first.",
+          "start_sample": 45279,
+          "end_sample": 76746,
+          "start_ms": 2830,
+          "end_ms": 4797
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 187,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9201.flac",
+  "sentence": "毎朝、vacuumをかけてから出勤します。",
+  "sample_rate": 16000,
+  "duration_ms": 4479,
+  "reference_speaker": "en/speaker_005_e790d1a6d652.mp3",
+  "seed": 9243,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "毎朝、",
+      "start_sample": 0,
+      "end_sample": 14585,
+      "start_ms": 0,
+      "end_ms": 912
+    },
+    {
+      "lang": "en",
+      "text": "vacuum",
+      "start_sample": 14585,
+      "end_sample": 31512,
+      "start_ms": 912,
+      "end_ms": 1970
+    },
+    {
+      "lang": "ja",
+      "text": "をかけてから出勤します。",
+      "start_sample": 31512,
+      "end_sample": 71658,
+      "start_ms": 1970,
+      "end_ms": 4479
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "maiasa vacuum wo kake te kara shukkin shi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6357,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝、",
+          "start_sample": 0,
+          "end_sample": 16685,
+          "start_ms": 0,
+          "end_ms": 1043
+        },
+        {
+          "lang": "en",
+          "text": "vacuum",
+          "start_sample": 16685,
+          "end_sample": 34012,
+          "start_ms": 1043,
+          "end_ms": 2126
+        },
+        {
+          "lang": "ja",
+          "text": "をかけてから出勤します。",
+          "start_sample": 34012,
+          "end_sample": 101717,
+          "start_ms": 2126,
+          "end_ms": 6357
+        }
+      ]
+    },
+    "ja": {
+      "text": "毎朝、vacuumをかけてから出勤します。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4360,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝、",
+          "start_sample": 0,
+          "end_sample": 14785,
+          "start_ms": 0,
+          "end_ms": 924
+        },
+        {
+          "lang": "en",
+          "text": "vacuum",
+          "start_sample": 14785,
+          "end_sample": 29415,
+          "start_ms": 924,
+          "end_ms": 1838
+        },
+        {
+          "lang": "ja",
+          "text": "をかけてから出勤します。",
+          "start_sample": 29415,
+          "end_sample": 69761,
+          "start_ms": 1838,
+          "end_ms": 4360
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 224,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

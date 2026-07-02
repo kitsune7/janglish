@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6337.flac",
+  "sentence": "He was 慌てて rushing through the aisles and forgot half the things on his list.",
+  "sample_rate": 16000,
+  "duration_ms": 4300,
+  "reference_speaker": "en/speaker_011_d1413283d794.mp3",
+  "seed": 6379,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He was",
+      "start_sample": 0,
+      "end_sample": 3808,
+      "start_ms": 0,
+      "end_ms": 238
+    },
+    {
+      "lang": "ja",
+      "text": "慌てて",
+      "start_sample": 3808,
+      "end_sample": 11589,
+      "start_ms": 238,
+      "end_ms": 724
+    },
+    {
+      "lang": "en",
+      "text": "rushing through the aisles and forgot half the things on his list.",
+      "start_sample": 11589,
+      "end_sample": 68793,
+      "start_ms": 724,
+      "end_ms": 4300
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He was awate te rushing through the aisles and forgot half the things on his list.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4931,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He was",
+          "start_sample": 0,
+          "end_sample": 4008,
+          "start_ms": 0,
+          "end_ms": 250
+        },
+        {
+          "lang": "ja",
+          "text": "慌てて",
+          "start_sample": 4008,
+          "end_sample": 21486,
+          "start_ms": 250,
+          "end_ms": 1343
+        },
+        {
+          "lang": "en",
+          "text": "rushing through the aisles and forgot half the things on his list.",
+          "start_sample": 21486,
+          "end_sample": 78890,
+          "start_ms": 1343,
+          "end_ms": 4931
+        }
+      ]
+    },
+    "ja": {
+      "text": "He was 慌てて rushing through the aisles and forgot half the things on his list.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6777,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He was",
+          "start_sample": 0,
+          "end_sample": 6735,
+          "start_ms": 0,
+          "end_ms": 421
+        },
+        {
+          "lang": "ja",
+          "text": "慌てて",
+          "start_sample": 6735,
+          "end_sample": 14916,
+          "start_ms": 421,
+          "end_ms": 932
+        },
+        {
+          "lang": "en",
+          "text": "rushing through the aisles and forgot half the things on his list.",
+          "start_sample": 14916,
+          "end_sample": 108438,
+          "start_ms": 932,
+          "end_ms": 6777
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 215,
+  "frame_labels": "eeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

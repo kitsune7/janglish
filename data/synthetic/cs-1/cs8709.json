@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8709.flac",
+  "sentence": "He shouted 危ない before the shelf toppled onto the floor.",
+  "sample_rate": 16000,
+  "duration_ms": 3014,
+  "reference_speaker": "jp/speaker_097_1c56b79c3d3b.mp3",
+  "seed": 8751,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He shouted",
+      "start_sample": 0,
+      "end_sample": 9286,
+      "start_ms": 0,
+      "end_ms": 580
+    },
+    {
+      "lang": "ja",
+      "text": "危ない",
+      "start_sample": 9286,
+      "end_sample": 15462,
+      "start_ms": 580,
+      "end_ms": 966
+    },
+    {
+      "lang": "en",
+      "text": "before the shelf toppled onto the floor.",
+      "start_sample": 15462,
+      "end_sample": 48222,
+      "start_ms": 966,
+      "end_ms": 3014
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He shouted abunai before the shelf toppled onto the floor.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3276,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He shouted",
+          "start_sample": 0,
+          "end_sample": 9486,
+          "start_ms": 0,
+          "end_ms": 593
+        },
+        {
+          "lang": "ja",
+          "text": "危ない",
+          "start_sample": 9486,
+          "end_sample": 19456,
+          "start_ms": 593,
+          "end_ms": 1216
+        },
+        {
+          "lang": "en",
+          "text": "before the shelf toppled onto the floor.",
+          "start_sample": 19456,
+          "end_sample": 52416,
+          "start_ms": 1216,
+          "end_ms": 3276
+        }
+      ]
+    },
+    "ja": {
+      "text": "He shouted 危ない before the shelf toppled onto the floor.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3789,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He shouted",
+          "start_sample": 0,
+          "end_sample": 8659,
+          "start_ms": 0,
+          "end_ms": 541
+        },
+        {
+          "lang": "ja",
+          "text": "危ない",
+          "start_sample": 8659,
+          "end_sample": 15235,
+          "start_ms": 541,
+          "end_ms": 952
+        },
+        {
+          "lang": "en",
+          "text": "before the shelf toppled onto the floor.",
+          "start_sample": 15235,
+          "end_sample": 60619,
+          "start_ms": 952,
+          "end_ms": 3789
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 151,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

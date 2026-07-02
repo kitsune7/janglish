@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11047.flac",
+  "sentence": "Have you ever watched 花火 from the roof on the Fourth of July?",
+  "sample_rate": 16000,
+  "duration_ms": 2887,
+  "reference_speaker": "en/speaker_035_aa6a3aa058c0.mp3",
+  "seed": 11089,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you ever watched",
+      "start_sample": 0,
+      "end_sample": 12528,
+      "start_ms": 0,
+      "end_ms": 783
+    },
+    {
+      "lang": "ja",
+      "text": "花火",
+      "start_sample": 12528,
+      "end_sample": 19657,
+      "start_ms": 783,
+      "end_ms": 1229
+    },
+    {
+      "lang": "en",
+      "text": "from the roof on the Fourth of July?",
+      "start_sample": 19657,
+      "end_sample": 46197,
+      "start_ms": 1229,
+      "end_ms": 2887
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you ever watched hanabi from the roof on the Fourth of July?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2900,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever watched",
+          "start_sample": 0,
+          "end_sample": 12728,
+          "start_ms": 0,
+          "end_ms": 796
+        },
+        {
+          "lang": "ja",
+          "text": "花火",
+          "start_sample": 12728,
+          "end_sample": 19656,
+          "start_ms": 796,
+          "end_ms": 1228
+        },
+        {
+          "lang": "en",
+          "text": "from the roof on the Fourth of July?",
+          "start_sample": 19656,
+          "end_sample": 46396,
+          "start_ms": 1228,
+          "end_ms": 2900
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you ever watched 花火 from the roof on the Fourth of July?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4105,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever watched",
+          "start_sample": 0,
+          "end_sample": 19703,
+          "start_ms": 0,
+          "end_ms": 1231
+        },
+        {
+          "lang": "ja",
+          "text": "花火",
+          "start_sample": 19703,
+          "end_sample": 27232,
+          "start_ms": 1231,
+          "end_ms": 1702
+        },
+        {
+          "lang": "en",
+          "text": "from the roof on the Fourth of July?",
+          "start_sample": 27232,
+          "end_sample": 65678,
+          "start_ms": 1702,
+          "end_ms": 4105
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 145,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

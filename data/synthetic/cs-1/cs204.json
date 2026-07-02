@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs204.flac",
+  "sentence": "彼女のhair textureはとても細くて柔らかいです。",
+  "sample_rate": 16000,
+  "duration_ms": 3933,
+  "reference_speaker": "en/speaker_020_5f047713c8bd.mp3",
+  "seed": 246,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女の",
+      "start_sample": 0,
+      "end_sample": 8152,
+      "start_ms": 0,
+      "end_ms": 509
+    },
+    {
+      "lang": "en",
+      "text": "hair texture",
+      "start_sample": 8152,
+      "end_sample": 26992,
+      "start_ms": 509,
+      "end_ms": 1687
+    },
+    {
+      "lang": "ja",
+      "text": "はとても細くて柔らかいです。",
+      "start_sample": 26992,
+      "end_sample": 62930,
+      "start_ms": 1687,
+      "end_ms": 3933
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo no hair texture ha totemo komaku te yawarakai desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6132,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の",
+          "start_sample": 0,
+          "end_sample": 22125,
+          "start_ms": 0,
+          "end_ms": 1383
+        },
+        {
+          "lang": "en",
+          "text": "hair texture",
+          "start_sample": 22125,
+          "end_sample": 41365,
+          "start_ms": 1383,
+          "end_ms": 2585
+        },
+        {
+          "lang": "ja",
+          "text": "はとても細くて柔らかいです。",
+          "start_sample": 41365,
+          "end_sample": 98120,
+          "start_ms": 2585,
+          "end_ms": 6132
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女のhair textureはとても細くて柔らかいです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3674,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の",
+          "start_sample": 0,
+          "end_sample": 8352,
+          "start_ms": 0,
+          "end_ms": 522
+        },
+        {
+          "lang": "en",
+          "text": "hair texture",
+          "start_sample": 8352,
+          "end_sample": 22648,
+          "start_ms": 522,
+          "end_ms": 1416
+        },
+        {
+          "lang": "ja",
+          "text": "はとても細くて柔らかいです。",
+          "start_sample": 22648,
+          "end_sample": 58786,
+          "start_ms": 1416,
+          "end_ms": 3674
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 197,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

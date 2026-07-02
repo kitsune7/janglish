@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10079.flac",
+  "sentence": "I always feel 眠い during the first lecture of the morning.",
+  "sample_rate": 16000,
+  "duration_ms": 4604,
+  "reference_speaker": "jp/speaker_094_33e54b46bf39.mp3",
+  "seed": 10121,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always feel",
+      "start_sample": 0,
+      "end_sample": 31416,
+      "start_ms": 0,
+      "end_ms": 1964
+    },
+    {
+      "lang": "ja",
+      "text": "眠い",
+      "start_sample": 31416,
+      "end_sample": 38549,
+      "start_ms": 1964,
+      "end_ms": 2409
+    },
+    {
+      "lang": "en",
+      "text": "during the first lecture of the morning.",
+      "start_sample": 38549,
+      "end_sample": 73657,
+      "start_ms": 2409,
+      "end_ms": 4604
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always feel nemui during the first lecture of the morning.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4835,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel",
+          "start_sample": 0,
+          "end_sample": 31616,
+          "start_ms": 0,
+          "end_ms": 1976
+        },
+        {
+          "lang": "ja",
+          "text": "眠い",
+          "start_sample": 31616,
+          "end_sample": 42050,
+          "start_ms": 1976,
+          "end_ms": 2628
+        },
+        {
+          "lang": "en",
+          "text": "during the first lecture of the morning.",
+          "start_sample": 42050,
+          "end_sample": 77358,
+          "start_ms": 2628,
+          "end_ms": 4835
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always feel 眠い during the first lecture of the morning.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4107,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel",
+          "start_sample": 0,
+          "end_sample": 17630,
+          "start_ms": 0,
+          "end_ms": 1102
+        },
+        {
+          "lang": "ja",
+          "text": "眠い",
+          "start_sample": 17630,
+          "end_sample": 25163,
+          "start_ms": 1102,
+          "end_ms": 1573
+        },
+        {
+          "lang": "en",
+          "text": "during the first lecture of the morning.",
+          "start_sample": 25163,
+          "end_sample": 65715,
+          "start_ms": 1573,
+          "end_ms": 4107
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 231,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

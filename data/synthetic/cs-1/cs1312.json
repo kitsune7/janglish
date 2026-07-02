@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1312.flac",
+  "sentence": "契約する前にleaseの内容をよく読んでください。",
+  "sample_rate": 16000,
+  "duration_ms": 3187,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 1354,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "契約する前に",
+      "start_sample": 0,
+      "end_sample": 14715,
+      "start_ms": 0,
+      "end_ms": 920
+    },
+    {
+      "lang": "en",
+      "text": "lease",
+      "start_sample": 14715,
+      "end_sample": 27778,
+      "start_ms": 920,
+      "end_ms": 1736
+    },
+    {
+      "lang": "ja",
+      "text": "の内容をよく読んでください。",
+      "start_sample": 27778,
+      "end_sample": 50992,
+      "start_ms": 1736,
+      "end_ms": 3187
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "keiyaku suru mae ni lease no naiyou wo yoku yon de kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5429,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "契約する前に",
+          "start_sample": 0,
+          "end_sample": 40709,
+          "start_ms": 0,
+          "end_ms": 2544
+        },
+        {
+          "lang": "en",
+          "text": "lease",
+          "start_sample": 40709,
+          "end_sample": 54172,
+          "start_ms": 2544,
+          "end_ms": 3386
+        },
+        {
+          "lang": "ja",
+          "text": "の内容をよく読んでください。",
+          "start_sample": 54172,
+          "end_sample": 86869,
+          "start_ms": 3386,
+          "end_ms": 5429
+        }
+      ]
+    },
+    "ja": {
+      "text": "契約する前にleaseの内容をよく読んでください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2706,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "契約する前に",
+          "start_sample": 0,
+          "end_sample": 14915,
+          "start_ms": 0,
+          "end_ms": 932
+        },
+        {
+          "lang": "en",
+          "text": "lease",
+          "start_sample": 14915,
+          "end_sample": 19886,
+          "start_ms": 932,
+          "end_ms": 1243
+        },
+        {
+          "lang": "ja",
+          "text": "の内容をよく読んでください。",
+          "start_sample": 19886,
+          "end_sample": 43300,
+          "start_ms": 1243,
+          "end_ms": 2706
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7306.flac",
+  "sentence": "The autumn festival felt so 本物 compared to the commercialized versions elsewhere.",
+  "sample_rate": 16000,
+  "duration_ms": 6718,
+  "reference_speaker": "jp/speaker_082_d12288b68351.mp3",
+  "seed": 7348,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The autumn festival felt so",
+      "start_sample": 0,
+      "end_sample": 34562,
+      "start_ms": 0,
+      "end_ms": 2160
+    },
+    {
+      "lang": "ja",
+      "text": "本物",
+      "start_sample": 34562,
+      "end_sample": 47454,
+      "start_ms": 2160,
+      "end_ms": 2966
+    },
+    {
+      "lang": "en",
+      "text": "compared to the commercialized versions elsewhere.",
+      "start_sample": 47454,
+      "end_sample": 107487,
+      "start_ms": 2966,
+      "end_ms": 6718
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The autumn festival felt so honmono compared to the commercialized versions elsewhere.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7409,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The autumn festival felt so",
+          "start_sample": 0,
+          "end_sample": 34762,
+          "start_ms": 0,
+          "end_ms": 2173
+        },
+        {
+          "lang": "ja",
+          "text": "本物",
+          "start_sample": 34762,
+          "end_sample": 58311,
+          "start_ms": 2173,
+          "end_ms": 3644
+        },
+        {
+          "lang": "en",
+          "text": "compared to the commercialized versions elsewhere.",
+          "start_sample": 58311,
+          "end_sample": 118544,
+          "start_ms": 3644,
+          "end_ms": 7409
+        }
+      ]
+    },
+    "ja": {
+      "text": "The autumn festival felt so 本物 compared to the commercialized versions elsewhere.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8107,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The autumn festival felt so",
+          "start_sample": 0,
+          "end_sample": 45159,
+          "start_ms": 0,
+          "end_ms": 2822
+        },
+        {
+          "lang": "ja",
+          "text": "本物",
+          "start_sample": 45159,
+          "end_sample": 58451,
+          "start_ms": 2822,
+          "end_ms": 3653
+        },
+        {
+          "lang": "en",
+          "text": "compared to the commercialized versions elsewhere.",
+          "start_sample": 58451,
+          "end_sample": 129713,
+          "start_ms": 3653,
+          "end_ms": 8107
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 336,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

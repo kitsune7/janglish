@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4017.flac",
+  "sentence": "I've been going to 練習 every single day this week.",
+  "sample_rate": 16000,
+  "duration_ms": 2831,
+  "reference_speaker": "en/speaker_031_dcac4ff5a983.mp3",
+  "seed": 4059,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I've been going to",
+      "start_sample": 0,
+      "end_sample": 10251,
+      "start_ms": 0,
+      "end_ms": 641
+    },
+    {
+      "lang": "ja",
+      "text": "練習",
+      "start_sample": 10251,
+      "end_sample": 25389,
+      "start_ms": 641,
+      "end_ms": 1587
+    },
+    {
+      "lang": "en",
+      "text": "every single day this week.",
+      "start_sample": 25389,
+      "end_sample": 45294,
+      "start_ms": 1587,
+      "end_ms": 2831
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I've been going to renshuu every single day this week.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2352,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've been going to",
+          "start_sample": 0,
+          "end_sample": 10451,
+          "start_ms": 0,
+          "end_ms": 653
+        },
+        {
+          "lang": "ja",
+          "text": "練習",
+          "start_sample": 10451,
+          "end_sample": 17529,
+          "start_ms": 653,
+          "end_ms": 1096
+        },
+        {
+          "lang": "en",
+          "text": "every single day this week.",
+          "start_sample": 17529,
+          "end_sample": 37634,
+          "start_ms": 1096,
+          "end_ms": 2352
+        }
+      ]
+    },
+    "ja": {
+      "text": "I've been going to 練習 every single day this week.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4245,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've been going to",
+          "start_sample": 0,
+          "end_sample": 18902,
+          "start_ms": 0,
+          "end_ms": 1181
+        },
+        {
+          "lang": "ja",
+          "text": "練習",
+          "start_sample": 18902,
+          "end_sample": 34440,
+          "start_ms": 1181,
+          "end_ms": 2152
+        },
+        {
+          "lang": "en",
+          "text": "every single day this week.",
+          "start_sample": 34440,
+          "end_sample": 67920,
+          "start_ms": 2152,
+          "end_ms": 4245
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 142,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

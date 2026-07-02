@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10487.flac",
+  "sentence": "This neighborhood feels so 複雑 that even locals need a map.",
+  "sample_rate": 16000,
+  "duration_ms": 4365,
+  "reference_speaker": "en/speaker_070_eb9077114ebd.mp3",
+  "seed": 10529,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This neighborhood feels so",
+      "start_sample": 0,
+      "end_sample": 18748,
+      "start_ms": 0,
+      "end_ms": 1172
+    },
+    {
+      "lang": "ja",
+      "text": "複雑",
+      "start_sample": 18748,
+      "end_sample": 30378,
+      "start_ms": 1172,
+      "end_ms": 1899
+    },
+    {
+      "lang": "en",
+      "text": "that even locals need a map.",
+      "start_sample": 30378,
+      "end_sample": 69840,
+      "start_ms": 1899,
+      "end_ms": 4365
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This neighborhood feels so fukuzatsu that even locals need a map.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4898,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This neighborhood feels so",
+          "start_sample": 0,
+          "end_sample": 18948,
+          "start_ms": 0,
+          "end_ms": 1184
+        },
+        {
+          "lang": "ja",
+          "text": "複雑",
+          "start_sample": 18948,
+          "end_sample": 38701,
+          "start_ms": 1184,
+          "end_ms": 2419
+        },
+        {
+          "lang": "en",
+          "text": "that even locals need a map.",
+          "start_sample": 38701,
+          "end_sample": 78363,
+          "start_ms": 2419,
+          "end_ms": 4898
+        }
+      ]
+    },
+    "ja": {
+      "text": "This neighborhood feels so 複雑 that even locals need a map.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4832,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This neighborhood feels so",
+          "start_sample": 0,
+          "end_sample": 34002,
+          "start_ms": 0,
+          "end_ms": 2125
+        },
+        {
+          "lang": "ja",
+          "text": "複雑",
+          "start_sample": 34002,
+          "end_sample": 46032,
+          "start_ms": 2125,
+          "end_ms": 2877
+        },
+        {
+          "lang": "en",
+          "text": "that even locals need a map.",
+          "start_sample": 46032,
+          "end_sample": 77308,
+          "start_ms": 2877,
+          "end_ms": 4832
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 219,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10908.flac",
+  "sentence": "彼女の最新作はとてもdramaticな構図で観客を圧倒した。",
+  "sample_rate": 16000,
+  "duration_ms": 4291,
+  "reference_speaker": "en/speaker_053_ceb29bce299d.mp3",
+  "seed": 10950,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女の最新作はとても",
+      "start_sample": 0,
+      "end_sample": 30200,
+      "start_ms": 0,
+      "end_ms": 1888
+    },
+    {
+      "lang": "en",
+      "text": "dramatic",
+      "start_sample": 30200,
+      "end_sample": 38621,
+      "start_ms": 1888,
+      "end_ms": 2414
+    },
+    {
+      "lang": "ja",
+      "text": "な構図で観客を圧倒した。",
+      "start_sample": 38621,
+      "end_sample": 68656,
+      "start_ms": 2414,
+      "end_ms": 4291
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo no saishin saku ha totemo dramatic na kouzu de kankyaku wo attou shi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6174,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の最新作はとても",
+          "start_sample": 0,
+          "end_sample": 58054,
+          "start_ms": 0,
+          "end_ms": 3628
+        },
+        {
+          "lang": "en",
+          "text": "dramatic",
+          "start_sample": 58054,
+          "end_sample": 66875,
+          "start_ms": 3628,
+          "end_ms": 4180
+        },
+        {
+          "lang": "ja",
+          "text": "な構図で観客を圧倒した。",
+          "start_sample": 66875,
+          "end_sample": 98787,
+          "start_ms": 4180,
+          "end_ms": 6174
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女の最新作はとてもdramaticな構図で観客を圧倒した。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4423,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の最新作はとても",
+          "start_sample": 0,
+          "end_sample": 30400,
+          "start_ms": 0,
+          "end_ms": 1900
+        },
+        {
+          "lang": "en",
+          "text": "dramatic",
+          "start_sample": 30400,
+          "end_sample": 40533,
+          "start_ms": 1900,
+          "end_ms": 2533
+        },
+        {
+          "lang": "ja",
+          "text": "な構図で観客を圧倒した。",
+          "start_sample": 40533,
+          "end_sample": 70768,
+          "start_ms": 2533,
+          "end_ms": 4423
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 215,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

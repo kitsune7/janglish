@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5496.flac",
+  "sentence": "His bookshelf is full of 哲学 books that he swears he has read.",
+  "sample_rate": 16000,
+  "duration_ms": 4540,
+  "reference_speaker": "jp/speaker_038_fa40784c77e2.mp3",
+  "seed": 5538,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His bookshelf is full of",
+      "start_sample": 0,
+      "end_sample": 28579,
+      "start_ms": 0,
+      "end_ms": 1786
+    },
+    {
+      "lang": "ja",
+      "text": "哲学",
+      "start_sample": 28579,
+      "end_sample": 41018,
+      "start_ms": 1786,
+      "end_ms": 2564
+    },
+    {
+      "lang": "en",
+      "text": "books that he swears he has read.",
+      "start_sample": 41018,
+      "end_sample": 72647,
+      "start_ms": 2564,
+      "end_ms": 4540
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His bookshelf is full of tetsugaku books that he swears he has read.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4522,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His bookshelf is full of",
+          "start_sample": 0,
+          "end_sample": 28779,
+          "start_ms": 0,
+          "end_ms": 1799
+        },
+        {
+          "lang": "ja",
+          "text": "哲学",
+          "start_sample": 28779,
+          "end_sample": 40516,
+          "start_ms": 1799,
+          "end_ms": 2532
+        },
+        {
+          "lang": "en",
+          "text": "books that he swears he has read.",
+          "start_sample": 40516,
+          "end_sample": 72345,
+          "start_ms": 2532,
+          "end_ms": 4522
+        }
+      ]
+    },
+    "ja": {
+      "text": "His bookshelf is full of 哲学 books that he swears he has read.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6018,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His bookshelf is full of",
+          "start_sample": 0,
+          "end_sample": 37231,
+          "start_ms": 0,
+          "end_ms": 2327
+        },
+        {
+          "lang": "ja",
+          "text": "哲学",
+          "start_sample": 37231,
+          "end_sample": 50070,
+          "start_ms": 2327,
+          "end_ms": 3129
+        },
+        {
+          "lang": "en",
+          "text": "books that he swears he has read.",
+          "start_sample": 50070,
+          "end_sample": 96286,
+          "start_ms": 3129,
+          "end_ms": 6018
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 228,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9608.flac",
+  "sentence": "テラス席のほうがcozyな雰囲気があります。",
+  "sample_rate": 16000,
+  "duration_ms": 2687,
+  "reference_speaker": "jp/speaker_072_6a4d94080268.mp3",
+  "seed": 9650,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "テラス席のほうが",
+      "start_sample": 0,
+      "end_sample": 15200,
+      "start_ms": 0,
+      "end_ms": 950
+    },
+    {
+      "lang": "en",
+      "text": "cozy",
+      "start_sample": 15200,
+      "end_sample": 26183,
+      "start_ms": 950,
+      "end_ms": 1636
+    },
+    {
+      "lang": "ja",
+      "text": "な雰囲気があります。",
+      "start_sample": 26183,
+      "end_sample": 42986,
+      "start_ms": 1636,
+      "end_ms": 2687
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "terasu seki no hou ga cozy na fun'iki ga ari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5030,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "テラス席のほうが",
+          "start_sample": 0,
+          "end_sample": 35751,
+          "start_ms": 0,
+          "end_ms": 2234
+        },
+        {
+          "lang": "en",
+          "text": "cozy",
+          "start_sample": 35751,
+          "end_sample": 47134,
+          "start_ms": 2234,
+          "end_ms": 2946
+        },
+        {
+          "lang": "ja",
+          "text": "な雰囲気があります。",
+          "start_sample": 47134,
+          "end_sample": 80480,
+          "start_ms": 2946,
+          "end_ms": 5030
+        }
+      ]
+    },
+    "ja": {
+      "text": "テラス席のほうがcozyな雰囲気があります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2406,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "テラス席のほうが",
+          "start_sample": 0,
+          "end_sample": 15400,
+          "start_ms": 0,
+          "end_ms": 962
+        },
+        {
+          "lang": "en",
+          "text": "cozy",
+          "start_sample": 15400,
+          "end_sample": 21497,
+          "start_ms": 962,
+          "end_ms": 1344
+        },
+        {
+          "lang": "ja",
+          "text": "な雰囲気があります。",
+          "start_sample": 21497,
+          "end_sample": 38500,
+          "start_ms": 1344,
+          "end_ms": 2406
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 135,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs941.flac",
+  "sentence": "He asked for 速達 service because the 締め切り was the very next morning.",
+  "sample_rate": 16000,
+  "duration_ms": 4077,
+  "reference_speaker": "jp/speaker_032_e63077fee9e9.mp3",
+  "seed": 17796,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He asked for",
+      "start_sample": 0,
+      "end_sample": 8002,
+      "start_ms": 0,
+      "end_ms": 500
+    },
+    {
+      "lang": "ja",
+      "text": "速達",
+      "start_sample": 8002,
+      "end_sample": 15933,
+      "start_ms": 500,
+      "end_ms": 996
+    },
+    {
+      "lang": "en",
+      "text": "service because the",
+      "start_sample": 15933,
+      "end_sample": 32903,
+      "start_ms": 996,
+      "end_ms": 2056
+    },
+    {
+      "lang": "ja",
+      "text": "締め切り",
+      "start_sample": 32903,
+      "end_sample": 43238,
+      "start_ms": 2056,
+      "end_ms": 2702
+    },
+    {
+      "lang": "en",
+      "text": "was the very next morning.",
+      "start_sample": 43238,
+      "end_sample": 65229,
+      "start_ms": 2702,
+      "end_ms": 4077
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He asked for sokutatsu service because the shimekiri was the very next morning.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4282,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He asked for",
+          "start_sample": 0,
+          "end_sample": 8202,
+          "start_ms": 0,
+          "end_ms": 513
+        },
+        {
+          "lang": "ja",
+          "text": "速達",
+          "start_sample": 8202,
+          "end_sample": 16887,
+          "start_ms": 513,
+          "end_ms": 1055
+        },
+        {
+          "lang": "en",
+          "text": "service because the",
+          "start_sample": 16887,
+          "end_sample": 34257,
+          "start_ms": 1055,
+          "end_ms": 2141
+        },
+        {
+          "lang": "ja",
+          "text": "締め切り",
+          "start_sample": 34257,
+          "end_sample": 46320,
+          "start_ms": 2141,
+          "end_ms": 2895
+        },
+        {
+          "lang": "en",
+          "text": "was the very next morning.",
+          "start_sample": 46320,
+          "end_sample": 68511,
+          "start_ms": 2895,
+          "end_ms": 4282
+        }
+      ]
+    },
+    "ja": {
+      "text": "He asked for 速達 service because the 締め切り was the very next morning.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5648,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He asked for",
+          "start_sample": 0,
+          "end_sample": 17303,
+          "start_ms": 0,
+          "end_ms": 1081
+        },
+        {
+          "lang": "ja",
+          "text": "速達",
+          "start_sample": 17303,
+          "end_sample": 25634,
+          "start_ms": 1081,
+          "end_ms": 1602
+        },
+        {
+          "lang": "en",
+          "text": "service because the",
+          "start_sample": 25634,
+          "end_sample": 50948,
+          "start_ms": 1602,
+          "end_ms": 3184
+        },
+        {
+          "lang": "ja",
+          "text": "締め切り",
+          "start_sample": 50948,
+          "end_sample": 61683,
+          "start_ms": 3184,
+          "end_ms": 3855
+        },
+        {
+          "lang": "en",
+          "text": "was the very next morning.",
+          "start_sample": 61683,
+          "end_sample": 90361,
+          "start_ms": 3855,
+          "end_ms": 5648
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

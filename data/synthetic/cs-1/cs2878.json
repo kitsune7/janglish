@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2878.flac",
+  "sentence": "I finally reached the 最終 boss after twelve hours of grinding.",
+  "sample_rate": 16000,
+  "duration_ms": 3624,
+  "reference_speaker": "jp/speaker_044_225f82fe72eb.mp3",
+  "seed": 2920,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I finally reached the",
+      "start_sample": 0,
+      "end_sample": 13617,
+      "start_ms": 0,
+      "end_ms": 851
+    },
+    {
+      "lang": "ja",
+      "text": "最終",
+      "start_sample": 13617,
+      "end_sample": 23801,
+      "start_ms": 851,
+      "end_ms": 1488
+    },
+    {
+      "lang": "en",
+      "text": "boss after twelve hours of grinding.",
+      "start_sample": 23801,
+      "end_sample": 57989,
+      "start_ms": 1488,
+      "end_ms": 3624
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I finally reached the saishuu boss after twelve hours of grinding.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3435,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I finally reached the",
+          "start_sample": 0,
+          "end_sample": 13817,
+          "start_ms": 0,
+          "end_ms": 864
+        },
+        {
+          "lang": "ja",
+          "text": "最終",
+          "start_sample": 13817,
+          "end_sample": 20567,
+          "start_ms": 864,
+          "end_ms": 1285
+        },
+        {
+          "lang": "en",
+          "text": "boss after twelve hours of grinding.",
+          "start_sample": 20567,
+          "end_sample": 54955,
+          "start_ms": 1285,
+          "end_ms": 3435
+        }
+      ]
+    },
+    "ja": {
+      "text": "I finally reached the 最終 boss after twelve hours of grinding.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6154,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I finally reached the",
+          "start_sample": 0,
+          "end_sample": 35602,
+          "start_ms": 0,
+          "end_ms": 2225
+        },
+        {
+          "lang": "ja",
+          "text": "最終",
+          "start_sample": 35602,
+          "end_sample": 46186,
+          "start_ms": 2225,
+          "end_ms": 2887
+        },
+        {
+          "lang": "en",
+          "text": "boss after twelve hours of grinding.",
+          "start_sample": 46186,
+          "end_sample": 98466,
+          "start_ms": 2887,
+          "end_ms": 6154
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 182,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

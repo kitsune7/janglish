@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8631.flac",
+  "sentence": "The 縦位置 composition works better for this particular doorway.",
+  "sample_rate": 16000,
+  "duration_ms": 4306,
+  "reference_speaker": "jp/speaker_083_f660ed2250be.mp3",
+  "seed": 8673,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1726,
+      "start_ms": 0,
+      "end_ms": 108
+    },
+    {
+      "lang": "ja",
+      "text": "縦位置",
+      "start_sample": 1726,
+      "end_sample": 13850,
+      "start_ms": 108,
+      "end_ms": 866
+    },
+    {
+      "lang": "en",
+      "text": "composition works better for this particular doorway.",
+      "start_sample": 13850,
+      "end_sample": 68891,
+      "start_ms": 866,
+      "end_ms": 4306
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The tate ichi composition works better for this particular doorway.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4898,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1926,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "縦位置",
+          "start_sample": 1926,
+          "end_sample": 23125,
+          "start_ms": 120,
+          "end_ms": 1445
+        },
+        {
+          "lang": "en",
+          "text": "composition works better for this particular doorway.",
+          "start_sample": 23125,
+          "end_sample": 78366,
+          "start_ms": 1445,
+          "end_ms": 4898
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 縦位置 composition works better for this particular doorway.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3833,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1284,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "縦位置",
+          "start_sample": 1284,
+          "end_sample": 13808,
+          "start_ms": 80,
+          "end_ms": 863
+        },
+        {
+          "lang": "en",
+          "text": "composition works better for this particular doorway.",
+          "start_sample": 13808,
+          "end_sample": 61332,
+          "start_ms": 863,
+          "end_ms": 3833
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 216,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

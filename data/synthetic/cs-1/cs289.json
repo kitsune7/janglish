@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs289.flac",
+  "sentence": "終電を逃したから、taxiで帰るしかなかった。",
+  "sample_rate": 16000,
+  "duration_ms": 3109,
+  "reference_speaker": "jp/speaker_008_925570fa5738.mp3",
+  "seed": 331,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "終電を逃したから、",
+      "start_sample": 0,
+      "end_sample": 21148,
+      "start_ms": 0,
+      "end_ms": 1322
+    },
+    {
+      "lang": "en",
+      "text": "taxi",
+      "start_sample": 21148,
+      "end_sample": 31487,
+      "start_ms": 1322,
+      "end_ms": 1968
+    },
+    {
+      "lang": "ja",
+      "text": "で帰るしかなかった。",
+      "start_sample": 31487,
+      "end_sample": 49744,
+      "start_ms": 1968,
+      "end_ms": 3109
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shuuden wo nogashi ta kara taxi de kaeru shika nakatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6392,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "終電を逃したから、",
+          "start_sample": 0,
+          "end_sample": 47927,
+          "start_ms": 0,
+          "end_ms": 2995
+        },
+        {
+          "lang": "en",
+          "text": "taxi",
+          "start_sample": 47927,
+          "end_sample": 58666,
+          "start_ms": 2995,
+          "end_ms": 3667
+        },
+        {
+          "lang": "ja",
+          "text": "で帰るしかなかった。",
+          "start_sample": 58666,
+          "end_sample": 102264,
+          "start_ms": 3667,
+          "end_ms": 6392
+        }
+      ]
+    },
+    "ja": {
+      "text": "終電を逃したから、taxiで帰るしかなかった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3010,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "終電を逃したから、",
+          "start_sample": 0,
+          "end_sample": 21348,
+          "start_ms": 0,
+          "end_ms": 1334
+        },
+        {
+          "lang": "en",
+          "text": "taxi",
+          "start_sample": 21348,
+          "end_sample": 29695,
+          "start_ms": 1334,
+          "end_ms": 1856
+        },
+        {
+          "lang": "ja",
+          "text": "で帰るしかなかった。",
+          "start_sample": 29695,
+          "end_sample": 48152,
+          "start_ms": 1856,
+          "end_ms": 3010
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 156,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

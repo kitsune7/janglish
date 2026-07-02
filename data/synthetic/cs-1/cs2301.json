@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2301.flac",
+  "sentence": "このraw fileはまだ現像していない。",
+  "sample_rate": 16000,
+  "duration_ms": 2468,
+  "reference_speaker": "jp/speaker_062_ec2cf7781d6b.mp3",
+  "seed": 2343,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3014,
+      "start_ms": 0,
+      "end_ms": 188
+    },
+    {
+      "lang": "en",
+      "text": "raw file",
+      "start_sample": 3014,
+      "end_sample": 16878,
+      "start_ms": 188,
+      "end_ms": 1055
+    },
+    {
+      "lang": "ja",
+      "text": "はまだ現像していない。",
+      "start_sample": 16878,
+      "end_sample": 39495,
+      "start_ms": 1055,
+      "end_ms": 2468
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono raw file hamada genzou shi te i nai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3766,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5929,
+          "start_ms": 0,
+          "end_ms": 371
+        },
+        {
+          "lang": "en",
+          "text": "raw file",
+          "start_sample": 5929,
+          "end_sample": 20193,
+          "start_ms": 371,
+          "end_ms": 1262
+        },
+        {
+          "lang": "ja",
+          "text": "はまだ現像していない。",
+          "start_sample": 20193,
+          "end_sample": 60260,
+          "start_ms": 1262,
+          "end_ms": 3766
+        }
+      ]
+    },
+    "ja": {
+      "text": "このraw fileはまだ現像していない。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2230,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3214,
+          "start_ms": 0,
+          "end_ms": 201
+        },
+        {
+          "lang": "en",
+          "text": "raw file",
+          "start_sample": 3214,
+          "end_sample": 12856,
+          "start_ms": 201,
+          "end_ms": 804
+        },
+        {
+          "lang": "ja",
+          "text": "はまだ現像していない。",
+          "start_sample": 12856,
+          "end_sample": 35673,
+          "start_ms": 804,
+          "end_ms": 2230
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 124,
+  "frame_labels": "jjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

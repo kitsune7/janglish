@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5528.flac",
+  "sentence": "I finally sorted through all the 不用品 that had been piling up in the garage.",
+  "sample_rate": 16000,
+  "duration_ms": 5930,
+  "reference_speaker": "jp/speaker_031_8da19046583d.mp3",
+  "seed": 5570,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I finally sorted through all the",
+      "start_sample": 0,
+      "end_sample": 32970,
+      "start_ms": 0,
+      "end_ms": 2061
+    },
+    {
+      "lang": "ja",
+      "text": "不用品",
+      "start_sample": 32970,
+      "end_sample": 42354,
+      "start_ms": 2061,
+      "end_ms": 2647
+    },
+    {
+      "lang": "en",
+      "text": "that had been piling up in the garage.",
+      "start_sample": 42354,
+      "end_sample": 94876,
+      "start_ms": 2647,
+      "end_ms": 5930
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I finally sorted through all the fuyou hin that had been piling up in the garage.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6550,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I finally sorted through all the",
+          "start_sample": 0,
+          "end_sample": 33170,
+          "start_ms": 0,
+          "end_ms": 2073
+        },
+        {
+          "lang": "ja",
+          "text": "不用品",
+          "start_sample": 33170,
+          "end_sample": 52081,
+          "start_ms": 2073,
+          "end_ms": 3255
+        },
+        {
+          "lang": "en",
+          "text": "that had been piling up in the garage.",
+          "start_sample": 52081,
+          "end_sample": 104803,
+          "start_ms": 3255,
+          "end_ms": 6550
+        }
+      ]
+    },
+    "ja": {
+      "text": "I finally sorted through all the 不用品 that had been piling up in the garage.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5473,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I finally sorted through all the",
+          "start_sample": 0,
+          "end_sample": 38494,
+          "start_ms": 0,
+          "end_ms": 2406
+        },
+        {
+          "lang": "ja",
+          "text": "不用品",
+          "start_sample": 38494,
+          "end_sample": 48278,
+          "start_ms": 2406,
+          "end_ms": 3017
+        },
+        {
+          "lang": "en",
+          "text": "that had been piling up in the garage.",
+          "start_sample": 48278,
+          "end_sample": 87573,
+          "start_ms": 3017,
+          "end_ms": 5473
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 297,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

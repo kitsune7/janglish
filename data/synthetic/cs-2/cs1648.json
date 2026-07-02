@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1648.flac",
+  "sentence": "My landlord insists on doing a thorough 点検 every spring, which I actually find quite 安心.",
+  "sample_rate": 16000,
+  "duration_ms": 5714,
+  "reference_speaker": "jp/speaker_041_36b0f2924199.mp3",
+  "seed": 18503,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My landlord insists on doing a thorough",
+      "start_sample": 0,
+      "end_sample": 33038,
+      "start_ms": 0,
+      "end_ms": 2065
+    },
+    {
+      "lang": "ja",
+      "text": "点検",
+      "start_sample": 33038,
+      "end_sample": 40810,
+      "start_ms": 2065,
+      "end_ms": 2551
+    },
+    {
+      "lang": "en",
+      "text": "every spring, which I actually find quite",
+      "start_sample": 40810,
+      "end_sample": 83765,
+      "start_ms": 2551,
+      "end_ms": 5235
+    },
+    {
+      "lang": "ja",
+      "text": "安心.",
+      "start_sample": 83765,
+      "end_sample": 91416,
+      "start_ms": 5235,
+      "end_ms": 5714
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My landlord insists on doing a thorough tenken every spring, which I actually find quite anshin",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5780,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My landlord insists on doing a thorough",
+          "start_sample": 0,
+          "end_sample": 33238,
+          "start_ms": 0,
+          "end_ms": 2077
+        },
+        {
+          "lang": "ja",
+          "text": "点検",
+          "start_sample": 33238,
+          "end_sample": 40304,
+          "start_ms": 2077,
+          "end_ms": 2519
+        },
+        {
+          "lang": "en",
+          "text": "every spring, which I actually find quite",
+          "start_sample": 40304,
+          "end_sample": 83659,
+          "start_ms": 2519,
+          "end_ms": 5229
+        },
+        {
+          "lang": "ja",
+          "text": "安心.",
+          "start_sample": 83659,
+          "end_sample": 92488,
+          "start_ms": 5229,
+          "end_ms": 5780
+        }
+      ]
+    },
+    "ja": {
+      "text": "My landlord insists on doing a thorough 点検 every spring, which I actually find quite 安心.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6890,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My landlord insists on doing a thorough",
+          "start_sample": 0,
+          "end_sample": 47271,
+          "start_ms": 0,
+          "end_ms": 2954
+        },
+        {
+          "lang": "ja",
+          "text": "点検",
+          "start_sample": 47271,
+          "end_sample": 55443,
+          "start_ms": 2954,
+          "end_ms": 3465
+        },
+        {
+          "lang": "en",
+          "text": "every spring, which I actually find quite",
+          "start_sample": 55443,
+          "end_sample": 102394,
+          "start_ms": 3465,
+          "end_ms": 6400
+        },
+        {
+          "lang": "ja",
+          "text": "安心.",
+          "start_sample": 102394,
+          "end_sample": 110245,
+          "start_ms": 6400,
+          "end_ms": 6890
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 286,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjj"
+}

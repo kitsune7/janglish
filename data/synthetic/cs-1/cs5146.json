@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5146.flac",
+  "sentence": "The cocktail came garnished with a tiny 柚子 peel, which I wasn't familiar with at all.",
+  "sample_rate": 16000,
+  "duration_ms": 4795,
+  "reference_speaker": "en/speaker_086_0a418a567872.mp3",
+  "seed": 5188,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The cocktail came garnished with a tiny",
+      "start_sample": 0,
+      "end_sample": 28851,
+      "start_ms": 0,
+      "end_ms": 1803
+    },
+    {
+      "lang": "ja",
+      "text": "柚子",
+      "start_sample": 28851,
+      "end_sample": 33263,
+      "start_ms": 1803,
+      "end_ms": 2079
+    },
+    {
+      "lang": "en",
+      "text": "peel, which I wasn't familiar with at all.",
+      "start_sample": 33263,
+      "end_sample": 76718,
+      "start_ms": 2079,
+      "end_ms": 4795
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The cocktail came garnished with a tiny yuzu peel, which I wasn't familiar with at all.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4935,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The cocktail came garnished with a tiny",
+          "start_sample": 0,
+          "end_sample": 29051,
+          "start_ms": 0,
+          "end_ms": 1816
+        },
+        {
+          "lang": "ja",
+          "text": "柚子",
+          "start_sample": 29051,
+          "end_sample": 35311,
+          "start_ms": 1816,
+          "end_ms": 2207
+        },
+        {
+          "lang": "en",
+          "text": "peel, which I wasn't familiar with at all.",
+          "start_sample": 35311,
+          "end_sample": 78966,
+          "start_ms": 2207,
+          "end_ms": 4935
+        }
+      ]
+    },
+    "ja": {
+      "text": "The cocktail came garnished with a tiny 柚子 peel, which I wasn't familiar with at all.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6757,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The cocktail came garnished with a tiny",
+          "start_sample": 0,
+          "end_sample": 55018,
+          "start_ms": 0,
+          "end_ms": 3439
+        },
+        {
+          "lang": "ja",
+          "text": "柚子",
+          "start_sample": 55018,
+          "end_sample": 59830,
+          "start_ms": 3439,
+          "end_ms": 3739
+        },
+        {
+          "lang": "en",
+          "text": "peel, which I wasn't familiar with at all.",
+          "start_sample": 59830,
+          "end_sample": 108111,
+          "start_ms": 3739,
+          "end_ms": 6757
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 240,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

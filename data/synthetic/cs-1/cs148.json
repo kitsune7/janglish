@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs148.flac",
+  "sentence": "That 朗読 version of the audiobook was performed so well it felt like a live show.",
+  "sample_rate": 16000,
+  "duration_ms": 5510,
+  "reference_speaker": "en/speaker_024_d461ea23a991.mp3",
+  "seed": 190,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That",
+      "start_sample": 0,
+      "end_sample": 2048,
+      "start_ms": 0,
+      "end_ms": 128
+    },
+    {
+      "lang": "ja",
+      "text": "朗読",
+      "start_sample": 2048,
+      "end_sample": 9020,
+      "start_ms": 128,
+      "end_ms": 564
+    },
+    {
+      "lang": "en",
+      "text": "version of the audiobook was performed so well it felt like a live show.",
+      "start_sample": 9020,
+      "end_sample": 88167,
+      "start_ms": 564,
+      "end_ms": 5510
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That roudoku version of the audiobook was performed so well it felt like a live show.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5642,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That",
+          "start_sample": 0,
+          "end_sample": 2248,
+          "start_ms": 0,
+          "end_ms": 140
+        },
+        {
+          "lang": "ja",
+          "text": "朗読",
+          "start_sample": 2248,
+          "end_sample": 10922,
+          "start_ms": 140,
+          "end_ms": 683
+        },
+        {
+          "lang": "en",
+          "text": "version of the audiobook was performed so well it felt like a live show.",
+          "start_sample": 10922,
+          "end_sample": 90269,
+          "start_ms": 683,
+          "end_ms": 5642
+        }
+      ]
+    },
+    "ja": {
+      "text": "That 朗読 version of the audiobook was performed so well it felt like a live show.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7693,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That",
+          "start_sample": 0,
+          "end_sample": 4487,
+          "start_ms": 0,
+          "end_ms": 280
+        },
+        {
+          "lang": "ja",
+          "text": "朗読",
+          "start_sample": 4487,
+          "end_sample": 11859,
+          "start_ms": 280,
+          "end_ms": 741
+        },
+        {
+          "lang": "en",
+          "text": "version of the audiobook was performed so well it felt like a live show.",
+          "start_sample": 11859,
+          "end_sample": 123085,
+          "start_ms": 741,
+          "end_ms": 7693
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 276,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

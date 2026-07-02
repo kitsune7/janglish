@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9390.flac",
+  "sentence": "彼女の曲にはどこかraw、削ぎ落とされた美しさがある。",
+  "sample_rate": 16000,
+  "duration_ms": 4047,
+  "reference_speaker": "en/speaker_024_d461ea23a991.mp3",
+  "seed": 9432,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女の曲にはどこか",
+      "start_sample": 0,
+      "end_sample": 23997,
+      "start_ms": 0,
+      "end_ms": 1500
+    },
+    {
+      "lang": "en",
+      "text": "raw、",
+      "start_sample": 23997,
+      "end_sample": 30017,
+      "start_ms": 1500,
+      "end_ms": 1876
+    },
+    {
+      "lang": "ja",
+      "text": "削ぎ落とされた美しさがある。",
+      "start_sample": 30017,
+      "end_sample": 64750,
+      "start_ms": 1876,
+      "end_ms": 4047
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo no kyoku ni ha doko ka raw、 sogiotosa re ta utsukushi sa ga aru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7243,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の曲にはどこか",
+          "start_sample": 0,
+          "end_sample": 46550,
+          "start_ms": 0,
+          "end_ms": 2909
+        },
+        {
+          "lang": "en",
+          "text": "raw、",
+          "start_sample": 46550,
+          "end_sample": 52970,
+          "start_ms": 2909,
+          "end_ms": 3311
+        },
+        {
+          "lang": "ja",
+          "text": "削ぎ落とされた美しさがある。",
+          "start_sample": 52970,
+          "end_sample": 115891,
+          "start_ms": 3311,
+          "end_ms": 7243
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女の曲にはどこかraw、削ぎ落とされた美しさがある。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4166,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の曲にはどこか",
+          "start_sample": 0,
+          "end_sample": 24197,
+          "start_ms": 0,
+          "end_ms": 1512
+        },
+        {
+          "lang": "en",
+          "text": "raw、",
+          "start_sample": 24197,
+          "end_sample": 31729,
+          "start_ms": 1512,
+          "end_ms": 1983
+        },
+        {
+          "lang": "ja",
+          "text": "削ぎ落とされた美しさがある。",
+          "start_sample": 31729,
+          "end_sample": 66662,
+          "start_ms": 1983,
+          "end_ms": 4166
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

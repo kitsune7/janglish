@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6330.flac",
+  "sentence": "I couldn't believe how 混雑 the mall was for an ordinary Tuesday afternoon.",
+  "sample_rate": 16000,
+  "duration_ms": 5226,
+  "reference_speaker": "jp/speaker_073_b4ca3157591f.mp3",
+  "seed": 6372,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I couldn't believe how",
+      "start_sample": 0,
+      "end_sample": 16136,
+      "start_ms": 0,
+      "end_ms": 1008
+    },
+    {
+      "lang": "ja",
+      "text": "混雑",
+      "start_sample": 16136,
+      "end_sample": 28718,
+      "start_ms": 1008,
+      "end_ms": 1795
+    },
+    {
+      "lang": "en",
+      "text": "the mall was for an ordinary Tuesday afternoon.",
+      "start_sample": 28718,
+      "end_sample": 83618,
+      "start_ms": 1795,
+      "end_ms": 5226
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I couldn't believe how konzatsu the mall was for an ordinary Tuesday afternoon.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5065,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I couldn't believe how",
+          "start_sample": 0,
+          "end_sample": 16336,
+          "start_ms": 0,
+          "end_ms": 1021
+        },
+        {
+          "lang": "ja",
+          "text": "混雑",
+          "start_sample": 16336,
+          "end_sample": 25947,
+          "start_ms": 1021,
+          "end_ms": 1622
+        },
+        {
+          "lang": "en",
+          "text": "the mall was for an ordinary Tuesday afternoon.",
+          "start_sample": 25947,
+          "end_sample": 81047,
+          "start_ms": 1622,
+          "end_ms": 5065
+        }
+      ]
+    },
+    "ja": {
+      "text": "I couldn't believe how 混雑 the mall was for an ordinary Tuesday afternoon.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6230,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I couldn't believe how",
+          "start_sample": 0,
+          "end_sample": 24679,
+          "start_ms": 0,
+          "end_ms": 1542
+        },
+        {
+          "lang": "ja",
+          "text": "混雑",
+          "start_sample": 24679,
+          "end_sample": 37661,
+          "start_ms": 1542,
+          "end_ms": 2354
+        },
+        {
+          "lang": "en",
+          "text": "the mall was for an ordinary Tuesday afternoon.",
+          "start_sample": 37661,
+          "end_sample": 99682,
+          "start_ms": 2354,
+          "end_ms": 6230
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 262,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

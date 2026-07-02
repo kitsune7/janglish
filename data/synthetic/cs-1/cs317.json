@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs317.flac",
+  "sentence": "終点のterminalまで乗ってしまって、引き返すのに時間がかかった。",
+  "sample_rate": 16000,
+  "duration_ms": 5294,
+  "reference_speaker": "en/speaker_029_435fb74c25c3.mp3",
+  "seed": 359,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "終点の",
+      "start_sample": 0,
+      "end_sample": 11198,
+      "start_ms": 0,
+      "end_ms": 700
+    },
+    {
+      "lang": "en",
+      "text": "terminal",
+      "start_sample": 11198,
+      "end_sample": 32409,
+      "start_ms": 700,
+      "end_ms": 2026
+    },
+    {
+      "lang": "ja",
+      "text": "まで乗ってしまって、引き返すのに時間がかかった。",
+      "start_sample": 32409,
+      "end_sample": 84703,
+      "start_ms": 2026,
+      "end_ms": 5294
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shuuten no terminal ma de joutsu te shimatsu te hikikaesu no ni jikan ga kakatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10205,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "終点の",
+          "start_sample": 0,
+          "end_sample": 11525,
+          "start_ms": 0,
+          "end_ms": 720
+        },
+        {
+          "lang": "en",
+          "text": "terminal",
+          "start_sample": 11525,
+          "end_sample": 33136,
+          "start_ms": 720,
+          "end_ms": 2071
+        },
+        {
+          "lang": "ja",
+          "text": "まで乗ってしまって、引き返すのに時間がかかった。",
+          "start_sample": 33136,
+          "end_sample": 163282,
+          "start_ms": 2071,
+          "end_ms": 10205
+        }
+      ]
+    },
+    "ja": {
+      "text": "終点のterminalまで乗ってしまって、引き返すのに時間がかかった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4555,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "終点の",
+          "start_sample": 0,
+          "end_sample": 11398,
+          "start_ms": 0,
+          "end_ms": 712
+        },
+        {
+          "lang": "en",
+          "text": "terminal",
+          "start_sample": 11398,
+          "end_sample": 20388,
+          "start_ms": 712,
+          "end_ms": 1274
+        },
+        {
+          "lang": "ja",
+          "text": "まで乗ってしまって、引き返すのに時間がかかった。",
+          "start_sample": 20388,
+          "end_sample": 72882,
+          "start_ms": 1274,
+          "end_ms": 4555
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 265,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

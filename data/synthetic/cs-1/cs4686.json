@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4686.flac",
+  "sentence": "I missed the bus because the 信号 stayed red for so long.",
+  "sample_rate": 16000,
+  "duration_ms": 3031,
+  "reference_speaker": "jp/speaker_059_4c496a210b8b.mp3",
+  "seed": 4728,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I missed the bus because the",
+      "start_sample": 0,
+      "end_sample": 21390,
+      "start_ms": 0,
+      "end_ms": 1337
+    },
+    {
+      "lang": "ja",
+      "text": "信号",
+      "start_sample": 21390,
+      "end_sample": 28232,
+      "start_ms": 1337,
+      "end_ms": 1764
+    },
+    {
+      "lang": "en",
+      "text": "stayed red for so long.",
+      "start_sample": 28232,
+      "end_sample": 48489,
+      "start_ms": 1764,
+      "end_ms": 3031
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I missed the bus because the shingou stayed red for so long.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3081,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I missed the bus because the",
+          "start_sample": 0,
+          "end_sample": 21590,
+          "start_ms": 0,
+          "end_ms": 1349
+        },
+        {
+          "lang": "ja",
+          "text": "信号",
+          "start_sample": 21590,
+          "end_sample": 28841,
+          "start_ms": 1349,
+          "end_ms": 1803
+        },
+        {
+          "lang": "en",
+          "text": "stayed red for so long.",
+          "start_sample": 28841,
+          "end_sample": 49298,
+          "start_ms": 1803,
+          "end_ms": 3081
+        }
+      ]
+    },
+    "ja": {
+      "text": "I missed the bus because the 信号 stayed red for so long.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4083,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I missed the bus because the",
+          "start_sample": 0,
+          "end_sample": 33469,
+          "start_ms": 0,
+          "end_ms": 2092
+        },
+        {
+          "lang": "ja",
+          "text": "信号",
+          "start_sample": 33469,
+          "end_sample": 40711,
+          "start_ms": 2092,
+          "end_ms": 2544
+        },
+        {
+          "lang": "en",
+          "text": "stayed red for so long.",
+          "start_sample": 40711,
+          "end_sample": 65325,
+          "start_ms": 2544,
+          "end_ms": 4083
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 152,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

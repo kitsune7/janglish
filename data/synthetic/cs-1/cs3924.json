@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3924.flac",
+  "sentence": "Their shared 価値観 is probably the reason they work so well.",
+  "sample_rate": 16000,
+  "duration_ms": 3492,
+  "reference_speaker": "jp/speaker_086_b5416e90d3b7.mp3",
+  "seed": 3966,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Their shared",
+      "start_sample": 0,
+      "end_sample": 8784,
+      "start_ms": 0,
+      "end_ms": 549
+    },
+    {
+      "lang": "ja",
+      "text": "価値観",
+      "start_sample": 8784,
+      "end_sample": 16441,
+      "start_ms": 549,
+      "end_ms": 1028
+    },
+    {
+      "lang": "en",
+      "text": "is probably the reason they work so well.",
+      "start_sample": 16441,
+      "end_sample": 55868,
+      "start_ms": 1028,
+      "end_ms": 3492
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Their shared kachi kan is probably the reason they work so well.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3750,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their shared",
+          "start_sample": 0,
+          "end_sample": 8984,
+          "start_ms": 0,
+          "end_ms": 562
+        },
+        {
+          "lang": "ja",
+          "text": "価値観",
+          "start_sample": 8984,
+          "end_sample": 20376,
+          "start_ms": 562,
+          "end_ms": 1274
+        },
+        {
+          "lang": "en",
+          "text": "is probably the reason they work so well.",
+          "start_sample": 20376,
+          "end_sample": 60003,
+          "start_ms": 1274,
+          "end_ms": 3750
+        }
+      ]
+    },
+    "ja": {
+      "text": "Their shared 価値観 is probably the reason they work so well.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3202,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their shared",
+          "start_sample": 0,
+          "end_sample": 7894,
+          "start_ms": 0,
+          "end_ms": 493
+        },
+        {
+          "lang": "ja",
+          "text": "価値観",
+          "start_sample": 7894,
+          "end_sample": 15951,
+          "start_ms": 493,
+          "end_ms": 997
+        },
+        {
+          "lang": "en",
+          "text": "is probably the reason they work so well.",
+          "start_sample": 15951,
+          "end_sample": 51231,
+          "start_ms": 997,
+          "end_ms": 3202
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

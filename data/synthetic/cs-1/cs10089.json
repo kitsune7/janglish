@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10089.flac",
+  "sentence": "I completely blanked on the 公式 I had memorized the night before.",
+  "sample_rate": 16000,
+  "duration_ms": 3757,
+  "reference_speaker": "jp/speaker_060_dda9a032fd63.mp3",
+  "seed": 10131,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I completely blanked on the",
+      "start_sample": 0,
+      "end_sample": 22396,
+      "start_ms": 0,
+      "end_ms": 1400
+    },
+    {
+      "lang": "ja",
+      "text": "公式",
+      "start_sample": 22396,
+      "end_sample": 32910,
+      "start_ms": 1400,
+      "end_ms": 2057
+    },
+    {
+      "lang": "en",
+      "text": "I had memorized the night before.",
+      "start_sample": 32910,
+      "end_sample": 60115,
+      "start_ms": 2057,
+      "end_ms": 3757
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I completely blanked on the koushiki I had memorized the night before.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3706,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I completely blanked on the",
+          "start_sample": 0,
+          "end_sample": 22596,
+          "start_ms": 0,
+          "end_ms": 1412
+        },
+        {
+          "lang": "ja",
+          "text": "公式",
+          "start_sample": 22596,
+          "end_sample": 31892,
+          "start_ms": 1412,
+          "end_ms": 1993
+        },
+        {
+          "lang": "en",
+          "text": "I had memorized the night before.",
+          "start_sample": 31892,
+          "end_sample": 59297,
+          "start_ms": 1993,
+          "end_ms": 3706
+        }
+      ]
+    },
+    "ja": {
+      "text": "I completely blanked on the 公式 I had memorized the night before.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4935,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I completely blanked on the",
+          "start_sample": 0,
+          "end_sample": 23755,
+          "start_ms": 0,
+          "end_ms": 1485
+        },
+        {
+          "lang": "ja",
+          "text": "公式",
+          "start_sample": 23755,
+          "end_sample": 34669,
+          "start_ms": 1485,
+          "end_ms": 2167
+        },
+        {
+          "lang": "en",
+          "text": "I had memorized the night before.",
+          "start_sample": 34669,
+          "end_sample": 78966,
+          "start_ms": 2167,
+          "end_ms": 4935
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

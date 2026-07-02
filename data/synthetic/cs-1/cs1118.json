@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1118.flac",
+  "sentence": "She was so 敏感 to the medication that they had to halve the dose.",
+  "sample_rate": 16000,
+  "duration_ms": 4463,
+  "reference_speaker": "jp/speaker_043_1ef414c9abc5.mp3",
+  "seed": 1160,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She was so",
+      "start_sample": 0,
+      "end_sample": 9747,
+      "start_ms": 0,
+      "end_ms": 609
+    },
+    {
+      "lang": "ja",
+      "text": "敏感",
+      "start_sample": 9747,
+      "end_sample": 16882,
+      "start_ms": 609,
+      "end_ms": 1055
+    },
+    {
+      "lang": "en",
+      "text": "to the medication that they had to halve the dose.",
+      "start_sample": 16882,
+      "end_sample": 71404,
+      "start_ms": 1055,
+      "end_ms": 4463
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She was so binkan to the medication that they had to halve the dose.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4553,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She was so",
+          "start_sample": 0,
+          "end_sample": 9947,
+          "start_ms": 0,
+          "end_ms": 622
+        },
+        {
+          "lang": "ja",
+          "text": "敏感",
+          "start_sample": 9947,
+          "end_sample": 18131,
+          "start_ms": 622,
+          "end_ms": 1133
+        },
+        {
+          "lang": "en",
+          "text": "to the medication that they had to halve the dose.",
+          "start_sample": 18131,
+          "end_sample": 72853,
+          "start_ms": 1133,
+          "end_ms": 4553
+        }
+      ]
+    },
+    "ja": {
+      "text": "She was so 敏感 to the medication that they had to halve the dose.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3527,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She was so",
+          "start_sample": 0,
+          "end_sample": 8977,
+          "start_ms": 0,
+          "end_ms": 561
+        },
+        {
+          "lang": "ja",
+          "text": "敏感",
+          "start_sample": 8977,
+          "end_sample": 16512,
+          "start_ms": 561,
+          "end_ms": 1032
+        },
+        {
+          "lang": "en",
+          "text": "to the medication that they had to halve the dose.",
+          "start_sample": 16512,
+          "end_sample": 56433,
+          "start_ms": 1032,
+          "end_ms": 3527
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 224,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

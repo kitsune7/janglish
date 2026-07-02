@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs957.flac",
+  "sentence": "dessertのメニューをもう一度見せていただけますか？",
+  "sample_rate": 16000,
+  "duration_ms": 3466,
+  "reference_speaker": "en/speaker_025_5a5c462b583a.mp3",
+  "seed": 999,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "dessert",
+      "start_sample": 0,
+      "end_sample": 6702,
+      "start_ms": 0,
+      "end_ms": 419
+    },
+    {
+      "lang": "ja",
+      "text": "のメニューをもう一度見せていただけますか？",
+      "start_sample": 6702,
+      "end_sample": 55461,
+      "start_ms": 419,
+      "end_ms": 3466
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "dessert no menyuu wo mou ichi do mise te itadake masu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5558,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "dessert",
+          "start_sample": 0,
+          "end_sample": 6902,
+          "start_ms": 0,
+          "end_ms": 431
+        },
+        {
+          "lang": "ja",
+          "text": "のメニューをもう一度見せていただけますか？",
+          "start_sample": 6902,
+          "end_sample": 88929,
+          "start_ms": 431,
+          "end_ms": 5558
+        }
+      ]
+    },
+    "ja": {
+      "text": "dessertのメニューをもう一度見せていただけますか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3591,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "dessert",
+          "start_sample": 0,
+          "end_sample": 8504,
+          "start_ms": 0,
+          "end_ms": 532
+        },
+        {
+          "lang": "ja",
+          "text": "のメニューをもう一度見せていただけますか？",
+          "start_sample": 8504,
+          "end_sample": 57463,
+          "start_ms": 532,
+          "end_ms": 3591
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 174,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

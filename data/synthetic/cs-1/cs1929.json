@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1929.flac",
+  "sentence": "このinsuranceをかけておけば安心ですよ。",
+  "sample_rate": 16000,
+  "duration_ms": 3428,
+  "reference_speaker": "en/speaker_067_3f15e2fece31.mp3",
+  "seed": 1971,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3329,
+      "start_ms": 0,
+      "end_ms": 208
+    },
+    {
+      "lang": "en",
+      "text": "insurance",
+      "start_sample": 3329,
+      "end_sample": 30825,
+      "start_ms": 208,
+      "end_ms": 1927
+    },
+    {
+      "lang": "ja",
+      "text": "をかけておけば安心ですよ。",
+      "start_sample": 30825,
+      "end_sample": 54848,
+      "start_ms": 1927,
+      "end_ms": 3428
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono insurance wo kake te oke ba anshin desu yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5150,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 6893,
+          "start_ms": 0,
+          "end_ms": 431
+        },
+        {
+          "lang": "en",
+          "text": "insurance",
+          "start_sample": 6893,
+          "end_sample": 34789,
+          "start_ms": 431,
+          "end_ms": 2174
+        },
+        {
+          "lang": "ja",
+          "text": "をかけておけば安心ですよ。",
+          "start_sample": 34789,
+          "end_sample": 82404,
+          "start_ms": 2174,
+          "end_ms": 5150
+        }
+      ]
+    },
+    "ja": {
+      "text": "このinsuranceをかけておけば安心ですよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2286,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3529,
+          "start_ms": 0,
+          "end_ms": 221
+        },
+        {
+          "lang": "en",
+          "text": "insurance",
+          "start_sample": 3529,
+          "end_sample": 12352,
+          "start_ms": 221,
+          "end_ms": 772
+        },
+        {
+          "lang": "ja",
+          "text": "をかけておけば安心ですよ。",
+          "start_sample": 12352,
+          "end_sample": 36575,
+          "start_ms": 772,
+          "end_ms": 2286
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 172,
+  "frame_labels": "jjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

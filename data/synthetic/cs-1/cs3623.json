@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3623.flac",
+  "sentence": "もう少しwater intakeを増やした方がいいですよ。",
+  "sample_rate": 16000,
+  "duration_ms": 3230,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 3665,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "もう少し",
+      "start_sample": 0,
+      "end_sample": 8473,
+      "start_ms": 0,
+      "end_ms": 530
+    },
+    {
+      "lang": "en",
+      "text": "water intake",
+      "start_sample": 8473,
+      "end_sample": 31798,
+      "start_ms": 530,
+      "end_ms": 1987
+    },
+    {
+      "lang": "ja",
+      "text": "を増やした方がいいですよ。",
+      "start_sample": 31798,
+      "end_sample": 51673,
+      "start_ms": 1987,
+      "end_ms": 3230
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mou sukoshi water intake wo fuyashi ta hou ga ii desu yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5430,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "もう少し",
+          "start_sample": 0,
+          "end_sample": 19557,
+          "start_ms": 0,
+          "end_ms": 1222
+        },
+        {
+          "lang": "en",
+          "text": "water intake",
+          "start_sample": 19557,
+          "end_sample": 43282,
+          "start_ms": 1222,
+          "end_ms": 2705
+        },
+        {
+          "lang": "ja",
+          "text": "を増やした方がいいですよ。",
+          "start_sample": 43282,
+          "end_sample": 86883,
+          "start_ms": 2705,
+          "end_ms": 5430
+        }
+      ]
+    },
+    "ja": {
+      "text": "もう少しwater intakeを増やした方がいいですよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2590,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "もう少し",
+          "start_sample": 0,
+          "end_sample": 8673,
+          "start_ms": 0,
+          "end_ms": 542
+        },
+        {
+          "lang": "en",
+          "text": "water intake",
+          "start_sample": 8673,
+          "end_sample": 21363,
+          "start_ms": 542,
+          "end_ms": 1335
+        },
+        {
+          "lang": "ja",
+          "text": "を増やした方がいいですよ。",
+          "start_sample": 21363,
+          "end_sample": 41438,
+          "start_ms": 1335,
+          "end_ms": 2590
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 162,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

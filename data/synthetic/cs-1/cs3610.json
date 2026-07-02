@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3610.flac",
+  "sentence": "冬のfestivalで熱々のスープを飲んで体が温まりました。",
+  "sample_rate": 16000,
+  "duration_ms": 4763,
+  "reference_speaker": "jp/speaker_047_6ac706d7456d.mp3",
+  "seed": 3652,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "冬の",
+      "start_sample": 0,
+      "end_sample": 5097,
+      "start_ms": 0,
+      "end_ms": 319
+    },
+    {
+      "lang": "en",
+      "text": "festival",
+      "start_sample": 5097,
+      "end_sample": 25526,
+      "start_ms": 319,
+      "end_ms": 1595
+    },
+    {
+      "lang": "ja",
+      "text": "で熱々のスープを飲んで体が温まりました。",
+      "start_sample": 25526,
+      "end_sample": 76211,
+      "start_ms": 1595,
+      "end_ms": 4763
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "fuyu no festival de atsuatsu no suupu wo non de karada ga atatamari mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10474,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冬の",
+          "start_sample": 0,
+          "end_sample": 29480,
+          "start_ms": 0,
+          "end_ms": 1842
+        },
+        {
+          "lang": "en",
+          "text": "festival",
+          "start_sample": 29480,
+          "end_sample": 50309,
+          "start_ms": 1842,
+          "end_ms": 3144
+        },
+        {
+          "lang": "ja",
+          "text": "で熱々のスープを飲んで体が温まりました。",
+          "start_sample": 50309,
+          "end_sample": 167590,
+          "start_ms": 3144,
+          "end_ms": 10474
+        }
+      ]
+    },
+    "ja": {
+      "text": "冬のfestivalで熱々のスープを飲んで体が温まりました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4113,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冬の",
+          "start_sample": 0,
+          "end_sample": 5297,
+          "start_ms": 0,
+          "end_ms": 331
+        },
+        {
+          "lang": "en",
+          "text": "festival",
+          "start_sample": 5297,
+          "end_sample": 14929,
+          "start_ms": 331,
+          "end_ms": 933
+        },
+        {
+          "lang": "ja",
+          "text": "で熱々のスープを飲んで体が温まりました。",
+          "start_sample": 14929,
+          "end_sample": 65814,
+          "start_ms": 933,
+          "end_ms": 4113
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 239,
+  "frame_labels": "jjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

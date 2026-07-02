@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5603.flac",
+  "sentence": "We decided to upgrade to a 広い suite for our anniversary night.",
+  "sample_rate": 16000,
+  "duration_ms": 4436,
+  "reference_speaker": "en/speaker_020_5f047713c8bd.mp3",
+  "seed": 5645,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We decided to upgrade to a",
+      "start_sample": 0,
+      "end_sample": 29676,
+      "start_ms": 0,
+      "end_ms": 1855
+    },
+    {
+      "lang": "ja",
+      "text": "広い",
+      "start_sample": 29676,
+      "end_sample": 35207,
+      "start_ms": 1855,
+      "end_ms": 2200
+    },
+    {
+      "lang": "en",
+      "text": "suite for our anniversary night.",
+      "start_sample": 35207,
+      "end_sample": 70984,
+      "start_ms": 2200,
+      "end_ms": 4436
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We decided to upgrade to a hiroi suite for our anniversary night.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4578,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We decided to upgrade to a",
+          "start_sample": 0,
+          "end_sample": 29876,
+          "start_ms": 0,
+          "end_ms": 1867
+        },
+        {
+          "lang": "ja",
+          "text": "広い",
+          "start_sample": 29876,
+          "end_sample": 37265,
+          "start_ms": 1867,
+          "end_ms": 2329
+        },
+        {
+          "lang": "en",
+          "text": "suite for our anniversary night.",
+          "start_sample": 37265,
+          "end_sample": 73242,
+          "start_ms": 2329,
+          "end_ms": 4578
+        }
+      ]
+    },
+    "ja": {
+      "text": "We decided to upgrade to a 広い suite for our anniversary night.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4088,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We decided to upgrade to a",
+          "start_sample": 0,
+          "end_sample": 27413,
+          "start_ms": 0,
+          "end_ms": 1713
+        },
+        {
+          "lang": "ja",
+          "text": "広い",
+          "start_sample": 27413,
+          "end_sample": 33344,
+          "start_ms": 1713,
+          "end_ms": 2084
+        },
+        {
+          "lang": "en",
+          "text": "suite for our anniversary night.",
+          "start_sample": 33344,
+          "end_sample": 65404,
+          "start_ms": 2084,
+          "end_ms": 4088
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 222,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

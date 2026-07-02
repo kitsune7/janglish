@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11437.flac",
+  "sentence": "This hallway feels so 狭い — we can barely pass each other.",
+  "sample_rate": 16000,
+  "duration_ms": 3064,
+  "reference_speaker": "en/speaker_095_862d569c1af2.mp3",
+  "seed": 11479,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This hallway feels so",
+      "start_sample": 0,
+      "end_sample": 17325,
+      "start_ms": 0,
+      "end_ms": 1083
+    },
+    {
+      "lang": "ja",
+      "text": "狭い —",
+      "start_sample": 17325,
+      "end_sample": 23982,
+      "start_ms": 1083,
+      "end_ms": 1499
+    },
+    {
+      "lang": "en",
+      "text": "we can barely pass each other.",
+      "start_sample": 23982,
+      "end_sample": 49020,
+      "start_ms": 1499,
+      "end_ms": 3064
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This hallway feels so semai we can barely pass each other.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3195,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This hallway feels so",
+          "start_sample": 0,
+          "end_sample": 17525,
+          "start_ms": 0,
+          "end_ms": 1095
+        },
+        {
+          "lang": "ja",
+          "text": "狭い —",
+          "start_sample": 17525,
+          "end_sample": 25885,
+          "start_ms": 1095,
+          "end_ms": 1618
+        },
+        {
+          "lang": "en",
+          "text": "we can barely pass each other.",
+          "start_sample": 25885,
+          "end_sample": 51123,
+          "start_ms": 1618,
+          "end_ms": 3195
+        }
+      ]
+    },
+    "ja": {
+      "text": "This hallway feels so 狭い — we can barely pass each other.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3308,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This hallway feels so",
+          "start_sample": 0,
+          "end_sample": 19885,
+          "start_ms": 0,
+          "end_ms": 1243
+        },
+        {
+          "lang": "ja",
+          "text": "狭い —",
+          "start_sample": 19885,
+          "end_sample": 26942,
+          "start_ms": 1243,
+          "end_ms": 1684
+        },
+        {
+          "lang": "en",
+          "text": "we can barely pass each other.",
+          "start_sample": 26942,
+          "end_sample": 52921,
+          "start_ms": 1684,
+          "end_ms": 3308
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 154,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

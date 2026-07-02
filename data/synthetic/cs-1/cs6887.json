@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6887.flac",
+  "sentence": "She marked every 交差点 on the paper map before leaving.",
+  "sample_rate": 16000,
+  "duration_ms": 3946,
+  "reference_speaker": "jp/speaker_091_bf2621e97933.mp3",
+  "seed": 6929,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She marked every",
+      "start_sample": 0,
+      "end_sample": 13576,
+      "start_ms": 0,
+      "end_ms": 848
+    },
+    {
+      "lang": "ja",
+      "text": "交差点",
+      "start_sample": 13576,
+      "end_sample": 27451,
+      "start_ms": 848,
+      "end_ms": 1716
+    },
+    {
+      "lang": "en",
+      "text": "on the paper map before leaving.",
+      "start_sample": 27451,
+      "end_sample": 63133,
+      "start_ms": 1716,
+      "end_ms": 3946
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She marked every kousa ten on the paper map before leaving.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4185,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She marked every",
+          "start_sample": 0,
+          "end_sample": 13776,
+          "start_ms": 0,
+          "end_ms": 861
+        },
+        {
+          "lang": "ja",
+          "text": "交差点",
+          "start_sample": 13776,
+          "end_sample": 31077,
+          "start_ms": 861,
+          "end_ms": 1942
+        },
+        {
+          "lang": "en",
+          "text": "on the paper map before leaving.",
+          "start_sample": 31077,
+          "end_sample": 66959,
+          "start_ms": 1942,
+          "end_ms": 4185
+        }
+      ]
+    },
+    "ja": {
+      "text": "She marked every 交差点 on the paper map before leaving.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5173,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She marked every",
+          "start_sample": 0,
+          "end_sample": 23416,
+          "start_ms": 0,
+          "end_ms": 1464
+        },
+        {
+          "lang": "ja",
+          "text": "交差点",
+          "start_sample": 23416,
+          "end_sample": 37691,
+          "start_ms": 1464,
+          "end_ms": 2356
+        },
+        {
+          "lang": "en",
+          "text": "on the paper map before leaving.",
+          "start_sample": 37691,
+          "end_sample": 82761,
+          "start_ms": 2356,
+          "end_ms": 5173
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 198,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

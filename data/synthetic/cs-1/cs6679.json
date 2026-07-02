@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs6679.flac",
+  "sentence": "I asked for the dressing on the side because I prefer things 薄味.",
+  "sample_rate": 16000,
+  "duration_ms": 3935,
+  "reference_speaker": "jp/speaker_038_fa40784c77e2.mp3",
+  "seed": 6721,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I asked for the dressing on the side because I prefer things",
+      "start_sample": 0,
+      "end_sample": 50648,
+      "start_ms": 0,
+      "end_ms": 3166
+    },
+    {
+      "lang": "ja",
+      "text": "薄味.",
+      "start_sample": 50648,
+      "end_sample": 62955,
+      "start_ms": 3166,
+      "end_ms": 3935
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I asked for the dressing on the side because I prefer things usuaji",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3890,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I asked for the dressing on the side because I prefer things",
+          "start_sample": 0,
+          "end_sample": 50848,
+          "start_ms": 0,
+          "end_ms": 3178
+        },
+        {
+          "lang": "ja",
+          "text": "薄味.",
+          "start_sample": 50848,
+          "end_sample": 62234,
+          "start_ms": 3178,
+          "end_ms": 3890
+        }
+      ]
+    },
+    "ja": {
+      "text": "I asked for the dressing on the side because I prefer things 薄味.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5492,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I asked for the dressing on the side because I prefer things",
+          "start_sample": 0,
+          "end_sample": 75373,
+          "start_ms": 0,
+          "end_ms": 4711
+        },
+        {
+          "lang": "ja",
+          "text": "薄味.",
+          "start_sample": 75373,
+          "end_sample": 87880,
+          "start_ms": 4711,
+          "end_ms": 5492
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 197,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6789.flac",
+  "sentence": "He came across as 謙虚 while still making a strong case for himself.",
+  "sample_rate": 16000,
+  "duration_ms": 3647,
+  "reference_speaker": "jp/speaker_091_bf2621e97933.mp3",
+  "seed": 6831,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He came across as",
+      "start_sample": 0,
+      "end_sample": 14069,
+      "start_ms": 0,
+      "end_ms": 879
+    },
+    {
+      "lang": "ja",
+      "text": "謙虚",
+      "start_sample": 14069,
+      "end_sample": 21042,
+      "start_ms": 879,
+      "end_ms": 1315
+    },
+    {
+      "lang": "en",
+      "text": "while still making a strong case for himself.",
+      "start_sample": 21042,
+      "end_sample": 58359,
+      "start_ms": 1315,
+      "end_ms": 3647
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He came across as kenkyo while still making a strong case for himself.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3708,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He came across as",
+          "start_sample": 0,
+          "end_sample": 14269,
+          "start_ms": 0,
+          "end_ms": 892
+        },
+        {
+          "lang": "ja",
+          "text": "謙虚",
+          "start_sample": 14269,
+          "end_sample": 21805,
+          "start_ms": 892,
+          "end_ms": 1363
+        },
+        {
+          "lang": "en",
+          "text": "while still making a strong case for himself.",
+          "start_sample": 21805,
+          "end_sample": 59322,
+          "start_ms": 1363,
+          "end_ms": 3708
+        }
+      ]
+    },
+    "ja": {
+      "text": "He came across as 謙虚 while still making a strong case for himself.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5349,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He came across as",
+          "start_sample": 0,
+          "end_sample": 20354,
+          "start_ms": 0,
+          "end_ms": 1272
+        },
+        {
+          "lang": "ja",
+          "text": "謙虚",
+          "start_sample": 20354,
+          "end_sample": 27727,
+          "start_ms": 1272,
+          "end_ms": 1733
+        },
+        {
+          "lang": "en",
+          "text": "while still making a strong case for himself.",
+          "start_sample": 27727,
+          "end_sample": 85585,
+          "start_ms": 1733,
+          "end_ms": 5349
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 183,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

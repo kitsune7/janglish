@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8024.flac",
+  "sentence": "The 姪っ子 has already started reading chapter books at age four.",
+  "sample_rate": 16000,
+  "duration_ms": 4408,
+  "reference_speaker": "en/speaker_021_0c003e301f78.mp3",
+  "seed": 8066,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 761,
+      "start_ms": 0,
+      "end_ms": 48
+    },
+    {
+      "lang": "ja",
+      "text": "姪っ子",
+      "start_sample": 761,
+      "end_sample": 13025,
+      "start_ms": 48,
+      "end_ms": 814
+    },
+    {
+      "lang": "en",
+      "text": "has already started reading chapter books at age four.",
+      "start_sample": 13025,
+      "end_sample": 70527,
+      "start_ms": 814,
+      "end_ms": 4408
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The meitsuko has already started reading chapter books at age four.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4308,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 961,
+          "start_ms": 0,
+          "end_ms": 60
+        },
+        {
+          "lang": "ja",
+          "text": "姪っ子",
+          "start_sample": 961,
+          "end_sample": 11220,
+          "start_ms": 60,
+          "end_ms": 701
+        },
+        {
+          "lang": "en",
+          "text": "has already started reading chapter books at age four.",
+          "start_sample": 11220,
+          "end_sample": 68922,
+          "start_ms": 701,
+          "end_ms": 4308
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 姪っ子 has already started reading chapter books at age four.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5550,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6250,
+          "start_ms": 0,
+          "end_ms": 391
+        },
+        {
+          "lang": "ja",
+          "text": "姪っ子",
+          "start_sample": 6250,
+          "end_sample": 18914,
+          "start_ms": 391,
+          "end_ms": 1182
+        },
+        {
+          "lang": "en",
+          "text": "has already started reading chapter books at age four.",
+          "start_sample": 18914,
+          "end_sample": 88805,
+          "start_ms": 1182,
+          "end_ms": 5550
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 221,
+  "frame_labels": "eejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1372.flac",
+  "sentence": "駅までのshortcutを知っていますか？",
+  "sample_rate": 16000,
+  "duration_ms": 2381,
+  "reference_speaker": "en/speaker_046_c5e6fd979dbd.mp3",
+  "seed": 1414,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "駅までの",
+      "start_sample": 0,
+      "end_sample": 8655,
+      "start_ms": 0,
+      "end_ms": 541
+    },
+    {
+      "lang": "en",
+      "text": "shortcut",
+      "start_sample": 8655,
+      "end_sample": 24127,
+      "start_ms": 541,
+      "end_ms": 1508
+    },
+    {
+      "lang": "ja",
+      "text": "を知っていますか？",
+      "start_sample": 24127,
+      "end_sample": 38089,
+      "start_ms": 1508,
+      "end_ms": 2381
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "eki made no shortcut wo shitsu te i masu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5070,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "駅までの",
+          "start_sample": 0,
+          "end_sample": 15550,
+          "start_ms": 0,
+          "end_ms": 972
+        },
+        {
+          "lang": "en",
+          "text": "shortcut",
+          "start_sample": 15550,
+          "end_sample": 31422,
+          "start_ms": 972,
+          "end_ms": 1964
+        },
+        {
+          "lang": "ja",
+          "text": "を知っていますか？",
+          "start_sample": 31422,
+          "end_sample": 81120,
+          "start_ms": 1964,
+          "end_ms": 5070
+        }
+      ]
+    },
+    "ja": {
+      "text": "駅までのshortcutを知っていますか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 1912,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "駅までの",
+          "start_sample": 0,
+          "end_sample": 8855,
+          "start_ms": 0,
+          "end_ms": 553
+        },
+        {
+          "lang": "en",
+          "text": "shortcut",
+          "start_sample": 8855,
+          "end_sample": 16422,
+          "start_ms": 553,
+          "end_ms": 1026
+        },
+        {
+          "lang": "ja",
+          "text": "を知っていますか？",
+          "start_sample": 16422,
+          "end_sample": 30584,
+          "start_ms": 1026,
+          "end_ms": 1912
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 120,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

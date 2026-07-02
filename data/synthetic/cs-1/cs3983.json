@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3983.flac",
+  "sentence": "Their whole relationship has this gentle, 穏やか quality that I really admire.",
+  "sample_rate": 16000,
+  "duration_ms": 4668,
+  "reference_speaker": "en/speaker_041_b54335ce95b5.mp3",
+  "seed": 4025,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Their whole relationship has this gentle,",
+      "start_sample": 0,
+      "end_sample": 32338,
+      "start_ms": 0,
+      "end_ms": 2021
+    },
+    {
+      "lang": "ja",
+      "text": "穏やか",
+      "start_sample": 32338,
+      "end_sample": 47006,
+      "start_ms": 2021,
+      "end_ms": 2938
+    },
+    {
+      "lang": "en",
+      "text": "quality that I really admire.",
+      "start_sample": 47006,
+      "end_sample": 74694,
+      "start_ms": 2938,
+      "end_ms": 4668
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Their whole relationship has this gentle, odayaka quality that I really admire.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4328,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their whole relationship has this gentle,",
+          "start_sample": 0,
+          "end_sample": 32538,
+          "start_ms": 0,
+          "end_ms": 2034
+        },
+        {
+          "lang": "ja",
+          "text": "穏やか",
+          "start_sample": 32538,
+          "end_sample": 41354,
+          "start_ms": 2034,
+          "end_ms": 2585
+        },
+        {
+          "lang": "en",
+          "text": "quality that I really admire.",
+          "start_sample": 41354,
+          "end_sample": 69242,
+          "start_ms": 2585,
+          "end_ms": 4328
+        }
+      ]
+    },
+    "ja": {
+      "text": "Their whole relationship has this gentle, 穏やか quality that I really admire.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6171,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their whole relationship has this gentle,",
+          "start_sample": 0,
+          "end_sample": 45519,
+          "start_ms": 0,
+          "end_ms": 2845
+        },
+        {
+          "lang": "ja",
+          "text": "穏やか",
+          "start_sample": 45519,
+          "end_sample": 60587,
+          "start_ms": 2845,
+          "end_ms": 3787
+        },
+        {
+          "lang": "en",
+          "text": "quality that I really admire.",
+          "start_sample": 60587,
+          "end_sample": 98734,
+          "start_ms": 3787,
+          "end_ms": 6171
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 234,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

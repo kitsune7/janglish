@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1362.flac",
+  "sentence": "The exhibition text was so 簡潔 it barely hinted at the work's deeper 意味.",
+  "sample_rate": 16000,
+  "duration_ms": 5034,
+  "reference_speaker": "jp/speaker_063_0760e257c60c.mp3",
+  "seed": 18217,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The exhibition text was so",
+      "start_sample": 0,
+      "end_sample": 31285,
+      "start_ms": 0,
+      "end_ms": 1955
+    },
+    {
+      "lang": "ja",
+      "text": "簡潔",
+      "start_sample": 31285,
+      "end_sample": 38582,
+      "start_ms": 1955,
+      "end_ms": 2411
+    },
+    {
+      "lang": "en",
+      "text": "it barely hinted at the work's deeper",
+      "start_sample": 38582,
+      "end_sample": 76736,
+      "start_ms": 2411,
+      "end_ms": 4796
+    },
+    {
+      "lang": "ja",
+      "text": "意味.",
+      "start_sample": 76736,
+      "end_sample": 80543,
+      "start_ms": 4796,
+      "end_ms": 5034
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The exhibition text was so kanketsu it barely hinted at the work's deeper imi",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5602,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The exhibition text was so",
+          "start_sample": 0,
+          "end_sample": 31485,
+          "start_ms": 0,
+          "end_ms": 1968
+        },
+        {
+          "lang": "ja",
+          "text": "簡潔",
+          "start_sample": 31485,
+          "end_sample": 46426,
+          "start_ms": 1968,
+          "end_ms": 2902
+        },
+        {
+          "lang": "en",
+          "text": "it barely hinted at the work's deeper",
+          "start_sample": 46426,
+          "end_sample": 84980,
+          "start_ms": 2902,
+          "end_ms": 5311
+        },
+        {
+          "lang": "ja",
+          "text": "意味.",
+          "start_sample": 84980,
+          "end_sample": 89635,
+          "start_ms": 5311,
+          "end_ms": 5602
+        }
+      ]
+    },
+    "ja": {
+      "text": "The exhibition text was so 簡潔 it barely hinted at the work's deeper 意味.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4109,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The exhibition text was so",
+          "start_sample": 0,
+          "end_sample": 24531,
+          "start_ms": 0,
+          "end_ms": 1533
+        },
+        {
+          "lang": "ja",
+          "text": "簡潔",
+          "start_sample": 24531,
+          "end_sample": 32228,
+          "start_ms": 1533,
+          "end_ms": 2014
+        },
+        {
+          "lang": "en",
+          "text": "it barely hinted at the work's deeper",
+          "start_sample": 32228,
+          "end_sample": 61731,
+          "start_ms": 2014,
+          "end_ms": 3858
+        },
+        {
+          "lang": "ja",
+          "text": "意味.",
+          "start_sample": 61731,
+          "end_sample": 65738,
+          "start_ms": 3858,
+          "end_ms": 4109
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 252,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjj"
+}

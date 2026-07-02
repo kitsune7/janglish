@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6226.flac",
+  "sentence": "His apology felt completely 空虚 and I didn't believe a word of it.",
+  "sample_rate": 16000,
+  "duration_ms": 4212,
+  "reference_speaker": "jp/speaker_095_1daf6547c74f.mp3",
+  "seed": 6268,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His apology felt completely",
+      "start_sample": 0,
+      "end_sample": 22580,
+      "start_ms": 0,
+      "end_ms": 1411
+    },
+    {
+      "lang": "ja",
+      "text": "空虚",
+      "start_sample": 22580,
+      "end_sample": 29894,
+      "start_ms": 1411,
+      "end_ms": 1868
+    },
+    {
+      "lang": "en",
+      "text": "and I didn't believe a word of it.",
+      "start_sample": 29894,
+      "end_sample": 67391,
+      "start_ms": 1868,
+      "end_ms": 4212
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His apology felt completely kuukyo and I didn't believe a word of it.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4973,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His apology felt completely",
+          "start_sample": 0,
+          "end_sample": 22780,
+          "start_ms": 0,
+          "end_ms": 1424
+        },
+        {
+          "lang": "ja",
+          "text": "空虚",
+          "start_sample": 22780,
+          "end_sample": 41871,
+          "start_ms": 1424,
+          "end_ms": 2617
+        },
+        {
+          "lang": "en",
+          "text": "and I didn't believe a word of it.",
+          "start_sample": 41871,
+          "end_sample": 79568,
+          "start_ms": 2617,
+          "end_ms": 4973
+        }
+      ]
+    },
+    "ja": {
+      "text": "His apology felt completely 空虚 and I didn't believe a word of it.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4781,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His apology felt completely",
+          "start_sample": 0,
+          "end_sample": 35195,
+          "start_ms": 0,
+          "end_ms": 2200
+        },
+        {
+          "lang": "ja",
+          "text": "空虚",
+          "start_sample": 35195,
+          "end_sample": 42909,
+          "start_ms": 2200,
+          "end_ms": 2682
+        },
+        {
+          "lang": "en",
+          "text": "and I didn't believe a word of it.",
+          "start_sample": 42909,
+          "end_sample": 76493,
+          "start_ms": 2682,
+          "end_ms": 4781
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 211,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

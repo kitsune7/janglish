@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11377.flac",
+  "sentence": "My ping is terrible and it's making my 命中率 look awful.",
+  "sample_rate": 16000,
+  "duration_ms": 4368,
+  "reference_speaker": "en/speaker_060_be3496638824.mp3",
+  "seed": 11419,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My ping is terrible and it's making my",
+      "start_sample": 0,
+      "end_sample": 45616,
+      "start_ms": 0,
+      "end_ms": 2851
+    },
+    {
+      "lang": "ja",
+      "text": "命中率",
+      "start_sample": 45616,
+      "end_sample": 58679,
+      "start_ms": 2851,
+      "end_ms": 3667
+    },
+    {
+      "lang": "en",
+      "text": "look awful.",
+      "start_sample": 58679,
+      "end_sample": 69889,
+      "start_ms": 3667,
+      "end_ms": 4368
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My ping is terrible and it's making my meichuu ritsu look awful.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4380,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My ping is terrible and it's making my",
+          "start_sample": 0,
+          "end_sample": 45816,
+          "start_ms": 0,
+          "end_ms": 2864
+        },
+        {
+          "lang": "ja",
+          "text": "命中率",
+          "start_sample": 45816,
+          "end_sample": 58677,
+          "start_ms": 2864,
+          "end_ms": 3667
+        },
+        {
+          "lang": "en",
+          "text": "look awful.",
+          "start_sample": 58677,
+          "end_sample": 70087,
+          "start_ms": 3667,
+          "end_ms": 4380
+        }
+      ]
+    },
+    "ja": {
+      "text": "My ping is terrible and it's making my 命中率 look awful.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5309,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My ping is terrible and it's making my",
+          "start_sample": 0,
+          "end_sample": 49043,
+          "start_ms": 0,
+          "end_ms": 3065
+        },
+        {
+          "lang": "ja",
+          "text": "命中率",
+          "start_sample": 49043,
+          "end_sample": 62506,
+          "start_ms": 3065,
+          "end_ms": 3907
+        },
+        {
+          "lang": "en",
+          "text": "look awful.",
+          "start_sample": 62506,
+          "end_sample": 84944,
+          "start_ms": 3907,
+          "end_ms": 5309
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 219,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs504.flac",
+  "sentence": "He felt so 後悔 after leaving out his best project from the discussion.",
+  "sample_rate": 16000,
+  "duration_ms": 5456,
+  "reference_speaker": "en/speaker_004_1a0446d48b2f.mp3",
+  "seed": 546,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He felt so",
+      "start_sample": 0,
+      "end_sample": 12634,
+      "start_ms": 0,
+      "end_ms": 790
+    },
+    {
+      "lang": "ja",
+      "text": "後悔",
+      "start_sample": 12634,
+      "end_sample": 21233,
+      "start_ms": 790,
+      "end_ms": 1327
+    },
+    {
+      "lang": "en",
+      "text": "after leaving out his best project from the discussion.",
+      "start_sample": 21233,
+      "end_sample": 87290,
+      "start_ms": 1327,
+      "end_ms": 5456
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He felt so koukai after leaving out his best project from the discussion.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6878,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He felt so",
+          "start_sample": 0,
+          "end_sample": 12834,
+          "start_ms": 0,
+          "end_ms": 802
+        },
+        {
+          "lang": "ja",
+          "text": "後悔",
+          "start_sample": 12834,
+          "end_sample": 43798,
+          "start_ms": 802,
+          "end_ms": 2737
+        },
+        {
+          "lang": "en",
+          "text": "after leaving out his best project from the discussion.",
+          "start_sample": 43798,
+          "end_sample": 110055,
+          "start_ms": 2737,
+          "end_ms": 6878
+        }
+      ]
+    },
+    "ja": {
+      "text": "He felt so 後悔 after leaving out his best project from the discussion.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5603,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He felt so",
+          "start_sample": 0,
+          "end_sample": 13014,
+          "start_ms": 0,
+          "end_ms": 813
+        },
+        {
+          "lang": "ja",
+          "text": "後悔",
+          "start_sample": 13014,
+          "end_sample": 22013,
+          "start_ms": 813,
+          "end_ms": 1376
+        },
+        {
+          "lang": "en",
+          "text": "after leaving out his best project from the discussion.",
+          "start_sample": 22013,
+          "end_sample": 89655,
+          "start_ms": 1376,
+          "end_ms": 5603
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 273,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

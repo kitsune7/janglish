@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5694.flac",
+  "sentence": "I need to buy a 切手 before I can send this postcard.",
+  "sample_rate": 16000,
+  "duration_ms": 3412,
+  "reference_speaker": "en/speaker_037_fbb436f58f44.mp3",
+  "seed": 5736,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I need to buy a",
+      "start_sample": 0,
+      "end_sample": 12799,
+      "start_ms": 0,
+      "end_ms": 800
+    },
+    {
+      "lang": "ja",
+      "text": "切手",
+      "start_sample": 12799,
+      "end_sample": 21245,
+      "start_ms": 800,
+      "end_ms": 1328
+    },
+    {
+      "lang": "en",
+      "text": "before I can send this postcard.",
+      "start_sample": 21245,
+      "end_sample": 54593,
+      "start_ms": 1328,
+      "end_ms": 3412
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I need to buy a kitte before I can send this postcard.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3531,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need to buy a",
+          "start_sample": 0,
+          "end_sample": 12999,
+          "start_ms": 0,
+          "end_ms": 812
+        },
+        {
+          "lang": "ja",
+          "text": "切手",
+          "start_sample": 12999,
+          "end_sample": 22952,
+          "start_ms": 812,
+          "end_ms": 1434
+        },
+        {
+          "lang": "en",
+          "text": "before I can send this postcard.",
+          "start_sample": 22952,
+          "end_sample": 56500,
+          "start_ms": 1434,
+          "end_ms": 3531
+        }
+      ]
+    },
+    "ja": {
+      "text": "I need to buy a 切手 before I can send this postcard.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3659,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need to buy a",
+          "start_sample": 0,
+          "end_sample": 14796,
+          "start_ms": 0,
+          "end_ms": 925
+        },
+        {
+          "lang": "ja",
+          "text": "切手",
+          "start_sample": 14796,
+          "end_sample": 23642,
+          "start_ms": 925,
+          "end_ms": 1478
+        },
+        {
+          "lang": "en",
+          "text": "before I can send this postcard.",
+          "start_sample": 23642,
+          "end_sample": 58539,
+          "start_ms": 1478,
+          "end_ms": 3659
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 171,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

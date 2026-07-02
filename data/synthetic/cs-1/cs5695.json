@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5695.flac",
+  "sentence": "The 梱包 on this delivery was so tight it took scissors to open.",
+  "sample_rate": 16000,
+  "duration_ms": 3939,
+  "reference_speaker": "en/speaker_053_ceb29bce299d.mp3",
+  "seed": 5737,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1563,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "梱包",
+      "start_sample": 1563,
+      "end_sample": 11259,
+      "start_ms": 98,
+      "end_ms": 704
+    },
+    {
+      "lang": "en",
+      "text": "on this delivery was so tight it took scissors to open.",
+      "start_sample": 11259,
+      "end_sample": 63018,
+      "start_ms": 704,
+      "end_ms": 3939
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The konpou on this delivery was so tight it took scissors to open.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3829,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1763,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "梱包",
+          "start_sample": 1763,
+          "end_sample": 9301,
+          "start_ms": 110,
+          "end_ms": 581
+        },
+        {
+          "lang": "en",
+          "text": "on this delivery was so tight it took scissors to open.",
+          "start_sample": 9301,
+          "end_sample": 61260,
+          "start_ms": 581,
+          "end_ms": 3829
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 梱包 on this delivery was so tight it took scissors to open.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5589,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 9935,
+          "start_ms": 0,
+          "end_ms": 621
+        },
+        {
+          "lang": "ja",
+          "text": "梱包",
+          "start_sample": 9935,
+          "end_sample": 20031,
+          "start_ms": 621,
+          "end_ms": 1252
+        },
+        {
+          "lang": "en",
+          "text": "on this delivery was so tight it took scissors to open.",
+          "start_sample": 20031,
+          "end_sample": 89422,
+          "start_ms": 1252,
+          "end_ms": 5589
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 197,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

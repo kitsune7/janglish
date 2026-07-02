@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2320.flac",
+  "sentence": "このカメラのautofocusは暗い場所でも速い。",
+  "sample_rate": 16000,
+  "duration_ms": 3523,
+  "reference_speaker": "jp/speaker_073_b4ca3157591f.mp3",
+  "seed": 2362,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このカメラの",
+      "start_sample": 0,
+      "end_sample": 13782,
+      "start_ms": 0,
+      "end_ms": 861
+    },
+    {
+      "lang": "en",
+      "text": "autofocus",
+      "start_sample": 13782,
+      "end_sample": 29568,
+      "start_ms": 861,
+      "end_ms": 1848
+    },
+    {
+      "lang": "ja",
+      "text": "は暗い場所でも速い。",
+      "start_sample": 29568,
+      "end_sample": 56371,
+      "start_ms": 1848,
+      "end_ms": 3523
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono kamera no autofocus ha kurai basho de mo hayai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5649,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このカメラの",
+          "start_sample": 0,
+          "end_sample": 37500,
+          "start_ms": 0,
+          "end_ms": 2344
+        },
+        {
+          "lang": "en",
+          "text": "autofocus",
+          "start_sample": 37500,
+          "end_sample": 53686,
+          "start_ms": 2344,
+          "end_ms": 3355
+        },
+        {
+          "lang": "ja",
+          "text": "は暗い場所でも速い。",
+          "start_sample": 53686,
+          "end_sample": 90384,
+          "start_ms": 3355,
+          "end_ms": 5649
+        }
+      ]
+    },
+    "ja": {
+      "text": "このカメラのautofocusは暗い場所でも速い。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3315,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このカメラの",
+          "start_sample": 0,
+          "end_sample": 13982,
+          "start_ms": 0,
+          "end_ms": 874
+        },
+        {
+          "lang": "en",
+          "text": "autofocus",
+          "start_sample": 13982,
+          "end_sample": 26039,
+          "start_ms": 874,
+          "end_ms": 1627
+        },
+        {
+          "lang": "ja",
+          "text": "は暗い場所でも速い。",
+          "start_sample": 26039,
+          "end_sample": 53042,
+          "start_ms": 1627,
+          "end_ms": 3315
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

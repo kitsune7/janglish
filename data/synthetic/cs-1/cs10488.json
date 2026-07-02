@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10488.flac",
+  "sentence": "The 案内板 in the terminal was covered in advertisements and hard to read.",
+  "sample_rate": 16000,
+  "duration_ms": 4534,
+  "reference_speaker": "jp/speaker_009_33102318f73b.mp3",
+  "seed": 10530,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1083,
+      "start_ms": 0,
+      "end_ms": 68
+    },
+    {
+      "lang": "ja",
+      "text": "案内板",
+      "start_sample": 1083,
+      "end_sample": 12078,
+      "start_ms": 68,
+      "end_ms": 755
+    },
+    {
+      "lang": "en",
+      "text": "in the terminal was covered in advertisements and hard to read.",
+      "start_sample": 12078,
+      "end_sample": 72538,
+      "start_ms": 755,
+      "end_ms": 4534
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The annai ita in the terminal was covered in advertisements and hard to read.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4754,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1283,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "案内板",
+          "start_sample": 1283,
+          "end_sample": 15406,
+          "start_ms": 80,
+          "end_ms": 963
+        },
+        {
+          "lang": "en",
+          "text": "in the terminal was covered in advertisements and hard to read.",
+          "start_sample": 15406,
+          "end_sample": 76066,
+          "start_ms": 963,
+          "end_ms": 4754
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 案内板 in the terminal was covered in advertisements and hard to read.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5878,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2568,
+          "start_ms": 0,
+          "end_ms": 160
+        },
+        {
+          "lang": "ja",
+          "text": "案内板",
+          "start_sample": 2568,
+          "end_sample": 13963,
+          "start_ms": 160,
+          "end_ms": 873
+        },
+        {
+          "lang": "en",
+          "text": "in the terminal was covered in advertisements and hard to read.",
+          "start_sample": 13963,
+          "end_sample": 94050,
+          "start_ms": 873,
+          "end_ms": 5878
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 227,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

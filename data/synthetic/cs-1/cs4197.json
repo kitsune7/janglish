@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4197.flac",
+  "sentence": "We couldn't find any 避難所 that still had space for more people.",
+  "sample_rate": 16000,
+  "duration_ms": 3886,
+  "reference_speaker": "en/speaker_082_0d071699a4ef.mp3",
+  "seed": 4239,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We couldn't find any",
+      "start_sample": 0,
+      "end_sample": 15340,
+      "start_ms": 0,
+      "end_ms": 959
+    },
+    {
+      "lang": "ja",
+      "text": "避難所",
+      "start_sample": 15340,
+      "end_sample": 29857,
+      "start_ms": 959,
+      "end_ms": 1866
+    },
+    {
+      "lang": "en",
+      "text": "that still had space for more people.",
+      "start_sample": 29857,
+      "end_sample": 62178,
+      "start_ms": 1866,
+      "end_ms": 3886
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We couldn't find any hinan tokoro that still had space for more people.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3965,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We couldn't find any",
+          "start_sample": 0,
+          "end_sample": 15540,
+          "start_ms": 0,
+          "end_ms": 971
+        },
+        {
+          "lang": "ja",
+          "text": "避難所",
+          "start_sample": 15540,
+          "end_sample": 30920,
+          "start_ms": 971,
+          "end_ms": 1932
+        },
+        {
+          "lang": "en",
+          "text": "that still had space for more people.",
+          "start_sample": 30920,
+          "end_sample": 63441,
+          "start_ms": 1932,
+          "end_ms": 3965
+        }
+      ]
+    },
+    "ja": {
+      "text": "We couldn't find any 避難所 that still had space for more people.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5213,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We couldn't find any",
+          "start_sample": 0,
+          "end_sample": 22455,
+          "start_ms": 0,
+          "end_ms": 1403
+        },
+        {
+          "lang": "ja",
+          "text": "避難所",
+          "start_sample": 22455,
+          "end_sample": 37372,
+          "start_ms": 1403,
+          "end_ms": 2336
+        },
+        {
+          "lang": "en",
+          "text": "that still had space for more people.",
+          "start_sample": 37372,
+          "end_sample": 83405,
+          "start_ms": 2336,
+          "end_ms": 5213
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 195,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

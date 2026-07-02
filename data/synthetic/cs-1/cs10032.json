@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10032.flac",
+  "sentence": "His whole face just looked 晴れ晴れ after he finally told the truth.",
+  "sample_rate": 16000,
+  "duration_ms": 4518,
+  "reference_speaker": "en/speaker_011_d1413283d794.mp3",
+  "seed": 10074,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His whole face just looked",
+      "start_sample": 0,
+      "end_sample": 21751,
+      "start_ms": 0,
+      "end_ms": 1359
+    },
+    {
+      "lang": "ja",
+      "text": "晴れ晴れ",
+      "start_sample": 21751,
+      "end_sample": 36764,
+      "start_ms": 1359,
+      "end_ms": 2298
+    },
+    {
+      "lang": "en",
+      "text": "after he finally told the truth.",
+      "start_sample": 36764,
+      "end_sample": 72294,
+      "start_ms": 2298,
+      "end_ms": 4518
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His whole face just looked harehare after he finally told the truth.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4647,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His whole face just looked",
+          "start_sample": 0,
+          "end_sample": 21951,
+          "start_ms": 0,
+          "end_ms": 1372
+        },
+        {
+          "lang": "ja",
+          "text": "晴れ晴れ",
+          "start_sample": 21951,
+          "end_sample": 38615,
+          "start_ms": 1372,
+          "end_ms": 2413
+        },
+        {
+          "lang": "en",
+          "text": "after he finally told the truth.",
+          "start_sample": 38615,
+          "end_sample": 74345,
+          "start_ms": 2413,
+          "end_ms": 4647
+        }
+      ]
+    },
+    "ja": {
+      "text": "His whole face just looked 晴れ晴れ after he finally told the truth.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5639,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His whole face just looked",
+          "start_sample": 0,
+          "end_sample": 30182,
+          "start_ms": 0,
+          "end_ms": 1886
+        },
+        {
+          "lang": "ja",
+          "text": "晴れ晴れ",
+          "start_sample": 30182,
+          "end_sample": 45595,
+          "start_ms": 1886,
+          "end_ms": 2850
+        },
+        {
+          "lang": "en",
+          "text": "after he finally told the truth.",
+          "start_sample": 45595,
+          "end_sample": 90223,
+          "start_ms": 2850,
+          "end_ms": 5639
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 226,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

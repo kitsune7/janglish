@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3194.flac",
+  "sentence": "Is the app still running 遅く on your device too?",
+  "sample_rate": 16000,
+  "duration_ms": 3169,
+  "reference_speaker": "jp/speaker_070_8f5dfeca773f.mp3",
+  "seed": 3236,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Is the app still running",
+      "start_sample": 0,
+      "end_sample": 19838,
+      "start_ms": 0,
+      "end_ms": 1240
+    },
+    {
+      "lang": "ja",
+      "text": "遅く",
+      "start_sample": 19838,
+      "end_sample": 28945,
+      "start_ms": 1240,
+      "end_ms": 1809
+    },
+    {
+      "lang": "en",
+      "text": "on your device too?",
+      "start_sample": 28945,
+      "end_sample": 50705,
+      "start_ms": 1809,
+      "end_ms": 3169
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Is the app still running osoku on your device too?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3446,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is the app still running",
+          "start_sample": 0,
+          "end_sample": 20038,
+          "start_ms": 0,
+          "end_ms": 1252
+        },
+        {
+          "lang": "ja",
+          "text": "遅く",
+          "start_sample": 20038,
+          "end_sample": 33183,
+          "start_ms": 1252,
+          "end_ms": 2074
+        },
+        {
+          "lang": "en",
+          "text": "on your device too?",
+          "start_sample": 33183,
+          "end_sample": 55143,
+          "start_ms": 2074,
+          "end_ms": 3446
+        }
+      ]
+    },
+    "ja": {
+      "text": "Is the app still running 遅く on your device too?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3081,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is the app still running",
+          "start_sample": 0,
+          "end_sample": 24001,
+          "start_ms": 0,
+          "end_ms": 1500
+        },
+        {
+          "lang": "ja",
+          "text": "遅く",
+          "start_sample": 24001,
+          "end_sample": 33508,
+          "start_ms": 1500,
+          "end_ms": 2094
+        },
+        {
+          "lang": "en",
+          "text": "on your device too?",
+          "start_sample": 33508,
+          "end_sample": 49292,
+          "start_ms": 2094,
+          "end_ms": 3081
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs621.flac",
+  "sentence": "I need a moment of 静寂 before I can make this important 電話.",
+  "sample_rate": 16000,
+  "duration_ms": 2939,
+  "reference_speaker": "jp/speaker_039_c39ab9ed59f2.mp3",
+  "seed": 17476,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I need a moment of",
+      "start_sample": 0,
+      "end_sample": 12336,
+      "start_ms": 0,
+      "end_ms": 771
+    },
+    {
+      "lang": "ja",
+      "text": "静寂",
+      "start_sample": 12336,
+      "end_sample": 20940,
+      "start_ms": 771,
+      "end_ms": 1309
+    },
+    {
+      "lang": "en",
+      "text": "before I can make this important",
+      "start_sample": 20940,
+      "end_sample": 41763,
+      "start_ms": 1309,
+      "end_ms": 2610
+    },
+    {
+      "lang": "ja",
+      "text": "電話.",
+      "start_sample": 41763,
+      "end_sample": 47025,
+      "start_ms": 2610,
+      "end_ms": 2939
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I need a moment of seijaku before I can make this important denwa",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2994,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need a moment of",
+          "start_sample": 0,
+          "end_sample": 12536,
+          "start_ms": 0,
+          "end_ms": 784
+        },
+        {
+          "lang": "ja",
+          "text": "静寂",
+          "start_sample": 12536,
+          "end_sample": 20254,
+          "start_ms": 784,
+          "end_ms": 1266
+        },
+        {
+          "lang": "en",
+          "text": "before I can make this important",
+          "start_sample": 20254,
+          "end_sample": 41477,
+          "start_ms": 1266,
+          "end_ms": 2592
+        },
+        {
+          "lang": "ja",
+          "text": "電話.",
+          "start_sample": 41477,
+          "end_sample": 47904,
+          "start_ms": 2592,
+          "end_ms": 2994
+        }
+      ]
+    },
+    "ja": {
+      "text": "I need a moment of 静寂 before I can make this important 電話.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4582,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need a moment of",
+          "start_sample": 0,
+          "end_sample": 20096,
+          "start_ms": 0,
+          "end_ms": 1256
+        },
+        {
+          "lang": "ja",
+          "text": "静寂",
+          "start_sample": 20096,
+          "end_sample": 29100,
+          "start_ms": 1256,
+          "end_ms": 1819
+        },
+        {
+          "lang": "en",
+          "text": "before I can make this important",
+          "start_sample": 29100,
+          "end_sample": 67848,
+          "start_ms": 1819,
+          "end_ms": 4240
+        },
+        {
+          "lang": "ja",
+          "text": "電話.",
+          "start_sample": 67848,
+          "end_sample": 73310,
+          "start_ms": 4240,
+          "end_ms": 4582
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 147,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjj"
+}

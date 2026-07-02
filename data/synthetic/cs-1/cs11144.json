@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11144.flac",
+  "sentence": "空がstormyな色に変わってきたから、急いで帰ろう。",
+  "sample_rate": 16000,
+  "duration_ms": 4394,
+  "reference_speaker": "en/speaker_036_d0b62ac1e57e.mp3",
+  "seed": 11186,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "空が",
+      "start_sample": 0,
+      "end_sample": 7667,
+      "start_ms": 0,
+      "end_ms": 479
+    },
+    {
+      "lang": "en",
+      "text": "stormy",
+      "start_sample": 7667,
+      "end_sample": 25364,
+      "start_ms": 479,
+      "end_ms": 1585
+    },
+    {
+      "lang": "ja",
+      "text": "な色に変わってきたから、急いで帰ろう。",
+      "start_sample": 25364,
+      "end_sample": 70297,
+      "start_ms": 1585,
+      "end_ms": 4394
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sora ga stormy na iro ni kawatsu te ki ta kara isoi de kaerou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8128,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "空が",
+          "start_sample": 0,
+          "end_sample": 21619,
+          "start_ms": 0,
+          "end_ms": 1351
+        },
+        {
+          "lang": "en",
+          "text": "stormy",
+          "start_sample": 21619,
+          "end_sample": 39716,
+          "start_ms": 1351,
+          "end_ms": 2482
+        },
+        {
+          "lang": "ja",
+          "text": "な色に変わってきたから、急いで帰ろう。",
+          "start_sample": 39716,
+          "end_sample": 130041,
+          "start_ms": 2482,
+          "end_ms": 8128
+        }
+      ]
+    },
+    "ja": {
+      "text": "空がstormyな色に変わってきたから、急いで帰ろう。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3835,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "空が",
+          "start_sample": 0,
+          "end_sample": 7867,
+          "start_ms": 0,
+          "end_ms": 492
+        },
+        {
+          "lang": "en",
+          "text": "stormy",
+          "start_sample": 7867,
+          "end_sample": 16220,
+          "start_ms": 492,
+          "end_ms": 1014
+        },
+        {
+          "lang": "ja",
+          "text": "な色に変わってきたから、急いで帰ろう。",
+          "start_sample": 16220,
+          "end_sample": 61353,
+          "start_ms": 1014,
+          "end_ms": 3835
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 220,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

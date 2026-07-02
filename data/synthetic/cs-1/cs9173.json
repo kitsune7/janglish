@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9173.flac",
+  "sentence": "The error message was so 不明確 that even the senior developer was confused.",
+  "sample_rate": 16000,
+  "duration_ms": 5409,
+  "reference_speaker": "jp/speaker_073_b4ca3157591f.mp3",
+  "seed": 9215,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The error message was so",
+      "start_sample": 0,
+      "end_sample": 28225,
+      "start_ms": 0,
+      "end_ms": 1764
+    },
+    {
+      "lang": "ja",
+      "text": "不明確",
+      "start_sample": 28225,
+      "end_sample": 46912,
+      "start_ms": 1764,
+      "end_ms": 2932
+    },
+    {
+      "lang": "en",
+      "text": "that even the senior developer was confused.",
+      "start_sample": 46912,
+      "end_sample": 86537,
+      "start_ms": 2932,
+      "end_ms": 5409
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The error message was so fu meikaku that even the senior developer was confused.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5982,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The error message was so",
+          "start_sample": 0,
+          "end_sample": 28425,
+          "start_ms": 0,
+          "end_ms": 1777
+        },
+        {
+          "lang": "ja",
+          "text": "不明確",
+          "start_sample": 28425,
+          "end_sample": 55886,
+          "start_ms": 1777,
+          "end_ms": 3493
+        },
+        {
+          "lang": "en",
+          "text": "that even the senior developer was confused.",
+          "start_sample": 55886,
+          "end_sample": 95711,
+          "start_ms": 3493,
+          "end_ms": 5982
+        }
+      ]
+    },
+    "ja": {
+      "text": "The error message was so 不明確 that even the senior developer was confused.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8601,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The error message was so",
+          "start_sample": 0,
+          "end_sample": 38811,
+          "start_ms": 0,
+          "end_ms": 2426
+        },
+        {
+          "lang": "ja",
+          "text": "不明確",
+          "start_sample": 38811,
+          "end_sample": 57898,
+          "start_ms": 2426,
+          "end_ms": 3619
+        },
+        {
+          "lang": "en",
+          "text": "that even the senior developer was confused.",
+          "start_sample": 57898,
+          "end_sample": 137609,
+          "start_ms": 3619,
+          "end_ms": 8601
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 271,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

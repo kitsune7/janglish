@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5966.flac",
+  "sentence": "一番前のcarriageに乗ると空いていることが多い。",
+  "sample_rate": 16000,
+  "duration_ms": 3413,
+  "reference_speaker": "en/speaker_077_cf8a4971b1d4.mp3",
+  "seed": 6008,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "一番前の",
+      "start_sample": 0,
+      "end_sample": 13787,
+      "start_ms": 0,
+      "end_ms": 862
+    },
+    {
+      "lang": "en",
+      "text": "carriage",
+      "start_sample": 13787,
+      "end_sample": 27483,
+      "start_ms": 862,
+      "end_ms": 1718
+    },
+    {
+      "lang": "ja",
+      "text": "に乗ると空いていることが多い。",
+      "start_sample": 27483,
+      "end_sample": 54611,
+      "start_ms": 1718,
+      "end_ms": 3413
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ichiban mae no carriage ni noru to ai te iru koto ga ooi",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6868,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "一番前の",
+          "start_sample": 0,
+          "end_sample": 18100,
+          "start_ms": 0,
+          "end_ms": 1131
+        },
+        {
+          "lang": "en",
+          "text": "carriage",
+          "start_sample": 18100,
+          "end_sample": 32196,
+          "start_ms": 1131,
+          "end_ms": 2012
+        },
+        {
+          "lang": "ja",
+          "text": "に乗ると空いていることが多い。",
+          "start_sample": 32196,
+          "end_sample": 109884,
+          "start_ms": 2012,
+          "end_ms": 6868
+        }
+      ]
+    },
+    "ja": {
+      "text": "一番前のcarriageに乗ると空いていることが多い。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3175,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "一番前の",
+          "start_sample": 0,
+          "end_sample": 13987,
+          "start_ms": 0,
+          "end_ms": 874
+        },
+        {
+          "lang": "en",
+          "text": "carriage",
+          "start_sample": 13987,
+          "end_sample": 23473,
+          "start_ms": 874,
+          "end_ms": 1467
+        },
+        {
+          "lang": "ja",
+          "text": "に乗ると空いていることが多い。",
+          "start_sample": 23473,
+          "end_sample": 50801,
+          "start_ms": 1467,
+          "end_ms": 3175
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 171,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

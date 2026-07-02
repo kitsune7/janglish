@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs897.flac",
+  "sentence": "あのレストランはlocally sourcedの食材にこだわっています。",
+  "sample_rate": 16000,
+  "duration_ms": 3803,
+  "reference_speaker": "en/speaker_030_bdb9e7b61df6.mp3",
+  "seed": 939,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あのレストランは",
+      "start_sample": 0,
+      "end_sample": 14249,
+      "start_ms": 0,
+      "end_ms": 891
+    },
+    {
+      "lang": "en",
+      "text": "locally sourced",
+      "start_sample": 14249,
+      "end_sample": 30552,
+      "start_ms": 891,
+      "end_ms": 1910
+    },
+    {
+      "lang": "ja",
+      "text": "の食材にこだわっています。",
+      "start_sample": 30552,
+      "end_sample": 60853,
+      "start_ms": 1910,
+      "end_ms": 3803
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano resutoran ha locally sourced no shokuzai ni kodawatsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5922,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あのレストランは",
+          "start_sample": 0,
+          "end_sample": 28906,
+          "start_ms": 0,
+          "end_ms": 1807
+        },
+        {
+          "lang": "en",
+          "text": "locally sourced",
+          "start_sample": 28906,
+          "end_sample": 45609,
+          "start_ms": 1807,
+          "end_ms": 2851
+        },
+        {
+          "lang": "ja",
+          "text": "の食材にこだわっています。",
+          "start_sample": 45609,
+          "end_sample": 94747,
+          "start_ms": 2851,
+          "end_ms": 5922
+        }
+      ]
+    },
+    "ja": {
+      "text": "あのレストランはlocally sourcedの食材にこだわっています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3873,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あのレストランは",
+          "start_sample": 0,
+          "end_sample": 14449,
+          "start_ms": 0,
+          "end_ms": 903
+        },
+        {
+          "lang": "en",
+          "text": "locally sourced",
+          "start_sample": 14449,
+          "end_sample": 31467,
+          "start_ms": 903,
+          "end_ms": 1967
+        },
+        {
+          "lang": "ja",
+          "text": "の食材にこだわっています。",
+          "start_sample": 31467,
+          "end_sample": 61968,
+          "start_ms": 1967,
+          "end_ms": 3873
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 191,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

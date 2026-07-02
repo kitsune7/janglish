@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10832.flac",
+  "sentence": "He grated fresh 生姜 into the dressing for extra bite.",
+  "sample_rate": 16000,
+  "duration_ms": 2760,
+  "reference_speaker": "en/speaker_001_b06ec2cd8db9.mp3",
+  "seed": 10874,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He grated fresh",
+      "start_sample": 0,
+      "end_sample": 12216,
+      "start_ms": 0,
+      "end_ms": 764
+    },
+    {
+      "lang": "ja",
+      "text": "生姜",
+      "start_sample": 12216,
+      "end_sample": 17109,
+      "start_ms": 764,
+      "end_ms": 1069
+    },
+    {
+      "lang": "en",
+      "text": "into the dressing for extra bite.",
+      "start_sample": 17109,
+      "end_sample": 44153,
+      "start_ms": 1069,
+      "end_ms": 2760
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He grated fresh shouga into the dressing for extra bite.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2862,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He grated fresh",
+          "start_sample": 0,
+          "end_sample": 12416,
+          "start_ms": 0,
+          "end_ms": 776
+        },
+        {
+          "lang": "ja",
+          "text": "生姜",
+          "start_sample": 12416,
+          "end_sample": 18543,
+          "start_ms": 776,
+          "end_ms": 1159
+        },
+        {
+          "lang": "en",
+          "text": "into the dressing for extra bite.",
+          "start_sample": 18543,
+          "end_sample": 45787,
+          "start_ms": 1159,
+          "end_ms": 2862
+        }
+      ]
+    },
+    "ja": {
+      "text": "He grated fresh 生姜 into the dressing for extra bite.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3869,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He grated fresh",
+          "start_sample": 0,
+          "end_sample": 16678,
+          "start_ms": 0,
+          "end_ms": 1042
+        },
+        {
+          "lang": "ja",
+          "text": "生姜",
+          "start_sample": 16678,
+          "end_sample": 21971,
+          "start_ms": 1042,
+          "end_ms": 1373
+        },
+        {
+          "lang": "en",
+          "text": "into the dressing for extra bite.",
+          "start_sample": 21971,
+          "end_sample": 61902,
+          "start_ms": 1373,
+          "end_ms": 3869
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 138,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

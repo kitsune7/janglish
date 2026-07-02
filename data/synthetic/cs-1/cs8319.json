@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8319.flac",
+  "sentence": "このbeltは色々な服に合わせやすいです。",
+  "sample_rate": 16000,
+  "duration_ms": 2649,
+  "reference_speaker": "jp/speaker_007_69caf5c5275d.mp3",
+  "seed": 8361,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 2689,
+      "start_ms": 0,
+      "end_ms": 168
+    },
+    {
+      "lang": "en",
+      "text": "belt",
+      "start_sample": 2689,
+      "end_sample": 5822,
+      "start_ms": 168,
+      "end_ms": 364
+    },
+    {
+      "lang": "ja",
+      "text": "は色々な服に合わせやすいです。",
+      "start_sample": 5822,
+      "end_sample": 42378,
+      "start_ms": 364,
+      "end_ms": 2649
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono belt ha iroiro na fuku ni awase yasui desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4376,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 2890,
+          "start_ms": 0,
+          "end_ms": 181
+        },
+        {
+          "lang": "en",
+          "text": "belt",
+          "start_sample": 2890,
+          "end_sample": 6423,
+          "start_ms": 181,
+          "end_ms": 401
+        },
+        {
+          "lang": "ja",
+          "text": "は色々な服に合わせやすいです。",
+          "start_sample": 6423,
+          "end_sample": 70020,
+          "start_ms": 401,
+          "end_ms": 4376
+        }
+      ]
+    },
+    "ja": {
+      "text": "このbeltは色々な服に合わせやすいです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2809,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 2889,
+          "start_ms": 0,
+          "end_ms": 181
+        },
+        {
+          "lang": "en",
+          "text": "belt",
+          "start_sample": 2889,
+          "end_sample": 8186,
+          "start_ms": 181,
+          "end_ms": 512
+        },
+        {
+          "lang": "ja",
+          "text": "は色々な服に合わせやすいです。",
+          "start_sample": 8186,
+          "end_sample": 44942,
+          "start_ms": 512,
+          "end_ms": 2809
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 133,
+  "frame_labels": "jjjjjjjjeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

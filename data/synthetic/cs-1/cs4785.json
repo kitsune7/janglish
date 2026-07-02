@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4785.flac",
+  "sentence": "That 曲がり角 at the bottom of the hill always catches new drivers off guard.",
+  "sample_rate": 16000,
+  "duration_ms": 5750,
+  "reference_speaker": "en/speaker_003_7963691c43c8.mp3",
+  "seed": 4827,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That",
+      "start_sample": 0,
+      "end_sample": 2043,
+      "start_ms": 0,
+      "end_ms": 128
+    },
+    {
+      "lang": "ja",
+      "text": "曲がり角",
+      "start_sample": 2043,
+      "end_sample": 18008,
+      "start_ms": 128,
+      "end_ms": 1126
+    },
+    {
+      "lang": "en",
+      "text": "at the bottom of the hill always catches new drivers off guard.",
+      "start_sample": 18008,
+      "end_sample": 92007,
+      "start_ms": 1126,
+      "end_ms": 5750
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That magarikaku at the bottom of the hill always catches new drivers off guard.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5669,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That",
+          "start_sample": 0,
+          "end_sample": 2243,
+          "start_ms": 0,
+          "end_ms": 140
+        },
+        {
+          "lang": "ja",
+          "text": "曲がり角",
+          "start_sample": 2243,
+          "end_sample": 16506,
+          "start_ms": 140,
+          "end_ms": 1032
+        },
+        {
+          "lang": "en",
+          "text": "at the bottom of the hill always catches new drivers off guard.",
+          "start_sample": 16506,
+          "end_sample": 90705,
+          "start_ms": 1032,
+          "end_ms": 5669
+        }
+      ]
+    },
+    "ja": {
+      "text": "That 曲がり角 at the bottom of the hill always catches new drivers off guard.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6418,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That",
+          "start_sample": 0,
+          "end_sample": 5294,
+          "start_ms": 0,
+          "end_ms": 331
+        },
+        {
+          "lang": "ja",
+          "text": "曲がり角",
+          "start_sample": 5294,
+          "end_sample": 21659,
+          "start_ms": 331,
+          "end_ms": 1354
+        },
+        {
+          "lang": "en",
+          "text": "at the bottom of the hill always catches new drivers off guard.",
+          "start_sample": 21659,
+          "end_sample": 102681,
+          "start_ms": 1354,
+          "end_ms": 6418
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 288,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

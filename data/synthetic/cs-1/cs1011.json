@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1011.flac",
+  "sentence": "選挙区のredistrictingが与野党間の争点になっている。",
+  "sample_rate": 16000,
+  "duration_ms": 4029,
+  "reference_speaker": "jp/speaker_016_f3aac8b73f15.mp3",
+  "seed": 1053,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "選挙区の",
+      "start_sample": 0,
+      "end_sample": 7816,
+      "start_ms": 0,
+      "end_ms": 488
+    },
+    {
+      "lang": "en",
+      "text": "redistricting",
+      "start_sample": 7816,
+      "end_sample": 30035,
+      "start_ms": 488,
+      "end_ms": 1877
+    },
+    {
+      "lang": "ja",
+      "text": "が与野党間の争点になっている。",
+      "start_sample": 30035,
+      "end_sample": 64466,
+      "start_ms": 1877,
+      "end_ms": 4029
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "senkyo ku no redistricting ga yoyatou kan no souten ni natsu te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5875,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "選挙区の",
+          "start_sample": 0,
+          "end_sample": 12030,
+          "start_ms": 0,
+          "end_ms": 752
+        },
+        {
+          "lang": "en",
+          "text": "redistricting",
+          "start_sample": 12030,
+          "end_sample": 34649,
+          "start_ms": 752,
+          "end_ms": 2166
+        },
+        {
+          "lang": "ja",
+          "text": "が与野党間の争点になっている。",
+          "start_sample": 34649,
+          "end_sample": 94001,
+          "start_ms": 2166,
+          "end_ms": 5875
+        }
+      ]
+    },
+    "ja": {
+      "text": "選挙区のredistrictingが与野党間の争点になっている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3728,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "選挙区の",
+          "start_sample": 0,
+          "end_sample": 8016,
+          "start_ms": 0,
+          "end_ms": 501
+        },
+        {
+          "lang": "en",
+          "text": "redistricting",
+          "start_sample": 8016,
+          "end_sample": 25012,
+          "start_ms": 501,
+          "end_ms": 1563
+        },
+        {
+          "lang": "ja",
+          "text": "が与野党間の争点になっている。",
+          "start_sample": 25012,
+          "end_sample": 59643,
+          "start_ms": 1563,
+          "end_ms": 3728
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

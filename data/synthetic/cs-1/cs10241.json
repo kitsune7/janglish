@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10241.flac",
+  "sentence": "I went to the counter and asked for a 書留 receipt for the contract.",
+  "sample_rate": 16000,
+  "duration_ms": 3739,
+  "reference_speaker": "jp/speaker_088_9d72b694e145.mp3",
+  "seed": 10283,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I went to the counter and asked for a",
+      "start_sample": 0,
+      "end_sample": 27222,
+      "start_ms": 0,
+      "end_ms": 1701
+    },
+    {
+      "lang": "ja",
+      "text": "書留",
+      "start_sample": 27222,
+      "end_sample": 36446,
+      "start_ms": 1701,
+      "end_ms": 2278
+    },
+    {
+      "lang": "en",
+      "text": "receipt for the contract.",
+      "start_sample": 36446,
+      "end_sample": 59819,
+      "start_ms": 2278,
+      "end_ms": 3739
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I went to the counter and asked for a kakitome receipt for the contract.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3829,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I went to the counter and asked for a",
+          "start_sample": 0,
+          "end_sample": 27422,
+          "start_ms": 0,
+          "end_ms": 1714
+        },
+        {
+          "lang": "ja",
+          "text": "書留",
+          "start_sample": 27422,
+          "end_sample": 37686,
+          "start_ms": 1714,
+          "end_ms": 2355
+        },
+        {
+          "lang": "en",
+          "text": "receipt for the contract.",
+          "start_sample": 37686,
+          "end_sample": 61259,
+          "start_ms": 2355,
+          "end_ms": 3829
+        }
+      ]
+    },
+    "ja": {
+      "text": "I went to the counter and asked for a 書留 receipt for the contract.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5072,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I went to the counter and asked for a",
+          "start_sample": 0,
+          "end_sample": 41543,
+          "start_ms": 0,
+          "end_ms": 2596
+        },
+        {
+          "lang": "ja",
+          "text": "書留",
+          "start_sample": 41543,
+          "end_sample": 51167,
+          "start_ms": 2596,
+          "end_ms": 3198
+        },
+        {
+          "lang": "en",
+          "text": "receipt for the contract.",
+          "start_sample": 51167,
+          "end_sample": 81160,
+          "start_ms": 3198,
+          "end_ms": 5072
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 187,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

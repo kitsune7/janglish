@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs744.flac",
+  "sentence": "She has such a 穏やか personality, just like her dad.",
+  "sample_rate": 16000,
+  "duration_ms": 3970,
+  "reference_speaker": "jp/speaker_021_dc81e43724ca.mp3",
+  "seed": 786,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She has such a",
+      "start_sample": 0,
+      "end_sample": 13440,
+      "start_ms": 0,
+      "end_ms": 840
+    },
+    {
+      "lang": "ja",
+      "text": "穏やか",
+      "start_sample": 13440,
+      "end_sample": 25697,
+      "start_ms": 840,
+      "end_ms": 1606
+    },
+    {
+      "lang": "en",
+      "text": "personality, just like her dad.",
+      "start_sample": 25697,
+      "end_sample": 63528,
+      "start_ms": 1606,
+      "end_ms": 3970
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She has such a odayaka personality, just like her dad.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3952,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She has such a",
+          "start_sample": 0,
+          "end_sample": 13640,
+          "start_ms": 0,
+          "end_ms": 852
+        },
+        {
+          "lang": "ja",
+          "text": "穏やか",
+          "start_sample": 13640,
+          "end_sample": 25194,
+          "start_ms": 852,
+          "end_ms": 1575
+        },
+        {
+          "lang": "en",
+          "text": "personality, just like her dad.",
+          "start_sample": 25194,
+          "end_sample": 63225,
+          "start_ms": 1575,
+          "end_ms": 3952
+        }
+      ]
+    },
+    "ja": {
+      "text": "She has such a 穏やか personality, just like her dad.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6649,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She has such a",
+          "start_sample": 0,
+          "end_sample": 33484,
+          "start_ms": 0,
+          "end_ms": 2093
+        },
+        {
+          "lang": "ja",
+          "text": "穏やか",
+          "start_sample": 33484,
+          "end_sample": 46141,
+          "start_ms": 2093,
+          "end_ms": 2884
+        },
+        {
+          "lang": "en",
+          "text": "personality, just like her dad.",
+          "start_sample": 46141,
+          "end_sample": 106381,
+          "start_ms": 2884,
+          "end_ms": 6649
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 199,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

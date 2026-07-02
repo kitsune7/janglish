@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8600.flac",
+  "sentence": "The 敷金 was two months' rent, which completely wiped out my savings for a while.",
+  "sample_rate": 16000,
+  "duration_ms": 4710,
+  "reference_speaker": "jp/speaker_002_02a8841a00d7.mp3",
+  "seed": 8642,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1242,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "敷金",
+      "start_sample": 1242,
+      "end_sample": 10467,
+      "start_ms": 78,
+      "end_ms": 654
+    },
+    {
+      "lang": "en",
+      "text": "was two months' rent, which completely wiped out my savings for a while.",
+      "start_sample": 10467,
+      "end_sample": 75353,
+      "start_ms": 654,
+      "end_ms": 4710
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shikikin was two months' rent, which completely wiped out my savings for a while.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4669,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1442,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "敷金",
+          "start_sample": 1442,
+          "end_sample": 9618,
+          "start_ms": 90,
+          "end_ms": 601
+        },
+        {
+          "lang": "en",
+          "text": "was two months' rent, which completely wiped out my savings for a while.",
+          "start_sample": 9618,
+          "end_sample": 74704,
+          "start_ms": 601,
+          "end_ms": 4669
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 敷金 was two months' rent, which completely wiped out my savings for a while.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5995,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2887,
+          "start_ms": 0,
+          "end_ms": 180
+        },
+        {
+          "lang": "ja",
+          "text": "敷金",
+          "start_sample": 2887,
+          "end_sample": 12512,
+          "start_ms": 180,
+          "end_ms": 782
+        },
+        {
+          "lang": "en",
+          "text": "was two months' rent, which completely wiped out my savings for a while.",
+          "start_sample": 12512,
+          "end_sample": 95926,
+          "start_ms": 782,
+          "end_ms": 5995
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 236,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

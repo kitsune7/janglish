@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4647.flac",
+  "sentence": "He always looks so 清潔感 in a well-pressed white shirt.",
+  "sample_rate": 16000,
+  "duration_ms": 3449,
+  "reference_speaker": "en/speaker_098_f600c480bfab.mp3",
+  "seed": 4689,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He always looks so",
+      "start_sample": 0,
+      "end_sample": 14226,
+      "start_ms": 0,
+      "end_ms": 889
+    },
+    {
+      "lang": "ja",
+      "text": "清潔感",
+      "start_sample": 14226,
+      "end_sample": 26849,
+      "start_ms": 889,
+      "end_ms": 1678
+    },
+    {
+      "lang": "en",
+      "text": "in a well-pressed white shirt.",
+      "start_sample": 26849,
+      "end_sample": 55181,
+      "start_ms": 1678,
+      "end_ms": 3449
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He always looks so seiketsu kan in a well-pressed white shirt.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7614,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He always looks so",
+          "start_sample": 0,
+          "end_sample": 14426,
+          "start_ms": 0,
+          "end_ms": 902
+        },
+        {
+          "lang": "ja",
+          "text": "清潔感",
+          "start_sample": 14426,
+          "end_sample": 93296,
+          "start_ms": 902,
+          "end_ms": 5831
+        },
+        {
+          "lang": "en",
+          "text": "in a well-pressed white shirt.",
+          "start_sample": 93296,
+          "end_sample": 121828,
+          "start_ms": 5831,
+          "end_ms": 7614
+        }
+      ]
+    },
+    "ja": {
+      "text": "He always looks so 清潔感 in a well-pressed white shirt.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4341,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He always looks so",
+          "start_sample": 0,
+          "end_sample": 19293,
+          "start_ms": 0,
+          "end_ms": 1206
+        },
+        {
+          "lang": "ja",
+          "text": "清潔感",
+          "start_sample": 19293,
+          "end_sample": 32316,
+          "start_ms": 1206,
+          "end_ms": 2020
+        },
+        {
+          "lang": "en",
+          "text": "in a well-pressed white shirt.",
+          "start_sample": 32316,
+          "end_sample": 69451,
+          "start_ms": 2020,
+          "end_ms": 4341
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 173,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

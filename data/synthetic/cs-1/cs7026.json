@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7026.flac",
+  "sentence": "I thought the 間 before the chorus dropped was the most powerful moment of the night.",
+  "sample_rate": 16000,
+  "duration_ms": 3835,
+  "reference_speaker": "jp/speaker_007_69caf5c5275d.mp3",
+  "seed": 7068,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I thought the",
+      "start_sample": 0,
+      "end_sample": 7809,
+      "start_ms": 0,
+      "end_ms": 488
+    },
+    {
+      "lang": "ja",
+      "text": "間",
+      "start_sample": 7809,
+      "end_sample": 10777,
+      "start_ms": 488,
+      "end_ms": 674
+    },
+    {
+      "lang": "en",
+      "text": "before the chorus dropped was the most powerful moment of the night.",
+      "start_sample": 10777,
+      "end_sample": 61363,
+      "start_ms": 674,
+      "end_ms": 3835
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I thought the kan before the chorus dropped was the most powerful moment of the night.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3985,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I thought the",
+          "start_sample": 0,
+          "end_sample": 8009,
+          "start_ms": 0,
+          "end_ms": 501
+        },
+        {
+          "lang": "ja",
+          "text": "間",
+          "start_sample": 8009,
+          "end_sample": 12975,
+          "start_ms": 501,
+          "end_ms": 811
+        },
+        {
+          "lang": "en",
+          "text": "before the chorus dropped was the most powerful moment of the night.",
+          "start_sample": 12975,
+          "end_sample": 63761,
+          "start_ms": 811,
+          "end_ms": 3985
+        }
+      ]
+    },
+    "ja": {
+      "text": "I thought the 間 before the chorus dropped was the most powerful moment of the night.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5291,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I thought the",
+          "start_sample": 0,
+          "end_sample": 9779,
+          "start_ms": 0,
+          "end_ms": 611
+        },
+        {
+          "lang": "ja",
+          "text": "間",
+          "start_sample": 9779,
+          "end_sample": 13147,
+          "start_ms": 611,
+          "end_ms": 822
+        },
+        {
+          "lang": "en",
+          "text": "before the chorus dropped was the most powerful moment of the night.",
+          "start_sample": 13147,
+          "end_sample": 84662,
+          "start_ms": 822,
+          "end_ms": 5291
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

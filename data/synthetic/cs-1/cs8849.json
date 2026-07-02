@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8849.flac",
+  "sentence": "毎年、taxの申告を自分でやっています。",
+  "sample_rate": 16000,
+  "duration_ms": 3284,
+  "reference_speaker": "jp/speaker_023_d9597f21cb60.mp3",
+  "seed": 8891,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "毎年、",
+      "start_sample": 0,
+      "end_sample": 9930,
+      "start_ms": 0,
+      "end_ms": 621
+    },
+    {
+      "lang": "en",
+      "text": "tax",
+      "start_sample": 9930,
+      "end_sample": 22992,
+      "start_ms": 621,
+      "end_ms": 1437
+    },
+    {
+      "lang": "ja",
+      "text": "の申告を自分でやっています。",
+      "start_sample": 22992,
+      "end_sample": 52550,
+      "start_ms": 1437,
+      "end_ms": 3284
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "maitoshi tax no shinkoku wo jibun de yatsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5469,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎年、",
+          "start_sample": 0,
+          "end_sample": 7852,
+          "start_ms": 0,
+          "end_ms": 491
+        },
+        {
+          "lang": "en",
+          "text": "tax",
+          "start_sample": 7852,
+          "end_sample": 21314,
+          "start_ms": 491,
+          "end_ms": 1332
+        },
+        {
+          "lang": "ja",
+          "text": "の申告を自分でやっています。",
+          "start_sample": 21314,
+          "end_sample": 87500,
+          "start_ms": 1332,
+          "end_ms": 5469
+        }
+      ]
+    },
+    "ja": {
+      "text": "毎年、taxの申告を自分でやっています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2996,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎年、",
+          "start_sample": 0,
+          "end_sample": 10130,
+          "start_ms": 0,
+          "end_ms": 633
+        },
+        {
+          "lang": "en",
+          "text": "tax",
+          "start_sample": 10130,
+          "end_sample": 18174,
+          "start_ms": 633,
+          "end_ms": 1136
+        },
+        {
+          "lang": "ja",
+          "text": "の申告を自分でやっています。",
+          "start_sample": 18174,
+          "end_sample": 47932,
+          "start_ms": 1136,
+          "end_ms": 2996
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 165,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2981.flac",
+  "sentence": "I mixed a drop of oil into my 化粧下地 for extra glow.",
+  "sample_rate": 16000,
+  "duration_ms": 3964,
+  "reference_speaker": "jp/speaker_084_122c648d361d.mp3",
+  "seed": 3023,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I mixed a drop of oil into my",
+      "start_sample": 0,
+      "end_sample": 34657,
+      "start_ms": 0,
+      "end_ms": 2166
+    },
+    {
+      "lang": "ja",
+      "text": "化粧下地",
+      "start_sample": 34657,
+      "end_sample": 47727,
+      "start_ms": 2166,
+      "end_ms": 2983
+    },
+    {
+      "lang": "en",
+      "text": "for extra glow.",
+      "start_sample": 47727,
+      "end_sample": 63427,
+      "start_ms": 2983,
+      "end_ms": 3964
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I mixed a drop of oil into my keshou shitaji for extra glow.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4216,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I mixed a drop of oil into my",
+          "start_sample": 0,
+          "end_sample": 34857,
+          "start_ms": 0,
+          "end_ms": 2179
+        },
+        {
+          "lang": "ja",
+          "text": "化粧下地",
+          "start_sample": 34857,
+          "end_sample": 51564,
+          "start_ms": 2179,
+          "end_ms": 3223
+        },
+        {
+          "lang": "en",
+          "text": "for extra glow.",
+          "start_sample": 51564,
+          "end_sample": 67464,
+          "start_ms": 3223,
+          "end_ms": 4216
+        }
+      ]
+    },
+    "ja": {
+      "text": "I mixed a drop of oil into my 化粧下地 for extra glow.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4028,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I mixed a drop of oil into my",
+          "start_sample": 0,
+          "end_sample": 35434,
+          "start_ms": 0,
+          "end_ms": 2215
+        },
+        {
+          "lang": "ja",
+          "text": "化粧下地",
+          "start_sample": 35434,
+          "end_sample": 48904,
+          "start_ms": 2215,
+          "end_ms": 3056
+        },
+        {
+          "lang": "en",
+          "text": "for extra glow.",
+          "start_sample": 48904,
+          "end_sample": 64455,
+          "start_ms": 3056,
+          "end_ms": 4028
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 199,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

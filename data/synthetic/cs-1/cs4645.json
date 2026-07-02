@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4645.flac",
+  "sentence": "I need to find something 地味 enough for the office but still stylish.",
+  "sample_rate": 16000,
+  "duration_ms": 5569,
+  "reference_speaker": "jp/speaker_095_1daf6547c74f.mp3",
+  "seed": 4687,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I need to find something",
+      "start_sample": 0,
+      "end_sample": 22551,
+      "start_ms": 0,
+      "end_ms": 1409
+    },
+    {
+      "lang": "ja",
+      "text": "地味",
+      "start_sample": 22551,
+      "end_sample": 32268,
+      "start_ms": 1409,
+      "end_ms": 2017
+    },
+    {
+      "lang": "en",
+      "text": "enough for the office but still stylish.",
+      "start_sample": 32268,
+      "end_sample": 89108,
+      "start_ms": 2017,
+      "end_ms": 5569
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I need to find something jimi enough for the office but still stylish.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5327,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need to find something",
+          "start_sample": 0,
+          "end_sample": 22751,
+          "start_ms": 0,
+          "end_ms": 1422
+        },
+        {
+          "lang": "ja",
+          "text": "地味",
+          "start_sample": 22751,
+          "end_sample": 28199,
+          "start_ms": 1422,
+          "end_ms": 1762
+        },
+        {
+          "lang": "en",
+          "text": "enough for the office but still stylish.",
+          "start_sample": 28199,
+          "end_sample": 85239,
+          "start_ms": 1762,
+          "end_ms": 5327
+        }
+      ]
+    },
+    "ja": {
+      "text": "I need to find something 地味 enough for the office but still stylish.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4978,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need to find something",
+          "start_sample": 0,
+          "end_sample": 29869,
+          "start_ms": 0,
+          "end_ms": 1867
+        },
+        {
+          "lang": "ja",
+          "text": "地味",
+          "start_sample": 29869,
+          "end_sample": 39986,
+          "start_ms": 1867,
+          "end_ms": 2499
+        },
+        {
+          "lang": "en",
+          "text": "enough for the office but still stylish.",
+          "start_sample": 39986,
+          "end_sample": 79648,
+          "start_ms": 2499,
+          "end_ms": 4978
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 279,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

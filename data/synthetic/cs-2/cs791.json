@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs791.flac",
+  "sentence": "The long silence felt 気まずい, and he tried to recover with a calm 一言.",
+  "sample_rate": 16000,
+  "duration_ms": 6034,
+  "reference_speaker": "jp/speaker_095_1daf6547c74f.mp3",
+  "seed": 17646,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The long silence felt",
+      "start_sample": 0,
+      "end_sample": 36073,
+      "start_ms": 0,
+      "end_ms": 2255
+    },
+    {
+      "lang": "ja",
+      "text": "気まずい,",
+      "start_sample": 36073,
+      "end_sample": 49632,
+      "start_ms": 2255,
+      "end_ms": 3102
+    },
+    {
+      "lang": "en",
+      "text": "and he tried to recover with a calm",
+      "start_sample": 49632,
+      "end_sample": 89679,
+      "start_ms": 3102,
+      "end_ms": 5605
+    },
+    {
+      "lang": "ja",
+      "text": "一言.",
+      "start_sample": 89679,
+      "end_sample": 96536,
+      "start_ms": 5605,
+      "end_ms": 6034
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The long silence felt kimazui and he tried to recover with a calm hitokoto",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6962,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The long silence felt",
+          "start_sample": 0,
+          "end_sample": 36273,
+          "start_ms": 0,
+          "end_ms": 2267
+        },
+        {
+          "lang": "ja",
+          "text": "気まずい,",
+          "start_sample": 36273,
+          "end_sample": 56496,
+          "start_ms": 2267,
+          "end_ms": 3531
+        },
+        {
+          "lang": "en",
+          "text": "and he tried to recover with a calm",
+          "start_sample": 56496,
+          "end_sample": 96943,
+          "start_ms": 3531,
+          "end_ms": 6059
+        },
+        {
+          "lang": "ja",
+          "text": "一言.",
+          "start_sample": 96943,
+          "end_sample": 111385,
+          "start_ms": 6059,
+          "end_ms": 6962
+        }
+      ]
+    },
+    "ja": {
+      "text": "The long silence felt 気まずい, and he tried to recover with a calm 一言.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6418,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The long silence felt",
+          "start_sample": 0,
+          "end_sample": 31608,
+          "start_ms": 0,
+          "end_ms": 1976
+        },
+        {
+          "lang": "ja",
+          "text": "気まずい,",
+          "start_sample": 31608,
+          "end_sample": 45567,
+          "start_ms": 1976,
+          "end_ms": 2848
+        },
+        {
+          "lang": "en",
+          "text": "and he tried to recover with a calm",
+          "start_sample": 45567,
+          "end_sample": 95631,
+          "start_ms": 2848,
+          "end_ms": 5977
+        },
+        {
+          "lang": "ja",
+          "text": "一言.",
+          "start_sample": 95631,
+          "end_sample": 102688,
+          "start_ms": 5977,
+          "end_ms": 6418
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 302,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjj"
+}

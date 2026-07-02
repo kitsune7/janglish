@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9430.flac",
+  "sentence": "I've been feeling really 眠い during afternoon video calls lately.",
+  "sample_rate": 16000,
+  "duration_ms": 3181,
+  "reference_speaker": "jp/speaker_049_435108c1173c.mp3",
+  "seed": 9472,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I've been feeling really",
+      "start_sample": 0,
+      "end_sample": 12808,
+      "start_ms": 0,
+      "end_ms": 800
+    },
+    {
+      "lang": "ja",
+      "text": "眠い",
+      "start_sample": 12808,
+      "end_sample": 19618,
+      "start_ms": 800,
+      "end_ms": 1226
+    },
+    {
+      "lang": "en",
+      "text": "during afternoon video calls lately.",
+      "start_sample": 19618,
+      "end_sample": 50892,
+      "start_ms": 1226,
+      "end_ms": 3181
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I've been feeling really nemui during afternoon video calls lately.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3392,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've been feeling really",
+          "start_sample": 0,
+          "end_sample": 13008,
+          "start_ms": 0,
+          "end_ms": 813
+        },
+        {
+          "lang": "ja",
+          "text": "眠い",
+          "start_sample": 13008,
+          "end_sample": 22804,
+          "start_ms": 813,
+          "end_ms": 1425
+        },
+        {
+          "lang": "en",
+          "text": "during afternoon video calls lately.",
+          "start_sample": 22804,
+          "end_sample": 54278,
+          "start_ms": 1425,
+          "end_ms": 3392
+        }
+      ]
+    },
+    "ja": {
+      "text": "I've been feeling really 眠い during afternoon video calls lately.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3905,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've been feeling really",
+          "start_sample": 0,
+          "end_sample": 22107,
+          "start_ms": 0,
+          "end_ms": 1382
+        },
+        {
+          "lang": "ja",
+          "text": "眠い",
+          "start_sample": 22107,
+          "end_sample": 29317,
+          "start_ms": 1382,
+          "end_ms": 1832
+        },
+        {
+          "lang": "en",
+          "text": "during afternoon video calls lately.",
+          "start_sample": 29317,
+          "end_sample": 62479,
+          "start_ms": 1832,
+          "end_ms": 3905
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

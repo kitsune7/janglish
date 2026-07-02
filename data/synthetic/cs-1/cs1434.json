@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1434.flac",
+  "sentence": "そのショップのdisplayがとてもスタイリッシュでした。",
+  "sample_rate": 16000,
+  "duration_ms": 3489,
+  "reference_speaker": "jp/speaker_076_e83c8bab36f0.mp3",
+  "seed": 1476,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "そのショップの",
+      "start_sample": 0,
+      "end_sample": 12367,
+      "start_ms": 0,
+      "end_ms": 773
+    },
+    {
+      "lang": "en",
+      "text": "display",
+      "start_sample": 12367,
+      "end_sample": 27679,
+      "start_ms": 773,
+      "end_ms": 1730
+    },
+    {
+      "lang": "ja",
+      "text": "がとてもスタイリッシュでした。",
+      "start_sample": 27679,
+      "end_sample": 55831,
+      "start_ms": 1730,
+      "end_ms": 3489
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono shoppu no display ga totemo sutairisshu deshi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7796,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "そのショップの",
+          "start_sample": 0,
+          "end_sample": 47615,
+          "start_ms": 0,
+          "end_ms": 2976
+        },
+        {
+          "lang": "en",
+          "text": "display",
+          "start_sample": 47615,
+          "end_sample": 63327,
+          "start_ms": 2976,
+          "end_ms": 3958
+        },
+        {
+          "lang": "ja",
+          "text": "がとてもスタイリッシュでした。",
+          "start_sample": 63327,
+          "end_sample": 124729,
+          "start_ms": 3958,
+          "end_ms": 7796
+        }
+      ]
+    },
+    "ja": {
+      "text": "そのショップのdisplayがとてもスタイリッシュでした。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3142,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "そのショップの",
+          "start_sample": 0,
+          "end_sample": 12567,
+          "start_ms": 0,
+          "end_ms": 785
+        },
+        {
+          "lang": "en",
+          "text": "display",
+          "start_sample": 12567,
+          "end_sample": 21912,
+          "start_ms": 785,
+          "end_ms": 1370
+        },
+        {
+          "lang": "ja",
+          "text": "がとてもスタイリッシュでした。",
+          "start_sample": 21912,
+          "end_sample": 50264,
+          "start_ms": 1370,
+          "end_ms": 3142
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

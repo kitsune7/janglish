@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8733.flac",
+  "sentence": "配達のnotificationが来たら、すぐに受け取りに行きます。",
+  "sample_rate": 16000,
+  "duration_ms": 3892,
+  "reference_speaker": "jp/speaker_054_a553b6ec02eb.mp3",
+  "seed": 8775,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "配達の",
+      "start_sample": 0,
+      "end_sample": 8148,
+      "start_ms": 0,
+      "end_ms": 509
+    },
+    {
+      "lang": "en",
+      "text": "notification",
+      "start_sample": 8148,
+      "end_sample": 29400,
+      "start_ms": 509,
+      "end_ms": 1838
+    },
+    {
+      "lang": "ja",
+      "text": "が来たら、すぐに受け取りに行きます。",
+      "start_sample": 29400,
+      "end_sample": 62270,
+      "start_ms": 1838,
+      "end_ms": 3892
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "haitatsu no notification ga rai tara sugu ni uketori ni iki masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8540,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "配達の",
+          "start_sample": 0,
+          "end_sample": 26463,
+          "start_ms": 0,
+          "end_ms": 1654
+        },
+        {
+          "lang": "en",
+          "text": "notification",
+          "start_sample": 26463,
+          "end_sample": 48115,
+          "start_ms": 1654,
+          "end_ms": 3007
+        },
+        {
+          "lang": "ja",
+          "text": "が来たら、すぐに受け取りに行きます。",
+          "start_sample": 48115,
+          "end_sample": 136647,
+          "start_ms": 3007,
+          "end_ms": 8540
+        }
+      ]
+    },
+    "ja": {
+      "text": "配達のnotificationが来たら、すぐに受け取りに行きます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3391,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "配達の",
+          "start_sample": 0,
+          "end_sample": 8348,
+          "start_ms": 0,
+          "end_ms": 522
+        },
+        {
+          "lang": "en",
+          "text": "notification",
+          "start_sample": 8348,
+          "end_sample": 21192,
+          "start_ms": 522,
+          "end_ms": 1324
+        },
+        {
+          "lang": "ja",
+          "text": "が来たら、すぐに受け取りに行きます。",
+          "start_sample": 21192,
+          "end_sample": 54262,
+          "start_ms": 1324,
+          "end_ms": 3391
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 195,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

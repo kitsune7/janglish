@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3101.flac",
+  "sentence": "The feedback they gave was 建設的 and actually helped me improve for next time.",
+  "sample_rate": 16000,
+  "duration_ms": 4632,
+  "reference_speaker": "en/speaker_069_688632e24cd4.mp3",
+  "seed": 3143,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The feedback they gave was",
+      "start_sample": 0,
+      "end_sample": 23695,
+      "start_ms": 0,
+      "end_ms": 1481
+    },
+    {
+      "lang": "ja",
+      "text": "建設的",
+      "start_sample": 23695,
+      "end_sample": 35016,
+      "start_ms": 1481,
+      "end_ms": 2188
+    },
+    {
+      "lang": "en",
+      "text": "and actually helped me improve for next time.",
+      "start_sample": 35016,
+      "end_sample": 74105,
+      "start_ms": 2188,
+      "end_ms": 4632
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The feedback they gave was kensetsu teki and actually helped me improve for next time.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5092,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The feedback they gave was",
+          "start_sample": 0,
+          "end_sample": 23895,
+          "start_ms": 0,
+          "end_ms": 1493
+        },
+        {
+          "lang": "ja",
+          "text": "建設的",
+          "start_sample": 23895,
+          "end_sample": 42178,
+          "start_ms": 1493,
+          "end_ms": 2636
+        },
+        {
+          "lang": "en",
+          "text": "and actually helped me improve for next time.",
+          "start_sample": 42178,
+          "end_sample": 81467,
+          "start_ms": 2636,
+          "end_ms": 5092
+        }
+      ]
+    },
+    "ja": {
+      "text": "The feedback they gave was 建設的 and actually helped me improve for next time.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5680,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The feedback they gave was",
+          "start_sample": 0,
+          "end_sample": 33557,
+          "start_ms": 0,
+          "end_ms": 2097
+        },
+        {
+          "lang": "ja",
+          "text": "建設的",
+          "start_sample": 33557,
+          "end_sample": 45278,
+          "start_ms": 2097,
+          "end_ms": 2830
+        },
+        {
+          "lang": "en",
+          "text": "and actually helped me improve for next time.",
+          "start_sample": 45278,
+          "end_sample": 90875,
+          "start_ms": 2830,
+          "end_ms": 5680
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 232,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2725.flac",
+  "sentence": "She asked for her steak 少し焦げ目 and it came out exactly right.",
+  "sample_rate": 16000,
+  "duration_ms": 4326,
+  "reference_speaker": "jp/speaker_055_b88f2897e0f4.mp3",
+  "seed": 2767,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She asked for her steak",
+      "start_sample": 0,
+      "end_sample": 24470,
+      "start_ms": 0,
+      "end_ms": 1529
+    },
+    {
+      "lang": "ja",
+      "text": "少し焦げ目",
+      "start_sample": 24470,
+      "end_sample": 38502,
+      "start_ms": 1529,
+      "end_ms": 2406
+    },
+    {
+      "lang": "en",
+      "text": "and it came out exactly right.",
+      "start_sample": 38502,
+      "end_sample": 69219,
+      "start_ms": 2406,
+      "end_ms": 4326
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She asked for her steak sukoshi kogeme and it came out exactly right.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5266,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She asked for her steak",
+          "start_sample": 0,
+          "end_sample": 24670,
+          "start_ms": 0,
+          "end_ms": 1542
+        },
+        {
+          "lang": "ja",
+          "text": "少し焦げ目",
+          "start_sample": 24670,
+          "end_sample": 53346,
+          "start_ms": 1542,
+          "end_ms": 3334
+        },
+        {
+          "lang": "en",
+          "text": "and it came out exactly right.",
+          "start_sample": 53346,
+          "end_sample": 84263,
+          "start_ms": 3334,
+          "end_ms": 5266
+        }
+      ]
+    },
+    "ja": {
+      "text": "She asked for her steak 少し焦げ目 and it came out exactly right.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5311,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She asked for her steak",
+          "start_sample": 0,
+          "end_sample": 33672,
+          "start_ms": 0,
+          "end_ms": 2104
+        },
+        {
+          "lang": "ja",
+          "text": "少し焦げ目",
+          "start_sample": 33672,
+          "end_sample": 48104,
+          "start_ms": 2104,
+          "end_ms": 3006
+        },
+        {
+          "lang": "en",
+          "text": "and it came out exactly right.",
+          "start_sample": 48104,
+          "end_sample": 84982,
+          "start_ms": 3006,
+          "end_ms": 5311
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 217,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

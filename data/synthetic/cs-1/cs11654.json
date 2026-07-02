@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11654.flac",
+  "sentence": "従妹はとてもtalentedで、絵を描くのが得意です。",
+  "sample_rate": 16000,
+  "duration_ms": 3963,
+  "reference_speaker": "en/speaker_026_a41b49f8d6ee.mp3",
+  "seed": 11696,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "従妹はとても",
+      "start_sample": 0,
+      "end_sample": 19709,
+      "start_ms": 0,
+      "end_ms": 1232
+    },
+    {
+      "lang": "en",
+      "text": "talented",
+      "start_sample": 19709,
+      "end_sample": 31973,
+      "start_ms": 1232,
+      "end_ms": 1998
+    },
+    {
+      "lang": "ja",
+      "text": "で、絵を描くのが得意です。",
+      "start_sample": 31973,
+      "end_sample": 63406,
+      "start_ms": 1998,
+      "end_ms": 3963
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "juumai ha totemo talented de e wo egaku no ga tokui desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9658,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "従妹はとても",
+          "start_sample": 0,
+          "end_sample": 50817,
+          "start_ms": 0,
+          "end_ms": 3176
+        },
+        {
+          "lang": "en",
+          "text": "talented",
+          "start_sample": 50817,
+          "end_sample": 63481,
+          "start_ms": 3176,
+          "end_ms": 3968
+        },
+        {
+          "lang": "ja",
+          "text": "で、絵を描くのが得意です。",
+          "start_sample": 63481,
+          "end_sample": 154535,
+          "start_ms": 3968,
+          "end_ms": 9658
+        }
+      ]
+    },
+    "ja": {
+      "text": "従妹はとてもtalentedで、絵を描くのが得意です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4014,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "従妹はとても",
+          "start_sample": 0,
+          "end_sample": 19909,
+          "start_ms": 0,
+          "end_ms": 1244
+        },
+        {
+          "lang": "en",
+          "text": "talented",
+          "start_sample": 19909,
+          "end_sample": 32595,
+          "start_ms": 1244,
+          "end_ms": 2037
+        },
+        {
+          "lang": "ja",
+          "text": "で、絵を描くのが得意です。",
+          "start_sample": 32595,
+          "end_sample": 64228,
+          "start_ms": 2037,
+          "end_ms": 4014
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 199,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

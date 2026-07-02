@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs265.flac",
+  "sentence": "猫がwindowsillに座って、外の鳥をじっと見つめていました。",
+  "sample_rate": 16000,
+  "duration_ms": 4339,
+  "reference_speaker": "jp/speaker_061_3e186ef591ed.mp3",
+  "seed": 307,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "猫が",
+      "start_sample": 0,
+      "end_sample": 7033,
+      "start_ms": 0,
+      "end_ms": 440
+    },
+    {
+      "lang": "en",
+      "text": "windowsill",
+      "start_sample": 7033,
+      "end_sample": 18503,
+      "start_ms": 440,
+      "end_ms": 1156
+    },
+    {
+      "lang": "ja",
+      "text": "に座って、外の鳥をじっと見つめていました。",
+      "start_sample": 18503,
+      "end_sample": 69421,
+      "start_ms": 1156,
+      "end_ms": 4339
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "neko ga windowsill ni suwatsu te soto no tori wo jitto mitsume te i mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7699,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "猫が",
+          "start_sample": 0,
+          "end_sample": 7699,
+          "start_ms": 0,
+          "end_ms": 481
+        },
+        {
+          "lang": "en",
+          "text": "windowsill",
+          "start_sample": 7699,
+          "end_sample": 19569,
+          "start_ms": 481,
+          "end_ms": 1223
+        },
+        {
+          "lang": "ja",
+          "text": "に座って、外の鳥をじっと見つめていました。",
+          "start_sample": 19569,
+          "end_sample": 123191,
+          "start_ms": 1223,
+          "end_ms": 7699
+        }
+      ]
+    },
+    "ja": {
+      "text": "猫がwindowsillに座って、外の鳥をじっと見つめていました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4380,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "猫が",
+          "start_sample": 0,
+          "end_sample": 7233,
+          "start_ms": 0,
+          "end_ms": 452
+        },
+        {
+          "lang": "en",
+          "text": "windowsill",
+          "start_sample": 7233,
+          "end_sample": 18969,
+          "start_ms": 452,
+          "end_ms": 1186
+        },
+        {
+          "lang": "ja",
+          "text": "に座って、外の鳥をじっと見つめていました。",
+          "start_sample": 18969,
+          "end_sample": 70087,
+          "start_ms": 1186,
+          "end_ms": 4380
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 217,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

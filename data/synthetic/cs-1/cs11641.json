@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11641.flac",
+  "sentence": "祖父はroutineをとても大切にしていて、毎朝同じことをします。",
+  "sample_rate": 16000,
+  "duration_ms": 5845,
+  "reference_speaker": "en/speaker_094_291d9dee87c4.mp3",
+  "seed": 11683,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "祖父は",
+      "start_sample": 0,
+      "end_sample": 7024,
+      "start_ms": 0,
+      "end_ms": 439
+    },
+    {
+      "lang": "en",
+      "text": "routine",
+      "start_sample": 7024,
+      "end_sample": 34008,
+      "start_ms": 439,
+      "end_ms": 2126
+    },
+    {
+      "lang": "ja",
+      "text": "をとても大切にしていて、毎朝同じことをします。",
+      "start_sample": 34008,
+      "end_sample": 93527,
+      "start_ms": 2126,
+      "end_ms": 5845
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sofu ha routine wo totemo taisetsu ni shi te i te maiasa onaji koto wo shi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 12190,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "祖父は",
+          "start_sample": 0,
+          "end_sample": 22418,
+          "start_ms": 0,
+          "end_ms": 1401
+        },
+        {
+          "lang": "en",
+          "text": "routine",
+          "start_sample": 22418,
+          "end_sample": 49802,
+          "start_ms": 1401,
+          "end_ms": 3113
+        },
+        {
+          "lang": "ja",
+          "text": "をとても大切にしていて、毎朝同じことをします。",
+          "start_sample": 49802,
+          "end_sample": 195046,
+          "start_ms": 3113,
+          "end_ms": 12190
+        }
+      ]
+    },
+    "ja": {
+      "text": "祖父はroutineをとても大切にしていて、毎朝同じことをします。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4615,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "祖父は",
+          "start_sample": 0,
+          "end_sample": 7224,
+          "start_ms": 0,
+          "end_ms": 452
+        },
+        {
+          "lang": "en",
+          "text": "routine",
+          "start_sample": 7224,
+          "end_sample": 14127,
+          "start_ms": 452,
+          "end_ms": 883
+        },
+        {
+          "lang": "ja",
+          "text": "をとても大切にしていて、毎朝同じことをします。",
+          "start_sample": 14127,
+          "end_sample": 73846,
+          "start_ms": 883,
+          "end_ms": 4615
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 293,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

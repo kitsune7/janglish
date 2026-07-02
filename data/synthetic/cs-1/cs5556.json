@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5556.flac",
+  "sentence": "After the party, the kitchen was in ひどい shape and took hours to fix.",
+  "sample_rate": 16000,
+  "duration_ms": 6726,
+  "reference_speaker": "jp/speaker_002_02a8841a00d7.mp3",
+  "seed": 5598,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "After the party, the kitchen was in",
+      "start_sample": 0,
+      "end_sample": 58242,
+      "start_ms": 0,
+      "end_ms": 3640
+    },
+    {
+      "lang": "ja",
+      "text": "ひどい",
+      "start_sample": 58242,
+      "end_sample": 64906,
+      "start_ms": 3640,
+      "end_ms": 4057
+    },
+    {
+      "lang": "en",
+      "text": "shape and took hours to fix.",
+      "start_sample": 64906,
+      "end_sample": 107617,
+      "start_ms": 4057,
+      "end_ms": 6726
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "After the party, the kitchen was in hidoi shape and took hours to fix.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7065,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "After the party, the kitchen was in",
+          "start_sample": 0,
+          "end_sample": 58442,
+          "start_ms": 0,
+          "end_ms": 3653
+        },
+        {
+          "lang": "ja",
+          "text": "ひどい",
+          "start_sample": 58442,
+          "end_sample": 70130,
+          "start_ms": 3653,
+          "end_ms": 4383
+        },
+        {
+          "lang": "en",
+          "text": "shape and took hours to fix.",
+          "start_sample": 70130,
+          "end_sample": 113041,
+          "start_ms": 4383,
+          "end_ms": 7065
+        }
+      ]
+    },
+    "ja": {
+      "text": "After the party, the kitchen was in ひどい shape and took hours to fix.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4515,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "After the party, the kitchen was in",
+          "start_sample": 0,
+          "end_sample": 38205,
+          "start_ms": 0,
+          "end_ms": 2388
+        },
+        {
+          "lang": "ja",
+          "text": "ひどい",
+          "start_sample": 38205,
+          "end_sample": 45269,
+          "start_ms": 2388,
+          "end_ms": 2829
+        },
+        {
+          "lang": "en",
+          "text": "shape and took hours to fix.",
+          "start_sample": 45269,
+          "end_sample": 72237,
+          "start_ms": 2829,
+          "end_ms": 4515
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 337,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

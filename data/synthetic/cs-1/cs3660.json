@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3660.flac",
+  "sentence": "This cocktail is so 濃い that I can barely taste the mixer.",
+  "sample_rate": 16000,
+  "duration_ms": 4051,
+  "reference_speaker": "jp/speaker_092_08c69e35de07.mp3",
+  "seed": 3702,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This cocktail is so",
+      "start_sample": 0,
+      "end_sample": 20012,
+      "start_ms": 0,
+      "end_ms": 1251
+    },
+    {
+      "lang": "ja",
+      "text": "濃い",
+      "start_sample": 20012,
+      "end_sample": 26672,
+      "start_ms": 1251,
+      "end_ms": 1667
+    },
+    {
+      "lang": "en",
+      "text": "that I can barely taste the mixer.",
+      "start_sample": 26672,
+      "end_sample": 64809,
+      "start_ms": 1667,
+      "end_ms": 4051
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This cocktail is so koi that I can barely taste the mixer.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4391,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This cocktail is so",
+          "start_sample": 0,
+          "end_sample": 20212,
+          "start_ms": 0,
+          "end_ms": 1263
+        },
+        {
+          "lang": "ja",
+          "text": "濃い",
+          "start_sample": 20212,
+          "end_sample": 31922,
+          "start_ms": 1263,
+          "end_ms": 1995
+        },
+        {
+          "lang": "en",
+          "text": "that I can barely taste the mixer.",
+          "start_sample": 31922,
+          "end_sample": 70259,
+          "start_ms": 1995,
+          "end_ms": 4391
+        }
+      ]
+    },
+    "ja": {
+      "text": "This cocktail is so 濃い that I can barely taste the mixer.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4994,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This cocktail is so",
+          "start_sample": 0,
+          "end_sample": 21821,
+          "start_ms": 0,
+          "end_ms": 1364
+        },
+        {
+          "lang": "ja",
+          "text": "濃い",
+          "start_sample": 21821,
+          "end_sample": 28881,
+          "start_ms": 1364,
+          "end_ms": 1805
+        },
+        {
+          "lang": "en",
+          "text": "that I can barely taste the mixer.",
+          "start_sample": 28881,
+          "end_sample": 79903,
+          "start_ms": 1805,
+          "end_ms": 4994
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6738.flac",
+  "sentence": "The 窓側 seats are reserved, but we can squeeze into the back corner.",
+  "sample_rate": 16000,
+  "duration_ms": 5937,
+  "reference_speaker": "en/speaker_003_7963691c43c8.mp3",
+  "seed": 6780,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2527,
+      "start_ms": 0,
+      "end_ms": 158
+    },
+    {
+      "lang": "ja",
+      "text": "窓側",
+      "start_sample": 2527,
+      "end_sample": 15435,
+      "start_ms": 158,
+      "end_ms": 965
+    },
+    {
+      "lang": "en",
+      "text": "seats are reserved, but we can squeeze into the back corner.",
+      "start_sample": 15435,
+      "end_sample": 94992,
+      "start_ms": 965,
+      "end_ms": 5937
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The madogawa seats are reserved, but we can squeeze into the back corner.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6018,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2727,
+          "start_ms": 0,
+          "end_ms": 170
+        },
+        {
+          "lang": "ja",
+          "text": "窓側",
+          "start_sample": 2727,
+          "end_sample": 16529,
+          "start_ms": 170,
+          "end_ms": 1033
+        },
+        {
+          "lang": "en",
+          "text": "seats are reserved, but we can squeeze into the back corner.",
+          "start_sample": 16529,
+          "end_sample": 96286,
+          "start_ms": 1033,
+          "end_ms": 6018
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 窓側 seats are reserved, but we can squeeze into the back corner.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6213,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6411,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "ja",
+          "text": "窓側",
+          "start_sample": 6411,
+          "end_sample": 19719,
+          "start_ms": 401,
+          "end_ms": 1232
+        },
+        {
+          "lang": "en",
+          "text": "seats are reserved, but we can squeeze into the back corner.",
+          "start_sample": 19719,
+          "end_sample": 99402,
+          "start_ms": 1232,
+          "end_ms": 6213
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 297,
+  "frame_labels": "eeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

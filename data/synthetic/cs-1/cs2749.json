@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2749.flac",
+  "sentence": "He asked for a 折り返し call when she's free.",
+  "sample_rate": 16000,
+  "duration_ms": 2620,
+  "reference_speaker": "jp/speaker_091_bf2621e97933.mp3",
+  "seed": 2791,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He asked for a",
+      "start_sample": 0,
+      "end_sample": 14086,
+      "start_ms": 0,
+      "end_ms": 880
+    },
+    {
+      "lang": "ja",
+      "text": "折り返し",
+      "start_sample": 14086,
+      "end_sample": 25110,
+      "start_ms": 880,
+      "end_ms": 1569
+    },
+    {
+      "lang": "en",
+      "text": "call when she's free.",
+      "start_sample": 25110,
+      "end_sample": 41922,
+      "start_ms": 1569,
+      "end_ms": 2620
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He asked for a orikaeshi call when she's free.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2668,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He asked for a",
+          "start_sample": 0,
+          "end_sample": 14286,
+          "start_ms": 0,
+          "end_ms": 893
+        },
+        {
+          "lang": "ja",
+          "text": "折り返し",
+          "start_sample": 14286,
+          "end_sample": 25683,
+          "start_ms": 893,
+          "end_ms": 1605
+        },
+        {
+          "lang": "en",
+          "text": "call when she's free.",
+          "start_sample": 25683,
+          "end_sample": 42695,
+          "start_ms": 1605,
+          "end_ms": 2668
+        }
+      ]
+    },
+    "ja": {
+      "text": "He asked for a 折り返し call when she's free.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3238,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He asked for a",
+          "start_sample": 0,
+          "end_sample": 19629,
+          "start_ms": 0,
+          "end_ms": 1227
+        },
+        {
+          "lang": "ja",
+          "text": "折り返し",
+          "start_sample": 19629,
+          "end_sample": 31053,
+          "start_ms": 1227,
+          "end_ms": 1941
+        },
+        {
+          "lang": "en",
+          "text": "call when she's free.",
+          "start_sample": 31053,
+          "end_sample": 51804,
+          "start_ms": 1941,
+          "end_ms": 3238
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 132,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

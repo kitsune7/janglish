@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs400.flac",
+  "sentence": "The 曲がり角 at the old library is where the route becomes a bit 複雑.",
+  "sample_rate": 16000,
+  "duration_ms": 7150,
+  "reference_speaker": "en/speaker_088_9950f069efac.mp3",
+  "seed": 17255,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1403,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "曲がり角",
+      "start_sample": 1403,
+      "end_sample": 14145,
+      "start_ms": 88,
+      "end_ms": 884
+    },
+    {
+      "lang": "en",
+      "text": "at the old library is where the route becomes a bit",
+      "start_sample": 14145,
+      "end_sample": 96498,
+      "start_ms": 884,
+      "end_ms": 6031
+    },
+    {
+      "lang": "ja",
+      "text": "複雑.",
+      "start_sample": 96498,
+      "end_sample": 114407,
+      "start_ms": 6031,
+      "end_ms": 7150
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The magarikaku at the old library is where the route becomes a bit fukuzatsu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8961,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1603,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "曲がり角",
+          "start_sample": 1603,
+          "end_sample": 46347,
+          "start_ms": 100,
+          "end_ms": 2897
+        },
+        {
+          "lang": "en",
+          "text": "at the old library is where the route becomes a bit",
+          "start_sample": 46347,
+          "end_sample": 129100,
+          "start_ms": 2897,
+          "end_ms": 8069
+        },
+        {
+          "lang": "ja",
+          "text": "複雑.",
+          "start_sample": 129100,
+          "end_sample": 143372,
+          "start_ms": 8069,
+          "end_ms": 8961
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 曲がり角 at the old library is where the route becomes a bit 複雑.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8254,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3685,
+          "start_ms": 0,
+          "end_ms": 230
+        },
+        {
+          "lang": "ja",
+          "text": "曲がり角",
+          "start_sample": 3685,
+          "end_sample": 16827,
+          "start_ms": 230,
+          "end_ms": 1052
+        },
+        {
+          "lang": "en",
+          "text": "at the old library is where the route becomes a bit",
+          "start_sample": 16827,
+          "end_sample": 113953,
+          "start_ms": 1052,
+          "end_ms": 7122
+        },
+        {
+          "lang": "ja",
+          "text": "複雑.",
+          "start_sample": 113953,
+          "end_sample": 132062,
+          "start_ms": 7122,
+          "end_ms": 8254
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 358,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

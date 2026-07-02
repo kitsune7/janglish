@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9134.flac",
+  "sentence": "The storyline kept me engaged because the 悪役 was so well-written.",
+  "sample_rate": 16000,
+  "duration_ms": 4492,
+  "reference_speaker": "en/speaker_092_0f181b6e11f2.mp3",
+  "seed": 9176,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The storyline kept me engaged because the",
+      "start_sample": 0,
+      "end_sample": 47446,
+      "start_ms": 0,
+      "end_ms": 2965
+    },
+    {
+      "lang": "ja",
+      "text": "悪役",
+      "start_sample": 47446,
+      "end_sample": 54590,
+      "start_ms": 2965,
+      "end_ms": 3412
+    },
+    {
+      "lang": "en",
+      "text": "was so well-written.",
+      "start_sample": 54590,
+      "end_sample": 71874,
+      "start_ms": 3412,
+      "end_ms": 4492
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The storyline kept me engaged because the akuyaku was so well-written.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4873,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The storyline kept me engaged because the",
+          "start_sample": 0,
+          "end_sample": 47646,
+          "start_ms": 0,
+          "end_ms": 2978
+        },
+        {
+          "lang": "ja",
+          "text": "悪役",
+          "start_sample": 47646,
+          "end_sample": 60480,
+          "start_ms": 2978,
+          "end_ms": 3780
+        },
+        {
+          "lang": "en",
+          "text": "was so well-written.",
+          "start_sample": 60480,
+          "end_sample": 77964,
+          "start_ms": 3780,
+          "end_ms": 4873
+        }
+      ]
+    },
+    "ja": {
+      "text": "The storyline kept me engaged because the 悪役 was so well-written.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5838,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The storyline kept me engaged because the",
+          "start_sample": 0,
+          "end_sample": 64681,
+          "start_ms": 0,
+          "end_ms": 4043
+        },
+        {
+          "lang": "ja",
+          "text": "悪役",
+          "start_sample": 64681,
+          "end_sample": 72225,
+          "start_ms": 4043,
+          "end_ms": 4514
+        },
+        {
+          "lang": "en",
+          "text": "was so well-written.",
+          "start_sample": 72225,
+          "end_sample": 93408,
+          "start_ms": 4514,
+          "end_ms": 5838
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10275.flac",
+  "sentence": "お盆の時期はairportがとても混雑しますよね。",
+  "sample_rate": 16000,
+  "duration_ms": 3546,
+  "reference_speaker": "jp/speaker_046_38f0b7b27586.mp3",
+  "seed": 10317,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "お盆の時期は",
+      "start_sample": 0,
+      "end_sample": 13469,
+      "start_ms": 0,
+      "end_ms": 842
+    },
+    {
+      "lang": "en",
+      "text": "airport",
+      "start_sample": 13469,
+      "end_sample": 31031,
+      "start_ms": 842,
+      "end_ms": 1939
+    },
+    {
+      "lang": "ja",
+      "text": "がとても混雑しますよね。",
+      "start_sample": 31031,
+      "end_sample": 56729,
+      "start_ms": 1939,
+      "end_ms": 3546
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "o bon no jiki ha airport ga totemo konzatsu shi masu yo ne",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7858,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お盆の時期は",
+          "start_sample": 0,
+          "end_sample": 66714,
+          "start_ms": 0,
+          "end_ms": 4170
+        },
+        {
+          "lang": "en",
+          "text": "airport",
+          "start_sample": 66714,
+          "end_sample": 84676,
+          "start_ms": 4170,
+          "end_ms": 5292
+        },
+        {
+          "lang": "ja",
+          "text": "がとても混雑しますよね。",
+          "start_sample": 84676,
+          "end_sample": 125730,
+          "start_ms": 5292,
+          "end_ms": 7858
+        }
+      ]
+    },
+    "ja": {
+      "text": "お盆の時期はairportがとても混雑しますよね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2956,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お盆の時期は",
+          "start_sample": 0,
+          "end_sample": 13669,
+          "start_ms": 0,
+          "end_ms": 854
+        },
+        {
+          "lang": "en",
+          "text": "airport",
+          "start_sample": 13669,
+          "end_sample": 21391,
+          "start_ms": 854,
+          "end_ms": 1337
+        },
+        {
+          "lang": "ja",
+          "text": "がとても混雑しますよね。",
+          "start_sample": 21391,
+          "end_sample": 47289,
+          "start_ms": 1337,
+          "end_ms": 2956
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 178,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

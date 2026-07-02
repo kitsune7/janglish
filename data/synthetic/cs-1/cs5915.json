@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5915.flac",
+  "sentence": "The coach said our 守備 needs serious improvement before the playoffs.",
+  "sample_rate": 16000,
+  "duration_ms": 3523,
+  "reference_speaker": "en/speaker_056_b1458b769af8.mp3",
+  "seed": 5957,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The coach said our",
+      "start_sample": 0,
+      "end_sample": 14095,
+      "start_ms": 0,
+      "end_ms": 881
+    },
+    {
+      "lang": "ja",
+      "text": "守備",
+      "start_sample": 14095,
+      "end_sample": 18829,
+      "start_ms": 881,
+      "end_ms": 1177
+    },
+    {
+      "lang": "en",
+      "text": "needs serious improvement before the playoffs.",
+      "start_sample": 18829,
+      "end_sample": 56373,
+      "start_ms": 1177,
+      "end_ms": 3523
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The coach said our shubi needs serious improvement before the playoffs.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3554,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The coach said our",
+          "start_sample": 0,
+          "end_sample": 14295,
+          "start_ms": 0,
+          "end_ms": 893
+        },
+        {
+          "lang": "ja",
+          "text": "守備",
+          "start_sample": 14295,
+          "end_sample": 19114,
+          "start_ms": 893,
+          "end_ms": 1195
+        },
+        {
+          "lang": "en",
+          "text": "needs serious improvement before the playoffs.",
+          "start_sample": 19114,
+          "end_sample": 56858,
+          "start_ms": 1195,
+          "end_ms": 3554
+        }
+      ]
+    },
+    "ja": {
+      "text": "The coach said our 守備 needs serious improvement before the playoffs.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5454,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The coach said our",
+          "start_sample": 0,
+          "end_sample": 24704,
+          "start_ms": 0,
+          "end_ms": 1544
+        },
+        {
+          "lang": "ja",
+          "text": "守備",
+          "start_sample": 24704,
+          "end_sample": 29838,
+          "start_ms": 1544,
+          "end_ms": 1865
+        },
+        {
+          "lang": "en",
+          "text": "needs serious improvement before the playoffs.",
+          "start_sample": 29838,
+          "end_sample": 87272,
+          "start_ms": 1865,
+          "end_ms": 5454
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

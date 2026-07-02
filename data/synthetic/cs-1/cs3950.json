@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3950.flac",
+  "sentence": "The AI model's output was surprisingly 自然 and hard to distinguish from human writing.",
+  "sample_rate": 16000,
+  "duration_ms": 5185,
+  "reference_speaker": "en/speaker_054_103b0eb5778e.mp3",
+  "seed": 3992,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The AI model's output was surprisingly",
+      "start_sample": 0,
+      "end_sample": 37358,
+      "start_ms": 0,
+      "end_ms": 2335
+    },
+    {
+      "lang": "ja",
+      "text": "自然",
+      "start_sample": 37358,
+      "end_sample": 49931,
+      "start_ms": 2335,
+      "end_ms": 3121
+    },
+    {
+      "lang": "en",
+      "text": "and hard to distinguish from human writing.",
+      "start_sample": 49931,
+      "end_sample": 82953,
+      "start_ms": 3121,
+      "end_ms": 5185
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The AI model's output was surprisingly shizen and hard to distinguish from human writing.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4996,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The AI model's output was surprisingly",
+          "start_sample": 0,
+          "end_sample": 37558,
+          "start_ms": 0,
+          "end_ms": 2347
+        },
+        {
+          "lang": "ja",
+          "text": "自然",
+          "start_sample": 37558,
+          "end_sample": 46707,
+          "start_ms": 2347,
+          "end_ms": 2919
+        },
+        {
+          "lang": "en",
+          "text": "and hard to distinguish from human writing.",
+          "start_sample": 46707,
+          "end_sample": 79929,
+          "start_ms": 2919,
+          "end_ms": 4996
+        }
+      ]
+    },
+    "ja": {
+      "text": "The AI model's output was surprisingly 自然 and hard to distinguish from human writing.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8989,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The AI model's output was surprisingly",
+          "start_sample": 0,
+          "end_sample": 72392,
+          "start_ms": 0,
+          "end_ms": 4524
+        },
+        {
+          "lang": "ja",
+          "text": "自然",
+          "start_sample": 72392,
+          "end_sample": 85365,
+          "start_ms": 4524,
+          "end_ms": 5335
+        },
+        {
+          "lang": "en",
+          "text": "and hard to distinguish from human writing.",
+          "start_sample": 85365,
+          "end_sample": 143824,
+          "start_ms": 5335,
+          "end_ms": 8989
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 260,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4601.flac",
+  "sentence": "彼は意識を失う前にfinalな言葉を残した。",
+  "sample_rate": 16000,
+  "duration_ms": 3454,
+  "reference_speaker": "en/speaker_053_ceb29bce299d.mp3",
+  "seed": 4643,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼は意識を失う前に",
+      "start_sample": 0,
+      "end_sample": 29049,
+      "start_ms": 0,
+      "end_ms": 1816
+    },
+    {
+      "lang": "en",
+      "text": "final",
+      "start_sample": 29049,
+      "end_sample": 36990,
+      "start_ms": 1816,
+      "end_ms": 2312
+    },
+    {
+      "lang": "ja",
+      "text": "な言葉を残した。",
+      "start_sample": 36990,
+      "end_sample": 55268,
+      "start_ms": 2312,
+      "end_ms": 3454
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha ishiki wo ushinau mae ni final na kotoba wo nokoshi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6295,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は意識を失う前に",
+          "start_sample": 0,
+          "end_sample": 64638,
+          "start_ms": 0,
+          "end_ms": 4040
+        },
+        {
+          "lang": "en",
+          "text": "final",
+          "start_sample": 64638,
+          "end_sample": 72979,
+          "start_ms": 4040,
+          "end_ms": 4561
+        },
+        {
+          "lang": "ja",
+          "text": "な言葉を残した。",
+          "start_sample": 72979,
+          "end_sample": 100725,
+          "start_ms": 4561,
+          "end_ms": 6295
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼は意識を失う前にfinalな言葉を残した。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3455,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は意識を失う前に",
+          "start_sample": 0,
+          "end_sample": 29249,
+          "start_ms": 0,
+          "end_ms": 1828
+        },
+        {
+          "lang": "en",
+          "text": "final",
+          "start_sample": 29249,
+          "end_sample": 36802,
+          "start_ms": 1828,
+          "end_ms": 2300
+        },
+        {
+          "lang": "ja",
+          "text": "な言葉を残した。",
+          "start_sample": 36802,
+          "end_sample": 55280,
+          "start_ms": 2300,
+          "end_ms": 3455
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 173,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3445.flac",
+  "sentence": "What's the most 高級 piece you've ever bought at a thrift store?",
+  "sample_rate": 16000,
+  "duration_ms": 4898,
+  "reference_speaker": "en/speaker_093_c561f370b1dd.mp3",
+  "seed": 3487,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "What's the most",
+      "start_sample": 0,
+      "end_sample": 13610,
+      "start_ms": 0,
+      "end_ms": 851
+    },
+    {
+      "lang": "ja",
+      "text": "高級",
+      "start_sample": 13610,
+      "end_sample": 21718,
+      "start_ms": 851,
+      "end_ms": 1357
+    },
+    {
+      "lang": "en",
+      "text": "piece you've ever bought at a thrift store?",
+      "start_sample": 21718,
+      "end_sample": 78363,
+      "start_ms": 1357,
+      "end_ms": 4898
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "What's the most koukyuu piece you've ever bought at a thrift store?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4998,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "What's the most",
+          "start_sample": 0,
+          "end_sample": 13810,
+          "start_ms": 0,
+          "end_ms": 863
+        },
+        {
+          "lang": "ja",
+          "text": "高級",
+          "start_sample": 13810,
+          "end_sample": 23124,
+          "start_ms": 863,
+          "end_ms": 1445
+        },
+        {
+          "lang": "en",
+          "text": "piece you've ever bought at a thrift store?",
+          "start_sample": 23124,
+          "end_sample": 79969,
+          "start_ms": 1445,
+          "end_ms": 4998
+        }
+      ]
+    },
+    "ja": {
+      "text": "What's the most 高級 piece you've ever bought at a thrift store?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4976,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "What's the most",
+          "start_sample": 0,
+          "end_sample": 18136,
+          "start_ms": 0,
+          "end_ms": 1134
+        },
+        {
+          "lang": "ja",
+          "text": "高級",
+          "start_sample": 18136,
+          "end_sample": 26644,
+          "start_ms": 1134,
+          "end_ms": 1665
+        },
+        {
+          "lang": "en",
+          "text": "piece you've ever bought at a thrift store?",
+          "start_sample": 26644,
+          "end_sample": 79608,
+          "start_ms": 1665,
+          "end_ms": 4976
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 245,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

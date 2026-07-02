@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8866.flac",
+  "sentence": "このstockは最近ずっと下がり続けていて心配です。",
+  "sample_rate": 16000,
+  "duration_ms": 4341,
+  "reference_speaker": "jp/speaker_076_e83c8bab36f0.mp3",
+  "seed": 8908,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3972,
+      "start_ms": 0,
+      "end_ms": 248
+    },
+    {
+      "lang": "en",
+      "text": "stock",
+      "start_sample": 3972,
+      "end_sample": 18792,
+      "start_ms": 248,
+      "end_ms": 1174
+    },
+    {
+      "lang": "ja",
+      "text": "は最近ずっと下がり続けていて心配です。",
+      "start_sample": 18792,
+      "end_sample": 69461,
+      "start_ms": 1174,
+      "end_ms": 4341
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono stock ha saikin zutto sagari tsuzuke te i te shinpai desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6829,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5446,
+          "start_ms": 0,
+          "end_ms": 340
+        },
+        {
+          "lang": "en",
+          "text": "stock",
+          "start_sample": 5446,
+          "end_sample": 20666,
+          "start_ms": 340,
+          "end_ms": 1292
+        },
+        {
+          "lang": "ja",
+          "text": "は最近ずっと下がり続けていて心配です。",
+          "start_sample": 20666,
+          "end_sample": 109260,
+          "start_ms": 1292,
+          "end_ms": 6829
+        }
+      ]
+    },
+    "ja": {
+      "text": "このstockは最近ずっと下がり続けていて心配です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3871,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4172,
+          "start_ms": 0,
+          "end_ms": 261
+        },
+        {
+          "lang": "en",
+          "text": "stock",
+          "start_sample": 4172,
+          "end_sample": 11072,
+          "start_ms": 261,
+          "end_ms": 692
+        },
+        {
+          "lang": "ja",
+          "text": "は最近ずっと下がり続けていて心配です。",
+          "start_sample": 11072,
+          "end_sample": 61941,
+          "start_ms": 692,
+          "end_ms": 3871
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "jjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

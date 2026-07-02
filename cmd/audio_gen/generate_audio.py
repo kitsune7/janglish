@@ -65,6 +65,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import multiprocessing as mp
 import random
 import re
 import sys
@@ -103,6 +104,8 @@ TRIM_THRESH = 0.02  # energy-trim fallback: fraction of peak counted as silence
 MAX_ATTEMPTS = 3
 ATTEMPT_TEMPERATURES = [0.7, 0.5, 0.35]
 CHARS_PER_SEC = {"en": 13.0, "ja": 7.0}  # rough speaking rates
+TTS_CHAR_LIMITS = {"ja": 70}  # XTTS warns/truncates Japanese text above 71 chars.
+CHUNK_BREAK_RE = re.compile(r"([。！？!?、,;；:：]|\s+)")
 
 LANG_TO_CHAR = {"en": "e", "ja": "j"}
 
@@ -253,6 +256,42 @@ def _render_text_for_language(
         _romanize_japanese_text(span.text, tagger, converter) if span.lang == "ja" else span.text for span in spans
     ]
     return " ".join(part for part in parts if part.strip())
+
+
+def _split_tts_text(text: str, lang: str) -> list[str]:
+    """Split render text before it reaches XTTS's per-language character cap."""
+    limit = TTS_CHAR_LIMITS.get(lang)
+    if limit is None or len(text) <= limit:
+        return [text]
+
+    chunks: list[str] = []
+    current = ""
+
+    for part in CHUNK_BREAK_RE.split(text):
+        if not part:
+            continue
+        candidate = current + part
+        if len(candidate) <= limit:
+            current = candidate
+            continue
+        if current.strip():
+            chunks.append(current.strip())
+            current = ""
+        if len(part) <= limit:
+            current = part
+            continue
+        for start in range(0, len(part), limit):
+            piece = part[start : start + limit].strip()
+            if piece:
+                chunks.append(piece)
+
+    if current.strip():
+        chunks.append(current.strip())
+
+    over_limit = [chunk for chunk in chunks if len(chunk) > limit]
+    if over_limit:
+        raise ValueError(f"cannot split {lang} TTS text below {limit} chars: {over_limit[0]!r}")
+    return chunks
 
 
 # ---- Audio utilities --------------------------------------------------------
@@ -567,6 +606,17 @@ class XTTSCodeSwitchSynthesizer:
         )
         return best
 
+    def _generate_chunks_checked(self, text: str, lang: str, ref_path: Path, budget_s: float) -> np.ndarray:
+        chunks = _split_tts_text(text, lang)
+        if len(chunks) == 1:
+            return self._generate_checked(chunks[0], lang, ref_path, budget_s)
+
+        audio_chunks = []
+        for chunk in chunks:
+            chunk_budget = max(len(chunk) / CHARS_PER_SEC[lang], 0.4) * 2.5 + 0.6
+            audio_chunks.append(self._generate_checked(chunk, lang, ref_path, chunk_budget))
+        return np.concatenate(audio_chunks).astype(np.float32)
+
     def _align_render(self, audio: np.ndarray, spans: list[Span], expected: list[float], lang: str) -> RenderResult:
         pad = int(TARGET_SR * TRIM_PAD_MS / 1000)
         alignment_mode = "forced"
@@ -601,7 +651,7 @@ class XTTSCodeSwitchSynthesizer:
     ) -> RenderResult:
         text = _render_text_for_language(sentence, spans, lang, self.tagger, self.kakasi)
         budget_base_s = max(sum(expected), len(text) / CHARS_PER_SEC[lang])
-        audio = self._generate_checked(text, lang, ref_path, budget_base_s * 2.5 + 0.6)
+        audio = self._generate_chunks_checked(text, lang, ref_path, budget_base_s * 2.5 + 0.6)
         render = self._align_render(audio, spans, expected, lang)
         render.text = text
         return render
@@ -683,7 +733,24 @@ class XTTSCodeSwitchSynthesizer:
 # ---- CSV iteration ----------------------------------------------------------
 
 
-def iter_rows(csv_path: Path, has_header: bool) -> Iterator[tuple[str, str]]:
+def synthetic_folder_prefix(folder: str | None) -> str | None:
+    if folder is None:
+        return None
+
+    folder = folder.strip().replace("\\", "/").strip("/")
+    if not folder:
+        return None
+
+    if folder.startswith("data/synthetic/"):
+        folder = folder.removeprefix("data/")
+    elif folder != "synthetic" and not folder.startswith("synthetic/"):
+        folder = f"synthetic/{folder}"
+
+    return f"{folder}/"
+
+
+def iter_rows(csv_path: Path, has_header: bool, synthetic_folder: str | None = None) -> Iterator[tuple[str, str]]:
+    synthetic_prefix = synthetic_folder_prefix(synthetic_folder)
     with csv_path.open("r", encoding="utf-8", newline="") as f:
         reader = csv.reader(f, delimiter="|")
         if has_header:
@@ -693,7 +760,10 @@ def iter_rows(csv_path: Path, has_header: bool) -> Iterator[tuple[str, str]]:
                 continue
             path = row[0].strip()
             text = row[1].strip()
-            if path.replace("\\", "/").split("/", 1)[0].lower() == "manual":
+            normalized_path = path.replace("\\", "/")
+            if normalized_path.split("/", 1)[0].lower() == "manual":
+                continue
+            if synthetic_prefix is not None and not normalized_path.startswith(synthetic_prefix):
                 continue
             if path and text:
                 yield path, text
@@ -737,84 +807,37 @@ def write_debug_renders(wav_path: Path, result: SynthesisResult) -> None:
 # ---- Main -------------------------------------------------------------------
 
 
-def main():
-    ap = argparse.ArgumentParser(
-        description="Generate same-speaker EN/JA code-switched audio + frame labels via XTTS v2."
-    )
-    ap.add_argument("csv", type=Path, help="Pipe-delimited CSV: path | sentence")
-    ap.add_argument(
-        "--references",
-        type=Path,
-        nargs="+",
-        required=True,
-        help="One or more directories of reference speaker clips (.wav/.mp3/.flac, 3-10s ideal)",
-    )
-    ap.add_argument("--out-root", type=Path, default=Path("."), help="Base dir CSV paths resolve against")
-    ap.add_argument("--has-header", action="store_true")
-    ap.add_argument(
-        "--seed",
-        type=int,
-        default=42,
-        help="Base seed for reference selection and per-row TTS sampling",
-    )
-    ap.add_argument("--device", default="cuda", help="cuda / cpu / mps (XTTS)")
-    ap.add_argument(
-        "--align-device",
-        default="cpu",
-        help="Device for the MMS_FA forced aligner (cpu is fast enough and avoids mps op gaps)",
-    )
-    ap.add_argument("--skip-existing", action="store_true", help="Skip rows whose WAV and JSON both already exist")
-    ap.add_argument(
-        "--debug-renders",
-        action="store_true",
-        help="Write intermediate full-sentence render WAV/JSON files next to each final output",
-    )
-    ap.add_argument(
-        "--boundary-ambig-ms",
-        type=int,
-        default=0,
-        help="Mark frame labels within +/- this many ms of a language switch as 'a'",
-    )
-    args = ap.parse_args()
-
-    if not args.csv.exists():
-        print(f"CSV not found: {args.csv}", file=sys.stderr)
-        sys.exit(1)
+def run_generation(args: argparse.Namespace, worker_index: int = 0, worker_count: int = 1) -> tuple[int, int, int]:
     reference_dirs = [p.resolve() for p in args.references]
-    missing_reference_dirs = [p for p in reference_dirs if not p.is_dir()]
-    if missing_reference_dirs:
-        print(
-            "References dir not found: " + ", ".join(str(p) for p in missing_reference_dirs),
-            file=sys.stderr,
-        )
-        sys.exit(1)
-
-    seed_everything(args.seed)
-    rng = random.Random(args.seed)
+    seed_everything(args.seed + worker_index)
     synth = XTTSCodeSwitchSynthesizer(reference_dirs, device=args.device, align_device=args.align_device)
+    worker_label = f"worker {worker_index + 1}/{worker_count}: " if worker_count > 1 else ""
     print(
-        f"Loaded XTTS v2 on {args.device} + MMS_FA aligner on {args.align_device}; "
+        f"{worker_label}Loaded XTTS v2 on {args.device} + MMS_FA aligner on {args.align_device}; "
         f"{len(synth.references)} reference clips across {len(reference_dirs)} reference dir(s)."
     )
 
-    rows = list(iter_rows(args.csv, args.has_header))
+    rows = list(iter_rows(args.csv, args.has_header, args.synthetic_folder))
     if not rows:
         print("No rows to process.", file=sys.stderr)
-        sys.exit(0)
+        return 0, 0, 0
 
     ok = failures = skipped = 0
     for i, (rel_path, sentence) in enumerate(rows, 1):
+        if (i - 1) % worker_count != worker_index:
+            continue
+
         wav_path = args.out_root / rel_path
         json_path = wav_path.with_suffix(".json")
 
         if args.skip_existing and wav_path.exists() and json_path.exists():
-            print(f"[{i}/{len(rows)}] SKIP   {rel_path}")
+            print(f"{worker_label}[{i}/{len(rows)}] SKIP   {rel_path}")
             skipped += 1
             continue
 
         wav_path.parent.mkdir(parents=True, exist_ok=True)
-        ref = synth.pick_reference(rng)
         row_seed = args.seed + i
+        ref = synth.pick_reference(random.Random(row_seed))
 
         try:
             seed_everything(row_seed)
@@ -822,7 +845,7 @@ def main():
             audio = result.audio
             spans = result.spans
             if audio.size == 0:
-                print(f"[{i}/{len(rows)}] EMPTY  {rel_path}")
+                print(f"{worker_label}[{i}/{len(rows)}] EMPTY  {rel_path}")
                 failures += 1
                 continue
 
@@ -859,14 +882,107 @@ def main():
 
             ok += 1
             print(
-                f"[{i}/{len(rows)}] OK     {rel_path}  ref={ref.name}  lang={result.tts_language}  "
+                f"{worker_label}[{i}/{len(rows)}] OK     {rel_path}  ref={ref.name}  lang={result.tts_language}  "
                 f"align={result.alignment}  {audio.size / TARGET_SR:.2f}s {len(spans)} span(s)"
             )
         except Exception as e:  # noqa: BLE001 — log and move on
-            print(f"[{i}/{len(rows)}] FAIL   {rel_path}: {e}", file=sys.stderr)
+            print(f"{worker_label}[{i}/{len(rows)}] FAIL   {rel_path}: {e}", file=sys.stderr)
             failures += 1
 
-    print(f"\nDone. {ok} generated, {skipped} skipped, {failures} failed.")
+    print(f"\n{worker_label}Done. {ok} generated, {skipped} skipped, {failures} failed.")
+    return ok, skipped, failures
+
+
+def run_generation_workers(args: argparse.Namespace) -> int:
+    ctx = mp.get_context("spawn")
+    processes = [
+        ctx.Process(target=run_generation, args=(args, worker_index, args.workers))
+        for worker_index in range(args.workers)
+    ]
+    for process in processes:
+        process.start()
+    for process in processes:
+        process.join()
+
+    failed = [process.exitcode for process in processes if process.exitcode]
+    if failed:
+        print(f"{len(failed)} worker process(es) failed: {failed}", file=sys.stderr)
+        return 1
+    return 0
+
+
+def main():
+    ap = argparse.ArgumentParser(
+        description="Generate same-speaker EN/JA code-switched audio + frame labels via XTTS v2."
+    )
+    ap.add_argument("csv", type=Path, help="Pipe-delimited CSV: path | sentence")
+    ap.add_argument(
+        "--references",
+        type=Path,
+        nargs="+",
+        required=True,
+        help="One or more directories of reference speaker clips (.wav/.mp3/.flac, 3-10s ideal)",
+    )
+    ap.add_argument("--out-root", type=Path, default=Path("."), help="Base dir CSV paths resolve against")
+    ap.add_argument("--has-header", action="store_true")
+    ap.add_argument(
+        "--synthetic-folder",
+        help=(
+            "Only generate rows under this synthetic folder. Accepts values like "
+            "'en', 'cs-2', 'synthetic/en', or 'data/synthetic/en'."
+        ),
+    )
+    ap.add_argument(
+        "--seed",
+        type=int,
+        default=42,
+        help="Base seed for reference selection and per-row TTS sampling",
+    )
+    ap.add_argument("--device", default="cuda", help="cuda / cpu / mps (XTTS)")
+    ap.add_argument(
+        "--align-device",
+        default="cpu",
+        help="Device for the MMS_FA forced aligner (cpu is fast enough and avoids mps op gaps)",
+    )
+    ap.add_argument("--skip-existing", action="store_true", help="Skip rows whose WAV and JSON both already exist")
+    ap.add_argument(
+        "--debug-renders",
+        action="store_true",
+        help="Write intermediate full-sentence render WAV/JSON files next to each final output",
+    )
+    ap.add_argument(
+        "--boundary-ambig-ms",
+        type=int,
+        default=0,
+        help="Mark frame labels within +/- this many ms of a language switch as 'a'",
+    )
+    ap.add_argument(
+        "--workers",
+        type=int,
+        default=1,
+        help="Number of independent generator processes. Each worker loads its own XTTS model.",
+    )
+    args = ap.parse_args()
+
+    if not args.csv.exists():
+        print(f"CSV not found: {args.csv}", file=sys.stderr)
+        sys.exit(1)
+    reference_dirs = [p.resolve() for p in args.references]
+    missing_reference_dirs = [p for p in reference_dirs if not p.is_dir()]
+    if missing_reference_dirs:
+        print(
+            "References dir not found: " + ", ".join(str(p) for p in missing_reference_dirs),
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
+    if args.workers < 1:
+        print("--workers must be >= 1", file=sys.stderr)
+        sys.exit(1)
+    if args.workers == 1:
+        run_generation(args)
+        return
+    sys.exit(run_generation_workers(args))
 
 
 if __name__ == "__main__":

@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs1683.flac",
+  "sentence": "She kept her 余裕 behind the wheel even though the 霧 was incredibly thick.",
+  "sample_rate": 16000,
+  "duration_ms": 3991,
+  "reference_speaker": "jp/speaker_024_53a01817659b.mp3",
+  "seed": 18538,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She kept her",
+      "start_sample": 0,
+      "end_sample": 7980,
+      "start_ms": 0,
+      "end_ms": 499
+    },
+    {
+      "lang": "ja",
+      "text": "余裕",
+      "start_sample": 7980,
+      "end_sample": 13521,
+      "start_ms": 499,
+      "end_ms": 845
+    },
+    {
+      "lang": "en",
+      "text": "behind the wheel even though the",
+      "start_sample": 13521,
+      "end_sample": 39589,
+      "start_ms": 845,
+      "end_ms": 2474
+    },
+    {
+      "lang": "ja",
+      "text": "霧",
+      "start_sample": 39589,
+      "end_sample": 45772,
+      "start_ms": 2474,
+      "end_ms": 2861
+    },
+    {
+      "lang": "en",
+      "text": "was incredibly thick.",
+      "start_sample": 45772,
+      "end_sample": 63856,
+      "start_ms": 2861,
+      "end_ms": 3991
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She kept her yoyuu behind the wheel even though the kiri was incredibly thick.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4010,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She kept her",
+          "start_sample": 0,
+          "end_sample": 8180,
+          "start_ms": 0,
+          "end_ms": 511
+        },
+        {
+          "lang": "ja",
+          "text": "余裕",
+          "start_sample": 8180,
+          "end_sample": 13955,
+          "start_ms": 511,
+          "end_ms": 872
+        },
+        {
+          "lang": "en",
+          "text": "behind the wheel even though the",
+          "start_sample": 13955,
+          "end_sample": 40423,
+          "start_ms": 872,
+          "end_ms": 2526
+        },
+        {
+          "lang": "ja",
+          "text": "霧",
+          "start_sample": 40423,
+          "end_sample": 45877,
+          "start_ms": 2526,
+          "end_ms": 2867
+        },
+        {
+          "lang": "en",
+          "text": "was incredibly thick.",
+          "start_sample": 45877,
+          "end_sample": 64161,
+          "start_ms": 2867,
+          "end_ms": 4010
+        }
+      ]
+    },
+    "ja": {
+      "text": "She kept her 余裕 behind the wheel even though the 霧 was incredibly thick.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4837,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She kept her",
+          "start_sample": 0,
+          "end_sample": 9312,
+          "start_ms": 0,
+          "end_ms": 582
+        },
+        {
+          "lang": "ja",
+          "text": "余裕",
+          "start_sample": 9312,
+          "end_sample": 15253,
+          "start_ms": 582,
+          "end_ms": 953
+        },
+        {
+          "lang": "en",
+          "text": "behind the wheel even though the",
+          "start_sample": 15253,
+          "end_sample": 47848,
+          "start_ms": 953,
+          "end_ms": 2990
+        },
+        {
+          "lang": "ja",
+          "text": "霧",
+          "start_sample": 47848,
+          "end_sample": 54431,
+          "start_ms": 2990,
+          "end_ms": 3402
+        },
+        {
+          "lang": "en",
+          "text": "was incredibly thick.",
+          "start_sample": 54431,
+          "end_sample": 77389,
+          "start_ms": 3402,
+          "end_ms": 4837
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 200,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

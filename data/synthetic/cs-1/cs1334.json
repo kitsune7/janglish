@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1334.flac",
+  "sentence": "The weather forecast says a 台風 is heading toward the coast this weekend.",
+  "sample_rate": 16000,
+  "duration_ms": 5235,
+  "reference_speaker": "jp/speaker_050_3d86fef9a9be.mp3",
+  "seed": 1376,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The weather forecast says a",
+      "start_sample": 0,
+      "end_sample": 32068,
+      "start_ms": 0,
+      "end_ms": 2004
+    },
+    {
+      "lang": "ja",
+      "text": "台風",
+      "start_sample": 32068,
+      "end_sample": 45921,
+      "start_ms": 2004,
+      "end_ms": 2870
+    },
+    {
+      "lang": "en",
+      "text": "is heading toward the coast this weekend.",
+      "start_sample": 45921,
+      "end_sample": 83767,
+      "start_ms": 2870,
+      "end_ms": 5235
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The weather forecast says a taifuu is heading toward the coast this weekend.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5117,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The weather forecast says a",
+          "start_sample": 0,
+          "end_sample": 32268,
+          "start_ms": 0,
+          "end_ms": 2017
+        },
+        {
+          "lang": "ja",
+          "text": "台風",
+          "start_sample": 32268,
+          "end_sample": 43827,
+          "start_ms": 2017,
+          "end_ms": 2739
+        },
+        {
+          "lang": "en",
+          "text": "is heading toward the coast this weekend.",
+          "start_sample": 43827,
+          "end_sample": 81873,
+          "start_ms": 2739,
+          "end_ms": 5117
+        }
+      ]
+    },
+    "ja": {
+      "text": "The weather forecast says a 台風 is heading toward the coast this weekend.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7026,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The weather forecast says a",
+          "start_sample": 0,
+          "end_sample": 36673,
+          "start_ms": 0,
+          "end_ms": 2292
+        },
+        {
+          "lang": "ja",
+          "text": "台風",
+          "start_sample": 36673,
+          "end_sample": 50926,
+          "start_ms": 2292,
+          "end_ms": 3183
+        },
+        {
+          "lang": "en",
+          "text": "is heading toward the coast this weekend.",
+          "start_sample": 50926,
+          "end_sample": 112421,
+          "start_ms": 3183,
+          "end_ms": 7026
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 262,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

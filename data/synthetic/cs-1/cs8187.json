@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8187.flac",
+  "sentence": "あのsquareまで歩いてどのくらいかかりますか？",
+  "sample_rate": 16000,
+  "duration_ms": 2035,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 8229,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの",
+      "start_sample": 0,
+      "end_sample": 2222,
+      "start_ms": 0,
+      "end_ms": 139
+    },
+    {
+      "lang": "en",
+      "text": "square",
+      "start_sample": 2222,
+      "end_sample": 9992,
+      "start_ms": 139,
+      "end_ms": 624
+    },
+    {
+      "lang": "ja",
+      "text": "まで歩いてどのくらいかかりますか？",
+      "start_sample": 9992,
+      "end_sample": 32562,
+      "start_ms": 624,
+      "end_ms": 2035
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano square made arui te dono kurai kakari masu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6788,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 6726,
+          "start_ms": 0,
+          "end_ms": 420
+        },
+        {
+          "lang": "en",
+          "text": "square",
+          "start_sample": 6726,
+          "end_sample": 14896,
+          "start_ms": 420,
+          "end_ms": 931
+        },
+        {
+          "lang": "ja",
+          "text": "まで歩いてどのくらいかかりますか？",
+          "start_sample": 14896,
+          "end_sample": 108602,
+          "start_ms": 931,
+          "end_ms": 6788
+        }
+      ]
+    },
+    "ja": {
+      "text": "あのsquareまで歩いてどのくらいかかりますか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 1918,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 2422,
+          "start_ms": 0,
+          "end_ms": 151
+        },
+        {
+          "lang": "en",
+          "text": "square",
+          "start_sample": 2422,
+          "end_sample": 7915,
+          "start_ms": 151,
+          "end_ms": 495
+        },
+        {
+          "lang": "ja",
+          "text": "まで歩いてどのくらいかかりますか？",
+          "start_sample": 7915,
+          "end_sample": 30685,
+          "start_ms": 495,
+          "end_ms": 1918
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 102,
+  "frame_labels": "jjjjjjjeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

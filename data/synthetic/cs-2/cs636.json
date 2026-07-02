@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs636.flac",
+  "sentence": "The chat thread was full of 誤解 because nobody checked the original 文脈.",
+  "sample_rate": 16000,
+  "duration_ms": 4484,
+  "reference_speaker": "en/speaker_029_435fb74c25c3.mp3",
+  "seed": 17491,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The chat thread was full of",
+      "start_sample": 0,
+      "end_sample": 21924,
+      "start_ms": 0,
+      "end_ms": 1370
+    },
+    {
+      "lang": "ja",
+      "text": "誤解",
+      "start_sample": 21924,
+      "end_sample": 28414,
+      "start_ms": 1370,
+      "end_ms": 1776
+    },
+    {
+      "lang": "en",
+      "text": "because nobody checked the original",
+      "start_sample": 28414,
+      "end_sample": 62965,
+      "start_ms": 1776,
+      "end_ms": 3935
+    },
+    {
+      "lang": "ja",
+      "text": "文脈.",
+      "start_sample": 62965,
+      "end_sample": 71737,
+      "start_ms": 3935,
+      "end_ms": 4484
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The chat thread was full of gokai because nobody checked the original bunmyaku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5150,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The chat thread was full of",
+          "start_sample": 0,
+          "end_sample": 22124,
+          "start_ms": 0,
+          "end_ms": 1383
+        },
+        {
+          "lang": "ja",
+          "text": "誤解",
+          "start_sample": 22124,
+          "end_sample": 35110,
+          "start_ms": 1383,
+          "end_ms": 2194
+        },
+        {
+          "lang": "en",
+          "text": "because nobody checked the original",
+          "start_sample": 35110,
+          "end_sample": 70061,
+          "start_ms": 2194,
+          "end_ms": 4379
+        },
+        {
+          "lang": "ja",
+          "text": "文脈.",
+          "start_sample": 70061,
+          "end_sample": 82404,
+          "start_ms": 4379,
+          "end_ms": 5150
+        }
+      ]
+    },
+    "ja": {
+      "text": "The chat thread was full of 誤解 because nobody checked the original 文脈.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5428,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The chat thread was full of",
+          "start_sample": 0,
+          "end_sample": 36531,
+          "start_ms": 0,
+          "end_ms": 2283
+        },
+        {
+          "lang": "ja",
+          "text": "誤解",
+          "start_sample": 36531,
+          "end_sample": 43421,
+          "start_ms": 2283,
+          "end_ms": 2714
+        },
+        {
+          "lang": "en",
+          "text": "because nobody checked the original",
+          "start_sample": 43421,
+          "end_sample": 77870,
+          "start_ms": 2714,
+          "end_ms": 4867
+        },
+        {
+          "lang": "ja",
+          "text": "文脈.",
+          "start_sample": 77870,
+          "end_sample": 86842,
+          "start_ms": 4867,
+          "end_ms": 5428
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

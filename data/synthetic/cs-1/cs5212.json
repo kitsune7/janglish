@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5212.flac",
+  "sentence": "We threw a surprise party for our 従兄弟 and he genuinely had no idea.",
+  "sample_rate": 16000,
+  "duration_ms": 5447,
+  "reference_speaker": "jp/speaker_045_fda9acd0702e.mp3",
+  "seed": 5254,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We threw a surprise party for our",
+      "start_sample": 0,
+      "end_sample": 46401,
+      "start_ms": 0,
+      "end_ms": 2900
+    },
+    {
+      "lang": "ja",
+      "text": "従兄弟",
+      "start_sample": 46401,
+      "end_sample": 55004,
+      "start_ms": 2900,
+      "end_ms": 3438
+    },
+    {
+      "lang": "en",
+      "text": "and he genuinely had no idea.",
+      "start_sample": 55004,
+      "end_sample": 87153,
+      "start_ms": 3438,
+      "end_ms": 5447
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We threw a surprise party for our itoko and he genuinely had no idea.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5725,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We threw a surprise party for our",
+          "start_sample": 0,
+          "end_sample": 46601,
+          "start_ms": 0,
+          "end_ms": 2913
+        },
+        {
+          "lang": "ja",
+          "text": "従兄弟",
+          "start_sample": 46601,
+          "end_sample": 59253,
+          "start_ms": 2913,
+          "end_ms": 3703
+        },
+        {
+          "lang": "en",
+          "text": "and he genuinely had no idea.",
+          "start_sample": 59253,
+          "end_sample": 91602,
+          "start_ms": 3703,
+          "end_ms": 5725
+        }
+      ]
+    },
+    "ja": {
+      "text": "We threw a surprise party for our 従兄弟 and he genuinely had no idea.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4542,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We threw a surprise party for our",
+          "start_sample": 0,
+          "end_sample": 30065,
+          "start_ms": 0,
+          "end_ms": 1879
+        },
+        {
+          "lang": "ja",
+          "text": "従兄弟",
+          "start_sample": 30065,
+          "end_sample": 39068,
+          "start_ms": 1879,
+          "end_ms": 2442
+        },
+        {
+          "lang": "en",
+          "text": "and he genuinely had no idea.",
+          "start_sample": 39068,
+          "end_sample": 72667,
+          "start_ms": 2442,
+          "end_ms": 4542
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 273,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

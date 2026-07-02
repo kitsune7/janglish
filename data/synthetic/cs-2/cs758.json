@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs758.flac",
+  "sentence": "The bar opened with a burst of 活気, and every corner had its own 温かみ.",
+  "sample_rate": 16000,
+  "duration_ms": 4367,
+  "reference_speaker": "jp/speaker_088_9d72b694e145.mp3",
+  "seed": 17613,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The bar opened with a burst of",
+      "start_sample": 0,
+      "end_sample": 25626,
+      "start_ms": 0,
+      "end_ms": 1602
+    },
+    {
+      "lang": "ja",
+      "text": "活気,",
+      "start_sample": 25626,
+      "end_sample": 37905,
+      "start_ms": 1602,
+      "end_ms": 2369
+    },
+    {
+      "lang": "en",
+      "text": "and every corner had its own",
+      "start_sample": 37905,
+      "end_sample": 61247,
+      "start_ms": 2369,
+      "end_ms": 3828
+    },
+    {
+      "lang": "ja",
+      "text": "温かみ.",
+      "start_sample": 61247,
+      "end_sample": 69872,
+      "start_ms": 3828,
+      "end_ms": 4367
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The bar opened with a burst of kakki and every corner had its own nurukami",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4271,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bar opened with a burst of",
+          "start_sample": 0,
+          "end_sample": 25826,
+          "start_ms": 0,
+          "end_ms": 1614
+        },
+        {
+          "lang": "ja",
+          "text": "活気,",
+          "start_sample": 25826,
+          "end_sample": 32724,
+          "start_ms": 1614,
+          "end_ms": 2045
+        },
+        {
+          "lang": "en",
+          "text": "and every corner had its own",
+          "start_sample": 32724,
+          "end_sample": 56466,
+          "start_ms": 2045,
+          "end_ms": 3529
+        },
+        {
+          "lang": "ja",
+          "text": "温かみ.",
+          "start_sample": 56466,
+          "end_sample": 68334,
+          "start_ms": 3529,
+          "end_ms": 4271
+        }
+      ]
+    },
+    "ja": {
+      "text": "The bar opened with a burst of 活気, and every corner had its own 温かみ.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6239,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bar opened with a burst of",
+          "start_sample": 0,
+          "end_sample": 43656,
+          "start_ms": 0,
+          "end_ms": 2728
+        },
+        {
+          "lang": "ja",
+          "text": "活気,",
+          "start_sample": 43656,
+          "end_sample": 56335,
+          "start_ms": 2728,
+          "end_ms": 3521
+        },
+        {
+          "lang": "en",
+          "text": "and every corner had its own",
+          "start_sample": 56335,
+          "end_sample": 91003,
+          "start_ms": 3521,
+          "end_ms": 5688
+        },
+        {
+          "lang": "ja",
+          "text": "温かみ.",
+          "start_sample": 91003,
+          "end_sample": 99828,
+          "start_ms": 5688,
+          "end_ms": 6239
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 219,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

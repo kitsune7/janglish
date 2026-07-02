@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7746.flac",
+  "sentence": "このcapsuleは食後に一錠ずつ飲んでください。",
+  "sample_rate": 16000,
+  "duration_ms": 2974,
+  "reference_speaker": "jp/speaker_008_925570fa5738.mp3",
+  "seed": 7788,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 2534,
+      "start_ms": 0,
+      "end_ms": 158
+    },
+    {
+      "lang": "en",
+      "text": "capsule",
+      "start_sample": 2534,
+      "end_sample": 11114,
+      "start_ms": 158,
+      "end_ms": 695
+    },
+    {
+      "lang": "ja",
+      "text": "は食後に一錠ずつ飲んでください。",
+      "start_sample": 11114,
+      "end_sample": 47590,
+      "start_ms": 695,
+      "end_ms": 2974
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono capsule ha shokugo ni ichi jou zutsu non de kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6414,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4489,
+          "start_ms": 0,
+          "end_ms": 281
+        },
+        {
+          "lang": "en",
+          "text": "capsule",
+          "start_sample": 4489,
+          "end_sample": 13469,
+          "start_ms": 281,
+          "end_ms": 842
+        },
+        {
+          "lang": "ja",
+          "text": "は食後に一錠ずつ飲んでください。",
+          "start_sample": 13469,
+          "end_sample": 102625,
+          "start_ms": 842,
+          "end_ms": 6414
+        }
+      ]
+    },
+    "ja": {
+      "text": "このcapsuleは食後に一錠ずつ飲んでください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3036,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 2734,
+          "start_ms": 0,
+          "end_ms": 171
+        },
+        {
+          "lang": "en",
+          "text": "capsule",
+          "start_sample": 2734,
+          "end_sample": 11905,
+          "start_ms": 171,
+          "end_ms": 744
+        },
+        {
+          "lang": "ja",
+          "text": "は食後に一錠ずつ飲んでください。",
+          "start_sample": 11905,
+          "end_sample": 48581,
+          "start_ms": 744,
+          "end_ms": 3036
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 149,
+  "frame_labels": "jjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

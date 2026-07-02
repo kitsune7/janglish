@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs837.flac",
+  "sentence": "The car dealer's 見積もり was higher than expected but the trade-in offer was 公平.",
+  "sample_rate": 16000,
+  "duration_ms": 6224,
+  "reference_speaker": "en/speaker_052_622e6181fea2.mp3",
+  "seed": 17692,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The car dealer's",
+      "start_sample": 0,
+      "end_sample": 13097,
+      "start_ms": 0,
+      "end_ms": 819
+    },
+    {
+      "lang": "ja",
+      "text": "見積もり",
+      "start_sample": 13097,
+      "end_sample": 22960,
+      "start_ms": 819,
+      "end_ms": 1435
+    },
+    {
+      "lang": "en",
+      "text": "was higher than expected but the trade-in offer was",
+      "start_sample": 22960,
+      "end_sample": 90652,
+      "start_ms": 1435,
+      "end_ms": 5666
+    },
+    {
+      "lang": "ja",
+      "text": "公平.",
+      "start_sample": 90652,
+      "end_sample": 99590,
+      "start_ms": 5666,
+      "end_ms": 6224
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The car dealer's mitsumori was higher than expected but the trade-in offer was kouhei",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6649,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The car dealer's",
+          "start_sample": 0,
+          "end_sample": 13297,
+          "start_ms": 0,
+          "end_ms": 831
+        },
+        {
+          "lang": "ja",
+          "text": "見積もり",
+          "start_sample": 13297,
+          "end_sample": 29159,
+          "start_ms": 831,
+          "end_ms": 1822
+        },
+        {
+          "lang": "en",
+          "text": "was higher than expected but the trade-in offer was",
+          "start_sample": 29159,
+          "end_sample": 97251,
+          "start_ms": 1822,
+          "end_ms": 6078
+        },
+        {
+          "lang": "ja",
+          "text": "公平.",
+          "start_sample": 97251,
+          "end_sample": 106382,
+          "start_ms": 6078,
+          "end_ms": 6649
+        }
+      ]
+    },
+    "ja": {
+      "text": "The car dealer's 見積もり was higher than expected but the trade-in offer was 公平.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7276,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The car dealer's",
+          "start_sample": 0,
+          "end_sample": 22608,
+          "start_ms": 0,
+          "end_ms": 1413
+        },
+        {
+          "lang": "ja",
+          "text": "見積もり",
+          "start_sample": 22608,
+          "end_sample": 32871,
+          "start_ms": 1413,
+          "end_ms": 2054
+        },
+        {
+          "lang": "en",
+          "text": "was higher than expected but the trade-in offer was",
+          "start_sample": 32871,
+          "end_sample": 107277,
+          "start_ms": 2054,
+          "end_ms": 6705
+        },
+        {
+          "lang": "ja",
+          "text": "公平.",
+          "start_sample": 107277,
+          "end_sample": 116415,
+          "start_ms": 6705,
+          "end_ms": 7276
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 312,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

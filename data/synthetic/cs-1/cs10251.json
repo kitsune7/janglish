@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10251.flac",
+  "sentence": "He filled out the 申告書 incorrectly and had to start over.",
+  "sample_rate": 16000,
+  "duration_ms": 4602,
+  "reference_speaker": "en/speaker_050_6b3579133fec.mp3",
+  "seed": 10293,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He filled out the",
+      "start_sample": 0,
+      "end_sample": 15356,
+      "start_ms": 0,
+      "end_ms": 960
+    },
+    {
+      "lang": "ja",
+      "text": "申告書",
+      "start_sample": 15356,
+      "end_sample": 28602,
+      "start_ms": 960,
+      "end_ms": 1788
+    },
+    {
+      "lang": "en",
+      "text": "incorrectly and had to start over.",
+      "start_sample": 28602,
+      "end_sample": 73625,
+      "start_ms": 1788,
+      "end_ms": 4602
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He filled out the shinkoku kaki incorrectly and had to start over.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4851,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He filled out the",
+          "start_sample": 0,
+          "end_sample": 15556,
+          "start_ms": 0,
+          "end_ms": 972
+        },
+        {
+          "lang": "ja",
+          "text": "申告書",
+          "start_sample": 15556,
+          "end_sample": 32395,
+          "start_ms": 972,
+          "end_ms": 2025
+        },
+        {
+          "lang": "en",
+          "text": "incorrectly and had to start over.",
+          "start_sample": 32395,
+          "end_sample": 77618,
+          "start_ms": 2025,
+          "end_ms": 4851
+        }
+      ]
+    },
+    "ja": {
+      "text": "He filled out the 申告書 incorrectly and had to start over.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4435,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He filled out the",
+          "start_sample": 0,
+          "end_sample": 18620,
+          "start_ms": 0,
+          "end_ms": 1164
+        },
+        {
+          "lang": "ja",
+          "text": "申告書",
+          "start_sample": 18620,
+          "end_sample": 32266,
+          "start_ms": 1164,
+          "end_ms": 2017
+        },
+        {
+          "lang": "en",
+          "text": "incorrectly and had to start over.",
+          "start_sample": 32266,
+          "end_sample": 70954,
+          "start_ms": 2017,
+          "end_ms": 4435
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 231,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

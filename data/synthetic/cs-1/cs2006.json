@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2006.flac",
+  "sentence": "She captured an incredibly 繊細 arrangement of wildflowers.",
+  "sample_rate": 16000,
+  "duration_ms": 3197,
+  "reference_speaker": "en/speaker_096_4389a887e640.mp3",
+  "seed": 2048,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She captured an incredibly",
+      "start_sample": 0,
+      "end_sample": 19748,
+      "start_ms": 0,
+      "end_ms": 1234
+    },
+    {
+      "lang": "ja",
+      "text": "繊細",
+      "start_sample": 19748,
+      "end_sample": 28676,
+      "start_ms": 1234,
+      "end_ms": 1792
+    },
+    {
+      "lang": "en",
+      "text": "arrangement of wildflowers.",
+      "start_sample": 28676,
+      "end_sample": 51155,
+      "start_ms": 1792,
+      "end_ms": 3197
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She captured an incredibly sensai arrangement of wildflowers.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3097,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She captured an incredibly",
+          "start_sample": 0,
+          "end_sample": 19948,
+          "start_ms": 0,
+          "end_ms": 1247
+        },
+        {
+          "lang": "ja",
+          "text": "繊細",
+          "start_sample": 19948,
+          "end_sample": 26867,
+          "start_ms": 1247,
+          "end_ms": 1679
+        },
+        {
+          "lang": "en",
+          "text": "arrangement of wildflowers.",
+          "start_sample": 26867,
+          "end_sample": 49546,
+          "start_ms": 1679,
+          "end_ms": 3097
+        }
+      ]
+    },
+    "ja": {
+      "text": "She captured an incredibly 繊細 arrangement of wildflowers.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3578,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She captured an incredibly",
+          "start_sample": 0,
+          "end_sample": 15920,
+          "start_ms": 0,
+          "end_ms": 995
+        },
+        {
+          "lang": "ja",
+          "text": "繊細",
+          "start_sample": 15920,
+          "end_sample": 25248,
+          "start_ms": 995,
+          "end_ms": 1578
+        },
+        {
+          "lang": "en",
+          "text": "arrangement of wildflowers.",
+          "start_sample": 25248,
+          "end_sample": 57247,
+          "start_ms": 1578,
+          "end_ms": 3578
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

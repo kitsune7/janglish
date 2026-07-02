@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7909.flac",
+  "sentence": "We bought 甘酒 from a vendor and sipped it while watching the parade pass by.",
+  "sample_rate": 16000,
+  "duration_ms": 4501,
+  "reference_speaker": "jp/speaker_024_53a01817659b.mp3",
+  "seed": 7951,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We bought",
+      "start_sample": 0,
+      "end_sample": 6713,
+      "start_ms": 0,
+      "end_ms": 420
+    },
+    {
+      "lang": "ja",
+      "text": "甘酒",
+      "start_sample": 6713,
+      "end_sample": 14981,
+      "start_ms": 420,
+      "end_ms": 936
+    },
+    {
+      "lang": "en",
+      "text": "from a vendor and sipped it while watching the parade pass by.",
+      "start_sample": 14981,
+      "end_sample": 72014,
+      "start_ms": 936,
+      "end_ms": 4501
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We bought amazake from a vendor and sipped it while watching the parade pass by.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4582,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We bought",
+          "start_sample": 0,
+          "end_sample": 6913,
+          "start_ms": 0,
+          "end_ms": 432
+        },
+        {
+          "lang": "ja",
+          "text": "甘酒",
+          "start_sample": 6913,
+          "end_sample": 16077,
+          "start_ms": 432,
+          "end_ms": 1005
+        },
+        {
+          "lang": "en",
+          "text": "from a vendor and sipped it while watching the parade pass by.",
+          "start_sample": 16077,
+          "end_sample": 73310,
+          "start_ms": 1005,
+          "end_ms": 4582
+        }
+      ]
+    },
+    "ja": {
+      "text": "We bought 甘酒 from a vendor and sipped it while watching the parade pass by.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4775,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We bought",
+          "start_sample": 0,
+          "end_sample": 8828,
+          "start_ms": 0,
+          "end_ms": 552
+        },
+        {
+          "lang": "ja",
+          "text": "甘酒",
+          "start_sample": 8828,
+          "end_sample": 17496,
+          "start_ms": 552,
+          "end_ms": 1094
+        },
+        {
+          "lang": "en",
+          "text": "from a vendor and sipped it while watching the parade pass by.",
+          "start_sample": 17496,
+          "end_sample": 76404,
+          "start_ms": 1094,
+          "end_ms": 4775
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 226,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

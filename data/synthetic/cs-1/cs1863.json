@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1863.flac",
+  "sentence": "食後にmintyなデザートを食べると口がさっぱりする。",
+  "sample_rate": 16000,
+  "duration_ms": 3636,
+  "reference_speaker": "en/speaker_034_add467545a59.mp3",
+  "seed": 1905,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "食後に",
+      "start_sample": 0,
+      "end_sample": 8802,
+      "start_ms": 0,
+      "end_ms": 550
+    },
+    {
+      "lang": "en",
+      "text": "minty",
+      "start_sample": 8802,
+      "end_sample": 23311,
+      "start_ms": 550,
+      "end_ms": 1457
+    },
+    {
+      "lang": "ja",
+      "text": "なデザートを食べると口がさっぱりする。",
+      "start_sample": 23311,
+      "end_sample": 58168,
+      "start_ms": 1457,
+      "end_ms": 3636
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shokugo ni minty na dezaato wo taberu to kuchi ga sappari suru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7514,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "食後に",
+          "start_sample": 0,
+          "end_sample": 31739,
+          "start_ms": 0,
+          "end_ms": 1984
+        },
+        {
+          "lang": "en",
+          "text": "minty",
+          "start_sample": 31739,
+          "end_sample": 46648,
+          "start_ms": 1984,
+          "end_ms": 2916
+        },
+        {
+          "lang": "ja",
+          "text": "なデザートを食べると口がさっぱりする。",
+          "start_sample": 46648,
+          "end_sample": 120225,
+          "start_ms": 2916,
+          "end_ms": 7514
+        }
+      ]
+    },
+    "ja": {
+      "text": "食後にmintyなデザートを食べると口がさっぱりする。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3136,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "食後に",
+          "start_sample": 0,
+          "end_sample": 9002,
+          "start_ms": 0,
+          "end_ms": 563
+        },
+        {
+          "lang": "en",
+          "text": "minty",
+          "start_sample": 9002,
+          "end_sample": 15114,
+          "start_ms": 563,
+          "end_ms": 945
+        },
+        {
+          "lang": "ja",
+          "text": "なデザートを食べると口がさっぱりする。",
+          "start_sample": 15114,
+          "end_sample": 50171,
+          "start_ms": 945,
+          "end_ms": 3136
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 182,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

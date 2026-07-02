@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7138.flac",
+  "sentence": "She's finally old enough for a 自転車 — she's been asking for years.",
+  "sample_rate": 16000,
+  "duration_ms": 5110,
+  "reference_speaker": "jp/speaker_075_35b3b5e9beb2.mp3",
+  "seed": 7180,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She's finally old enough for a",
+      "start_sample": 0,
+      "end_sample": 35940,
+      "start_ms": 0,
+      "end_ms": 2246
+    },
+    {
+      "lang": "ja",
+      "text": "自転車 —",
+      "start_sample": 35940,
+      "end_sample": 48548,
+      "start_ms": 2246,
+      "end_ms": 3034
+    },
+    {
+      "lang": "en",
+      "text": "she's been asking for years.",
+      "start_sample": 48548,
+      "end_sample": 81755,
+      "start_ms": 3034,
+      "end_ms": 5110
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She's finally old enough for a jiten kuruma she's been asking for years.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5642,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She's finally old enough for a",
+          "start_sample": 0,
+          "end_sample": 36140,
+          "start_ms": 0,
+          "end_ms": 2259
+        },
+        {
+          "lang": "ja",
+          "text": "自転車 —",
+          "start_sample": 36140,
+          "end_sample": 56862,
+          "start_ms": 2259,
+          "end_ms": 3554
+        },
+        {
+          "lang": "en",
+          "text": "she's been asking for years.",
+          "start_sample": 56862,
+          "end_sample": 90269,
+          "start_ms": 3554,
+          "end_ms": 5642
+        }
+      ]
+    },
+    "ja": {
+      "text": "She's finally old enough for a 自転車 — she's been asking for years.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4857,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She's finally old enough for a",
+          "start_sample": 0,
+          "end_sample": 30187,
+          "start_ms": 0,
+          "end_ms": 1887
+        },
+        {
+          "lang": "ja",
+          "text": "自転車 —",
+          "start_sample": 30187,
+          "end_sample": 43195,
+          "start_ms": 1887,
+          "end_ms": 2700
+        },
+        {
+          "lang": "en",
+          "text": "she's been asking for years.",
+          "start_sample": 43195,
+          "end_sample": 77718,
+          "start_ms": 2700,
+          "end_ms": 4857
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 256,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

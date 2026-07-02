@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs9207.flac",
+  "sentence": "detergentを多く入れすぎると、泡だらけになります。",
+  "sample_rate": 16000,
+  "duration_ms": 4240,
+  "reference_speaker": "jp/speaker_052_8e5df296063d.mp3",
+  "seed": 9249,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "detergent",
+      "start_sample": 0,
+      "end_sample": 23841,
+      "start_ms": 0,
+      "end_ms": 1490
+    },
+    {
+      "lang": "ja",
+      "text": "を多く入れすぎると、泡だらけになります。",
+      "start_sample": 23841,
+      "end_sample": 67832,
+      "start_ms": 1490,
+      "end_ms": 4240
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "detergent wo ooku ire sugiru to awa darake ni nari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6692,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "detergent",
+          "start_sample": 0,
+          "end_sample": 24041,
+          "start_ms": 0,
+          "end_ms": 1503
+        },
+        {
+          "lang": "ja",
+          "text": "を多く入れすぎると、泡だらけになります。",
+          "start_sample": 24041,
+          "end_sample": 107064,
+          "start_ms": 1503,
+          "end_ms": 6692
+        }
+      ]
+    },
+    "ja": {
+      "text": "detergentを多く入れすぎると、泡だらけになります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3475,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "detergent",
+          "start_sample": 0,
+          "end_sample": 11410,
+          "start_ms": 0,
+          "end_ms": 713
+        },
+        {
+          "lang": "ja",
+          "text": "を多く入れすぎると、泡だらけになります。",
+          "start_sample": 11410,
+          "end_sample": 55601,
+          "start_ms": 713,
+          "end_ms": 3475
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 212,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1774.flac",
+  "sentence": "The pour was honestly too 少ない for what I paid at that fancy rooftop place.",
+  "sample_rate": 16000,
+  "duration_ms": 5747,
+  "reference_speaker": "en/speaker_097_44a775a22921.mp3",
+  "seed": 1816,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The pour was honestly too",
+      "start_sample": 0,
+      "end_sample": 33505,
+      "start_ms": 0,
+      "end_ms": 2094
+    },
+    {
+      "lang": "ja",
+      "text": "少ない",
+      "start_sample": 33505,
+      "end_sample": 40475,
+      "start_ms": 2094,
+      "end_ms": 2530
+    },
+    {
+      "lang": "en",
+      "text": "for what I paid at that fancy rooftop place.",
+      "start_sample": 40475,
+      "end_sample": 91953,
+      "start_ms": 2530,
+      "end_ms": 5747
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The pour was honestly too sukunai for what I paid at that fancy rooftop place.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6279,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The pour was honestly too",
+          "start_sample": 0,
+          "end_sample": 33705,
+          "start_ms": 0,
+          "end_ms": 2107
+        },
+        {
+          "lang": "ja",
+          "text": "少ない",
+          "start_sample": 33705,
+          "end_sample": 48792,
+          "start_ms": 2107,
+          "end_ms": 3050
+        },
+        {
+          "lang": "en",
+          "text": "for what I paid at that fancy rooftop place.",
+          "start_sample": 48792,
+          "end_sample": 100470,
+          "start_ms": 3050,
+          "end_ms": 6279
+        }
+      ]
+    },
+    "ja": {
+      "text": "The pour was honestly too 少ない for what I paid at that fancy rooftop place.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7049,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The pour was honestly too",
+          "start_sample": 0,
+          "end_sample": 42134,
+          "start_ms": 0,
+          "end_ms": 2633
+        },
+        {
+          "lang": "ja",
+          "text": "少ない",
+          "start_sample": 42134,
+          "end_sample": 49504,
+          "start_ms": 2633,
+          "end_ms": 3094
+        },
+        {
+          "lang": "en",
+          "text": "for what I paid at that fancy rooftop place.",
+          "start_sample": 49504,
+          "end_sample": 112785,
+          "start_ms": 3094,
+          "end_ms": 7049
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 288,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

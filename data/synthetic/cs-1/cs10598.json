@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10598.flac",
+  "sentence": "A light 風 is actually helpful when the tomatoes are flowering.",
+  "sample_rate": 16000,
+  "duration_ms": 2808,
+  "reference_speaker": "jp/speaker_028_70a7ca54d459.mp3",
+  "seed": 10640,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "A light",
+      "start_sample": 0,
+      "end_sample": 5277,
+      "start_ms": 0,
+      "end_ms": 330
+    },
+    {
+      "lang": "ja",
+      "text": "風",
+      "start_sample": 5277,
+      "end_sample": 9373,
+      "start_ms": 330,
+      "end_ms": 586
+    },
+    {
+      "lang": "en",
+      "text": "is actually helpful when the tomatoes are flowering.",
+      "start_sample": 9373,
+      "end_sample": 44936,
+      "start_ms": 586,
+      "end_ms": 2808
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "A light kaze is actually helpful when the tomatoes are flowering.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2900,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "A light",
+          "start_sample": 0,
+          "end_sample": 5477,
+          "start_ms": 0,
+          "end_ms": 342
+        },
+        {
+          "lang": "ja",
+          "text": "風",
+          "start_sample": 5477,
+          "end_sample": 10633,
+          "start_ms": 342,
+          "end_ms": 665
+        },
+        {
+          "lang": "en",
+          "text": "is actually helpful when the tomatoes are flowering.",
+          "start_sample": 10633,
+          "end_sample": 46396,
+          "start_ms": 665,
+          "end_ms": 2900
+        }
+      ]
+    },
+    "ja": {
+      "text": "A light 風 is actually helpful when the tomatoes are flowering.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3712,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "A light",
+          "start_sample": 0,
+          "end_sample": 6421,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "ja",
+          "text": "風",
+          "start_sample": 6421,
+          "end_sample": 10917,
+          "start_ms": 401,
+          "end_ms": 682
+        },
+        {
+          "lang": "en",
+          "text": "is actually helpful when the tomatoes are flowering.",
+          "start_sample": 10917,
+          "end_sample": 59399,
+          "start_ms": 682,
+          "end_ms": 3712
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 141,
+  "frame_labels": "eeeeeeeeeeeeeeeejjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

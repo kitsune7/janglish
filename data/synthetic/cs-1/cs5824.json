@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5824.flac",
+  "sentence": "That new furniture shop downtown has a very 広い showroom.",
+  "sample_rate": 16000,
+  "duration_ms": 2925,
+  "reference_speaker": "jp/speaker_044_225f82fe72eb.mp3",
+  "seed": 5866,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That new furniture shop downtown has a very",
+      "start_sample": 0,
+      "end_sample": 31332,
+      "start_ms": 0,
+      "end_ms": 1958
+    },
+    {
+      "lang": "ja",
+      "text": "広い",
+      "start_sample": 31332,
+      "end_sample": 38311,
+      "start_ms": 1958,
+      "end_ms": 2394
+    },
+    {
+      "lang": "en",
+      "text": "showroom.",
+      "start_sample": 38311,
+      "end_sample": 46794,
+      "start_ms": 2394,
+      "end_ms": 2925
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That new furniture shop downtown has a very hiroi showroom.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3036,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That new furniture shop downtown has a very",
+          "start_sample": 0,
+          "end_sample": 31532,
+          "start_ms": 0,
+          "end_ms": 1971
+        },
+        {
+          "lang": "ja",
+          "text": "広い",
+          "start_sample": 31532,
+          "end_sample": 39898,
+          "start_ms": 1971,
+          "end_ms": 2494
+        },
+        {
+          "lang": "en",
+          "text": "showroom.",
+          "start_sample": 39898,
+          "end_sample": 48581,
+          "start_ms": 2494,
+          "end_ms": 3036
+        }
+      ]
+    },
+    "ja": {
+      "text": "That new furniture shop downtown has a very 広い showroom.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4511,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That new furniture shop downtown has a very",
+          "start_sample": 0,
+          "end_sample": 55180,
+          "start_ms": 0,
+          "end_ms": 3449
+        },
+        {
+          "lang": "ja",
+          "text": "広い",
+          "start_sample": 55180,
+          "end_sample": 62559,
+          "start_ms": 3449,
+          "end_ms": 3910
+        },
+        {
+          "lang": "en",
+          "text": "showroom.",
+          "start_sample": 62559,
+          "end_sample": 72182,
+          "start_ms": 3910,
+          "end_ms": 4511
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 147,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

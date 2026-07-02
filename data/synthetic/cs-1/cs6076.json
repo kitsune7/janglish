@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6076.flac",
+  "sentence": "My grandmother still prefers 固定電話 over any smartphone.",
+  "sample_rate": 16000,
+  "duration_ms": 3273,
+  "reference_speaker": "en/speaker_036_d0b62ac1e57e.mp3",
+  "seed": 6118,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My grandmother still prefers",
+      "start_sample": 0,
+      "end_sample": 21323,
+      "start_ms": 0,
+      "end_ms": 1333
+    },
+    {
+      "lang": "ja",
+      "text": "固定電話",
+      "start_sample": 21323,
+      "end_sample": 33135,
+      "start_ms": 1333,
+      "end_ms": 2071
+    },
+    {
+      "lang": "en",
+      "text": "over any smartphone.",
+      "start_sample": 33135,
+      "end_sample": 52368,
+      "start_ms": 2071,
+      "end_ms": 3273
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My grandmother still prefers kotei denwa over any smartphone.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3393,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My grandmother still prefers",
+          "start_sample": 0,
+          "end_sample": 21523,
+          "start_ms": 0,
+          "end_ms": 1345
+        },
+        {
+          "lang": "ja",
+          "text": "固定電話",
+          "start_sample": 21523,
+          "end_sample": 34855,
+          "start_ms": 1345,
+          "end_ms": 2178
+        },
+        {
+          "lang": "en",
+          "text": "over any smartphone.",
+          "start_sample": 34855,
+          "end_sample": 54288,
+          "start_ms": 2178,
+          "end_ms": 3393
+        }
+      ]
+    },
+    "ja": {
+      "text": "My grandmother still prefers 固定電話 over any smartphone.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4217,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My grandmother still prefers",
+          "start_sample": 0,
+          "end_sample": 33417,
+          "start_ms": 0,
+          "end_ms": 2089
+        },
+        {
+          "lang": "ja",
+          "text": "固定電話",
+          "start_sample": 33417,
+          "end_sample": 45629,
+          "start_ms": 2089,
+          "end_ms": 2852
+        },
+        {
+          "lang": "en",
+          "text": "over any smartphone.",
+          "start_sample": 45629,
+          "end_sample": 67478,
+          "start_ms": 2852,
+          "end_ms": 4217
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 164,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

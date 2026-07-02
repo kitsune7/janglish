@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3980.flac",
+  "sentence": "There's something 切ない about loving someone who doesn't love you back.",
+  "sample_rate": 16000,
+  "duration_ms": 3197,
+  "reference_speaker": "jp/speaker_019_45c9ebd0ae18.mp3",
+  "seed": 4022,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "There's something",
+      "start_sample": 0,
+      "end_sample": 9582,
+      "start_ms": 0,
+      "end_ms": 599
+    },
+    {
+      "lang": "ja",
+      "text": "切ない",
+      "start_sample": 9582,
+      "end_sample": 17679,
+      "start_ms": 599,
+      "end_ms": 1105
+    },
+    {
+      "lang": "en",
+      "text": "about loving someone who doesn't love you back.",
+      "start_sample": 17679,
+      "end_sample": 51155,
+      "start_ms": 1105,
+      "end_ms": 3197
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "There's something setsunai about loving someone who doesn't love you back.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3488,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "There's something",
+          "start_sample": 0,
+          "end_sample": 9782,
+          "start_ms": 0,
+          "end_ms": 611
+        },
+        {
+          "lang": "ja",
+          "text": "切ない",
+          "start_sample": 9782,
+          "end_sample": 22131,
+          "start_ms": 611,
+          "end_ms": 1383
+        },
+        {
+          "lang": "en",
+          "text": "about loving someone who doesn't love you back.",
+          "start_sample": 22131,
+          "end_sample": 55807,
+          "start_ms": 1383,
+          "end_ms": 3488
+        }
+      ]
+    },
+    "ja": {
+      "text": "There's something 切ない about loving someone who doesn't love you back.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4128,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "There's something",
+          "start_sample": 0,
+          "end_sample": 12503,
+          "start_ms": 0,
+          "end_ms": 781
+        },
+        {
+          "lang": "ja",
+          "text": "切ない",
+          "start_sample": 12503,
+          "end_sample": 21000,
+          "start_ms": 781,
+          "end_ms": 1312
+        },
+        {
+          "lang": "en",
+          "text": "about loving someone who doesn't love you back.",
+          "start_sample": 21000,
+          "end_sample": 66048,
+          "start_ms": 1312,
+          "end_ms": 4128
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

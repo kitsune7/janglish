@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2895.flac",
+  "sentence": "She described the final area as 神秘的 and totally different from the rest of the game.",
+  "sample_rate": 16000,
+  "duration_ms": 4754,
+  "reference_speaker": "jp/speaker_032_e63077fee9e9.mp3",
+  "seed": 2937,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She described the final area as",
+      "start_sample": 0,
+      "end_sample": 25325,
+      "start_ms": 0,
+      "end_ms": 1583
+    },
+    {
+      "lang": "ja",
+      "text": "神秘的",
+      "start_sample": 25325,
+      "end_sample": 42876,
+      "start_ms": 1583,
+      "end_ms": 2680
+    },
+    {
+      "lang": "en",
+      "text": "and totally different from the rest of the game.",
+      "start_sample": 42876,
+      "end_sample": 76066,
+      "start_ms": 2680,
+      "end_ms": 4754
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She described the final area as shinpi teki and totally different from the rest of the game.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4595,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She described the final area as",
+          "start_sample": 0,
+          "end_sample": 25525,
+          "start_ms": 0,
+          "end_ms": 1595
+        },
+        {
+          "lang": "ja",
+          "text": "神秘的",
+          "start_sample": 25525,
+          "end_sample": 40135,
+          "start_ms": 1595,
+          "end_ms": 2508
+        },
+        {
+          "lang": "en",
+          "text": "and totally different from the rest of the game.",
+          "start_sample": 40135,
+          "end_sample": 73525,
+          "start_ms": 2508,
+          "end_ms": 4595
+        }
+      ]
+    },
+    "ja": {
+      "text": "She described the final area as 神秘的 and totally different from the rest of the game.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9676,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She described the final area as",
+          "start_sample": 0,
+          "end_sample": 46478,
+          "start_ms": 0,
+          "end_ms": 2905
+        },
+        {
+          "lang": "ja",
+          "text": "神秘的",
+          "start_sample": 46478,
+          "end_sample": 64429,
+          "start_ms": 2905,
+          "end_ms": 4027
+        },
+        {
+          "lang": "en",
+          "text": "and totally different from the rest of the game.",
+          "start_sample": 64429,
+          "end_sample": 154821,
+          "start_ms": 4027,
+          "end_ms": 9676
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 238,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

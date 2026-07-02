@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5489.flac",
+  "sentence": "The 脚本 for that indie film was genuinely brilliant.",
+  "sample_rate": 16000,
+  "duration_ms": 4242,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 5531,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1565,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "脚本",
+      "start_sample": 1565,
+      "end_sample": 10294,
+      "start_ms": 98,
+      "end_ms": 643
+    },
+    {
+      "lang": "en",
+      "text": "for that indie film was genuinely brilliant.",
+      "start_sample": 10294,
+      "end_sample": 67874,
+      "start_ms": 643,
+      "end_ms": 4242
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kyakuhon for that indie film was genuinely brilliant.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4976,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1765,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "脚本",
+          "start_sample": 1765,
+          "end_sample": 21828,
+          "start_ms": 110,
+          "end_ms": 1364
+        },
+        {
+          "lang": "en",
+          "text": "for that indie film was genuinely brilliant.",
+          "start_sample": 21828,
+          "end_sample": 79608,
+          "start_ms": 1364,
+          "end_ms": 4976
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 脚本 for that indie film was genuinely brilliant.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5245,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2881,
+          "start_ms": 0,
+          "end_ms": 180
+        },
+        {
+          "lang": "ja",
+          "text": "脚本",
+          "start_sample": 2881,
+          "end_sample": 12010,
+          "start_ms": 180,
+          "end_ms": 751
+        },
+        {
+          "lang": "en",
+          "text": "for that indie film was genuinely brilliant.",
+          "start_sample": 12010,
+          "end_sample": 83919,
+          "start_ms": 751,
+          "end_ms": 5245
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 213,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

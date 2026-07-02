@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2809.flac",
+  "sentence": "We found a 古い map of the city at the antique fair.",
+  "sample_rate": 16000,
+  "duration_ms": 3800,
+  "reference_speaker": "jp/speaker_008_925570fa5738.mp3",
+  "seed": 2851,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We found a",
+      "start_sample": 0,
+      "end_sample": 10384,
+      "start_ms": 0,
+      "end_ms": 649
+    },
+    {
+      "lang": "ja",
+      "text": "古い",
+      "start_sample": 10384,
+      "end_sample": 18019,
+      "start_ms": 649,
+      "end_ms": 1126
+    },
+    {
+      "lang": "en",
+      "text": "map of the city at the antique fair.",
+      "start_sample": 18019,
+      "end_sample": 60798,
+      "start_ms": 1126,
+      "end_ms": 3800
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We found a furui map of the city at the antique fair.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3869,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We found a",
+          "start_sample": 0,
+          "end_sample": 10584,
+          "start_ms": 0,
+          "end_ms": 662
+        },
+        {
+          "lang": "ja",
+          "text": "古い",
+          "start_sample": 10584,
+          "end_sample": 18923,
+          "start_ms": 662,
+          "end_ms": 1183
+        },
+        {
+          "lang": "en",
+          "text": "map of the city at the antique fair.",
+          "start_sample": 18923,
+          "end_sample": 61902,
+          "start_ms": 1183,
+          "end_ms": 3869
+        }
+      ]
+    },
+    "ja": {
+      "text": "We found a 古い map of the city at the antique fair.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4700,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We found a",
+          "start_sample": 0,
+          "end_sample": 9321,
+          "start_ms": 0,
+          "end_ms": 583
+        },
+        {
+          "lang": "ja",
+          "text": "古い",
+          "start_sample": 9321,
+          "end_sample": 17356,
+          "start_ms": 583,
+          "end_ms": 1085
+        },
+        {
+          "lang": "en",
+          "text": "map of the city at the antique fair.",
+          "start_sample": 17356,
+          "end_sample": 75208,
+          "start_ms": 1085,
+          "end_ms": 4700
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

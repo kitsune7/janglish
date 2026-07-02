@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10148.flac",
+  "sentence": "彼女がrunwayを歩く姿はまるで別世界だった。",
+  "sample_rate": 16000,
+  "duration_ms": 3378,
+  "reference_speaker": "en/speaker_080_2ec83f7b270e.mp3",
+  "seed": 10190,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女が",
+      "start_sample": 0,
+      "end_sample": 7206,
+      "start_ms": 0,
+      "end_ms": 450
+    },
+    {
+      "lang": "en",
+      "text": "runway",
+      "start_sample": 7206,
+      "end_sample": 17538,
+      "start_ms": 450,
+      "end_ms": 1096
+    },
+    {
+      "lang": "ja",
+      "text": "を歩く姿はまるで別世界だった。",
+      "start_sample": 17538,
+      "end_sample": 54043,
+      "start_ms": 1096,
+      "end_ms": 3378
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ga runway wo aruku sugata ha marude betsu sekai datsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7148,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女が",
+          "start_sample": 0,
+          "end_sample": 10250,
+          "start_ms": 0,
+          "end_ms": 641
+        },
+        {
+          "lang": "en",
+          "text": "runway",
+          "start_sample": 10250,
+          "end_sample": 20982,
+          "start_ms": 641,
+          "end_ms": 1311
+        },
+        {
+          "lang": "ja",
+          "text": "を歩く姿はまるで別世界だった。",
+          "start_sample": 20982,
+          "end_sample": 114363,
+          "start_ms": 1311,
+          "end_ms": 7148
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女がrunwayを歩く姿はまるで別世界だった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3240,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女が",
+          "start_sample": 0,
+          "end_sample": 7406,
+          "start_ms": 0,
+          "end_ms": 463
+        },
+        {
+          "lang": "en",
+          "text": "runway",
+          "start_sample": 7406,
+          "end_sample": 15135,
+          "start_ms": 463,
+          "end_ms": 946
+        },
+        {
+          "lang": "ja",
+          "text": "を歩く姿はまるで別世界だった。",
+          "start_sample": 15135,
+          "end_sample": 51840,
+          "start_ms": 946,
+          "end_ms": 3240
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 169,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

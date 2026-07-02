@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs114.flac",
+  "sentence": "The ending of that series was completely 最悪 and I want a refund of my time.",
+  "sample_rate": 16000,
+  "duration_ms": 4959,
+  "reference_speaker": "jp/speaker_055_b88f2897e0f4.mp3",
+  "seed": 156,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The ending of that series was completely",
+      "start_sample": 0,
+      "end_sample": 31764,
+      "start_ms": 0,
+      "end_ms": 1985
+    },
+    {
+      "lang": "ja",
+      "text": "最悪",
+      "start_sample": 31764,
+      "end_sample": 37941,
+      "start_ms": 1985,
+      "end_ms": 2371
+    },
+    {
+      "lang": "en",
+      "text": "and I want a refund of my time.",
+      "start_sample": 37941,
+      "end_sample": 79340,
+      "start_ms": 2371,
+      "end_ms": 4959
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The ending of that series was completely saiaku and I want a refund of my time.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5682,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The ending of that series was completely",
+          "start_sample": 0,
+          "end_sample": 31964,
+          "start_ms": 0,
+          "end_ms": 1998
+        },
+        {
+          "lang": "ja",
+          "text": "最悪",
+          "start_sample": 31964,
+          "end_sample": 49312,
+          "start_ms": 1998,
+          "end_ms": 3082
+        },
+        {
+          "lang": "en",
+          "text": "and I want a refund of my time.",
+          "start_sample": 49312,
+          "end_sample": 90911,
+          "start_ms": 3082,
+          "end_ms": 5682
+        }
+      ]
+    },
+    "ja": {
+      "text": "The ending of that series was completely 最悪 and I want a refund of my time.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5354,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The ending of that series was completely",
+          "start_sample": 0,
+          "end_sample": 48609,
+          "start_ms": 0,
+          "end_ms": 3038
+        },
+        {
+          "lang": "ja",
+          "text": "最悪",
+          "start_sample": 48609,
+          "end_sample": 55186,
+          "start_ms": 3038,
+          "end_ms": 3449
+        },
+        {
+          "lang": "en",
+          "text": "and I want a refund of my time.",
+          "start_sample": 55186,
+          "end_sample": 85665,
+          "start_ms": 3449,
+          "end_ms": 5354
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 248,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

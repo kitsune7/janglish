@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10226.flac",
+  "sentence": "Could you adjust the 座席 a little further back so I have more room?",
+  "sample_rate": 16000,
+  "duration_ms": 3956,
+  "reference_speaker": "en/speaker_094_291d9dee87c4.mp3",
+  "seed": 10268,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Could you adjust the",
+      "start_sample": 0,
+      "end_sample": 11384,
+      "start_ms": 0,
+      "end_ms": 712
+    },
+    {
+      "lang": "ja",
+      "text": "座席",
+      "start_sample": 11384,
+      "end_sample": 32778,
+      "start_ms": 712,
+      "end_ms": 2049
+    },
+    {
+      "lang": "en",
+      "text": "a little further back so I have more room?",
+      "start_sample": 32778,
+      "end_sample": 63304,
+      "start_ms": 2049,
+      "end_ms": 3956
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Could you adjust the zaseki a little further back so I have more room?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3198,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you adjust the",
+          "start_sample": 0,
+          "end_sample": 11584,
+          "start_ms": 0,
+          "end_ms": 724
+        },
+        {
+          "lang": "ja",
+          "text": "座席",
+          "start_sample": 11584,
+          "end_sample": 20434,
+          "start_ms": 724,
+          "end_ms": 1277
+        },
+        {
+          "lang": "en",
+          "text": "a little further back so I have more room?",
+          "start_sample": 20434,
+          "end_sample": 51160,
+          "start_ms": 1277,
+          "end_ms": 3198
+        }
+      ]
+    },
+    "ja": {
+      "text": "Could you adjust the 座席 a little further back so I have more room?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8613,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you adjust the",
+          "start_sample": 0,
+          "end_sample": 30606,
+          "start_ms": 0,
+          "end_ms": 1913
+        },
+        {
+          "lang": "ja",
+          "text": "座席",
+          "start_sample": 30606,
+          "end_sample": 52400,
+          "start_ms": 1913,
+          "end_ms": 3275
+        },
+        {
+          "lang": "en",
+          "text": "a little further back so I have more room?",
+          "start_sample": 52400,
+          "end_sample": 137810,
+          "start_ms": 3275,
+          "end_ms": 8613
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 198,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

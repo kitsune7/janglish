@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4200.flac",
+  "sentence": "The 毒素 they found in the water supply triggered an immediate recall.",
+  "sample_rate": 16000,
+  "duration_ms": 4731,
+  "reference_speaker": "jp/speaker_034_3e5442a60675.mp3",
+  "seed": 4242,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1564,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "毒素",
+      "start_sample": 1564,
+      "end_sample": 15735,
+      "start_ms": 98,
+      "end_ms": 983
+    },
+    {
+      "lang": "en",
+      "text": "they found in the water supply triggered an immediate recall.",
+      "start_sample": 15735,
+      "end_sample": 75693,
+      "start_ms": 983,
+      "end_ms": 4731
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The dokuso they found in the water supply triggered an immediate recall.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4793,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1764,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "毒素",
+          "start_sample": 1764,
+          "end_sample": 16523,
+          "start_ms": 110,
+          "end_ms": 1033
+        },
+        {
+          "lang": "en",
+          "text": "they found in the water supply triggered an immediate recall.",
+          "start_sample": 16523,
+          "end_sample": 76681,
+          "start_ms": 1033,
+          "end_ms": 4793
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 毒素 they found in the water supply triggered an immediate recall.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6745,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6885,
+          "start_ms": 0,
+          "end_ms": 430
+        },
+        {
+          "lang": "ja",
+          "text": "毒素",
+          "start_sample": 6885,
+          "end_sample": 21456,
+          "start_ms": 430,
+          "end_ms": 1341
+        },
+        {
+          "lang": "en",
+          "text": "they found in the water supply triggered an immediate recall.",
+          "start_sample": 21456,
+          "end_sample": 107921,
+          "start_ms": 1341,
+          "end_ms": 6745
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 237,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

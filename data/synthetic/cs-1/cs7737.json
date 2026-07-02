@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7737.flac",
+  "sentence": "今日のappointmentを来週に変更できますか？",
+  "sample_rate": 16000,
+  "duration_ms": 3205,
+  "reference_speaker": "en/speaker_077_cf8a4971b1d4.mp3",
+  "seed": 7779,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日の",
+      "start_sample": 0,
+      "end_sample": 6528,
+      "start_ms": 0,
+      "end_ms": 408
+    },
+    {
+      "lang": "en",
+      "text": "appointment",
+      "start_sample": 6528,
+      "end_sample": 23124,
+      "start_ms": 408,
+      "end_ms": 1445
+    },
+    {
+      "lang": "ja",
+      "text": "を来週に変更できますか？",
+      "start_sample": 23124,
+      "end_sample": 51279,
+      "start_ms": 1445,
+      "end_ms": 3205
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou no appointment wo raishuu ni henkou deki masu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4810,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の",
+          "start_sample": 0,
+          "end_sample": 8497,
+          "start_ms": 0,
+          "end_ms": 531
+        },
+        {
+          "lang": "en",
+          "text": "appointment",
+          "start_sample": 8497,
+          "end_sample": 25493,
+          "start_ms": 531,
+          "end_ms": 1593
+        },
+        {
+          "lang": "ja",
+          "text": "を来週に変更できますか？",
+          "start_sample": 25493,
+          "end_sample": 76959,
+          "start_ms": 1593,
+          "end_ms": 4810
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日のappointmentを来週に変更できますか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2884,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の",
+          "start_sample": 0,
+          "end_sample": 6728,
+          "start_ms": 0,
+          "end_ms": 420
+        },
+        {
+          "lang": "en",
+          "text": "appointment",
+          "start_sample": 6728,
+          "end_sample": 17783,
+          "start_ms": 420,
+          "end_ms": 1111
+        },
+        {
+          "lang": "ja",
+          "text": "を来週に変更できますか？",
+          "start_sample": 17783,
+          "end_sample": 46138,
+          "start_ms": 1111,
+          "end_ms": 2884
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 161,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

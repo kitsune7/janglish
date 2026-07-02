@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4209.flac",
+  "sentence": "The 葉っぱ on this oak tree are turning a deep copper color.",
+  "sample_rate": 16000,
+  "duration_ms": 4391,
+  "reference_speaker": "jp/speaker_091_bf2621e97933.mp3",
+  "seed": 4251,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2694,
+      "start_ms": 0,
+      "end_ms": 168
+    },
+    {
+      "lang": "ja",
+      "text": "葉っぱ",
+      "start_sample": 2694,
+      "end_sample": 12406,
+      "start_ms": 168,
+      "end_ms": 775
+    },
+    {
+      "lang": "en",
+      "text": "on this oak tree are turning a deep copper color.",
+      "start_sample": 12406,
+      "end_sample": 70263,
+      "start_ms": 775,
+      "end_ms": 4391
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The happa on this oak tree are turning a deep copper color.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4262,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2894,
+          "start_ms": 0,
+          "end_ms": 181
+        },
+        {
+          "lang": "ja",
+          "text": "葉っぱ",
+          "start_sample": 2894,
+          "end_sample": 10132,
+          "start_ms": 181,
+          "end_ms": 633
+        },
+        {
+          "lang": "en",
+          "text": "on this oak tree are turning a deep copper color.",
+          "start_sample": 10132,
+          "end_sample": 68189,
+          "start_ms": 633,
+          "end_ms": 4262
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 葉っぱ on this oak tree are turning a deep copper color.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5016,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5935,
+          "start_ms": 0,
+          "end_ms": 371
+        },
+        {
+          "lang": "ja",
+          "text": "葉っぱ",
+          "start_sample": 5935,
+          "end_sample": 16047,
+          "start_ms": 371,
+          "end_ms": 1003
+        },
+        {
+          "lang": "en",
+          "text": "on this oak tree are turning a deep copper color.",
+          "start_sample": 16047,
+          "end_sample": 80251,
+          "start_ms": 1003,
+          "end_ms": 5016
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 220,
+  "frame_labels": "eeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

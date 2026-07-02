@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11708.flac",
+  "sentence": "私たちはshelterを探して歩き回った。",
+  "sample_rate": 16000,
+  "duration_ms": 3540,
+  "reference_speaker": "jp/speaker_026_f1fcfd0f4786.mp3",
+  "seed": 11750,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "私たちは",
+      "start_sample": 0,
+      "end_sample": 11678,
+      "start_ms": 0,
+      "end_ms": 730
+    },
+    {
+      "lang": "en",
+      "text": "shelter",
+      "start_sample": 11678,
+      "end_sample": 32926,
+      "start_ms": 730,
+      "end_ms": 2058
+    },
+    {
+      "lang": "ja",
+      "text": "を探して歩き回った。",
+      "start_sample": 32926,
+      "end_sample": 56641,
+      "start_ms": 2058,
+      "end_ms": 3540
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "watashi tachi ha shelter wo sagashi te arukimawatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7476,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私たちは",
+          "start_sample": 0,
+          "end_sample": 31108,
+          "start_ms": 0,
+          "end_ms": 1944
+        },
+        {
+          "lang": "en",
+          "text": "shelter",
+          "start_sample": 31108,
+          "end_sample": 52756,
+          "start_ms": 1944,
+          "end_ms": 3297
+        },
+        {
+          "lang": "ja",
+          "text": "を探して歩き回った。",
+          "start_sample": 52756,
+          "end_sample": 119623,
+          "start_ms": 3297,
+          "end_ms": 7476
+        }
+      ]
+    },
+    "ja": {
+      "text": "私たちはshelterを探して歩き回った。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2749,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私たちは",
+          "start_sample": 0,
+          "end_sample": 11878,
+          "start_ms": 0,
+          "end_ms": 742
+        },
+        {
+          "lang": "en",
+          "text": "shelter",
+          "start_sample": 11878,
+          "end_sample": 20064,
+          "start_ms": 742,
+          "end_ms": 1254
+        },
+        {
+          "lang": "ja",
+          "text": "を探して歩き回った。",
+          "start_sample": 20064,
+          "end_sample": 43979,
+          "start_ms": 1254,
+          "end_ms": 2749
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 178,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

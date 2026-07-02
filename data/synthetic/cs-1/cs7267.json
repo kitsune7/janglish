@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7267.flac",
+  "sentence": "They offered a 無料 checking account with no strings attached.",
+  "sample_rate": 16000,
+  "duration_ms": 3147,
+  "reference_speaker": "jp/speaker_026_f1fcfd0f4786.mp3",
+  "seed": 7309,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "They offered a",
+      "start_sample": 0,
+      "end_sample": 10420,
+      "start_ms": 0,
+      "end_ms": 651
+    },
+    {
+      "lang": "ja",
+      "text": "無料",
+      "start_sample": 10420,
+      "end_sample": 14680,
+      "start_ms": 651,
+      "end_ms": 918
+    },
+    {
+      "lang": "en",
+      "text": "checking account with no strings attached.",
+      "start_sample": 14680,
+      "end_sample": 50359,
+      "start_ms": 918,
+      "end_ms": 3147
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "They offered a muryou checking account with no strings attached.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3459,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "They offered a",
+          "start_sample": 0,
+          "end_sample": 10620,
+          "start_ms": 0,
+          "end_ms": 664
+        },
+        {
+          "lang": "ja",
+          "text": "無料",
+          "start_sample": 10620,
+          "end_sample": 19470,
+          "start_ms": 664,
+          "end_ms": 1217
+        },
+        {
+          "lang": "en",
+          "text": "checking account with no strings attached.",
+          "start_sample": 19470,
+          "end_sample": 55349,
+          "start_ms": 1217,
+          "end_ms": 3459
+        }
+      ]
+    },
+    "ja": {
+      "text": "They offered a 無料 checking account with no strings attached.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3193,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "They offered a",
+          "start_sample": 0,
+          "end_sample": 9480,
+          "start_ms": 0,
+          "end_ms": 592
+        },
+        {
+          "lang": "ja",
+          "text": "無料",
+          "start_sample": 9480,
+          "end_sample": 14140,
+          "start_ms": 592,
+          "end_ms": 884
+        },
+        {
+          "lang": "en",
+          "text": "checking account with no strings attached.",
+          "start_sample": 14140,
+          "end_sample": 51094,
+          "start_ms": 884,
+          "end_ms": 3193
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 158,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

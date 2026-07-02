@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9500.flac",
+  "sentence": "She was incredibly 丁寧 when she delivered the feedback to the junior staff.",
+  "sample_rate": 16000,
+  "duration_ms": 4249,
+  "reference_speaker": "en/speaker_025_5a5c462b583a.mp3",
+  "seed": 9542,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She was incredibly",
+      "start_sample": 0,
+      "end_sample": 14546,
+      "start_ms": 0,
+      "end_ms": 909
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧",
+      "start_sample": 14546,
+      "end_sample": 22818,
+      "start_ms": 909,
+      "end_ms": 1426
+    },
+    {
+      "lang": "en",
+      "text": "when she delivered the feedback to the junior staff.",
+      "start_sample": 22818,
+      "end_sample": 67978,
+      "start_ms": 1426,
+      "end_ms": 4249
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She was incredibly teinei when she delivered the feedback to the junior staff.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4328,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She was incredibly",
+          "start_sample": 0,
+          "end_sample": 14746,
+          "start_ms": 0,
+          "end_ms": 922
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 14746,
+          "end_sample": 23882,
+          "start_ms": 922,
+          "end_ms": 1493
+        },
+        {
+          "lang": "en",
+          "text": "when she delivered the feedback to the junior staff.",
+          "start_sample": 23882,
+          "end_sample": 69242,
+          "start_ms": 1493,
+          "end_ms": 4328
+        }
+      ]
+    },
+    "ja": {
+      "text": "She was incredibly 丁寧 when she delivered the feedback to the junior staff.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5560,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She was incredibly",
+          "start_sample": 0,
+          "end_sample": 24406,
+          "start_ms": 0,
+          "end_ms": 1525
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 24406,
+          "end_sample": 33078,
+          "start_ms": 1525,
+          "end_ms": 2067
+        },
+        {
+          "lang": "en",
+          "text": "when she delivered the feedback to the junior staff.",
+          "start_sample": 33078,
+          "end_sample": 88962,
+          "start_ms": 2067,
+          "end_ms": 5560
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 213,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11441.flac",
+  "sentence": "That 畳 smell hits differently when you first open the sliding door.",
+  "sample_rate": 16000,
+  "duration_ms": 4397,
+  "reference_speaker": "jp/speaker_063_0760e257c60c.mp3",
+  "seed": 11483,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That",
+      "start_sample": 0,
+      "end_sample": 8150,
+      "start_ms": 0,
+      "end_ms": 509
+    },
+    {
+      "lang": "ja",
+      "text": "畳",
+      "start_sample": 8150,
+      "end_sample": 13221,
+      "start_ms": 509,
+      "end_ms": 826
+    },
+    {
+      "lang": "en",
+      "text": "smell hits differently when you first open the sliding door.",
+      "start_sample": 13221,
+      "end_sample": 70348,
+      "start_ms": 826,
+      "end_ms": 4397
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That tatami smell hits differently when you first open the sliding door.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4858,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That",
+          "start_sample": 0,
+          "end_sample": 8350,
+          "start_ms": 0,
+          "end_ms": 522
+        },
+        {
+          "lang": "ja",
+          "text": "畳",
+          "start_sample": 8350,
+          "end_sample": 20394,
+          "start_ms": 522,
+          "end_ms": 1275
+        },
+        {
+          "lang": "en",
+          "text": "smell hits differently when you first open the sliding door.",
+          "start_sample": 20394,
+          "end_sample": 77721,
+          "start_ms": 1275,
+          "end_ms": 4858
+        }
+      ]
+    },
+    "ja": {
+      "text": "That 畳 smell hits differently when you first open the sliding door.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3378,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That",
+          "start_sample": 0,
+          "end_sample": 3695,
+          "start_ms": 0,
+          "end_ms": 231
+        },
+        {
+          "lang": "ja",
+          "text": "畳",
+          "start_sample": 3695,
+          "end_sample": 9166,
+          "start_ms": 231,
+          "end_ms": 573
+        },
+        {
+          "lang": "en",
+          "text": "smell hits differently when you first open the sliding door.",
+          "start_sample": 9166,
+          "end_sample": 54056,
+          "start_ms": 573,
+          "end_ms": 3378
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 220,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1008.flac",
+  "sentence": "市民のawarenessを高めるためのキャンペーンが始まった。",
+  "sample_rate": 16000,
+  "duration_ms": 3335,
+  "reference_speaker": "jp/speaker_008_925570fa5738.mp3",
+  "seed": 1050,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "市民の",
+      "start_sample": 0,
+      "end_sample": 8649,
+      "start_ms": 0,
+      "end_ms": 541
+    },
+    {
+      "lang": "en",
+      "text": "awareness",
+      "start_sample": 8649,
+      "end_sample": 19618,
+      "start_ms": 541,
+      "end_ms": 1226
+    },
+    {
+      "lang": "ja",
+      "text": "を高めるためのキャンペーンが始まった。",
+      "start_sample": 19618,
+      "end_sample": 53366,
+      "start_ms": 1226,
+      "end_ms": 3335
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shimin no awareness wo takameru tame no kyanpeen ga hajimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6785,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "市民の",
+          "start_sample": 0,
+          "end_sample": 9766,
+          "start_ms": 0,
+          "end_ms": 610
+        },
+        {
+          "lang": "en",
+          "text": "awareness",
+          "start_sample": 9766,
+          "end_sample": 21135,
+          "start_ms": 610,
+          "end_ms": 1321
+        },
+        {
+          "lang": "ja",
+          "text": "を高めるためのキャンペーンが始まった。",
+          "start_sample": 21135,
+          "end_sample": 108558,
+          "start_ms": 1321,
+          "end_ms": 6785
+        }
+      ]
+    },
+    "ja": {
+      "text": "市民のawarenessを高めるためのキャンペーンが始まった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3218,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "市民の",
+          "start_sample": 0,
+          "end_sample": 8849,
+          "start_ms": 0,
+          "end_ms": 553
+        },
+        {
+          "lang": "en",
+          "text": "awareness",
+          "start_sample": 8849,
+          "end_sample": 17539,
+          "start_ms": 553,
+          "end_ms": 1096
+        },
+        {
+          "lang": "ja",
+          "text": "を高めるためのキャンペーンが始まった。",
+          "start_sample": 17539,
+          "end_sample": 51487,
+          "start_ms": 1096,
+          "end_ms": 3218
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 167,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

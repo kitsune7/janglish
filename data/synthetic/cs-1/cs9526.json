@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9526.flac",
+  "sentence": "I noticed the 非常口 sign was completely blocked by a luggage cart.",
+  "sample_rate": 16000,
+  "duration_ms": 4925,
+  "reference_speaker": "jp/speaker_034_3e5442a60675.mp3",
+  "seed": 9568,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I noticed the",
+      "start_sample": 0,
+      "end_sample": 11997,
+      "start_ms": 0,
+      "end_ms": 750
+    },
+    {
+      "lang": "ja",
+      "text": "非常口",
+      "start_sample": 11997,
+      "end_sample": 26181,
+      "start_ms": 750,
+      "end_ms": 1636
+    },
+    {
+      "lang": "en",
+      "text": "sign was completely blocked by a luggage cart.",
+      "start_sample": 26181,
+      "end_sample": 78793,
+      "start_ms": 1636,
+      "end_ms": 4925
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I noticed the hijou kuchi sign was completely blocked by a luggage cart.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5036,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I noticed the",
+          "start_sample": 0,
+          "end_sample": 12197,
+          "start_ms": 0,
+          "end_ms": 762
+        },
+        {
+          "lang": "ja",
+          "text": "非常口",
+          "start_sample": 12197,
+          "end_sample": 27768,
+          "start_ms": 762,
+          "end_ms": 1736
+        },
+        {
+          "lang": "en",
+          "text": "sign was completely blocked by a luggage cart.",
+          "start_sample": 27768,
+          "end_sample": 80580,
+          "start_ms": 1736,
+          "end_ms": 5036
+        }
+      ]
+    },
+    "ja": {
+      "text": "I noticed the 非常口 sign was completely blocked by a luggage cart.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6490,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I noticed the",
+          "start_sample": 0,
+          "end_sample": 19871,
+          "start_ms": 0,
+          "end_ms": 1242
+        },
+        {
+          "lang": "ja",
+          "text": "非常口",
+          "start_sample": 19871,
+          "end_sample": 34455,
+          "start_ms": 1242,
+          "end_ms": 2153
+        },
+        {
+          "lang": "en",
+          "text": "sign was completely blocked by a luggage cart.",
+          "start_sample": 34455,
+          "end_sample": 103846,
+          "start_ms": 2153,
+          "end_ms": 6490
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 247,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1675.flac",
+  "sentence": "救急車を呼んでください、彼女はunconsciousです。",
+  "sample_rate": 16000,
+  "duration_ms": 3656,
+  "reference_speaker": "en/speaker_059_8cc960ae4dc2.mp3",
+  "seed": 1717,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "救急車を呼んでください、彼女は",
+      "start_sample": 0,
+      "end_sample": 35522,
+      "start_ms": 0,
+      "end_ms": 2220
+    },
+    {
+      "lang": "en",
+      "text": "unconscious",
+      "start_sample": 35522,
+      "end_sample": 52902,
+      "start_ms": 2220,
+      "end_ms": 3306
+    },
+    {
+      "lang": "ja",
+      "text": "です。",
+      "start_sample": 52902,
+      "end_sample": 58490,
+      "start_ms": 3306,
+      "end_ms": 3656
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyuukyuu kuruma wo yon de kudasai kanojo ha unconscious desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8109,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "救急車を呼んでください、彼女は",
+          "start_sample": 0,
+          "end_sample": 103956,
+          "start_ms": 0,
+          "end_ms": 6497
+        },
+        {
+          "lang": "en",
+          "text": "unconscious",
+          "start_sample": 103956,
+          "end_sample": 121736,
+          "start_ms": 6497,
+          "end_ms": 7608
+        },
+        {
+          "lang": "ja",
+          "text": "です。",
+          "start_sample": 121736,
+          "end_sample": 129744,
+          "start_ms": 7608,
+          "end_ms": 8109
+        }
+      ]
+    },
+    "ja": {
+      "text": "救急車を呼んでください、彼女はunconsciousです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3419,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "救急車を呼んでください、彼女は",
+          "start_sample": 0,
+          "end_sample": 35722,
+          "start_ms": 0,
+          "end_ms": 2233
+        },
+        {
+          "lang": "en",
+          "text": "unconscious",
+          "start_sample": 35722,
+          "end_sample": 48917,
+          "start_ms": 2233,
+          "end_ms": 3057
+        },
+        {
+          "lang": "ja",
+          "text": "です。",
+          "start_sample": 48917,
+          "end_sample": 54705,
+          "start_ms": 3057,
+          "end_ms": 3419
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 183,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjj"
+}

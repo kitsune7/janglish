@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8282.flac",
+  "sentence": "会議室のbookingをお願いできますか？",
+  "sample_rate": 16000,
+  "duration_ms": 2608,
+  "reference_speaker": "jp/speaker_049_435108c1173c.mp3",
+  "seed": 8324,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "会議室の",
+      "start_sample": 0,
+      "end_sample": 11831,
+      "start_ms": 0,
+      "end_ms": 739
+    },
+    {
+      "lang": "en",
+      "text": "booking",
+      "start_sample": 11831,
+      "end_sample": 24288,
+      "start_ms": 739,
+      "end_ms": 1518
+    },
+    {
+      "lang": "ja",
+      "text": "をお願いできますか？",
+      "start_sample": 24288,
+      "end_sample": 41733,
+      "start_ms": 1518,
+      "end_ms": 2608
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kaigi shitsu no booking wo o negai deki masu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4520,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "会議室の",
+          "start_sample": 0,
+          "end_sample": 19927,
+          "start_ms": 0,
+          "end_ms": 1245
+        },
+        {
+          "lang": "en",
+          "text": "booking",
+          "start_sample": 19927,
+          "end_sample": 32784,
+          "start_ms": 1245,
+          "end_ms": 2049
+        },
+        {
+          "lang": "ja",
+          "text": "をお願いできますか？",
+          "start_sample": 32784,
+          "end_sample": 72315,
+          "start_ms": 2049,
+          "end_ms": 4520
+        }
+      ]
+    },
+    "ja": {
+      "text": "会議室のbookingをお願いできますか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2246,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "会議室の",
+          "start_sample": 0,
+          "end_sample": 12031,
+          "start_ms": 0,
+          "end_ms": 752
+        },
+        {
+          "lang": "en",
+          "text": "booking",
+          "start_sample": 12031,
+          "end_sample": 18288,
+          "start_ms": 752,
+          "end_ms": 1143
+        },
+        {
+          "lang": "ja",
+          "text": "をお願いできますか？",
+          "start_sample": 18288,
+          "end_sample": 35933,
+          "start_ms": 1143,
+          "end_ms": 2246
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 131,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

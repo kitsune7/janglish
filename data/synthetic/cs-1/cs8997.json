@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8997.flac",
+  "sentence": "My brother is honestly 上手 at building model trains from scratch.",
+  "sample_rate": 16000,
+  "duration_ms": 3594,
+  "reference_speaker": "en/speaker_055_a1e62e8e91e0.mp3",
+  "seed": 9039,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My brother is honestly",
+      "start_sample": 0,
+      "end_sample": 17147,
+      "start_ms": 0,
+      "end_ms": 1072
+    },
+    {
+      "lang": "ja",
+      "text": "上手",
+      "start_sample": 17147,
+      "end_sample": 24133,
+      "start_ms": 1072,
+      "end_ms": 1508
+    },
+    {
+      "lang": "en",
+      "text": "at building model trains from scratch.",
+      "start_sample": 24133,
+      "end_sample": 57501,
+      "start_ms": 1508,
+      "end_ms": 3594
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My brother is honestly jouzu at building model trains from scratch.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3614,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My brother is honestly",
+          "start_sample": 0,
+          "end_sample": 17347,
+          "start_ms": 0,
+          "end_ms": 1084
+        },
+        {
+          "lang": "ja",
+          "text": "上手",
+          "start_sample": 17347,
+          "end_sample": 24254,
+          "start_ms": 1084,
+          "end_ms": 1516
+        },
+        {
+          "lang": "en",
+          "text": "at building model trains from scratch.",
+          "start_sample": 24254,
+          "end_sample": 57822,
+          "start_ms": 1516,
+          "end_ms": 3614
+        }
+      ]
+    },
+    "ja": {
+      "text": "My brother is honestly 上手 at building model trains from scratch.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4756,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My brother is honestly",
+          "start_sample": 0,
+          "end_sample": 26011,
+          "start_ms": 0,
+          "end_ms": 1626
+        },
+        {
+          "lang": "ja",
+          "text": "上手",
+          "start_sample": 26011,
+          "end_sample": 33397,
+          "start_ms": 1626,
+          "end_ms": 2087
+        },
+        {
+          "lang": "en",
+          "text": "at building model trains from scratch.",
+          "start_sample": 33397,
+          "end_sample": 76104,
+          "start_ms": 2087,
+          "end_ms": 4756
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 180,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

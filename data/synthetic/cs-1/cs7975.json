@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7975.flac",
+  "sentence": "このpruning shears、切れ味が悪くなってきたな。",
+  "sample_rate": 16000,
+  "duration_ms": 3229,
+  "reference_speaker": "en/speaker_095_862d569c1af2.mp3",
+  "seed": 8017,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 4130,
+      "start_ms": 0,
+      "end_ms": 258
+    },
+    {
+      "lang": "en",
+      "text": "pruning shears、",
+      "start_sample": 4130,
+      "end_sample": 25385,
+      "start_ms": 258,
+      "end_ms": 1587
+    },
+    {
+      "lang": "ja",
+      "text": "切れ味が悪くなってきたな。",
+      "start_sample": 25385,
+      "end_sample": 51666,
+      "start_ms": 1587,
+      "end_ms": 3229
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono pruning shears、 kireaji ga waruku natsu te ki ta na",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7358,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 6253,
+          "start_ms": 0,
+          "end_ms": 391
+        },
+        {
+          "lang": "en",
+          "text": "pruning shears、",
+          "start_sample": 6253,
+          "end_sample": 27908,
+          "start_ms": 391,
+          "end_ms": 1744
+        },
+        {
+          "lang": "ja",
+          "text": "切れ味が悪くなってきたな。",
+          "start_sample": 27908,
+          "end_sample": 117735,
+          "start_ms": 1744,
+          "end_ms": 7358
+        }
+      ]
+    },
+    "ja": {
+      "text": "このpruning shears、切れ味が悪くなってきたな。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3130,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4330,
+          "start_ms": 0,
+          "end_ms": 271
+        },
+        {
+          "lang": "en",
+          "text": "pruning shears、",
+          "start_sample": 4330,
+          "end_sample": 23591,
+          "start_ms": 271,
+          "end_ms": 1474
+        },
+        {
+          "lang": "ja",
+          "text": "切れ味が悪くなってきたな。",
+          "start_sample": 23591,
+          "end_sample": 50072,
+          "start_ms": 1474,
+          "end_ms": 3130
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 162,
+  "frame_labels": "jjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

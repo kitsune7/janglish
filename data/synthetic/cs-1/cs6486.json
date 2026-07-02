@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6486.flac",
+  "sentence": "今日はventstooを外してパーツを一つ一つ洗いました。",
+  "sample_rate": 16000,
+  "duration_ms": 4359,
+  "reference_speaker": "jp/speaker_085_c431b4a9ddfb.mp3",
+  "seed": 6528,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日は",
+      "start_sample": 0,
+      "end_sample": 6534,
+      "start_ms": 0,
+      "end_ms": 408
+    },
+    {
+      "lang": "en",
+      "text": "ventstoo",
+      "start_sample": 6534,
+      "end_sample": 26802,
+      "start_ms": 408,
+      "end_ms": 1675
+    },
+    {
+      "lang": "ja",
+      "text": "を外してパーツを一つ一つ洗いました。",
+      "start_sample": 26802,
+      "end_sample": 69747,
+      "start_ms": 1675,
+      "end_ms": 4359
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou ha ventstoo wo hazushi te paatsu wo ichi tsu ichi tsu arai mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10674,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日は",
+          "start_sample": 0,
+          "end_sample": 21788,
+          "start_ms": 0,
+          "end_ms": 1362
+        },
+        {
+          "lang": "en",
+          "text": "ventstoo",
+          "start_sample": 21788,
+          "end_sample": 42456,
+          "start_ms": 1362,
+          "end_ms": 2654
+        },
+        {
+          "lang": "ja",
+          "text": "を外してパーツを一つ一つ洗いました。",
+          "start_sample": 42456,
+          "end_sample": 170787,
+          "start_ms": 2654,
+          "end_ms": 10674
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日はventstooを外してパーツを一つ一つ洗いました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3789,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日は",
+          "start_sample": 0,
+          "end_sample": 6734,
+          "start_ms": 0,
+          "end_ms": 421
+        },
+        {
+          "lang": "en",
+          "text": "ventstoo",
+          "start_sample": 6734,
+          "end_sample": 17482,
+          "start_ms": 421,
+          "end_ms": 1093
+        },
+        {
+          "lang": "ja",
+          "text": "を外してパーツを一つ一つ洗いました。",
+          "start_sample": 17482,
+          "end_sample": 60627,
+          "start_ms": 1093,
+          "end_ms": 3789
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

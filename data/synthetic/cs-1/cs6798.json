@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6798.flac",
+  "sentence": "The most 印象的 moment came when he asked a question no one had thought of.",
+  "sample_rate": 16000,
+  "duration_ms": 5032,
+  "reference_speaker": "jp/speaker_052_8e5df296063d.mp3",
+  "seed": 6840,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The most",
+      "start_sample": 0,
+      "end_sample": 6056,
+      "start_ms": 0,
+      "end_ms": 378
+    },
+    {
+      "lang": "ja",
+      "text": "印象的",
+      "start_sample": 6056,
+      "end_sample": 15910,
+      "start_ms": 378,
+      "end_ms": 994
+    },
+    {
+      "lang": "en",
+      "text": "moment came when he asked a question no one had thought of.",
+      "start_sample": 15910,
+      "end_sample": 80520,
+      "start_ms": 994,
+      "end_ms": 5032
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The most inshou teki moment came when he asked a question no one had thought of.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5194,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The most",
+          "start_sample": 0,
+          "end_sample": 6256,
+          "start_ms": 0,
+          "end_ms": 391
+        },
+        {
+          "lang": "ja",
+          "text": "印象的",
+          "start_sample": 6256,
+          "end_sample": 18288,
+          "start_ms": 391,
+          "end_ms": 1143
+        },
+        {
+          "lang": "en",
+          "text": "moment came when he asked a question no one had thought of.",
+          "start_sample": 18288,
+          "end_sample": 83098,
+          "start_ms": 1143,
+          "end_ms": 5194
+        }
+      ]
+    },
+    "ja": {
+      "text": "The most 印象的 moment came when he asked a question no one had thought of.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5347,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The most",
+          "start_sample": 0,
+          "end_sample": 8811,
+          "start_ms": 0,
+          "end_ms": 551
+        },
+        {
+          "lang": "ja",
+          "text": "印象的",
+          "start_sample": 8811,
+          "end_sample": 19065,
+          "start_ms": 551,
+          "end_ms": 1192
+        },
+        {
+          "lang": "en",
+          "text": "moment came when he asked a question no one had thought of.",
+          "start_sample": 19065,
+          "end_sample": 85554,
+          "start_ms": 1192,
+          "end_ms": 5347
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 252,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

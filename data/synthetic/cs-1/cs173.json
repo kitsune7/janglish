@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs173.flac",
+  "sentence": "Isn't it amazing how 素直 a child's laughter sounds compared to an adult's?",
+  "sample_rate": 16000,
+  "duration_ms": 8592,
+  "reference_speaker": "en/speaker_016_fcffb37fddea.mp3",
+  "seed": 215,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Isn't it amazing how",
+      "start_sample": 0,
+      "end_sample": 44663,
+      "start_ms": 0,
+      "end_ms": 2791
+    },
+    {
+      "lang": "ja",
+      "text": "素直",
+      "start_sample": 44663,
+      "end_sample": 51314,
+      "start_ms": 2791,
+      "end_ms": 3207
+    },
+    {
+      "lang": "en",
+      "text": "a child's laughter sounds compared to an adult's?",
+      "start_sample": 51314,
+      "end_sample": 137476,
+      "start_ms": 3207,
+      "end_ms": 8592
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Isn't it amazing how sunao a child's laughter sounds compared to an adult's?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9173,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Isn't it amazing how",
+          "start_sample": 0,
+          "end_sample": 44863,
+          "start_ms": 0,
+          "end_ms": 2804
+        },
+        {
+          "lang": "ja",
+          "text": "素直",
+          "start_sample": 44863,
+          "end_sample": 60405,
+          "start_ms": 2804,
+          "end_ms": 3775
+        },
+        {
+          "lang": "en",
+          "text": "a child's laughter sounds compared to an adult's?",
+          "start_sample": 60405,
+          "end_sample": 146767,
+          "start_ms": 3775,
+          "end_ms": 9173
+        }
+      ]
+    },
+    "ja": {
+      "text": "Isn't it amazing how 素直 a child's laughter sounds compared to an adult's?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5549,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Isn't it amazing how",
+          "start_sample": 0,
+          "end_sample": 26121,
+          "start_ms": 0,
+          "end_ms": 1633
+        },
+        {
+          "lang": "ja",
+          "text": "素直",
+          "start_sample": 26121,
+          "end_sample": 33172,
+          "start_ms": 1633,
+          "end_ms": 2073
+        },
+        {
+          "lang": "en",
+          "text": "a child's laughter sounds compared to an adult's?",
+          "start_sample": 33172,
+          "end_sample": 88781,
+          "start_ms": 2073,
+          "end_ms": 5549
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 430,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11736.flac",
+  "sentence": "祖母はdailyの散歩を欠かさない人です。",
+  "sample_rate": 16000,
+  "duration_ms": 3789,
+  "reference_speaker": "en/speaker_063_66f0ab0f5d48.mp3",
+  "seed": 11778,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "祖母は",
+      "start_sample": 0,
+      "end_sample": 8620,
+      "start_ms": 0,
+      "end_ms": 539
+    },
+    {
+      "lang": "en",
+      "text": "daily",
+      "start_sample": 8620,
+      "end_sample": 14480,
+      "start_ms": 539,
+      "end_ms": 905
+    },
+    {
+      "lang": "ja",
+      "text": "の散歩を欠かさない人です。",
+      "start_sample": 14480,
+      "end_sample": 60626,
+      "start_ms": 905,
+      "end_ms": 3789
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sobo ha daily no sanpo wo kakasa nai nin desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6841,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "祖母は",
+          "start_sample": 0,
+          "end_sample": 30973,
+          "start_ms": 0,
+          "end_ms": 1936
+        },
+        {
+          "lang": "en",
+          "text": "daily",
+          "start_sample": 30973,
+          "end_sample": 37233,
+          "start_ms": 1936,
+          "end_ms": 2327
+        },
+        {
+          "lang": "ja",
+          "text": "の散歩を欠かさない人です。",
+          "start_sample": 37233,
+          "end_sample": 109456,
+          "start_ms": 2327,
+          "end_ms": 6841
+        }
+      ]
+    },
+    "ja": {
+      "text": "祖母はdailyの散歩を欠かさない人です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4029,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "祖母は",
+          "start_sample": 0,
+          "end_sample": 8820,
+          "start_ms": 0,
+          "end_ms": 551
+        },
+        {
+          "lang": "en",
+          "text": "daily",
+          "start_sample": 8820,
+          "end_sample": 18121,
+          "start_ms": 551,
+          "end_ms": 1133
+        },
+        {
+          "lang": "ja",
+          "text": "の散歩を欠かさない人です。",
+          "start_sample": 18121,
+          "end_sample": 64467,
+          "start_ms": 1133,
+          "end_ms": 4029
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs189.flac",
+  "sentence": "新しいhair dryerを買ったら、乾かす時間が半分になりました。",
+  "sample_rate": 16000,
+  "duration_ms": 4632,
+  "reference_speaker": "en/speaker_007_70c21ca1cc3d.mp3",
+  "seed": 231,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "新しい",
+      "start_sample": 0,
+      "end_sample": 9110,
+      "start_ms": 0,
+      "end_ms": 569
+    },
+    {
+      "lang": "en",
+      "text": "hair dryer",
+      "start_sample": 9110,
+      "end_sample": 28562,
+      "start_ms": 569,
+      "end_ms": 1785
+    },
+    {
+      "lang": "ja",
+      "text": "を買ったら、乾かす時間が半分になりました。",
+      "start_sample": 28562,
+      "end_sample": 74111,
+      "start_ms": 1785,
+      "end_ms": 4632
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "atarashii hair dryer wo katsu tara kawakasu jikan ga hanbun ni nari mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8225,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 12007,
+          "start_ms": 0,
+          "end_ms": 750
+        },
+        {
+          "lang": "en",
+          "text": "hair dryer",
+          "start_sample": 12007,
+          "end_sample": 31859,
+          "start_ms": 750,
+          "end_ms": 1991
+        },
+        {
+          "lang": "ja",
+          "text": "を買ったら、乾かす時間が半分になりました。",
+          "start_sample": 31859,
+          "end_sample": 131602,
+          "start_ms": 1991,
+          "end_ms": 8225
+        }
+      ]
+    },
+    "ja": {
+      "text": "新しいhair dryerを買ったら、乾かす時間が半分になりました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4133,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 9310,
+          "start_ms": 0,
+          "end_ms": 582
+        },
+        {
+          "lang": "en",
+          "text": "hair dryer",
+          "start_sample": 9310,
+          "end_sample": 20386,
+          "start_ms": 582,
+          "end_ms": 1274
+        },
+        {
+          "lang": "ja",
+          "text": "を買ったら、乾かす時間が半分になりました。",
+          "start_sample": 20386,
+          "end_sample": 66135,
+          "start_ms": 1274,
+          "end_ms": 4133
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 232,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs931.flac",
+  "sentence": "The post office clerk handled every 手続き with calm 笑顔.",
+  "sample_rate": 16000,
+  "duration_ms": 3350,
+  "reference_speaker": "jp/speaker_046_38f0b7b27586.mp3",
+  "seed": 17786,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The post office clerk handled every",
+      "start_sample": 0,
+      "end_sample": 29129,
+      "start_ms": 0,
+      "end_ms": 1821
+    },
+    {
+      "lang": "ja",
+      "text": "手続き",
+      "start_sample": 29129,
+      "end_sample": 36900,
+      "start_ms": 1821,
+      "end_ms": 2306
+    },
+    {
+      "lang": "en",
+      "text": "with calm",
+      "start_sample": 36900,
+      "end_sample": 47238,
+      "start_ms": 2306,
+      "end_ms": 2952
+    },
+    {
+      "lang": "ja",
+      "text": "笑顔.",
+      "start_sample": 47238,
+      "end_sample": 53606,
+      "start_ms": 2952,
+      "end_ms": 3350
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The post office clerk handled every tetsuzuki with calm egao",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3766,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The post office clerk handled every",
+          "start_sample": 0,
+          "end_sample": 29329,
+          "start_ms": 0,
+          "end_ms": 1833
+        },
+        {
+          "lang": "ja",
+          "text": "手続き",
+          "start_sample": 29329,
+          "end_sample": 40869,
+          "start_ms": 1833,
+          "end_ms": 2554
+        },
+        {
+          "lang": "en",
+          "text": "with calm",
+          "start_sample": 40869,
+          "end_sample": 51607,
+          "start_ms": 2554,
+          "end_ms": 3225
+        },
+        {
+          "lang": "ja",
+          "text": "笑顔.",
+          "start_sample": 51607,
+          "end_sample": 60260,
+          "start_ms": 3225,
+          "end_ms": 3766
+        }
+      ]
+    },
+    "ja": {
+      "text": "The post office clerk handled every 手続き with calm 笑顔.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3905,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The post office clerk handled every",
+          "start_sample": 0,
+          "end_sample": 38449,
+          "start_ms": 0,
+          "end_ms": 2403
+        },
+        {
+          "lang": "ja",
+          "text": "手続き",
+          "start_sample": 38449,
+          "end_sample": 46620,
+          "start_ms": 2403,
+          "end_ms": 2914
+        },
+        {
+          "lang": "en",
+          "text": "with calm",
+          "start_sample": 46620,
+          "end_sample": 55912,
+          "start_ms": 2914,
+          "end_ms": 3494
+        },
+        {
+          "lang": "ja",
+          "text": "笑顔.",
+          "start_sample": 55912,
+          "end_sample": 62480,
+          "start_ms": 3494,
+          "end_ms": 3905
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 168,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjj"
+}

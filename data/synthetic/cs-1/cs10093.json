@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10093.flac",
+  "sentence": "I find it hard to stay 集中 when people are talking nearby.",
+  "sample_rate": 16000,
+  "duration_ms": 3654,
+  "reference_speaker": "jp/speaker_016_f3aac8b73f15.mp3",
+  "seed": 10135,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I find it hard to stay",
+      "start_sample": 0,
+      "end_sample": 19560,
+      "start_ms": 0,
+      "end_ms": 1222
+    },
+    {
+      "lang": "ja",
+      "text": "集中",
+      "start_sample": 19560,
+      "end_sample": 33922,
+      "start_ms": 1222,
+      "end_ms": 2120
+    },
+    {
+      "lang": "en",
+      "text": "when people are talking nearby.",
+      "start_sample": 33922,
+      "end_sample": 58464,
+      "start_ms": 2120,
+      "end_ms": 3654
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I find it hard to stay shuuchuu when people are talking nearby.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3294,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I find it hard to stay",
+          "start_sample": 0,
+          "end_sample": 19760,
+          "start_ms": 0,
+          "end_ms": 1235
+        },
+        {
+          "lang": "ja",
+          "text": "集中",
+          "start_sample": 19760,
+          "end_sample": 27955,
+          "start_ms": 1235,
+          "end_ms": 1747
+        },
+        {
+          "lang": "en",
+          "text": "when people are talking nearby.",
+          "start_sample": 27955,
+          "end_sample": 52697,
+          "start_ms": 1747,
+          "end_ms": 3294
+        }
+      ]
+    },
+    "ja": {
+      "text": "I find it hard to stay 集中 when people are talking nearby.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6298,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I find it hard to stay",
+          "start_sample": 0,
+          "end_sample": 41716,
+          "start_ms": 0,
+          "end_ms": 2607
+        },
+        {
+          "lang": "ja",
+          "text": "集中",
+          "start_sample": 41716,
+          "end_sample": 56478,
+          "start_ms": 2607,
+          "end_ms": 3530
+        },
+        {
+          "lang": "en",
+          "text": "when people are talking nearby.",
+          "start_sample": 56478,
+          "end_sample": 100762,
+          "start_ms": 3530,
+          "end_ms": 6298
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 183,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

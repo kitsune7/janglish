@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs861.flac",
+  "sentence": "She delivered her 批判 of the budget with remarkable 冷静.",
+  "sample_rate": 16000,
+  "duration_ms": 4440,
+  "reference_speaker": "en/speaker_071_72384e582e15.mp3",
+  "seed": 17716,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She delivered her",
+      "start_sample": 0,
+      "end_sample": 16335,
+      "start_ms": 0,
+      "end_ms": 1021
+    },
+    {
+      "lang": "ja",
+      "text": "批判",
+      "start_sample": 16335,
+      "end_sample": 24923,
+      "start_ms": 1021,
+      "end_ms": 1558
+    },
+    {
+      "lang": "en",
+      "text": "of the budget with remarkable",
+      "start_sample": 24923,
+      "end_sample": 62898,
+      "start_ms": 1558,
+      "end_ms": 3931
+    },
+    {
+      "lang": "ja",
+      "text": "冷静.",
+      "start_sample": 62898,
+      "end_sample": 71041,
+      "start_ms": 3931,
+      "end_ms": 4440
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She delivered her hihan of the budget with remarkable reisei",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4736,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She delivered her",
+          "start_sample": 0,
+          "end_sample": 16535,
+          "start_ms": 0,
+          "end_ms": 1033
+        },
+        {
+          "lang": "ja",
+          "text": "批判",
+          "start_sample": 16535,
+          "end_sample": 28577,
+          "start_ms": 1033,
+          "end_ms": 1786
+        },
+        {
+          "lang": "en",
+          "text": "of the budget with remarkable",
+          "start_sample": 28577,
+          "end_sample": 66952,
+          "start_ms": 1786,
+          "end_ms": 4184
+        },
+        {
+          "lang": "ja",
+          "text": "冷静.",
+          "start_sample": 66952,
+          "end_sample": 75780,
+          "start_ms": 4184,
+          "end_ms": 4736
+        }
+      ]
+    },
+    "ja": {
+      "text": "She delivered her 批判 of the budget with remarkable 冷静.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4895,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She delivered her",
+          "start_sample": 0,
+          "end_sample": 23912,
+          "start_ms": 0,
+          "end_ms": 1494
+        },
+        {
+          "lang": "ja",
+          "text": "批判",
+          "start_sample": 23912,
+          "end_sample": 32900,
+          "start_ms": 1494,
+          "end_ms": 2056
+        },
+        {
+          "lang": "en",
+          "text": "of the budget with remarkable",
+          "start_sample": 32900,
+          "end_sample": 69978,
+          "start_ms": 2056,
+          "end_ms": 4374
+        },
+        {
+          "lang": "ja",
+          "text": "冷静.",
+          "start_sample": 69978,
+          "end_sample": 78321,
+          "start_ms": 4374,
+          "end_ms": 4895
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 223,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

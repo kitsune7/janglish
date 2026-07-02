@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3810.flac",
+  "sentence": "I was amazed by how much 細部 she managed to capture in a single frame.",
+  "sample_rate": 16000,
+  "duration_ms": 5048,
+  "reference_speaker": "jp/speaker_026_f1fcfd0f4786.mp3",
+  "seed": 3852,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I was amazed by how much",
+      "start_sample": 0,
+      "end_sample": 25920,
+      "start_ms": 0,
+      "end_ms": 1620
+    },
+    {
+      "lang": "ja",
+      "text": "細部",
+      "start_sample": 25920,
+      "end_sample": 31453,
+      "start_ms": 1620,
+      "end_ms": 1966
+    },
+    {
+      "lang": "en",
+      "text": "she managed to capture in a single frame.",
+      "start_sample": 31453,
+      "end_sample": 80772,
+      "start_ms": 1966,
+      "end_ms": 5048
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I was amazed by how much saibu she managed to capture in a single frame.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5549,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I was amazed by how much",
+          "start_sample": 0,
+          "end_sample": 26120,
+          "start_ms": 0,
+          "end_ms": 1632
+        },
+        {
+          "lang": "ja",
+          "text": "細部",
+          "start_sample": 26120,
+          "end_sample": 39261,
+          "start_ms": 1632,
+          "end_ms": 2454
+        },
+        {
+          "lang": "en",
+          "text": "she managed to capture in a single frame.",
+          "start_sample": 39261,
+          "end_sample": 88780,
+          "start_ms": 2454,
+          "end_ms": 5549
+        }
+      ]
+    },
+    "ja": {
+      "text": "I was amazed by how much 細部 she managed to capture in a single frame.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5332,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I was amazed by how much",
+          "start_sample": 0,
+          "end_sample": 34154,
+          "start_ms": 0,
+          "end_ms": 2135
+        },
+        {
+          "lang": "ja",
+          "text": "細部",
+          "start_sample": 34154,
+          "end_sample": 40087,
+          "start_ms": 2135,
+          "end_ms": 2505
+        },
+        {
+          "lang": "en",
+          "text": "she managed to capture in a single frame.",
+          "start_sample": 40087,
+          "end_sample": 85304,
+          "start_ms": 2505,
+          "end_ms": 5332
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 253,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

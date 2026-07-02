@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1793.flac",
+  "sentence": "Have you seen the 版画 collection they just moved to the east gallery?",
+  "sample_rate": 16000,
+  "duration_ms": 3547,
+  "reference_speaker": "en/speaker_030_bdb9e7b61df6.mp3",
+  "seed": 1835,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you seen the",
+      "start_sample": 0,
+      "end_sample": 12947,
+      "start_ms": 0,
+      "end_ms": 809
+    },
+    {
+      "lang": "ja",
+      "text": "版画",
+      "start_sample": 12947,
+      "end_sample": 17673,
+      "start_ms": 809,
+      "end_ms": 1105
+    },
+    {
+      "lang": "en",
+      "text": "collection they just moved to the east gallery?",
+      "start_sample": 17673,
+      "end_sample": 56754,
+      "start_ms": 1105,
+      "end_ms": 3547
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you seen the hanga collection they just moved to the east gallery?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3607,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you seen the",
+          "start_sample": 0,
+          "end_sample": 13147,
+          "start_ms": 0,
+          "end_ms": 822
+        },
+        {
+          "lang": "ja",
+          "text": "版画",
+          "start_sample": 13147,
+          "end_sample": 18438,
+          "start_ms": 822,
+          "end_ms": 1152
+        },
+        {
+          "lang": "en",
+          "text": "collection they just moved to the east gallery?",
+          "start_sample": 18438,
+          "end_sample": 57719,
+          "start_ms": 1152,
+          "end_ms": 3607
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you seen the 版画 collection they just moved to the east gallery?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3484,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you seen the",
+          "start_sample": 0,
+          "end_sample": 10732,
+          "start_ms": 0,
+          "end_ms": 671
+        },
+        {
+          "lang": "ja",
+          "text": "版画",
+          "start_sample": 10732,
+          "end_sample": 15858,
+          "start_ms": 671,
+          "end_ms": 991
+        },
+        {
+          "lang": "en",
+          "text": "collection they just moved to the east gallery?",
+          "start_sample": 15858,
+          "end_sample": 55746,
+          "start_ms": 991,
+          "end_ms": 3484
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 178,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

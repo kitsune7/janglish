@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7356.flac",
+  "sentence": "I always feel 不安 before getting a blood test.",
+  "sample_rate": 16000,
+  "duration_ms": 3145,
+  "reference_speaker": "jp/speaker_029_debaa03f9928.mp3",
+  "seed": 7398,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always feel",
+      "start_sample": 0,
+      "end_sample": 15499,
+      "start_ms": 0,
+      "end_ms": 969
+    },
+    {
+      "lang": "ja",
+      "text": "不安",
+      "start_sample": 15499,
+      "end_sample": 19917,
+      "start_ms": 969,
+      "end_ms": 1245
+    },
+    {
+      "lang": "en",
+      "text": "before getting a blood test.",
+      "start_sample": 19917,
+      "end_sample": 50316,
+      "start_ms": 1245,
+      "end_ms": 3145
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always feel fuan before getting a blood test.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3404,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel",
+          "start_sample": 0,
+          "end_sample": 15699,
+          "start_ms": 0,
+          "end_ms": 981
+        },
+        {
+          "lang": "ja",
+          "text": "不安",
+          "start_sample": 15699,
+          "end_sample": 23869,
+          "start_ms": 981,
+          "end_ms": 1492
+        },
+        {
+          "lang": "en",
+          "text": "before getting a blood test.",
+          "start_sample": 23869,
+          "end_sample": 54468,
+          "start_ms": 1492,
+          "end_ms": 3404
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always feel 不安 before getting a blood test.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2730,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel",
+          "start_sample": 0,
+          "end_sample": 13968,
+          "start_ms": 0,
+          "end_ms": 873
+        },
+        {
+          "lang": "ja",
+          "text": "不安",
+          "start_sample": 13968,
+          "end_sample": 18786,
+          "start_ms": 873,
+          "end_ms": 1174
+        },
+        {
+          "lang": "en",
+          "text": "before getting a blood test.",
+          "start_sample": 18786,
+          "end_sample": 43675,
+          "start_ms": 1174,
+          "end_ms": 2730
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 158,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

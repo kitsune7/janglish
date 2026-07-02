@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4422.flac",
+  "sentence": "The 仲居 brought a tray of sweets to our room shortly after we arrived.",
+  "sample_rate": 16000,
+  "duration_ms": 3628,
+  "reference_speaker": "en/speaker_049_4b799abf92c3.mp3",
+  "seed": 4464,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 762,
+      "start_ms": 0,
+      "end_ms": 48
+    },
+    {
+      "lang": "ja",
+      "text": "仲居",
+      "start_sample": 762,
+      "end_sample": 9010,
+      "start_ms": 48,
+      "end_ms": 563
+    },
+    {
+      "lang": "en",
+      "text": "brought a tray of sweets to our room shortly after we arrived.",
+      "start_sample": 9010,
+      "end_sample": 58055,
+      "start_ms": 563,
+      "end_ms": 3628
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The nakai brought a tray of sweets to our room shortly after we arrived.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3509,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 962,
+          "start_ms": 0,
+          "end_ms": 60
+        },
+        {
+          "lang": "ja",
+          "text": "仲居",
+          "start_sample": 962,
+          "end_sample": 6897,
+          "start_ms": 60,
+          "end_ms": 431
+        },
+        {
+          "lang": "en",
+          "text": "brought a tray of sweets to our room shortly after we arrived.",
+          "start_sample": 6897,
+          "end_sample": 56142,
+          "start_ms": 431,
+          "end_ms": 3509
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 仲居 brought a tray of sweets to our room shortly after we arrived.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5205,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5604,
+          "start_ms": 0,
+          "end_ms": 350
+        },
+        {
+          "lang": "ja",
+          "text": "仲居",
+          "start_sample": 5604,
+          "end_sample": 14252,
+          "start_ms": 350,
+          "end_ms": 891
+        },
+        {
+          "lang": "en",
+          "text": "brought a tray of sweets to our room shortly after we arrived.",
+          "start_sample": 14252,
+          "end_sample": 83276,
+          "start_ms": 891,
+          "end_ms": 5205
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 182,
+  "frame_labels": "eejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

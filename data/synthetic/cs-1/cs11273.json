@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11273.flac",
+  "sentence": "落ち葉でautumn colorが庭に広がっています。",
+  "sample_rate": 16000,
+  "duration_ms": 3566,
+  "reference_speaker": "jp/speaker_053_8435a3c28f36.mp3",
+  "seed": 11315,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "落ち葉で",
+      "start_sample": 0,
+      "end_sample": 9774,
+      "start_ms": 0,
+      "end_ms": 611
+    },
+    {
+      "lang": "en",
+      "text": "autumn color",
+      "start_sample": 9774,
+      "end_sample": 29591,
+      "start_ms": 611,
+      "end_ms": 1849
+    },
+    {
+      "lang": "ja",
+      "text": "が庭に広がっています。",
+      "start_sample": 29591,
+      "end_sample": 57057,
+      "start_ms": 1849,
+      "end_ms": 3566
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ochiba de autumn color ga niwa ni hirogatsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4974,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "落ち葉で",
+          "start_sample": 0,
+          "end_sample": 11710,
+          "start_ms": 0,
+          "end_ms": 732
+        },
+        {
+          "lang": "en",
+          "text": "autumn color",
+          "start_sample": 11710,
+          "end_sample": 31927,
+          "start_ms": 732,
+          "end_ms": 1995
+        },
+        {
+          "lang": "ja",
+          "text": "が庭に広がっています。",
+          "start_sample": 31927,
+          "end_sample": 79580,
+          "start_ms": 1995,
+          "end_ms": 4974
+        }
+      ]
+    },
+    "ja": {
+      "text": "落ち葉でautumn colorが庭に広がっています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3137,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "落ち葉で",
+          "start_sample": 0,
+          "end_sample": 9974,
+          "start_ms": 0,
+          "end_ms": 623
+        },
+        {
+          "lang": "en",
+          "text": "autumn color",
+          "start_sample": 9974,
+          "end_sample": 22523,
+          "start_ms": 623,
+          "end_ms": 1408
+        },
+        {
+          "lang": "ja",
+          "text": "が庭に広がっています。",
+          "start_sample": 22523,
+          "end_sample": 50189,
+          "start_ms": 1408,
+          "end_ms": 3137
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 179,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

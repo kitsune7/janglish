@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs909.flac",
+  "sentence": "友達とonlineで対戦するのが週末の楽しみだ。",
+  "sample_rate": 16000,
+  "duration_ms": 4312,
+  "reference_speaker": "en/speaker_060_be3496638824.mp3",
+  "seed": 951,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "友達と",
+      "start_sample": 0,
+      "end_sample": 10576,
+      "start_ms": 0,
+      "end_ms": 661
+    },
+    {
+      "lang": "en",
+      "text": "online",
+      "start_sample": 10576,
+      "end_sample": 17882,
+      "start_ms": 661,
+      "end_ms": 1118
+    },
+    {
+      "lang": "ja",
+      "text": "で対戦するのが週末の楽しみだ。",
+      "start_sample": 17882,
+      "end_sample": 68989,
+      "start_ms": 1118,
+      "end_ms": 4312
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "tomodachi to online de taisen suru no ga shuumatsu no tanoshimi da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6000,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "友達と",
+          "start_sample": 0,
+          "end_sample": 13646,
+          "start_ms": 0,
+          "end_ms": 853
+        },
+        {
+          "lang": "en",
+          "text": "online",
+          "start_sample": 13646,
+          "end_sample": 21352,
+          "start_ms": 853,
+          "end_ms": 1334
+        },
+        {
+          "lang": "ja",
+          "text": "で対戦するのが週末の楽しみだ。",
+          "start_sample": 21352,
+          "end_sample": 96003,
+          "start_ms": 1334,
+          "end_ms": 6000
+        }
+      ]
+    },
+    "ja": {
+      "text": "友達とonlineで対戦するのが週末の楽しみだ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4403,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "友達と",
+          "start_sample": 0,
+          "end_sample": 10776,
+          "start_ms": 0,
+          "end_ms": 674
+        },
+        {
+          "lang": "en",
+          "text": "online",
+          "start_sample": 10776,
+          "end_sample": 19140,
+          "start_ms": 674,
+          "end_ms": 1196
+        },
+        {
+          "lang": "ja",
+          "text": "で対戦するのが週末の楽しみだ。",
+          "start_sample": 19140,
+          "end_sample": 70447,
+          "start_ms": 1196,
+          "end_ms": 4403
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 216,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

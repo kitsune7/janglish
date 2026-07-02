@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9466.flac",
+  "sentence": "I try to prepare a proper 昼食 instead of just snacking at my desk all day.",
+  "sample_rate": 16000,
+  "duration_ms": 4774,
+  "reference_speaker": "en/speaker_015_995e028794f8.mp3",
+  "seed": 9508,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I try to prepare a proper",
+      "start_sample": 0,
+      "end_sample": 22910,
+      "start_ms": 0,
+      "end_ms": 1432
+    },
+    {
+      "lang": "ja",
+      "text": "昼食",
+      "start_sample": 22910,
+      "end_sample": 33891,
+      "start_ms": 1432,
+      "end_ms": 2118
+    },
+    {
+      "lang": "en",
+      "text": "instead of just snacking at my desk all day.",
+      "start_sample": 33891,
+      "end_sample": 76383,
+      "start_ms": 2118,
+      "end_ms": 4774
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I try to prepare a proper chuushoku instead of just snacking at my desk all day.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4855,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I try to prepare a proper",
+          "start_sample": 0,
+          "end_sample": 23110,
+          "start_ms": 0,
+          "end_ms": 1444
+        },
+        {
+          "lang": "ja",
+          "text": "昼食",
+          "start_sample": 23110,
+          "end_sample": 34987,
+          "start_ms": 1444,
+          "end_ms": 2187
+        },
+        {
+          "lang": "en",
+          "text": "instead of just snacking at my desk all day.",
+          "start_sample": 34987,
+          "end_sample": 77679,
+          "start_ms": 2187,
+          "end_ms": 4855
+        }
+      ]
+    },
+    "ja": {
+      "text": "I try to prepare a proper 昼食 instead of just snacking at my desk all day.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7794,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I try to prepare a proper",
+          "start_sample": 0,
+          "end_sample": 35904,
+          "start_ms": 0,
+          "end_ms": 2244
+        },
+        {
+          "lang": "ja",
+          "text": "昼食",
+          "start_sample": 35904,
+          "end_sample": 47285,
+          "start_ms": 2244,
+          "end_ms": 2955
+        },
+        {
+          "lang": "en",
+          "text": "instead of just snacking at my desk all day.",
+          "start_sample": 47285,
+          "end_sample": 124704,
+          "start_ms": 2955,
+          "end_ms": 7794
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 239,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

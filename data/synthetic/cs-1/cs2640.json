@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2640.flac",
+  "sentence": "She tapped her card at the 出口 gate before realizing she'd come in the wrong entrance.",
+  "sample_rate": 16000,
+  "duration_ms": 4927,
+  "reference_speaker": "en/speaker_018_b0dec8b93359.mp3",
+  "seed": 2682,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She tapped her card at the",
+      "start_sample": 0,
+      "end_sample": 19986,
+      "start_ms": 0,
+      "end_ms": 1249
+    },
+    {
+      "lang": "ja",
+      "text": "出口",
+      "start_sample": 19986,
+      "end_sample": 28731,
+      "start_ms": 1249,
+      "end_ms": 1796
+    },
+    {
+      "lang": "en",
+      "text": "gate before realizing she'd come in the wrong entrance.",
+      "start_sample": 28731,
+      "end_sample": 78838,
+      "start_ms": 1796,
+      "end_ms": 4927
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She tapped her card at the deguchi gate before realizing she'd come in the wrong entrance.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4907,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She tapped her card at the",
+          "start_sample": 0,
+          "end_sample": 20186,
+          "start_ms": 0,
+          "end_ms": 1262
+        },
+        {
+          "lang": "ja",
+          "text": "出口",
+          "start_sample": 20186,
+          "end_sample": 28198,
+          "start_ms": 1262,
+          "end_ms": 1762
+        },
+        {
+          "lang": "en",
+          "text": "gate before realizing she'd come in the wrong entrance.",
+          "start_sample": 28198,
+          "end_sample": 78505,
+          "start_ms": 1762,
+          "end_ms": 4907
+        }
+      ]
+    },
+    "ja": {
+      "text": "She tapped her card at the 出口 gate before realizing she'd come in the wrong entrance.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7180,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She tapped her card at the",
+          "start_sample": 0,
+          "end_sample": 39308,
+          "start_ms": 0,
+          "end_ms": 2457
+        },
+        {
+          "lang": "ja",
+          "text": "出口",
+          "start_sample": 39308,
+          "end_sample": 48453,
+          "start_ms": 2457,
+          "end_ms": 3028
+        },
+        {
+          "lang": "en",
+          "text": "gate before realizing she'd come in the wrong entrance.",
+          "start_sample": 48453,
+          "end_sample": 114875,
+          "start_ms": 3028,
+          "end_ms": 7180
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 247,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

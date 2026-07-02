@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9832.flac",
+  "sentence": "I read a really 詳しい review of the concert that mentioned some fascinating production choices.",
+  "sample_rate": 16000,
+  "duration_ms": 5880,
+  "reference_speaker": "en/speaker_020_5f047713c8bd.mp3",
+  "seed": 9874,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I read a really",
+      "start_sample": 0,
+      "end_sample": 11682,
+      "start_ms": 0,
+      "end_ms": 730
+    },
+    {
+      "lang": "ja",
+      "text": "詳しい",
+      "start_sample": 11682,
+      "end_sample": 22025,
+      "start_ms": 730,
+      "end_ms": 1377
+    },
+    {
+      "lang": "en",
+      "text": "review of the concert that mentioned some fascinating production choices.",
+      "start_sample": 22025,
+      "end_sample": 94081,
+      "start_ms": 1377,
+      "end_ms": 5880
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I read a really kuwashii review of the concert that mentioned some fascinating production choices.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5821,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I read a really",
+          "start_sample": 0,
+          "end_sample": 11882,
+          "start_ms": 0,
+          "end_ms": 743
+        },
+        {
+          "lang": "ja",
+          "text": "詳しい",
+          "start_sample": 11882,
+          "end_sample": 20874,
+          "start_ms": 743,
+          "end_ms": 1305
+        },
+        {
+          "lang": "en",
+          "text": "review of the concert that mentioned some fascinating production choices.",
+          "start_sample": 20874,
+          "end_sample": 93130,
+          "start_ms": 1305,
+          "end_ms": 5821
+        }
+      ]
+    },
+    "ja": {
+      "text": "I read a really 詳しい review of the concert that mentioned some fascinating production choices.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6935,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I read a really",
+          "start_sample": 0,
+          "end_sample": 14432,
+          "start_ms": 0,
+          "end_ms": 902
+        },
+        {
+          "lang": "ja",
+          "text": "詳しい",
+          "start_sample": 14432,
+          "end_sample": 25175,
+          "start_ms": 902,
+          "end_ms": 1573
+        },
+        {
+          "lang": "en",
+          "text": "review of the concert that mentioned some fascinating production choices.",
+          "start_sample": 25175,
+          "end_sample": 110966,
+          "start_ms": 1573,
+          "end_ms": 6935
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 295,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

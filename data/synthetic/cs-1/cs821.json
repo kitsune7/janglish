@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs821.flac",
+  "sentence": "This recipe calls for a surprisingly large amount of 砂糖.",
+  "sample_rate": 16000,
+  "duration_ms": 4142,
+  "reference_speaker": "jp/speaker_085_c431b4a9ddfb.mp3",
+  "seed": 863,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This recipe calls for a surprisingly large amount of",
+      "start_sample": 0,
+      "end_sample": 58465,
+      "start_ms": 0,
+      "end_ms": 3654
+    },
+    {
+      "lang": "ja",
+      "text": "砂糖.",
+      "start_sample": 58465,
+      "end_sample": 66273,
+      "start_ms": 3654,
+      "end_ms": 4142
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This recipe calls for a surprisingly large amount of satou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4207,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This recipe calls for a surprisingly large amount of",
+          "start_sample": 0,
+          "end_sample": 58665,
+          "start_ms": 0,
+          "end_ms": 3667
+        },
+        {
+          "lang": "ja",
+          "text": "砂糖.",
+          "start_sample": 58665,
+          "end_sample": 67319,
+          "start_ms": 3667,
+          "end_ms": 4207
+        }
+      ]
+    },
+    "ja": {
+      "text": "This recipe calls for a surprisingly large amount of 砂糖.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4164,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This recipe calls for a surprisingly large amount of",
+          "start_sample": 0,
+          "end_sample": 58622,
+          "start_ms": 0,
+          "end_ms": 3664
+        },
+        {
+          "lang": "ja",
+          "text": "砂糖.",
+          "start_sample": 58622,
+          "end_sample": 66630,
+          "start_ms": 3664,
+          "end_ms": 4164
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjj"
+}

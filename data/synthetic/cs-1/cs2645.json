@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2645.flac",
+  "sentence": "The 運賃 for this short hop is honestly steeper than I expected it to be.",
+  "sample_rate": 16000,
+  "duration_ms": 5088,
+  "reference_speaker": "jp/speaker_047_6ac706d7456d.mp3",
+  "seed": 2687,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1888,
+      "start_ms": 0,
+      "end_ms": 118
+    },
+    {
+      "lang": "ja",
+      "text": "運賃",
+      "start_sample": 1888,
+      "end_sample": 16552,
+      "start_ms": 118,
+      "end_ms": 1034
+    },
+    {
+      "lang": "en",
+      "text": "for this short hop is honestly steeper than I expected it to be.",
+      "start_sample": 16552,
+      "end_sample": 81411,
+      "start_ms": 1034,
+      "end_ms": 5088
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The unchin for this short hop is honestly steeper than I expected it to be.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4759,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2088,
+          "start_ms": 0,
+          "end_ms": 130
+        },
+        {
+          "lang": "ja",
+          "text": "運賃",
+          "start_sample": 2088,
+          "end_sample": 11084,
+          "start_ms": 130,
+          "end_ms": 693
+        },
+        {
+          "lang": "en",
+          "text": "for this short hop is honestly steeper than I expected it to be.",
+          "start_sample": 11084,
+          "end_sample": 76143,
+          "start_ms": 693,
+          "end_ms": 4759
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 運賃 for this short hop is honestly steeper than I expected it to be.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9034,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 9133,
+          "start_ms": 0,
+          "end_ms": 571
+        },
+        {
+          "lang": "ja",
+          "text": "運賃",
+          "start_sample": 9133,
+          "end_sample": 24197,
+          "start_ms": 571,
+          "end_ms": 1512
+        },
+        {
+          "lang": "en",
+          "text": "for this short hop is honestly steeper than I expected it to be.",
+          "start_sample": 24197,
+          "end_sample": 144541,
+          "start_ms": 1512,
+          "end_ms": 9034
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 255,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

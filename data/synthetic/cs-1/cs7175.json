@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7175.flac",
+  "sentence": "エンジンからoddな音がしていたので修理に出した。",
+  "sample_rate": 16000,
+  "duration_ms": 3365,
+  "reference_speaker": "jp/speaker_087_849529715d29.mp3",
+  "seed": 7217,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "エンジンから",
+      "start_sample": 0,
+      "end_sample": 10250,
+      "start_ms": 0,
+      "end_ms": 641
+    },
+    {
+      "lang": "en",
+      "text": "odd",
+      "start_sample": 10250,
+      "end_sample": 21883,
+      "start_ms": 641,
+      "end_ms": 1368
+    },
+    {
+      "lang": "ja",
+      "text": "な音がしていたので修理に出した。",
+      "start_sample": 21883,
+      "end_sample": 53846,
+      "start_ms": 1368,
+      "end_ms": 3365
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "enjin kara odd na oto ga shi te i ta no de shuuri ni dashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7480,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "エンジンから",
+          "start_sample": 0,
+          "end_sample": 23262,
+          "start_ms": 0,
+          "end_ms": 1454
+        },
+        {
+          "lang": "en",
+          "text": "odd",
+          "start_sample": 23262,
+          "end_sample": 35295,
+          "start_ms": 1454,
+          "end_ms": 2206
+        },
+        {
+          "lang": "ja",
+          "text": "な音がしていたので修理に出した。",
+          "start_sample": 35295,
+          "end_sample": 119686,
+          "start_ms": 2206,
+          "end_ms": 7480
+        }
+      ]
+    },
+    "ja": {
+      "text": "エンジンからoddな音がしていたので修理に出した。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2935,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "エンジンから",
+          "start_sample": 0,
+          "end_sample": 10450,
+          "start_ms": 0,
+          "end_ms": 653
+        },
+        {
+          "lang": "en",
+          "text": "odd",
+          "start_sample": 10450,
+          "end_sample": 14792,
+          "start_ms": 653,
+          "end_ms": 924
+        },
+        {
+          "lang": "ja",
+          "text": "な音がしていたので修理に出した。",
+          "start_sample": 14792,
+          "end_sample": 46955,
+          "start_ms": 924,
+          "end_ms": 2935
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 169,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

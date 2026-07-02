@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10409.flac",
+  "sentence": "The town always feels so 静か after the big festival weekend finally ends.",
+  "sample_rate": 16000,
+  "duration_ms": 4129,
+  "reference_speaker": "en/speaker_069_688632e24cd4.mp3",
+  "seed": 10451,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The town always feels so",
+      "start_sample": 0,
+      "end_sample": 20800,
+      "start_ms": 0,
+      "end_ms": 1300
+    },
+    {
+      "lang": "ja",
+      "text": "静か",
+      "start_sample": 20800,
+      "end_sample": 31311,
+      "start_ms": 1300,
+      "end_ms": 1957
+    },
+    {
+      "lang": "en",
+      "text": "after the big festival weekend finally ends.",
+      "start_sample": 31311,
+      "end_sample": 66057,
+      "start_ms": 1957,
+      "end_ms": 4129
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The town always feels so shizuka after the big festival weekend finally ends.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4008,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The town always feels so",
+          "start_sample": 0,
+          "end_sample": 21000,
+          "start_ms": 0,
+          "end_ms": 1312
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 21000,
+          "end_sample": 29176,
+          "start_ms": 1312,
+          "end_ms": 1824
+        },
+        {
+          "lang": "en",
+          "text": "after the big festival weekend finally ends.",
+          "start_sample": 29176,
+          "end_sample": 64122,
+          "start_ms": 1824,
+          "end_ms": 4008
+        }
+      ]
+    },
+    "ja": {
+      "text": "The town always feels so 静か after the big festival weekend finally ends.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6037,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The town always feels so",
+          "start_sample": 0,
+          "end_sample": 28561,
+          "start_ms": 0,
+          "end_ms": 1785
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 28561,
+          "end_sample": 39472,
+          "start_ms": 1785,
+          "end_ms": 2467
+        },
+        {
+          "lang": "en",
+          "text": "after the big festival weekend finally ends.",
+          "start_sample": 39472,
+          "end_sample": 96593,
+          "start_ms": 2467,
+          "end_ms": 6037
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 207,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

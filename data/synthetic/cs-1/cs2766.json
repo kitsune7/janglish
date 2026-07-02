@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2766.flac",
+  "sentence": "I keep my phone on 機内モード at night just to get some peace.",
+  "sample_rate": 16000,
+  "duration_ms": 4488,
+  "reference_speaker": "en/speaker_052_622e6181fea2.mp3",
+  "seed": 2808,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I keep my phone on",
+      "start_sample": 0,
+      "end_sample": 23992,
+      "start_ms": 0,
+      "end_ms": 1500
+    },
+    {
+      "lang": "ja",
+      "text": "機内モード",
+      "start_sample": 23992,
+      "end_sample": 36438,
+      "start_ms": 1500,
+      "end_ms": 2277
+    },
+    {
+      "lang": "en",
+      "text": "at night just to get some peace.",
+      "start_sample": 36438,
+      "end_sample": 71805,
+      "start_ms": 2277,
+      "end_ms": 4488
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I keep my phone on kinai moodo at night just to get some peace.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4886,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I keep my phone on",
+          "start_sample": 0,
+          "end_sample": 24192,
+          "start_ms": 0,
+          "end_ms": 1512
+        },
+        {
+          "lang": "ja",
+          "text": "機内モード",
+          "start_sample": 24192,
+          "end_sample": 42617,
+          "start_ms": 1512,
+          "end_ms": 2664
+        },
+        {
+          "lang": "en",
+          "text": "at night just to get some peace.",
+          "start_sample": 42617,
+          "end_sample": 78184,
+          "start_ms": 2664,
+          "end_ms": 4886
+        }
+      ]
+    },
+    "ja": {
+      "text": "I keep my phone on 機内モード at night just to get some peace.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4837,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I keep my phone on",
+          "start_sample": 0,
+          "end_sample": 20711,
+          "start_ms": 0,
+          "end_ms": 1294
+        },
+        {
+          "lang": "ja",
+          "text": "機内モード",
+          "start_sample": 20711,
+          "end_sample": 33557,
+          "start_ms": 1294,
+          "end_ms": 2097
+        },
+        {
+          "lang": "en",
+          "text": "at night just to get some peace.",
+          "start_sample": 33557,
+          "end_sample": 77391,
+          "start_ms": 2097,
+          "end_ms": 4837
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

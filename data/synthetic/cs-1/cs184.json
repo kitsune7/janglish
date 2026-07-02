@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs184.flac",
+  "sentence": "We try to keep the house 清潔 now that the baby is crawling everywhere.",
+  "sample_rate": 16000,
+  "duration_ms": 4314,
+  "reference_speaker": "jp/speaker_054_a553b6ec02eb.mp3",
+  "seed": 226,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We try to keep the house",
+      "start_sample": 0,
+      "end_sample": 18906,
+      "start_ms": 0,
+      "end_ms": 1182
+    },
+    {
+      "lang": "ja",
+      "text": "清潔",
+      "start_sample": 18906,
+      "end_sample": 27643,
+      "start_ms": 1182,
+      "end_ms": 1728
+    },
+    {
+      "lang": "en",
+      "text": "now that the baby is crawling everywhere.",
+      "start_sample": 27643,
+      "end_sample": 69026,
+      "start_ms": 1728,
+      "end_ms": 4314
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We try to keep the house seiketsu now that the baby is crawling everywhere.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4817,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We try to keep the house",
+          "start_sample": 0,
+          "end_sample": 19106,
+          "start_ms": 0,
+          "end_ms": 1194
+        },
+        {
+          "lang": "ja",
+          "text": "清潔",
+          "start_sample": 19106,
+          "end_sample": 35484,
+          "start_ms": 1194,
+          "end_ms": 2218
+        },
+        {
+          "lang": "en",
+          "text": "now that the baby is crawling everywhere.",
+          "start_sample": 35484,
+          "end_sample": 77067,
+          "start_ms": 2218,
+          "end_ms": 4817
+        }
+      ]
+    },
+    "ja": {
+      "text": "We try to keep the house 清潔 now that the baby is crawling everywhere.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5611,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We try to keep the house",
+          "start_sample": 0,
+          "end_sample": 22763,
+          "start_ms": 0,
+          "end_ms": 1423
+        },
+        {
+          "lang": "ja",
+          "text": "清潔",
+          "start_sample": 22763,
+          "end_sample": 31900,
+          "start_ms": 1423,
+          "end_ms": 1994
+        },
+        {
+          "lang": "en",
+          "text": "now that the baby is crawling everywhere.",
+          "start_sample": 31900,
+          "end_sample": 89771,
+          "start_ms": 1994,
+          "end_ms": 5611
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 216,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

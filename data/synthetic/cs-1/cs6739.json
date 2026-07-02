@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6739.flac",
+  "sentence": "Can I get the dressing on the 別 so the salad doesn't get soggy?",
+  "sample_rate": 16000,
+  "duration_ms": 4764,
+  "reference_speaker": "jp/speaker_003_7f373ff7d9ea.mp3",
+  "seed": 6781,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can I get the dressing on the",
+      "start_sample": 0,
+      "end_sample": 19214,
+      "start_ms": 0,
+      "end_ms": 1201
+    },
+    {
+      "lang": "ja",
+      "text": "別",
+      "start_sample": 19214,
+      "end_sample": 24271,
+      "start_ms": 1201,
+      "end_ms": 1517
+    },
+    {
+      "lang": "en",
+      "text": "so the salad doesn't get soggy?",
+      "start_sample": 24271,
+      "end_sample": 76216,
+      "start_ms": 1517,
+      "end_ms": 4764
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can I get the dressing on the betsu so the salad doesn't get soggy?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4954,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can I get the dressing on the",
+          "start_sample": 0,
+          "end_sample": 19414,
+          "start_ms": 0,
+          "end_ms": 1213
+        },
+        {
+          "lang": "ja",
+          "text": "別",
+          "start_sample": 19414,
+          "end_sample": 27116,
+          "start_ms": 1213,
+          "end_ms": 1695
+        },
+        {
+          "lang": "en",
+          "text": "so the salad doesn't get soggy?",
+          "start_sample": 27116,
+          "end_sample": 79261,
+          "start_ms": 1695,
+          "end_ms": 4954
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can I get the dressing on the 別 so the salad doesn't get soggy?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3811,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can I get the dressing on the",
+          "start_sample": 0,
+          "end_sample": 22466,
+          "start_ms": 0,
+          "end_ms": 1404
+        },
+        {
+          "lang": "ja",
+          "text": "別",
+          "start_sample": 22466,
+          "end_sample": 27923,
+          "start_ms": 1404,
+          "end_ms": 1745
+        },
+        {
+          "lang": "en",
+          "text": "so the salad doesn't get soggy?",
+          "start_sample": 27923,
+          "end_sample": 60978,
+          "start_ms": 1745,
+          "end_ms": 3811
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 239,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

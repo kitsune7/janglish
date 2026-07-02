@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11158.flac",
+  "sentence": "このsaleはいつまで続きますか？",
+  "sample_rate": 16000,
+  "duration_ms": 2655,
+  "reference_speaker": "en/speaker_094_291d9dee87c4.mp3",
+  "seed": 11200,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 4146,
+      "start_ms": 0,
+      "end_ms": 259
+    },
+    {
+      "lang": "en",
+      "text": "sale",
+      "start_sample": 4146,
+      "end_sample": 22207,
+      "start_ms": 259,
+      "end_ms": 1388
+    },
+    {
+      "lang": "ja",
+      "text": "はいつまで続きますか？",
+      "start_sample": 22207,
+      "end_sample": 42479,
+      "start_ms": 1388,
+      "end_ms": 2655
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono sale ha itsu made tsuzuki masu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5698,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 6420,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "en",
+          "text": "sale",
+          "start_sample": 6420,
+          "end_sample": 24881,
+          "start_ms": 401,
+          "end_ms": 1555
+        },
+        {
+          "lang": "ja",
+          "text": "はいつまで続きますか？",
+          "start_sample": 24881,
+          "end_sample": 91176,
+          "start_ms": 1555,
+          "end_ms": 5698
+        }
+      ]
+    },
+    "ja": {
+      "text": "このsaleはいつまで続きますか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 1853,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4346,
+          "start_ms": 0,
+          "end_ms": 272
+        },
+        {
+          "lang": "en",
+          "text": "sale",
+          "start_sample": 4346,
+          "end_sample": 9183,
+          "start_ms": 272,
+          "end_ms": 574
+        },
+        {
+          "lang": "ja",
+          "text": "はいつまで続きますか？",
+          "start_sample": 9183,
+          "end_sample": 29655,
+          "start_ms": 574,
+          "end_ms": 1853
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 133,
+  "frame_labels": "jjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

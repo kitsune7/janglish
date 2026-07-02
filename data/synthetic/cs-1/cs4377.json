@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4377.flac",
+  "sentence": "The backup drive is stored in the 引き出し next to the router.",
+  "sample_rate": 16000,
+  "duration_ms": 5110,
+  "reference_speaker": "jp/speaker_060_dda9a032fd63.mp3",
+  "seed": 4419,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The backup drive is stored in the",
+      "start_sample": 0,
+      "end_sample": 49920,
+      "start_ms": 0,
+      "end_ms": 3120
+    },
+    {
+      "lang": "ja",
+      "text": "引き出し",
+      "start_sample": 49920,
+      "end_sample": 58022,
+      "start_ms": 3120,
+      "end_ms": 3626
+    },
+    {
+      "lang": "en",
+      "text": "next to the router.",
+      "start_sample": 58022,
+      "end_sample": 81755,
+      "start_ms": 3626,
+      "end_ms": 5110
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The backup drive is stored in the hikidashi next to the router.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5843,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The backup drive is stored in the",
+          "start_sample": 0,
+          "end_sample": 50120,
+          "start_ms": 0,
+          "end_ms": 3132
+        },
+        {
+          "lang": "ja",
+          "text": "引き出し",
+          "start_sample": 50120,
+          "end_sample": 69558,
+          "start_ms": 3132,
+          "end_ms": 4347
+        },
+        {
+          "lang": "en",
+          "text": "next to the router.",
+          "start_sample": 69558,
+          "end_sample": 93491,
+          "start_ms": 4347,
+          "end_ms": 5843
+        }
+      ]
+    },
+    "ja": {
+      "text": "The backup drive is stored in the 引き出し next to the router.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4050,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The backup drive is stored in the",
+          "start_sample": 0,
+          "end_sample": 37373,
+          "start_ms": 0,
+          "end_ms": 2336
+        },
+        {
+          "lang": "ja",
+          "text": "引き出し",
+          "start_sample": 37373,
+          "end_sample": 45875,
+          "start_ms": 2336,
+          "end_ms": 2867
+        },
+        {
+          "lang": "en",
+          "text": "next to the router.",
+          "start_sample": 45875,
+          "end_sample": 64801,
+          "start_ms": 2867,
+          "end_ms": 4050
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 256,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

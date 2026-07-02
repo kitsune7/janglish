@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3582.flac",
+  "sentence": "冬休みにfamilyと一緒に温かい鍋を食べました。",
+  "sample_rate": 16000,
+  "duration_ms": 3517,
+  "reference_speaker": "jp/speaker_008_925570fa5738.mp3",
+  "seed": 3624,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "冬休みに",
+      "start_sample": 0,
+      "end_sample": 10901,
+      "start_ms": 0,
+      "end_ms": 681
+    },
+    {
+      "lang": "en",
+      "text": "family",
+      "start_sample": 10901,
+      "end_sample": 22845,
+      "start_ms": 681,
+      "end_ms": 1428
+    },
+    {
+      "lang": "ja",
+      "text": "と一緒に温かい鍋を食べました。",
+      "start_sample": 22845,
+      "end_sample": 56268,
+      "start_ms": 1428,
+      "end_ms": 3517
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "fuyuyasumi ni family to issho ni atatakai nabe wo tabe mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6573,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冬休みに",
+          "start_sample": 0,
+          "end_sample": 23565,
+          "start_ms": 0,
+          "end_ms": 1473
+        },
+        {
+          "lang": "en",
+          "text": "family",
+          "start_sample": 23565,
+          "end_sample": 35909,
+          "start_ms": 1473,
+          "end_ms": 2244
+        },
+        {
+          "lang": "ja",
+          "text": "と一緒に温かい鍋を食べました。",
+          "start_sample": 35909,
+          "end_sample": 105161,
+          "start_ms": 2244,
+          "end_ms": 6573
+        }
+      ]
+    },
+    "ja": {
+      "text": "冬休みにfamilyと一緒に温かい鍋を食べました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3218,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冬休みに",
+          "start_sample": 0,
+          "end_sample": 11101,
+          "start_ms": 0,
+          "end_ms": 694
+        },
+        {
+          "lang": "en",
+          "text": "family",
+          "start_sample": 11101,
+          "end_sample": 17859,
+          "start_ms": 694,
+          "end_ms": 1116
+        },
+        {
+          "lang": "ja",
+          "text": "と一緒に温かい鍋を食べました。",
+          "start_sample": 17859,
+          "end_sample": 51482,
+          "start_ms": 1116,
+          "end_ms": 3218
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 176,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

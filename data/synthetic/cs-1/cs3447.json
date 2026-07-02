@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3447.flac",
+  "sentence": "I think a 縦縞 pattern would look sharper than plain gray for your interview.",
+  "sample_rate": 16000,
+  "duration_ms": 5531,
+  "reference_speaker": "en/speaker_002_7eff9a54bdb0.mp3",
+  "seed": 3489,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I think a",
+      "start_sample": 0,
+      "end_sample": 7509,
+      "start_ms": 0,
+      "end_ms": 469
+    },
+    {
+      "lang": "ja",
+      "text": "縦縞",
+      "start_sample": 7509,
+      "end_sample": 20893,
+      "start_ms": 469,
+      "end_ms": 1306
+    },
+    {
+      "lang": "en",
+      "text": "pattern would look sharper than plain gray for your interview.",
+      "start_sample": 20893,
+      "end_sample": 88497,
+      "start_ms": 1306,
+      "end_ms": 5531
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I think a tatejima pattern would look sharper than plain gray for your interview.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5402,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I think a",
+          "start_sample": 0,
+          "end_sample": 7709,
+          "start_ms": 0,
+          "end_ms": 482
+        },
+        {
+          "lang": "ja",
+          "text": "縦縞",
+          "start_sample": 7709,
+          "end_sample": 18635,
+          "start_ms": 482,
+          "end_ms": 1165
+        },
+        {
+          "lang": "en",
+          "text": "pattern would look sharper than plain gray for your interview.",
+          "start_sample": 18635,
+          "end_sample": 86439,
+          "start_ms": 1165,
+          "end_ms": 5402
+        }
+      ]
+    },
+    "ja": {
+      "text": "I think a 縦縞 pattern would look sharper than plain gray for your interview.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7693,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I think a",
+          "start_sample": 0,
+          "end_sample": 9936,
+          "start_ms": 0,
+          "end_ms": 621
+        },
+        {
+          "lang": "ja",
+          "text": "縦縞",
+          "start_sample": 9936,
+          "end_sample": 23720,
+          "start_ms": 621,
+          "end_ms": 1482
+        },
+        {
+          "lang": "en",
+          "text": "pattern would look sharper than plain gray for your interview.",
+          "start_sample": 23720,
+          "end_sample": 123093,
+          "start_ms": 1482,
+          "end_ms": 7693
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 277,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

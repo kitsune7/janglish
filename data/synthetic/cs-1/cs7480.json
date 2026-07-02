@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs7480.flac",
+  "sentence": "mortgageの残高を確認するのが怖い。",
+  "sample_rate": 16000,
+  "duration_ms": 2244,
+  "reference_speaker": "jp/speaker_041_36b0f2924199.mp3",
+  "seed": 7522,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "mortgage",
+      "start_sample": 0,
+      "end_sample": 7826,
+      "start_ms": 0,
+      "end_ms": 489
+    },
+    {
+      "lang": "ja",
+      "text": "の残高を確認するのが怖い。",
+      "start_sample": 7826,
+      "end_sample": 35907,
+      "start_ms": 489,
+      "end_ms": 2244
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mortgage no zandaka wo kakunin suru no ga kowai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5177,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "mortgage",
+          "start_sample": 0,
+          "end_sample": 8026,
+          "start_ms": 0,
+          "end_ms": 502
+        },
+        {
+          "lang": "ja",
+          "text": "の残高を確認するのが怖い。",
+          "start_sample": 8026,
+          "end_sample": 82830,
+          "start_ms": 502,
+          "end_ms": 5177
+        }
+      ]
+    },
+    "ja": {
+      "text": "mortgageの残高を確認するのが怖い。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2270,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "mortgage",
+          "start_sample": 0,
+          "end_sample": 8035,
+          "start_ms": 0,
+          "end_ms": 502
+        },
+        {
+          "lang": "ja",
+          "text": "の残高を確認するのが怖い。",
+          "start_sample": 8035,
+          "end_sample": 36316,
+          "start_ms": 502,
+          "end_ms": 2270
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 113,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

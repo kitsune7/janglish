@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10851.flac",
+  "sentence": "I think a 薄切り of lemon on top would make this dish look beautiful.",
+  "sample_rate": 16000,
+  "duration_ms": 4635,
+  "reference_speaker": "jp/speaker_022_b672c364242e.mp3",
+  "seed": 10893,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I think a",
+      "start_sample": 0,
+      "end_sample": 12476,
+      "start_ms": 0,
+      "end_ms": 780
+    },
+    {
+      "lang": "ja",
+      "text": "薄切り",
+      "start_sample": 12476,
+      "end_sample": 22366,
+      "start_ms": 780,
+      "end_ms": 1398
+    },
+    {
+      "lang": "en",
+      "text": "of lemon on top would make this dish look beautiful.",
+      "start_sample": 22366,
+      "end_sample": 74167,
+      "start_ms": 1398,
+      "end_ms": 4635
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I think a usugiri of lemon on top would make this dish look beautiful.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4915,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I think a",
+          "start_sample": 0,
+          "end_sample": 12676,
+          "start_ms": 0,
+          "end_ms": 792
+        },
+        {
+          "lang": "ja",
+          "text": "薄切り",
+          "start_sample": 12676,
+          "end_sample": 26641,
+          "start_ms": 792,
+          "end_ms": 1665
+        },
+        {
+          "lang": "en",
+          "text": "of lemon on top would make this dish look beautiful.",
+          "start_sample": 26641,
+          "end_sample": 78642,
+          "start_ms": 1665,
+          "end_ms": 4915
+        }
+      ]
+    },
+    "ja": {
+      "text": "I think a 薄切り of lemon on top would make this dish look beautiful.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4501,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I think a",
+          "start_sample": 0,
+          "end_sample": 10767,
+          "start_ms": 0,
+          "end_ms": 673
+        },
+        {
+          "lang": "ja",
+          "text": "薄切り",
+          "start_sample": 10767,
+          "end_sample": 21057,
+          "start_ms": 673,
+          "end_ms": 1316
+        },
+        {
+          "lang": "en",
+          "text": "of lemon on top would make this dish look beautiful.",
+          "start_sample": 21057,
+          "end_sample": 72019,
+          "start_ms": 1316,
+          "end_ms": 4501
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 232,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

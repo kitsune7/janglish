@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6805.flac",
+  "sentence": "The 近道 through the alley saves about ten minutes.",
+  "sample_rate": 16000,
+  "duration_ms": 4039,
+  "reference_speaker": "jp/speaker_011_3c9d94093b88.mp3",
+  "seed": 6847,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1722,
+      "start_ms": 0,
+      "end_ms": 108
+    },
+    {
+      "lang": "ja",
+      "text": "近道",
+      "start_sample": 1722,
+      "end_sample": 13066,
+      "start_ms": 108,
+      "end_ms": 817
+    },
+    {
+      "lang": "en",
+      "text": "through the alley saves about ten minutes.",
+      "start_sample": 13066,
+      "end_sample": 64619,
+      "start_ms": 817,
+      "end_ms": 4039
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The chikamichi through the alley saves about ten minutes.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4326,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1922,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "近道",
+          "start_sample": 1922,
+          "end_sample": 17465,
+          "start_ms": 120,
+          "end_ms": 1092
+        },
+        {
+          "lang": "en",
+          "text": "through the alley saves about ten minutes.",
+          "start_sample": 17465,
+          "end_sample": 69218,
+          "start_ms": 1092,
+          "end_ms": 4326
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 近道 through the alley saves about ten minutes.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2976,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6108,
+          "start_ms": 0,
+          "end_ms": 382
+        },
+        {
+          "lang": "ja",
+          "text": "近道",
+          "start_sample": 6108,
+          "end_sample": 17852,
+          "start_ms": 382,
+          "end_ms": 1116
+        },
+        {
+          "lang": "en",
+          "text": "through the alley saves about ten minutes.",
+          "start_sample": 17852,
+          "end_sample": 47610,
+          "start_ms": 1116,
+          "end_ms": 2976
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

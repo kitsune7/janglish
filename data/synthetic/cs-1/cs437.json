@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs437.flac",
+  "sentence": "She de-cluttered her desk in a very 素早い motion and suddenly the room felt twice as large.",
+  "sample_rate": 16000,
+  "duration_ms": 7071,
+  "reference_speaker": "jp/speaker_034_3e5442a60675.mp3",
+  "seed": 479,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She de-cluttered her desk in a very",
+      "start_sample": 0,
+      "end_sample": 38747,
+      "start_ms": 0,
+      "end_ms": 2422
+    },
+    {
+      "lang": "ja",
+      "text": "素早い",
+      "start_sample": 38747,
+      "end_sample": 53077,
+      "start_ms": 2422,
+      "end_ms": 3317
+    },
+    {
+      "lang": "en",
+      "text": "motion and suddenly the room felt twice as large.",
+      "start_sample": 53077,
+      "end_sample": 113140,
+      "start_ms": 3317,
+      "end_ms": 7071
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She de-cluttered her desk in a very subayai motion and suddenly the room felt twice as large.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6852,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She de-cluttered her desk in a very",
+          "start_sample": 0,
+          "end_sample": 38947,
+          "start_ms": 0,
+          "end_ms": 2434
+        },
+        {
+          "lang": "ja",
+          "text": "素早い",
+          "start_sample": 38947,
+          "end_sample": 49365,
+          "start_ms": 2434,
+          "end_ms": 3085
+        },
+        {
+          "lang": "en",
+          "text": "motion and suddenly the room felt twice as large.",
+          "start_sample": 49365,
+          "end_sample": 109628,
+          "start_ms": 3085,
+          "end_ms": 6852
+        }
+      ]
+    },
+    "ja": {
+      "text": "She de-cluttered her desk in a very 素早い motion and suddenly the room felt twice as large.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9046,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She de-cluttered her desk in a very",
+          "start_sample": 0,
+          "end_sample": 60843,
+          "start_ms": 0,
+          "end_ms": 3803
+        },
+        {
+          "lang": "ja",
+          "text": "素早い",
+          "start_sample": 60843,
+          "end_sample": 75573,
+          "start_ms": 3803,
+          "end_ms": 4723
+        },
+        {
+          "lang": "en",
+          "text": "motion and suddenly the room felt twice as large.",
+          "start_sample": 75573,
+          "end_sample": 144743,
+          "start_ms": 4723,
+          "end_ms": 9046
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 354,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs6089.flac",
+  "sentence": "His read receipts are always on but his replies are so 遅い.",
+  "sample_rate": 16000,
+  "duration_ms": 4839,
+  "reference_speaker": "jp/speaker_091_bf2621e97933.mp3",
+  "seed": 6131,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His read receipts are always on but his replies are so",
+      "start_sample": 0,
+      "end_sample": 70238,
+      "start_ms": 0,
+      "end_ms": 4390
+    },
+    {
+      "lang": "ja",
+      "text": "遅い.",
+      "start_sample": 70238,
+      "end_sample": 77417,
+      "start_ms": 4390,
+      "end_ms": 4839
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His read receipts are always on but his replies are so osoi",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5034,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His read receipts are always on but his replies are so",
+          "start_sample": 0,
+          "end_sample": 70438,
+          "start_ms": 0,
+          "end_ms": 4402
+        },
+        {
+          "lang": "ja",
+          "text": "遅い.",
+          "start_sample": 70438,
+          "end_sample": 80545,
+          "start_ms": 4402,
+          "end_ms": 5034
+        }
+      ]
+    },
+    "ja": {
+      "text": "His read receipts are always on but his replies are so 遅い.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5215,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His read receipts are always on but his replies are so",
+          "start_sample": 0,
+          "end_sample": 76068,
+          "start_ms": 0,
+          "end_ms": 4754
+        },
+        {
+          "lang": "ja",
+          "text": "遅い.",
+          "start_sample": 76068,
+          "end_sample": 83447,
+          "start_ms": 4754,
+          "end_ms": 5215
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 242,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6651.flac",
+  "sentence": "Have you tried the 抹茶 latte at the new place downtown?",
+  "sample_rate": 16000,
+  "duration_ms": 3124,
+  "reference_speaker": "jp/speaker_017_2adba246654a.mp3",
+  "seed": 6693,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you tried the",
+      "start_sample": 0,
+      "end_sample": 10732,
+      "start_ms": 0,
+      "end_ms": 671
+    },
+    {
+      "lang": "ja",
+      "text": "抹茶",
+      "start_sample": 10732,
+      "end_sample": 17074,
+      "start_ms": 671,
+      "end_ms": 1067
+    },
+    {
+      "lang": "en",
+      "text": "latte at the new place downtown?",
+      "start_sample": 17074,
+      "end_sample": 49990,
+      "start_ms": 1067,
+      "end_ms": 3124
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you tried the matcha latte at the new place downtown?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3135,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you tried the",
+          "start_sample": 0,
+          "end_sample": 10932,
+          "start_ms": 0,
+          "end_ms": 683
+        },
+        {
+          "lang": "ja",
+          "text": "抹茶",
+          "start_sample": 10932,
+          "end_sample": 17042,
+          "start_ms": 683,
+          "end_ms": 1065
+        },
+        {
+          "lang": "en",
+          "text": "latte at the new place downtown?",
+          "start_sample": 17042,
+          "end_sample": 50158,
+          "start_ms": 1065,
+          "end_ms": 3135
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you tried the 抹茶 latte at the new place downtown?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3511,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you tried the",
+          "start_sample": 0,
+          "end_sample": 16051,
+          "start_ms": 0,
+          "end_ms": 1003
+        },
+        {
+          "lang": "ja",
+          "text": "抹茶",
+          "start_sample": 16051,
+          "end_sample": 22793,
+          "start_ms": 1003,
+          "end_ms": 1425
+        },
+        {
+          "lang": "en",
+          "text": "latte at the new place downtown?",
+          "start_sample": 22793,
+          "end_sample": 56178,
+          "start_ms": 1425,
+          "end_ms": 3511
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 157,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

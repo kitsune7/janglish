@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7132.flac",
+  "sentence": "The 運動会 is next Saturday and I still haven't made the lunch.",
+  "sample_rate": 16000,
+  "duration_ms": 4080,
+  "reference_speaker": "en/speaker_017_11ec372417df.mp3",
+  "seed": 7174,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1569,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "運動会",
+      "start_sample": 1569,
+      "end_sample": 13188,
+      "start_ms": 98,
+      "end_ms": 824
+    },
+    {
+      "lang": "en",
+      "text": "is next Saturday and I still haven't made the lunch.",
+      "start_sample": 13188,
+      "end_sample": 65280,
+      "start_ms": 824,
+      "end_ms": 4080
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The undou kai is next Saturday and I still haven't made the lunch.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4103,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1769,
+          "start_ms": 0,
+          "end_ms": 111
+        },
+        {
+          "lang": "ja",
+          "text": "運動会",
+          "start_sample": 1769,
+          "end_sample": 13355,
+          "start_ms": 111,
+          "end_ms": 835
+        },
+        {
+          "lang": "en",
+          "text": "is next Saturday and I still haven't made the lunch.",
+          "start_sample": 13355,
+          "end_sample": 65647,
+          "start_ms": 835,
+          "end_ms": 4103
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 運動会 is next Saturday and I still haven't made the lunch.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5509,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3525,
+          "start_ms": 0,
+          "end_ms": 220
+        },
+        {
+          "lang": "ja",
+          "text": "運動会",
+          "start_sample": 3525,
+          "end_sample": 15544,
+          "start_ms": 220,
+          "end_ms": 972
+        },
+        {
+          "lang": "en",
+          "text": "is next Saturday and I still haven't made the lunch.",
+          "start_sample": 15544,
+          "end_sample": 88141,
+          "start_ms": 972,
+          "end_ms": 5509
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

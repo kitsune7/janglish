@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10830.flac",
+  "sentence": "The restaurant only serves 旬 ingredients depending on the season.",
+  "sample_rate": 16000,
+  "duration_ms": 4086,
+  "reference_speaker": "jp/speaker_013_e472ee9e6d56.mp3",
+  "seed": 10872,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The restaurant only serves",
+      "start_sample": 0,
+      "end_sample": 26554,
+      "start_ms": 0,
+      "end_ms": 1660
+    },
+    {
+      "lang": "ja",
+      "text": "旬",
+      "start_sample": 26554,
+      "end_sample": 34018,
+      "start_ms": 1660,
+      "end_ms": 2126
+    },
+    {
+      "lang": "en",
+      "text": "ingredients depending on the season.",
+      "start_sample": 34018,
+      "end_sample": 65378,
+      "start_ms": 2126,
+      "end_ms": 4086
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The restaurant only serves jun ingredients depending on the season.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3945,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The restaurant only serves",
+          "start_sample": 0,
+          "end_sample": 26754,
+          "start_ms": 0,
+          "end_ms": 1672
+        },
+        {
+          "lang": "ja",
+          "text": "旬",
+          "start_sample": 26754,
+          "end_sample": 31560,
+          "start_ms": 1672,
+          "end_ms": 1972
+        },
+        {
+          "lang": "en",
+          "text": "ingredients depending on the season.",
+          "start_sample": 31560,
+          "end_sample": 63120,
+          "start_ms": 1972,
+          "end_ms": 3945
+        }
+      ]
+    },
+    "ja": {
+      "text": "The restaurant only serves 旬 ingredients depending on the season.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6038,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The restaurant only serves",
+          "start_sample": 0,
+          "end_sample": 38836,
+          "start_ms": 0,
+          "end_ms": 2427
+        },
+        {
+          "lang": "ja",
+          "text": "旬",
+          "start_sample": 38836,
+          "end_sample": 46700,
+          "start_ms": 2427,
+          "end_ms": 2919
+        },
+        {
+          "lang": "en",
+          "text": "ingredients depending on the season.",
+          "start_sample": 46700,
+          "end_sample": 96607,
+          "start_ms": 2919,
+          "end_ms": 6038
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 205,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

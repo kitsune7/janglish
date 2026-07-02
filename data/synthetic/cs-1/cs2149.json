@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2149.flac",
+  "sentence": "子供のころからstampを集めるのが趣味でした。",
+  "sample_rate": 16000,
+  "duration_ms": 3004,
+  "reference_speaker": "en/speaker_055_a1e62e8e91e0.mp3",
+  "seed": 2191,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "子供のころから",
+      "start_sample": 0,
+      "end_sample": 14603,
+      "start_ms": 0,
+      "end_ms": 913
+    },
+    {
+      "lang": "en",
+      "text": "stamp",
+      "start_sample": 14603,
+      "end_sample": 24622,
+      "start_ms": 913,
+      "end_ms": 1539
+    },
+    {
+      "lang": "ja",
+      "text": "を集めるのが趣味でした。",
+      "start_sample": 24622,
+      "end_sample": 48071,
+      "start_ms": 1539,
+      "end_ms": 3004
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kodomo no koro kara stamp wo atsumeru no ga shumi deshi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6412,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "子供のころから",
+          "start_sample": 0,
+          "end_sample": 35424,
+          "start_ms": 0,
+          "end_ms": 2214
+        },
+        {
+          "lang": "en",
+          "text": "stamp",
+          "start_sample": 35424,
+          "end_sample": 45843,
+          "start_ms": 2214,
+          "end_ms": 2865
+        },
+        {
+          "lang": "ja",
+          "text": "を集めるのが趣味でした。",
+          "start_sample": 45843,
+          "end_sample": 102584,
+          "start_ms": 2865,
+          "end_ms": 6412
+        }
+      ]
+    },
+    "ja": {
+      "text": "子供のころからstampを集めるのが趣味でした。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2796,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "子供のころから",
+          "start_sample": 0,
+          "end_sample": 14803,
+          "start_ms": 0,
+          "end_ms": 925
+        },
+        {
+          "lang": "en",
+          "text": "stamp",
+          "start_sample": 14803,
+          "end_sample": 21079,
+          "start_ms": 925,
+          "end_ms": 1317
+        },
+        {
+          "lang": "ja",
+          "text": "を集めるのが趣味でした。",
+          "start_sample": 21079,
+          "end_sample": 44728,
+          "start_ms": 1317,
+          "end_ms": 2796
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 151,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

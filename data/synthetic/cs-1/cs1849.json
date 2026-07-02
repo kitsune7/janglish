@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1849.flac",
+  "sentence": "このレシピはgluten-freeバージョンにできますか？",
+  "sample_rate": 16000,
+  "duration_ms": 3222,
+  "reference_speaker": "en/speaker_011_d1413283d794.mp3",
+  "seed": 1891,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このレシピは",
+      "start_sample": 0,
+      "end_sample": 19878,
+      "start_ms": 0,
+      "end_ms": 1242
+    },
+    {
+      "lang": "en",
+      "text": "gluten-free",
+      "start_sample": 19878,
+      "end_sample": 29264,
+      "start_ms": 1242,
+      "end_ms": 1829
+    },
+    {
+      "lang": "ja",
+      "text": "バージョンにできますか？",
+      "start_sample": 29264,
+      "end_sample": 51549,
+      "start_ms": 1829,
+      "end_ms": 3222
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono reshipi ha gluten-free baajon ni deki masu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4652,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このレシピは",
+          "start_sample": 0,
+          "end_sample": 25828,
+          "start_ms": 0,
+          "end_ms": 1614
+        },
+        {
+          "lang": "en",
+          "text": "gluten-free",
+          "start_sample": 25828,
+          "end_sample": 35614,
+          "start_ms": 1614,
+          "end_ms": 2226
+        },
+        {
+          "lang": "ja",
+          "text": "バージョンにできますか？",
+          "start_sample": 35614,
+          "end_sample": 74435,
+          "start_ms": 2226,
+          "end_ms": 4652
+        }
+      ]
+    },
+    "ja": {
+      "text": "このレシピはgluten-freeバージョンにできますか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3915,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このレシピは",
+          "start_sample": 0,
+          "end_sample": 20078,
+          "start_ms": 0,
+          "end_ms": 1255
+        },
+        {
+          "lang": "en",
+          "text": "gluten-free",
+          "start_sample": 20078,
+          "end_sample": 40156,
+          "start_ms": 1255,
+          "end_ms": 2510
+        },
+        {
+          "lang": "ja",
+          "text": "バージョンにできますか？",
+          "start_sample": 40156,
+          "end_sample": 62641,
+          "start_ms": 2510,
+          "end_ms": 3915
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 162,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

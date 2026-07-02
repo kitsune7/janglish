@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8735.flac",
+  "sentence": "このsealedな封筒を開けないまま相手に渡してください。",
+  "sample_rate": 16000,
+  "duration_ms": 4009,
+  "reference_speaker": "en/speaker_080_2ec83f7b270e.mp3",
+  "seed": 8777,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3327,
+      "start_ms": 0,
+      "end_ms": 208
+    },
+    {
+      "lang": "en",
+      "text": "sealed",
+      "start_sample": 3327,
+      "end_sample": 16402,
+      "start_ms": 208,
+      "end_ms": 1025
+    },
+    {
+      "lang": "ja",
+      "text": "な封筒を開けないまま相手に渡してください。",
+      "start_sample": 16402,
+      "end_sample": 64141,
+      "start_ms": 1025,
+      "end_ms": 4009
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono sealed na fuutou wo hirake nai mama aite ni watashi te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6517,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3689,
+          "start_ms": 0,
+          "end_ms": 231
+        },
+        {
+          "lang": "en",
+          "text": "sealed",
+          "start_sample": 3689,
+          "end_sample": 17164,
+          "start_ms": 231,
+          "end_ms": 1073
+        },
+        {
+          "lang": "ja",
+          "text": "な封筒を開けないまま相手に渡してください。",
+          "start_sample": 17164,
+          "end_sample": 104267,
+          "start_ms": 1073,
+          "end_ms": 6517
+        }
+      ]
+    },
+    "ja": {
+      "text": "このsealedな封筒を開けないまま相手に渡してください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3648,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3527,
+          "start_ms": 0,
+          "end_ms": 220
+        },
+        {
+          "lang": "en",
+          "text": "sealed",
+          "start_sample": 3527,
+          "end_sample": 10421,
+          "start_ms": 220,
+          "end_ms": 651
+        },
+        {
+          "lang": "ja",
+          "text": "な封筒を開けないまま相手に渡してください。",
+          "start_sample": 10421,
+          "end_sample": 58360,
+          "start_ms": 651,
+          "end_ms": 3648
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "jjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

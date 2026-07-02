@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs771.flac",
+  "sentence": "His 本音 slipped out when the interviewer asked about his 弱点.",
+  "sample_rate": 16000,
+  "duration_ms": 4451,
+  "reference_speaker": "en/speaker_018_b0dec8b93359.mp3",
+  "seed": 17626,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His",
+      "start_sample": 0,
+      "end_sample": 3163,
+      "start_ms": 0,
+      "end_ms": 198
+    },
+    {
+      "lang": "ja",
+      "text": "本音",
+      "start_sample": 3163,
+      "end_sample": 10782,
+      "start_ms": 198,
+      "end_ms": 674
+    },
+    {
+      "lang": "en",
+      "text": "slipped out when the interviewer asked about his",
+      "start_sample": 10782,
+      "end_sample": 62431,
+      "start_ms": 674,
+      "end_ms": 3902
+    },
+    {
+      "lang": "ja",
+      "text": "弱点.",
+      "start_sample": 62431,
+      "end_sample": 71210,
+      "start_ms": 3902,
+      "end_ms": 4451
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His honne slipped out when the interviewer asked about his jakuten",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4424,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His",
+          "start_sample": 0,
+          "end_sample": 3363,
+          "start_ms": 0,
+          "end_ms": 210
+        },
+        {
+          "lang": "ja",
+          "text": "本音",
+          "start_sample": 3363,
+          "end_sample": 8648,
+          "start_ms": 210,
+          "end_ms": 540
+        },
+        {
+          "lang": "en",
+          "text": "slipped out when the interviewer asked about his",
+          "start_sample": 8648,
+          "end_sample": 60697,
+          "start_ms": 540,
+          "end_ms": 3794
+        },
+        {
+          "lang": "ja",
+          "text": "弱点.",
+          "start_sample": 60697,
+          "end_sample": 70787,
+          "start_ms": 3794,
+          "end_ms": 4424
+        }
+      ]
+    },
+    "ja": {
+      "text": "His 本音 slipped out when the interviewer asked about his 弱点.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6254,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His",
+          "start_sample": 0,
+          "end_sample": 3046,
+          "start_ms": 0,
+          "end_ms": 190
+        },
+        {
+          "lang": "ja",
+          "text": "本音",
+          "start_sample": 3046,
+          "end_sample": 11065,
+          "start_ms": 190,
+          "end_ms": 692
+        },
+        {
+          "lang": "en",
+          "text": "slipped out when the interviewer asked about his",
+          "start_sample": 11065,
+          "end_sample": 91091,
+          "start_ms": 692,
+          "end_ms": 5693
+        },
+        {
+          "lang": "ja",
+          "text": "弱点.",
+          "start_sample": 91091,
+          "end_sample": 100070,
+          "start_ms": 5693,
+          "end_ms": 6254
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 223,
+  "frame_labels": "eeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

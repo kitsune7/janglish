@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10602.flac",
+  "sentence": "The 夕方 light on the garden is honestly my favorite part of the day.",
+  "sample_rate": 16000,
+  "duration_ms": 4518,
+  "reference_speaker": "jp/speaker_030_78b8d1b530d5.mp3",
+  "seed": 10644,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 924,
+      "start_ms": 0,
+      "end_ms": 58
+    },
+    {
+      "lang": "ja",
+      "text": "夕方",
+      "start_sample": 924,
+      "end_sample": 10310,
+      "start_ms": 58,
+      "end_ms": 644
+    },
+    {
+      "lang": "en",
+      "text": "light on the garden is honestly my favorite part of the day.",
+      "start_sample": 10310,
+      "end_sample": 72294,
+      "start_ms": 644,
+      "end_ms": 4518
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The yuugata light on the garden is honestly my favorite part of the day.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4459,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1124,
+          "start_ms": 0,
+          "end_ms": 70
+        },
+        {
+          "lang": "ja",
+          "text": "夕方",
+          "start_sample": 1124,
+          "end_sample": 9159,
+          "start_ms": 70,
+          "end_ms": 572
+        },
+        {
+          "lang": "en",
+          "text": "light on the garden is honestly my favorite part of the day.",
+          "start_sample": 9159,
+          "end_sample": 71343,
+          "start_ms": 572,
+          "end_ms": 4459
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 夕方 light on the garden is honestly my favorite part of the day.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4812,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5773,
+          "start_ms": 0,
+          "end_ms": 361
+        },
+        {
+          "lang": "ja",
+          "text": "夕方",
+          "start_sample": 5773,
+          "end_sample": 15559,
+          "start_ms": 361,
+          "end_ms": 972
+        },
+        {
+          "lang": "en",
+          "text": "light on the garden is honestly my favorite part of the day.",
+          "start_sample": 15559,
+          "end_sample": 76999,
+          "start_ms": 972,
+          "end_ms": 4812
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 226,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

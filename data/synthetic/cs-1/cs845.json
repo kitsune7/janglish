@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs845.flac",
+  "sentence": "ベッドのmattressがとても柔らかくて、よく眠れました。",
+  "sample_rate": 16000,
+  "duration_ms": 3110,
+  "reference_speaker": "jp/speaker_057_6b77a20f629a.mp3",
+  "seed": 887,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "ベッドの",
+      "start_sample": 0,
+      "end_sample": 6064,
+      "start_ms": 0,
+      "end_ms": 379
+    },
+    {
+      "lang": "en",
+      "text": "mattress",
+      "start_sample": 6064,
+      "end_sample": 22170,
+      "start_ms": 379,
+      "end_ms": 1386
+    },
+    {
+      "lang": "ja",
+      "text": "がとても柔らかくて、よく眠れました。",
+      "start_sample": 22170,
+      "end_sample": 49755,
+      "start_ms": 1386,
+      "end_ms": 3110
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "beddo no mattress ga totemo yawarakaku te yoku nemure mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6550,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ベッドの",
+          "start_sample": 0,
+          "end_sample": 17627,
+          "start_ms": 0,
+          "end_ms": 1102
+        },
+        {
+          "lang": "en",
+          "text": "mattress",
+          "start_sample": 17627,
+          "end_sample": 34133,
+          "start_ms": 1102,
+          "end_ms": 2133
+        },
+        {
+          "lang": "ja",
+          "text": "がとても柔らかくて、よく眠れました。",
+          "start_sample": 34133,
+          "end_sample": 104804,
+          "start_ms": 2133,
+          "end_ms": 6550
+        }
+      ]
+    },
+    "ja": {
+      "text": "ベッドのmattressがとても柔らかくて、よく眠れました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2590,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ベッドの",
+          "start_sample": 0,
+          "end_sample": 6264,
+          "start_ms": 0,
+          "end_ms": 392
+        },
+        {
+          "lang": "en",
+          "text": "mattress",
+          "start_sample": 6264,
+          "end_sample": 13653,
+          "start_ms": 392,
+          "end_ms": 853
+        },
+        {
+          "lang": "ja",
+          "text": "がとても柔らかくて、よく眠れました。",
+          "start_sample": 13653,
+          "end_sample": 41438,
+          "start_ms": 853,
+          "end_ms": 2590
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 156,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

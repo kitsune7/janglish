@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2661.flac",
+  "sentence": "Did anyone call for 救助 before the building collapsed?",
+  "sample_rate": 16000,
+  "duration_ms": 3668,
+  "reference_speaker": "jp/speaker_033_59cc0d3a6bc8.mp3",
+  "seed": 2703,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Did anyone call for",
+      "start_sample": 0,
+      "end_sample": 19361,
+      "start_ms": 0,
+      "end_ms": 1210
+    },
+    {
+      "lang": "ja",
+      "text": "救助",
+      "start_sample": 19361,
+      "end_sample": 25214,
+      "start_ms": 1210,
+      "end_ms": 1576
+    },
+    {
+      "lang": "en",
+      "text": "before the building collapsed?",
+      "start_sample": 25214,
+      "end_sample": 58685,
+      "start_ms": 1576,
+      "end_ms": 3668
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Did anyone call for kyuujo before the building collapsed?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4209,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did anyone call for",
+          "start_sample": 0,
+          "end_sample": 19561,
+          "start_ms": 0,
+          "end_ms": 1223
+        },
+        {
+          "lang": "ja",
+          "text": "救助",
+          "start_sample": 19561,
+          "end_sample": 33672,
+          "start_ms": 1223,
+          "end_ms": 2104
+        },
+        {
+          "lang": "en",
+          "text": "before the building collapsed?",
+          "start_sample": 33672,
+          "end_sample": 67343,
+          "start_ms": 2104,
+          "end_ms": 4209
+        }
+      ]
+    },
+    "ja": {
+      "text": "Did anyone call for 救助 before the building collapsed?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3507,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did anyone call for",
+          "start_sample": 0,
+          "end_sample": 21645,
+          "start_ms": 0,
+          "end_ms": 1353
+        },
+        {
+          "lang": "ja",
+          "text": "救助",
+          "start_sample": 21645,
+          "end_sample": 27898,
+          "start_ms": 1353,
+          "end_ms": 1744
+        },
+        {
+          "lang": "en",
+          "text": "before the building collapsed?",
+          "start_sample": 27898,
+          "end_sample": 56115,
+          "start_ms": 1744,
+          "end_ms": 3507
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 184,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

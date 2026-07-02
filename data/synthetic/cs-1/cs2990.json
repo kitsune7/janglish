@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2990.flac",
+  "sentence": "She uses a 天然 bristle brush because synthetic ones irritate her cheeks.",
+  "sample_rate": 16000,
+  "duration_ms": 4417,
+  "reference_speaker": "en/speaker_063_66f0ab0f5d48.mp3",
+  "seed": 3032,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She uses a",
+      "start_sample": 0,
+      "end_sample": 8451,
+      "start_ms": 0,
+      "end_ms": 528
+    },
+    {
+      "lang": "ja",
+      "text": "天然",
+      "start_sample": 8451,
+      "end_sample": 17998,
+      "start_ms": 528,
+      "end_ms": 1125
+    },
+    {
+      "lang": "en",
+      "text": "bristle brush because synthetic ones irritate her cheeks.",
+      "start_sample": 17998,
+      "end_sample": 70670,
+      "start_ms": 1125,
+      "end_ms": 4417
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She uses a tennen bristle brush because synthetic ones irritate her cheeks.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4226,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She uses a",
+          "start_sample": 0,
+          "end_sample": 8651,
+          "start_ms": 0,
+          "end_ms": 541
+        },
+        {
+          "lang": "ja",
+          "text": "天然",
+          "start_sample": 8651,
+          "end_sample": 14740,
+          "start_ms": 541,
+          "end_ms": 921
+        },
+        {
+          "lang": "en",
+          "text": "bristle brush because synthetic ones irritate her cheeks.",
+          "start_sample": 14740,
+          "end_sample": 67612,
+          "start_ms": 921,
+          "end_ms": 4226
+        }
+      ]
+    },
+    "ja": {
+      "text": "She uses a 天然 bristle brush because synthetic ones irritate her cheeks.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5435,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She uses a",
+          "start_sample": 0,
+          "end_sample": 9946,
+          "start_ms": 0,
+          "end_ms": 622
+        },
+        {
+          "lang": "ja",
+          "text": "天然",
+          "start_sample": 9946,
+          "end_sample": 19893,
+          "start_ms": 622,
+          "end_ms": 1243
+        },
+        {
+          "lang": "en",
+          "text": "bristle brush because synthetic ones irritate her cheeks.",
+          "start_sample": 19893,
+          "end_sample": 86953,
+          "start_ms": 1243,
+          "end_ms": 5435
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 221,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

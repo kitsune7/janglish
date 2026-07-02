@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs128.flac",
+  "sentence": "The 伏線 in that thriller were so well-placed that I missed every single one.",
+  "sample_rate": 16000,
+  "duration_ms": 5430,
+  "reference_speaker": "jp/speaker_015_c26b5026d437.mp3",
+  "seed": 170,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2204,
+      "start_ms": 0,
+      "end_ms": 138
+    },
+    {
+      "lang": "ja",
+      "text": "伏線",
+      "start_sample": 2204,
+      "end_sample": 12067,
+      "start_ms": 138,
+      "end_ms": 754
+    },
+    {
+      "lang": "en",
+      "text": "in that thriller were so well-placed that I missed every single one.",
+      "start_sample": 12067,
+      "end_sample": 86888,
+      "start_ms": 754,
+      "end_ms": 5430
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The fukusen in that thriller were so well-placed that I missed every single one.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5530,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2404,
+          "start_ms": 0,
+          "end_ms": 150
+        },
+        {
+          "lang": "ja",
+          "text": "伏線",
+          "start_sample": 2404,
+          "end_sample": 13465,
+          "start_ms": 150,
+          "end_ms": 842
+        },
+        {
+          "lang": "en",
+          "text": "in that thriller were so well-placed that I missed every single one.",
+          "start_sample": 13465,
+          "end_sample": 88486,
+          "start_ms": 842,
+          "end_ms": 5530
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 伏線 in that thriller were so well-placed that I missed every single one.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5332,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3046,
+          "start_ms": 0,
+          "end_ms": 190
+        },
+        {
+          "lang": "ja",
+          "text": "伏線",
+          "start_sample": 3046,
+          "end_sample": 13309,
+          "start_ms": 190,
+          "end_ms": 832
+        },
+        {
+          "lang": "en",
+          "text": "in that thriller were so well-placed that I missed every single one.",
+          "start_sample": 13309,
+          "end_sample": 85307,
+          "start_ms": 832,
+          "end_ms": 5332
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 272,
+  "frame_labels": "eeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

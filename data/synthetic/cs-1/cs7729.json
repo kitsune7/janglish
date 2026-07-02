@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7729.flac",
+  "sentence": "掃除のあとにair freshenerを使うと部屋が爽やかになります。",
+  "sample_rate": 16000,
+  "duration_ms": 3950,
+  "reference_speaker": "jp/speaker_060_dda9a032fd63.mp3",
+  "seed": 7771,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "掃除のあとに",
+      "start_sample": 0,
+      "end_sample": 10909,
+      "start_ms": 0,
+      "end_ms": 682
+    },
+    {
+      "lang": "en",
+      "text": "air freshener",
+      "start_sample": 10909,
+      "end_sample": 31523,
+      "start_ms": 682,
+      "end_ms": 1970
+    },
+    {
+      "lang": "ja",
+      "text": "を使うと部屋が爽やかになります。",
+      "start_sample": 31523,
+      "end_sample": 63198,
+      "start_ms": 1970,
+      "end_ms": 3950
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "souji no ato ni air freshener wo tsukau to heya ga sawayaka ni nari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7679,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "掃除のあとに",
+          "start_sample": 0,
+          "end_sample": 20371,
+          "start_ms": 0,
+          "end_ms": 1273
+        },
+        {
+          "lang": "en",
+          "text": "air freshener",
+          "start_sample": 20371,
+          "end_sample": 41385,
+          "start_ms": 1273,
+          "end_ms": 2587
+        },
+        {
+          "lang": "ja",
+          "text": "を使うと部屋が爽やかになります。",
+          "start_sample": 41385,
+          "end_sample": 122870,
+          "start_ms": 2587,
+          "end_ms": 7679
+        }
+      ]
+    },
+    "ja": {
+      "text": "掃除のあとにair freshenerを使うと部屋が爽やかになります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3341,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "掃除のあとに",
+          "start_sample": 0,
+          "end_sample": 11109,
+          "start_ms": 0,
+          "end_ms": 694
+        },
+        {
+          "lang": "en",
+          "text": "air freshener",
+          "start_sample": 11109,
+          "end_sample": 21575,
+          "start_ms": 694,
+          "end_ms": 1348
+        },
+        {
+          "lang": "ja",
+          "text": "を使うと部屋が爽やかになります。",
+          "start_sample": 21575,
+          "end_sample": 53450,
+          "start_ms": 1348,
+          "end_ms": 3341
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 198,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

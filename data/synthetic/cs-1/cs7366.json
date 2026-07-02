@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7366.flac",
+  "sentence": "His 体温 was slightly elevated, so they kept him overnight for observation.",
+  "sample_rate": 16000,
+  "duration_ms": 4135,
+  "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 7408,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His",
+      "start_sample": 0,
+      "end_sample": 2362,
+      "start_ms": 0,
+      "end_ms": 148
+    },
+    {
+      "lang": "ja",
+      "text": "体温",
+      "start_sample": 2362,
+      "end_sample": 10298,
+      "start_ms": 148,
+      "end_ms": 644
+    },
+    {
+      "lang": "en",
+      "text": "was slightly elevated, so they kept him overnight for observation.",
+      "start_sample": 10298,
+      "end_sample": 66167,
+      "start_ms": 644,
+      "end_ms": 4135
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His taion was slightly elevated, so they kept him overnight for observation.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4065,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His",
+          "start_sample": 0,
+          "end_sample": 2562,
+          "start_ms": 0,
+          "end_ms": 160
+        },
+        {
+          "lang": "ja",
+          "text": "体温",
+          "start_sample": 2562,
+          "end_sample": 8970,
+          "start_ms": 160,
+          "end_ms": 561
+        },
+        {
+          "lang": "en",
+          "text": "was slightly elevated, so they kept him overnight for observation.",
+          "start_sample": 8970,
+          "end_sample": 65039,
+          "start_ms": 561,
+          "end_ms": 4065
+        }
+      ]
+    },
+    "ja": {
+      "text": "His 体温 was slightly elevated, so they kept him overnight for observation.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6052,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His",
+          "start_sample": 0,
+          "end_sample": 4008,
+          "start_ms": 0,
+          "end_ms": 250
+        },
+        {
+          "lang": "ja",
+          "text": "体温",
+          "start_sample": 4008,
+          "end_sample": 12344,
+          "start_ms": 250,
+          "end_ms": 772
+        },
+        {
+          "lang": "en",
+          "text": "was slightly elevated, so they kept him overnight for observation.",
+          "start_sample": 12344,
+          "end_sample": 96833,
+          "start_ms": 772,
+          "end_ms": 6052
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 207,
+  "frame_labels": "eeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

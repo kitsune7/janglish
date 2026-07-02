@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs583.flac",
+  "sentence": "今月のprojectが終わったら、有給を取る予定だ。",
+  "sample_rate": 16000,
+  "duration_ms": 3785,
+  "reference_speaker": "jp/speaker_032_e63077fee9e9.mp3",
+  "seed": 625,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今月の",
+      "start_sample": 0,
+      "end_sample": 10213,
+      "start_ms": 0,
+      "end_ms": 638
+    },
+    {
+      "lang": "en",
+      "text": "project",
+      "start_sample": 10213,
+      "end_sample": 18625,
+      "start_ms": 638,
+      "end_ms": 1164
+    },
+    {
+      "lang": "ja",
+      "text": "が終わったら、有給を取る予定だ。",
+      "start_sample": 18625,
+      "end_sample": 60559,
+      "start_ms": 1164,
+      "end_ms": 3785
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kongetsu no project ga owatsu tara yuukyuu wo toru yotei da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4846,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今月の",
+          "start_sample": 0,
+          "end_sample": 11054,
+          "start_ms": 0,
+          "end_ms": 691
+        },
+        {
+          "lang": "en",
+          "text": "project",
+          "start_sample": 11054,
+          "end_sample": 19866,
+          "start_ms": 691,
+          "end_ms": 1242
+        },
+        {
+          "lang": "ja",
+          "text": "が終わったら、有給を取る予定だ。",
+          "start_sample": 19866,
+          "end_sample": 77544,
+          "start_ms": 1242,
+          "end_ms": 4846
+        }
+      ]
+    },
+    "ja": {
+      "text": "今月のprojectが終わったら、有給を取る予定だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3925,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今月の",
+          "start_sample": 0,
+          "end_sample": 10413,
+          "start_ms": 0,
+          "end_ms": 651
+        },
+        {
+          "lang": "en",
+          "text": "project",
+          "start_sample": 10413,
+          "end_sample": 20666,
+          "start_ms": 651,
+          "end_ms": 1292
+        },
+        {
+          "lang": "ja",
+          "text": "が終わったら、有給を取る予定だ。",
+          "start_sample": 20666,
+          "end_sample": 62800,
+          "start_ms": 1292,
+          "end_ms": 3925
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

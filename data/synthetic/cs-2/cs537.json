@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs537.flac",
+  "sentence": "He rehearsed his 自己紹介 so many times that it lost all sense of 自然さ.",
+  "sample_rate": 16000,
+  "duration_ms": 5250,
+  "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 17392,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He rehearsed his",
+      "start_sample": 0,
+      "end_sample": 11837,
+      "start_ms": 0,
+      "end_ms": 740
+    },
+    {
+      "lang": "ja",
+      "text": "自己紹介",
+      "start_sample": 11837,
+      "end_sample": 26666,
+      "start_ms": 740,
+      "end_ms": 1667
+    },
+    {
+      "lang": "en",
+      "text": "so many times that it lost all sense of",
+      "start_sample": 26666,
+      "end_sample": 74898,
+      "start_ms": 1667,
+      "end_ms": 4681
+    },
+    {
+      "lang": "ja",
+      "text": "自然さ.",
+      "start_sample": 74898,
+      "end_sample": 83995,
+      "start_ms": 4681,
+      "end_ms": 5250
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He rehearsed his jiko shoukai so many times that it lost all sense of shizen sa",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6199,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He rehearsed his",
+          "start_sample": 0,
+          "end_sample": 12037,
+          "start_ms": 0,
+          "end_ms": 752
+        },
+        {
+          "lang": "ja",
+          "text": "自己紹介",
+          "start_sample": 12037,
+          "end_sample": 38680,
+          "start_ms": 752,
+          "end_ms": 2418
+        },
+        {
+          "lang": "en",
+          "text": "so many times that it lost all sense of",
+          "start_sample": 38680,
+          "end_sample": 87312,
+          "start_ms": 2418,
+          "end_ms": 5457
+        },
+        {
+          "lang": "ja",
+          "text": "自然さ.",
+          "start_sample": 87312,
+          "end_sample": 99186,
+          "start_ms": 5457,
+          "end_ms": 6199
+        }
+      ]
+    },
+    "ja": {
+      "text": "He rehearsed his 自己紹介 so many times that it lost all sense of 自然さ.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5490,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He rehearsed his",
+          "start_sample": 0,
+          "end_sample": 19716,
+          "start_ms": 0,
+          "end_ms": 1232
+        },
+        {
+          "lang": "ja",
+          "text": "自己紹介",
+          "start_sample": 19716,
+          "end_sample": 34945,
+          "start_ms": 1232,
+          "end_ms": 2184
+        },
+        {
+          "lang": "en",
+          "text": "so many times that it lost all sense of",
+          "start_sample": 34945,
+          "end_sample": 78549,
+          "start_ms": 2184,
+          "end_ms": 4909
+        },
+        {
+          "lang": "ja",
+          "text": "自然さ.",
+          "start_sample": 78549,
+          "end_sample": 87846,
+          "start_ms": 4909,
+          "end_ms": 5490
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 263,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

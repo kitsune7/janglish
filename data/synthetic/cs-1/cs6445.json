@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6445.flac",
+  "sentence": "もしよければ、私のfavorite bookを貸しますよ。",
+  "sample_rate": 16000,
+  "duration_ms": 3375,
+  "reference_speaker": "jp/speaker_097_1c56b79c3d3b.mp3",
+  "seed": 6487,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "もしよければ、私の",
+      "start_sample": 0,
+      "end_sample": 22649,
+      "start_ms": 0,
+      "end_ms": 1416
+    },
+    {
+      "lang": "en",
+      "text": "favorite book",
+      "start_sample": 22649,
+      "end_sample": 40360,
+      "start_ms": 1416,
+      "end_ms": 2522
+    },
+    {
+      "lang": "ja",
+      "text": "を貸しますよ。",
+      "start_sample": 40360,
+      "end_sample": 53993,
+      "start_ms": 2522,
+      "end_ms": 3375
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "moshi yokere ba watashi no favorite book wo kashi masu yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5289,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "もしよければ、私の",
+          "start_sample": 0,
+          "end_sample": 42472,
+          "start_ms": 0,
+          "end_ms": 2654
+        },
+        {
+          "lang": "en",
+          "text": "favorite book",
+          "start_sample": 42472,
+          "end_sample": 60583,
+          "start_ms": 2654,
+          "end_ms": 3786
+        },
+        {
+          "lang": "ja",
+          "text": "を貸しますよ。",
+          "start_sample": 60583,
+          "end_sample": 84623,
+          "start_ms": 3786,
+          "end_ms": 5289
+        }
+      ]
+    },
+    "ja": {
+      "text": "もしよければ、私のfavorite bookを貸しますよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3057,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "もしよければ、私の",
+          "start_sample": 0,
+          "end_sample": 22849,
+          "start_ms": 0,
+          "end_ms": 1428
+        },
+        {
+          "lang": "en",
+          "text": "favorite book",
+          "start_sample": 22849,
+          "end_sample": 35079,
+          "start_ms": 1428,
+          "end_ms": 2192
+        },
+        {
+          "lang": "ja",
+          "text": "を貸しますよ。",
+          "start_sample": 35079,
+          "end_sample": 48912,
+          "start_ms": 2192,
+          "end_ms": 3057
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 169,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

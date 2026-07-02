@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10432.flac",
+  "sentence": "このfernはじめじめした場所が好きらしい。",
+  "sample_rate": 16000,
+  "duration_ms": 3156,
+  "reference_speaker": "jp/speaker_016_f3aac8b73f15.mp3",
+  "seed": 10474,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3166,
+      "start_ms": 0,
+      "end_ms": 198
+    },
+    {
+      "lang": "en",
+      "text": "fern",
+      "start_sample": 3166,
+      "end_sample": 20554,
+      "start_ms": 198,
+      "end_ms": 1285
+    },
+    {
+      "lang": "ja",
+      "text": "はじめじめした場所が好きらしい。",
+      "start_sample": 20554,
+      "end_sample": 50492,
+      "start_ms": 1285,
+      "end_ms": 3156
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono fern ha jimejime shi ta basho ga suki rashii",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9014,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 6570,
+          "start_ms": 0,
+          "end_ms": 411
+        },
+        {
+          "lang": "en",
+          "text": "fern",
+          "start_sample": 6570,
+          "end_sample": 24358,
+          "start_ms": 411,
+          "end_ms": 1522
+        },
+        {
+          "lang": "ja",
+          "text": "はじめじめした場所が好きらしい。",
+          "start_sample": 24358,
+          "end_sample": 144228,
+          "start_ms": 1522,
+          "end_ms": 9014
+        }
+      ]
+    },
+    "ja": {
+      "text": "このfernはじめじめした場所が好きらしい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2485,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3366,
+          "start_ms": 0,
+          "end_ms": 210
+        },
+        {
+          "lang": "en",
+          "text": "fern",
+          "start_sample": 3366,
+          "end_sample": 9619,
+          "start_ms": 210,
+          "end_ms": 601
+        },
+        {
+          "lang": "ja",
+          "text": "はじめじめした場所が好きらしい。",
+          "start_sample": 9619,
+          "end_sample": 39757,
+          "start_ms": 601,
+          "end_ms": 2485
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 158,
+  "frame_labels": "jjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

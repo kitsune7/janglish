@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs9221.flac",
+  "sentence": "rubbish袋を外に出すのは、いつもお父さんの仕事です。",
+  "sample_rate": 16000,
+  "duration_ms": 4111,
+  "reference_speaker": "jp/speaker_073_b4ca3157591f.mp3",
+  "seed": 9263,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "rubbish",
+      "start_sample": 0,
+      "end_sample": 5897,
+      "start_ms": 0,
+      "end_ms": 369
+    },
+    {
+      "lang": "ja",
+      "text": "袋を外に出すのは、いつもお父さんの仕事です。",
+      "start_sample": 5897,
+      "end_sample": 65782,
+      "start_ms": 369,
+      "end_ms": 4111
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "rubbish fukuro wo soto ni dasu no ha itsu mo o chichi san no shigoto desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8504,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "rubbish",
+          "start_sample": 0,
+          "end_sample": 6097,
+          "start_ms": 0,
+          "end_ms": 381
+        },
+        {
+          "lang": "ja",
+          "text": "袋を外に出すのは、いつもお父さんの仕事です。",
+          "start_sample": 6097,
+          "end_sample": 136059,
+          "start_ms": 381,
+          "end_ms": 8504
+        }
+      ]
+    },
+    "ja": {
+      "text": "rubbish袋を外に出すのは、いつもお父さんの仕事です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4226,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "rubbish",
+          "start_sample": 0,
+          "end_sample": 7529,
+          "start_ms": 0,
+          "end_ms": 471
+        },
+        {
+          "lang": "ja",
+          "text": "袋を外に出すのは、いつもお父さんの仕事です。",
+          "start_sample": 7529,
+          "end_sample": 67614,
+          "start_ms": 471,
+          "end_ms": 4226
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 206,
+  "frame_labels": "eeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

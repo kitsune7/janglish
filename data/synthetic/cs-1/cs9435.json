@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9435.flac",
+  "sentence": "Working in your own 空間 makes such a difference for creativity.",
+  "sample_rate": 16000,
+  "duration_ms": 3530,
+  "reference_speaker": "en/speaker_025_5a5c462b583a.mp3",
+  "seed": 9477,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Working in your own",
+      "start_sample": 0,
+      "end_sample": 16329,
+      "start_ms": 0,
+      "end_ms": 1021
+    },
+    {
+      "lang": "ja",
+      "text": "空間",
+      "start_sample": 16329,
+      "end_sample": 24585,
+      "start_ms": 1021,
+      "end_ms": 1537
+    },
+    {
+      "lang": "en",
+      "text": "makes such a difference for creativity.",
+      "start_sample": 24585,
+      "end_sample": 56479,
+      "start_ms": 1537,
+      "end_ms": 3530
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Working in your own kuukan makes such a difference for creativity.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3611,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Working in your own",
+          "start_sample": 0,
+          "end_sample": 16529,
+          "start_ms": 0,
+          "end_ms": 1033
+        },
+        {
+          "lang": "ja",
+          "text": "空間",
+          "start_sample": 16529,
+          "end_sample": 25677,
+          "start_ms": 1033,
+          "end_ms": 1605
+        },
+        {
+          "lang": "en",
+          "text": "makes such a difference for creativity.",
+          "start_sample": 25677,
+          "end_sample": 57771,
+          "start_ms": 1605,
+          "end_ms": 3611
+        }
+      ]
+    },
+    "ja": {
+      "text": "Working in your own 空間 makes such a difference for creativity.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5550,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Working in your own",
+          "start_sample": 0,
+          "end_sample": 30615,
+          "start_ms": 0,
+          "end_ms": 1913
+        },
+        {
+          "lang": "ja",
+          "text": "空間",
+          "start_sample": 30615,
+          "end_sample": 39271,
+          "start_ms": 1913,
+          "end_ms": 2454
+        },
+        {
+          "lang": "en",
+          "text": "makes such a difference for creativity.",
+          "start_sample": 39271,
+          "end_sample": 88799,
+          "start_ms": 2454,
+          "end_ms": 5550
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

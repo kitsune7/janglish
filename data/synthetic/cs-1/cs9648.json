@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9648.flac",
+  "sentence": "Can you read the message 大声で? I'm driving right now.",
+  "sample_rate": 16000,
+  "duration_ms": 3162,
+  "reference_speaker": "jp/speaker_046_38f0b7b27586.mp3",
+  "seed": 9690,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you read the message",
+      "start_sample": 0,
+      "end_sample": 20689,
+      "start_ms": 0,
+      "end_ms": 1293
+    },
+    {
+      "lang": "ja",
+      "text": "大声で?",
+      "start_sample": 20689,
+      "end_sample": 32322,
+      "start_ms": 1293,
+      "end_ms": 2020
+    },
+    {
+      "lang": "en",
+      "text": "I'm driving right now.",
+      "start_sample": 32322,
+      "end_sample": 50598,
+      "start_ms": 2020,
+      "end_ms": 3162
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you read the message oogoe de I'm driving right now.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4499,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you read the message",
+          "start_sample": 0,
+          "end_sample": 20889,
+          "start_ms": 0,
+          "end_ms": 1306
+        },
+        {
+          "lang": "ja",
+          "text": "大声で?",
+          "start_sample": 20889,
+          "end_sample": 53510,
+          "start_ms": 1306,
+          "end_ms": 3344
+        },
+        {
+          "lang": "en",
+          "text": "I'm driving right now.",
+          "start_sample": 53510,
+          "end_sample": 71986,
+          "start_ms": 3344,
+          "end_ms": 4499
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you read the message 大声で? I'm driving right now.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3670,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you read the message",
+          "start_sample": 0,
+          "end_sample": 21820,
+          "start_ms": 0,
+          "end_ms": 1364
+        },
+        {
+          "lang": "ja",
+          "text": "大声で?",
+          "start_sample": 21820,
+          "end_sample": 33853,
+          "start_ms": 1364,
+          "end_ms": 2116
+        },
+        {
+          "lang": "en",
+          "text": "I'm driving right now.",
+          "start_sample": 33853,
+          "end_sample": 58720,
+          "start_ms": 2116,
+          "end_ms": 3670
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

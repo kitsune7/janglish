@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7255.flac",
+  "sentence": "The 振込 went through within two hours, which was faster than expected.",
+  "sample_rate": 16000,
+  "duration_ms": 4964,
+  "reference_speaker": "en/speaker_088_9950f069efac.mp3",
+  "seed": 7297,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1400,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "振込",
+      "start_sample": 1400,
+      "end_sample": 11418,
+      "start_ms": 88,
+      "end_ms": 714
+    },
+    {
+      "lang": "en",
+      "text": "went through within two hours, which was faster than expected.",
+      "start_sample": 11418,
+      "end_sample": 79420,
+      "start_ms": 714,
+      "end_ms": 4964
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The furikomi went through within two hours, which was faster than expected.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5003,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1600,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "振込",
+          "start_sample": 1600,
+          "end_sample": 11847,
+          "start_ms": 100,
+          "end_ms": 740
+        },
+        {
+          "lang": "en",
+          "text": "went through within two hours, which was faster than expected.",
+          "start_sample": 11847,
+          "end_sample": 80049,
+          "start_ms": 740,
+          "end_ms": 5003
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 振込 went through within two hours, which was faster than expected.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5269,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4806,
+          "start_ms": 0,
+          "end_ms": 300
+        },
+        {
+          "lang": "ja",
+          "text": "振込",
+          "start_sample": 4806,
+          "end_sample": 15224,
+          "start_ms": 300,
+          "end_ms": 952
+        },
+        {
+          "lang": "en",
+          "text": "went through within two hours, which was faster than expected.",
+          "start_sample": 15224,
+          "end_sample": 84299,
+          "start_ms": 952,
+          "end_ms": 5269
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 249,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

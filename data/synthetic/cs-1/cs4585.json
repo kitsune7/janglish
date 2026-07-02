@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4585.flac",
+  "sentence": "あのcameraの映像で犯人が特定できた。",
+  "sample_rate": 16000,
+  "duration_ms": 2838,
+  "reference_speaker": "jp/speaker_095_1daf6547c74f.mp3",
+  "seed": 4627,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの",
+      "start_sample": 0,
+      "end_sample": 3010,
+      "start_ms": 0,
+      "end_ms": 188
+    },
+    {
+      "lang": "en",
+      "text": "camera",
+      "start_sample": 3010,
+      "end_sample": 10941,
+      "start_ms": 188,
+      "end_ms": 684
+    },
+    {
+      "lang": "ja",
+      "text": "の映像で犯人が特定できた。",
+      "start_sample": 10941,
+      "end_sample": 45410,
+      "start_ms": 684,
+      "end_ms": 2838
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano camera no eizou de hannin ga tokutei deki ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6529,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 5286,
+          "start_ms": 0,
+          "end_ms": 330
+        },
+        {
+          "lang": "en",
+          "text": "camera",
+          "start_sample": 5286,
+          "end_sample": 13617,
+          "start_ms": 330,
+          "end_ms": 851
+        },
+        {
+          "lang": "ja",
+          "text": "の映像で犯人が特定できた。",
+          "start_sample": 13617,
+          "end_sample": 104459,
+          "start_ms": 851,
+          "end_ms": 6529
+        }
+      ]
+    },
+    "ja": {
+      "text": "あのcameraの映像で犯人が特定できた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2749,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 3210,
+          "start_ms": 0,
+          "end_ms": 201
+        },
+        {
+          "lang": "en",
+          "text": "camera",
+          "start_sample": 3210,
+          "end_sample": 9310,
+          "start_ms": 201,
+          "end_ms": 582
+        },
+        {
+          "lang": "ja",
+          "text": "の映像で犯人が特定できた。",
+          "start_sample": 9310,
+          "end_sample": 43979,
+          "start_ms": 582,
+          "end_ms": 2749
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 142,
+  "frame_labels": "jjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

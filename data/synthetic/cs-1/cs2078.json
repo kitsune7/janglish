@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2078.flac",
+  "sentence": "I find cycling through the 山道 far more rewarding than riding on flat roads.",
+  "sample_rate": 16000,
+  "duration_ms": 5213,
+  "reference_speaker": "jp/speaker_083_f660ed2250be.mp3",
+  "seed": 2120,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I find cycling through the",
+      "start_sample": 0,
+      "end_sample": 24504,
+      "start_ms": 0,
+      "end_ms": 1532
+    },
+    {
+      "lang": "ja",
+      "text": "山道",
+      "start_sample": 24504,
+      "end_sample": 30990,
+      "start_ms": 1532,
+      "end_ms": 1937
+    },
+    {
+      "lang": "en",
+      "text": "far more rewarding than riding on flat roads.",
+      "start_sample": 30990,
+      "end_sample": 83411,
+      "start_ms": 1937,
+      "end_ms": 5213
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I find cycling through the yamamichi far more rewarding than riding on flat roads.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6096,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I find cycling through the",
+          "start_sample": 0,
+          "end_sample": 24704,
+          "start_ms": 0,
+          "end_ms": 1544
+        },
+        {
+          "lang": "ja",
+          "text": "山道",
+          "start_sample": 24704,
+          "end_sample": 44919,
+          "start_ms": 1544,
+          "end_ms": 2807
+        },
+        {
+          "lang": "en",
+          "text": "far more rewarding than riding on flat roads.",
+          "start_sample": 44919,
+          "end_sample": 97540,
+          "start_ms": 2807,
+          "end_ms": 6096
+        }
+      ]
+    },
+    "ja": {
+      "text": "I find cycling through the 山道 far more rewarding than riding on flat roads.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6645,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I find cycling through the",
+          "start_sample": 0,
+          "end_sample": 24019,
+          "start_ms": 0,
+          "end_ms": 1501
+        },
+        {
+          "lang": "ja",
+          "text": "山道",
+          "start_sample": 24019,
+          "end_sample": 30905,
+          "start_ms": 1501,
+          "end_ms": 1932
+        },
+        {
+          "lang": "en",
+          "text": "far more rewarding than riding on flat roads.",
+          "start_sample": 30905,
+          "end_sample": 106326,
+          "start_ms": 1932,
+          "end_ms": 6645
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 261,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

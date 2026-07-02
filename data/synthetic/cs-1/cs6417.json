@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6417.flac",
+  "sentence": "あのdramaの最終回は泣けるほど感動的だった。",
+  "sample_rate": 16000,
+  "duration_ms": 3197,
+  "reference_speaker": "jp/speaker_035_dd783030d2b8.mp3",
+  "seed": 6459,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの",
+      "start_sample": 0,
+      "end_sample": 2845,
+      "start_ms": 0,
+      "end_ms": 178
+    },
+    {
+      "lang": "en",
+      "text": "drama",
+      "start_sample": 2845,
+      "end_sample": 14804,
+      "start_ms": 178,
+      "end_ms": 925
+    },
+    {
+      "lang": "ja",
+      "text": "の最終回は泣けるほど感動的だった。",
+      "start_sample": 14804,
+      "end_sample": 51149,
+      "start_ms": 925,
+      "end_ms": 3197
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano drama no saishuu kai ha nakeru hodo kandou teki datsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4895,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 4012,
+          "start_ms": 0,
+          "end_ms": 251
+        },
+        {
+          "lang": "en",
+          "text": "drama",
+          "start_sample": 4012,
+          "end_sample": 16371,
+          "start_ms": 251,
+          "end_ms": 1023
+        },
+        {
+          "lang": "ja",
+          "text": "の最終回は泣けるほど感動的だった。",
+          "start_sample": 16371,
+          "end_sample": 78324,
+          "start_ms": 1023,
+          "end_ms": 4895
+        }
+      ]
+    },
+    "ja": {
+      "text": "あのdramaの最終回は泣けるほど感動的だった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2785,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 3045,
+          "start_ms": 0,
+          "end_ms": 190
+        },
+        {
+          "lang": "en",
+          "text": "drama",
+          "start_sample": 3045,
+          "end_sample": 8013,
+          "start_ms": 190,
+          "end_ms": 501
+        },
+        {
+          "lang": "ja",
+          "text": "の最終回は泣けるほど感動的だった。",
+          "start_sample": 8013,
+          "end_sample": 44558,
+          "start_ms": 501,
+          "end_ms": 2785
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "jjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2546.flac",
+  "sentence": "あのreviewを読んで、その映画を見る気がなくなった。",
+  "sample_rate": 16000,
+  "duration_ms": 2825,
+  "reference_speaker": "jp/speaker_080_c886ae0e1a09.mp3",
+  "seed": 2588,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの",
+      "start_sample": 0,
+      "end_sample": 3015,
+      "start_ms": 0,
+      "end_ms": 188
+    },
+    {
+      "lang": "en",
+      "text": "review",
+      "start_sample": 3015,
+      "end_sample": 14313,
+      "start_ms": 188,
+      "end_ms": 895
+    },
+    {
+      "lang": "ja",
+      "text": "を読んで、その映画を見る気がなくなった。",
+      "start_sample": 14313,
+      "end_sample": 45204,
+      "start_ms": 895,
+      "end_ms": 2825
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano review wo yon de sono eiga wo miru ki ga nakunatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6510,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 4486,
+          "start_ms": 0,
+          "end_ms": 280
+        },
+        {
+          "lang": "en",
+          "text": "review",
+          "start_sample": 4486,
+          "end_sample": 16184,
+          "start_ms": 280,
+          "end_ms": 1012
+        },
+        {
+          "lang": "ja",
+          "text": "を読んで、その映画を見る気がなくなった。",
+          "start_sample": 16184,
+          "end_sample": 104162,
+          "start_ms": 1012,
+          "end_ms": 6510
+        }
+      ]
+    },
+    "ja": {
+      "text": "あのreviewを読んで、その映画を見る気がなくなった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2436,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 3215,
+          "start_ms": 0,
+          "end_ms": 201
+        },
+        {
+          "lang": "en",
+          "text": "review",
+          "start_sample": 3215,
+          "end_sample": 7888,
+          "start_ms": 201,
+          "end_ms": 493
+        },
+        {
+          "lang": "ja",
+          "text": "を読んで、その映画を見る気がなくなった。",
+          "start_sample": 7888,
+          "end_sample": 38979,
+          "start_ms": 493,
+          "end_ms": 2436
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 142,
+  "frame_labels": "jjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4636.flac",
+  "sentence": "I noticed the stray dog seemed 警戒心 as we approached with the food bowl.",
+  "sample_rate": 16000,
+  "duration_ms": 6739,
+  "reference_speaker": "en/speaker_086_0a418a567872.mp3",
+  "seed": 4678,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I noticed the stray dog seemed",
+      "start_sample": 0,
+      "end_sample": 54682,
+      "start_ms": 0,
+      "end_ms": 3418
+    },
+    {
+      "lang": "ja",
+      "text": "警戒心",
+      "start_sample": 54682,
+      "end_sample": 71277,
+      "start_ms": 3418,
+      "end_ms": 4455
+    },
+    {
+      "lang": "en",
+      "text": "as we approached with the food bowl.",
+      "start_sample": 71277,
+      "end_sample": 107825,
+      "start_ms": 4455,
+      "end_ms": 6739
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I noticed the stray dog seemed keikai kokoro as we approached with the food bowl.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7382,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I noticed the stray dog seemed",
+          "start_sample": 0,
+          "end_sample": 54882,
+          "start_ms": 0,
+          "end_ms": 3430
+        },
+        {
+          "lang": "ja",
+          "text": "警戒心",
+          "start_sample": 54882,
+          "end_sample": 81361,
+          "start_ms": 3430,
+          "end_ms": 5085
+        },
+        {
+          "lang": "en",
+          "text": "as we approached with the food bowl.",
+          "start_sample": 81361,
+          "end_sample": 118109,
+          "start_ms": 5085,
+          "end_ms": 7382
+        }
+      ]
+    },
+    "ja": {
+      "text": "I noticed the stray dog seemed 警戒心 as we approached with the food bowl.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6613,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I noticed the stray dog seemed",
+          "start_sample": 0,
+          "end_sample": 40561,
+          "start_ms": 0,
+          "end_ms": 2535
+        },
+        {
+          "lang": "ja",
+          "text": "警戒心",
+          "start_sample": 40561,
+          "end_sample": 57556,
+          "start_ms": 2535,
+          "end_ms": 3597
+        },
+        {
+          "lang": "en",
+          "text": "as we approached with the food bowl.",
+          "start_sample": 57556,
+          "end_sample": 105813,
+          "start_ms": 3597,
+          "end_ms": 6613
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 337,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

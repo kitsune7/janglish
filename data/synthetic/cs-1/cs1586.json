@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1586.flac",
+  "sentence": "彼女はmacraméの壁飾りを自分で作った。",
+  "sample_rate": 16000,
+  "duration_ms": 3497,
+  "reference_speaker": "en/speaker_034_add467545a59.mp3",
+  "seed": 1628,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は",
+      "start_sample": 0,
+      "end_sample": 6214,
+      "start_ms": 0,
+      "end_ms": 388
+    },
+    {
+      "lang": "en",
+      "text": "macramé",
+      "start_sample": 6214,
+      "end_sample": 25672,
+      "start_ms": 388,
+      "end_ms": 1604
+    },
+    {
+      "lang": "ja",
+      "text": "の壁飾りを自分で作った。",
+      "start_sample": 25672,
+      "end_sample": 55948,
+      "start_ms": 1604,
+      "end_ms": 3497
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha macramé no kabekazari wo jibun de tsukutsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5565,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 19697,
+          "start_ms": 0,
+          "end_ms": 1231
+        },
+        {
+          "lang": "en",
+          "text": "macramé",
+          "start_sample": 19697,
+          "end_sample": 39555,
+          "start_ms": 1231,
+          "end_ms": 2472
+        },
+        {
+          "lang": "ja",
+          "text": "の壁飾りを自分で作った。",
+          "start_sample": 39555,
+          "end_sample": 89040,
+          "start_ms": 2472,
+          "end_ms": 5565
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はmacraméの壁飾りを自分で作った。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2626,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 6414,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "en",
+          "text": "macramé",
+          "start_sample": 6414,
+          "end_sample": 11547,
+          "start_ms": 401,
+          "end_ms": 722
+        },
+        {
+          "lang": "ja",
+          "text": "の壁飾りを自分で作った。",
+          "start_sample": 11547,
+          "end_sample": 42023,
+          "start_ms": 722,
+          "end_ms": 2626
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

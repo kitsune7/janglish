@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2925.flac",
+  "sentence": "We watched the 陶芸 demonstration for almost an hour.",
+  "sample_rate": 16000,
+  "duration_ms": 3984,
+  "reference_speaker": "en/speaker_034_add467545a59.mp3",
+  "seed": 2967,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We watched the",
+      "start_sample": 0,
+      "end_sample": 9406,
+      "start_ms": 0,
+      "end_ms": 588
+    },
+    {
+      "lang": "ja",
+      "text": "陶芸",
+      "start_sample": 9406,
+      "end_sample": 15270,
+      "start_ms": 588,
+      "end_ms": 954
+    },
+    {
+      "lang": "en",
+      "text": "demonstration for almost an hour.",
+      "start_sample": 15270,
+      "end_sample": 63747,
+      "start_ms": 954,
+      "end_ms": 3984
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We watched the tougei demonstration for almost an hour.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4103,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We watched the",
+          "start_sample": 0,
+          "end_sample": 9606,
+          "start_ms": 0,
+          "end_ms": 600
+        },
+        {
+          "lang": "ja",
+          "text": "陶芸",
+          "start_sample": 9606,
+          "end_sample": 16972,
+          "start_ms": 600,
+          "end_ms": 1061
+        },
+        {
+          "lang": "en",
+          "text": "demonstration for almost an hour.",
+          "start_sample": 16972,
+          "end_sample": 65649,
+          "start_ms": 1061,
+          "end_ms": 4103
+        }
+      ]
+    },
+    "ja": {
+      "text": "We watched the 陶芸 demonstration for almost an hour.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3594,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We watched the",
+          "start_sample": 0,
+          "end_sample": 11886,
+          "start_ms": 0,
+          "end_ms": 743
+        },
+        {
+          "lang": "ja",
+          "text": "陶芸",
+          "start_sample": 11886,
+          "end_sample": 18150,
+          "start_ms": 743,
+          "end_ms": 1134
+        },
+        {
+          "lang": "en",
+          "text": "demonstration for almost an hour.",
+          "start_sample": 18150,
+          "end_sample": 57501,
+          "start_ms": 1134,
+          "end_ms": 3594
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 200,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3927.flac",
+  "sentence": "They went on a 二人きりの trip and came back totally different.",
+  "sample_rate": 16000,
+  "duration_ms": 3931,
+  "reference_speaker": "jp/speaker_039_c39ab9ed59f2.mp3",
+  "seed": 3969,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "They went on a",
+      "start_sample": 0,
+      "end_sample": 11510,
+      "start_ms": 0,
+      "end_ms": 719
+    },
+    {
+      "lang": "ja",
+      "text": "二人きりの",
+      "start_sample": 11510,
+      "end_sample": 24917,
+      "start_ms": 719,
+      "end_ms": 1557
+    },
+    {
+      "lang": "en",
+      "text": "trip and came back totally different.",
+      "start_sample": 24917,
+      "end_sample": 62902,
+      "start_ms": 1557,
+      "end_ms": 3931
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "They went on a futari kiri no trip and came back totally different.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5054,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "They went on a",
+          "start_sample": 0,
+          "end_sample": 11710,
+          "start_ms": 0,
+          "end_ms": 732
+        },
+        {
+          "lang": "ja",
+          "text": "二人きりの",
+          "start_sample": 11710,
+          "end_sample": 42678,
+          "start_ms": 732,
+          "end_ms": 2667
+        },
+        {
+          "lang": "en",
+          "text": "trip and came back totally different.",
+          "start_sample": 42678,
+          "end_sample": 80863,
+          "start_ms": 2667,
+          "end_ms": 5054
+        }
+      ]
+    },
+    "ja": {
+      "text": "They went on a 二人きりの trip and came back totally different.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4535,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "They went on a",
+          "start_sample": 0,
+          "end_sample": 10274,
+          "start_ms": 0,
+          "end_ms": 642
+        },
+        {
+          "lang": "ja",
+          "text": "二人きりの",
+          "start_sample": 10274,
+          "end_sample": 24081,
+          "start_ms": 642,
+          "end_ms": 1505
+        },
+        {
+          "lang": "en",
+          "text": "trip and came back totally different.",
+          "start_sample": 24081,
+          "end_sample": 72561,
+          "start_ms": 1505,
+          "end_ms": 4535
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 197,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9794.flac",
+  "sentence": "サーバーがdownになっていて、ページが表示されません。",
+  "sample_rate": 16000,
+  "duration_ms": 4104,
+  "reference_speaker": "jp/speaker_012_14fe5dfafe10.mp3",
+  "seed": 9836,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "サーバーが",
+      "start_sample": 0,
+      "end_sample": 11198,
+      "start_ms": 0,
+      "end_ms": 700
+    },
+    {
+      "lang": "en",
+      "text": "down",
+      "start_sample": 11198,
+      "end_sample": 23476,
+      "start_ms": 700,
+      "end_ms": 1467
+    },
+    {
+      "lang": "ja",
+      "text": "になっていて、ページが表示されません。",
+      "start_sample": 23476,
+      "end_sample": 65658,
+      "start_ms": 1467,
+      "end_ms": 4104
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "saabaa ga down ni natsu te i te peeji ga hyouji sa re mase n",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6078,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "サーバーが",
+          "start_sample": 0,
+          "end_sample": 7542,
+          "start_ms": 0,
+          "end_ms": 471
+        },
+        {
+          "lang": "en",
+          "text": "down",
+          "start_sample": 7542,
+          "end_sample": 20220,
+          "start_ms": 471,
+          "end_ms": 1264
+        },
+        {
+          "lang": "ja",
+          "text": "になっていて、ページが表示されません。",
+          "start_sample": 20220,
+          "end_sample": 97249,
+          "start_ms": 1264,
+          "end_ms": 6078
+        }
+      ]
+    },
+    "ja": {
+      "text": "サーバーがdownになっていて、ページが表示されません。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3753,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "サーバーが",
+          "start_sample": 0,
+          "end_sample": 11398,
+          "start_ms": 0,
+          "end_ms": 712
+        },
+        {
+          "lang": "en",
+          "text": "down",
+          "start_sample": 11398,
+          "end_sample": 17660,
+          "start_ms": 712,
+          "end_ms": 1104
+        },
+        {
+          "lang": "ja",
+          "text": "になっていて、ページが表示されません。",
+          "start_sample": 17660,
+          "end_sample": 60042,
+          "start_ms": 1104,
+          "end_ms": 3753
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 206,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

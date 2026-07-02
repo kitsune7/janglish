@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5249.flac",
+  "sentence": "彼のことがgenuinelyすきだと気づいたのは、先月のことだった。",
+  "sample_rate": 16000,
+  "duration_ms": 3108,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 5291,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼のことが",
+      "start_sample": 0,
+      "end_sample": 7500,
+      "start_ms": 0,
+      "end_ms": 469
+    },
+    {
+      "lang": "en",
+      "text": "genuinely",
+      "start_sample": 7500,
+      "end_sample": 20088,
+      "start_ms": 469,
+      "end_ms": 1256
+    },
+    {
+      "lang": "ja",
+      "text": "すきだと気づいたのは、先月のことだった。",
+      "start_sample": 20088,
+      "end_sample": 49725,
+      "start_ms": 1256,
+      "end_ms": 3108
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare no koto ga genuinely suki da to kizui ta no ha sengetsu no koto datsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8840,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼のことが",
+          "start_sample": 0,
+          "end_sample": 38646,
+          "start_ms": 0,
+          "end_ms": 2415
+        },
+        {
+          "lang": "en",
+          "text": "genuinely",
+          "start_sample": 38646,
+          "end_sample": 51634,
+          "start_ms": 2415,
+          "end_ms": 3227
+        },
+        {
+          "lang": "ja",
+          "text": "すきだと気づいたのは、先月のことだった。",
+          "start_sample": 51634,
+          "end_sample": 141433,
+          "start_ms": 3227,
+          "end_ms": 8840
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼のことがgenuinelyすきだと気づいたのは、先月のことだった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2867,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼のことが",
+          "start_sample": 0,
+          "end_sample": 7700,
+          "start_ms": 0,
+          "end_ms": 481
+        },
+        {
+          "lang": "en",
+          "text": "genuinely",
+          "start_sample": 7700,
+          "end_sample": 16042,
+          "start_ms": 481,
+          "end_ms": 1003
+        },
+        {
+          "lang": "ja",
+          "text": "すきだと気づいたのは、先月のことだった。",
+          "start_sample": 16042,
+          "end_sample": 45879,
+          "start_ms": 1003,
+          "end_ms": 2867
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 156,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

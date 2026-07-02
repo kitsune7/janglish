@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3912.flac",
+  "sentence": "Did she ever give you a clear 答え about how she feels?",
+  "sample_rate": 16000,
+  "duration_ms": 3194,
+  "reference_speaker": "en/speaker_067_3f15e2fece31.mp3",
+  "seed": 3954,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Did she ever give you a clear",
+      "start_sample": 0,
+      "end_sample": 22469,
+      "start_ms": 0,
+      "end_ms": 1404
+    },
+    {
+      "lang": "ja",
+      "text": "答え",
+      "start_sample": 22469,
+      "end_sample": 31050,
+      "start_ms": 1404,
+      "end_ms": 1941
+    },
+    {
+      "lang": "en",
+      "text": "about how she feels?",
+      "start_sample": 31050,
+      "end_sample": 51105,
+      "start_ms": 1941,
+      "end_ms": 3194
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Did she ever give you a clear kotae about how she feels?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3215,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did she ever give you a clear",
+          "start_sample": 0,
+          "end_sample": 22669,
+          "start_ms": 0,
+          "end_ms": 1417
+        },
+        {
+          "lang": "ja",
+          "text": "答え",
+          "start_sample": 22669,
+          "end_sample": 31190,
+          "start_ms": 1417,
+          "end_ms": 1949
+        },
+        {
+          "lang": "en",
+          "text": "about how she feels?",
+          "start_sample": 31190,
+          "end_sample": 51445,
+          "start_ms": 1949,
+          "end_ms": 3215
+        }
+      ]
+    },
+    "ja": {
+      "text": "Did she ever give you a clear 答え about how she feels?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3909,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did she ever give you a clear",
+          "start_sample": 0,
+          "end_sample": 31433,
+          "start_ms": 0,
+          "end_ms": 1965
+        },
+        {
+          "lang": "ja",
+          "text": "答え",
+          "start_sample": 31433,
+          "end_sample": 40414,
+          "start_ms": 1965,
+          "end_ms": 2526
+        },
+        {
+          "lang": "en",
+          "text": "about how she feels?",
+          "start_sample": 40414,
+          "end_sample": 62543,
+          "start_ms": 2526,
+          "end_ms": 3909
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

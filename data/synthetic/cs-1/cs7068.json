@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7068.flac",
+  "sentence": "The 精神科 referral took longer to come through than the GP expected.",
+  "sample_rate": 16000,
+  "duration_ms": 4725,
+  "reference_speaker": "en/speaker_055_a1e62e8e91e0.mp3",
+  "seed": 7110,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1565,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "精神科",
+      "start_sample": 1565,
+      "end_sample": 12220,
+      "start_ms": 98,
+      "end_ms": 764
+    },
+    {
+      "lang": "en",
+      "text": "referral took longer to come through than the GP expected.",
+      "start_sample": 12220,
+      "end_sample": 75601,
+      "start_ms": 764,
+      "end_ms": 4725
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The seishin ka referral took longer to come through than the GP expected.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4837,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1765,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "精神科",
+          "start_sample": 1765,
+          "end_sample": 13808,
+          "start_ms": 110,
+          "end_ms": 863
+        },
+        {
+          "lang": "en",
+          "text": "referral took longer to come through than the GP expected.",
+          "start_sample": 13808,
+          "end_sample": 77389,
+          "start_ms": 863,
+          "end_ms": 4837
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 精神科 referral took longer to come through than the GP expected.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5708,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2082,
+          "start_ms": 0,
+          "end_ms": 130
+        },
+        {
+          "lang": "ja",
+          "text": "精神科",
+          "start_sample": 2082,
+          "end_sample": 13137,
+          "start_ms": 130,
+          "end_ms": 821
+        },
+        {
+          "lang": "en",
+          "text": "referral took longer to come through than the GP expected.",
+          "start_sample": 13137,
+          "end_sample": 91322,
+          "start_ms": 821,
+          "end_ms": 5708
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 237,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

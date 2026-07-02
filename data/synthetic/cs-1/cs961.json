@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs961.flac",
+  "sentence": "このcreamyなスープは寒い日にぴったりです。",
+  "sample_rate": 16000,
+  "duration_ms": 3433,
+  "reference_speaker": "jp/speaker_058_a8a05baeecbd.mp3",
+  "seed": 1003,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 4936,
+      "start_ms": 0,
+      "end_ms": 308
+    },
+    {
+      "lang": "en",
+      "text": "creamy",
+      "start_sample": 4936,
+      "end_sample": 11117,
+      "start_ms": 308,
+      "end_ms": 695
+    },
+    {
+      "lang": "ja",
+      "text": "なスープは寒い日にぴったりです。",
+      "start_sample": 11117,
+      "end_sample": 54926,
+      "start_ms": 695,
+      "end_ms": 3433
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono creamy na suupu ha samui nichi ni pittari desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6019,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5938,
+          "start_ms": 0,
+          "end_ms": 371
+        },
+        {
+          "lang": "en",
+          "text": "creamy",
+          "start_sample": 5938,
+          "end_sample": 12519,
+          "start_ms": 371,
+          "end_ms": 782
+        },
+        {
+          "lang": "ja",
+          "text": "なスープは寒い日にぴったりです。",
+          "start_sample": 12519,
+          "end_sample": 96297,
+          "start_ms": 782,
+          "end_ms": 6019
+        }
+      ]
+    },
+    "ja": {
+      "text": "このcreamyなスープは寒い日にぴったりです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3533,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5136,
+          "start_ms": 0,
+          "end_ms": 321
+        },
+        {
+          "lang": "en",
+          "text": "creamy",
+          "start_sample": 5136,
+          "end_sample": 12525,
+          "start_ms": 321,
+          "end_ms": 783
+        },
+        {
+          "lang": "ja",
+          "text": "なスープは寒い日にぴったりです。",
+          "start_sample": 12525,
+          "end_sample": 56534,
+          "start_ms": 783,
+          "end_ms": 3533
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 172,
+  "frame_labels": "jjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

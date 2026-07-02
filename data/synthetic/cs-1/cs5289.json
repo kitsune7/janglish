@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5289.flac",
+  "sentence": "水槽の魚たちは colorful で、部屋がぱっと明るくなります。",
+  "sample_rate": 16000,
+  "duration_ms": 4805,
+  "reference_speaker": "jp/speaker_092_08c69e35de07.mp3",
+  "seed": 5331,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "水槽の魚たちは",
+      "start_sample": 0,
+      "end_sample": 28210,
+      "start_ms": 0,
+      "end_ms": 1763
+    },
+    {
+      "lang": "en",
+      "text": "colorful",
+      "start_sample": 28210,
+      "end_sample": 37915,
+      "start_ms": 1763,
+      "end_ms": 2370
+    },
+    {
+      "lang": "ja",
+      "text": "で、部屋がぱっと明るくなります。",
+      "start_sample": 37915,
+      "end_sample": 76881,
+      "start_ms": 2370,
+      "end_ms": 4805
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "suisou no sakana tachi ha colorful de heya ga patsu to akaruku nari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8581,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "水槽の魚たちは",
+          "start_sample": 0,
+          "end_sample": 62550,
+          "start_ms": 0,
+          "end_ms": 3909
+        },
+        {
+          "lang": "en",
+          "text": "colorful",
+          "start_sample": 62550,
+          "end_sample": 72655,
+          "start_ms": 3909,
+          "end_ms": 4541
+        },
+        {
+          "lang": "ja",
+          "text": "で、部屋がぱっと明るくなります。",
+          "start_sample": 72655,
+          "end_sample": 137289,
+          "start_ms": 4541,
+          "end_ms": 8581
+        }
+      ]
+    },
+    "ja": {
+      "text": "水槽の魚たちは colorful で、部屋がぱっと明るくなります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4916,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "水槽の魚たちは",
+          "start_sample": 0,
+          "end_sample": 28410,
+          "start_ms": 0,
+          "end_ms": 1776
+        },
+        {
+          "lang": "en",
+          "text": "colorful",
+          "start_sample": 28410,
+          "end_sample": 39487,
+          "start_ms": 1776,
+          "end_ms": 2468
+        },
+        {
+          "lang": "ja",
+          "text": "で、部屋がぱっと明るくなります。",
+          "start_sample": 39487,
+          "end_sample": 78653,
+          "start_ms": 2468,
+          "end_ms": 4916
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 241,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6118.flac",
+  "sentence": "I find the 静けさ of working from home far more productive than open offices.",
+  "sample_rate": 16000,
+  "duration_ms": 6241,
+  "reference_speaker": "en/speaker_067_3f15e2fece31.mp3",
+  "seed": 6160,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I find the",
+      "start_sample": 0,
+      "end_sample": 11998,
+      "start_ms": 0,
+      "end_ms": 750
+    },
+    {
+      "lang": "ja",
+      "text": "静けさ",
+      "start_sample": 11998,
+      "end_sample": 27646,
+      "start_ms": 750,
+      "end_ms": 1728
+    },
+    {
+      "lang": "en",
+      "text": "of working from home far more productive than open offices.",
+      "start_sample": 27646,
+      "end_sample": 99850,
+      "start_ms": 1728,
+      "end_ms": 6241
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I find the shizukesa of working from home far more productive than open offices.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6100,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I find the",
+          "start_sample": 0,
+          "end_sample": 12198,
+          "start_ms": 0,
+          "end_ms": 762
+        },
+        {
+          "lang": "ja",
+          "text": "静けさ",
+          "start_sample": 12198,
+          "end_sample": 25202,
+          "start_ms": 762,
+          "end_ms": 1575
+        },
+        {
+          "lang": "en",
+          "text": "of working from home far more productive than open offices.",
+          "start_sample": 25202,
+          "end_sample": 97606,
+          "start_ms": 1575,
+          "end_ms": 6100
+        }
+      ]
+    },
+    "ja": {
+      "text": "I find the 静けさ of working from home far more productive than open offices.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6479,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I find the",
+          "start_sample": 0,
+          "end_sample": 8344,
+          "start_ms": 0,
+          "end_ms": 522
+        },
+        {
+          "lang": "ja",
+          "text": "静けさ",
+          "start_sample": 8344,
+          "end_sample": 24392,
+          "start_ms": 522,
+          "end_ms": 1524
+        },
+        {
+          "lang": "en",
+          "text": "of working from home far more productive than open offices.",
+          "start_sample": 24392,
+          "end_sample": 103665,
+          "start_ms": 1524,
+          "end_ms": 6479
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 313,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

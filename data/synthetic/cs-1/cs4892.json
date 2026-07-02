@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4892.flac",
+  "sentence": "ゲームのpatchが来て、バグがほとんど直った。",
+  "sample_rate": 16000,
+  "duration_ms": 2661,
+  "reference_speaker": "jp/speaker_043_1ef414c9abc5.mp3",
+  "seed": 4934,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "ゲームの",
+      "start_sample": 0,
+      "end_sample": 7351,
+      "start_ms": 0,
+      "end_ms": 459
+    },
+    {
+      "lang": "en",
+      "text": "patch",
+      "start_sample": 7351,
+      "end_sample": 12880,
+      "start_ms": 459,
+      "end_ms": 805
+    },
+    {
+      "lang": "ja",
+      "text": "が来て、バグがほとんど直った。",
+      "start_sample": 12880,
+      "end_sample": 42577,
+      "start_ms": 805,
+      "end_ms": 2661
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "geemu no patch ga rai te bagu ga hotondo naotsutsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6410,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ゲームの",
+          "start_sample": 0,
+          "end_sample": 28844,
+          "start_ms": 0,
+          "end_ms": 1803
+        },
+        {
+          "lang": "en",
+          "text": "patch",
+          "start_sample": 28844,
+          "end_sample": 34773,
+          "start_ms": 1803,
+          "end_ms": 2173
+        },
+        {
+          "lang": "ja",
+          "text": "が来て、バグがほとんど直った。",
+          "start_sample": 34773,
+          "end_sample": 102560,
+          "start_ms": 2173,
+          "end_ms": 6410
+        }
+      ]
+    },
+    "ja": {
+      "text": "ゲームのpatchが来て、バグがほとんど直った。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2672,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ゲームの",
+          "start_sample": 0,
+          "end_sample": 7551,
+          "start_ms": 0,
+          "end_ms": 472
+        },
+        {
+          "lang": "en",
+          "text": "patch",
+          "start_sample": 7551,
+          "end_sample": 12857,
+          "start_ms": 472,
+          "end_ms": 804
+        },
+        {
+          "lang": "ja",
+          "text": "が来て、バグがほとんど直った。",
+          "start_sample": 12857,
+          "end_sample": 42754,
+          "start_ms": 804,
+          "end_ms": 2672
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 134,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

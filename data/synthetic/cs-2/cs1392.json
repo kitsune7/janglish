@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs1392.flac",
+  "sentence": "She preferred the 端 seat by the wall so she could observe the whole 空間 without interruption.",
+  "sample_rate": 16000,
+  "duration_ms": 6388,
+  "reference_speaker": "en/speaker_063_66f0ab0f5d48.mp3",
+  "seed": 18247,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She preferred the",
+      "start_sample": 0,
+      "end_sample": 10717,
+      "start_ms": 0,
+      "end_ms": 670
+    },
+    {
+      "lang": "ja",
+      "text": "端",
+      "start_sample": 10717,
+      "end_sample": 19926,
+      "start_ms": 670,
+      "end_ms": 1245
+    },
+    {
+      "lang": "en",
+      "text": "seat by the wall so she could observe the whole",
+      "start_sample": 19926,
+      "end_sample": 65764,
+      "start_ms": 1245,
+      "end_ms": 4110
+    },
+    {
+      "lang": "ja",
+      "text": "空間",
+      "start_sample": 65764,
+      "end_sample": 81537,
+      "start_ms": 4110,
+      "end_ms": 5096
+    },
+    {
+      "lang": "en",
+      "text": "without interruption.",
+      "start_sample": 81537,
+      "end_sample": 102205,
+      "start_ms": 5096,
+      "end_ms": 6388
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She preferred the haji seat by the wall so she could observe the whole kuukan without interruption.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6080,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She preferred the",
+          "start_sample": 0,
+          "end_sample": 10917,
+          "start_ms": 0,
+          "end_ms": 682
+        },
+        {
+          "lang": "ja",
+          "text": "端",
+          "start_sample": 10917,
+          "end_sample": 17017,
+          "start_ms": 682,
+          "end_ms": 1064
+        },
+        {
+          "lang": "en",
+          "text": "seat by the wall so she could observe the whole",
+          "start_sample": 17017,
+          "end_sample": 63255,
+          "start_ms": 1064,
+          "end_ms": 3953
+        },
+        {
+          "lang": "ja",
+          "text": "空間",
+          "start_sample": 63255,
+          "end_sample": 76419,
+          "start_ms": 3953,
+          "end_ms": 4776
+        },
+        {
+          "lang": "en",
+          "text": "without interruption.",
+          "start_sample": 76419,
+          "end_sample": 97287,
+          "start_ms": 4776,
+          "end_ms": 6080
+        }
+      ]
+    },
+    "ja": {
+      "text": "She preferred the 端 seat by the wall so she could observe the whole 空間 without interruption.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 12310,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She preferred the",
+          "start_sample": 0,
+          "end_sample": 43236,
+          "start_ms": 0,
+          "end_ms": 2702
+        },
+        {
+          "lang": "ja",
+          "text": "端",
+          "start_sample": 43236,
+          "end_sample": 52845,
+          "start_ms": 2702,
+          "end_ms": 3303
+        },
+        {
+          "lang": "en",
+          "text": "seat by the wall so she could observe the whole",
+          "start_sample": 52845,
+          "end_sample": 152290,
+          "start_ms": 3303,
+          "end_ms": 9518
+        },
+        {
+          "lang": "ja",
+          "text": "空間",
+          "start_sample": 152290,
+          "end_sample": 168463,
+          "start_ms": 9518,
+          "end_ms": 10529
+        },
+        {
+          "lang": "en",
+          "text": "without interruption.",
+          "start_sample": 168463,
+          "end_sample": 196967,
+          "start_ms": 10529,
+          "end_ms": 12310
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 320,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6652.flac",
+  "sentence": "The portions here are 少なめ, so I usually order two dishes.",
+  "sample_rate": 16000,
+  "duration_ms": 3889,
+  "reference_speaker": "en/speaker_054_103b0eb5778e.mp3",
+  "seed": 6694,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The portions here are",
+      "start_sample": 0,
+      "end_sample": 18720,
+      "start_ms": 0,
+      "end_ms": 1170
+    },
+    {
+      "lang": "ja",
+      "text": "少なめ,",
+      "start_sample": 18720,
+      "end_sample": 29869,
+      "start_ms": 1170,
+      "end_ms": 1867
+    },
+    {
+      "lang": "en",
+      "text": "so I usually order two dishes.",
+      "start_sample": 29869,
+      "end_sample": 62217,
+      "start_ms": 1867,
+      "end_ms": 3889
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The portions here are sukuname so I usually order two dishes.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4189,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The portions here are",
+          "start_sample": 0,
+          "end_sample": 18920,
+          "start_ms": 0,
+          "end_ms": 1182
+        },
+        {
+          "lang": "ja",
+          "text": "少なめ,",
+          "start_sample": 18920,
+          "end_sample": 34474,
+          "start_ms": 1182,
+          "end_ms": 2155
+        },
+        {
+          "lang": "en",
+          "text": "so I usually order two dishes.",
+          "start_sample": 34474,
+          "end_sample": 67022,
+          "start_ms": 2155,
+          "end_ms": 4189
+        }
+      ]
+    },
+    "ja": {
+      "text": "The portions here are 少なめ, so I usually order two dishes.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5333,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The portions here are",
+          "start_sample": 0,
+          "end_sample": 26465,
+          "start_ms": 0,
+          "end_ms": 1654
+        },
+        {
+          "lang": "ja",
+          "text": "少なめ,",
+          "start_sample": 26465,
+          "end_sample": 38014,
+          "start_ms": 1654,
+          "end_ms": 2376
+        },
+        {
+          "lang": "en",
+          "text": "so I usually order two dishes.",
+          "start_sample": 38014,
+          "end_sample": 85330,
+          "start_ms": 2376,
+          "end_ms": 5333
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 195,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

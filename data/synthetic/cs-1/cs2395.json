@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2395.flac",
+  "sentence": "先週のgameで足を痛めてしまったので、今週は休んでいる。",
+  "sample_rate": 16000,
+  "duration_ms": 4390,
+  "reference_speaker": "jp/speaker_060_dda9a032fd63.mp3",
+  "seed": 2437,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "先週の",
+      "start_sample": 0,
+      "end_sample": 7497,
+      "start_ms": 0,
+      "end_ms": 469
+    },
+    {
+      "lang": "en",
+      "text": "game",
+      "start_sample": 7497,
+      "end_sample": 20878,
+      "start_ms": 469,
+      "end_ms": 1305
+    },
+    {
+      "lang": "ja",
+      "text": "で足を痛めてしまったので、今週は休んでいる。",
+      "start_sample": 20878,
+      "end_sample": 70232,
+      "start_ms": 1305,
+      "end_ms": 4390
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "senshuu no game de ashi wo itame te shimatsu ta no de konshuu ha yasun de iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6870,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先週の",
+          "start_sample": 0,
+          "end_sample": 8172,
+          "start_ms": 0,
+          "end_ms": 511
+        },
+        {
+          "lang": "en",
+          "text": "game",
+          "start_sample": 8172,
+          "end_sample": 21953,
+          "start_ms": 511,
+          "end_ms": 1372
+        },
+        {
+          "lang": "ja",
+          "text": "で足を痛めてしまったので、今週は休んでいる。",
+          "start_sample": 21953,
+          "end_sample": 109925,
+          "start_ms": 1372,
+          "end_ms": 6870
+        }
+      ]
+    },
+    "ja": {
+      "text": "先週のgameで足を痛めてしまったので、今週は休んでいる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3849,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先週の",
+          "start_sample": 0,
+          "end_sample": 7697,
+          "start_ms": 0,
+          "end_ms": 481
+        },
+        {
+          "lang": "en",
+          "text": "game",
+          "start_sample": 7697,
+          "end_sample": 12027,
+          "start_ms": 481,
+          "end_ms": 752
+        },
+        {
+          "lang": "ja",
+          "text": "で足を痛めてしまったので、今週は休んでいる。",
+          "start_sample": 12027,
+          "end_sample": 61581,
+          "start_ms": 752,
+          "end_ms": 3849
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 220,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

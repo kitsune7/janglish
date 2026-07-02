@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2892.flac",
+  "sentence": "He's been 連続 winning ranked matches all afternoon without a single loss.",
+  "sample_rate": 16000,
+  "duration_ms": 5275,
+  "reference_speaker": "jp/speaker_023_d9597f21cb60.mp3",
+  "seed": 2934,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He's been",
+      "start_sample": 0,
+      "end_sample": 6526,
+      "start_ms": 0,
+      "end_ms": 408
+    },
+    {
+      "lang": "ja",
+      "text": "連続",
+      "start_sample": 6526,
+      "end_sample": 13813,
+      "start_ms": 408,
+      "end_ms": 863
+    },
+    {
+      "lang": "en",
+      "text": "winning ranked matches all afternoon without a single loss.",
+      "start_sample": 13813,
+      "end_sample": 84402,
+      "start_ms": 863,
+      "end_ms": 5275
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He's been renzoku winning ranked matches all afternoon without a single loss.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5445,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He's been",
+          "start_sample": 0,
+          "end_sample": 6726,
+          "start_ms": 0,
+          "end_ms": 420
+        },
+        {
+          "lang": "ja",
+          "text": "連続",
+          "start_sample": 6726,
+          "end_sample": 16335,
+          "start_ms": 420,
+          "end_ms": 1021
+        },
+        {
+          "lang": "en",
+          "text": "winning ranked matches all afternoon without a single loss.",
+          "start_sample": 16335,
+          "end_sample": 87124,
+          "start_ms": 1021,
+          "end_ms": 5445
+        }
+      ]
+    },
+    "ja": {
+      "text": "He's been 連続 winning ranked matches all afternoon without a single loss.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5565,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He's been",
+          "start_sample": 0,
+          "end_sample": 8807,
+          "start_ms": 0,
+          "end_ms": 550
+        },
+        {
+          "lang": "ja",
+          "text": "連続",
+          "start_sample": 8807,
+          "end_sample": 16494,
+          "start_ms": 550,
+          "end_ms": 1031
+        },
+        {
+          "lang": "en",
+          "text": "winning ranked matches all afternoon without a single loss.",
+          "start_sample": 16494,
+          "end_sample": 89040,
+          "start_ms": 1031,
+          "end_ms": 5565
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 264,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

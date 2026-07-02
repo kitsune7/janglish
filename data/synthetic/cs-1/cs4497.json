@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4497.flac",
+  "sentence": "通知をsilentに設定したから、電話に気づかなかった。",
+  "sample_rate": 16000,
+  "duration_ms": 3745,
+  "reference_speaker": "jp/speaker_055_b88f2897e0f4.mp3",
+  "seed": 4539,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "通知を",
+      "start_sample": 0,
+      "end_sample": 6395,
+      "start_ms": 0,
+      "end_ms": 400
+    },
+    {
+      "lang": "en",
+      "text": "silent",
+      "start_sample": 6395,
+      "end_sample": 25367,
+      "start_ms": 400,
+      "end_ms": 1585
+    },
+    {
+      "lang": "ja",
+      "text": "に設定したから、電話に気づかなかった。",
+      "start_sample": 25367,
+      "end_sample": 59913,
+      "start_ms": 1585,
+      "end_ms": 3745
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "tsuuchi wo silent ni settei shi ta kara denwa ni kizuka nakatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8165,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "通知を",
+          "start_sample": 0,
+          "end_sample": 23054,
+          "start_ms": 0,
+          "end_ms": 1441
+        },
+        {
+          "lang": "en",
+          "text": "silent",
+          "start_sample": 23054,
+          "end_sample": 42426,
+          "start_ms": 1441,
+          "end_ms": 2652
+        },
+        {
+          "lang": "ja",
+          "text": "に設定したから、電話に気づかなかった。",
+          "start_sample": 42426,
+          "end_sample": 130641,
+          "start_ms": 2652,
+          "end_ms": 8165
+        }
+      ]
+    },
+    "ja": {
+      "text": "通知をsilentに設定したから、電話に気づかなかった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3036,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "通知を",
+          "start_sample": 0,
+          "end_sample": 6595,
+          "start_ms": 0,
+          "end_ms": 412
+        },
+        {
+          "lang": "en",
+          "text": "silent",
+          "start_sample": 6595,
+          "end_sample": 13835,
+          "start_ms": 412,
+          "end_ms": 865
+        },
+        {
+          "lang": "ja",
+          "text": "に設定したから、電話に気づかなかった。",
+          "start_sample": 13835,
+          "end_sample": 48581,
+          "start_ms": 865,
+          "end_ms": 3036
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

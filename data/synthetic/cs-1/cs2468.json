@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2468.flac",
+  "sentence": "今学期はscheduleがとても詰まっています。",
+  "sample_rate": 16000,
+  "duration_ms": 2923,
+  "reference_speaker": "jp/speaker_059_4c496a210b8b.mp3",
+  "seed": 2510,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今学期は",
+      "start_sample": 0,
+      "end_sample": 10265,
+      "start_ms": 0,
+      "end_ms": 642
+    },
+    {
+      "lang": "en",
+      "text": "schedule",
+      "start_sample": 10265,
+      "end_sample": 25081,
+      "start_ms": 642,
+      "end_ms": 1568
+    },
+    {
+      "lang": "ja",
+      "text": "がとても詰まっています。",
+      "start_sample": 25081,
+      "end_sample": 46772,
+      "start_ms": 1568,
+      "end_ms": 2923
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ima gakki ha schedule ga totemo tsumatsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6948,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今学期は",
+          "start_sample": 0,
+          "end_sample": 31234,
+          "start_ms": 0,
+          "end_ms": 1952
+        },
+        {
+          "lang": "en",
+          "text": "schedule",
+          "start_sample": 31234,
+          "end_sample": 46450,
+          "start_ms": 1952,
+          "end_ms": 2903
+        },
+        {
+          "lang": "ja",
+          "text": "がとても詰まっています。",
+          "start_sample": 46450,
+          "end_sample": 111160,
+          "start_ms": 2903,
+          "end_ms": 6948
+        }
+      ]
+    },
+    "ja": {
+      "text": "今学期はscheduleがとても詰まっています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2616,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今学期は",
+          "start_sample": 0,
+          "end_sample": 10465,
+          "start_ms": 0,
+          "end_ms": 654
+        },
+        {
+          "lang": "en",
+          "text": "schedule",
+          "start_sample": 10465,
+          "end_sample": 19964,
+          "start_ms": 654,
+          "end_ms": 1248
+        },
+        {
+          "lang": "ja",
+          "text": "がとても詰まっています。",
+          "start_sample": 19964,
+          "end_sample": 41855,
+          "start_ms": 1248,
+          "end_ms": 2616
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 147,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

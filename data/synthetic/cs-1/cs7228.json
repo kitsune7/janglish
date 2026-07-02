@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7228.flac",
+  "sentence": "The 草原 beyond the fence is full of wildflowers this time of year.",
+  "sample_rate": 16000,
+  "duration_ms": 3662,
+  "reference_speaker": "jp/speaker_007_69caf5c5275d.mp3",
+  "seed": 7270,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1564,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "草原",
+      "start_sample": 1564,
+      "end_sample": 10003,
+      "start_ms": 98,
+      "end_ms": 625
+    },
+    {
+      "lang": "en",
+      "text": "beyond the fence is full of wildflowers this time of year.",
+      "start_sample": 10003,
+      "end_sample": 58588,
+      "start_ms": 625,
+      "end_ms": 3662
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The sougen beyond the fence is full of wildflowers this time of year.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3611,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1764,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "草原",
+          "start_sample": 1764,
+          "end_sample": 8986,
+          "start_ms": 110,
+          "end_ms": 562
+        },
+        {
+          "lang": "en",
+          "text": "beyond the fence is full of wildflowers this time of year.",
+          "start_sample": 8986,
+          "end_sample": 57771,
+          "start_ms": 562,
+          "end_ms": 3611
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 草原 beyond the fence is full of wildflowers this time of year.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4660,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4495,
+          "start_ms": 0,
+          "end_ms": 281
+        },
+        {
+          "lang": "ja",
+          "text": "草原",
+          "start_sample": 4495,
+          "end_sample": 13334,
+          "start_ms": 281,
+          "end_ms": 833
+        },
+        {
+          "lang": "en",
+          "text": "beyond the fence is full of wildflowers this time of year.",
+          "start_sample": 13334,
+          "end_sample": 74561,
+          "start_ms": 833,
+          "end_ms": 4660
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 184,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

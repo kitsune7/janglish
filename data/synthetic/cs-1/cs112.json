@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs112.flac",
+  "sentence": "She borrowed three 図書館 books and hasn't returned any of them.",
+  "sample_rate": 16000,
+  "duration_ms": 4064,
+  "reference_speaker": "en/speaker_070_eb9077114ebd.mp3",
+  "seed": 154,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She borrowed three",
+      "start_sample": 0,
+      "end_sample": 13445,
+      "start_ms": 0,
+      "end_ms": 840
+    },
+    {
+      "lang": "ja",
+      "text": "図書館",
+      "start_sample": 13445,
+      "end_sample": 23320,
+      "start_ms": 840,
+      "end_ms": 1458
+    },
+    {
+      "lang": "en",
+      "text": "books and hasn't returned any of them.",
+      "start_sample": 23320,
+      "end_sample": 65019,
+      "start_ms": 1458,
+      "end_ms": 4064
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She borrowed three tosho kan books and hasn't returned any of them.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4354,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She borrowed three",
+          "start_sample": 0,
+          "end_sample": 13645,
+          "start_ms": 0,
+          "end_ms": 853
+        },
+        {
+          "lang": "ja",
+          "text": "図書館",
+          "start_sample": 13645,
+          "end_sample": 27773,
+          "start_ms": 853,
+          "end_ms": 1736
+        },
+        {
+          "lang": "en",
+          "text": "books and hasn't returned any of them.",
+          "start_sample": 27773,
+          "end_sample": 69672,
+          "start_ms": 1736,
+          "end_ms": 4354
+        }
+      ]
+    },
+    "ja": {
+      "text": "She borrowed three 図書館 books and hasn't returned any of them.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4635,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She borrowed three",
+          "start_sample": 0,
+          "end_sample": 20546,
+          "start_ms": 0,
+          "end_ms": 1284
+        },
+        {
+          "lang": "ja",
+          "text": "図書館",
+          "start_sample": 20546,
+          "end_sample": 30821,
+          "start_ms": 1284,
+          "end_ms": 1926
+        },
+        {
+          "lang": "en",
+          "text": "books and hasn't returned any of them.",
+          "start_sample": 30821,
+          "end_sample": 74166,
+          "start_ms": 1926,
+          "end_ms": 4635
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

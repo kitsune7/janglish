@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs1443.flac",
+  "sentence": "The seamstress worked with quiet 集中 to finish the 細工 along the neckline.",
+  "sample_rate": 16000,
+  "duration_ms": 3969,
+  "reference_speaker": "en/speaker_073_3c0d9d6a3b88.mp3",
+  "seed": 18298,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The seamstress worked with quiet",
+      "start_sample": 0,
+      "end_sample": 25857,
+      "start_ms": 0,
+      "end_ms": 1616
+    },
+    {
+      "lang": "ja",
+      "text": "集中",
+      "start_sample": 25857,
+      "end_sample": 33001,
+      "start_ms": 1616,
+      "end_ms": 2063
+    },
+    {
+      "lang": "en",
+      "text": "to finish the",
+      "start_sample": 33001,
+      "end_sample": 41608,
+      "start_ms": 2063,
+      "end_ms": 2600
+    },
+    {
+      "lang": "ja",
+      "text": "細工",
+      "start_sample": 41608,
+      "end_sample": 48592,
+      "start_ms": 2600,
+      "end_ms": 3037
+    },
+    {
+      "lang": "en",
+      "text": "along the neckline.",
+      "start_sample": 48592,
+      "end_sample": 63507,
+      "start_ms": 3037,
+      "end_ms": 3969
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The seamstress worked with quiet shuuchuu to finish the saiku along the neckline.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4001,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The seamstress worked with quiet",
+          "start_sample": 0,
+          "end_sample": 26057,
+          "start_ms": 0,
+          "end_ms": 1629
+        },
+        {
+          "lang": "ja",
+          "text": "集中",
+          "start_sample": 26057,
+          "end_sample": 33295,
+          "start_ms": 1629,
+          "end_ms": 2081
+        },
+        {
+          "lang": "en",
+          "text": "to finish the",
+          "start_sample": 33295,
+          "end_sample": 42302,
+          "start_ms": 2081,
+          "end_ms": 2644
+        },
+        {
+          "lang": "ja",
+          "text": "細工",
+          "start_sample": 42302,
+          "end_sample": 48898,
+          "start_ms": 2644,
+          "end_ms": 3056
+        },
+        {
+          "lang": "en",
+          "text": "along the neckline.",
+          "start_sample": 48898,
+          "end_sample": 64013,
+          "start_ms": 3056,
+          "end_ms": 4001
+        }
+      ]
+    },
+    "ja": {
+      "text": "The seamstress worked with quiet 集中 to finish the 細工 along the neckline.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5117,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The seamstress worked with quiet",
+          "start_sample": 0,
+          "end_sample": 37885,
+          "start_ms": 0,
+          "end_ms": 2368
+        },
+        {
+          "lang": "ja",
+          "text": "集中",
+          "start_sample": 37885,
+          "end_sample": 45429,
+          "start_ms": 2368,
+          "end_ms": 2839
+        },
+        {
+          "lang": "en",
+          "text": "to finish the",
+          "start_sample": 45429,
+          "end_sample": 59235,
+          "start_ms": 2839,
+          "end_ms": 3702
+        },
+        {
+          "lang": "ja",
+          "text": "細工",
+          "start_sample": 59235,
+          "end_sample": 66619,
+          "start_ms": 3702,
+          "end_ms": 4164
+        },
+        {
+          "lang": "en",
+          "text": "along the neckline.",
+          "start_sample": 66619,
+          "end_sample": 81867,
+          "start_ms": 4164,
+          "end_ms": 5117
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 199,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

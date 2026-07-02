@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8534.flac",
+  "sentence": "このパズルはincredibly難しくて、一週間かかりました。",
+  "sample_rate": 16000,
+  "duration_ms": 4585,
+  "reference_speaker": "en/speaker_035_aa6a3aa058c0.mp3",
+  "seed": 8576,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このパズルは",
+      "start_sample": 0,
+      "end_sample": 16651,
+      "start_ms": 0,
+      "end_ms": 1041
+    },
+    {
+      "lang": "en",
+      "text": "incredibly",
+      "start_sample": 16651,
+      "end_sample": 32797,
+      "start_ms": 1041,
+      "end_ms": 2050
+    },
+    {
+      "lang": "ja",
+      "text": "難しくて、一週間かかりました。",
+      "start_sample": 32797,
+      "end_sample": 73366,
+      "start_ms": 2050,
+      "end_ms": 4585
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono pazuru ha incredibly muzukashiku te ichi shuukan kakari mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5783,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このパズルは",
+          "start_sample": 0,
+          "end_sample": 15582,
+          "start_ms": 0,
+          "end_ms": 974
+        },
+        {
+          "lang": "en",
+          "text": "incredibly",
+          "start_sample": 15582,
+          "end_sample": 32128,
+          "start_ms": 974,
+          "end_ms": 2008
+        },
+        {
+          "lang": "ja",
+          "text": "難しくて、一週間かかりました。",
+          "start_sample": 32128,
+          "end_sample": 92527,
+          "start_ms": 2008,
+          "end_ms": 5783
+        }
+      ]
+    },
+    "ja": {
+      "text": "このパズルはincredibly難しくて、一週間かかりました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4715,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このパズルは",
+          "start_sample": 0,
+          "end_sample": 16851,
+          "start_ms": 0,
+          "end_ms": 1053
+        },
+        {
+          "lang": "en",
+          "text": "incredibly",
+          "start_sample": 16851,
+          "end_sample": 34668,
+          "start_ms": 1053,
+          "end_ms": 2167
+        },
+        {
+          "lang": "ja",
+          "text": "難しくて、一週間かかりました。",
+          "start_sample": 34668,
+          "end_sample": 75437,
+          "start_ms": 2167,
+          "end_ms": 4715
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 230,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

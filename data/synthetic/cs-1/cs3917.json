@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3917.flac",
+  "sentence": "Their long-distance 恋愛 somehow lasted four whole years.",
+  "sample_rate": 16000,
+  "duration_ms": 4905,
+  "reference_speaker": "en/speaker_052_622e6181fea2.mp3",
+  "seed": 3959,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Their long-distance",
+      "start_sample": 0,
+      "end_sample": 20335,
+      "start_ms": 0,
+      "end_ms": 1271
+    },
+    {
+      "lang": "ja",
+      "text": "恋愛",
+      "start_sample": 20335,
+      "end_sample": 27817,
+      "start_ms": 1271,
+      "end_ms": 1739
+    },
+    {
+      "lang": "en",
+      "text": "somehow lasted four whole years.",
+      "start_sample": 27817,
+      "end_sample": 78478,
+      "start_ms": 1739,
+      "end_ms": 4905
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Their long-distance ren'ai somehow lasted four whole years.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5074,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their long-distance",
+          "start_sample": 0,
+          "end_sample": 20535,
+          "start_ms": 0,
+          "end_ms": 1283
+        },
+        {
+          "lang": "ja",
+          "text": "恋愛",
+          "start_sample": 20535,
+          "end_sample": 30323,
+          "start_ms": 1283,
+          "end_ms": 1895
+        },
+        {
+          "lang": "en",
+          "text": "somehow lasted four whole years.",
+          "start_sample": 30323,
+          "end_sample": 81184,
+          "start_ms": 1895,
+          "end_ms": 5074
+        }
+      ]
+    },
+    "ja": {
+      "text": "Their long-distance 恋愛 somehow lasted four whole years.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3639,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their long-distance",
+          "start_sample": 0,
+          "end_sample": 17049,
+          "start_ms": 0,
+          "end_ms": 1066
+        },
+        {
+          "lang": "ja",
+          "text": "恋愛",
+          "start_sample": 17049,
+          "end_sample": 24931,
+          "start_ms": 1066,
+          "end_ms": 1558
+        },
+        {
+          "lang": "en",
+          "text": "somehow lasted four whole years.",
+          "start_sample": 24931,
+          "end_sample": 58222,
+          "start_ms": 1558,
+          "end_ms": 3639
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 246,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

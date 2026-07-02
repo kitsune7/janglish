@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs405.flac",
+  "sentence": "Can you please 丁寧に fold the clean laundry instead of just piling it up?",
+  "sample_rate": 16000,
+  "duration_ms": 7683,
+  "reference_speaker": "jp/speaker_033_59cc0d3a6bc8.mp3",
+  "seed": 447,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you please",
+      "start_sample": 0,
+      "end_sample": 17907,
+      "start_ms": 0,
+      "end_ms": 1119
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧に",
+      "start_sample": 17907,
+      "end_sample": 29540,
+      "start_ms": 1119,
+      "end_ms": 1846
+    },
+    {
+      "lang": "en",
+      "text": "fold the clean laundry instead of just piling it up?",
+      "start_sample": 29540,
+      "end_sample": 122923,
+      "start_ms": 1846,
+      "end_ms": 7683
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you please teinei ni fold the clean laundry instead of just piling it up?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9474,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you please",
+          "start_sample": 0,
+          "end_sample": 18107,
+          "start_ms": 0,
+          "end_ms": 1132
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧に",
+          "start_sample": 18107,
+          "end_sample": 58009,
+          "start_ms": 1132,
+          "end_ms": 3626
+        },
+        {
+          "lang": "en",
+          "text": "fold the clean laundry instead of just piling it up?",
+          "start_sample": 58009,
+          "end_sample": 151592,
+          "start_ms": 3626,
+          "end_ms": 9474
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you please 丁寧に fold the clean laundry instead of just piling it up?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7019,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you please",
+          "start_sample": 0,
+          "end_sample": 16846,
+          "start_ms": 0,
+          "end_ms": 1053
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧に",
+          "start_sample": 16846,
+          "end_sample": 28879,
+          "start_ms": 1053,
+          "end_ms": 1805
+        },
+        {
+          "lang": "en",
+          "text": "fold the clean laundry instead of just piling it up?",
+          "start_sample": 28879,
+          "end_sample": 112307,
+          "start_ms": 1805,
+          "end_ms": 7019
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 385,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

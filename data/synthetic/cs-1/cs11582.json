@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11582.flac",
+  "sentence": "あの事故のことを思い出すと、fearが込み上げてくる。",
+  "sample_rate": 16000,
+  "duration_ms": 3190,
+  "reference_speaker": "en/speaker_037_fbb436f58f44.mp3",
+  "seed": 11624,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの事故のことを思い出すと、",
+      "start_sample": 0,
+      "end_sample": 27730,
+      "start_ms": 0,
+      "end_ms": 1733
+    },
+    {
+      "lang": "en",
+      "text": "fear",
+      "start_sample": 27730,
+      "end_sample": 33908,
+      "start_ms": 1733,
+      "end_ms": 2119
+    },
+    {
+      "lang": "ja",
+      "text": "が込み上げてくる。",
+      "start_sample": 33908,
+      "end_sample": 51041,
+      "start_ms": 2119,
+      "end_ms": 3190
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano jiko no koto wo omoidasu to fear ga komiage te kuru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7460,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの事故のことを思い出すと、",
+          "start_sample": 0,
+          "end_sample": 85995,
+          "start_ms": 0,
+          "end_ms": 5375
+        },
+        {
+          "lang": "en",
+          "text": "fear",
+          "start_sample": 85995,
+          "end_sample": 92573,
+          "start_ms": 5375,
+          "end_ms": 5786
+        },
+        {
+          "lang": "ja",
+          "text": "が込み上げてくる。",
+          "start_sample": 92573,
+          "end_sample": 119365,
+          "start_ms": 5786,
+          "end_ms": 7460
+        }
+      ]
+    },
+    "ja": {
+      "text": "あの事故のことを思い出すと、fearが込み上げてくる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3150,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの事故のことを思い出すと、",
+          "start_sample": 0,
+          "end_sample": 27930,
+          "start_ms": 0,
+          "end_ms": 1746
+        },
+        {
+          "lang": "en",
+          "text": "fear",
+          "start_sample": 27930,
+          "end_sample": 33066,
+          "start_ms": 1746,
+          "end_ms": 2067
+        },
+        {
+          "lang": "ja",
+          "text": "が込み上げてくる。",
+          "start_sample": 33066,
+          "end_sample": 50399,
+          "start_ms": 2067,
+          "end_ms": 3150
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

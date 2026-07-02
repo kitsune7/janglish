@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1783.flac",
+  "sentence": "This bar is too 狭い for a group of eight — let's find somewhere bigger.",
+  "sample_rate": 16000,
+  "duration_ms": 4516,
+  "reference_speaker": "en/speaker_011_d1413283d794.mp3",
+  "seed": 1825,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This bar is too",
+      "start_sample": 0,
+      "end_sample": 12807,
+      "start_ms": 0,
+      "end_ms": 800
+    },
+    {
+      "lang": "ja",
+      "text": "狭い",
+      "start_sample": 12807,
+      "end_sample": 19137,
+      "start_ms": 800,
+      "end_ms": 1196
+    },
+    {
+      "lang": "en",
+      "text": "for a group of eight — let's find somewhere bigger.",
+      "start_sample": 19137,
+      "end_sample": 72252,
+      "start_ms": 1196,
+      "end_ms": 4516
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This bar is too semai for a group of eight — let's find somewhere bigger.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4637,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This bar is too",
+          "start_sample": 0,
+          "end_sample": 13007,
+          "start_ms": 0,
+          "end_ms": 813
+        },
+        {
+          "lang": "ja",
+          "text": "狭い",
+          "start_sample": 13007,
+          "end_sample": 20876,
+          "start_ms": 813,
+          "end_ms": 1305
+        },
+        {
+          "lang": "en",
+          "text": "for a group of eight — let's find somewhere bigger.",
+          "start_sample": 20876,
+          "end_sample": 74191,
+          "start_ms": 1305,
+          "end_ms": 4637
+        }
+      ]
+    },
+    "ja": {
+      "text": "This bar is too 狭い for a group of eight — let's find somewhere bigger.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6570,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This bar is too",
+          "start_sample": 0,
+          "end_sample": 19551,
+          "start_ms": 0,
+          "end_ms": 1222
+        },
+        {
+          "lang": "ja",
+          "text": "狭い",
+          "start_sample": 19551,
+          "end_sample": 26281,
+          "start_ms": 1222,
+          "end_ms": 1643
+        },
+        {
+          "lang": "en",
+          "text": "for a group of eight — let's find somewhere bigger.",
+          "start_sample": 26281,
+          "end_sample": 105125,
+          "start_ms": 1643,
+          "end_ms": 6570
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 226,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

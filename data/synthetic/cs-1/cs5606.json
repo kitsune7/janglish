@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5606.flac",
+  "sentence": "The 窓 in our room faced a brick wall, which was a bit disappointing.",
+  "sample_rate": 16000,
+  "duration_ms": 3514,
+  "reference_speaker": "en/speaker_073_3c0d9d6a3b88.mp3",
+  "seed": 5648,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1084,
+      "start_ms": 0,
+      "end_ms": 68
+    },
+    {
+      "lang": "ja",
+      "text": "窓",
+      "start_sample": 1084,
+      "end_sample": 4538,
+      "start_ms": 68,
+      "end_ms": 284
+    },
+    {
+      "lang": "en",
+      "text": "in our room faced a brick wall, which was a bit disappointing.",
+      "start_sample": 4538,
+      "end_sample": 56217,
+      "start_ms": 284,
+      "end_ms": 3514
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The mado in our room faced a brick wall, which was a bit disappointing.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3634,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1284,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "窓",
+          "start_sample": 1284,
+          "end_sample": 6264,
+          "start_ms": 80,
+          "end_ms": 392
+        },
+        {
+          "lang": "en",
+          "text": "in our room faced a brick wall, which was a bit disappointing.",
+          "start_sample": 6264,
+          "end_sample": 58143,
+          "start_ms": 392,
+          "end_ms": 3634
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 窓 in our room faced a brick wall, which was a bit disappointing.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3694,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3855,
+          "start_ms": 0,
+          "end_ms": 241
+        },
+        {
+          "lang": "ja",
+          "text": "窓",
+          "start_sample": 3855,
+          "end_sample": 7709,
+          "start_ms": 241,
+          "end_ms": 482
+        },
+        {
+          "lang": "en",
+          "text": "in our room faced a brick wall, which was a bit disappointing.",
+          "start_sample": 7709,
+          "end_sample": 59107,
+          "start_ms": 482,
+          "end_ms": 3694
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 176,
+  "frame_labels": "eeejjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

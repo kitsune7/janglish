@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3752.flac",
+  "sentence": "バレンタインデーにhandmadeのチョコを作りました。",
+  "sample_rate": 16000,
+  "duration_ms": 3484,
+  "reference_speaker": "en/speaker_034_add467545a59.mp3",
+  "seed": 3794,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "バレンタインデーに",
+      "start_sample": 0,
+      "end_sample": 17805,
+      "start_ms": 0,
+      "end_ms": 1113
+    },
+    {
+      "lang": "en",
+      "text": "handmade",
+      "start_sample": 17805,
+      "end_sample": 33278,
+      "start_ms": 1113,
+      "end_ms": 2080
+    },
+    {
+      "lang": "ja",
+      "text": "のチョコを作りました。",
+      "start_sample": 33278,
+      "end_sample": 55741,
+      "start_ms": 2080,
+      "end_ms": 3484
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "barentain dee ni handmade no choko wo tsukuri mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6253,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "バレンタインデーに",
+          "start_sample": 0,
+          "end_sample": 38318,
+          "start_ms": 0,
+          "end_ms": 2395
+        },
+        {
+          "lang": "en",
+          "text": "handmade",
+          "start_sample": 38318,
+          "end_sample": 54191,
+          "start_ms": 2395,
+          "end_ms": 3387
+        },
+        {
+          "lang": "ja",
+          "text": "のチョコを作りました。",
+          "start_sample": 54191,
+          "end_sample": 100044,
+          "start_ms": 3387,
+          "end_ms": 6253
+        }
+      ]
+    },
+    "ja": {
+      "text": "バレンタインデーにhandmadeのチョコを作りました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3195,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "バレンタインデーに",
+          "start_sample": 0,
+          "end_sample": 18005,
+          "start_ms": 0,
+          "end_ms": 1125
+        },
+        {
+          "lang": "en",
+          "text": "handmade",
+          "start_sample": 18005,
+          "end_sample": 28454,
+          "start_ms": 1125,
+          "end_ms": 1778
+        },
+        {
+          "lang": "ja",
+          "text": "のチョコを作りました。",
+          "start_sample": 28454,
+          "end_sample": 51117,
+          "start_ms": 1778,
+          "end_ms": 3195
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

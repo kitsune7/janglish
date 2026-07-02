@@ -2,9 +2,9 @@
   "audio_path": "synthetic/cs-2/cs1.flac",
   "sentence": "I went to 東京 and visited 京都 last summer.",
   "sample_rate": 16000,
-  "duration_ms": 4351,
-  "reference_speaker": "en/speaker_093_c561f370b1dd.mp3",
-  "seed": 108,
+  "duration_ms": 3292,
+  "reference_speaker": "jp/speaker_091_bf2621e97933.mp3",
+  "seed": 16856,
   "tts_language": "stitched",
   "alignment": "forced-dual",
   "spans": [
@@ -12,41 +12,41 @@
       "lang": "en",
       "text": "I went to",
       "start_sample": 0,
-      "end_sample": 15682,
+      "end_sample": 7021,
       "start_ms": 0,
-      "end_ms": 980
+      "end_ms": 439
     },
     {
       "lang": "ja",
       "text": "東京",
-      "start_sample": 15682,
-      "end_sample": 27148,
-      "start_ms": 980,
-      "end_ms": 1697
+      "start_sample": 7021,
+      "end_sample": 15621,
+      "start_ms": 439,
+      "end_ms": 976
     },
     {
       "lang": "en",
       "text": "and visited",
-      "start_sample": 27148,
-      "end_sample": 48730,
-      "start_ms": 1697,
-      "end_ms": 3046
+      "start_sample": 15621,
+      "end_sample": 31757,
+      "start_ms": 976,
+      "end_ms": 1985
     },
     {
       "lang": "ja",
       "text": "京都",
-      "start_sample": 48730,
-      "end_sample": 56828,
-      "start_ms": 3046,
-      "end_ms": 3552
+      "start_sample": 31757,
+      "end_sample": 39393,
+      "start_ms": 1985,
+      "end_ms": 2462
     },
     {
       "lang": "en",
       "text": "last summer.",
-      "start_sample": 56828,
-      "end_sample": 69622,
-      "start_ms": 3552,
-      "end_ms": 4351
+      "start_sample": 39393,
+      "end_sample": 52676,
+      "start_ms": 2462,
+      "end_ms": 3292
     }
   ],
   "renders": {
@@ -54,47 +54,47 @@
       "text": "I went to toukyou and visited kyouto last summer.",
       "tts_language": "en",
       "alignment": "forced",
-      "duration_ms": 5034,
+      "duration_ms": 3712,
       "spans": [
         {
           "lang": "en",
           "text": "I went to",
           "start_sample": 0,
-          "end_sample": 15882,
+          "end_sample": 7221,
           "start_ms": 0,
-          "end_ms": 993
+          "end_ms": 451
         },
         {
           "lang": "ja",
           "text": "東京",
-          "start_sample": 15882,
-          "end_sample": 35778,
-          "start_ms": 993,
-          "end_ms": 2236
+          "start_sample": 7221,
+          "end_sample": 21189,
+          "start_ms": 451,
+          "end_ms": 1324
         },
         {
           "lang": "en",
           "text": "and visited",
-          "start_sample": 35778,
-          "end_sample": 57760,
-          "start_ms": 2236,
-          "end_ms": 3610
+          "start_sample": 21189,
+          "end_sample": 37725,
+          "start_ms": 1324,
+          "end_ms": 2358
         },
         {
           "lang": "ja",
           "text": "京都",
-          "start_sample": 57760,
-          "end_sample": 67548,
-          "start_ms": 3610,
-          "end_ms": 4222
+          "start_sample": 37725,
+          "end_sample": 45913,
+          "start_ms": 2358,
+          "end_ms": 2870
         },
         {
           "lang": "en",
           "text": "last summer.",
-          "start_sample": 67548,
-          "end_sample": 80542,
-          "start_ms": 4222,
-          "end_ms": 5034
+          "start_sample": 45913,
+          "end_sample": 59396,
+          "start_ms": 2870,
+          "end_ms": 3712
         }
       ]
     },
@@ -102,52 +102,52 @@
       "text": "I went to 東京 and visited 京都 last summer.",
       "tts_language": "ja",
       "alignment": "forced",
-      "duration_ms": 4209,
+      "duration_ms": 3495,
       "spans": [
         {
           "lang": "en",
           "text": "I went to",
           "start_sample": 0,
-          "end_sample": 12023,
+          "end_sample": 12370,
           "start_ms": 0,
-          "end_ms": 751
+          "end_ms": 773
         },
         {
           "lang": "ja",
           "text": "東京",
-          "start_sample": 12023,
-          "end_sample": 23889,
-          "start_ms": 751,
-          "end_ms": 1493
+          "start_sample": 12370,
+          "end_sample": 21370,
+          "start_ms": 773,
+          "end_ms": 1336
         },
         {
           "lang": "en",
           "text": "and visited",
-          "start_sample": 23889,
-          "end_sample": 42329,
-          "start_ms": 1493,
-          "end_ms": 2646
+          "start_sample": 21370,
+          "end_sample": 36637,
+          "start_ms": 1336,
+          "end_ms": 2290
         },
         {
           "lang": "ja",
           "text": "京都",
-          "start_sample": 42329,
-          "end_sample": 50827,
-          "start_ms": 2646,
-          "end_ms": 3177
+          "start_sample": 36637,
+          "end_sample": 44673,
+          "start_ms": 2290,
+          "end_ms": 2792
         },
         {
           "lang": "en",
           "text": "last summer.",
-          "start_sample": 50827,
-          "end_sample": 67341,
-          "start_ms": 3177,
-          "end_ms": 4209
+          "start_sample": 44673,
+          "end_sample": 55919,
+          "start_ms": 2792,
+          "end_ms": 3495
         }
       ]
     }
   },
   "frame_rate_hz": 50,
-  "num_frames": 218,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 165,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

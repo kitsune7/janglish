@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs565.flac",
+  "sentence": "毎朝、laptopを開ける前にコーヒーを一杯飲む。",
+  "sample_rate": 16000,
+  "duration_ms": 3810,
+  "reference_speaker": "en/speaker_025_5a5c462b583a.mp3",
+  "seed": 607,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "毎朝、",
+      "start_sample": 0,
+      "end_sample": 10707,
+      "start_ms": 0,
+      "end_ms": 669
+    },
+    {
+      "lang": "en",
+      "text": "laptop",
+      "start_sample": 10707,
+      "end_sample": 18492,
+      "start_ms": 669,
+      "end_ms": 1156
+    },
+    {
+      "lang": "ja",
+      "text": "を開ける前にコーヒーを一杯飲む。",
+      "start_sample": 18492,
+      "end_sample": 60960,
+      "start_ms": 1156,
+      "end_ms": 3810
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "maiasa laptop wo hirakeru mae ni koohii wo ippai nomu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5797,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝、",
+          "start_sample": 0,
+          "end_sample": 9307,
+          "start_ms": 0,
+          "end_ms": 582
+        },
+        {
+          "lang": "en",
+          "text": "laptop",
+          "start_sample": 9307,
+          "end_sample": 17492,
+          "start_ms": 582,
+          "end_ms": 1093
+        },
+        {
+          "lang": "ja",
+          "text": "を開ける前にコーヒーを一杯飲む。",
+          "start_sample": 17492,
+          "end_sample": 92755,
+          "start_ms": 1093,
+          "end_ms": 5797
+        }
+      ]
+    },
+    "ja": {
+      "text": "毎朝、laptopを開ける前にコーヒーを一杯飲む。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3990,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝、",
+          "start_sample": 0,
+          "end_sample": 10907,
+          "start_ms": 0,
+          "end_ms": 682
+        },
+        {
+          "lang": "en",
+          "text": "laptop",
+          "start_sample": 10907,
+          "end_sample": 21173,
+          "start_ms": 682,
+          "end_ms": 1323
+        },
+        {
+          "lang": "ja",
+          "text": "を開ける前にコーヒーを一杯飲む。",
+          "start_sample": 21173,
+          "end_sample": 63841,
+          "start_ms": 1323,
+          "end_ms": 3990
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 191,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs705.flac",
+  "sentence": "The first 雪 of the season turned the whole town 静か overnight, which nobody had expected.",
+  "sample_rate": 16000,
+  "duration_ms": 8646,
+  "reference_speaker": "en/speaker_050_6b3579133fec.mp3",
+  "seed": 17560,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The first",
+      "start_sample": 0,
+      "end_sample": 4122,
+      "start_ms": 0,
+      "end_ms": 258
+    },
+    {
+      "lang": "ja",
+      "text": "雪",
+      "start_sample": 4122,
+      "end_sample": 16213,
+      "start_ms": 258,
+      "end_ms": 1013
+    },
+    {
+      "lang": "en",
+      "text": "of the season turned the whole town",
+      "start_sample": 16213,
+      "end_sample": 66884,
+      "start_ms": 1013,
+      "end_ms": 4180
+    },
+    {
+      "lang": "ja",
+      "text": "静か",
+      "start_sample": 66884,
+      "end_sample": 80737,
+      "start_ms": 4180,
+      "end_ms": 5046
+    },
+    {
+      "lang": "en",
+      "text": "overnight, which nobody had expected.",
+      "start_sample": 80737,
+      "end_sample": 138332,
+      "start_ms": 5046,
+      "end_ms": 8646
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The first yuki of the season turned the whole town shizuka overnight, which nobody had expected.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8545,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The first",
+          "start_sample": 0,
+          "end_sample": 4322,
+          "start_ms": 0,
+          "end_ms": 270
+        },
+        {
+          "lang": "ja",
+          "text": "雪",
+          "start_sample": 4322,
+          "end_sample": 10406,
+          "start_ms": 270,
+          "end_ms": 650
+        },
+        {
+          "lang": "en",
+          "text": "of the season turned the whole town",
+          "start_sample": 10406,
+          "end_sample": 61477,
+          "start_ms": 650,
+          "end_ms": 3842
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 61477,
+          "end_sample": 78927,
+          "start_ms": 3842,
+          "end_ms": 4933
+        },
+        {
+          "lang": "en",
+          "text": "overnight, which nobody had expected.",
+          "start_sample": 78927,
+          "end_sample": 136722,
+          "start_ms": 4933,
+          "end_ms": 8545
+        }
+      ]
+    },
+    "ja": {
+      "text": "The first 雪 of the season turned the whole town 静か overnight, which nobody had expected.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9108,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The first",
+          "start_sample": 0,
+          "end_sample": 5765,
+          "start_ms": 0,
+          "end_ms": 360
+        },
+        {
+          "lang": "ja",
+          "text": "雪",
+          "start_sample": 5765,
+          "end_sample": 18256,
+          "start_ms": 360,
+          "end_ms": 1141
+        },
+        {
+          "lang": "en",
+          "text": "of the season turned the whole town",
+          "start_sample": 18256,
+          "end_sample": 68543,
+          "start_ms": 1141,
+          "end_ms": 4284
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 68543,
+          "end_sample": 82796,
+          "start_ms": 4284,
+          "end_ms": 5175
+        },
+        {
+          "lang": "en",
+          "text": "overnight, which nobody had expected.",
+          "start_sample": 82796,
+          "end_sample": 145733,
+          "start_ms": 5175,
+          "end_ms": 9108
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 433,
+  "frame_labels": "eeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

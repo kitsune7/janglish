@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4296.flac",
+  "sentence": "The 隠し部屋 behind the waterfall contains the rarest weapon in the game.",
+  "sample_rate": 16000,
+  "duration_ms": 4382,
+  "reference_speaker": "jp/speaker_030_78b8d1b530d5.mp3",
+  "seed": 4338,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1404,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "隠し部屋",
+      "start_sample": 1404,
+      "end_sample": 12858,
+      "start_ms": 88,
+      "end_ms": 804
+    },
+    {
+      "lang": "en",
+      "text": "behind the waterfall contains the rarest weapon in the game.",
+      "start_sample": 12858,
+      "end_sample": 70107,
+      "start_ms": 804,
+      "end_ms": 4382
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kakushiheya behind the waterfall contains the rarest weapon in the game.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4513,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1604,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "隠し部屋",
+          "start_sample": 1604,
+          "end_sample": 14764,
+          "start_ms": 100,
+          "end_ms": 923
+        },
+        {
+          "lang": "en",
+          "text": "behind the waterfall contains the rarest weapon in the game.",
+          "start_sample": 14764,
+          "end_sample": 72213,
+          "start_ms": 923,
+          "end_ms": 4513
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 隠し部屋 behind the waterfall contains the rarest weapon in the game.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5506,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4003,
+          "start_ms": 0,
+          "end_ms": 250
+        },
+        {
+          "lang": "ja",
+          "text": "隠し部屋",
+          "start_sample": 4003,
+          "end_sample": 15857,
+          "start_ms": 250,
+          "end_ms": 991
+        },
+        {
+          "lang": "en",
+          "text": "behind the waterfall contains the rarest weapon in the game.",
+          "start_sample": 15857,
+          "end_sample": 88101,
+          "start_ms": 991,
+          "end_ms": 5506
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 220,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

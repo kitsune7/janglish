@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3265.flac",
+  "sentence": "The whole 流れ of the presentation felt disjointed and rushed.",
+  "sample_rate": 16000,
+  "duration_ms": 3807,
+  "reference_speaker": "jp/speaker_038_fa40784c77e2.mp3",
+  "seed": 3307,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole",
+      "start_sample": 0,
+      "end_sample": 5247,
+      "start_ms": 0,
+      "end_ms": 328
+    },
+    {
+      "lang": "ja",
+      "text": "流れ",
+      "start_sample": 5247,
+      "end_sample": 12555,
+      "start_ms": 328,
+      "end_ms": 785
+    },
+    {
+      "lang": "en",
+      "text": "of the presentation felt disjointed and rushed.",
+      "start_sample": 12555,
+      "end_sample": 60906,
+      "start_ms": 785,
+      "end_ms": 3807
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole nagare of the presentation felt disjointed and rushed.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3846,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole",
+          "start_sample": 0,
+          "end_sample": 5447,
+          "start_ms": 0,
+          "end_ms": 340
+        },
+        {
+          "lang": "ja",
+          "text": "流れ",
+          "start_sample": 5447,
+          "end_sample": 12979,
+          "start_ms": 340,
+          "end_ms": 811
+        },
+        {
+          "lang": "en",
+          "text": "of the presentation felt disjointed and rushed.",
+          "start_sample": 12979,
+          "end_sample": 61530,
+          "start_ms": 811,
+          "end_ms": 3846
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole 流れ of the presentation felt disjointed and rushed.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5760,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole",
+          "start_sample": 0,
+          "end_sample": 9473,
+          "start_ms": 0,
+          "end_ms": 592
+        },
+        {
+          "lang": "ja",
+          "text": "流れ",
+          "start_sample": 9473,
+          "end_sample": 17181,
+          "start_ms": 592,
+          "end_ms": 1074
+        },
+        {
+          "lang": "en",
+          "text": "of the presentation felt disjointed and rushed.",
+          "start_sample": 17181,
+          "end_sample": 92167,
+          "start_ms": 1074,
+          "end_ms": 5760
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 191,
+  "frame_labels": "eeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

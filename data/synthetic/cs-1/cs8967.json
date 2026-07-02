@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8967.flac",
+  "sentence": "Is there a 郵便局 near the train station I can stop by after work?",
+  "sample_rate": 16000,
+  "duration_ms": 5246,
+  "reference_speaker": "en/speaker_097_44a775a22921.mp3",
+  "seed": 9009,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Is there a",
+      "start_sample": 0,
+      "end_sample": 9570,
+      "start_ms": 0,
+      "end_ms": 598
+    },
+    {
+      "lang": "ja",
+      "text": "郵便局",
+      "start_sample": 9570,
+      "end_sample": 24394,
+      "start_ms": 598,
+      "end_ms": 1525
+    },
+    {
+      "lang": "en",
+      "text": "near the train station I can stop by after work?",
+      "start_sample": 24394,
+      "end_sample": 83943,
+      "start_ms": 1525,
+      "end_ms": 5246
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Is there a yuubin kyoku near the train station I can stop by after work?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5506,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is there a",
+          "start_sample": 0,
+          "end_sample": 9770,
+          "start_ms": 0,
+          "end_ms": 611
+        },
+        {
+          "lang": "ja",
+          "text": "郵便局",
+          "start_sample": 9770,
+          "end_sample": 28352,
+          "start_ms": 611,
+          "end_ms": 1772
+        },
+        {
+          "lang": "en",
+          "text": "near the train station I can stop by after work?",
+          "start_sample": 28352,
+          "end_sample": 88101,
+          "start_ms": 1772,
+          "end_ms": 5506
+        }
+      ]
+    },
+    "ja": {
+      "text": "Is there a 郵便局 near the train station I can stop by after work?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5428,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is there a",
+          "start_sample": 0,
+          "end_sample": 12498,
+          "start_ms": 0,
+          "end_ms": 781
+        },
+        {
+          "lang": "ja",
+          "text": "郵便局",
+          "start_sample": 12498,
+          "end_sample": 27722,
+          "start_ms": 781,
+          "end_ms": 1733
+        },
+        {
+          "lang": "en",
+          "text": "near the train station I can stop by after work?",
+          "start_sample": 27722,
+          "end_sample": 86855,
+          "start_ms": 1733,
+          "end_ms": 5428
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 263,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

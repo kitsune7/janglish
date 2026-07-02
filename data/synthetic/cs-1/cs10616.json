@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10616.flac",
+  "sentence": "The hedgehog visits the 庭 almost every evening around dusk.",
+  "sample_rate": 16000,
+  "duration_ms": 4537,
+  "reference_speaker": "jp/speaker_073_b4ca3157591f.mp3",
+  "seed": 10658,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The hedgehog visits the",
+      "start_sample": 0,
+      "end_sample": 23736,
+      "start_ms": 0,
+      "end_ms": 1484
+    },
+    {
+      "lang": "ja",
+      "text": "庭",
+      "start_sample": 23736,
+      "end_sample": 31671,
+      "start_ms": 1484,
+      "end_ms": 1979
+    },
+    {
+      "lang": "en",
+      "text": "almost every evening around dusk.",
+      "start_sample": 31671,
+      "end_sample": 72593,
+      "start_ms": 1979,
+      "end_ms": 4537
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hedgehog visits the niwa almost every evening around dusk.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4900,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hedgehog visits the",
+          "start_sample": 0,
+          "end_sample": 23936,
+          "start_ms": 0,
+          "end_ms": 1496
+        },
+        {
+          "lang": "ja",
+          "text": "庭",
+          "start_sample": 23936,
+          "end_sample": 37270,
+          "start_ms": 1496,
+          "end_ms": 2329
+        },
+        {
+          "lang": "en",
+          "text": "almost every evening around dusk.",
+          "start_sample": 37270,
+          "end_sample": 78392,
+          "start_ms": 2329,
+          "end_ms": 4900
+        }
+      ]
+    },
+    "ja": {
+      "text": "The hedgehog visits the 庭 almost every evening around dusk.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6712,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hedgehog visits the",
+          "start_sample": 0,
+          "end_sample": 50170,
+          "start_ms": 0,
+          "end_ms": 3136
+        },
+        {
+          "lang": "ja",
+          "text": "庭",
+          "start_sample": 50170,
+          "end_sample": 58505,
+          "start_ms": 3136,
+          "end_ms": 3657
+        },
+        {
+          "lang": "en",
+          "text": "almost every evening around dusk.",
+          "start_sample": 58505,
+          "end_sample": 107392,
+          "start_ms": 3657,
+          "end_ms": 6712
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 227,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

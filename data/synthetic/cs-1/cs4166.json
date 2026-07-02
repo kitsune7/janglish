@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4166.flac",
+  "sentence": "子供の頃、母のperfumeの香りで安心感を覚えた。",
+  "sample_rate": 16000,
+  "duration_ms": 4629,
+  "reference_speaker": "jp/speaker_037_97f38629e8a3.mp3",
+  "seed": 4208,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "子供の頃、母の",
+      "start_sample": 0,
+      "end_sample": 25039,
+      "start_ms": 0,
+      "end_ms": 1565
+    },
+    {
+      "lang": "en",
+      "text": "perfume",
+      "start_sample": 25039,
+      "end_sample": 36813,
+      "start_ms": 1565,
+      "end_ms": 2301
+    },
+    {
+      "lang": "ja",
+      "text": "の香りで安心感を覚えた。",
+      "start_sample": 36813,
+      "end_sample": 74066,
+      "start_ms": 2301,
+      "end_ms": 4629
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kodomo no goro haha no perfume no kaori de anshin kan wo oboe ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5766,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "子供の頃、母の",
+          "start_sample": 0,
+          "end_sample": 36840,
+          "start_ms": 0,
+          "end_ms": 2302
+        },
+        {
+          "lang": "en",
+          "text": "perfume",
+          "start_sample": 36840,
+          "end_sample": 49014,
+          "start_ms": 2302,
+          "end_ms": 3063
+        },
+        {
+          "lang": "ja",
+          "text": "の香りで安心感を覚えた。",
+          "start_sample": 49014,
+          "end_sample": 92261,
+          "start_ms": 3063,
+          "end_ms": 5766
+        }
+      ]
+    },
+    "ja": {
+      "text": "子供の頃、母のperfumeの香りで安心感を覚えた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4380,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "子供の頃、母の",
+          "start_sample": 0,
+          "end_sample": 25239,
+          "start_ms": 0,
+          "end_ms": 1577
+        },
+        {
+          "lang": "en",
+          "text": "perfume",
+          "start_sample": 25239,
+          "end_sample": 32634,
+          "start_ms": 1577,
+          "end_ms": 2040
+        },
+        {
+          "lang": "ja",
+          "text": "の香りで安心感を覚えた。",
+          "start_sample": 32634,
+          "end_sample": 70087,
+          "start_ms": 2040,
+          "end_ms": 4380
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 232,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7600.flac",
+  "sentence": "The 画面 glare is giving me a terrible headache by midday.",
+  "sample_rate": 16000,
+  "duration_ms": 4001,
+  "reference_speaker": "en/speaker_054_103b0eb5778e.mp3",
+  "seed": 7642,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1568,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "画面",
+      "start_sample": 1568,
+      "end_sample": 6962,
+      "start_ms": 98,
+      "end_ms": 435
+    },
+    {
+      "lang": "en",
+      "text": "glare is giving me a terrible headache by midday.",
+      "start_sample": 6962,
+      "end_sample": 64014,
+      "start_ms": 435,
+      "end_ms": 4001
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The gamen glare is giving me a terrible headache by midday.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4181,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1768,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "画面",
+          "start_sample": 1768,
+          "end_sample": 9650,
+          "start_ms": 110,
+          "end_ms": 603
+        },
+        {
+          "lang": "en",
+          "text": "glare is giving me a terrible headache by midday.",
+          "start_sample": 9650,
+          "end_sample": 66902,
+          "start_ms": 603,
+          "end_ms": 4181
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 画面 glare is giving me a terrible headache by midday.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4063,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3217,
+          "start_ms": 0,
+          "end_ms": 201
+        },
+        {
+          "lang": "ja",
+          "text": "画面",
+          "start_sample": 3217,
+          "end_sample": 9011,
+          "start_ms": 201,
+          "end_ms": 563
+        },
+        {
+          "lang": "en",
+          "text": "glare is giving me a terrible headache by midday.",
+          "start_sample": 9011,
+          "end_sample": 65003,
+          "start_ms": 563,
+          "end_ms": 4063
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

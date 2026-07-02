@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6700.flac",
+  "sentence": "彼はかなりの額をstocksに投資しているらしいです。",
+  "sample_rate": 16000,
+  "duration_ms": 3175,
+  "reference_speaker": "en/speaker_041_b54335ce95b5.mp3",
+  "seed": 6742,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼はかなりの額を",
+      "start_sample": 0,
+      "end_sample": 21190,
+      "start_ms": 0,
+      "end_ms": 1324
+    },
+    {
+      "lang": "en",
+      "text": "stocks",
+      "start_sample": 21190,
+      "end_sample": 27850,
+      "start_ms": 1324,
+      "end_ms": 1741
+    },
+    {
+      "lang": "ja",
+      "text": "に投資しているらしいです。",
+      "start_sample": 27850,
+      "end_sample": 50806,
+      "start_ms": 1741,
+      "end_ms": 3175
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha kanari no hitai wo stocks ni toushi shi te iru rashii desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6076,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼はかなりの額を",
+          "start_sample": 0,
+          "end_sample": 58398,
+          "start_ms": 0,
+          "end_ms": 3650
+        },
+        {
+          "lang": "en",
+          "text": "stocks",
+          "start_sample": 58398,
+          "end_sample": 65458,
+          "start_ms": 3650,
+          "end_ms": 4091
+        },
+        {
+          "lang": "ja",
+          "text": "に投資しているらしいです。",
+          "start_sample": 65458,
+          "end_sample": 97222,
+          "start_ms": 4091,
+          "end_ms": 6076
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はかなりの額をstocksに投資しているらしいです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3277,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼はかなりの額を",
+          "start_sample": 0,
+          "end_sample": 21390,
+          "start_ms": 0,
+          "end_ms": 1337
+        },
+        {
+          "lang": "en",
+          "text": "stocks",
+          "start_sample": 21390,
+          "end_sample": 29271,
+          "start_ms": 1337,
+          "end_ms": 1829
+        },
+        {
+          "lang": "ja",
+          "text": "に投資しているらしいです。",
+          "start_sample": 29271,
+          "end_sample": 52427,
+          "start_ms": 1829,
+          "end_ms": 3277
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

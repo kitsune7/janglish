@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1151.flac",
+  "sentence": "The 粒状感 in this film scan gives it such a raw, emotional feel.",
+  "sample_rate": 16000,
+  "duration_ms": 5708,
+  "reference_speaker": "jp/speaker_003_7f373ff7d9ea.mp3",
+  "seed": 1193,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2047,
+      "start_ms": 0,
+      "end_ms": 128
+    },
+    {
+      "lang": "ja",
+      "text": "粒状感",
+      "start_sample": 2047,
+      "end_sample": 17683,
+      "start_ms": 128,
+      "end_ms": 1105
+    },
+    {
+      "lang": "en",
+      "text": "in this film scan gives it such a raw, emotional feel.",
+      "start_sample": 17683,
+      "end_sample": 91323,
+      "start_ms": 1105,
+      "end_ms": 5708
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The tsubu jou kan in this film scan gives it such a raw, emotional feel.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5939,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2247,
+          "start_ms": 0,
+          "end_ms": 140
+        },
+        {
+          "lang": "ja",
+          "text": "粒状感",
+          "start_sample": 2247,
+          "end_sample": 21189,
+          "start_ms": 140,
+          "end_ms": 1324
+        },
+        {
+          "lang": "en",
+          "text": "in this film scan gives it such a raw, emotional feel.",
+          "start_sample": 21189,
+          "end_sample": 95029,
+          "start_ms": 1324,
+          "end_ms": 5939
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 粒状感 in this film scan gives it such a raw, emotional feel.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5291,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3206,
+          "start_ms": 0,
+          "end_ms": 200
+        },
+        {
+          "lang": "ja",
+          "text": "粒状感",
+          "start_sample": 3206,
+          "end_sample": 19242,
+          "start_ms": 200,
+          "end_ms": 1203
+        },
+        {
+          "lang": "en",
+          "text": "in this film scan gives it such a raw, emotional feel.",
+          "start_sample": 19242,
+          "end_sample": 84663,
+          "start_ms": 1203,
+          "end_ms": 5291
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 286,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

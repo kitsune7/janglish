@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5534.flac",
+  "sentence": "The dust under the bed was a bit 衝撃的 honestly.",
+  "sample_rate": 16000,
+  "duration_ms": 3436,
+  "reference_speaker": "en/speaker_085_1a04e2db0811.mp3",
+  "seed": 5576,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The dust under the bed was a bit",
+      "start_sample": 0,
+      "end_sample": 28442,
+      "start_ms": 0,
+      "end_ms": 1778
+    },
+    {
+      "lang": "ja",
+      "text": "衝撃的",
+      "start_sample": 28442,
+      "end_sample": 41667,
+      "start_ms": 1778,
+      "end_ms": 2604
+    },
+    {
+      "lang": "en",
+      "text": "honestly.",
+      "start_sample": 41667,
+      "end_sample": 54979,
+      "start_ms": 2604,
+      "end_ms": 3436
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The dust under the bed was a bit shougeki teki honestly.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4022,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The dust under the bed was a bit",
+          "start_sample": 0,
+          "end_sample": 28642,
+          "start_ms": 0,
+          "end_ms": 1790
+        },
+        {
+          "lang": "ja",
+          "text": "衝撃的",
+          "start_sample": 28642,
+          "end_sample": 50848,
+          "start_ms": 1790,
+          "end_ms": 3178
+        },
+        {
+          "lang": "en",
+          "text": "honestly.",
+          "start_sample": 50848,
+          "end_sample": 64360,
+          "start_ms": 3178,
+          "end_ms": 4022
+        }
+      ]
+    },
+    "ja": {
+      "text": "The dust under the bed was a bit 衝撃的 honestly.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4268,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The dust under the bed was a bit",
+          "start_sample": 0,
+          "end_sample": 43757,
+          "start_ms": 0,
+          "end_ms": 2735
+        },
+        {
+          "lang": "ja",
+          "text": "衝撃的",
+          "start_sample": 43757,
+          "end_sample": 57382,
+          "start_ms": 2735,
+          "end_ms": 3586
+        },
+        {
+          "lang": "en",
+          "text": "honestly.",
+          "start_sample": 57382,
+          "end_sample": 68280,
+          "start_ms": 3586,
+          "end_ms": 4268
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 172,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

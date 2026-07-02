@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8784.flac",
+  "sentence": "コンサート会場の外でfanたちが長い列を作っていた。",
+  "sample_rate": 16000,
+  "duration_ms": 3537,
+  "reference_speaker": "en/speaker_081_ce72da759902.mp3",
+  "seed": 8826,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "コンサート会場の外で",
+      "start_sample": 0,
+      "end_sample": 25614,
+      "start_ms": 0,
+      "end_ms": 1601
+    },
+    {
+      "lang": "en",
+      "text": "fan",
+      "start_sample": 25614,
+      "end_sample": 29544,
+      "start_ms": 1601,
+      "end_ms": 1846
+    },
+    {
+      "lang": "ja",
+      "text": "たちが長い列を作っていた。",
+      "start_sample": 29544,
+      "end_sample": 56599,
+      "start_ms": 1846,
+      "end_ms": 3537
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "konsaato kaijou no soto de fan tachi ga nagai retsu wo tsukutsu te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8759,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "コンサート会場の外で",
+          "start_sample": 0,
+          "end_sample": 38966,
+          "start_ms": 0,
+          "end_ms": 2435
+        },
+        {
+          "lang": "en",
+          "text": "fan",
+          "start_sample": 38966,
+          "end_sample": 43296,
+          "start_ms": 2435,
+          "end_ms": 2706
+        },
+        {
+          "lang": "ja",
+          "text": "たちが長い列を作っていた。",
+          "start_sample": 43296,
+          "end_sample": 140150,
+          "start_ms": 2706,
+          "end_ms": 8759
+        }
+      ]
+    },
+    "ja": {
+      "text": "コンサート会場の外でfanたちが長い列を作っていた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3627,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "コンサート会場の外で",
+          "start_sample": 0,
+          "end_sample": 25814,
+          "start_ms": 0,
+          "end_ms": 1613
+        },
+        {
+          "lang": "en",
+          "text": "fan",
+          "start_sample": 25814,
+          "end_sample": 30784,
+          "start_ms": 1613,
+          "end_ms": 1924
+        },
+        {
+          "lang": "ja",
+          "text": "たちが長い列を作っていた。",
+          "start_sample": 30784,
+          "end_sample": 58039,
+          "start_ms": 1924,
+          "end_ms": 3627
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

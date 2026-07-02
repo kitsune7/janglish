@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7555.flac",
+  "sentence": "試験前にはextra creditの課題を出してくれる先生もいる。",
+  "sample_rate": 16000,
+  "duration_ms": 3324,
+  "reference_speaker": "en/speaker_081_ce72da759902.mp3",
+  "seed": 7597,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "試験前には",
+      "start_sample": 0,
+      "end_sample": 10735,
+      "start_ms": 0,
+      "end_ms": 671
+    },
+    {
+      "lang": "en",
+      "text": "extra credit",
+      "start_sample": 10735,
+      "end_sample": 23313,
+      "start_ms": 671,
+      "end_ms": 1457
+    },
+    {
+      "lang": "ja",
+      "text": "の課題を出してくれる先生もいる。",
+      "start_sample": 23313,
+      "end_sample": 53182,
+      "start_ms": 1457,
+      "end_ms": 3324
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shiken mae ni ha extra credit no kadai wo dashi te kureru sensei mo iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8192,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "試験前には",
+          "start_sample": 0,
+          "end_sample": 55279,
+          "start_ms": 0,
+          "end_ms": 3455
+        },
+        {
+          "lang": "en",
+          "text": "extra credit",
+          "start_sample": 55279,
+          "end_sample": 68257,
+          "start_ms": 3455,
+          "end_ms": 4266
+        },
+        {
+          "lang": "ja",
+          "text": "の課題を出してくれる先生もいる。",
+          "start_sample": 68257,
+          "end_sample": 131066,
+          "start_ms": 4266,
+          "end_ms": 8192
+        }
+      ]
+    },
+    "ja": {
+      "text": "試験前にはextra creditの課題を出してくれる先生もいる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3578,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "試験前には",
+          "start_sample": 0,
+          "end_sample": 10935,
+          "start_ms": 0,
+          "end_ms": 683
+        },
+        {
+          "lang": "en",
+          "text": "extra credit",
+          "start_sample": 10935,
+          "end_sample": 27178,
+          "start_ms": 683,
+          "end_ms": 1699
+        },
+        {
+          "lang": "ja",
+          "text": "の課題を出してくれる先生もいる。",
+          "start_sample": 27178,
+          "end_sample": 57247,
+          "start_ms": 1699,
+          "end_ms": 3578
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 167,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

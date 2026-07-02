@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1972.flac",
+  "sentence": "毎朝、toner でしっかり肌を整えてから日焼け止めを塗る。",
+  "sample_rate": 16000,
+  "duration_ms": 3081,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 2014,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "毎朝、",
+      "start_sample": 0,
+      "end_sample": 4457,
+      "start_ms": 0,
+      "end_ms": 279
+    },
+    {
+      "lang": "en",
+      "text": "toner",
+      "start_sample": 4457,
+      "end_sample": 11759,
+      "start_ms": 279,
+      "end_ms": 735
+    },
+    {
+      "lang": "ja",
+      "text": "でしっかり肌を整えてから日焼け止めを塗る。",
+      "start_sample": 11759,
+      "end_sample": 49297,
+      "start_ms": 735,
+      "end_ms": 3081
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "maiasa toner de shikkari hada wo totonoe te kara hiyake tome wo nuru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7440,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝、",
+          "start_sample": 0,
+          "end_sample": 11551,
+          "start_ms": 0,
+          "end_ms": 722
+        },
+        {
+          "lang": "en",
+          "text": "toner",
+          "start_sample": 11551,
+          "end_sample": 19253,
+          "start_ms": 722,
+          "end_ms": 1203
+        },
+        {
+          "lang": "ja",
+          "text": "でしっかり肌を整えてから日焼け止めを塗る。",
+          "start_sample": 19253,
+          "end_sample": 119046,
+          "start_ms": 1203,
+          "end_ms": 7440
+        }
+      ]
+    },
+    "ja": {
+      "text": "毎朝、toner でしっかり肌を整えてから日焼け止めを塗る。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2931,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝、",
+          "start_sample": 0,
+          "end_sample": 4657,
+          "start_ms": 0,
+          "end_ms": 291
+        },
+        {
+          "lang": "en",
+          "text": "toner",
+          "start_sample": 4657,
+          "end_sample": 9153,
+          "start_ms": 291,
+          "end_ms": 572
+        },
+        {
+          "lang": "ja",
+          "text": "でしっかり肌を整えてから日焼け止めを塗る。",
+          "start_sample": 9153,
+          "end_sample": 46891,
+          "start_ms": 572,
+          "end_ms": 2931
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 155,
+  "frame_labels": "jjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

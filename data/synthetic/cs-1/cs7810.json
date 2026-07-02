@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7810.flac",
+  "sentence": "彼女はいつもdry なワインを注文する。",
+  "sample_rate": 16000,
+  "duration_ms": 2452,
+  "reference_speaker": "en/speaker_030_bdb9e7b61df6.mp3",
+  "seed": 7852,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女はいつも",
+      "start_sample": 0,
+      "end_sample": 13306,
+      "start_ms": 0,
+      "end_ms": 832
+    },
+    {
+      "lang": "en",
+      "text": "dry",
+      "start_sample": 13306,
+      "end_sample": 18691,
+      "start_ms": 832,
+      "end_ms": 1168
+    },
+    {
+      "lang": "ja",
+      "text": "なワインを注文する。",
+      "start_sample": 18691,
+      "end_sample": 39230,
+      "start_ms": 1168,
+      "end_ms": 2452
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha itsu mo dry na wain wo chuumon suru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4399,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女はいつも",
+          "start_sample": 0,
+          "end_sample": 34548,
+          "start_ms": 0,
+          "end_ms": 2159
+        },
+        {
+          "lang": "en",
+          "text": "dry",
+          "start_sample": 34548,
+          "end_sample": 40333,
+          "start_ms": 2159,
+          "end_ms": 2521
+        },
+        {
+          "lang": "ja",
+          "text": "なワインを注文する。",
+          "start_sample": 40333,
+          "end_sample": 70379,
+          "start_ms": 2521,
+          "end_ms": 4399
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はいつもdry なワインを注文する。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2512,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女はいつも",
+          "start_sample": 0,
+          "end_sample": 13506,
+          "start_ms": 0,
+          "end_ms": 844
+        },
+        {
+          "lang": "en",
+          "text": "dry",
+          "start_sample": 13506,
+          "end_sample": 19456,
+          "start_ms": 844,
+          "end_ms": 1216
+        },
+        {
+          "lang": "ja",
+          "text": "なワインを注文する。",
+          "start_sample": 19456,
+          "end_sample": 40195,
+          "start_ms": 1216,
+          "end_ms": 2512
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 123,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

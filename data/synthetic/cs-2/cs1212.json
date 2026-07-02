@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1212.flac",
+  "sentence": "We need a 新鮮 catch from the market today, otherwise the whole dish loses its 魅力.",
+  "sample_rate": 16000,
+  "duration_ms": 6563,
+  "reference_speaker": "en/speaker_034_add467545a59.mp3",
+  "seed": 18067,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We need a",
+      "start_sample": 0,
+      "end_sample": 10211,
+      "start_ms": 0,
+      "end_ms": 638
+    },
+    {
+      "lang": "ja",
+      "text": "新鮮",
+      "start_sample": 10211,
+      "end_sample": 18625,
+      "start_ms": 638,
+      "end_ms": 1164
+    },
+    {
+      "lang": "en",
+      "text": "catch from the market today, otherwise the whole dish loses its",
+      "start_sample": 18625,
+      "end_sample": 98152,
+      "start_ms": 1164,
+      "end_ms": 6134
+    },
+    {
+      "lang": "ja",
+      "text": "魅力.",
+      "start_sample": 98152,
+      "end_sample": 105002,
+      "start_ms": 6134,
+      "end_ms": 6563
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We need a shinsen catch from the market today, otherwise the whole dish loses its miryoku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7068,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We need a",
+          "start_sample": 0,
+          "end_sample": 10411,
+          "start_ms": 0,
+          "end_ms": 651
+        },
+        {
+          "lang": "ja",
+          "text": "新鮮",
+          "start_sample": 10411,
+          "end_sample": 19701,
+          "start_ms": 651,
+          "end_ms": 1231
+        },
+        {
+          "lang": "en",
+          "text": "catch from the market today, otherwise the whole dish loses its",
+          "start_sample": 19701,
+          "end_sample": 99628,
+          "start_ms": 1231,
+          "end_ms": 6227
+        },
+        {
+          "lang": "ja",
+          "text": "魅力.",
+          "start_sample": 99628,
+          "end_sample": 113082,
+          "start_ms": 6227,
+          "end_ms": 7068
+        }
+      ]
+    },
+    "ja": {
+      "text": "We need a 新鮮 catch from the market today, otherwise the whole dish loses its 魅力.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5649,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We need a",
+          "start_sample": 0,
+          "end_sample": 8012,
+          "start_ms": 0,
+          "end_ms": 501
+        },
+        {
+          "lang": "ja",
+          "text": "新鮮",
+          "start_sample": 8012,
+          "end_sample": 16826,
+          "start_ms": 501,
+          "end_ms": 1052
+        },
+        {
+          "lang": "en",
+          "text": "catch from the market today, otherwise the whole dish loses its",
+          "start_sample": 16826,
+          "end_sample": 83334,
+          "start_ms": 1052,
+          "end_ms": 5208
+        },
+        {
+          "lang": "ja",
+          "text": "魅力.",
+          "start_sample": 83334,
+          "end_sample": 90384,
+          "start_ms": 5208,
+          "end_ms": 5649
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 329,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs768.flac",
+  "sentence": "She handed the 領収書 to her boss for expense reimbursement.",
+  "sample_rate": 16000,
+  "duration_ms": 4085,
+  "reference_speaker": "jp/speaker_083_f660ed2250be.mp3",
+  "seed": 810,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She handed the",
+      "start_sample": 0,
+      "end_sample": 9920,
+      "start_ms": 0,
+      "end_ms": 620
+    },
+    {
+      "lang": "ja",
+      "text": "領収書",
+      "start_sample": 9920,
+      "end_sample": 20103,
+      "start_ms": 620,
+      "end_ms": 1256
+    },
+    {
+      "lang": "en",
+      "text": "to her boss for expense reimbursement.",
+      "start_sample": 20103,
+      "end_sample": 65362,
+      "start_ms": 1256,
+      "end_ms": 4085
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She handed the ryoushuu kaki to her boss for expense reimbursement.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4739,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She handed the",
+          "start_sample": 0,
+          "end_sample": 10120,
+          "start_ms": 0,
+          "end_ms": 632
+        },
+        {
+          "lang": "ja",
+          "text": "領収書",
+          "start_sample": 10120,
+          "end_sample": 30362,
+          "start_ms": 632,
+          "end_ms": 1898
+        },
+        {
+          "lang": "en",
+          "text": "to her boss for expense reimbursement.",
+          "start_sample": 30362,
+          "end_sample": 75821,
+          "start_ms": 1898,
+          "end_ms": 4739
+        }
+      ]
+    },
+    "ja": {
+      "text": "She handed the 領収書 to her boss for expense reimbursement.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4810,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She handed the",
+          "start_sample": 0,
+          "end_sample": 13467,
+          "start_ms": 0,
+          "end_ms": 842
+        },
+        {
+          "lang": "ja",
+          "text": "領収書",
+          "start_sample": 13467,
+          "end_sample": 24050,
+          "start_ms": 842,
+          "end_ms": 1503
+        },
+        {
+          "lang": "en",
+          "text": "to her boss for expense reimbursement.",
+          "start_sample": 24050,
+          "end_sample": 76964,
+          "start_ms": 1503,
+          "end_ms": 4810
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 205,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

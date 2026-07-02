@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5593.flac",
+  "sentence": "空がpinkとオレンジに染まる夕焼けが一番好きです。",
+  "sample_rate": 16000,
+  "duration_ms": 4267,
+  "reference_speaker": "jp/speaker_084_122c648d361d.mp3",
+  "seed": 5635,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "空が",
+      "start_sample": 0,
+      "end_sample": 5569,
+      "start_ms": 0,
+      "end_ms": 348
+    },
+    {
+      "lang": "en",
+      "text": "pink",
+      "start_sample": 5569,
+      "end_sample": 17833,
+      "start_ms": 348,
+      "end_ms": 1115
+    },
+    {
+      "lang": "ja",
+      "text": "とオレンジに染まる夕焼けが一番好きです。",
+      "start_sample": 17833,
+      "end_sample": 68277,
+      "start_ms": 1115,
+      "end_ms": 4267
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sora ga pink to orenji ni somaru yuuyake ga ichiban suki desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7474,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "空が",
+          "start_sample": 0,
+          "end_sample": 8976,
+          "start_ms": 0,
+          "end_ms": 561
+        },
+        {
+          "lang": "en",
+          "text": "pink",
+          "start_sample": 8976,
+          "end_sample": 21640,
+          "start_ms": 561,
+          "end_ms": 1352
+        },
+        {
+          "lang": "ja",
+          "text": "とオレンジに染まる夕焼けが一番好きです。",
+          "start_sample": 21640,
+          "end_sample": 119584,
+          "start_ms": 1352,
+          "end_ms": 7474
+        }
+      ]
+    },
+    "ja": {
+      "text": "空がpinkとオレンジに染まる夕焼けが一番好きです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3846,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "空が",
+          "start_sample": 0,
+          "end_sample": 5769,
+          "start_ms": 0,
+          "end_ms": 361
+        },
+        {
+          "lang": "en",
+          "text": "pink",
+          "start_sample": 5769,
+          "end_sample": 10898,
+          "start_ms": 361,
+          "end_ms": 681
+        },
+        {
+          "lang": "ja",
+          "text": "とオレンジに染まる夕焼けが一番好きです。",
+          "start_sample": 10898,
+          "end_sample": 61542,
+          "start_ms": 681,
+          "end_ms": 3846
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 214,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

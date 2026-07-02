@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6576.flac",
+  "sentence": "The 霧 this morning was so thick I could barely see across the street.",
+  "sample_rate": 16000,
+  "duration_ms": 4057,
+  "reference_speaker": "jp/speaker_073_b4ca3157591f.mp3",
+  "seed": 6618,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1562,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "霧",
+      "start_sample": 1562,
+      "end_sample": 7750,
+      "start_ms": 98,
+      "end_ms": 484
+    },
+    {
+      "lang": "en",
+      "text": "this morning was so thick I could barely see across the street.",
+      "start_sample": 7750,
+      "end_sample": 64916,
+      "start_ms": 484,
+      "end_ms": 4057
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kiri this morning was so thick I could barely see across the street.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4026,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1762,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "霧",
+          "start_sample": 1762,
+          "end_sample": 7050,
+          "start_ms": 110,
+          "end_ms": 441
+        },
+        {
+          "lang": "en",
+          "text": "this morning was so thick I could barely see across the street.",
+          "start_sample": 7050,
+          "end_sample": 64416,
+          "start_ms": 441,
+          "end_ms": 4026
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 霧 this morning was so thick I could barely see across the street.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4539,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4338,
+          "start_ms": 0,
+          "end_ms": 271
+        },
+        {
+          "lang": "ja",
+          "text": "霧",
+          "start_sample": 4338,
+          "end_sample": 10926,
+          "start_ms": 271,
+          "end_ms": 683
+        },
+        {
+          "lang": "en",
+          "text": "this morning was so thick I could barely see across the street.",
+          "start_sample": 10926,
+          "end_sample": 72628,
+          "start_ms": 683,
+          "end_ms": 4539
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

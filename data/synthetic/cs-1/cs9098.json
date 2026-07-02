@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9098.flac",
+  "sentence": "お正月に着るformal服をまだ選んでいない。",
+  "sample_rate": 16000,
+  "duration_ms": 3371,
+  "reference_speaker": "en/speaker_016_fcffb37fddea.mp3",
+  "seed": 9140,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "お正月に着る",
+      "start_sample": 0,
+      "end_sample": 15871,
+      "start_ms": 0,
+      "end_ms": 992
+    },
+    {
+      "lang": "en",
+      "text": "formal",
+      "start_sample": 15871,
+      "end_sample": 32600,
+      "start_ms": 992,
+      "end_ms": 2038
+    },
+    {
+      "lang": "ja",
+      "text": "服をまだ選んでいない。",
+      "start_sample": 32600,
+      "end_sample": 53937,
+      "start_ms": 2038,
+      "end_ms": 3371
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "o shougatsu ni kiru formal fuku wo mada eran de i nai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7984,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お正月に着る",
+          "start_sample": 0,
+          "end_sample": 34737,
+          "start_ms": 0,
+          "end_ms": 2171
+        },
+        {
+          "lang": "en",
+          "text": "formal",
+          "start_sample": 34737,
+          "end_sample": 51866,
+          "start_ms": 2171,
+          "end_ms": 3242
+        },
+        {
+          "lang": "ja",
+          "text": "服をまだ選んでいない。",
+          "start_sample": 51866,
+          "end_sample": 127744,
+          "start_ms": 3242,
+          "end_ms": 7984
+        }
+      ]
+    },
+    "ja": {
+      "text": "お正月に着るformal服をまだ選んでいない。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2853,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お正月に着る",
+          "start_sample": 0,
+          "end_sample": 16071,
+          "start_ms": 0,
+          "end_ms": 1004
+        },
+        {
+          "lang": "en",
+          "text": "formal",
+          "start_sample": 16071,
+          "end_sample": 24110,
+          "start_ms": 1004,
+          "end_ms": 1507
+        },
+        {
+          "lang": "ja",
+          "text": "服をまだ選んでいない。",
+          "start_sample": 24110,
+          "end_sample": 45647,
+          "start_ms": 1507,
+          "end_ms": 2853
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 169,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9983.flac",
+  "sentence": "She looked so 青白い after the accident that I thought she might faint.",
+  "sample_rate": 16000,
+  "duration_ms": 5470,
+  "reference_speaker": "jp/speaker_050_3d86fef9a9be.mp3",
+  "seed": 10025,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She looked so",
+      "start_sample": 0,
+      "end_sample": 17112,
+      "start_ms": 0,
+      "end_ms": 1070
+    },
+    {
+      "lang": "ja",
+      "text": "青白い",
+      "start_sample": 17112,
+      "end_sample": 37544,
+      "start_ms": 1070,
+      "end_ms": 2346
+    },
+    {
+      "lang": "en",
+      "text": "after the accident that I thought she might faint.",
+      "start_sample": 37544,
+      "end_sample": 87518,
+      "start_ms": 2346,
+      "end_ms": 5470
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She looked so aojiroi after the accident that I thought she might faint.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5470,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She looked so",
+          "start_sample": 0,
+          "end_sample": 17312,
+          "start_ms": 0,
+          "end_ms": 1082
+        },
+        {
+          "lang": "ja",
+          "text": "青白い",
+          "start_sample": 17312,
+          "end_sample": 37350,
+          "start_ms": 1082,
+          "end_ms": 2334
+        },
+        {
+          "lang": "en",
+          "text": "after the accident that I thought she might faint.",
+          "start_sample": 37350,
+          "end_sample": 87524,
+          "start_ms": 2334,
+          "end_ms": 5470
+        }
+      ]
+    },
+    "ja": {
+      "text": "She looked so 青白い after the accident that I thought she might faint.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6890,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She looked so",
+          "start_sample": 0,
+          "end_sample": 23234,
+          "start_ms": 0,
+          "end_ms": 1452
+        },
+        {
+          "lang": "ja",
+          "text": "青白い",
+          "start_sample": 23234,
+          "end_sample": 44066,
+          "start_ms": 1452,
+          "end_ms": 2754
+        },
+        {
+          "lang": "en",
+          "text": "after the accident that I thought she might faint.",
+          "start_sample": 44066,
+          "end_sample": 110245,
+          "start_ms": 2754,
+          "end_ms": 6890
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 274,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

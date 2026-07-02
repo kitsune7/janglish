@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9373.flac",
+  "sentence": "あの曲のharmonyが複雑すぎて、なかなか覚えられない。",
+  "sample_rate": 16000,
+  "duration_ms": 4101,
+  "reference_speaker": "jp/speaker_018_b5ccf3bf7c65.mp3",
+  "seed": 9415,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの曲の",
+      "start_sample": 0,
+      "end_sample": 8786,
+      "start_ms": 0,
+      "end_ms": 549
+    },
+    {
+      "lang": "en",
+      "text": "harmony",
+      "start_sample": 8786,
+      "end_sample": 21370,
+      "start_ms": 549,
+      "end_ms": 1336
+    },
+    {
+      "lang": "ja",
+      "text": "が複雑すぎて、なかなか覚えられない。",
+      "start_sample": 21370,
+      "end_sample": 65620,
+      "start_ms": 1336,
+      "end_ms": 4101
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano kyoku no harmony ga fukuzatsu sugi te nakanaka oboe rare nai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8977,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの曲の",
+          "start_sample": 0,
+          "end_sample": 41837,
+          "start_ms": 0,
+          "end_ms": 2615
+        },
+        {
+          "lang": "en",
+          "text": "harmony",
+          "start_sample": 41837,
+          "end_sample": 54821,
+          "start_ms": 2615,
+          "end_ms": 3426
+        },
+        {
+          "lang": "ja",
+          "text": "が複雑すぎて、なかなか覚えられない。",
+          "start_sample": 54821,
+          "end_sample": 143626,
+          "start_ms": 3426,
+          "end_ms": 8977
+        }
+      ]
+    },
+    "ja": {
+      "text": "あの曲のharmonyが複雑すぎて、なかなか覚えられない。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3851,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの曲の",
+          "start_sample": 0,
+          "end_sample": 8986,
+          "start_ms": 0,
+          "end_ms": 562
+        },
+        {
+          "lang": "en",
+          "text": "harmony",
+          "start_sample": 8986,
+          "end_sample": 17170,
+          "start_ms": 562,
+          "end_ms": 1073
+        },
+        {
+          "lang": "ja",
+          "text": "が複雑すぎて、なかなか覚えられない。",
+          "start_sample": 17170,
+          "end_sample": 61620,
+          "start_ms": 1073,
+          "end_ms": 3851
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 206,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

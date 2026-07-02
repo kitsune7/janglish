@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5974.flac",
+  "sentence": "駅のlost and found に財布を届けてもらった。",
+  "sample_rate": 16000,
+  "duration_ms": 3357,
+  "reference_speaker": "jp/speaker_086_b5416e90d3b7.mp3",
+  "seed": 6016,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "駅の",
+      "start_sample": 0,
+      "end_sample": 5431,
+      "start_ms": 0,
+      "end_ms": 339
+    },
+    {
+      "lang": "en",
+      "text": "lost and found",
+      "start_sample": 5431,
+      "end_sample": 25431,
+      "start_ms": 339,
+      "end_ms": 1589
+    },
+    {
+      "lang": "ja",
+      "text": "に財布を届けてもらった。",
+      "start_sample": 25431,
+      "end_sample": 53705,
+      "start_ms": 1589,
+      "end_ms": 3357
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "eki no lost and found ni saifu wo todoke te moratsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4537,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "駅の",
+          "start_sample": 0,
+          "end_sample": 8991,
+          "start_ms": 0,
+          "end_ms": 562
+        },
+        {
+          "lang": "en",
+          "text": "lost and found",
+          "start_sample": 8991,
+          "end_sample": 29391,
+          "start_ms": 562,
+          "end_ms": 1837
+        },
+        {
+          "lang": "ja",
+          "text": "に財布を届けてもらった。",
+          "start_sample": 29391,
+          "end_sample": 72597,
+          "start_ms": 1837,
+          "end_ms": 4537
+        }
+      ]
+    },
+    "ja": {
+      "text": "駅のlost and found に財布を届けてもらった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3198,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "駅の",
+          "start_sample": 0,
+          "end_sample": 5631,
+          "start_ms": 0,
+          "end_ms": 352
+        },
+        {
+          "lang": "en",
+          "text": "lost and found",
+          "start_sample": 5631,
+          "end_sample": 22686,
+          "start_ms": 352,
+          "end_ms": 1418
+        },
+        {
+          "lang": "ja",
+          "text": "に財布を届けてもらった。",
+          "start_sample": 22686,
+          "end_sample": 51160,
+          "start_ms": 1418,
+          "end_ms": 3198
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 168,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

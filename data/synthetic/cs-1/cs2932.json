@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2932.flac",
+  "sentence": "The 石膏 cast in the corner is actually a reproduction of a Roman original.",
+  "sample_rate": 16000,
+  "duration_ms": 4058,
+  "reference_speaker": "en/speaker_014_9db071da66e5.mp3",
+  "seed": 2974,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1723,
+      "start_ms": 0,
+      "end_ms": 108
+    },
+    {
+      "lang": "ja",
+      "text": "石膏",
+      "start_sample": 1723,
+      "end_sample": 7569,
+      "start_ms": 108,
+      "end_ms": 473
+    },
+    {
+      "lang": "en",
+      "text": "cast in the corner is actually a reproduction of a Roman original.",
+      "start_sample": 7569,
+      "end_sample": 64931,
+      "start_ms": 473,
+      "end_ms": 4058
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The sekkou cast in the corner is actually a reproduction of a Roman original.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4189,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1923,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "石膏",
+          "start_sample": 1923,
+          "end_sample": 9460,
+          "start_ms": 120,
+          "end_ms": 591
+        },
+        {
+          "lang": "en",
+          "text": "cast in the corner is actually a reproduction of a Roman original.",
+          "start_sample": 9460,
+          "end_sample": 67022,
+          "start_ms": 591,
+          "end_ms": 4189
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 石膏 cast in the corner is actually a reproduction of a Roman original.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5665,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2081,
+          "start_ms": 0,
+          "end_ms": 130
+        },
+        {
+          "lang": "ja",
+          "text": "石膏",
+          "start_sample": 2081,
+          "end_sample": 8327,
+          "start_ms": 130,
+          "end_ms": 520
+        },
+        {
+          "lang": "en",
+          "text": "cast in the corner is actually a reproduction of a Roman original.",
+          "start_sample": 8327,
+          "end_sample": 90641,
+          "start_ms": 520,
+          "end_ms": 5665
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

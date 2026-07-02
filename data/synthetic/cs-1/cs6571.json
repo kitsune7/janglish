@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6571.flac",
+  "sentence": "The 嵐 last night knocked over three of my potted plants.",
+  "sample_rate": 16000,
+  "duration_ms": 3776,
+  "reference_speaker": "en/speaker_054_103b0eb5778e.mp3",
+  "seed": 6613,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1402,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "嵐",
+      "start_sample": 1402,
+      "end_sample": 9973,
+      "start_ms": 88,
+      "end_ms": 623
+    },
+    {
+      "lang": "en",
+      "text": "last night knocked over three of my potted plants.",
+      "start_sample": 9973,
+      "end_sample": 60418,
+      "start_ms": 623,
+      "end_ms": 3776
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The arashi last night knocked over three of my potted plants.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3786,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1602,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "嵐",
+          "start_sample": 1602,
+          "end_sample": 9936,
+          "start_ms": 100,
+          "end_ms": 621
+        },
+        {
+          "lang": "en",
+          "text": "last night knocked over three of my potted plants.",
+          "start_sample": 9936,
+          "end_sample": 60581,
+          "start_ms": 621,
+          "end_ms": 3786
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 嵐 last night knocked over three of my potted plants.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5226,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3684,
+          "start_ms": 0,
+          "end_ms": 230
+        },
+        {
+          "lang": "ja",
+          "text": "嵐",
+          "start_sample": 3684,
+          "end_sample": 12655,
+          "start_ms": 230,
+          "end_ms": 791
+        },
+        {
+          "lang": "en",
+          "text": "last night knocked over three of my potted plants.",
+          "start_sample": 12655,
+          "end_sample": 83622,
+          "start_ms": 791,
+          "end_ms": 5226
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 189,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

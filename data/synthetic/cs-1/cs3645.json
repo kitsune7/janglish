@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3645.flac",
+  "sentence": "彼はchronicな腰痛で、ずっと苦労しています。",
+  "sample_rate": 16000,
+  "duration_ms": 4019,
+  "reference_speaker": "en/speaker_085_1a04e2db0811.mp3",
+  "seed": 3687,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼は",
+      "start_sample": 0,
+      "end_sample": 10414,
+      "start_ms": 0,
+      "end_ms": 651
+    },
+    {
+      "lang": "en",
+      "text": "chronic",
+      "start_sample": 10414,
+      "end_sample": 19473,
+      "start_ms": 651,
+      "end_ms": 1217
+    },
+    {
+      "lang": "ja",
+      "text": "な腰痛で、ずっと苦労しています。",
+      "start_sample": 19473,
+      "end_sample": 64302,
+      "start_ms": 1217,
+      "end_ms": 4019
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha chronic na youtsuu de zutto kurou shi te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5010,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 11863,
+          "start_ms": 0,
+          "end_ms": 741
+        },
+        {
+          "lang": "en",
+          "text": "chronic",
+          "start_sample": 11863,
+          "end_sample": 21322,
+          "start_ms": 741,
+          "end_ms": 1333
+        },
+        {
+          "lang": "ja",
+          "text": "な腰痛で、ずっと苦労しています。",
+          "start_sample": 21322,
+          "end_sample": 80159,
+          "start_ms": 1333,
+          "end_ms": 5010
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はchronicな腰痛で、ずっと苦労しています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4362,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 10614,
+          "start_ms": 0,
+          "end_ms": 663
+        },
+        {
+          "lang": "en",
+          "text": "chronic",
+          "start_sample": 10614,
+          "end_sample": 24768,
+          "start_ms": 663,
+          "end_ms": 1548
+        },
+        {
+          "lang": "ja",
+          "text": "な腰痛で、ずっと苦労しています。",
+          "start_sample": 24768,
+          "end_sample": 69797,
+          "start_ms": 1548,
+          "end_ms": 4362
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

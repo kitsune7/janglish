@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3290.flac",
+  "sentence": "このgraffitiは違法ではなく、市が依頼したアート作品だ。",
+  "sample_rate": 16000,
+  "duration_ms": 4349,
+  "reference_speaker": "en/speaker_034_add467545a59.mp3",
+  "seed": 3332,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3967,
+      "start_ms": 0,
+      "end_ms": 248
+    },
+    {
+      "lang": "en",
+      "text": "graffiti",
+      "start_sample": 3967,
+      "end_sample": 22157,
+      "start_ms": 248,
+      "end_ms": 1385
+    },
+    {
+      "lang": "ja",
+      "text": "は違法ではなく、市が依頼したアート作品だ。",
+      "start_sample": 22157,
+      "end_sample": 69586,
+      "start_ms": 1385,
+      "end_ms": 4349
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono graffiti ha ihou de ha naku shi ga irai shi ta aato sakuhin da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10377,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5769,
+          "start_ms": 0,
+          "end_ms": 361
+        },
+        {
+          "lang": "en",
+          "text": "graffiti",
+          "start_sample": 5769,
+          "end_sample": 24359,
+          "start_ms": 361,
+          "end_ms": 1522
+        },
+        {
+          "lang": "ja",
+          "text": "は違法ではなく、市が依頼したアート作品だ。",
+          "start_sample": 24359,
+          "end_sample": 166027,
+          "start_ms": 1522,
+          "end_ms": 10377
+        }
+      ]
+    },
+    "ja": {
+      "text": "このgraffitiは違法ではなく、市が依頼したアート作品だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3688,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4167,
+          "start_ms": 0,
+          "end_ms": 260
+        },
+        {
+          "lang": "en",
+          "text": "graffiti",
+          "start_sample": 4167,
+          "end_sample": 11384,
+          "start_ms": 260,
+          "end_ms": 712
+        },
+        {
+          "lang": "ja",
+          "text": "は違法ではなく、市が依頼したアート作品だ。",
+          "start_sample": 11384,
+          "end_sample": 59013,
+          "start_ms": 712,
+          "end_ms": 3688
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "jjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

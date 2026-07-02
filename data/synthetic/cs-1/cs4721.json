@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4721.flac",
+  "sentence": "彼女はdeadlineに間に合わせるために、夜遅くまで頑張った。",
+  "sample_rate": 16000,
+  "duration_ms": 4192,
+  "reference_speaker": "en/speaker_034_add467545a59.mp3",
+  "seed": 4763,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は",
+      "start_sample": 0,
+      "end_sample": 7824,
+      "start_ms": 0,
+      "end_ms": 489
+    },
+    {
+      "lang": "en",
+      "text": "deadline",
+      "start_sample": 7824,
+      "end_sample": 24730,
+      "start_ms": 489,
+      "end_ms": 1546
+    },
+    {
+      "lang": "ja",
+      "text": "に間に合わせるために、夜遅くまで頑張った。",
+      "start_sample": 24730,
+      "end_sample": 67076,
+      "start_ms": 1546,
+      "end_ms": 4192
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha deadline ni maniawa seru tame ni yoru osoku made ganbatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10495,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 22272,
+          "start_ms": 0,
+          "end_ms": 1392
+        },
+        {
+          "lang": "en",
+          "text": "deadline",
+          "start_sample": 22272,
+          "end_sample": 39578,
+          "start_ms": 1392,
+          "end_ms": 2474
+        },
+        {
+          "lang": "ja",
+          "text": "に間に合わせるために、夜遅くまで頑張った。",
+          "start_sample": 39578,
+          "end_sample": 167926,
+          "start_ms": 2474,
+          "end_ms": 10495
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はdeadlineに間に合わせるために、夜遅くまで頑張った。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3612,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 8024,
+          "start_ms": 0,
+          "end_ms": 501
+        },
+        {
+          "lang": "en",
+          "text": "deadline",
+          "start_sample": 8024,
+          "end_sample": 15250,
+          "start_ms": 501,
+          "end_ms": 953
+        },
+        {
+          "lang": "ja",
+          "text": "に間に合わせるために、夜遅くまで頑張った。",
+          "start_sample": 15250,
+          "end_sample": 57796,
+          "start_ms": 953,
+          "end_ms": 3612
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

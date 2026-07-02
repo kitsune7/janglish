@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9693.flac",
+  "sentence": "このマンションのlobbyはとても広くて、高級感がある。",
+  "sample_rate": 16000,
+  "duration_ms": 3699,
+  "reference_speaker": "jp/speaker_041_36b0f2924199.mp3",
+  "seed": 9735,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このマンションの",
+      "start_sample": 0,
+      "end_sample": 12833,
+      "start_ms": 0,
+      "end_ms": 802
+    },
+    {
+      "lang": "en",
+      "text": "lobby",
+      "start_sample": 12833,
+      "end_sample": 22699,
+      "start_ms": 802,
+      "end_ms": 1419
+    },
+    {
+      "lang": "ja",
+      "text": "はとても広くて、高級感がある。",
+      "start_sample": 22699,
+      "end_sample": 59182,
+      "start_ms": 1419,
+      "end_ms": 3699
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono manshon no lobby ha totemo hiroku te koukyuu kan ga aru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6537,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このマンションの",
+          "start_sample": 0,
+          "end_sample": 31281,
+          "start_ms": 0,
+          "end_ms": 1955
+        },
+        {
+          "lang": "en",
+          "text": "lobby",
+          "start_sample": 31281,
+          "end_sample": 41547,
+          "start_ms": 1955,
+          "end_ms": 2597
+        },
+        {
+          "lang": "ja",
+          "text": "はとても広くて、高級感がある。",
+          "start_sample": 41547,
+          "end_sample": 104588,
+          "start_ms": 2597,
+          "end_ms": 6537
+        }
+      ]
+    },
+    "ja": {
+      "text": "このマンションのlobbyはとても広くて、高級感がある。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3399,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このマンションの",
+          "start_sample": 0,
+          "end_sample": 13033,
+          "start_ms": 0,
+          "end_ms": 815
+        },
+        {
+          "lang": "en",
+          "text": "lobby",
+          "start_sample": 13033,
+          "end_sample": 17700,
+          "start_ms": 815,
+          "end_ms": 1106
+        },
+        {
+          "lang": "ja",
+          "text": "はとても広くて、高級感がある。",
+          "start_sample": 17700,
+          "end_sample": 54383,
+          "start_ms": 1106,
+          "end_ms": 3399
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 185,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

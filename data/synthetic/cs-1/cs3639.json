@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3639.flac",
+  "sentence": "最近、どうもimmuneが弱っている気がします。",
+  "sample_rate": 16000,
+  "duration_ms": 4178,
+  "reference_speaker": "jp/speaker_015_c26b5026d437.mp3",
+  "seed": 3681,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "最近、どうも",
+      "start_sample": 0,
+      "end_sample": 21656,
+      "start_ms": 0,
+      "end_ms": 1354
+    },
+    {
+      "lang": "en",
+      "text": "immune",
+      "start_sample": 21656,
+      "end_sample": 38121,
+      "start_ms": 1354,
+      "end_ms": 2383
+    },
+    {
+      "lang": "ja",
+      "text": "が弱っている気がします。",
+      "start_sample": 38121,
+      "end_sample": 66845,
+      "start_ms": 2383,
+      "end_ms": 4178
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "saikin dou mo immune ga yowatsu te iru ki ga shi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5642,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "最近、どうも",
+          "start_sample": 0,
+          "end_sample": 13171,
+          "start_ms": 0,
+          "end_ms": 823
+        },
+        {
+          "lang": "en",
+          "text": "immune",
+          "start_sample": 13171,
+          "end_sample": 30036,
+          "start_ms": 823,
+          "end_ms": 1877
+        },
+        {
+          "lang": "ja",
+          "text": "が弱っている気がします。",
+          "start_sample": 30036,
+          "end_sample": 90269,
+          "start_ms": 1877,
+          "end_ms": 5642
+        }
+      ]
+    },
+    "ja": {
+      "text": "最近、どうもimmuneが弱っている気がします。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3596,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "最近、どうも",
+          "start_sample": 0,
+          "end_sample": 21856,
+          "start_ms": 0,
+          "end_ms": 1366
+        },
+        {
+          "lang": "en",
+          "text": "immune",
+          "start_sample": 21856,
+          "end_sample": 28606,
+          "start_ms": 1366,
+          "end_ms": 1788
+        },
+        {
+          "lang": "ja",
+          "text": "が弱っている気がします。",
+          "start_sample": 28606,
+          "end_sample": 57530,
+          "start_ms": 1788,
+          "end_ms": 3596
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 209,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

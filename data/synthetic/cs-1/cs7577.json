@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7577.flac",
+  "sentence": "彼はとても analyticalな考え方をする人だ。",
+  "sample_rate": 16000,
+  "duration_ms": 3488,
+  "reference_speaker": "en/speaker_083_60e45fe6f2e9.mp3",
+  "seed": 7619,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼はとても",
+      "start_sample": 0,
+      "end_sample": 11571,
+      "start_ms": 0,
+      "end_ms": 723
+    },
+    {
+      "lang": "en",
+      "text": "analytical",
+      "start_sample": 11571,
+      "end_sample": 32315,
+      "start_ms": 723,
+      "end_ms": 2020
+    },
+    {
+      "lang": "ja",
+      "text": "な考え方をする人だ。",
+      "start_sample": 32315,
+      "end_sample": 55812,
+      "start_ms": 2020,
+      "end_ms": 3488
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha totemo analytical na kangae hou wo suru nin da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8069,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼はとても",
+          "start_sample": 0,
+          "end_sample": 37481,
+          "start_ms": 0,
+          "end_ms": 2343
+        },
+        {
+          "lang": "en",
+          "text": "analytical",
+          "start_sample": 37481,
+          "end_sample": 58625,
+          "start_ms": 2343,
+          "end_ms": 3664
+        },
+        {
+          "lang": "ja",
+          "text": "な考え方をする人だ。",
+          "start_sample": 58625,
+          "end_sample": 129103,
+          "start_ms": 3664,
+          "end_ms": 8069
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はとても analyticalな考え方をする人だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2842,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼はとても",
+          "start_sample": 0,
+          "end_sample": 11771,
+          "start_ms": 0,
+          "end_ms": 736
+        },
+        {
+          "lang": "en",
+          "text": "analytical",
+          "start_sample": 11771,
+          "end_sample": 21768,
+          "start_ms": 736,
+          "end_ms": 1360
+        },
+        {
+          "lang": "ja",
+          "text": "な考え方をする人だ。",
+          "start_sample": 21768,
+          "end_sample": 45465,
+          "start_ms": 1360,
+          "end_ms": 2842
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

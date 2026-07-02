@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6579.flac",
+  "sentence": "The wind has this 爽やか quality in early autumn that I can't quite describe.",
+  "sample_rate": 16000,
+  "duration_ms": 5950,
+  "reference_speaker": "en/speaker_052_622e6181fea2.mp3",
+  "seed": 6621,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The wind has this",
+      "start_sample": 0,
+      "end_sample": 14891,
+      "start_ms": 0,
+      "end_ms": 931
+    },
+    {
+      "lang": "ja",
+      "text": "爽やか",
+      "start_sample": 14891,
+      "end_sample": 23796,
+      "start_ms": 931,
+      "end_ms": 1487
+    },
+    {
+      "lang": "en",
+      "text": "quality in early autumn that I can't quite describe.",
+      "start_sample": 23796,
+      "end_sample": 95196,
+      "start_ms": 1487,
+      "end_ms": 5950
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The wind has this sawayaka quality in early autumn that I can't quite describe.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6100,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The wind has this",
+          "start_sample": 0,
+          "end_sample": 15091,
+          "start_ms": 0,
+          "end_ms": 943
+        },
+        {
+          "lang": "ja",
+          "text": "爽やか",
+          "start_sample": 15091,
+          "end_sample": 26008,
+          "start_ms": 943,
+          "end_ms": 1626
+        },
+        {
+          "lang": "en",
+          "text": "quality in early autumn that I can't quite describe.",
+          "start_sample": 26008,
+          "end_sample": 97608,
+          "start_ms": 1626,
+          "end_ms": 6100
+        }
+      ]
+    },
+    "ja": {
+      "text": "The wind has this 爽やか quality in early autumn that I can't quite describe.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6718,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The wind has this",
+          "start_sample": 0,
+          "end_sample": 19089,
+          "start_ms": 0,
+          "end_ms": 1193
+        },
+        {
+          "lang": "ja",
+          "text": "爽やか",
+          "start_sample": 19089,
+          "end_sample": 28394,
+          "start_ms": 1193,
+          "end_ms": 1775
+        },
+        {
+          "lang": "en",
+          "text": "quality in early autumn that I can't quite describe.",
+          "start_sample": 28394,
+          "end_sample": 107486,
+          "start_ms": 1775,
+          "end_ms": 6718
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 298,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2509.flac",
+  "sentence": "彼女はいつもconfidentに見えるが、内心は不安らしい。",
+  "sample_rate": 16000,
+  "duration_ms": 4424,
+  "reference_speaker": "jp/speaker_085_c431b4a9ddfb.mp3",
+  "seed": 2551,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女はいつも",
+      "start_sample": 0,
+      "end_sample": 16335,
+      "start_ms": 0,
+      "end_ms": 1021
+    },
+    {
+      "lang": "en",
+      "text": "confident",
+      "start_sample": 16335,
+      "end_sample": 26350,
+      "start_ms": 1021,
+      "end_ms": 1647
+    },
+    {
+      "lang": "ja",
+      "text": "に見えるが、内心は不安らしい。",
+      "start_sample": 26350,
+      "end_sample": 70787,
+      "start_ms": 1647,
+      "end_ms": 4424
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha itsu mo confident ni mieru ga naishin ha fuan rashii",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6890,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女はいつも",
+          "start_sample": 0,
+          "end_sample": 19870,
+          "start_ms": 0,
+          "end_ms": 1242
+        },
+        {
+          "lang": "en",
+          "text": "confident",
+          "start_sample": 19870,
+          "end_sample": 30285,
+          "start_ms": 1242,
+          "end_ms": 1893
+        },
+        {
+          "lang": "ja",
+          "text": "に見えるが、内心は不安らしい。",
+          "start_sample": 30285,
+          "end_sample": 110245,
+          "start_ms": 1893,
+          "end_ms": 6890
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はいつもconfidentに見えるが、内心は不安らしい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4556,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女はいつも",
+          "start_sample": 0,
+          "end_sample": 16535,
+          "start_ms": 0,
+          "end_ms": 1033
+        },
+        {
+          "lang": "en",
+          "text": "confident",
+          "start_sample": 16535,
+          "end_sample": 28257,
+          "start_ms": 1033,
+          "end_ms": 1766
+        },
+        {
+          "lang": "ja",
+          "text": "に見えるが、内心は不安らしい。",
+          "start_sample": 28257,
+          "end_sample": 72894,
+          "start_ms": 1766,
+          "end_ms": 4556
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 222,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

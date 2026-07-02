@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11681.flac",
+  "sentence": "彼女はminorとして心理学を選んだ。",
+  "sample_rate": 16000,
+  "duration_ms": 2145,
+  "reference_speaker": "jp/speaker_035_dd783030d2b8.mp3",
+  "seed": 11723,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は",
+      "start_sample": 0,
+      "end_sample": 7055,
+      "start_ms": 0,
+      "end_ms": 441
+    },
+    {
+      "lang": "en",
+      "text": "minor",
+      "start_sample": 7055,
+      "end_sample": 12597,
+      "start_ms": 441,
+      "end_ms": 787
+    },
+    {
+      "lang": "ja",
+      "text": "として心理学を選んだ。",
+      "start_sample": 12597,
+      "end_sample": 34319,
+      "start_ms": 787,
+      "end_ms": 2145
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha minor to shi te shinri gaku wo eran da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3653,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 20554,
+          "start_ms": 0,
+          "end_ms": 1285
+        },
+        {
+          "lang": "en",
+          "text": "minor",
+          "start_sample": 20554,
+          "end_sample": 26496,
+          "start_ms": 1285,
+          "end_ms": 1656
+        },
+        {
+          "lang": "ja",
+          "text": "として心理学を選んだ。",
+          "start_sample": 26496,
+          "end_sample": 58450,
+          "start_ms": 1656,
+          "end_ms": 3653
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はminorとして心理学を選んだ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2237,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 7255,
+          "start_ms": 0,
+          "end_ms": 453
+        },
+        {
+          "lang": "en",
+          "text": "minor",
+          "start_sample": 7255,
+          "end_sample": 13867,
+          "start_ms": 453,
+          "end_ms": 867
+        },
+        {
+          "lang": "ja",
+          "text": "として心理学を選んだ。",
+          "start_sample": 13867,
+          "end_sample": 35789,
+          "start_ms": 867,
+          "end_ms": 2237
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 108,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

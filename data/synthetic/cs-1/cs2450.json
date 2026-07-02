@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2450.flac",
+  "sentence": "The whole spring felt 新鮮 after such a long and heavy winter.",
+  "sample_rate": 16000,
+  "duration_ms": 3474,
+  "reference_speaker": "jp/speaker_043_1ef414c9abc5.mp3",
+  "seed": 2492,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole spring felt",
+      "start_sample": 0,
+      "end_sample": 16934,
+      "start_ms": 0,
+      "end_ms": 1058
+    },
+    {
+      "lang": "ja",
+      "text": "新鮮",
+      "start_sample": 16934,
+      "end_sample": 27445,
+      "start_ms": 1058,
+      "end_ms": 1715
+    },
+    {
+      "lang": "en",
+      "text": "after such a long and heavy winter.",
+      "start_sample": 27445,
+      "end_sample": 55590,
+      "start_ms": 1715,
+      "end_ms": 3474
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole spring felt shinsen after such a long and heavy winter.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3323,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole spring felt",
+          "start_sample": 0,
+          "end_sample": 17134,
+          "start_ms": 0,
+          "end_ms": 1071
+        },
+        {
+          "lang": "ja",
+          "text": "新鮮",
+          "start_sample": 17134,
+          "end_sample": 24821,
+          "start_ms": 1071,
+          "end_ms": 1551
+        },
+        {
+          "lang": "en",
+          "text": "after such a long and heavy winter.",
+          "start_sample": 24821,
+          "end_sample": 53166,
+          "start_ms": 1551,
+          "end_ms": 3323
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole spring felt 新鮮 after such a long and heavy winter.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4793,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole spring felt",
+          "start_sample": 0,
+          "end_sample": 28559,
+          "start_ms": 0,
+          "end_ms": 1785
+        },
+        {
+          "lang": "ja",
+          "text": "新鮮",
+          "start_sample": 28559,
+          "end_sample": 39470,
+          "start_ms": 1785,
+          "end_ms": 2467
+        },
+        {
+          "lang": "en",
+          "text": "after such a long and heavy winter.",
+          "start_sample": 39470,
+          "end_sample": 76695,
+          "start_ms": 2467,
+          "end_ms": 4793
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 174,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

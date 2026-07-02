@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11392.flac",
+  "sentence": "今日はcasualなジャケットを買いました。",
+  "sample_rate": 16000,
+  "duration_ms": 2862,
+  "reference_speaker": "jp/speaker_014_9e367176533e.mp3",
+  "seed": 11434,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日は",
+      "start_sample": 0,
+      "end_sample": 7354,
+      "start_ms": 0,
+      "end_ms": 460
+    },
+    {
+      "lang": "en",
+      "text": "casual",
+      "start_sample": 7354,
+      "end_sample": 22024,
+      "start_ms": 460,
+      "end_ms": 1376
+    },
+    {
+      "lang": "ja",
+      "text": "なジャケットを買いました。",
+      "start_sample": 22024,
+      "end_sample": 45786,
+      "start_ms": 1376,
+      "end_ms": 2862
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou ha casual na jaketto wo kai mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4810,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日は",
+          "start_sample": 0,
+          "end_sample": 8978,
+          "start_ms": 0,
+          "end_ms": 561
+        },
+        {
+          "lang": "en",
+          "text": "casual",
+          "start_sample": 8978,
+          "end_sample": 24048,
+          "start_ms": 561,
+          "end_ms": 1503
+        },
+        {
+          "lang": "ja",
+          "text": "なジャケットを買いました。",
+          "start_sample": 24048,
+          "end_sample": 76953,
+          "start_ms": 1503,
+          "end_ms": 4810
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日はcasualなジャケットを買いました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2533,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日は",
+          "start_sample": 0,
+          "end_sample": 7554,
+          "start_ms": 0,
+          "end_ms": 472
+        },
+        {
+          "lang": "en",
+          "text": "casual",
+          "start_sample": 7554,
+          "end_sample": 16562,
+          "start_ms": 472,
+          "end_ms": 1035
+        },
+        {
+          "lang": "ja",
+          "text": "なジャケットを買いました。",
+          "start_sample": 16562,
+          "end_sample": 40524,
+          "start_ms": 1035,
+          "end_ms": 2533
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 144,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

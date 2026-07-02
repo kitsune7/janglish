@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5565.flac",
+  "sentence": "あの雲はかなりthickに見えますが、雨が降りそうですか？",
+  "sample_rate": 16000,
+  "duration_ms": 4023,
+  "reference_speaker": "jp/speaker_015_c26b5026d437.mp3",
+  "seed": 5607,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの雲はかなり",
+      "start_sample": 0,
+      "end_sample": 15051,
+      "start_ms": 0,
+      "end_ms": 941
+    },
+    {
+      "lang": "en",
+      "text": "thick",
+      "start_sample": 15051,
+      "end_sample": 24755,
+      "start_ms": 941,
+      "end_ms": 1547
+    },
+    {
+      "lang": "ja",
+      "text": "に見えますが、雨が降りそうですか？",
+      "start_sample": 24755,
+      "end_sample": 64368,
+      "start_ms": 1547,
+      "end_ms": 4023
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano kumo ha kanari thick ni mie masu ga ame ga ori sou desu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6094,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの雲はかなり",
+          "start_sample": 0,
+          "end_sample": 37847,
+          "start_ms": 0,
+          "end_ms": 2365
+        },
+        {
+          "lang": "en",
+          "text": "thick",
+          "start_sample": 37847,
+          "end_sample": 47951,
+          "start_ms": 2365,
+          "end_ms": 2997
+        },
+        {
+          "lang": "ja",
+          "text": "に見えますが、雨が降りそうですか？",
+          "start_sample": 47951,
+          "end_sample": 97504,
+          "start_ms": 2997,
+          "end_ms": 6094
+        }
+      ]
+    },
+    "ja": {
+      "text": "あの雲はかなりthickに見えますが、雨が降りそうですか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3813,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの雲はかなり",
+          "start_sample": 0,
+          "end_sample": 15251,
+          "start_ms": 0,
+          "end_ms": 953
+        },
+        {
+          "lang": "en",
+          "text": "thick",
+          "start_sample": 15251,
+          "end_sample": 21192,
+          "start_ms": 953,
+          "end_ms": 1324
+        },
+        {
+          "lang": "ja",
+          "text": "に見えますが、雨が降りそうですか？",
+          "start_sample": 21192,
+          "end_sample": 61005,
+          "start_ms": 1324,
+          "end_ms": 3813
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

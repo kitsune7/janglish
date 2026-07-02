@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4566.flac",
+  "sentence": "このsituationはとても危険だと思います。",
+  "sample_rate": 16000,
+  "duration_ms": 2317,
+  "reference_speaker": "jp/speaker_086_b5416e90d3b7.mp3",
+  "seed": 4608,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 2543,
+      "start_ms": 0,
+      "end_ms": 159
+    },
+    {
+      "lang": "en",
+      "text": "situation",
+      "start_sample": 2543,
+      "end_sample": 15011,
+      "start_ms": 159,
+      "end_ms": 938
+    },
+    {
+      "lang": "ja",
+      "text": "はとても危険だと思います。",
+      "start_sample": 15011,
+      "end_sample": 37071,
+      "start_ms": 938,
+      "end_ms": 2317
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono situation ha totemo kiken da to omoi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4322,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 6755,
+          "start_ms": 0,
+          "end_ms": 422
+        },
+        {
+          "lang": "en",
+          "text": "situation",
+          "start_sample": 6755,
+          "end_sample": 19623,
+          "start_ms": 422,
+          "end_ms": 1226
+        },
+        {
+          "lang": "ja",
+          "text": "はとても危険だと思います。",
+          "start_sample": 19623,
+          "end_sample": 69160,
+          "start_ms": 1226,
+          "end_ms": 4322
+        }
+      ]
+    },
+    "ja": {
+      "text": "このsituationはとても危険だと思います。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2178,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 2743,
+          "start_ms": 0,
+          "end_ms": 171
+        },
+        {
+          "lang": "en",
+          "text": "situation",
+          "start_sample": 2743,
+          "end_sample": 12585,
+          "start_ms": 171,
+          "end_ms": 787
+        },
+        {
+          "lang": "ja",
+          "text": "はとても危険だと思います。",
+          "start_sample": 12585,
+          "end_sample": 34845,
+          "start_ms": 787,
+          "end_ms": 2178
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 116,
+  "frame_labels": "jjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6150.flac",
+  "sentence": "The twins have been 仲良し since the moment they were born.",
+  "sample_rate": 16000,
+  "duration_ms": 3321,
+  "reference_speaker": "en/speaker_003_7963691c43c8.mp3",
+  "seed": 6192,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The twins have been",
+      "start_sample": 0,
+      "end_sample": 14724,
+      "start_ms": 0,
+      "end_ms": 920
+    },
+    {
+      "lang": "ja",
+      "text": "仲良し",
+      "start_sample": 14724,
+      "end_sample": 24123,
+      "start_ms": 920,
+      "end_ms": 1508
+    },
+    {
+      "lang": "en",
+      "text": "since the moment they were born.",
+      "start_sample": 24123,
+      "end_sample": 53129,
+      "start_ms": 1508,
+      "end_ms": 3321
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The twins have been nakayoshi since the moment they were born.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3811,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The twins have been",
+          "start_sample": 0,
+          "end_sample": 14924,
+          "start_ms": 0,
+          "end_ms": 933
+        },
+        {
+          "lang": "ja",
+          "text": "仲良し",
+          "start_sample": 14924,
+          "end_sample": 31774,
+          "start_ms": 933,
+          "end_ms": 1986
+        },
+        {
+          "lang": "en",
+          "text": "since the moment they were born.",
+          "start_sample": 31774,
+          "end_sample": 60980,
+          "start_ms": 1986,
+          "end_ms": 3811
+        }
+      ]
+    },
+    "ja": {
+      "text": "The twins have been 仲良し since the moment they were born.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3594,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The twins have been",
+          "start_sample": 0,
+          "end_sample": 19274,
+          "start_ms": 0,
+          "end_ms": 1205
+        },
+        {
+          "lang": "ja",
+          "text": "仲良し",
+          "start_sample": 19274,
+          "end_sample": 29073,
+          "start_ms": 1205,
+          "end_ms": 1817
+        },
+        {
+          "lang": "en",
+          "text": "since the moment they were born.",
+          "start_sample": 29073,
+          "end_sample": 57501,
+          "start_ms": 1817,
+          "end_ms": 3594
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 167,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

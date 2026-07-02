@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10319.flac",
+  "sentence": "高速のon-rampはもう少し先にあります。",
+  "sample_rate": 16000,
+  "duration_ms": 4020,
+  "reference_speaker": "jp/speaker_098_e4abe7929ff4.mp3",
+  "seed": 10361,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "高速の",
+      "start_sample": 0,
+      "end_sample": 10707,
+      "start_ms": 0,
+      "end_ms": 669
+    },
+    {
+      "lang": "en",
+      "text": "on-ramp",
+      "start_sample": 10707,
+      "end_sample": 36611,
+      "start_ms": 669,
+      "end_ms": 2288
+    },
+    {
+      "lang": "ja",
+      "text": "はもう少し先にあります。",
+      "start_sample": 36611,
+      "end_sample": 64321,
+      "start_ms": 2288,
+      "end_ms": 4020
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kousoku no on-ramp ha mou sukoshi saki ni ari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7438,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "高速の",
+          "start_sample": 0,
+          "end_sample": 24379,
+          "start_ms": 0,
+          "end_ms": 1524
+        },
+        {
+          "lang": "en",
+          "text": "on-ramp",
+          "start_sample": 24379,
+          "end_sample": 50683,
+          "start_ms": 1524,
+          "end_ms": 3168
+        },
+        {
+          "lang": "ja",
+          "text": "はもう少し先にあります。",
+          "start_sample": 50683,
+          "end_sample": 119008,
+          "start_ms": 3168,
+          "end_ms": 7438
+        }
+      ]
+    },
+    "ja": {
+      "text": "高速のon-rampはもう少し先にあります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2967,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "高速の",
+          "start_sample": 0,
+          "end_sample": 10907,
+          "start_ms": 0,
+          "end_ms": 682
+        },
+        {
+          "lang": "en",
+          "text": "on-ramp",
+          "start_sample": 10907,
+          "end_sample": 19569,
+          "start_ms": 682,
+          "end_ms": 1223
+        },
+        {
+          "lang": "ja",
+          "text": "はもう少し先にあります。",
+          "start_sample": 19569,
+          "end_sample": 47479,
+          "start_ms": 1223,
+          "end_ms": 2967
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

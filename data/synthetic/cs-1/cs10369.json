@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10369.flac",
+  "sentence": "We want something with a 南向き exposure to maximize the natural light throughout the day.",
+  "sample_rate": 16000,
+  "duration_ms": 6096,
+  "reference_speaker": "en/speaker_018_b0dec8b93359.mp3",
+  "seed": 10411,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We want something with a",
+      "start_sample": 0,
+      "end_sample": 16647,
+      "start_ms": 0,
+      "end_ms": 1040
+    },
+    {
+      "lang": "ja",
+      "text": "南向き",
+      "start_sample": 16647,
+      "end_sample": 33238,
+      "start_ms": 1040,
+      "end_ms": 2077
+    },
+    {
+      "lang": "en",
+      "text": "exposure to maximize the natural light throughout the day.",
+      "start_sample": 33238,
+      "end_sample": 97540,
+      "start_ms": 2077,
+      "end_ms": 6096
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We want something with a minamimuki exposure to maximize the natural light throughout the day.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6338,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We want something with a",
+          "start_sample": 0,
+          "end_sample": 16847,
+          "start_ms": 0,
+          "end_ms": 1053
+        },
+        {
+          "lang": "ja",
+          "text": "南向き",
+          "start_sample": 16847,
+          "end_sample": 36905,
+          "start_ms": 1053,
+          "end_ms": 2307
+        },
+        {
+          "lang": "en",
+          "text": "exposure to maximize the natural light throughout the day.",
+          "start_sample": 36905,
+          "end_sample": 101407,
+          "start_ms": 2307,
+          "end_ms": 6338
+        }
+      ]
+    },
+    "ja": {
+      "text": "We want something with a 南向き exposure to maximize the natural light throughout the day.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6832,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We want something with a",
+          "start_sample": 0,
+          "end_sample": 25644,
+          "start_ms": 0,
+          "end_ms": 1603
+        },
+        {
+          "lang": "ja",
+          "text": "南向き",
+          "start_sample": 25644,
+          "end_sample": 42635,
+          "start_ms": 1603,
+          "end_ms": 2665
+        },
+        {
+          "lang": "en",
+          "text": "exposure to maximize the natural light throughout the day.",
+          "start_sample": 42635,
+          "end_sample": 109315,
+          "start_ms": 2665,
+          "end_ms": 6832
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 305,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

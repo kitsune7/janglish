@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10716.flac",
+  "sentence": "The kitchen smelled wonderful once the 玉ねぎ started to caramelize.",
+  "sample_rate": 16000,
+  "duration_ms": 8618,
+  "reference_speaker": "jp/speaker_095_1daf6547c74f.mp3",
+  "seed": 10758,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The kitchen smelled wonderful once the",
+      "start_sample": 0,
+      "end_sample": 38710,
+      "start_ms": 0,
+      "end_ms": 2419
+    },
+    {
+      "lang": "ja",
+      "text": "玉ねぎ",
+      "start_sample": 38710,
+      "end_sample": 46985,
+      "start_ms": 2419,
+      "end_ms": 2937
+    },
+    {
+      "lang": "en",
+      "text": "started to caramelize.",
+      "start_sample": 46985,
+      "end_sample": 137896,
+      "start_ms": 2937,
+      "end_ms": 8618
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kitchen smelled wonderful once the tamanegi started to caramelize.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8727,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The kitchen smelled wonderful once the",
+          "start_sample": 0,
+          "end_sample": 38910,
+          "start_ms": 0,
+          "end_ms": 2432
+        },
+        {
+          "lang": "ja",
+          "text": "玉ねぎ",
+          "start_sample": 38910,
+          "end_sample": 48517,
+          "start_ms": 2432,
+          "end_ms": 3032
+        },
+        {
+          "lang": "en",
+          "text": "started to caramelize.",
+          "start_sample": 48517,
+          "end_sample": 139628,
+          "start_ms": 3032,
+          "end_ms": 8727
+        }
+      ]
+    },
+    "ja": {
+      "text": "The kitchen smelled wonderful once the 玉ねぎ started to caramelize.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4819,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The kitchen smelled wonderful once the",
+          "start_sample": 0,
+          "end_sample": 46423,
+          "start_ms": 0,
+          "end_ms": 2901
+        },
+        {
+          "lang": "ja",
+          "text": "玉ねぎ",
+          "start_sample": 46423,
+          "end_sample": 55098,
+          "start_ms": 2901,
+          "end_ms": 3444
+        },
+        {
+          "lang": "en",
+          "text": "started to caramelize.",
+          "start_sample": 55098,
+          "end_sample": 77103,
+          "start_ms": 3444,
+          "end_ms": 4819
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 431,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

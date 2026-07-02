@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10282.flac",
+  "sentence": "七夕の短冊に書いたwishはもう叶いましたか？",
+  "sample_rate": 16000,
+  "duration_ms": 2914,
+  "reference_speaker": "jp/speaker_024_53a01817659b.mp3",
+  "seed": 10324,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "七夕の短冊に書いた",
+      "start_sample": 0,
+      "end_sample": 23595,
+      "start_ms": 0,
+      "end_ms": 1475
+    },
+    {
+      "lang": "en",
+      "text": "wish",
+      "start_sample": 23595,
+      "end_sample": 26254,
+      "start_ms": 1475,
+      "end_ms": 1641
+    },
+    {
+      "lang": "ja",
+      "text": "はもう叶いましたか？",
+      "start_sample": 26254,
+      "end_sample": 46629,
+      "start_ms": 1641,
+      "end_ms": 2914
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "tanabata no tanzaku ni kai ta wish ha mou kanoui mashi ta ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2314,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "七夕の短冊に書いた",
+          "start_sample": 0,
+          "end_sample": 23992,
+          "start_ms": 0,
+          "end_ms": 1500
+        },
+        {
+          "lang": "en",
+          "text": "wish",
+          "start_sample": 23992,
+          "end_sample": 27051,
+          "start_ms": 1500,
+          "end_ms": 1691
+        },
+        {
+          "lang": "ja",
+          "text": "はもう叶いましたか？",
+          "start_sample": 27051,
+          "end_sample": 37028,
+          "start_ms": 1691,
+          "end_ms": 2314
+        }
+      ]
+    },
+    "ja": {
+      "text": "七夕の短冊に書いたwishはもう叶いましたか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3095,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "七夕の短冊に書いた",
+          "start_sample": 0,
+          "end_sample": 23795,
+          "start_ms": 0,
+          "end_ms": 1487
+        },
+        {
+          "lang": "en",
+          "text": "wish",
+          "start_sample": 23795,
+          "end_sample": 28940,
+          "start_ms": 1487,
+          "end_ms": 1809
+        },
+        {
+          "lang": "ja",
+          "text": "はもう叶いましたか？",
+          "start_sample": 28940,
+          "end_sample": 49515,
+          "start_ms": 1809,
+          "end_ms": 3095
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 146,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

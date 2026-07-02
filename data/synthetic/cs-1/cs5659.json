@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5659.flac",
+  "sentence": "Her 主張 that the data was manipulated remains unproven.",
+  "sample_rate": 16000,
+  "duration_ms": 4056,
+  "reference_speaker": "jp/speaker_084_122c648d361d.mp3",
+  "seed": 5701,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Her",
+      "start_sample": 0,
+      "end_sample": 2203,
+      "start_ms": 0,
+      "end_ms": 138
+    },
+    {
+      "lang": "ja",
+      "text": "主張",
+      "start_sample": 2203,
+      "end_sample": 9492,
+      "start_ms": 138,
+      "end_ms": 593
+    },
+    {
+      "lang": "en",
+      "text": "that the data was manipulated remains unproven.",
+      "start_sample": 9492,
+      "end_sample": 64891,
+      "start_ms": 593,
+      "end_ms": 4056
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Her shuchou that the data was manipulated remains unproven.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4506,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 2403,
+          "start_ms": 0,
+          "end_ms": 150
+        },
+        {
+          "lang": "ja",
+          "text": "主張",
+          "start_sample": 2403,
+          "end_sample": 16503,
+          "start_ms": 150,
+          "end_ms": 1031
+        },
+        {
+          "lang": "en",
+          "text": "that the data was manipulated remains unproven.",
+          "start_sample": 16503,
+          "end_sample": 72102,
+          "start_ms": 1031,
+          "end_ms": 4506
+        }
+      ]
+    },
+    "ja": {
+      "text": "Her 主張 that the data was manipulated remains unproven.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5546,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 3844,
+          "start_ms": 0,
+          "end_ms": 240
+        },
+        {
+          "lang": "ja",
+          "text": "主張",
+          "start_sample": 3844,
+          "end_sample": 11533,
+          "start_ms": 240,
+          "end_ms": 721
+        },
+        {
+          "lang": "en",
+          "text": "that the data was manipulated remains unproven.",
+          "start_sample": 11533,
+          "end_sample": 88742,
+          "start_ms": 721,
+          "end_ms": 5546
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "eeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

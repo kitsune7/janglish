@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1303.flac",
+  "sentence": "窓からのviewが気に入って、この部屋に決めました。",
+  "sample_rate": 16000,
+  "duration_ms": 3791,
+  "reference_speaker": "en/speaker_031_dcac4ff5a983.mp3",
+  "seed": 1345,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "窓からの",
+      "start_sample": 0,
+      "end_sample": 11193,
+      "start_ms": 0,
+      "end_ms": 700
+    },
+    {
+      "lang": "en",
+      "text": "view",
+      "start_sample": 11193,
+      "end_sample": 15282,
+      "start_ms": 700,
+      "end_ms": 955
+    },
+    {
+      "lang": "ja",
+      "text": "が気に入って、この部屋に決めました。",
+      "start_sample": 15282,
+      "end_sample": 60655,
+      "start_ms": 955,
+      "end_ms": 3791
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mado kara no view ga ki ni itsutsu te kono heya ni kime mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6233,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "窓からの",
+          "start_sample": 0,
+          "end_sample": 14910,
+          "start_ms": 0,
+          "end_ms": 932
+        },
+        {
+          "lang": "en",
+          "text": "view",
+          "start_sample": 14910,
+          "end_sample": 19399,
+          "start_ms": 932,
+          "end_ms": 1212
+        },
+        {
+          "lang": "ja",
+          "text": "が気に入って、この部屋に決めました。",
+          "start_sample": 19399,
+          "end_sample": 99723,
+          "start_ms": 1212,
+          "end_ms": 6233
+        }
+      ]
+    },
+    "ja": {
+      "text": "窓からのviewが気に入って、この部屋に決めました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3871,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "窓からの",
+          "start_sample": 0,
+          "end_sample": 11393,
+          "start_ms": 0,
+          "end_ms": 712
+        },
+        {
+          "lang": "en",
+          "text": "view",
+          "start_sample": 11393,
+          "end_sample": 16368,
+          "start_ms": 712,
+          "end_ms": 1023
+        },
+        {
+          "lang": "ja",
+          "text": "が気に入って、この部屋に決めました。",
+          "start_sample": 16368,
+          "end_sample": 61941,
+          "start_ms": 1023,
+          "end_ms": 3871
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

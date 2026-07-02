@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs690.flac",
+  "sentence": "このシャンプーはvolumeを出すのにとても効果的です。",
+  "sample_rate": 16000,
+  "duration_ms": 4325,
+  "reference_speaker": "en/speaker_038_cc7cc15dbf19.mp3",
+  "seed": 732,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このシャンプーは",
+      "start_sample": 0,
+      "end_sample": 17736,
+      "start_ms": 0,
+      "end_ms": 1108
+    },
+    {
+      "lang": "en",
+      "text": "volume",
+      "start_sample": 17736,
+      "end_sample": 34811,
+      "start_ms": 1108,
+      "end_ms": 2176
+    },
+    {
+      "lang": "ja",
+      "text": "を出すのにとても効果的です。",
+      "start_sample": 34811,
+      "end_sample": 69204,
+      "start_ms": 2176,
+      "end_ms": 4325
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono shanpuu ha volume wo dasu no ni totemo kouka teki desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7695,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このシャンプーは",
+          "start_sample": 0,
+          "end_sample": 43607,
+          "start_ms": 0,
+          "end_ms": 2725
+        },
+        {
+          "lang": "en",
+          "text": "volume",
+          "start_sample": 43607,
+          "end_sample": 61082,
+          "start_ms": 2725,
+          "end_ms": 3818
+        },
+        {
+          "lang": "ja",
+          "text": "を出すのにとても効果的です。",
+          "start_sample": 61082,
+          "end_sample": 123126,
+          "start_ms": 3818,
+          "end_ms": 7695
+        }
+      ]
+    },
+    "ja": {
+      "text": "このシャンプーはvolumeを出すのにとても効果的です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3964,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このシャンプーは",
+          "start_sample": 0,
+          "end_sample": 17936,
+          "start_ms": 0,
+          "end_ms": 1121
+        },
+        {
+          "lang": "en",
+          "text": "volume",
+          "start_sample": 17936,
+          "end_sample": 28827,
+          "start_ms": 1121,
+          "end_ms": 1802
+        },
+        {
+          "lang": "ja",
+          "text": "を出すのにとても効果的です。",
+          "start_sample": 28827,
+          "end_sample": 63420,
+          "start_ms": 1802,
+          "end_ms": 3964
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 217,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

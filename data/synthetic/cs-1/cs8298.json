@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8298.flac",
+  "sentence": "今期のperformanceについて上司と話し合いました。",
+  "sample_rate": 16000,
+  "duration_ms": 3601,
+  "reference_speaker": "jp/speaker_085_c431b4a9ddfb.mp3",
+  "seed": 8340,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今期の",
+      "start_sample": 0,
+      "end_sample": 8474,
+      "start_ms": 0,
+      "end_ms": 530
+    },
+    {
+      "lang": "en",
+      "text": "performance",
+      "start_sample": 8474,
+      "end_sample": 27286,
+      "start_ms": 530,
+      "end_ms": 1705
+    },
+    {
+      "lang": "ja",
+      "text": "について上司と話し合いました。",
+      "start_sample": 27286,
+      "end_sample": 57617,
+      "start_ms": 1705,
+      "end_ms": 3601
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "konki no performance ni tsui te joushi to hanashiai mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8225,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今期の",
+          "start_sample": 0,
+          "end_sample": 16330,
+          "start_ms": 0,
+          "end_ms": 1021
+        },
+        {
+          "lang": "en",
+          "text": "performance",
+          "start_sample": 16330,
+          "end_sample": 35542,
+          "start_ms": 1021,
+          "end_ms": 2221
+        },
+        {
+          "lang": "ja",
+          "text": "について上司と話し合いました。",
+          "start_sample": 35542,
+          "end_sample": 131602,
+          "start_ms": 2221,
+          "end_ms": 8225
+        }
+      ]
+    },
+    "ja": {
+      "text": "今期のperformanceについて上司と話し合いました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3174,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今期の",
+          "start_sample": 0,
+          "end_sample": 8674,
+          "start_ms": 0,
+          "end_ms": 542
+        },
+        {
+          "lang": "en",
+          "text": "performance",
+          "start_sample": 8674,
+          "end_sample": 20245,
+          "start_ms": 542,
+          "end_ms": 1265
+        },
+        {
+          "lang": "ja",
+          "text": "について上司と話し合いました。",
+          "start_sample": 20245,
+          "end_sample": 50776,
+          "start_ms": 1265,
+          "end_ms": 3174
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 181,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

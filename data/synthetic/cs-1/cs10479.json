@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10479.flac",
+  "sentence": "Follow the 遊歩道 along the waterfront and it curves right toward the museum.",
+  "sample_rate": 16000,
+  "duration_ms": 5964,
+  "reference_speaker": "jp/speaker_003_7f373ff7d9ea.mp3",
+  "seed": 10521,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Follow the",
+      "start_sample": 0,
+      "end_sample": 9261,
+      "start_ms": 0,
+      "end_ms": 579
+    },
+    {
+      "lang": "ja",
+      "text": "遊歩道",
+      "start_sample": 9261,
+      "end_sample": 19762,
+      "start_ms": 579,
+      "end_ms": 1235
+    },
+    {
+      "lang": "en",
+      "text": "along the waterfront and it curves right toward the museum.",
+      "start_sample": 19762,
+      "end_sample": 95417,
+      "start_ms": 1235,
+      "end_ms": 5964
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Follow the yuuho michi along the waterfront and it curves right toward the museum.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6054,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Follow the",
+          "start_sample": 0,
+          "end_sample": 9461,
+          "start_ms": 0,
+          "end_ms": 591
+        },
+        {
+          "lang": "ja",
+          "text": "遊歩道",
+          "start_sample": 9461,
+          "end_sample": 21008,
+          "start_ms": 591,
+          "end_ms": 1313
+        },
+        {
+          "lang": "en",
+          "text": "along the waterfront and it curves right toward the museum.",
+          "start_sample": 21008,
+          "end_sample": 96863,
+          "start_ms": 1313,
+          "end_ms": 6054
+        }
+      ]
+    },
+    "ja": {
+      "text": "Follow the 遊歩道 along the waterfront and it curves right toward the museum.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6913,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Follow the",
+          "start_sample": 0,
+          "end_sample": 9617,
+          "start_ms": 0,
+          "end_ms": 601
+        },
+        {
+          "lang": "ja",
+          "text": "遊歩道",
+          "start_sample": 9617,
+          "end_sample": 20518,
+          "start_ms": 601,
+          "end_ms": 1282
+        },
+        {
+          "lang": "en",
+          "text": "along the waterfront and it curves right toward the museum.",
+          "start_sample": 20518,
+          "end_sample": 110605,
+          "start_ms": 1282,
+          "end_ms": 6913
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 299,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3624.flac",
+  "sentence": "今日のexaminationの結果はどうでしたか？",
+  "sample_rate": 16000,
+  "duration_ms": 2838,
+  "reference_speaker": "jp/speaker_062_ec2cf7781d6b.mp3",
+  "seed": 3666,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日の",
+      "start_sample": 0,
+      "end_sample": 5573,
+      "start_ms": 0,
+      "end_ms": 348
+    },
+    {
+      "lang": "en",
+      "text": "examination",
+      "start_sample": 5573,
+      "end_sample": 21880,
+      "start_ms": 348,
+      "end_ms": 1368
+    },
+    {
+      "lang": "ja",
+      "text": "の結果はどうでしたか？",
+      "start_sample": 21880,
+      "end_sample": 45414,
+      "start_ms": 1368,
+      "end_ms": 2838
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou no examination no kekka ha dou deshi ta ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4779,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の",
+          "start_sample": 0,
+          "end_sample": 19759,
+          "start_ms": 0,
+          "end_ms": 1235
+        },
+        {
+          "lang": "en",
+          "text": "examination",
+          "start_sample": 19759,
+          "end_sample": 36466,
+          "start_ms": 1235,
+          "end_ms": 2279
+        },
+        {
+          "lang": "ja",
+          "text": "の結果はどうでしたか？",
+          "start_sample": 36466,
+          "end_sample": 76464,
+          "start_ms": 2279,
+          "end_ms": 4779
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日のexaminationの結果はどうでしたか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2646,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の",
+          "start_sample": 0,
+          "end_sample": 5773,
+          "start_ms": 0,
+          "end_ms": 361
+        },
+        {
+          "lang": "en",
+          "text": "examination",
+          "start_sample": 5773,
+          "end_sample": 18603,
+          "start_ms": 361,
+          "end_ms": 1163
+        },
+        {
+          "lang": "ja",
+          "text": "の結果はどうでしたか？",
+          "start_sample": 18603,
+          "end_sample": 42337,
+          "start_ms": 1163,
+          "end_ms": 2646
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 142,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

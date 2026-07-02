@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9271.flac",
+  "sentence": "Her 一家 has lived in the same neighborhood for four generations.",
+  "sample_rate": 16000,
+  "duration_ms": 4563,
+  "reference_speaker": "en/speaker_082_0d071699a4ef.mp3",
+  "seed": 9313,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Her",
+      "start_sample": 0,
+      "end_sample": 2534,
+      "start_ms": 0,
+      "end_ms": 158
+    },
+    {
+      "lang": "ja",
+      "text": "一家",
+      "start_sample": 2534,
+      "end_sample": 10648,
+      "start_ms": 158,
+      "end_ms": 666
+    },
+    {
+      "lang": "en",
+      "text": "has lived in the same neighborhood for four generations.",
+      "start_sample": 10648,
+      "end_sample": 73013,
+      "start_ms": 666,
+      "end_ms": 4563
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Her ikka has lived in the same neighborhood for four generations.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4423,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 2734,
+          "start_ms": 0,
+          "end_ms": 171
+        },
+        {
+          "lang": "ja",
+          "text": "一家",
+          "start_sample": 2734,
+          "end_sample": 8203,
+          "start_ms": 171,
+          "end_ms": 513
+        },
+        {
+          "lang": "en",
+          "text": "has lived in the same neighborhood for four generations.",
+          "start_sample": 8203,
+          "end_sample": 70768,
+          "start_ms": 513,
+          "end_ms": 4423
+        }
+      ]
+    },
+    "ja": {
+      "text": "Her 一家 has lived in the same neighborhood for four generations.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5984,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 5461,
+          "start_ms": 0,
+          "end_ms": 341
+        },
+        {
+          "lang": "ja",
+          "text": "一家",
+          "start_sample": 5461,
+          "end_sample": 13975,
+          "start_ms": 341,
+          "end_ms": 873
+        },
+        {
+          "lang": "en",
+          "text": "has lived in the same neighborhood for four generations.",
+          "start_sample": 13975,
+          "end_sample": 95740,
+          "start_ms": 873,
+          "end_ms": 5984
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 229,
+  "frame_labels": "eeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs1689.flac",
+  "sentence": "The 霜 on the windshield this morning made the whole 出発 take twenty minutes longer.",
+  "sample_rate": 16000,
+  "duration_ms": 3752,
+  "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 18544,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1244,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "霜",
+      "start_sample": 1244,
+      "end_sample": 5174,
+      "start_ms": 78,
+      "end_ms": 323
+    },
+    {
+      "lang": "en",
+      "text": "on the windshield this morning made the whole",
+      "start_sample": 5174,
+      "end_sample": 34311,
+      "start_ms": 323,
+      "end_ms": 2144
+    },
+    {
+      "lang": "ja",
+      "text": "出発",
+      "start_sample": 34311,
+      "end_sample": 42251,
+      "start_ms": 2144,
+      "end_ms": 2641
+    },
+    {
+      "lang": "en",
+      "text": "take twenty minutes longer.",
+      "start_sample": 42251,
+      "end_sample": 60027,
+      "start_ms": 2641,
+      "end_ms": 3752
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shimo on the windshield this morning made the whole shuppatsu take twenty minutes longer.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3913,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1444,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "霜",
+          "start_sample": 1444,
+          "end_sample": 6742,
+          "start_ms": 90,
+          "end_ms": 421
+        },
+        {
+          "lang": "en",
+          "text": "on the windshield this morning made the whole",
+          "start_sample": 6742,
+          "end_sample": 36279,
+          "start_ms": 421,
+          "end_ms": 2267
+        },
+        {
+          "lang": "ja",
+          "text": "出発",
+          "start_sample": 36279,
+          "end_sample": 44627,
+          "start_ms": 2267,
+          "end_ms": 2789
+        },
+        {
+          "lang": "en",
+          "text": "take twenty minutes longer.",
+          "start_sample": 44627,
+          "end_sample": 62603,
+          "start_ms": 2789,
+          "end_ms": 3913
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 霜 on the windshield this morning made the whole 出発 take twenty minutes longer.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5052,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3205,
+          "start_ms": 0,
+          "end_ms": 200
+        },
+        {
+          "lang": "ja",
+          "text": "霜",
+          "start_sample": 3205,
+          "end_sample": 7535,
+          "start_ms": 200,
+          "end_ms": 471
+        },
+        {
+          "lang": "en",
+          "text": "on the windshield this morning made the whole",
+          "start_sample": 7535,
+          "end_sample": 51003,
+          "start_ms": 471,
+          "end_ms": 3188
+        },
+        {
+          "lang": "ja",
+          "text": "出発",
+          "start_sample": 51003,
+          "end_sample": 59343,
+          "start_ms": 3188,
+          "end_ms": 3709
+        },
+        {
+          "lang": "en",
+          "text": "take twenty minutes longer.",
+          "start_sample": 59343,
+          "end_sample": 80834,
+          "start_ms": 3709,
+          "end_ms": 5052
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "eeeejjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4176.flac",
+  "sentence": "Can you stay 静か while I explain the situation to the operator?",
+  "sample_rate": 16000,
+  "duration_ms": 5086,
+  "reference_speaker": "jp/speaker_095_1daf6547c74f.mp3",
+  "seed": 4218,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you stay",
+      "start_sample": 0,
+      "end_sample": 19704,
+      "start_ms": 0,
+      "end_ms": 1232
+    },
+    {
+      "lang": "ja",
+      "text": "静か",
+      "start_sample": 19704,
+      "end_sample": 28934,
+      "start_ms": 1232,
+      "end_ms": 1808
+    },
+    {
+      "lang": "en",
+      "text": "while I explain the situation to the operator?",
+      "start_sample": 28934,
+      "end_sample": 81384,
+      "start_ms": 1808,
+      "end_ms": 5086
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you stay shizuka while I explain the situation to the operator?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5899,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you stay",
+          "start_sample": 0,
+          "end_sample": 19904,
+          "start_ms": 0,
+          "end_ms": 1244
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 19904,
+          "end_sample": 41737,
+          "start_ms": 1244,
+          "end_ms": 2609
+        },
+        {
+          "lang": "en",
+          "text": "while I explain the situation to the operator?",
+          "start_sample": 41737,
+          "end_sample": 94387,
+          "start_ms": 2609,
+          "end_ms": 5899
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you stay 静か while I explain the situation to the operator?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4795,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you stay",
+          "start_sample": 0,
+          "end_sample": 9951,
+          "start_ms": 0,
+          "end_ms": 622
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 9951,
+          "end_sample": 19581,
+          "start_ms": 622,
+          "end_ms": 1224
+        },
+        {
+          "lang": "en",
+          "text": "while I explain the situation to the operator?",
+          "start_sample": 19581,
+          "end_sample": 76719,
+          "start_ms": 1224,
+          "end_ms": 4795
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 255,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

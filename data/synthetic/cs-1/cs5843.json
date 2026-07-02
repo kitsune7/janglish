@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5843.flac",
+  "sentence": "Can you go to the 薬局 and pick up my prescription before it closes?",
+  "sample_rate": 16000,
+  "duration_ms": 3842,
+  "reference_speaker": "jp/speaker_011_3c9d94093b88.mp3",
+  "seed": 5885,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you go to the",
+      "start_sample": 0,
+      "end_sample": 11357,
+      "start_ms": 0,
+      "end_ms": 710
+    },
+    {
+      "lang": "ja",
+      "text": "薬局",
+      "start_sample": 11357,
+      "end_sample": 18817,
+      "start_ms": 710,
+      "end_ms": 1176
+    },
+    {
+      "lang": "en",
+      "text": "and pick up my prescription before it closes?",
+      "start_sample": 18817,
+      "end_sample": 61473,
+      "start_ms": 1176,
+      "end_ms": 3842
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you go to the yakkyoku and pick up my prescription before it closes?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4334,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you go to the",
+          "start_sample": 0,
+          "end_sample": 11557,
+          "start_ms": 0,
+          "end_ms": 722
+        },
+        {
+          "lang": "ja",
+          "text": "薬局",
+          "start_sample": 11557,
+          "end_sample": 26485,
+          "start_ms": 722,
+          "end_ms": 1655
+        },
+        {
+          "lang": "en",
+          "text": "and pick up my prescription before it closes?",
+          "start_sample": 26485,
+          "end_sample": 69341,
+          "start_ms": 1655,
+          "end_ms": 4334
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you go to the 薬局 and pick up my prescription before it closes?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4050,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you go to the",
+          "start_sample": 0,
+          "end_sample": 14757,
+          "start_ms": 0,
+          "end_ms": 922
+        },
+        {
+          "lang": "ja",
+          "text": "薬局",
+          "start_sample": 14757,
+          "end_sample": 22617,
+          "start_ms": 922,
+          "end_ms": 1414
+        },
+        {
+          "lang": "en",
+          "text": "and pick up my prescription before it closes?",
+          "start_sample": 22617,
+          "end_sample": 64803,
+          "start_ms": 1414,
+          "end_ms": 4050
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 193,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

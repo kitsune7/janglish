@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11174.flac",
+  "sentence": "このflavorのアイス、この店には売ってないみたい。",
+  "sample_rate": 16000,
+  "duration_ms": 3590,
+  "reference_speaker": "en/speaker_096_4389a887e640.mp3",
+  "seed": 11216,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 2540,
+      "start_ms": 0,
+      "end_ms": 159
+    },
+    {
+      "lang": "en",
+      "text": "flavor",
+      "start_sample": 2540,
+      "end_sample": 19270,
+      "start_ms": 159,
+      "end_ms": 1204
+    },
+    {
+      "lang": "ja",
+      "text": "のアイス、この店には売ってないみたい。",
+      "start_sample": 19270,
+      "end_sample": 57440,
+      "start_ms": 1204,
+      "end_ms": 3590
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono flavor no aisu kono mise ni ha utsu te nai mitai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8965,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4162,
+          "start_ms": 0,
+          "end_ms": 260
+        },
+        {
+          "lang": "en",
+          "text": "flavor",
+          "start_sample": 4162,
+          "end_sample": 21292,
+          "start_ms": 260,
+          "end_ms": 1331
+        },
+        {
+          "lang": "ja",
+          "text": "のアイス、この店には売ってないみたい。",
+          "start_sample": 21292,
+          "end_sample": 143443,
+          "start_ms": 1331,
+          "end_ms": 8965
+        }
+      ]
+    },
+    "ja": {
+      "text": "このflavorのアイス、この店には売ってないみたい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3043,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 2740,
+          "start_ms": 0,
+          "end_ms": 171
+        },
+        {
+          "lang": "en",
+          "text": "flavor",
+          "start_sample": 2740,
+          "end_sample": 10319,
+          "start_ms": 171,
+          "end_ms": 645
+        },
+        {
+          "lang": "ja",
+          "text": "のアイス、この店には売ってないみたい。",
+          "start_sample": 10319,
+          "end_sample": 48689,
+          "start_ms": 645,
+          "end_ms": 3043
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 180,
+  "frame_labels": "jjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

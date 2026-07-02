@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1307.flac",
+  "sentence": "廊下が狭いのでfurnitureを運び込むのが大変だった。",
+  "sample_rate": 16000,
+  "duration_ms": 3967,
+  "reference_speaker": "en/speaker_002_7eff9a54bdb0.mp3",
+  "seed": 1349,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "廊下が狭いので",
+      "start_sample": 0,
+      "end_sample": 16781,
+      "start_ms": 0,
+      "end_ms": 1049
+    },
+    {
+      "lang": "en",
+      "text": "furniture",
+      "start_sample": 16781,
+      "end_sample": 35474,
+      "start_ms": 1049,
+      "end_ms": 2217
+    },
+    {
+      "lang": "ja",
+      "text": "を運び込むのが大変だった。",
+      "start_sample": 35474,
+      "end_sample": 63470,
+      "start_ms": 2217,
+      "end_ms": 3967
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "rouka ga semai no de furniture wo hakobikomu no ga taihen datsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7380,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "廊下が狭いので",
+          "start_sample": 0,
+          "end_sample": 20374,
+          "start_ms": 0,
+          "end_ms": 1273
+        },
+        {
+          "lang": "en",
+          "text": "furniture",
+          "start_sample": 20374,
+          "end_sample": 39467,
+          "start_ms": 1273,
+          "end_ms": 2467
+        },
+        {
+          "lang": "ja",
+          "text": "を運び込むのが大変だった。",
+          "start_sample": 39467,
+          "end_sample": 118082,
+          "start_ms": 2467,
+          "end_ms": 7380
+        }
+      ]
+    },
+    "ja": {
+      "text": "廊下が狭いのでfurnitureを運び込むのが大変だった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3424,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "廊下が狭いので",
+          "start_sample": 0,
+          "end_sample": 16981,
+          "start_ms": 0,
+          "end_ms": 1061
+        },
+        {
+          "lang": "en",
+          "text": "furniture",
+          "start_sample": 16981,
+          "end_sample": 26594,
+          "start_ms": 1061,
+          "end_ms": 1662
+        },
+        {
+          "lang": "ja",
+          "text": "を運び込むのが大変だった。",
+          "start_sample": 26594,
+          "end_sample": 54790,
+          "start_ms": 1662,
+          "end_ms": 3424
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 199,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

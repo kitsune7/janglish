@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3952.flac",
+  "sentence": "Our team is moving toward a more 分散型 system to avoid single points of failure.",
+  "sample_rate": 16000,
+  "duration_ms": 7719,
+  "reference_speaker": "en/speaker_087_5027771311b0.mp3",
+  "seed": 3994,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Our team is moving toward a more",
+      "start_sample": 0,
+      "end_sample": 55132,
+      "start_ms": 0,
+      "end_ms": 3446
+    },
+    {
+      "lang": "ja",
+      "text": "分散型",
+      "start_sample": 55132,
+      "end_sample": 74299,
+      "start_ms": 3446,
+      "end_ms": 4644
+    },
+    {
+      "lang": "en",
+      "text": "system to avoid single points of failure.",
+      "start_sample": 74299,
+      "end_sample": 123497,
+      "start_ms": 4644,
+      "end_ms": 7719
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Our team is moving toward a more bunsan kata system to avoid single points of failure.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7538,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Our team is moving toward a more",
+          "start_sample": 0,
+          "end_sample": 55332,
+          "start_ms": 0,
+          "end_ms": 3458
+        },
+        {
+          "lang": "ja",
+          "text": "分散型",
+          "start_sample": 55332,
+          "end_sample": 71211,
+          "start_ms": 3458,
+          "end_ms": 4451
+        },
+        {
+          "lang": "en",
+          "text": "system to avoid single points of failure.",
+          "start_sample": 71211,
+          "end_sample": 120609,
+          "start_ms": 4451,
+          "end_ms": 7538
+        }
+      ]
+    },
+    "ja": {
+      "text": "Our team is moving toward a more 分散型 system to avoid single points of failure.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9142,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Our team is moving toward a more",
+          "start_sample": 0,
+          "end_sample": 52287,
+          "start_ms": 0,
+          "end_ms": 3268
+        },
+        {
+          "lang": "ja",
+          "text": "分散型",
+          "start_sample": 52287,
+          "end_sample": 71854,
+          "start_ms": 3268,
+          "end_ms": 4491
+        },
+        {
+          "lang": "en",
+          "text": "system to avoid single points of failure.",
+          "start_sample": 71854,
+          "end_sample": 146273,
+          "start_ms": 4491,
+          "end_ms": 9142
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 386,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

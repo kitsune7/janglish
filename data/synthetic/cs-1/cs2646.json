@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2646.flac",
+  "sentence": "She noticed the 発車 chime had changed since the last time she used that line.",
+  "sample_rate": 16000,
+  "duration_ms": 4317,
+  "reference_speaker": "jp/speaker_099_c404e17fc007.mp3",
+  "seed": 2688,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She noticed the",
+      "start_sample": 0,
+      "end_sample": 9735,
+      "start_ms": 0,
+      "end_ms": 608
+    },
+    {
+      "lang": "ja",
+      "text": "発車",
+      "start_sample": 9735,
+      "end_sample": 19435,
+      "start_ms": 608,
+      "end_ms": 1215
+    },
+    {
+      "lang": "en",
+      "text": "chime had changed since the last time she used that line.",
+      "start_sample": 19435,
+      "end_sample": 69072,
+      "start_ms": 1215,
+      "end_ms": 4317
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She noticed the hassha chime had changed since the last time she used that line.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4106,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She noticed the",
+          "start_sample": 0,
+          "end_sample": 9935,
+          "start_ms": 0,
+          "end_ms": 621
+        },
+        {
+          "lang": "ja",
+          "text": "発車",
+          "start_sample": 9935,
+          "end_sample": 15864,
+          "start_ms": 621,
+          "end_ms": 992
+        },
+        {
+          "lang": "en",
+          "text": "chime had changed since the last time she used that line.",
+          "start_sample": 15864,
+          "end_sample": 65701,
+          "start_ms": 992,
+          "end_ms": 4106
+        }
+      ]
+    },
+    "ja": {
+      "text": "She noticed the 発車 chime had changed since the last time she used that line.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5350,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She noticed the",
+          "start_sample": 0,
+          "end_sample": 11701,
+          "start_ms": 0,
+          "end_ms": 731
+        },
+        {
+          "lang": "ja",
+          "text": "発車",
+          "start_sample": 11701,
+          "end_sample": 21801,
+          "start_ms": 731,
+          "end_ms": 1363
+        },
+        {
+          "lang": "en",
+          "text": "chime had changed since the last time she used that line.",
+          "start_sample": 21801,
+          "end_sample": 85601,
+          "start_ms": 1363,
+          "end_ms": 5350
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 216,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

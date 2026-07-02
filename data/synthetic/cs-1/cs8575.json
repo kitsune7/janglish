@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8575.flac",
+  "sentence": "The 二階 bathroom is much larger than the one downstairs, so everyone fights over it.",
+  "sample_rate": 16000,
+  "duration_ms": 8850,
+  "reference_speaker": "jp/speaker_077_a8ec885aec97.mp3",
+  "seed": 8617,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1724,
+      "start_ms": 0,
+      "end_ms": 108
+    },
+    {
+      "lang": "ja",
+      "text": "二階",
+      "start_sample": 1724,
+      "end_sample": 9829,
+      "start_ms": 108,
+      "end_ms": 614
+    },
+    {
+      "lang": "en",
+      "text": "bathroom is much larger than the one downstairs, so everyone fights over it.",
+      "start_sample": 9829,
+      "end_sample": 141592,
+      "start_ms": 614,
+      "end_ms": 8850
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The ni kai bathroom is much larger than the one downstairs, so everyone fights over it.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9120,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1924,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "二階",
+          "start_sample": 1924,
+          "end_sample": 13949,
+          "start_ms": 120,
+          "end_ms": 872
+        },
+        {
+          "lang": "en",
+          "text": "bathroom is much larger than the one downstairs, so everyone fights over it.",
+          "start_sample": 13949,
+          "end_sample": 145912,
+          "start_ms": 872,
+          "end_ms": 9120
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 二階 bathroom is much larger than the one downstairs, so everyone fights over it.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7642,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2085,
+          "start_ms": 0,
+          "end_ms": 130
+        },
+        {
+          "lang": "ja",
+          "text": "二階",
+          "start_sample": 2085,
+          "end_sample": 10590,
+          "start_ms": 130,
+          "end_ms": 662
+        },
+        {
+          "lang": "en",
+          "text": "bathroom is much larger than the one downstairs, so everyone fights over it.",
+          "start_sample": 10590,
+          "end_sample": 122269,
+          "start_ms": 662,
+          "end_ms": 7642
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 443,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10583.flac",
+  "sentence": "Have you noticed how 美しい the cherry blossoms look this year?",
+  "sample_rate": 16000,
+  "duration_ms": 5060,
+  "reference_speaker": "en/speaker_049_4b799abf92c3.mp3",
+  "seed": 10625,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you noticed how",
+      "start_sample": 0,
+      "end_sample": 25921,
+      "start_ms": 0,
+      "end_ms": 1620
+    },
+    {
+      "lang": "ja",
+      "text": "美しい",
+      "start_sample": 25921,
+      "end_sample": 43347,
+      "start_ms": 1620,
+      "end_ms": 2709
+    },
+    {
+      "lang": "en",
+      "text": "the cherry blossoms look this year?",
+      "start_sample": 43347,
+      "end_sample": 80967,
+      "start_ms": 2709,
+      "end_ms": 5060
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you noticed how utsukushii the cherry blossoms look this year?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5589,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you noticed how",
+          "start_sample": 0,
+          "end_sample": 26121,
+          "start_ms": 0,
+          "end_ms": 1633
+        },
+        {
+          "lang": "ja",
+          "text": "美しい",
+          "start_sample": 26121,
+          "end_sample": 51603,
+          "start_ms": 1633,
+          "end_ms": 3225
+        },
+        {
+          "lang": "en",
+          "text": "the cherry blossoms look this year?",
+          "start_sample": 51603,
+          "end_sample": 89423,
+          "start_ms": 3225,
+          "end_ms": 5589
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you noticed how 美しい the cherry blossoms look this year?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5882,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you noticed how",
+          "start_sample": 0,
+          "end_sample": 21198,
+          "start_ms": 0,
+          "end_ms": 1325
+        },
+        {
+          "lang": "ja",
+          "text": "美しい",
+          "start_sample": 21198,
+          "end_sample": 39024,
+          "start_ms": 1325,
+          "end_ms": 2439
+        },
+        {
+          "lang": "en",
+          "text": "the cherry blossoms look this year?",
+          "start_sample": 39024,
+          "end_sample": 94105,
+          "start_ms": 2439,
+          "end_ms": 5882
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 254,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

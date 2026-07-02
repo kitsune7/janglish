@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4969.flac",
+  "sentence": "湿度が低くてdry な冬の日は静電気がひどい。",
+  "sample_rate": 16000,
+  "duration_ms": 3205,
+  "reference_speaker": "en/speaker_069_688632e24cd4.mp3",
+  "seed": 5011,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "湿度が低くて",
+      "start_sample": 0,
+      "end_sample": 16199,
+      "start_ms": 0,
+      "end_ms": 1012
+    },
+    {
+      "lang": "en",
+      "text": "dry",
+      "start_sample": 16199,
+      "end_sample": 23025,
+      "start_ms": 1012,
+      "end_ms": 1439
+    },
+    {
+      "lang": "ja",
+      "text": "な冬の日は静電気がひどい。",
+      "start_sample": 23025,
+      "end_sample": 51279,
+      "start_ms": 1439,
+      "end_ms": 3205
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shitsudo ga hikuku te dry na fuyu no nichi ha sei denki ga hidoi",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5660,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "湿度が低くて",
+          "start_sample": 0,
+          "end_sample": 27294,
+          "start_ms": 0,
+          "end_ms": 1706
+        },
+        {
+          "lang": "en",
+          "text": "dry",
+          "start_sample": 27294,
+          "end_sample": 34520,
+          "start_ms": 1706,
+          "end_ms": 2158
+        },
+        {
+          "lang": "ja",
+          "text": "な冬の日は静電気がひどい。",
+          "start_sample": 34520,
+          "end_sample": 90558,
+          "start_ms": 2158,
+          "end_ms": 5660
+        }
+      ]
+    },
+    "ja": {
+      "text": "湿度が低くてdry な冬の日は静電気がひどい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3195,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "湿度が低くて",
+          "start_sample": 0,
+          "end_sample": 16399,
+          "start_ms": 0,
+          "end_ms": 1025
+        },
+        {
+          "lang": "en",
+          "text": "dry",
+          "start_sample": 16399,
+          "end_sample": 22669,
+          "start_ms": 1025,
+          "end_ms": 1417
+        },
+        {
+          "lang": "ja",
+          "text": "な冬の日は静電気がひどい。",
+          "start_sample": 22669,
+          "end_sample": 51123,
+          "start_ms": 1417,
+          "end_ms": 3195
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 161,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

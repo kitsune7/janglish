@@ -28,7 +28,8 @@ predict checkpoint audio:
 deploy-worker:
     npm --prefix worker run deploy
 
-audio-gen csv:
+audio-gen csv workers="1" synthetic_folder="":
     PYTHONWARNINGS="ignore:An output with one or more elements was resized:UserWarning" \
     uv run python cmd/audio_gen/generate_audio.py {{csv}} --has-header \
-    --references data/speaker-clips/en data/speaker-clips/jp --out-root data --device mps --seed 42
+    --references data/speaker-clips/en data/speaker-clips/jp --out-root data --device mps --seed 42 \
+    --workers {{workers}}{{ if synthetic_folder == "" { "" } else { " --synthetic-folder " + synthetic_folder } }}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3889.flac",
+  "sentence": "体重をコントロールするために、calorieを毎日記録しています。",
+  "sample_rate": 16000,
+  "duration_ms": 5100,
+  "reference_speaker": "en/speaker_022_008f1e5e50d2.mp3",
+  "seed": 3931,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "体重をコントロールするために、",
+      "start_sample": 0,
+      "end_sample": 35477,
+      "start_ms": 0,
+      "end_ms": 2217
+    },
+    {
+      "lang": "en",
+      "text": "calorie",
+      "start_sample": 35477,
+      "end_sample": 51428,
+      "start_ms": 2217,
+      "end_ms": 3214
+    },
+    {
+      "lang": "ja",
+      "text": "を毎日記録しています。",
+      "start_sample": 51428,
+      "end_sample": 81599,
+      "start_ms": 3214,
+      "end_ms": 5100
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "taijuu wo kontorooru suru tame ni calorie wo mainichi kiroku shi te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7594,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "体重をコントロールするために、",
+          "start_sample": 0,
+          "end_sample": 52739,
+          "start_ms": 0,
+          "end_ms": 3296
+        },
+        {
+          "lang": "en",
+          "text": "calorie",
+          "start_sample": 52739,
+          "end_sample": 69090,
+          "start_ms": 3296,
+          "end_ms": 4318
+        },
+        {
+          "lang": "ja",
+          "text": "を毎日記録しています。",
+          "start_sample": 69090,
+          "end_sample": 121508,
+          "start_ms": 4318,
+          "end_ms": 7594
+        }
+      ]
+    },
+    "ja": {
+      "text": "体重をコントロールするために、calorieを毎日記録しています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4741,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "体重をコントロールするために、",
+          "start_sample": 0,
+          "end_sample": 35677,
+          "start_ms": 0,
+          "end_ms": 2230
+        },
+        {
+          "lang": "en",
+          "text": "calorie",
+          "start_sample": 35677,
+          "end_sample": 45480,
+          "start_ms": 2230,
+          "end_ms": 2842
+        },
+        {
+          "lang": "ja",
+          "text": "を毎日記録しています。",
+          "start_sample": 45480,
+          "end_sample": 75851,
+          "start_ms": 2842,
+          "end_ms": 4741
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 255,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

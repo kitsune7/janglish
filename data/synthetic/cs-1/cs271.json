@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs271.flac",
+  "sentence": "新しいscratchingポストを買ったのに、猫は全然使いません。",
+  "sample_rate": 16000,
+  "duration_ms": 3207,
+  "reference_speaker": "jp/speaker_080_c886ae0e1a09.mp3",
+  "seed": 313,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "新しい",
+      "start_sample": 0,
+      "end_sample": 5893,
+      "start_ms": 0,
+      "end_ms": 368
+    },
+    {
+      "lang": "en",
+      "text": "scratching",
+      "start_sample": 5893,
+      "end_sample": 14142,
+      "start_ms": 368,
+      "end_ms": 884
+    },
+    {
+      "lang": "ja",
+      "text": "ポストを買ったのに、猫は全然使いません。",
+      "start_sample": 14142,
+      "end_sample": 51307,
+      "start_ms": 884,
+      "end_ms": 3207
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "atarashii scratching posuto wo katsu ta no ni neko ha zenzen tsukai mase n",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7128,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 10891,
+          "start_ms": 0,
+          "end_ms": 681
+        },
+        {
+          "lang": "en",
+          "text": "scratching",
+          "start_sample": 10891,
+          "end_sample": 19540,
+          "start_ms": 681,
+          "end_ms": 1221
+        },
+        {
+          "lang": "ja",
+          "text": "ポストを買ったのに、猫は全然使いません。",
+          "start_sample": 19540,
+          "end_sample": 114043,
+          "start_ms": 1221,
+          "end_ms": 7128
+        }
+      ]
+    },
+    "ja": {
+      "text": "新しいscratchingポストを買ったのに、猫は全然使いません。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3368,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 6093,
+          "start_ms": 0,
+          "end_ms": 381
+        },
+        {
+          "lang": "en",
+          "text": "scratching",
+          "start_sample": 6093,
+          "end_sample": 16518,
+          "start_ms": 381,
+          "end_ms": 1032
+        },
+        {
+          "lang": "ja",
+          "text": "ポストを買ったのに、猫は全然使いません。",
+          "start_sample": 16518,
+          "end_sample": 53883,
+          "start_ms": 1032,
+          "end_ms": 3368
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 161,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

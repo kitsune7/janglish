@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs550.flac",
+  "sentence": "面接官のquestionが予想外で少し戸惑いました。",
+  "sample_rate": 16000,
+  "duration_ms": 4714,
+  "reference_speaker": "en/speaker_023_9d57aeaf822c.mp3",
+  "seed": 592,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "面接官の",
+      "start_sample": 0,
+      "end_sample": 14404,
+      "start_ms": 0,
+      "end_ms": 900
+    },
+    {
+      "lang": "en",
+      "text": "question",
+      "start_sample": 14404,
+      "end_sample": 42070,
+      "start_ms": 900,
+      "end_ms": 2629
+    },
+    {
+      "lang": "ja",
+      "text": "が予想外で少し戸惑いました。",
+      "start_sample": 42070,
+      "end_sample": 75418,
+      "start_ms": 2629,
+      "end_ms": 4714
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mensetsu kan no question ga yosou soto de sukoshi tomadoi mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7718,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "面接官の",
+          "start_sample": 0,
+          "end_sample": 19725,
+          "start_ms": 0,
+          "end_ms": 1233
+        },
+        {
+          "lang": "en",
+          "text": "question",
+          "start_sample": 19725,
+          "end_sample": 47791,
+          "start_ms": 1233,
+          "end_ms": 2987
+        },
+        {
+          "lang": "ja",
+          "text": "が予想外で少し戸惑いました。",
+          "start_sample": 47791,
+          "end_sample": 123486,
+          "start_ms": 2987,
+          "end_ms": 7718
+        }
+      ]
+    },
+    "ja": {
+      "text": "面接官のquestionが予想外で少し戸惑いました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3571,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "面接官の",
+          "start_sample": 0,
+          "end_sample": 14604,
+          "start_ms": 0,
+          "end_ms": 913
+        },
+        {
+          "lang": "en",
+          "text": "question",
+          "start_sample": 14604,
+          "end_sample": 23594,
+          "start_ms": 913,
+          "end_ms": 1475
+        },
+        {
+          "lang": "ja",
+          "text": "が予想外で少し戸惑いました。",
+          "start_sample": 23594,
+          "end_sample": 57142,
+          "start_ms": 1475,
+          "end_ms": 3571
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 236,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

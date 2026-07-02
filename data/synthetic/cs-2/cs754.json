@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs754.flac",
+  "sentence": "The bartender added a sliver of 柚子 peel and the whole drink became incredibly 華.",
+  "sample_rate": 16000,
+  "duration_ms": 6446,
+  "reference_speaker": "jp/speaker_013_e472ee9e6d56.mp3",
+  "seed": 17609,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The bartender added a sliver of",
+      "start_sample": 0,
+      "end_sample": 41305,
+      "start_ms": 0,
+      "end_ms": 2582
+    },
+    {
+      "lang": "ja",
+      "text": "柚子",
+      "start_sample": 41305,
+      "end_sample": 47319,
+      "start_ms": 2582,
+      "end_ms": 2957
+    },
+    {
+      "lang": "en",
+      "text": "peel and the whole drink became incredibly",
+      "start_sample": 47319,
+      "end_sample": 97880,
+      "start_ms": 2957,
+      "end_ms": 6118
+    },
+    {
+      "lang": "ja",
+      "text": "華.",
+      "start_sample": 97880,
+      "end_sample": 103130,
+      "start_ms": 6118,
+      "end_ms": 6446
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The bartender added a sliver of yuzu peel and the whole drink became incredibly hana",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6530,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bartender added a sliver of",
+          "start_sample": 0,
+          "end_sample": 41505,
+          "start_ms": 0,
+          "end_ms": 2594
+        },
+        {
+          "lang": "ja",
+          "text": "柚子",
+          "start_sample": 41505,
+          "end_sample": 46954,
+          "start_ms": 2594,
+          "end_ms": 2935
+        },
+        {
+          "lang": "en",
+          "text": "peel and the whole drink became incredibly",
+          "start_sample": 46954,
+          "end_sample": 97915,
+          "start_ms": 2935,
+          "end_ms": 6120
+        },
+        {
+          "lang": "ja",
+          "text": "華.",
+          "start_sample": 97915,
+          "end_sample": 104484,
+          "start_ms": 6120,
+          "end_ms": 6530
+        }
+      ]
+    },
+    "ja": {
+      "text": "The bartender added a sliver of 柚子 peel and the whole drink became incredibly 華.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7395,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bartender added a sliver of",
+          "start_sample": 0,
+          "end_sample": 46336,
+          "start_ms": 0,
+          "end_ms": 2896
+        },
+        {
+          "lang": "ja",
+          "text": "柚子",
+          "start_sample": 46336,
+          "end_sample": 52750,
+          "start_ms": 2896,
+          "end_ms": 3297
+        },
+        {
+          "lang": "en",
+          "text": "peel and the whole drink became incredibly",
+          "start_sample": 52750,
+          "end_sample": 112876,
+          "start_ms": 3297,
+          "end_ms": 7055
+        },
+        {
+          "lang": "ja",
+          "text": "華.",
+          "start_sample": 112876,
+          "end_sample": 118326,
+          "start_ms": 7055,
+          "end_ms": 7395
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 323,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjj"
+}

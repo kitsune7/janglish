@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7787.flac",
+  "sentence": "雹が降って、車のhoodがへこんでしまった。",
+  "sample_rate": 16000,
+  "duration_ms": 2646,
+  "reference_speaker": "jp/speaker_016_f3aac8b73f15.mp3",
+  "seed": 7829,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "雹が降って、車の",
+      "start_sample": 0,
+      "end_sample": 20809,
+      "start_ms": 0,
+      "end_ms": 1301
+    },
+    {
+      "lang": "en",
+      "text": "hood",
+      "start_sample": 20809,
+      "end_sample": 25543,
+      "start_ms": 1301,
+      "end_ms": 1596
+    },
+    {
+      "lang": "ja",
+      "text": "がへこんでしまった。",
+      "start_sample": 25543,
+      "end_sample": 42342,
+      "start_ms": 1596,
+      "end_ms": 2646
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "hyou ga futsu te kuruma no hood ga hekon de shimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7400,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "雹が降って、車の",
+          "start_sample": 0,
+          "end_sample": 71718,
+          "start_ms": 0,
+          "end_ms": 4482
+        },
+        {
+          "lang": "en",
+          "text": "hood",
+          "start_sample": 71718,
+          "end_sample": 76852,
+          "start_ms": 4482,
+          "end_ms": 4803
+        },
+        {
+          "lang": "ja",
+          "text": "がへこんでしまった。",
+          "start_sample": 76852,
+          "end_sample": 118405,
+          "start_ms": 4803,
+          "end_ms": 7400
+        }
+      ]
+    },
+    "ja": {
+      "text": "雹が降って、車のhoodがへこんでしまった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2706,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "雹が降って、車の",
+          "start_sample": 0,
+          "end_sample": 21009,
+          "start_ms": 0,
+          "end_ms": 1313
+        },
+        {
+          "lang": "en",
+          "text": "hood",
+          "start_sample": 21009,
+          "end_sample": 26301,
+          "start_ms": 1313,
+          "end_ms": 1644
+        },
+        {
+          "lang": "ja",
+          "text": "がへこんでしまった。",
+          "start_sample": 26301,
+          "end_sample": 43300,
+          "start_ms": 1644,
+          "end_ms": 2706
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 133,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

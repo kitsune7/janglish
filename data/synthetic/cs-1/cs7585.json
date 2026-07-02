@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7585.flac",
+  "sentence": "The 締め切り is tomorrow, so I'm staying off social media today.",
+  "sample_rate": 16000,
+  "duration_ms": 3866,
+  "reference_speaker": "jp/speaker_070_8f5dfeca773f.mp3",
+  "seed": 7627,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1407,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "締め切り",
+      "start_sample": 1407,
+      "end_sample": 11901,
+      "start_ms": 88,
+      "end_ms": 744
+    },
+    {
+      "lang": "en",
+      "text": "is tomorrow, so I'm staying off social media today.",
+      "start_sample": 11901,
+      "end_sample": 61859,
+      "start_ms": 744,
+      "end_ms": 3866
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shimekiri is tomorrow, so I'm staying off social media today.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3899,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1607,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "締め切り",
+          "start_sample": 1607,
+          "end_sample": 12219,
+          "start_ms": 100,
+          "end_ms": 764
+        },
+        {
+          "lang": "en",
+          "text": "is tomorrow, so I'm staying off social media today.",
+          "start_sample": 12219,
+          "end_sample": 62377,
+          "start_ms": 764,
+          "end_ms": 3899
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 締め切り is tomorrow, so I'm staying off social media today.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3945,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4805,
+          "start_ms": 0,
+          "end_ms": 300
+        },
+        {
+          "lang": "ja",
+          "text": "締め切り",
+          "start_sample": 4805,
+          "end_sample": 15699,
+          "start_ms": 300,
+          "end_ms": 981
+        },
+        {
+          "lang": "en",
+          "text": "is tomorrow, so I'm staying off social media today.",
+          "start_sample": 15699,
+          "end_sample": 63120,
+          "start_ms": 981,
+          "end_ms": 3945
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 194,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

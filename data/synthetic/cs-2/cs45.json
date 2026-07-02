@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs45.flac",
+  "sentence": "彼女はonline状態なのにofflineのふりをしている。",
+  "sample_rate": 16000,
+  "duration_ms": 3965,
+  "reference_speaker": "jp/speaker_086_b5416e90d3b7.mp3",
+  "seed": 16900,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は",
+      "start_sample": 0,
+      "end_sample": 8166,
+      "start_ms": 0,
+      "end_ms": 510
+    },
+    {
+      "lang": "en",
+      "text": "online",
+      "start_sample": 8166,
+      "end_sample": 20424,
+      "start_ms": 510,
+      "end_ms": 1276
+    },
+    {
+      "lang": "ja",
+      "text": "状態なのに",
+      "start_sample": 20424,
+      "end_sample": 33218,
+      "start_ms": 1276,
+      "end_ms": 2076
+    },
+    {
+      "lang": "en",
+      "text": "offline",
+      "start_sample": 33218,
+      "end_sample": 49000,
+      "start_ms": 2076,
+      "end_ms": 3062
+    },
+    {
+      "lang": "ja",
+      "text": "のふりをしている。",
+      "start_sample": 49000,
+      "end_sample": 63437,
+      "start_ms": 3062,
+      "end_ms": 3965
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha online joutai na no ni offline no furi wo shi te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6669,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 23551,
+          "start_ms": 0,
+          "end_ms": 1472
+        },
+        {
+          "lang": "en",
+          "text": "online",
+          "start_sample": 23551,
+          "end_sample": 36209,
+          "start_ms": 1472,
+          "end_ms": 2263
+        },
+        {
+          "lang": "ja",
+          "text": "状態なのに",
+          "start_sample": 36209,
+          "end_sample": 62804,
+          "start_ms": 2263,
+          "end_ms": 3925
+        },
+        {
+          "lang": "en",
+          "text": "offline",
+          "start_sample": 62804,
+          "end_sample": 78986,
+          "start_ms": 3925,
+          "end_ms": 4937
+        },
+        {
+          "lang": "ja",
+          "text": "のふりをしている。",
+          "start_sample": 78986,
+          "end_sample": 106703,
+          "start_ms": 4937,
+          "end_ms": 6669
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はonline状態なのにofflineのふりをしている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3258,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 8366,
+          "start_ms": 0,
+          "end_ms": 523
+        },
+        {
+          "lang": "en",
+          "text": "online",
+          "start_sample": 8366,
+          "end_sample": 15285,
+          "start_ms": 523,
+          "end_ms": 955
+        },
+        {
+          "lang": "ja",
+          "text": "状態なのに",
+          "start_sample": 15285,
+          "end_sample": 28479,
+          "start_ms": 955,
+          "end_ms": 1780
+        },
+        {
+          "lang": "en",
+          "text": "offline",
+          "start_sample": 28479,
+          "end_sample": 37489,
+          "start_ms": 1780,
+          "end_ms": 2343
+        },
+        {
+          "lang": "ja",
+          "text": "のふりをしている。",
+          "start_sample": 37489,
+          "end_sample": 52126,
+          "start_ms": 2343,
+          "end_ms": 3258
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 199,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

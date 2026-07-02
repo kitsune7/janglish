@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs768.flac",
+  "sentence": "She walked into the 面接 room projecting 自信 from every step.",
+  "sample_rate": 16000,
+  "duration_ms": 4438,
+  "reference_speaker": "jp/speaker_057_6b77a20f629a.mp3",
+  "seed": 17623,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She walked into the",
+      "start_sample": 0,
+      "end_sample": 10571,
+      "start_ms": 0,
+      "end_ms": 661
+    },
+    {
+      "lang": "ja",
+      "text": "面接",
+      "start_sample": 10571,
+      "end_sample": 17223,
+      "start_ms": 661,
+      "end_ms": 1076
+    },
+    {
+      "lang": "en",
+      "text": "room projecting",
+      "start_sample": 17223,
+      "end_sample": 40296,
+      "start_ms": 1076,
+      "end_ms": 2518
+    },
+    {
+      "lang": "ja",
+      "text": "自信",
+      "start_sample": 40296,
+      "end_sample": 51756,
+      "start_ms": 2518,
+      "end_ms": 3235
+    },
+    {
+      "lang": "en",
+      "text": "from every step.",
+      "start_sample": 51756,
+      "end_sample": 71005,
+      "start_ms": 3235,
+      "end_ms": 4438
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She walked into the mensetsu room projecting jishin from every step.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4622,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She walked into the",
+          "start_sample": 0,
+          "end_sample": 10771,
+          "start_ms": 0,
+          "end_ms": 673
+        },
+        {
+          "lang": "ja",
+          "text": "面接",
+          "start_sample": 10771,
+          "end_sample": 20097,
+          "start_ms": 673,
+          "end_ms": 1256
+        },
+        {
+          "lang": "en",
+          "text": "room projecting",
+          "start_sample": 20097,
+          "end_sample": 43570,
+          "start_ms": 1256,
+          "end_ms": 2723
+        },
+        {
+          "lang": "ja",
+          "text": "自信",
+          "start_sample": 43570,
+          "end_sample": 54504,
+          "start_ms": 2723,
+          "end_ms": 3406
+        },
+        {
+          "lang": "en",
+          "text": "from every step.",
+          "start_sample": 54504,
+          "end_sample": 73953,
+          "start_ms": 3406,
+          "end_ms": 4622
+        }
+      ]
+    },
+    "ja": {
+      "text": "She walked into the 面接 room projecting 自信 from every step.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5328,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She walked into the",
+          "start_sample": 0,
+          "end_sample": 19551,
+          "start_ms": 0,
+          "end_ms": 1222
+        },
+        {
+          "lang": "ja",
+          "text": "面接",
+          "start_sample": 19551,
+          "end_sample": 26603,
+          "start_ms": 1222,
+          "end_ms": 1663
+        },
+        {
+          "lang": "en",
+          "text": "room projecting",
+          "start_sample": 26603,
+          "end_sample": 45833,
+          "start_ms": 1663,
+          "end_ms": 2865
+        },
+        {
+          "lang": "ja",
+          "text": "自信",
+          "start_sample": 45833,
+          "end_sample": 57693,
+          "start_ms": 2865,
+          "end_ms": 3606
+        },
+        {
+          "lang": "en",
+          "text": "from every step.",
+          "start_sample": 57693,
+          "end_sample": 85256,
+          "start_ms": 3606,
+          "end_ms": 5328
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 222,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

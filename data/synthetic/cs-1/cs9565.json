@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9565.flac",
+  "sentence": "このchargerがないとすぐにスマホが死ぬ。",
+  "sample_rate": 16000,
+  "duration_ms": 2406,
+  "reference_speaker": "jp/speaker_026_f1fcfd0f4786.mp3",
+  "seed": 9607,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 2849,
+      "start_ms": 0,
+      "end_ms": 178
+    },
+    {
+      "lang": "en",
+      "text": "charger",
+      "start_sample": 2849,
+      "end_sample": 13499,
+      "start_ms": 178,
+      "end_ms": 844
+    },
+    {
+      "lang": "ja",
+      "text": "がないとすぐにスマホが死ぬ。",
+      "start_sample": 13499,
+      "end_sample": 38502,
+      "start_ms": 844,
+      "end_ms": 2406
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono charger ga nai to sugu ni sumaho ga shinu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5705,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 24021,
+          "start_ms": 0,
+          "end_ms": 1501
+        },
+        {
+          "lang": "en",
+          "text": "charger",
+          "start_sample": 24021,
+          "end_sample": 35071,
+          "start_ms": 1501,
+          "end_ms": 2192
+        },
+        {
+          "lang": "ja",
+          "text": "がないとすぐにスマホが死ぬ。",
+          "start_sample": 35071,
+          "end_sample": 91282,
+          "start_ms": 2192,
+          "end_ms": 5705
+        }
+      ]
+    },
+    "ja": {
+      "text": "このchargerがないとすぐにスマホが死ぬ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2207,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3049,
+          "start_ms": 0,
+          "end_ms": 191
+        },
+        {
+          "lang": "en",
+          "text": "charger",
+          "start_sample": 3049,
+          "end_sample": 10113,
+          "start_ms": 191,
+          "end_ms": 632
+        },
+        {
+          "lang": "ja",
+          "text": "がないとすぐにスマホが死ぬ。",
+          "start_sample": 10113,
+          "end_sample": 35316,
+          "start_ms": 632,
+          "end_ms": 2207
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 121,
+  "frame_labels": "jjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

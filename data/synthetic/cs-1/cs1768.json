@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1768.flac",
+  "sentence": "This sparkling wine tastes surprisingly 爽やか for how inexpensive the bottle was.",
+  "sample_rate": 16000,
+  "duration_ms": 5931,
+  "reference_speaker": "en/speaker_024_d461ea23a991.mp3",
+  "seed": 1810,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This sparkling wine tastes surprisingly",
+      "start_sample": 0,
+      "end_sample": 43173,
+      "start_ms": 0,
+      "end_ms": 2698
+    },
+    {
+      "lang": "ja",
+      "text": "爽やか",
+      "start_sample": 43173,
+      "end_sample": 57829,
+      "start_ms": 2698,
+      "end_ms": 3614
+    },
+    {
+      "lang": "en",
+      "text": "for how inexpensive the bottle was.",
+      "start_sample": 57829,
+      "end_sample": 94895,
+      "start_ms": 3614,
+      "end_ms": 5931
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This sparkling wine tastes surprisingly sawayaka for how inexpensive the bottle was.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5843,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This sparkling wine tastes surprisingly",
+          "start_sample": 0,
+          "end_sample": 43373,
+          "start_ms": 0,
+          "end_ms": 2711
+        },
+        {
+          "lang": "ja",
+          "text": "爽やか",
+          "start_sample": 43373,
+          "end_sample": 56225,
+          "start_ms": 2711,
+          "end_ms": 3514
+        },
+        {
+          "lang": "en",
+          "text": "for how inexpensive the bottle was.",
+          "start_sample": 56225,
+          "end_sample": 93491,
+          "start_ms": 3514,
+          "end_ms": 5843
+        }
+      ]
+    },
+    "ja": {
+      "text": "This sparkling wine tastes surprisingly 爽やか for how inexpensive the bottle was.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7488,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This sparkling wine tastes surprisingly",
+          "start_sample": 0,
+          "end_sample": 56218,
+          "start_ms": 0,
+          "end_ms": 3514
+        },
+        {
+          "lang": "ja",
+          "text": "爽やか",
+          "start_sample": 56218,
+          "end_sample": 71274,
+          "start_ms": 3514,
+          "end_ms": 4455
+        },
+        {
+          "lang": "en",
+          "text": "for how inexpensive the bottle was.",
+          "start_sample": 71274,
+          "end_sample": 119804,
+          "start_ms": 4455,
+          "end_ms": 7488
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 297,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

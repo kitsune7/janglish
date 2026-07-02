@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1649.flac",
+  "sentence": "Our neighbor's parrot is weirdly 賢い — it can open its own cage.",
+  "sample_rate": 16000,
+  "duration_ms": 5962,
+  "reference_speaker": "en/speaker_086_0a418a567872.mp3",
+  "seed": 1691,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Our neighbor's parrot is weirdly",
+      "start_sample": 0,
+      "end_sample": 47906,
+      "start_ms": 0,
+      "end_ms": 2994
+    },
+    {
+      "lang": "ja",
+      "text": "賢い —",
+      "start_sample": 47906,
+      "end_sample": 63851,
+      "start_ms": 2994,
+      "end_ms": 3991
+    },
+    {
+      "lang": "en",
+      "text": "it can open its own cage.",
+      "start_sample": 63851,
+      "end_sample": 95400,
+      "start_ms": 3991,
+      "end_ms": 5962
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Our neighbor's parrot is weirdly kashikoi it can open its own cage.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5953,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Our neighbor's parrot is weirdly",
+          "start_sample": 0,
+          "end_sample": 48106,
+          "start_ms": 0,
+          "end_ms": 3007
+        },
+        {
+          "lang": "ja",
+          "text": "賢い —",
+          "start_sample": 48106,
+          "end_sample": 63500,
+          "start_ms": 3007,
+          "end_ms": 3969
+        },
+        {
+          "lang": "en",
+          "text": "it can open its own cage.",
+          "start_sample": 63500,
+          "end_sample": 95249,
+          "start_ms": 3969,
+          "end_ms": 5953
+        }
+      ]
+    },
+    "ja": {
+      "text": "Our neighbor's parrot is weirdly 賢い — it can open its own cage.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7090,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Our neighbor's parrot is weirdly",
+          "start_sample": 0,
+          "end_sample": 49672,
+          "start_ms": 0,
+          "end_ms": 3104
+        },
+        {
+          "lang": "ja",
+          "text": "賢い —",
+          "start_sample": 49672,
+          "end_sample": 66017,
+          "start_ms": 3104,
+          "end_ms": 4126
+        },
+        {
+          "lang": "en",
+          "text": "it can open its own cage.",
+          "start_sample": 66017,
+          "end_sample": 113447,
+          "start_ms": 4126,
+          "end_ms": 7090
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 299,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

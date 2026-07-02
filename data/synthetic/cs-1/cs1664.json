@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1664.flac",
+  "sentence": "Have you noticed how 敏感 cats get when the weather is about to change?",
+  "sample_rate": 16000,
+  "duration_ms": 3833,
+  "reference_speaker": "jp/speaker_045_fda9acd0702e.mp3",
+  "seed": 1706,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you noticed how",
+      "start_sample": 0,
+      "end_sample": 15533,
+      "start_ms": 0,
+      "end_ms": 971
+    },
+    {
+      "lang": "ja",
+      "text": "敏感",
+      "start_sample": 15533,
+      "end_sample": 23476,
+      "start_ms": 971,
+      "end_ms": 1467
+    },
+    {
+      "lang": "en",
+      "text": "cats get when the weather is about to change?",
+      "start_sample": 23476,
+      "end_sample": 61323,
+      "start_ms": 1467,
+      "end_ms": 3833
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you noticed how binkan cats get when the weather is about to change?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3793,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you noticed how",
+          "start_sample": 0,
+          "end_sample": 15733,
+          "start_ms": 0,
+          "end_ms": 983
+        },
+        {
+          "lang": "ja",
+          "text": "敏感",
+          "start_sample": 15733,
+          "end_sample": 22637,
+          "start_ms": 983,
+          "end_ms": 1415
+        },
+        {
+          "lang": "en",
+          "text": "cats get when the weather is about to change?",
+          "start_sample": 22637,
+          "end_sample": 60684,
+          "start_ms": 1415,
+          "end_ms": 3793
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you noticed how 敏感 cats get when the weather is about to change?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4994,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you noticed how",
+          "start_sample": 0,
+          "end_sample": 19575,
+          "start_ms": 0,
+          "end_ms": 1223
+        },
+        {
+          "lang": "ja",
+          "text": "敏感",
+          "start_sample": 19575,
+          "end_sample": 27918,
+          "start_ms": 1223,
+          "end_ms": 1745
+        },
+        {
+          "lang": "en",
+          "text": "cats get when the weather is about to change?",
+          "start_sample": 27918,
+          "end_sample": 79903,
+          "start_ms": 1745,
+          "end_ms": 4994
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

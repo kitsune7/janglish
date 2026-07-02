@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10972.flac",
+  "sentence": "彼女はstageの上でとても堂々としていた。",
+  "sample_rate": 16000,
+  "duration_ms": 3021,
+  "reference_speaker": "en/speaker_069_688632e24cd4.mp3",
+  "seed": 11014,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は",
+      "start_sample": 0,
+      "end_sample": 7512,
+      "start_ms": 0,
+      "end_ms": 470
+    },
+    {
+      "lang": "en",
+      "text": "stage",
+      "start_sample": 7512,
+      "end_sample": 19784,
+      "start_ms": 470,
+      "end_ms": 1236
+    },
+    {
+      "lang": "ja",
+      "text": "の上でとても堂々としていた。",
+      "start_sample": 19784,
+      "end_sample": 48343,
+      "start_ms": 1236,
+      "end_ms": 3021
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha stage no ue de totemo doudou to shi te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5113,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 11227,
+          "start_ms": 0,
+          "end_ms": 702
+        },
+        {
+          "lang": "en",
+          "text": "stage",
+          "start_sample": 11227,
+          "end_sample": 23899,
+          "start_ms": 702,
+          "end_ms": 1494
+        },
+        {
+          "lang": "ja",
+          "text": "の上でとても堂々としていた。",
+          "start_sample": 23899,
+          "end_sample": 81801,
+          "start_ms": 1494,
+          "end_ms": 5113
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はstageの上でとても堂々としていた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2731,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 7712,
+          "start_ms": 0,
+          "end_ms": 482
+        },
+        {
+          "lang": "en",
+          "text": "stage",
+          "start_sample": 7712,
+          "end_sample": 14943,
+          "start_ms": 482,
+          "end_ms": 934
+        },
+        {
+          "lang": "ja",
+          "text": "の上でとても堂々としていた。",
+          "start_sample": 14943,
+          "end_sample": 43702,
+          "start_ms": 934,
+          "end_ms": 2731
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 152,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

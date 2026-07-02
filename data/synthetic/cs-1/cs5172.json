@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5172.flac",
+  "sentence": "彼女の笑顔を見るとwarmな気持ちが広がる。",
+  "sample_rate": 16000,
+  "duration_ms": 3302,
+  "reference_speaker": "jp/speaker_014_9e367176533e.mp3",
+  "seed": 5214,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女の笑顔を見ると",
+      "start_sample": 0,
+      "end_sample": 26298,
+      "start_ms": 0,
+      "end_ms": 1644
+    },
+    {
+      "lang": "en",
+      "text": "warm",
+      "start_sample": 26298,
+      "end_sample": 31833,
+      "start_ms": 1644,
+      "end_ms": 1990
+    },
+    {
+      "lang": "ja",
+      "text": "な気持ちが広がる。",
+      "start_sample": 31833,
+      "end_sample": 52829,
+      "start_ms": 1990,
+      "end_ms": 3302
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo no egao wo miru to warm na kimochi ga hirogaru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7339,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の笑顔を見ると",
+          "start_sample": 0,
+          "end_sample": 80213,
+          "start_ms": 0,
+          "end_ms": 5013
+        },
+        {
+          "lang": "en",
+          "text": "warm",
+          "start_sample": 80213,
+          "end_sample": 86148,
+          "start_ms": 5013,
+          "end_ms": 5384
+        },
+        {
+          "lang": "ja",
+          "text": "な気持ちが広がる。",
+          "start_sample": 86148,
+          "end_sample": 117429,
+          "start_ms": 5384,
+          "end_ms": 7339
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女の笑顔を見るとwarmな気持ちが広がる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3392,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の笑顔を見ると",
+          "start_sample": 0,
+          "end_sample": 26498,
+          "start_ms": 0,
+          "end_ms": 1656
+        },
+        {
+          "lang": "en",
+          "text": "warm",
+          "start_sample": 26498,
+          "end_sample": 33082,
+          "start_ms": 1656,
+          "end_ms": 2068
+        },
+        {
+          "lang": "ja",
+          "text": "な気持ちが広がる。",
+          "start_sample": 33082,
+          "end_sample": 54278,
+          "start_ms": 2068,
+          "end_ms": 3392
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 166,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

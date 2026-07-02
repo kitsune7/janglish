@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs381.flac",
+  "sentence": "We got turned around near the 港 and wasted a full 一時間 looking for the ferry terminal.",
+  "sample_rate": 16000,
+  "duration_ms": 4789,
+  "reference_speaker": "jp/speaker_045_fda9acd0702e.mp3",
+  "seed": 17236,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We got turned around near the",
+      "start_sample": 0,
+      "end_sample": 20152,
+      "start_ms": 0,
+      "end_ms": 1260
+    },
+    {
+      "lang": "ja",
+      "text": "港",
+      "start_sample": 20152,
+      "end_sample": 25046,
+      "start_ms": 1260,
+      "end_ms": 1565
+    },
+    {
+      "lang": "en",
+      "text": "and wasted a full",
+      "start_sample": 25046,
+      "end_sample": 43557,
+      "start_ms": 1565,
+      "end_ms": 2722
+    },
+    {
+      "lang": "ja",
+      "text": "一時間",
+      "start_sample": 43557,
+      "end_sample": 51980,
+      "start_ms": 2722,
+      "end_ms": 3249
+    },
+    {
+      "lang": "en",
+      "text": "looking for the ferry terminal.",
+      "start_sample": 51980,
+      "end_sample": 76619,
+      "start_ms": 3249,
+      "end_ms": 4789
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We got turned around near the minato and wasted a full ichi jikan looking for the ferry terminal.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5649,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We got turned around near the",
+          "start_sample": 0,
+          "end_sample": 20352,
+          "start_ms": 0,
+          "end_ms": 1272
+        },
+        {
+          "lang": "ja",
+          "text": "港",
+          "start_sample": 20352,
+          "end_sample": 31570,
+          "start_ms": 1272,
+          "end_ms": 1973
+        },
+        {
+          "lang": "en",
+          "text": "and wasted a full",
+          "start_sample": 31570,
+          "end_sample": 50481,
+          "start_ms": 1973,
+          "end_ms": 3155
+        },
+        {
+          "lang": "ja",
+          "text": "一時間",
+          "start_sample": 50481,
+          "end_sample": 65545,
+          "start_ms": 3155,
+          "end_ms": 4097
+        },
+        {
+          "lang": "en",
+          "text": "looking for the ferry terminal.",
+          "start_sample": 65545,
+          "end_sample": 90384,
+          "start_ms": 4097,
+          "end_ms": 5649
+        }
+      ]
+    },
+    "ja": {
+      "text": "We got turned around near the 港 and wasted a full 一時間 looking for the ferry terminal.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4913,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We got turned around near the",
+          "start_sample": 0,
+          "end_sample": 19892,
+          "start_ms": 0,
+          "end_ms": 1243
+        },
+        {
+          "lang": "ja",
+          "text": "港",
+          "start_sample": 19892,
+          "end_sample": 25186,
+          "start_ms": 1243,
+          "end_ms": 1574
+        },
+        {
+          "lang": "en",
+          "text": "and wasted a full",
+          "start_sample": 25186,
+          "end_sample": 42994,
+          "start_ms": 1574,
+          "end_ms": 2687
+        },
+        {
+          "lang": "ja",
+          "text": "一時間",
+          "start_sample": 42994,
+          "end_sample": 51817,
+          "start_ms": 2687,
+          "end_ms": 3239
+        },
+        {
+          "lang": "en",
+          "text": "looking for the ferry terminal.",
+          "start_sample": 51817,
+          "end_sample": 78606,
+          "start_ms": 3239,
+          "end_ms": 4913
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 240,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

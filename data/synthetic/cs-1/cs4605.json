@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4605.flac",
+  "sentence": "Have you ever seen a rabbit do a 元気 little jump when it's happy?",
+  "sample_rate": 16000,
+  "duration_ms": 4813,
+  "reference_speaker": "en/speaker_027_12abacd76d5f.mp3",
+  "seed": 4647,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you ever seen a rabbit do a",
+      "start_sample": 0,
+      "end_sample": 41192,
+      "start_ms": 0,
+      "end_ms": 2574
+    },
+    {
+      "lang": "ja",
+      "text": "元気",
+      "start_sample": 41192,
+      "end_sample": 53624,
+      "start_ms": 2574,
+      "end_ms": 3352
+    },
+    {
+      "lang": "en",
+      "text": "little jump when it's happy?",
+      "start_sample": 53624,
+      "end_sample": 77007,
+      "start_ms": 3352,
+      "end_ms": 4813
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you ever seen a rabbit do a genki little jump when it's happy?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4653,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever seen a rabbit do a",
+          "start_sample": 0,
+          "end_sample": 41392,
+          "start_ms": 0,
+          "end_ms": 2587
+        },
+        {
+          "lang": "ja",
+          "text": "元気",
+          "start_sample": 41392,
+          "end_sample": 50858,
+          "start_ms": 2587,
+          "end_ms": 3179
+        },
+        {
+          "lang": "en",
+          "text": "little jump when it's happy?",
+          "start_sample": 50858,
+          "end_sample": 74441,
+          "start_ms": 3179,
+          "end_ms": 4653
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you ever seen a rabbit do a 元気 little jump when it's happy?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6275,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever seen a rabbit do a",
+          "start_sample": 0,
+          "end_sample": 46353,
+          "start_ms": 0,
+          "end_ms": 2897
+        },
+        {
+          "lang": "ja",
+          "text": "元気",
+          "start_sample": 46353,
+          "end_sample": 59185,
+          "start_ms": 2897,
+          "end_ms": 3699
+        },
+        {
+          "lang": "en",
+          "text": "little jump when it's happy?",
+          "start_sample": 59185,
+          "end_sample": 100404,
+          "start_ms": 3699,
+          "end_ms": 6275
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 241,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

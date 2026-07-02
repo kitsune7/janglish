@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5636.flac",
+  "sentence": "The 国会 is expected to vote on the bill by Friday.",
+  "sample_rate": 16000,
+  "duration_ms": 3458,
+  "reference_speaker": "en/speaker_077_cf8a4971b1d4.mp3",
+  "seed": 5678,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1569,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "国会",
+      "start_sample": 1569,
+      "end_sample": 13218,
+      "start_ms": 98,
+      "end_ms": 826
+    },
+    {
+      "lang": "en",
+      "text": "is expected to vote on the bill by Friday.",
+      "start_sample": 13218,
+      "end_sample": 55333,
+      "start_ms": 826,
+      "end_ms": 3458
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kokkai is expected to vote on the bill by Friday.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3359,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1769,
+          "start_ms": 0,
+          "end_ms": 111
+        },
+        {
+          "lang": "ja",
+          "text": "国会",
+          "start_sample": 1769,
+          "end_sample": 11424,
+          "start_ms": 111,
+          "end_ms": 714
+        },
+        {
+          "lang": "en",
+          "text": "is expected to vote on the bill by Friday.",
+          "start_sample": 11424,
+          "end_sample": 53739,
+          "start_ms": 714,
+          "end_ms": 3359
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 国会 is expected to vote on the bill by Friday.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4779,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4493,
+          "start_ms": 0,
+          "end_ms": 281
+        },
+        {
+          "lang": "ja",
+          "text": "国会",
+          "start_sample": 4493,
+          "end_sample": 16542,
+          "start_ms": 281,
+          "end_ms": 1034
+        },
+        {
+          "lang": "en",
+          "text": "is expected to vote on the bill by Friday.",
+          "start_sample": 16542,
+          "end_sample": 76460,
+          "start_ms": 1034,
+          "end_ms": 4779
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 173,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

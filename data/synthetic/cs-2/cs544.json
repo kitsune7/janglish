@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs544.flac",
+  "sentence": "The company's 社風 was clearly casual, so dressing too formally felt like a 失敗.",
+  "sample_rate": 16000,
+  "duration_ms": 6164,
+  "reference_speaker": "en/speaker_050_6b3579133fec.mp3",
+  "seed": 17399,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The company's",
+      "start_sample": 0,
+      "end_sample": 10374,
+      "start_ms": 0,
+      "end_ms": 648
+    },
+    {
+      "lang": "ja",
+      "text": "社風",
+      "start_sample": 10374,
+      "end_sample": 20875,
+      "start_ms": 648,
+      "end_ms": 1305
+    },
+    {
+      "lang": "en",
+      "text": "was clearly casual, so dressing too formally felt like a",
+      "start_sample": 20875,
+      "end_sample": 90169,
+      "start_ms": 1305,
+      "end_ms": 5636
+    },
+    {
+      "lang": "ja",
+      "text": "失敗.",
+      "start_sample": 90169,
+      "end_sample": 98625,
+      "start_ms": 5636,
+      "end_ms": 6164
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The company's shafuu was clearly casual, so dressing too formally felt like a shippai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6649,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The company's",
+          "start_sample": 0,
+          "end_sample": 10574,
+          "start_ms": 0,
+          "end_ms": 661
+        },
+        {
+          "lang": "ja",
+          "text": "社風",
+          "start_sample": 10574,
+          "end_sample": 27717,
+          "start_ms": 661,
+          "end_ms": 1732
+        },
+        {
+          "lang": "en",
+          "text": "was clearly casual, so dressing too formally felt like a",
+          "start_sample": 27717,
+          "end_sample": 97411,
+          "start_ms": 1732,
+          "end_ms": 6088
+        },
+        {
+          "lang": "ja",
+          "text": "失敗.",
+          "start_sample": 97411,
+          "end_sample": 106382,
+          "start_ms": 6088,
+          "end_ms": 6649
+        }
+      ]
+    },
+    "ja": {
+      "text": "The company's 社風 was clearly casual, so dressing too formally felt like a 失敗.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7856,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The company's",
+          "start_sample": 0,
+          "end_sample": 21001,
+          "start_ms": 0,
+          "end_ms": 1313
+        },
+        {
+          "lang": "ja",
+          "text": "社風",
+          "start_sample": 21001,
+          "end_sample": 31902,
+          "start_ms": 1313,
+          "end_ms": 1994
+        },
+        {
+          "lang": "en",
+          "text": "was clearly casual, so dressing too formally felt like a",
+          "start_sample": 31902,
+          "end_sample": 117034,
+          "start_ms": 1994,
+          "end_ms": 7315
+        },
+        {
+          "lang": "ja",
+          "text": "失敗.",
+          "start_sample": 117034,
+          "end_sample": 125690,
+          "start_ms": 7315,
+          "end_ms": 7856
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 309,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

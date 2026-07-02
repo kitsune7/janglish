@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2591.flac",
+  "sentence": "このcampsiteは山の中にあってとても静かです。",
+  "sample_rate": 16000,
+  "duration_ms": 3269,
+  "reference_speaker": "jp/speaker_061_3e186ef591ed.mp3",
+  "seed": 2633,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 2699,
+      "start_ms": 0,
+      "end_ms": 169
+    },
+    {
+      "lang": "en",
+      "text": "campsite",
+      "start_sample": 2699,
+      "end_sample": 15606,
+      "start_ms": 169,
+      "end_ms": 975
+    },
+    {
+      "lang": "ja",
+      "text": "は山の中にあってとても静かです。",
+      "start_sample": 15606,
+      "end_sample": 52298,
+      "start_ms": 975,
+      "end_ms": 3269
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono campsite ha yama no naka ni atsu te totemo shizuka desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6213,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4168,
+          "start_ms": 0,
+          "end_ms": 260
+        },
+        {
+          "lang": "en",
+          "text": "campsite",
+          "start_sample": 4168,
+          "end_sample": 17475,
+          "start_ms": 260,
+          "end_ms": 1092
+        },
+        {
+          "lang": "ja",
+          "text": "は山の中にあってとても静かです。",
+          "start_sample": 17475,
+          "end_sample": 99403,
+          "start_ms": 1092,
+          "end_ms": 6213
+        }
+      ]
+    },
+    "ja": {
+      "text": "このcampsiteは山の中にあってとても静かです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3182,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 2899,
+          "start_ms": 0,
+          "end_ms": 181
+        },
+        {
+          "lang": "en",
+          "text": "campsite",
+          "start_sample": 2899,
+          "end_sample": 14017,
+          "start_ms": 181,
+          "end_ms": 876
+        },
+        {
+          "lang": "ja",
+          "text": "は山の中にあってとても静かです。",
+          "start_sample": 14017,
+          "end_sample": 50909,
+          "start_ms": 876,
+          "end_ms": 3182
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 164,
+  "frame_labels": "jjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

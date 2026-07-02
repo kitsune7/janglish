@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10890.flac",
+  "sentence": "I could hear 笛 music drifting over the rooftops from the festival three blocks away.",
+  "sample_rate": 16000,
+  "duration_ms": 4346,
+  "reference_speaker": "jp/speaker_012_14fe5dfafe10.mp3",
+  "seed": 10932,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I could hear",
+      "start_sample": 0,
+      "end_sample": 7007,
+      "start_ms": 0,
+      "end_ms": 438
+    },
+    {
+      "lang": "ja",
+      "text": "笛",
+      "start_sample": 7007,
+      "end_sample": 12861,
+      "start_ms": 438,
+      "end_ms": 804
+    },
+    {
+      "lang": "en",
+      "text": "music drifting over the rooftops from the festival three blocks away.",
+      "start_sample": 12861,
+      "end_sample": 69529,
+      "start_ms": 804,
+      "end_ms": 4346
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I could hear fue music drifting over the rooftops from the festival three blocks away.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4225,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I could hear",
+          "start_sample": 0,
+          "end_sample": 7207,
+          "start_ms": 0,
+          "end_ms": 450
+        },
+        {
+          "lang": "ja",
+          "text": "笛",
+          "start_sample": 7207,
+          "end_sample": 10731,
+          "start_ms": 450,
+          "end_ms": 671
+        },
+        {
+          "lang": "en",
+          "text": "music drifting over the rooftops from the festival three blocks away.",
+          "start_sample": 10731,
+          "end_sample": 67599,
+          "start_ms": 671,
+          "end_ms": 4225
+        }
+      ]
+    },
+    "ja": {
+      "text": "I could hear 笛 music drifting over the rooftops from the festival three blocks away.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6795,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I could hear",
+          "start_sample": 0,
+          "end_sample": 12505,
+          "start_ms": 0,
+          "end_ms": 782
+        },
+        {
+          "lang": "ja",
+          "text": "笛",
+          "start_sample": 12505,
+          "end_sample": 18759,
+          "start_ms": 782,
+          "end_ms": 1172
+        },
+        {
+          "lang": "en",
+          "text": "music drifting over the rooftops from the festival three blocks away.",
+          "start_sample": 18759,
+          "end_sample": 108719,
+          "start_ms": 1172,
+          "end_ms": 6795
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

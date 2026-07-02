@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs821.flac",
+  "sentence": "Could you check whether the 車検 is due before we take the trip? It seems 重要.",
+  "sample_rate": 16000,
+  "duration_ms": 4501,
+  "reference_speaker": "en/speaker_054_103b0eb5778e.mp3",
+  "seed": 17676,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Could you check whether the",
+      "start_sample": 0,
+      "end_sample": 15538,
+      "start_ms": 0,
+      "end_ms": 971
+    },
+    {
+      "lang": "ja",
+      "text": "車検",
+      "start_sample": 15538,
+      "end_sample": 26208,
+      "start_ms": 971,
+      "end_ms": 1638
+    },
+    {
+      "lang": "en",
+      "text": "is due before we take the trip? It seems",
+      "start_sample": 26208,
+      "end_sample": 64514,
+      "start_ms": 1638,
+      "end_ms": 4032
+    },
+    {
+      "lang": "ja",
+      "text": "重要.",
+      "start_sample": 64514,
+      "end_sample": 72012,
+      "start_ms": 4032,
+      "end_ms": 4501
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Could you check whether the shaken is due before we take the trip? It seems juuyou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4356,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you check whether the",
+          "start_sample": 0,
+          "end_sample": 15738,
+          "start_ms": 0,
+          "end_ms": 984
+        },
+        {
+          "lang": "ja",
+          "text": "車検",
+          "start_sample": 15738,
+          "end_sample": 23287,
+          "start_ms": 984,
+          "end_ms": 1455
+        },
+        {
+          "lang": "en",
+          "text": "is due before we take the trip? It seems",
+          "start_sample": 23287,
+          "end_sample": 61993,
+          "start_ms": 1455,
+          "end_ms": 3875
+        },
+        {
+          "lang": "ja",
+          "text": "重要.",
+          "start_sample": 61993,
+          "end_sample": 69698,
+          "start_ms": 3875,
+          "end_ms": 4356
+        }
+      ]
+    },
+    "ja": {
+      "text": "Could you check whether the 車検 is due before we take the trip? It seems 重要.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7379,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you check whether the",
+          "start_sample": 0,
+          "end_sample": 31443,
+          "start_ms": 0,
+          "end_ms": 1965
+        },
+        {
+          "lang": "ja",
+          "text": "車検",
+          "start_sample": 31443,
+          "end_sample": 42513,
+          "start_ms": 1965,
+          "end_ms": 2657
+        },
+        {
+          "lang": "en",
+          "text": "is due before we take the trip? It seems",
+          "start_sample": 42513,
+          "end_sample": 110373,
+          "start_ms": 2657,
+          "end_ms": 6898
+        },
+        {
+          "lang": "ja",
+          "text": "重要.",
+          "start_sample": 110373,
+          "end_sample": 118071,
+          "start_ms": 6898,
+          "end_ms": 7379
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 226,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8588.flac",
+  "sentence": "They converted the 物置 behind the garage into a cozy little home office.",
+  "sample_rate": 16000,
+  "duration_ms": 5690,
+  "reference_speaker": "jp/speaker_059_4c496a210b8b.mp3",
+  "seed": 8630,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "They converted the",
+      "start_sample": 0,
+      "end_sample": 12625,
+      "start_ms": 0,
+      "end_ms": 789
+    },
+    {
+      "lang": "ja",
+      "text": "物置",
+      "start_sample": 12625,
+      "end_sample": 34486,
+      "start_ms": 789,
+      "end_ms": 2155
+    },
+    {
+      "lang": "en",
+      "text": "behind the garage into a cozy little home office.",
+      "start_sample": 34486,
+      "end_sample": 91039,
+      "start_ms": 2155,
+      "end_ms": 5690
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "They converted the monooki behind the garage into a cozy little home office.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5210,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "They converted the",
+          "start_sample": 0,
+          "end_sample": 12825,
+          "start_ms": 0,
+          "end_ms": 802
+        },
+        {
+          "lang": "ja",
+          "text": "物置",
+          "start_sample": 12825,
+          "end_sample": 26613,
+          "start_ms": 802,
+          "end_ms": 1663
+        },
+        {
+          "lang": "en",
+          "text": "behind the garage into a cozy little home office.",
+          "start_sample": 26613,
+          "end_sample": 83366,
+          "start_ms": 1663,
+          "end_ms": 5210
+        }
+      ]
+    },
+    "ja": {
+      "text": "They converted the 物置 behind the garage into a cozy little home office.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8188,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "They converted the",
+          "start_sample": 0,
+          "end_sample": 29147,
+          "start_ms": 0,
+          "end_ms": 1822
+        },
+        {
+          "lang": "ja",
+          "text": "物置",
+          "start_sample": 29147,
+          "end_sample": 51408,
+          "start_ms": 1822,
+          "end_ms": 3213
+        },
+        {
+          "lang": "en",
+          "text": "behind the garage into a cozy little home office.",
+          "start_sample": 51408,
+          "end_sample": 131003,
+          "start_ms": 3213,
+          "end_ms": 8188
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 285,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

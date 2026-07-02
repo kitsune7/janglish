@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2060.flac",
+  "sentence": "小さい頃のmemoryは子供の心に深く残るものです。",
+  "sample_rate": 16000,
+  "duration_ms": 4011,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 2102,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "小さい頃の",
+      "start_sample": 0,
+      "end_sample": 12473,
+      "start_ms": 0,
+      "end_ms": 780
+    },
+    {
+      "lang": "en",
+      "text": "memory",
+      "start_sample": 12473,
+      "end_sample": 26992,
+      "start_ms": 780,
+      "end_ms": 1687
+    },
+    {
+      "lang": "ja",
+      "text": "は子供の心に深く残るものです。",
+      "start_sample": 26992,
+      "end_sample": 64176,
+      "start_ms": 1687,
+      "end_ms": 4011
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "chiisai goro no memory ha kodomo no kokoro ni fukaku nokoru mono desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7619,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "小さい頃の",
+          "start_sample": 0,
+          "end_sample": 31118,
+          "start_ms": 0,
+          "end_ms": 1945
+        },
+        {
+          "lang": "en",
+          "text": "memory",
+          "start_sample": 31118,
+          "end_sample": 46037,
+          "start_ms": 1945,
+          "end_ms": 2877
+        },
+        {
+          "lang": "ja",
+          "text": "は子供の心に深く残るものです。",
+          "start_sample": 46037,
+          "end_sample": 121908,
+          "start_ms": 2877,
+          "end_ms": 7619
+        }
+      ]
+    },
+    "ja": {
+      "text": "小さい頃のmemoryは子供の心に深く残るものです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3470,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "小さい頃の",
+          "start_sample": 0,
+          "end_sample": 12673,
+          "start_ms": 0,
+          "end_ms": 792
+        },
+        {
+          "lang": "en",
+          "text": "memory",
+          "start_sample": 12673,
+          "end_sample": 18128,
+          "start_ms": 792,
+          "end_ms": 1133
+        },
+        {
+          "lang": "ja",
+          "text": "は子供の心に深く残るものです。",
+          "start_sample": 18128,
+          "end_sample": 55512,
+          "start_ms": 1133,
+          "end_ms": 3470
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

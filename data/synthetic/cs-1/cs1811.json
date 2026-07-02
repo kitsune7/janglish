@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1811.flac",
+  "sentence": "That installation uses 光 in a way I haven't seen since the Turrell exhibition.",
+  "sample_rate": 16000,
+  "duration_ms": 5088,
+  "reference_speaker": "en/speaker_082_0d071699a4ef.mp3",
+  "seed": 1853,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That installation uses",
+      "start_sample": 0,
+      "end_sample": 21595,
+      "start_ms": 0,
+      "end_ms": 1350
+    },
+    {
+      "lang": "ja",
+      "text": "光",
+      "start_sample": 21595,
+      "end_sample": 28244,
+      "start_ms": 1350,
+      "end_ms": 1765
+    },
+    {
+      "lang": "en",
+      "text": "in a way I haven't seen since the Turrell exhibition.",
+      "start_sample": 28244,
+      "end_sample": 81409,
+      "start_ms": 1765,
+      "end_ms": 5088
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That installation uses hikari in a way I haven't seen since the Turrell exhibition.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5649,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That installation uses",
+          "start_sample": 0,
+          "end_sample": 21795,
+          "start_ms": 0,
+          "end_ms": 1362
+        },
+        {
+          "lang": "ja",
+          "text": "光",
+          "start_sample": 21795,
+          "end_sample": 37019,
+          "start_ms": 1362,
+          "end_ms": 2314
+        },
+        {
+          "lang": "en",
+          "text": "in a way I haven't seen since the Turrell exhibition.",
+          "start_sample": 37019,
+          "end_sample": 90384,
+          "start_ms": 2314,
+          "end_ms": 5649
+        }
+      ]
+    },
+    "ja": {
+      "text": "That installation uses 光 in a way I haven't seen since the Turrell exhibition.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6709,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That installation uses",
+          "start_sample": 0,
+          "end_sample": 27878,
+          "start_ms": 0,
+          "end_ms": 1742
+        },
+        {
+          "lang": "ja",
+          "text": "光",
+          "start_sample": 27878,
+          "end_sample": 34927,
+          "start_ms": 1742,
+          "end_ms": 2183
+        },
+        {
+          "lang": "en",
+          "text": "in a way I haven't seen since the Turrell exhibition.",
+          "start_sample": 34927,
+          "end_sample": 107345,
+          "start_ms": 2183,
+          "end_ms": 6709
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 255,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

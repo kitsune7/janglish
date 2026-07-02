@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3893.flac",
+  "sentence": "このexamは視力だけでなく、眼底も調べる検査です。",
+  "sample_rate": 16000,
+  "duration_ms": 4150,
+  "reference_speaker": "jp/speaker_054_a553b6ec02eb.mp3",
+  "seed": 3935,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 2537,
+      "start_ms": 0,
+      "end_ms": 159
+    },
+    {
+      "lang": "en",
+      "text": "exam",
+      "start_sample": 2537,
+      "end_sample": 21999,
+      "start_ms": 159,
+      "end_ms": 1375
+    },
+    {
+      "lang": "ja",
+      "text": "は視力だけでなく、眼底も調べる検査です。",
+      "start_sample": 21999,
+      "end_sample": 66394,
+      "start_ms": 1375,
+      "end_ms": 4150
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono exam ha shiryoku dake de naku gantei mo shiraberu kensa desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8349,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 17458,
+          "start_ms": 0,
+          "end_ms": 1091
+        },
+        {
+          "lang": "en",
+          "text": "exam",
+          "start_sample": 17458,
+          "end_sample": 37320,
+          "start_ms": 1091,
+          "end_ms": 2332
+        },
+        {
+          "lang": "ja",
+          "text": "は視力だけでなく、眼底も調べる検査です。",
+          "start_sample": 37320,
+          "end_sample": 133583,
+          "start_ms": 2332,
+          "end_ms": 8349
+        }
+      ]
+    },
+    "ja": {
+      "text": "このexamは視力だけでなく、眼底も調べる検査です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3320,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 2737,
+          "start_ms": 0,
+          "end_ms": 171
+        },
+        {
+          "lang": "en",
+          "text": "exam",
+          "start_sample": 2737,
+          "end_sample": 8533,
+          "start_ms": 171,
+          "end_ms": 533
+        },
+        {
+          "lang": "ja",
+          "text": "は視力だけでなく、眼底も調べる検査です。",
+          "start_sample": 8533,
+          "end_sample": 53128,
+          "start_ms": 533,
+          "end_ms": 3320
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "jjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

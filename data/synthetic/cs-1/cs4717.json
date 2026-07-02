@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4717.flac",
+  "sentence": "The whole 下車 process was chaotic because two doors were blocked.",
+  "sample_rate": 16000,
+  "duration_ms": 3457,
+  "reference_speaker": "en/speaker_040_ec293248c910.mp3",
+  "seed": 4759,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole",
+      "start_sample": 0,
+      "end_sample": 5428,
+      "start_ms": 0,
+      "end_ms": 339
+    },
+    {
+      "lang": "ja",
+      "text": "下車",
+      "start_sample": 5428,
+      "end_sample": 9849,
+      "start_ms": 339,
+      "end_ms": 616
+    },
+    {
+      "lang": "en",
+      "text": "process was chaotic because two doors were blocked.",
+      "start_sample": 9849,
+      "end_sample": 55318,
+      "start_ms": 616,
+      "end_ms": 3457
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole gesha process was chaotic because two doors were blocked.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3578,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole",
+          "start_sample": 0,
+          "end_sample": 5628,
+          "start_ms": 0,
+          "end_ms": 352
+        },
+        {
+          "lang": "ja",
+          "text": "下車",
+          "start_sample": 5628,
+          "end_sample": 11578,
+          "start_ms": 352,
+          "end_ms": 724
+        },
+        {
+          "lang": "en",
+          "text": "process was chaotic because two doors were blocked.",
+          "start_sample": 11578,
+          "end_sample": 57247,
+          "start_ms": 724,
+          "end_ms": 3578
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole 下車 process was chaotic because two doors were blocked.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4580,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole",
+          "start_sample": 0,
+          "end_sample": 10124,
+          "start_ms": 0,
+          "end_ms": 633
+        },
+        {
+          "lang": "ja",
+          "text": "下車",
+          "start_sample": 10124,
+          "end_sample": 14945,
+          "start_ms": 633,
+          "end_ms": 934
+        },
+        {
+          "lang": "en",
+          "text": "process was chaotic because two doors were blocked.",
+          "start_sample": 14945,
+          "end_sample": 73279,
+          "start_ms": 934,
+          "end_ms": 4580
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 173,
+  "frame_labels": "eeeeeeeeeeeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

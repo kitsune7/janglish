@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7903.flac",
+  "sentence": "Everyone agreed that this year's 盆踊り was even more energetic than last year's.",
+  "sample_rate": 16000,
+  "duration_ms": 5818,
+  "reference_speaker": "jp/speaker_075_35b3b5e9beb2.mp3",
+  "seed": 7945,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Everyone agreed that this year's",
+      "start_sample": 0,
+      "end_sample": 35434,
+      "start_ms": 0,
+      "end_ms": 2215
+    },
+    {
+      "lang": "ja",
+      "text": "盆踊り",
+      "start_sample": 35434,
+      "end_sample": 49142,
+      "start_ms": 2215,
+      "end_ms": 3071
+    },
+    {
+      "lang": "en",
+      "text": "was even more energetic than last year's.",
+      "start_sample": 49142,
+      "end_sample": 93084,
+      "start_ms": 3071,
+      "end_ms": 5818
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Everyone agreed that this year's bon'odori was even more energetic than last year's.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5959,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Everyone agreed that this year's",
+          "start_sample": 0,
+          "end_sample": 35634,
+          "start_ms": 0,
+          "end_ms": 2227
+        },
+        {
+          "lang": "ja",
+          "text": "盆踊り",
+          "start_sample": 35634,
+          "end_sample": 51205,
+          "start_ms": 2227,
+          "end_ms": 3200
+        },
+        {
+          "lang": "en",
+          "text": "was even more energetic than last year's.",
+          "start_sample": 51205,
+          "end_sample": 95347,
+          "start_ms": 3200,
+          "end_ms": 5959
+        }
+      ]
+    },
+    "ja": {
+      "text": "Everyone agreed that this year's 盆踊り was even more energetic than last year's.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6934,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Everyone agreed that this year's",
+          "start_sample": 0,
+          "end_sample": 43446,
+          "start_ms": 0,
+          "end_ms": 2715
+        },
+        {
+          "lang": "ja",
+          "text": "盆踊り",
+          "start_sample": 43446,
+          "end_sample": 57554,
+          "start_ms": 2715,
+          "end_ms": 3597
+        },
+        {
+          "lang": "en",
+          "text": "was even more energetic than last year's.",
+          "start_sample": 57554,
+          "end_sample": 110941,
+          "start_ms": 3597,
+          "end_ms": 6934
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 291,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

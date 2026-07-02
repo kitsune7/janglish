@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1677.flac",
+  "sentence": "The warm 木目 finish on the kitchen cabinets gives the whole space a feeling that's deeply 落ち着き.",
+  "sample_rate": 16000,
+  "duration_ms": 7170,
+  "reference_speaker": "en/speaker_059_8cc960ae4dc2.mp3",
+  "seed": 18532,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The warm",
+      "start_sample": 0,
+      "end_sample": 6044,
+      "start_ms": 0,
+      "end_ms": 378
+    },
+    {
+      "lang": "ja",
+      "text": "木目",
+      "start_sample": 6044,
+      "end_sample": 18452,
+      "start_ms": 378,
+      "end_ms": 1153
+    },
+    {
+      "lang": "en",
+      "text": "finish on the kitchen cabinets gives the whole space a feeling that's deeply",
+      "start_sample": 18452,
+      "end_sample": 107237,
+      "start_ms": 1153,
+      "end_ms": 6702
+    },
+    {
+      "lang": "ja",
+      "text": "落ち着き.",
+      "start_sample": 107237,
+      "end_sample": 114722,
+      "start_ms": 6702,
+      "end_ms": 7170
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The warm mokume finish on the kitchen cabinets gives the whole space a feeling that's deeply ochitsuki",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7125,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The warm",
+          "start_sample": 0,
+          "end_sample": 6244,
+          "start_ms": 0,
+          "end_ms": 390
+        },
+        {
+          "lang": "ja",
+          "text": "木目",
+          "start_sample": 6244,
+          "end_sample": 13929,
+          "start_ms": 390,
+          "end_ms": 871
+        },
+        {
+          "lang": "en",
+          "text": "finish on the kitchen cabinets gives the whole space a feeling that's deeply",
+          "start_sample": 13929,
+          "end_sample": 103114,
+          "start_ms": 871,
+          "end_ms": 6445
+        },
+        {
+          "lang": "ja",
+          "text": "落ち着き.",
+          "start_sample": 103114,
+          "end_sample": 114002,
+          "start_ms": 6445,
+          "end_ms": 7125
+        }
+      ]
+    },
+    "ja": {
+      "text": "The warm 木目 finish on the kitchen cabinets gives the whole space a feeling that's deeply 落ち着き.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8585,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The warm",
+          "start_sample": 0,
+          "end_sample": 12327,
+          "start_ms": 0,
+          "end_ms": 770
+        },
+        {
+          "lang": "ja",
+          "text": "木目",
+          "start_sample": 12327,
+          "end_sample": 25135,
+          "start_ms": 770,
+          "end_ms": 1571
+        },
+        {
+          "lang": "en",
+          "text": "finish on the kitchen cabinets gives the whole space a feeling that's deeply",
+          "start_sample": 25135,
+          "end_sample": 129678,
+          "start_ms": 1571,
+          "end_ms": 8105
+        },
+        {
+          "lang": "ja",
+          "text": "落ち着き.",
+          "start_sample": 129678,
+          "end_sample": 137363,
+          "start_ms": 8105,
+          "end_ms": 8585
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 359,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6209.flac",
+  "sentence": "データをbackupしておかないと、大切なファイルをなくすことがあります。",
+  "sample_rate": 16000,
+  "duration_ms": 3164,
+  "reference_speaker": "jp/speaker_063_0760e257c60c.mp3",
+  "seed": 6251,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "データを",
+      "start_sample": 0,
+      "end_sample": 5748,
+      "start_ms": 0,
+      "end_ms": 359
+    },
+    {
+      "lang": "en",
+      "text": "backup",
+      "start_sample": 5748,
+      "end_sample": 11603,
+      "start_ms": 359,
+      "end_ms": 725
+    },
+    {
+      "lang": "ja",
+      "text": "しておかないと、大切なファイルをなくすことがあります。",
+      "start_sample": 11603,
+      "end_sample": 50629,
+      "start_ms": 725,
+      "end_ms": 3164
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "deeta wo backup shi te oka nai to taisetsu na fairu wo nakusu koto ga ari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7438,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "データを",
+          "start_sample": 0,
+          "end_sample": 18765,
+          "start_ms": 0,
+          "end_ms": 1173
+        },
+        {
+          "lang": "en",
+          "text": "backup",
+          "start_sample": 18765,
+          "end_sample": 25020,
+          "start_ms": 1173,
+          "end_ms": 1564
+        },
+        {
+          "lang": "ja",
+          "text": "しておかないと、大切なファイルをなくすことがあります。",
+          "start_sample": 25020,
+          "end_sample": 119008,
+          "start_ms": 1564,
+          "end_ms": 7438
+        }
+      ]
+    },
+    "ja": {
+      "text": "データをbackupしておかないと、大切なファイルをなくすことがあります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3235,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "データを",
+          "start_sample": 0,
+          "end_sample": 5948,
+          "start_ms": 0,
+          "end_ms": 372
+        },
+        {
+          "lang": "en",
+          "text": "backup",
+          "start_sample": 5948,
+          "end_sample": 12540,
+          "start_ms": 372,
+          "end_ms": 784
+        },
+        {
+          "lang": "ja",
+          "text": "しておかないと、大切なファイルをなくすことがあります。",
+          "start_sample": 12540,
+          "end_sample": 51766,
+          "start_ms": 784,
+          "end_ms": 3235
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

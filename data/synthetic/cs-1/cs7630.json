@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7630.flac",
+  "sentence": "バーのambiance がとても落ち着いていてよかった。",
+  "sample_rate": 16000,
+  "duration_ms": 4265,
+  "reference_speaker": "en/speaker_045_730ff605e95b.mp3",
+  "seed": 7672,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "バーの",
+      "start_sample": 0,
+      "end_sample": 6848,
+      "start_ms": 0,
+      "end_ms": 428
+    },
+    {
+      "lang": "en",
+      "text": "ambiance",
+      "start_sample": 6848,
+      "end_sample": 30640,
+      "start_ms": 428,
+      "end_ms": 1915
+    },
+    {
+      "lang": "ja",
+      "text": "がとても落ち着いていてよかった。",
+      "start_sample": 30640,
+      "end_sample": 68244,
+      "start_ms": 1915,
+      "end_ms": 4265
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "baa no ambiance ga totemo ochitsui te i te yokatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6609,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "バーの",
+          "start_sample": 0,
+          "end_sample": 8330,
+          "start_ms": 0,
+          "end_ms": 521
+        },
+        {
+          "lang": "en",
+          "text": "ambiance",
+          "start_sample": 8330,
+          "end_sample": 32522,
+          "start_ms": 521,
+          "end_ms": 2033
+        },
+        {
+          "lang": "ja",
+          "text": "がとても落ち着いていてよかった。",
+          "start_sample": 32522,
+          "end_sample": 105740,
+          "start_ms": 2033,
+          "end_ms": 6609
+        }
+      ]
+    },
+    "ja": {
+      "text": "バーのambiance がとても落ち着いていてよかった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3424,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "バーの",
+          "start_sample": 0,
+          "end_sample": 7048,
+          "start_ms": 0,
+          "end_ms": 440
+        },
+        {
+          "lang": "en",
+          "text": "ambiance",
+          "start_sample": 7048,
+          "end_sample": 16980,
+          "start_ms": 440,
+          "end_ms": 1061
+        },
+        {
+          "lang": "ja",
+          "text": "がとても落ち着いていてよかった。",
+          "start_sample": 16980,
+          "end_sample": 54784,
+          "start_ms": 1061,
+          "end_ms": 3424
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 214,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

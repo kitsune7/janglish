@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6806.flac",
+  "sentence": "Is the hotel really 遠い from the station?",
+  "sample_rate": 16000,
+  "duration_ms": 2032,
+  "reference_speaker": "en/speaker_001_b06ec2cd8db9.mp3",
+  "seed": 6848,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Is the hotel really",
+      "start_sample": 0,
+      "end_sample": 14774,
+      "start_ms": 0,
+      "end_ms": 923
+    },
+    {
+      "lang": "ja",
+      "text": "遠い",
+      "start_sample": 14774,
+      "end_sample": 19833,
+      "start_ms": 923,
+      "end_ms": 1240
+    },
+    {
+      "lang": "en",
+      "text": "from the station?",
+      "start_sample": 19833,
+      "end_sample": 32509,
+      "start_ms": 1240,
+      "end_ms": 2032
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Is the hotel really tooi from the station?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2133,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is the hotel really",
+          "start_sample": 0,
+          "end_sample": 14974,
+          "start_ms": 0,
+          "end_ms": 936
+        },
+        {
+          "lang": "ja",
+          "text": "遠い",
+          "start_sample": 14974,
+          "end_sample": 21254,
+          "start_ms": 936,
+          "end_ms": 1328
+        },
+        {
+          "lang": "en",
+          "text": "from the station?",
+          "start_sample": 21254,
+          "end_sample": 34130,
+          "start_ms": 1328,
+          "end_ms": 2133
+        }
+      ]
+    },
+    "ja": {
+      "text": "Is the hotel really 遠い from the station?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2247,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is the hotel really",
+          "start_sample": 0,
+          "end_sample": 16856,
+          "start_ms": 0,
+          "end_ms": 1054
+        },
+        {
+          "lang": "ja",
+          "text": "遠い",
+          "start_sample": 16856,
+          "end_sample": 22315,
+          "start_ms": 1054,
+          "end_ms": 1395
+        },
+        {
+          "lang": "en",
+          "text": "from the station?",
+          "start_sample": 22315,
+          "end_sample": 35958,
+          "start_ms": 1395,
+          "end_ms": 2247
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 102,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

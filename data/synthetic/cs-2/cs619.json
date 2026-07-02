@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs619.flac",
+  "sentence": "The call went on for so long that I completely lost track of the 時間 and forgot my 予定.",
+  "sample_rate": 16000,
+  "duration_ms": 5647,
+  "reference_speaker": "jp/speaker_041_36b0f2924199.mp3",
+  "seed": 17474,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The call went on for so long that I completely lost track of the",
+      "start_sample": 0,
+      "end_sample": 61382,
+      "start_ms": 0,
+      "end_ms": 3836
+    },
+    {
+      "lang": "ja",
+      "text": "時間",
+      "start_sample": 61382,
+      "end_sample": 67711,
+      "start_ms": 3836,
+      "end_ms": 4232
+    },
+    {
+      "lang": "en",
+      "text": "and forgot my",
+      "start_sample": 67711,
+      "end_sample": 82386,
+      "start_ms": 4232,
+      "end_ms": 5149
+    },
+    {
+      "lang": "ja",
+      "text": "予定.",
+      "start_sample": 82386,
+      "end_sample": 90357,
+      "start_ms": 5149,
+      "end_ms": 5647
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The call went on for so long that I completely lost track of the jikan and forgot my yotei",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6134,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The call went on for so long that I completely lost track of the",
+          "start_sample": 0,
+          "end_sample": 61582,
+          "start_ms": 0,
+          "end_ms": 3849
+        },
+        {
+          "lang": "ja",
+          "text": "時間",
+          "start_sample": 61582,
+          "end_sample": 75054,
+          "start_ms": 3849,
+          "end_ms": 4691
+        },
+        {
+          "lang": "en",
+          "text": "and forgot my",
+          "start_sample": 75054,
+          "end_sample": 90129,
+          "start_ms": 4691,
+          "end_ms": 5633
+        },
+        {
+          "lang": "ja",
+          "text": "予定.",
+          "start_sample": 90129,
+          "end_sample": 98146,
+          "start_ms": 5633,
+          "end_ms": 6134
+        }
+      ]
+    },
+    "ja": {
+      "text": "The call went on for so long that I completely lost track of the 時間 and forgot my 予定.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5548,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The call went on for so long that I completely lost track of the",
+          "start_sample": 0,
+          "end_sample": 61688,
+          "start_ms": 0,
+          "end_ms": 3856
+        },
+        {
+          "lang": "ja",
+          "text": "時間",
+          "start_sample": 61688,
+          "end_sample": 68417,
+          "start_ms": 3856,
+          "end_ms": 4276
+        },
+        {
+          "lang": "en",
+          "text": "and forgot my",
+          "start_sample": 68417,
+          "end_sample": 80595,
+          "start_ms": 4276,
+          "end_ms": 5037
+        },
+        {
+          "lang": "ja",
+          "text": "予定.",
+          "start_sample": 80595,
+          "end_sample": 88766,
+          "start_ms": 5037,
+          "end_ms": 5548
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 283,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs614.flac",
+  "sentence": "The group chat has been so 賑やか lately because of the whole 騒動.",
+  "sample_rate": 16000,
+  "duration_ms": 4725,
+  "reference_speaker": "jp/speaker_021_dc81e43724ca.mp3",
+  "seed": 17469,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The group chat has been so",
+      "start_sample": 0,
+      "end_sample": 28995,
+      "start_ms": 0,
+      "end_ms": 1812
+    },
+    {
+      "lang": "ja",
+      "text": "賑やか",
+      "start_sample": 28995,
+      "end_sample": 42370,
+      "start_ms": 1812,
+      "end_ms": 2648
+    },
+    {
+      "lang": "en",
+      "text": "lately because of the whole",
+      "start_sample": 42370,
+      "end_sample": 66355,
+      "start_ms": 2648,
+      "end_ms": 4147
+    },
+    {
+      "lang": "ja",
+      "text": "騒動.",
+      "start_sample": 66355,
+      "end_sample": 75605,
+      "start_ms": 4147,
+      "end_ms": 4725
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The group chat has been so nigiyaka lately because of the whole soudou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4873,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The group chat has been so",
+          "start_sample": 0,
+          "end_sample": 29195,
+          "start_ms": 0,
+          "end_ms": 1825
+        },
+        {
+          "lang": "ja",
+          "text": "賑やか",
+          "start_sample": 29195,
+          "end_sample": 43152,
+          "start_ms": 1825,
+          "end_ms": 2697
+        },
+        {
+          "lang": "en",
+          "text": "lately because of the whole",
+          "start_sample": 43152,
+          "end_sample": 67537,
+          "start_ms": 2697,
+          "end_ms": 4221
+        },
+        {
+          "lang": "ja",
+          "text": "騒動.",
+          "start_sample": 67537,
+          "end_sample": 77962,
+          "start_ms": 4221,
+          "end_ms": 4873
+        }
+      ]
+    },
+    "ja": {
+      "text": "The group chat has been so 賑やか lately because of the whole 騒動.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5866,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The group chat has been so",
+          "start_sample": 0,
+          "end_sample": 41645,
+          "start_ms": 0,
+          "end_ms": 2603
+        },
+        {
+          "lang": "ja",
+          "text": "賑やか",
+          "start_sample": 41645,
+          "end_sample": 55420,
+          "start_ms": 2603,
+          "end_ms": 3464
+        },
+        {
+          "lang": "en",
+          "text": "lately because of the whole",
+          "start_sample": 55420,
+          "end_sample": 84412,
+          "start_ms": 3464,
+          "end_ms": 5276
+        },
+        {
+          "lang": "ja",
+          "text": "騒動.",
+          "start_sample": 84412,
+          "end_sample": 93862,
+          "start_ms": 5276,
+          "end_ms": 5866
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 237,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

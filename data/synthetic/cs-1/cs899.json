@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs899.flac",
+  "sentence": "セットにsaladをつけることはできますか？",
+  "sample_rate": 16000,
+  "duration_ms": 3556,
+  "reference_speaker": "jp/speaker_018_b5ccf3bf7c65.mp3",
+  "seed": 941,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "セットに",
+      "start_sample": 0,
+      "end_sample": 8134,
+      "start_ms": 0,
+      "end_ms": 508
+    },
+    {
+      "lang": "en",
+      "text": "salad",
+      "start_sample": 8134,
+      "end_sample": 35306,
+      "start_ms": 508,
+      "end_ms": 2207
+    },
+    {
+      "lang": "ja",
+      "text": "をつけることはできますか？",
+      "start_sample": 35306,
+      "end_sample": 56904,
+      "start_ms": 2207,
+      "end_ms": 3556
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "setto ni salad wo tsukeru koto ha deki masu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8836,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "セットに",
+          "start_sample": 0,
+          "end_sample": 22921,
+          "start_ms": 0,
+          "end_ms": 1433
+        },
+        {
+          "lang": "en",
+          "text": "salad",
+          "start_sample": 22921,
+          "end_sample": 50493,
+          "start_ms": 1433,
+          "end_ms": 3156
+        },
+        {
+          "lang": "ja",
+          "text": "をつけることはできますか？",
+          "start_sample": 50493,
+          "end_sample": 141381,
+          "start_ms": 3156,
+          "end_ms": 8836
+        }
+      ]
+    },
+    "ja": {
+      "text": "セットにsaladをつけることはできますか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2204,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "セットに",
+          "start_sample": 0,
+          "end_sample": 8334,
+          "start_ms": 0,
+          "end_ms": 521
+        },
+        {
+          "lang": "en",
+          "text": "salad",
+          "start_sample": 8334,
+          "end_sample": 13463,
+          "start_ms": 521,
+          "end_ms": 841
+        },
+        {
+          "lang": "ja",
+          "text": "をつけることはできますか？",
+          "start_sample": 13463,
+          "end_sample": 35261,
+          "start_ms": 841,
+          "end_ms": 2204
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 178,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

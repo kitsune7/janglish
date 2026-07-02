@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8079.flac",
+  "sentence": "今夜、初めてのdateに何を着ていくか迷っている。",
+  "sample_rate": 16000,
+  "duration_ms": 3580,
+  "reference_speaker": "jp/speaker_076_e83c8bab36f0.mp3",
+  "seed": 8121,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今夜、初めての",
+      "start_sample": 0,
+      "end_sample": 20818,
+      "start_ms": 0,
+      "end_ms": 1301
+    },
+    {
+      "lang": "en",
+      "text": "date",
+      "start_sample": 20818,
+      "end_sample": 25230,
+      "start_ms": 1301,
+      "end_ms": 1577
+    },
+    {
+      "lang": "ja",
+      "text": "に何を着ていくか迷っている。",
+      "start_sample": 25230,
+      "end_sample": 57277,
+      "start_ms": 1577,
+      "end_ms": 3580
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "konya hajimete no date ni nani wo chaku te iku ka mayotsu te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9963,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今夜、初めての",
+          "start_sample": 0,
+          "end_sample": 35602,
+          "start_ms": 0,
+          "end_ms": 2225
+        },
+        {
+          "lang": "en",
+          "text": "date",
+          "start_sample": 35602,
+          "end_sample": 40414,
+          "start_ms": 2225,
+          "end_ms": 2526
+        },
+        {
+          "lang": "ja",
+          "text": "に何を着ていくか迷っている。",
+          "start_sample": 40414,
+          "end_sample": 159409,
+          "start_ms": 2526,
+          "end_ms": 9963
+        }
+      ]
+    },
+    "ja": {
+      "text": "今夜、初めてのdateに何を着ていくか迷っている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3730,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今夜、初めての",
+          "start_sample": 0,
+          "end_sample": 21018,
+          "start_ms": 0,
+          "end_ms": 1314
+        },
+        {
+          "lang": "en",
+          "text": "date",
+          "start_sample": 21018,
+          "end_sample": 27435,
+          "start_ms": 1314,
+          "end_ms": 1715
+        },
+        {
+          "lang": "ja",
+          "text": "に何を着ていくか迷っている。",
+          "start_sample": 27435,
+          "end_sample": 59682,
+          "start_ms": 1715,
+          "end_ms": 3730
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 179,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

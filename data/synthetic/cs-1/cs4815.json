@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4815.flac",
+  "sentence": "彼女のスキンケアはとてもconsistentで肌がきれいだ。",
+  "sample_rate": 16000,
+  "duration_ms": 4250,
+  "reference_speaker": "en/speaker_065_22dd21ffb5a9.mp3",
+  "seed": 4857,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女のスキンケアはとても",
+      "start_sample": 0,
+      "end_sample": 30534,
+      "start_ms": 0,
+      "end_ms": 1908
+    },
+    {
+      "lang": "en",
+      "text": "consistent",
+      "start_sample": 30534,
+      "end_sample": 47600,
+      "start_ms": 1908,
+      "end_ms": 2975
+    },
+    {
+      "lang": "ja",
+      "text": "で肌がきれいだ。",
+      "start_sample": 47600,
+      "end_sample": 67992,
+      "start_ms": 2975,
+      "end_ms": 4250
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo no sukin kea ha totemo consistent de hada ga kirei da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7611,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女のスキンケアはとても",
+          "start_sample": 0,
+          "end_sample": 71145,
+          "start_ms": 0,
+          "end_ms": 4447
+        },
+        {
+          "lang": "en",
+          "text": "consistent",
+          "start_sample": 71145,
+          "end_sample": 88611,
+          "start_ms": 4447,
+          "end_ms": 5538
+        },
+        {
+          "lang": "ja",
+          "text": "で肌がきれいだ。",
+          "start_sample": 88611,
+          "end_sample": 121780,
+          "start_ms": 5538,
+          "end_ms": 7611
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女のスキンケアはとてもconsistentで肌がきれいだ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4083,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女のスキンケアはとても",
+          "start_sample": 0,
+          "end_sample": 30734,
+          "start_ms": 0,
+          "end_ms": 1921
+        },
+        {
+          "lang": "en",
+          "text": "consistent",
+          "start_sample": 30734,
+          "end_sample": 44733,
+          "start_ms": 1921,
+          "end_ms": 2796
+        },
+        {
+          "lang": "ja",
+          "text": "で肌がきれいだ。",
+          "start_sample": 44733,
+          "end_sample": 65325,
+          "start_ms": 2796,
+          "end_ms": 4083
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 213,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1048.flac",
+  "sentence": "My grandmother has always been the 大黒柱 of our family, so incredibly 頼もしい.",
+  "sample_rate": 16000,
+  "duration_ms": 6602,
+  "reference_speaker": "jp/speaker_026_f1fcfd0f4786.mp3",
+  "seed": 17903,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My grandmother has always been the",
+      "start_sample": 0,
+      "end_sample": 32784,
+      "start_ms": 0,
+      "end_ms": 2049
+    },
+    {
+      "lang": "ja",
+      "text": "大黒柱",
+      "start_sample": 32784,
+      "end_sample": 55466,
+      "start_ms": 2049,
+      "end_ms": 3467
+    },
+    {
+      "lang": "en",
+      "text": "of our family, so incredibly",
+      "start_sample": 55466,
+      "end_sample": 93496,
+      "start_ms": 3467,
+      "end_ms": 5844
+    },
+    {
+      "lang": "ja",
+      "text": "頼もしい.",
+      "start_sample": 93496,
+      "end_sample": 105637,
+      "start_ms": 5844,
+      "end_ms": 6602
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My grandmother has always been the daikoku hashira of our family, so incredibly tanomoshii",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6785,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My grandmother has always been the",
+          "start_sample": 0,
+          "end_sample": 32984,
+          "start_ms": 0,
+          "end_ms": 2062
+        },
+        {
+          "lang": "ja",
+          "text": "大黒柱",
+          "start_sample": 32984,
+          "end_sample": 57803,
+          "start_ms": 2062,
+          "end_ms": 3613
+        },
+        {
+          "lang": "en",
+          "text": "of our family, so incredibly",
+          "start_sample": 57803,
+          "end_sample": 96233,
+          "start_ms": 3613,
+          "end_ms": 6015
+        },
+        {
+          "lang": "ja",
+          "text": "頼もしい.",
+          "start_sample": 96233,
+          "end_sample": 108562,
+          "start_ms": 6015,
+          "end_ms": 6785
+        }
+      ]
+    },
+    "ja": {
+      "text": "My grandmother has always been the 大黒柱 of our family, so incredibly 頼もしい.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7994,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My grandmother has always been the",
+          "start_sample": 0,
+          "end_sample": 45362,
+          "start_ms": 0,
+          "end_ms": 2835
+        },
+        {
+          "lang": "ja",
+          "text": "大黒柱",
+          "start_sample": 45362,
+          "end_sample": 68444,
+          "start_ms": 2835,
+          "end_ms": 4278
+        },
+        {
+          "lang": "en",
+          "text": "of our family, so incredibly",
+          "start_sample": 68444,
+          "end_sample": 115569,
+          "start_ms": 4278,
+          "end_ms": 7223
+        },
+        {
+          "lang": "ja",
+          "text": "頼もしい.",
+          "start_sample": 115569,
+          "end_sample": 127910,
+          "start_ms": 7223,
+          "end_ms": 7994
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 331,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

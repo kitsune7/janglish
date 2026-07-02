@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs64.flac",
+  "sentence": "The new 点滴 drip helped rehydrate him much faster than oral fluids alone.",
+  "sample_rate": 16000,
+  "duration_ms": 5173,
+  "reference_speaker": "jp/speaker_053_8435a3c28f36.mp3",
+  "seed": 106,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The new",
+      "start_sample": 0,
+      "end_sample": 4932,
+      "start_ms": 0,
+      "end_ms": 308
+    },
+    {
+      "lang": "ja",
+      "text": "点滴",
+      "start_sample": 4932,
+      "end_sample": 13839,
+      "start_ms": 308,
+      "end_ms": 865
+    },
+    {
+      "lang": "en",
+      "text": "drip helped rehydrate him much faster than oral fluids alone.",
+      "start_sample": 13839,
+      "end_sample": 82769,
+      "start_ms": 865,
+      "end_ms": 5173
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The new tenteki drip helped rehydrate him much faster than oral fluids alone.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5233,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new",
+          "start_sample": 0,
+          "end_sample": 5132,
+          "start_ms": 0,
+          "end_ms": 321
+        },
+        {
+          "lang": "ja",
+          "text": "点滴",
+          "start_sample": 5132,
+          "end_sample": 14596,
+          "start_ms": 321,
+          "end_ms": 912
+        },
+        {
+          "lang": "en",
+          "text": "drip helped rehydrate him much faster than oral fluids alone.",
+          "start_sample": 14596,
+          "end_sample": 83726,
+          "start_ms": 912,
+          "end_ms": 5233
+        }
+      ]
+    },
+    "ja": {
+      "text": "The new 点滴 drip helped rehydrate him much faster than oral fluids alone.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7402,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new",
+          "start_sample": 0,
+          "end_sample": 6740,
+          "start_ms": 0,
+          "end_ms": 421
+        },
+        {
+          "lang": "ja",
+          "text": "点滴",
+          "start_sample": 6740,
+          "end_sample": 16047,
+          "start_ms": 421,
+          "end_ms": 1003
+        },
+        {
+          "lang": "en",
+          "text": "drip helped rehydrate him much faster than oral fluids alone.",
+          "start_sample": 16047,
+          "end_sample": 118431,
+          "start_ms": 1003,
+          "end_ms": 7402
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 259,
+  "frame_labels": "eeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

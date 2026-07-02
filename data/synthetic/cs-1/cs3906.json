@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3906.flac",
+  "sentence": "He keeps sending 曖昧な messages that are impossible to read.",
+  "sample_rate": 16000,
+  "duration_ms": 4539,
+  "reference_speaker": "en/speaker_077_cf8a4971b1d4.mp3",
+  "seed": 3948,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He keeps sending",
+      "start_sample": 0,
+      "end_sample": 14750,
+      "start_ms": 0,
+      "end_ms": 922
+    },
+    {
+      "lang": "ja",
+      "text": "曖昧な",
+      "start_sample": 14750,
+      "end_sample": 26210,
+      "start_ms": 922,
+      "end_ms": 1638
+    },
+    {
+      "lang": "en",
+      "text": "messages that are impossible to read.",
+      "start_sample": 26210,
+      "end_sample": 72626,
+      "start_ms": 1638,
+      "end_ms": 4539
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He keeps sending aimai na messages that are impossible to read.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4340,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He keeps sending",
+          "start_sample": 0,
+          "end_sample": 14950,
+          "start_ms": 0,
+          "end_ms": 934
+        },
+        {
+          "lang": "ja",
+          "text": "曖昧な",
+          "start_sample": 14950,
+          "end_sample": 22828,
+          "start_ms": 934,
+          "end_ms": 1427
+        },
+        {
+          "lang": "en",
+          "text": "messages that are impossible to read.",
+          "start_sample": 22828,
+          "end_sample": 69444,
+          "start_ms": 1427,
+          "end_ms": 4340
+        }
+      ]
+    },
+    "ja": {
+      "text": "He keeps sending 曖昧な messages that are impossible to read.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5189,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He keeps sending",
+          "start_sample": 0,
+          "end_sample": 17149,
+          "start_ms": 0,
+          "end_ms": 1072
+        },
+        {
+          "lang": "ja",
+          "text": "曖昧な",
+          "start_sample": 17149,
+          "end_sample": 29009,
+          "start_ms": 1072,
+          "end_ms": 1813
+        },
+        {
+          "lang": "en",
+          "text": "messages that are impossible to read.",
+          "start_sample": 29009,
+          "end_sample": 83020,
+          "start_ms": 1813,
+          "end_ms": 5189
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 227,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

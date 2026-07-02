@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7935.flac",
+  "sentence": "その車はenamel redのボディがとても美しかった。",
+  "sample_rate": 16000,
+  "duration_ms": 4099,
+  "reference_speaker": "en/speaker_052_622e6181fea2.mp3",
+  "seed": 7977,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その車は",
+      "start_sample": 0,
+      "end_sample": 12952,
+      "start_ms": 0,
+      "end_ms": 810
+    },
+    {
+      "lang": "en",
+      "text": "enamel red",
+      "start_sample": 12952,
+      "end_sample": 36755,
+      "start_ms": 810,
+      "end_ms": 2297
+    },
+    {
+      "lang": "ja",
+      "text": "のボディがとても美しかった。",
+      "start_sample": 36755,
+      "end_sample": 65589,
+      "start_ms": 2297,
+      "end_ms": 4099
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono kuruma ha enamel red no bodi ga totemo utsukushikatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9156,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その車は",
+          "start_sample": 0,
+          "end_sample": 47284,
+          "start_ms": 0,
+          "end_ms": 2955
+        },
+        {
+          "lang": "en",
+          "text": "enamel red",
+          "start_sample": 47284,
+          "end_sample": 71487,
+          "start_ms": 2955,
+          "end_ms": 4468
+        },
+        {
+          "lang": "ja",
+          "text": "のボディがとても美しかった。",
+          "start_sample": 71487,
+          "end_sample": 146502,
+          "start_ms": 4468,
+          "end_ms": 9156
+        }
+      ]
+    },
+    "ja": {
+      "text": "その車はenamel redのボディがとても美しかった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3369,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その車は",
+          "start_sample": 0,
+          "end_sample": 13152,
+          "start_ms": 0,
+          "end_ms": 822
+        },
+        {
+          "lang": "en",
+          "text": "enamel red",
+          "start_sample": 13152,
+          "end_sample": 24864,
+          "start_ms": 822,
+          "end_ms": 1554
+        },
+        {
+          "lang": "ja",
+          "text": "のボディがとても美しかった。",
+          "start_sample": 24864,
+          "end_sample": 53898,
+          "start_ms": 1554,
+          "end_ms": 3369
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 205,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

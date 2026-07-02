@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2234.flac",
+  "sentence": "It was 不思議 how the whole crowd seemed to breathe together during that ballad.",
+  "sample_rate": 16000,
+  "duration_ms": 4648,
+  "reference_speaker": "jp/speaker_029_debaa03f9928.mp3",
+  "seed": 2276,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "It was",
+      "start_sample": 0,
+      "end_sample": 6221,
+      "start_ms": 0,
+      "end_ms": 389
+    },
+    {
+      "lang": "ja",
+      "text": "不思議",
+      "start_sample": 6221,
+      "end_sample": 10962,
+      "start_ms": 389,
+      "end_ms": 685
+    },
+    {
+      "lang": "en",
+      "text": "how the whole crowd seemed to breathe together during that ballad.",
+      "start_sample": 10962,
+      "end_sample": 74367,
+      "start_ms": 685,
+      "end_ms": 4648
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "It was fushigi how the whole crowd seemed to breathe together during that ballad.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5320,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "It was",
+          "start_sample": 0,
+          "end_sample": 6421,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "ja",
+          "text": "不思議",
+          "start_sample": 6421,
+          "end_sample": 21520,
+          "start_ms": 401,
+          "end_ms": 1345
+        },
+        {
+          "lang": "en",
+          "text": "how the whole crowd seemed to breathe together during that ballad.",
+          "start_sample": 21520,
+          "end_sample": 85125,
+          "start_ms": 1345,
+          "end_ms": 5320
+        }
+      ]
+    },
+    "ja": {
+      "text": "It was 不思議 how the whole crowd seemed to breathe together during that ballad.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5200,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "It was",
+          "start_sample": 0,
+          "end_sample": 6582,
+          "start_ms": 0,
+          "end_ms": 411
+        },
+        {
+          "lang": "ja",
+          "text": "不思議",
+          "start_sample": 6582,
+          "end_sample": 11723,
+          "start_ms": 411,
+          "end_ms": 733
+        },
+        {
+          "lang": "en",
+          "text": "how the whole crowd seemed to breathe together during that ballad.",
+          "start_sample": 11723,
+          "end_sample": 83206,
+          "start_ms": 733,
+          "end_ms": 5200
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 233,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

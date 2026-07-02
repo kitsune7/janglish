@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3870.flac",
+  "sentence": "私はgluten-freeの食事に切り替えてから、体調が良くなりました。",
+  "sample_rate": 16000,
+  "duration_ms": 4874,
+  "reference_speaker": "jp/speaker_049_435108c1173c.mp3",
+  "seed": 3912,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "私は",
+      "start_sample": 0,
+      "end_sample": 9591,
+      "start_ms": 0,
+      "end_ms": 599
+    },
+    {
+      "lang": "en",
+      "text": "gluten-free",
+      "start_sample": 9591,
+      "end_sample": 31628,
+      "start_ms": 599,
+      "end_ms": 1977
+    },
+    {
+      "lang": "ja",
+      "text": "の食事に切り替えてから、体調が良くなりました。",
+      "start_sample": 31628,
+      "end_sample": 77988,
+      "start_ms": 1977,
+      "end_ms": 4874
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "watashi ha gluten-free no shokuji ni kirikae te kara taichou ga yoku nari mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9496,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私は",
+          "start_sample": 0,
+          "end_sample": 13942,
+          "start_ms": 0,
+          "end_ms": 871
+        },
+        {
+          "lang": "en",
+          "text": "gluten-free",
+          "start_sample": 13942,
+          "end_sample": 36379,
+          "start_ms": 871,
+          "end_ms": 2274
+        },
+        {
+          "lang": "ja",
+          "text": "の食事に切り替えてから、体調が良くなりました。",
+          "start_sample": 36379,
+          "end_sample": 151929,
+          "start_ms": 2274,
+          "end_ms": 9496
+        }
+      ]
+    },
+    "ja": {
+      "text": "私はgluten-freeの食事に切り替えてから、体調が良くなりました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4375,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私は",
+          "start_sample": 0,
+          "end_sample": 9791,
+          "start_ms": 0,
+          "end_ms": 612
+        },
+        {
+          "lang": "en",
+          "text": "gluten-free",
+          "start_sample": 9791,
+          "end_sample": 23439,
+          "start_ms": 612,
+          "end_ms": 1465
+        },
+        {
+          "lang": "ja",
+          "text": "の食事に切り替えてから、体調が良くなりました。",
+          "start_sample": 23439,
+          "end_sample": 69999,
+          "start_ms": 1465,
+          "end_ms": 4375
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 244,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

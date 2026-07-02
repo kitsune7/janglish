@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs350.flac",
+  "sentence": "兄弟げんかのafter、二人はすぐ仲直りしていた。",
+  "sample_rate": 16000,
+  "duration_ms": 3545,
+  "reference_speaker": "jp/speaker_095_1daf6547c74f.mp3",
+  "seed": 392,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "兄弟げんかの",
+      "start_sample": 0,
+      "end_sample": 13628,
+      "start_ms": 0,
+      "end_ms": 852
+    },
+    {
+      "lang": "en",
+      "text": "after、",
+      "start_sample": 13628,
+      "end_sample": 30872,
+      "start_ms": 852,
+      "end_ms": 1930
+    },
+    {
+      "lang": "ja",
+      "text": "二人はすぐ仲直りしていた。",
+      "start_sample": 30872,
+      "end_sample": 56716,
+      "start_ms": 1930,
+      "end_ms": 3545
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyoudai genka no after、 futari ha sugu nakanaori shi te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6135,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "兄弟げんかの",
+          "start_sample": 0,
+          "end_sample": 21813,
+          "start_ms": 0,
+          "end_ms": 1363
+        },
+        {
+          "lang": "en",
+          "text": "after、",
+          "start_sample": 21813,
+          "end_sample": 39457,
+          "start_ms": 1363,
+          "end_ms": 2466
+        },
+        {
+          "lang": "ja",
+          "text": "二人はすぐ仲直りしていた。",
+          "start_sample": 39457,
+          "end_sample": 98159,
+          "start_ms": 2466,
+          "end_ms": 6135
+        }
+      ]
+    },
+    "ja": {
+      "text": "兄弟げんかのafter、二人はすぐ仲直りしていた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3336,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "兄弟げんかの",
+          "start_sample": 0,
+          "end_sample": 13828,
+          "start_ms": 0,
+          "end_ms": 864
+        },
+        {
+          "lang": "en",
+          "text": "after、",
+          "start_sample": 13828,
+          "end_sample": 27336,
+          "start_ms": 864,
+          "end_ms": 1708
+        },
+        {
+          "lang": "ja",
+          "text": "二人はすぐ仲直りしていた。",
+          "start_sample": 27336,
+          "end_sample": 53380,
+          "start_ms": 1708,
+          "end_ms": 3336
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 178,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

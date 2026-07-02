@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2970.flac",
+  "sentence": "The aesthetician said my 毛穴 were enlarged from years of skipping sunscreen.",
+  "sample_rate": 16000,
+  "duration_ms": 5575,
+  "reference_speaker": "en/speaker_090_cd7a1ed8add3.mp3",
+  "seed": 3012,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The aesthetician said my",
+      "start_sample": 0,
+      "end_sample": 35992,
+      "start_ms": 0,
+      "end_ms": 2250
+    },
+    {
+      "lang": "ja",
+      "text": "毛穴",
+      "start_sample": 35992,
+      "end_sample": 43605,
+      "start_ms": 2250,
+      "end_ms": 2725
+    },
+    {
+      "lang": "en",
+      "text": "were enlarged from years of skipping sunscreen.",
+      "start_sample": 43605,
+      "end_sample": 89206,
+      "start_ms": 2725,
+      "end_ms": 5575
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The aesthetician said my keana were enlarged from years of skipping sunscreen.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5705,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The aesthetician said my",
+          "start_sample": 0,
+          "end_sample": 36192,
+          "start_ms": 0,
+          "end_ms": 2262
+        },
+        {
+          "lang": "ja",
+          "text": "毛穴",
+          "start_sample": 36192,
+          "end_sample": 45481,
+          "start_ms": 2262,
+          "end_ms": 2843
+        },
+        {
+          "lang": "en",
+          "text": "were enlarged from years of skipping sunscreen.",
+          "start_sample": 45481,
+          "end_sample": 91282,
+          "start_ms": 2843,
+          "end_ms": 5705
+        }
+      ]
+    },
+    "ja": {
+      "text": "The aesthetician said my 毛穴 were enlarged from years of skipping sunscreen.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6971,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The aesthetician said my",
+          "start_sample": 0,
+          "end_sample": 35257,
+          "start_ms": 0,
+          "end_ms": 2204
+        },
+        {
+          "lang": "ja",
+          "text": "毛穴",
+          "start_sample": 35257,
+          "end_sample": 43270,
+          "start_ms": 2204,
+          "end_ms": 2704
+        },
+        {
+          "lang": "en",
+          "text": "were enlarged from years of skipping sunscreen.",
+          "start_sample": 43270,
+          "end_sample": 111542,
+          "start_ms": 2704,
+          "end_ms": 6971
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 279,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

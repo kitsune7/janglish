@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3852.flac",
+  "sentence": "自宅でのsolo workが得意な人と苦手な人がいるものだ。",
+  "sample_rate": 16000,
+  "duration_ms": 4182,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 3894,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "自宅での",
+      "start_sample": 0,
+      "end_sample": 7862,
+      "start_ms": 0,
+      "end_ms": 491
+    },
+    {
+      "lang": "en",
+      "text": "solo work",
+      "start_sample": 7862,
+      "end_sample": 37294,
+      "start_ms": 491,
+      "end_ms": 2331
+    },
+    {
+      "lang": "ja",
+      "text": "が得意な人と苦手な人がいるものだ。",
+      "start_sample": 37294,
+      "end_sample": 66918,
+      "start_ms": 2331,
+      "end_ms": 4182
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "jitaku de no solo work ga tokui na nin to nigate na nin ga iru mono da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9583,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "自宅での",
+          "start_sample": 0,
+          "end_sample": 14594,
+          "start_ms": 0,
+          "end_ms": 912
+        },
+        {
+          "lang": "en",
+          "text": "solo work",
+          "start_sample": 14594,
+          "end_sample": 44426,
+          "start_ms": 912,
+          "end_ms": 2777
+        },
+        {
+          "lang": "ja",
+          "text": "が得意な人と苦手な人がいるものだ。",
+          "start_sample": 44426,
+          "end_sample": 153326,
+          "start_ms": 2777,
+          "end_ms": 9583
+        }
+      ]
+    },
+    "ja": {
+      "text": "自宅でのsolo workが得意な人と苦手な人がいるものだ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2801,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "自宅での",
+          "start_sample": 0,
+          "end_sample": 8062,
+          "start_ms": 0,
+          "end_ms": 504
+        },
+        {
+          "lang": "en",
+          "text": "solo work",
+          "start_sample": 8062,
+          "end_sample": 14996,
+          "start_ms": 504,
+          "end_ms": 937
+        },
+        {
+          "lang": "ja",
+          "text": "が得意な人と苦手な人がいるものだ。",
+          "start_sample": 14996,
+          "end_sample": 44820,
+          "start_ms": 937,
+          "end_ms": 2801
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2428.flac",
+  "sentence": "I bought a small 鏡餅 decoration just to put on the shelf for the new year.",
+  "sample_rate": 16000,
+  "duration_ms": 4950,
+  "reference_speaker": "en/speaker_088_9950f069efac.mp3",
+  "seed": 2470,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I bought a small",
+      "start_sample": 0,
+      "end_sample": 13747,
+      "start_ms": 0,
+      "end_ms": 859
+    },
+    {
+      "lang": "ja",
+      "text": "鏡餅",
+      "start_sample": 13747,
+      "end_sample": 24565,
+      "start_ms": 859,
+      "end_ms": 1535
+    },
+    {
+      "lang": "en",
+      "text": "decoration just to put on the shelf for the new year.",
+      "start_sample": 24565,
+      "end_sample": 79194,
+      "start_ms": 1535,
+      "end_ms": 4950
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I bought a small kagamimochi decoration just to put on the shelf for the new year.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5090,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I bought a small",
+          "start_sample": 0,
+          "end_sample": 13947,
+          "start_ms": 0,
+          "end_ms": 872
+        },
+        {
+          "lang": "ja",
+          "text": "鏡餅",
+          "start_sample": 13947,
+          "end_sample": 26612,
+          "start_ms": 872,
+          "end_ms": 1663
+        },
+        {
+          "lang": "en",
+          "text": "decoration just to put on the shelf for the new year.",
+          "start_sample": 26612,
+          "end_sample": 81441,
+          "start_ms": 1663,
+          "end_ms": 5090
+        }
+      ]
+    },
+    "ja": {
+      "text": "I bought a small 鏡餅 decoration just to put on the shelf for the new year.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6310,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I bought a small",
+          "start_sample": 0,
+          "end_sample": 19710,
+          "start_ms": 0,
+          "end_ms": 1232
+        },
+        {
+          "lang": "ja",
+          "text": "鏡餅",
+          "start_sample": 19710,
+          "end_sample": 30928,
+          "start_ms": 1232,
+          "end_ms": 1933
+        },
+        {
+          "lang": "en",
+          "text": "decoration just to put on the shelf for the new year.",
+          "start_sample": 30928,
+          "end_sample": 100961,
+          "start_ms": 1933,
+          "end_ms": 6310
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 248,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

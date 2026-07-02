@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7610.flac",
+  "sentence": "I check my 予定 first thing every morning to plan the day ahead.",
+  "sample_rate": 16000,
+  "duration_ms": 3637,
+  "reference_speaker": "en/speaker_022_008f1e5e50d2.mp3",
+  "seed": 7652,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I check my",
+      "start_sample": 0,
+      "end_sample": 7836,
+      "start_ms": 0,
+      "end_ms": 490
+    },
+    {
+      "lang": "ja",
+      "text": "予定",
+      "start_sample": 7836,
+      "end_sample": 16740,
+      "start_ms": 490,
+      "end_ms": 1046
+    },
+    {
+      "lang": "en",
+      "text": "first thing every morning to plan the day ahead.",
+      "start_sample": 16740,
+      "end_sample": 58188,
+      "start_ms": 1046,
+      "end_ms": 3637
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I check my yotei first thing every morning to plan the day ahead.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3517,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I check my",
+          "start_sample": 0,
+          "end_sample": 8036,
+          "start_ms": 0,
+          "end_ms": 502
+        },
+        {
+          "lang": "ja",
+          "text": "予定",
+          "start_sample": 8036,
+          "end_sample": 14629,
+          "start_ms": 502,
+          "end_ms": 914
+        },
+        {
+          "lang": "en",
+          "text": "first thing every morning to plan the day ahead.",
+          "start_sample": 14629,
+          "end_sample": 56277,
+          "start_ms": 914,
+          "end_ms": 3517
+        }
+      ]
+    },
+    "ja": {
+      "text": "I check my 予定 first thing every morning to plan the day ahead.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4932,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I check my",
+          "start_sample": 0,
+          "end_sample": 17964,
+          "start_ms": 0,
+          "end_ms": 1123
+        },
+        {
+          "lang": "ja",
+          "text": "予定",
+          "start_sample": 17964,
+          "end_sample": 27268,
+          "start_ms": 1123,
+          "end_ms": 1704
+        },
+        {
+          "lang": "en",
+          "text": "first thing every morning to plan the day ahead.",
+          "start_sample": 27268,
+          "end_sample": 78919,
+          "start_ms": 1704,
+          "end_ms": 4932
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 182,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

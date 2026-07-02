@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9225.flac",
+  "sentence": "このsponge、もうぼろぼろだから捨てましょう。",
+  "sample_rate": 16000,
+  "duration_ms": 2425,
+  "reference_speaker": "en/speaker_085_1a04e2db0811.mp3",
+  "seed": 9267,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3967,
+      "start_ms": 0,
+      "end_ms": 248
+    },
+    {
+      "lang": "en",
+      "text": "sponge、",
+      "start_sample": 3967,
+      "end_sample": 9836,
+      "start_ms": 248,
+      "end_ms": 615
+    },
+    {
+      "lang": "ja",
+      "text": "もうぼろぼろだから捨てましょう。",
+      "start_sample": 9836,
+      "end_sample": 38807,
+      "start_ms": 615,
+      "end_ms": 2425
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono sponge、 mou boroboro da kara sute mashou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2431,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4179,
+          "start_ms": 0,
+          "end_ms": 261
+        },
+        {
+          "lang": "en",
+          "text": "sponge、",
+          "start_sample": 4179,
+          "end_sample": 10448,
+          "start_ms": 261,
+          "end_ms": 653
+        },
+        {
+          "lang": "ja",
+          "text": "もうぼろぼろだから捨てましょう。",
+          "start_sample": 10448,
+          "end_sample": 38895,
+          "start_ms": 653,
+          "end_ms": 2431
+        }
+      ]
+    },
+    "ja": {
+      "text": "このsponge、もうぼろぼろだから捨てましょう。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2805,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4167,
+          "start_ms": 0,
+          "end_ms": 260
+        },
+        {
+          "lang": "en",
+          "text": "sponge、",
+          "start_sample": 4167,
+          "end_sample": 15707,
+          "start_ms": 260,
+          "end_ms": 982
+        },
+        {
+          "lang": "ja",
+          "text": "もうぼろぼろだから捨てましょう。",
+          "start_sample": 15707,
+          "end_sample": 44878,
+          "start_ms": 982,
+          "end_ms": 2805
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 122,
+  "frame_labels": "jjjjjjjjjjjjeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

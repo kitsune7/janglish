@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9299.flac",
+  "sentence": "They don't accept 現金 at that register, only cards.",
+  "sample_rate": 16000,
+  "duration_ms": 4643,
+  "reference_speaker": "en/speaker_003_7963691c43c8.mp3",
+  "seed": 9341,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "They don't accept",
+      "start_sample": 0,
+      "end_sample": 14276,
+      "start_ms": 0,
+      "end_ms": 892
+    },
+    {
+      "lang": "ja",
+      "text": "現金",
+      "start_sample": 14276,
+      "end_sample": 26405,
+      "start_ms": 892,
+      "end_ms": 1650
+    },
+    {
+      "lang": "en",
+      "text": "at that register, only cards.",
+      "start_sample": 26405,
+      "end_sample": 74294,
+      "start_ms": 1650,
+      "end_ms": 4643
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "They don't accept genkin at that register, only cards.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4443,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "They don't accept",
+          "start_sample": 0,
+          "end_sample": 14476,
+          "start_ms": 0,
+          "end_ms": 905
+        },
+        {
+          "lang": "ja",
+          "text": "現金",
+          "start_sample": 14476,
+          "end_sample": 23001,
+          "start_ms": 905,
+          "end_ms": 1438
+        },
+        {
+          "lang": "en",
+          "text": "at that register, only cards.",
+          "start_sample": 23001,
+          "end_sample": 71090,
+          "start_ms": 1438,
+          "end_ms": 4443
+        }
+      ]
+    },
+    "ja": {
+      "text": "They don't accept 現金 at that register, only cards.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4658,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "They don't accept",
+          "start_sample": 0,
+          "end_sample": 18311,
+          "start_ms": 0,
+          "end_ms": 1144
+        },
+        {
+          "lang": "ja",
+          "text": "現金",
+          "start_sample": 18311,
+          "end_sample": 30840,
+          "start_ms": 1144,
+          "end_ms": 1928
+        },
+        {
+          "lang": "en",
+          "text": "at that register, only cards.",
+          "start_sample": 30840,
+          "end_sample": 74527,
+          "start_ms": 1928,
+          "end_ms": 4658
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 233,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

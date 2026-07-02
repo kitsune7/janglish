@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs659.flac",
+  "sentence": "The 寒波 hit overnight, and now everything feels eerily 静か outside.",
+  "sample_rate": 16000,
+  "duration_ms": 5456,
+  "reference_speaker": "en/speaker_021_0c003e301f78.mp3",
+  "seed": 17514,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2525,
+      "start_ms": 0,
+      "end_ms": 158
+    },
+    {
+      "lang": "ja",
+      "text": "寒波",
+      "start_sample": 2525,
+      "end_sample": 10473,
+      "start_ms": 158,
+      "end_ms": 655
+    },
+    {
+      "lang": "en",
+      "text": "hit overnight, and now everything feels eerily",
+      "start_sample": 10473,
+      "end_sample": 63666,
+      "start_ms": 655,
+      "end_ms": 3979
+    },
+    {
+      "lang": "ja",
+      "text": "静か",
+      "start_sample": 63666,
+      "end_sample": 72256,
+      "start_ms": 3979,
+      "end_ms": 4516
+    },
+    {
+      "lang": "en",
+      "text": "outside.",
+      "start_sample": 72256,
+      "end_sample": 87297,
+      "start_ms": 4516,
+      "end_ms": 5456
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kanpa hit overnight, and now everything feels eerily shizuka outside.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5716,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2725,
+          "start_ms": 0,
+          "end_ms": 170
+        },
+        {
+          "lang": "ja",
+          "text": "寒波",
+          "start_sample": 2725,
+          "end_sample": 9143,
+          "start_ms": 170,
+          "end_ms": 571
+        },
+        {
+          "lang": "en",
+          "text": "hit overnight, and now everything feels eerily",
+          "start_sample": 9143,
+          "end_sample": 62736,
+          "start_ms": 571,
+          "end_ms": 3921
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 62736,
+          "end_sample": 76215,
+          "start_ms": 3921,
+          "end_ms": 4763
+        },
+        {
+          "lang": "en",
+          "text": "outside.",
+          "start_sample": 76215,
+          "end_sample": 91456,
+          "start_ms": 4763,
+          "end_ms": 5716
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 寒波 hit overnight, and now everything feels eerily 静か outside.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6020,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4815,
+          "start_ms": 0,
+          "end_ms": 301
+        },
+        {
+          "lang": "ja",
+          "text": "寒波",
+          "start_sample": 4815,
+          "end_sample": 13163,
+          "start_ms": 301,
+          "end_ms": 823
+        },
+        {
+          "lang": "en",
+          "text": "hit overnight, and now everything feels eerily",
+          "start_sample": 13163,
+          "end_sample": 77534,
+          "start_ms": 823,
+          "end_ms": 4846
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 77534,
+          "end_sample": 86524,
+          "start_ms": 4846,
+          "end_ms": 5408
+        },
+        {
+          "lang": "en",
+          "text": "outside.",
+          "start_sample": 86524,
+          "end_sample": 96313,
+          "start_ms": 5408,
+          "end_ms": 6020
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 273,
+  "frame_labels": "eeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

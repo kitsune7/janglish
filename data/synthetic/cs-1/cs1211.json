@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1211.flac",
+  "sentence": "このバス路線はcoverageが広くて、郊外まで行ける。",
+  "sample_rate": 16000,
+  "duration_ms": 4006,
+  "reference_speaker": "en/speaker_071_72384e582e15.mp3",
+  "seed": 1253,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このバス路線は",
+      "start_sample": 0,
+      "end_sample": 18070,
+      "start_ms": 0,
+      "end_ms": 1129
+    },
+    {
+      "lang": "en",
+      "text": "coverage",
+      "start_sample": 18070,
+      "end_sample": 32247,
+      "start_ms": 1129,
+      "end_ms": 2015
+    },
+    {
+      "lang": "ja",
+      "text": "が広くて、郊外まで行ける。",
+      "start_sample": 32247,
+      "end_sample": 64100,
+      "start_ms": 2015,
+      "end_ms": 4006
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono basu rosen ha coverage ga hiroku te kougai made ikeru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5526,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このバス路線は",
+          "start_sample": 0,
+          "end_sample": 37964,
+          "start_ms": 0,
+          "end_ms": 2373
+        },
+        {
+          "lang": "en",
+          "text": "coverage",
+          "start_sample": 37964,
+          "end_sample": 52541,
+          "start_ms": 2373,
+          "end_ms": 3284
+        },
+        {
+          "lang": "ja",
+          "text": "が広くて、郊外まで行ける。",
+          "start_sample": 52541,
+          "end_sample": 88422,
+          "start_ms": 3284,
+          "end_ms": 5526
+        }
+      ]
+    },
+    "ja": {
+      "text": "このバス路線はcoverageが広くて、郊外まで行ける。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3806,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このバス路線は",
+          "start_sample": 0,
+          "end_sample": 18270,
+          "start_ms": 0,
+          "end_ms": 1142
+        },
+        {
+          "lang": "en",
+          "text": "coverage",
+          "start_sample": 18270,
+          "end_sample": 28848,
+          "start_ms": 1142,
+          "end_ms": 1803
+        },
+        {
+          "lang": "ja",
+          "text": "が広くて、郊外まで行ける。",
+          "start_sample": 28848,
+          "end_sample": 60901,
+          "start_ms": 1803,
+          "end_ms": 3806
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

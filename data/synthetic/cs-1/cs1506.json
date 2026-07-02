@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1506.flac",
+  "sentence": "She has the most 柔らか skin I've ever touched — what does she use?",
+  "sample_rate": 16000,
+  "duration_ms": 3902,
+  "reference_speaker": "en/speaker_054_103b0eb5778e.mp3",
+  "seed": 1548,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She has the most",
+      "start_sample": 0,
+      "end_sample": 12959,
+      "start_ms": 0,
+      "end_ms": 810
+    },
+    {
+      "lang": "ja",
+      "text": "柔らか",
+      "start_sample": 12959,
+      "end_sample": 21548,
+      "start_ms": 810,
+      "end_ms": 1347
+    },
+    {
+      "lang": "en",
+      "text": "skin I've ever touched — what does she use?",
+      "start_sample": 21548,
+      "end_sample": 62428,
+      "start_ms": 1347,
+      "end_ms": 3902
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She has the most yawaraka skin I've ever touched — what does she use?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3932,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She has the most",
+          "start_sample": 0,
+          "end_sample": 13159,
+          "start_ms": 0,
+          "end_ms": 822
+        },
+        {
+          "lang": "ja",
+          "text": "柔らか",
+          "start_sample": 13159,
+          "end_sample": 21824,
+          "start_ms": 822,
+          "end_ms": 1364
+        },
+        {
+          "lang": "en",
+          "text": "skin I've ever touched — what does she use?",
+          "start_sample": 21824,
+          "end_sample": 62904,
+          "start_ms": 1364,
+          "end_ms": 3932
+        }
+      ]
+    },
+    "ja": {
+      "text": "She has the most 柔らか skin I've ever touched — what does she use?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4915,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She has the most",
+          "start_sample": 0,
+          "end_sample": 16689,
+          "start_ms": 0,
+          "end_ms": 1043
+        },
+        {
+          "lang": "ja",
+          "text": "柔らか",
+          "start_sample": 16689,
+          "end_sample": 25678,
+          "start_ms": 1043,
+          "end_ms": 1605
+        },
+        {
+          "lang": "en",
+          "text": "skin I've ever touched — what does she use?",
+          "start_sample": 25678,
+          "end_sample": 78642,
+          "start_ms": 1605,
+          "end_ms": 4915
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs140.flac",
+  "sentence": "This 地酒 is so smooth that you forget how 強め it actually is.",
+  "sample_rate": 16000,
+  "duration_ms": 4782,
+  "reference_speaker": "jp/speaker_049_435108c1173c.mp3",
+  "seed": 16995,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This",
+      "start_sample": 0,
+      "end_sample": 2532,
+      "start_ms": 0,
+      "end_ms": 158
+    },
+    {
+      "lang": "ja",
+      "text": "地酒",
+      "start_sample": 2532,
+      "end_sample": 13537,
+      "start_ms": 158,
+      "end_ms": 846
+    },
+    {
+      "lang": "en",
+      "text": "is so smooth that you forget how",
+      "start_sample": 13537,
+      "end_sample": 49312,
+      "start_ms": 846,
+      "end_ms": 3082
+    },
+    {
+      "lang": "ja",
+      "text": "強め",
+      "start_sample": 49312,
+      "end_sample": 60316,
+      "start_ms": 3082,
+      "end_ms": 3770
+    },
+    {
+      "lang": "en",
+      "text": "it actually is.",
+      "start_sample": 60316,
+      "end_sample": 76511,
+      "start_ms": 3770,
+      "end_ms": 4782
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This jizake is so smooth that you forget how tsuyome it actually is.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4502,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This",
+          "start_sample": 0,
+          "end_sample": 2732,
+          "start_ms": 0,
+          "end_ms": 171
+        },
+        {
+          "lang": "ja",
+          "text": "地酒",
+          "start_sample": 2732,
+          "end_sample": 11254,
+          "start_ms": 171,
+          "end_ms": 703
+        },
+        {
+          "lang": "en",
+          "text": "is so smooth that you forget how",
+          "start_sample": 11254,
+          "end_sample": 47429,
+          "start_ms": 703,
+          "end_ms": 2964
+        },
+        {
+          "lang": "ja",
+          "text": "強め",
+          "start_sample": 47429,
+          "end_sample": 55629,
+          "start_ms": 2964,
+          "end_ms": 3477
+        },
+        {
+          "lang": "en",
+          "text": "it actually is.",
+          "start_sample": 55629,
+          "end_sample": 72024,
+          "start_ms": 3477,
+          "end_ms": 4502
+        }
+      ]
+    },
+    "ja": {
+      "text": "This 地酒 is so smooth that you forget how 強め it actually is.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5722,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This",
+          "start_sample": 0,
+          "end_sample": 4497,
+          "start_ms": 0,
+          "end_ms": 281
+        },
+        {
+          "lang": "ja",
+          "text": "地酒",
+          "start_sample": 4497,
+          "end_sample": 15902,
+          "start_ms": 281,
+          "end_ms": 994
+        },
+        {
+          "lang": "en",
+          "text": "is so smooth that you forget how",
+          "start_sample": 15902,
+          "end_sample": 62002,
+          "start_ms": 994,
+          "end_ms": 3875
+        },
+        {
+          "lang": "ja",
+          "text": "強め",
+          "start_sample": 62002,
+          "end_sample": 73406,
+          "start_ms": 3875,
+          "end_ms": 4588
+        },
+        {
+          "lang": "en",
+          "text": "it actually is.",
+          "start_sample": 73406,
+          "end_sample": 91554,
+          "start_ms": 4588,
+          "end_ms": 5722
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 240,
+  "frame_labels": "eeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

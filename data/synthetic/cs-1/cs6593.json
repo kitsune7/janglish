@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6593.flac",
+  "sentence": "This heat is truly 異常 — even the locals say they've never seen anything like it.",
+  "sample_rate": 16000,
+  "duration_ms": 5541,
+  "reference_speaker": "jp/speaker_084_122c648d361d.mp3",
+  "seed": 6635,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This heat is truly",
+      "start_sample": 0,
+      "end_sample": 24971,
+      "start_ms": 0,
+      "end_ms": 1561
+    },
+    {
+      "lang": "ja",
+      "text": "異常 —",
+      "start_sample": 24971,
+      "end_sample": 37233,
+      "start_ms": 1561,
+      "end_ms": 2327
+    },
+    {
+      "lang": "en",
+      "text": "even the locals say they've never seen anything like it.",
+      "start_sample": 37233,
+      "end_sample": 88657,
+      "start_ms": 2327,
+      "end_ms": 5541
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This heat is truly ijou even the locals say they've never seen anything like it.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5631,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This heat is truly",
+          "start_sample": 0,
+          "end_sample": 25171,
+          "start_ms": 0,
+          "end_ms": 1573
+        },
+        {
+          "lang": "ja",
+          "text": "異常 —",
+          "start_sample": 25171,
+          "end_sample": 38479,
+          "start_ms": 1573,
+          "end_ms": 2405
+        },
+        {
+          "lang": "en",
+          "text": "even the locals say they've never seen anything like it.",
+          "start_sample": 38479,
+          "end_sample": 90103,
+          "start_ms": 2405,
+          "end_ms": 5631
+        }
+      ]
+    },
+    "ja": {
+      "text": "This heat is truly 異常 — even the locals say they've never seen anything like it.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8114,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This heat is truly",
+          "start_sample": 0,
+          "end_sample": 36704,
+          "start_ms": 0,
+          "end_ms": 2294
+        },
+        {
+          "lang": "ja",
+          "text": "異常 —",
+          "start_sample": 36704,
+          "end_sample": 49366,
+          "start_ms": 2294,
+          "end_ms": 3085
+        },
+        {
+          "lang": "en",
+          "text": "even the locals say they've never seen anything like it.",
+          "start_sample": 49366,
+          "end_sample": 129825,
+          "start_ms": 3085,
+          "end_ms": 8114
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 278,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

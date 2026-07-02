@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs4900.flac",
+  "sentence": "launchの日にサーバーが混んでいて全然繋がらなかった。",
+  "sample_rate": 16000,
+  "duration_ms": 4442,
+  "reference_speaker": "en/speaker_004_1a0446d48b2f.mp3",
+  "seed": 4942,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "launch",
+      "start_sample": 0,
+      "end_sample": 17098,
+      "start_ms": 0,
+      "end_ms": 1069
+    },
+    {
+      "lang": "ja",
+      "text": "の日にサーバーが混んでいて全然繋がらなかった。",
+      "start_sample": 17098,
+      "end_sample": 71080,
+      "start_ms": 1069,
+      "end_ms": 4442
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "launch no nichi ni saabaa ga kon de i te zenzen tsunagara nakatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6607,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "launch",
+          "start_sample": 0,
+          "end_sample": 17298,
+          "start_ms": 0,
+          "end_ms": 1081
+        },
+        {
+          "lang": "ja",
+          "text": "の日にサーバーが混んでいて全然繋がらなかった。",
+          "start_sample": 17298,
+          "end_sample": 105713,
+          "start_ms": 1081,
+          "end_ms": 6607
+        }
+      ]
+    },
+    "ja": {
+      "text": "launchの日にサーバーが混んでいて全然繋がらなかった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3747,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "launch",
+          "start_sample": 0,
+          "end_sample": 5769,
+          "start_ms": 0,
+          "end_ms": 361
+        },
+        {
+          "lang": "ja",
+          "text": "の日にサーバーが混んでいて全然繋がらなかった。",
+          "start_sample": 5769,
+          "end_sample": 59951,
+          "start_ms": 361,
+          "end_ms": 3747
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 223,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

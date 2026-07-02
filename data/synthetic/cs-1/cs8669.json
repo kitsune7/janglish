@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8669.flac",
+  "sentence": "The shelter volunteers said the older 犬 are always the hardest to find homes for.",
+  "sample_rate": 16000,
+  "duration_ms": 5529,
+  "reference_speaker": "en/speaker_005_e790d1a6d652.mp3",
+  "seed": 8711,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The shelter volunteers said the older",
+      "start_sample": 0,
+      "end_sample": 41467,
+      "start_ms": 0,
+      "end_ms": 2592
+    },
+    {
+      "lang": "ja",
+      "text": "犬",
+      "start_sample": 41467,
+      "end_sample": 50045,
+      "start_ms": 2592,
+      "end_ms": 3128
+    },
+    {
+      "lang": "en",
+      "text": "are always the hardest to find homes for.",
+      "start_sample": 50045,
+      "end_sample": 88466,
+      "start_ms": 3128,
+      "end_ms": 5529
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shelter volunteers said the older inu are always the hardest to find homes for.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5609,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The shelter volunteers said the older",
+          "start_sample": 0,
+          "end_sample": 41667,
+          "start_ms": 0,
+          "end_ms": 2604
+        },
+        {
+          "lang": "ja",
+          "text": "犬",
+          "start_sample": 41667,
+          "end_sample": 51122,
+          "start_ms": 2604,
+          "end_ms": 3195
+        },
+        {
+          "lang": "en",
+          "text": "are always the hardest to find homes for.",
+          "start_sample": 51122,
+          "end_sample": 89743,
+          "start_ms": 3195,
+          "end_ms": 5609
+        }
+      ]
+    },
+    "ja": {
+      "text": "The shelter volunteers said the older 犬 are always the hardest to find homes for.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7775,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The shelter volunteers said the older",
+          "start_sample": 0,
+          "end_sample": 59799,
+          "start_ms": 0,
+          "end_ms": 3737
+        },
+        {
+          "lang": "ja",
+          "text": "犬",
+          "start_sample": 59799,
+          "end_sample": 68777,
+          "start_ms": 3737,
+          "end_ms": 4299
+        },
+        {
+          "lang": "en",
+          "text": "are always the hardest to find homes for.",
+          "start_sample": 68777,
+          "end_sample": 124407,
+          "start_ms": 4299,
+          "end_ms": 7775
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 277,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

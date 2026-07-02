@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7098.flac",
+  "sentence": "そのroutineを毎日続けることが大切だ。",
+  "sample_rate": 16000,
+  "duration_ms": 2688,
+  "reference_speaker": "jp/speaker_041_36b0f2924199.mp3",
+  "seed": 7140,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その",
+      "start_sample": 0,
+      "end_sample": 4132,
+      "start_ms": 0,
+      "end_ms": 258
+    },
+    {
+      "lang": "en",
+      "text": "routine",
+      "start_sample": 4132,
+      "end_sample": 12232,
+      "start_ms": 258,
+      "end_ms": 764
+    },
+    {
+      "lang": "ja",
+      "text": "を毎日続けることが大切だ。",
+      "start_sample": 12232,
+      "end_sample": 43002,
+      "start_ms": 764,
+      "end_ms": 2688
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono routine wo mainichi tsuzukeru koto ga taisetsu da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4831,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 4810,
+          "start_ms": 0,
+          "end_ms": 301
+        },
+        {
+          "lang": "en",
+          "text": "routine",
+          "start_sample": 4810,
+          "end_sample": 13310,
+          "start_ms": 301,
+          "end_ms": 832
+        },
+        {
+          "lang": "ja",
+          "text": "を毎日続けることが大切だ。",
+          "start_sample": 13310,
+          "end_sample": 77297,
+          "start_ms": 832,
+          "end_ms": 4831
+        }
+      ]
+    },
+    "ja": {
+      "text": "そのroutineを毎日続けることが大切だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2547,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 4332,
+          "start_ms": 0,
+          "end_ms": 271
+        },
+        {
+          "lang": "en",
+          "text": "routine",
+          "start_sample": 4332,
+          "end_sample": 9788,
+          "start_ms": 271,
+          "end_ms": 612
+        },
+        {
+          "lang": "ja",
+          "text": "を毎日続けることが大切だ。",
+          "start_sample": 9788,
+          "end_sample": 40758,
+          "start_ms": 612,
+          "end_ms": 2547
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 135,
+  "frame_labels": "jjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

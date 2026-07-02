@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7926.flac",
+  "sentence": "その交差点でleft turnしてください。",
+  "sample_rate": 16000,
+  "duration_ms": 3765,
+  "reference_speaker": "jp/speaker_059_4c496a210b8b.mp3",
+  "seed": 7968,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その交差点で",
+      "start_sample": 0,
+      "end_sample": 16344,
+      "start_ms": 0,
+      "end_ms": 1022
+    },
+    {
+      "lang": "en",
+      "text": "left turn",
+      "start_sample": 16344,
+      "end_sample": 47270,
+      "start_ms": 1022,
+      "end_ms": 2954
+    },
+    {
+      "lang": "ja",
+      "text": "してください。",
+      "start_sample": 47270,
+      "end_sample": 60238,
+      "start_ms": 2954,
+      "end_ms": 3765
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono kousa ten de left turn shi te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5823,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その交差点で",
+          "start_sample": 0,
+          "end_sample": 39839,
+          "start_ms": 0,
+          "end_ms": 2490
+        },
+        {
+          "lang": "en",
+          "text": "left turn",
+          "start_sample": 39839,
+          "end_sample": 71165,
+          "start_ms": 2490,
+          "end_ms": 4448
+        },
+        {
+          "lang": "ja",
+          "text": "してください。",
+          "start_sample": 71165,
+          "end_sample": 93169,
+          "start_ms": 4448,
+          "end_ms": 5823
+        }
+      ]
+    },
+    "ja": {
+      "text": "その交差点でleft turnしてください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2570,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その交差点で",
+          "start_sample": 0,
+          "end_sample": 16544,
+          "start_ms": 0,
+          "end_ms": 1034
+        },
+        {
+          "lang": "en",
+          "text": "left turn",
+          "start_sample": 16544,
+          "end_sample": 27949,
+          "start_ms": 1034,
+          "end_ms": 1747
+        },
+        {
+          "lang": "ja",
+          "text": "してください。",
+          "start_sample": 27949,
+          "end_sample": 41117,
+          "start_ms": 1747,
+          "end_ms": 2570
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 189,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

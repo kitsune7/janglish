@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1470.flac",
+  "sentence": "今日こそseat positionを確保しようと早めに並んだ。",
+  "sample_rate": 16000,
+  "duration_ms": 4720,
+  "reference_speaker": "jp/speaker_052_8e5df296063d.mp3",
+  "seed": 1512,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日こそ",
+      "start_sample": 0,
+      "end_sample": 8614,
+      "start_ms": 0,
+      "end_ms": 538
+    },
+    {
+      "lang": "en",
+      "text": "seat position",
+      "start_sample": 8614,
+      "end_sample": 40304,
+      "start_ms": 538,
+      "end_ms": 2519
+    },
+    {
+      "lang": "ja",
+      "text": "を確保しようと早めに並んだ。",
+      "start_sample": 40304,
+      "end_sample": 75522,
+      "start_ms": 2519,
+      "end_ms": 4720
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou koso seat position wo kakuho shiyou to hayame ni naran da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5435,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日こそ",
+          "start_sample": 0,
+          "end_sample": 8824,
+          "start_ms": 0,
+          "end_ms": 552
+        },
+        {
+          "lang": "en",
+          "text": "seat position",
+          "start_sample": 8824,
+          "end_sample": 40914,
+          "start_ms": 552,
+          "end_ms": 2557
+        },
+        {
+          "lang": "ja",
+          "text": "を確保しようと早めに並んだ。",
+          "start_sample": 40914,
+          "end_sample": 86961,
+          "start_ms": 2557,
+          "end_ms": 5435
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日こそseat positionを確保しようと早めに並んだ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3746,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日こそ",
+          "start_sample": 0,
+          "end_sample": 8814,
+          "start_ms": 0,
+          "end_ms": 551
+        },
+        {
+          "lang": "en",
+          "text": "seat position",
+          "start_sample": 8814,
+          "end_sample": 24521,
+          "start_ms": 551,
+          "end_ms": 1533
+        },
+        {
+          "lang": "ja",
+          "text": "を確保しようと早めに並んだ。",
+          "start_sample": 24521,
+          "end_sample": 59939,
+          "start_ms": 1533,
+          "end_ms": 3746
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 237,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

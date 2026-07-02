@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7015.flac",
+  "sentence": "The whole 舞台 was bathed in deep violet light during the closing song.",
+  "sample_rate": 16000,
+  "duration_ms": 7545,
+  "reference_speaker": "jp/speaker_066_d870c5c7ad93.mp3",
+  "seed": 7057,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole",
+      "start_sample": 0,
+      "end_sample": 6853,
+      "start_ms": 0,
+      "end_ms": 428
+    },
+    {
+      "lang": "ja",
+      "text": "舞台",
+      "start_sample": 6853,
+      "end_sample": 13666,
+      "start_ms": 428,
+      "end_ms": 854
+    },
+    {
+      "lang": "en",
+      "text": "was bathed in deep violet light during the closing song.",
+      "start_sample": 13666,
+      "end_sample": 120721,
+      "start_ms": 854,
+      "end_ms": 7545
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole butai was bathed in deep violet light during the closing song.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7796,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole",
+          "start_sample": 0,
+          "end_sample": 7053,
+          "start_ms": 0,
+          "end_ms": 441
+        },
+        {
+          "lang": "ja",
+          "text": "舞台",
+          "start_sample": 7053,
+          "end_sample": 17474,
+          "start_ms": 441,
+          "end_ms": 1092
+        },
+        {
+          "lang": "en",
+          "text": "was bathed in deep violet light during the closing song.",
+          "start_sample": 17474,
+          "end_sample": 124729,
+          "start_ms": 1092,
+          "end_ms": 7796
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole 舞台 was bathed in deep violet light during the closing song.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7694,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole",
+          "start_sample": 0,
+          "end_sample": 12343,
+          "start_ms": 0,
+          "end_ms": 771
+        },
+        {
+          "lang": "ja",
+          "text": "舞台",
+          "start_sample": 12343,
+          "end_sample": 19556,
+          "start_ms": 771,
+          "end_ms": 1222
+        },
+        {
+          "lang": "en",
+          "text": "was bathed in deep violet light during the closing song.",
+          "start_sample": 19556,
+          "end_sample": 123111,
+          "start_ms": 1222,
+          "end_ms": 7694
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 378,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

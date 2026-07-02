@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs156.flac",
+  "sentence": "We stayed until 閉店 because the 話 was too good to stop.",
+  "sample_rate": 16000,
+  "duration_ms": 3571,
+  "reference_speaker": "en/speaker_046_c5e6fd979dbd.mp3",
+  "seed": 17011,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We stayed until",
+      "start_sample": 0,
+      "end_sample": 12788,
+      "start_ms": 0,
+      "end_ms": 799
+    },
+    {
+      "lang": "ja",
+      "text": "閉店",
+      "start_sample": 12788,
+      "end_sample": 19469,
+      "start_ms": 799,
+      "end_ms": 1217
+    },
+    {
+      "lang": "en",
+      "text": "because the",
+      "start_sample": 19469,
+      "end_sample": 29812,
+      "start_ms": 1217,
+      "end_ms": 1863
+    },
+    {
+      "lang": "ja",
+      "text": "話",
+      "start_sample": 29812,
+      "end_sample": 35848,
+      "start_ms": 1863,
+      "end_ms": 2240
+    },
+    {
+      "lang": "en",
+      "text": "was too good to stop.",
+      "start_sample": 35848,
+      "end_sample": 57133,
+      "start_ms": 2240,
+      "end_ms": 3571
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We stayed until heiten because the hanashi was too good to stop.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4229,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We stayed until",
+          "start_sample": 0,
+          "end_sample": 12988,
+          "start_ms": 0,
+          "end_ms": 812
+        },
+        {
+          "lang": "ja",
+          "text": "閉店",
+          "start_sample": 12988,
+          "end_sample": 25815,
+          "start_ms": 812,
+          "end_ms": 1613
+        },
+        {
+          "lang": "en",
+          "text": "because the",
+          "start_sample": 25815,
+          "end_sample": 36558,
+          "start_ms": 1613,
+          "end_ms": 2285
+        },
+        {
+          "lang": "ja",
+          "text": "話",
+          "start_sample": 36558,
+          "end_sample": 46179,
+          "start_ms": 2285,
+          "end_ms": 2886
+        },
+        {
+          "lang": "en",
+          "text": "was too good to stop.",
+          "start_sample": 46179,
+          "end_sample": 67664,
+          "start_ms": 2886,
+          "end_ms": 4229
+        }
+      ]
+    },
+    "ja": {
+      "text": "We stayed until 閉店 because the 話 was too good to stop.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4043,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We stayed until",
+          "start_sample": 0,
+          "end_sample": 16734,
+          "start_ms": 0,
+          "end_ms": 1046
+        },
+        {
+          "lang": "ja",
+          "text": "閉店",
+          "start_sample": 16734,
+          "end_sample": 23815,
+          "start_ms": 1046,
+          "end_ms": 1488
+        },
+        {
+          "lang": "en",
+          "text": "because the",
+          "start_sample": 23815,
+          "end_sample": 31378,
+          "start_ms": 1488,
+          "end_ms": 1961
+        },
+        {
+          "lang": "ja",
+          "text": "話",
+          "start_sample": 31378,
+          "end_sample": 37814,
+          "start_ms": 1961,
+          "end_ms": 2363
+        },
+        {
+          "lang": "en",
+          "text": "was too good to stop.",
+          "start_sample": 37814,
+          "end_sample": 64682,
+          "start_ms": 2363,
+          "end_ms": 4043
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 179,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

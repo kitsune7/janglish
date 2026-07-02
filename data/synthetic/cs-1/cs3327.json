@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3327.flac",
+  "sentence": "先生から体重をもう少しhealthyな範囲に戻すよう言われました。",
+  "sample_rate": 16000,
+  "duration_ms": 4792,
+  "reference_speaker": "jp/speaker_100_5a2cde56c3f2.mp3",
+  "seed": 3369,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "先生から体重をもう少し",
+      "start_sample": 0,
+      "end_sample": 29162,
+      "start_ms": 0,
+      "end_ms": 1823
+    },
+    {
+      "lang": "en",
+      "text": "healthy",
+      "start_sample": 29162,
+      "end_sample": 47827,
+      "start_ms": 1823,
+      "end_ms": 2989
+    },
+    {
+      "lang": "ja",
+      "text": "な範囲に戻すよう言われました。",
+      "start_sample": 47827,
+      "end_sample": 76667,
+      "start_ms": 2989,
+      "end_ms": 4792
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sensei kara taijuu wo mou sukoshi healthy na han'i ni modosu you iwa re mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9312,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先生から体重をもう少し",
+          "start_sample": 0,
+          "end_sample": 61839,
+          "start_ms": 0,
+          "end_ms": 3865
+        },
+        {
+          "lang": "en",
+          "text": "healthy",
+          "start_sample": 61839,
+          "end_sample": 80904,
+          "start_ms": 3865,
+          "end_ms": 5056
+        },
+        {
+          "lang": "ja",
+          "text": "な範囲に戻すよう言われました。",
+          "start_sample": 80904,
+          "end_sample": 148992,
+          "start_ms": 5056,
+          "end_ms": 9312
+        }
+      ]
+    },
+    "ja": {
+      "text": "先生から体重をもう少しhealthyな範囲に戻すよう言われました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4111,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先生から体重をもう少し",
+          "start_sample": 0,
+          "end_sample": 29362,
+          "start_ms": 0,
+          "end_ms": 1835
+        },
+        {
+          "lang": "en",
+          "text": "healthy",
+          "start_sample": 29362,
+          "end_sample": 36743,
+          "start_ms": 1835,
+          "end_ms": 2296
+        },
+        {
+          "lang": "ja",
+          "text": "な範囲に戻すよう言われました。",
+          "start_sample": 36743,
+          "end_sample": 65783,
+          "start_ms": 2296,
+          "end_ms": 4111
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 240,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

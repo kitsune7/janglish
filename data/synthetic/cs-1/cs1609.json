@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1609.flac",
+  "sentence": "Her 発音 in French class improved dramatically after just one month abroad.",
+  "sample_rate": 16000,
+  "duration_ms": 4007,
+  "reference_speaker": "en/speaker_001_b06ec2cd8db9.mp3",
+  "seed": 1651,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Her",
+      "start_sample": 0,
+      "end_sample": 1563,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "発音",
+      "start_sample": 1563,
+      "end_sample": 9814,
+      "start_ms": 98,
+      "end_ms": 613
+    },
+    {
+      "lang": "en",
+      "text": "in French class improved dramatically after just one month abroad.",
+      "start_sample": 9814,
+      "end_sample": 64118,
+      "start_ms": 613,
+      "end_ms": 4007
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Her hatsuon in French class improved dramatically after just one month abroad.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4008,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 1763,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "発音",
+          "start_sample": 1763,
+          "end_sample": 9618,
+          "start_ms": 110,
+          "end_ms": 601
+        },
+        {
+          "lang": "en",
+          "text": "in French class improved dramatically after just one month abroad.",
+          "start_sample": 9618,
+          "end_sample": 64122,
+          "start_ms": 601,
+          "end_ms": 4008
+        }
+      ]
+    },
+    "ja": {
+      "text": "Her 発音 in French class improved dramatically after just one month abroad.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5087,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 3044,
+          "start_ms": 0,
+          "end_ms": 190
+        },
+        {
+          "lang": "ja",
+          "text": "発音",
+          "start_sample": 3044,
+          "end_sample": 11695,
+          "start_ms": 190,
+          "end_ms": 731
+        },
+        {
+          "lang": "en",
+          "text": "in French class improved dramatically after just one month abroad.",
+          "start_sample": 11695,
+          "end_sample": 81389,
+          "start_ms": 731,
+          "end_ms": 5087
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

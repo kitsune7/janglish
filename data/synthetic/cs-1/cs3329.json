@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3329.flac",
+  "sentence": "彼女はdiabetesと診断されてから食生活を大きく変えました。",
+  "sample_rate": 16000,
+  "duration_ms": 5336,
+  "reference_speaker": "jp/speaker_073_b4ca3157591f.mp3",
+  "seed": 3371,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は",
+      "start_sample": 0,
+      "end_sample": 8789,
+      "start_ms": 0,
+      "end_ms": 549
+    },
+    {
+      "lang": "en",
+      "text": "diabetes",
+      "start_sample": 8789,
+      "end_sample": 24882,
+      "start_ms": 549,
+      "end_ms": 1555
+    },
+    {
+      "lang": "ja",
+      "text": "と診断されてから食生活を大きく変えました。",
+      "start_sample": 24882,
+      "end_sample": 85384,
+      "start_ms": 1555,
+      "end_ms": 5336
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha diabetes to shindan sa re te kara shoku seikatsu wo ookiku kae mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9708,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 20016,
+          "start_ms": 0,
+          "end_ms": 1251
+        },
+        {
+          "lang": "en",
+          "text": "diabetes",
+          "start_sample": 20016,
+          "end_sample": 36509,
+          "start_ms": 1251,
+          "end_ms": 2282
+        },
+        {
+          "lang": "ja",
+          "text": "と診断されてから食生活を大きく変えました。",
+          "start_sample": 36509,
+          "end_sample": 155324,
+          "start_ms": 2282,
+          "end_ms": 9708
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はdiabetesと診断されてから食生活を大きく変えました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4978,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 8989,
+          "start_ms": 0,
+          "end_ms": 562
+        },
+        {
+          "lang": "en",
+          "text": "diabetes",
+          "start_sample": 8989,
+          "end_sample": 18946,
+          "start_ms": 562,
+          "end_ms": 1184
+        },
+        {
+          "lang": "ja",
+          "text": "と診断されてから食生活を大きく変えました。",
+          "start_sample": 18946,
+          "end_sample": 79648,
+          "start_ms": 1184,
+          "end_ms": 4978
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 267,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs953.flac",
+  "sentence": "あのカフェのhome-madeケーキは絶品です。",
+  "sample_rate": 16000,
+  "duration_ms": 2927,
+  "reference_speaker": "en/speaker_062_05f0c617d0bb.mp3",
+  "seed": 995,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あのカフェの",
+      "start_sample": 0,
+      "end_sample": 11883,
+      "start_ms": 0,
+      "end_ms": 743
+    },
+    {
+      "lang": "en",
+      "text": "home-made",
+      "start_sample": 11883,
+      "end_sample": 21424,
+      "start_ms": 743,
+      "end_ms": 1339
+    },
+    {
+      "lang": "ja",
+      "text": "ケーキは絶品です。",
+      "start_sample": 21424,
+      "end_sample": 46836,
+      "start_ms": 1339,
+      "end_ms": 2927
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano kafe no home-made keeki ha zeppin desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4970,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あのカフェの",
+          "start_sample": 0,
+          "end_sample": 21802,
+          "start_ms": 0,
+          "end_ms": 1363
+        },
+        {
+          "lang": "en",
+          "text": "home-made",
+          "start_sample": 21802,
+          "end_sample": 31743,
+          "start_ms": 1363,
+          "end_ms": 1984
+        },
+        {
+          "lang": "ja",
+          "text": "ケーキは絶品です。",
+          "start_sample": 31743,
+          "end_sample": 79517,
+          "start_ms": 1984,
+          "end_ms": 4970
+        }
+      ]
+    },
+    "ja": {
+      "text": "あのカフェのhome-madeケーキは絶品です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2940,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あのカフェの",
+          "start_sample": 0,
+          "end_sample": 12083,
+          "start_ms": 0,
+          "end_ms": 755
+        },
+        {
+          "lang": "en",
+          "text": "home-made",
+          "start_sample": 12083,
+          "end_sample": 21428,
+          "start_ms": 755,
+          "end_ms": 1339
+        },
+        {
+          "lang": "ja",
+          "text": "ケーキは絶品です。",
+          "start_sample": 21428,
+          "end_sample": 47040,
+          "start_ms": 1339,
+          "end_ms": 2940
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 147,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

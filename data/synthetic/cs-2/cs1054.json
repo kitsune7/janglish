@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1054.flac",
+  "sentence": "My cousin brought a sense of 新鮮 energy to the gathering, which everyone found so 心地よい.",
+  "sample_rate": 16000,
+  "duration_ms": 7600,
+  "reference_speaker": "en/speaker_027_12abacd76d5f.mp3",
+  "seed": 17909,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My cousin brought a sense of",
+      "start_sample": 0,
+      "end_sample": 35566,
+      "start_ms": 0,
+      "end_ms": 2223
+    },
+    {
+      "lang": "ja",
+      "text": "新鮮",
+      "start_sample": 35566,
+      "end_sample": 47973,
+      "start_ms": 2223,
+      "end_ms": 2998
+    },
+    {
+      "lang": "en",
+      "text": "energy to the gathering, which everyone found so",
+      "start_sample": 47973,
+      "end_sample": 105474,
+      "start_ms": 2998,
+      "end_ms": 6592
+    },
+    {
+      "lang": "ja",
+      "text": "心地よい.",
+      "start_sample": 105474,
+      "end_sample": 121603,
+      "start_ms": 6592,
+      "end_ms": 7600
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My cousin brought a sense of shinsen energy to the gathering, which everyone found so kokochiyoi",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7478,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My cousin brought a sense of",
+          "start_sample": 0,
+          "end_sample": 35766,
+          "start_ms": 0,
+          "end_ms": 2235
+        },
+        {
+          "lang": "ja",
+          "text": "新鮮",
+          "start_sample": 35766,
+          "end_sample": 46994,
+          "start_ms": 2235,
+          "end_ms": 2937
+        },
+        {
+          "lang": "en",
+          "text": "energy to the gathering, which everyone found so",
+          "start_sample": 46994,
+          "end_sample": 104895,
+          "start_ms": 2937,
+          "end_ms": 6556
+        },
+        {
+          "lang": "ja",
+          "text": "心地よい.",
+          "start_sample": 104895,
+          "end_sample": 119649,
+          "start_ms": 6556,
+          "end_ms": 7478
+        }
+      ]
+    },
+    "ja": {
+      "text": "My cousin brought a sense of 新鮮 energy to the gathering, which everyone found so 心地よい.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 10966,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My cousin brought a sense of",
+          "start_sample": 0,
+          "end_sample": 50268,
+          "start_ms": 0,
+          "end_ms": 3142
+        },
+        {
+          "lang": "ja",
+          "text": "新鮮",
+          "start_sample": 50268,
+          "end_sample": 63075,
+          "start_ms": 3142,
+          "end_ms": 3942
+        },
+        {
+          "lang": "en",
+          "text": "energy to the gathering, which everyone found so",
+          "start_sample": 63075,
+          "end_sample": 159129,
+          "start_ms": 3942,
+          "end_ms": 9946
+        },
+        {
+          "lang": "ja",
+          "text": "心地よい.",
+          "start_sample": 159129,
+          "end_sample": 175458,
+          "start_ms": 9946,
+          "end_ms": 10966
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 381,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

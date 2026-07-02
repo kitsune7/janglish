@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1104.flac",
+  "sentence": "The 余白 in that ambient track gives it such an interesting 奥行き.",
+  "sample_rate": 16000,
+  "duration_ms": 4192,
+  "reference_speaker": "en/speaker_030_bdb9e7b61df6.mp3",
+  "seed": 17959,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1567,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "余白",
+      "start_sample": 1567,
+      "end_sample": 10476,
+      "start_ms": 98,
+      "end_ms": 655
+    },
+    {
+      "lang": "en",
+      "text": "in that ambient track gives it such an interesting",
+      "start_sample": 10476,
+      "end_sample": 59093,
+      "start_ms": 655,
+      "end_ms": 3693
+    },
+    {
+      "lang": "ja",
+      "text": "奥行き.",
+      "start_sample": 59093,
+      "end_sample": 67076,
+      "start_ms": 3693,
+      "end_ms": 4192
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The yohaku in that ambient track gives it such an interesting okuyuki",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4660,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1767,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "余白",
+          "start_sample": 1767,
+          "end_sample": 11570,
+          "start_ms": 110,
+          "end_ms": 723
+        },
+        {
+          "lang": "en",
+          "text": "in that ambient track gives it such an interesting",
+          "start_sample": 11570,
+          "end_sample": 60587,
+          "start_ms": 723,
+          "end_ms": 3787
+        },
+        {
+          "lang": "ja",
+          "text": "奥行き.",
+          "start_sample": 60587,
+          "end_sample": 74565,
+          "start_ms": 3787,
+          "end_ms": 4660
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 余白 in that ambient track gives it such an interesting 奥行き.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4996,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3531,
+          "start_ms": 0,
+          "end_ms": 221
+        },
+        {
+          "lang": "ja",
+          "text": "余白",
+          "start_sample": 3531,
+          "end_sample": 12840,
+          "start_ms": 221,
+          "end_ms": 802
+        },
+        {
+          "lang": "en",
+          "text": "in that ambient track gives it such an interesting",
+          "start_sample": 12840,
+          "end_sample": 71746,
+          "start_ms": 802,
+          "end_ms": 4484
+        },
+        {
+          "lang": "ja",
+          "text": "奥行き.",
+          "start_sample": 71746,
+          "end_sample": 79929,
+          "start_ms": 4484,
+          "end_ms": 4996
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjj"
+}

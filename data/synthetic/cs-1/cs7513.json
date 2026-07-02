@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7513.flac",
+  "sentence": "このboxはとても丈夫そうですね。",
+  "sample_rate": 16000,
+  "duration_ms": 1941,
+  "reference_speaker": "en/speaker_003_7963691c43c8.mp3",
+  "seed": 7555,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3020,
+      "start_ms": 0,
+      "end_ms": 189
+    },
+    {
+      "lang": "en",
+      "text": "box",
+      "start_sample": 3020,
+      "end_sample": 6944,
+      "start_ms": 189,
+      "end_ms": 434
+    },
+    {
+      "lang": "ja",
+      "text": "はとても丈夫そうですね。",
+      "start_sample": 6944,
+      "end_sample": 31053,
+      "start_ms": 434,
+      "end_ms": 1941
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono box ha totemo joubu sou desu ne",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7168,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4004,
+          "start_ms": 0,
+          "end_ms": 250
+        },
+        {
+          "lang": "en",
+          "text": "box",
+          "start_sample": 4004,
+          "end_sample": 8328,
+          "start_ms": 250,
+          "end_ms": 520
+        },
+        {
+          "lang": "ja",
+          "text": "はとても丈夫そうですね。",
+          "start_sample": 8328,
+          "end_sample": 114684,
+          "start_ms": 520,
+          "end_ms": 7168
+        }
+      ]
+    },
+    "ja": {
+      "text": "このboxはとても丈夫そうですね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2073,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3220,
+          "start_ms": 0,
+          "end_ms": 201
+        },
+        {
+          "lang": "en",
+          "text": "box",
+          "start_sample": 3220,
+          "end_sample": 8855,
+          "start_ms": 201,
+          "end_ms": 553
+        },
+        {
+          "lang": "ja",
+          "text": "はとても丈夫そうですね。",
+          "start_sample": 8855,
+          "end_sample": 33164,
+          "start_ms": 553,
+          "end_ms": 2073
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 98,
+  "frame_labels": "jjjjjjjjjeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

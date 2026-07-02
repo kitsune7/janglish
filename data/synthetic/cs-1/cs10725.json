@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs10725.flac",
+  "sentence": "He always finishes the dish with a drizzle of 胡麻油.",
+  "sample_rate": 16000,
+  "duration_ms": 3584,
+  "reference_speaker": "jp/speaker_021_dc81e43724ca.mp3",
+  "seed": 10767,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He always finishes the dish with a drizzle of",
+      "start_sample": 0,
+      "end_sample": 47602,
+      "start_ms": 0,
+      "end_ms": 2975
+    },
+    {
+      "lang": "ja",
+      "text": "胡麻油.",
+      "start_sample": 47602,
+      "end_sample": 57339,
+      "start_ms": 2975,
+      "end_ms": 3584
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He always finishes the dish with a drizzle of goma abura",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3930,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He always finishes the dish with a drizzle of",
+          "start_sample": 0,
+          "end_sample": 47802,
+          "start_ms": 0,
+          "end_ms": 2988
+        },
+        {
+          "lang": "ja",
+          "text": "胡麻油.",
+          "start_sample": 47802,
+          "end_sample": 62878,
+          "start_ms": 2988,
+          "end_ms": 3930
+        }
+      ]
+    },
+    "ja": {
+      "text": "He always finishes the dish with a drizzle of 胡麻油.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4088,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He always finishes the dish with a drizzle of",
+          "start_sample": 0,
+          "end_sample": 55467,
+          "start_ms": 0,
+          "end_ms": 3467
+        },
+        {
+          "lang": "ja",
+          "text": "胡麻油.",
+          "start_sample": 55467,
+          "end_sample": 65404,
+          "start_ms": 3467,
+          "end_ms": 4088
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 180,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

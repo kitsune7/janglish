@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4079.flac",
+  "sentence": "The whole street smelled 香ばしい from the grilled skewers at every stall.",
+  "sample_rate": 16000,
+  "duration_ms": 3841,
+  "reference_speaker": "en/speaker_062_05f0c617d0bb.mp3",
+  "seed": 4121,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole street smelled",
+      "start_sample": 0,
+      "end_sample": 16657,
+      "start_ms": 0,
+      "end_ms": 1041
+    },
+    {
+      "lang": "ja",
+      "text": "香ばしい",
+      "start_sample": 16657,
+      "end_sample": 27951,
+      "start_ms": 1041,
+      "end_ms": 1747
+    },
+    {
+      "lang": "en",
+      "text": "from the grilled skewers at every stall.",
+      "start_sample": 27951,
+      "end_sample": 61463,
+      "start_ms": 1747,
+      "end_ms": 3841
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole street smelled koobashii from the grilled skewers at every stall.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3712,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole street smelled",
+          "start_sample": 0,
+          "end_sample": 16857,
+          "start_ms": 0,
+          "end_ms": 1054
+        },
+        {
+          "lang": "ja",
+          "text": "香ばしい",
+          "start_sample": 16857,
+          "end_sample": 25687,
+          "start_ms": 1054,
+          "end_ms": 1605
+        },
+        {
+          "lang": "en",
+          "text": "from the grilled skewers at every stall.",
+          "start_sample": 25687,
+          "end_sample": 59399,
+          "start_ms": 1605,
+          "end_ms": 3712
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole street smelled 香ばしい from the grilled skewers at every stall.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5586,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole street smelled",
+          "start_sample": 0,
+          "end_sample": 25309,
+          "start_ms": 0,
+          "end_ms": 1582
+        },
+        {
+          "lang": "ja",
+          "text": "香ばしい",
+          "start_sample": 25309,
+          "end_sample": 37003,
+          "start_ms": 1582,
+          "end_ms": 2313
+        },
+        {
+          "lang": "en",
+          "text": "from the grilled skewers at every stall.",
+          "start_sample": 37003,
+          "end_sample": 89383,
+          "start_ms": 2313,
+          "end_ms": 5586
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 193,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2678.flac",
+  "sentence": "The 捜索 team expanded the search area at dawn.",
+  "sample_rate": 16000,
+  "duration_ms": 3396,
+  "reference_speaker": "en/speaker_067_3f15e2fece31.mp3",
+  "seed": 2720,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1729,
+      "start_ms": 0,
+      "end_ms": 108
+    },
+    {
+      "lang": "ja",
+      "text": "捜索",
+      "start_sample": 1729,
+      "end_sample": 10632,
+      "start_ms": 108,
+      "end_ms": 664
+    },
+    {
+      "lang": "en",
+      "text": "team expanded the search area at dawn.",
+      "start_sample": 10632,
+      "end_sample": 54332,
+      "start_ms": 664,
+      "end_ms": 3396
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The sousaku team expanded the search area at dawn.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3538,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1929,
+          "start_ms": 0,
+          "end_ms": 121
+        },
+        {
+          "lang": "ja",
+          "text": "捜索",
+          "start_sample": 1929,
+          "end_sample": 12704,
+          "start_ms": 121,
+          "end_ms": 794
+        },
+        {
+          "lang": "en",
+          "text": "team expanded the search area at dawn.",
+          "start_sample": 12704,
+          "end_sample": 56604,
+          "start_ms": 794,
+          "end_ms": 3538
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 捜索 team expanded the search area at dawn.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4010,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4489,
+          "start_ms": 0,
+          "end_ms": 281
+        },
+        {
+          "lang": "ja",
+          "text": "捜索",
+          "start_sample": 4489,
+          "end_sample": 13792,
+          "start_ms": 281,
+          "end_ms": 862
+        },
+        {
+          "lang": "en",
+          "text": "team expanded the search area at dawn.",
+          "start_sample": 13792,
+          "end_sample": 64159,
+          "start_ms": 862,
+          "end_ms": 4010
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 170,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

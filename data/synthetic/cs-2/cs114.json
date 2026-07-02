@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs114.flac",
+  "sentence": "彼女はjazzだけでなくclassicalも演奏できる。",
+  "sample_rate": 16000,
+  "duration_ms": 3477,
+  "reference_speaker": "en/speaker_077_cf8a4971b1d4.mp3",
+  "seed": 16969,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は",
+      "start_sample": 0,
+      "end_sample": 8935,
+      "start_ms": 0,
+      "end_ms": 558
+    },
+    {
+      "lang": "en",
+      "text": "jazz",
+      "start_sample": 8935,
+      "end_sample": 17037,
+      "start_ms": 558,
+      "end_ms": 1065
+    },
+    {
+      "lang": "ja",
+      "text": "だけでなく",
+      "start_sample": 17037,
+      "end_sample": 28498,
+      "start_ms": 1065,
+      "end_ms": 1781
+    },
+    {
+      "lang": "en",
+      "text": "classical",
+      "start_sample": 28498,
+      "end_sample": 39167,
+      "start_ms": 1781,
+      "end_ms": 2448
+    },
+    {
+      "lang": "ja",
+      "text": "も演奏できる。",
+      "start_sample": 39167,
+      "end_sample": 55636,
+      "start_ms": 2448,
+      "end_ms": 3477
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha jazz dake de naku classical mo ensou dekiru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7619,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 13153,
+          "start_ms": 0,
+          "end_ms": 822
+        },
+        {
+          "lang": "en",
+          "text": "jazz",
+          "start_sample": 13153,
+          "end_sample": 21655,
+          "start_ms": 822,
+          "end_ms": 1353
+        },
+        {
+          "lang": "ja",
+          "text": "だけでなく",
+          "start_sample": 21655,
+          "end_sample": 79241,
+          "start_ms": 1353,
+          "end_ms": 4953
+        },
+        {
+          "lang": "en",
+          "text": "classical",
+          "start_sample": 79241,
+          "end_sample": 90310,
+          "start_ms": 4953,
+          "end_ms": 5644
+        },
+        {
+          "lang": "ja",
+          "text": "も演奏できる。",
+          "start_sample": 90310,
+          "end_sample": 121908,
+          "start_ms": 5644,
+          "end_ms": 7619
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はjazzだけでなくclassicalも演奏できる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3266,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 9135,
+          "start_ms": 0,
+          "end_ms": 571
+        },
+        {
+          "lang": "en",
+          "text": "jazz",
+          "start_sample": 9135,
+          "end_sample": 13624,
+          "start_ms": 571,
+          "end_ms": 852
+        },
+        {
+          "lang": "ja",
+          "text": "だけでなく",
+          "start_sample": 13624,
+          "end_sample": 25485,
+          "start_ms": 852,
+          "end_ms": 1593
+        },
+        {
+          "lang": "en",
+          "text": "classical",
+          "start_sample": 25485,
+          "end_sample": 35583,
+          "start_ms": 1593,
+          "end_ms": 2224
+        },
+        {
+          "lang": "ja",
+          "text": "も演奏できる。",
+          "start_sample": 35583,
+          "end_sample": 52252,
+          "start_ms": 2224,
+          "end_ms": 3266
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 174,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

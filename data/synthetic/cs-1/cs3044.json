@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3044.flac",
+  "sentence": "His 年収 didn't meet the minimum threshold for the mortgage.",
+  "sample_rate": 16000,
+  "duration_ms": 3114,
+  "reference_speaker": "en/speaker_063_66f0ab0f5d48.mp3",
+  "seed": 3086,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His",
+      "start_sample": 0,
+      "end_sample": 2041,
+      "start_ms": 0,
+      "end_ms": 128
+    },
+    {
+      "lang": "ja",
+      "text": "年収",
+      "start_sample": 2041,
+      "end_sample": 10304,
+      "start_ms": 128,
+      "end_ms": 644
+    },
+    {
+      "lang": "en",
+      "text": "didn't meet the minimum threshold for the mortgage.",
+      "start_sample": 10304,
+      "end_sample": 49822,
+      "start_ms": 644,
+      "end_ms": 3114
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His nenshuu didn't meet the minimum threshold for the mortgage.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3043,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His",
+          "start_sample": 0,
+          "end_sample": 2241,
+          "start_ms": 0,
+          "end_ms": 140
+        },
+        {
+          "lang": "ja",
+          "text": "年収",
+          "start_sample": 2241,
+          "end_sample": 8968,
+          "start_ms": 140,
+          "end_ms": 560
+        },
+        {
+          "lang": "en",
+          "text": "didn't meet the minimum threshold for the mortgage.",
+          "start_sample": 8968,
+          "end_sample": 48686,
+          "start_ms": 560,
+          "end_ms": 3043
+        }
+      ]
+    },
+    "ja": {
+      "text": "His 年収 didn't meet the minimum threshold for the mortgage.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4853,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His",
+          "start_sample": 0,
+          "end_sample": 2566,
+          "start_ms": 0,
+          "end_ms": 160
+        },
+        {
+          "lang": "ja",
+          "text": "年収",
+          "start_sample": 2566,
+          "end_sample": 11229,
+          "start_ms": 160,
+          "end_ms": 702
+        },
+        {
+          "lang": "en",
+          "text": "didn't meet the minimum threshold for the mortgage.",
+          "start_sample": 11229,
+          "end_sample": 77643,
+          "start_ms": 702,
+          "end_ms": 4853
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 156,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

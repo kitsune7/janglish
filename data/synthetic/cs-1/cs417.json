@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs417.flac",
+  "sentence": "Can you grab the ほうき from the closet and sweep the back porch?",
+  "sample_rate": 16000,
+  "duration_ms": 3791,
+  "reference_speaker": "en/speaker_051_36aa24c8ddec.mp3",
+  "seed": 459,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you grab the",
+      "start_sample": 0,
+      "end_sample": 11191,
+      "start_ms": 0,
+      "end_ms": 699
+    },
+    {
+      "lang": "ja",
+      "text": "ほうき",
+      "start_sample": 11191,
+      "end_sample": 19950,
+      "start_ms": 699,
+      "end_ms": 1247
+    },
+    {
+      "lang": "en",
+      "text": "from the closet and sweep the back porch?",
+      "start_sample": 19950,
+      "end_sample": 60662,
+      "start_ms": 1247,
+      "end_ms": 3791
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you grab the houki from the closet and sweep the back porch?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3710,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you grab the",
+          "start_sample": 0,
+          "end_sample": 11391,
+          "start_ms": 0,
+          "end_ms": 712
+        },
+        {
+          "lang": "ja",
+          "text": "ほうき",
+          "start_sample": 11391,
+          "end_sample": 18450,
+          "start_ms": 712,
+          "end_ms": 1153
+        },
+        {
+          "lang": "en",
+          "text": "from the closet and sweep the back porch?",
+          "start_sample": 18450,
+          "end_sample": 59362,
+          "start_ms": 1153,
+          "end_ms": 3710
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you grab the ほうき from the closet and sweep the back porch?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5503,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you grab the",
+          "start_sample": 0,
+          "end_sample": 25547,
+          "start_ms": 0,
+          "end_ms": 1597
+        },
+        {
+          "lang": "ja",
+          "text": "ほうき",
+          "start_sample": 25547,
+          "end_sample": 34706,
+          "start_ms": 1597,
+          "end_ms": 2169
+        },
+        {
+          "lang": "en",
+          "text": "from the closet and sweep the back porch?",
+          "start_sample": 34706,
+          "end_sample": 88049,
+          "start_ms": 2169,
+          "end_ms": 5503
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

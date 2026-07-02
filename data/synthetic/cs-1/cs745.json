@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs745.flac",
+  "sentence": "The 家系 on his mother's side is full of artists and musicians.",
+  "sample_rate": 16000,
+  "duration_ms": 4132,
+  "reference_speaker": "jp/speaker_003_7f373ff7d9ea.mp3",
+  "seed": 787,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1408,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "家系",
+      "start_sample": 1408,
+      "end_sample": 11607,
+      "start_ms": 88,
+      "end_ms": 725
+    },
+    {
+      "lang": "en",
+      "text": "on his mother's side is full of artists and musicians.",
+      "start_sample": 11607,
+      "end_sample": 66113,
+      "start_ms": 725,
+      "end_ms": 4132
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kakei on his mother's side is full of artists and musicians.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4123,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1608,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "家系",
+          "start_sample": 1608,
+          "end_sample": 11263,
+          "start_ms": 100,
+          "end_ms": 704
+        },
+        {
+          "lang": "en",
+          "text": "on his mother's side is full of artists and musicians.",
+          "start_sample": 11263,
+          "end_sample": 65969,
+          "start_ms": 704,
+          "end_ms": 4123
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 家系 on his mother's side is full of artists and musicians.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5038,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5459,
+          "start_ms": 0,
+          "end_ms": 341
+        },
+        {
+          "lang": "ja",
+          "text": "家系",
+          "start_sample": 5459,
+          "end_sample": 16058,
+          "start_ms": 341,
+          "end_ms": 1004
+        },
+        {
+          "lang": "en",
+          "text": "on his mother's side is full of artists and musicians.",
+          "start_sample": 16058,
+          "end_sample": 80611,
+          "start_ms": 1004,
+          "end_ms": 5038
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 207,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

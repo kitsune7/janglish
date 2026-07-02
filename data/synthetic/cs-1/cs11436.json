@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11436.flac",
+  "sentence": "The landlord said the 押し入れ in the bedroom is included in the lease.",
+  "sample_rate": 16000,
+  "duration_ms": 3235,
+  "reference_speaker": "en/speaker_085_1a04e2db0811.mp3",
+  "seed": 11478,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The landlord said the",
+      "start_sample": 0,
+      "end_sample": 14441,
+      "start_ms": 0,
+      "end_ms": 903
+    },
+    {
+      "lang": "ja",
+      "text": "押し入れ",
+      "start_sample": 14441,
+      "end_sample": 23332,
+      "start_ms": 903,
+      "end_ms": 1458
+    },
+    {
+      "lang": "en",
+      "text": "in the bedroom is included in the lease.",
+      "start_sample": 23332,
+      "end_sample": 51767,
+      "start_ms": 1458,
+      "end_ms": 3235
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The landlord said the oshiire in the bedroom is included in the lease.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3298,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The landlord said the",
+          "start_sample": 0,
+          "end_sample": 14641,
+          "start_ms": 0,
+          "end_ms": 915
+        },
+        {
+          "lang": "ja",
+          "text": "押し入れ",
+          "start_sample": 14641,
+          "end_sample": 24134,
+          "start_ms": 915,
+          "end_ms": 1508
+        },
+        {
+          "lang": "en",
+          "text": "in the bedroom is included in the lease.",
+          "start_sample": 24134,
+          "end_sample": 52769,
+          "start_ms": 1508,
+          "end_ms": 3298
+        }
+      ]
+    },
+    "ja": {
+      "text": "The landlord said the 押し入れ in the bedroom is included in the lease.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5566,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The landlord said the",
+          "start_sample": 0,
+          "end_sample": 38124,
+          "start_ms": 0,
+          "end_ms": 2383
+        },
+        {
+          "lang": "ja",
+          "text": "押し入れ",
+          "start_sample": 38124,
+          "end_sample": 47415,
+          "start_ms": 2383,
+          "end_ms": 2963
+        },
+        {
+          "lang": "en",
+          "text": "in the bedroom is included in the lease.",
+          "start_sample": 47415,
+          "end_sample": 89062,
+          "start_ms": 2963,
+          "end_ms": 5566
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 162,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2818.flac",
+  "sentence": "My 友達 and I started a weekly board game night last month.",
+  "sample_rate": 16000,
+  "duration_ms": 3473,
+  "reference_speaker": "en/speaker_035_aa6a3aa058c0.mp3",
+  "seed": 2860,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My",
+      "start_sample": 0,
+      "end_sample": 2049,
+      "start_ms": 0,
+      "end_ms": 128
+    },
+    {
+      "lang": "ja",
+      "text": "友達",
+      "start_sample": 2049,
+      "end_sample": 13342,
+      "start_ms": 128,
+      "end_ms": 834
+    },
+    {
+      "lang": "en",
+      "text": "and I started a weekly board game night last month.",
+      "start_sample": 13342,
+      "end_sample": 55566,
+      "start_ms": 834,
+      "end_ms": 3473
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My tomodachi and I started a weekly board game night last month.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3395,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 2249,
+          "start_ms": 0,
+          "end_ms": 141
+        },
+        {
+          "lang": "ja",
+          "text": "友達",
+          "start_sample": 2249,
+          "end_sample": 11892,
+          "start_ms": 141,
+          "end_ms": 743
+        },
+        {
+          "lang": "en",
+          "text": "and I started a weekly board game night last month.",
+          "start_sample": 11892,
+          "end_sample": 54316,
+          "start_ms": 743,
+          "end_ms": 3395
+        }
+      ]
+    },
+    "ja": {
+      "text": "My 友達 and I started a weekly board game night last month.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5646,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 4645,
+          "start_ms": 0,
+          "end_ms": 290
+        },
+        {
+          "lang": "ja",
+          "text": "友達",
+          "start_sample": 4645,
+          "end_sample": 16338,
+          "start_ms": 290,
+          "end_ms": 1021
+        },
+        {
+          "lang": "en",
+          "text": "and I started a weekly board game night last month.",
+          "start_sample": 16338,
+          "end_sample": 90344,
+          "start_ms": 1021,
+          "end_ms": 5646
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 174,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

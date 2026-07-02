@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6338.flac",
+  "sentence": "Did you notice the 試着室 was closed, so I had no idea if the pants would fit?",
+  "sample_rate": 16000,
+  "duration_ms": 4637,
+  "reference_speaker": "en/speaker_043_fce08c366ebd.mp3",
+  "seed": 6380,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Did you notice the",
+      "start_sample": 0,
+      "end_sample": 14861,
+      "start_ms": 0,
+      "end_ms": 929
+    },
+    {
+      "lang": "ja",
+      "text": "試着室",
+      "start_sample": 14861,
+      "end_sample": 26000,
+      "start_ms": 929,
+      "end_ms": 1625
+    },
+    {
+      "lang": "en",
+      "text": "was closed, so I had no idea if the pants would fit?",
+      "start_sample": 26000,
+      "end_sample": 74188,
+      "start_ms": 1625,
+      "end_ms": 4637
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Did you notice the shichaku shitsu was closed, so I had no idea if the pants would fit?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5468,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you notice the",
+          "start_sample": 0,
+          "end_sample": 15061,
+          "start_ms": 0,
+          "end_ms": 941
+        },
+        {
+          "lang": "ja",
+          "text": "試着室",
+          "start_sample": 15061,
+          "end_sample": 39096,
+          "start_ms": 941,
+          "end_ms": 2444
+        },
+        {
+          "lang": "en",
+          "text": "was closed, so I had no idea if the pants would fit?",
+          "start_sample": 39096,
+          "end_sample": 87484,
+          "start_ms": 2444,
+          "end_ms": 5468
+        }
+      ]
+    },
+    "ja": {
+      "text": "Did you notice the 試着室 was closed, so I had no idea if the pants would fit?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5409,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you notice the",
+          "start_sample": 0,
+          "end_sample": 20192,
+          "start_ms": 0,
+          "end_ms": 1262
+        },
+        {
+          "lang": "ja",
+          "text": "試着室",
+          "start_sample": 20192,
+          "end_sample": 31731,
+          "start_ms": 1262,
+          "end_ms": 1983
+        },
+        {
+          "lang": "en",
+          "text": "was closed, so I had no idea if the pants would fit?",
+          "start_sample": 31731,
+          "end_sample": 86541,
+          "start_ms": 1983,
+          "end_ms": 5409
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 232,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

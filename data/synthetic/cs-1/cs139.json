@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs139.flac",
+  "sentence": "I can't believe they cancelled that show on such a 中途半端 cliffhanger.",
+  "sample_rate": 16000,
+  "duration_ms": 4646,
+  "reference_speaker": "jp/speaker_085_c431b4a9ddfb.mp3",
+  "seed": 181,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I can't believe they cancelled that show on such a",
+      "start_sample": 0,
+      "end_sample": 38062,
+      "start_ms": 0,
+      "end_ms": 2379
+    },
+    {
+      "lang": "ja",
+      "text": "中途半端",
+      "start_sample": 38062,
+      "end_sample": 63974,
+      "start_ms": 2379,
+      "end_ms": 3998
+    },
+    {
+      "lang": "en",
+      "text": "cliffhanger.",
+      "start_sample": 63974,
+      "end_sample": 74340,
+      "start_ms": 3998,
+      "end_ms": 4646
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I can't believe they cancelled that show on such a chuuto hanpa cliffhanger.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3802,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I can't believe they cancelled that show on such a",
+          "start_sample": 0,
+          "end_sample": 38262,
+          "start_ms": 0,
+          "end_ms": 2391
+        },
+        {
+          "lang": "ja",
+          "text": "中途半端",
+          "start_sample": 38262,
+          "end_sample": 50269,
+          "start_ms": 2391,
+          "end_ms": 3142
+        },
+        {
+          "lang": "en",
+          "text": "cliffhanger.",
+          "start_sample": 50269,
+          "end_sample": 60835,
+          "start_ms": 3142,
+          "end_ms": 3802
+        }
+      ]
+    },
+    "ja": {
+      "text": "I can't believe they cancelled that show on such a 中途半端 cliffhanger.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6317,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I can't believe they cancelled that show on such a",
+          "start_sample": 0,
+          "end_sample": 57274,
+          "start_ms": 0,
+          "end_ms": 3580
+        },
+        {
+          "lang": "ja",
+          "text": "中途半端",
+          "start_sample": 57274,
+          "end_sample": 83586,
+          "start_ms": 3580,
+          "end_ms": 5224
+        },
+        {
+          "lang": "en",
+          "text": "cliffhanger.",
+          "start_sample": 83586,
+          "end_sample": 101071,
+          "start_ms": 5224,
+          "end_ms": 6317
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 233,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4045.flac",
+  "sentence": "Can you adjust the 強度 of today's interval training for me?",
+  "sample_rate": 16000,
+  "duration_ms": 4248,
+  "reference_speaker": "en/speaker_086_0a418a567872.mp3",
+  "seed": 4087,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you adjust the",
+      "start_sample": 0,
+      "end_sample": 19036,
+      "start_ms": 0,
+      "end_ms": 1190
+    },
+    {
+      "lang": "ja",
+      "text": "強度",
+      "start_sample": 19036,
+      "end_sample": 29373,
+      "start_ms": 1190,
+      "end_ms": 1836
+    },
+    {
+      "lang": "en",
+      "text": "of today's interval training for me?",
+      "start_sample": 29373,
+      "end_sample": 67966,
+      "start_ms": 1836,
+      "end_ms": 4248
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you adjust the kyoudo of today's interval training for me?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5410,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you adjust the",
+          "start_sample": 0,
+          "end_sample": 19236,
+          "start_ms": 0,
+          "end_ms": 1202
+        },
+        {
+          "lang": "ja",
+          "text": "強度",
+          "start_sample": 19236,
+          "end_sample": 47770,
+          "start_ms": 1202,
+          "end_ms": 2986
+        },
+        {
+          "lang": "en",
+          "text": "of today's interval training for me?",
+          "start_sample": 47770,
+          "end_sample": 86563,
+          "start_ms": 2986,
+          "end_ms": 5410
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you adjust the 強度 of today's interval training for me?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5208,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you adjust the",
+          "start_sample": 0,
+          "end_sample": 25639,
+          "start_ms": 0,
+          "end_ms": 1602
+        },
+        {
+          "lang": "ja",
+          "text": "強度",
+          "start_sample": 25639,
+          "end_sample": 36376,
+          "start_ms": 1602,
+          "end_ms": 2274
+        },
+        {
+          "lang": "en",
+          "text": "of today's interval training for me?",
+          "start_sample": 36376,
+          "end_sample": 83329,
+          "start_ms": 2274,
+          "end_ms": 5208
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 213,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

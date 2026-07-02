@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1820.flac",
+  "sentence": "The contrast between the 空白 and the dense linework is what gives the piece its tension.",
+  "sample_rate": 16000,
+  "duration_ms": 6240,
+  "reference_speaker": "en/speaker_092_0f181b6e11f2.mp3",
+  "seed": 1862,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The contrast between the",
+      "start_sample": 0,
+      "end_sample": 21480,
+      "start_ms": 0,
+      "end_ms": 1342
+    },
+    {
+      "lang": "ja",
+      "text": "空白",
+      "start_sample": 21480,
+      "end_sample": 35971,
+      "start_ms": 1342,
+      "end_ms": 2248
+    },
+    {
+      "lang": "en",
+      "text": "and the dense linework is what gives the piece its tension.",
+      "start_sample": 35971,
+      "end_sample": 99846,
+      "start_ms": 2248,
+      "end_ms": 6240
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The contrast between the kuuhaku and the dense linework is what gives the piece its tension.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6082,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The contrast between the",
+          "start_sample": 0,
+          "end_sample": 21680,
+          "start_ms": 0,
+          "end_ms": 1355
+        },
+        {
+          "lang": "ja",
+          "text": "空白",
+          "start_sample": 21680,
+          "end_sample": 33242,
+          "start_ms": 1355,
+          "end_ms": 2078
+        },
+        {
+          "lang": "en",
+          "text": "and the dense linework is what gives the piece its tension.",
+          "start_sample": 33242,
+          "end_sample": 97317,
+          "start_ms": 2078,
+          "end_ms": 6082
+        }
+      ]
+    },
+    "ja": {
+      "text": "The contrast between the 空白 and the dense linework is what gives the piece its tension.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9327,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The contrast between the",
+          "start_sample": 0,
+          "end_sample": 32345,
+          "start_ms": 0,
+          "end_ms": 2022
+        },
+        {
+          "lang": "ja",
+          "text": "空白",
+          "start_sample": 32345,
+          "end_sample": 47236,
+          "start_ms": 2022,
+          "end_ms": 2952
+        },
+        {
+          "lang": "en",
+          "text": "and the dense linework is what gives the piece its tension.",
+          "start_sample": 47236,
+          "end_sample": 149236,
+          "start_ms": 2952,
+          "end_ms": 9327
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 313,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

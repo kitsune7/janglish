@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1020.flac",
+  "sentence": "Even a short 散歩 after dinner does wonders for your 回復.",
+  "sample_rate": 16000,
+  "duration_ms": 4264,
+  "reference_speaker": "jp/speaker_072_6a4d94080268.mp3",
+  "seed": 17875,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Even a short",
+      "start_sample": 0,
+      "end_sample": 12784,
+      "start_ms": 0,
+      "end_ms": 799
+    },
+    {
+      "lang": "ja",
+      "text": "散歩",
+      "start_sample": 12784,
+      "end_sample": 18797,
+      "start_ms": 799,
+      "end_ms": 1175
+    },
+    {
+      "lang": "en",
+      "text": "after dinner does wonders for your",
+      "start_sample": 18797,
+      "end_sample": 60082,
+      "start_ms": 1175,
+      "end_ms": 3755
+    },
+    {
+      "lang": "ja",
+      "text": "回復.",
+      "start_sample": 60082,
+      "end_sample": 68217,
+      "start_ms": 3755,
+      "end_ms": 4264
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Even a short sanpo after dinner does wonders for your kaifuku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4950,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Even a short",
+          "start_sample": 0,
+          "end_sample": 12984,
+          "start_ms": 0,
+          "end_ms": 812
+        },
+        {
+          "lang": "ja",
+          "text": "散歩",
+          "start_sample": 12984,
+          "end_sample": 26451,
+          "start_ms": 812,
+          "end_ms": 1653
+        },
+        {
+          "lang": "en",
+          "text": "after dinner does wonders for your",
+          "start_sample": 26451,
+          "end_sample": 68136,
+          "start_ms": 1653,
+          "end_ms": 4258
+        },
+        {
+          "lang": "ja",
+          "text": "回復.",
+          "start_sample": 68136,
+          "end_sample": 79197,
+          "start_ms": 4258,
+          "end_ms": 4950
+        }
+      ]
+    },
+    "ja": {
+      "text": "Even a short 散歩 after dinner does wonders for your 回復.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3627,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Even a short",
+          "start_sample": 0,
+          "end_sample": 11542,
+          "start_ms": 0,
+          "end_ms": 721
+        },
+        {
+          "lang": "ja",
+          "text": "散歩",
+          "start_sample": 11542,
+          "end_sample": 17955,
+          "start_ms": 721,
+          "end_ms": 1122
+        },
+        {
+          "lang": "en",
+          "text": "after dinner does wonders for your",
+          "start_sample": 17955,
+          "end_sample": 49702,
+          "start_ms": 1122,
+          "end_ms": 3106
+        },
+        {
+          "lang": "ja",
+          "text": "回復.",
+          "start_sample": 49702,
+          "end_sample": 58037,
+          "start_ms": 3106,
+          "end_ms": 3627
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 214,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

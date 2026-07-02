@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6436.flac",
+  "sentence": "このdocumentaryを観てから、環境問題に真剣になった。",
+  "sample_rate": 16000,
+  "duration_ms": 4510,
+  "reference_speaker": "jp/speaker_031_8da19046583d.mp3",
+  "seed": 6478,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 4770,
+      "start_ms": 0,
+      "end_ms": 298
+    },
+    {
+      "lang": "en",
+      "text": "documentary",
+      "start_sample": 4770,
+      "end_sample": 24252,
+      "start_ms": 298,
+      "end_ms": 1516
+    },
+    {
+      "lang": "ja",
+      "text": "を観てから、環境問題に真剣になった。",
+      "start_sample": 24252,
+      "end_sample": 72154,
+      "start_ms": 1516,
+      "end_ms": 4510
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono documentary wo kan te kara kankyou mondai ni shinken ni natsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7917,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3527,
+          "start_ms": 0,
+          "end_ms": 220
+        },
+        {
+          "lang": "en",
+          "text": "documentary",
+          "start_sample": 3527,
+          "end_sample": 23409,
+          "start_ms": 220,
+          "end_ms": 1463
+        },
+        {
+          "lang": "ja",
+          "text": "を観てから、環境問題に真剣になった。",
+          "start_sample": 23409,
+          "end_sample": 126668,
+          "start_ms": 1463,
+          "end_ms": 7917
+        }
+      ]
+    },
+    "ja": {
+      "text": "このdocumentaryを観てから、環境問題に真剣になった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4149,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4970,
+          "start_ms": 0,
+          "end_ms": 311
+        },
+        {
+          "lang": "en",
+          "text": "documentary",
+          "start_sample": 4970,
+          "end_sample": 18279,
+          "start_ms": 311,
+          "end_ms": 1142
+        },
+        {
+          "lang": "ja",
+          "text": "を観てから、環境問題に真剣になった。",
+          "start_sample": 18279,
+          "end_sample": 66381,
+          "start_ms": 1142,
+          "end_ms": 4149
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 226,
+  "frame_labels": "jjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

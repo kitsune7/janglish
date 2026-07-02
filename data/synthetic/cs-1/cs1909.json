@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1909.flac",
+  "sentence": "郵便局でtracking numberを確認してもらえますか？",
+  "sample_rate": 16000,
+  "duration_ms": 3641,
+  "reference_speaker": "en/speaker_046_c5e6fd979dbd.mp3",
+  "seed": 1951,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "郵便局で",
+      "start_sample": 0,
+      "end_sample": 14577,
+      "start_ms": 0,
+      "end_ms": 911
+    },
+    {
+      "lang": "en",
+      "text": "tracking number",
+      "start_sample": 14577,
+      "end_sample": 33406,
+      "start_ms": 911,
+      "end_ms": 2088
+    },
+    {
+      "lang": "ja",
+      "text": "を確認してもらえますか？",
+      "start_sample": 33406,
+      "end_sample": 58260,
+      "start_ms": 2088,
+      "end_ms": 3641
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "yuubin kyoku de tracking number wo kakunin shi te morae masu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7551,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "郵便局で",
+          "start_sample": 0,
+          "end_sample": 30124,
+          "start_ms": 0,
+          "end_ms": 1883
+        },
+        {
+          "lang": "en",
+          "text": "tracking number",
+          "start_sample": 30124,
+          "end_sample": 49353,
+          "start_ms": 1883,
+          "end_ms": 3085
+        },
+        {
+          "lang": "ja",
+          "text": "を確認してもらえますか？",
+          "start_sample": 49353,
+          "end_sample": 120819,
+          "start_ms": 3085,
+          "end_ms": 7551
+        }
+      ]
+    },
+    "ja": {
+      "text": "郵便局でtracking numberを確認してもらえますか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3574,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "郵便局で",
+          "start_sample": 0,
+          "end_sample": 14777,
+          "start_ms": 0,
+          "end_ms": 924
+        },
+        {
+          "lang": "en",
+          "text": "tracking number",
+          "start_sample": 14777,
+          "end_sample": 32125,
+          "start_ms": 924,
+          "end_ms": 2008
+        },
+        {
+          "lang": "ja",
+          "text": "を確認してもらえますか？",
+          "start_sample": 32125,
+          "end_sample": 57179,
+          "start_ms": 2008,
+          "end_ms": 3574
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 183,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

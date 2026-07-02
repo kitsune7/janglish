@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1182.flac",
+  "sentence": "今日のバスはいつもよりfive minutesほど遅れています。",
+  "sample_rate": 16000,
+  "duration_ms": 4336,
+  "reference_speaker": "en/speaker_034_add467545a59.mp3",
+  "seed": 1224,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日のバスはいつもより",
+      "start_sample": 0,
+      "end_sample": 28092,
+      "start_ms": 0,
+      "end_ms": 1756
+    },
+    {
+      "lang": "en",
+      "text": "five minutes",
+      "start_sample": 28092,
+      "end_sample": 51738,
+      "start_ms": 1756,
+      "end_ms": 3234
+    },
+    {
+      "lang": "ja",
+      "text": "ほど遅れています。",
+      "start_sample": 51738,
+      "end_sample": 69380,
+      "start_ms": 3234,
+      "end_ms": 4336
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou no basu ha itsu mo yori five minutes hodo okure te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7514,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日のバスはいつもより",
+          "start_sample": 0,
+          "end_sample": 62037,
+          "start_ms": 0,
+          "end_ms": 3877
+        },
+        {
+          "lang": "en",
+          "text": "five minutes",
+          "start_sample": 62037,
+          "end_sample": 86083,
+          "start_ms": 3877,
+          "end_ms": 5380
+        },
+        {
+          "lang": "ja",
+          "text": "ほど遅れています。",
+          "start_sample": 86083,
+          "end_sample": 120225,
+          "start_ms": 5380,
+          "end_ms": 7514
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日のバスはいつもよりfive minutesほど遅れています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3597,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日のバスはいつもより",
+          "start_sample": 0,
+          "end_sample": 28292,
+          "start_ms": 0,
+          "end_ms": 1768
+        },
+        {
+          "lang": "en",
+          "text": "five minutes",
+          "start_sample": 28292,
+          "end_sample": 39707,
+          "start_ms": 1768,
+          "end_ms": 2482
+        },
+        {
+          "lang": "ja",
+          "text": "ほど遅れています。",
+          "start_sample": 39707,
+          "end_sample": 57549,
+          "start_ms": 2482,
+          "end_ms": 3597
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 217,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4570.flac",
+  "sentence": "そのinjuryはかなり深刻に見える。",
+  "sample_rate": 16000,
+  "duration_ms": 2567,
+  "reference_speaker": "jp/speaker_011_3c9d94093b88.mp3",
+  "seed": 4612,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その",
+      "start_sample": 0,
+      "end_sample": 3165,
+      "start_ms": 0,
+      "end_ms": 198
+    },
+    {
+      "lang": "en",
+      "text": "injury",
+      "start_sample": 3165,
+      "end_sample": 16425,
+      "start_ms": 198,
+      "end_ms": 1027
+    },
+    {
+      "lang": "ja",
+      "text": "はかなり深刻に見える。",
+      "start_sample": 16425,
+      "end_sample": 41068,
+      "start_ms": 1027,
+      "end_ms": 2567
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono injury ha kanari shinkoku ni mieru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4660,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 4178,
+          "start_ms": 0,
+          "end_ms": 261
+        },
+        {
+          "lang": "en",
+          "text": "injury",
+          "start_sample": 4178,
+          "end_sample": 17838,
+          "start_ms": 261,
+          "end_ms": 1115
+        },
+        {
+          "lang": "ja",
+          "text": "はかなり深刻に見える。",
+          "start_sample": 17838,
+          "end_sample": 74565,
+          "start_ms": 1115,
+          "end_ms": 4660
+        }
+      ]
+    },
+    "ja": {
+      "text": "そのinjuryはかなり深刻に見える。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2224,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 3365,
+          "start_ms": 0,
+          "end_ms": 210
+        },
+        {
+          "lang": "en",
+          "text": "injury",
+          "start_sample": 3365,
+          "end_sample": 10739,
+          "start_ms": 210,
+          "end_ms": 671
+        },
+        {
+          "lang": "ja",
+          "text": "はかなり深刻に見える。",
+          "start_sample": 10739,
+          "end_sample": 35582,
+          "start_ms": 671,
+          "end_ms": 2224
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 129,
+  "frame_labels": "jjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

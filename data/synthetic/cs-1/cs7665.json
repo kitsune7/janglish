@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7665.flac",
+  "sentence": "Journalists gathered outside the 大使館 hoping for a statement.",
+  "sample_rate": 16000,
+  "duration_ms": 3601,
+  "reference_speaker": "en/speaker_067_3f15e2fece31.mp3",
+  "seed": 7707,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Journalists gathered outside the",
+      "start_sample": 0,
+      "end_sample": 26921,
+      "start_ms": 0,
+      "end_ms": 1683
+    },
+    {
+      "lang": "ja",
+      "text": "大使館",
+      "start_sample": 26921,
+      "end_sample": 37758,
+      "start_ms": 1683,
+      "end_ms": 2360
+    },
+    {
+      "lang": "en",
+      "text": "hoping for a statement.",
+      "start_sample": 37758,
+      "end_sample": 57616,
+      "start_ms": 2360,
+      "end_ms": 3601
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Journalists gathered outside the taishi kan hoping for a statement.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3671,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Journalists gathered outside the",
+          "start_sample": 0,
+          "end_sample": 27121,
+          "start_ms": 0,
+          "end_ms": 1695
+        },
+        {
+          "lang": "ja",
+          "text": "大使館",
+          "start_sample": 27121,
+          "end_sample": 38676,
+          "start_ms": 1695,
+          "end_ms": 2417
+        },
+        {
+          "lang": "en",
+          "text": "hoping for a statement.",
+          "start_sample": 38676,
+          "end_sample": 58734,
+          "start_ms": 2417,
+          "end_ms": 3671
+        }
+      ]
+    },
+    "ja": {
+      "text": "Journalists gathered outside the 大使館 hoping for a statement.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5157,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Journalists gathered outside the",
+          "start_sample": 0,
+          "end_sample": 46553,
+          "start_ms": 0,
+          "end_ms": 2910
+        },
+        {
+          "lang": "ja",
+          "text": "大使館",
+          "start_sample": 46553,
+          "end_sample": 57790,
+          "start_ms": 2910,
+          "end_ms": 3612
+        },
+        {
+          "lang": "en",
+          "text": "hoping for a statement.",
+          "start_sample": 57790,
+          "end_sample": 82509,
+          "start_ms": 3612,
+          "end_ms": 5157
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 181,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

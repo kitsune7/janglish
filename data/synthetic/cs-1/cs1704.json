@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1704.flac",
+  "sentence": "事故のvictimたちは近くの体育館に避難させられた。",
+  "sample_rate": 16000,
+  "duration_ms": 5600,
+  "reference_speaker": "en/speaker_079_9589554d8179.mp3",
+  "seed": 1746,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "事故の",
+      "start_sample": 0,
+      "end_sample": 7657,
+      "start_ms": 0,
+      "end_ms": 479
+    },
+    {
+      "lang": "en",
+      "text": "victim",
+      "start_sample": 7657,
+      "end_sample": 31745,
+      "start_ms": 479,
+      "end_ms": 1984
+    },
+    {
+      "lang": "ja",
+      "text": "たちは近くの体育館に避難させられた。",
+      "start_sample": 31745,
+      "end_sample": 89606,
+      "start_ms": 1984,
+      "end_ms": 5600
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "jiko no victim tachi ha chikaku no taiiku kan ni hinan sa se rare ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 15945,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "事故の",
+          "start_sample": 0,
+          "end_sample": 15364,
+          "start_ms": 0,
+          "end_ms": 960
+        },
+        {
+          "lang": "en",
+          "text": "victim",
+          "start_sample": 15364,
+          "end_sample": 39852,
+          "start_ms": 960,
+          "end_ms": 2491
+        },
+        {
+          "lang": "ja",
+          "text": "たちは近くの体育館に避難させられた。",
+          "start_sample": 39852,
+          "end_sample": 255123,
+          "start_ms": 2491,
+          "end_ms": 15945
+        }
+      ]
+    },
+    "ja": {
+      "text": "事故のvictimたちは近くの体育館に避難させられた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4591,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "事故の",
+          "start_sample": 0,
+          "end_sample": 7857,
+          "start_ms": 0,
+          "end_ms": 491
+        },
+        {
+          "lang": "en",
+          "text": "victim",
+          "start_sample": 7857,
+          "end_sample": 15395,
+          "start_ms": 491,
+          "end_ms": 962
+        },
+        {
+          "lang": "ja",
+          "text": "たちは近くの体育館に避難させられた。",
+          "start_sample": 15395,
+          "end_sample": 73456,
+          "start_ms": 962,
+          "end_ms": 4591
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 281,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

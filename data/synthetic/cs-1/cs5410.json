@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5410.flac",
+  "sentence": "あのシーンのspecial effectsは本当に圧倒的だった。",
+  "sample_rate": 16000,
+  "duration_ms": 4799,
+  "reference_speaker": "jp/speaker_073_b4ca3157591f.mp3",
+  "seed": 5452,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あのシーンの",
+      "start_sample": 0,
+      "end_sample": 15189,
+      "start_ms": 0,
+      "end_ms": 949
+    },
+    {
+      "lang": "en",
+      "text": "special effects",
+      "start_sample": 15189,
+      "end_sample": 42201,
+      "start_ms": 949,
+      "end_ms": 2638
+    },
+    {
+      "lang": "ja",
+      "text": "は本当に圧倒的だった。",
+      "start_sample": 42201,
+      "end_sample": 76786,
+      "start_ms": 2638,
+      "end_ms": 4799
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano shiin no special effects ha hontou ni attou teki datsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7534,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あのシーンの",
+          "start_sample": 0,
+          "end_sample": 29816,
+          "start_ms": 0,
+          "end_ms": 1864
+        },
+        {
+          "lang": "en",
+          "text": "special effects",
+          "start_sample": 29816,
+          "end_sample": 57228,
+          "start_ms": 1864,
+          "end_ms": 3577
+        },
+        {
+          "lang": "ja",
+          "text": "は本当に圧倒的だった。",
+          "start_sample": 57228,
+          "end_sample": 120546,
+          "start_ms": 3577,
+          "end_ms": 7534
+        }
+      ]
+    },
+    "ja": {
+      "text": "あのシーンのspecial effectsは本当に圧倒的だった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4589,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あのシーンの",
+          "start_sample": 0,
+          "end_sample": 15389,
+          "start_ms": 0,
+          "end_ms": 962
+        },
+        {
+          "lang": "en",
+          "text": "special effects",
+          "start_sample": 15389,
+          "end_sample": 38633,
+          "start_ms": 962,
+          "end_ms": 2415
+        },
+        {
+          "lang": "ja",
+          "text": "は本当に圧倒的だった。",
+          "start_sample": 38633,
+          "end_sample": 73418,
+          "start_ms": 2415,
+          "end_ms": 4589
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 240,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

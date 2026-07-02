@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs5677.flac",
+  "sentence": "Could you please sign here for this 小包?",
+  "sample_rate": 16000,
+  "duration_ms": 3389,
+  "reference_speaker": "en/speaker_018_b0dec8b93359.mp3",
+  "seed": 5719,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Could you please sign here for this",
+      "start_sample": 0,
+      "end_sample": 41086,
+      "start_ms": 0,
+      "end_ms": 2568
+    },
+    {
+      "lang": "ja",
+      "text": "小包?",
+      "start_sample": 41086,
+      "end_sample": 54221,
+      "start_ms": 2568,
+      "end_ms": 3389
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Could you please sign here for this kozutsumi",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4779,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you please sign here for this",
+          "start_sample": 0,
+          "end_sample": 41286,
+          "start_ms": 0,
+          "end_ms": 2580
+        },
+        {
+          "lang": "ja",
+          "text": "小包?",
+          "start_sample": 41286,
+          "end_sample": 76464,
+          "start_ms": 2580,
+          "end_ms": 4779
+        }
+      ]
+    },
+    "ja": {
+      "text": "Could you please sign here for this 小包?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3415,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you please sign here for this",
+          "start_sample": 0,
+          "end_sample": 41302,
+          "start_ms": 0,
+          "end_ms": 2581
+        },
+        {
+          "lang": "ja",
+          "text": "小包?",
+          "start_sample": 41302,
+          "end_sample": 54637,
+          "start_ms": 2581,
+          "end_ms": 3415
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 170,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

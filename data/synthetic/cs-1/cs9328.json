@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9328.flac",
+  "sentence": "The 内閣 is expected to reshuffle several key cabinet positions next week.",
+  "sample_rate": 16000,
+  "duration_ms": 4028,
+  "reference_speaker": "en/speaker_089_6f14b0930650.mp3",
+  "seed": 9370,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 921,
+      "start_ms": 0,
+      "end_ms": 58
+    },
+    {
+      "lang": "ja",
+      "text": "内閣",
+      "start_sample": 921,
+      "end_sample": 8709,
+      "start_ms": 58,
+      "end_ms": 544
+    },
+    {
+      "lang": "en",
+      "text": "is expected to reshuffle several key cabinet positions next week.",
+      "start_sample": 8709,
+      "end_sample": 64456,
+      "start_ms": 544,
+      "end_ms": 4028
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The naikaku is expected to reshuffle several key cabinet positions next week.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4028,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1121,
+          "start_ms": 0,
+          "end_ms": 70
+        },
+        {
+          "lang": "ja",
+          "text": "内閣",
+          "start_sample": 1121,
+          "end_sample": 8496,
+          "start_ms": 70,
+          "end_ms": 531
+        },
+        {
+          "lang": "en",
+          "text": "is expected to reshuffle several key cabinet positions next week.",
+          "start_sample": 8496,
+          "end_sample": 64443,
+          "start_ms": 531,
+          "end_ms": 4028
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 内閣 is expected to reshuffle several key cabinet positions next week.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6722,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2886,
+          "start_ms": 0,
+          "end_ms": 180
+        },
+        {
+          "lang": "ja",
+          "text": "内閣",
+          "start_sample": 2886,
+          "end_sample": 11074,
+          "start_ms": 180,
+          "end_ms": 692
+        },
+        {
+          "lang": "en",
+          "text": "is expected to reshuffle several key cabinet positions next week.",
+          "start_sample": 11074,
+          "end_sample": 107557,
+          "start_ms": 692,
+          "end_ms": 6722
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

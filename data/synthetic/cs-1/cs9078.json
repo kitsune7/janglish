@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9078.flac",
+  "sentence": "冬休みにgrandparentsの家へ遊びに行く予定があります。",
+  "sample_rate": 16000,
+  "duration_ms": 3583,
+  "reference_speaker": "jp/speaker_016_f3aac8b73f15.mp3",
+  "seed": 9120,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "冬休みに",
+      "start_sample": 0,
+      "end_sample": 10881,
+      "start_ms": 0,
+      "end_ms": 680
+    },
+    {
+      "lang": "en",
+      "text": "grandparents",
+      "start_sample": 10881,
+      "end_sample": 25090,
+      "start_ms": 680,
+      "end_ms": 1568
+    },
+    {
+      "lang": "ja",
+      "text": "の家へ遊びに行く予定があります。",
+      "start_sample": 25090,
+      "end_sample": 57328,
+      "start_ms": 1568,
+      "end_ms": 3583
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "fuyuyasumi ni grandparents no ie he asobi ni iku yotei ga ari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5719,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冬休みに",
+          "start_sample": 0,
+          "end_sample": 33713,
+          "start_ms": 0,
+          "end_ms": 2107
+        },
+        {
+          "lang": "en",
+          "text": "grandparents",
+          "start_sample": 33713,
+          "end_sample": 48322,
+          "start_ms": 2107,
+          "end_ms": 3020
+        },
+        {
+          "lang": "ja",
+          "text": "の家へ遊びに行く予定があります。",
+          "start_sample": 48322,
+          "end_sample": 91505,
+          "start_ms": 3020,
+          "end_ms": 5719
+        }
+      ]
+    },
+    "ja": {
+      "text": "冬休みにgrandparentsの家へ遊びに行く予定があります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3553,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冬休みに",
+          "start_sample": 0,
+          "end_sample": 11081,
+          "start_ms": 0,
+          "end_ms": 693
+        },
+        {
+          "lang": "en",
+          "text": "grandparents",
+          "start_sample": 11081,
+          "end_sample": 24410,
+          "start_ms": 693,
+          "end_ms": 1526
+        },
+        {
+          "lang": "ja",
+          "text": "の家へ遊びに行く予定があります。",
+          "start_sample": 24410,
+          "end_sample": 56848,
+          "start_ms": 1526,
+          "end_ms": 3553
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 180,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

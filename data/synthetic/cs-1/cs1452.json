@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1452.flac",
+  "sentence": "このtrainはどこ行きですか？",
+  "sample_rate": 16000,
+  "duration_ms": 2811,
+  "reference_speaker": "en/speaker_060_be3496638824.mp3",
+  "seed": 1494,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 4461,
+      "start_ms": 0,
+      "end_ms": 279
+    },
+    {
+      "lang": "en",
+      "text": "train",
+      "start_sample": 4461,
+      "end_sample": 19788,
+      "start_ms": 279,
+      "end_ms": 1237
+    },
+    {
+      "lang": "ja",
+      "text": "はどこ行きですか？",
+      "start_sample": 19788,
+      "end_sample": 44981,
+      "start_ms": 1237,
+      "end_ms": 2811
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono train ha doko iki desu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3711,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 9467,
+          "start_ms": 0,
+          "end_ms": 592
+        },
+        {
+          "lang": "en",
+          "text": "train",
+          "start_sample": 9467,
+          "end_sample": 25194,
+          "start_ms": 592,
+          "end_ms": 1575
+        },
+        {
+          "lang": "ja",
+          "text": "はどこ行きですか？",
+          "start_sample": 25194,
+          "end_sample": 59373,
+          "start_ms": 1575,
+          "end_ms": 3711
+        }
+      ]
+    },
+    "ja": {
+      "text": "このtrainはどこ行きですか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2351,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4661,
+          "start_ms": 0,
+          "end_ms": 291
+        },
+        {
+          "lang": "en",
+          "text": "train",
+          "start_sample": 4661,
+          "end_sample": 12216,
+          "start_ms": 291,
+          "end_ms": 764
+        },
+        {
+          "lang": "ja",
+          "text": "はどこ行きですか？",
+          "start_sample": 12216,
+          "end_sample": 37609,
+          "start_ms": 764,
+          "end_ms": 2351
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 141,
+  "frame_labels": "jjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

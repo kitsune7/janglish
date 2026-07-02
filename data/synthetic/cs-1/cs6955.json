@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6955.flac",
+  "sentence": "That bar has a 広い terrace that fits at least a hundred people.",
+  "sample_rate": 16000,
+  "duration_ms": 4837,
+  "reference_speaker": "en/speaker_014_9db071da66e5.mp3",
+  "seed": 6997,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That bar has a",
+      "start_sample": 0,
+      "end_sample": 16463,
+      "start_ms": 0,
+      "end_ms": 1029
+    },
+    {
+      "lang": "ja",
+      "text": "広い",
+      "start_sample": 16463,
+      "end_sample": 21990,
+      "start_ms": 1029,
+      "end_ms": 1374
+    },
+    {
+      "lang": "en",
+      "text": "terrace that fits at least a hundred people.",
+      "start_sample": 21990,
+      "end_sample": 77389,
+      "start_ms": 1374,
+      "end_ms": 4837
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That bar has a hiroi terrace that fits at least a hundred people.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5468,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That bar has a",
+          "start_sample": 0,
+          "end_sample": 16663,
+          "start_ms": 0,
+          "end_ms": 1041
+        },
+        {
+          "lang": "ja",
+          "text": "広い",
+          "start_sample": 16663,
+          "end_sample": 31885,
+          "start_ms": 1041,
+          "end_ms": 1993
+        },
+        {
+          "lang": "en",
+          "text": "terrace that fits at least a hundred people.",
+          "start_sample": 31885,
+          "end_sample": 87484,
+          "start_ms": 1993,
+          "end_ms": 5468
+        }
+      ]
+    },
+    "ja": {
+      "text": "That bar has a 広い terrace that fits at least a hundred people.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4225,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That bar has a",
+          "start_sample": 0,
+          "end_sample": 12334,
+          "start_ms": 0,
+          "end_ms": 771
+        },
+        {
+          "lang": "ja",
+          "text": "広い",
+          "start_sample": 12334,
+          "end_sample": 18261,
+          "start_ms": 771,
+          "end_ms": 1141
+        },
+        {
+          "lang": "en",
+          "text": "terrace that fits at least a hundred people.",
+          "start_sample": 18261,
+          "end_sample": 67600,
+          "start_ms": 1141,
+          "end_ms": 4225
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 242,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8825.flac",
+  "sentence": "His drumming has improved 急に over the past few months of daily practice.",
+  "sample_rate": 16000,
+  "duration_ms": 5834,
+  "reference_speaker": "en/speaker_077_cf8a4971b1d4.mp3",
+  "seed": 8867,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His drumming has improved",
+      "start_sample": 0,
+      "end_sample": 32031,
+      "start_ms": 0,
+      "end_ms": 2002
+    },
+    {
+      "lang": "ja",
+      "text": "急に",
+      "start_sample": 32031,
+      "end_sample": 40141,
+      "start_ms": 2002,
+      "end_ms": 2509
+    },
+    {
+      "lang": "en",
+      "text": "over the past few months of daily practice.",
+      "start_sample": 40141,
+      "end_sample": 93337,
+      "start_ms": 2509,
+      "end_ms": 5834
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His drumming has improved kyuu ni over the past few months of daily practice.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6514,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His drumming has improved",
+          "start_sample": 0,
+          "end_sample": 32231,
+          "start_ms": 0,
+          "end_ms": 2014
+        },
+        {
+          "lang": "ja",
+          "text": "急に",
+          "start_sample": 32231,
+          "end_sample": 50832,
+          "start_ms": 2014,
+          "end_ms": 3177
+        },
+        {
+          "lang": "en",
+          "text": "over the past few months of daily practice.",
+          "start_sample": 50832,
+          "end_sample": 104228,
+          "start_ms": 3177,
+          "end_ms": 6514
+        }
+      ]
+    },
+    "ja": {
+      "text": "His drumming has improved 急に over the past few months of daily practice.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6443,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His drumming has improved",
+          "start_sample": 0,
+          "end_sample": 36773,
+          "start_ms": 0,
+          "end_ms": 2298
+        },
+        {
+          "lang": "ja",
+          "text": "急に",
+          "start_sample": 36773,
+          "end_sample": 45283,
+          "start_ms": 2298,
+          "end_ms": 2830
+        },
+        {
+          "lang": "en",
+          "text": "over the past few months of daily practice.",
+          "start_sample": 45283,
+          "end_sample": 103090,
+          "start_ms": 2830,
+          "end_ms": 6443
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 292,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

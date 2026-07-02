@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs862.flac",
+  "sentence": "部屋のheatが効きすぎていて、夜中に暑くて目が覚めてしまいました。",
+  "sample_rate": 16000,
+  "duration_ms": 4363,
+  "reference_speaker": "jp/speaker_091_bf2621e97933.mp3",
+  "seed": 904,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "部屋の",
+      "start_sample": 0,
+      "end_sample": 4775,
+      "start_ms": 0,
+      "end_ms": 298
+    },
+    {
+      "lang": "en",
+      "text": "heat",
+      "start_sample": 4775,
+      "end_sample": 13995,
+      "start_ms": 298,
+      "end_ms": 875
+    },
+    {
+      "lang": "ja",
+      "text": "が効きすぎていて、夜中に暑くて目が覚めてしまいました。",
+      "start_sample": 13995,
+      "end_sample": 69810,
+      "start_ms": 875,
+      "end_ms": 4363
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "heya no heat ga kiki sugi te i te yonaka ni atsuku te me ga same te shimai mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8938,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "部屋の",
+          "start_sample": 0,
+          "end_sample": 10260,
+          "start_ms": 0,
+          "end_ms": 641
+        },
+        {
+          "lang": "en",
+          "text": "heat",
+          "start_sample": 10260,
+          "end_sample": 19880,
+          "start_ms": 641,
+          "end_ms": 1242
+        },
+        {
+          "lang": "ja",
+          "text": "が効きすぎていて、夜中に暑くて目が覚めてしまいました。",
+          "start_sample": 19880,
+          "end_sample": 143011,
+          "start_ms": 1242,
+          "end_ms": 8938
+        }
+      ]
+    },
+    "ja": {
+      "text": "部屋のheatが効きすぎていて、夜中に暑くて目が覚めてしまいました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4133,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "部屋の",
+          "start_sample": 0,
+          "end_sample": 4975,
+          "start_ms": 0,
+          "end_ms": 311
+        },
+        {
+          "lang": "en",
+          "text": "heat",
+          "start_sample": 4975,
+          "end_sample": 10111,
+          "start_ms": 311,
+          "end_ms": 632
+        },
+        {
+          "lang": "ja",
+          "text": "が効きすぎていて、夜中に暑くて目が覚めてしまいました。",
+          "start_sample": 10111,
+          "end_sample": 66126,
+          "start_ms": 632,
+          "end_ms": 4133
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 219,
+  "frame_labels": "jjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

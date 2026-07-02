@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5171.flac",
+  "sentence": "あなたが無事だとわかってrelievedした気持ちだよ。",
+  "sample_rate": 16000,
+  "duration_ms": 2787,
+  "reference_speaker": "en/speaker_021_0c003e301f78.mp3",
+  "seed": 5213,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あなたが無事だとわかって",
+      "start_sample": 0,
+      "end_sample": 24451,
+      "start_ms": 0,
+      "end_ms": 1528
+    },
+    {
+      "lang": "en",
+      "text": "relieved",
+      "start_sample": 24451,
+      "end_sample": 32225,
+      "start_ms": 1528,
+      "end_ms": 2014
+    },
+    {
+      "lang": "ja",
+      "text": "した気持ちだよ。",
+      "start_sample": 32225,
+      "end_sample": 44586,
+      "start_ms": 2014,
+      "end_ms": 2787
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "anata ga buji da to wakatsu te relieved shi ta kimochi da yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4668,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あなたが無事だとわかって",
+          "start_sample": 0,
+          "end_sample": 45197,
+          "start_ms": 0,
+          "end_ms": 2825
+        },
+        {
+          "lang": "en",
+          "text": "relieved",
+          "start_sample": 45197,
+          "end_sample": 53371,
+          "start_ms": 2825,
+          "end_ms": 3336
+        },
+        {
+          "lang": "ja",
+          "text": "した気持ちだよ。",
+          "start_sample": 53371,
+          "end_sample": 74686,
+          "start_ms": 3336,
+          "end_ms": 4668
+        }
+      ]
+    },
+    "ja": {
+      "text": "あなたが無事だとわかってrelievedした気持ちだよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2940,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あなたが無事だとわかって",
+          "start_sample": 0,
+          "end_sample": 24651,
+          "start_ms": 0,
+          "end_ms": 1541
+        },
+        {
+          "lang": "en",
+          "text": "relieved",
+          "start_sample": 24651,
+          "end_sample": 34479,
+          "start_ms": 1541,
+          "end_ms": 2155
+        },
+        {
+          "lang": "ja",
+          "text": "した気持ちだよ。",
+          "start_sample": 34479,
+          "end_sample": 47040,
+          "start_ms": 2155,
+          "end_ms": 2940
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 140,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

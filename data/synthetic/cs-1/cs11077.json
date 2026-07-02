@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11077.flac",
+  "sentence": "They lit the 提灯 along the path just as the autumn equinox ceremony began.",
+  "sample_rate": 16000,
+  "duration_ms": 7021,
+  "reference_speaker": "en/speaker_098_f600c480bfab.mp3",
+  "seed": 11119,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "They lit the",
+      "start_sample": 0,
+      "end_sample": 10536,
+      "start_ms": 0,
+      "end_ms": 658
+    },
+    {
+      "lang": "ja",
+      "text": "提灯",
+      "start_sample": 10536,
+      "end_sample": 22319,
+      "start_ms": 658,
+      "end_ms": 1395
+    },
+    {
+      "lang": "en",
+      "text": "along the path just as the autumn equinox ceremony began.",
+      "start_sample": 22319,
+      "end_sample": 112335,
+      "start_ms": 1395,
+      "end_ms": 7021
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "They lit the teitou along the path just as the autumn equinox ceremony began.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6790,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "They lit the",
+          "start_sample": 0,
+          "end_sample": 10736,
+          "start_ms": 0,
+          "end_ms": 671
+        },
+        {
+          "lang": "ja",
+          "text": "提灯",
+          "start_sample": 10736,
+          "end_sample": 18427,
+          "start_ms": 671,
+          "end_ms": 1152
+        },
+        {
+          "lang": "en",
+          "text": "along the path just as the autumn equinox ceremony began.",
+          "start_sample": 18427,
+          "end_sample": 108643,
+          "start_ms": 1152,
+          "end_ms": 6790
+        }
+      ]
+    },
+    "ja": {
+      "text": "They lit the 提灯 along the path just as the autumn equinox ceremony began.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5751,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "They lit the",
+          "start_sample": 0,
+          "end_sample": 7694,
+          "start_ms": 0,
+          "end_ms": 481
+        },
+        {
+          "lang": "ja",
+          "text": "提灯",
+          "start_sample": 7694,
+          "end_sample": 19877,
+          "start_ms": 481,
+          "end_ms": 1242
+        },
+        {
+          "lang": "en",
+          "text": "along the path just as the autumn equinox ceremony began.",
+          "start_sample": 19877,
+          "end_sample": 92011,
+          "start_ms": 1242,
+          "end_ms": 5751
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 352,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

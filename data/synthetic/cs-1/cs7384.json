@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7384.flac",
+  "sentence": "The pediatrician said the child's 発育 was right on track.",
+  "sample_rate": 16000,
+  "duration_ms": 4874,
+  "reference_speaker": "en/speaker_087_5027771311b0.mp3",
+  "seed": 7426,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The pediatrician said the child's",
+      "start_sample": 0,
+      "end_sample": 45523,
+      "start_ms": 0,
+      "end_ms": 2845
+    },
+    {
+      "lang": "ja",
+      "text": "発育",
+      "start_sample": 45523,
+      "end_sample": 59091,
+      "start_ms": 2845,
+      "end_ms": 3693
+    },
+    {
+      "lang": "en",
+      "text": "was right on track.",
+      "start_sample": 59091,
+      "end_sample": 77981,
+      "start_ms": 3693,
+      "end_ms": 4874
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The pediatrician said the child's hatsuiku was right on track.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4713,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The pediatrician said the child's",
+          "start_sample": 0,
+          "end_sample": 45723,
+          "start_ms": 0,
+          "end_ms": 2858
+        },
+        {
+          "lang": "ja",
+          "text": "発育",
+          "start_sample": 45723,
+          "end_sample": 56313,
+          "start_ms": 2858,
+          "end_ms": 3520
+        },
+        {
+          "lang": "en",
+          "text": "was right on track.",
+          "start_sample": 56313,
+          "end_sample": 75403,
+          "start_ms": 3520,
+          "end_ms": 4713
+        }
+      ]
+    },
+    "ja": {
+      "text": "The pediatrician said the child's 発育 was right on track.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6161,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The pediatrician said the child's",
+          "start_sample": 0,
+          "end_sample": 60686,
+          "start_ms": 0,
+          "end_ms": 3793
+        },
+        {
+          "lang": "ja",
+          "text": "発育",
+          "start_sample": 60686,
+          "end_sample": 74654,
+          "start_ms": 3793,
+          "end_ms": 4666
+        },
+        {
+          "lang": "en",
+          "text": "was right on track.",
+          "start_sample": 74654,
+          "end_sample": 98572,
+          "start_ms": 4666,
+          "end_ms": 6161
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 244,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

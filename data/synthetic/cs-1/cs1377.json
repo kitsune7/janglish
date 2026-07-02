@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs1377.flac",
+  "sentence": "coastlineに沿って北へ走ってください。",
+  "sample_rate": 16000,
+  "duration_ms": 2964,
+  "reference_speaker": "jp/speaker_083_f660ed2250be.mp3",
+  "seed": 1419,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "coastline",
+      "start_sample": 0,
+      "end_sample": 19071,
+      "start_ms": 0,
+      "end_ms": 1192
+    },
+    {
+      "lang": "ja",
+      "text": "に沿って北へ走ってください。",
+      "start_sample": 19071,
+      "end_sample": 47425,
+      "start_ms": 1192,
+      "end_ms": 2964
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "coastline ni sotsu te kita he hashitsu te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5962,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "coastline",
+          "start_sample": 0,
+          "end_sample": 19271,
+          "start_ms": 0,
+          "end_ms": 1204
+        },
+        {
+          "lang": "ja",
+          "text": "に沿って北へ走ってください。",
+          "start_sample": 19271,
+          "end_sample": 95389,
+          "start_ms": 1204,
+          "end_ms": 5962
+        }
+      ]
+    },
+    "ja": {
+      "text": "coastlineに沿って北へ走ってください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2366,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "coastline",
+          "start_sample": 0,
+          "end_sample": 9304,
+          "start_ms": 0,
+          "end_ms": 582
+        },
+        {
+          "lang": "ja",
+          "text": "に沿って北へ走ってください。",
+          "start_sample": 9304,
+          "end_sample": 37858,
+          "start_ms": 582,
+          "end_ms": 2366
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 149,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

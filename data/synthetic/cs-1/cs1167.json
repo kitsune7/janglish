@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1167.flac",
+  "sentence": "The 深度 of field is so shallow you can barely see the second flower.",
+  "sample_rate": 16000,
+  "duration_ms": 4180,
+  "reference_speaker": "jp/speaker_072_6a4d94080268.mp3",
+  "seed": 1209,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1568,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "深度",
+      "start_sample": 1568,
+      "end_sample": 7899,
+      "start_ms": 98,
+      "end_ms": 494
+    },
+    {
+      "lang": "en",
+      "text": "of field is so shallow you can barely see the second flower.",
+      "start_sample": 7899,
+      "end_sample": 66882,
+      "start_ms": 494,
+      "end_ms": 4180
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shindo of field is so shallow you can barely see the second flower.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4222,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1768,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "深度",
+          "start_sample": 1768,
+          "end_sample": 8363,
+          "start_ms": 110,
+          "end_ms": 523
+        },
+        {
+          "lang": "en",
+          "text": "of field is so shallow you can barely see the second flower.",
+          "start_sample": 8363,
+          "end_sample": 67546,
+          "start_ms": 523,
+          "end_ms": 4222
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 深度 of field is so shallow you can barely see the second flower.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3786,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1923,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "深度",
+          "start_sample": 1923,
+          "end_sample": 8654,
+          "start_ms": 120,
+          "end_ms": 541
+        },
+        {
+          "lang": "en",
+          "text": "of field is so shallow you can barely see the second flower.",
+          "start_sample": 8654,
+          "end_sample": 60581,
+          "start_ms": 541,
+          "end_ms": 3786
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

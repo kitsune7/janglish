@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1845.flac",
+  "sentence": "季節の野菜でsaladを作ってくれない？",
+  "sample_rate": 16000,
+  "duration_ms": 2858,
+  "reference_speaker": "jp/speaker_015_c26b5026d437.mp3",
+  "seed": 1887,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "季節の野菜で",
+      "start_sample": 0,
+      "end_sample": 15682,
+      "start_ms": 0,
+      "end_ms": 980
+    },
+    {
+      "lang": "en",
+      "text": "salad",
+      "start_sample": 15682,
+      "end_sample": 28115,
+      "start_ms": 980,
+      "end_ms": 1757
+    },
+    {
+      "lang": "ja",
+      "text": "を作ってくれない？",
+      "start_sample": 28115,
+      "end_sample": 45721,
+      "start_ms": 1757,
+      "end_ms": 2858
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kisetsu no yasai de salad wo tsukutsu te kure nai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5895,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "季節の野菜で",
+          "start_sample": 0,
+          "end_sample": 41547,
+          "start_ms": 0,
+          "end_ms": 2597
+        },
+        {
+          "lang": "en",
+          "text": "salad",
+          "start_sample": 41547,
+          "end_sample": 54380,
+          "start_ms": 2597,
+          "end_ms": 3399
+        },
+        {
+          "lang": "ja",
+          "text": "を作ってくれない？",
+          "start_sample": 54380,
+          "end_sample": 94321,
+          "start_ms": 3399,
+          "end_ms": 5895
+        }
+      ]
+    },
+    "ja": {
+      "text": "季節の野菜でsaladを作ってくれない？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2426,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "季節の野菜で",
+          "start_sample": 0,
+          "end_sample": 15882,
+          "start_ms": 0,
+          "end_ms": 993
+        },
+        {
+          "lang": "en",
+          "text": "salad",
+          "start_sample": 15882,
+          "end_sample": 21015,
+          "start_ms": 993,
+          "end_ms": 1313
+        },
+        {
+          "lang": "ja",
+          "text": "を作ってくれない？",
+          "start_sample": 21015,
+          "end_sample": 38821,
+          "start_ms": 1313,
+          "end_ms": 2426
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 143,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

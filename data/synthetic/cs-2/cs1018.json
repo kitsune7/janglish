@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs1018.flac",
+  "sentence": "The weight room smells like 努力 and the walls are covered in 目標 posters.",
+  "sample_rate": 16000,
+  "duration_ms": 4918,
+  "reference_speaker": "en/speaker_096_4389a887e640.mp3",
+  "seed": 17873,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The weight room smells like",
+      "start_sample": 0,
+      "end_sample": 21009,
+      "start_ms": 0,
+      "end_ms": 1313
+    },
+    {
+      "lang": "ja",
+      "text": "努力",
+      "start_sample": 21009,
+      "end_sample": 31030,
+      "start_ms": 1313,
+      "end_ms": 1939
+    },
+    {
+      "lang": "en",
+      "text": "and the walls are covered in",
+      "start_sample": 31030,
+      "end_sample": 60035,
+      "start_ms": 1939,
+      "end_ms": 3752
+    },
+    {
+      "lang": "ja",
+      "text": "目標",
+      "start_sample": 60035,
+      "end_sample": 68774,
+      "start_ms": 3752,
+      "end_ms": 4298
+    },
+    {
+      "lang": "en",
+      "text": "posters.",
+      "start_sample": 68774,
+      "end_sample": 78693,
+      "start_ms": 4298,
+      "end_ms": 4918
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The weight room smells like doryoku and the walls are covered in mokuhyou posters.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5603,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The weight room smells like",
+          "start_sample": 0,
+          "end_sample": 21209,
+          "start_ms": 0,
+          "end_ms": 1326
+        },
+        {
+          "lang": "ja",
+          "text": "努力",
+          "start_sample": 21209,
+          "end_sample": 41294,
+          "start_ms": 1326,
+          "end_ms": 2581
+        },
+        {
+          "lang": "en",
+          "text": "and the walls are covered in",
+          "start_sample": 41294,
+          "end_sample": 70699,
+          "start_ms": 2581,
+          "end_ms": 4419
+        },
+        {
+          "lang": "ja",
+          "text": "目標",
+          "start_sample": 70699,
+          "end_sample": 79536,
+          "start_ms": 4419,
+          "end_ms": 4971
+        },
+        {
+          "lang": "en",
+          "text": "posters.",
+          "start_sample": 79536,
+          "end_sample": 89655,
+          "start_ms": 4971,
+          "end_ms": 5603
+        }
+      ]
+    },
+    "ja": {
+      "text": "The weight room smells like 努力 and the walls are covered in 目標 posters.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6052,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The weight room smells like",
+          "start_sample": 0,
+          "end_sample": 30137,
+          "start_ms": 0,
+          "end_ms": 1884
+        },
+        {
+          "lang": "ja",
+          "text": "努力",
+          "start_sample": 30137,
+          "end_sample": 40558,
+          "start_ms": 1884,
+          "end_ms": 2535
+        },
+        {
+          "lang": "en",
+          "text": "and the walls are covered in",
+          "start_sample": 40558,
+          "end_sample": 78552,
+          "start_ms": 2535,
+          "end_ms": 4910
+        },
+        {
+          "lang": "ja",
+          "text": "目標",
+          "start_sample": 78552,
+          "end_sample": 87691,
+          "start_ms": 4910,
+          "end_ms": 5481
+        },
+        {
+          "lang": "en",
+          "text": "posters.",
+          "start_sample": 87691,
+          "end_sample": 96827,
+          "start_ms": 5481,
+          "end_ms": 6052
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 246,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

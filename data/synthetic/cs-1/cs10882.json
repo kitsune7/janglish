@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10882.flac",
+  "sentence": "The 太鼓 drummers opened the ceremony with a thunderous performance.",
+  "sample_rate": 16000,
+  "duration_ms": 4936,
+  "reference_speaker": "jp/speaker_092_08c69e35de07.mp3",
+  "seed": 10924,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1722,
+      "start_ms": 0,
+      "end_ms": 108
+    },
+    {
+      "lang": "ja",
+      "text": "太鼓",
+      "start_sample": 1722,
+      "end_sample": 9968,
+      "start_ms": 108,
+      "end_ms": 623
+    },
+    {
+      "lang": "en",
+      "text": "drummers opened the ceremony with a thunderous performance.",
+      "start_sample": 9968,
+      "end_sample": 78981,
+      "start_ms": 623,
+      "end_ms": 4936
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The taiko drummers opened the ceremony with a thunderous performance.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4866,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1922,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "太鼓",
+          "start_sample": 1922,
+          "end_sample": 8651,
+          "start_ms": 120,
+          "end_ms": 541
+        },
+        {
+          "lang": "en",
+          "text": "drummers opened the ceremony with a thunderous performance.",
+          "start_sample": 8651,
+          "end_sample": 77864,
+          "start_ms": 541,
+          "end_ms": 4866
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 太鼓 drummers opened the ceremony with a thunderous performance.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5764,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4323,
+          "start_ms": 0,
+          "end_ms": 270
+        },
+        {
+          "lang": "ja",
+          "text": "太鼓",
+          "start_sample": 4323,
+          "end_sample": 12969,
+          "start_ms": 270,
+          "end_ms": 811
+        },
+        {
+          "lang": "en",
+          "text": "drummers opened the ceremony with a thunderous performance.",
+          "start_sample": 12969,
+          "end_sample": 92229,
+          "start_ms": 811,
+          "end_ms": 5764
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 247,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9459.flac",
+  "sentence": "I feel so much more 自由 managing my own hours instead of punching a clock.",
+  "sample_rate": 16000,
+  "duration_ms": 4572,
+  "reference_speaker": "en/speaker_012_29b1e5a58d16.mp3",
+  "seed": 9501,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I feel so much more",
+      "start_sample": 0,
+      "end_sample": 16844,
+      "start_ms": 0,
+      "end_ms": 1053
+    },
+    {
+      "lang": "ja",
+      "text": "自由",
+      "start_sample": 16844,
+      "end_sample": 29923,
+      "start_ms": 1053,
+      "end_ms": 1870
+    },
+    {
+      "lang": "en",
+      "text": "managing my own hours instead of punching a clock.",
+      "start_sample": 29923,
+      "end_sample": 73144,
+      "start_ms": 1870,
+      "end_ms": 4572
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I feel so much more jiyuu managing my own hours instead of punching a clock.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4282,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I feel so much more",
+          "start_sample": 0,
+          "end_sample": 17044,
+          "start_ms": 0,
+          "end_ms": 1065
+        },
+        {
+          "lang": "ja",
+          "text": "自由",
+          "start_sample": 17044,
+          "end_sample": 25085,
+          "start_ms": 1065,
+          "end_ms": 1568
+        },
+        {
+          "lang": "en",
+          "text": "managing my own hours instead of punching a clock.",
+          "start_sample": 25085,
+          "end_sample": 68506,
+          "start_ms": 1568,
+          "end_ms": 4282
+        }
+      ]
+    },
+    "ja": {
+      "text": "I feel so much more 自由 managing my own hours instead of punching a clock.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7100,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I feel so much more",
+          "start_sample": 0,
+          "end_sample": 35299,
+          "start_ms": 0,
+          "end_ms": 2206
+        },
+        {
+          "lang": "ja",
+          "text": "自由",
+          "start_sample": 35299,
+          "end_sample": 48778,
+          "start_ms": 2206,
+          "end_ms": 3049
+        },
+        {
+          "lang": "en",
+          "text": "managing my own hours instead of punching a clock.",
+          "start_sample": 48778,
+          "end_sample": 113603,
+          "start_ms": 3049,
+          "end_ms": 7100
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 229,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

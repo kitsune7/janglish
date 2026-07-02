@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9716.flac",
+  "sentence": "うちのオウムはsarcasticなコメントばかり言うので笑えます。",
+  "sample_rate": 16000,
+  "duration_ms": 3771,
+  "reference_speaker": "jp/speaker_025_0f8f304ca1ab.mp3",
+  "seed": 9758,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "うちのオウムは",
+      "start_sample": 0,
+      "end_sample": 12808,
+      "start_ms": 0,
+      "end_ms": 800
+    },
+    {
+      "lang": "en",
+      "text": "sarcastic",
+      "start_sample": 12808,
+      "end_sample": 29867,
+      "start_ms": 800,
+      "end_ms": 1867
+    },
+    {
+      "lang": "ja",
+      "text": "なコメントばかり言うので笑えます。",
+      "start_sample": 29867,
+      "end_sample": 60338,
+      "start_ms": 1867,
+      "end_ms": 3771
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "uchi no oumu ha sarcastic na komento bakari iu no de warae masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5806,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちのオウムは",
+          "start_sample": 0,
+          "end_sample": 24346,
+          "start_ms": 0,
+          "end_ms": 1522
+        },
+        {
+          "lang": "en",
+          "text": "sarcastic",
+          "start_sample": 24346,
+          "end_sample": 41805,
+          "start_ms": 1522,
+          "end_ms": 2613
+        },
+        {
+          "lang": "ja",
+          "text": "なコメントばかり言うので笑えます。",
+          "start_sample": 41805,
+          "end_sample": 92901,
+          "start_ms": 2613,
+          "end_ms": 5806
+        }
+      ]
+    },
+    "ja": {
+      "text": "うちのオウムはsarcasticなコメントばかり言うので笑えます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3493,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちのオウムは",
+          "start_sample": 0,
+          "end_sample": 13008,
+          "start_ms": 0,
+          "end_ms": 813
+        },
+        {
+          "lang": "en",
+          "text": "sarcastic",
+          "start_sample": 13008,
+          "end_sample": 25213,
+          "start_ms": 813,
+          "end_ms": 1576
+        },
+        {
+          "lang": "ja",
+          "text": "なコメントばかり言うので笑えます。",
+          "start_sample": 25213,
+          "end_sample": 55884,
+          "start_ms": 1576,
+          "end_ms": 3493
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 189,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

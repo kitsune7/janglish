@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7853.flac",
+  "sentence": "She wrote her entire 感想文 in one sitting the night before it was due.",
+  "sample_rate": 16000,
+  "duration_ms": 4846,
+  "reference_speaker": "en/speaker_020_5f047713c8bd.mp3",
+  "seed": 7895,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She wrote her entire",
+      "start_sample": 0,
+      "end_sample": 17739,
+      "start_ms": 0,
+      "end_ms": 1109
+    },
+    {
+      "lang": "ja",
+      "text": "感想文",
+      "start_sample": 17739,
+      "end_sample": 30008,
+      "start_ms": 1109,
+      "end_ms": 1876
+    },
+    {
+      "lang": "en",
+      "text": "in one sitting the night before it was due.",
+      "start_sample": 30008,
+      "end_sample": 77540,
+      "start_ms": 1876,
+      "end_ms": 4846
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She wrote her entire kansou bun in one sitting the night before it was due.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5126,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She wrote her entire",
+          "start_sample": 0,
+          "end_sample": 17939,
+          "start_ms": 0,
+          "end_ms": 1121
+        },
+        {
+          "lang": "ja",
+          "text": "感想文",
+          "start_sample": 17939,
+          "end_sample": 34277,
+          "start_ms": 1121,
+          "end_ms": 2142
+        },
+        {
+          "lang": "en",
+          "text": "in one sitting the night before it was due.",
+          "start_sample": 34277,
+          "end_sample": 82009,
+          "start_ms": 2142,
+          "end_ms": 5126
+        }
+      ]
+    },
+    "ja": {
+      "text": "She wrote her entire 感想文 in one sitting the night before it was due.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5032,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She wrote her entire",
+          "start_sample": 0,
+          "end_sample": 20367,
+          "start_ms": 0,
+          "end_ms": 1273
+        },
+        {
+          "lang": "ja",
+          "text": "感想文",
+          "start_sample": 20367,
+          "end_sample": 33036,
+          "start_ms": 1273,
+          "end_ms": 2065
+        },
+        {
+          "lang": "en",
+          "text": "in one sitting the night before it was due.",
+          "start_sample": 33036,
+          "end_sample": 80505,
+          "start_ms": 2065,
+          "end_ms": 5032
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 243,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

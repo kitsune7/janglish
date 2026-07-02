@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10206.flac",
+  "sentence": "My new car has 自動 parking, which makes downtown so much easier.",
+  "sample_rate": 16000,
+  "duration_ms": 3929,
+  "reference_speaker": "jp/speaker_025_0f8f304ca1ab.mp3",
+  "seed": 10248,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My new car has",
+      "start_sample": 0,
+      "end_sample": 12629,
+      "start_ms": 0,
+      "end_ms": 789
+    },
+    {
+      "lang": "ja",
+      "text": "自動",
+      "start_sample": 12629,
+      "end_sample": 18005,
+      "start_ms": 789,
+      "end_ms": 1125
+    },
+    {
+      "lang": "en",
+      "text": "parking, which makes downtown so much easier.",
+      "start_sample": 18005,
+      "end_sample": 62869,
+      "start_ms": 1125,
+      "end_ms": 3929
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My new car has jidou parking, which makes downtown so much easier.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3889,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My new car has",
+          "start_sample": 0,
+          "end_sample": 12829,
+          "start_ms": 0,
+          "end_ms": 802
+        },
+        {
+          "lang": "ja",
+          "text": "自動",
+          "start_sample": 12829,
+          "end_sample": 17159,
+          "start_ms": 802,
+          "end_ms": 1072
+        },
+        {
+          "lang": "en",
+          "text": "parking, which makes downtown so much easier.",
+          "start_sample": 17159,
+          "end_sample": 62223,
+          "start_ms": 1072,
+          "end_ms": 3889
+        }
+      ]
+    },
+    "ja": {
+      "text": "My new car has 自動 parking, which makes downtown so much easier.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4873,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My new car has",
+          "start_sample": 0,
+          "end_sample": 14277,
+          "start_ms": 0,
+          "end_ms": 892
+        },
+        {
+          "lang": "ja",
+          "text": "自動",
+          "start_sample": 14277,
+          "end_sample": 20053,
+          "start_ms": 892,
+          "end_ms": 1253
+        },
+        {
+          "lang": "en",
+          "text": "parking, which makes downtown so much easier.",
+          "start_sample": 20053,
+          "end_sample": 77964,
+          "start_ms": 1253,
+          "end_ms": 4873
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 197,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

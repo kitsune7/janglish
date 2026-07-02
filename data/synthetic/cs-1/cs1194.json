@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1194.flac",
+  "sentence": "このバスはdirect routeなので、乗り換えが一切ない。",
+  "sample_rate": 16000,
+  "duration_ms": 3918,
+  "reference_speaker": "jp/speaker_070_8f5dfeca773f.mp3",
+  "seed": 1236,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このバスは",
+      "start_sample": 0,
+      "end_sample": 9614,
+      "start_ms": 0,
+      "end_ms": 601
+    },
+    {
+      "lang": "en",
+      "text": "direct route",
+      "start_sample": 9614,
+      "end_sample": 33283,
+      "start_ms": 601,
+      "end_ms": 2080
+    },
+    {
+      "lang": "ja",
+      "text": "なので、乗り換えが一切ない。",
+      "start_sample": 33283,
+      "end_sample": 62683,
+      "start_ms": 2080,
+      "end_ms": 3918
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono basu ha direct route na no de norikae ga issai nai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6318,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このバスは",
+          "start_sample": 0,
+          "end_sample": 23747,
+          "start_ms": 0,
+          "end_ms": 1484
+        },
+        {
+          "lang": "en",
+          "text": "direct route",
+          "start_sample": 23747,
+          "end_sample": 47816,
+          "start_ms": 1484,
+          "end_ms": 2988
+        },
+        {
+          "lang": "ja",
+          "text": "なので、乗り換えが一切ない。",
+          "start_sample": 47816,
+          "end_sample": 101086,
+          "start_ms": 2988,
+          "end_ms": 6318
+        }
+      ]
+    },
+    "ja": {
+      "text": "このバスはdirect routeなので、乗り換えが一切ない。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3218,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このバスは",
+          "start_sample": 0,
+          "end_sample": 9814,
+          "start_ms": 0,
+          "end_ms": 613
+        },
+        {
+          "lang": "en",
+          "text": "direct route",
+          "start_sample": 9814,
+          "end_sample": 21882,
+          "start_ms": 613,
+          "end_ms": 1368
+        },
+        {
+          "lang": "ja",
+          "text": "なので、乗り換えが一切ない。",
+          "start_sample": 21882,
+          "end_sample": 51482,
+          "start_ms": 1368,
+          "end_ms": 3218
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

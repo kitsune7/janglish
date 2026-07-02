@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6667.flac",
+  "sentence": "She felt a little 遠慮がち about asking for a substitution.",
+  "sample_rate": 16000,
+  "duration_ms": 3598,
+  "reference_speaker": "en/speaker_007_70c21ca1cc3d.mp3",
+  "seed": 6709,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She felt a little",
+      "start_sample": 0,
+      "end_sample": 13589,
+      "start_ms": 0,
+      "end_ms": 849
+    },
+    {
+      "lang": "ja",
+      "text": "遠慮がち",
+      "start_sample": 13589,
+      "end_sample": 23777,
+      "start_ms": 849,
+      "end_ms": 1486
+    },
+    {
+      "lang": "en",
+      "text": "about asking for a substitution.",
+      "start_sample": 23777,
+      "end_sample": 57568,
+      "start_ms": 1486,
+      "end_ms": 3598
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She felt a little enryo gachi about asking for a substitution.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4109,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She felt a little",
+          "start_sample": 0,
+          "end_sample": 13789,
+          "start_ms": 0,
+          "end_ms": 862
+        },
+        {
+          "lang": "ja",
+          "text": "遠慮がち",
+          "start_sample": 13789,
+          "end_sample": 31748,
+          "start_ms": 862,
+          "end_ms": 1984
+        },
+        {
+          "lang": "en",
+          "text": "about asking for a substitution.",
+          "start_sample": 31748,
+          "end_sample": 65739,
+          "start_ms": 1984,
+          "end_ms": 4109
+        }
+      ]
+    },
+    "ja": {
+      "text": "She felt a little 遠慮がち about asking for a substitution.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3870,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She felt a little",
+          "start_sample": 0,
+          "end_sample": 16363,
+          "start_ms": 0,
+          "end_ms": 1023
+        },
+        {
+          "lang": "ja",
+          "text": "遠慮がち",
+          "start_sample": 16363,
+          "end_sample": 26951,
+          "start_ms": 1023,
+          "end_ms": 1684
+        },
+        {
+          "lang": "en",
+          "text": "about asking for a substitution.",
+          "start_sample": 26951,
+          "end_sample": 61921,
+          "start_ms": 1684,
+          "end_ms": 3870
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 180,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

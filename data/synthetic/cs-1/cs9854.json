@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9854.flac",
+  "sentence": "The 余韻 of that last chord seemed to hang in the air for a full minute after they left the stage.",
+  "sample_rate": 16000,
+  "duration_ms": 5498,
+  "reference_speaker": "en/speaker_021_0c003e301f78.mp3",
+  "seed": 9896,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 921,
+      "start_ms": 0,
+      "end_ms": 58
+    },
+    {
+      "lang": "ja",
+      "text": "余韻",
+      "start_sample": 921,
+      "end_sample": 7255,
+      "start_ms": 58,
+      "end_ms": 453
+    },
+    {
+      "lang": "en",
+      "text": "of that last chord seemed to hang in the air for a full minute after they left the stage.",
+      "start_sample": 7255,
+      "end_sample": 87970,
+      "start_ms": 453,
+      "end_ms": 5498
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The yoin of that last chord seemed to hang in the air for a full minute after they left the stage.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5408,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1121,
+          "start_ms": 0,
+          "end_ms": 70
+        },
+        {
+          "lang": "ja",
+          "text": "余韻",
+          "start_sample": 1121,
+          "end_sample": 5607,
+          "start_ms": 70,
+          "end_ms": 350
+        },
+        {
+          "lang": "en",
+          "text": "of that last chord seemed to hang in the air for a full minute after they left the stage.",
+          "start_sample": 5607,
+          "end_sample": 86522,
+          "start_ms": 350,
+          "end_ms": 5408
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 余韻 of that last chord seemed to hang in the air for a full minute after they left the stage.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7957,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2242,
+          "start_ms": 0,
+          "end_ms": 140
+        },
+        {
+          "lang": "ja",
+          "text": "余韻",
+          "start_sample": 2242,
+          "end_sample": 8976,
+          "start_ms": 140,
+          "end_ms": 561
+        },
+        {
+          "lang": "en",
+          "text": "of that last chord seemed to hang in the air for a full minute after they left the stage.",
+          "start_sample": 8976,
+          "end_sample": 127308,
+          "start_ms": 561,
+          "end_ms": 7957
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 275,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

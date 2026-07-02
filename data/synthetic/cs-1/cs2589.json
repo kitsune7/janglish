@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2589.flac",
+  "sentence": "夕暮れ時にharborで写真をたくさん撮りました。",
+  "sample_rate": 16000,
+  "duration_ms": 3574,
+  "reference_speaker": "en/speaker_086_0a418a567872.mp3",
+  "seed": 2631,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "夕暮れ時に",
+      "start_sample": 0,
+      "end_sample": 16774,
+      "start_ms": 0,
+      "end_ms": 1048
+    },
+    {
+      "lang": "en",
+      "text": "harbor",
+      "start_sample": 16774,
+      "end_sample": 24069,
+      "start_ms": 1048,
+      "end_ms": 1504
+    },
+    {
+      "lang": "ja",
+      "text": "で写真をたくさん撮りました。",
+      "start_sample": 24069,
+      "end_sample": 57179,
+      "start_ms": 1504,
+      "end_ms": 3574
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "yuugure toki ni harbor de shashin wo takusan tori mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6291,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "夕暮れ時に",
+          "start_sample": 0,
+          "end_sample": 19394,
+          "start_ms": 0,
+          "end_ms": 1212
+        },
+        {
+          "lang": "en",
+          "text": "harbor",
+          "start_sample": 19394,
+          "end_sample": 27089,
+          "start_ms": 1212,
+          "end_ms": 1693
+        },
+        {
+          "lang": "ja",
+          "text": "で写真をたくさん撮りました。",
+          "start_sample": 27089,
+          "end_sample": 100661,
+          "start_ms": 1693,
+          "end_ms": 6291
+        }
+      ]
+    },
+    "ja": {
+      "text": "夕暮れ時にharborで写真をたくさん撮りました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3763,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "夕暮れ時に",
+          "start_sample": 0,
+          "end_sample": 16974,
+          "start_ms": 0,
+          "end_ms": 1061
+        },
+        {
+          "lang": "en",
+          "text": "harbor",
+          "start_sample": 16974,
+          "end_sample": 26903,
+          "start_ms": 1061,
+          "end_ms": 1681
+        },
+        {
+          "lang": "ja",
+          "text": "で写真をたくさん撮りました。",
+          "start_sample": 26903,
+          "end_sample": 60213,
+          "start_ms": 1681,
+          "end_ms": 3763
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 179,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

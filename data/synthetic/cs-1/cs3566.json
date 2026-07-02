@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3566.flac",
+  "sentence": "うちのウサギはindoorで飼っているので、とても人懐っこいです。",
+  "sample_rate": 16000,
+  "duration_ms": 4484,
+  "reference_speaker": "jp/speaker_030_78b8d1b530d5.mp3",
+  "seed": 3608,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "うちのウサギは",
+      "start_sample": 0,
+      "end_sample": 14738,
+      "start_ms": 0,
+      "end_ms": 921
+    },
+    {
+      "lang": "en",
+      "text": "indoor",
+      "start_sample": 14738,
+      "end_sample": 34357,
+      "start_ms": 921,
+      "end_ms": 2147
+    },
+    {
+      "lang": "ja",
+      "text": "で飼っているので、とても人懐っこいです。",
+      "start_sample": 34357,
+      "end_sample": 71741,
+      "start_ms": 2147,
+      "end_ms": 4484
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "uchi no usagi ha indoor de katsu te iru no de totemo nin natsukkoi desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8108,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちのウサギは",
+          "start_sample": 0,
+          "end_sample": 45482,
+          "start_ms": 0,
+          "end_ms": 2843
+        },
+        {
+          "lang": "en",
+          "text": "indoor",
+          "start_sample": 45482,
+          "end_sample": 65501,
+          "start_ms": 2843,
+          "end_ms": 4094
+        },
+        {
+          "lang": "ja",
+          "text": "で飼っているので、とても人懐っこいです。",
+          "start_sample": 65501,
+          "end_sample": 129721,
+          "start_ms": 4094,
+          "end_ms": 8108
+        }
+      ]
+    },
+    "ja": {
+      "text": "うちのウサギはindoorで飼っているので、とても人懐っこいです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3674,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちのウサギは",
+          "start_sample": 0,
+          "end_sample": 14938,
+          "start_ms": 0,
+          "end_ms": 934
+        },
+        {
+          "lang": "en",
+          "text": "indoor",
+          "start_sample": 14938,
+          "end_sample": 21202,
+          "start_ms": 934,
+          "end_ms": 1325
+        },
+        {
+          "lang": "ja",
+          "text": "で飼っているので、とても人懐っこいです。",
+          "start_sample": 21202,
+          "end_sample": 58786,
+          "start_ms": 1325,
+          "end_ms": 3674
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

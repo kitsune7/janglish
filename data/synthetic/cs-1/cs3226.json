@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3226.flac",
+  "sentence": "That open-source library is 無料 and works better than the paid alternatives.",
+  "sample_rate": 16000,
+  "duration_ms": 5465,
+  "reference_speaker": "en/speaker_086_0a418a567872.mp3",
+  "seed": 3268,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That open-source library is",
+      "start_sample": 0,
+      "end_sample": 32469,
+      "start_ms": 0,
+      "end_ms": 2029
+    },
+    {
+      "lang": "ja",
+      "text": "無料",
+      "start_sample": 32469,
+      "end_sample": 43443,
+      "start_ms": 2029,
+      "end_ms": 2715
+    },
+    {
+      "lang": "en",
+      "text": "and works better than the paid alternatives.",
+      "start_sample": 43443,
+      "end_sample": 87443,
+      "start_ms": 2715,
+      "end_ms": 5465
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That open-source library is muryou and works better than the paid alternatives.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5705,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That open-source library is",
+          "start_sample": 0,
+          "end_sample": 32669,
+          "start_ms": 0,
+          "end_ms": 2042
+        },
+        {
+          "lang": "ja",
+          "text": "無料",
+          "start_sample": 32669,
+          "end_sample": 47082,
+          "start_ms": 2042,
+          "end_ms": 2943
+        },
+        {
+          "lang": "en",
+          "text": "and works better than the paid alternatives.",
+          "start_sample": 47082,
+          "end_sample": 91282,
+          "start_ms": 2943,
+          "end_ms": 5705
+        }
+      ]
+    },
+    "ja": {
+      "text": "That open-source library is 無料 and works better than the paid alternatives.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6788,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That open-source library is",
+          "start_sample": 0,
+          "end_sample": 42289,
+          "start_ms": 0,
+          "end_ms": 2643
+        },
+        {
+          "lang": "ja",
+          "text": "無料",
+          "start_sample": 42289,
+          "end_sample": 53663,
+          "start_ms": 2643,
+          "end_ms": 3354
+        },
+        {
+          "lang": "en",
+          "text": "and works better than the paid alternatives.",
+          "start_sample": 53663,
+          "end_sample": 108607,
+          "start_ms": 3354,
+          "end_ms": 6788
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 274,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs709.flac",
+  "sentence": "I hope the spring 陽気 arrives soon, because everyone around here has been a little 憂鬱 since February.",
+  "sample_rate": 16000,
+  "duration_ms": 5848,
+  "reference_speaker": "en/speaker_085_1a04e2db0811.mp3",
+  "seed": 17564,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I hope the spring",
+      "start_sample": 0,
+      "end_sample": 15048,
+      "start_ms": 0,
+      "end_ms": 940
+    },
+    {
+      "lang": "ja",
+      "text": "陽気",
+      "start_sample": 15048,
+      "end_sample": 21054,
+      "start_ms": 940,
+      "end_ms": 1316
+    },
+    {
+      "lang": "en",
+      "text": "arrives soon, because everyone around here has been a little",
+      "start_sample": 21054,
+      "end_sample": 68496,
+      "start_ms": 1316,
+      "end_ms": 4281
+    },
+    {
+      "lang": "ja",
+      "text": "憂鬱",
+      "start_sample": 68496,
+      "end_sample": 75303,
+      "start_ms": 4281,
+      "end_ms": 4706
+    },
+    {
+      "lang": "en",
+      "text": "since February.",
+      "start_sample": 75303,
+      "end_sample": 93563,
+      "start_ms": 4706,
+      "end_ms": 5848
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I hope the spring youki arrives soon, because everyone around here has been a little yuuutsu since February.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6060,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I hope the spring",
+          "start_sample": 0,
+          "end_sample": 15248,
+          "start_ms": 0,
+          "end_ms": 953
+        },
+        {
+          "lang": "ja",
+          "text": "陽気",
+          "start_sample": 15248,
+          "end_sample": 20547,
+          "start_ms": 953,
+          "end_ms": 1284
+        },
+        {
+          "lang": "en",
+          "text": "arrives soon, because everyone around here has been a little",
+          "start_sample": 20547,
+          "end_sample": 68389,
+          "start_ms": 1284,
+          "end_ms": 4274
+        },
+        {
+          "lang": "ja",
+          "text": "憂鬱",
+          "start_sample": 68389,
+          "end_sample": 78504,
+          "start_ms": 4274,
+          "end_ms": 4906
+        },
+        {
+          "lang": "en",
+          "text": "since February.",
+          "start_sample": 78504,
+          "end_sample": 96964,
+          "start_ms": 4906,
+          "end_ms": 6060
+        }
+      ]
+    },
+    "ja": {
+      "text": "I hope the spring 陽気 arrives soon, because everyone around here has been a little 憂鬱 since February.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6706,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I hope the spring",
+          "start_sample": 0,
+          "end_sample": 18417,
+          "start_ms": 0,
+          "end_ms": 1151
+        },
+        {
+          "lang": "ja",
+          "text": "陽気",
+          "start_sample": 18417,
+          "end_sample": 24823,
+          "start_ms": 1151,
+          "end_ms": 1551
+        },
+        {
+          "lang": "en",
+          "text": "arrives soon, because everyone around here has been a little",
+          "start_sample": 24823,
+          "end_sample": 84722,
+          "start_ms": 1551,
+          "end_ms": 5295
+        },
+        {
+          "lang": "ja",
+          "text": "憂鬱",
+          "start_sample": 84722,
+          "end_sample": 91929,
+          "start_ms": 5295,
+          "end_ms": 5746
+        },
+        {
+          "lang": "en",
+          "text": "since February.",
+          "start_sample": 91929,
+          "end_sample": 107304,
+          "start_ms": 5746,
+          "end_ms": 6706
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 293,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

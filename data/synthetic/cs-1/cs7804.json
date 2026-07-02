@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7804.flac",
+  "sentence": "今日の最高気温はfortyに迫る勢いで、外に出たくない。",
+  "sample_rate": 16000,
+  "duration_ms": 3935,
+  "reference_speaker": "jp/speaker_040_473e7a57e696.mp3",
+  "seed": 7846,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日の最高気温は",
+      "start_sample": 0,
+      "end_sample": 21644,
+      "start_ms": 0,
+      "end_ms": 1353
+    },
+    {
+      "lang": "en",
+      "text": "forty",
+      "start_sample": 21644,
+      "end_sample": 29424,
+      "start_ms": 1353,
+      "end_ms": 1839
+    },
+    {
+      "lang": "ja",
+      "text": "に迫る勢いで、外に出たくない。",
+      "start_sample": 29424,
+      "end_sample": 62953,
+      "start_ms": 1839,
+      "end_ms": 3935
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou no saikou kion ha forty ni semaru ikioi de soto ni shutsu taku nai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7458,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の最高気温は",
+          "start_sample": 0,
+          "end_sample": 50843,
+          "start_ms": 0,
+          "end_ms": 3178
+        },
+        {
+          "lang": "en",
+          "text": "forty",
+          "start_sample": 50843,
+          "end_sample": 59023,
+          "start_ms": 3178,
+          "end_ms": 3689
+        },
+        {
+          "lang": "ja",
+          "text": "に迫る勢いで、外に出たくない。",
+          "start_sample": 59023,
+          "end_sample": 119328,
+          "start_ms": 3689,
+          "end_ms": 7458
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日の最高気温はfortyに迫る勢いで、外に出たくない。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3915,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の最高気温は",
+          "start_sample": 0,
+          "end_sample": 21844,
+          "start_ms": 0,
+          "end_ms": 1365
+        },
+        {
+          "lang": "en",
+          "text": "forty",
+          "start_sample": 21844,
+          "end_sample": 28912,
+          "start_ms": 1365,
+          "end_ms": 1807
+        },
+        {
+          "lang": "ja",
+          "text": "に迫る勢いで、外に出たくない。",
+          "start_sample": 28912,
+          "end_sample": 62641,
+          "start_ms": 1807,
+          "end_ms": 3915
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 197,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

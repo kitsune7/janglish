@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4025.flac",
+  "sentence": "My 筋肉痛 after leg day is absolutely unbearable.",
+  "sample_rate": 16000,
+  "duration_ms": 5039,
+  "reference_speaker": "en/speaker_040_ec293248c910.mp3",
+  "seed": 4067,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My",
+      "start_sample": 0,
+      "end_sample": 4448,
+      "start_ms": 0,
+      "end_ms": 278
+    },
+    {
+      "lang": "ja",
+      "text": "筋肉痛",
+      "start_sample": 4448,
+      "end_sample": 18794,
+      "start_ms": 278,
+      "end_ms": 1175
+    },
+    {
+      "lang": "en",
+      "text": "after leg day is absolutely unbearable.",
+      "start_sample": 18794,
+      "end_sample": 80631,
+      "start_ms": 1175,
+      "end_ms": 5039
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My kinniku tsuu after leg day is absolutely unbearable.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5530,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 4648,
+          "start_ms": 0,
+          "end_ms": 290
+        },
+        {
+          "lang": "ja",
+          "text": "筋肉痛",
+          "start_sample": 4648,
+          "end_sample": 26449,
+          "start_ms": 290,
+          "end_ms": 1653
+        },
+        {
+          "lang": "en",
+          "text": "after leg day is absolutely unbearable.",
+          "start_sample": 26449,
+          "end_sample": 88486,
+          "start_ms": 1653,
+          "end_ms": 5530
+        }
+      ]
+    },
+    "ja": {
+      "text": "My 筋肉痛 after leg day is absolutely unbearable.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5309,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 3685,
+          "start_ms": 0,
+          "end_ms": 230
+        },
+        {
+          "lang": "ja",
+          "text": "筋肉痛",
+          "start_sample": 3685,
+          "end_sample": 18431,
+          "start_ms": 230,
+          "end_ms": 1152
+        },
+        {
+          "lang": "en",
+          "text": "after leg day is absolutely unbearable.",
+          "start_sample": 18431,
+          "end_sample": 84944,
+          "start_ms": 1152,
+          "end_ms": 5309
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 252,
+  "frame_labels": "eeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

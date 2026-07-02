@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2375.flac",
+  "sentence": "筋トレの後にproteinをしっかり摂ることが大切だ。",
+  "sample_rate": 16000,
+  "duration_ms": 3783,
+  "reference_speaker": "jp/speaker_059_4c496a210b8b.mp3",
+  "seed": 2417,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "筋トレの後に",
+      "start_sample": 0,
+      "end_sample": 15056,
+      "start_ms": 0,
+      "end_ms": 941
+    },
+    {
+      "lang": "en",
+      "text": "protein",
+      "start_sample": 15056,
+      "end_sample": 28773,
+      "start_ms": 941,
+      "end_ms": 1798
+    },
+    {
+      "lang": "ja",
+      "text": "をしっかり摂ることが大切だ。",
+      "start_sample": 28773,
+      "end_sample": 60529,
+      "start_ms": 1798,
+      "end_ms": 3783
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sujitore no nochi ni protein wo shikkari toru koto ga taisetsu da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7299,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "筋トレの後に",
+          "start_sample": 0,
+          "end_sample": 46363,
+          "start_ms": 0,
+          "end_ms": 2898
+        },
+        {
+          "lang": "en",
+          "text": "protein",
+          "start_sample": 46363,
+          "end_sample": 60480,
+          "start_ms": 2898,
+          "end_ms": 3780
+        },
+        {
+          "lang": "ja",
+          "text": "をしっかり摂ることが大切だ。",
+          "start_sample": 60480,
+          "end_sample": 116788,
+          "start_ms": 3780,
+          "end_ms": 7299
+        }
+      ]
+    },
+    "ja": {
+      "text": "筋トレの後にproteinをしっかり摂ることが大切だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3392,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "筋トレの後に",
+          "start_sample": 0,
+          "end_sample": 15256,
+          "start_ms": 0,
+          "end_ms": 954
+        },
+        {
+          "lang": "en",
+          "text": "protein",
+          "start_sample": 15256,
+          "end_sample": 22322,
+          "start_ms": 954,
+          "end_ms": 1395
+        },
+        {
+          "lang": "ja",
+          "text": "をしっかり摂ることが大切だ。",
+          "start_sample": 22322,
+          "end_sample": 54278,
+          "start_ms": 1395,
+          "end_ms": 3392
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

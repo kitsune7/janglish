@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5053.flac",
+  "sentence": "秋のgarden tourに参加したら、新しい植物の知識が増えた。",
+  "sample_rate": 16000,
+  "duration_ms": 4266,
+  "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 5095,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "秋の",
+      "start_sample": 0,
+      "end_sample": 5906,
+      "start_ms": 0,
+      "end_ms": 369
+    },
+    {
+      "lang": "en",
+      "text": "garden tour",
+      "start_sample": 5906,
+      "end_sample": 15115,
+      "start_ms": 369,
+      "end_ms": 945
+    },
+    {
+      "lang": "ja",
+      "text": "に参加したら、新しい植物の知識が増えた。",
+      "start_sample": 15115,
+      "end_sample": 68261,
+      "start_ms": 945,
+      "end_ms": 4266
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "aki no garden tour ni sanka shi tara atarashii shokubutsu no chishiki ga fue ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6946,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "秋の",
+          "start_sample": 0,
+          "end_sample": 9288,
+          "start_ms": 0,
+          "end_ms": 580
+        },
+        {
+          "lang": "en",
+          "text": "garden tour",
+          "start_sample": 9288,
+          "end_sample": 18897,
+          "start_ms": 580,
+          "end_ms": 1181
+        },
+        {
+          "lang": "ja",
+          "text": "に参加したら、新しい植物の知識が増えた。",
+          "start_sample": 18897,
+          "end_sample": 111143,
+          "start_ms": 1181,
+          "end_ms": 6946
+        }
+      ]
+    },
+    "ja": {
+      "text": "秋のgarden tourに参加したら、新しい植物の知識が増えた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4479,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "秋の",
+          "start_sample": 0,
+          "end_sample": 6106,
+          "start_ms": 0,
+          "end_ms": 382
+        },
+        {
+          "lang": "en",
+          "text": "garden tour",
+          "start_sample": 6106,
+          "end_sample": 18318,
+          "start_ms": 382,
+          "end_ms": 1145
+        },
+        {
+          "lang": "ja",
+          "text": "に参加したら、新しい植物の知識が増えた。",
+          "start_sample": 18318,
+          "end_sample": 71664,
+          "start_ms": 1145,
+          "end_ms": 4479
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 214,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6018.flac",
+  "sentence": "That 模様 on the skirt reminded me of traditional woodblock prints.",
+  "sample_rate": 16000,
+  "duration_ms": 4667,
+  "reference_speaker": "en/speaker_036_d0b62ac1e57e.mp3",
+  "seed": 6060,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That",
+      "start_sample": 0,
+      "end_sample": 4605,
+      "start_ms": 0,
+      "end_ms": 288
+    },
+    {
+      "lang": "ja",
+      "text": "模様",
+      "start_sample": 4605,
+      "end_sample": 13030,
+      "start_ms": 288,
+      "end_ms": 814
+    },
+    {
+      "lang": "en",
+      "text": "on the skirt reminded me of traditional woodblock prints.",
+      "start_sample": 13030,
+      "end_sample": 74678,
+      "start_ms": 814,
+      "end_ms": 4667
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That moyou on the skirt reminded me of traditional woodblock prints.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4646,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That",
+          "start_sample": 0,
+          "end_sample": 4805,
+          "start_ms": 0,
+          "end_ms": 300
+        },
+        {
+          "lang": "ja",
+          "text": "模様",
+          "start_sample": 4805,
+          "end_sample": 12496,
+          "start_ms": 300,
+          "end_ms": 781
+        },
+        {
+          "lang": "en",
+          "text": "on the skirt reminded me of traditional woodblock prints.",
+          "start_sample": 12496,
+          "end_sample": 74344,
+          "start_ms": 781,
+          "end_ms": 4646
+        }
+      ]
+    },
+    "ja": {
+      "text": "That 模様 on the skirt reminded me of traditional woodblock prints.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6097,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That",
+          "start_sample": 0,
+          "end_sample": 4811,
+          "start_ms": 0,
+          "end_ms": 301
+        },
+        {
+          "lang": "ja",
+          "text": "模様",
+          "start_sample": 4811,
+          "end_sample": 13636,
+          "start_ms": 301,
+          "end_ms": 852
+        },
+        {
+          "lang": "en",
+          "text": "on the skirt reminded me of traditional woodblock prints.",
+          "start_sample": 13636,
+          "end_sample": 97556,
+          "start_ms": 852,
+          "end_ms": 6097
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 234,
+  "frame_labels": "eeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

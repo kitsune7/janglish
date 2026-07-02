@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs275.flac",
+  "sentence": "猫のwhiskerは暗い場所でも方向を感じ取るのに役立っています。",
+  "sample_rate": 16000,
+  "duration_ms": 4087,
+  "reference_speaker": "jp/speaker_049_435108c1173c.mp3",
+  "seed": 317,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "猫の",
+      "start_sample": 0,
+      "end_sample": 5248,
+      "start_ms": 0,
+      "end_ms": 328
+    },
+    {
+      "lang": "en",
+      "text": "whisker",
+      "start_sample": 5248,
+      "end_sample": 12868,
+      "start_ms": 328,
+      "end_ms": 804
+    },
+    {
+      "lang": "ja",
+      "text": "は暗い場所でも方向を感じ取るのに役立っています。",
+      "start_sample": 12868,
+      "end_sample": 65389,
+      "start_ms": 804,
+      "end_ms": 4087
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "neko no whisker ha kurai basho de mo houkou wo kanjitoru no ni yakutatsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8782,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "猫の",
+          "start_sample": 0,
+          "end_sample": 20048,
+          "start_ms": 0,
+          "end_ms": 1253
+        },
+        {
+          "lang": "en",
+          "text": "whisker",
+          "start_sample": 20048,
+          "end_sample": 28068,
+          "start_ms": 1253,
+          "end_ms": 1754
+        },
+        {
+          "lang": "ja",
+          "text": "は暗い場所でも方向を感じ取るのに役立っています。",
+          "start_sample": 28068,
+          "end_sample": 140509,
+          "start_ms": 1754,
+          "end_ms": 8782
+        }
+      ]
+    },
+    "ja": {
+      "text": "猫のwhiskerは暗い場所でも方向を感じ取るのに役立っています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4146,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "猫の",
+          "start_sample": 0,
+          "end_sample": 5448,
+          "start_ms": 0,
+          "end_ms": 340
+        },
+        {
+          "lang": "en",
+          "text": "whisker",
+          "start_sample": 5448,
+          "end_sample": 13621,
+          "start_ms": 340,
+          "end_ms": 851
+        },
+        {
+          "lang": "ja",
+          "text": "は暗い場所でも方向を感じ取るのに役立っています。",
+          "start_sample": 13621,
+          "end_sample": 66342,
+          "start_ms": 851,
+          "end_ms": 4146
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 205,
+  "frame_labels": "jjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

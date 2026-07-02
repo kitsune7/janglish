@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8192.flac",
+  "sentence": "自宅でfocusするのが難しい日もある。",
+  "sample_rate": 16000,
+  "duration_ms": 2791,
+  "reference_speaker": "en/speaker_024_d461ea23a991.mp3",
+  "seed": 8234,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "自宅で",
+      "start_sample": 0,
+      "end_sample": 7670,
+      "start_ms": 0,
+      "end_ms": 479
+    },
+    {
+      "lang": "en",
+      "text": "focus",
+      "start_sample": 7670,
+      "end_sample": 18191,
+      "start_ms": 479,
+      "end_ms": 1137
+    },
+    {
+      "lang": "ja",
+      "text": "するのが難しい日もある。",
+      "start_sample": 18191,
+      "end_sample": 44651,
+      "start_ms": 1137,
+      "end_ms": 2791
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "jitaku de focus suru no ga muzukashii nichi mo aru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4356,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "自宅で",
+          "start_sample": 0,
+          "end_sample": 10920,
+          "start_ms": 0,
+          "end_ms": 682
+        },
+        {
+          "lang": "en",
+          "text": "focus",
+          "start_sample": 10920,
+          "end_sample": 21841,
+          "start_ms": 682,
+          "end_ms": 1365
+        },
+        {
+          "lang": "ja",
+          "text": "するのが難しい日もある。",
+          "start_sample": 21841,
+          "end_sample": 69698,
+          "start_ms": 1365,
+          "end_ms": 4356
+        }
+      ]
+    },
+    "ja": {
+      "text": "自宅でfocusするのが難しい日もある。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2630,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "自宅で",
+          "start_sample": 0,
+          "end_sample": 7870,
+          "start_ms": 0,
+          "end_ms": 492
+        },
+        {
+          "lang": "en",
+          "text": "focus",
+          "start_sample": 7870,
+          "end_sample": 15420,
+          "start_ms": 492,
+          "end_ms": 964
+        },
+        {
+          "lang": "ja",
+          "text": "するのが難しい日もある。",
+          "start_sample": 15420,
+          "end_sample": 42080,
+          "start_ms": 964,
+          "end_ms": 2630
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 140,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

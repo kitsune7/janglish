@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11113.flac",
+  "sentence": "秋のleavesが色づいてきた。",
+  "sample_rate": 16000,
+  "duration_ms": 1982,
+  "reference_speaker": "en/speaker_052_622e6181fea2.mp3",
+  "seed": 11155,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "秋の",
+      "start_sample": 0,
+      "end_sample": 5602,
+      "start_ms": 0,
+      "end_ms": 350
+    },
+    {
+      "lang": "en",
+      "text": "leaves",
+      "start_sample": 5602,
+      "end_sample": 17414,
+      "start_ms": 350,
+      "end_ms": 1088
+    },
+    {
+      "lang": "ja",
+      "text": "が色づいてきた。",
+      "start_sample": 17414,
+      "end_sample": 31714,
+      "start_ms": 1088,
+      "end_ms": 1982
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "aki no leaves ga irozui te ki ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5262,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "秋の",
+          "start_sample": 0,
+          "end_sample": 11243,
+          "start_ms": 0,
+          "end_ms": 703
+        },
+        {
+          "lang": "en",
+          "text": "leaves",
+          "start_sample": 11243,
+          "end_sample": 23455,
+          "start_ms": 703,
+          "end_ms": 1466
+        },
+        {
+          "lang": "ja",
+          "text": "が色づいてきた。",
+          "start_sample": 23455,
+          "end_sample": 84188,
+          "start_ms": 1466,
+          "end_ms": 5262
+        }
+      ]
+    },
+    "ja": {
+      "text": "秋のleavesが色づいてきた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 1652,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "秋の",
+          "start_sample": 0,
+          "end_sample": 5802,
+          "start_ms": 0,
+          "end_ms": 363
+        },
+        {
+          "lang": "en",
+          "text": "leaves",
+          "start_sample": 5802,
+          "end_sample": 11927,
+          "start_ms": 363,
+          "end_ms": 745
+        },
+        {
+          "lang": "ja",
+          "text": "が色づいてきた。",
+          "start_sample": 11927,
+          "end_sample": 26427,
+          "start_ms": 745,
+          "end_ms": 1652
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 100,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9652.flac",
+  "sentence": "I saved his number under a 変な nickname in my contacts.",
+  "sample_rate": 16000,
+  "duration_ms": 4682,
+  "reference_speaker": "jp/speaker_013_e472ee9e6d56.mp3",
+  "seed": 9694,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I saved his number under a",
+      "start_sample": 0,
+      "end_sample": 27226,
+      "start_ms": 0,
+      "end_ms": 1702
+    },
+    {
+      "lang": "ja",
+      "text": "変な",
+      "start_sample": 27226,
+      "end_sample": 36293,
+      "start_ms": 1702,
+      "end_ms": 2268
+    },
+    {
+      "lang": "en",
+      "text": "nickname in my contacts.",
+      "start_sample": 36293,
+      "end_sample": 74908,
+      "start_ms": 2268,
+      "end_ms": 4682
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I saved his number under a hen na nickname in my contacts.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5153,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I saved his number under a",
+          "start_sample": 0,
+          "end_sample": 27426,
+          "start_ms": 0,
+          "end_ms": 1714
+        },
+        {
+          "lang": "ja",
+          "text": "変な",
+          "start_sample": 27426,
+          "end_sample": 43626,
+          "start_ms": 1714,
+          "end_ms": 2727
+        },
+        {
+          "lang": "en",
+          "text": "nickname in my contacts.",
+          "start_sample": 43626,
+          "end_sample": 82441,
+          "start_ms": 2727,
+          "end_ms": 5153
+        }
+      ]
+    },
+    "ja": {
+      "text": "I saved his number under a 変な nickname in my contacts.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4914,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I saved his number under a",
+          "start_sample": 0,
+          "end_sample": 34815,
+          "start_ms": 0,
+          "end_ms": 2176
+        },
+        {
+          "lang": "ja",
+          "text": "変な",
+          "start_sample": 34815,
+          "end_sample": 44282,
+          "start_ms": 2176,
+          "end_ms": 2768
+        },
+        {
+          "lang": "en",
+          "text": "nickname in my contacts.",
+          "start_sample": 44282,
+          "end_sample": 78617,
+          "start_ms": 2768,
+          "end_ms": 4914
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 235,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

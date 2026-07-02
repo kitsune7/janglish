@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4762.flac",
+  "sentence": "I always get confused by the 北 and south labels on this particular map.",
+  "sample_rate": 16000,
+  "duration_ms": 4068,
+  "reference_speaker": "en/speaker_026_a41b49f8d6ee.mp3",
+  "seed": 4804,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always get confused by the",
+      "start_sample": 0,
+      "end_sample": 23525,
+      "start_ms": 0,
+      "end_ms": 1470
+    },
+    {
+      "lang": "ja",
+      "text": "北",
+      "start_sample": 23525,
+      "end_sample": 29210,
+      "start_ms": 1470,
+      "end_ms": 1826
+    },
+    {
+      "lang": "en",
+      "text": "and south labels on this particular map.",
+      "start_sample": 29210,
+      "end_sample": 65081,
+      "start_ms": 1826,
+      "end_ms": 4068
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always get confused by the kita and south labels on this particular map.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4088,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always get confused by the",
+          "start_sample": 0,
+          "end_sample": 23725,
+          "start_ms": 0,
+          "end_ms": 1483
+        },
+        {
+          "lang": "ja",
+          "text": "北",
+          "start_sample": 23725,
+          "end_sample": 29337,
+          "start_ms": 1483,
+          "end_ms": 1834
+        },
+        {
+          "lang": "en",
+          "text": "and south labels on this particular map.",
+          "start_sample": 29337,
+          "end_sample": 65408,
+          "start_ms": 1834,
+          "end_ms": 4088
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always get confused by the 北 and south labels on this particular map.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5544,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always get confused by the",
+          "start_sample": 0,
+          "end_sample": 36028,
+          "start_ms": 0,
+          "end_ms": 2252
+        },
+        {
+          "lang": "ja",
+          "text": "北",
+          "start_sample": 36028,
+          "end_sample": 42113,
+          "start_ms": 2252,
+          "end_ms": 2632
+        },
+        {
+          "lang": "en",
+          "text": "and south labels on this particular map.",
+          "start_sample": 42113,
+          "end_sample": 88711,
+          "start_ms": 2632,
+          "end_ms": 5544
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

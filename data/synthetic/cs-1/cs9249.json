@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9249.flac",
+  "sentence": "I think my 父 finally understands why I chose this career.",
+  "sample_rate": 16000,
+  "duration_ms": 3839,
+  "reference_speaker": "jp/speaker_022_b672c364242e.mp3",
+  "seed": 9291,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I think my",
+      "start_sample": 0,
+      "end_sample": 10702,
+      "start_ms": 0,
+      "end_ms": 669
+    },
+    {
+      "lang": "ja",
+      "text": "父",
+      "start_sample": 10702,
+      "end_sample": 15127,
+      "start_ms": 669,
+      "end_ms": 945
+    },
+    {
+      "lang": "en",
+      "text": "finally understands why I chose this career.",
+      "start_sample": 15127,
+      "end_sample": 61426,
+      "start_ms": 945,
+      "end_ms": 3839
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I think my chichi finally understands why I chose this career.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4109,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I think my",
+          "start_sample": 0,
+          "end_sample": 10902,
+          "start_ms": 0,
+          "end_ms": 681
+        },
+        {
+          "lang": "ja",
+          "text": "父",
+          "start_sample": 10902,
+          "end_sample": 19239,
+          "start_ms": 681,
+          "end_ms": 1202
+        },
+        {
+          "lang": "en",
+          "text": "finally understands why I chose this career.",
+          "start_sample": 19239,
+          "end_sample": 65738,
+          "start_ms": 1202,
+          "end_ms": 4109
+        }
+      ]
+    },
+    "ja": {
+      "text": "I think my 父 finally understands why I chose this career.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4121,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I think my",
+          "start_sample": 0,
+          "end_sample": 12379,
+          "start_ms": 0,
+          "end_ms": 774
+        },
+        {
+          "lang": "ja",
+          "text": "父",
+          "start_sample": 12379,
+          "end_sample": 17204,
+          "start_ms": 774,
+          "end_ms": 1075
+        },
+        {
+          "lang": "en",
+          "text": "finally understands why I chose this career.",
+          "start_sample": 17204,
+          "end_sample": 65933,
+          "start_ms": 1075,
+          "end_ms": 4121
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

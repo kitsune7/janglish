@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1375.flac",
+  "sentence": "橋を渡ったらすぐにleft turnしてください。",
+  "sample_rate": 16000,
+  "duration_ms": 3165,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 1417,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "橋を渡ったらすぐに",
+      "start_sample": 0,
+      "end_sample": 16096,
+      "start_ms": 0,
+      "end_ms": 1006
+    },
+    {
+      "lang": "en",
+      "text": "left turn",
+      "start_sample": 16096,
+      "end_sample": 41495,
+      "start_ms": 1006,
+      "end_ms": 2593
+    },
+    {
+      "lang": "ja",
+      "text": "してください。",
+      "start_sample": 41495,
+      "end_sample": 50646,
+      "start_ms": 2593,
+      "end_ms": 3165
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "hashi wo watatsu tara sugu ni left turn shi te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7972,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "橋を渡ったらすぐに",
+          "start_sample": 0,
+          "end_sample": 55121,
+          "start_ms": 0,
+          "end_ms": 3445
+        },
+        {
+          "lang": "en",
+          "text": "left turn",
+          "start_sample": 55121,
+          "end_sample": 80920,
+          "start_ms": 3445,
+          "end_ms": 5058
+        },
+        {
+          "lang": "ja",
+          "text": "してください。",
+          "start_sample": 80920,
+          "end_sample": 127549,
+          "start_ms": 5058,
+          "end_ms": 7972
+        }
+      ]
+    },
+    "ja": {
+      "text": "橋を渡ったらすぐにleft turnしてください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2077,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "橋を渡ったらすぐに",
+          "start_sample": 0,
+          "end_sample": 16296,
+          "start_ms": 0,
+          "end_ms": 1018
+        },
+        {
+          "lang": "en",
+          "text": "left turn",
+          "start_sample": 16296,
+          "end_sample": 23880,
+          "start_ms": 1018,
+          "end_ms": 1492
+        },
+        {
+          "lang": "ja",
+          "text": "してください。",
+          "start_sample": 23880,
+          "end_sample": 33231,
+          "start_ms": 1492,
+          "end_ms": 2077
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

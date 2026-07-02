@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5783.flac",
+  "sentence": "Those 岩 along the garden border were brought in from the riverbed nearby.",
+  "sample_rate": 16000,
+  "duration_ms": 3779,
+  "reference_speaker": "jp/speaker_028_70a7ca54d459.mp3",
+  "seed": 5825,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Those",
+      "start_sample": 0,
+      "end_sample": 3969,
+      "start_ms": 0,
+      "end_ms": 248
+    },
+    {
+      "lang": "ja",
+      "text": "岩",
+      "start_sample": 3969,
+      "end_sample": 7101,
+      "start_ms": 248,
+      "end_ms": 444
+    },
+    {
+      "lang": "en",
+      "text": "along the garden border were brought in from the riverbed nearby.",
+      "start_sample": 7101,
+      "end_sample": 60464,
+      "start_ms": 444,
+      "end_ms": 3779
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Those iwa along the garden border were brought in from the riverbed nearby.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3849,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Those",
+          "start_sample": 0,
+          "end_sample": 4169,
+          "start_ms": 0,
+          "end_ms": 261
+        },
+        {
+          "lang": "ja",
+          "text": "岩",
+          "start_sample": 4169,
+          "end_sample": 8018,
+          "start_ms": 261,
+          "end_ms": 501
+        },
+        {
+          "lang": "en",
+          "text": "along the garden border were brought in from the riverbed nearby.",
+          "start_sample": 8018,
+          "end_sample": 61581,
+          "start_ms": 501,
+          "end_ms": 3849
+        }
+      ]
+    },
+    "ja": {
+      "text": "Those 岩 along the garden border were brought in from the riverbed nearby.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4636,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Those",
+          "start_sample": 0,
+          "end_sample": 6419,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "ja",
+          "text": "岩",
+          "start_sample": 6419,
+          "end_sample": 9951,
+          "start_ms": 401,
+          "end_ms": 622
+        },
+        {
+          "lang": "en",
+          "text": "along the garden border were brought in from the riverbed nearby.",
+          "start_sample": 9951,
+          "end_sample": 74174,
+          "start_ms": 622,
+          "end_ms": 4636
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 189,
+  "frame_labels": "eeeeeeeeeeeejjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

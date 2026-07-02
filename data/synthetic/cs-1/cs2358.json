@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs2358.flac",
+  "sentence": "scrapsをゴミ箱に捨てる前に、袋に入れてください。",
+  "sample_rate": 16000,
+  "duration_ms": 3657,
+  "reference_speaker": "en/speaker_021_0c003e301f78.mp3",
+  "seed": 2400,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "scraps",
+      "start_sample": 0,
+      "end_sample": 11337,
+      "start_ms": 0,
+      "end_ms": 709
+    },
+    {
+      "lang": "ja",
+      "text": "をゴミ箱に捨てる前に、袋に入れてください。",
+      "start_sample": 11337,
+      "end_sample": 58510,
+      "start_ms": 709,
+      "end_ms": 3657
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "scraps wo gomihako ni suteru mae ni fukuro ni ire te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5609,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "scraps",
+          "start_sample": 0,
+          "end_sample": 11537,
+          "start_ms": 0,
+          "end_ms": 721
+        },
+        {
+          "lang": "ja",
+          "text": "をゴミ箱に捨てる前に、袋に入れてください。",
+          "start_sample": 11537,
+          "end_sample": 89742,
+          "start_ms": 721,
+          "end_ms": 5609
+        }
+      ]
+    },
+    "ja": {
+      "text": "scrapsをゴミ箱に捨てる前に、袋に入れてください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3513,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "scraps",
+          "start_sample": 0,
+          "end_sample": 8832,
+          "start_ms": 0,
+          "end_ms": 552
+        },
+        {
+          "lang": "ja",
+          "text": "をゴミ箱に捨てる前に、袋に入れてください。",
+          "start_sample": 8832,
+          "end_sample": 56205,
+          "start_ms": 552,
+          "end_ms": 3513
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 183,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

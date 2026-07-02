@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2429.flac",
+  "sentence": "The whole family felt a little 眠い after the big holiday meal.",
+  "sample_rate": 16000,
+  "duration_ms": 3651,
+  "reference_speaker": "jp/speaker_032_e63077fee9e9.mp3",
+  "seed": 2471,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole family felt a little",
+      "start_sample": 0,
+      "end_sample": 27253,
+      "start_ms": 0,
+      "end_ms": 1703
+    },
+    {
+      "lang": "ja",
+      "text": "眠い",
+      "start_sample": 27253,
+      "end_sample": 34704,
+      "start_ms": 1703,
+      "end_ms": 2169
+    },
+    {
+      "lang": "en",
+      "text": "after the big holiday meal.",
+      "start_sample": 34704,
+      "end_sample": 58423,
+      "start_ms": 2169,
+      "end_ms": 3651
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole family felt a little nemui after the big holiday meal.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3773,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole family felt a little",
+          "start_sample": 0,
+          "end_sample": 27453,
+          "start_ms": 0,
+          "end_ms": 1716
+        },
+        {
+          "lang": "ja",
+          "text": "眠い",
+          "start_sample": 27453,
+          "end_sample": 36444,
+          "start_ms": 1716,
+          "end_ms": 2278
+        },
+        {
+          "lang": "en",
+          "text": "after the big holiday meal.",
+          "start_sample": 36444,
+          "end_sample": 60363,
+          "start_ms": 2278,
+          "end_ms": 3773
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole family felt a little 眠い after the big holiday meal.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5728,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole family felt a little",
+          "start_sample": 0,
+          "end_sample": 49345,
+          "start_ms": 0,
+          "end_ms": 3084
+        },
+        {
+          "lang": "ja",
+          "text": "眠い",
+          "start_sample": 49345,
+          "end_sample": 57196,
+          "start_ms": 3084,
+          "end_ms": 3575
+        },
+        {
+          "lang": "en",
+          "text": "after the big holiday meal.",
+          "start_sample": 57196,
+          "end_sample": 91642,
+          "start_ms": 3575,
+          "end_ms": 5728
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 183,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

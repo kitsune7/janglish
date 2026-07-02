@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9311.flac",
+  "sentence": "She asked for a 返金 after realizing she'd bought the wrong size.",
+  "sample_rate": 16000,
+  "duration_ms": 4198,
+  "reference_speaker": "jp/speaker_020_8ca1bbc6858e.mp3",
+  "seed": 9353,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She asked for a",
+      "start_sample": 0,
+      "end_sample": 12780,
+      "start_ms": 0,
+      "end_ms": 799
+    },
+    {
+      "lang": "ja",
+      "text": "返金",
+      "start_sample": 12780,
+      "end_sample": 22340,
+      "start_ms": 799,
+      "end_ms": 1396
+    },
+    {
+      "lang": "en",
+      "text": "after realizing she'd bought the wrong size.",
+      "start_sample": 22340,
+      "end_sample": 67169,
+      "start_ms": 1396,
+      "end_ms": 4198
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She asked for a henkin after realizing she'd bought the wrong size.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4166,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She asked for a",
+          "start_sample": 0,
+          "end_sample": 12980,
+          "start_ms": 0,
+          "end_ms": 811
+        },
+        {
+          "lang": "ja",
+          "text": "返金",
+          "start_sample": 12980,
+          "end_sample": 21633,
+          "start_ms": 811,
+          "end_ms": 1352
+        },
+        {
+          "lang": "en",
+          "text": "after realizing she'd bought the wrong size.",
+          "start_sample": 21633,
+          "end_sample": 66662,
+          "start_ms": 1352,
+          "end_ms": 4166
+        }
+      ]
+    },
+    "ja": {
+      "text": "She asked for a 返金 after realizing she'd bought the wrong size.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5823,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She asked for a",
+          "start_sample": 0,
+          "end_sample": 25378,
+          "start_ms": 0,
+          "end_ms": 1586
+        },
+        {
+          "lang": "ja",
+          "text": "返金",
+          "start_sample": 25378,
+          "end_sample": 35338,
+          "start_ms": 1586,
+          "end_ms": 2209
+        },
+        {
+          "lang": "en",
+          "text": "after realizing she'd bought the wrong size.",
+          "start_sample": 35338,
+          "end_sample": 93166,
+          "start_ms": 2209,
+          "end_ms": 5823
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

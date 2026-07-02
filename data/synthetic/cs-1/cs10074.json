@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10074.flac",
+  "sentence": "バッテリーのcapacityが以前より明らかに落ちている。",
+  "sample_rate": 16000,
+  "duration_ms": 3349,
+  "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 10116,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "バッテリーの",
+      "start_sample": 0,
+      "end_sample": 11512,
+      "start_ms": 0,
+      "end_ms": 720
+    },
+    {
+      "lang": "en",
+      "text": "capacity",
+      "start_sample": 11512,
+      "end_sample": 22173,
+      "start_ms": 720,
+      "end_ms": 1386
+    },
+    {
+      "lang": "ja",
+      "text": "が以前より明らかに落ちている。",
+      "start_sample": 22173,
+      "end_sample": 53586,
+      "start_ms": 1386,
+      "end_ms": 3349
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "batterii no capacity ga izen yori akiraka ni ochi te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6371,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "バッテリーの",
+          "start_sample": 0,
+          "end_sample": 27088,
+          "start_ms": 0,
+          "end_ms": 1693
+        },
+        {
+          "lang": "en",
+          "text": "capacity",
+          "start_sample": 27088,
+          "end_sample": 38149,
+          "start_ms": 1693,
+          "end_ms": 2384
+        },
+        {
+          "lang": "ja",
+          "text": "が以前より明らかに落ちている。",
+          "start_sample": 38149,
+          "end_sample": 101943,
+          "start_ms": 2384,
+          "end_ms": 6371
+        }
+      ]
+    },
+    "ja": {
+      "text": "バッテリーのcapacityが以前より明らかに落ちている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3310,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "バッテリーの",
+          "start_sample": 0,
+          "end_sample": 11712,
+          "start_ms": 0,
+          "end_ms": 732
+        },
+        {
+          "lang": "en",
+          "text": "capacity",
+          "start_sample": 11712,
+          "end_sample": 21341,
+          "start_ms": 732,
+          "end_ms": 1334
+        },
+        {
+          "lang": "ja",
+          "text": "が以前より明らかに落ちている。",
+          "start_sample": 21341,
+          "end_sample": 52954,
+          "start_ms": 1334,
+          "end_ms": 3310
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 168,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

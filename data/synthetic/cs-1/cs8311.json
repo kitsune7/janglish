@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8311.flac",
+  "sentence": "新しいblazerを着てパーティーに行きました。",
+  "sample_rate": 16000,
+  "duration_ms": 3185,
+  "reference_speaker": "jp/speaker_033_59cc0d3a6bc8.mp3",
+  "seed": 8353,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "新しい",
+      "start_sample": 0,
+      "end_sample": 8650,
+      "start_ms": 0,
+      "end_ms": 541
+    },
+    {
+      "lang": "en",
+      "text": "blazer",
+      "start_sample": 8650,
+      "end_sample": 23173,
+      "start_ms": 541,
+      "end_ms": 1448
+    },
+    {
+      "lang": "ja",
+      "text": "を着てパーティーに行きました。",
+      "start_sample": 23173,
+      "end_sample": 50966,
+      "start_ms": 1448,
+      "end_ms": 3185
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "atarashii blazer wo chaku te paateii ni iki mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6378,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 11550,
+          "start_ms": 0,
+          "end_ms": 722
+        },
+        {
+          "lang": "en",
+          "text": "blazer",
+          "start_sample": 11550,
+          "end_sample": 26473,
+          "start_ms": 722,
+          "end_ms": 1655
+        },
+        {
+          "lang": "ja",
+          "text": "を着てパーティーに行きました。",
+          "start_sample": 26473,
+          "end_sample": 102046,
+          "start_ms": 1655,
+          "end_ms": 6378
+        }
+      ]
+    },
+    "ja": {
+      "text": "新しいblazerを着てパーティーに行きました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2796,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 8850,
+          "start_ms": 0,
+          "end_ms": 553
+        },
+        {
+          "lang": "en",
+          "text": "blazer",
+          "start_sample": 8850,
+          "end_sample": 16735,
+          "start_ms": 553,
+          "end_ms": 1046
+        },
+        {
+          "lang": "ja",
+          "text": "を着てパーティーに行きました。",
+          "start_sample": 16735,
+          "end_sample": 44728,
+          "start_ms": 1046,
+          "end_ms": 2796
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

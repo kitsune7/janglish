@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8989.flac",
+  "sentence": "She packed the gift 丁寧に and tied a ribbon around the finished box.",
+  "sample_rate": 16000,
+  "duration_ms": 3669,
+  "reference_speaker": "jp/speaker_009_33102318f73b.mp3",
+  "seed": 9031,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She packed the gift",
+      "start_sample": 0,
+      "end_sample": 13003,
+      "start_ms": 0,
+      "end_ms": 813
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧に",
+      "start_sample": 13003,
+      "end_sample": 28323,
+      "start_ms": 813,
+      "end_ms": 1770
+    },
+    {
+      "lang": "en",
+      "text": "and tied a ribbon around the finished box.",
+      "start_sample": 28323,
+      "end_sample": 58710,
+      "start_ms": 1770,
+      "end_ms": 3669
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She packed the gift teinei ni and tied a ribbon around the finished box.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3280,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She packed the gift",
+          "start_sample": 0,
+          "end_sample": 13203,
+          "start_ms": 0,
+          "end_ms": 825
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧に",
+          "start_sample": 13203,
+          "end_sample": 21897,
+          "start_ms": 825,
+          "end_ms": 1369
+        },
+        {
+          "lang": "en",
+          "text": "and tied a ribbon around the finished box.",
+          "start_sample": 21897,
+          "end_sample": 52484,
+          "start_ms": 1369,
+          "end_ms": 3280
+        }
+      ]
+    },
+    "ja": {
+      "text": "She packed the gift 丁寧に and tied a ribbon around the finished box.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5233,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She packed the gift",
+          "start_sample": 0,
+          "end_sample": 21332,
+          "start_ms": 0,
+          "end_ms": 1333
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧に",
+          "start_sample": 21332,
+          "end_sample": 37052,
+          "start_ms": 1333,
+          "end_ms": 2316
+        },
+        {
+          "lang": "en",
+          "text": "and tied a ribbon around the finished box.",
+          "start_sample": 37052,
+          "end_sample": 83726,
+          "start_ms": 2316,
+          "end_ms": 5233
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 184,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

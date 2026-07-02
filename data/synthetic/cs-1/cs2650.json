@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2650.flac",
+  "sentence": "Is there a 医者 anywhere in this building right now?",
+  "sample_rate": 16000,
+  "duration_ms": 5359,
+  "reference_speaker": "en/speaker_087_5027771311b0.mp3",
+  "seed": 2692,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Is there a",
+      "start_sample": 0,
+      "end_sample": 21584,
+      "start_ms": 0,
+      "end_ms": 1349
+    },
+    {
+      "lang": "ja",
+      "text": "医者",
+      "start_sample": 21584,
+      "end_sample": 35011,
+      "start_ms": 1349,
+      "end_ms": 2188
+    },
+    {
+      "lang": "en",
+      "text": "anywhere in this building right now?",
+      "start_sample": 35011,
+      "end_sample": 85750,
+      "start_ms": 2188,
+      "end_ms": 5359
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Is there a isha anywhere in this building right now?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5506,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is there a",
+          "start_sample": 0,
+          "end_sample": 21784,
+          "start_ms": 0,
+          "end_ms": 1362
+        },
+        {
+          "lang": "ja",
+          "text": "医者",
+          "start_sample": 21784,
+          "end_sample": 37162,
+          "start_ms": 1362,
+          "end_ms": 2323
+        },
+        {
+          "lang": "en",
+          "text": "anywhere in this building right now?",
+          "start_sample": 37162,
+          "end_sample": 88101,
+          "start_ms": 2323,
+          "end_ms": 5506
+        }
+      ]
+    },
+    "ja": {
+      "text": "Is there a 医者 anywhere in this building right now?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4541,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is there a",
+          "start_sample": 0,
+          "end_sample": 16234,
+          "start_ms": 0,
+          "end_ms": 1015
+        },
+        {
+          "lang": "ja",
+          "text": "医者",
+          "start_sample": 16234,
+          "end_sample": 30061,
+          "start_ms": 1015,
+          "end_ms": 1879
+        },
+        {
+          "lang": "en",
+          "text": "anywhere in this building right now?",
+          "start_sample": 30061,
+          "end_sample": 72663,
+          "start_ms": 1879,
+          "end_ms": 4541
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 268,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

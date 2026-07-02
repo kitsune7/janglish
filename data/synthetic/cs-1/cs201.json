@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs201.flac",
+  "sentence": "彼のfaceはとても整った顔立ちをしています。",
+  "sample_rate": 16000,
+  "duration_ms": 3618,
+  "reference_speaker": "jp/speaker_066_d870c5c7ad93.mp3",
+  "seed": 243,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼の",
+      "start_sample": 0,
+      "end_sample": 5435,
+      "start_ms": 0,
+      "end_ms": 340
+    },
+    {
+      "lang": "en",
+      "text": "face",
+      "start_sample": 5435,
+      "end_sample": 18805,
+      "start_ms": 340,
+      "end_ms": 1175
+    },
+    {
+      "lang": "ja",
+      "text": "はとても整った顔立ちをしています。",
+      "start_sample": 18805,
+      "end_sample": 57884,
+      "start_ms": 1175,
+      "end_ms": 3618
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare no face ha totemo totonotsu ta kaodachi wo shi te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8666,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼の",
+          "start_sample": 0,
+          "end_sample": 32664,
+          "start_ms": 0,
+          "end_ms": 2042
+        },
+        {
+          "lang": "en",
+          "text": "face",
+          "start_sample": 32664,
+          "end_sample": 46434,
+          "start_ms": 2042,
+          "end_ms": 2902
+        },
+        {
+          "lang": "ja",
+          "text": "はとても整った顔立ちをしています。",
+          "start_sample": 46434,
+          "end_sample": 138663,
+          "start_ms": 2902,
+          "end_ms": 8666
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼のfaceはとても整った顔立ちをしています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3159,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼の",
+          "start_sample": 0,
+          "end_sample": 5635,
+          "start_ms": 0,
+          "end_ms": 352
+        },
+        {
+          "lang": "en",
+          "text": "face",
+          "start_sample": 5635,
+          "end_sample": 11270,
+          "start_ms": 352,
+          "end_ms": 704
+        },
+        {
+          "lang": "ja",
+          "text": "はとても整った顔立ちをしています。",
+          "start_sample": 11270,
+          "end_sample": 50549,
+          "start_ms": 704,
+          "end_ms": 3159
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 181,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

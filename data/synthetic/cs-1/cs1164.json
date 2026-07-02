@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1164.flac",
+  "sentence": "The 明暗差 in this scene is too extreme for the sensor to handle well.",
+  "sample_rate": 16000,
+  "duration_ms": 3912,
+  "reference_speaker": "jp/speaker_012_14fe5dfafe10.mp3",
+  "seed": 1206,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1243,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "明暗差",
+      "start_sample": 1243,
+      "end_sample": 13534,
+      "start_ms": 78,
+      "end_ms": 846
+    },
+    {
+      "lang": "en",
+      "text": "in this scene is too extreme for the sensor to handle well.",
+      "start_sample": 13534,
+      "end_sample": 62592,
+      "start_ms": 846,
+      "end_ms": 3912
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The meian sa in this scene is too extreme for the sensor to handle well.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3851,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1443,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "明暗差",
+          "start_sample": 1443,
+          "end_sample": 12355,
+          "start_ms": 90,
+          "end_ms": 772
+        },
+        {
+          "lang": "en",
+          "text": "in this scene is too extreme for the sensor to handle well.",
+          "start_sample": 12355,
+          "end_sample": 61613,
+          "start_ms": 772,
+          "end_ms": 3851
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 明暗差 in this scene is too extreme for the sensor to handle well.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5883,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3855,
+          "start_ms": 0,
+          "end_ms": 241
+        },
+        {
+          "lang": "ja",
+          "text": "明暗差",
+          "start_sample": 3855,
+          "end_sample": 16546,
+          "start_ms": 241,
+          "end_ms": 1034
+        },
+        {
+          "lang": "en",
+          "text": "in this scene is too extreme for the sensor to handle well.",
+          "start_sample": 16546,
+          "end_sample": 94133,
+          "start_ms": 1034,
+          "end_ms": 5883
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

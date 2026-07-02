@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6993.flac",
+  "sentence": "息子のenergeticな動きについていくのがやっとだ。",
+  "sample_rate": 16000,
+  "duration_ms": 4520,
+  "reference_speaker": "jp/speaker_090_d408fe95e0f2.mp3",
+  "seed": 7035,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "息子の",
+      "start_sample": 0,
+      "end_sample": 9099,
+      "start_ms": 0,
+      "end_ms": 569
+    },
+    {
+      "lang": "en",
+      "text": "energetic",
+      "start_sample": 9099,
+      "end_sample": 37243,
+      "start_ms": 569,
+      "end_ms": 2328
+    },
+    {
+      "lang": "ja",
+      "text": "な動きについていくのがやっとだ。",
+      "start_sample": 37243,
+      "end_sample": 72315,
+      "start_ms": 2328,
+      "end_ms": 4520
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "musuko no energetic na ugoki ni tsui te iku no ga yatto da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9842,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "息子の",
+          "start_sample": 0,
+          "end_sample": 40570,
+          "start_ms": 0,
+          "end_ms": 2536
+        },
+        {
+          "lang": "en",
+          "text": "energetic",
+          "start_sample": 40570,
+          "end_sample": 69114,
+          "start_ms": 2536,
+          "end_ms": 4320
+        },
+        {
+          "lang": "ja",
+          "text": "な動きについていくのがやっとだ。",
+          "start_sample": 69114,
+          "end_sample": 157470,
+          "start_ms": 4320,
+          "end_ms": 9842
+        }
+      ]
+    },
+    "ja": {
+      "text": "息子のenergeticな動きについていくのがやっとだ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3627,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "息子の",
+          "start_sample": 0,
+          "end_sample": 9299,
+          "start_ms": 0,
+          "end_ms": 581
+        },
+        {
+          "lang": "en",
+          "text": "energetic",
+          "start_sample": 9299,
+          "end_sample": 22767,
+          "start_ms": 581,
+          "end_ms": 1423
+        },
+        {
+          "lang": "ja",
+          "text": "な動きについていくのがやっとだ。",
+          "start_sample": 22767,
+          "end_sample": 58039,
+          "start_ms": 1423,
+          "end_ms": 3627
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 226,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

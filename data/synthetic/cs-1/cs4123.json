@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4123.flac",
+  "sentence": "ハロウィンのevening、近所の子どもたちが次々とやってきた。",
+  "sample_rate": 16000,
+  "duration_ms": 3560,
+  "reference_speaker": "jp/speaker_080_c886ae0e1a09.mp3",
+  "seed": 4165,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "ハロウィンの",
+      "start_sample": 0,
+      "end_sample": 8622,
+      "start_ms": 0,
+      "end_ms": 539
+    },
+    {
+      "lang": "en",
+      "text": "evening、",
+      "start_sample": 8622,
+      "end_sample": 18656,
+      "start_ms": 539,
+      "end_ms": 1166
+    },
+    {
+      "lang": "ja",
+      "text": "近所の子どもたちが次々とやってきた。",
+      "start_sample": 18656,
+      "end_sample": 56953,
+      "start_ms": 1166,
+      "end_ms": 3560
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "harouin no evening、 kinjo no kodomo tachi ga tsugitsugi to yatsu te ki ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7223,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ハロウィンの",
+          "start_sample": 0,
+          "end_sample": 15248,
+          "start_ms": 0,
+          "end_ms": 953
+        },
+        {
+          "lang": "en",
+          "text": "evening、",
+          "start_sample": 15248,
+          "end_sample": 25682,
+          "start_ms": 953,
+          "end_ms": 1605
+        },
+        {
+          "lang": "ja",
+          "text": "近所の子どもたちが次々とやってきた。",
+          "start_sample": 25682,
+          "end_sample": 115570,
+          "start_ms": 1605,
+          "end_ms": 7223
+        }
+      ]
+    },
+    "ja": {
+      "text": "ハロウィンのevening、近所の子どもたちが次々とやってきた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3529,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ハロウィンの",
+          "start_sample": 0,
+          "end_sample": 8822,
+          "start_ms": 0,
+          "end_ms": 551
+        },
+        {
+          "lang": "en",
+          "text": "evening、",
+          "start_sample": 8822,
+          "end_sample": 17965,
+          "start_ms": 551,
+          "end_ms": 1123
+        },
+        {
+          "lang": "ja",
+          "text": "近所の子どもたちが次々とやってきた。",
+          "start_sample": 17965,
+          "end_sample": 56462,
+          "start_ms": 1123,
+          "end_ms": 3529
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 178,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

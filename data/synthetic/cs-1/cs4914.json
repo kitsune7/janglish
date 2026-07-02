@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4914.flac",
+  "sentence": "エンジンからoddな音がして、ちょっと心配です。",
+  "sample_rate": 16000,
+  "duration_ms": 2949,
+  "reference_speaker": "jp/speaker_026_f1fcfd0f4786.mp3",
+  "seed": 4956,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "エンジンから",
+      "start_sample": 0,
+      "end_sample": 10070,
+      "start_ms": 0,
+      "end_ms": 629
+    },
+    {
+      "lang": "en",
+      "text": "odd",
+      "start_sample": 10070,
+      "end_sample": 19305,
+      "start_ms": 629,
+      "end_ms": 1207
+    },
+    {
+      "lang": "ja",
+      "text": "な音がして、ちょっと心配です。",
+      "start_sample": 19305,
+      "end_sample": 47186,
+      "start_ms": 1207,
+      "end_ms": 2949
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "enjin kara odd na oto ga shi te chotto shinpai desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5720,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "エンジンから",
+          "start_sample": 0,
+          "end_sample": 19747,
+          "start_ms": 0,
+          "end_ms": 1234
+        },
+        {
+          "lang": "en",
+          "text": "odd",
+          "start_sample": 19747,
+          "end_sample": 29382,
+          "start_ms": 1234,
+          "end_ms": 1836
+        },
+        {
+          "lang": "ja",
+          "text": "な音がして、ちょっと心配です。",
+          "start_sample": 29382,
+          "end_sample": 91521,
+          "start_ms": 1836,
+          "end_ms": 5720
+        }
+      ]
+    },
+    "ja": {
+      "text": "エンジンからoddな音がして、ちょっと心配です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2668,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "エンジンから",
+          "start_sample": 0,
+          "end_sample": 10270,
+          "start_ms": 0,
+          "end_ms": 642
+        },
+        {
+          "lang": "en",
+          "text": "odd",
+          "start_sample": 10270,
+          "end_sample": 14603,
+          "start_ms": 642,
+          "end_ms": 913
+        },
+        {
+          "lang": "ja",
+          "text": "な音がして、ちょっと心配です。",
+          "start_sample": 14603,
+          "end_sample": 42684,
+          "start_ms": 913,
+          "end_ms": 2668
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 148,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

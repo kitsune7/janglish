@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6842.flac",
+  "sentence": "I always feel a little 寂しい when summer finally ends.",
+  "sample_rate": 16000,
+  "duration_ms": 4200,
+  "reference_speaker": "jp/speaker_038_fa40784c77e2.mp3",
+  "seed": 6884,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always feel a little",
+      "start_sample": 0,
+      "end_sample": 24812,
+      "start_ms": 0,
+      "end_ms": 1551
+    },
+    {
+      "lang": "ja",
+      "text": "寂しい",
+      "start_sample": 24812,
+      "end_sample": 37260,
+      "start_ms": 1551,
+      "end_ms": 2329
+    },
+    {
+      "lang": "en",
+      "text": "when summer finally ends.",
+      "start_sample": 37260,
+      "end_sample": 67203,
+      "start_ms": 2329,
+      "end_ms": 4200
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always feel a little sabishii when summer finally ends.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4169,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel a little",
+          "start_sample": 0,
+          "end_sample": 25012,
+          "start_ms": 0,
+          "end_ms": 1563
+        },
+        {
+          "lang": "ja",
+          "text": "寂しい",
+          "start_sample": 25012,
+          "end_sample": 36557,
+          "start_ms": 1563,
+          "end_ms": 2285
+        },
+        {
+          "lang": "en",
+          "text": "when summer finally ends.",
+          "start_sample": 36557,
+          "end_sample": 66700,
+          "start_ms": 2285,
+          "end_ms": 4169
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always feel a little 寂しい when summer finally ends.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4396,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel a little",
+          "start_sample": 0,
+          "end_sample": 26014,
+          "start_ms": 0,
+          "end_ms": 1626
+        },
+        {
+          "lang": "ja",
+          "text": "寂しい",
+          "start_sample": 26014,
+          "end_sample": 38862,
+          "start_ms": 1626,
+          "end_ms": 2429
+        },
+        {
+          "lang": "en",
+          "text": "when summer finally ends.",
+          "start_sample": 38862,
+          "end_sample": 70338,
+          "start_ms": 2429,
+          "end_ms": 4396
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 211,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

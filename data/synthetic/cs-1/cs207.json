@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs207.flac",
+  "sentence": "空港でlost baggage の手続きをしなければなりませんでした。",
+  "sample_rate": 16000,
+  "duration_ms": 4314,
+  "reference_speaker": "en/speaker_092_0f181b6e11f2.mp3",
+  "seed": 249,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "空港で",
+      "start_sample": 0,
+      "end_sample": 12481,
+      "start_ms": 0,
+      "end_ms": 780
+    },
+    {
+      "lang": "en",
+      "text": "lost baggage",
+      "start_sample": 12481,
+      "end_sample": 26842,
+      "start_ms": 780,
+      "end_ms": 1678
+    },
+    {
+      "lang": "ja",
+      "text": "の手続きをしなければなりませんでした。",
+      "start_sample": 26842,
+      "end_sample": 69019,
+      "start_ms": 1678,
+      "end_ms": 4314
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kuukou de lost baggage no tetsuzuki wo shi nakere ba nari mase n deshi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6698,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "空港で",
+          "start_sample": 0,
+          "end_sample": 9144,
+          "start_ms": 0,
+          "end_ms": 572
+        },
+        {
+          "lang": "en",
+          "text": "lost baggage",
+          "start_sample": 9144,
+          "end_sample": 23905,
+          "start_ms": 572,
+          "end_ms": 1494
+        },
+        {
+          "lang": "ja",
+          "text": "の手続きをしなければなりませんでした。",
+          "start_sample": 23905,
+          "end_sample": 107173,
+          "start_ms": 1494,
+          "end_ms": 6698
+        }
+      ]
+    },
+    "ja": {
+      "text": "空港でlost baggage の手続きをしなければなりませんでした。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4575,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "空港で",
+          "start_sample": 0,
+          "end_sample": 12681,
+          "start_ms": 0,
+          "end_ms": 793
+        },
+        {
+          "lang": "en",
+          "text": "lost baggage",
+          "start_sample": 12681,
+          "end_sample": 30821,
+          "start_ms": 793,
+          "end_ms": 1926
+        },
+        {
+          "lang": "ja",
+          "text": "の手続きをしなければなりませんでした。",
+          "start_sample": 30821,
+          "end_sample": 73198,
+          "start_ms": 1926,
+          "end_ms": 4575
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 216,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs682.flac",
+  "sentence": "There's a distinct 季節感 to the smell of rain on dry pavement that feels instantly 懐かしい.",
+  "sample_rate": 16000,
+  "duration_ms": 5490,
+  "reference_speaker": "jp/speaker_009_33102318f73b.mp3",
+  "seed": 17537,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "There's a distinct",
+      "start_sample": 0,
+      "end_sample": 15371,
+      "start_ms": 0,
+      "end_ms": 961
+    },
+    {
+      "lang": "ja",
+      "text": "季節感",
+      "start_sample": 15371,
+      "end_sample": 26667,
+      "start_ms": 961,
+      "end_ms": 1667
+    },
+    {
+      "lang": "en",
+      "text": "to the smell of rain on dry pavement that feels instantly",
+      "start_sample": 26667,
+      "end_sample": 77154,
+      "start_ms": 1667,
+      "end_ms": 4822
+    },
+    {
+      "lang": "ja",
+      "text": "懐かしい.",
+      "start_sample": 77154,
+      "end_sample": 87848,
+      "start_ms": 4822,
+      "end_ms": 5490
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "There's a distinct kisetsu kan to the smell of rain on dry pavement that feels instantly natsukashii",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6000,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "There's a distinct",
+          "start_sample": 0,
+          "end_sample": 15571,
+          "start_ms": 0,
+          "end_ms": 973
+        },
+        {
+          "lang": "ja",
+          "text": "季節感",
+          "start_sample": 15571,
+          "end_sample": 31784,
+          "start_ms": 973,
+          "end_ms": 1986
+        },
+        {
+          "lang": "en",
+          "text": "to the smell of rain on dry pavement that feels instantly",
+          "start_sample": 31784,
+          "end_sample": 82671,
+          "start_ms": 1986,
+          "end_ms": 5167
+        },
+        {
+          "lang": "ja",
+          "text": "懐かしい.",
+          "start_sample": 82671,
+          "end_sample": 95992,
+          "start_ms": 5167,
+          "end_ms": 6000
+        }
+      ]
+    },
+    "ja": {
+      "text": "There's a distinct 季節感 to the smell of rain on dry pavement that feels instantly 懐かしい.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7029,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "There's a distinct",
+          "start_sample": 0,
+          "end_sample": 16499,
+          "start_ms": 0,
+          "end_ms": 1031
+        },
+        {
+          "lang": "ja",
+          "text": "季節感",
+          "start_sample": 16499,
+          "end_sample": 28195,
+          "start_ms": 1031,
+          "end_ms": 1762
+        },
+        {
+          "lang": "en",
+          "text": "to the smell of rain on dry pavement that feels instantly",
+          "start_sample": 28195,
+          "end_sample": 101569,
+          "start_ms": 1762,
+          "end_ms": 6348
+        },
+        {
+          "lang": "ja",
+          "text": "懐かしい.",
+          "start_sample": 101569,
+          "end_sample": 112463,
+          "start_ms": 6348,
+          "end_ms": 7029
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 275,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

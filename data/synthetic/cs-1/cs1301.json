@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs1301.flac",
+  "sentence": "bathroomのタイルにカビが生えてきた。",
+  "sample_rate": 16000,
+  "duration_ms": 2374,
+  "reference_speaker": "jp/speaker_012_14fe5dfafe10.mp3",
+  "seed": 1343,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "bathroom",
+      "start_sample": 0,
+      "end_sample": 12938,
+      "start_ms": 0,
+      "end_ms": 809
+    },
+    {
+      "lang": "ja",
+      "text": "のタイルにカビが生えてきた。",
+      "start_sample": 12938,
+      "end_sample": 37987,
+      "start_ms": 809,
+      "end_ms": 2374
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "bathroom no tairu ni kabi ga hae te ki ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3725,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "bathroom",
+          "start_sample": 0,
+          "end_sample": 13138,
+          "start_ms": 0,
+          "end_ms": 821
+        },
+        {
+          "lang": "ja",
+          "text": "のタイルにカビが生えてきた。",
+          "start_sample": 13138,
+          "end_sample": 59604,
+          "start_ms": 821,
+          "end_ms": 3725
+        }
+      ]
+    },
+    "ja": {
+      "text": "bathroomのタイルにカビが生えてきた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2111,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "bathroom",
+          "start_sample": 0,
+          "end_sample": 8524,
+          "start_ms": 0,
+          "end_ms": 533
+        },
+        {
+          "lang": "ja",
+          "text": "のタイルにカビが生えてきた。",
+          "start_sample": 8524,
+          "end_sample": 33773,
+          "start_ms": 533,
+          "end_ms": 2111
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 119,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

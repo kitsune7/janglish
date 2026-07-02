@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1114.flac",
+  "sentence": "I've been keeping a 症状 diary to track what triggers the headaches.",
+  "sample_rate": 16000,
+  "duration_ms": 4469,
+  "reference_speaker": "jp/speaker_092_08c69e35de07.mp3",
+  "seed": 1156,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I've been keeping a",
+      "start_sample": 0,
+      "end_sample": 16153,
+      "start_ms": 0,
+      "end_ms": 1010
+    },
+    {
+      "lang": "ja",
+      "text": "症状",
+      "start_sample": 16153,
+      "end_sample": 23447,
+      "start_ms": 1010,
+      "end_ms": 1465
+    },
+    {
+      "lang": "en",
+      "text": "diary to track what triggers the headaches.",
+      "start_sample": 23447,
+      "end_sample": 71511,
+      "start_ms": 1465,
+      "end_ms": 4469
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I've been keeping a shoujou diary to track what triggers the headaches.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4450,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've been keeping a",
+          "start_sample": 0,
+          "end_sample": 16353,
+          "start_ms": 0,
+          "end_ms": 1022
+        },
+        {
+          "lang": "ja",
+          "text": "症状",
+          "start_sample": 16353,
+          "end_sample": 22928,
+          "start_ms": 1022,
+          "end_ms": 1433
+        },
+        {
+          "lang": "en",
+          "text": "diary to track what triggers the headaches.",
+          "start_sample": 22928,
+          "end_sample": 71192,
+          "start_ms": 1433,
+          "end_ms": 4450
+        }
+      ]
+    },
+    "ja": {
+      "text": "I've been keeping a 症状 diary to track what triggers the headaches.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5389,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've been keeping a",
+          "start_sample": 0,
+          "end_sample": 16506,
+          "start_ms": 0,
+          "end_ms": 1032
+        },
+        {
+          "lang": "ja",
+          "text": "症状",
+          "start_sample": 16506,
+          "end_sample": 24200,
+          "start_ms": 1032,
+          "end_ms": 1512
+        },
+        {
+          "lang": "en",
+          "text": "diary to track what triggers the headaches.",
+          "start_sample": 24200,
+          "end_sample": 86226,
+          "start_ms": 1512,
+          "end_ms": 5389
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 224,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

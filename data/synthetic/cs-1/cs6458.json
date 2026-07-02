@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6458.flac",
+  "sentence": "引き出しの中がclutteredになっていて、何も見つかりません。",
+  "sample_rate": 16000,
+  "duration_ms": 3891,
+  "reference_speaker": "en/speaker_086_0a418a567872.mp3",
+  "seed": 6500,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "引き出しの中が",
+      "start_sample": 0,
+      "end_sample": 14569,
+      "start_ms": 0,
+      "end_ms": 911
+    },
+    {
+      "lang": "en",
+      "text": "cluttered",
+      "start_sample": 14569,
+      "end_sample": 26181,
+      "start_ms": 911,
+      "end_ms": 1636
+    },
+    {
+      "lang": "ja",
+      "text": "になっていて、何も見つかりません。",
+      "start_sample": 26181,
+      "end_sample": 62261,
+      "start_ms": 1636,
+      "end_ms": 3891
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "hikidashi no naka ga cluttered ni natsu te i te nani mo mitsukari mase n",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6366,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "引き出しの中が",
+          "start_sample": 0,
+          "end_sample": 23702,
+          "start_ms": 0,
+          "end_ms": 1481
+        },
+        {
+          "lang": "en",
+          "text": "cluttered",
+          "start_sample": 23702,
+          "end_sample": 35714,
+          "start_ms": 1481,
+          "end_ms": 2232
+        },
+        {
+          "lang": "ja",
+          "text": "になっていて、何も見つかりません。",
+          "start_sample": 35714,
+          "end_sample": 101858,
+          "start_ms": 2232,
+          "end_ms": 6366
+        }
+      ]
+    },
+    "ja": {
+      "text": "引き出しの中がclutteredになっていて、何も見つかりません。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3953,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "引き出しの中が",
+          "start_sample": 0,
+          "end_sample": 14769,
+          "start_ms": 0,
+          "end_ms": 923
+        },
+        {
+          "lang": "en",
+          "text": "cluttered",
+          "start_sample": 14769,
+          "end_sample": 26970,
+          "start_ms": 923,
+          "end_ms": 1686
+        },
+        {
+          "lang": "ja",
+          "text": "になっていて、何も見つかりません。",
+          "start_sample": 26970,
+          "end_sample": 63250,
+          "start_ms": 1686,
+          "end_ms": 3953
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 195,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

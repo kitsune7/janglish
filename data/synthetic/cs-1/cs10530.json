@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10530.flac",
+  "sentence": "She carries a quiet 悲しみ that she rarely lets anyone see.",
+  "sample_rate": 16000,
+  "duration_ms": 4103,
+  "reference_speaker": "jp/speaker_034_3e5442a60675.mp3",
+  "seed": 10572,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She carries a quiet",
+      "start_sample": 0,
+      "end_sample": 18904,
+      "start_ms": 0,
+      "end_ms": 1182
+    },
+    {
+      "lang": "ja",
+      "text": "悲しみ",
+      "start_sample": 18904,
+      "end_sample": 28286,
+      "start_ms": 1182,
+      "end_ms": 1768
+    },
+    {
+      "lang": "en",
+      "text": "that she rarely lets anyone see.",
+      "start_sample": 28286,
+      "end_sample": 65649,
+      "start_ms": 1768,
+      "end_ms": 4103
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She carries a quiet kanashimi that she rarely lets anyone see.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4515,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She carries a quiet",
+          "start_sample": 0,
+          "end_sample": 19104,
+          "start_ms": 0,
+          "end_ms": 1194
+        },
+        {
+          "lang": "ja",
+          "text": "悲しみ",
+          "start_sample": 19104,
+          "end_sample": 34677,
+          "start_ms": 1194,
+          "end_ms": 2167
+        },
+        {
+          "lang": "en",
+          "text": "that she rarely lets anyone see.",
+          "start_sample": 34677,
+          "end_sample": 72240,
+          "start_ms": 2167,
+          "end_ms": 4515
+        }
+      ]
+    },
+    "ja": {
+      "text": "She carries a quiet 悲しみ that she rarely lets anyone see.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5332,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She carries a quiet",
+          "start_sample": 0,
+          "end_sample": 27259,
+          "start_ms": 0,
+          "end_ms": 1704
+        },
+        {
+          "lang": "ja",
+          "text": "悲しみ",
+          "start_sample": 27259,
+          "end_sample": 37041,
+          "start_ms": 1704,
+          "end_ms": 2315
+        },
+        {
+          "lang": "en",
+          "text": "that she rarely lets anyone see.",
+          "start_sample": 37041,
+          "end_sample": 85304,
+          "start_ms": 2315,
+          "end_ms": 5332
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 206,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

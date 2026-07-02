@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1639.flac",
+  "sentence": "Our parrot somehow learned to say 大丈夫 and now he says it constantly.",
+  "sample_rate": 16000,
+  "duration_ms": 6022,
+  "reference_speaker": "en/speaker_092_0f181b6e11f2.mp3",
+  "seed": 1681,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Our parrot somehow learned to say",
+      "start_sample": 0,
+      "end_sample": 36675,
+      "start_ms": 0,
+      "end_ms": 2292
+    },
+    {
+      "lang": "ja",
+      "text": "大丈夫",
+      "start_sample": 36675,
+      "end_sample": 50538,
+      "start_ms": 2292,
+      "end_ms": 3159
+    },
+    {
+      "lang": "en",
+      "text": "and now he says it constantly.",
+      "start_sample": 50538,
+      "end_sample": 96351,
+      "start_ms": 3159,
+      "end_ms": 6022
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Our parrot somehow learned to say daijoubu and now he says it constantly.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6373,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Our parrot somehow learned to say",
+          "start_sample": 0,
+          "end_sample": 36875,
+          "start_ms": 0,
+          "end_ms": 2305
+        },
+        {
+          "lang": "ja",
+          "text": "大丈夫",
+          "start_sample": 36875,
+          "end_sample": 55955,
+          "start_ms": 2305,
+          "end_ms": 3497
+        },
+        {
+          "lang": "en",
+          "text": "and now he says it constantly.",
+          "start_sample": 55955,
+          "end_sample": 101968,
+          "start_ms": 3497,
+          "end_ms": 6373
+        }
+      ]
+    },
+    "ja": {
+      "text": "Our parrot somehow learned to say 大丈夫 and now he says it constantly.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6310,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Our parrot somehow learned to say",
+          "start_sample": 0,
+          "end_sample": 47433,
+          "start_ms": 0,
+          "end_ms": 2965
+        },
+        {
+          "lang": "ja",
+          "text": "大丈夫",
+          "start_sample": 47433,
+          "end_sample": 61696,
+          "start_ms": 2965,
+          "end_ms": 3856
+        },
+        {
+          "lang": "en",
+          "text": "and now he says it constantly.",
+          "start_sample": 61696,
+          "end_sample": 100957,
+          "start_ms": 3856,
+          "end_ms": 6310
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 302,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1442.flac",
+  "sentence": "彼女のストールのpatternが個性的でとても素敵です。",
+  "sample_rate": 16000,
+  "duration_ms": 4163,
+  "reference_speaker": "en/speaker_049_4b799abf92c3.mp3",
+  "seed": 1484,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女のストールの",
+      "start_sample": 0,
+      "end_sample": 15693,
+      "start_ms": 0,
+      "end_ms": 981
+    },
+    {
+      "lang": "en",
+      "text": "pattern",
+      "start_sample": 15693,
+      "end_sample": 27633,
+      "start_ms": 981,
+      "end_ms": 1727
+    },
+    {
+      "lang": "ja",
+      "text": "が個性的でとても素敵です。",
+      "start_sample": 27633,
+      "end_sample": 66603,
+      "start_ms": 1727,
+      "end_ms": 4163
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo no sutooru no pattern ga kosei teki de totemo suteki desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8854,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女のストールの",
+          "start_sample": 0,
+          "end_sample": 51762,
+          "start_ms": 0,
+          "end_ms": 3235
+        },
+        {
+          "lang": "en",
+          "text": "pattern",
+          "start_sample": 51762,
+          "end_sample": 64102,
+          "start_ms": 3235,
+          "end_ms": 4006
+        },
+        {
+          "lang": "ja",
+          "text": "が個性的でとても素敵です。",
+          "start_sample": 64102,
+          "end_sample": 141664,
+          "start_ms": 4006,
+          "end_ms": 8854
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女のストールのpatternが個性的でとても素敵です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3873,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女のストールの",
+          "start_sample": 0,
+          "end_sample": 15893,
+          "start_ms": 0,
+          "end_ms": 993
+        },
+        {
+          "lang": "en",
+          "text": "pattern",
+          "start_sample": 15893,
+          "end_sample": 22796,
+          "start_ms": 993,
+          "end_ms": 1425
+        },
+        {
+          "lang": "ja",
+          "text": "が個性的でとても素敵です。",
+          "start_sample": 22796,
+          "end_sample": 61966,
+          "start_ms": 1425,
+          "end_ms": 3873
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 209,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

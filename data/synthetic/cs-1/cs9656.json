@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9656.flac",
+  "sentence": "She was 沈黙 for a full minute before responding on the call.",
+  "sample_rate": 16000,
+  "duration_ms": 4527,
+  "reference_speaker": "jp/speaker_088_9d72b694e145.mp3",
+  "seed": 9698,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She was",
+      "start_sample": 0,
+      "end_sample": 6862,
+      "start_ms": 0,
+      "end_ms": 429
+    },
+    {
+      "lang": "ja",
+      "text": "沈黙",
+      "start_sample": 6862,
+      "end_sample": 16269,
+      "start_ms": 429,
+      "end_ms": 1017
+    },
+    {
+      "lang": "en",
+      "text": "for a full minute before responding on the call.",
+      "start_sample": 16269,
+      "end_sample": 72432,
+      "start_ms": 1017,
+      "end_ms": 4527
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She was chinmoku for a full minute before responding on the call.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4978,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She was",
+          "start_sample": 0,
+          "end_sample": 7062,
+          "start_ms": 0,
+          "end_ms": 441
+        },
+        {
+          "lang": "ja",
+          "text": "沈黙",
+          "start_sample": 7062,
+          "end_sample": 23282,
+          "start_ms": 441,
+          "end_ms": 1455
+        },
+        {
+          "lang": "en",
+          "text": "for a full minute before responding on the call.",
+          "start_sample": 23282,
+          "end_sample": 79645,
+          "start_ms": 1455,
+          "end_ms": 4978
+        }
+      ]
+    },
+    "ja": {
+      "text": "She was 沈黙 for a full minute before responding on the call.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4582,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She was",
+          "start_sample": 0,
+          "end_sample": 6913,
+          "start_ms": 0,
+          "end_ms": 432
+        },
+        {
+          "lang": "ja",
+          "text": "沈黙",
+          "start_sample": 6913,
+          "end_sample": 16720,
+          "start_ms": 432,
+          "end_ms": 1045
+        },
+        {
+          "lang": "en",
+          "text": "for a full minute before responding on the call.",
+          "start_sample": 16720,
+          "end_sample": 73310,
+          "start_ms": 1045,
+          "end_ms": 4582
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 227,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

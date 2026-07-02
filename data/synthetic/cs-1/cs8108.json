@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8108.flac",
+  "sentence": "好きな人の前だと、なぜかself-consciousになってしまう。",
+  "sample_rate": 16000,
+  "duration_ms": 2987,
+  "reference_speaker": "jp/speaker_089_6207739e2e58.mp3",
+  "seed": 8150,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "好きな人の前だと、なぜか",
+      "start_sample": 0,
+      "end_sample": 24452,
+      "start_ms": 0,
+      "end_ms": 1528
+    },
+    {
+      "lang": "en",
+      "text": "self-conscious",
+      "start_sample": 24452,
+      "end_sample": 35758,
+      "start_ms": 1528,
+      "end_ms": 2235
+    },
+    {
+      "lang": "ja",
+      "text": "になってしまう。",
+      "start_sample": 35758,
+      "end_sample": 47797,
+      "start_ms": 2235,
+      "end_ms": 2987
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "suki na nin no mae da to naze ka self-conscious ni natsu te shimau",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5291,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "好きな人の前だと、なぜか",
+          "start_sample": 0,
+          "end_sample": 45860,
+          "start_ms": 0,
+          "end_ms": 2866
+        },
+        {
+          "lang": "en",
+          "text": "self-conscious",
+          "start_sample": 45860,
+          "end_sample": 57566,
+          "start_ms": 2866,
+          "end_ms": 3598
+        },
+        {
+          "lang": "ja",
+          "text": "になってしまう。",
+          "start_sample": 57566,
+          "end_sample": 84663,
+          "start_ms": 3598,
+          "end_ms": 5291
+        }
+      ]
+    },
+    "ja": {
+      "text": "好きな人の前だと、なぜかself-consciousになってしまう。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3142,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "好きな人の前だと、なぜか",
+          "start_sample": 0,
+          "end_sample": 24652,
+          "start_ms": 0,
+          "end_ms": 1541
+        },
+        {
+          "lang": "en",
+          "text": "self-conscious",
+          "start_sample": 24652,
+          "end_sample": 38025,
+          "start_ms": 1541,
+          "end_ms": 2377
+        },
+        {
+          "lang": "ja",
+          "text": "になってしまう。",
+          "start_sample": 38025,
+          "end_sample": 50264,
+          "start_ms": 2377,
+          "end_ms": 3142
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 150,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

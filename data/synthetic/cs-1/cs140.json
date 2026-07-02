@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs140.flac",
+  "sentence": "The 新刊 from her favorite author comes out next Tuesday and she's already pre-ordered it.",
+  "sample_rate": 16000,
+  "duration_ms": 4699,
+  "reference_speaker": "jp/speaker_045_fda9acd0702e.mp3",
+  "seed": 182,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1406,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "新刊",
+      "start_sample": 1406,
+      "end_sample": 12074,
+      "start_ms": 88,
+      "end_ms": 755
+    },
+    {
+      "lang": "en",
+      "text": "from her favorite author comes out next Tuesday and she's already pre-ordered it.",
+      "start_sample": 12074,
+      "end_sample": 75183,
+      "start_ms": 755,
+      "end_ms": 4699
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shinkan from her favorite author comes out next Tuesday and she's already pre-ordered it.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4559,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1606,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "新刊",
+          "start_sample": 1606,
+          "end_sample": 9641,
+          "start_ms": 100,
+          "end_ms": 603
+        },
+        {
+          "lang": "en",
+          "text": "from her favorite author comes out next Tuesday and she's already pre-ordered it.",
+          "start_sample": 9641,
+          "end_sample": 72950,
+          "start_ms": 603,
+          "end_ms": 4559
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 新刊 from her favorite author comes out next Tuesday and she's already pre-ordered it.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7418,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6412,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "ja",
+          "text": "新刊",
+          "start_sample": 6412,
+          "end_sample": 17480,
+          "start_ms": 401,
+          "end_ms": 1092
+        },
+        {
+          "lang": "en",
+          "text": "from her favorite author comes out next Tuesday and she's already pre-ordered it.",
+          "start_sample": 17480,
+          "end_sample": 118684,
+          "start_ms": 1092,
+          "end_ms": 7418
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 235,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

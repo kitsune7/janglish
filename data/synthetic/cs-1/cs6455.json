@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6455.flac",
+  "sentence": "洗濯物をdryer から出すのを忘れないでください。",
+  "sample_rate": 16000,
+  "duration_ms": 3350,
+  "reference_speaker": "jp/speaker_033_59cc0d3a6bc8.mp3",
+  "seed": 6497,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "洗濯物を",
+      "start_sample": 0,
+      "end_sample": 12635,
+      "start_ms": 0,
+      "end_ms": 790
+    },
+    {
+      "lang": "en",
+      "text": "dryer",
+      "start_sample": 12635,
+      "end_sample": 21386,
+      "start_ms": 790,
+      "end_ms": 1337
+    },
+    {
+      "lang": "ja",
+      "text": "から出すのを忘れないでください。",
+      "start_sample": 21386,
+      "end_sample": 53594,
+      "start_ms": 1337,
+      "end_ms": 3350
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sentaku mono wo dryer kara dasu no wo wasure nai de kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7003,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "洗濯物を",
+          "start_sample": 0,
+          "end_sample": 32586,
+          "start_ms": 0,
+          "end_ms": 2037
+        },
+        {
+          "lang": "en",
+          "text": "dryer",
+          "start_sample": 32586,
+          "end_sample": 41737,
+          "start_ms": 2037,
+          "end_ms": 2609
+        },
+        {
+          "lang": "ja",
+          "text": "から出すのを忘れないでください。",
+          "start_sample": 41737,
+          "end_sample": 112052,
+          "start_ms": 2609,
+          "end_ms": 7003
+        }
+      ]
+    },
+    "ja": {
+      "text": "洗濯物をdryer から出すのを忘れないでください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3108,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "洗濯物を",
+          "start_sample": 0,
+          "end_sample": 12835,
+          "start_ms": 0,
+          "end_ms": 802
+        },
+        {
+          "lang": "en",
+          "text": "dryer",
+          "start_sample": 12835,
+          "end_sample": 17327,
+          "start_ms": 802,
+          "end_ms": 1083
+        },
+        {
+          "lang": "ja",
+          "text": "から出すのを忘れないでください。",
+          "start_sample": 17327,
+          "end_sample": 49735,
+          "start_ms": 1083,
+          "end_ms": 3108
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 168,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7212.flac",
+  "sentence": "We finally spotted a 鷺 standing still in the shallow end of the pond.",
+  "sample_rate": 16000,
+  "duration_ms": 4921,
+  "reference_speaker": "jp/speaker_080_c886ae0e1a09.mp3",
+  "seed": 7254,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We finally spotted a",
+      "start_sample": 0,
+      "end_sample": 15511,
+      "start_ms": 0,
+      "end_ms": 969
+    },
+    {
+      "lang": "ja",
+      "text": "鷺",
+      "start_sample": 15511,
+      "end_sample": 26349,
+      "start_ms": 969,
+      "end_ms": 1647
+    },
+    {
+      "lang": "en",
+      "text": "standing still in the shallow end of the pond.",
+      "start_sample": 26349,
+      "end_sample": 78734,
+      "start_ms": 1647,
+      "end_ms": 4921
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We finally spotted a sagi standing still in the shallow end of the pond.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5110,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We finally spotted a",
+          "start_sample": 0,
+          "end_sample": 15711,
+          "start_ms": 0,
+          "end_ms": 982
+        },
+        {
+          "lang": "ja",
+          "text": "鷺",
+          "start_sample": 15711,
+          "end_sample": 29178,
+          "start_ms": 982,
+          "end_ms": 1824
+        },
+        {
+          "lang": "en",
+          "text": "standing still in the shallow end of the pond.",
+          "start_sample": 29178,
+          "end_sample": 81763,
+          "start_ms": 1824,
+          "end_ms": 5110
+        }
+      ]
+    },
+    "ja": {
+      "text": "We finally spotted a 鷺 standing still in the shallow end of the pond.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6963,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We finally spotted a",
+          "start_sample": 0,
+          "end_sample": 21030,
+          "start_ms": 0,
+          "end_ms": 1314
+        },
+        {
+          "lang": "ja",
+          "text": "鷺",
+          "start_sample": 21030,
+          "end_sample": 32268,
+          "start_ms": 1314,
+          "end_ms": 2017
+        },
+        {
+          "lang": "en",
+          "text": "standing still in the shallow end of the pond.",
+          "start_sample": 32268,
+          "end_sample": 111413,
+          "start_ms": 2017,
+          "end_ms": 6963
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 247,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8604.flac",
+  "sentence": "The 光 in this hallway is absolutely perfect for portraits.",
+  "sample_rate": 16000,
+  "duration_ms": 3030,
+  "reference_speaker": "en/speaker_083_60e45fe6f2e9.mp3",
+  "seed": 8646,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 927,
+      "start_ms": 0,
+      "end_ms": 58
+    },
+    {
+      "lang": "ja",
+      "text": "光",
+      "start_sample": 927,
+      "end_sample": 9205,
+      "start_ms": 58,
+      "end_ms": 575
+    },
+    {
+      "lang": "en",
+      "text": "in this hallway is absolutely perfect for portraits.",
+      "start_sample": 9205,
+      "end_sample": 48474,
+      "start_ms": 575,
+      "end_ms": 3030
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hikari in this hallway is absolutely perfect for portraits.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3061,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1127,
+          "start_ms": 0,
+          "end_ms": 70
+        },
+        {
+          "lang": "ja",
+          "text": "光",
+          "start_sample": 1127,
+          "end_sample": 9506,
+          "start_ms": 70,
+          "end_ms": 594
+        },
+        {
+          "lang": "en",
+          "text": "in this hallway is absolutely perfect for portraits.",
+          "start_sample": 9506,
+          "end_sample": 48975,
+          "start_ms": 594,
+          "end_ms": 3061
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 光 in this hallway is absolutely perfect for portraits.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4459,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3052,
+          "start_ms": 0,
+          "end_ms": 191
+        },
+        {
+          "lang": "ja",
+          "text": "光",
+          "start_sample": 3052,
+          "end_sample": 11730,
+          "start_ms": 191,
+          "end_ms": 733
+        },
+        {
+          "lang": "en",
+          "text": "in this hallway is absolutely perfect for portraits.",
+          "start_sample": 11730,
+          "end_sample": 71343,
+          "start_ms": 733,
+          "end_ms": 4459
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 152,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

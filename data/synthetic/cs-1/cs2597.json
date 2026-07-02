@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2597.flac",
+  "sentence": "レンタカーでcountrysideを気ままに走り回りました。",
+  "sample_rate": 16000,
+  "duration_ms": 4383,
+  "reference_speaker": "jp/speaker_079_e96ebb016d7a.mp3",
+  "seed": 2639,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "レンタカーで",
+      "start_sample": 0,
+      "end_sample": 15526,
+      "start_ms": 0,
+      "end_ms": 970
+    },
+    {
+      "lang": "en",
+      "text": "countryside",
+      "start_sample": 15526,
+      "end_sample": 38402,
+      "start_ms": 970,
+      "end_ms": 2400
+    },
+    {
+      "lang": "ja",
+      "text": "を気ままに走り回りました。",
+      "start_sample": 38402,
+      "end_sample": 70135,
+      "start_ms": 2400,
+      "end_ms": 4383
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "rentakaa de countryside wo kimama ni hashirimawari mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7223,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "レンタカーで",
+          "start_sample": 0,
+          "end_sample": 13001,
+          "start_ms": 0,
+          "end_ms": 813
+        },
+        {
+          "lang": "en",
+          "text": "countryside",
+          "start_sample": 13001,
+          "end_sample": 36277,
+          "start_ms": 813,
+          "end_ms": 2267
+        },
+        {
+          "lang": "ja",
+          "text": "を気ままに走り回りました。",
+          "start_sample": 36277,
+          "end_sample": 115570,
+          "start_ms": 2267,
+          "end_ms": 7223
+        }
+      ]
+    },
+    "ja": {
+      "text": "レンタカーでcountrysideを気ままに走り回りました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3891,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "レンタカーで",
+          "start_sample": 0,
+          "end_sample": 15726,
+          "start_ms": 0,
+          "end_ms": 983
+        },
+        {
+          "lang": "en",
+          "text": "countryside",
+          "start_sample": 15726,
+          "end_sample": 30329,
+          "start_ms": 983,
+          "end_ms": 1896
+        },
+        {
+          "lang": "ja",
+          "text": "を気ままに走り回りました。",
+          "start_sample": 30329,
+          "end_sample": 62262,
+          "start_ms": 1896,
+          "end_ms": 3891
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 220,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

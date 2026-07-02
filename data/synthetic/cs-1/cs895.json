@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs895.flac",
+  "sentence": "ソースがとてもsmokyな風味で驚きました。",
+  "sample_rate": 16000,
+  "duration_ms": 3019,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 937,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "ソースがとても",
+      "start_sample": 0,
+      "end_sample": 14478,
+      "start_ms": 0,
+      "end_ms": 905
+    },
+    {
+      "lang": "en",
+      "text": "smoky",
+      "start_sample": 14478,
+      "end_sample": 27533,
+      "start_ms": 905,
+      "end_ms": 1721
+    },
+    {
+      "lang": "ja",
+      "text": "な風味で驚きました。",
+      "start_sample": 27533,
+      "end_sample": 48305,
+      "start_ms": 1721,
+      "end_ms": 3019
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "soosu ga totemo smoky na fuumi de odoroki mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7028,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ソースがとても",
+          "start_sample": 0,
+          "end_sample": 41164,
+          "start_ms": 0,
+          "end_ms": 2573
+        },
+        {
+          "lang": "en",
+          "text": "smoky",
+          "start_sample": 41164,
+          "end_sample": 54619,
+          "start_ms": 2573,
+          "end_ms": 3414
+        },
+        {
+          "lang": "ja",
+          "text": "な風味で驚きました。",
+          "start_sample": 54619,
+          "end_sample": 112441,
+          "start_ms": 3414,
+          "end_ms": 7028
+        }
+      ]
+    },
+    "ja": {
+      "text": "ソースがとてもsmokyな風味で驚きました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2662,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ソースがとても",
+          "start_sample": 0,
+          "end_sample": 14678,
+          "start_ms": 0,
+          "end_ms": 917
+        },
+        {
+          "lang": "en",
+          "text": "smoky",
+          "start_sample": 14678,
+          "end_sample": 21618,
+          "start_ms": 917,
+          "end_ms": 1351
+        },
+        {
+          "lang": "ja",
+          "text": "な風味で驚きました。",
+          "start_sample": 21618,
+          "end_sample": 42590,
+          "start_ms": 1351,
+          "end_ms": 2662
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 151,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

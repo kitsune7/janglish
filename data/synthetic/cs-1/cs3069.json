@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3069.flac",
+  "sentence": "The hiring manager seemed 真剣 about finding someone with leadership experience.",
+  "sample_rate": 16000,
+  "duration_ms": 4820,
+  "reference_speaker": "jp/speaker_067_07a7e7b35c3a.mp3",
+  "seed": 3111,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The hiring manager seemed",
+      "start_sample": 0,
+      "end_sample": 20322,
+      "start_ms": 0,
+      "end_ms": 1270
+    },
+    {
+      "lang": "ja",
+      "text": "真剣",
+      "start_sample": 20322,
+      "end_sample": 27458,
+      "start_ms": 1270,
+      "end_ms": 1716
+    },
+    {
+      "lang": "en",
+      "text": "about finding someone with leadership experience.",
+      "start_sample": 27458,
+      "end_sample": 77119,
+      "start_ms": 1716,
+      "end_ms": 4820
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hiring manager seemed shinken about finding someone with leadership experience.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5170,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hiring manager seemed",
+          "start_sample": 0,
+          "end_sample": 20522,
+          "start_ms": 0,
+          "end_ms": 1283
+        },
+        {
+          "lang": "ja",
+          "text": "真剣",
+          "start_sample": 20522,
+          "end_sample": 32867,
+          "start_ms": 1283,
+          "end_ms": 2054
+        },
+        {
+          "lang": "en",
+          "text": "about finding someone with leadership experience.",
+          "start_sample": 32867,
+          "end_sample": 82728,
+          "start_ms": 2054,
+          "end_ms": 5170
+        }
+      ]
+    },
+    "ja": {
+      "text": "The hiring manager seemed 真剣 about finding someone with leadership experience.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7176,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hiring manager seemed",
+          "start_sample": 0,
+          "end_sample": 34957,
+          "start_ms": 0,
+          "end_ms": 2185
+        },
+        {
+          "lang": "ja",
+          "text": "真剣",
+          "start_sample": 34957,
+          "end_sample": 42493,
+          "start_ms": 2185,
+          "end_ms": 2656
+        },
+        {
+          "lang": "en",
+          "text": "about finding someone with leadership experience.",
+          "start_sample": 42493,
+          "end_sample": 114812,
+          "start_ms": 2656,
+          "end_ms": 7176
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 241,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

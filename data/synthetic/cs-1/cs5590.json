@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5590.flac",
+  "sentence": "冬のshort daysはなんとなく寂しい感じがしますね。",
+  "sample_rate": 16000,
+  "duration_ms": 5226,
+  "reference_speaker": "en/speaker_079_9589554d8179.mp3",
+  "seed": 5632,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "冬の",
+      "start_sample": 0,
+      "end_sample": 7167,
+      "start_ms": 0,
+      "end_ms": 448
+    },
+    {
+      "lang": "en",
+      "text": "short days",
+      "start_sample": 7167,
+      "end_sample": 43458,
+      "start_ms": 448,
+      "end_ms": 2716
+    },
+    {
+      "lang": "ja",
+      "text": "はなんとなく寂しい感じがしますね。",
+      "start_sample": 43458,
+      "end_sample": 83624,
+      "start_ms": 2716,
+      "end_ms": 5226
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "fuyu no short days ha nan to naku sabishii kanji ga shi masu ne",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 12177,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冬の",
+          "start_sample": 0,
+          "end_sample": 27878,
+          "start_ms": 0,
+          "end_ms": 1742
+        },
+        {
+          "lang": "en",
+          "text": "short days",
+          "start_sample": 27878,
+          "end_sample": 64569,
+          "start_ms": 1742,
+          "end_ms": 4036
+        },
+        {
+          "lang": "ja",
+          "text": "はなんとなく寂しい感じがしますね。",
+          "start_sample": 64569,
+          "end_sample": 194829,
+          "start_ms": 4036,
+          "end_ms": 12177
+        }
+      ]
+    },
+    "ja": {
+      "text": "冬のshort daysはなんとなく寂しい感じがしますね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3704,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冬の",
+          "start_sample": 0,
+          "end_sample": 7367,
+          "start_ms": 0,
+          "end_ms": 460
+        },
+        {
+          "lang": "en",
+          "text": "short days",
+          "start_sample": 7367,
+          "end_sample": 18901,
+          "start_ms": 460,
+          "end_ms": 1181
+        },
+        {
+          "lang": "ja",
+          "text": "はなんとなく寂しい感じがしますね。",
+          "start_sample": 18901,
+          "end_sample": 59267,
+          "start_ms": 1181,
+          "end_ms": 3704
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 262,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

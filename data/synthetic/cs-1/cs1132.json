@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1132.flac",
+  "sentence": "His breathing was 正常 by the time the second ambulance crew arrived.",
+  "sample_rate": 16000,
+  "duration_ms": 4570,
+  "reference_speaker": "en/speaker_075_373f531aa159.mp3",
+  "seed": 1174,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His breathing was",
+      "start_sample": 0,
+      "end_sample": 12465,
+      "start_ms": 0,
+      "end_ms": 779
+    },
+    {
+      "lang": "ja",
+      "text": "正常",
+      "start_sample": 12465,
+      "end_sample": 19129,
+      "start_ms": 779,
+      "end_ms": 1196
+    },
+    {
+      "lang": "en",
+      "text": "by the time the second ambulance crew arrived.",
+      "start_sample": 19129,
+      "end_sample": 73116,
+      "start_ms": 1196,
+      "end_ms": 4570
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His breathing was seijou by the time the second ambulance crew arrived.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5190,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His breathing was",
+          "start_sample": 0,
+          "end_sample": 12665,
+          "start_ms": 0,
+          "end_ms": 792
+        },
+        {
+          "lang": "ja",
+          "text": "正常",
+          "start_sample": 12665,
+          "end_sample": 28858,
+          "start_ms": 792,
+          "end_ms": 1804
+        },
+        {
+          "lang": "en",
+          "text": "by the time the second ambulance crew arrived.",
+          "start_sample": 28858,
+          "end_sample": 83045,
+          "start_ms": 1804,
+          "end_ms": 5190
+        }
+      ]
+    },
+    "ja": {
+      "text": "His breathing was 正常 by the time the second ambulance crew arrived.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6201,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His breathing was",
+          "start_sample": 0,
+          "end_sample": 17499,
+          "start_ms": 0,
+          "end_ms": 1094
+        },
+        {
+          "lang": "ja",
+          "text": "正常",
+          "start_sample": 17499,
+          "end_sample": 24563,
+          "start_ms": 1094,
+          "end_ms": 1535
+        },
+        {
+          "lang": "en",
+          "text": "by the time the second ambulance crew arrived.",
+          "start_sample": 24563,
+          "end_sample": 99214,
+          "start_ms": 1535,
+          "end_ms": 6201
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 229,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

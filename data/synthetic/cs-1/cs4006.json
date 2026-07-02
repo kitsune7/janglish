@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4006.flac",
+  "sentence": "He gets 無口 whenever they fight, which makes it nearly impossible to resolve anything.",
+  "sample_rate": 16000,
+  "duration_ms": 5729,
+  "reference_speaker": "jp/speaker_083_f660ed2250be.mp3",
+  "seed": 4048,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He gets",
+      "start_sample": 0,
+      "end_sample": 6382,
+      "start_ms": 0,
+      "end_ms": 399
+    },
+    {
+      "lang": "ja",
+      "text": "無口",
+      "start_sample": 6382,
+      "end_sample": 11749,
+      "start_ms": 399,
+      "end_ms": 734
+    },
+    {
+      "lang": "en",
+      "text": "whenever they fight, which makes it nearly impossible to resolve anything.",
+      "start_sample": 11749,
+      "end_sample": 91659,
+      "start_ms": 734,
+      "end_ms": 5729
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He gets mukuchi whenever they fight, which makes it nearly impossible to resolve anything.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6201,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He gets",
+          "start_sample": 0,
+          "end_sample": 6582,
+          "start_ms": 0,
+          "end_ms": 411
+        },
+        {
+          "lang": "ja",
+          "text": "無口",
+          "start_sample": 6582,
+          "end_sample": 19104,
+          "start_ms": 411,
+          "end_ms": 1194
+        },
+        {
+          "lang": "en",
+          "text": "whenever they fight, which makes it nearly impossible to resolve anything.",
+          "start_sample": 19104,
+          "end_sample": 99214,
+          "start_ms": 1194,
+          "end_ms": 6201
+        }
+      ]
+    },
+    "ja": {
+      "text": "He gets 無口 whenever they fight, which makes it nearly impossible to resolve anything.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5206,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He gets",
+          "start_sample": 0,
+          "end_sample": 6406,
+          "start_ms": 0,
+          "end_ms": 400
+        },
+        {
+          "lang": "ja",
+          "text": "無口",
+          "start_sample": 6406,
+          "end_sample": 12173,
+          "start_ms": 400,
+          "end_ms": 761
+        },
+        {
+          "lang": "en",
+          "text": "whenever they fight, which makes it nearly impossible to resolve anything.",
+          "start_sample": 12173,
+          "end_sample": 83295,
+          "start_ms": 761,
+          "end_ms": 5206
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 287,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1944.flac",
+  "sentence": "このシャンプーを使ったら、髪がとてもshiny になった。",
+  "sample_rate": 16000,
+  "duration_ms": 4213,
+  "reference_speaker": "en/speaker_088_9950f069efac.mp3",
+  "seed": 1986,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このシャンプーを使ったら、髪がとても",
+      "start_sample": 0,
+      "end_sample": 47952,
+      "start_ms": 0,
+      "end_ms": 2997
+    },
+    {
+      "lang": "en",
+      "text": "shiny",
+      "start_sample": 47952,
+      "end_sample": 58623,
+      "start_ms": 2997,
+      "end_ms": 3664
+    },
+    {
+      "lang": "ja",
+      "text": "になった。",
+      "start_sample": 58623,
+      "end_sample": 67409,
+      "start_ms": 3664,
+      "end_ms": 4213
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono shanpuu wo tsukatsu tara kami ga totemo shiny ni natsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7561,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このシャンプーを使ったら、髪がとても",
+          "start_sample": 0,
+          "end_sample": 88885,
+          "start_ms": 0,
+          "end_ms": 5555
+        },
+        {
+          "lang": "en",
+          "text": "shiny",
+          "start_sample": 88885,
+          "end_sample": 99956,
+          "start_ms": 5555,
+          "end_ms": 6247
+        },
+        {
+          "lang": "ja",
+          "text": "になった。",
+          "start_sample": 99956,
+          "end_sample": 120972,
+          "start_ms": 6247,
+          "end_ms": 7561
+        }
+      ]
+    },
+    "ja": {
+      "text": "このシャンプーを使ったら、髪がとてもshiny になった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3952,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このシャンプーを使ったら、髪がとても",
+          "start_sample": 0,
+          "end_sample": 48152,
+          "start_ms": 0,
+          "end_ms": 3010
+        },
+        {
+          "lang": "en",
+          "text": "shiny",
+          "start_sample": 48152,
+          "end_sample": 54251,
+          "start_ms": 3010,
+          "end_ms": 3391
+        },
+        {
+          "lang": "ja",
+          "text": "になった。",
+          "start_sample": 54251,
+          "end_sample": 63237,
+          "start_ms": 3391,
+          "end_ms": 3952
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 211,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

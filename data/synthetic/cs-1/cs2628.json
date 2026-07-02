@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2628.flac",
+  "sentence": "We waited on the 歩道橋 for twenty minutes before realizing the stop had moved.",
+  "sample_rate": 16000,
+  "duration_ms": 4975,
+  "reference_speaker": "jp/speaker_091_bf2621e97933.mp3",
+  "seed": 2670,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We waited on the",
+      "start_sample": 0,
+      "end_sample": 13730,
+      "start_ms": 0,
+      "end_ms": 858
+    },
+    {
+      "lang": "ja",
+      "text": "歩道橋",
+      "start_sample": 13730,
+      "end_sample": 23915,
+      "start_ms": 858,
+      "end_ms": 1495
+    },
+    {
+      "lang": "en",
+      "text": "for twenty minutes before realizing the stop had moved.",
+      "start_sample": 23915,
+      "end_sample": 79597,
+      "start_ms": 1495,
+      "end_ms": 4975
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We waited on the hodou hashi for twenty minutes before realizing the stop had moved.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5364,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We waited on the",
+          "start_sample": 0,
+          "end_sample": 13930,
+          "start_ms": 0,
+          "end_ms": 871
+        },
+        {
+          "lang": "ja",
+          "text": "歩道橋",
+          "start_sample": 13930,
+          "end_sample": 29942,
+          "start_ms": 871,
+          "end_ms": 1871
+        },
+        {
+          "lang": "en",
+          "text": "for twenty minutes before realizing the stop had moved.",
+          "start_sample": 29942,
+          "end_sample": 85824,
+          "start_ms": 1871,
+          "end_ms": 5364
+        }
+      ]
+    },
+    "ja": {
+      "text": "We waited on the 歩道橋 for twenty minutes before realizing the stop had moved.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5413,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We waited on the",
+          "start_sample": 0,
+          "end_sample": 17801,
+          "start_ms": 0,
+          "end_ms": 1113
+        },
+        {
+          "lang": "ja",
+          "text": "歩道橋",
+          "start_sample": 17801,
+          "end_sample": 28386,
+          "start_ms": 1113,
+          "end_ms": 1774
+        },
+        {
+          "lang": "en",
+          "text": "for twenty minutes before realizing the stop had moved.",
+          "start_sample": 28386,
+          "end_sample": 86601,
+          "start_ms": 1774,
+          "end_ms": 5413
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 249,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

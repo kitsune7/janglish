@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5591.flac",
+  "sentence": "夏の夜のwarmthは好きですが、寝苦しいのが難点です。",
+  "sample_rate": 16000,
+  "duration_ms": 4450,
+  "reference_speaker": "jp/speaker_079_e96ebb016d7a.mp3",
+  "seed": 5633,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "夏の夜の",
+      "start_sample": 0,
+      "end_sample": 14551,
+      "start_ms": 0,
+      "end_ms": 909
+    },
+    {
+      "lang": "en",
+      "text": "warmth",
+      "start_sample": 14551,
+      "end_sample": 27623,
+      "start_ms": 909,
+      "end_ms": 1726
+    },
+    {
+      "lang": "ja",
+      "text": "は好きですが、寝苦しいのが難点です。",
+      "start_sample": 27623,
+      "end_sample": 71196,
+      "start_ms": 1726,
+      "end_ms": 4450
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "natsu no yoru no warmth ha suki desu ga negurushii no ga nanten desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8581,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "夏の夜の",
+          "start_sample": 0,
+          "end_sample": 54050,
+          "start_ms": 0,
+          "end_ms": 3378
+        },
+        {
+          "lang": "en",
+          "text": "warmth",
+          "start_sample": 54050,
+          "end_sample": 67522,
+          "start_ms": 3378,
+          "end_ms": 4220
+        },
+        {
+          "lang": "ja",
+          "text": "は好きですが、寝苦しいのが難点です。",
+          "start_sample": 67522,
+          "end_sample": 137289,
+          "start_ms": 4220,
+          "end_ms": 8581
+        }
+      ]
+    },
+    "ja": {
+      "text": "夏の夜のwarmthは好きですが、寝苦しいのが難点です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4209,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "夏の夜の",
+          "start_sample": 0,
+          "end_sample": 14751,
+          "start_ms": 0,
+          "end_ms": 922
+        },
+        {
+          "lang": "en",
+          "text": "warmth",
+          "start_sample": 14751,
+          "end_sample": 23570,
+          "start_ms": 922,
+          "end_ms": 1473
+        },
+        {
+          "lang": "ja",
+          "text": "は好きですが、寝苦しいのが難点です。",
+          "start_sample": 23570,
+          "end_sample": 67343,
+          "start_ms": 1473,
+          "end_ms": 4209
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 223,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

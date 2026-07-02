@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs2349.flac",
+  "sentence": "bleachを使う時は、必ず換気してください。",
+  "sample_rate": 16000,
+  "duration_ms": 3172,
+  "reference_speaker": "en/speaker_077_cf8a4971b1d4.mp3",
+  "seed": 2391,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "bleach",
+      "start_sample": 0,
+      "end_sample": 5724,
+      "start_ms": 0,
+      "end_ms": 358
+    },
+    {
+      "lang": "ja",
+      "text": "を使う時は、必ず換気してください。",
+      "start_sample": 5724,
+      "end_sample": 50758,
+      "start_ms": 358,
+      "end_ms": 3172
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "bleach wo tsukau toki ha kanarazu kanki shi te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6805,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "bleach",
+          "start_sample": 0,
+          "end_sample": 5924,
+          "start_ms": 0,
+          "end_ms": 370
+        },
+        {
+          "lang": "ja",
+          "text": "を使う時は、必ず換気してください。",
+          "start_sample": 5924,
+          "end_sample": 108882,
+          "start_ms": 370,
+          "end_ms": 6805
+        }
+      ]
+    },
+    "ja": {
+      "text": "bleachを使う時は、必ず換気してください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3268,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "bleach",
+          "start_sample": 0,
+          "end_sample": 7057,
+          "start_ms": 0,
+          "end_ms": 441
+        },
+        {
+          "lang": "ja",
+          "text": "を使う時は、必ず換気してください。",
+          "start_sample": 7057,
+          "end_sample": 52291,
+          "start_ms": 441,
+          "end_ms": 3268
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "eeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

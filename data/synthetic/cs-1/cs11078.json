@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11078.flac",
+  "sentence": "The neighborhood felt oddly 寂しい the morning after the big holiday parade.",
+  "sample_rate": 16000,
+  "duration_ms": 5619,
+  "reference_speaker": "jp/speaker_040_473e7a57e696.mp3",
+  "seed": 11120,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The neighborhood felt oddly",
+      "start_sample": 0,
+      "end_sample": 33520,
+      "start_ms": 0,
+      "end_ms": 2095
+    },
+    {
+      "lang": "ja",
+      "text": "寂しい",
+      "start_sample": 33520,
+      "end_sample": 45142,
+      "start_ms": 2095,
+      "end_ms": 2821
+    },
+    {
+      "lang": "en",
+      "text": "the morning after the big holiday parade.",
+      "start_sample": 45142,
+      "end_sample": 89900,
+      "start_ms": 2821,
+      "end_ms": 5619
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The neighborhood felt oddly sabishii the morning after the big holiday parade.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5841,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The neighborhood felt oddly",
+          "start_sample": 0,
+          "end_sample": 33720,
+          "start_ms": 0,
+          "end_ms": 2108
+        },
+        {
+          "lang": "ja",
+          "text": "寂しい",
+          "start_sample": 33720,
+          "end_sample": 48493,
+          "start_ms": 2108,
+          "end_ms": 3031
+        },
+        {
+          "lang": "en",
+          "text": "the morning after the big holiday parade.",
+          "start_sample": 48493,
+          "end_sample": 93451,
+          "start_ms": 3031,
+          "end_ms": 5841
+        }
+      ]
+    },
+    "ja": {
+      "text": "The neighborhood felt oddly 寂しい the morning after the big holiday parade.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7373,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The neighborhood felt oddly",
+          "start_sample": 0,
+          "end_sample": 43117,
+          "start_ms": 0,
+          "end_ms": 2695
+        },
+        {
+          "lang": "ja",
+          "text": "寂しい",
+          "start_sample": 43117,
+          "end_sample": 55139,
+          "start_ms": 2695,
+          "end_ms": 3446
+        },
+        {
+          "lang": "en",
+          "text": "the morning after the big holiday parade.",
+          "start_sample": 55139,
+          "end_sample": 117972,
+          "start_ms": 3446,
+          "end_ms": 7373
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 281,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

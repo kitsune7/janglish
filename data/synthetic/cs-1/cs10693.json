@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10693.flac",
+  "sentence": "His driving becomes very 大胆 as soon as he gets on an open road.",
+  "sample_rate": 16000,
+  "duration_ms": 5038,
+  "reference_speaker": "jp/speaker_094_33e54b46bf39.mp3",
+  "seed": 10735,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His driving becomes very",
+      "start_sample": 0,
+      "end_sample": 27902,
+      "start_ms": 0,
+      "end_ms": 1744
+    },
+    {
+      "lang": "ja",
+      "text": "大胆",
+      "start_sample": 27902,
+      "end_sample": 39700,
+      "start_ms": 1744,
+      "end_ms": 2481
+    },
+    {
+      "lang": "en",
+      "text": "as soon as he gets on an open road.",
+      "start_sample": 39700,
+      "end_sample": 80608,
+      "start_ms": 2481,
+      "end_ms": 5038
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His driving becomes very daitan as soon as he gets on an open road.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4938,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His driving becomes very",
+          "start_sample": 0,
+          "end_sample": 28102,
+          "start_ms": 0,
+          "end_ms": 1756
+        },
+        {
+          "lang": "ja",
+          "text": "大胆",
+          "start_sample": 28102,
+          "end_sample": 37898,
+          "start_ms": 1756,
+          "end_ms": 2369
+        },
+        {
+          "lang": "en",
+          "text": "as soon as he gets on an open road.",
+          "start_sample": 37898,
+          "end_sample": 79006,
+          "start_ms": 2369,
+          "end_ms": 4938
+        }
+      ]
+    },
+    "ja": {
+      "text": "His driving becomes very 大胆 as soon as he gets on an open road.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4795,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His driving becomes very",
+          "start_sample": 0,
+          "end_sample": 25199,
+          "start_ms": 0,
+          "end_ms": 1575
+        },
+        {
+          "lang": "ja",
+          "text": "大胆",
+          "start_sample": 25199,
+          "end_sample": 37397,
+          "start_ms": 1575,
+          "end_ms": 2337
+        },
+        {
+          "lang": "en",
+          "text": "as soon as he gets on an open road.",
+          "start_sample": 37397,
+          "end_sample": 76719,
+          "start_ms": 2337,
+          "end_ms": 4795
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 252,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs3384.flac",
+  "sentence": "rescueチームが山で迷子になった人を探しています。",
+  "sample_rate": 16000,
+  "duration_ms": 3602,
+  "reference_speaker": "en/speaker_089_6f14b0930650.mp3",
+  "seed": 3426,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "rescue",
+      "start_sample": 0,
+      "end_sample": 6532,
+      "start_ms": 0,
+      "end_ms": 408
+    },
+    {
+      "lang": "ja",
+      "text": "チームが山で迷子になった人を探しています。",
+      "start_sample": 6532,
+      "end_sample": 57638,
+      "start_ms": 408,
+      "end_ms": 3602
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "rescue chiimu ga yama de maigo ni natsu ta nin wo sagashi te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6412,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "rescue",
+          "start_sample": 0,
+          "end_sample": 6732,
+          "start_ms": 0,
+          "end_ms": 421
+        },
+        {
+          "lang": "ja",
+          "text": "チームが山で迷子になった人を探しています。",
+          "start_sample": 6732,
+          "end_sample": 102584,
+          "start_ms": 421,
+          "end_ms": 6412
+        }
+      ]
+    },
+    "ja": {
+      "text": "rescueチームが山で迷子になった人を探しています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3668,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "rescue",
+          "start_sample": 0,
+          "end_sample": 7375,
+          "start_ms": 0,
+          "end_ms": 461
+        },
+        {
+          "lang": "ja",
+          "text": "チームが山で迷子になった人を探しています。",
+          "start_sample": 7375,
+          "end_sample": 58681,
+          "start_ms": 461,
+          "end_ms": 3668
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 181,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

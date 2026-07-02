@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2676.flac",
+  "sentence": "The 脱出 route marked on the map turned out to be completely wrong.",
+  "sample_rate": 16000,
+  "duration_ms": 3719,
+  "reference_speaker": "en/speaker_073_3c0d9d6a3b88.mp3",
+  "seed": 2718,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1082,
+      "start_ms": 0,
+      "end_ms": 68
+    },
+    {
+      "lang": "ja",
+      "text": "脱出",
+      "start_sample": 1082,
+      "end_sample": 11126,
+      "start_ms": 68,
+      "end_ms": 695
+    },
+    {
+      "lang": "en",
+      "text": "route marked on the map turned out to be completely wrong.",
+      "start_sample": 11126,
+      "end_sample": 59506,
+      "start_ms": 695,
+      "end_ms": 3719
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The dasshutsu route marked on the map turned out to be completely wrong.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3688,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1282,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "脱出",
+          "start_sample": 1282,
+          "end_sample": 10421,
+          "start_ms": 80,
+          "end_ms": 651
+        },
+        {
+          "lang": "en",
+          "text": "route marked on the map turned out to be completely wrong.",
+          "start_sample": 10421,
+          "end_sample": 59001,
+          "start_ms": 651,
+          "end_ms": 3688
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 脱出 route marked on the map turned out to be completely wrong.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4840,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4495,
+          "start_ms": 0,
+          "end_ms": 281
+        },
+        {
+          "lang": "ja",
+          "text": "脱出",
+          "start_sample": 4495,
+          "end_sample": 14939,
+          "start_ms": 281,
+          "end_ms": 934
+        },
+        {
+          "lang": "en",
+          "text": "route marked on the map turned out to be completely wrong.",
+          "start_sample": 14939,
+          "end_sample": 77440,
+          "start_ms": 934,
+          "end_ms": 4840
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 186,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

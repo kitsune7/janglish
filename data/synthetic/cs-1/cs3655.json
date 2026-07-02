@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3655.flac",
+  "sentence": "彼女のconditionは昨日より少し改善しています。",
+  "sample_rate": 16000,
+  "duration_ms": 3489,
+  "reference_speaker": "jp/speaker_060_dda9a032fd63.mp3",
+  "seed": 3697,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女の",
+      "start_sample": 0,
+      "end_sample": 7045,
+      "start_ms": 0,
+      "end_ms": 440
+    },
+    {
+      "lang": "en",
+      "text": "condition",
+      "start_sample": 7045,
+      "end_sample": 21735,
+      "start_ms": 440,
+      "end_ms": 1358
+    },
+    {
+      "lang": "ja",
+      "text": "は昨日より少し改善しています。",
+      "start_sample": 21735,
+      "end_sample": 55823,
+      "start_ms": 1358,
+      "end_ms": 3489
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo no condition ha kinou yori sukoshi kaizen shi te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5879,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の",
+          "start_sample": 0,
+          "end_sample": 9310,
+          "start_ms": 0,
+          "end_ms": 582
+        },
+        {
+          "lang": "en",
+          "text": "condition",
+          "start_sample": 9310,
+          "end_sample": 24400,
+          "start_ms": 582,
+          "end_ms": 1525
+        },
+        {
+          "lang": "ja",
+          "text": "は昨日より少し改善しています。",
+          "start_sample": 24400,
+          "end_sample": 94066,
+          "start_ms": 1525,
+          "end_ms": 5879
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女のconditionは昨日より少し改善しています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3139,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の",
+          "start_sample": 0,
+          "end_sample": 7245,
+          "start_ms": 0,
+          "end_ms": 453
+        },
+        {
+          "lang": "en",
+          "text": "condition",
+          "start_sample": 7245,
+          "end_sample": 15939,
+          "start_ms": 453,
+          "end_ms": 996
+        },
+        {
+          "lang": "ja",
+          "text": "は昨日より少し改善しています。",
+          "start_sample": 15939,
+          "end_sample": 50227,
+          "start_ms": 996,
+          "end_ms": 3139
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7312.flac",
+  "sentence": "The 風鈴 on the porch chimed softly through every hot August afternoon.",
+  "sample_rate": 16000,
+  "duration_ms": 4898,
+  "reference_speaker": "jp/speaker_094_33e54b46bf39.mp3",
+  "seed": 7354,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2369,
+      "start_ms": 0,
+      "end_ms": 148
+    },
+    {
+      "lang": "ja",
+      "text": "風鈴",
+      "start_sample": 2369,
+      "end_sample": 13353,
+      "start_ms": 148,
+      "end_ms": 835
+    },
+    {
+      "lang": "en",
+      "text": "on the porch chimed softly through every hot August afternoon.",
+      "start_sample": 13353,
+      "end_sample": 78365,
+      "start_ms": 835,
+      "end_ms": 4898
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The fuurin on the porch chimed softly through every hot August afternoon.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4718,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2569,
+          "start_ms": 0,
+          "end_ms": 161
+        },
+        {
+          "lang": "ja",
+          "text": "風鈴",
+          "start_sample": 2569,
+          "end_sample": 10279,
+          "start_ms": 161,
+          "end_ms": 642
+        },
+        {
+          "lang": "en",
+          "text": "on the porch chimed softly through every hot August afternoon.",
+          "start_sample": 10279,
+          "end_sample": 75491,
+          "start_ms": 642,
+          "end_ms": 4718
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 風鈴 on the porch chimed softly through every hot August afternoon.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6253,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4968,
+          "start_ms": 0,
+          "end_ms": 310
+        },
+        {
+          "lang": "ja",
+          "text": "風鈴",
+          "start_sample": 4968,
+          "end_sample": 16352,
+          "start_ms": 310,
+          "end_ms": 1022
+        },
+        {
+          "lang": "en",
+          "text": "on the porch chimed softly through every hot August afternoon.",
+          "start_sample": 16352,
+          "end_sample": 100043,
+          "start_ms": 1022,
+          "end_ms": 6253
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 245,
+  "frame_labels": "eeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

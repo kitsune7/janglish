@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4619.flac",
+  "sentence": "The vet said our rabbit is 健康 despite being over seven years old.",
+  "sample_rate": 16000,
+  "duration_ms": 6052,
+  "reference_speaker": "en/speaker_098_f600c480bfab.mp3",
+  "seed": 4661,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The vet said our rabbit is",
+      "start_sample": 0,
+      "end_sample": 44530,
+      "start_ms": 0,
+      "end_ms": 2783
+    },
+    {
+      "lang": "ja",
+      "text": "健康",
+      "start_sample": 44530,
+      "end_sample": 55190,
+      "start_ms": 2783,
+      "end_ms": 3449
+    },
+    {
+      "lang": "en",
+      "text": "despite being over seven years old.",
+      "start_sample": 55190,
+      "end_sample": 96833,
+      "start_ms": 3449,
+      "end_ms": 6052
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The vet said our rabbit is kenkou despite being over seven years old.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6212,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The vet said our rabbit is",
+          "start_sample": 0,
+          "end_sample": 44730,
+          "start_ms": 0,
+          "end_ms": 2796
+        },
+        {
+          "lang": "ja",
+          "text": "健康",
+          "start_sample": 44730,
+          "end_sample": 57555,
+          "start_ms": 2796,
+          "end_ms": 3597
+        },
+        {
+          "lang": "en",
+          "text": "despite being over seven years old.",
+          "start_sample": 57555,
+          "end_sample": 99398,
+          "start_ms": 3597,
+          "end_ms": 6212
+        }
+      ]
+    },
+    "ja": {
+      "text": "The vet said our rabbit is 健康 despite being over seven years old.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6932,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The vet said our rabbit is",
+          "start_sample": 0,
+          "end_sample": 50650,
+          "start_ms": 0,
+          "end_ms": 3166
+        },
+        {
+          "lang": "ja",
+          "text": "健康",
+          "start_sample": 50650,
+          "end_sample": 61710,
+          "start_ms": 3166,
+          "end_ms": 3857
+        },
+        {
+          "lang": "en",
+          "text": "despite being over seven years old.",
+          "start_sample": 61710,
+          "end_sample": 110918,
+          "start_ms": 3857,
+          "end_ms": 6932
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 303,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

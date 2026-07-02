@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3932.flac",
+  "sentence": "Their whole story has this strange 運命 quality that's hard to ignore.",
+  "sample_rate": 16000,
+  "duration_ms": 4995,
+  "reference_speaker": "jp/speaker_034_3e5442a60675.mp3",
+  "seed": 3974,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Their whole story has this strange",
+      "start_sample": 0,
+      "end_sample": 37024,
+      "start_ms": 0,
+      "end_ms": 2314
+    },
+    {
+      "lang": "ja",
+      "text": "運命",
+      "start_sample": 37024,
+      "end_sample": 45619,
+      "start_ms": 2314,
+      "end_ms": 2851
+    },
+    {
+      "lang": "en",
+      "text": "quality that's hard to ignore.",
+      "start_sample": 45619,
+      "end_sample": 79914,
+      "start_ms": 2851,
+      "end_ms": 4995
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Their whole story has this strange unmei quality that's hard to ignore.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5054,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their whole story has this strange",
+          "start_sample": 0,
+          "end_sample": 37224,
+          "start_ms": 0,
+          "end_ms": 2326
+        },
+        {
+          "lang": "ja",
+          "text": "運命",
+          "start_sample": 37224,
+          "end_sample": 46370,
+          "start_ms": 2326,
+          "end_ms": 2898
+        },
+        {
+          "lang": "en",
+          "text": "quality that's hard to ignore.",
+          "start_sample": 46370,
+          "end_sample": 80865,
+          "start_ms": 2898,
+          "end_ms": 5054
+        }
+      ]
+    },
+    "ja": {
+      "text": "Their whole story has this strange 運命 quality that's hard to ignore.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5702,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their whole story has this strange",
+          "start_sample": 0,
+          "end_sample": 48027,
+          "start_ms": 0,
+          "end_ms": 3002
+        },
+        {
+          "lang": "ja",
+          "text": "運命",
+          "start_sample": 48027,
+          "end_sample": 57022,
+          "start_ms": 3002,
+          "end_ms": 3564
+        },
+        {
+          "lang": "en",
+          "text": "quality that's hard to ignore.",
+          "start_sample": 57022,
+          "end_sample": 91232,
+          "start_ms": 3564,
+          "end_ms": 5702
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 250,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

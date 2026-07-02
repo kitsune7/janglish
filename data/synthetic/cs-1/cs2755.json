@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2755.flac",
+  "sentence": "I always get 緊張 when I have to make calls in a second language.",
+  "sample_rate": 16000,
+  "duration_ms": 3898,
+  "reference_speaker": "jp/speaker_094_33e54b46bf39.mp3",
+  "seed": 2797,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always get",
+      "start_sample": 0,
+      "end_sample": 11501,
+      "start_ms": 0,
+      "end_ms": 719
+    },
+    {
+      "lang": "ja",
+      "text": "緊張",
+      "start_sample": 11501,
+      "end_sample": 20095,
+      "start_ms": 719,
+      "end_ms": 1256
+    },
+    {
+      "lang": "en",
+      "text": "when I have to make calls in a second language.",
+      "start_sample": 20095,
+      "end_sample": 62376,
+      "start_ms": 1256,
+      "end_ms": 3898
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always get kinchou when I have to make calls in a second language.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3887,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always get",
+          "start_sample": 0,
+          "end_sample": 11701,
+          "start_ms": 0,
+          "end_ms": 731
+        },
+        {
+          "lang": "ja",
+          "text": "緊張",
+          "start_sample": 11701,
+          "end_sample": 19716,
+          "start_ms": 731,
+          "end_ms": 1232
+        },
+        {
+          "lang": "en",
+          "text": "when I have to make calls in a second language.",
+          "start_sample": 19716,
+          "end_sample": 62197,
+          "start_ms": 1232,
+          "end_ms": 3887
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always get 緊張 when I have to make calls in a second language.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4416,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always get",
+          "start_sample": 0,
+          "end_sample": 13647,
+          "start_ms": 0,
+          "end_ms": 853
+        },
+        {
+          "lang": "ja",
+          "text": "緊張",
+          "start_sample": 13647,
+          "end_sample": 22641,
+          "start_ms": 853,
+          "end_ms": 1415
+        },
+        {
+          "lang": "en",
+          "text": "when I have to make calls in a second language.",
+          "start_sample": 22641,
+          "end_sample": 70658,
+          "start_ms": 1415,
+          "end_ms": 4416
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 195,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

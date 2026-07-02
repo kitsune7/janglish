@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7329.flac",
+  "sentence": "I always feel so 爽快 after a deep-clean session.",
+  "sample_rate": 16000,
+  "duration_ms": 5619,
+  "reference_speaker": "jp/speaker_077_a8ec885aec97.mp3",
+  "seed": 7371,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always feel so",
+      "start_sample": 0,
+      "end_sample": 32490,
+      "start_ms": 0,
+      "end_ms": 2031
+    },
+    {
+      "lang": "ja",
+      "text": "爽快",
+      "start_sample": 32490,
+      "end_sample": 40109,
+      "start_ms": 2031,
+      "end_ms": 2507
+    },
+    {
+      "lang": "en",
+      "text": "after a deep-clean session.",
+      "start_sample": 40109,
+      "end_sample": 89907,
+      "start_ms": 2507,
+      "end_ms": 5619
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always feel so soukai after a deep-clean session.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6490,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel so",
+          "start_sample": 0,
+          "end_sample": 32690,
+          "start_ms": 0,
+          "end_ms": 2043
+        },
+        {
+          "lang": "ja",
+          "text": "爽快",
+          "start_sample": 32690,
+          "end_sample": 53843,
+          "start_ms": 2043,
+          "end_ms": 3365
+        },
+        {
+          "lang": "en",
+          "text": "after a deep-clean session.",
+          "start_sample": 53843,
+          "end_sample": 103841,
+          "start_ms": 3365,
+          "end_ms": 6490
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always feel so 爽快 after a deep-clean session.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4250,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel so",
+          "start_sample": 0,
+          "end_sample": 22612,
+          "start_ms": 0,
+          "end_ms": 1413
+        },
+        {
+          "lang": "ja",
+          "text": "爽快",
+          "start_sample": 22612,
+          "end_sample": 30631,
+          "start_ms": 1413,
+          "end_ms": 1914
+        },
+        {
+          "lang": "en",
+          "text": "after a deep-clean session.",
+          "start_sample": 30631,
+          "end_sample": 67996,
+          "start_ms": 1914,
+          "end_ms": 4250
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 281,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

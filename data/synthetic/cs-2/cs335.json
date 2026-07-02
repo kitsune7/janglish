@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs335.flac",
+  "sentence": "Have you checked the 明細 lately, or are you just trusting the 概算?",
+  "sample_rate": 16000,
+  "duration_ms": 4415,
+  "reference_speaker": "jp/speaker_043_1ef414c9abc5.mp3",
+  "seed": 17190,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you checked the",
+      "start_sample": 0,
+      "end_sample": 11025,
+      "start_ms": 0,
+      "end_ms": 689
+    },
+    {
+      "lang": "ja",
+      "text": "明細",
+      "start_sample": 11025,
+      "end_sample": 18638,
+      "start_ms": 689,
+      "end_ms": 1165
+    },
+    {
+      "lang": "en",
+      "text": "lately, or are you just trusting the",
+      "start_sample": 18638,
+      "end_sample": 62501,
+      "start_ms": 1165,
+      "end_ms": 3906
+    },
+    {
+      "lang": "ja",
+      "text": "概算?",
+      "start_sample": 62501,
+      "end_sample": 70633,
+      "start_ms": 3906,
+      "end_ms": 4415
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you checked the meisai lately, or are you just trusting the gaisan",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4611,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you checked the",
+          "start_sample": 0,
+          "end_sample": 11225,
+          "start_ms": 0,
+          "end_ms": 702
+        },
+        {
+          "lang": "ja",
+          "text": "明細",
+          "start_sample": 11225,
+          "end_sample": 20527,
+          "start_ms": 702,
+          "end_ms": 1283
+        },
+        {
+          "lang": "en",
+          "text": "lately, or are you just trusting the",
+          "start_sample": 20527,
+          "end_sample": 64790,
+          "start_ms": 1283,
+          "end_ms": 4049
+        },
+        {
+          "lang": "ja",
+          "text": "概算?",
+          "start_sample": 64790,
+          "end_sample": 73769,
+          "start_ms": 4049,
+          "end_ms": 4611
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you checked the 明細 lately, or are you just trusting the 概算?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4467,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you checked the",
+          "start_sample": 0,
+          "end_sample": 23235,
+          "start_ms": 0,
+          "end_ms": 1452
+        },
+        {
+          "lang": "ja",
+          "text": "明細",
+          "start_sample": 23235,
+          "end_sample": 31248,
+          "start_ms": 1452,
+          "end_ms": 1953
+        },
+        {
+          "lang": "en",
+          "text": "lately, or are you just trusting the",
+          "start_sample": 31248,
+          "end_sample": 63140,
+          "start_ms": 1953,
+          "end_ms": 3946
+        },
+        {
+          "lang": "ja",
+          "text": "概算?",
+          "start_sample": 63140,
+          "end_sample": 71472,
+          "start_ms": 3946,
+          "end_ms": 4467
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 221,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

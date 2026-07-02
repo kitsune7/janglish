@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7773.flac",
+  "sentence": "台風が近づいているので、outdoor の予定はキャンセルした。",
+  "sample_rate": 16000,
+  "duration_ms": 4109,
+  "reference_speaker": "jp/speaker_037_97f38629e8a3.mp3",
+  "seed": 7815,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "台風が近づいているので、",
+      "start_sample": 0,
+      "end_sample": 29890,
+      "start_ms": 0,
+      "end_ms": 1868
+    },
+    {
+      "lang": "en",
+      "text": "outdoor",
+      "start_sample": 29890,
+      "end_sample": 42619,
+      "start_ms": 1868,
+      "end_ms": 2664
+    },
+    {
+      "lang": "ja",
+      "text": "の予定はキャンセルした。",
+      "start_sample": 42619,
+      "end_sample": 65746,
+      "start_ms": 2664,
+      "end_ms": 4109
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "taifuu ga chikazui te iru no de outdoor no yotei ha kyanseru shi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8265,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "台風が近づいているので、",
+          "start_sample": 0,
+          "end_sample": 61798,
+          "start_ms": 0,
+          "end_ms": 3862
+        },
+        {
+          "lang": "en",
+          "text": "outdoor",
+          "start_sample": 61798,
+          "end_sample": 74927,
+          "start_ms": 3862,
+          "end_ms": 4683
+        },
+        {
+          "lang": "ja",
+          "text": "の予定はキャンセルした。",
+          "start_sample": 74927,
+          "end_sample": 132242,
+          "start_ms": 4683,
+          "end_ms": 8265
+        }
+      ]
+    },
+    "ja": {
+      "text": "台風が近づいているので、outdoor の予定はキャンセルした。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4123,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "台風が近づいているので、",
+          "start_sample": 0,
+          "end_sample": 30090,
+          "start_ms": 0,
+          "end_ms": 1881
+        },
+        {
+          "lang": "en",
+          "text": "outdoor",
+          "start_sample": 30090,
+          "end_sample": 42642,
+          "start_ms": 1881,
+          "end_ms": 2665
+        },
+        {
+          "lang": "ja",
+          "text": "の予定はキャンセルした。",
+          "start_sample": 42642,
+          "end_sample": 65969,
+          "start_ms": 2665,
+          "end_ms": 4123
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 206,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

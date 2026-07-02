@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3982.flac",
+  "sentence": "I get so 恥ずかしい every time he looks at me like that.",
+  "sample_rate": 16000,
+  "duration_ms": 3807,
+  "reference_speaker": "jp/speaker_015_c26b5026d437.mp3",
+  "seed": 4024,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I get so",
+      "start_sample": 0,
+      "end_sample": 11984,
+      "start_ms": 0,
+      "end_ms": 749
+    },
+    {
+      "lang": "ja",
+      "text": "恥ずかしい",
+      "start_sample": 11984,
+      "end_sample": 24560,
+      "start_ms": 749,
+      "end_ms": 1535
+    },
+    {
+      "lang": "en",
+      "text": "every time he looks at me like that.",
+      "start_sample": 24560,
+      "end_sample": 60917,
+      "start_ms": 1535,
+      "end_ms": 3807
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I get so hazukashii every time he looks at me like that.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4249,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I get so",
+          "start_sample": 0,
+          "end_sample": 12184,
+          "start_ms": 0,
+          "end_ms": 762
+        },
+        {
+          "lang": "ja",
+          "text": "恥ずかしい",
+          "start_sample": 12184,
+          "end_sample": 31426,
+          "start_ms": 762,
+          "end_ms": 1964
+        },
+        {
+          "lang": "en",
+          "text": "every time he looks at me like that.",
+          "start_sample": 31426,
+          "end_sample": 67983,
+          "start_ms": 1964,
+          "end_ms": 4249
+        }
+      ]
+    },
+    "ja": {
+      "text": "I get so 恥ずかしい every time he looks at me like that.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4025,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I get so",
+          "start_sample": 0,
+          "end_sample": 11854,
+          "start_ms": 0,
+          "end_ms": 741
+        },
+        {
+          "lang": "ja",
+          "text": "恥ずかしい",
+          "start_sample": 11854,
+          "end_sample": 24830,
+          "start_ms": 741,
+          "end_ms": 1552
+        },
+        {
+          "lang": "en",
+          "text": "every time he looks at me like that.",
+          "start_sample": 24830,
+          "end_sample": 64401,
+          "start_ms": 1552,
+          "end_ms": 4025
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 191,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4687.flac",
+  "sentence": "Have you ever tried the 急行 instead of the local line?",
+  "sample_rate": 16000,
+  "duration_ms": 3185,
+  "reference_speaker": "en/speaker_025_5a5c462b583a.mp3",
+  "seed": 4729,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you ever tried the",
+      "start_sample": 0,
+      "end_sample": 17163,
+      "start_ms": 0,
+      "end_ms": 1073
+    },
+    {
+      "lang": "ja",
+      "text": "急行",
+      "start_sample": 17163,
+      "end_sample": 27857,
+      "start_ms": 1073,
+      "end_ms": 1741
+    },
+    {
+      "lang": "en",
+      "text": "instead of the local line?",
+      "start_sample": 27857,
+      "end_sample": 50965,
+      "start_ms": 1741,
+      "end_ms": 3185
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you ever tried the kyuukou instead of the local line?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3135,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever tried the",
+          "start_sample": 0,
+          "end_sample": 17363,
+          "start_ms": 0,
+          "end_ms": 1085
+        },
+        {
+          "lang": "ja",
+          "text": "急行",
+          "start_sample": 17363,
+          "end_sample": 26850,
+          "start_ms": 1085,
+          "end_ms": 1678
+        },
+        {
+          "lang": "en",
+          "text": "instead of the local line?",
+          "start_sample": 26850,
+          "end_sample": 50158,
+          "start_ms": 1678,
+          "end_ms": 3135
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you ever tried the 急行 instead of the local line?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4481,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever tried the",
+          "start_sample": 0,
+          "end_sample": 24116,
+          "start_ms": 0,
+          "end_ms": 1507
+        },
+        {
+          "lang": "ja",
+          "text": "急行",
+          "start_sample": 24116,
+          "end_sample": 35210,
+          "start_ms": 1507,
+          "end_ms": 2201
+        },
+        {
+          "lang": "en",
+          "text": "instead of the local line?",
+          "start_sample": 35210,
+          "end_sample": 71702,
+          "start_ms": 2201,
+          "end_ms": 4481
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

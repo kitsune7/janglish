@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5994.flac",
+  "sentence": "She wore a 地味 grey cardigan to avoid standing out at the interview.",
+  "sample_rate": 16000,
+  "duration_ms": 4078,
+  "reference_speaker": "jp/speaker_041_36b0f2924199.mp3",
+  "seed": 6036,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She wore a",
+      "start_sample": 0,
+      "end_sample": 11980,
+      "start_ms": 0,
+      "end_ms": 749
+    },
+    {
+      "lang": "ja",
+      "text": "地味",
+      "start_sample": 11980,
+      "end_sample": 17690,
+      "start_ms": 749,
+      "end_ms": 1106
+    },
+    {
+      "lang": "en",
+      "text": "grey cardigan to avoid standing out at the interview.",
+      "start_sample": 17690,
+      "end_sample": 65254,
+      "start_ms": 1106,
+      "end_ms": 4078
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She wore a jimi grey cardigan to avoid standing out at the interview.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4288,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She wore a",
+          "start_sample": 0,
+          "end_sample": 12180,
+          "start_ms": 0,
+          "end_ms": 761
+        },
+        {
+          "lang": "ja",
+          "text": "地味",
+          "start_sample": 12180,
+          "end_sample": 20836,
+          "start_ms": 761,
+          "end_ms": 1302
+        },
+        {
+          "lang": "en",
+          "text": "grey cardigan to avoid standing out at the interview.",
+          "start_sample": 20836,
+          "end_sample": 68600,
+          "start_ms": 1302,
+          "end_ms": 4288
+        }
+      ]
+    },
+    "ja": {
+      "text": "She wore a 地味 grey cardigan to avoid standing out at the interview.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4501,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She wore a",
+          "start_sample": 0,
+          "end_sample": 10124,
+          "start_ms": 0,
+          "end_ms": 633
+        },
+        {
+          "lang": "ja",
+          "text": "地味",
+          "start_sample": 10124,
+          "end_sample": 16234,
+          "start_ms": 633,
+          "end_ms": 1015
+        },
+        {
+          "lang": "en",
+          "text": "grey cardigan to avoid standing out at the interview.",
+          "start_sample": 16234,
+          "end_sample": 72019,
+          "start_ms": 1015,
+          "end_ms": 4501
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

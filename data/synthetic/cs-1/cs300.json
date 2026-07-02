@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs300.flac",
+  "sentence": "彼はdaily passを持っているので改札をスムーズに通れる。",
+  "sample_rate": 16000,
+  "duration_ms": 4946,
+  "reference_speaker": "en/speaker_038_cc7cc15dbf19.mp3",
+  "seed": 342,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼は",
+      "start_sample": 0,
+      "end_sample": 10211,
+      "start_ms": 0,
+      "end_ms": 638
+    },
+    {
+      "lang": "en",
+      "text": "daily pass",
+      "start_sample": 10211,
+      "end_sample": 27918,
+      "start_ms": 638,
+      "end_ms": 1745
+    },
+    {
+      "lang": "ja",
+      "text": "を持っているので改札をスムーズに通れる。",
+      "start_sample": 27918,
+      "end_sample": 79138,
+      "start_ms": 1745,
+      "end_ms": 4946
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha daily pass wo motsu te iru no de kaisatsu wo sumuuzu ni toureru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7832,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 13299,
+          "start_ms": 0,
+          "end_ms": 831
+        },
+        {
+          "lang": "en",
+          "text": "daily pass",
+          "start_sample": 13299,
+          "end_sample": 31406,
+          "start_ms": 831,
+          "end_ms": 1963
+        },
+        {
+          "lang": "ja",
+          "text": "を持っているので改札をスムーズに通れる。",
+          "start_sample": 31406,
+          "end_sample": 125305,
+          "start_ms": 1963,
+          "end_ms": 7832
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はdaily passを持っているので改札をスムーズに通れる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4766,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 10411,
+          "start_ms": 0,
+          "end_ms": 651
+        },
+        {
+          "lang": "en",
+          "text": "daily pass",
+          "start_sample": 10411,
+          "end_sample": 24828,
+          "start_ms": 651,
+          "end_ms": 1552
+        },
+        {
+          "lang": "ja",
+          "text": "を持っているので改札をスムーズに通れる。",
+          "start_sample": 24828,
+          "end_sample": 76248,
+          "start_ms": 1552,
+          "end_ms": 4766
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 248,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5826.flac",
+  "sentence": "The 重い groceries made the walk home really exhausting.",
+  "sample_rate": 16000,
+  "duration_ms": 3183,
+  "reference_speaker": "jp/speaker_017_2adba246654a.mp3",
+  "seed": 5868,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1406,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "重い",
+      "start_sample": 1406,
+      "end_sample": 6132,
+      "start_ms": 88,
+      "end_ms": 383
+    },
+    {
+      "lang": "en",
+      "text": "groceries made the walk home really exhausting.",
+      "start_sample": 6132,
+      "end_sample": 50921,
+      "start_ms": 383,
+      "end_ms": 3183
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The omoi groceries made the walk home really exhausting.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3294,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1606,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "重い",
+          "start_sample": 1606,
+          "end_sample": 7712,
+          "start_ms": 100,
+          "end_ms": 482
+        },
+        {
+          "lang": "en",
+          "text": "groceries made the walk home really exhausting.",
+          "start_sample": 7712,
+          "end_sample": 52701,
+          "start_ms": 482,
+          "end_ms": 3294
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 重い groceries made the walk home really exhausting.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3985,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4965,
+          "start_ms": 0,
+          "end_ms": 310
+        },
+        {
+          "lang": "ja",
+          "text": "重い",
+          "start_sample": 4965,
+          "end_sample": 10091,
+          "start_ms": 310,
+          "end_ms": 631
+        },
+        {
+          "lang": "en",
+          "text": "groceries made the walk home really exhausting.",
+          "start_sample": 10091,
+          "end_sample": 63760,
+          "start_ms": 631,
+          "end_ms": 3985
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

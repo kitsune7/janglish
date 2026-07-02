@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10877.flac",
+  "sentence": "The 祭り season here runs all the way from midsummer through early autumn.",
+  "sample_rate": 16000,
+  "duration_ms": 3356,
+  "reference_speaker": "jp/speaker_035_dd783030d2b8.mp3",
+  "seed": 10919,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1086,
+      "start_ms": 0,
+      "end_ms": 68
+    },
+    {
+      "lang": "ja",
+      "text": "祭り",
+      "start_sample": 1086,
+      "end_sample": 8868,
+      "start_ms": 68,
+      "end_ms": 554
+    },
+    {
+      "lang": "en",
+      "text": "season here runs all the way from midsummer through early autumn.",
+      "start_sample": 8868,
+      "end_sample": 53688,
+      "start_ms": 554,
+      "end_ms": 3356
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The matsuri season here runs all the way from midsummer through early autumn.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3376,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1286,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "祭り",
+          "start_sample": 1286,
+          "end_sample": 9004,
+          "start_ms": 80,
+          "end_ms": 563
+        },
+        {
+          "lang": "en",
+          "text": "season here runs all the way from midsummer through early autumn.",
+          "start_sample": 9004,
+          "end_sample": 54024,
+          "start_ms": 563,
+          "end_ms": 3376
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 祭り season here runs all the way from midsummer through early autumn.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4732,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4810,
+          "start_ms": 0,
+          "end_ms": 301
+        },
+        {
+          "lang": "ja",
+          "text": "祭り",
+          "start_sample": 4810,
+          "end_sample": 12992,
+          "start_ms": 301,
+          "end_ms": 812
+        },
+        {
+          "lang": "en",
+          "text": "season here runs all the way from midsummer through early autumn.",
+          "start_sample": 12992,
+          "end_sample": 75716,
+          "start_ms": 812,
+          "end_ms": 4732
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 168,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

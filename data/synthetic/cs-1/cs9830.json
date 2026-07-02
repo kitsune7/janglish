@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9830.flac",
+  "sentence": "He plays the piano in such a 自由 style that no two performances are ever the same.",
+  "sample_rate": 16000,
+  "duration_ms": 6708,
+  "reference_speaker": "en/speaker_050_6b3579133fec.mp3",
+  "seed": 9872,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He plays the piano in such a",
+      "start_sample": 0,
+      "end_sample": 43049,
+      "start_ms": 0,
+      "end_ms": 2691
+    },
+    {
+      "lang": "ja",
+      "text": "自由",
+      "start_sample": 43049,
+      "end_sample": 48734,
+      "start_ms": 2691,
+      "end_ms": 3046
+    },
+    {
+      "lang": "en",
+      "text": "style that no two performances are ever the same.",
+      "start_sample": 48734,
+      "end_sample": 107320,
+      "start_ms": 3046,
+      "end_ms": 6708
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He plays the piano in such a jiyuu style that no two performances are ever the same.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6808,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He plays the piano in such a",
+          "start_sample": 0,
+          "end_sample": 43249,
+          "start_ms": 0,
+          "end_ms": 2703
+        },
+        {
+          "lang": "ja",
+          "text": "自由",
+          "start_sample": 43249,
+          "end_sample": 50137,
+          "start_ms": 2703,
+          "end_ms": 3134
+        },
+        {
+          "lang": "en",
+          "text": "style that no two performances are ever the same.",
+          "start_sample": 50137,
+          "end_sample": 108923,
+          "start_ms": 3134,
+          "end_ms": 6808
+        }
+      ]
+    },
+    "ja": {
+      "text": "He plays the piano in such a 自由 style that no two performances are ever the same.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7786,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He plays the piano in such a",
+          "start_sample": 0,
+          "end_sample": 50119,
+          "start_ms": 0,
+          "end_ms": 3132
+        },
+        {
+          "lang": "ja",
+          "text": "自由",
+          "start_sample": 50119,
+          "end_sample": 56204,
+          "start_ms": 3132,
+          "end_ms": 3513
+        },
+        {
+          "lang": "en",
+          "text": "style that no two performances are ever the same.",
+          "start_sample": 56204,
+          "end_sample": 124577,
+          "start_ms": 3513,
+          "end_ms": 7786
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 336,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

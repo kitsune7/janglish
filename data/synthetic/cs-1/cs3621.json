@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3621.flac",
+  "sentence": "先生はstressが原因だとおっしゃっていました。",
+  "sample_rate": 16000,
+  "duration_ms": 3537,
+  "reference_speaker": "en/speaker_054_103b0eb5778e.mp3",
+  "seed": 3663,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "先生は",
+      "start_sample": 0,
+      "end_sample": 12994,
+      "start_ms": 0,
+      "end_ms": 812
+    },
+    {
+      "lang": "en",
+      "text": "stress",
+      "start_sample": 12994,
+      "end_sample": 24610,
+      "start_ms": 812,
+      "end_ms": 1538
+    },
+    {
+      "lang": "ja",
+      "text": "が原因だとおっしゃっていました。",
+      "start_sample": 24610,
+      "end_sample": 56588,
+      "start_ms": 1538,
+      "end_ms": 3537
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sensei ha stress ga gen'in da to osshatsu te i mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6949,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先生は",
+          "start_sample": 0,
+          "end_sample": 19223,
+          "start_ms": 0,
+          "end_ms": 1201
+        },
+        {
+          "lang": "en",
+          "text": "stress",
+          "start_sample": 19223,
+          "end_sample": 31239,
+          "start_ms": 1201,
+          "end_ms": 1952
+        },
+        {
+          "lang": "ja",
+          "text": "が原因だとおっしゃっていました。",
+          "start_sample": 31239,
+          "end_sample": 111181,
+          "start_ms": 1952,
+          "end_ms": 6949
+        }
+      ]
+    },
+    "ja": {
+      "text": "先生はstressが原因だとおっしゃっていました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3399,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先生は",
+          "start_sample": 0,
+          "end_sample": 13194,
+          "start_ms": 0,
+          "end_ms": 825
+        },
+        {
+          "lang": "en",
+          "text": "stress",
+          "start_sample": 13194,
+          "end_sample": 22205,
+          "start_ms": 825,
+          "end_ms": 1388
+        },
+        {
+          "lang": "ja",
+          "text": "が原因だとおっしゃっていました。",
+          "start_sample": 22205,
+          "end_sample": 54383,
+          "start_ms": 1388,
+          "end_ms": 3399
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

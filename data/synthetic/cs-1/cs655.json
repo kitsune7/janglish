@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs655.flac",
+  "sentence": "パスタのsauceを作るとき、にんにくを忘れないでください。",
+  "sample_rate": 16000,
+  "duration_ms": 3586,
+  "reference_speaker": "en/speaker_046_c5e6fd979dbd.mp3",
+  "seed": 697,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "パスタの",
+      "start_sample": 0,
+      "end_sample": 6070,
+      "start_ms": 0,
+      "end_ms": 379
+    },
+    {
+      "lang": "en",
+      "text": "sauce",
+      "start_sample": 6070,
+      "end_sample": 16739,
+      "start_ms": 379,
+      "end_ms": 1046
+    },
+    {
+      "lang": "ja",
+      "text": "を作るとき、にんにくを忘れないでください。",
+      "start_sample": 16739,
+      "end_sample": 57377,
+      "start_ms": 1046,
+      "end_ms": 3586
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "pasuta no sauce wo tsukuru toki ninniku wo wasure nai de kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6597,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "パスタの",
+          "start_sample": 0,
+          "end_sample": 16843,
+          "start_ms": 0,
+          "end_ms": 1053
+        },
+        {
+          "lang": "en",
+          "text": "sauce",
+          "start_sample": 16843,
+          "end_sample": 27912,
+          "start_ms": 1053,
+          "end_ms": 1744
+        },
+        {
+          "lang": "ja",
+          "text": "を作るとき、にんにくを忘れないでください。",
+          "start_sample": 27912,
+          "end_sample": 105551,
+          "start_ms": 1744,
+          "end_ms": 6597
+        }
+      ]
+    },
+    "ja": {
+      "text": "パスタのsauceを作るとき、にんにくを忘れないでください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3336,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "パスタの",
+          "start_sample": 0,
+          "end_sample": 6270,
+          "start_ms": 0,
+          "end_ms": 392
+        },
+        {
+          "lang": "en",
+          "text": "sauce",
+          "start_sample": 6270,
+          "end_sample": 12542,
+          "start_ms": 392,
+          "end_ms": 784
+        },
+        {
+          "lang": "ja",
+          "text": "を作るとき、にんにくを忘れないでください。",
+          "start_sample": 12542,
+          "end_sample": 53380,
+          "start_ms": 784,
+          "end_ms": 3336
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 180,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

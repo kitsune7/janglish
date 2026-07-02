@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8004.flac",
+  "sentence": "Our 長男 just got accepted to a university across the country.",
+  "sample_rate": 16000,
+  "duration_ms": 3519,
+  "reference_speaker": "en/speaker_021_0c003e301f78.mp3",
+  "seed": 8046,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Our",
+      "start_sample": 0,
+      "end_sample": 2526,
+      "start_ms": 0,
+      "end_ms": 158
+    },
+    {
+      "lang": "ja",
+      "text": "長男",
+      "start_sample": 2526,
+      "end_sample": 8229,
+      "start_ms": 158,
+      "end_ms": 514
+    },
+    {
+      "lang": "en",
+      "text": "just got accepted to a university across the country.",
+      "start_sample": 8229,
+      "end_sample": 56310,
+      "start_ms": 514,
+      "end_ms": 3519
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Our chounan just got accepted to a university across the country.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4010,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Our",
+          "start_sample": 0,
+          "end_sample": 2726,
+          "start_ms": 0,
+          "end_ms": 170
+        },
+        {
+          "lang": "ja",
+          "text": "長男",
+          "start_sample": 2726,
+          "end_sample": 15880,
+          "start_ms": 170,
+          "end_ms": 992
+        },
+        {
+          "lang": "en",
+          "text": "just got accepted to a university across the country.",
+          "start_sample": 15880,
+          "end_sample": 64161,
+          "start_ms": 992,
+          "end_ms": 4010
+        }
+      ]
+    },
+    "ja": {
+      "text": "Our 長男 just got accepted to a university across the country.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4376,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Our",
+          "start_sample": 0,
+          "end_sample": 4336,
+          "start_ms": 0,
+          "end_ms": 271
+        },
+        {
+          "lang": "ja",
+          "text": "長男",
+          "start_sample": 4336,
+          "end_sample": 10439,
+          "start_ms": 271,
+          "end_ms": 652
+        },
+        {
+          "lang": "en",
+          "text": "just got accepted to a university across the country.",
+          "start_sample": 10439,
+          "end_sample": 70020,
+          "start_ms": 652,
+          "end_ms": 4376
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 176,
+  "frame_labels": "eeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

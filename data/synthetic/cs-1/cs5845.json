@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5845.flac",
+  "sentence": "I need to stop by the 文房具 store to get a new planner for next year.",
+  "sample_rate": 16000,
+  "duration_ms": 3763,
+  "reference_speaker": "en/speaker_062_05f0c617d0bb.mp3",
+  "seed": 5887,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I need to stop by the",
+      "start_sample": 0,
+      "end_sample": 16011,
+      "start_ms": 0,
+      "end_ms": 1001
+    },
+    {
+      "lang": "ja",
+      "text": "文房具",
+      "start_sample": 16011,
+      "end_sample": 26378,
+      "start_ms": 1001,
+      "end_ms": 1649
+    },
+    {
+      "lang": "en",
+      "text": "store to get a new planner for next year.",
+      "start_sample": 26378,
+      "end_sample": 60210,
+      "start_ms": 1649,
+      "end_ms": 3763
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I need to stop by the bunbou gu store to get a new planner for next year.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3812,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need to stop by the",
+          "start_sample": 0,
+          "end_sample": 16211,
+          "start_ms": 0,
+          "end_ms": 1013
+        },
+        {
+          "lang": "ja",
+          "text": "文房具",
+          "start_sample": 16211,
+          "end_sample": 26967,
+          "start_ms": 1013,
+          "end_ms": 1685
+        },
+        {
+          "lang": "en",
+          "text": "store to get a new planner for next year.",
+          "start_sample": 26967,
+          "end_sample": 60999,
+          "start_ms": 1685,
+          "end_ms": 3812
+        }
+      ]
+    },
+    "ja": {
+      "text": "I need to stop by the 文房具 store to get a new planner for next year.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4660,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need to stop by the",
+          "start_sample": 0,
+          "end_sample": 21374,
+          "start_ms": 0,
+          "end_ms": 1336
+        },
+        {
+          "lang": "ja",
+          "text": "文房具",
+          "start_sample": 21374,
+          "end_sample": 32141,
+          "start_ms": 1336,
+          "end_ms": 2009
+        },
+        {
+          "lang": "en",
+          "text": "store to get a new planner for next year.",
+          "start_sample": 32141,
+          "end_sample": 74565,
+          "start_ms": 2009,
+          "end_ms": 4660
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 189,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

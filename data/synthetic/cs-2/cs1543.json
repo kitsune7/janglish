@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs1543.flac",
+  "sentence": "I need a more 具体的 description than just \"near the 川\" — that could be anywhere.",
+  "sample_rate": 16000,
+  "duration_ms": 4136,
+  "reference_speaker": "en/speaker_055_a1e62e8e91e0.mp3",
+  "seed": 18398,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I need a more",
+      "start_sample": 0,
+      "end_sample": 12005,
+      "start_ms": 0,
+      "end_ms": 750
+    },
+    {
+      "lang": "ja",
+      "text": "具体的",
+      "start_sample": 12005,
+      "end_sample": 21239,
+      "start_ms": 750,
+      "end_ms": 1327
+    },
+    {
+      "lang": "en",
+      "text": "description than just \"near the",
+      "start_sample": 21239,
+      "end_sample": 45899,
+      "start_ms": 1327,
+      "end_ms": 2869
+    },
+    {
+      "lang": "ja",
+      "text": "川\" —",
+      "start_sample": 45899,
+      "end_sample": 50638,
+      "start_ms": 2869,
+      "end_ms": 3165
+    },
+    {
+      "lang": "en",
+      "text": "that could be anywhere.",
+      "start_sample": 50638,
+      "end_sample": 66178,
+      "start_ms": 3165,
+      "end_ms": 4136
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I need a more gutai teki description than just \"near the kawa that could be anywhere.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4819,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need a more",
+          "start_sample": 0,
+          "end_sample": 12205,
+          "start_ms": 0,
+          "end_ms": 763
+        },
+        {
+          "lang": "ja",
+          "text": "具体的",
+          "start_sample": 12205,
+          "end_sample": 29877,
+          "start_ms": 763,
+          "end_ms": 1867
+        },
+        {
+          "lang": "en",
+          "text": "description than just \"near the",
+          "start_sample": 29877,
+          "end_sample": 54937,
+          "start_ms": 1867,
+          "end_ms": 3434
+        },
+        {
+          "lang": "ja",
+          "text": "川\" —",
+          "start_sample": 54937,
+          "end_sample": 61363,
+          "start_ms": 3434,
+          "end_ms": 3835
+        },
+        {
+          "lang": "en",
+          "text": "that could be anywhere.",
+          "start_sample": 61363,
+          "end_sample": 77103,
+          "start_ms": 3835,
+          "end_ms": 4819
+        }
+      ]
+    },
+    "ja": {
+      "text": "I need a more 具体的 description than just \"near the 川\" — that could be anywhere.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5780,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need a more",
+          "start_sample": 0,
+          "end_sample": 13809,
+          "start_ms": 0,
+          "end_ms": 863
+        },
+        {
+          "lang": "ja",
+          "text": "具体的",
+          "start_sample": 13809,
+          "end_sample": 23443,
+          "start_ms": 863,
+          "end_ms": 1465
+        },
+        {
+          "lang": "en",
+          "text": "description than just \"near the",
+          "start_sample": 23443,
+          "end_sample": 61339,
+          "start_ms": 1465,
+          "end_ms": 3834
+        },
+        {
+          "lang": "ja",
+          "text": "川\" —",
+          "start_sample": 61339,
+          "end_sample": 66478,
+          "start_ms": 3834,
+          "end_ms": 4155
+        },
+        {
+          "lang": "en",
+          "text": "that could be anywhere.",
+          "start_sample": 66478,
+          "end_sample": 92488,
+          "start_ms": 4155,
+          "end_ms": 5780
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 207,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs148.flac",
+  "sentence": "Her 本音 finally came out after the third glass of 赤ワイン.",
+  "sample_rate": 16000,
+  "duration_ms": 3932,
+  "reference_speaker": "jp/speaker_061_3e186ef591ed.mp3",
+  "seed": 17003,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Her",
+      "start_sample": 0,
+      "end_sample": 1562,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "本音",
+      "start_sample": 1562,
+      "end_sample": 9511,
+      "start_ms": 98,
+      "end_ms": 594
+    },
+    {
+      "lang": "en",
+      "text": "finally came out after the third glass of",
+      "start_sample": 9511,
+      "end_sample": 52528,
+      "start_ms": 594,
+      "end_ms": 3283
+    },
+    {
+      "lang": "ja",
+      "text": "赤ワイン.",
+      "start_sample": 52528,
+      "end_sample": 62920,
+      "start_ms": 3283,
+      "end_ms": 3932
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Her honne finally came out after the third glass of aka wain",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3905,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 1762,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "本音",
+          "start_sample": 1762,
+          "end_sample": 5126,
+          "start_ms": 110,
+          "end_ms": 320
+        },
+        {
+          "lang": "en",
+          "text": "finally came out after the third glass of",
+          "start_sample": 5126,
+          "end_sample": 48543,
+          "start_ms": 320,
+          "end_ms": 3034
+        },
+        {
+          "lang": "ja",
+          "text": "赤ワイン.",
+          "start_sample": 48543,
+          "end_sample": 62480,
+          "start_ms": 3034,
+          "end_ms": 3905
+        }
+      ]
+    },
+    "ja": {
+      "text": "Her 本音 finally came out after the third glass of 赤ワイン.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6100,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 4494,
+          "start_ms": 0,
+          "end_ms": 281
+        },
+        {
+          "lang": "ja",
+          "text": "本音",
+          "start_sample": 4494,
+          "end_sample": 12843,
+          "start_ms": 281,
+          "end_ms": 803
+        },
+        {
+          "lang": "en",
+          "text": "finally came out after the third glass of",
+          "start_sample": 12843,
+          "end_sample": 87016,
+          "start_ms": 803,
+          "end_ms": 5438
+        },
+        {
+          "lang": "ja",
+          "text": "赤ワイン.",
+          "start_sample": 87016,
+          "end_sample": 97608,
+          "start_ms": 5438,
+          "end_ms": 6100
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 197,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

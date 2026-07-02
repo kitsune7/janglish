@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8313.flac",
+  "sentence": "もっとcasualな服が着たいと思っています。",
+  "sample_rate": 16000,
+  "duration_ms": 3166,
+  "reference_speaker": "jp/speaker_014_9e367176533e.mp3",
+  "seed": 8355,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "もっと",
+      "start_sample": 0,
+      "end_sample": 6534,
+      "start_ms": 0,
+      "end_ms": 408
+    },
+    {
+      "lang": "en",
+      "text": "casual",
+      "start_sample": 6534,
+      "end_sample": 17342,
+      "start_ms": 408,
+      "end_ms": 1084
+    },
+    {
+      "lang": "ja",
+      "text": "な服が着たいと思っています。",
+      "start_sample": 17342,
+      "end_sample": 50651,
+      "start_ms": 1084,
+      "end_ms": 3166
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "motto casual na fuku ga chaku tai to omotsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6945,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "もっと",
+          "start_sample": 0,
+          "end_sample": 7685,
+          "start_ms": 0,
+          "end_ms": 480
+        },
+        {
+          "lang": "en",
+          "text": "casual",
+          "start_sample": 7685,
+          "end_sample": 18893,
+          "start_ms": 480,
+          "end_ms": 1181
+        },
+        {
+          "lang": "ja",
+          "text": "な服が着たいと思っています。",
+          "start_sample": 18893,
+          "end_sample": 111120,
+          "start_ms": 1181,
+          "end_ms": 6945
+        }
+      ]
+    },
+    "ja": {
+      "text": "もっとcasualな服が着たいと思っています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3066,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "もっと",
+          "start_sample": 0,
+          "end_sample": 6734,
+          "start_ms": 0,
+          "end_ms": 421
+        },
+        {
+          "lang": "en",
+          "text": "casual",
+          "start_sample": 6734,
+          "end_sample": 15552,
+          "start_ms": 421,
+          "end_ms": 972
+        },
+        {
+          "lang": "ja",
+          "text": "な服が着たいと思っています。",
+          "start_sample": 15552,
+          "end_sample": 49061,
+          "start_ms": 972,
+          "end_ms": 3066
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

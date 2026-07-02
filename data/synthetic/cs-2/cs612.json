@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs612.flac",
+  "sentence": "Can you send me the 詳細 before the call so I have some 心構え?",
+  "sample_rate": 16000,
+  "duration_ms": 4084,
+  "reference_speaker": "jp/speaker_009_33102318f73b.mp3",
+  "seed": 17467,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you send me the",
+      "start_sample": 0,
+      "end_sample": 12134,
+      "start_ms": 0,
+      "end_ms": 758
+    },
+    {
+      "lang": "ja",
+      "text": "詳細",
+      "start_sample": 12134,
+      "end_sample": 20890,
+      "start_ms": 758,
+      "end_ms": 1306
+    },
+    {
+      "lang": "en",
+      "text": "before the call so I have some",
+      "start_sample": 20890,
+      "end_sample": 52689,
+      "start_ms": 1306,
+      "end_ms": 3293
+    },
+    {
+      "lang": "ja",
+      "text": "心構え?",
+      "start_sample": 52689,
+      "end_sample": 65336,
+      "start_ms": 3293,
+      "end_ms": 4084
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you send me the shousai before the call so I have some kokorogamae",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4245,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you send me the",
+          "start_sample": 0,
+          "end_sample": 12334,
+          "start_ms": 0,
+          "end_ms": 771
+        },
+        {
+          "lang": "ja",
+          "text": "詳細",
+          "start_sample": 12334,
+          "end_sample": 21465,
+          "start_ms": 771,
+          "end_ms": 1342
+        },
+        {
+          "lang": "en",
+          "text": "before the call so I have some",
+          "start_sample": 21465,
+          "end_sample": 53664,
+          "start_ms": 1342,
+          "end_ms": 3354
+        },
+        {
+          "lang": "ja",
+          "text": "心構え?",
+          "start_sample": 53664,
+          "end_sample": 67920,
+          "start_ms": 3354,
+          "end_ms": 4245
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you send me the 詳細 before the call so I have some 心構え?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4638,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you send me the",
+          "start_sample": 0,
+          "end_sample": 16383,
+          "start_ms": 0,
+          "end_ms": 1024
+        },
+        {
+          "lang": "ja",
+          "text": "詳細",
+          "start_sample": 16383,
+          "end_sample": 25539,
+          "start_ms": 1024,
+          "end_ms": 1596
+        },
+        {
+          "lang": "en",
+          "text": "before the call so I have some",
+          "start_sample": 25539,
+          "end_sample": 61359,
+          "start_ms": 1596,
+          "end_ms": 3835
+        },
+        {
+          "lang": "ja",
+          "text": "心構え?",
+          "start_sample": 61359,
+          "end_sample": 74206,
+          "start_ms": 3835,
+          "end_ms": 4638
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 205,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

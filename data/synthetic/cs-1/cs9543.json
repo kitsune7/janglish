@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9543.flac",
+  "sentence": "We were upgraded to a 和室 because our original room had a plumbing issue.",
+  "sample_rate": 16000,
+  "duration_ms": 3297,
+  "reference_speaker": "jp/speaker_019_45c9ebd0ae18.mp3",
+  "seed": 9585,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We were upgraded to a",
+      "start_sample": 0,
+      "end_sample": 15356,
+      "start_ms": 0,
+      "end_ms": 960
+    },
+    {
+      "lang": "ja",
+      "text": "和室",
+      "start_sample": 15356,
+      "end_sample": 20726,
+      "start_ms": 960,
+      "end_ms": 1295
+    },
+    {
+      "lang": "en",
+      "text": "because our original room had a plumbing issue.",
+      "start_sample": 20726,
+      "end_sample": 52759,
+      "start_ms": 1295,
+      "end_ms": 3297
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We were upgraded to a washitsu because our original room had a plumbing issue.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3528,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We were upgraded to a",
+          "start_sample": 0,
+          "end_sample": 15556,
+          "start_ms": 0,
+          "end_ms": 972
+        },
+        {
+          "lang": "ja",
+          "text": "和室",
+          "start_sample": 15556,
+          "end_sample": 24216,
+          "start_ms": 972,
+          "end_ms": 1514
+        },
+        {
+          "lang": "en",
+          "text": "because our original room had a plumbing issue.",
+          "start_sample": 24216,
+          "end_sample": 56449,
+          "start_ms": 1514,
+          "end_ms": 3528
+        }
+      ]
+    },
+    "ja": {
+      "text": "We were upgraded to a 和室 because our original room had a plumbing issue.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4568,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We were upgraded to a",
+          "start_sample": 0,
+          "end_sample": 20353,
+          "start_ms": 0,
+          "end_ms": 1272
+        },
+        {
+          "lang": "ja",
+          "text": "和室",
+          "start_sample": 20353,
+          "end_sample": 26123,
+          "start_ms": 1272,
+          "end_ms": 1633
+        },
+        {
+          "lang": "en",
+          "text": "because our original room had a plumbing issue.",
+          "start_sample": 26123,
+          "end_sample": 73081,
+          "start_ms": 1633,
+          "end_ms": 4568
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 165,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

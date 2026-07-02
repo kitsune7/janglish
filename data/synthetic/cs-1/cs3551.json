@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3551.flac",
+  "sentence": "うちのパロットはとてもcleverで、名前を覚えました。",
+  "sample_rate": 16000,
+  "duration_ms": 4860,
+  "reference_speaker": "en/speaker_041_b54335ce95b5.mp3",
+  "seed": 3593,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "うちのパロットはとても",
+      "start_sample": 0,
+      "end_sample": 33870,
+      "start_ms": 0,
+      "end_ms": 2117
+    },
+    {
+      "lang": "en",
+      "text": "clever",
+      "start_sample": 33870,
+      "end_sample": 45015,
+      "start_ms": 2117,
+      "end_ms": 2813
+    },
+    {
+      "lang": "ja",
+      "text": "で、名前を覚えました。",
+      "start_sample": 45015,
+      "end_sample": 77757,
+      "start_ms": 2813,
+      "end_ms": 4860
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "uchi no parotto ha totemo clever de namae wo oboe mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7335,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちのパロットはとても",
+          "start_sample": 0,
+          "end_sample": 54352,
+          "start_ms": 0,
+          "end_ms": 3397
+        },
+        {
+          "lang": "en",
+          "text": "clever",
+          "start_sample": 54352,
+          "end_sample": 65897,
+          "start_ms": 3397,
+          "end_ms": 4119
+        },
+        {
+          "lang": "ja",
+          "text": "で、名前を覚えました。",
+          "start_sample": 65897,
+          "end_sample": 117363,
+          "start_ms": 4119,
+          "end_ms": 7335
+        }
+      ]
+    },
+    "ja": {
+      "text": "うちのパロットはとてもcleverで、名前を覚えました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4700,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちのパロットはとても",
+          "start_sample": 0,
+          "end_sample": 34070,
+          "start_ms": 0,
+          "end_ms": 2129
+        },
+        {
+          "lang": "en",
+          "text": "clever",
+          "start_sample": 34070,
+          "end_sample": 42266,
+          "start_ms": 2129,
+          "end_ms": 2642
+        },
+        {
+          "lang": "ja",
+          "text": "で、名前を覚えました。",
+          "start_sample": 42266,
+          "end_sample": 75208,
+          "start_ms": 2642,
+          "end_ms": 4700
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 243,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

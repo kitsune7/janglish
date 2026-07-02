@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs808.flac",
+  "sentence": "Did you remember to soak the 昆布 overnight for the stock?",
+  "sample_rate": 16000,
+  "duration_ms": 4961,
+  "reference_speaker": "jp/speaker_057_6b77a20f629a.mp3",
+  "seed": 850,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Did you remember to soak the",
+      "start_sample": 0,
+      "end_sample": 52074,
+      "start_ms": 0,
+      "end_ms": 3255
+    },
+    {
+      "lang": "ja",
+      "text": "昆布",
+      "start_sample": 52074,
+      "end_sample": 56491,
+      "start_ms": 3255,
+      "end_ms": 3531
+    },
+    {
+      "lang": "en",
+      "text": "overnight for the stock?",
+      "start_sample": 56491,
+      "end_sample": 79380,
+      "start_ms": 3531,
+      "end_ms": 4961
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Did you remember to soak the konbu overnight for the stock?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5312,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you remember to soak the",
+          "start_sample": 0,
+          "end_sample": 52274,
+          "start_ms": 0,
+          "end_ms": 3267
+        },
+        {
+          "lang": "ja",
+          "text": "昆布",
+          "start_sample": 52274,
+          "end_sample": 61895,
+          "start_ms": 3267,
+          "end_ms": 3868
+        },
+        {
+          "lang": "en",
+          "text": "overnight for the stock?",
+          "start_sample": 61895,
+          "end_sample": 84984,
+          "start_ms": 3868,
+          "end_ms": 5312
+        }
+      ]
+    },
+    "ja": {
+      "text": "Did you remember to soak the 昆布 overnight for the stock?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2549,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you remember to soak the",
+          "start_sample": 0,
+          "end_sample": 19591,
+          "start_ms": 0,
+          "end_ms": 1224
+        },
+        {
+          "lang": "ja",
+          "text": "昆布",
+          "start_sample": 19591,
+          "end_sample": 24408,
+          "start_ms": 1224,
+          "end_ms": 1526
+        },
+        {
+          "lang": "en",
+          "text": "overnight for the stock?",
+          "start_sample": 24408,
+          "end_sample": 40789,
+          "start_ms": 1526,
+          "end_ms": 2549
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 249,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

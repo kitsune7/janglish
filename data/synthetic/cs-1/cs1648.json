@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1648.flac",
+  "sentence": "The baby turtle moved so ゆっくり across the warm sand.",
+  "sample_rate": 16000,
+  "duration_ms": 3571,
+  "reference_speaker": "en/speaker_022_008f1e5e50d2.mp3",
+  "seed": 1690,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The baby turtle moved so",
+      "start_sample": 0,
+      "end_sample": 22753,
+      "start_ms": 0,
+      "end_ms": 1422
+    },
+    {
+      "lang": "ja",
+      "text": "ゆっくり",
+      "start_sample": 22753,
+      "end_sample": 33422,
+      "start_ms": 1422,
+      "end_ms": 2089
+    },
+    {
+      "lang": "en",
+      "text": "across the warm sand.",
+      "start_sample": 33422,
+      "end_sample": 57137,
+      "start_ms": 2089,
+      "end_ms": 3571
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The baby turtle moved so yukkuri across the warm sand.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3531,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The baby turtle moved so",
+          "start_sample": 0,
+          "end_sample": 22953,
+          "start_ms": 0,
+          "end_ms": 1435
+        },
+        {
+          "lang": "ja",
+          "text": "ゆっくり",
+          "start_sample": 22953,
+          "end_sample": 32584,
+          "start_ms": 1435,
+          "end_ms": 2037
+        },
+        {
+          "lang": "en",
+          "text": "across the warm sand.",
+          "start_sample": 32584,
+          "end_sample": 56499,
+          "start_ms": 2037,
+          "end_ms": 3531
+        }
+      ]
+    },
+    "ja": {
+      "text": "The baby turtle moved so ゆっくり across the warm sand.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4893,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The baby turtle moved so",
+          "start_sample": 0,
+          "end_sample": 38660,
+          "start_ms": 0,
+          "end_ms": 2416
+        },
+        {
+          "lang": "ja",
+          "text": "ゆっくり",
+          "start_sample": 38660,
+          "end_sample": 49729,
+          "start_ms": 2416,
+          "end_ms": 3108
+        },
+        {
+          "lang": "en",
+          "text": "across the warm sand.",
+          "start_sample": 49729,
+          "end_sample": 78283,
+          "start_ms": 3108,
+          "end_ms": 4893
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 179,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

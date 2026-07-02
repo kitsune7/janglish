@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3951.flac",
+  "sentence": "Will this graphics card work without installing 追加 drivers?",
+  "sample_rate": 16000,
+  "duration_ms": 3725,
+  "reference_speaker": "en/speaker_022_008f1e5e50d2.mp3",
+  "seed": 3993,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Will this graphics card work without installing",
+      "start_sample": 0,
+      "end_sample": 43855,
+      "start_ms": 0,
+      "end_ms": 2741
+    },
+    {
+      "lang": "ja",
+      "text": "追加",
+      "start_sample": 43855,
+      "end_sample": 49552,
+      "start_ms": 2741,
+      "end_ms": 3097
+    },
+    {
+      "lang": "en",
+      "text": "drivers?",
+      "start_sample": 49552,
+      "end_sample": 59604,
+      "start_ms": 3097,
+      "end_ms": 3725
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Will this graphics card work without installing tsuika drivers?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3885,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Will this graphics card work without installing",
+          "start_sample": 0,
+          "end_sample": 44055,
+          "start_ms": 0,
+          "end_ms": 2753
+        },
+        {
+          "lang": "ja",
+          "text": "追加",
+          "start_sample": 44055,
+          "end_sample": 51906,
+          "start_ms": 2753,
+          "end_ms": 3244
+        },
+        {
+          "lang": "en",
+          "text": "drivers?",
+          "start_sample": 51906,
+          "end_sample": 62158,
+          "start_ms": 3244,
+          "end_ms": 3885
+        }
+      ]
+    },
+    "ja": {
+      "text": "Will this graphics card work without installing 追加 drivers?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3770,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Will this graphics card work without installing",
+          "start_sample": 0,
+          "end_sample": 45245,
+          "start_ms": 0,
+          "end_ms": 2828
+        },
+        {
+          "lang": "ja",
+          "text": "追加",
+          "start_sample": 45245,
+          "end_sample": 51342,
+          "start_ms": 2828,
+          "end_ms": 3209
+        },
+        {
+          "lang": "en",
+          "text": "drivers?",
+          "start_sample": 51342,
+          "end_sample": 60324,
+          "start_ms": 3209,
+          "end_ms": 3770
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 187,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

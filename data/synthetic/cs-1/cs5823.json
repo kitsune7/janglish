@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5823.flac",
+  "sentence": "The 期限 on this yogurt is tomorrow, so I'm buying it at a discount.",
+  "sample_rate": 16000,
+  "duration_ms": 4150,
+  "reference_speaker": "en/speaker_053_ceb29bce299d.mp3",
+  "seed": 5865,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1082,
+      "start_ms": 0,
+      "end_ms": 68
+    },
+    {
+      "lang": "ja",
+      "text": "期限",
+      "start_sample": 1082,
+      "end_sample": 7113,
+      "start_ms": 68,
+      "end_ms": 445
+    },
+    {
+      "lang": "en",
+      "text": "on this yogurt is tomorrow, so I'm buying it at a discount.",
+      "start_sample": 7113,
+      "end_sample": 66400,
+      "start_ms": 445,
+      "end_ms": 4150
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kigen on this yogurt is tomorrow, so I'm buying it at a discount.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4149,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1282,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "期限",
+          "start_sample": 1282,
+          "end_sample": 6894,
+          "start_ms": 80,
+          "end_ms": 431
+        },
+        {
+          "lang": "en",
+          "text": "on this yogurt is tomorrow, so I'm buying it at a discount.",
+          "start_sample": 6894,
+          "end_sample": 66381,
+          "start_ms": 431,
+          "end_ms": 4149
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 期限 on this yogurt is tomorrow, so I'm buying it at a discount.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4199,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4335,
+          "start_ms": 0,
+          "end_ms": 271
+        },
+        {
+          "lang": "ja",
+          "text": "期限",
+          "start_sample": 4335,
+          "end_sample": 10766,
+          "start_ms": 271,
+          "end_ms": 673
+        },
+        {
+          "lang": "en",
+          "text": "on this yogurt is tomorrow, so I'm buying it at a discount.",
+          "start_sample": 10766,
+          "end_sample": 67189,
+          "start_ms": 673,
+          "end_ms": 4199
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

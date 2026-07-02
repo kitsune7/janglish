@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs842.flac",
+  "sentence": "The 車間距離 people leave on this highway is dangerously 短い.",
+  "sample_rate": 16000,
+  "duration_ms": 5621,
+  "reference_speaker": "en/speaker_038_cc7cc15dbf19.mp3",
+  "seed": 17697,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1400,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "車間距離",
+      "start_sample": 1400,
+      "end_sample": 19430,
+      "start_ms": 88,
+      "end_ms": 1214
+    },
+    {
+      "lang": "en",
+      "text": "people leave on this highway is dangerously",
+      "start_sample": 19430,
+      "end_sample": 80837,
+      "start_ms": 1214,
+      "end_ms": 5052
+    },
+    {
+      "lang": "ja",
+      "text": "短い.",
+      "start_sample": 80837,
+      "end_sample": 89931,
+      "start_ms": 5052,
+      "end_ms": 5621
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shakan kyori people leave on this highway is dangerously mijikai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6825,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1600,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "車間距離",
+          "start_sample": 1600,
+          "end_sample": 35706,
+          "start_ms": 100,
+          "end_ms": 2232
+        },
+        {
+          "lang": "en",
+          "text": "people leave on this highway is dangerously",
+          "start_sample": 35706,
+          "end_sample": 97513,
+          "start_ms": 2232,
+          "end_ms": 6095
+        },
+        {
+          "lang": "ja",
+          "text": "短い.",
+          "start_sample": 97513,
+          "end_sample": 109202,
+          "start_ms": 6095,
+          "end_ms": 6825
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 車間距離 people leave on this highway is dangerously 短い.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5569,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4326,
+          "start_ms": 0,
+          "end_ms": 270
+        },
+        {
+          "lang": "ja",
+          "text": "車間距離",
+          "start_sample": 4326,
+          "end_sample": 22756,
+          "start_ms": 270,
+          "end_ms": 1422
+        },
+        {
+          "lang": "en",
+          "text": "people leave on this highway is dangerously",
+          "start_sample": 22756,
+          "end_sample": 79808,
+          "start_ms": 1422,
+          "end_ms": 4988
+        },
+        {
+          "lang": "ja",
+          "text": "短い.",
+          "start_sample": 79808,
+          "end_sample": 89102,
+          "start_ms": 4988,
+          "end_ms": 5569
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 282,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

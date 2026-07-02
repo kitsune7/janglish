@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9024.flac",
+  "sentence": "She bought a 大量 of vintage fabric just to make one quilt.",
+  "sample_rate": 16000,
+  "duration_ms": 3737,
+  "reference_speaker": "jp/speaker_024_53a01817659b.mp3",
+  "seed": 9066,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She bought a",
+      "start_sample": 0,
+      "end_sample": 6851,
+      "start_ms": 0,
+      "end_ms": 428
+    },
+    {
+      "lang": "ja",
+      "text": "大量",
+      "start_sample": 6851,
+      "end_sample": 16406,
+      "start_ms": 428,
+      "end_ms": 1025
+    },
+    {
+      "lang": "en",
+      "text": "of vintage fabric just to make one quilt.",
+      "start_sample": 16406,
+      "end_sample": 59798,
+      "start_ms": 1025,
+      "end_ms": 3737
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She bought a tairyou of vintage fabric just to make one quilt.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3846,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She bought a",
+          "start_sample": 0,
+          "end_sample": 7051,
+          "start_ms": 0,
+          "end_ms": 441
+        },
+        {
+          "lang": "ja",
+          "text": "大量",
+          "start_sample": 7051,
+          "end_sample": 17950,
+          "start_ms": 441,
+          "end_ms": 1122
+        },
+        {
+          "lang": "en",
+          "text": "of vintage fabric just to make one quilt.",
+          "start_sample": 17950,
+          "end_sample": 61542,
+          "start_ms": 1122,
+          "end_ms": 3846
+        }
+      ]
+    },
+    "ja": {
+      "text": "She bought a 大量 of vintage fabric just to make one quilt.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4756,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She bought a",
+          "start_sample": 0,
+          "end_sample": 10918,
+          "start_ms": 0,
+          "end_ms": 682
+        },
+        {
+          "lang": "ja",
+          "text": "大量",
+          "start_sample": 10918,
+          "end_sample": 20873,
+          "start_ms": 682,
+          "end_ms": 1305
+        },
+        {
+          "lang": "en",
+          "text": "of vintage fabric just to make one quilt.",
+          "start_sample": 20873,
+          "end_sample": 76104,
+          "start_ms": 1305,
+          "end_ms": 4756
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 187,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

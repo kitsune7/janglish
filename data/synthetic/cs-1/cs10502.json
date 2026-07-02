@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10502.flac",
+  "sentence": "The 方角 printed on that old compass rose on the pavement is still perfectly accurate.",
+  "sample_rate": 16000,
+  "duration_ms": 5317,
+  "reference_speaker": "en/speaker_025_5a5c462b583a.mp3",
+  "seed": 10544,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1405,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "方角",
+      "start_sample": 1405,
+      "end_sample": 12394,
+      "start_ms": 88,
+      "end_ms": 775
+    },
+    {
+      "lang": "en",
+      "text": "printed on that old compass rose on the pavement is still perfectly accurate.",
+      "start_sample": 12394,
+      "end_sample": 85072,
+      "start_ms": 775,
+      "end_ms": 5317
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hougaku printed on that old compass rose on the pavement is still perfectly accurate.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5197,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1605,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "方角",
+          "start_sample": 1605,
+          "end_sample": 10273,
+          "start_ms": 100,
+          "end_ms": 642
+        },
+        {
+          "lang": "en",
+          "text": "printed on that old compass rose on the pavement is still perfectly accurate.",
+          "start_sample": 10273,
+          "end_sample": 83151,
+          "start_ms": 642,
+          "end_ms": 5197
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 方角 printed on that old compass rose on the pavement is still perfectly accurate.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6737,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5290,
+          "start_ms": 0,
+          "end_ms": 331
+        },
+        {
+          "lang": "ja",
+          "text": "方角",
+          "start_sample": 5290,
+          "end_sample": 16679,
+          "start_ms": 331,
+          "end_ms": 1042
+        },
+        {
+          "lang": "en",
+          "text": "printed on that old compass rose on the pavement is still perfectly accurate.",
+          "start_sample": 16679,
+          "end_sample": 107787,
+          "start_ms": 1042,
+          "end_ms": 6737
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 266,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

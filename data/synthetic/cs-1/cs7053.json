@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7053.flac",
+  "sentence": "I felt incredibly 疲れた by the end of my physical therapy session.",
+  "sample_rate": 16000,
+  "duration_ms": 4680,
+  "reference_speaker": "jp/speaker_092_08c69e35de07.mp3",
+  "seed": 7095,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I felt incredibly",
+      "start_sample": 0,
+      "end_sample": 20005,
+      "start_ms": 0,
+      "end_ms": 1250
+    },
+    {
+      "lang": "ja",
+      "text": "疲れた",
+      "start_sample": 20005,
+      "end_sample": 34507,
+      "start_ms": 1250,
+      "end_ms": 2157
+    },
+    {
+      "lang": "en",
+      "text": "by the end of my physical therapy session.",
+      "start_sample": 34507,
+      "end_sample": 74880,
+      "start_ms": 2157,
+      "end_ms": 4680
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I felt incredibly tsukare ta by the end of my physical therapy session.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4851,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I felt incredibly",
+          "start_sample": 0,
+          "end_sample": 20205,
+          "start_ms": 0,
+          "end_ms": 1263
+        },
+        {
+          "lang": "ja",
+          "text": "疲れた",
+          "start_sample": 20205,
+          "end_sample": 37045,
+          "start_ms": 1263,
+          "end_ms": 2315
+        },
+        {
+          "lang": "en",
+          "text": "by the end of my physical therapy session.",
+          "start_sample": 37045,
+          "end_sample": 77618,
+          "start_ms": 2315,
+          "end_ms": 4851
+        }
+      ]
+    },
+    "ja": {
+      "text": "I felt incredibly 疲れた by the end of my physical therapy session.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6069,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I felt incredibly",
+          "start_sample": 0,
+          "end_sample": 28041,
+          "start_ms": 0,
+          "end_ms": 1753
+        },
+        {
+          "lang": "ja",
+          "text": "疲れた",
+          "start_sample": 28041,
+          "end_sample": 42943,
+          "start_ms": 1753,
+          "end_ms": 2684
+        },
+        {
+          "lang": "en",
+          "text": "by the end of my physical therapy session.",
+          "start_sample": 42943,
+          "end_sample": 97104,
+          "start_ms": 2684,
+          "end_ms": 6069
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 234,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10891.flac",
+  "sentence": "The whole evening was so 温かい that none of us wanted to go home after midnight.",
+  "sample_rate": 16000,
+  "duration_ms": 6229,
+  "reference_speaker": "en/speaker_027_12abacd76d5f.mp3",
+  "seed": 10933,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole evening was so",
+      "start_sample": 0,
+      "end_sample": 26081,
+      "start_ms": 0,
+      "end_ms": 1630
+    },
+    {
+      "lang": "ja",
+      "text": "温かい",
+      "start_sample": 26081,
+      "end_sample": 44901,
+      "start_ms": 1630,
+      "end_ms": 2806
+    },
+    {
+      "lang": "en",
+      "text": "that none of us wanted to go home after midnight.",
+      "start_sample": 44901,
+      "end_sample": 99667,
+      "start_ms": 2806,
+      "end_ms": 6229
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole evening was so atatakai that none of us wanted to go home after midnight.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6590,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole evening was so",
+          "start_sample": 0,
+          "end_sample": 26281,
+          "start_ms": 0,
+          "end_ms": 1643
+        },
+        {
+          "lang": "ja",
+          "text": "温かい",
+          "start_sample": 26281,
+          "end_sample": 50479,
+          "start_ms": 1643,
+          "end_ms": 3155
+        },
+        {
+          "lang": "en",
+          "text": "that none of us wanted to go home after midnight.",
+          "start_sample": 50479,
+          "end_sample": 105445,
+          "start_ms": 3155,
+          "end_ms": 6590
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole evening was so 温かい that none of us wanted to go home after midnight.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9590,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole evening was so",
+          "start_sample": 0,
+          "end_sample": 44525,
+          "start_ms": 0,
+          "end_ms": 2783
+        },
+        {
+          "lang": "ja",
+          "text": "温かい",
+          "start_sample": 44525,
+          "end_sample": 63745,
+          "start_ms": 2783,
+          "end_ms": 3984
+        },
+        {
+          "lang": "en",
+          "text": "that none of us wanted to go home after midnight.",
+          "start_sample": 63745,
+          "end_sample": 153437,
+          "start_ms": 3984,
+          "end_ms": 9590
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 312,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

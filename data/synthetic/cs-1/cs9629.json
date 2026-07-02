@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9629.flac",
+  "sentence": "That was such an 唐突 text to receive at midnight.",
+  "sample_rate": 16000,
+  "duration_ms": 3410,
+  "reference_speaker": "jp/speaker_061_3e186ef591ed.mp3",
+  "seed": 9671,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That was such an",
+      "start_sample": 0,
+      "end_sample": 19371,
+      "start_ms": 0,
+      "end_ms": 1211
+    },
+    {
+      "lang": "ja",
+      "text": "唐突",
+      "start_sample": 19371,
+      "end_sample": 26206,
+      "start_ms": 1211,
+      "end_ms": 1638
+    },
+    {
+      "lang": "en",
+      "text": "text to receive at midnight.",
+      "start_sample": 26206,
+      "end_sample": 54559,
+      "start_ms": 1638,
+      "end_ms": 3410
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That was such an toutotsu text to receive at midnight.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3890,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That was such an",
+          "start_sample": 0,
+          "end_sample": 19571,
+          "start_ms": 0,
+          "end_ms": 1223
+        },
+        {
+          "lang": "ja",
+          "text": "唐突",
+          "start_sample": 19571,
+          "end_sample": 33689,
+          "start_ms": 1223,
+          "end_ms": 2106
+        },
+        {
+          "lang": "en",
+          "text": "text to receive at midnight.",
+          "start_sample": 33689,
+          "end_sample": 62242,
+          "start_ms": 2106,
+          "end_ms": 3890
+        }
+      ]
+    },
+    "ja": {
+      "text": "That was such an 唐突 text to receive at midnight.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3256,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That was such an",
+          "start_sample": 0,
+          "end_sample": 14309,
+          "start_ms": 0,
+          "end_ms": 894
+        },
+        {
+          "lang": "ja",
+          "text": "唐突",
+          "start_sample": 14309,
+          "end_sample": 21544,
+          "start_ms": 894,
+          "end_ms": 1346
+        },
+        {
+          "lang": "en",
+          "text": "text to receive at midnight.",
+          "start_sample": 21544,
+          "end_sample": 52088,
+          "start_ms": 1346,
+          "end_ms": 3256
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 171,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

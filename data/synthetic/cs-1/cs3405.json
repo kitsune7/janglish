@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs3405.flac",
+  "sentence": "budgetが限られているから、必要なものだけ買います。",
+  "sample_rate": 16000,
+  "duration_ms": 4600,
+  "reference_speaker": "jp/speaker_082_d12288b68351.mp3",
+  "seed": 3447,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "budget",
+      "start_sample": 0,
+      "end_sample": 16295,
+      "start_ms": 0,
+      "end_ms": 1018
+    },
+    {
+      "lang": "ja",
+      "text": "が限られているから、必要なものだけ買います。",
+      "start_sample": 16295,
+      "end_sample": 73601,
+      "start_ms": 1018,
+      "end_ms": 4600
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "budget ga kagira re te iru kara hitsuyou na mono dake kai masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10770,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "budget",
+          "start_sample": 0,
+          "end_sample": 16495,
+          "start_ms": 0,
+          "end_ms": 1031
+        },
+        {
+          "lang": "ja",
+          "text": "が限られているから、必要なものだけ買います。",
+          "start_sample": 16495,
+          "end_sample": 172325,
+          "start_ms": 1031,
+          "end_ms": 10770
+        }
+      ]
+    },
+    "ja": {
+      "text": "budgetが限られているから、必要なものだけ買います。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4225,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "budget",
+          "start_sample": 0,
+          "end_sample": 10090,
+          "start_ms": 0,
+          "end_ms": 631
+        },
+        {
+          "lang": "ja",
+          "text": "が限られているから、必要なものだけ買います。",
+          "start_sample": 10090,
+          "end_sample": 67596,
+          "start_ms": 631,
+          "end_ms": 4225
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 231,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

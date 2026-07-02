@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs533.flac",
+  "sentence": "She prepared a 志望動機 statement overnight and rehearsed it until it felt like 本心.",
+  "sample_rate": 16000,
+  "duration_ms": 5626,
+  "reference_speaker": "jp/speaker_024_53a01817659b.mp3",
+  "seed": 17388,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She prepared a",
+      "start_sample": 0,
+      "end_sample": 10722,
+      "start_ms": 0,
+      "end_ms": 670
+    },
+    {
+      "lang": "ja",
+      "text": "志望動機",
+      "start_sample": 10722,
+      "end_sample": 26858,
+      "start_ms": 670,
+      "end_ms": 1679
+    },
+    {
+      "lang": "en",
+      "text": "statement overnight and rehearsed it until it felt like",
+      "start_sample": 26858,
+      "end_sample": 83481,
+      "start_ms": 1679,
+      "end_ms": 5218
+    },
+    {
+      "lang": "ja",
+      "text": "本心.",
+      "start_sample": 83481,
+      "end_sample": 90021,
+      "start_ms": 5218,
+      "end_ms": 5626
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She prepared a shibou douki statement overnight and rehearsed it until it felt like honshin",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5682,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She prepared a",
+          "start_sample": 0,
+          "end_sample": 10922,
+          "start_ms": 0,
+          "end_ms": 683
+        },
+        {
+          "lang": "ja",
+          "text": "志望動機",
+          "start_sample": 10922,
+          "end_sample": 22005,
+          "start_ms": 683,
+          "end_ms": 1375
+        },
+        {
+          "lang": "en",
+          "text": "statement overnight and rehearsed it until it felt like",
+          "start_sample": 22005,
+          "end_sample": 79028,
+          "start_ms": 1375,
+          "end_ms": 4939
+        },
+        {
+          "lang": "ja",
+          "text": "本心.",
+          "start_sample": 79028,
+          "end_sample": 90911,
+          "start_ms": 4939,
+          "end_ms": 5682
+        }
+      ]
+    },
+    "ja": {
+      "text": "She prepared a 志望動機 statement overnight and rehearsed it until it felt like 本心.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6963,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She prepared a",
+          "start_sample": 0,
+          "end_sample": 19906,
+          "start_ms": 0,
+          "end_ms": 1244
+        },
+        {
+          "lang": "ja",
+          "text": "志望動機",
+          "start_sample": 19906,
+          "end_sample": 36442,
+          "start_ms": 1244,
+          "end_ms": 2278
+        },
+        {
+          "lang": "en",
+          "text": "statement overnight and rehearsed it until it felt like",
+          "start_sample": 36442,
+          "end_sample": 104673,
+          "start_ms": 2278,
+          "end_ms": 6542
+        },
+        {
+          "lang": "ja",
+          "text": "本心.",
+          "start_sample": 104673,
+          "end_sample": 111413,
+          "start_ms": 6542,
+          "end_ms": 6963
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 282,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjj"
+}

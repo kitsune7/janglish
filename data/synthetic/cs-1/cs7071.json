@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7071.flac",
+  "sentence": "The 花粉 season this year has been absolutely brutal for allergy sufferers.",
+  "sample_rate": 16000,
+  "duration_ms": 5200,
+  "reference_speaker": "en/speaker_080_2ec83f7b270e.mp3",
+  "seed": 7113,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1242,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "花粉",
+      "start_sample": 1242,
+      "end_sample": 10639,
+      "start_ms": 78,
+      "end_ms": 665
+    },
+    {
+      "lang": "en",
+      "text": "season this year has been absolutely brutal for allergy sufferers.",
+      "start_sample": 10639,
+      "end_sample": 83195,
+      "start_ms": 665,
+      "end_ms": 5200
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kafun season this year has been absolutely brutal for allergy sufferers.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5108,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1442,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "花粉",
+          "start_sample": 1442,
+          "end_sample": 8974,
+          "start_ms": 90,
+          "end_ms": 561
+        },
+        {
+          "lang": "en",
+          "text": "season this year has been absolutely brutal for allergy sufferers.",
+          "start_sample": 8974,
+          "end_sample": 81730,
+          "start_ms": 561,
+          "end_ms": 5108
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 花粉 season this year has been absolutely brutal for allergy sufferers.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6103,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5617,
+          "start_ms": 0,
+          "end_ms": 351
+        },
+        {
+          "lang": "ja",
+          "text": "花粉",
+          "start_sample": 5617,
+          "end_sample": 15414,
+          "start_ms": 351,
+          "end_ms": 963
+        },
+        {
+          "lang": "en",
+          "text": "season this year has been absolutely brutal for allergy sufferers.",
+          "start_sample": 15414,
+          "end_sample": 97644,
+          "start_ms": 963,
+          "end_ms": 6103
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 260,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs802.flac",
+  "sentence": "Have you ever tried making 餃子 at home with your kids?",
+  "sample_rate": 16000,
+  "duration_ms": 3934,
+  "reference_speaker": "jp/speaker_065_12fed3376ff0.mp3",
+  "seed": 844,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you ever tried making",
+      "start_sample": 0,
+      "end_sample": 17785,
+      "start_ms": 0,
+      "end_ms": 1112
+    },
+    {
+      "lang": "ja",
+      "text": "餃子",
+      "start_sample": 17785,
+      "end_sample": 27973,
+      "start_ms": 1112,
+      "end_ms": 1748
+    },
+    {
+      "lang": "en",
+      "text": "at home with your kids?",
+      "start_sample": 27973,
+      "end_sample": 62939,
+      "start_ms": 1748,
+      "end_ms": 3934
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you ever tried making gyouza at home with your kids?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3713,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever tried making",
+          "start_sample": 0,
+          "end_sample": 17985,
+          "start_ms": 0,
+          "end_ms": 1124
+        },
+        {
+          "lang": "ja",
+          "text": "餃子",
+          "start_sample": 17985,
+          "end_sample": 24248,
+          "start_ms": 1124,
+          "end_ms": 1516
+        },
+        {
+          "lang": "en",
+          "text": "at home with your kids?",
+          "start_sample": 24248,
+          "end_sample": 59414,
+          "start_ms": 1516,
+          "end_ms": 3713
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you ever tried making 餃子 at home with your kids?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4091,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever tried making",
+          "start_sample": 0,
+          "end_sample": 31122,
+          "start_ms": 0,
+          "end_ms": 1945
+        },
+        {
+          "lang": "ja",
+          "text": "餃子",
+          "start_sample": 31122,
+          "end_sample": 41710,
+          "start_ms": 1945,
+          "end_ms": 2607
+        },
+        {
+          "lang": "en",
+          "text": "at home with your kids?",
+          "start_sample": 41710,
+          "end_sample": 65451,
+          "start_ms": 2607,
+          "end_ms": 4091
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 197,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

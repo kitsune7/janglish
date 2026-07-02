@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2220.flac",
+  "sentence": "He's been playing 太鼓 in a jazz fusion band for about six years now.",
+  "sample_rate": 16000,
+  "duration_ms": 4238,
+  "reference_speaker": "en/speaker_070_eb9077114ebd.mp3",
+  "seed": 2262,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He's been playing",
+      "start_sample": 0,
+      "end_sample": 9763,
+      "start_ms": 0,
+      "end_ms": 610
+    },
+    {
+      "lang": "ja",
+      "text": "太鼓",
+      "start_sample": 9763,
+      "end_sample": 15130,
+      "start_ms": 610,
+      "end_ms": 946
+    },
+    {
+      "lang": "en",
+      "text": "in a jazz fusion band for about six years now.",
+      "start_sample": 15130,
+      "end_sample": 67800,
+      "start_ms": 946,
+      "end_ms": 4238
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He's been playing taiko in a jazz fusion band for about six years now.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4379,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He's been playing",
+          "start_sample": 0,
+          "end_sample": 9963,
+          "start_ms": 0,
+          "end_ms": 623
+        },
+        {
+          "lang": "ja",
+          "text": "太鼓",
+          "start_sample": 9963,
+          "end_sample": 17195,
+          "start_ms": 623,
+          "end_ms": 1075
+        },
+        {
+          "lang": "en",
+          "text": "in a jazz fusion band for about six years now.",
+          "start_sample": 17195,
+          "end_sample": 70065,
+          "start_ms": 1075,
+          "end_ms": 4379
+        }
+      ]
+    },
+    "ja": {
+      "text": "He's been playing 太鼓 in a jazz fusion band for about six years now.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4305,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He's been playing",
+          "start_sample": 0,
+          "end_sample": 15698,
+          "start_ms": 0,
+          "end_ms": 981
+        },
+        {
+          "lang": "ja",
+          "text": "太鼓",
+          "start_sample": 15698,
+          "end_sample": 21465,
+          "start_ms": 981,
+          "end_ms": 1342
+        },
+        {
+          "lang": "en",
+          "text": "in a jazz fusion band for about six years now.",
+          "start_sample": 21465,
+          "end_sample": 68881,
+          "start_ms": 1342,
+          "end_ms": 4305
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 212,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

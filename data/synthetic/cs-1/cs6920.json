@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6920.flac",
+  "sentence": "The bartender poured me a really 濃い whiskey without asking.",
+  "sample_rate": 16000,
+  "duration_ms": 4364,
+  "reference_speaker": "jp/speaker_076_e83c8bab36f0.mp3",
+  "seed": 6962,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The bartender poured me a really",
+      "start_sample": 0,
+      "end_sample": 28146,
+      "start_ms": 0,
+      "end_ms": 1759
+    },
+    {
+      "lang": "ja",
+      "text": "濃い",
+      "start_sample": 28146,
+      "end_sample": 37359,
+      "start_ms": 1759,
+      "end_ms": 2335
+    },
+    {
+      "lang": "en",
+      "text": "whiskey without asking.",
+      "start_sample": 37359,
+      "end_sample": 69829,
+      "start_ms": 2335,
+      "end_ms": 4364
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The bartender poured me a really koi whiskey without asking.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4144,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bartender poured me a really",
+          "start_sample": 0,
+          "end_sample": 28346,
+          "start_ms": 0,
+          "end_ms": 1772
+        },
+        {
+          "lang": "ja",
+          "text": "濃い",
+          "start_sample": 28346,
+          "end_sample": 33631,
+          "start_ms": 1772,
+          "end_ms": 2102
+        },
+        {
+          "lang": "en",
+          "text": "whiskey without asking.",
+          "start_sample": 33631,
+          "end_sample": 66301,
+          "start_ms": 2102,
+          "end_ms": 4144
+        }
+      ]
+    },
+    "ja": {
+      "text": "The bartender poured me a really 濃い whiskey without asking.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5668,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bartender poured me a really",
+          "start_sample": 0,
+          "end_sample": 53031,
+          "start_ms": 0,
+          "end_ms": 3314
+        },
+        {
+          "lang": "ja",
+          "text": "濃い",
+          "start_sample": 53031,
+          "end_sample": 62644,
+          "start_ms": 3314,
+          "end_ms": 3915
+        },
+        {
+          "lang": "en",
+          "text": "whiskey without asking.",
+          "start_sample": 62644,
+          "end_sample": 90681,
+          "start_ms": 3915,
+          "end_ms": 5668
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 219,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

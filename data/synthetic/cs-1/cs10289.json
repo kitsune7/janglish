@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10289.flac",
+  "sentence": "お盆のdanceはとても独特なリズムで、すぐ覚えられた。",
+  "sample_rate": 16000,
+  "duration_ms": 3315,
+  "reference_speaker": "en/speaker_012_29b1e5a58d16.mp3",
+  "seed": 10331,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "お盆の",
+      "start_sample": 0,
+      "end_sample": 5587,
+      "start_ms": 0,
+      "end_ms": 349
+    },
+    {
+      "lang": "en",
+      "text": "dance",
+      "start_sample": 5587,
+      "end_sample": 14336,
+      "start_ms": 349,
+      "end_ms": 896
+    },
+    {
+      "lang": "ja",
+      "text": "はとても独特なリズムで、すぐ覚えられた。",
+      "start_sample": 14336,
+      "end_sample": 53040,
+      "start_ms": 896,
+      "end_ms": 3315
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "o bon no dance ha totemo dokutoku na rizumu de sugu oboe rare ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6239,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お盆の",
+          "start_sample": 0,
+          "end_sample": 12358,
+          "start_ms": 0,
+          "end_ms": 772
+        },
+        {
+          "lang": "en",
+          "text": "dance",
+          "start_sample": 12358,
+          "end_sample": 21507,
+          "start_ms": 772,
+          "end_ms": 1344
+        },
+        {
+          "lang": "ja",
+          "text": "はとても独特なリズムで、すぐ覚えられた。",
+          "start_sample": 21507,
+          "end_sample": 99828,
+          "start_ms": 1344,
+          "end_ms": 6239
+        }
+      ]
+    },
+    "ja": {
+      "text": "お盆のdanceはとても独特なリズムで、すぐ覚えられた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3135,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お盆の",
+          "start_sample": 0,
+          "end_sample": 5787,
+          "start_ms": 0,
+          "end_ms": 362
+        },
+        {
+          "lang": "en",
+          "text": "dance",
+          "start_sample": 5787,
+          "end_sample": 11254,
+          "start_ms": 362,
+          "end_ms": 703
+        },
+        {
+          "lang": "ja",
+          "text": "はとても独特なリズムで、すぐ覚えられた。",
+          "start_sample": 11254,
+          "end_sample": 50158,
+          "start_ms": 703,
+          "end_ms": 3135
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 166,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

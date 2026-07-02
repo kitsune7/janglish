@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3328.flac",
+  "sentence": "炎症を抑えるためにanti-inflammatoryな食品を取り入れています。",
+  "sample_rate": 16000,
+  "duration_ms": 4287,
+  "reference_speaker": "jp/speaker_007_69caf5c5275d.mp3",
+  "seed": 3370,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "炎症を抑えるために",
+      "start_sample": 0,
+      "end_sample": 23427,
+      "start_ms": 0,
+      "end_ms": 1464
+    },
+    {
+      "lang": "en",
+      "text": "anti-inflammatory",
+      "start_sample": 23427,
+      "end_sample": 41944,
+      "start_ms": 1464,
+      "end_ms": 2622
+    },
+    {
+      "lang": "ja",
+      "text": "な食品を取り入れています。",
+      "start_sample": 41944,
+      "end_sample": 68586,
+      "start_ms": 2622,
+      "end_ms": 4287
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "enshou wo osaeru tame ni anti-inflammatory na shokuhin wo toriire te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8055,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "炎症を抑えるために",
+          "start_sample": 0,
+          "end_sample": 54986,
+          "start_ms": 0,
+          "end_ms": 3437
+        },
+        {
+          "lang": "en",
+          "text": "anti-inflammatory",
+          "start_sample": 54986,
+          "end_sample": 73903,
+          "start_ms": 3437,
+          "end_ms": 4619
+        },
+        {
+          "lang": "ja",
+          "text": "な食品を取り入れています。",
+          "start_sample": 73903,
+          "end_sample": 128887,
+          "start_ms": 4619,
+          "end_ms": 8055
+        }
+      ]
+    },
+    "ja": {
+      "text": "炎症を抑えるためにanti-inflammatoryな食品を取り入れています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4440,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "炎症を抑えるために",
+          "start_sample": 0,
+          "end_sample": 23627,
+          "start_ms": 0,
+          "end_ms": 1477
+        },
+        {
+          "lang": "en",
+          "text": "anti-inflammatory",
+          "start_sample": 23627,
+          "end_sample": 44205,
+          "start_ms": 1477,
+          "end_ms": 2763
+        },
+        {
+          "lang": "ja",
+          "text": "な食品を取り入れています。",
+          "start_sample": 44205,
+          "end_sample": 71047,
+          "start_ms": 2763,
+          "end_ms": 4440
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 215,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

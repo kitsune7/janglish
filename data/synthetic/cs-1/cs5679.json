@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5679.flac",
+  "sentence": "She carefully wrapped the fragile item in 緩衝材 before sealing the box.",
+  "sample_rate": 16000,
+  "duration_ms": 4387,
+  "reference_speaker": "en/speaker_067_3f15e2fece31.mp3",
+  "seed": 5721,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She carefully wrapped the fragile item in",
+      "start_sample": 0,
+      "end_sample": 35371,
+      "start_ms": 0,
+      "end_ms": 2211
+    },
+    {
+      "lang": "ja",
+      "text": "緩衝材",
+      "start_sample": 35371,
+      "end_sample": 49080,
+      "start_ms": 2211,
+      "end_ms": 3068
+    },
+    {
+      "lang": "en",
+      "text": "before sealing the box.",
+      "start_sample": 49080,
+      "end_sample": 70190,
+      "start_ms": 3068,
+      "end_ms": 4387
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She carefully wrapped the fragile item in kanshou zai before sealing the box.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4166,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She carefully wrapped the fragile item in",
+          "start_sample": 0,
+          "end_sample": 35571,
+          "start_ms": 0,
+          "end_ms": 2223
+        },
+        {
+          "lang": "ja",
+          "text": "緩衝材",
+          "start_sample": 35571,
+          "end_sample": 45344,
+          "start_ms": 2223,
+          "end_ms": 2834
+        },
+        {
+          "lang": "en",
+          "text": "before sealing the box.",
+          "start_sample": 45344,
+          "end_sample": 66654,
+          "start_ms": 2834,
+          "end_ms": 4166
+        }
+      ]
+    },
+    "ja": {
+      "text": "She carefully wrapped the fragile item in 緩衝材 before sealing the box.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5230,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She carefully wrapped the fragile item in",
+          "start_sample": 0,
+          "end_sample": 47935,
+          "start_ms": 0,
+          "end_ms": 2996
+        },
+        {
+          "lang": "ja",
+          "text": "緩衝材",
+          "start_sample": 47935,
+          "end_sample": 62044,
+          "start_ms": 2996,
+          "end_ms": 3878
+        },
+        {
+          "lang": "en",
+          "text": "before sealing the box.",
+          "start_sample": 62044,
+          "end_sample": 83686,
+          "start_ms": 3878,
+          "end_ms": 5230
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 220,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4402.flac",
+  "sentence": "That startup has some truly 独自 approaches to data encryption.",
+  "sample_rate": 16000,
+  "duration_ms": 5544,
+  "reference_speaker": "jp/speaker_065_12fed3376ff0.mp3",
+  "seed": 4444,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That startup has some truly",
+      "start_sample": 0,
+      "end_sample": 44558,
+      "start_ms": 0,
+      "end_ms": 2785
+    },
+    {
+      "lang": "ja",
+      "text": "独自",
+      "start_sample": 44558,
+      "end_sample": 51529,
+      "start_ms": 2785,
+      "end_ms": 3221
+    },
+    {
+      "lang": "en",
+      "text": "approaches to data encryption.",
+      "start_sample": 51529,
+      "end_sample": 88707,
+      "start_ms": 3221,
+      "end_ms": 5544
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That startup has some truly dokuji approaches to data encryption.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5655,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That startup has some truly",
+          "start_sample": 0,
+          "end_sample": 44758,
+          "start_ms": 0,
+          "end_ms": 2797
+        },
+        {
+          "lang": "ja",
+          "text": "独自",
+          "start_sample": 44758,
+          "end_sample": 53100,
+          "start_ms": 2797,
+          "end_ms": 3319
+        },
+        {
+          "lang": "en",
+          "text": "approaches to data encryption.",
+          "start_sample": 53100,
+          "end_sample": 90478,
+          "start_ms": 3319,
+          "end_ms": 5655
+        }
+      ]
+    },
+    "ja": {
+      "text": "That startup has some truly 独自 approaches to data encryption.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4947,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That startup has some truly",
+          "start_sample": 0,
+          "end_sample": 35410,
+          "start_ms": 0,
+          "end_ms": 2213
+        },
+        {
+          "lang": "ja",
+          "text": "独自",
+          "start_sample": 35410,
+          "end_sample": 42781,
+          "start_ms": 2213,
+          "end_ms": 2674
+        },
+        {
+          "lang": "en",
+          "text": "approaches to data encryption.",
+          "start_sample": 42781,
+          "end_sample": 79152,
+          "start_ms": 2674,
+          "end_ms": 4947
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 278,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

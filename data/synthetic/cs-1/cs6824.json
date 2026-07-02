@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6824.flac",
+  "sentence": "Take the 二番目 left after the traffic lights.",
+  "sample_rate": 16000,
+  "duration_ms": 2510,
+  "reference_speaker": "jp/speaker_045_fda9acd0702e.mp3",
+  "seed": 6866,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Take the",
+      "start_sample": 0,
+      "end_sample": 3995,
+      "start_ms": 0,
+      "end_ms": 250
+    },
+    {
+      "lang": "ja",
+      "text": "二番目",
+      "start_sample": 3995,
+      "end_sample": 14866,
+      "start_ms": 250,
+      "end_ms": 929
+    },
+    {
+      "lang": "en",
+      "text": "left after the traffic lights.",
+      "start_sample": 14866,
+      "end_sample": 40158,
+      "start_ms": 929,
+      "end_ms": 2510
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Take the ni ban me left after the traffic lights.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2683,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Take the",
+          "start_sample": 0,
+          "end_sample": 4195,
+          "start_ms": 0,
+          "end_ms": 262
+        },
+        {
+          "lang": "ja",
+          "text": "二番目",
+          "start_sample": 4195,
+          "end_sample": 17429,
+          "start_ms": 262,
+          "end_ms": 1089
+        },
+        {
+          "lang": "en",
+          "text": "left after the traffic lights.",
+          "start_sample": 17429,
+          "end_sample": 42921,
+          "start_ms": 1089,
+          "end_ms": 2683
+        }
+      ]
+    },
+    "ja": {
+      "text": "Take the 二番目 left after the traffic lights.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3341,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Take the",
+          "start_sample": 0,
+          "end_sample": 5635,
+          "start_ms": 0,
+          "end_ms": 352
+        },
+        {
+          "lang": "ja",
+          "text": "二番目",
+          "start_sample": 5635,
+          "end_sample": 16906,
+          "start_ms": 352,
+          "end_ms": 1057
+        },
+        {
+          "lang": "en",
+          "text": "left after the traffic lights.",
+          "start_sample": 16906,
+          "end_sample": 53450,
+          "start_ms": 1057,
+          "end_ms": 3341
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 126,
+  "frame_labels": "eeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

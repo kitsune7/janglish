@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs959.flac",
+  "sentence": "週末のbrunchは二時間待ちになることもあります。",
+  "sample_rate": 16000,
+  "duration_ms": 3486,
+  "reference_speaker": "en/speaker_020_5f047713c8bd.mp3",
+  "seed": 1001,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "週末の",
+      "start_sample": 0,
+      "end_sample": 10096,
+      "start_ms": 0,
+      "end_ms": 631
+    },
+    {
+      "lang": "en",
+      "text": "brunch",
+      "start_sample": 10096,
+      "end_sample": 24615,
+      "start_ms": 631,
+      "end_ms": 1538
+    },
+    {
+      "lang": "ja",
+      "text": "は二時間待ちになることもあります。",
+      "start_sample": 24615,
+      "end_sample": 55783,
+      "start_ms": 1538,
+      "end_ms": 3486
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shuumatsu no brunch ha ni jikan machi ni naru koto mo ari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5915,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "週末の",
+          "start_sample": 0,
+          "end_sample": 21653,
+          "start_ms": 0,
+          "end_ms": 1353
+        },
+        {
+          "lang": "en",
+          "text": "brunch",
+          "start_sample": 21653,
+          "end_sample": 36572,
+          "start_ms": 1353,
+          "end_ms": 2286
+        },
+        {
+          "lang": "ja",
+          "text": "は二時間待ちになることもあります。",
+          "start_sample": 36572,
+          "end_sample": 94640,
+          "start_ms": 2286,
+          "end_ms": 5915
+        }
+      ]
+    },
+    "ja": {
+      "text": "週末のbrunchは二時間待ちになることもあります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3036,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "週末の",
+          "start_sample": 0,
+          "end_sample": 10296,
+          "start_ms": 0,
+          "end_ms": 644
+        },
+        {
+          "lang": "en",
+          "text": "brunch",
+          "start_sample": 10296,
+          "end_sample": 17213,
+          "start_ms": 644,
+          "end_ms": 1076
+        },
+        {
+          "lang": "ja",
+          "text": "は二時間待ちになることもあります。",
+          "start_sample": 17213,
+          "end_sample": 48581,
+          "start_ms": 1076,
+          "end_ms": 3036
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

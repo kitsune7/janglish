@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1874.flac",
+  "sentence": "I screenshot the 会話 because I knew I'd forget the details.",
+  "sample_rate": 16000,
+  "duration_ms": 3628,
+  "reference_speaker": "en/speaker_016_fcffb37fddea.mp3",
+  "seed": 1916,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I screenshot the",
+      "start_sample": 0,
+      "end_sample": 14071,
+      "start_ms": 0,
+      "end_ms": 879
+    },
+    {
+      "lang": "ja",
+      "text": "会話",
+      "start_sample": 14071,
+      "end_sample": 23767,
+      "start_ms": 879,
+      "end_ms": 1485
+    },
+    {
+      "lang": "en",
+      "text": "because I knew I'd forget the details.",
+      "start_sample": 23767,
+      "end_sample": 58045,
+      "start_ms": 1485,
+      "end_ms": 3628
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I screenshot the kaiwa because I knew I'd forget the details.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3548,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I screenshot the",
+          "start_sample": 0,
+          "end_sample": 14271,
+          "start_ms": 0,
+          "end_ms": 892
+        },
+        {
+          "lang": "ja",
+          "text": "会話",
+          "start_sample": 14271,
+          "end_sample": 22290,
+          "start_ms": 892,
+          "end_ms": 1393
+        },
+        {
+          "lang": "en",
+          "text": "because I knew I'd forget the details.",
+          "start_sample": 22290,
+          "end_sample": 56768,
+          "start_ms": 1393,
+          "end_ms": 3548
+        }
+      ]
+    },
+    "ja": {
+      "text": "I screenshot the 会話 because I knew I'd forget the details.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4888,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I screenshot the",
+          "start_sample": 0,
+          "end_sample": 19389,
+          "start_ms": 0,
+          "end_ms": 1212
+        },
+        {
+          "lang": "ja",
+          "text": "会話",
+          "start_sample": 19389,
+          "end_sample": 29485,
+          "start_ms": 1212,
+          "end_ms": 1843
+        },
+        {
+          "lang": "en",
+          "text": "because I knew I'd forget the details.",
+          "start_sample": 29485,
+          "end_sample": 78201,
+          "start_ms": 1843,
+          "end_ms": 4888
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 182,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8196.flac",
+  "sentence": "今日の午後にone-on-oneがある予定です。",
+  "sample_rate": 16000,
+  "duration_ms": 5951,
+  "reference_speaker": "en/speaker_098_f600c480bfab.mp3",
+  "seed": 8238,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日の午後に",
+      "start_sample": 0,
+      "end_sample": 21585,
+      "start_ms": 0,
+      "end_ms": 1349
+    },
+    {
+      "lang": "en",
+      "text": "one-on-one",
+      "start_sample": 21585,
+      "end_sample": 59379,
+      "start_ms": 1349,
+      "end_ms": 3711
+    },
+    {
+      "lang": "ja",
+      "text": "がある予定です。",
+      "start_sample": 59379,
+      "end_sample": 95220,
+      "start_ms": 3711,
+      "end_ms": 5951
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou no gogo ni one-on-one ga aru yotei desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7242,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の午後に",
+          "start_sample": 0,
+          "end_sample": 35145,
+          "start_ms": 0,
+          "end_ms": 2197
+        },
+        {
+          "lang": "en",
+          "text": "one-on-one",
+          "start_sample": 35145,
+          "end_sample": 73339,
+          "start_ms": 2197,
+          "end_ms": 4584
+        },
+        {
+          "lang": "ja",
+          "text": "がある予定です。",
+          "start_sample": 73339,
+          "end_sample": 115864,
+          "start_ms": 4584,
+          "end_ms": 7242
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日の午後にone-on-oneがある予定です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4445,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の午後に",
+          "start_sample": 0,
+          "end_sample": 21785,
+          "start_ms": 0,
+          "end_ms": 1362
+        },
+        {
+          "lang": "en",
+          "text": "one-on-one",
+          "start_sample": 21785,
+          "end_sample": 35081,
+          "start_ms": 1362,
+          "end_ms": 2193
+        },
+        {
+          "lang": "ja",
+          "text": "がある予定です。",
+          "start_sample": 35081,
+          "end_sample": 71122,
+          "start_ms": 2193,
+          "end_ms": 4445
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 298,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

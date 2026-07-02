@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9547.flac",
+  "sentence": "She mentioned the 接客 at this inn was the warmest she'd experienced anywhere in the world.",
+  "sample_rate": 16000,
+  "duration_ms": 5679,
+  "reference_speaker": "en/speaker_050_6b3579133fec.mp3",
+  "seed": 9589,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She mentioned the",
+      "start_sample": 0,
+      "end_sample": 12298,
+      "start_ms": 0,
+      "end_ms": 769
+    },
+    {
+      "lang": "ja",
+      "text": "接客",
+      "start_sample": 12298,
+      "end_sample": 24722,
+      "start_ms": 769,
+      "end_ms": 1545
+    },
+    {
+      "lang": "en",
+      "text": "at this inn was the warmest she'd experienced anywhere in the world.",
+      "start_sample": 24722,
+      "end_sample": 90859,
+      "start_ms": 1545,
+      "end_ms": 5679
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She mentioned the sekkyaku at this inn was the warmest she'd experienced anywhere in the world.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5648,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She mentioned the",
+          "start_sample": 0,
+          "end_sample": 12498,
+          "start_ms": 0,
+          "end_ms": 781
+        },
+        {
+          "lang": "ja",
+          "text": "接客",
+          "start_sample": 12498,
+          "end_sample": 24035,
+          "start_ms": 781,
+          "end_ms": 1502
+        },
+        {
+          "lang": "en",
+          "text": "at this inn was the warmest she'd experienced anywhere in the world.",
+          "start_sample": 24035,
+          "end_sample": 90372,
+          "start_ms": 1502,
+          "end_ms": 5648
+        }
+      ]
+    },
+    "ja": {
+      "text": "She mentioned the 接客 at this inn was the warmest she'd experienced anywhere in the world.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9277,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She mentioned the",
+          "start_sample": 0,
+          "end_sample": 18914,
+          "start_ms": 0,
+          "end_ms": 1182
+        },
+        {
+          "lang": "ja",
+          "text": "接客",
+          "start_sample": 18914,
+          "end_sample": 31738,
+          "start_ms": 1182,
+          "end_ms": 1984
+        },
+        {
+          "lang": "en",
+          "text": "at this inn was the warmest she'd experienced anywhere in the world.",
+          "start_sample": 31738,
+          "end_sample": 148439,
+          "start_ms": 1984,
+          "end_ms": 9277
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 284,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

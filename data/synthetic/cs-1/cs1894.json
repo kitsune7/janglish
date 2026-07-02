@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1894.flac",
+  "sentence": "Their 通話記録 showed seventeen calls in a single day.",
+  "sample_rate": 16000,
+  "duration_ms": 4037,
+  "reference_speaker": "jp/speaker_021_dc81e43724ca.mp3",
+  "seed": 1936,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Their",
+      "start_sample": 0,
+      "end_sample": 3963,
+      "start_ms": 0,
+      "end_ms": 248
+    },
+    {
+      "lang": "ja",
+      "text": "通話記録",
+      "start_sample": 3963,
+      "end_sample": 17698,
+      "start_ms": 248,
+      "end_ms": 1106
+    },
+    {
+      "lang": "en",
+      "text": "showed seventeen calls in a single day.",
+      "start_sample": 17698,
+      "end_sample": 64594,
+      "start_ms": 1106,
+      "end_ms": 4037
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Their tsuuwa kiroku showed seventeen calls in a single day.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4225,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their",
+          "start_sample": 0,
+          "end_sample": 4163,
+          "start_ms": 0,
+          "end_ms": 260
+        },
+        {
+          "lang": "ja",
+          "text": "通話記録",
+          "start_sample": 4163,
+          "end_sample": 20503,
+          "start_ms": 260,
+          "end_ms": 1281
+        },
+        {
+          "lang": "en",
+          "text": "showed seventeen calls in a single day.",
+          "start_sample": 20503,
+          "end_sample": 67599,
+          "start_ms": 1281,
+          "end_ms": 4225
+        }
+      ]
+    },
+    "ja": {
+      "text": "Their 通話記録 showed seventeen calls in a single day.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3574,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their",
+          "start_sample": 0,
+          "end_sample": 5300,
+          "start_ms": 0,
+          "end_ms": 331
+        },
+        {
+          "lang": "ja",
+          "text": "通話記録",
+          "start_sample": 5300,
+          "end_sample": 19435,
+          "start_ms": 331,
+          "end_ms": 1215
+        },
+        {
+          "lang": "en",
+          "text": "showed seventeen calls in a single day.",
+          "start_sample": 19435,
+          "end_sample": 57179,
+          "start_ms": 1215,
+          "end_ms": 3574
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "eeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3127.flac",
+  "sentence": "I felt the whole conversation had a very 自然 flow, which eased my nerves.",
+  "sample_rate": 16000,
+  "duration_ms": 5588,
+  "reference_speaker": "jp/speaker_079_e96ebb016d7a.mp3",
+  "seed": 3169,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I felt the whole conversation had a very",
+      "start_sample": 0,
+      "end_sample": 44820,
+      "start_ms": 0,
+      "end_ms": 2801
+    },
+    {
+      "lang": "ja",
+      "text": "自然",
+      "start_sample": 44820,
+      "end_sample": 50836,
+      "start_ms": 2801,
+      "end_ms": 3177
+    },
+    {
+      "lang": "en",
+      "text": "flow, which eased my nerves.",
+      "start_sample": 50836,
+      "end_sample": 89408,
+      "start_ms": 3177,
+      "end_ms": 5588
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I felt the whole conversation had a very shizen flow, which eased my nerves.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5828,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I felt the whole conversation had a very",
+          "start_sample": 0,
+          "end_sample": 45020,
+          "start_ms": 0,
+          "end_ms": 2814
+        },
+        {
+          "lang": "ja",
+          "text": "自然",
+          "start_sample": 45020,
+          "end_sample": 54472,
+          "start_ms": 2814,
+          "end_ms": 3404
+        },
+        {
+          "lang": "en",
+          "text": "flow, which eased my nerves.",
+          "start_sample": 54472,
+          "end_sample": 93244,
+          "start_ms": 3404,
+          "end_ms": 5828
+        }
+      ]
+    },
+    "ja": {
+      "text": "I felt the whole conversation had a very 自然 flow, which eased my nerves.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6355,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I felt the whole conversation had a very",
+          "start_sample": 0,
+          "end_sample": 48918,
+          "start_ms": 0,
+          "end_ms": 3057
+        },
+        {
+          "lang": "ja",
+          "text": "自然",
+          "start_sample": 48918,
+          "end_sample": 55334,
+          "start_ms": 3057,
+          "end_ms": 3458
+        },
+        {
+          "lang": "en",
+          "text": "flow, which eased my nerves.",
+          "start_sample": 55334,
+          "end_sample": 101686,
+          "start_ms": 3458,
+          "end_ms": 6355
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 280,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

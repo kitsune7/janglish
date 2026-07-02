@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10750.flac",
+  "sentence": "このtripodを使えば、夜景もきれいに撮れますよ。",
+  "sample_rate": 16000,
+  "duration_ms": 3748,
+  "reference_speaker": "en/speaker_011_d1413283d794.mp3",
+  "seed": 10792,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 5250,
+      "start_ms": 0,
+      "end_ms": 328
+    },
+    {
+      "lang": "en",
+      "text": "tripod",
+      "start_sample": 5250,
+      "end_sample": 18474,
+      "start_ms": 328,
+      "end_ms": 1155
+    },
+    {
+      "lang": "ja",
+      "text": "を使えば、夜景もきれいに撮れますよ。",
+      "start_sample": 18474,
+      "end_sample": 59969,
+      "start_ms": 1155,
+      "end_ms": 3748
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono tripod wo tsukae ba yakei mo kirei ni tore masu yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6651,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 6090,
+          "start_ms": 0,
+          "end_ms": 381
+        },
+        {
+          "lang": "en",
+          "text": "tripod",
+          "start_sample": 6090,
+          "end_sample": 19714,
+          "start_ms": 381,
+          "end_ms": 1232
+        },
+        {
+          "lang": "ja",
+          "text": "を使えば、夜景もきれいに撮れますよ。",
+          "start_sample": 19714,
+          "end_sample": 106423,
+          "start_ms": 1232,
+          "end_ms": 6651
+        }
+      ]
+    },
+    "ja": {
+      "text": "このtripodを使えば、夜景もきれいに撮れますよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3588,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5450,
+          "start_ms": 0,
+          "end_ms": 341
+        },
+        {
+          "lang": "en",
+          "text": "tripod",
+          "start_sample": 5450,
+          "end_sample": 15714,
+          "start_ms": 341,
+          "end_ms": 982
+        },
+        {
+          "lang": "ja",
+          "text": "を使えば、夜景もきれいに撮れますよ。",
+          "start_sample": 15714,
+          "end_sample": 57409,
+          "start_ms": 982,
+          "end_ms": 3588
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "jjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

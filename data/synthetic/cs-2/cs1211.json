@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1211.flac",
+  "sentence": "Have you ever noticed the subtle 香り of toasted sesame that gives the salad its 奥行き?",
+  "sample_rate": 16000,
+  "duration_ms": 5701,
+  "reference_speaker": "jp/speaker_082_d12288b68351.mp3",
+  "seed": 18066,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you ever noticed the subtle",
+      "start_sample": 0,
+      "end_sample": 20992,
+      "start_ms": 0,
+      "end_ms": 1312
+    },
+    {
+      "lang": "ja",
+      "text": "香り",
+      "start_sample": 20992,
+      "end_sample": 31001,
+      "start_ms": 1312,
+      "end_ms": 1938
+    },
+    {
+      "lang": "en",
+      "text": "of toasted sesame that gives the salad its",
+      "start_sample": 31001,
+      "end_sample": 81012,
+      "start_ms": 1938,
+      "end_ms": 5063
+    },
+    {
+      "lang": "ja",
+      "text": "奥行き?",
+      "start_sample": 81012,
+      "end_sample": 91222,
+      "start_ms": 5063,
+      "end_ms": 5701
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you ever noticed the subtle kaori of toasted sesame that gives the salad its okuyuki",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6100,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever noticed the subtle",
+          "start_sample": 0,
+          "end_sample": 21192,
+          "start_ms": 0,
+          "end_ms": 1324
+        },
+        {
+          "lang": "ja",
+          "text": "香り",
+          "start_sample": 21192,
+          "end_sample": 35962,
+          "start_ms": 1324,
+          "end_ms": 2248
+        },
+        {
+          "lang": "en",
+          "text": "of toasted sesame that gives the salad its",
+          "start_sample": 35962,
+          "end_sample": 86373,
+          "start_ms": 2248,
+          "end_ms": 5398
+        },
+        {
+          "lang": "ja",
+          "text": "奥行き?",
+          "start_sample": 86373,
+          "end_sample": 97608,
+          "start_ms": 5398,
+          "end_ms": 6100
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you ever noticed the subtle 香り of toasted sesame that gives the salad its 奥行き?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8068,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever noticed the subtle",
+          "start_sample": 0,
+          "end_sample": 50928,
+          "start_ms": 0,
+          "end_ms": 3183
+        },
+        {
+          "lang": "ja",
+          "text": "香り",
+          "start_sample": 50928,
+          "end_sample": 61337,
+          "start_ms": 3183,
+          "end_ms": 3834
+        },
+        {
+          "lang": "en",
+          "text": "of toasted sesame that gives the salad its",
+          "start_sample": 61337,
+          "end_sample": 118672,
+          "start_ms": 3834,
+          "end_ms": 7417
+        },
+        {
+          "lang": "ja",
+          "text": "奥行き?",
+          "start_sample": 118672,
+          "end_sample": 129082,
+          "start_ms": 7417,
+          "end_ms": 8068
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 286,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

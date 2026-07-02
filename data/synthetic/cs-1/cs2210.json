@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2210.flac",
+  "sentence": "引越しの前にnew tenant向けの説明を大家さんから受けた。",
+  "sample_rate": 16000,
+  "duration_ms": 5284,
+  "reference_speaker": "en/speaker_051_36aa24c8ddec.mp3",
+  "seed": 2252,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "引越しの前に",
+      "start_sample": 0,
+      "end_sample": 19535,
+      "start_ms": 0,
+      "end_ms": 1221
+    },
+    {
+      "lang": "en",
+      "text": "new tenant",
+      "start_sample": 19535,
+      "end_sample": 40136,
+      "start_ms": 1221,
+      "end_ms": 2508
+    },
+    {
+      "lang": "ja",
+      "text": "向けの説明を大家さんから受けた。",
+      "start_sample": 40136,
+      "end_sample": 84540,
+      "start_ms": 2508,
+      "end_ms": 5284
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "hikkoshi no mae ni new tenant muke no setsumei wo ooya san kara uke ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8096,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "引越しの前に",
+          "start_sample": 0,
+          "end_sample": 43764,
+          "start_ms": 0,
+          "end_ms": 2735
+        },
+        {
+          "lang": "en",
+          "text": "new tenant",
+          "start_sample": 43764,
+          "end_sample": 64765,
+          "start_ms": 2735,
+          "end_ms": 4048
+        },
+        {
+          "lang": "ja",
+          "text": "向けの説明を大家さんから受けた。",
+          "start_sample": 64765,
+          "end_sample": 129529,
+          "start_ms": 4048,
+          "end_ms": 8096
+        }
+      ]
+    },
+    "ja": {
+      "text": "引越しの前にnew tenant向けの説明を大家さんから受けた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5034,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "引越しの前に",
+          "start_sample": 0,
+          "end_sample": 19735,
+          "start_ms": 0,
+          "end_ms": 1233
+        },
+        {
+          "lang": "en",
+          "text": "new tenant",
+          "start_sample": 19735,
+          "end_sample": 35941,
+          "start_ms": 1233,
+          "end_ms": 2246
+        },
+        {
+          "lang": "ja",
+          "text": "向けの説明を大家さんから受けた。",
+          "start_sample": 35941,
+          "end_sample": 80545,
+          "start_ms": 2246,
+          "end_ms": 5034
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 265,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4309.flac",
+  "sentence": "This game's 音楽 hits differently when you're playing at midnight.",
+  "sample_rate": 16000,
+  "duration_ms": 2719,
+  "reference_speaker": "jp/speaker_019_45c9ebd0ae18.mp3",
+  "seed": 4351,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This game's",
+      "start_sample": 0,
+      "end_sample": 8661,
+      "start_ms": 0,
+      "end_ms": 541
+    },
+    {
+      "lang": "ja",
+      "text": "音楽",
+      "start_sample": 8661,
+      "end_sample": 14228,
+      "start_ms": 541,
+      "end_ms": 889
+    },
+    {
+      "lang": "en",
+      "text": "hits differently when you're playing at midnight.",
+      "start_sample": 14228,
+      "end_sample": 43507,
+      "start_ms": 889,
+      "end_ms": 2719
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This game's ongaku hits differently when you're playing at midnight.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2880,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This game's",
+          "start_sample": 0,
+          "end_sample": 8861,
+          "start_ms": 0,
+          "end_ms": 554
+        },
+        {
+          "lang": "ja",
+          "text": "音楽",
+          "start_sample": 8861,
+          "end_sample": 16595,
+          "start_ms": 554,
+          "end_ms": 1037
+        },
+        {
+          "lang": "en",
+          "text": "hits differently when you're playing at midnight.",
+          "start_sample": 16595,
+          "end_sample": 46074,
+          "start_ms": 1037,
+          "end_ms": 2880
+        }
+      ]
+    },
+    "ja": {
+      "text": "This game's 音楽 hits differently when you're playing at midnight.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3043,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This game's",
+          "start_sample": 0,
+          "end_sample": 10641,
+          "start_ms": 0,
+          "end_ms": 665
+        },
+        {
+          "lang": "ja",
+          "text": "音楽",
+          "start_sample": 10641,
+          "end_sample": 16608,
+          "start_ms": 665,
+          "end_ms": 1038
+        },
+        {
+          "lang": "en",
+          "text": "hits differently when you're playing at midnight.",
+          "start_sample": 16608,
+          "end_sample": 48689,
+          "start_ms": 1038,
+          "end_ms": 3043
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 136,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

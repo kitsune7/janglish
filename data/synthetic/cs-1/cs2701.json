@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2701.flac",
+  "sentence": "I think we should make a 予約 before heading over there on Friday.",
+  "sample_rate": 16000,
+  "duration_ms": 3081,
+  "reference_speaker": "en/speaker_067_3f15e2fece31.mp3",
+  "seed": 2743,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I think we should make a",
+      "start_sample": 0,
+      "end_sample": 12812,
+      "start_ms": 0,
+      "end_ms": 801
+    },
+    {
+      "lang": "ja",
+      "text": "予約",
+      "start_sample": 12812,
+      "end_sample": 23623,
+      "start_ms": 801,
+      "end_ms": 1476
+    },
+    {
+      "lang": "en",
+      "text": "before heading over there on Friday.",
+      "start_sample": 23623,
+      "end_sample": 49290,
+      "start_ms": 1476,
+      "end_ms": 3081
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I think we should make a yoyaku before heading over there on Friday.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2932,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I think we should make a",
+          "start_sample": 0,
+          "end_sample": 13012,
+          "start_ms": 0,
+          "end_ms": 813
+        },
+        {
+          "lang": "ja",
+          "text": "予約",
+          "start_sample": 13012,
+          "end_sample": 21047,
+          "start_ms": 813,
+          "end_ms": 1315
+        },
+        {
+          "lang": "en",
+          "text": "before heading over there on Friday.",
+          "start_sample": 21047,
+          "end_sample": 46914,
+          "start_ms": 1315,
+          "end_ms": 2932
+        }
+      ]
+    },
+    "ja": {
+      "text": "I think we should make a 予約 before heading over there on Friday.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5405,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I think we should make a",
+          "start_sample": 0,
+          "end_sample": 34592,
+          "start_ms": 0,
+          "end_ms": 2162
+        },
+        {
+          "lang": "ja",
+          "text": "予約",
+          "start_sample": 34592,
+          "end_sample": 45803,
+          "start_ms": 2162,
+          "end_ms": 2863
+        },
+        {
+          "lang": "en",
+          "text": "before heading over there on Friday.",
+          "start_sample": 45803,
+          "end_sample": 86481,
+          "start_ms": 2863,
+          "end_ms": 5405
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 155,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

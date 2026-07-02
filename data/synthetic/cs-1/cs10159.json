@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10159.flac",
+  "sentence": "私のguitarはもう十年以上使っています。",
+  "sample_rate": 16000,
+  "duration_ms": 3351,
+  "reference_speaker": "jp/speaker_037_97f38629e8a3.mp3",
+  "seed": 10201,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "私の",
+      "start_sample": 0,
+      "end_sample": 8346,
+      "start_ms": 0,
+      "end_ms": 522
+    },
+    {
+      "lang": "en",
+      "text": "guitar",
+      "start_sample": 8346,
+      "end_sample": 21733,
+      "start_ms": 522,
+      "end_ms": 1358
+    },
+    {
+      "lang": "ja",
+      "text": "はもう十年以上使っています。",
+      "start_sample": 21733,
+      "end_sample": 53615,
+      "start_ms": 1358,
+      "end_ms": 3351
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "watashi no guitar ha mou juu nen ijou tsukatsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5450,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私の",
+          "start_sample": 0,
+          "end_sample": 11060,
+          "start_ms": 0,
+          "end_ms": 691
+        },
+        {
+          "lang": "en",
+          "text": "guitar",
+          "start_sample": 11060,
+          "end_sample": 24847,
+          "start_ms": 691,
+          "end_ms": 1553
+        },
+        {
+          "lang": "ja",
+          "text": "はもう十年以上使っています。",
+          "start_sample": 24847,
+          "end_sample": 87204,
+          "start_ms": 1553,
+          "end_ms": 5450
+        }
+      ]
+    },
+    "ja": {
+      "text": "私のguitarはもう十年以上使っています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2922,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私の",
+          "start_sample": 0,
+          "end_sample": 8546,
+          "start_ms": 0,
+          "end_ms": 534
+        },
+        {
+          "lang": "en",
+          "text": "guitar",
+          "start_sample": 8546,
+          "end_sample": 14673,
+          "start_ms": 534,
+          "end_ms": 917
+        },
+        {
+          "lang": "ja",
+          "text": "はもう十年以上使っています。",
+          "start_sample": 14673,
+          "end_sample": 46755,
+          "start_ms": 917,
+          "end_ms": 2922
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 168,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

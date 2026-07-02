@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2190.flac",
+  "sentence": "リビングのceiling lightを変えるだけで部屋が明るくなった。",
+  "sample_rate": 16000,
+  "duration_ms": 3668,
+  "reference_speaker": "en/speaker_012_29b1e5a58d16.mp3",
+  "seed": 2232,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "リビングの",
+      "start_sample": 0,
+      "end_sample": 9099,
+      "start_ms": 0,
+      "end_ms": 569
+    },
+    {
+      "lang": "en",
+      "text": "ceiling light",
+      "start_sample": 9099,
+      "end_sample": 22814,
+      "start_ms": 569,
+      "end_ms": 1426
+    },
+    {
+      "lang": "ja",
+      "text": "を変えるだけで部屋が明るくなった。",
+      "start_sample": 22814,
+      "end_sample": 58688,
+      "start_ms": 1426,
+      "end_ms": 3668
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ribingu no ceiling light wo kaeru dake de heya ga akaruku natsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6235,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "リビングの",
+          "start_sample": 0,
+          "end_sample": 22294,
+          "start_ms": 0,
+          "end_ms": 1393
+        },
+        {
+          "lang": "en",
+          "text": "ceiling light",
+          "start_sample": 22294,
+          "end_sample": 36409,
+          "start_ms": 1393,
+          "end_ms": 2276
+        },
+        {
+          "lang": "ja",
+          "text": "を変えるだけで部屋が明るくなった。",
+          "start_sample": 36409,
+          "end_sample": 99763,
+          "start_ms": 2276,
+          "end_ms": 6235
+        }
+      ]
+    },
+    "ja": {
+      "text": "リビングのceiling lightを変えるだけで部屋が明るくなった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3668,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "リビングの",
+          "start_sample": 0,
+          "end_sample": 9299,
+          "start_ms": 0,
+          "end_ms": 581
+        },
+        {
+          "lang": "en",
+          "text": "ceiling light",
+          "start_sample": 9299,
+          "end_sample": 22607,
+          "start_ms": 581,
+          "end_ms": 1413
+        },
+        {
+          "lang": "ja",
+          "text": "を変えるだけで部屋が明るくなった。",
+          "start_sample": 22607,
+          "end_sample": 58681,
+          "start_ms": 1413,
+          "end_ms": 3668
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 184,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7058.flac",
+  "sentence": "I can't believe how 辛い the sore throat has been this whole week.",
+  "sample_rate": 16000,
+  "duration_ms": 3237,
+  "reference_speaker": "jp/speaker_024_53a01817659b.mp3",
+  "seed": 7100,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I can't believe how",
+      "start_sample": 0,
+      "end_sample": 15716,
+      "start_ms": 0,
+      "end_ms": 982
+    },
+    {
+      "lang": "ja",
+      "text": "辛い",
+      "start_sample": 15716,
+      "end_sample": 20153,
+      "start_ms": 982,
+      "end_ms": 1260
+    },
+    {
+      "lang": "en",
+      "text": "the sore throat has been this whole week.",
+      "start_sample": 20153,
+      "end_sample": 51791,
+      "start_ms": 1260,
+      "end_ms": 3237
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I can't believe how tsurai the sore throat has been this whole week.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3517,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I can't believe how",
+          "start_sample": 0,
+          "end_sample": 15916,
+          "start_ms": 0,
+          "end_ms": 995
+        },
+        {
+          "lang": "ja",
+          "text": "辛い",
+          "start_sample": 15916,
+          "end_sample": 24440,
+          "start_ms": 995,
+          "end_ms": 1528
+        },
+        {
+          "lang": "en",
+          "text": "the sore throat has been this whole week.",
+          "start_sample": 24440,
+          "end_sample": 56278,
+          "start_ms": 1528,
+          "end_ms": 3517
+        }
+      ]
+    },
+    "ja": {
+      "text": "I can't believe how 辛い the sore throat has been this whole week.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3003,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I can't believe how",
+          "start_sample": 0,
+          "end_sample": 13383,
+          "start_ms": 0,
+          "end_ms": 836
+        },
+        {
+          "lang": "ja",
+          "text": "辛い",
+          "start_sample": 13383,
+          "end_sample": 18220,
+          "start_ms": 836,
+          "end_ms": 1139
+        },
+        {
+          "lang": "en",
+          "text": "the sore throat has been this whole week.",
+          "start_sample": 18220,
+          "end_sample": 48044,
+          "start_ms": 1139,
+          "end_ms": 3003
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 162,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

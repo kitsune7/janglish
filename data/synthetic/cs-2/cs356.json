@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs356.flac",
+  "sentence": "She kept her 現金 in three different banks, which her accountant found slightly 非効率.",
+  "sample_rate": 16000,
+  "duration_ms": 6245,
+  "reference_speaker": "jp/speaker_092_08c69e35de07.mp3",
+  "seed": 17211,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She kept her",
+      "start_sample": 0,
+      "end_sample": 11174,
+      "start_ms": 0,
+      "end_ms": 698
+    },
+    {
+      "lang": "ja",
+      "text": "現金",
+      "start_sample": 11174,
+      "end_sample": 21355,
+      "start_ms": 698,
+      "end_ms": 1335
+    },
+    {
+      "lang": "en",
+      "text": "in three different banks, which her accountant found slightly",
+      "start_sample": 21355,
+      "end_sample": 87610,
+      "start_ms": 1335,
+      "end_ms": 5476
+    },
+    {
+      "lang": "ja",
+      "text": "非効率.",
+      "start_sample": 87610,
+      "end_sample": 99913,
+      "start_ms": 5476,
+      "end_ms": 6245
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She kept her genkin in three different banks, which her accountant found slightly hi kouritsu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6589,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She kept her",
+          "start_sample": 0,
+          "end_sample": 11374,
+          "start_ms": 0,
+          "end_ms": 711
+        },
+        {
+          "lang": "ja",
+          "text": "現金",
+          "start_sample": 11374,
+          "end_sample": 20508,
+          "start_ms": 711,
+          "end_ms": 1282
+        },
+        {
+          "lang": "en",
+          "text": "in three different banks, which her accountant found slightly",
+          "start_sample": 20508,
+          "end_sample": 87163,
+          "start_ms": 1282,
+          "end_ms": 5448
+        },
+        {
+          "lang": "ja",
+          "text": "非効率.",
+          "start_sample": 87163,
+          "end_sample": 105429,
+          "start_ms": 5448,
+          "end_ms": 6589
+        }
+      ]
+    },
+    "ja": {
+      "text": "She kept her 現金 in three different banks, which her accountant found slightly 非効率.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8216,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She kept her",
+          "start_sample": 0,
+          "end_sample": 18755,
+          "start_ms": 0,
+          "end_ms": 1172
+        },
+        {
+          "lang": "ja",
+          "text": "現金",
+          "start_sample": 18755,
+          "end_sample": 29336,
+          "start_ms": 1172,
+          "end_ms": 1834
+        },
+        {
+          "lang": "en",
+          "text": "in three different banks, which her accountant found slightly",
+          "start_sample": 29336,
+          "end_sample": 118954,
+          "start_ms": 1834,
+          "end_ms": 7435
+        },
+        {
+          "lang": "ja",
+          "text": "非効率.",
+          "start_sample": 118954,
+          "end_sample": 131457,
+          "start_ms": 7435,
+          "end_ms": 8216
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 313,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

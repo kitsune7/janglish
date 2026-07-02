@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10969.flac",
+  "sentence": "He showed up 突然 at her door with an apology and no excuses.",
+  "sample_rate": 16000,
+  "duration_ms": 4531,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 11011,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He showed up",
+      "start_sample": 0,
+      "end_sample": 8780,
+      "start_ms": 0,
+      "end_ms": 549
+    },
+    {
+      "lang": "ja",
+      "text": "突然",
+      "start_sample": 8780,
+      "end_sample": 19299,
+      "start_ms": 549,
+      "end_ms": 1206
+    },
+    {
+      "lang": "en",
+      "text": "at her door with an apology and no excuses.",
+      "start_sample": 19299,
+      "end_sample": 72501,
+      "start_ms": 1206,
+      "end_ms": 4531
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He showed up totsuzen at her door with an apology and no excuses.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4711,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He showed up",
+          "start_sample": 0,
+          "end_sample": 8980,
+          "start_ms": 0,
+          "end_ms": 561
+        },
+        {
+          "lang": "ja",
+          "text": "突然",
+          "start_sample": 8980,
+          "end_sample": 21971,
+          "start_ms": 561,
+          "end_ms": 1373
+        },
+        {
+          "lang": "en",
+          "text": "at her door with an apology and no excuses.",
+          "start_sample": 21971,
+          "end_sample": 75373,
+          "start_ms": 1373,
+          "end_ms": 4711
+        }
+      ]
+    },
+    "ja": {
+      "text": "He showed up 突然 at her door with an apology and no excuses.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4154,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He showed up",
+          "start_sample": 0,
+          "end_sample": 10916,
+          "start_ms": 0,
+          "end_ms": 682
+        },
+        {
+          "lang": "ja",
+          "text": "突然",
+          "start_sample": 10916,
+          "end_sample": 21835,
+          "start_ms": 682,
+          "end_ms": 1365
+        },
+        {
+          "lang": "en",
+          "text": "at her door with an apology and no excuses.",
+          "start_sample": 21835,
+          "end_sample": 66472,
+          "start_ms": 1365,
+          "end_ms": 4154
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 227,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

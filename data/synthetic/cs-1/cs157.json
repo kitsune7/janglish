@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs157.flac",
+  "sentence": "Is it normal for a three-year-old to be this 人見知り around strangers?",
+  "sample_rate": 16000,
+  "duration_ms": 5475,
+  "reference_speaker": "jp/speaker_015_c26b5026d437.mp3",
+  "seed": 199,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Is it normal for a three-year-old to be this",
+      "start_sample": 0,
+      "end_sample": 53608,
+      "start_ms": 0,
+      "end_ms": 3350
+    },
+    {
+      "lang": "ja",
+      "text": "人見知り",
+      "start_sample": 53608,
+      "end_sample": 67779,
+      "start_ms": 3350,
+      "end_ms": 4236
+    },
+    {
+      "lang": "en",
+      "text": "around strangers?",
+      "start_sample": 67779,
+      "end_sample": 87596,
+      "start_ms": 4236,
+      "end_ms": 5475
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Is it normal for a three-year-old to be this nin mishiri around strangers?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5765,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is it normal for a three-year-old to be this",
+          "start_sample": 0,
+          "end_sample": 53808,
+          "start_ms": 0,
+          "end_ms": 3363
+        },
+        {
+          "lang": "ja",
+          "text": "人見知り",
+          "start_sample": 53808,
+          "end_sample": 72225,
+          "start_ms": 3363,
+          "end_ms": 4514
+        },
+        {
+          "lang": "en",
+          "text": "around strangers?",
+          "start_sample": 72225,
+          "end_sample": 92242,
+          "start_ms": 4514,
+          "end_ms": 5765
+        }
+      ]
+    },
+    "ja": {
+      "text": "Is it normal for a three-year-old to be this 人見知り around strangers?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6905,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is it normal for a three-year-old to be this",
+          "start_sample": 0,
+          "end_sample": 74616,
+          "start_ms": 0,
+          "end_ms": 4664
+        },
+        {
+          "lang": "ja",
+          "text": "人見知り",
+          "start_sample": 74616,
+          "end_sample": 89187,
+          "start_ms": 4664,
+          "end_ms": 5574
+        },
+        {
+          "lang": "en",
+          "text": "around strangers?",
+          "start_sample": 89187,
+          "end_sample": 110483,
+          "start_ms": 5574,
+          "end_ms": 6905
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 274,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4381.flac",
+  "sentence": "This keyboard feels so 快適 compared to my old one.",
+  "sample_rate": 16000,
+  "duration_ms": 2859,
+  "reference_speaker": "en/speaker_023_9d57aeaf822c.mp3",
+  "seed": 4423,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This keyboard feels so",
+      "start_sample": 0,
+      "end_sample": 17464,
+      "start_ms": 0,
+      "end_ms": 1092
+    },
+    {
+      "lang": "ja",
+      "text": "快適",
+      "start_sample": 17464,
+      "end_sample": 26035,
+      "start_ms": 1092,
+      "end_ms": 1627
+    },
+    {
+      "lang": "en",
+      "text": "compared to my old one.",
+      "start_sample": 26035,
+      "end_sample": 45745,
+      "start_ms": 1627,
+      "end_ms": 2859
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This keyboard feels so kaiteki compared to my old one.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2910,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This keyboard feels so",
+          "start_sample": 0,
+          "end_sample": 17664,
+          "start_ms": 0,
+          "end_ms": 1104
+        },
+        {
+          "lang": "ja",
+          "text": "快適",
+          "start_sample": 17664,
+          "end_sample": 26657,
+          "start_ms": 1104,
+          "end_ms": 1666
+        },
+        {
+          "lang": "en",
+          "text": "compared to my old one.",
+          "start_sample": 26657,
+          "end_sample": 46567,
+          "start_ms": 1666,
+          "end_ms": 2910
+        }
+      ]
+    },
+    "ja": {
+      "text": "This keyboard feels so 快適 compared to my old one.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3904,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This keyboard feels so",
+          "start_sample": 0,
+          "end_sample": 26109,
+          "start_ms": 0,
+          "end_ms": 1632
+        },
+        {
+          "lang": "ja",
+          "text": "快適",
+          "start_sample": 26109,
+          "end_sample": 35080,
+          "start_ms": 1632,
+          "end_ms": 2192
+        },
+        {
+          "lang": "en",
+          "text": "compared to my old one.",
+          "start_sample": 35080,
+          "end_sample": 62471,
+          "start_ms": 2192,
+          "end_ms": 3904
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 143,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

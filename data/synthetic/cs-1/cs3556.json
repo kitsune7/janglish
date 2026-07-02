@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3556.flac",
+  "sentence": "うちの犬はoutdoorが大好きで、散歩を楽しみにしています。",
+  "sample_rate": 16000,
+  "duration_ms": 3811,
+  "reference_speaker": "jp/speaker_039_c39ab9ed59f2.mp3",
+  "seed": 3598,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "うちの犬は",
+      "start_sample": 0,
+      "end_sample": 10389,
+      "start_ms": 0,
+      "end_ms": 649
+    },
+    {
+      "lang": "en",
+      "text": "outdoor",
+      "start_sample": 10389,
+      "end_sample": 19618,
+      "start_ms": 649,
+      "end_ms": 1226
+    },
+    {
+      "lang": "ja",
+      "text": "が大好きで、散歩を楽しみにしています。",
+      "start_sample": 19618,
+      "end_sample": 60971,
+      "start_ms": 1226,
+      "end_ms": 3811
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "uchi no inu ha outdoor ga daisuki de sanpo wo tanoshimi ni shi te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7342,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちの犬は",
+          "start_sample": 0,
+          "end_sample": 34019,
+          "start_ms": 0,
+          "end_ms": 2126
+        },
+        {
+          "lang": "en",
+          "text": "outdoor",
+          "start_sample": 34019,
+          "end_sample": 43648,
+          "start_ms": 2126,
+          "end_ms": 2728
+        },
+        {
+          "lang": "ja",
+          "text": "が大好きで、散歩を楽しみにしています。",
+          "start_sample": 43648,
+          "end_sample": 117467,
+          "start_ms": 2728,
+          "end_ms": 7342
+        }
+      ]
+    },
+    "ja": {
+      "text": "うちの犬はoutdoorが大好きで、散歩を楽しみにしています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3810,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちの犬は",
+          "start_sample": 0,
+          "end_sample": 10589,
+          "start_ms": 0,
+          "end_ms": 662
+        },
+        {
+          "lang": "en",
+          "text": "outdoor",
+          "start_sample": 10589,
+          "end_sample": 19413,
+          "start_ms": 662,
+          "end_ms": 1213
+        },
+        {
+          "lang": "ja",
+          "text": "が大好きで、散歩を楽しみにしています。",
+          "start_sample": 19413,
+          "end_sample": 60966,
+          "start_ms": 1213,
+          "end_ms": 3810
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 191,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

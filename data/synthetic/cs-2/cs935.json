@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs935.flac",
+  "sentence": "The 梱包 was so 丁寧 that nothing inside was even slightly damaged.",
+  "sample_rate": 16000,
+  "duration_ms": 3980,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 17790,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1247,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "梱包",
+      "start_sample": 1247,
+      "end_sample": 9516,
+      "start_ms": 78,
+      "end_ms": 595
+    },
+    {
+      "lang": "en",
+      "text": "was so",
+      "start_sample": 9516,
+      "end_sample": 16357,
+      "start_ms": 595,
+      "end_ms": 1022
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧",
+      "start_sample": 16357,
+      "end_sample": 24465,
+      "start_ms": 1022,
+      "end_ms": 1529
+    },
+    {
+      "lang": "en",
+      "text": "that nothing inside was even slightly damaged.",
+      "start_sample": 24465,
+      "end_sample": 63684,
+      "start_ms": 1529,
+      "end_ms": 3980
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The konpou was so teinei that nothing inside was even slightly damaged.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4143,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1447,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "梱包",
+          "start_sample": 1447,
+          "end_sample": 10137,
+          "start_ms": 90,
+          "end_ms": 634
+        },
+        {
+          "lang": "en",
+          "text": "was so",
+          "start_sample": 10137,
+          "end_sample": 17378,
+          "start_ms": 634,
+          "end_ms": 1086
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 17378,
+          "end_sample": 26872,
+          "start_ms": 1086,
+          "end_ms": 1680
+        },
+        {
+          "lang": "en",
+          "text": "that nothing inside was even slightly damaged.",
+          "start_sample": 26872,
+          "end_sample": 66291,
+          "start_ms": 1680,
+          "end_ms": 4143
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 梱包 was so 丁寧 that nothing inside was even slightly damaged.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5979,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4009,
+          "start_ms": 0,
+          "end_ms": 251
+        },
+        {
+          "lang": "ja",
+          "text": "梱包",
+          "start_sample": 4009,
+          "end_sample": 12678,
+          "start_ms": 251,
+          "end_ms": 792
+        },
+        {
+          "lang": "en",
+          "text": "was so",
+          "start_sample": 12678,
+          "end_sample": 20544,
+          "start_ms": 792,
+          "end_ms": 1284
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 20544,
+          "end_sample": 29052,
+          "start_ms": 1284,
+          "end_ms": 1816
+        },
+        {
+          "lang": "en",
+          "text": "that nothing inside was even slightly damaged.",
+          "start_sample": 29052,
+          "end_sample": 95668,
+          "start_ms": 1816,
+          "end_ms": 5979
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 200,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

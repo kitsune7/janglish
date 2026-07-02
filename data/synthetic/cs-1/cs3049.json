@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3049.flac",
+  "sentence": "That investment firm's 運用 strategy is way too aggressive for me.",
+  "sample_rate": 16000,
+  "duration_ms": 5386,
+  "reference_speaker": "en/speaker_045_730ff605e95b.mp3",
+  "seed": 3091,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That investment firm's",
+      "start_sample": 0,
+      "end_sample": 35679,
+      "start_ms": 0,
+      "end_ms": 2230
+    },
+    {
+      "lang": "ja",
+      "text": "運用",
+      "start_sample": 35679,
+      "end_sample": 46005,
+      "start_ms": 2230,
+      "end_ms": 2875
+    },
+    {
+      "lang": "en",
+      "text": "strategy is way too aggressive for me.",
+      "start_sample": 46005,
+      "end_sample": 86169,
+      "start_ms": 2875,
+      "end_ms": 5386
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That investment firm's unyou strategy is way too aggressive for me.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5766,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That investment firm's",
+          "start_sample": 0,
+          "end_sample": 35879,
+          "start_ms": 0,
+          "end_ms": 2242
+        },
+        {
+          "lang": "ja",
+          "text": "運用",
+          "start_sample": 35879,
+          "end_sample": 51897,
+          "start_ms": 2242,
+          "end_ms": 3244
+        },
+        {
+          "lang": "en",
+          "text": "strategy is way too aggressive for me.",
+          "start_sample": 51897,
+          "end_sample": 92261,
+          "start_ms": 3244,
+          "end_ms": 5766
+        }
+      ]
+    },
+    "ja": {
+      "text": "That investment firm's 運用 strategy is way too aggressive for me.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6243,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That investment firm's",
+          "start_sample": 0,
+          "end_sample": 38739,
+          "start_ms": 0,
+          "end_ms": 2421
+        },
+        {
+          "lang": "ja",
+          "text": "運用",
+          "start_sample": 38739,
+          "end_sample": 49465,
+          "start_ms": 2421,
+          "end_ms": 3092
+        },
+        {
+          "lang": "en",
+          "text": "strategy is way too aggressive for me.",
+          "start_sample": 49465,
+          "end_sample": 99891,
+          "start_ms": 3092,
+          "end_ms": 6243
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 270,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

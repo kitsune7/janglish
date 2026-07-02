@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7624.flac",
+  "sentence": "バーテンダーのpouringの技術がとても美しかった。",
+  "sample_rate": 16000,
+  "duration_ms": 3989,
+  "reference_speaker": "en/speaker_030_bdb9e7b61df6.mp3",
+  "seed": 7666,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "バーテンダーの",
+      "start_sample": 0,
+      "end_sample": 13110,
+      "start_ms": 0,
+      "end_ms": 819
+    },
+    {
+      "lang": "en",
+      "text": "pouring",
+      "start_sample": 13110,
+      "end_sample": 25536,
+      "start_ms": 819,
+      "end_ms": 1596
+    },
+    {
+      "lang": "ja",
+      "text": "の技術がとても美しかった。",
+      "start_sample": 25536,
+      "end_sample": 63824,
+      "start_ms": 1596,
+      "end_ms": 3989
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "baatendaa no pouring no gijutsu ga totemo utsukushikatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6193,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "バーテンダーの",
+          "start_sample": 0,
+          "end_sample": 22125,
+          "start_ms": 0,
+          "end_ms": 1383
+        },
+        {
+          "lang": "en",
+          "text": "pouring",
+          "start_sample": 22125,
+          "end_sample": 34951,
+          "start_ms": 1383,
+          "end_ms": 2184
+        },
+        {
+          "lang": "ja",
+          "text": "の技術がとても美しかった。",
+          "start_sample": 34951,
+          "end_sample": 99082,
+          "start_ms": 2184,
+          "end_ms": 6193
+        }
+      ]
+    },
+    "ja": {
+      "text": "バーテンダーのpouringの技術がとても美しかった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3829,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "バーテンダーの",
+          "start_sample": 0,
+          "end_sample": 13310,
+          "start_ms": 0,
+          "end_ms": 832
+        },
+        {
+          "lang": "en",
+          "text": "pouring",
+          "start_sample": 13310,
+          "end_sample": 22772,
+          "start_ms": 832,
+          "end_ms": 1423
+        },
+        {
+          "lang": "ja",
+          "text": "の技術がとても美しかった。",
+          "start_sample": 22772,
+          "end_sample": 61260,
+          "start_ms": 1423,
+          "end_ms": 3829
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 200,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

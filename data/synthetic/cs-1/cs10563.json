@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10563.flac",
+  "sentence": "新しいkittenが怖がっていたので、そっと抱っこしてあげた。",
+  "sample_rate": 16000,
+  "duration_ms": 3798,
+  "reference_speaker": "jp/speaker_009_33102318f73b.mp3",
+  "seed": 10605,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "新しい",
+      "start_sample": 0,
+      "end_sample": 8620,
+      "start_ms": 0,
+      "end_ms": 539
+    },
+    {
+      "lang": "en",
+      "text": "kitten",
+      "start_sample": 8620,
+      "end_sample": 15910,
+      "start_ms": 539,
+      "end_ms": 994
+    },
+    {
+      "lang": "ja",
+      "text": "が怖がっていたので、そっと抱っこしてあげた。",
+      "start_sample": 15910,
+      "end_sample": 60773,
+      "start_ms": 994,
+      "end_ms": 3798
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "atarashii kitten ga fu gatsu te i ta no de sotto dakko shi te age ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5206,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 12975,
+          "start_ms": 0,
+          "end_ms": 811
+        },
+        {
+          "lang": "en",
+          "text": "kitten",
+          "start_sample": 12975,
+          "end_sample": 20665,
+          "start_ms": 811,
+          "end_ms": 1292
+        },
+        {
+          "lang": "ja",
+          "text": "が怖がっていたので、そっと抱っこしてあげた。",
+          "start_sample": 20665,
+          "end_sample": 83302,
+          "start_ms": 1292,
+          "end_ms": 5206
+        }
+      ]
+    },
+    "ja": {
+      "text": "新しいkittenが怖がっていたので、そっと抱っこしてあげた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3829,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 8820,
+          "start_ms": 0,
+          "end_ms": 551
+        },
+        {
+          "lang": "en",
+          "text": "kitten",
+          "start_sample": 8820,
+          "end_sample": 16197,
+          "start_ms": 551,
+          "end_ms": 1012
+        },
+        {
+          "lang": "ja",
+          "text": "が怖がっていたので、そっと抱っこしてあげた。",
+          "start_sample": 16197,
+          "end_sample": 61260,
+          "start_ms": 1012,
+          "end_ms": 3829
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

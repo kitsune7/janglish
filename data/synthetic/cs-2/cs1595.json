@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1595.flac",
+  "sentence": "The 初雪 this year came in November, much earlier than the usual 予想.",
+  "sample_rate": 16000,
+  "duration_ms": 6358,
+  "reference_speaker": "jp/speaker_061_3e186ef591ed.mp3",
+  "seed": 18450,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1242,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "初雪",
+      "start_sample": 1242,
+      "end_sample": 13354,
+      "start_ms": 78,
+      "end_ms": 835
+    },
+    {
+      "lang": "en",
+      "text": "this year came in November, much earlier than the usual",
+      "start_sample": 13354,
+      "end_sample": 95992,
+      "start_ms": 835,
+      "end_ms": 6000
+    },
+    {
+      "lang": "ja",
+      "text": "予想.",
+      "start_sample": 95992,
+      "end_sample": 101725,
+      "start_ms": 6000,
+      "end_ms": 6358
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hatsuyuki this year came in November, much earlier than the usual yosou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7574,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1442,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "初雪",
+          "start_sample": 1442,
+          "end_sample": 29495,
+          "start_ms": 90,
+          "end_ms": 1843
+        },
+        {
+          "lang": "en",
+          "text": "this year came in November, much earlier than the usual",
+          "start_sample": 29495,
+          "end_sample": 112533,
+          "start_ms": 1843,
+          "end_ms": 7033
+        },
+        {
+          "lang": "ja",
+          "text": "予想.",
+          "start_sample": 112533,
+          "end_sample": 121187,
+          "start_ms": 7033,
+          "end_ms": 7574
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 初雪 this year came in November, much earlier than the usual 予想.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6557,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4170,
+          "start_ms": 0,
+          "end_ms": 261
+        },
+        {
+          "lang": "ja",
+          "text": "初雪",
+          "start_sample": 4170,
+          "end_sample": 16682,
+          "start_ms": 261,
+          "end_ms": 1043
+        },
+        {
+          "lang": "en",
+          "text": "this year came in November, much earlier than the usual",
+          "start_sample": 16682,
+          "end_sample": 98976,
+          "start_ms": 1043,
+          "end_ms": 6186
+        },
+        {
+          "lang": "ja",
+          "text": "予想.",
+          "start_sample": 98976,
+          "end_sample": 104909,
+          "start_ms": 6186,
+          "end_ms": 6557
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 318,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs711.flac",
+  "sentence": "Walking through the 薄暮 of a midsummer evening, I noticed how 幻想的 the fireflies looked over the rice fields.",
+  "sample_rate": 16000,
+  "duration_ms": 7830,
+  "reference_speaker": "en/speaker_052_622e6181fea2.mp3",
+  "seed": 17566,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Walking through the",
+      "start_sample": 0,
+      "end_sample": 12633,
+      "start_ms": 0,
+      "end_ms": 790
+    },
+    {
+      "lang": "ja",
+      "text": "薄暮",
+      "start_sample": 12633,
+      "end_sample": 18806,
+      "start_ms": 790,
+      "end_ms": 1175
+    },
+    {
+      "lang": "en",
+      "text": "of a midsummer evening, I noticed how",
+      "start_sample": 18806,
+      "end_sample": 61559,
+      "start_ms": 1175,
+      "end_ms": 3847
+    },
+    {
+      "lang": "ja",
+      "text": "幻想的",
+      "start_sample": 61559,
+      "end_sample": 75587,
+      "start_ms": 3847,
+      "end_ms": 4724
+    },
+    {
+      "lang": "en",
+      "text": "the fireflies looked over the rice fields.",
+      "start_sample": 75587,
+      "end_sample": 125276,
+      "start_ms": 4724,
+      "end_ms": 7830
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Walking through the hakubo of a midsummer evening, I noticed how gensou teki the fireflies looked over the rice fields.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8482,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Walking through the",
+          "start_sample": 0,
+          "end_sample": 12833,
+          "start_ms": 0,
+          "end_ms": 802
+        },
+        {
+          "lang": "ja",
+          "text": "薄暮",
+          "start_sample": 12833,
+          "end_sample": 24704,
+          "start_ms": 802,
+          "end_ms": 1544
+        },
+        {
+          "lang": "en",
+          "text": "of a midsummer evening, I noticed how",
+          "start_sample": 24704,
+          "end_sample": 67857,
+          "start_ms": 1544,
+          "end_ms": 4241
+        },
+        {
+          "lang": "ja",
+          "text": "幻想的",
+          "start_sample": 67857,
+          "end_sample": 85823,
+          "start_ms": 4241,
+          "end_ms": 5364
+        },
+        {
+          "lang": "en",
+          "text": "the fireflies looked over the rice fields.",
+          "start_sample": 85823,
+          "end_sample": 135712,
+          "start_ms": 5364,
+          "end_ms": 8482
+        }
+      ]
+    },
+    "ja": {
+      "text": "Walking through the 薄暮 of a midsummer evening, I noticed how 幻想的 the fireflies looked over the rice fields.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8697,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Walking through the",
+          "start_sample": 0,
+          "end_sample": 15390,
+          "start_ms": 0,
+          "end_ms": 962
+        },
+        {
+          "lang": "ja",
+          "text": "薄暮",
+          "start_sample": 15390,
+          "end_sample": 21963,
+          "start_ms": 962,
+          "end_ms": 1373
+        },
+        {
+          "lang": "en",
+          "text": "of a midsummer evening, I noticed how",
+          "start_sample": 21963,
+          "end_sample": 81281,
+          "start_ms": 1373,
+          "end_ms": 5080
+        },
+        {
+          "lang": "ja",
+          "text": "幻想的",
+          "start_sample": 81281,
+          "end_sample": 95709,
+          "start_ms": 5080,
+          "end_ms": 5982
+        },
+        {
+          "lang": "en",
+          "text": "the fireflies looked over the rice fields.",
+          "start_sample": 95709,
+          "end_sample": 139154,
+          "start_ms": 5982,
+          "end_ms": 8697
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 392,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2113.flac",
+  "sentence": "The job listing was 曖昧 about whether remote work was actually allowed.",
+  "sample_rate": 16000,
+  "duration_ms": 4626,
+  "reference_speaker": "en/speaker_007_70c21ca1cc3d.mp3",
+  "seed": 2155,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The job listing was",
+      "start_sample": 0,
+      "end_sample": 19504,
+      "start_ms": 0,
+      "end_ms": 1219
+    },
+    {
+      "lang": "ja",
+      "text": "曖昧",
+      "start_sample": 19504,
+      "end_sample": 25362,
+      "start_ms": 1219,
+      "end_ms": 1585
+    },
+    {
+      "lang": "en",
+      "text": "about whether remote work was actually allowed.",
+      "start_sample": 25362,
+      "end_sample": 74022,
+      "start_ms": 1585,
+      "end_ms": 4626
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The job listing was aimai about whether remote work was actually allowed.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5306,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The job listing was",
+          "start_sample": 0,
+          "end_sample": 19704,
+          "start_ms": 0,
+          "end_ms": 1232
+        },
+        {
+          "lang": "ja",
+          "text": "曖昧",
+          "start_sample": 19704,
+          "end_sample": 36044,
+          "start_ms": 1232,
+          "end_ms": 2253
+        },
+        {
+          "lang": "en",
+          "text": "about whether remote work was actually allowed.",
+          "start_sample": 36044,
+          "end_sample": 84904,
+          "start_ms": 2253,
+          "end_ms": 5306
+        }
+      ]
+    },
+    "ja": {
+      "text": "The job listing was 曖昧 about whether remote work was actually allowed.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3851,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The job listing was",
+          "start_sample": 0,
+          "end_sample": 16047,
+          "start_ms": 0,
+          "end_ms": 1003
+        },
+        {
+          "lang": "ja",
+          "text": "曖昧",
+          "start_sample": 16047,
+          "end_sample": 22305,
+          "start_ms": 1003,
+          "end_ms": 1394
+        },
+        {
+          "lang": "en",
+          "text": "about whether remote work was actually allowed.",
+          "start_sample": 22305,
+          "end_sample": 61620,
+          "start_ms": 1394,
+          "end_ms": 3851
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 232,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

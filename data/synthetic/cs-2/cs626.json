@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs626.flac",
+  "sentence": "The call dropped right at the most 大事 part of the conversation, which was a real 残念.",
+  "sample_rate": 16000,
+  "duration_ms": 5934,
+  "reference_speaker": "jp/speaker_060_dda9a032fd63.mp3",
+  "seed": 17481,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The call dropped right at the most",
+      "start_sample": 0,
+      "end_sample": 38009,
+      "start_ms": 0,
+      "end_ms": 2376
+    },
+    {
+      "lang": "ja",
+      "text": "大事",
+      "start_sample": 38009,
+      "end_sample": 44019,
+      "start_ms": 2376,
+      "end_ms": 2751
+    },
+    {
+      "lang": "en",
+      "text": "part of the conversation, which was a real",
+      "start_sample": 44019,
+      "end_sample": 87287,
+      "start_ms": 2751,
+      "end_ms": 5455
+    },
+    {
+      "lang": "ja",
+      "text": "残念.",
+      "start_sample": 87287,
+      "end_sample": 94939,
+      "start_ms": 5455,
+      "end_ms": 5934
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The call dropped right at the most daiji part of the conversation, which was a real zannen",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6040,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The call dropped right at the most",
+          "start_sample": 0,
+          "end_sample": 38209,
+          "start_ms": 0,
+          "end_ms": 2388
+        },
+        {
+          "lang": "ja",
+          "text": "大事",
+          "start_sample": 38209,
+          "end_sample": 45113,
+          "start_ms": 2388,
+          "end_ms": 2820
+        },
+        {
+          "lang": "en",
+          "text": "part of the conversation, which was a real",
+          "start_sample": 45113,
+          "end_sample": 88781,
+          "start_ms": 2820,
+          "end_ms": 5549
+        },
+        {
+          "lang": "ja",
+          "text": "残念.",
+          "start_sample": 88781,
+          "end_sample": 96645,
+          "start_ms": 5549,
+          "end_ms": 6040
+        }
+      ]
+    },
+    "ja": {
+      "text": "The call dropped right at the most 大事 part of the conversation, which was a real 残念.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5629,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The call dropped right at the most",
+          "start_sample": 0,
+          "end_sample": 32531,
+          "start_ms": 0,
+          "end_ms": 2033
+        },
+        {
+          "lang": "ja",
+          "text": "大事",
+          "start_sample": 32531,
+          "end_sample": 38941,
+          "start_ms": 2033,
+          "end_ms": 2434
+        },
+        {
+          "lang": "en",
+          "text": "part of the conversation, which was a real",
+          "start_sample": 38941,
+          "end_sample": 82211,
+          "start_ms": 2434,
+          "end_ms": 5138
+        },
+        {
+          "lang": "ja",
+          "text": "残念.",
+          "start_sample": 82211,
+          "end_sample": 90063,
+          "start_ms": 5138,
+          "end_ms": 5629
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 297,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjj"
+}

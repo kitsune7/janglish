@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1582.flac",
+  "sentence": "テラスでherb gardenの世話をするのが毎日の習慣だ。",
+  "sample_rate": 16000,
+  "duration_ms": 4106,
+  "reference_speaker": "en/speaker_085_1a04e2db0811.mp3",
+  "seed": 1624,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "テラスで",
+      "start_sample": 0,
+      "end_sample": 9094,
+      "start_ms": 0,
+      "end_ms": 568
+    },
+    {
+      "lang": "en",
+      "text": "herb garden",
+      "start_sample": 9094,
+      "end_sample": 23427,
+      "start_ms": 568,
+      "end_ms": 1464
+    },
+    {
+      "lang": "ja",
+      "text": "の世話をするのが毎日の習慣だ。",
+      "start_sample": 23427,
+      "end_sample": 65692,
+      "start_ms": 1464,
+      "end_ms": 4106
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "terasu de herb garden no sewa wo suru no ga mainichi no shuukan da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5665,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "テラスで",
+          "start_sample": 0,
+          "end_sample": 15053,
+          "start_ms": 0,
+          "end_ms": 941
+        },
+        {
+          "lang": "en",
+          "text": "herb garden",
+          "start_sample": 15053,
+          "end_sample": 29786,
+          "start_ms": 941,
+          "end_ms": 1862
+        },
+        {
+          "lang": "ja",
+          "text": "の世話をするのが毎日の習慣だ。",
+          "start_sample": 29786,
+          "end_sample": 90641,
+          "start_ms": 1862,
+          "end_ms": 5665
+        }
+      ]
+    },
+    "ja": {
+      "text": "テラスでherb gardenの世話をするのが毎日の習慣だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4106,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "テラスで",
+          "start_sample": 0,
+          "end_sample": 9294,
+          "start_ms": 0,
+          "end_ms": 581
+        },
+        {
+          "lang": "en",
+          "text": "herb garden",
+          "start_sample": 9294,
+          "end_sample": 23236,
+          "start_ms": 581,
+          "end_ms": 1452
+        },
+        {
+          "lang": "ja",
+          "text": "の世話をするのが毎日の習慣だ。",
+          "start_sample": 23236,
+          "end_sample": 65701,
+          "start_ms": 1452,
+          "end_ms": 4106
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 206,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

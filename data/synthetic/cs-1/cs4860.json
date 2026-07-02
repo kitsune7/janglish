@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4860.flac",
+  "sentence": "We had a 最高 time at the open-air concert in the plaza.",
+  "sample_rate": 16000,
+  "duration_ms": 2690,
+  "reference_speaker": "en/speaker_022_008f1e5e50d2.mp3",
+  "seed": 4902,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We had a",
+      "start_sample": 0,
+      "end_sample": 5125,
+      "start_ms": 0,
+      "end_ms": 320
+    },
+    {
+      "lang": "ja",
+      "text": "最高",
+      "start_sample": 5125,
+      "end_sample": 12747,
+      "start_ms": 320,
+      "end_ms": 797
+    },
+    {
+      "lang": "en",
+      "text": "time at the open-air concert in the plaza.",
+      "start_sample": 12747,
+      "end_sample": 43042,
+      "start_ms": 797,
+      "end_ms": 2690
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We had a saikou time at the open-air concert in the plaza.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2602,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We had a",
+          "start_sample": 0,
+          "end_sample": 5325,
+          "start_ms": 0,
+          "end_ms": 333
+        },
+        {
+          "lang": "ja",
+          "text": "最高",
+          "start_sample": 5325,
+          "end_sample": 11135,
+          "start_ms": 333,
+          "end_ms": 696
+        },
+        {
+          "lang": "en",
+          "text": "time at the open-air concert in the plaza.",
+          "start_sample": 11135,
+          "end_sample": 41630,
+          "start_ms": 696,
+          "end_ms": 2602
+        }
+      ]
+    },
+    "ja": {
+      "text": "We had a 最高 time at the open-air concert in the plaza.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5094,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We had a",
+          "start_sample": 0,
+          "end_sample": 8985,
+          "start_ms": 0,
+          "end_ms": 562
+        },
+        {
+          "lang": "ja",
+          "text": "最高",
+          "start_sample": 8985,
+          "end_sample": 17007,
+          "start_ms": 562,
+          "end_ms": 1063
+        },
+        {
+          "lang": "en",
+          "text": "time at the open-air concert in the plaza.",
+          "start_sample": 17007,
+          "end_sample": 81507,
+          "start_ms": 1063,
+          "end_ms": 5094
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 135,
+  "frame_labels": "eeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

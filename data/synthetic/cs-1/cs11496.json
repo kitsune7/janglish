@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11496.flac",
+  "sentence": "I always do my 洗顔 first thing, even before I make coffee.",
+  "sample_rate": 16000,
+  "duration_ms": 4810,
+  "reference_speaker": "jp/speaker_033_59cc0d3a6bc8.mp3",
+  "seed": 11538,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always do my",
+      "start_sample": 0,
+      "end_sample": 14909,
+      "start_ms": 0,
+      "end_ms": 932
+    },
+    {
+      "lang": "ja",
+      "text": "洗顔",
+      "start_sample": 14909,
+      "end_sample": 27807,
+      "start_ms": 932,
+      "end_ms": 1738
+    },
+    {
+      "lang": "en",
+      "text": "first thing, even before I make coffee.",
+      "start_sample": 27807,
+      "end_sample": 76962,
+      "start_ms": 1738,
+      "end_ms": 4810
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always do my sengan first thing, even before I make coffee.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4481,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always do my",
+          "start_sample": 0,
+          "end_sample": 15109,
+          "start_ms": 0,
+          "end_ms": 944
+        },
+        {
+          "lang": "ja",
+          "text": "洗顔",
+          "start_sample": 15109,
+          "end_sample": 22343,
+          "start_ms": 944,
+          "end_ms": 1396
+        },
+        {
+          "lang": "en",
+          "text": "first thing, even before I make coffee.",
+          "start_sample": 22343,
+          "end_sample": 71698,
+          "start_ms": 1396,
+          "end_ms": 4481
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always do my 洗顔 first thing, even before I make coffee.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5127,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always do my",
+          "start_sample": 0,
+          "end_sample": 30280,
+          "start_ms": 0,
+          "end_ms": 1892
+        },
+        {
+          "lang": "ja",
+          "text": "洗顔",
+          "start_sample": 30280,
+          "end_sample": 43578,
+          "start_ms": 1892,
+          "end_ms": 2724
+        },
+        {
+          "lang": "en",
+          "text": "first thing, even before I make coffee.",
+          "start_sample": 43578,
+          "end_sample": 82029,
+          "start_ms": 2724,
+          "end_ms": 5127
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 241,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

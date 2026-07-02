@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3132.flac",
+  "sentence": "He wore something 上品 but not overly formal, and it struck exactly the right tone.",
+  "sample_rate": 16000,
+  "duration_ms": 5209,
+  "reference_speaker": "en/speaker_017_11ec372417df.mp3",
+  "seed": 3174,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He wore something",
+      "start_sample": 0,
+      "end_sample": 11181,
+      "start_ms": 0,
+      "end_ms": 699
+    },
+    {
+      "lang": "ja",
+      "text": "上品",
+      "start_sample": 11181,
+      "end_sample": 17987,
+      "start_ms": 699,
+      "end_ms": 1124
+    },
+    {
+      "lang": "en",
+      "text": "but not overly formal, and it struck exactly the right tone.",
+      "start_sample": 17987,
+      "end_sample": 83351,
+      "start_ms": 1124,
+      "end_ms": 5209
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He wore something jouhin but not overly formal, and it struck exactly the right tone.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5510,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He wore something",
+          "start_sample": 0,
+          "end_sample": 11381,
+          "start_ms": 0,
+          "end_ms": 711
+        },
+        {
+          "lang": "ja",
+          "text": "上品",
+          "start_sample": 11381,
+          "end_sample": 22602,
+          "start_ms": 711,
+          "end_ms": 1413
+        },
+        {
+          "lang": "en",
+          "text": "but not overly formal, and it struck exactly the right tone.",
+          "start_sample": 22602,
+          "end_sample": 88166,
+          "start_ms": 1413,
+          "end_ms": 5510
+        }
+      ]
+    },
+    "ja": {
+      "text": "He wore something 上品 but not overly formal, and it struck exactly the right tone.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7306,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He wore something",
+          "start_sample": 0,
+          "end_sample": 15854,
+          "start_ms": 0,
+          "end_ms": 991
+        },
+        {
+          "lang": "ja",
+          "text": "上品",
+          "start_sample": 15854,
+          "end_sample": 23060,
+          "start_ms": 991,
+          "end_ms": 1441
+        },
+        {
+          "lang": "en",
+          "text": "but not overly formal, and it struck exactly the right tone.",
+          "start_sample": 23060,
+          "end_sample": 116903,
+          "start_ms": 1441,
+          "end_ms": 7306
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 261,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

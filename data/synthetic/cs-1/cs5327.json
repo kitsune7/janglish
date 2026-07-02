@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5327.flac",
+  "sentence": "The 朝食 buffet had so many options that I didn't know where to start.",
+  "sample_rate": 16000,
+  "duration_ms": 5255,
+  "reference_speaker": "jp/speaker_016_f3aac8b73f15.mp3",
+  "seed": 5369,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 3007,
+      "start_ms": 0,
+      "end_ms": 188
+    },
+    {
+      "lang": "ja",
+      "text": "朝食",
+      "start_sample": 3007,
+      "end_sample": 22338,
+      "start_ms": 188,
+      "end_ms": 1396
+    },
+    {
+      "lang": "en",
+      "text": "buffet had so many options that I didn't know where to start.",
+      "start_sample": 22338,
+      "end_sample": 84082,
+      "start_ms": 1396,
+      "end_ms": 5255
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The choushoku buffet had so many options that I didn't know where to start.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4754,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3207,
+          "start_ms": 0,
+          "end_ms": 200
+        },
+        {
+          "lang": "ja",
+          "text": "朝食",
+          "start_sample": 3207,
+          "end_sample": 14120,
+          "start_ms": 200,
+          "end_ms": 882
+        },
+        {
+          "lang": "en",
+          "text": "buffet had so many options that I didn't know where to start.",
+          "start_sample": 14120,
+          "end_sample": 76064,
+          "start_ms": 882,
+          "end_ms": 4754
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 朝食 buffet had so many options that I didn't know where to start.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6096,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 8501,
+          "start_ms": 0,
+          "end_ms": 531
+        },
+        {
+          "lang": "ja",
+          "text": "朝食",
+          "start_sample": 8501,
+          "end_sample": 28232,
+          "start_ms": 531,
+          "end_ms": 1764
+        },
+        {
+          "lang": "en",
+          "text": "buffet had so many options that I didn't know where to start.",
+          "start_sample": 28232,
+          "end_sample": 97530,
+          "start_ms": 1764,
+          "end_ms": 6096
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 263,
+  "frame_labels": "eeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6603.flac",
+  "sentence": "The 積雪 was deep enough that we had to dig the car out before dawn.",
+  "sample_rate": 16000,
+  "duration_ms": 5837,
+  "reference_speaker": "jp/speaker_098_e4abe7929ff4.mp3",
+  "seed": 6645,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1240,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "積雪",
+      "start_sample": 1240,
+      "end_sample": 17375,
+      "start_ms": 78,
+      "end_ms": 1086
+    },
+    {
+      "lang": "en",
+      "text": "was deep enough that we had to dig the car out before dawn.",
+      "start_sample": 17375,
+      "end_sample": 93394,
+      "start_ms": 1086,
+      "end_ms": 5837
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The sekisetsu was deep enough that we had to dig the car out before dawn.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5524,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1440,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "積雪",
+          "start_sample": 1440,
+          "end_sample": 12169,
+          "start_ms": 90,
+          "end_ms": 761
+        },
+        {
+          "lang": "en",
+          "text": "was deep enough that we had to dig the car out before dawn.",
+          "start_sample": 12169,
+          "end_sample": 88388,
+          "start_ms": 761,
+          "end_ms": 5524
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 積雪 was deep enough that we had to dig the car out before dawn.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5899,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 9146,
+          "start_ms": 0,
+          "end_ms": 572
+        },
+        {
+          "lang": "ja",
+          "text": "積雪",
+          "start_sample": 9146,
+          "end_sample": 25681,
+          "start_ms": 572,
+          "end_ms": 1605
+        },
+        {
+          "lang": "en",
+          "text": "was deep enough that we had to dig the car out before dawn.",
+          "start_sample": 25681,
+          "end_sample": 94384,
+          "start_ms": 1605,
+          "end_ms": 5899
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 292,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

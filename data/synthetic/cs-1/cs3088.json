@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3088.flac",
+  "sentence": "It can be 大変 to stay calm when the interviewer keeps interrupting you.",
+  "sample_rate": 16000,
+  "duration_ms": 4150,
+  "reference_speaker": "jp/speaker_034_3e5442a60675.mp3",
+  "seed": 3130,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "It can be",
+      "start_sample": 0,
+      "end_sample": 8806,
+      "start_ms": 0,
+      "end_ms": 550
+    },
+    {
+      "lang": "ja",
+      "text": "大変",
+      "start_sample": 8806,
+      "end_sample": 18031,
+      "start_ms": 550,
+      "end_ms": 1127
+    },
+    {
+      "lang": "en",
+      "text": "to stay calm when the interviewer keeps interrupting you.",
+      "start_sample": 18031,
+      "end_sample": 66399,
+      "start_ms": 1127,
+      "end_ms": 4150
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "It can be taihen to stay calm when the interviewer keeps interrupting you.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4202,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "It can be",
+          "start_sample": 0,
+          "end_sample": 9006,
+          "start_ms": 0,
+          "end_ms": 563
+        },
+        {
+          "lang": "ja",
+          "text": "大変",
+          "start_sample": 9006,
+          "end_sample": 18656,
+          "start_ms": 563,
+          "end_ms": 1166
+        },
+        {
+          "lang": "en",
+          "text": "to stay calm when the interviewer keeps interrupting you.",
+          "start_sample": 18656,
+          "end_sample": 67224,
+          "start_ms": 1166,
+          "end_ms": 4202
+        }
+      ]
+    },
+    "ja": {
+      "text": "It can be 大変 to stay calm when the interviewer keeps interrupting you.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6096,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "It can be",
+          "start_sample": 0,
+          "end_sample": 12349,
+          "start_ms": 0,
+          "end_ms": 772
+        },
+        {
+          "lang": "ja",
+          "text": "大変",
+          "start_sample": 12349,
+          "end_sample": 21974,
+          "start_ms": 772,
+          "end_ms": 1373
+        },
+        {
+          "lang": "en",
+          "text": "to stay calm when the interviewer keeps interrupting you.",
+          "start_sample": 21974,
+          "end_sample": 97528,
+          "start_ms": 1373,
+          "end_ms": 6096
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

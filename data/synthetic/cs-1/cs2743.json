@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2743.flac",
+  "sentence": "I love how she uses 絵文字 in her texts — it changes the whole tone.",
+  "sample_rate": 16000,
+  "duration_ms": 5229,
+  "reference_speaker": "jp/speaker_012_14fe5dfafe10.mp3",
+  "seed": 2785,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I love how she uses",
+      "start_sample": 0,
+      "end_sample": 22068,
+      "start_ms": 0,
+      "end_ms": 1379
+    },
+    {
+      "lang": "ja",
+      "text": "絵文字",
+      "start_sample": 22068,
+      "end_sample": 34193,
+      "start_ms": 1379,
+      "end_ms": 2137
+    },
+    {
+      "lang": "en",
+      "text": "in her texts — it changes the whole tone.",
+      "start_sample": 34193,
+      "end_sample": 83660,
+      "start_ms": 2137,
+      "end_ms": 5229
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I love how she uses e moji in her texts — it changes the whole tone.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5087,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I love how she uses",
+          "start_sample": 0,
+          "end_sample": 22268,
+          "start_ms": 0,
+          "end_ms": 1392
+        },
+        {
+          "lang": "ja",
+          "text": "絵文字",
+          "start_sample": 22268,
+          "end_sample": 31721,
+          "start_ms": 1392,
+          "end_ms": 1983
+        },
+        {
+          "lang": "en",
+          "text": "in her texts — it changes the whole tone.",
+          "start_sample": 31721,
+          "end_sample": 81388,
+          "start_ms": 1983,
+          "end_ms": 5087
+        }
+      ]
+    },
+    "ja": {
+      "text": "I love how she uses 絵文字 in her texts — it changes the whole tone.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4737,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I love how she uses",
+          "start_sample": 0,
+          "end_sample": 23440,
+          "start_ms": 0,
+          "end_ms": 1465
+        },
+        {
+          "lang": "ja",
+          "text": "絵文字",
+          "start_sample": 23440,
+          "end_sample": 35965,
+          "start_ms": 1465,
+          "end_ms": 2248
+        },
+        {
+          "lang": "en",
+          "text": "in her texts — it changes the whole tone.",
+          "start_sample": 35965,
+          "end_sample": 75785,
+          "start_ms": 2248,
+          "end_ms": 4737
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 262,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

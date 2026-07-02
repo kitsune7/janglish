@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8068.flac",
+  "sentence": "There's no shame in admitting you feel 弱気 sometimes.",
+  "sample_rate": 16000,
+  "duration_ms": 3280,
+  "reference_speaker": "en/speaker_035_aa6a3aa058c0.mp3",
+  "seed": 8110,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "There's no shame in admitting you feel",
+      "start_sample": 0,
+      "end_sample": 29909,
+      "start_ms": 0,
+      "end_ms": 1869
+    },
+    {
+      "lang": "ja",
+      "text": "弱気",
+      "start_sample": 29909,
+      "end_sample": 40130,
+      "start_ms": 1869,
+      "end_ms": 2508
+    },
+    {
+      "lang": "en",
+      "text": "sometimes.",
+      "start_sample": 40130,
+      "end_sample": 52483,
+      "start_ms": 2508,
+      "end_ms": 3280
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "There's no shame in admitting you feel yowaki sometimes.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3240,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "There's no shame in admitting you feel",
+          "start_sample": 0,
+          "end_sample": 30109,
+          "start_ms": 0,
+          "end_ms": 1882
+        },
+        {
+          "lang": "ja",
+          "text": "弱気",
+          "start_sample": 30109,
+          "end_sample": 39287,
+          "start_ms": 1882,
+          "end_ms": 2455
+        },
+        {
+          "lang": "en",
+          "text": "sometimes.",
+          "start_sample": 39287,
+          "end_sample": 51840,
+          "start_ms": 2455,
+          "end_ms": 3240
+        }
+      ]
+    },
+    "ja": {
+      "text": "There's no shame in admitting you feel 弱気 sometimes.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4083,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "There's no shame in admitting you feel",
+          "start_sample": 0,
+          "end_sample": 41676,
+          "start_ms": 0,
+          "end_ms": 2605
+        },
+        {
+          "lang": "ja",
+          "text": "弱気",
+          "start_sample": 41676,
+          "end_sample": 52297,
+          "start_ms": 2605,
+          "end_ms": 3269
+        },
+        {
+          "lang": "en",
+          "text": "sometimes.",
+          "start_sample": 52297,
+          "end_sample": 65325,
+          "start_ms": 3269,
+          "end_ms": 4083
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 165,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

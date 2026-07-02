@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1464.flac",
+  "sentence": "朝のpeak timeを外して出勤すると少し楽になる。",
+  "sample_rate": 16000,
+  "duration_ms": 4545,
+  "reference_speaker": "en/speaker_062_05f0c617d0bb.mp3",
+  "seed": 1506,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "朝の",
+      "start_sample": 0,
+      "end_sample": 5745,
+      "start_ms": 0,
+      "end_ms": 359
+    },
+    {
+      "lang": "en",
+      "text": "peak time",
+      "start_sample": 5745,
+      "end_sample": 28086,
+      "start_ms": 359,
+      "end_ms": 1755
+    },
+    {
+      "lang": "ja",
+      "text": "を外して出勤すると少し楽になる。",
+      "start_sample": 28086,
+      "end_sample": 72720,
+      "start_ms": 1755,
+      "end_ms": 4545
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "asa no peak time wo hazushi te shukkin suru to sukoshi raku ni naru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6906,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "朝の",
+          "start_sample": 0,
+          "end_sample": 9128,
+          "start_ms": 0,
+          "end_ms": 570
+        },
+        {
+          "lang": "en",
+          "text": "peak time",
+          "start_sample": 9128,
+          "end_sample": 31869,
+          "start_ms": 570,
+          "end_ms": 1992
+        },
+        {
+          "lang": "ja",
+          "text": "を外して出勤すると少し楽になる。",
+          "start_sample": 31869,
+          "end_sample": 110502,
+          "start_ms": 1992,
+          "end_ms": 6906
+        }
+      ]
+    },
+    "ja": {
+      "text": "朝のpeak timeを外して出勤すると少し楽になる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3897,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "朝の",
+          "start_sample": 0,
+          "end_sample": 5945,
+          "start_ms": 0,
+          "end_ms": 372
+        },
+        {
+          "lang": "en",
+          "text": "peak time",
+          "start_sample": 5945,
+          "end_sample": 17517,
+          "start_ms": 372,
+          "end_ms": 1095
+        },
+        {
+          "lang": "ja",
+          "text": "を外して出勤すると少し楽になる。",
+          "start_sample": 17517,
+          "end_sample": 62351,
+          "start_ms": 1095,
+          "end_ms": 3897
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 228,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

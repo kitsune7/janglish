@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9199.flac",
+  "sentence": "もうすぐお客さんが来るから、部屋をtidyにしなきゃ。",
+  "sample_rate": 16000,
+  "duration_ms": 4091,
+  "reference_speaker": "jp/speaker_021_dc81e43724ca.mp3",
+  "seed": 9241,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "もうすぐお客さんが来るから、部屋を",
+      "start_sample": 0,
+      "end_sample": 42647,
+      "start_ms": 0,
+      "end_ms": 2665
+    },
+    {
+      "lang": "en",
+      "text": "tidy",
+      "start_sample": 42647,
+      "end_sample": 54420,
+      "start_ms": 2665,
+      "end_ms": 3401
+    },
+    {
+      "lang": "ja",
+      "text": "にしなきゃ。",
+      "start_sample": 54420,
+      "end_sample": 65451,
+      "start_ms": 3401,
+      "end_ms": 4091
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mou sugu o kyaku san ga kuru kara heya wo tidy ni shi nakya",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7148,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "もうすぐお客さんが来るから、部屋を",
+          "start_sample": 0,
+          "end_sample": 75761,
+          "start_ms": 0,
+          "end_ms": 4735
+        },
+        {
+          "lang": "en",
+          "text": "tidy",
+          "start_sample": 75761,
+          "end_sample": 87934,
+          "start_ms": 4735,
+          "end_ms": 5496
+        },
+        {
+          "lang": "ja",
+          "text": "にしなきゃ。",
+          "start_sample": 87934,
+          "end_sample": 114362,
+          "start_ms": 5496,
+          "end_ms": 7148
+        }
+      ]
+    },
+    "ja": {
+      "text": "もうすぐお客さんが来るから、部屋をtidyにしなきゃ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3811,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "もうすぐお客さんが来るから、部屋を",
+          "start_sample": 0,
+          "end_sample": 42847,
+          "start_ms": 0,
+          "end_ms": 2678
+        },
+        {
+          "lang": "en",
+          "text": "tidy",
+          "start_sample": 42847,
+          "end_sample": 49747,
+          "start_ms": 2678,
+          "end_ms": 3109
+        },
+        {
+          "lang": "ja",
+          "text": "にしなきゃ。",
+          "start_sample": 49747,
+          "end_sample": 60978,
+          "start_ms": 3109,
+          "end_ms": 3811
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 205,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9795.flac",
+  "sentence": "彼のmonitorは二枚あって、作業効率がとても高いそうです。",
+  "sample_rate": 16000,
+  "duration_ms": 5079,
+  "reference_speaker": "en/speaker_027_12abacd76d5f.mp3",
+  "seed": 9837,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼の",
+      "start_sample": 0,
+      "end_sample": 5584,
+      "start_ms": 0,
+      "end_ms": 349
+    },
+    {
+      "lang": "en",
+      "text": "monitor",
+      "start_sample": 5584,
+      "end_sample": 17350,
+      "start_ms": 349,
+      "end_ms": 1084
+    },
+    {
+      "lang": "ja",
+      "text": "は二枚あって、作業効率がとても高いそうです。",
+      "start_sample": 17350,
+      "end_sample": 81258,
+      "start_ms": 1084,
+      "end_ms": 5079
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare no monitor ha ni mai atsu te sagyou kouritsu ga totemo takai sou desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 13145,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼の",
+          "start_sample": 0,
+          "end_sample": 11043,
+          "start_ms": 0,
+          "end_ms": 690
+        },
+        {
+          "lang": "en",
+          "text": "monitor",
+          "start_sample": 11043,
+          "end_sample": 23209,
+          "start_ms": 690,
+          "end_ms": 1451
+        },
+        {
+          "lang": "ja",
+          "text": "は二枚あって、作業効率がとても高いそうです。",
+          "start_sample": 23209,
+          "end_sample": 210323,
+          "start_ms": 1451,
+          "end_ms": 13145
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼のmonitorは二枚あって、作業効率がとても高いそうです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4900,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼の",
+          "start_sample": 0,
+          "end_sample": 5784,
+          "start_ms": 0,
+          "end_ms": 362
+        },
+        {
+          "lang": "en",
+          "text": "monitor",
+          "start_sample": 5784,
+          "end_sample": 14300,
+          "start_ms": 362,
+          "end_ms": 894
+        },
+        {
+          "lang": "ja",
+          "text": "は二枚あって、作業効率がとても高いそうです。",
+          "start_sample": 14300,
+          "end_sample": 78408,
+          "start_ms": 894,
+          "end_ms": 4900
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 254,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

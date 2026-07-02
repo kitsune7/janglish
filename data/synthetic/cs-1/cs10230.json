@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10230.flac",
+  "sentence": "I'm always 慌て when I realize I left the lights on after parking.",
+  "sample_rate": 16000,
+  "duration_ms": 3563,
+  "reference_speaker": "jp/speaker_041_36b0f2924199.mp3",
+  "seed": 10272,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I'm always",
+      "start_sample": 0,
+      "end_sample": 7665,
+      "start_ms": 0,
+      "end_ms": 479
+    },
+    {
+      "lang": "ja",
+      "text": "慌て",
+      "start_sample": 7665,
+      "end_sample": 13850,
+      "start_ms": 479,
+      "end_ms": 866
+    },
+    {
+      "lang": "en",
+      "text": "when I realize I left the lights on after parking.",
+      "start_sample": 13850,
+      "end_sample": 57005,
+      "start_ms": 866,
+      "end_ms": 3563
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I'm always awate when I realize I left the lights on after parking.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3633,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I'm always",
+          "start_sample": 0,
+          "end_sample": 7865,
+          "start_ms": 0,
+          "end_ms": 492
+        },
+        {
+          "lang": "ja",
+          "text": "慌て",
+          "start_sample": 7865,
+          "end_sample": 14771,
+          "start_ms": 492,
+          "end_ms": 923
+        },
+        {
+          "lang": "en",
+          "text": "when I realize I left the lights on after parking.",
+          "start_sample": 14771,
+          "end_sample": 58126,
+          "start_ms": 923,
+          "end_ms": 3633
+        }
+      ]
+    },
+    "ja": {
+      "text": "I'm always 慌て when I realize I left the lights on after parking.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4396,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I'm always",
+          "start_sample": 0,
+          "end_sample": 12523,
+          "start_ms": 0,
+          "end_ms": 783
+        },
+        {
+          "lang": "ja",
+          "text": "慌て",
+          "start_sample": 12523,
+          "end_sample": 19108,
+          "start_ms": 783,
+          "end_ms": 1194
+        },
+        {
+          "lang": "en",
+          "text": "when I realize I left the lights on after parking.",
+          "start_sample": 19108,
+          "end_sample": 70337,
+          "start_ms": 1194,
+          "end_ms": 4396
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 179,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3038.flac",
+  "sentence": "The credit union offers much lower 金利 than commercial banks.",
+  "sample_rate": 16000,
+  "duration_ms": 3440,
+  "reference_speaker": "jp/speaker_056_e4a42336440b.mp3",
+  "seed": 3080,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The credit union offers much lower",
+      "start_sample": 0,
+      "end_sample": 28039,
+      "start_ms": 0,
+      "end_ms": 1752
+    },
+    {
+      "lang": "ja",
+      "text": "金利",
+      "start_sample": 28039,
+      "end_sample": 35024,
+      "start_ms": 1752,
+      "end_ms": 2189
+    },
+    {
+      "lang": "en",
+      "text": "than commercial banks.",
+      "start_sample": 35024,
+      "end_sample": 55039,
+      "start_ms": 2189,
+      "end_ms": 3440
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The credit union offers much lower kinri than commercial banks.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3430,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The credit union offers much lower",
+          "start_sample": 0,
+          "end_sample": 28239,
+          "start_ms": 0,
+          "end_ms": 1765
+        },
+        {
+          "lang": "ja",
+          "text": "金利",
+          "start_sample": 28239,
+          "end_sample": 34657,
+          "start_ms": 1765,
+          "end_ms": 2166
+        },
+        {
+          "lang": "en",
+          "text": "than commercial banks.",
+          "start_sample": 34657,
+          "end_sample": 54872,
+          "start_ms": 2166,
+          "end_ms": 3430
+        }
+      ]
+    },
+    "ja": {
+      "text": "The credit union offers much lower 金利 than commercial banks.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5197,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The credit union offers much lower",
+          "start_sample": 0,
+          "end_sample": 52494,
+          "start_ms": 0,
+          "end_ms": 3281
+        },
+        {
+          "lang": "ja",
+          "text": "金利",
+          "start_sample": 52494,
+          "end_sample": 59879,
+          "start_ms": 3281,
+          "end_ms": 3742
+        },
+        {
+          "lang": "en",
+          "text": "than commercial banks.",
+          "start_sample": 59879,
+          "end_sample": 83155,
+          "start_ms": 3742,
+          "end_ms": 5197
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 172,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

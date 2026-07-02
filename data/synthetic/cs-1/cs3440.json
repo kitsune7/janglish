@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3440.flac",
+  "sentence": "She spent the whole afternoon looking for 丁度いい trousers that weren't too long.",
+  "sample_rate": 16000,
+  "duration_ms": 3911,
+  "reference_speaker": "jp/speaker_007_69caf5c5275d.mp3",
+  "seed": 3482,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She spent the whole afternoon looking for",
+      "start_sample": 0,
+      "end_sample": 26756,
+      "start_ms": 0,
+      "end_ms": 1672
+    },
+    {
+      "lang": "ja",
+      "text": "丁度いい",
+      "start_sample": 26756,
+      "end_sample": 37594,
+      "start_ms": 1672,
+      "end_ms": 2350
+    },
+    {
+      "lang": "en",
+      "text": "trousers that weren't too long.",
+      "start_sample": 37594,
+      "end_sample": 62583,
+      "start_ms": 2350,
+      "end_ms": 3911
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She spent the whole afternoon looking for choudo ii trousers that weren't too long.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3911,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She spent the whole afternoon looking for",
+          "start_sample": 0,
+          "end_sample": 26956,
+          "start_ms": 0,
+          "end_ms": 1685
+        },
+        {
+          "lang": "ja",
+          "text": "丁度いい",
+          "start_sample": 26956,
+          "end_sample": 37385,
+          "start_ms": 1685,
+          "end_ms": 2337
+        },
+        {
+          "lang": "en",
+          "text": "trousers that weren't too long.",
+          "start_sample": 37385,
+          "end_sample": 62574,
+          "start_ms": 2337,
+          "end_ms": 3911
+        }
+      ]
+    },
+    "ja": {
+      "text": "She spent the whole afternoon looking for 丁度いい trousers that weren't too long.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5498,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She spent the whole afternoon looking for",
+          "start_sample": 0,
+          "end_sample": 45434,
+          "start_ms": 0,
+          "end_ms": 2840
+        },
+        {
+          "lang": "ja",
+          "text": "丁度いい",
+          "start_sample": 45434,
+          "end_sample": 56672,
+          "start_ms": 2840,
+          "end_ms": 3542
+        },
+        {
+          "lang": "en",
+          "text": "trousers that weren't too long.",
+          "start_sample": 56672,
+          "end_sample": 87976,
+          "start_ms": 3542,
+          "end_ms": 5498
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6177.flac",
+  "sentence": "She has this 不思議 habit of talking to her stuffed animals like they're coworkers.",
+  "sample_rate": 16000,
+  "duration_ms": 5550,
+  "reference_speaker": "en/speaker_096_4389a887e640.mp3",
+  "seed": 6219,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She has this",
+      "start_sample": 0,
+      "end_sample": 10376,
+      "start_ms": 0,
+      "end_ms": 648
+    },
+    {
+      "lang": "ja",
+      "text": "不思議",
+      "start_sample": 10376,
+      "end_sample": 20726,
+      "start_ms": 648,
+      "end_ms": 1295
+    },
+    {
+      "lang": "en",
+      "text": "habit of talking to her stuffed animals like they're coworkers.",
+      "start_sample": 20726,
+      "end_sample": 88795,
+      "start_ms": 1295,
+      "end_ms": 5550
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She has this fushigi habit of talking to her stuffed animals like they're coworkers.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5589,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She has this",
+          "start_sample": 0,
+          "end_sample": 10576,
+          "start_ms": 0,
+          "end_ms": 661
+        },
+        {
+          "lang": "ja",
+          "text": "不思議",
+          "start_sample": 10576,
+          "end_sample": 21154,
+          "start_ms": 661,
+          "end_ms": 1322
+        },
+        {
+          "lang": "en",
+          "text": "habit of talking to her stuffed animals like they're coworkers.",
+          "start_sample": 21154,
+          "end_sample": 89423,
+          "start_ms": 1322,
+          "end_ms": 5589
+        }
+      ]
+    },
+    "ja": {
+      "text": "She has this 不思議 habit of talking to her stuffed animals like they're coworkers.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8082,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She has this",
+          "start_sample": 0,
+          "end_sample": 20695,
+          "start_ms": 0,
+          "end_ms": 1293
+        },
+        {
+          "lang": "ja",
+          "text": "不思議",
+          "start_sample": 20695,
+          "end_sample": 31445,
+          "start_ms": 1293,
+          "end_ms": 1965
+        },
+        {
+          "lang": "en",
+          "text": "habit of talking to her stuffed animals like they're coworkers.",
+          "start_sample": 31445,
+          "end_sample": 129307,
+          "start_ms": 1965,
+          "end_ms": 8082
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 278,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

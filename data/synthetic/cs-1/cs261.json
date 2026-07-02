@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs261.flac",
+  "sentence": "ペットのgerbilは夜行性なので、昼間はほとんど眠っています。",
+  "sample_rate": 16000,
+  "duration_ms": 4276,
+  "reference_speaker": "en/speaker_012_29b1e5a58d16.mp3",
+  "seed": 303,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "ペットの",
+      "start_sample": 0,
+      "end_sample": 6367,
+      "start_ms": 0,
+      "end_ms": 398
+    },
+    {
+      "lang": "en",
+      "text": "gerbil",
+      "start_sample": 6367,
+      "end_sample": 14624,
+      "start_ms": 398,
+      "end_ms": 914
+    },
+    {
+      "lang": "ja",
+      "text": "は夜行性なので、昼間はほとんど眠っています。",
+      "start_sample": 14624,
+      "end_sample": 68408,
+      "start_ms": 914,
+      "end_ms": 4276
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "petto no gerbil ha yakou sei na no de hiruma ha hotondo nemutsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6553,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ペットの",
+          "start_sample": 0,
+          "end_sample": 17794,
+          "start_ms": 0,
+          "end_ms": 1112
+        },
+        {
+          "lang": "en",
+          "text": "gerbil",
+          "start_sample": 17794,
+          "end_sample": 26451,
+          "start_ms": 1112,
+          "end_ms": 1653
+        },
+        {
+          "lang": "ja",
+          "text": "は夜行性なので、昼間はほとんど眠っています。",
+          "start_sample": 26451,
+          "end_sample": 104844,
+          "start_ms": 1653,
+          "end_ms": 6553
+        }
+      ]
+    },
+    "ja": {
+      "text": "ペットのgerbilは夜行性なので、昼間はほとんど眠っています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4245,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ペットの",
+          "start_sample": 0,
+          "end_sample": 6567,
+          "start_ms": 0,
+          "end_ms": 410
+        },
+        {
+          "lang": "en",
+          "text": "gerbil",
+          "start_sample": 6567,
+          "end_sample": 13936,
+          "start_ms": 410,
+          "end_ms": 871
+        },
+        {
+          "lang": "ja",
+          "text": "は夜行性なので、昼間はほとんど眠っています。",
+          "start_sample": 13936,
+          "end_sample": 67920,
+          "start_ms": 871,
+          "end_ms": 4245
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 214,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

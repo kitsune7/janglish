@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs826.flac",
+  "sentence": "He found that resting the meat really improves the 柔らかさ.",
+  "sample_rate": 16000,
+  "duration_ms": 3811,
+  "reference_speaker": "jp/speaker_030_78b8d1b530d5.mp3",
+  "seed": 868,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He found that resting the meat really improves the",
+      "start_sample": 0,
+      "end_sample": 49317,
+      "start_ms": 0,
+      "end_ms": 3082
+    },
+    {
+      "lang": "ja",
+      "text": "柔らかさ.",
+      "start_sample": 49317,
+      "end_sample": 60974,
+      "start_ms": 3082,
+      "end_ms": 3811
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He found that resting the meat really improves the yawaraka sa",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3986,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He found that resting the meat really improves the",
+          "start_sample": 0,
+          "end_sample": 49517,
+          "start_ms": 0,
+          "end_ms": 3095
+        },
+        {
+          "lang": "ja",
+          "text": "柔らかさ.",
+          "start_sample": 49517,
+          "end_sample": 63778,
+          "start_ms": 3095,
+          "end_ms": 3986
+        }
+      ]
+    },
+    "ja": {
+      "text": "He found that resting the meat really improves the 柔らかさ.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4126,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He found that resting the meat really improves the",
+          "start_sample": 0,
+          "end_sample": 54164,
+          "start_ms": 0,
+          "end_ms": 3385
+        },
+        {
+          "lang": "ja",
+          "text": "柔らかさ.",
+          "start_sample": 54164,
+          "end_sample": 66021,
+          "start_ms": 3385,
+          "end_ms": 4126
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 191,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

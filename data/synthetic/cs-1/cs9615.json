@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9615.flac",
+  "sentence": "バターがmeltedになってパンに染み込んでいます。",
+  "sample_rate": 16000,
+  "duration_ms": 3256,
+  "reference_speaker": "en/speaker_012_29b1e5a58d16.mp3",
+  "seed": 9657,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "バターが",
+      "start_sample": 0,
+      "end_sample": 6884,
+      "start_ms": 0,
+      "end_ms": 430
+    },
+    {
+      "lang": "en",
+      "text": "melted",
+      "start_sample": 6884,
+      "end_sample": 19462,
+      "start_ms": 430,
+      "end_ms": 1216
+    },
+    {
+      "lang": "ja",
+      "text": "になってパンに染み込んでいます。",
+      "start_sample": 19462,
+      "end_sample": 52101,
+      "start_ms": 1216,
+      "end_ms": 3256
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "bataa ga melted ni natsu te pan ni somikon de i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5288,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "バターが",
+          "start_sample": 0,
+          "end_sample": 19067,
+          "start_ms": 0,
+          "end_ms": 1192
+        },
+        {
+          "lang": "en",
+          "text": "melted",
+          "start_sample": 19067,
+          "end_sample": 32045,
+          "start_ms": 1192,
+          "end_ms": 2003
+        },
+        {
+          "lang": "ja",
+          "text": "になってパンに染み込んでいます。",
+          "start_sample": 32045,
+          "end_sample": 84600,
+          "start_ms": 2003,
+          "end_ms": 5288
+        }
+      ]
+    },
+    "ja": {
+      "text": "バターがmeltedになってパンに染み込んでいます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3018,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "バターが",
+          "start_sample": 0,
+          "end_sample": 7084,
+          "start_ms": 0,
+          "end_ms": 443
+        },
+        {
+          "lang": "en",
+          "text": "melted",
+          "start_sample": 7084,
+          "end_sample": 15456,
+          "start_ms": 443,
+          "end_ms": 966
+        },
+        {
+          "lang": "ja",
+          "text": "になってパンに染み込んでいます。",
+          "start_sample": 15456,
+          "end_sample": 48295,
+          "start_ms": 966,
+          "end_ms": 3018
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 163,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

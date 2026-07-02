@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs842.flac",
+  "sentence": "非常口の場所はcheck-inの時に必ず確認してください。",
+  "sample_rate": 16000,
+  "duration_ms": 3778,
+  "reference_speaker": "en/speaker_029_435fb74c25c3.mp3",
+  "seed": 884,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "非常口の場所は",
+      "start_sample": 0,
+      "end_sample": 16788,
+      "start_ms": 0,
+      "end_ms": 1049
+    },
+    {
+      "lang": "en",
+      "text": "check-in",
+      "start_sample": 16788,
+      "end_sample": 25863,
+      "start_ms": 1049,
+      "end_ms": 1616
+    },
+    {
+      "lang": "ja",
+      "text": "の時に必ず確認してください。",
+      "start_sample": 25863,
+      "end_sample": 60440,
+      "start_ms": 1616,
+      "end_ms": 3778
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "hijou kuchi no basho ha check-in no toki ni kanarazu kakunin shi te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5982,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "非常口の場所は",
+          "start_sample": 0,
+          "end_sample": 27943,
+          "start_ms": 0,
+          "end_ms": 1746
+        },
+        {
+          "lang": "en",
+          "text": "check-in",
+          "start_sample": 27943,
+          "end_sample": 37418,
+          "start_ms": 1746,
+          "end_ms": 2339
+        },
+        {
+          "lang": "ja",
+          "text": "の時に必ず確認してください。",
+          "start_sample": 37418,
+          "end_sample": 95711,
+          "start_ms": 2339,
+          "end_ms": 5982
+        }
+      ]
+    },
+    "ja": {
+      "text": "非常口の場所はcheck-inの時に必ず確認してください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3706,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "非常口の場所は",
+          "start_sample": 0,
+          "end_sample": 16988,
+          "start_ms": 0,
+          "end_ms": 1062
+        },
+        {
+          "lang": "en",
+          "text": "check-in",
+          "start_sample": 16988,
+          "end_sample": 24521,
+          "start_ms": 1062,
+          "end_ms": 1533
+        },
+        {
+          "lang": "ja",
+          "text": "の時に必ず確認してください。",
+          "start_sample": 24521,
+          "end_sample": 59298,
+          "start_ms": 1533,
+          "end_ms": 3706
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 189,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

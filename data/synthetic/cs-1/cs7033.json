@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7033.flac",
+  "sentence": "The crowd's 熱気 was already intense before the opening act had played a single note.",
+  "sample_rate": 16000,
+  "duration_ms": 4729,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 7075,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The crowd's",
+      "start_sample": 0,
+      "end_sample": 7831,
+      "start_ms": 0,
+      "end_ms": 489
+    },
+    {
+      "lang": "ja",
+      "text": "熱気",
+      "start_sample": 7831,
+      "end_sample": 12411,
+      "start_ms": 489,
+      "end_ms": 776
+    },
+    {
+      "lang": "en",
+      "text": "was already intense before the opening act had played a single note.",
+      "start_sample": 12411,
+      "end_sample": 75663,
+      "start_ms": 776,
+      "end_ms": 4729
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The crowd's nekki was already intense before the opening act had played a single note.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4859,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The crowd's",
+          "start_sample": 0,
+          "end_sample": 8031,
+          "start_ms": 0,
+          "end_ms": 502
+        },
+        {
+          "lang": "ja",
+          "text": "熱気",
+          "start_sample": 8031,
+          "end_sample": 14297,
+          "start_ms": 502,
+          "end_ms": 894
+        },
+        {
+          "lang": "en",
+          "text": "was already intense before the opening act had played a single note.",
+          "start_sample": 14297,
+          "end_sample": 77749,
+          "start_ms": 894,
+          "end_ms": 4859
+        }
+      ]
+    },
+    "ja": {
+      "text": "The crowd's 熱気 was already intense before the opening act had played a single note.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5021,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The crowd's",
+          "start_sample": 0,
+          "end_sample": 8515,
+          "start_ms": 0,
+          "end_ms": 532
+        },
+        {
+          "lang": "ja",
+          "text": "熱気",
+          "start_sample": 8515,
+          "end_sample": 13495,
+          "start_ms": 532,
+          "end_ms": 843
+        },
+        {
+          "lang": "en",
+          "text": "was already intense before the opening act had played a single note.",
+          "start_sample": 13495,
+          "end_sample": 80329,
+          "start_ms": 843,
+          "end_ms": 5021
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 237,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

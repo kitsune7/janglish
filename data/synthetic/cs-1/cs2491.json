@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2491.flac",
+  "sentence": "その知らせを聞いてshockedな顔をしてしまった。",
+  "sample_rate": 16000,
+  "duration_ms": 3199,
+  "reference_speaker": "en/speaker_020_5f047713c8bd.mp3",
+  "seed": 2533,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その知らせを聞いて",
+      "start_sample": 0,
+      "end_sample": 18577,
+      "start_ms": 0,
+      "end_ms": 1161
+    },
+    {
+      "lang": "en",
+      "text": "shocked",
+      "start_sample": 18577,
+      "end_sample": 30360,
+      "start_ms": 1161,
+      "end_ms": 1898
+    },
+    {
+      "lang": "ja",
+      "text": "な顔をしてしまった。",
+      "start_sample": 30360,
+      "end_sample": 51185,
+      "start_ms": 1898,
+      "end_ms": 3199
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono shirase wo kii te shocked na kao wo shi te shimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5370,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その知らせを聞いて",
+          "start_sample": 0,
+          "end_sample": 33343,
+          "start_ms": 0,
+          "end_ms": 2084
+        },
+        {
+          "lang": "en",
+          "text": "shocked",
+          "start_sample": 33343,
+          "end_sample": 45526,
+          "start_ms": 2084,
+          "end_ms": 2845
+        },
+        {
+          "lang": "ja",
+          "text": "な顔をしてしまった。",
+          "start_sample": 45526,
+          "end_sample": 85921,
+          "start_ms": 2845,
+          "end_ms": 5370
+        }
+      ]
+    },
+    "ja": {
+      "text": "その知らせを聞いてshockedな顔をしてしまった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3049,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その知らせを聞いて",
+          "start_sample": 0,
+          "end_sample": 18777,
+          "start_ms": 0,
+          "end_ms": 1174
+        },
+        {
+          "lang": "en",
+          "text": "shocked",
+          "start_sample": 18777,
+          "end_sample": 27766,
+          "start_ms": 1174,
+          "end_ms": 1735
+        },
+        {
+          "lang": "ja",
+          "text": "な顔をしてしまった。",
+          "start_sample": 27766,
+          "end_sample": 48791,
+          "start_ms": 1735,
+          "end_ms": 3049
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

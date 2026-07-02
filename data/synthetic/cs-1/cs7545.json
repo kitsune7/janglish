@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7545.flac",
+  "sentence": "荷物が無事に届いたのでreliefを感じました。",
+  "sample_rate": 16000,
+  "duration_ms": 3334,
+  "reference_speaker": "jp/speaker_033_59cc0d3a6bc8.mp3",
+  "seed": 7587,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "荷物が無事に届いたので",
+      "start_sample": 0,
+      "end_sample": 30673,
+      "start_ms": 0,
+      "end_ms": 1917
+    },
+    {
+      "lang": "en",
+      "text": "relief",
+      "start_sample": 30673,
+      "end_sample": 38919,
+      "start_ms": 1917,
+      "end_ms": 2432
+    },
+    {
+      "lang": "ja",
+      "text": "を感じました。",
+      "start_sample": 38919,
+      "end_sample": 53348,
+      "start_ms": 2432,
+      "end_ms": 3334
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "nimotsu ga buji ni todoi ta no de relief wo kanji mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7125,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "荷物が無事に届いたので",
+          "start_sample": 0,
+          "end_sample": 84061,
+          "start_ms": 0,
+          "end_ms": 5254
+        },
+        {
+          "lang": "en",
+          "text": "relief",
+          "start_sample": 84061,
+          "end_sample": 92707,
+          "start_ms": 5254,
+          "end_ms": 5794
+        },
+        {
+          "lang": "ja",
+          "text": "を感じました。",
+          "start_sample": 92707,
+          "end_sample": 114002,
+          "start_ms": 5794,
+          "end_ms": 7125
+        }
+      ]
+    },
+    "ja": {
+      "text": "荷物が無事に届いたのでreliefを感じました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3376,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "荷物が無事に届いたので",
+          "start_sample": 0,
+          "end_sample": 30873,
+          "start_ms": 0,
+          "end_ms": 1930
+        },
+        {
+          "lang": "en",
+          "text": "relief",
+          "start_sample": 30873,
+          "end_sample": 39395,
+          "start_ms": 1930,
+          "end_ms": 2462
+        },
+        {
+          "lang": "ja",
+          "text": "を感じました。",
+          "start_sample": 39395,
+          "end_sample": 54024,
+          "start_ms": 2462,
+          "end_ms": 3376
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 167,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

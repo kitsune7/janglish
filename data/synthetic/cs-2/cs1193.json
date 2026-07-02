@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs1193.flac",
+  "sentence": "The label on that box was 曖昧 in places, and the 番地 was almost impossible to read.",
+  "sample_rate": 16000,
+  "duration_ms": 7894,
+  "reference_speaker": "en/speaker_002_7eff9a54bdb0.mp3",
+  "seed": 18048,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The label on that box was",
+      "start_sample": 0,
+      "end_sample": 43073,
+      "start_ms": 0,
+      "end_ms": 2692
+    },
+    {
+      "lang": "ja",
+      "text": "曖昧",
+      "start_sample": 43073,
+      "end_sample": 53097,
+      "start_ms": 2692,
+      "end_ms": 3319
+    },
+    {
+      "lang": "en",
+      "text": "in places, and the",
+      "start_sample": 53097,
+      "end_sample": 86034,
+      "start_ms": 3319,
+      "end_ms": 5377
+    },
+    {
+      "lang": "ja",
+      "text": "番地",
+      "start_sample": 86034,
+      "end_sample": 92850,
+      "start_ms": 5377,
+      "end_ms": 5803
+    },
+    {
+      "lang": "en",
+      "text": "was almost impossible to read.",
+      "start_sample": 92850,
+      "end_sample": 126306,
+      "start_ms": 5803,
+      "end_ms": 7894
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The label on that box was aimai in places, and the banchi was almost impossible to read.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8094,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The label on that box was",
+          "start_sample": 0,
+          "end_sample": 43273,
+          "start_ms": 0,
+          "end_ms": 2705
+        },
+        {
+          "lang": "ja",
+          "text": "曖昧",
+          "start_sample": 43273,
+          "end_sample": 53210,
+          "start_ms": 2705,
+          "end_ms": 3326
+        },
+        {
+          "lang": "en",
+          "text": "in places, and the",
+          "start_sample": 53210,
+          "end_sample": 86547,
+          "start_ms": 3326,
+          "end_ms": 5409
+        },
+        {
+          "lang": "ja",
+          "text": "番地",
+          "start_sample": 86547,
+          "end_sample": 95843,
+          "start_ms": 5409,
+          "end_ms": 5990
+        },
+        {
+          "lang": "en",
+          "text": "was almost impossible to read.",
+          "start_sample": 95843,
+          "end_sample": 129499,
+          "start_ms": 5990,
+          "end_ms": 8094
+        }
+      ]
+    },
+    "ja": {
+      "text": "The label on that box was 曖昧 in places, and the 番地 was almost impossible to read.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9001,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The label on that box was",
+          "start_sample": 0,
+          "end_sample": 50997,
+          "start_ms": 0,
+          "end_ms": 3187
+        },
+        {
+          "lang": "ja",
+          "text": "曖昧",
+          "start_sample": 50997,
+          "end_sample": 61421,
+          "start_ms": 3187,
+          "end_ms": 3839
+        },
+        {
+          "lang": "en",
+          "text": "in places, and the",
+          "start_sample": 61421,
+          "end_sample": 97987,
+          "start_ms": 3839,
+          "end_ms": 6124
+        },
+        {
+          "lang": "ja",
+          "text": "番地",
+          "start_sample": 97987,
+          "end_sample": 105203,
+          "start_ms": 6124,
+          "end_ms": 6575
+        },
+        {
+          "lang": "en",
+          "text": "was almost impossible to read.",
+          "start_sample": 105203,
+          "end_sample": 144012,
+          "start_ms": 6575,
+          "end_ms": 9001
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 395,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

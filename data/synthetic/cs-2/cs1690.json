@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1690.flac",
+  "sentence": "Did you notice how 丁寧 that driver was, even in the middle of 混乱?",
+  "sample_rate": 16000,
+  "duration_ms": 3825,
+  "reference_speaker": "en/speaker_016_fcffb37fddea.mp3",
+  "seed": 18545,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Did you notice how",
+      "start_sample": 0,
+      "end_sample": 18239,
+      "start_ms": 0,
+      "end_ms": 1140
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧",
+      "start_sample": 18239,
+      "end_sample": 24425,
+      "start_ms": 1140,
+      "end_ms": 1527
+    },
+    {
+      "lang": "en",
+      "text": "that driver was, even in the middle of",
+      "start_sample": 24425,
+      "end_sample": 53048,
+      "start_ms": 1527,
+      "end_ms": 3316
+    },
+    {
+      "lang": "ja",
+      "text": "混乱?",
+      "start_sample": 53048,
+      "end_sample": 61198,
+      "start_ms": 3316,
+      "end_ms": 3825
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Did you notice how teinei that driver was, even in the middle of konran",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3908,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you notice how",
+          "start_sample": 0,
+          "end_sample": 18439,
+          "start_ms": 0,
+          "end_ms": 1152
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 18439,
+          "end_sample": 25334,
+          "start_ms": 1152,
+          "end_ms": 1583
+        },
+        {
+          "lang": "en",
+          "text": "that driver was, even in the middle of",
+          "start_sample": 25334,
+          "end_sample": 54357,
+          "start_ms": 1583,
+          "end_ms": 3397
+        },
+        {
+          "lang": "ja",
+          "text": "混乱?",
+          "start_sample": 54357,
+          "end_sample": 62533,
+          "start_ms": 3397,
+          "end_ms": 3908
+        }
+      ]
+    },
+    "ja": {
+      "text": "Did you notice how 丁寧 that driver was, even in the middle of 混乱?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4457,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you notice how",
+          "start_sample": 0,
+          "end_sample": 16541,
+          "start_ms": 0,
+          "end_ms": 1034
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 16541,
+          "end_sample": 23127,
+          "start_ms": 1034,
+          "end_ms": 1445
+        },
+        {
+          "lang": "en",
+          "text": "that driver was, even in the middle of",
+          "start_sample": 23127,
+          "end_sample": 62962,
+          "start_ms": 1445,
+          "end_ms": 3935
+        },
+        {
+          "lang": "ja",
+          "text": "混乱?",
+          "start_sample": 62962,
+          "end_sample": 71312,
+          "start_ms": 3935,
+          "end_ms": 4457
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

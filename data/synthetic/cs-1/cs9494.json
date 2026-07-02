@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9494.flac",
+  "sentence": "The new expense 規定 means we can no longer claim taxi fares without a receipt.",
+  "sample_rate": 16000,
+  "duration_ms": 6016,
+  "reference_speaker": "jp/speaker_058_a8a05baeecbd.mp3",
+  "seed": 9536,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The new expense",
+      "start_sample": 0,
+      "end_sample": 13892,
+      "start_ms": 0,
+      "end_ms": 868
+    },
+    {
+      "lang": "ja",
+      "text": "規定",
+      "start_sample": 13892,
+      "end_sample": 19584,
+      "start_ms": 868,
+      "end_ms": 1224
+    },
+    {
+      "lang": "en",
+      "text": "means we can no longer claim taxi fares without a receipt.",
+      "start_sample": 19584,
+      "end_sample": 96256,
+      "start_ms": 1224,
+      "end_ms": 6016
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The new expense kitei means we can no longer claim taxi fares without a receipt.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7087,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new expense",
+          "start_sample": 0,
+          "end_sample": 14092,
+          "start_ms": 0,
+          "end_ms": 881
+        },
+        {
+          "lang": "ja",
+          "text": "規定",
+          "start_sample": 14092,
+          "end_sample": 36513,
+          "start_ms": 881,
+          "end_ms": 2282
+        },
+        {
+          "lang": "en",
+          "text": "means we can no longer claim taxi fares without a receipt.",
+          "start_sample": 36513,
+          "end_sample": 113385,
+          "start_ms": 2282,
+          "end_ms": 7087
+        }
+      ]
+    },
+    "ja": {
+      "text": "The new expense 規定 means we can no longer claim taxi fares without a receipt.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9157,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new expense",
+          "start_sample": 0,
+          "end_sample": 23563,
+          "start_ms": 0,
+          "end_ms": 1473
+        },
+        {
+          "lang": "ja",
+          "text": "規定",
+          "start_sample": 23563,
+          "end_sample": 29655,
+          "start_ms": 1473,
+          "end_ms": 1853
+        },
+        {
+          "lang": "en",
+          "text": "means we can no longer claim taxi fares without a receipt.",
+          "start_sample": 29655,
+          "end_sample": 146515,
+          "start_ms": 1853,
+          "end_ms": 9157
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 301,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

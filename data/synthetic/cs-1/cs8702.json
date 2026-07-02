@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8702.flac",
+  "sentence": "The 火災 spread to three more apartments before it was contained.",
+  "sample_rate": 16000,
+  "duration_ms": 3646,
+  "reference_speaker": "en/speaker_020_5f047713c8bd.mp3",
+  "seed": 8744,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1085,
+      "start_ms": 0,
+      "end_ms": 68
+    },
+    {
+      "lang": "ja",
+      "text": "火災",
+      "start_sample": 1085,
+      "end_sample": 9848,
+      "start_ms": 68,
+      "end_ms": 616
+    },
+    {
+      "lang": "en",
+      "text": "spread to three more apartments before it was contained.",
+      "start_sample": 9848,
+      "end_sample": 58334,
+      "start_ms": 616,
+      "end_ms": 3646
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kasai spread to three more apartments before it was contained.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3836,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1285,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "火災",
+          "start_sample": 1285,
+          "end_sample": 12694,
+          "start_ms": 80,
+          "end_ms": 793
+        },
+        {
+          "lang": "en",
+          "text": "spread to three more apartments before it was contained.",
+          "start_sample": 12694,
+          "end_sample": 61380,
+          "start_ms": 793,
+          "end_ms": 3836
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 火災 spread to three more apartments before it was contained.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4440,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6426,
+          "start_ms": 0,
+          "end_ms": 402
+        },
+        {
+          "lang": "ja",
+          "text": "火災",
+          "start_sample": 6426,
+          "end_sample": 15589,
+          "start_ms": 402,
+          "end_ms": 974
+        },
+        {
+          "lang": "en",
+          "text": "spread to three more apartments before it was contained.",
+          "start_sample": 15589,
+          "end_sample": 71047,
+          "start_ms": 974,
+          "end_ms": 4440
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 183,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

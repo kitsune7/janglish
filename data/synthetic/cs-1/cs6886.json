@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6886.flac",
+  "sentence": "I think the shortcut goes 西 through the industrial area.",
+  "sample_rate": 16000,
+  "duration_ms": 4396,
+  "reference_speaker": "jp/speaker_092_08c69e35de07.mp3",
+  "seed": 6928,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I think the shortcut goes",
+      "start_sample": 0,
+      "end_sample": 34402,
+      "start_ms": 0,
+      "end_ms": 2150
+    },
+    {
+      "lang": "ja",
+      "text": "西",
+      "start_sample": 34402,
+      "end_sample": 41547,
+      "start_ms": 2150,
+      "end_ms": 2597
+    },
+    {
+      "lang": "en",
+      "text": "through the industrial area.",
+      "start_sample": 41547,
+      "end_sample": 70343,
+      "start_ms": 2597,
+      "end_ms": 4396
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I think the shortcut goes nishi through the industrial area.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4666,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I think the shortcut goes",
+          "start_sample": 0,
+          "end_sample": 34602,
+          "start_ms": 0,
+          "end_ms": 2163
+        },
+        {
+          "lang": "ja",
+          "text": "西",
+          "start_sample": 34602,
+          "end_sample": 45655,
+          "start_ms": 2163,
+          "end_ms": 2853
+        },
+        {
+          "lang": "en",
+          "text": "through the industrial area.",
+          "start_sample": 45655,
+          "end_sample": 74651,
+          "start_ms": 2853,
+          "end_ms": 4666
+        }
+      ]
+    },
+    "ja": {
+      "text": "I think the shortcut goes 西 through the industrial area.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4374,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I think the shortcut goes",
+          "start_sample": 0,
+          "end_sample": 30497,
+          "start_ms": 0,
+          "end_ms": 1906
+        },
+        {
+          "lang": "ja",
+          "text": "西",
+          "start_sample": 30497,
+          "end_sample": 38042,
+          "start_ms": 1906,
+          "end_ms": 2378
+        },
+        {
+          "lang": "en",
+          "text": "through the industrial area.",
+          "start_sample": 38042,
+          "end_sample": 69984,
+          "start_ms": 2378,
+          "end_ms": 4374
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 220,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

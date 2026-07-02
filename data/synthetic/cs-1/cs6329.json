@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6329.flac",
+  "sentence": "He bought a 小さい notebook and three pens before heading into the meeting.",
+  "sample_rate": 16000,
+  "duration_ms": 5820,
+  "reference_speaker": "jp/speaker_016_f3aac8b73f15.mp3",
+  "seed": 6371,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He bought a",
+      "start_sample": 0,
+      "end_sample": 7827,
+      "start_ms": 0,
+      "end_ms": 489
+    },
+    {
+      "lang": "ja",
+      "text": "小さい",
+      "start_sample": 7827,
+      "end_sample": 16261,
+      "start_ms": 489,
+      "end_ms": 1016
+    },
+    {
+      "lang": "en",
+      "text": "notebook and three pens before heading into the meeting.",
+      "start_sample": 16261,
+      "end_sample": 93120,
+      "start_ms": 1016,
+      "end_ms": 5820
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He bought a chiisai notebook and three pens before heading into the meeting.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6100,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He bought a",
+          "start_sample": 0,
+          "end_sample": 8027,
+          "start_ms": 0,
+          "end_ms": 502
+        },
+        {
+          "lang": "ja",
+          "text": "小さい",
+          "start_sample": 8027,
+          "end_sample": 20549,
+          "start_ms": 502,
+          "end_ms": 1284
+        },
+        {
+          "lang": "en",
+          "text": "notebook and three pens before heading into the meeting.",
+          "start_sample": 20549,
+          "end_sample": 97608,
+          "start_ms": 1284,
+          "end_ms": 6100
+        }
+      ]
+    },
+    "ja": {
+      "text": "He bought a 小さい notebook and three pens before heading into the meeting.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5019,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He bought a",
+          "start_sample": 0,
+          "end_sample": 9475,
+          "start_ms": 0,
+          "end_ms": 592
+        },
+        {
+          "lang": "ja",
+          "text": "小さい",
+          "start_sample": 9475,
+          "end_sample": 18309,
+          "start_ms": 592,
+          "end_ms": 1144
+        },
+        {
+          "lang": "en",
+          "text": "notebook and three pens before heading into the meeting.",
+          "start_sample": 18309,
+          "end_sample": 80300,
+          "start_ms": 1144,
+          "end_ms": 5019
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 291,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

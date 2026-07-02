@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11415.flac",
+  "sentence": "そのイヤリングはgoldで、顔周りを明るく見せてくれます。",
+  "sample_rate": 16000,
+  "duration_ms": 4275,
+  "reference_speaker": "en/speaker_045_730ff605e95b.mp3",
+  "seed": 11457,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "そのイヤリングは",
+      "start_sample": 0,
+      "end_sample": 18701,
+      "start_ms": 0,
+      "end_ms": 1169
+    },
+    {
+      "lang": "en",
+      "text": "gold",
+      "start_sample": 18701,
+      "end_sample": 25670,
+      "start_ms": 1169,
+      "end_ms": 1604
+    },
+    {
+      "lang": "ja",
+      "text": "で、顔周りを明るく見せてくれます。",
+      "start_sample": 25670,
+      "end_sample": 68399,
+      "start_ms": 1604,
+      "end_ms": 4275
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono iyaringu ha gold de kao mawari wo akaruku mise te kure masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6969,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "そのイヤリングは",
+          "start_sample": 0,
+          "end_sample": 56232,
+          "start_ms": 0,
+          "end_ms": 3514
+        },
+        {
+          "lang": "en",
+          "text": "gold",
+          "start_sample": 56232,
+          "end_sample": 63601,
+          "start_ms": 3514,
+          "end_ms": 3975
+        },
+        {
+          "lang": "ja",
+          "text": "で、顔周りを明るく見せてくれます。",
+          "start_sample": 63601,
+          "end_sample": 111502,
+          "start_ms": 3975,
+          "end_ms": 6969
+        }
+      ]
+    },
+    "ja": {
+      "text": "そのイヤリングはgoldで、顔周りを明るく見せてくれます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4425,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "そのイヤリングは",
+          "start_sample": 0,
+          "end_sample": 18901,
+          "start_ms": 0,
+          "end_ms": 1181
+        },
+        {
+          "lang": "en",
+          "text": "gold",
+          "start_sample": 18901,
+          "end_sample": 27872,
+          "start_ms": 1181,
+          "end_ms": 1742
+        },
+        {
+          "lang": "ja",
+          "text": "で、顔周りを明るく見せてくれます。",
+          "start_sample": 27872,
+          "end_sample": 70801,
+          "start_ms": 1742,
+          "end_ms": 4425
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 214,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

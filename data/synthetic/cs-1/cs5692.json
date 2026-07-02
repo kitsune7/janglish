@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5692.flac",
+  "sentence": "He chose 翌日配達 because the deadline was the very next morning.",
+  "sample_rate": 16000,
+  "duration_ms": 4739,
+  "reference_speaker": "jp/speaker_059_4c496a210b8b.mp3",
+  "seed": 5734,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He chose",
+      "start_sample": 0,
+      "end_sample": 11014,
+      "start_ms": 0,
+      "end_ms": 688
+    },
+    {
+      "lang": "ja",
+      "text": "翌日配達",
+      "start_sample": 11014,
+      "end_sample": 26992,
+      "start_ms": 688,
+      "end_ms": 1687
+    },
+    {
+      "lang": "en",
+      "text": "because the deadline was the very next morning.",
+      "start_sample": 26992,
+      "end_sample": 75818,
+      "start_ms": 1687,
+      "end_ms": 4739
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He chose yokujitsu haitatsu because the deadline was the very next morning.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5768,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He chose",
+          "start_sample": 0,
+          "end_sample": 11214,
+          "start_ms": 0,
+          "end_ms": 701
+        },
+        {
+          "lang": "ja",
+          "text": "翌日配達",
+          "start_sample": 11214,
+          "end_sample": 43258,
+          "start_ms": 701,
+          "end_ms": 2704
+        },
+        {
+          "lang": "en",
+          "text": "because the deadline was the very next morning.",
+          "start_sample": 43258,
+          "end_sample": 92284,
+          "start_ms": 2704,
+          "end_ms": 5768
+        }
+      ]
+    },
+    "ja": {
+      "text": "He chose 翌日配達 because the deadline was the very next morning.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4736,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He chose",
+          "start_sample": 0,
+          "end_sample": 8509,
+          "start_ms": 0,
+          "end_ms": 532
+        },
+        {
+          "lang": "ja",
+          "text": "翌日配達",
+          "start_sample": 8509,
+          "end_sample": 24887,
+          "start_ms": 532,
+          "end_ms": 1555
+        },
+        {
+          "lang": "en",
+          "text": "because the deadline was the very next morning.",
+          "start_sample": 24887,
+          "end_sample": 75783,
+          "start_ms": 1555,
+          "end_ms": 4736
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 237,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

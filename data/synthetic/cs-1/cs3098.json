@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3098.flac",
+  "sentence": "She described the work environment as 活気ある, full of young and motivated people.",
+  "sample_rate": 16000,
+  "duration_ms": 6559,
+  "reference_speaker": "en/speaker_015_995e028794f8.mp3",
+  "seed": 3140,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She described the work environment as",
+      "start_sample": 0,
+      "end_sample": 40578,
+      "start_ms": 0,
+      "end_ms": 2536
+    },
+    {
+      "lang": "ja",
+      "text": "活気ある,",
+      "start_sample": 40578,
+      "end_sample": 64053,
+      "start_ms": 2536,
+      "end_ms": 4003
+    },
+    {
+      "lang": "en",
+      "text": "full of young and motivated people.",
+      "start_sample": 64053,
+      "end_sample": 104950,
+      "start_ms": 4003,
+      "end_ms": 6559
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She described the work environment as kakki aru full of young and motivated people.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6161,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She described the work environment as",
+          "start_sample": 0,
+          "end_sample": 40778,
+          "start_ms": 0,
+          "end_ms": 2549
+        },
+        {
+          "lang": "ja",
+          "text": "活気ある,",
+          "start_sample": 40778,
+          "end_sample": 57475,
+          "start_ms": 2549,
+          "end_ms": 3592
+        },
+        {
+          "lang": "en",
+          "text": "full of young and motivated people.",
+          "start_sample": 57475,
+          "end_sample": 98572,
+          "start_ms": 3592,
+          "end_ms": 6161
+        }
+      ]
+    },
+    "ja": {
+      "text": "She described the work environment as 活気ある, full of young and motivated people.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 10054,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She described the work environment as",
+          "start_sample": 0,
+          "end_sample": 71302,
+          "start_ms": 0,
+          "end_ms": 4456
+        },
+        {
+          "lang": "ja",
+          "text": "活気ある,",
+          "start_sample": 71302,
+          "end_sample": 95177,
+          "start_ms": 4456,
+          "end_ms": 5949
+        },
+        {
+          "lang": "en",
+          "text": "full of young and motivated people.",
+          "start_sample": 95177,
+          "end_sample": 160870,
+          "start_ms": 5949,
+          "end_ms": 10054
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 328,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

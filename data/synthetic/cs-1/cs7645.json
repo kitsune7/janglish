@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7645.flac",
+  "sentence": "グラスのrimに塩が付いているのがマルガリータの特徴だ。",
+  "sample_rate": 16000,
+  "duration_ms": 3155,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 7687,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "グラスの",
+      "start_sample": 0,
+      "end_sample": 7034,
+      "start_ms": 0,
+      "end_ms": 440
+    },
+    {
+      "lang": "en",
+      "text": "rim",
+      "start_sample": 7034,
+      "end_sample": 10321,
+      "start_ms": 440,
+      "end_ms": 645
+    },
+    {
+      "lang": "ja",
+      "text": "に塩が付いているのがマルガリータの特徴だ。",
+      "start_sample": 10321,
+      "end_sample": 50473,
+      "start_ms": 645,
+      "end_ms": 3155
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "gurasu no rim ni shio ga tsui te iru no ga marugariita no tokuchou da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5611,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "グラスの",
+          "start_sample": 0,
+          "end_sample": 12503,
+          "start_ms": 0,
+          "end_ms": 781
+        },
+        {
+          "lang": "en",
+          "text": "rim",
+          "start_sample": 12503,
+          "end_sample": 16190,
+          "start_ms": 781,
+          "end_ms": 1012
+        },
+        {
+          "lang": "ja",
+          "text": "に塩が付いているのがマルガリータの特徴だ。",
+          "start_sample": 16190,
+          "end_sample": 89771,
+          "start_ms": 1012,
+          "end_ms": 5611
+        }
+      ]
+    },
+    "ja": {
+      "text": "グラスのrimに塩が付いているのがマルガリータの特徴だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3215,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "グラスの",
+          "start_sample": 0,
+          "end_sample": 7234,
+          "start_ms": 0,
+          "end_ms": 452
+        },
+        {
+          "lang": "en",
+          "text": "rim",
+          "start_sample": 7234,
+          "end_sample": 11093,
+          "start_ms": 452,
+          "end_ms": 693
+        },
+        {
+          "lang": "ja",
+          "text": "に塩が付いているのがマルガリータの特徴だ。",
+          "start_sample": 11093,
+          "end_sample": 51445,
+          "start_ms": 693,
+          "end_ms": 3215
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 158,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

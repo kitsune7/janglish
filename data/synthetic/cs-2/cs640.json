@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs640.flac",
+  "sentence": "The message came through with a strange 文字化け and the original 意味 was completely lost.",
+  "sample_rate": 16000,
+  "duration_ms": 5990,
+  "reference_speaker": "jp/speaker_028_70a7ca54d459.mp3",
+  "seed": 17495,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The message came through with a strange",
+      "start_sample": 0,
+      "end_sample": 38320,
+      "start_ms": 0,
+      "end_ms": 2395
+    },
+    {
+      "lang": "ja",
+      "text": "文字化け",
+      "start_sample": 38320,
+      "end_sample": 47400,
+      "start_ms": 2395,
+      "end_ms": 2962
+    },
+    {
+      "lang": "en",
+      "text": "and the original",
+      "start_sample": 47400,
+      "end_sample": 67384,
+      "start_ms": 2962,
+      "end_ms": 4212
+    },
+    {
+      "lang": "ja",
+      "text": "意味",
+      "start_sample": 67384,
+      "end_sample": 70519,
+      "start_ms": 4212,
+      "end_ms": 4407
+    },
+    {
+      "lang": "en",
+      "text": "was completely lost.",
+      "start_sample": 70519,
+      "end_sample": 95836,
+      "start_ms": 4407,
+      "end_ms": 5990
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The message came through with a strange moji bake and the original imi was completely lost.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7142,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The message came through with a strange",
+          "start_sample": 0,
+          "end_sample": 38520,
+          "start_ms": 0,
+          "end_ms": 2408
+        },
+        {
+          "lang": "ja",
+          "text": "文字化け",
+          "start_sample": 38520,
+          "end_sample": 57138,
+          "start_ms": 2408,
+          "end_ms": 3571
+        },
+        {
+          "lang": "en",
+          "text": "and the original",
+          "start_sample": 57138,
+          "end_sample": 77522,
+          "start_ms": 3571,
+          "end_ms": 4845
+        },
+        {
+          "lang": "ja",
+          "text": "意味",
+          "start_sample": 77522,
+          "end_sample": 88757,
+          "start_ms": 4845,
+          "end_ms": 5547
+        },
+        {
+          "lang": "en",
+          "text": "was completely lost.",
+          "start_sample": 88757,
+          "end_sample": 114274,
+          "start_ms": 5547,
+          "end_ms": 7142
+        }
+      ]
+    },
+    "ja": {
+      "text": "The message came through with a strange 文字化け and the original 意味 was completely lost.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5483,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The message came through with a strange",
+          "start_sample": 0,
+          "end_sample": 35189,
+          "start_ms": 0,
+          "end_ms": 2199
+        },
+        {
+          "lang": "ja",
+          "text": "文字化け",
+          "start_sample": 35189,
+          "end_sample": 44669,
+          "start_ms": 2199,
+          "end_ms": 2792
+        },
+        {
+          "lang": "en",
+          "text": "and the original",
+          "start_sample": 44669,
+          "end_sample": 62183,
+          "start_ms": 2792,
+          "end_ms": 3886
+        },
+        {
+          "lang": "ja",
+          "text": "意味",
+          "start_sample": 62183,
+          "end_sample": 65718,
+          "start_ms": 3886,
+          "end_ms": 4107
+        },
+        {
+          "lang": "en",
+          "text": "was completely lost.",
+          "start_sample": 65718,
+          "end_sample": 87727,
+          "start_ms": 4107,
+          "end_ms": 5483
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 300,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

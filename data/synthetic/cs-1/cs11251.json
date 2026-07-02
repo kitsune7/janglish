@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs11251.flac",
+  "sentence": "mulchを敷くと雑草が生えにくくなります。",
+  "sample_rate": 16000,
+  "duration_ms": 3563,
+  "reference_speaker": "jp/speaker_003_7f373ff7d9ea.mp3",
+  "seed": 11293,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "mulch",
+      "start_sample": 0,
+      "end_sample": 6530,
+      "start_ms": 0,
+      "end_ms": 408
+    },
+    {
+      "lang": "ja",
+      "text": "を敷くと雑草が生えにくくなります。",
+      "start_sample": 6530,
+      "end_sample": 57013,
+      "start_ms": 408,
+      "end_ms": 3563
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mulch wo shiku to zassou ga hae nikuku nari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4787,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "mulch",
+          "start_sample": 0,
+          "end_sample": 6730,
+          "start_ms": 0,
+          "end_ms": 421
+        },
+        {
+          "lang": "ja",
+          "text": "を敷くと雑草が生えにくくなります。",
+          "start_sample": 6730,
+          "end_sample": 76592,
+          "start_ms": 421,
+          "end_ms": 4787
+        }
+      ]
+    },
+    "ja": {
+      "text": "mulchを敷くと雑草が生えにくくなります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3520,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "mulch",
+          "start_sample": 0,
+          "end_sample": 5631,
+          "start_ms": 0,
+          "end_ms": 352
+        },
+        {
+          "lang": "ja",
+          "text": "を敷くと雑草が生えにくくなります。",
+          "start_sample": 5631,
+          "end_sample": 56314,
+          "start_ms": 352,
+          "end_ms": 3520
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 179,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

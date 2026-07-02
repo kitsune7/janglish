@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7372.flac",
+  "sentence": "The clinic offers free 検診 every spring for residents over fifty.",
+  "sample_rate": 16000,
+  "duration_ms": 5761,
+  "reference_speaker": "en/speaker_034_add467545a59.mp3",
+  "seed": 7414,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The clinic offers free",
+      "start_sample": 0,
+      "end_sample": 30473,
+      "start_ms": 0,
+      "end_ms": 1905
+    },
+    {
+      "lang": "ja",
+      "text": "検診",
+      "start_sample": 30473,
+      "end_sample": 39708,
+      "start_ms": 1905,
+      "end_ms": 2482
+    },
+    {
+      "lang": "en",
+      "text": "every spring for residents over fifty.",
+      "start_sample": 39708,
+      "end_sample": 92179,
+      "start_ms": 2482,
+      "end_ms": 5761
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The clinic offers free kenshin every spring for residents over fifty.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5861,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The clinic offers free",
+          "start_sample": 0,
+          "end_sample": 30673,
+          "start_ms": 0,
+          "end_ms": 1917
+        },
+        {
+          "lang": "ja",
+          "text": "検診",
+          "start_sample": 30673,
+          "end_sample": 41112,
+          "start_ms": 1917,
+          "end_ms": 2570
+        },
+        {
+          "lang": "en",
+          "text": "every spring for residents over fifty.",
+          "start_sample": 41112,
+          "end_sample": 93783,
+          "start_ms": 2570,
+          "end_ms": 5861
+        }
+      ]
+    },
+    "ja": {
+      "text": "The clinic offers free 検診 every spring for residents over fifty.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5901,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The clinic offers free",
+          "start_sample": 0,
+          "end_sample": 38379,
+          "start_ms": 0,
+          "end_ms": 2399
+        },
+        {
+          "lang": "ja",
+          "text": "検診",
+          "start_sample": 38379,
+          "end_sample": 48014,
+          "start_ms": 2399,
+          "end_ms": 3001
+        },
+        {
+          "lang": "en",
+          "text": "every spring for residents over fifty.",
+          "start_sample": 48014,
+          "end_sample": 94423,
+          "start_ms": 3001,
+          "end_ms": 5901
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 289,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

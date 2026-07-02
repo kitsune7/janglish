@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs646.flac",
+  "sentence": "She keeps a short 一言 at the top of every voice note, which gives it such a nice 親しみ.",
+  "sample_rate": 16000,
+  "duration_ms": 6757,
+  "reference_speaker": "en/speaker_045_730ff605e95b.mp3",
+  "seed": 17501,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She keeps a short",
+      "start_sample": 0,
+      "end_sample": 17586,
+      "start_ms": 0,
+      "end_ms": 1099
+    },
+    {
+      "lang": "ja",
+      "text": "一言",
+      "start_sample": 17586,
+      "end_sample": 32423,
+      "start_ms": 1099,
+      "end_ms": 2026
+    },
+    {
+      "lang": "en",
+      "text": "at the top of every voice note, which gives it such a nice",
+      "start_sample": 32423,
+      "end_sample": 99005,
+      "start_ms": 2026,
+      "end_ms": 6188
+    },
+    {
+      "lang": "ja",
+      "text": "親しみ.",
+      "start_sample": 99005,
+      "end_sample": 108105,
+      "start_ms": 6188,
+      "end_ms": 6757
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She keeps a short hitokoto at the top of every voice note, which gives it such a nice shitashimi",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6850,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She keeps a short",
+          "start_sample": 0,
+          "end_sample": 17786,
+          "start_ms": 0,
+          "end_ms": 1112
+        },
+        {
+          "lang": "ja",
+          "text": "一言",
+          "start_sample": 17786,
+          "end_sample": 29644,
+          "start_ms": 1112,
+          "end_ms": 1853
+        },
+        {
+          "lang": "en",
+          "text": "at the top of every voice note, which gives it such a nice",
+          "start_sample": 29644,
+          "end_sample": 96626,
+          "start_ms": 1853,
+          "end_ms": 6039
+        },
+        {
+          "lang": "ja",
+          "text": "親しみ.",
+          "start_sample": 96626,
+          "end_sample": 109604,
+          "start_ms": 6039,
+          "end_ms": 6850
+        }
+      ]
+    },
+    "ja": {
+      "text": "She keeps a short 一言 at the top of every voice note, which gives it such a nice 親しみ.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6896,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She keeps a short",
+          "start_sample": 0,
+          "end_sample": 14593,
+          "start_ms": 0,
+          "end_ms": 912
+        },
+        {
+          "lang": "ja",
+          "text": "一言",
+          "start_sample": 14593,
+          "end_sample": 29830,
+          "start_ms": 912,
+          "end_ms": 1864
+        },
+        {
+          "lang": "en",
+          "text": "at the top of every voice note, which gives it such a nice",
+          "start_sample": 29830,
+          "end_sample": 101044,
+          "start_ms": 1864,
+          "end_ms": 6315
+        },
+        {
+          "lang": "ja",
+          "text": "親しみ.",
+          "start_sample": 101044,
+          "end_sample": 110344,
+          "start_ms": 6315,
+          "end_ms": 6896
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 338,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

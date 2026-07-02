@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs1558.flac",
+  "sentence": "Walk past the 公園 and then take the 最初 left after the old stone wall.",
+  "sample_rate": 16000,
+  "duration_ms": 5421,
+  "reference_speaker": "jp/speaker_037_97f38629e8a3.mp3",
+  "seed": 18413,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Walk past the",
+      "start_sample": 0,
+      "end_sample": 11687,
+      "start_ms": 0,
+      "end_ms": 730
+    },
+    {
+      "lang": "ja",
+      "text": "公園",
+      "start_sample": 11687,
+      "end_sample": 22524,
+      "start_ms": 730,
+      "end_ms": 1408
+    },
+    {
+      "lang": "en",
+      "text": "and then take the",
+      "start_sample": 22524,
+      "end_sample": 41562,
+      "start_ms": 1408,
+      "end_ms": 2598
+    },
+    {
+      "lang": "ja",
+      "text": "最初",
+      "start_sample": 41562,
+      "end_sample": 47584,
+      "start_ms": 2598,
+      "end_ms": 2974
+    },
+    {
+      "lang": "en",
+      "text": "left after the old stone wall.",
+      "start_sample": 47584,
+      "end_sample": 86738,
+      "start_ms": 2974,
+      "end_ms": 5421
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Walk past the kouen and then take the saisho left after the old stone wall.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5903,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Walk past the",
+          "start_sample": 0,
+          "end_sample": 11887,
+          "start_ms": 0,
+          "end_ms": 743
+        },
+        {
+          "lang": "ja",
+          "text": "公園",
+          "start_sample": 11887,
+          "end_sample": 22168,
+          "start_ms": 743,
+          "end_ms": 1386
+        },
+        {
+          "lang": "en",
+          "text": "and then take the",
+          "start_sample": 22168,
+          "end_sample": 41606,
+          "start_ms": 1386,
+          "end_ms": 2600
+        },
+        {
+          "lang": "ja",
+          "text": "最初",
+          "start_sample": 41606,
+          "end_sample": 55100,
+          "start_ms": 2600,
+          "end_ms": 3444
+        },
+        {
+          "lang": "en",
+          "text": "left after the old stone wall.",
+          "start_sample": 55100,
+          "end_sample": 94454,
+          "start_ms": 3444,
+          "end_ms": 5903
+        }
+      ]
+    },
+    "ja": {
+      "text": "Walk past the 公園 and then take the 最初 left after the old stone wall.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5097,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Walk past the",
+          "start_sample": 0,
+          "end_sample": 14126,
+          "start_ms": 0,
+          "end_ms": 883
+        },
+        {
+          "lang": "ja",
+          "text": "公園",
+          "start_sample": 14126,
+          "end_sample": 25363,
+          "start_ms": 883,
+          "end_ms": 1585
+        },
+        {
+          "lang": "en",
+          "text": "and then take the",
+          "start_sample": 25363,
+          "end_sample": 45429,
+          "start_ms": 1585,
+          "end_ms": 2839
+        },
+        {
+          "lang": "ja",
+          "text": "最初",
+          "start_sample": 45429,
+          "end_sample": 51851,
+          "start_ms": 2839,
+          "end_ms": 3241
+        },
+        {
+          "lang": "en",
+          "text": "left after the old stone wall.",
+          "start_sample": 51851,
+          "end_sample": 81546,
+          "start_ms": 3241,
+          "end_ms": 5097
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 272,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

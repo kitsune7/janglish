@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11138.flac",
+  "sentence": "冬至が過ぎたら、少しずつdaylightが長くなるよ。",
+  "sample_rate": 16000,
+  "duration_ms": 3039,
+  "reference_speaker": "jp/speaker_065_12fed3376ff0.mp3",
+  "seed": 11180,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "冬至が過ぎたら、少しずつ",
+      "start_sample": 0,
+      "end_sample": 27088,
+      "start_ms": 0,
+      "end_ms": 1693
+    },
+    {
+      "lang": "en",
+      "text": "daylight",
+      "start_sample": 27088,
+      "end_sample": 34866,
+      "start_ms": 1693,
+      "end_ms": 2179
+    },
+    {
+      "lang": "ja",
+      "text": "が長くなるよ。",
+      "start_sample": 34866,
+      "end_sample": 48628,
+      "start_ms": 2179,
+      "end_ms": 3039
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "touji ga sugi tara sukoshi zutsu daylight ga nagaku naru yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7035,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冬至が過ぎたら、少しずつ",
+          "start_sample": 0,
+          "end_sample": 62057,
+          "start_ms": 0,
+          "end_ms": 3879
+        },
+        {
+          "lang": "en",
+          "text": "daylight",
+          "start_sample": 62057,
+          "end_sample": 70235,
+          "start_ms": 3879,
+          "end_ms": 4390
+        },
+        {
+          "lang": "ja",
+          "text": "が長くなるよ。",
+          "start_sample": 70235,
+          "end_sample": 112567,
+          "start_ms": 4390,
+          "end_ms": 7035
+        }
+      ]
+    },
+    "ja": {
+      "text": "冬至が過ぎたら、少しずつdaylightが長くなるよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3150,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冬至が過ぎたら、少しずつ",
+          "start_sample": 0,
+          "end_sample": 27288,
+          "start_ms": 0,
+          "end_ms": 1706
+        },
+        {
+          "lang": "en",
+          "text": "daylight",
+          "start_sample": 27288,
+          "end_sample": 36437,
+          "start_ms": 1706,
+          "end_ms": 2277
+        },
+        {
+          "lang": "ja",
+          "text": "が長くなるよ。",
+          "start_sample": 36437,
+          "end_sample": 50399,
+          "start_ms": 2277,
+          "end_ms": 3150
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 152,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1824.flac",
+  "sentence": "A single 裂け目 in the canvas tells you more about the painting's history than any label could.",
+  "sample_rate": 16000,
+  "duration_ms": 4660,
+  "reference_speaker": "jp/speaker_086_b5416e90d3b7.mp3",
+  "seed": 1866,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "A single",
+      "start_sample": 0,
+      "end_sample": 8138,
+      "start_ms": 0,
+      "end_ms": 509
+    },
+    {
+      "lang": "ja",
+      "text": "裂け目",
+      "start_sample": 8138,
+      "end_sample": 15423,
+      "start_ms": 509,
+      "end_ms": 964
+    },
+    {
+      "lang": "en",
+      "text": "in the canvas tells you more about the painting's history than any label could.",
+      "start_sample": 15423,
+      "end_sample": 74552,
+      "start_ms": 964,
+      "end_ms": 4660
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "A single sakeme in the canvas tells you more about the painting's history than any label could.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4670,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "A single",
+          "start_sample": 0,
+          "end_sample": 8338,
+          "start_ms": 0,
+          "end_ms": 521
+        },
+        {
+          "lang": "ja",
+          "text": "裂け目",
+          "start_sample": 8338,
+          "end_sample": 15394,
+          "start_ms": 521,
+          "end_ms": 962
+        },
+        {
+          "lang": "en",
+          "text": "in the canvas tells you more about the painting's history than any label could.",
+          "start_sample": 15394,
+          "end_sample": 74723,
+          "start_ms": 962,
+          "end_ms": 4670
+        }
+      ]
+    },
+    "ja": {
+      "text": "A single 裂け目 in the canvas tells you more about the painting's history than any label could.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7825,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "A single",
+          "start_sample": 0,
+          "end_sample": 8005,
+          "start_ms": 0,
+          "end_ms": 500
+        },
+        {
+          "lang": "ja",
+          "text": "裂け目",
+          "start_sample": 8005,
+          "end_sample": 15690,
+          "start_ms": 500,
+          "end_ms": 981
+        },
+        {
+          "lang": "en",
+          "text": "in the canvas tells you more about the painting's history than any label could.",
+          "start_sample": 15690,
+          "end_sample": 125204,
+          "start_ms": 981,
+          "end_ms": 7825
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 233,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

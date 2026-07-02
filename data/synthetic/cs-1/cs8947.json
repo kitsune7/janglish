@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8947.flac",
+  "sentence": "The 相場 for the dollar has been so unpredictable lately.",
+  "sample_rate": 16000,
+  "duration_ms": 3860,
+  "reference_speaker": "en/speaker_054_103b0eb5778e.mp3",
+  "seed": 8989,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2205,
+      "start_ms": 0,
+      "end_ms": 138
+    },
+    {
+      "lang": "ja",
+      "text": "相場",
+      "start_sample": 2205,
+      "end_sample": 10798,
+      "start_ms": 138,
+      "end_ms": 675
+    },
+    {
+      "lang": "en",
+      "text": "for the dollar has been so unpredictable lately.",
+      "start_sample": 10798,
+      "end_sample": 61756,
+      "start_ms": 675,
+      "end_ms": 3860
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The souba for the dollar has been so unpredictable lately.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3849,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2405,
+          "start_ms": 0,
+          "end_ms": 150
+        },
+        {
+          "lang": "ja",
+          "text": "相場",
+          "start_sample": 2405,
+          "end_sample": 10423,
+          "start_ms": 150,
+          "end_ms": 651
+        },
+        {
+          "lang": "en",
+          "text": "for the dollar has been so unpredictable lately.",
+          "start_sample": 10423,
+          "end_sample": 61581,
+          "start_ms": 651,
+          "end_ms": 3849
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 相場 for the dollar has been so unpredictable lately.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5098,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4656,
+          "start_ms": 0,
+          "end_ms": 291
+        },
+        {
+          "lang": "ja",
+          "text": "相場",
+          "start_sample": 4656,
+          "end_sample": 13649,
+          "start_ms": 291,
+          "end_ms": 853
+        },
+        {
+          "lang": "en",
+          "text": "for the dollar has been so unpredictable lately.",
+          "start_sample": 13649,
+          "end_sample": 81575,
+          "start_ms": 853,
+          "end_ms": 5098
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 193,
+  "frame_labels": "eeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

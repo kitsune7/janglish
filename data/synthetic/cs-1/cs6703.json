@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6703.flac",
+  "sentence": "銀行に行ってcheck（小切手）を換金してもらいました。",
+  "sample_rate": 16000,
+  "duration_ms": 4342,
+  "reference_speaker": "en/speaker_093_c561f370b1dd.mp3",
+  "seed": 6745,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "銀行に行って",
+      "start_sample": 0,
+      "end_sample": 22640,
+      "start_ms": 0,
+      "end_ms": 1415
+    },
+    {
+      "lang": "en",
+      "text": "check（",
+      "start_sample": 22640,
+      "end_sample": 32032,
+      "start_ms": 1415,
+      "end_ms": 2002
+    },
+    {
+      "lang": "ja",
+      "text": "小切手）を換金してもらいました。",
+      "start_sample": 32032,
+      "end_sample": 69466,
+      "start_ms": 2002,
+      "end_ms": 4342
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ginkou ni itsu te check（ kogitte wo kankin shi te morai mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5197,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "銀行に行って",
+          "start_sample": 0,
+          "end_sample": 32266,
+          "start_ms": 0,
+          "end_ms": 2017
+        },
+        {
+          "lang": "en",
+          "text": "check（",
+          "start_sample": 32266,
+          "end_sample": 42058,
+          "start_ms": 2017,
+          "end_ms": 2629
+        },
+        {
+          "lang": "ja",
+          "text": "小切手）を換金してもらいました。",
+          "start_sample": 42058,
+          "end_sample": 83151,
+          "start_ms": 2629,
+          "end_ms": 5197
+        }
+      ]
+    },
+    "ja": {
+      "text": "銀行に行ってcheck（小切手）を換金してもらいました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4463,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "銀行に行って",
+          "start_sample": 0,
+          "end_sample": 22840,
+          "start_ms": 0,
+          "end_ms": 1428
+        },
+        {
+          "lang": "en",
+          "text": "check（",
+          "start_sample": 22840,
+          "end_sample": 33778,
+          "start_ms": 1428,
+          "end_ms": 2111
+        },
+        {
+          "lang": "ja",
+          "text": "小切手）を換金してもらいました。",
+          "start_sample": 33778,
+          "end_sample": 71412,
+          "start_ms": 2111,
+          "end_ms": 4463
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

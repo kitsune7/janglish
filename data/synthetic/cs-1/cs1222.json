@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1222.flac",
+  "sentence": "数学のformulaを全部暗記するのは大変だった。",
+  "sample_rate": 16000,
+  "duration_ms": 3758,
+  "reference_speaker": "en/speaker_040_ec293248c910.mp3",
+  "seed": 1264,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "数学の",
+      "start_sample": 0,
+      "end_sample": 9776,
+      "start_ms": 0,
+      "end_ms": 611
+    },
+    {
+      "lang": "en",
+      "text": "formula",
+      "start_sample": 9776,
+      "end_sample": 24936,
+      "start_ms": 611,
+      "end_ms": 1558
+    },
+    {
+      "lang": "ja",
+      "text": "を全部暗記するのは大変だった。",
+      "start_sample": 24936,
+      "end_sample": 60131,
+      "start_ms": 1558,
+      "end_ms": 3758
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "suugaku no formula wo zenbu anki suru no ha taihen datsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5935,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "数学の",
+          "start_sample": 0,
+          "end_sample": 22618,
+          "start_ms": 0,
+          "end_ms": 1414
+        },
+        {
+          "lang": "en",
+          "text": "formula",
+          "start_sample": 22618,
+          "end_sample": 38178,
+          "start_ms": 1414,
+          "end_ms": 2386
+        },
+        {
+          "lang": "ja",
+          "text": "を全部暗記するのは大変だった。",
+          "start_sample": 38178,
+          "end_sample": 94963,
+          "start_ms": 2386,
+          "end_ms": 5935
+        }
+      ]
+    },
+    "ja": {
+      "text": "数学のformulaを全部暗記するのは大変だった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3359,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "数学の",
+          "start_sample": 0,
+          "end_sample": 9976,
+          "start_ms": 0,
+          "end_ms": 624
+        },
+        {
+          "lang": "en",
+          "text": "formula",
+          "start_sample": 9976,
+          "end_sample": 18344,
+          "start_ms": 624,
+          "end_ms": 1146
+        },
+        {
+          "lang": "ja",
+          "text": "を全部暗記するのは大変だった。",
+          "start_sample": 18344,
+          "end_sample": 53739,
+          "start_ms": 1146,
+          "end_ms": 3359
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

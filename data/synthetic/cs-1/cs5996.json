@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5996.flac",
+  "sentence": "We really need to buy 新しい sneakers before the trip.",
+  "sample_rate": 16000,
+  "duration_ms": 3552,
+  "reference_speaker": "en/speaker_085_1a04e2db0811.mp3",
+  "seed": 6038,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We really need to buy",
+      "start_sample": 0,
+      "end_sample": 22769,
+      "start_ms": 0,
+      "end_ms": 1423
+    },
+    {
+      "lang": "ja",
+      "text": "新しい",
+      "start_sample": 22769,
+      "end_sample": 32948,
+      "start_ms": 1423,
+      "end_ms": 2059
+    },
+    {
+      "lang": "en",
+      "text": "sneakers before the trip.",
+      "start_sample": 32948,
+      "end_sample": 56838,
+      "start_ms": 2059,
+      "end_ms": 3552
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We really need to buy atarashii sneakers before the trip.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3654,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We really need to buy",
+          "start_sample": 0,
+          "end_sample": 22969,
+          "start_ms": 0,
+          "end_ms": 1436
+        },
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 22969,
+          "end_sample": 34374,
+          "start_ms": 1436,
+          "end_ms": 2148
+        },
+        {
+          "lang": "en",
+          "text": "sneakers before the trip.",
+          "start_sample": 34374,
+          "end_sample": 58464,
+          "start_ms": 2148,
+          "end_ms": 3654
+        }
+      ]
+    },
+    "ja": {
+      "text": "We really need to buy 新しい sneakers before the trip.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4207,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We really need to buy",
+          "start_sample": 0,
+          "end_sample": 25004,
+          "start_ms": 0,
+          "end_ms": 1563
+        },
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 25004,
+          "end_sample": 35583,
+          "start_ms": 1563,
+          "end_ms": 2224
+        },
+        {
+          "lang": "en",
+          "text": "sneakers before the trip.",
+          "start_sample": 35583,
+          "end_sample": 67319,
+          "start_ms": 2224,
+          "end_ms": 4207
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 178,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

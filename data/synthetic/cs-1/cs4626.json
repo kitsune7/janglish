@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4626.flac",
+  "sentence": "The 野良猫 in our alley has been coming closer to the door every evening this week.",
+  "sample_rate": 16000,
+  "duration_ms": 4810,
+  "reference_speaker": "en/speaker_040_ec293248c910.mp3",
+  "seed": 4668,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1407,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "野良猫",
+      "start_sample": 1407,
+      "end_sample": 15418,
+      "start_ms": 88,
+      "end_ms": 964
+    },
+    {
+      "lang": "en",
+      "text": "in our alley has been coming closer to the door every evening this week.",
+      "start_sample": 15418,
+      "end_sample": 76953,
+      "start_ms": 964,
+      "end_ms": 4810
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The noraneko in our alley has been coming closer to the door every evening this week.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4602,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1607,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "野良猫",
+          "start_sample": 1607,
+          "end_sample": 11897,
+          "start_ms": 100,
+          "end_ms": 744
+        },
+        {
+          "lang": "en",
+          "text": "in our alley has been coming closer to the door every evening this week.",
+          "start_sample": 11897,
+          "end_sample": 73632,
+          "start_ms": 744,
+          "end_ms": 4602
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 野良猫 in our alley has been coming closer to the door every evening this week.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7065,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 7045,
+          "start_ms": 0,
+          "end_ms": 440
+        },
+        {
+          "lang": "ja",
+          "text": "野良猫",
+          "start_sample": 7045,
+          "end_sample": 21456,
+          "start_ms": 440,
+          "end_ms": 1341
+        },
+        {
+          "lang": "en",
+          "text": "in our alley has been coming closer to the door every evening this week.",
+          "start_sample": 21456,
+          "end_sample": 113042,
+          "start_ms": 1341,
+          "end_ms": 7065
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 241,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3316.flac",
+  "sentence": "毎日walkingをすると体の調子がずいぶんよくなりました。",
+  "sample_rate": 16000,
+  "duration_ms": 4960,
+  "reference_speaker": "jp/speaker_079_e96ebb016d7a.mp3",
+  "seed": 3358,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "毎日",
+      "start_sample": 0,
+      "end_sample": 8163,
+      "start_ms": 0,
+      "end_ms": 510
+    },
+    {
+      "lang": "en",
+      "text": "walking",
+      "start_sample": 8163,
+      "end_sample": 27138,
+      "start_ms": 510,
+      "end_ms": 1696
+    },
+    {
+      "lang": "ja",
+      "text": "をすると体の調子がずいぶんよくなりました。",
+      "start_sample": 27138,
+      "end_sample": 79366,
+      "start_ms": 1696,
+      "end_ms": 4960
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mainichi walking wo suru to karada no choushi ga zuibun yoku nari mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8406,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎日",
+          "start_sample": 0,
+          "end_sample": 15371,
+          "start_ms": 0,
+          "end_ms": 961
+        },
+        {
+          "lang": "en",
+          "text": "walking",
+          "start_sample": 15371,
+          "end_sample": 34746,
+          "start_ms": 961,
+          "end_ms": 2172
+        },
+        {
+          "lang": "ja",
+          "text": "をすると体の調子がずいぶんよくなりました。",
+          "start_sample": 34746,
+          "end_sample": 134504,
+          "start_ms": 2172,
+          "end_ms": 8406
+        }
+      ]
+    },
+    "ja": {
+      "text": "毎日walkingをすると体の調子がずいぶんよくなりました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4242,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎日",
+          "start_sample": 0,
+          "end_sample": 8363,
+          "start_ms": 0,
+          "end_ms": 523
+        },
+        {
+          "lang": "en",
+          "text": "walking",
+          "start_sample": 8363,
+          "end_sample": 15439,
+          "start_ms": 523,
+          "end_ms": 965
+        },
+        {
+          "lang": "ja",
+          "text": "をすると体の調子がずいぶんよくなりました。",
+          "start_sample": 15439,
+          "end_sample": 67867,
+          "start_ms": 965,
+          "end_ms": 4242
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 249,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

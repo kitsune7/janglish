@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5221.flac",
+  "sentence": "She always says her 父方 relatives have a completely different sense of humor.",
+  "sample_rate": 16000,
+  "duration_ms": 6646,
+  "reference_speaker": "en/speaker_054_103b0eb5778e.mp3",
+  "seed": 5263,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She always says her",
+      "start_sample": 0,
+      "end_sample": 29422,
+      "start_ms": 0,
+      "end_ms": 1839
+    },
+    {
+      "lang": "ja",
+      "text": "父方",
+      "start_sample": 29422,
+      "end_sample": 45529,
+      "start_ms": 1839,
+      "end_ms": 2846
+    },
+    {
+      "lang": "en",
+      "text": "relatives have a completely different sense of humor.",
+      "start_sample": 45529,
+      "end_sample": 106335,
+      "start_ms": 2846,
+      "end_ms": 6646
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She always says her chichikata relatives have a completely different sense of humor.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6825,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She always says her",
+          "start_sample": 0,
+          "end_sample": 29622,
+          "start_ms": 0,
+          "end_ms": 1851
+        },
+        {
+          "lang": "ja",
+          "text": "父方",
+          "start_sample": 29622,
+          "end_sample": 48196,
+          "start_ms": 1851,
+          "end_ms": 3012
+        },
+        {
+          "lang": "en",
+          "text": "relatives have a completely different sense of humor.",
+          "start_sample": 48196,
+          "end_sample": 109202,
+          "start_ms": 3012,
+          "end_ms": 6825
+        }
+      ]
+    },
+    "ja": {
+      "text": "She always says her 父方 relatives have a completely different sense of humor.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9415,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She always says her",
+          "start_sample": 0,
+          "end_sample": 30930,
+          "start_ms": 0,
+          "end_ms": 1933
+        },
+        {
+          "lang": "ja",
+          "text": "父方",
+          "start_sample": 30930,
+          "end_sample": 47437,
+          "start_ms": 1933,
+          "end_ms": 2965
+        },
+        {
+          "lang": "en",
+          "text": "relatives have a completely different sense of humor.",
+          "start_sample": 47437,
+          "end_sample": 150647,
+          "start_ms": 2965,
+          "end_ms": 9415
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 333,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

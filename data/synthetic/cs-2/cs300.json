@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs300.flac",
+  "sentence": "After three weeks of physical therapy, the 痛み in her knee finally gave way to a feeling of 軽さ.",
+  "sample_rate": 16000,
+  "duration_ms": 5382,
+  "reference_speaker": "jp/speaker_072_6a4d94080268.mp3",
+  "seed": 17155,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "After three weeks of physical therapy, the",
+      "start_sample": 0,
+      "end_sample": 37594,
+      "start_ms": 0,
+      "end_ms": 2350
+    },
+    {
+      "lang": "ja",
+      "text": "痛み",
+      "start_sample": 37594,
+      "end_sample": 42977,
+      "start_ms": 2350,
+      "end_ms": 2686
+    },
+    {
+      "lang": "en",
+      "text": "in her knee finally gave way to a feeling of",
+      "start_sample": 42977,
+      "end_sample": 78930,
+      "start_ms": 2686,
+      "end_ms": 4933
+    },
+    {
+      "lang": "ja",
+      "text": "軽さ.",
+      "start_sample": 78930,
+      "end_sample": 86116,
+      "start_ms": 4933,
+      "end_ms": 5382
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "After three weeks of physical therapy, the itami in her knee finally gave way to a feeling of kei sa",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5545,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "After three weeks of physical therapy, the",
+          "start_sample": 0,
+          "end_sample": 37794,
+          "start_ms": 0,
+          "end_ms": 2362
+        },
+        {
+          "lang": "ja",
+          "text": "痛み",
+          "start_sample": 37794,
+          "end_sample": 44039,
+          "start_ms": 2362,
+          "end_ms": 2752
+        },
+        {
+          "lang": "en",
+          "text": "in her knee finally gave way to a feeling of",
+          "start_sample": 44039,
+          "end_sample": 80392,
+          "start_ms": 2752,
+          "end_ms": 5024
+        },
+        {
+          "lang": "ja",
+          "text": "軽さ.",
+          "start_sample": 80392,
+          "end_sample": 88719,
+          "start_ms": 5024,
+          "end_ms": 5545
+        }
+      ]
+    },
+    "ja": {
+      "text": "After three weeks of physical therapy, the 痛み in her knee finally gave way to a feeling of 軽さ.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5662,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "After three weeks of physical therapy, the",
+          "start_sample": 0,
+          "end_sample": 41599,
+          "start_ms": 0,
+          "end_ms": 2600
+        },
+        {
+          "lang": "ja",
+          "text": "痛み",
+          "start_sample": 41599,
+          "end_sample": 47382,
+          "start_ms": 2600,
+          "end_ms": 2961
+        },
+        {
+          "lang": "en",
+          "text": "in her knee finally gave way to a feeling of",
+          "start_sample": 47382,
+          "end_sample": 83201,
+          "start_ms": 2961,
+          "end_ms": 5200
+        },
+        {
+          "lang": "ja",
+          "text": "軽さ.",
+          "start_sample": 83201,
+          "end_sample": 90587,
+          "start_ms": 5200,
+          "end_ms": 5662
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 270,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjj"
+}

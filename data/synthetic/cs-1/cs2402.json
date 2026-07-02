@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2402.flac",
+  "sentence": "彼女のserveは誰も返せないほど鋭かった。",
+  "sample_rate": 16000,
+  "duration_ms": 3831,
+  "reference_speaker": "jp/speaker_046_38f0b7b27586.mp3",
+  "seed": 2444,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女の",
+      "start_sample": 0,
+      "end_sample": 8016,
+      "start_ms": 0,
+      "end_ms": 501
+    },
+    {
+      "lang": "en",
+      "text": "serve",
+      "start_sample": 8016,
+      "end_sample": 29929,
+      "start_ms": 501,
+      "end_ms": 1871
+    },
+    {
+      "lang": "ja",
+      "text": "は誰も返せないほど鋭かった。",
+      "start_sample": 29929,
+      "end_sample": 61302,
+      "start_ms": 1871,
+      "end_ms": 3831
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo no serve ha dare mo kaese nai hodo surudokatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5839,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の",
+          "start_sample": 0,
+          "end_sample": 12681,
+          "start_ms": 0,
+          "end_ms": 793
+        },
+        {
+          "lang": "en",
+          "text": "serve",
+          "start_sample": 12681,
+          "end_sample": 34994,
+          "start_ms": 793,
+          "end_ms": 2187
+        },
+        {
+          "lang": "ja",
+          "text": "は誰も返せないほど鋭かった。",
+          "start_sample": 34994,
+          "end_sample": 93424,
+          "start_ms": 2187,
+          "end_ms": 5839
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女のserveは誰も返せないほど鋭かった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2859,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の",
+          "start_sample": 0,
+          "end_sample": 8216,
+          "start_ms": 0,
+          "end_ms": 514
+        },
+        {
+          "lang": "en",
+          "text": "serve",
+          "start_sample": 8216,
+          "end_sample": 14178,
+          "start_ms": 514,
+          "end_ms": 886
+        },
+        {
+          "lang": "ja",
+          "text": "は誰も返せないほど鋭かった。",
+          "start_sample": 14178,
+          "end_sample": 45751,
+          "start_ms": 886,
+          "end_ms": 2859
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

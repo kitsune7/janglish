@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5801.flac",
+  "sentence": "We ran out of 洗剤 again, so can you grab some on your way home?",
+  "sample_rate": 16000,
+  "duration_ms": 4367,
+  "reference_speaker": "en/speaker_046_c5e6fd979dbd.mp3",
+  "seed": 5843,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We ran out of",
+      "start_sample": 0,
+      "end_sample": 10372,
+      "start_ms": 0,
+      "end_ms": 648
+    },
+    {
+      "lang": "ja",
+      "text": "洗剤",
+      "start_sample": 10372,
+      "end_sample": 21047,
+      "start_ms": 648,
+      "end_ms": 1315
+    },
+    {
+      "lang": "en",
+      "text": "again, so can you grab some on your way home?",
+      "start_sample": 21047,
+      "end_sample": 69866,
+      "start_ms": 1315,
+      "end_ms": 4367
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We ran out of senzai again, so can you grab some on your way home?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4265,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We ran out of",
+          "start_sample": 0,
+          "end_sample": 10572,
+          "start_ms": 0,
+          "end_ms": 661
+        },
+        {
+          "lang": "ja",
+          "text": "洗剤",
+          "start_sample": 10572,
+          "end_sample": 19222,
+          "start_ms": 661,
+          "end_ms": 1201
+        },
+        {
+          "lang": "en",
+          "text": "again, so can you grab some on your way home?",
+          "start_sample": 19222,
+          "end_sample": 68241,
+          "start_ms": 1201,
+          "end_ms": 4265
+        }
+      ]
+    },
+    "ja": {
+      "text": "We ran out of 洗剤 again, so can you grab some on your way home?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4895,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We ran out of",
+          "start_sample": 0,
+          "end_sample": 16050,
+          "start_ms": 0,
+          "end_ms": 1003
+        },
+        {
+          "lang": "ja",
+          "text": "洗剤",
+          "start_sample": 16050,
+          "end_sample": 27125,
+          "start_ms": 1003,
+          "end_ms": 1695
+        },
+        {
+          "lang": "en",
+          "text": "again, so can you grab some on your way home?",
+          "start_sample": 27125,
+          "end_sample": 78324,
+          "start_ms": 1695,
+          "end_ms": 4895
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 219,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6597.flac",
+  "sentence": "The 残暑 in September keeps catching me off guard every single year.",
+  "sample_rate": 16000,
+  "duration_ms": 3726,
+  "reference_speaker": "en/speaker_015_995e028794f8.mp3",
+  "seed": 6639,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1242,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "残暑",
+      "start_sample": 1242,
+      "end_sample": 10452,
+      "start_ms": 78,
+      "end_ms": 653
+    },
+    {
+      "lang": "en",
+      "text": "in September keeps catching me off guard every single year.",
+      "start_sample": 10452,
+      "end_sample": 59608,
+      "start_ms": 653,
+      "end_ms": 3726
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The zansho in September keeps catching me off guard every single year.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4146,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1442,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "残暑",
+          "start_sample": 1442,
+          "end_sample": 16986,
+          "start_ms": 90,
+          "end_ms": 1062
+        },
+        {
+          "lang": "en",
+          "text": "in September keeps catching me off guard every single year.",
+          "start_sample": 16986,
+          "end_sample": 66342,
+          "start_ms": 1062,
+          "end_ms": 4146
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 残暑 in September keeps catching me off guard every single year.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5906,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5605,
+          "start_ms": 0,
+          "end_ms": 350
+        },
+        {
+          "lang": "ja",
+          "text": "残暑",
+          "start_sample": 5605,
+          "end_sample": 15215,
+          "start_ms": 350,
+          "end_ms": 951
+        },
+        {
+          "lang": "en",
+          "text": "in September keeps catching me off guard every single year.",
+          "start_sample": 15215,
+          "end_sample": 94502,
+          "start_ms": 951,
+          "end_ms": 5906
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 187,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

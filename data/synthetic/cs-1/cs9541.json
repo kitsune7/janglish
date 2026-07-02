@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9541.flac",
+  "sentence": "Their 特別室 came with a private butler and a dedicated phone line.",
+  "sample_rate": 16000,
+  "duration_ms": 4579,
+  "reference_speaker": "en/speaker_072_33acedb4c9a7.mp3",
+  "seed": 9583,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Their",
+      "start_sample": 0,
+      "end_sample": 3007,
+      "start_ms": 0,
+      "end_ms": 188
+    },
+    {
+      "lang": "ja",
+      "text": "特別室",
+      "start_sample": 3007,
+      "end_sample": 19422,
+      "start_ms": 188,
+      "end_ms": 1214
+    },
+    {
+      "lang": "en",
+      "text": "came with a private butler and a dedicated phone line.",
+      "start_sample": 19422,
+      "end_sample": 73266,
+      "start_ms": 1214,
+      "end_ms": 4579
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Their tokubetsu shitsu came with a private butler and a dedicated phone line.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5112,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their",
+          "start_sample": 0,
+          "end_sample": 3207,
+          "start_ms": 0,
+          "end_ms": 200
+        },
+        {
+          "lang": "ja",
+          "text": "特別室",
+          "start_sample": 3207,
+          "end_sample": 27744,
+          "start_ms": 200,
+          "end_ms": 1734
+        },
+        {
+          "lang": "en",
+          "text": "came with a private butler and a dedicated phone line.",
+          "start_sample": 27744,
+          "end_sample": 81788,
+          "start_ms": 1734,
+          "end_ms": 5112
+        }
+      ]
+    },
+    "ja": {
+      "text": "Their 特別室 came with a private butler and a dedicated phone line.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5705,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their",
+          "start_sample": 0,
+          "end_sample": 7045,
+          "start_ms": 0,
+          "end_ms": 440
+        },
+        {
+          "lang": "ja",
+          "text": "特別室",
+          "start_sample": 7045,
+          "end_sample": 23860,
+          "start_ms": 440,
+          "end_ms": 1491
+        },
+        {
+          "lang": "en",
+          "text": "came with a private butler and a dedicated phone line.",
+          "start_sample": 23860,
+          "end_sample": 91281,
+          "start_ms": 1491,
+          "end_ms": 5705
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 229,
+  "frame_labels": "eeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

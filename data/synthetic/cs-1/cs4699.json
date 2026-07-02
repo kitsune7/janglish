@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4699.flac",
+  "sentence": "I read the whole article before my 乗車 time was even half over.",
+  "sample_rate": 16000,
+  "duration_ms": 3241,
+  "reference_speaker": "en/speaker_014_9db071da66e5.mp3",
+  "seed": 4741,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I read the whole article before my",
+      "start_sample": 0,
+      "end_sample": 22834,
+      "start_ms": 0,
+      "end_ms": 1427
+    },
+    {
+      "lang": "ja",
+      "text": "乗車",
+      "start_sample": 22834,
+      "end_sample": 31920,
+      "start_ms": 1427,
+      "end_ms": 1995
+    },
+    {
+      "lang": "en",
+      "text": "time was even half over.",
+      "start_sample": 31920,
+      "end_sample": 51854,
+      "start_ms": 1995,
+      "end_ms": 3241
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I read the whole article before my jousha time was even half over.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3101,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I read the whole article before my",
+          "start_sample": 0,
+          "end_sample": 23034,
+          "start_ms": 0,
+          "end_ms": 1440
+        },
+        {
+          "lang": "ja",
+          "text": "乗車",
+          "start_sample": 23034,
+          "end_sample": 29479,
+          "start_ms": 1440,
+          "end_ms": 1842
+        },
+        {
+          "lang": "en",
+          "text": "time was even half over.",
+          "start_sample": 29479,
+          "end_sample": 49613,
+          "start_ms": 1842,
+          "end_ms": 3101
+        }
+      ]
+    },
+    "ja": {
+      "text": "I read the whole article before my 乗車 time was even half over.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4622,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I read the whole article before my",
+          "start_sample": 0,
+          "end_sample": 34888,
+          "start_ms": 0,
+          "end_ms": 2180
+        },
+        {
+          "lang": "ja",
+          "text": "乗車",
+          "start_sample": 34888,
+          "end_sample": 44374,
+          "start_ms": 2180,
+          "end_ms": 2773
+        },
+        {
+          "lang": "en",
+          "text": "time was even half over.",
+          "start_sample": 44374,
+          "end_sample": 73953,
+          "start_ms": 2773,
+          "end_ms": 4622
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 163,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

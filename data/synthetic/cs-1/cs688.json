@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs688.flac",
+  "sentence": "新しいblushを頬に軽くのせると顔が明るく見えます。",
+  "sample_rate": 16000,
+  "duration_ms": 3742,
+  "reference_speaker": "jp/speaker_002_02a8841a00d7.mp3",
+  "seed": 730,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "新しい",
+      "start_sample": 0,
+      "end_sample": 9593,
+      "start_ms": 0,
+      "end_ms": 600
+    },
+    {
+      "lang": "en",
+      "text": "blush",
+      "start_sample": 9593,
+      "end_sample": 14484,
+      "start_ms": 600,
+      "end_ms": 905
+    },
+    {
+      "lang": "ja",
+      "text": "を頬に軽くのせると顔が明るく見えます。",
+      "start_sample": 14484,
+      "end_sample": 59877,
+      "start_ms": 905,
+      "end_ms": 3742
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "atarashii blush wo hoo ni karuku noseru to kao ga akaruku mie masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7415,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 30143,
+          "start_ms": 0,
+          "end_ms": 1884
+        },
+        {
+          "lang": "en",
+          "text": "blush",
+          "start_sample": 30143,
+          "end_sample": 35434,
+          "start_ms": 1884,
+          "end_ms": 2215
+        },
+        {
+          "lang": "ja",
+          "text": "を頬に軽くのせると顔が明るく見えます。",
+          "start_sample": 35434,
+          "end_sample": 118647,
+          "start_ms": 2215,
+          "end_ms": 7415
+        }
+      ]
+    },
+    "ja": {
+      "text": "新しいblushを頬に軽くのせると顔が明るく見えます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3873,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 9793,
+          "start_ms": 0,
+          "end_ms": 612
+        },
+        {
+          "lang": "en",
+          "text": "blush",
+          "start_sample": 9793,
+          "end_sample": 16375,
+          "start_ms": 612,
+          "end_ms": 1023
+        },
+        {
+          "lang": "ja",
+          "text": "を頬に軽くのせると顔が明るく見えます。",
+          "start_sample": 16375,
+          "end_sample": 61968,
+          "start_ms": 1023,
+          "end_ms": 3873
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

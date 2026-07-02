@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2120.flac",
+  "sentence": "He kept his answers 簡潔 and avoided rambling, which the interviewers appreciated.",
+  "sample_rate": 16000,
+  "duration_ms": 6345,
+  "reference_speaker": "jp/speaker_076_e83c8bab36f0.mp3",
+  "seed": 2162,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He kept his answers",
+      "start_sample": 0,
+      "end_sample": 18052,
+      "start_ms": 0,
+      "end_ms": 1128
+    },
+    {
+      "lang": "ja",
+      "text": "簡潔",
+      "start_sample": 18052,
+      "end_sample": 27427,
+      "start_ms": 1128,
+      "end_ms": 1714
+    },
+    {
+      "lang": "en",
+      "text": "and avoided rambling, which the interviewers appreciated.",
+      "start_sample": 27427,
+      "end_sample": 101521,
+      "start_ms": 1714,
+      "end_ms": 6345
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He kept his answers kanketsu and avoided rambling, which the interviewers appreciated.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7125,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He kept his answers",
+          "start_sample": 0,
+          "end_sample": 18252,
+          "start_ms": 0,
+          "end_ms": 1141
+        },
+        {
+          "lang": "ja",
+          "text": "簡潔",
+          "start_sample": 18252,
+          "end_sample": 39708,
+          "start_ms": 1141,
+          "end_ms": 2482
+        },
+        {
+          "lang": "en",
+          "text": "and avoided rambling, which the interviewers appreciated.",
+          "start_sample": 39708,
+          "end_sample": 114002,
+          "start_ms": 2482,
+          "end_ms": 7125
+        }
+      ]
+    },
+    "ja": {
+      "text": "He kept his answers 簡潔 and avoided rambling, which the interviewers appreciated.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7211,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He kept his answers",
+          "start_sample": 0,
+          "end_sample": 25320,
+          "start_ms": 0,
+          "end_ms": 1582
+        },
+        {
+          "lang": "ja",
+          "text": "簡潔",
+          "start_sample": 25320,
+          "end_sample": 35095,
+          "start_ms": 1582,
+          "end_ms": 2193
+        },
+        {
+          "lang": "en",
+          "text": "and avoided rambling, which the interviewers appreciated.",
+          "start_sample": 35095,
+          "end_sample": 115381,
+          "start_ms": 2193,
+          "end_ms": 7211
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 318,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

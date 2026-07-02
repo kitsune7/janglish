@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9530.flac",
+  "sentence": "I prefer a room on a 高層 floor so I don't hear street noise at night.",
+  "sample_rate": 16000,
+  "duration_ms": 6705,
+  "reference_speaker": "jp/speaker_095_1daf6547c74f.mp3",
+  "seed": 9572,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I prefer a room on a",
+      "start_sample": 0,
+      "end_sample": 19493,
+      "start_ms": 0,
+      "end_ms": 1218
+    },
+    {
+      "lang": "ja",
+      "text": "高層",
+      "start_sample": 19493,
+      "end_sample": 27426,
+      "start_ms": 1218,
+      "end_ms": 1714
+    },
+    {
+      "lang": "en",
+      "text": "floor so I don't hear street noise at night.",
+      "start_sample": 27426,
+      "end_sample": 107284,
+      "start_ms": 1714,
+      "end_ms": 6705
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I prefer a room on a kousou floor so I don't hear street noise at night.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6665,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I prefer a room on a",
+          "start_sample": 0,
+          "end_sample": 19693,
+          "start_ms": 0,
+          "end_ms": 1231
+        },
+        {
+          "lang": "ja",
+          "text": "高層",
+          "start_sample": 19693,
+          "end_sample": 26578,
+          "start_ms": 1231,
+          "end_ms": 1661
+        },
+        {
+          "lang": "en",
+          "text": "floor so I don't hear street noise at night.",
+          "start_sample": 26578,
+          "end_sample": 106636,
+          "start_ms": 1661,
+          "end_ms": 6665
+        }
+      ]
+    },
+    "ja": {
+      "text": "I prefer a room on a 高層 floor so I don't hear street noise at night.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5709,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I prefer a room on a",
+          "start_sample": 0,
+          "end_sample": 31410,
+          "start_ms": 0,
+          "end_ms": 1963
+        },
+        {
+          "lang": "ja",
+          "text": "高層",
+          "start_sample": 31410,
+          "end_sample": 39743,
+          "start_ms": 1963,
+          "end_ms": 2484
+        },
+        {
+          "lang": "en",
+          "text": "floor so I don't hear street noise at night.",
+          "start_sample": 39743,
+          "end_sample": 91346,
+          "start_ms": 2484,
+          "end_ms": 5709
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 336,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

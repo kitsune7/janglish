@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8195.flac",
+  "sentence": "毎日同じ部屋にいると、productiveな気分になれない時がある。",
+  "sample_rate": 16000,
+  "duration_ms": 4397,
+  "reference_speaker": "jp/speaker_076_e83c8bab36f0.mp3",
+  "seed": 8237,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "毎日同じ部屋にいると、",
+      "start_sample": 0,
+      "end_sample": 28972,
+      "start_ms": 0,
+      "end_ms": 1811
+    },
+    {
+      "lang": "en",
+      "text": "productive",
+      "start_sample": 28972,
+      "end_sample": 44431,
+      "start_ms": 1811,
+      "end_ms": 2777
+    },
+    {
+      "lang": "ja",
+      "text": "な気分になれない時がある。",
+      "start_sample": 44431,
+      "end_sample": 70356,
+      "start_ms": 2777,
+      "end_ms": 4397
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mainichi onaji heya ni iru to productive na kibun ni nare nai toki ga aru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9552,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎日同じ部屋にいると、",
+          "start_sample": 0,
+          "end_sample": 72408,
+          "start_ms": 0,
+          "end_ms": 4526
+        },
+        {
+          "lang": "en",
+          "text": "productive",
+          "start_sample": 72408,
+          "end_sample": 88267,
+          "start_ms": 4526,
+          "end_ms": 5517
+        },
+        {
+          "lang": "ja",
+          "text": "な気分になれない時がある。",
+          "start_sample": 88267,
+          "end_sample": 152826,
+          "start_ms": 5517,
+          "end_ms": 9552
+        }
+      ]
+    },
+    "ja": {
+      "text": "毎日同じ部屋にいると、productiveな気分になれない時がある。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4388,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎日同じ部屋にいると、",
+          "start_sample": 0,
+          "end_sample": 29172,
+          "start_ms": 0,
+          "end_ms": 1823
+        },
+        {
+          "lang": "en",
+          "text": "productive",
+          "start_sample": 29172,
+          "end_sample": 44079,
+          "start_ms": 1823,
+          "end_ms": 2755
+        },
+        {
+          "lang": "ja",
+          "text": "な気分になれない時がある。",
+          "start_sample": 44079,
+          "end_sample": 70204,
+          "start_ms": 2755,
+          "end_ms": 4388
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 220,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

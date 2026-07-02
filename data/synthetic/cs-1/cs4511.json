@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4511.flac",
+  "sentence": "わたしのスマホのstorageがもうほとんど残っていない。",
+  "sample_rate": 16000,
+  "duration_ms": 4145,
+  "reference_speaker": "en/speaker_049_4b799abf92c3.mp3",
+  "seed": 4553,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "わたしのスマホの",
+      "start_sample": 0,
+      "end_sample": 16299,
+      "start_ms": 0,
+      "end_ms": 1019
+    },
+    {
+      "lang": "en",
+      "text": "storage",
+      "start_sample": 16299,
+      "end_sample": 39602,
+      "start_ms": 1019,
+      "end_ms": 2475
+    },
+    {
+      "lang": "ja",
+      "text": "がもうほとんど残っていない。",
+      "start_sample": 39602,
+      "end_sample": 66314,
+      "start_ms": 2475,
+      "end_ms": 4145
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "watashi no sumaho no storage ga mou hotondo nokotsu te i nai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6966,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "わたしのスマホの",
+          "start_sample": 0,
+          "end_sample": 46282,
+          "start_ms": 0,
+          "end_ms": 2893
+        },
+        {
+          "lang": "en",
+          "text": "storage",
+          "start_sample": 46282,
+          "end_sample": 69985,
+          "start_ms": 2893,
+          "end_ms": 4374
+        },
+        {
+          "lang": "ja",
+          "text": "がもうほとんど残っていない。",
+          "start_sample": 69985,
+          "end_sample": 111463,
+          "start_ms": 4374,
+          "end_ms": 6966
+        }
+      ]
+    },
+    "ja": {
+      "text": "わたしのスマホのstorageがもうほとんど残っていない。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3304,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "わたしのスマホの",
+          "start_sample": 0,
+          "end_sample": 16499,
+          "start_ms": 0,
+          "end_ms": 1031
+        },
+        {
+          "lang": "en",
+          "text": "storage",
+          "start_sample": 16499,
+          "end_sample": 25950,
+          "start_ms": 1031,
+          "end_ms": 1622
+        },
+        {
+          "lang": "ja",
+          "text": "がもうほとんど残っていない。",
+          "start_sample": 25950,
+          "end_sample": 52862,
+          "start_ms": 1622,
+          "end_ms": 3304
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7857.flac",
+  "sentence": "His desk is so messy that his 教科書 are buried under everything.",
+  "sample_rate": 16000,
+  "duration_ms": 3530,
+  "reference_speaker": "en/speaker_001_b06ec2cd8db9.mp3",
+  "seed": 7899,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His desk is so messy that his",
+      "start_sample": 0,
+      "end_sample": 26278,
+      "start_ms": 0,
+      "end_ms": 1642
+    },
+    {
+      "lang": "ja",
+      "text": "教科書",
+      "start_sample": 26278,
+      "end_sample": 34053,
+      "start_ms": 1642,
+      "end_ms": 2128
+    },
+    {
+      "lang": "en",
+      "text": "are buried under everything.",
+      "start_sample": 34053,
+      "end_sample": 56478,
+      "start_ms": 2128,
+      "end_ms": 3530
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His desk is so messy that his kyouka kaki are buried under everything.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3972,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His desk is so messy that his",
+          "start_sample": 0,
+          "end_sample": 26478,
+          "start_ms": 0,
+          "end_ms": 1655
+        },
+        {
+          "lang": "ja",
+          "text": "教科書",
+          "start_sample": 26478,
+          "end_sample": 40921,
+          "start_ms": 1655,
+          "end_ms": 2558
+        },
+        {
+          "lang": "en",
+          "text": "are buried under everything.",
+          "start_sample": 40921,
+          "end_sample": 63546,
+          "start_ms": 2558,
+          "end_ms": 3972
+        }
+      ]
+    },
+    "ja": {
+      "text": "His desk is so messy that his 教科書 are buried under everything.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4348,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His desk is so messy that his",
+          "start_sample": 0,
+          "end_sample": 39270,
+          "start_ms": 0,
+          "end_ms": 2454
+        },
+        {
+          "lang": "ja",
+          "text": "教科書",
+          "start_sample": 39270,
+          "end_sample": 47445,
+          "start_ms": 2454,
+          "end_ms": 2965
+        },
+        {
+          "lang": "en",
+          "text": "are buried under everything.",
+          "start_sample": 47445,
+          "end_sample": 69563,
+          "start_ms": 2965,
+          "end_ms": 4348
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

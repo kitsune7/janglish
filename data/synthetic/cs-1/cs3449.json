@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3449.flac",
+  "sentence": "The designer's new line is surprisingly 手頃 compared to last season.",
+  "sample_rate": 16000,
+  "duration_ms": 4870,
+  "reference_speaker": "en/speaker_030_bdb9e7b61df6.mp3",
+  "seed": 3491,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The designer's new line is surprisingly",
+      "start_sample": 0,
+      "end_sample": 40201,
+      "start_ms": 0,
+      "end_ms": 2513
+    },
+    {
+      "lang": "ja",
+      "text": "手頃",
+      "start_sample": 40201,
+      "end_sample": 49418,
+      "start_ms": 2513,
+      "end_ms": 3089
+    },
+    {
+      "lang": "en",
+      "text": "compared to last season.",
+      "start_sample": 49418,
+      "end_sample": 77914,
+      "start_ms": 3089,
+      "end_ms": 4870
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The designer's new line is surprisingly tegoro compared to last season.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5150,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The designer's new line is surprisingly",
+          "start_sample": 0,
+          "end_sample": 40401,
+          "start_ms": 0,
+          "end_ms": 2525
+        },
+        {
+          "lang": "ja",
+          "text": "手頃",
+          "start_sample": 40401,
+          "end_sample": 53708,
+          "start_ms": 2525,
+          "end_ms": 3357
+        },
+        {
+          "lang": "en",
+          "text": "compared to last season.",
+          "start_sample": 53708,
+          "end_sample": 82404,
+          "start_ms": 3357,
+          "end_ms": 5150
+        }
+      ]
+    },
+    "ja": {
+      "text": "The designer's new line is surprisingly 手頃 compared to last season.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5349,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The designer's new line is surprisingly",
+          "start_sample": 0,
+          "end_sample": 50165,
+          "start_ms": 0,
+          "end_ms": 3135
+        },
+        {
+          "lang": "ja",
+          "text": "手頃",
+          "start_sample": 50165,
+          "end_sample": 59782,
+          "start_ms": 3135,
+          "end_ms": 3736
+        },
+        {
+          "lang": "en",
+          "text": "compared to last season.",
+          "start_sample": 59782,
+          "end_sample": 85585,
+          "start_ms": 3736,
+          "end_ms": 5349
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 244,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

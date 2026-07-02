@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7914.flac",
+  "sentence": "Their holiday cookies were shaped like 鬼 masks, which the kids absolutely loved.",
+  "sample_rate": 16000,
+  "duration_ms": 4478,
+  "reference_speaker": "jp/speaker_083_f660ed2250be.mp3",
+  "seed": 7956,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Their holiday cookies were shaped like",
+      "start_sample": 0,
+      "end_sample": 26405,
+      "start_ms": 0,
+      "end_ms": 1650
+    },
+    {
+      "lang": "ja",
+      "text": "鬼",
+      "start_sample": 26405,
+      "end_sample": 29691,
+      "start_ms": 1650,
+      "end_ms": 1856
+    },
+    {
+      "lang": "en",
+      "text": "masks, which the kids absolutely loved.",
+      "start_sample": 29691,
+      "end_sample": 71642,
+      "start_ms": 1856,
+      "end_ms": 4478
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Their holiday cookies were shaped like oni masks, which the kids absolutely loved.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4568,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their holiday cookies were shaped like",
+          "start_sample": 0,
+          "end_sample": 26605,
+          "start_ms": 0,
+          "end_ms": 1663
+        },
+        {
+          "lang": "ja",
+          "text": "鬼",
+          "start_sample": 26605,
+          "end_sample": 30932,
+          "start_ms": 1663,
+          "end_ms": 1933
+        },
+        {
+          "lang": "en",
+          "text": "masks, which the kids absolutely loved.",
+          "start_sample": 30932,
+          "end_sample": 73083,
+          "start_ms": 1933,
+          "end_ms": 4568
+        }
+      ]
+    },
+    "ja": {
+      "text": "Their holiday cookies were shaped like 鬼 masks, which the kids absolutely loved.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6431,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their holiday cookies were shaped like",
+          "start_sample": 0,
+          "end_sample": 33335,
+          "start_ms": 0,
+          "end_ms": 2083
+        },
+        {
+          "lang": "ja",
+          "text": "鬼",
+          "start_sample": 33335,
+          "end_sample": 37021,
+          "start_ms": 2083,
+          "end_ms": 2314
+        },
+        {
+          "lang": "en",
+          "text": "masks, which the kids absolutely loved.",
+          "start_sample": 37021,
+          "end_sample": 102889,
+          "start_ms": 2314,
+          "end_ms": 6431
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 224,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

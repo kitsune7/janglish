@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs367.flac",
+  "sentence": "The automated 引き落とし is convenient, but losing track of it is dangerously 無頓着.",
+  "sample_rate": 16000,
+  "duration_ms": 5225,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 17222,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The automated",
+      "start_sample": 0,
+      "end_sample": 10699,
+      "start_ms": 0,
+      "end_ms": 669
+    },
+    {
+      "lang": "ja",
+      "text": "引き落とし",
+      "start_sample": 10699,
+      "end_sample": 19123,
+      "start_ms": 669,
+      "end_ms": 1195
+    },
+    {
+      "lang": "en",
+      "text": "is convenient, but losing track of it is dangerously",
+      "start_sample": 19123,
+      "end_sample": 75146,
+      "start_ms": 1195,
+      "end_ms": 4697
+    },
+    {
+      "lang": "ja",
+      "text": "無頓着.",
+      "start_sample": 75146,
+      "end_sample": 83607,
+      "start_ms": 4697,
+      "end_ms": 5225
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The automated hikiotoshi is convenient, but losing track of it is dangerously mu tonchaku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6392,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The automated",
+          "start_sample": 0,
+          "end_sample": 10899,
+          "start_ms": 0,
+          "end_ms": 681
+        },
+        {
+          "lang": "ja",
+          "text": "引き落とし",
+          "start_sample": 10899,
+          "end_sample": 23081,
+          "start_ms": 681,
+          "end_ms": 1443
+        },
+        {
+          "lang": "en",
+          "text": "is convenient, but losing track of it is dangerously",
+          "start_sample": 23081,
+          "end_sample": 79504,
+          "start_ms": 1443,
+          "end_ms": 4969
+        },
+        {
+          "lang": "ja",
+          "text": "無頓着.",
+          "start_sample": 79504,
+          "end_sample": 102264,
+          "start_ms": 4969,
+          "end_ms": 6392
+        }
+      ]
+    },
+    "ja": {
+      "text": "The automated 引き落とし is convenient, but losing track of it is dangerously 無頓着.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5013,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The automated",
+          "start_sample": 0,
+          "end_sample": 15079,
+          "start_ms": 0,
+          "end_ms": 942
+        },
+        {
+          "lang": "ja",
+          "text": "引き落とし",
+          "start_sample": 15079,
+          "end_sample": 23903,
+          "start_ms": 942,
+          "end_ms": 1494
+        },
+        {
+          "lang": "en",
+          "text": "is convenient, but losing track of it is dangerously",
+          "start_sample": 23903,
+          "end_sample": 71549,
+          "start_ms": 1494,
+          "end_ms": 4472
+        },
+        {
+          "lang": "ja",
+          "text": "無頓着.",
+          "start_sample": 71549,
+          "end_sample": 80210,
+          "start_ms": 4472,
+          "end_ms": 5013
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 262,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

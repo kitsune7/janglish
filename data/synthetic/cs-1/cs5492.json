@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5492.flac",
+  "sentence": "She borrowed the 続編 from the library before I even finished the first book.",
+  "sample_rate": 16000,
+  "duration_ms": 3837,
+  "reference_speaker": "en/speaker_014_9db071da66e5.mp3",
+  "seed": 5534,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She borrowed the",
+      "start_sample": 0,
+      "end_sample": 9255,
+      "start_ms": 0,
+      "end_ms": 578
+    },
+    {
+      "lang": "ja",
+      "text": "続編",
+      "start_sample": 9255,
+      "end_sample": 19447,
+      "start_ms": 578,
+      "end_ms": 1215
+    },
+    {
+      "lang": "en",
+      "text": "from the library before I even finished the first book.",
+      "start_sample": 19447,
+      "end_sample": 61397,
+      "start_ms": 1215,
+      "end_ms": 3837
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She borrowed the zokuhen from the library before I even finished the first book.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3766,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She borrowed the",
+          "start_sample": 0,
+          "end_sample": 9455,
+          "start_ms": 0,
+          "end_ms": 591
+        },
+        {
+          "lang": "ja",
+          "text": "続編",
+          "start_sample": 9455,
+          "end_sample": 18110,
+          "start_ms": 591,
+          "end_ms": 1132
+        },
+        {
+          "lang": "en",
+          "text": "from the library before I even finished the first book.",
+          "start_sample": 18110,
+          "end_sample": 60260,
+          "start_ms": 1132,
+          "end_ms": 3766
+        }
+      ]
+    },
+    "ja": {
+      "text": "She borrowed the 続編 from the library before I even finished the first book.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5917,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She borrowed the",
+          "start_sample": 0,
+          "end_sample": 12675,
+          "start_ms": 0,
+          "end_ms": 792
+        },
+        {
+          "lang": "ja",
+          "text": "続編",
+          "start_sample": 12675,
+          "end_sample": 23267,
+          "start_ms": 792,
+          "end_ms": 1454
+        },
+        {
+          "lang": "en",
+          "text": "from the library before I even finished the first book.",
+          "start_sample": 23267,
+          "end_sample": 94678,
+          "start_ms": 1454,
+          "end_ms": 5917
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

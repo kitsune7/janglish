@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9508.flac",
+  "sentence": "The 部屋 was so cramped that I could barely open my suitcase.",
+  "sample_rate": 16000,
+  "duration_ms": 4360,
+  "reference_speaker": "en/speaker_097_44a775a22921.mp3",
+  "seed": 9550,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1568,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "部屋",
+      "start_sample": 1568,
+      "end_sample": 7431,
+      "start_ms": 98,
+      "end_ms": 464
+    },
+    {
+      "lang": "en",
+      "text": "was so cramped that I could barely open my suitcase.",
+      "start_sample": 7431,
+      "end_sample": 69763,
+      "start_ms": 464,
+      "end_ms": 4360
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The heya was so cramped that I could barely open my suitcase.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4380,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1768,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "部屋",
+          "start_sample": 1768,
+          "end_sample": 7555,
+          "start_ms": 110,
+          "end_ms": 472
+        },
+        {
+          "lang": "en",
+          "text": "was so cramped that I could barely open my suitcase.",
+          "start_sample": 7555,
+          "end_sample": 70087,
+          "start_ms": 472,
+          "end_ms": 4380
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 部屋 was so cramped that I could barely open my suitcase.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4416,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4011,
+          "start_ms": 0,
+          "end_ms": 251
+        },
+        {
+          "lang": "ja",
+          "text": "部屋",
+          "start_sample": 4011,
+          "end_sample": 10274,
+          "start_ms": 251,
+          "end_ms": 642
+        },
+        {
+          "lang": "en",
+          "text": "was so cramped that I could barely open my suitcase.",
+          "start_sample": 10274,
+          "end_sample": 70658,
+          "start_ms": 642,
+          "end_ms": 4416
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 219,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11132.flac",
+  "sentence": "梅雨の時期はgrayな空が続いて、少し憂鬱になる。",
+  "sample_rate": 16000,
+  "duration_ms": 3012,
+  "reference_speaker": "jp/speaker_019_45c9ebd0ae18.mp3",
+  "seed": 11174,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "梅雨の時期は",
+      "start_sample": 0,
+      "end_sample": 10244,
+      "start_ms": 0,
+      "end_ms": 640
+    },
+    {
+      "lang": "en",
+      "text": "gray",
+      "start_sample": 10244,
+      "end_sample": 15619,
+      "start_ms": 640,
+      "end_ms": 976
+    },
+    {
+      "lang": "ja",
+      "text": "な空が続いて、少し憂鬱になる。",
+      "start_sample": 15619,
+      "end_sample": 48195,
+      "start_ms": 976,
+      "end_ms": 3012
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "tsuyu no jiki ha gray na sora ga tsuzui te sukoshi yuuutsu ni naru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6436,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "梅雨の時期は",
+          "start_sample": 0,
+          "end_sample": 26949,
+          "start_ms": 0,
+          "end_ms": 1684
+        },
+        {
+          "lang": "en",
+          "text": "gray",
+          "start_sample": 26949,
+          "end_sample": 32724,
+          "start_ms": 1684,
+          "end_ms": 2045
+        },
+        {
+          "lang": "ja",
+          "text": "な空が続いて、少し憂鬱になる。",
+          "start_sample": 32724,
+          "end_sample": 102984,
+          "start_ms": 2045,
+          "end_ms": 6436
+        }
+      ]
+    },
+    "ja": {
+      "text": "梅雨の時期はgrayな空が続いて、少し憂鬱になる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2992,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "梅雨の時期は",
+          "start_sample": 0,
+          "end_sample": 10444,
+          "start_ms": 0,
+          "end_ms": 653
+        },
+        {
+          "lang": "en",
+          "text": "gray",
+          "start_sample": 10444,
+          "end_sample": 15104,
+          "start_ms": 653,
+          "end_ms": 944
+        },
+        {
+          "lang": "ja",
+          "text": "な空が続いて、少し憂鬱になる。",
+          "start_sample": 15104,
+          "end_sample": 47880,
+          "start_ms": 944,
+          "end_ms": 2992
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 151,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

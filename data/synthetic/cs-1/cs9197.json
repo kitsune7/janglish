@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9197.flac",
+  "sentence": "洗濯物をdryer に入れるのを忘れないでください。",
+  "sample_rate": 16000,
+  "duration_ms": 2662,
+  "reference_speaker": "jp/speaker_025_0f8f304ca1ab.mp3",
+  "seed": 9239,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "洗濯物を",
+      "start_sample": 0,
+      "end_sample": 10087,
+      "start_ms": 0,
+      "end_ms": 630
+    },
+    {
+      "lang": "en",
+      "text": "dryer",
+      "start_sample": 10087,
+      "end_sample": 17400,
+      "start_ms": 630,
+      "end_ms": 1088
+    },
+    {
+      "lang": "ja",
+      "text": "に入れるのを忘れないでください。",
+      "start_sample": 17400,
+      "end_sample": 42593,
+      "start_ms": 1088,
+      "end_ms": 2662
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sentaku mono wo dryer ni ireru no wo wasure nai de kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5503,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "洗濯物を",
+          "start_sample": 0,
+          "end_sample": 17192,
+          "start_ms": 0,
+          "end_ms": 1074
+        },
+        {
+          "lang": "en",
+          "text": "dryer",
+          "start_sample": 17192,
+          "end_sample": 24905,
+          "start_ms": 1074,
+          "end_ms": 1557
+        },
+        {
+          "lang": "ja",
+          "text": "に入れるのを忘れないでください。",
+          "start_sample": 24905,
+          "end_sample": 88049,
+          "start_ms": 1557,
+          "end_ms": 5503
+        }
+      ]
+    },
+    "ja": {
+      "text": "洗濯物をdryer に入れるのを忘れないでください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2471,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "洗濯物を",
+          "start_sample": 0,
+          "end_sample": 10287,
+          "start_ms": 0,
+          "end_ms": 643
+        },
+        {
+          "lang": "en",
+          "text": "dryer",
+          "start_sample": 10287,
+          "end_sample": 14145,
+          "start_ms": 643,
+          "end_ms": 884
+        },
+        {
+          "lang": "ja",
+          "text": "に入れるのを忘れないでください。",
+          "start_sample": 14145,
+          "end_sample": 39538,
+          "start_ms": 884,
+          "end_ms": 2471
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 134,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

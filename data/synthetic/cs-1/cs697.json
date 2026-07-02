@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs697.flac",
+  "sentence": "最近、脚のwaxingを自分でやってみています。",
+  "sample_rate": 16000,
+  "duration_ms": 3557,
+  "reference_speaker": "en/speaker_066_73a931d5f7bb.mp3",
+  "seed": 739,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "最近、脚の",
+      "start_sample": 0,
+      "end_sample": 13325,
+      "start_ms": 0,
+      "end_ms": 833
+    },
+    {
+      "lang": "en",
+      "text": "waxing",
+      "start_sample": 13325,
+      "end_sample": 31682,
+      "start_ms": 833,
+      "end_ms": 1980
+    },
+    {
+      "lang": "ja",
+      "text": "を自分でやってみています。",
+      "start_sample": 31682,
+      "end_sample": 56917,
+      "start_ms": 1980,
+      "end_ms": 3557
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "saikin ashi no waxing wo jibun de yatsu te mi te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6392,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "最近、脚の",
+          "start_sample": 0,
+          "end_sample": 19556,
+          "start_ms": 0,
+          "end_ms": 1222
+        },
+        {
+          "lang": "en",
+          "text": "waxing",
+          "start_sample": 19556,
+          "end_sample": 38313,
+          "start_ms": 1222,
+          "end_ms": 2395
+        },
+        {
+          "lang": "ja",
+          "text": "を自分でやってみています。",
+          "start_sample": 38313,
+          "end_sample": 102277,
+          "start_ms": 2395,
+          "end_ms": 6392
+        }
+      ]
+    },
+    "ja": {
+      "text": "最近、脚のwaxingを自分でやってみています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2817,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "最近、脚の",
+          "start_sample": 0,
+          "end_sample": 13525,
+          "start_ms": 0,
+          "end_ms": 845
+        },
+        {
+          "lang": "en",
+          "text": "waxing",
+          "start_sample": 13525,
+          "end_sample": 19643,
+          "start_ms": 845,
+          "end_ms": 1228
+        },
+        {
+          "lang": "ja",
+          "text": "を自分でやってみています。",
+          "start_sample": 19643,
+          "end_sample": 45078,
+          "start_ms": 1228,
+          "end_ms": 2817
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 178,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

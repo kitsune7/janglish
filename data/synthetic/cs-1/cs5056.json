@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5056.flac",
+  "sentence": "昨日のmatchで完全に負けてしまった。",
+  "sample_rate": 16000,
+  "duration_ms": 2456,
+  "reference_speaker": "en/speaker_037_fbb436f58f44.mp3",
+  "seed": 5098,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "昨日の",
+      "start_sample": 0,
+      "end_sample": 6696,
+      "start_ms": 0,
+      "end_ms": 418
+    },
+    {
+      "lang": "en",
+      "text": "match",
+      "start_sample": 6696,
+      "end_sample": 16235,
+      "start_ms": 418,
+      "end_ms": 1015
+    },
+    {
+      "lang": "ja",
+      "text": "で完全に負けてしまった。",
+      "start_sample": 16235,
+      "end_sample": 39288,
+      "start_ms": 1015,
+      "end_ms": 2456
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kinou no match de kanzen ni make te shimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6513,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "昨日の",
+          "start_sample": 0,
+          "end_sample": 37193,
+          "start_ms": 0,
+          "end_ms": 2325
+        },
+        {
+          "lang": "en",
+          "text": "match",
+          "start_sample": 37193,
+          "end_sample": 47132,
+          "start_ms": 2325,
+          "end_ms": 2946
+        },
+        {
+          "lang": "ja",
+          "text": "で完全に負けてしまった。",
+          "start_sample": 47132,
+          "end_sample": 104202,
+          "start_ms": 2946,
+          "end_ms": 6513
+        }
+      ]
+    },
+    "ja": {
+      "text": "昨日のmatchで完全に負けてしまった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2185,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "昨日の",
+          "start_sample": 0,
+          "end_sample": 6896,
+          "start_ms": 0,
+          "end_ms": 431
+        },
+        {
+          "lang": "en",
+          "text": "match",
+          "start_sample": 6896,
+          "end_sample": 11707,
+          "start_ms": 431,
+          "end_ms": 732
+        },
+        {
+          "lang": "ja",
+          "text": "で完全に負けてしまった。",
+          "start_sample": 11707,
+          "end_sample": 34960,
+          "start_ms": 732,
+          "end_ms": 2185
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 123,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

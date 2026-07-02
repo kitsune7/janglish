@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11538.flac",
+  "sentence": "She read 静かに in the quiet zone the entire two-hour ride.",
+  "sample_rate": 16000,
+  "duration_ms": 4794,
+  "reference_speaker": "en/speaker_018_b0dec8b93359.mp3",
+  "seed": 11580,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She read",
+      "start_sample": 0,
+      "end_sample": 5579,
+      "start_ms": 0,
+      "end_ms": 349
+    },
+    {
+      "lang": "ja",
+      "text": "静かに",
+      "start_sample": 5579,
+      "end_sample": 17991,
+      "start_ms": 349,
+      "end_ms": 1124
+    },
+    {
+      "lang": "en",
+      "text": "in the quiet zone the entire two-hour ride.",
+      "start_sample": 17991,
+      "end_sample": 76703,
+      "start_ms": 1124,
+      "end_ms": 4794
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She read shizuka ni in the quiet zone the entire two-hour ride.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5177,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She read",
+          "start_sample": 0,
+          "end_sample": 5779,
+          "start_ms": 0,
+          "end_ms": 361
+        },
+        {
+          "lang": "ja",
+          "text": "静かに",
+          "start_sample": 5779,
+          "end_sample": 23918,
+          "start_ms": 361,
+          "end_ms": 1495
+        },
+        {
+          "lang": "en",
+          "text": "in the quiet zone the entire two-hour ride.",
+          "start_sample": 23918,
+          "end_sample": 82830,
+          "start_ms": 1495,
+          "end_ms": 5177
+        }
+      ]
+    },
+    "ja": {
+      "text": "She read 静かに in the quiet zone the entire two-hour ride.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5405,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She read",
+          "start_sample": 0,
+          "end_sample": 7527,
+          "start_ms": 0,
+          "end_ms": 470
+        },
+        {
+          "lang": "ja",
+          "text": "静かに",
+          "start_sample": 7527,
+          "end_sample": 20339,
+          "start_ms": 470,
+          "end_ms": 1271
+        },
+        {
+          "lang": "en",
+          "text": "in the quiet zone the entire two-hour ride.",
+          "start_sample": 20339,
+          "end_sample": 86482,
+          "start_ms": 1271,
+          "end_ms": 5405
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 240,
+  "frame_labels": "eeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

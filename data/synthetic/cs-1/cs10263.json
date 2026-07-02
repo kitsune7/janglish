@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10263.flac",
+  "sentence": "The clerk said the 遅延 was caused by a sorting facility backlog.",
+  "sample_rate": 16000,
+  "duration_ms": 4062,
+  "reference_speaker": "en/speaker_089_6f14b0930650.mp3",
+  "seed": 10305,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The clerk said the",
+      "start_sample": 0,
+      "end_sample": 10230,
+      "start_ms": 0,
+      "end_ms": 639
+    },
+    {
+      "lang": "ja",
+      "text": "遅延",
+      "start_sample": 10230,
+      "end_sample": 18178,
+      "start_ms": 639,
+      "end_ms": 1136
+    },
+    {
+      "lang": "en",
+      "text": "was caused by a sorting facility backlog.",
+      "start_sample": 18178,
+      "end_sample": 64996,
+      "start_ms": 1136,
+      "end_ms": 4062
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The clerk said the chien was caused by a sorting facility backlog.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3932,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The clerk said the",
+          "start_sample": 0,
+          "end_sample": 10430,
+          "start_ms": 0,
+          "end_ms": 652
+        },
+        {
+          "lang": "ja",
+          "text": "遅延",
+          "start_sample": 10430,
+          "end_sample": 15886,
+          "start_ms": 652,
+          "end_ms": 993
+        },
+        {
+          "lang": "en",
+          "text": "was caused by a sorting facility backlog.",
+          "start_sample": 15886,
+          "end_sample": 62904,
+          "start_ms": 993,
+          "end_ms": 3932
+        }
+      ]
+    },
+    "ja": {
+      "text": "The clerk said the 遅延 was caused by a sorting facility backlog.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5157,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The clerk said the",
+          "start_sample": 0,
+          "end_sample": 24718,
+          "start_ms": 0,
+          "end_ms": 1545
+        },
+        {
+          "lang": "ja",
+          "text": "遅延",
+          "start_sample": 24718,
+          "end_sample": 33066,
+          "start_ms": 1545,
+          "end_ms": 2067
+        },
+        {
+          "lang": "en",
+          "text": "was caused by a sorting facility backlog.",
+          "start_sample": 33066,
+          "end_sample": 82506,
+          "start_ms": 2067,
+          "end_ms": 5157
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

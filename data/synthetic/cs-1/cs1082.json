@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1082.flac",
+  "sentence": "夜にsilentモードにするのを忘れて、着信音で起きた。",
+  "sample_rate": 16000,
+  "duration_ms": 4007,
+  "reference_speaker": "en/speaker_012_29b1e5a58d16.mp3",
+  "seed": 1124,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "夜に",
+      "start_sample": 0,
+      "end_sample": 6372,
+      "start_ms": 0,
+      "end_ms": 398
+    },
+    {
+      "lang": "en",
+      "text": "silent",
+      "start_sample": 6372,
+      "end_sample": 16863,
+      "start_ms": 398,
+      "end_ms": 1054
+    },
+    {
+      "lang": "ja",
+      "text": "モードにするのを忘れて、着信音で起きた。",
+      "start_sample": 16863,
+      "end_sample": 64113,
+      "start_ms": 1054,
+      "end_ms": 4007
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "yoru ni silent moodo ni suru no wo wasure te chakushin oto de oki ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6986,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "夜に",
+          "start_sample": 0,
+          "end_sample": 6725,
+          "start_ms": 0,
+          "end_ms": 420
+        },
+        {
+          "lang": "en",
+          "text": "silent",
+          "start_sample": 6725,
+          "end_sample": 17616,
+          "start_ms": 420,
+          "end_ms": 1101
+        },
+        {
+          "lang": "ja",
+          "text": "モードにするのを忘れて、着信音で起きた。",
+          "start_sample": 17616,
+          "end_sample": 111783,
+          "start_ms": 1101,
+          "end_ms": 6986
+        }
+      ]
+    },
+    "ja": {
+      "text": "夜にsilentモードにするのを忘れて、着信音で起きた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3948,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "夜に",
+          "start_sample": 0,
+          "end_sample": 6572,
+          "start_ms": 0,
+          "end_ms": 411
+        },
+        {
+          "lang": "en",
+          "text": "silent",
+          "start_sample": 6572,
+          "end_sample": 15710,
+          "start_ms": 411,
+          "end_ms": 982
+        },
+        {
+          "lang": "ja",
+          "text": "モードにするのを忘れて、着信音で起きた。",
+          "start_sample": 15710,
+          "end_sample": 63160,
+          "start_ms": 982,
+          "end_ms": 3948
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

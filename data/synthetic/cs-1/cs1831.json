@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1831.flac",
+  "sentence": "野菜をfreshなうちに使ったほうがいいよ。",
+  "sample_rate": 16000,
+  "duration_ms": 2471,
+  "reference_speaker": "jp/speaker_089_6207739e2e58.mp3",
+  "seed": 1873,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "野菜を",
+      "start_sample": 0,
+      "end_sample": 7198,
+      "start_ms": 0,
+      "end_ms": 450
+    },
+    {
+      "lang": "en",
+      "text": "fresh",
+      "start_sample": 7198,
+      "end_sample": 18998,
+      "start_ms": 450,
+      "end_ms": 1187
+    },
+    {
+      "lang": "ja",
+      "text": "なうちに使ったほうがいいよ。",
+      "start_sample": 18998,
+      "end_sample": 39543,
+      "start_ms": 1187,
+      "end_ms": 2471
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "yasai wo fresh na uchi ni tsukatsu ta hou ga ii yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5719,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "野菜を",
+          "start_sample": 0,
+          "end_sample": 13163,
+          "start_ms": 0,
+          "end_ms": 823
+        },
+        {
+          "lang": "en",
+          "text": "fresh",
+          "start_sample": 13163,
+          "end_sample": 25363,
+          "start_ms": 823,
+          "end_ms": 1585
+        },
+        {
+          "lang": "ja",
+          "text": "なうちに使ったほうがいいよ。",
+          "start_sample": 25363,
+          "end_sample": 91497,
+          "start_ms": 1585,
+          "end_ms": 5719
+        }
+      ]
+    },
+    "ja": {
+      "text": "野菜をfreshなうちに使ったほうがいいよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2111,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "野菜を",
+          "start_sample": 0,
+          "end_sample": 7398,
+          "start_ms": 0,
+          "end_ms": 462
+        },
+        {
+          "lang": "en",
+          "text": "fresh",
+          "start_sample": 7398,
+          "end_sample": 13028,
+          "start_ms": 462,
+          "end_ms": 814
+        },
+        {
+          "lang": "ja",
+          "text": "なうちに使ったほうがいいよ。",
+          "start_sample": 13028,
+          "end_sample": 33773,
+          "start_ms": 814,
+          "end_ms": 2111
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 124,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

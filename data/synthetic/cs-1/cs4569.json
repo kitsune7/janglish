@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4569.flac",
+  "sentence": "地震のあとでshockを受けて、震えが止まらなかった。",
+  "sample_rate": 16000,
+  "duration_ms": 4275,
+  "reference_speaker": "en/speaker_079_9589554d8179.mp3",
+  "seed": 4611,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "地震のあとで",
+      "start_sample": 0,
+      "end_sample": 15016,
+      "start_ms": 0,
+      "end_ms": 938
+    },
+    {
+      "lang": "en",
+      "text": "shock",
+      "start_sample": 15016,
+      "end_sample": 33677,
+      "start_ms": 938,
+      "end_ms": 2105
+    },
+    {
+      "lang": "ja",
+      "text": "を受けて、震えが止まらなかった。",
+      "start_sample": 33677,
+      "end_sample": 68397,
+      "start_ms": 2105,
+      "end_ms": 4275
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "jishin no ato de shock wo uke te furue ga tomara nakatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 11112,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "地震のあとで",
+          "start_sample": 0,
+          "end_sample": 49811,
+          "start_ms": 0,
+          "end_ms": 3113
+        },
+        {
+          "lang": "en",
+          "text": "shock",
+          "start_sample": 49811,
+          "end_sample": 68872,
+          "start_ms": 3113,
+          "end_ms": 4304
+        },
+        {
+          "lang": "ja",
+          "text": "を受けて、震えが止まらなかった。",
+          "start_sample": 68872,
+          "end_sample": 177787,
+          "start_ms": 4304,
+          "end_ms": 11112
+        }
+      ]
+    },
+    "ja": {
+      "text": "地震のあとでshockを受けて、震えが止まらなかった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3524,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "地震のあとで",
+          "start_sample": 0,
+          "end_sample": 15216,
+          "start_ms": 0,
+          "end_ms": 951
+        },
+        {
+          "lang": "en",
+          "text": "shock",
+          "start_sample": 15216,
+          "end_sample": 21464,
+          "start_ms": 951,
+          "end_ms": 1342
+        },
+        {
+          "lang": "ja",
+          "text": "を受けて、震えが止まらなかった。",
+          "start_sample": 21464,
+          "end_sample": 56384,
+          "start_ms": 1342,
+          "end_ms": 3524
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 214,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

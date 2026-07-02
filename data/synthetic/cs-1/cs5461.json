@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs5461.flac",
+  "sentence": "memoryカードの容量が足りなくて、困ってしまった。",
+  "sample_rate": 16000,
+  "duration_ms": 3273,
+  "reference_speaker": "en/speaker_050_6b3579133fec.mp3",
+  "seed": 5503,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "memory",
+      "start_sample": 0,
+      "end_sample": 8130,
+      "start_ms": 0,
+      "end_ms": 508
+    },
+    {
+      "lang": "ja",
+      "text": "カードの容量が足りなくて、困ってしまった。",
+      "start_sample": 8130,
+      "end_sample": 52362,
+      "start_ms": 508,
+      "end_ms": 3273
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "memory kaado no youryou ga tari naku te komatsu te shimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10654,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "memory",
+          "start_sample": 0,
+          "end_sample": 8330,
+          "start_ms": 0,
+          "end_ms": 521
+        },
+        {
+          "lang": "ja",
+          "text": "カードの容量が足りなくて、困ってしまった。",
+          "start_sample": 8330,
+          "end_sample": 170466,
+          "start_ms": 521,
+          "end_ms": 10654
+        }
+      ]
+    },
+    "ja": {
+      "text": "memoryカードの容量が足りなくて、困ってしまった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3188,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "memory",
+          "start_sample": 0,
+          "end_sample": 6576,
+          "start_ms": 0,
+          "end_ms": 411
+        },
+        {
+          "lang": "ja",
+          "text": "カードの容量が足りなくて、困ってしまった。",
+          "start_sample": 6576,
+          "end_sample": 51008,
+          "start_ms": 411,
+          "end_ms": 3188
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 164,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

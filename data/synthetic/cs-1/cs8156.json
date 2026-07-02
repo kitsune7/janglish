@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8156.flac",
+  "sentence": "このrouteは工事中なので、迂回が必要です。",
+  "sample_rate": 16000,
+  "duration_ms": 4256,
+  "reference_speaker": "en/speaker_037_fbb436f58f44.mp3",
+  "seed": 8198,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3817,
+      "start_ms": 0,
+      "end_ms": 239
+    },
+    {
+      "lang": "en",
+      "text": "route",
+      "start_sample": 3817,
+      "end_sample": 21044,
+      "start_ms": 239,
+      "end_ms": 1315
+    },
+    {
+      "lang": "ja",
+      "text": "は工事中なので、迂回が必要です。",
+      "start_sample": 21044,
+      "end_sample": 68089,
+      "start_ms": 1315,
+      "end_ms": 4256
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono route ha kouji naka na no de ukai ga hitsuyou desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6530,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 10256,
+          "start_ms": 0,
+          "end_ms": 641
+        },
+        {
+          "lang": "en",
+          "text": "route",
+          "start_sample": 10256,
+          "end_sample": 27883,
+          "start_ms": 641,
+          "end_ms": 1743
+        },
+        {
+          "lang": "ja",
+          "text": "は工事中なので、迂回が必要です。",
+          "start_sample": 27883,
+          "end_sample": 104484,
+          "start_ms": 1743,
+          "end_ms": 6530
+        }
+      ]
+    },
+    "ja": {
+      "text": "このrouteは工事中なので、迂回が必要です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3555,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4017,
+          "start_ms": 0,
+          "end_ms": 251
+        },
+        {
+          "lang": "en",
+          "text": "route",
+          "start_sample": 4017,
+          "end_sample": 9642,
+          "start_ms": 251,
+          "end_ms": 603
+        },
+        {
+          "lang": "ja",
+          "text": "は工事中なので、迂回が必要です。",
+          "start_sample": 9642,
+          "end_sample": 56887,
+          "start_ms": 603,
+          "end_ms": 3555
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 213,
+  "frame_labels": "jjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

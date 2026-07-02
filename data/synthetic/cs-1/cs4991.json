@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4991.flac",
+  "sentence": "この車のheadlightsは自動で点灯するから便利だよ。",
+  "sample_rate": 16000,
+  "duration_ms": 3663,
+  "reference_speaker": "jp/speaker_077_a8ec885aec97.mp3",
+  "seed": 5033,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この車の",
+      "start_sample": 0,
+      "end_sample": 9919,
+      "start_ms": 0,
+      "end_ms": 620
+    },
+    {
+      "lang": "en",
+      "text": "headlights",
+      "start_sample": 9919,
+      "end_sample": 23627,
+      "start_ms": 620,
+      "end_ms": 1477
+    },
+    {
+      "lang": "ja",
+      "text": "は自動で点灯するから便利だよ。",
+      "start_sample": 23627,
+      "end_sample": 58601,
+      "start_ms": 1477,
+      "end_ms": 3663
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono kuruma no headlights ha jidou de tentou suru kara benri da yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9238,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この車の",
+          "start_sample": 0,
+          "end_sample": 56111,
+          "start_ms": 0,
+          "end_ms": 3507
+        },
+        {
+          "lang": "en",
+          "text": "headlights",
+          "start_sample": 56111,
+          "end_sample": 70219,
+          "start_ms": 3507,
+          "end_ms": 4389
+        },
+        {
+          "lang": "ja",
+          "text": "は自動で点灯するから便利だよ。",
+          "start_sample": 70219,
+          "end_sample": 147811,
+          "start_ms": 4389,
+          "end_ms": 9238
+        }
+      ]
+    },
+    "ja": {
+      "text": "この車のheadlightsは自動で点灯するから便利だよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3534,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この車の",
+          "start_sample": 0,
+          "end_sample": 10119,
+          "start_ms": 0,
+          "end_ms": 632
+        },
+        {
+          "lang": "en",
+          "text": "headlights",
+          "start_sample": 10119,
+          "end_sample": 21363,
+          "start_ms": 632,
+          "end_ms": 1335
+        },
+        {
+          "lang": "ja",
+          "text": "は自動で点灯するから便利だよ。",
+          "start_sample": 21363,
+          "end_sample": 56537,
+          "start_ms": 1335,
+          "end_ms": 3534
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 184,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

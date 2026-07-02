@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10405.flac",
+  "sentence": "The 夜市 downtown was packed with people enjoying the spring festival.",
+  "sample_rate": 16000,
+  "duration_ms": 5276,
+  "reference_speaker": "jp/speaker_085_c431b4a9ddfb.mp3",
+  "seed": 10447,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1561,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "夜市",
+      "start_sample": 1561,
+      "end_sample": 14458,
+      "start_ms": 98,
+      "end_ms": 904
+    },
+    {
+      "lang": "en",
+      "text": "downtown was packed with people enjoying the spring festival.",
+      "start_sample": 14458,
+      "end_sample": 84423,
+      "start_ms": 904,
+      "end_ms": 5276
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The yoichi downtown was packed with people enjoying the spring festival.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5006,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1761,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "夜市",
+          "start_sample": 1761,
+          "end_sample": 9931,
+          "start_ms": 110,
+          "end_ms": 621
+        },
+        {
+          "lang": "en",
+          "text": "downtown was packed with people enjoying the spring festival.",
+          "start_sample": 9931,
+          "end_sample": 80096,
+          "start_ms": 621,
+          "end_ms": 5006
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 夜市 downtown was packed with people enjoying the spring festival.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5447,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5125,
+          "start_ms": 0,
+          "end_ms": 320
+        },
+        {
+          "lang": "ja",
+          "text": "夜市",
+          "start_sample": 5125,
+          "end_sample": 18422,
+          "start_ms": 320,
+          "end_ms": 1151
+        },
+        {
+          "lang": "en",
+          "text": "downtown was packed with people enjoying the spring festival.",
+          "start_sample": 18422,
+          "end_sample": 87146,
+          "start_ms": 1151,
+          "end_ms": 5447
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 264,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

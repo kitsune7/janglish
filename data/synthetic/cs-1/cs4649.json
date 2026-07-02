@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4649.flac",
+  "sentence": "I wish I had the 勇気 to wear bright colors more often.",
+  "sample_rate": 16000,
+  "duration_ms": 2837,
+  "reference_speaker": "jp/speaker_050_3d86fef9a9be.mp3",
+  "seed": 4691,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I wish I had the",
+      "start_sample": 0,
+      "end_sample": 11186,
+      "start_ms": 0,
+      "end_ms": 699
+    },
+    {
+      "lang": "ja",
+      "text": "勇気",
+      "start_sample": 11186,
+      "end_sample": 19618,
+      "start_ms": 699,
+      "end_ms": 1226
+    },
+    {
+      "lang": "en",
+      "text": "to wear bright colors more often.",
+      "start_sample": 19618,
+      "end_sample": 45398,
+      "start_ms": 1226,
+      "end_ms": 2837
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I wish I had the yuuki to wear bright colors more often.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2666,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I wish I had the",
+          "start_sample": 0,
+          "end_sample": 11386,
+          "start_ms": 0,
+          "end_ms": 712
+        },
+        {
+          "lang": "ja",
+          "text": "勇気",
+          "start_sample": 11386,
+          "end_sample": 16678,
+          "start_ms": 712,
+          "end_ms": 1042
+        },
+        {
+          "lang": "en",
+          "text": "to wear bright colors more often.",
+          "start_sample": 16678,
+          "end_sample": 42658,
+          "start_ms": 1042,
+          "end_ms": 2666
+        }
+      ]
+    },
+    "ja": {
+      "text": "I wish I had the 勇気 to wear bright colors more often.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4676,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I wish I had the",
+          "start_sample": 0,
+          "end_sample": 19264,
+          "start_ms": 0,
+          "end_ms": 1204
+        },
+        {
+          "lang": "ja",
+          "text": "勇気",
+          "start_sample": 19264,
+          "end_sample": 28096,
+          "start_ms": 1204,
+          "end_ms": 1756
+        },
+        {
+          "lang": "en",
+          "text": "to wear bright colors more often.",
+          "start_sample": 28096,
+          "end_sample": 74817,
+          "start_ms": 1756,
+          "end_ms": 4676
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 142,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

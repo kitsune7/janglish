@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs231.flac",
+  "sentence": "渓谷のtrailheadでガイドと待ち合わせをしています。",
+  "sample_rate": 16000,
+  "duration_ms": 3115,
+  "reference_speaker": "en/speaker_066_73a931d5f7bb.mp3",
+  "seed": 273,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "渓谷の",
+      "start_sample": 0,
+      "end_sample": 8810,
+      "start_ms": 0,
+      "end_ms": 551
+    },
+    {
+      "lang": "en",
+      "text": "trailhead",
+      "start_sample": 8810,
+      "end_sample": 17059,
+      "start_ms": 551,
+      "end_ms": 1066
+    },
+    {
+      "lang": "ja",
+      "text": "でガイドと待ち合わせをしています。",
+      "start_sample": 17059,
+      "end_sample": 49841,
+      "start_ms": 1066,
+      "end_ms": 3115
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "keikoku no trailhead de gaido to machiawase wo shi te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6426,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "渓谷の",
+          "start_sample": 0,
+          "end_sample": 3362,
+          "start_ms": 0,
+          "end_ms": 210
+        },
+        {
+          "lang": "en",
+          "text": "trailhead",
+          "start_sample": 3362,
+          "end_sample": 12011,
+          "start_ms": 210,
+          "end_ms": 751
+        },
+        {
+          "lang": "ja",
+          "text": "でガイドと待ち合わせをしています。",
+          "start_sample": 12011,
+          "end_sample": 102819,
+          "start_ms": 751,
+          "end_ms": 6426
+        }
+      ]
+    },
+    "ja": {
+      "text": "渓谷のtrailheadでガイドと待ち合わせをしています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3379,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "渓谷の",
+          "start_sample": 0,
+          "end_sample": 9010,
+          "start_ms": 0,
+          "end_ms": 563
+        },
+        {
+          "lang": "en",
+          "text": "trailhead",
+          "start_sample": 9010,
+          "end_sample": 21079,
+          "start_ms": 563,
+          "end_ms": 1317
+        },
+        {
+          "lang": "ja",
+          "text": "でガイドと待ち合わせをしています。",
+          "start_sample": 21079,
+          "end_sample": 54061,
+          "start_ms": 1317,
+          "end_ms": 3379
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 156,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

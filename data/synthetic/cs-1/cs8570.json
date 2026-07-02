@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8570.flac",
+  "sentence": "She keeps her 押し入れ so organized that every shelf has its own labeled bin.",
+  "sample_rate": 16000,
+  "duration_ms": 6155,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 8612,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She keeps her",
+      "start_sample": 0,
+      "end_sample": 12929,
+      "start_ms": 0,
+      "end_ms": 808
+    },
+    {
+      "lang": "ja",
+      "text": "押し入れ",
+      "start_sample": 12929,
+      "end_sample": 21977,
+      "start_ms": 808,
+      "end_ms": 1374
+    },
+    {
+      "lang": "en",
+      "text": "so organized that every shelf has its own labeled bin.",
+      "start_sample": 21977,
+      "end_sample": 98475,
+      "start_ms": 1374,
+      "end_ms": 6155
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She keeps her oshiire so organized that every shelf has its own labeled bin.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6565,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She keeps her",
+          "start_sample": 0,
+          "end_sample": 13129,
+          "start_ms": 0,
+          "end_ms": 821
+        },
+        {
+          "lang": "ja",
+          "text": "押し入れ",
+          "start_sample": 13129,
+          "end_sample": 28341,
+          "start_ms": 821,
+          "end_ms": 1771
+        },
+        {
+          "lang": "en",
+          "text": "so organized that every shelf has its own labeled bin.",
+          "start_sample": 28341,
+          "end_sample": 105039,
+          "start_ms": 1771,
+          "end_ms": 6565
+        }
+      ]
+    },
+    "ja": {
+      "text": "She keeps her 押し入れ so organized that every shelf has its own labeled bin.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7146,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She keeps her",
+          "start_sample": 0,
+          "end_sample": 15373,
+          "start_ms": 0,
+          "end_ms": 961
+        },
+        {
+          "lang": "ja",
+          "text": "押し入れ",
+          "start_sample": 15373,
+          "end_sample": 24821,
+          "start_ms": 961,
+          "end_ms": 1551
+        },
+        {
+          "lang": "en",
+          "text": "so organized that every shelf has its own labeled bin.",
+          "start_sample": 24821,
+          "end_sample": 114340,
+          "start_ms": 1551,
+          "end_ms": 7146
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 308,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

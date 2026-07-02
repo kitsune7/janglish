@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10110.flac",
+  "sentence": "He crammed so 必死 for the oral exam that he lost his voice.",
+  "sample_rate": 16000,
+  "duration_ms": 4185,
+  "reference_speaker": "en/speaker_005_e790d1a6d652.mp3",
+  "seed": 10152,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He crammed so",
+      "start_sample": 0,
+      "end_sample": 10083,
+      "start_ms": 0,
+      "end_ms": 630
+    },
+    {
+      "lang": "ja",
+      "text": "必死",
+      "start_sample": 10083,
+      "end_sample": 21214,
+      "start_ms": 630,
+      "end_ms": 1326
+    },
+    {
+      "lang": "en",
+      "text": "for the oral exam that he lost his voice.",
+      "start_sample": 21214,
+      "end_sample": 66965,
+      "start_ms": 1326,
+      "end_ms": 4185
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He crammed so hisshi for the oral exam that he lost his voice.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4378,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He crammed so",
+          "start_sample": 0,
+          "end_sample": 10283,
+          "start_ms": 0,
+          "end_ms": 643
+        },
+        {
+          "lang": "ja",
+          "text": "必死",
+          "start_sample": 10283,
+          "end_sample": 24101,
+          "start_ms": 643,
+          "end_ms": 1506
+        },
+        {
+          "lang": "en",
+          "text": "for the oral exam that he lost his voice.",
+          "start_sample": 24101,
+          "end_sample": 70052,
+          "start_ms": 1506,
+          "end_ms": 4378
+        }
+      ]
+    },
+    "ja": {
+      "text": "He crammed so 必死 for the oral exam that he lost his voice.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5345,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He crammed so",
+          "start_sample": 0,
+          "end_sample": 19698,
+          "start_ms": 0,
+          "end_ms": 1231
+        },
+        {
+          "lang": "ja",
+          "text": "必死",
+          "start_sample": 19698,
+          "end_sample": 31229,
+          "start_ms": 1231,
+          "end_ms": 1952
+        },
+        {
+          "lang": "en",
+          "text": "for the oral exam that he lost his voice.",
+          "start_sample": 31229,
+          "end_sample": 85521,
+          "start_ms": 1952,
+          "end_ms": 5345
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

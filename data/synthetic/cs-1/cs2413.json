@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2413.flac",
+  "sentence": "I always feel a little 寂しい when the summer festival ends and everyone goes home.",
+  "sample_rate": 16000,
+  "duration_ms": 5408,
+  "reference_speaker": "jp/speaker_053_8435a3c28f36.mp3",
+  "seed": 2455,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always feel a little",
+      "start_sample": 0,
+      "end_sample": 19185,
+      "start_ms": 0,
+      "end_ms": 1199
+    },
+    {
+      "lang": "ja",
+      "text": "寂しい",
+      "start_sample": 19185,
+      "end_sample": 27614,
+      "start_ms": 1199,
+      "end_ms": 1726
+    },
+    {
+      "lang": "en",
+      "text": "when the summer festival ends and everyone goes home.",
+      "start_sample": 27614,
+      "end_sample": 86534,
+      "start_ms": 1726,
+      "end_ms": 5408
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always feel a little sabishii when the summer festival ends and everyone goes home.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5748,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel a little",
+          "start_sample": 0,
+          "end_sample": 19385,
+          "start_ms": 0,
+          "end_ms": 1212
+        },
+        {
+          "lang": "ja",
+          "text": "寂しい",
+          "start_sample": 19385,
+          "end_sample": 32843,
+          "start_ms": 1212,
+          "end_ms": 2053
+        },
+        {
+          "lang": "en",
+          "text": "when the summer festival ends and everyone goes home.",
+          "start_sample": 32843,
+          "end_sample": 91963,
+          "start_ms": 2053,
+          "end_ms": 5748
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always feel a little 寂しい when the summer festival ends and everyone goes home.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6000,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel a little",
+          "start_sample": 0,
+          "end_sample": 24239,
+          "start_ms": 0,
+          "end_ms": 1515
+        },
+        {
+          "lang": "ja",
+          "text": "寂しい",
+          "start_sample": 24239,
+          "end_sample": 33068,
+          "start_ms": 1515,
+          "end_ms": 2067
+        },
+        {
+          "lang": "en",
+          "text": "when the summer festival ends and everyone goes home.",
+          "start_sample": 33068,
+          "end_sample": 95992,
+          "start_ms": 2067,
+          "end_ms": 6000
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 271,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

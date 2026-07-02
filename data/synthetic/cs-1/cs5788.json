@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5788.flac",
+  "sentence": "The 幼虫 we found in the compost bin means the soil is healthy.",
+  "sample_rate": 16000,
+  "duration_ms": 5752,
+  "reference_speaker": "en/speaker_002_7eff9a54bdb0.mp3",
+  "seed": 5830,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1884,
+      "start_ms": 0,
+      "end_ms": 118
+    },
+    {
+      "lang": "ja",
+      "text": "幼虫",
+      "start_sample": 1884,
+      "end_sample": 20388,
+      "start_ms": 118,
+      "end_ms": 1274
+    },
+    {
+      "lang": "en",
+      "text": "we found in the compost bin means the soil is healthy.",
+      "start_sample": 20388,
+      "end_sample": 92024,
+      "start_ms": 1274,
+      "end_ms": 5752
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The youchuu we found in the compost bin means the soil is healthy.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5251,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2084,
+          "start_ms": 0,
+          "end_ms": 130
+        },
+        {
+          "lang": "ja",
+          "text": "幼虫",
+          "start_sample": 2084,
+          "end_sample": 12186,
+          "start_ms": 130,
+          "end_ms": 762
+        },
+        {
+          "lang": "en",
+          "text": "we found in the compost bin means the soil is healthy.",
+          "start_sample": 12186,
+          "end_sample": 84022,
+          "start_ms": 762,
+          "end_ms": 5251
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 幼虫 we found in the compost bin means the soil is healthy.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6989,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 9131,
+          "start_ms": 0,
+          "end_ms": 571
+        },
+        {
+          "lang": "ja",
+          "text": "幼虫",
+          "start_sample": 9131,
+          "end_sample": 28035,
+          "start_ms": 571,
+          "end_ms": 1752
+        },
+        {
+          "lang": "en",
+          "text": "we found in the compost bin means the soil is healthy.",
+          "start_sample": 28035,
+          "end_sample": 111823,
+          "start_ms": 1752,
+          "end_ms": 6989
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 288,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

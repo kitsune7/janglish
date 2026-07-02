@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3398.flac",
+  "sentence": "冷蔵庫が空っぽだから、今夜はshopping行かないと。",
+  "sample_rate": 16000,
+  "duration_ms": 3640,
+  "reference_speaker": "en/speaker_049_4b799abf92c3.mp3",
+  "seed": 3440,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "冷蔵庫が空っぽだから、今夜は",
+      "start_sample": 0,
+      "end_sample": 39759,
+      "start_ms": 0,
+      "end_ms": 2485
+    },
+    {
+      "lang": "en",
+      "text": "shopping",
+      "start_sample": 39759,
+      "end_sample": 48175,
+      "start_ms": 2485,
+      "end_ms": 3011
+    },
+    {
+      "lang": "ja",
+      "text": "行かないと。",
+      "start_sample": 48175,
+      "end_sample": 58243,
+      "start_ms": 3011,
+      "end_ms": 3640
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "reizou ko ga karappo da kara konya ha shopping ika nai to",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6311,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冷蔵庫が空っぽだから、今夜は",
+          "start_sample": 0,
+          "end_sample": 78380,
+          "start_ms": 0,
+          "end_ms": 4899
+        },
+        {
+          "lang": "en",
+          "text": "shopping",
+          "start_sample": 78380,
+          "end_sample": 87196,
+          "start_ms": 4899,
+          "end_ms": 5450
+        },
+        {
+          "lang": "ja",
+          "text": "行かないと。",
+          "start_sample": 87196,
+          "end_sample": 100980,
+          "start_ms": 5450,
+          "end_ms": 6311
+        }
+      ]
+    },
+    "ja": {
+      "text": "冷蔵庫が空っぽだから、今夜はshopping行かないと。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3731,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冷蔵庫が空っぽだから、今夜は",
+          "start_sample": 0,
+          "end_sample": 39959,
+          "start_ms": 0,
+          "end_ms": 2497
+        },
+        {
+          "lang": "en",
+          "text": "shopping",
+          "start_sample": 39959,
+          "end_sample": 49428,
+          "start_ms": 2497,
+          "end_ms": 3089
+        },
+        {
+          "lang": "ja",
+          "text": "行かないと。",
+          "start_sample": 49428,
+          "end_sample": 59696,
+          "start_ms": 3089,
+          "end_ms": 3731
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 183,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

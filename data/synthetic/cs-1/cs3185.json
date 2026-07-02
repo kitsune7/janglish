@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3185.flac",
+  "sentence": "このハーブを使ったdressingがサラダをさっぱりさせていますね。",
+  "sample_rate": 16000,
+  "duration_ms": 3258,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 3227,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このハーブを使った",
+      "start_sample": 0,
+      "end_sample": 14559,
+      "start_ms": 0,
+      "end_ms": 910
+    },
+    {
+      "lang": "en",
+      "text": "dressing",
+      "start_sample": 14559,
+      "end_sample": 27465,
+      "start_ms": 910,
+      "end_ms": 1717
+    },
+    {
+      "lang": "ja",
+      "text": "がサラダをさっぱりさせていますね。",
+      "start_sample": 27465,
+      "end_sample": 52129,
+      "start_ms": 1717,
+      "end_ms": 3258
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono haabu wo tsukatsu ta dressing ga sarada wo sappari sa se te i masu ne",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8777,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このハーブを使った",
+          "start_sample": 0,
+          "end_sample": 56271,
+          "start_ms": 0,
+          "end_ms": 3517
+        },
+        {
+          "lang": "en",
+          "text": "dressing",
+          "start_sample": 56271,
+          "end_sample": 69577,
+          "start_ms": 3517,
+          "end_ms": 4349
+        },
+        {
+          "lang": "ja",
+          "text": "がサラダをさっぱりさせていますね。",
+          "start_sample": 69577,
+          "end_sample": 140436,
+          "start_ms": 4349,
+          "end_ms": 8777
+        }
+      ]
+    },
+    "ja": {
+      "text": "このハーブを使ったdressingがサラダをさっぱりさせていますね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2867,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このハーブを使った",
+          "start_sample": 0,
+          "end_sample": 14759,
+          "start_ms": 0,
+          "end_ms": 922
+        },
+        {
+          "lang": "en",
+          "text": "dressing",
+          "start_sample": 14759,
+          "end_sample": 21015,
+          "start_ms": 922,
+          "end_ms": 1313
+        },
+        {
+          "lang": "ja",
+          "text": "がサラダをさっぱりさせていますね。",
+          "start_sample": 21015,
+          "end_sample": 45879,
+          "start_ms": 1313,
+          "end_ms": 2867
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 163,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

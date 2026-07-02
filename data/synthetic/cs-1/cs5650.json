@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5650.flac",
+  "sentence": "The ambassador delivered a 公式 apology on behalf of his government.",
+  "sample_rate": 16000,
+  "duration_ms": 3920,
+  "reference_speaker": "jp/speaker_007_69caf5c5275d.mp3",
+  "seed": 5692,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The ambassador delivered a",
+      "start_sample": 0,
+      "end_sample": 20651,
+      "start_ms": 0,
+      "end_ms": 1291
+    },
+    {
+      "lang": "ja",
+      "text": "公式",
+      "start_sample": 20651,
+      "end_sample": 29564,
+      "start_ms": 1291,
+      "end_ms": 1848
+    },
+    {
+      "lang": "en",
+      "text": "apology on behalf of his government.",
+      "start_sample": 29564,
+      "end_sample": 62725,
+      "start_ms": 1848,
+      "end_ms": 3920
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The ambassador delivered a koushiki apology on behalf of his government.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3910,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The ambassador delivered a",
+          "start_sample": 0,
+          "end_sample": 20851,
+          "start_ms": 0,
+          "end_ms": 1303
+        },
+        {
+          "lang": "ja",
+          "text": "公式",
+          "start_sample": 20851,
+          "end_sample": 29192,
+          "start_ms": 1303,
+          "end_ms": 1824
+        },
+        {
+          "lang": "en",
+          "text": "apology on behalf of his government.",
+          "start_sample": 29192,
+          "end_sample": 62553,
+          "start_ms": 1824,
+          "end_ms": 3910
+        }
+      ]
+    },
+    "ja": {
+      "text": "The ambassador delivered a 公式 apology on behalf of his government.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5720,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The ambassador delivered a",
+          "start_sample": 0,
+          "end_sample": 36290,
+          "start_ms": 0,
+          "end_ms": 2268
+        },
+        {
+          "lang": "ja",
+          "text": "公式",
+          "start_sample": 36290,
+          "end_sample": 45603,
+          "start_ms": 2268,
+          "end_ms": 2850
+        },
+        {
+          "lang": "en",
+          "text": "apology on behalf of his government.",
+          "start_sample": 45603,
+          "end_sample": 91524,
+          "start_ms": 2850,
+          "end_ms": 5720
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 197,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

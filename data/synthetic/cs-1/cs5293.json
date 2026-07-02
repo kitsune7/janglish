@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5293.flac",
+  "sentence": "その馬はとても graceful で、走る姿がほんとうに美しいです。",
+  "sample_rate": 16000,
+  "duration_ms": 4265,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 5335,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その馬はとても",
+      "start_sample": 0,
+      "end_sample": 20674,
+      "start_ms": 0,
+      "end_ms": 1292
+    },
+    {
+      "lang": "en",
+      "text": "graceful",
+      "start_sample": 20674,
+      "end_sample": 29584,
+      "start_ms": 1292,
+      "end_ms": 1849
+    },
+    {
+      "lang": "ja",
+      "text": "で、走る姿がほんとうに美しいです。",
+      "start_sample": 29584,
+      "end_sample": 68245,
+      "start_ms": 1849,
+      "end_ms": 4265
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono uma ha totemo graceful de hashiru sugata ga hontou ni utsukushii desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7243,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その馬はとても",
+          "start_sample": 0,
+          "end_sample": 33869,
+          "start_ms": 0,
+          "end_ms": 2117
+        },
+        {
+          "lang": "en",
+          "text": "graceful",
+          "start_sample": 33869,
+          "end_sample": 43179,
+          "start_ms": 2117,
+          "end_ms": 2699
+        },
+        {
+          "lang": "ja",
+          "text": "で、走る姿がほんとうに美しいです。",
+          "start_sample": 43179,
+          "end_sample": 115891,
+          "start_ms": 2699,
+          "end_ms": 7243
+        }
+      ]
+    },
+    "ja": {
+      "text": "その馬はとても graceful で、走る姿がほんとうに美しいです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4215,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その馬はとても",
+          "start_sample": 0,
+          "end_sample": 20874,
+          "start_ms": 0,
+          "end_ms": 1305
+        },
+        {
+          "lang": "en",
+          "text": "graceful",
+          "start_sample": 20874,
+          "end_sample": 28582,
+          "start_ms": 1305,
+          "end_ms": 1786
+        },
+        {
+          "lang": "ja",
+          "text": "で、走る姿がほんとうに美しいです。",
+          "start_sample": 28582,
+          "end_sample": 67443,
+          "start_ms": 1786,
+          "end_ms": 4215
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 214,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

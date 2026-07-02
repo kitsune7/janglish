@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7144.flac",
+  "sentence": "We finally figured out a 当番 system so the kids share the chores fairly.",
+  "sample_rate": 16000,
+  "duration_ms": 3731,
+  "reference_speaker": "en/speaker_029_435fb74c25c3.mp3",
+  "seed": 7186,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We finally figured out a",
+      "start_sample": 0,
+      "end_sample": 16810,
+      "start_ms": 0,
+      "end_ms": 1051
+    },
+    {
+      "lang": "ja",
+      "text": "当番",
+      "start_sample": 16810,
+      "end_sample": 24116,
+      "start_ms": 1051,
+      "end_ms": 1507
+    },
+    {
+      "lang": "en",
+      "text": "system so the kids share the chores fairly.",
+      "start_sample": 24116,
+      "end_sample": 59700,
+      "start_ms": 1507,
+      "end_ms": 3731
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We finally figured out a touban system so the kids share the chores fairly.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3851,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We finally figured out a",
+          "start_sample": 0,
+          "end_sample": 17010,
+          "start_ms": 0,
+          "end_ms": 1063
+        },
+        {
+          "lang": "ja",
+          "text": "当番",
+          "start_sample": 17010,
+          "end_sample": 25836,
+          "start_ms": 1063,
+          "end_ms": 1615
+        },
+        {
+          "lang": "en",
+          "text": "system so the kids share the chores fairly.",
+          "start_sample": 25836,
+          "end_sample": 61620,
+          "start_ms": 1615,
+          "end_ms": 3851
+        }
+      ]
+    },
+    "ja": {
+      "text": "We finally figured out a 当番 system so the kids share the chores fairly.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5759,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We finally figured out a",
+          "start_sample": 0,
+          "end_sample": 25040,
+          "start_ms": 0,
+          "end_ms": 1565
+        },
+        {
+          "lang": "ja",
+          "text": "当番",
+          "start_sample": 25040,
+          "end_sample": 32746,
+          "start_ms": 1565,
+          "end_ms": 2047
+        },
+        {
+          "lang": "en",
+          "text": "system so the kids share the chores fairly.",
+          "start_sample": 32746,
+          "end_sample": 92142,
+          "start_ms": 2047,
+          "end_ms": 5759
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 187,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

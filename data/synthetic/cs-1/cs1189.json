@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs1189.flac",
+  "sentence": "subwayのホームでずっと友達を待っていた。",
+  "sample_rate": 16000,
+  "duration_ms": 3244,
+  "reference_speaker": "jp/speaker_023_d9597f21cb60.mp3",
+  "seed": 1231,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "subway",
+      "start_sample": 0,
+      "end_sample": 16960,
+      "start_ms": 0,
+      "end_ms": 1060
+    },
+    {
+      "lang": "ja",
+      "text": "のホームでずっと友達を待っていた。",
+      "start_sample": 16960,
+      "end_sample": 51911,
+      "start_ms": 1060,
+      "end_ms": 3244
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "subway no hoomu de zutto tomodachi wo matsu te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5072,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "subway",
+          "start_sample": 0,
+          "end_sample": 17160,
+          "start_ms": 0,
+          "end_ms": 1072
+        },
+        {
+          "lang": "ja",
+          "text": "のホームでずっと友達を待っていた。",
+          "start_sample": 17160,
+          "end_sample": 81158,
+          "start_ms": 1072,
+          "end_ms": 5072
+        }
+      ]
+    },
+    "ja": {
+      "text": "subwayのホームでずっと友達を待っていた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2748,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "subway",
+          "start_sample": 0,
+          "end_sample": 8825,
+          "start_ms": 0,
+          "end_ms": 552
+        },
+        {
+          "lang": "ja",
+          "text": "のホームでずっと友達を待っていた。",
+          "start_sample": 8825,
+          "end_sample": 43976,
+          "start_ms": 552,
+          "end_ms": 2748
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 163,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

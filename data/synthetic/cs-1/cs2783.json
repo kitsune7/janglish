@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2783.flac",
+  "sentence": "部長のoffice は廊下の突き当たりにあります。",
+  "sample_rate": 16000,
+  "duration_ms": 3538,
+  "reference_speaker": "en/speaker_062_05f0c617d0bb.mp3",
+  "seed": 2825,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "部長の",
+      "start_sample": 0,
+      "end_sample": 7845,
+      "start_ms": 0,
+      "end_ms": 490
+    },
+    {
+      "lang": "en",
+      "text": "office",
+      "start_sample": 7845,
+      "end_sample": 18836,
+      "start_ms": 490,
+      "end_ms": 1177
+    },
+    {
+      "lang": "ja",
+      "text": "は廊下の突き当たりにあります。",
+      "start_sample": 18836,
+      "end_sample": 56607,
+      "start_ms": 1177,
+      "end_ms": 3538
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "buchou no office ha rouka no tsukiatari ni ari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6157,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "部長の",
+          "start_sample": 0,
+          "end_sample": 18931,
+          "start_ms": 0,
+          "end_ms": 1183
+        },
+        {
+          "lang": "en",
+          "text": "office",
+          "start_sample": 18931,
+          "end_sample": 30322,
+          "start_ms": 1183,
+          "end_ms": 1895
+        },
+        {
+          "lang": "ja",
+          "text": "は廊下の突き当たりにあります。",
+          "start_sample": 30322,
+          "end_sample": 98505,
+          "start_ms": 1895,
+          "end_ms": 6157
+        }
+      ]
+    },
+    "ja": {
+      "text": "部長のoffice は廊下の突き当たりにあります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3318,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "部長の",
+          "start_sample": 0,
+          "end_sample": 8045,
+          "start_ms": 0,
+          "end_ms": 503
+        },
+        {
+          "lang": "en",
+          "text": "office",
+          "start_sample": 8045,
+          "end_sample": 15125,
+          "start_ms": 503,
+          "end_ms": 945
+        },
+        {
+          "lang": "ja",
+          "text": "は廊下の突き当たりにあります。",
+          "start_sample": 15125,
+          "end_sample": 53096,
+          "start_ms": 945,
+          "end_ms": 3318
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5102.flac",
+  "sentence": "そのstationから歩いて五分のところに図書館がある。",
+  "sample_rate": 16000,
+  "duration_ms": 4028,
+  "reference_speaker": "en/speaker_097_44a775a22921.mp3",
+  "seed": 5144,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その",
+      "start_sample": 0,
+      "end_sample": 4141,
+      "start_ms": 0,
+      "end_ms": 259
+    },
+    {
+      "lang": "en",
+      "text": "station",
+      "start_sample": 4141,
+      "end_sample": 23320,
+      "start_ms": 259,
+      "end_ms": 1458
+    },
+    {
+      "lang": "ja",
+      "text": "から歩いて五分のところに図書館がある。",
+      "start_sample": 23320,
+      "end_sample": 64441,
+      "start_ms": 1458,
+      "end_ms": 4028
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono station kara arui te go fun no tokoro ni tosho kan ga aru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7342,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 3851,
+          "start_ms": 0,
+          "end_ms": 241
+        },
+        {
+          "lang": "en",
+          "text": "station",
+          "start_sample": 3851,
+          "end_sample": 23430,
+          "start_ms": 241,
+          "end_ms": 1464
+        },
+        {
+          "lang": "ja",
+          "text": "から歩いて五分のところに図書館がある。",
+          "start_sample": 23430,
+          "end_sample": 117469,
+          "start_ms": 1464,
+          "end_ms": 7342
+        }
+      ]
+    },
+    "ja": {
+      "text": "そのstationから歩いて五分のところに図書館がある。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3437,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 4341,
+          "start_ms": 0,
+          "end_ms": 271
+        },
+        {
+          "lang": "en",
+          "text": "station",
+          "start_sample": 4341,
+          "end_sample": 13667,
+          "start_ms": 271,
+          "end_ms": 854
+        },
+        {
+          "lang": "ja",
+          "text": "から歩いて五分のところに図書館がある。",
+          "start_sample": 13667,
+          "end_sample": 54988,
+          "start_ms": 854,
+          "end_ms": 3437
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "jjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

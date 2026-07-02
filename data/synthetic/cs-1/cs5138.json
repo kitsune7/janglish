@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5138.flac",
+  "sentence": "This craft beer has a really 深い, roasted flavor I wasn't expecting.",
+  "sample_rate": 16000,
+  "duration_ms": 5409,
+  "reference_speaker": "en/speaker_014_9db071da66e5.mp3",
+  "seed": 5180,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This craft beer has a really",
+      "start_sample": 0,
+      "end_sample": 44293,
+      "start_ms": 0,
+      "end_ms": 2768
+    },
+    {
+      "lang": "ja",
+      "text": "深い,",
+      "start_sample": 44293,
+      "end_sample": 57670,
+      "start_ms": 2768,
+      "end_ms": 3604
+    },
+    {
+      "lang": "en",
+      "text": "roasted flavor I wasn't expecting.",
+      "start_sample": 57670,
+      "end_sample": 86540,
+      "start_ms": 3604,
+      "end_ms": 5409
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This craft beer has a really fukai roasted flavor I wasn't expecting.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5642,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This craft beer has a really",
+          "start_sample": 0,
+          "end_sample": 44493,
+          "start_ms": 0,
+          "end_ms": 2781
+        },
+        {
+          "lang": "ja",
+          "text": "深い,",
+          "start_sample": 44493,
+          "end_sample": 61199,
+          "start_ms": 2781,
+          "end_ms": 3825
+        },
+        {
+          "lang": "en",
+          "text": "roasted flavor I wasn't expecting.",
+          "start_sample": 61199,
+          "end_sample": 90269,
+          "start_ms": 3825,
+          "end_ms": 5642
+        }
+      ]
+    },
+    "ja": {
+      "text": "This craft beer has a really 深い, roasted flavor I wasn't expecting.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5286,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This craft beer has a really",
+          "start_sample": 0,
+          "end_sample": 24830,
+          "start_ms": 0,
+          "end_ms": 1552
+        },
+        {
+          "lang": "ja",
+          "text": "深い,",
+          "start_sample": 24830,
+          "end_sample": 38607,
+          "start_ms": 1552,
+          "end_ms": 2413
+        },
+        {
+          "lang": "en",
+          "text": "roasted flavor I wasn't expecting.",
+          "start_sample": 38607,
+          "end_sample": 84583,
+          "start_ms": 2413,
+          "end_ms": 5286
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 271,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

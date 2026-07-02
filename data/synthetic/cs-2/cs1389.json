@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1389.flac",
+  "sentence": "I've never seen a café this 広大, yet every corner still feels 居心地.",
+  "sample_rate": 16000,
+  "duration_ms": 4351,
+  "reference_speaker": "en/speaker_001_b06ec2cd8db9.mp3",
+  "seed": 18244,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I've never seen a café this",
+      "start_sample": 0,
+      "end_sample": 21309,
+      "start_ms": 0,
+      "end_ms": 1332
+    },
+    {
+      "lang": "ja",
+      "text": "広大,",
+      "start_sample": 21309,
+      "end_sample": 31038,
+      "start_ms": 1332,
+      "end_ms": 1940
+    },
+    {
+      "lang": "en",
+      "text": "yet every corner still feels",
+      "start_sample": 31038,
+      "end_sample": 61462,
+      "start_ms": 1940,
+      "end_ms": 3841
+    },
+    {
+      "lang": "ja",
+      "text": "居心地.",
+      "start_sample": 61462,
+      "end_sample": 69618,
+      "start_ms": 3841,
+      "end_ms": 4351
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I've never seen a café this koudai yet every corner still feels igokochi",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4695,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've never seen a café this",
+          "start_sample": 0,
+          "end_sample": 21509,
+          "start_ms": 0,
+          "end_ms": 1344
+        },
+        {
+          "lang": "ja",
+          "text": "広大,",
+          "start_sample": 21509,
+          "end_sample": 35316,
+          "start_ms": 1344,
+          "end_ms": 2207
+        },
+        {
+          "lang": "en",
+          "text": "yet every corner still feels",
+          "start_sample": 35316,
+          "end_sample": 66140,
+          "start_ms": 2207,
+          "end_ms": 4134
+        },
+        {
+          "lang": "ja",
+          "text": "居心地.",
+          "start_sample": 66140,
+          "end_sample": 75127,
+          "start_ms": 4134,
+          "end_ms": 4695
+        }
+      ]
+    },
+    "ja": {
+      "text": "I've never seen a café this 広大, yet every corner still feels 居心地.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4461,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've never seen a café this",
+          "start_sample": 0,
+          "end_sample": 21057,
+          "start_ms": 0,
+          "end_ms": 1316
+        },
+        {
+          "lang": "ja",
+          "text": "広大,",
+          "start_sample": 21057,
+          "end_sample": 31186,
+          "start_ms": 1316,
+          "end_ms": 1949
+        },
+        {
+          "lang": "en",
+          "text": "yet every corner still feels",
+          "start_sample": 31186,
+          "end_sample": 63021,
+          "start_ms": 1949,
+          "end_ms": 3939
+        },
+        {
+          "lang": "ja",
+          "text": "居心地.",
+          "start_sample": 63021,
+          "end_sample": 71377,
+          "start_ms": 3939,
+          "end_ms": 4461
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

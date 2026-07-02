@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1650.flac",
+  "sentence": "She hung a small shelf above the 洗面台, and it honestly makes the bathroom feel a lot more 余裕.",
+  "sample_rate": 16000,
+  "duration_ms": 6017,
+  "reference_speaker": "jp/speaker_022_b672c364242e.mp3",
+  "seed": 18505,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She hung a small shelf above the",
+      "start_sample": 0,
+      "end_sample": 27376,
+      "start_ms": 0,
+      "end_ms": 1711
+    },
+    {
+      "lang": "ja",
+      "text": "洗面台,",
+      "start_sample": 27376,
+      "end_sample": 42206,
+      "start_ms": 1711,
+      "end_ms": 2638
+    },
+    {
+      "lang": "en",
+      "text": "and it honestly makes the bathroom feel a lot more",
+      "start_sample": 42206,
+      "end_sample": 89905,
+      "start_ms": 2638,
+      "end_ms": 5619
+    },
+    {
+      "lang": "ja",
+      "text": "余裕.",
+      "start_sample": 89905,
+      "end_sample": 96276,
+      "start_ms": 5619,
+      "end_ms": 6017
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She hung a small shelf above the senmen dai and it honestly makes the bathroom feel a lot more yoyuu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6233,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She hung a small shelf above the",
+          "start_sample": 0,
+          "end_sample": 27576,
+          "start_ms": 0,
+          "end_ms": 1724
+        },
+        {
+          "lang": "ja",
+          "text": "洗面台,",
+          "start_sample": 27576,
+          "end_sample": 44411,
+          "start_ms": 1724,
+          "end_ms": 2776
+        },
+        {
+          "lang": "en",
+          "text": "and it honestly makes the bathroom feel a lot more",
+          "start_sample": 44411,
+          "end_sample": 92510,
+          "start_ms": 2776,
+          "end_ms": 5782
+        },
+        {
+          "lang": "ja",
+          "text": "余裕.",
+          "start_sample": 92510,
+          "end_sample": 99723,
+          "start_ms": 5782,
+          "end_ms": 6233
+        }
+      ]
+    },
+    "ja": {
+      "text": "She hung a small shelf above the 洗面台, and it honestly makes the bathroom feel a lot more 余裕.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6633,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She hung a small shelf above the",
+          "start_sample": 0,
+          "end_sample": 34948,
+          "start_ms": 0,
+          "end_ms": 2184
+        },
+        {
+          "lang": "ja",
+          "text": "洗面台,",
+          "start_sample": 34948,
+          "end_sample": 50178,
+          "start_ms": 2184,
+          "end_ms": 3136
+        },
+        {
+          "lang": "en",
+          "text": "and it honestly makes the bathroom feel a lot more",
+          "start_sample": 50178,
+          "end_sample": 99555,
+          "start_ms": 3136,
+          "end_ms": 6222
+        },
+        {
+          "lang": "ja",
+          "text": "余裕.",
+          "start_sample": 99555,
+          "end_sample": 106126,
+          "start_ms": 6222,
+          "end_ms": 6633
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 301,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjj"
+}

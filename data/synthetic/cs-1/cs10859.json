@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10859.flac",
+  "sentence": "Could you help me hang these 提灯 along the front porch?",
+  "sample_rate": 16000,
+  "duration_ms": 3195,
+  "reference_speaker": "en/speaker_055_a1e62e8e91e0.mp3",
+  "seed": 10901,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Could you help me hang these",
+      "start_sample": 0,
+      "end_sample": 22309,
+      "start_ms": 0,
+      "end_ms": 1394
+    },
+    {
+      "lang": "ja",
+      "text": "提灯",
+      "start_sample": 22309,
+      "end_sample": 31381,
+      "start_ms": 1394,
+      "end_ms": 1961
+    },
+    {
+      "lang": "en",
+      "text": "along the front porch?",
+      "start_sample": 31381,
+      "end_sample": 51113,
+      "start_ms": 1961,
+      "end_ms": 3195
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Could you help me hang these teitou along the front porch?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3155,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you help me hang these",
+          "start_sample": 0,
+          "end_sample": 22509,
+          "start_ms": 0,
+          "end_ms": 1407
+        },
+        {
+          "lang": "ja",
+          "text": "提灯",
+          "start_sample": 22509,
+          "end_sample": 30548,
+          "start_ms": 1407,
+          "end_ms": 1909
+        },
+        {
+          "lang": "en",
+          "text": "along the front porch?",
+          "start_sample": 30548,
+          "end_sample": 50480,
+          "start_ms": 1909,
+          "end_ms": 3155
+        }
+      ]
+    },
+    "ja": {
+      "text": "Could you help me hang these 提灯 along the front porch?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3793,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you help me hang these",
+          "start_sample": 0,
+          "end_sample": 26169,
+          "start_ms": 0,
+          "end_ms": 1636
+        },
+        {
+          "lang": "ja",
+          "text": "提灯",
+          "start_sample": 26169,
+          "end_sample": 35641,
+          "start_ms": 1636,
+          "end_ms": 2228
+        },
+        {
+          "lang": "en",
+          "text": "along the front porch?",
+          "start_sample": 35641,
+          "end_sample": 60684,
+          "start_ms": 2228,
+          "end_ms": 3793
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

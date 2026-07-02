@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10461.flac",
+  "sentence": "冬の前にbulbを地面に埋めておく必要がある。",
+  "sample_rate": 16000,
+  "duration_ms": 3499,
+  "reference_speaker": "jp/speaker_046_38f0b7b27586.mp3",
+  "seed": 10503,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "冬の前に",
+      "start_sample": 0,
+      "end_sample": 10433,
+      "start_ms": 0,
+      "end_ms": 652
+    },
+    {
+      "lang": "en",
+      "text": "bulb",
+      "start_sample": 10433,
+      "end_sample": 26214,
+      "start_ms": 652,
+      "end_ms": 1638
+    },
+    {
+      "lang": "ja",
+      "text": "を地面に埋めておく必要がある。",
+      "start_sample": 26214,
+      "end_sample": 55977,
+      "start_ms": 1638,
+      "end_ms": 3499
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "fuyu no mae ni bulb wo jimen ni ume te oku hitsuyou ga aru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8030,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冬の前に",
+          "start_sample": 0,
+          "end_sample": 39251,
+          "start_ms": 0,
+          "end_ms": 2453
+        },
+        {
+          "lang": "en",
+          "text": "bulb",
+          "start_sample": 39251,
+          "end_sample": 55432,
+          "start_ms": 2453,
+          "end_ms": 3464
+        },
+        {
+          "lang": "ja",
+          "text": "を地面に埋めておく必要がある。",
+          "start_sample": 55432,
+          "end_sample": 128486,
+          "start_ms": 3464,
+          "end_ms": 8030
+        }
+      ]
+    },
+    "ja": {
+      "text": "冬の前にbulbを地面に埋めておく必要がある。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2880,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冬の前に",
+          "start_sample": 0,
+          "end_sample": 10633,
+          "start_ms": 0,
+          "end_ms": 665
+        },
+        {
+          "lang": "en",
+          "text": "bulb",
+          "start_sample": 10633,
+          "end_sample": 16111,
+          "start_ms": 665,
+          "end_ms": 1007
+        },
+        {
+          "lang": "ja",
+          "text": "を地面に埋めておく必要がある。",
+          "start_sample": 16111,
+          "end_sample": 46074,
+          "start_ms": 1007,
+          "end_ms": 2880
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

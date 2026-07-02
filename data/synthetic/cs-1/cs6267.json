@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6267.flac",
+  "sentence": "彼はshavingの後にいつも特別なローションを使っている。",
+  "sample_rate": 16000,
+  "duration_ms": 4790,
+  "reference_speaker": "en/speaker_093_c561f370b1dd.mp3",
+  "seed": 6309,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼は",
+      "start_sample": 0,
+      "end_sample": 8140,
+      "start_ms": 0,
+      "end_ms": 509
+    },
+    {
+      "lang": "en",
+      "text": "shaving",
+      "start_sample": 8140,
+      "end_sample": 30330,
+      "start_ms": 509,
+      "end_ms": 1896
+    },
+    {
+      "lang": "ja",
+      "text": "の後にいつも特別なローションを使っている。",
+      "start_sample": 30330,
+      "end_sample": 76647,
+      "start_ms": 1896,
+      "end_ms": 4790
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha shaving no nochi ni itsu mo tokubetsu na rooshon wo tsukatsu te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8030,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 6247,
+          "start_ms": 0,
+          "end_ms": 390
+        },
+        {
+          "lang": "en",
+          "text": "shaving",
+          "start_sample": 6247,
+          "end_sample": 28837,
+          "start_ms": 390,
+          "end_ms": 1802
+        },
+        {
+          "lang": "ja",
+          "text": "の後にいつも特別なローションを使っている。",
+          "start_sample": 28837,
+          "end_sample": 128486,
+          "start_ms": 1802,
+          "end_ms": 8030
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はshavingの後にいつも特別なローションを使っている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4070,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 8340,
+          "start_ms": 0,
+          "end_ms": 521
+        },
+        {
+          "lang": "en",
+          "text": "shaving",
+          "start_sample": 8340,
+          "end_sample": 18607,
+          "start_ms": 521,
+          "end_ms": 1163
+        },
+        {
+          "lang": "ja",
+          "text": "の後にいつも特別なローションを使っている。",
+          "start_sample": 18607,
+          "end_sample": 65124,
+          "start_ms": 1163,
+          "end_ms": 4070
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 240,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

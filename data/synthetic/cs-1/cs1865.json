@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1865.flac",
+  "sentence": "彼女はtangyなソースを作るのがとても上手だ。",
+  "sample_rate": 16000,
+  "duration_ms": 4279,
+  "reference_speaker": "en/speaker_082_0d071699a4ef.mp3",
+  "seed": 1907,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は",
+      "start_sample": 0,
+      "end_sample": 11184,
+      "start_ms": 0,
+      "end_ms": 699
+    },
+    {
+      "lang": "en",
+      "text": "tangy",
+      "start_sample": 11184,
+      "end_sample": 24097,
+      "start_ms": 699,
+      "end_ms": 1506
+    },
+    {
+      "lang": "ja",
+      "text": "なソースを作るのがとても上手だ。",
+      "start_sample": 24097,
+      "end_sample": 68471,
+      "start_ms": 1506,
+      "end_ms": 4279
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha tangy na soosu wo tsukuru no ga totemo jouzu da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5333,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 10265,
+          "start_ms": 0,
+          "end_ms": 642
+        },
+        {
+          "lang": "en",
+          "text": "tangy",
+          "start_sample": 10265,
+          "end_sample": 23578,
+          "start_ms": 642,
+          "end_ms": 1474
+        },
+        {
+          "lang": "ja",
+          "text": "なソースを作るのがとても上手だ。",
+          "start_sample": 23578,
+          "end_sample": 85333,
+          "start_ms": 1474,
+          "end_ms": 5333
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はtangyなソースを作るのがとても上手だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4129,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 11384,
+          "start_ms": 0,
+          "end_ms": 712
+        },
+        {
+          "lang": "en",
+          "text": "tangy",
+          "start_sample": 11384,
+          "end_sample": 21486,
+          "start_ms": 712,
+          "end_ms": 1343
+        },
+        {
+          "lang": "ja",
+          "text": "なソースを作るのがとても上手だ。",
+          "start_sample": 21486,
+          "end_sample": 66060,
+          "start_ms": 1343,
+          "end_ms": 4129
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 214,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

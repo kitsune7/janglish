@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1570.flac",
+  "sentence": "She says the first 雷 of spring always brings her a strange sense of 期待.",
+  "sample_rate": 16000,
+  "duration_ms": 8715,
+  "reference_speaker": "en/speaker_098_f600c480bfab.mp3",
+  "seed": 18425,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She says the first",
+      "start_sample": 0,
+      "end_sample": 21263,
+      "start_ms": 0,
+      "end_ms": 1329
+    },
+    {
+      "lang": "ja",
+      "text": "雷",
+      "start_sample": 21263,
+      "end_sample": 45213,
+      "start_ms": 1329,
+      "end_ms": 2826
+    },
+    {
+      "lang": "en",
+      "text": "of spring always brings her a strange sense of",
+      "start_sample": 45213,
+      "end_sample": 131149,
+      "start_ms": 2826,
+      "end_ms": 8197
+    },
+    {
+      "lang": "ja",
+      "text": "期待.",
+      "start_sample": 131149,
+      "end_sample": 139438,
+      "start_ms": 8197,
+      "end_ms": 8715
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She says the first kaminari of spring always brings her a strange sense of kitai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8069,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She says the first",
+          "start_sample": 0,
+          "end_sample": 21463,
+          "start_ms": 0,
+          "end_ms": 1341
+        },
+        {
+          "lang": "ja",
+          "text": "雷",
+          "start_sample": 21463,
+          "end_sample": 33317,
+          "start_ms": 1341,
+          "end_ms": 2082
+        },
+        {
+          "lang": "en",
+          "text": "of spring always brings her a strange sense of",
+          "start_sample": 33317,
+          "end_sample": 119653,
+          "start_ms": 2082,
+          "end_ms": 7478
+        },
+        {
+          "lang": "ja",
+          "text": "期待.",
+          "start_sample": 119653,
+          "end_sample": 129103,
+          "start_ms": 7478,
+          "end_ms": 8069
+        }
+      ]
+    },
+    "ja": {
+      "text": "She says the first 雷 of spring always brings her a strange sense of 期待.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 15880,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She says the first",
+          "start_sample": 0,
+          "end_sample": 49660,
+          "start_ms": 0,
+          "end_ms": 3104
+        },
+        {
+          "lang": "ja",
+          "text": "雷",
+          "start_sample": 49660,
+          "end_sample": 74010,
+          "start_ms": 3104,
+          "end_ms": 4626
+        },
+        {
+          "lang": "en",
+          "text": "of spring always brings her a strange sense of",
+          "start_sample": 74010,
+          "end_sample": 245583,
+          "start_ms": 4626,
+          "end_ms": 15349
+        },
+        {
+          "lang": "ja",
+          "text": "期待.",
+          "start_sample": 245583,
+          "end_sample": 254072,
+          "start_ms": 15349,
+          "end_ms": 15880
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 436,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1465.flac",
+  "sentence": "The exhibition design was 緻密 throughout, and each transition between rooms felt like a carefully planned 演出.",
+  "sample_rate": 16000,
+  "duration_ms": 7071,
+  "reference_speaker": "jp/speaker_100_5a2cde56c3f2.mp3",
+  "seed": 18320,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The exhibition design was",
+      "start_sample": 0,
+      "end_sample": 23698,
+      "start_ms": 0,
+      "end_ms": 1481
+    },
+    {
+      "lang": "ja",
+      "text": "緻密",
+      "start_sample": 23698,
+      "end_sample": 32265,
+      "start_ms": 1481,
+      "end_ms": 2017
+    },
+    {
+      "lang": "en",
+      "text": "throughout, and each transition between rooms felt like a carefully planned",
+      "start_sample": 32265,
+      "end_sample": 106455,
+      "start_ms": 2017,
+      "end_ms": 6653
+    },
+    {
+      "lang": "ja",
+      "text": "演出.",
+      "start_sample": 106455,
+      "end_sample": 113139,
+      "start_ms": 6653,
+      "end_ms": 7071
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The exhibition design was chimitsu throughout, and each transition between rooms felt like a carefully planned enshutsu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7318,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The exhibition design was",
+          "start_sample": 0,
+          "end_sample": 23898,
+          "start_ms": 0,
+          "end_ms": 1494
+        },
+        {
+          "lang": "ja",
+          "text": "緻密",
+          "start_sample": 23898,
+          "end_sample": 33041,
+          "start_ms": 1494,
+          "end_ms": 2065
+        },
+        {
+          "lang": "en",
+          "text": "throughout, and each transition between rooms felt like a carefully planned",
+          "start_sample": 33041,
+          "end_sample": 107631,
+          "start_ms": 2065,
+          "end_ms": 6727
+        },
+        {
+          "lang": "ja",
+          "text": "演出.",
+          "start_sample": 107631,
+          "end_sample": 117093,
+          "start_ms": 6727,
+          "end_ms": 7318
+        }
+      ]
+    },
+    "ja": {
+      "text": "The exhibition design was 緻密 throughout, and each transition between rooms felt like a carefully planned 演出.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7666,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The exhibition design was",
+          "start_sample": 0,
+          "end_sample": 26579,
+          "start_ms": 0,
+          "end_ms": 1661
+        },
+        {
+          "lang": "ja",
+          "text": "緻密",
+          "start_sample": 26579,
+          "end_sample": 35546,
+          "start_ms": 1661,
+          "end_ms": 2222
+        },
+        {
+          "lang": "en",
+          "text": "throughout, and each transition between rooms felt like a carefully planned",
+          "start_sample": 35546,
+          "end_sample": 115767,
+          "start_ms": 2222,
+          "end_ms": 7235
+        },
+        {
+          "lang": "ja",
+          "text": "演出.",
+          "start_sample": 115767,
+          "end_sample": 122651,
+          "start_ms": 7235,
+          "end_ms": 7666
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 354,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjj"
+}

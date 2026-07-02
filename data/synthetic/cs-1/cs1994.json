@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1994.flac",
+  "sentence": "Have you ever tried 白黒 photography with medium format film?",
+  "sample_rate": 16000,
+  "duration_ms": 3737,
+  "reference_speaker": "en/speaker_019_53050c1aaaa1.mp3",
+  "seed": 2036,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you ever tried",
+      "start_sample": 0,
+      "end_sample": 16792,
+      "start_ms": 0,
+      "end_ms": 1050
+    },
+    {
+      "lang": "ja",
+      "text": "白黒",
+      "start_sample": 16792,
+      "end_sample": 24572,
+      "start_ms": 1050,
+      "end_ms": 1536
+    },
+    {
+      "lang": "en",
+      "text": "photography with medium format film?",
+      "start_sample": 24572,
+      "end_sample": 59799,
+      "start_ms": 1536,
+      "end_ms": 3737
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you ever tried shirokuro photography with medium format film?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3867,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever tried",
+          "start_sample": 0,
+          "end_sample": 16992,
+          "start_ms": 0,
+          "end_ms": 1062
+        },
+        {
+          "lang": "ja",
+          "text": "白黒",
+          "start_sample": 16992,
+          "end_sample": 26449,
+          "start_ms": 1062,
+          "end_ms": 1653
+        },
+        {
+          "lang": "en",
+          "text": "photography with medium format film?",
+          "start_sample": 26449,
+          "end_sample": 61876,
+          "start_ms": 1653,
+          "end_ms": 3867
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you ever tried 白黒 photography with medium format film?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3889,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever tried",
+          "start_sample": 0,
+          "end_sample": 18764,
+          "start_ms": 0,
+          "end_ms": 1173
+        },
+        {
+          "lang": "ja",
+          "text": "白黒",
+          "start_sample": 18764,
+          "end_sample": 26944,
+          "start_ms": 1173,
+          "end_ms": 1684
+        },
+        {
+          "lang": "en",
+          "text": "photography with medium format film?",
+          "start_sample": 26944,
+          "end_sample": 62230,
+          "start_ms": 1684,
+          "end_ms": 3889
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 187,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

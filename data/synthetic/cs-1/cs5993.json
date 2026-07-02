@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5993.flac",
+  "sentence": "Are those 手袋 actually made of genuine leather?",
+  "sample_rate": 16000,
+  "duration_ms": 3012,
+  "reference_speaker": "en/speaker_016_fcffb37fddea.mp3",
+  "seed": 6035,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Are those",
+      "start_sample": 0,
+      "end_sample": 9756,
+      "start_ms": 0,
+      "end_ms": 610
+    },
+    {
+      "lang": "ja",
+      "text": "手袋",
+      "start_sample": 9756,
+      "end_sample": 19794,
+      "start_ms": 610,
+      "end_ms": 1237
+    },
+    {
+      "lang": "en",
+      "text": "actually made of genuine leather?",
+      "start_sample": 19794,
+      "end_sample": 48186,
+      "start_ms": 1237,
+      "end_ms": 3012
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Are those tebukuro actually made of genuine leather?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3072,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Are those",
+          "start_sample": 0,
+          "end_sample": 9956,
+          "start_ms": 0,
+          "end_ms": 622
+        },
+        {
+          "lang": "ja",
+          "text": "手袋",
+          "start_sample": 9956,
+          "end_sample": 20559,
+          "start_ms": 622,
+          "end_ms": 1285
+        },
+        {
+          "lang": "en",
+          "text": "actually made of genuine leather?",
+          "start_sample": 20559,
+          "end_sample": 49151,
+          "start_ms": 1285,
+          "end_ms": 3072
+        }
+      ]
+    },
+    "ja": {
+      "text": "Are those 手袋 actually made of genuine leather?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3493,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Are those",
+          "start_sample": 0,
+          "end_sample": 5620,
+          "start_ms": 0,
+          "end_ms": 351
+        },
+        {
+          "lang": "ja",
+          "text": "手袋",
+          "start_sample": 5620,
+          "end_sample": 16058,
+          "start_ms": 351,
+          "end_ms": 1004
+        },
+        {
+          "lang": "en",
+          "text": "actually made of genuine leather?",
+          "start_sample": 16058,
+          "end_sample": 55881,
+          "start_ms": 1004,
+          "end_ms": 3493
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 151,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

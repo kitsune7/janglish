@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3988.flac",
+  "sentence": "We had a 些細 argument last night, but it blew over by morning.",
+  "sample_rate": 16000,
+  "duration_ms": 4285,
+  "reference_speaker": "jp/speaker_056_e4a42336440b.mp3",
+  "seed": 4030,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We had a",
+      "start_sample": 0,
+      "end_sample": 6365,
+      "start_ms": 0,
+      "end_ms": 398
+    },
+    {
+      "lang": "ja",
+      "text": "些細",
+      "start_sample": 6365,
+      "end_sample": 13513,
+      "start_ms": 398,
+      "end_ms": 845
+    },
+    {
+      "lang": "en",
+      "text": "argument last night, but it blew over by morning.",
+      "start_sample": 13513,
+      "end_sample": 68563,
+      "start_ms": 845,
+      "end_ms": 4285
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We had a sasai argument last night, but it blew over by morning.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4484,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We had a",
+          "start_sample": 0,
+          "end_sample": 6565,
+          "start_ms": 0,
+          "end_ms": 410
+        },
+        {
+          "lang": "ja",
+          "text": "些細",
+          "start_sample": 6565,
+          "end_sample": 16494,
+          "start_ms": 410,
+          "end_ms": 1031
+        },
+        {
+          "lang": "en",
+          "text": "argument last night, but it blew over by morning.",
+          "start_sample": 16494,
+          "end_sample": 71744,
+          "start_ms": 1031,
+          "end_ms": 4484
+        }
+      ]
+    },
+    "ja": {
+      "text": "We had a 些細 argument last night, but it blew over by morning.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4978,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We had a",
+          "start_sample": 0,
+          "end_sample": 7386,
+          "start_ms": 0,
+          "end_ms": 462
+        },
+        {
+          "lang": "ja",
+          "text": "些細",
+          "start_sample": 7386,
+          "end_sample": 14934,
+          "start_ms": 462,
+          "end_ms": 933
+        },
+        {
+          "lang": "en",
+          "text": "argument last night, but it blew over by morning.",
+          "start_sample": 14934,
+          "end_sample": 79648,
+          "start_ms": 933,
+          "end_ms": 4978
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 215,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

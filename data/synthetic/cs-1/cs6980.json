@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6980.flac",
+  "sentence": "息子がschool tripのお小遣いをもう使ってしまったらしい。",
+  "sample_rate": 16000,
+  "duration_ms": 4015,
+  "reference_speaker": "en/speaker_020_5f047713c8bd.mp3",
+  "seed": 7022,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "息子が",
+      "start_sample": 0,
+      "end_sample": 7030,
+      "start_ms": 0,
+      "end_ms": 439
+    },
+    {
+      "lang": "en",
+      "text": "school trip",
+      "start_sample": 7030,
+      "end_sample": 30705,
+      "start_ms": 439,
+      "end_ms": 1919
+    },
+    {
+      "lang": "ja",
+      "text": "のお小遣いをもう使ってしまったらしい。",
+      "start_sample": 30705,
+      "end_sample": 64246,
+      "start_ms": 1919,
+      "end_ms": 4015
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "musuko ga school trip no o kozukai wo mou tsukatsu te shimatsu ta rashii",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7102,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "息子が",
+          "start_sample": 0,
+          "end_sample": 12840,
+          "start_ms": 0,
+          "end_ms": 802
+        },
+        {
+          "lang": "en",
+          "text": "school trip",
+          "start_sample": 12840,
+          "end_sample": 36915,
+          "start_ms": 802,
+          "end_ms": 2307
+        },
+        {
+          "lang": "ja",
+          "text": "のお小遣いをもう使ってしまったらしい。",
+          "start_sample": 36915,
+          "end_sample": 113632,
+          "start_ms": 2307,
+          "end_ms": 7102
+        }
+      ]
+    },
+    "ja": {
+      "text": "息子がschool tripのお小遣いをもう使ってしまったらしい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3334,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "息子が",
+          "start_sample": 0,
+          "end_sample": 7230,
+          "start_ms": 0,
+          "end_ms": 452
+        },
+        {
+          "lang": "en",
+          "text": "school trip",
+          "start_sample": 7230,
+          "end_sample": 19603,
+          "start_ms": 452,
+          "end_ms": 1225
+        },
+        {
+          "lang": "ja",
+          "text": "のお小遣いをもう使ってしまったらしい。",
+          "start_sample": 19603,
+          "end_sample": 53344,
+          "start_ms": 1225,
+          "end_ms": 3334
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

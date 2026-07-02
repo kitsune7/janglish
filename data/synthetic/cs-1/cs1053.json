@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1053.flac",
+  "sentence": "クラフトビールのbrew masterが直接説明してくれた。",
+  "sample_rate": 16000,
+  "duration_ms": 3465,
+  "reference_speaker": "en/speaker_072_33acedb4c9a7.mp3",
+  "seed": 1095,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "クラフトビールの",
+      "start_sample": 0,
+      "end_sample": 13781,
+      "start_ms": 0,
+      "end_ms": 861
+    },
+    {
+      "lang": "en",
+      "text": "brew master",
+      "start_sample": 13781,
+      "end_sample": 26228,
+      "start_ms": 861,
+      "end_ms": 1639
+    },
+    {
+      "lang": "ja",
+      "text": "が直接説明してくれた。",
+      "start_sample": 26228,
+      "end_sample": 55434,
+      "start_ms": 1639,
+      "end_ms": 3465
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kurafuto biiru no brew master ga chokusetsu setsumei shi te kure ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4898,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "クラフトビールの",
+          "start_sample": 0,
+          "end_sample": 22482,
+          "start_ms": 0,
+          "end_ms": 1405
+        },
+        {
+          "lang": "en",
+          "text": "brew master",
+          "start_sample": 22482,
+          "end_sample": 35329,
+          "start_ms": 1405,
+          "end_ms": 2208
+        },
+        {
+          "lang": "ja",
+          "text": "が直接説明してくれた。",
+          "start_sample": 35329,
+          "end_sample": 78363,
+          "start_ms": 2208,
+          "end_ms": 4898
+        }
+      ]
+    },
+    "ja": {
+      "text": "クラフトビールのbrew masterが直接説明してくれた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3455,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "クラフトビールの",
+          "start_sample": 0,
+          "end_sample": 13981,
+          "start_ms": 0,
+          "end_ms": 874
+        },
+        {
+          "lang": "en",
+          "text": "brew master",
+          "start_sample": 13981,
+          "end_sample": 25874,
+          "start_ms": 874,
+          "end_ms": 1617
+        },
+        {
+          "lang": "ja",
+          "text": "が直接説明してくれた。",
+          "start_sample": 25874,
+          "end_sample": 55280,
+          "start_ms": 1617,
+          "end_ms": 3455
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 174,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

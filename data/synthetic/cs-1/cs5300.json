@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5300.flac",
+  "sentence": "水槽のそうじは weekly でやらないと、魚が病気になってしまいます。",
+  "sample_rate": 16000,
+  "duration_ms": 4600,
+  "reference_speaker": "jp/speaker_089_6207739e2e58.mp3",
+  "seed": 5342,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "水槽のそうじは",
+      "start_sample": 0,
+      "end_sample": 16687,
+      "start_ms": 0,
+      "end_ms": 1043
+    },
+    {
+      "lang": "en",
+      "text": "weekly",
+      "start_sample": 16687,
+      "end_sample": 29903,
+      "start_ms": 1043,
+      "end_ms": 1869
+    },
+    {
+      "lang": "ja",
+      "text": "でやらないと、魚が病気になってしまいます。",
+      "start_sample": 29903,
+      "end_sample": 73606,
+      "start_ms": 1869,
+      "end_ms": 4600
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "suisou no souji ha weekly de yara nai to sakana ga byouki ni natsu te shimai masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9612,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "水槽のそうじは",
+          "start_sample": 0,
+          "end_sample": 45976,
+          "start_ms": 0,
+          "end_ms": 2874
+        },
+        {
+          "lang": "en",
+          "text": "weekly",
+          "start_sample": 45976,
+          "end_sample": 59592,
+          "start_ms": 2874,
+          "end_ms": 3724
+        },
+        {
+          "lang": "ja",
+          "text": "でやらないと、魚が病気になってしまいます。",
+          "start_sample": 59592,
+          "end_sample": 153787,
+          "start_ms": 3724,
+          "end_ms": 9612
+        }
+      ]
+    },
+    "ja": {
+      "text": "水槽のそうじは weekly でやらないと、魚が病気になってしまいます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4362,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "水槽のそうじは",
+          "start_sample": 0,
+          "end_sample": 16887,
+          "start_ms": 0,
+          "end_ms": 1055
+        },
+        {
+          "lang": "en",
+          "text": "weekly",
+          "start_sample": 16887,
+          "end_sample": 25894,
+          "start_ms": 1055,
+          "end_ms": 1618
+        },
+        {
+          "lang": "ja",
+          "text": "でやらないと、魚が病気になってしまいます。",
+          "start_sample": 25894,
+          "end_sample": 69797,
+          "start_ms": 1618,
+          "end_ms": 4362
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 231,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

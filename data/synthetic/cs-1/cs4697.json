@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4697.flac",
+  "sentence": "Is the 始発 really at five in the morning on this line?",
+  "sample_rate": 16000,
+  "duration_ms": 3122,
+  "reference_speaker": "en/speaker_056_b1458b769af8.mp3",
+  "seed": 4739,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Is the",
+      "start_sample": 0,
+      "end_sample": 5581,
+      "start_ms": 0,
+      "end_ms": 349
+    },
+    {
+      "lang": "ja",
+      "text": "始発",
+      "start_sample": 5581,
+      "end_sample": 15922,
+      "start_ms": 349,
+      "end_ms": 995
+    },
+    {
+      "lang": "en",
+      "text": "really at five in the morning on this line?",
+      "start_sample": 15922,
+      "end_sample": 49944,
+      "start_ms": 995,
+      "end_ms": 3122
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Is the shihatsu really at five in the morning on this line?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3274,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is the",
+          "start_sample": 0,
+          "end_sample": 5781,
+          "start_ms": 0,
+          "end_ms": 361
+        },
+        {
+          "lang": "ja",
+          "text": "始発",
+          "start_sample": 5781,
+          "end_sample": 18154,
+          "start_ms": 361,
+          "end_ms": 1135
+        },
+        {
+          "lang": "en",
+          "text": "really at five in the morning on this line?",
+          "start_sample": 18154,
+          "end_sample": 52376,
+          "start_ms": 1135,
+          "end_ms": 3274
+        }
+      ]
+    },
+    "ja": {
+      "text": "Is the 始発 really at five in the morning on this line?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3467,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is the",
+          "start_sample": 0,
+          "end_sample": 6732,
+          "start_ms": 0,
+          "end_ms": 421
+        },
+        {
+          "lang": "ja",
+          "text": "始発",
+          "start_sample": 6732,
+          "end_sample": 17473,
+          "start_ms": 421,
+          "end_ms": 1092
+        },
+        {
+          "lang": "en",
+          "text": "really at five in the morning on this line?",
+          "start_sample": 17473,
+          "end_sample": 55465,
+          "start_ms": 1092,
+          "end_ms": 3467
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 157,
+  "frame_labels": "eeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

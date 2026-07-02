@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10673.flac",
+  "sentence": "We took the 近道 through the industrial district to avoid the main road.",
+  "sample_rate": 16000,
+  "duration_ms": 4111,
+  "reference_speaker": "en/speaker_056_b1458b769af8.mp3",
+  "seed": 10715,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We took the",
+      "start_sample": 0,
+      "end_sample": 7362,
+      "start_ms": 0,
+      "end_ms": 460
+    },
+    {
+      "lang": "ja",
+      "text": "近道",
+      "start_sample": 7362,
+      "end_sample": 19155,
+      "start_ms": 460,
+      "end_ms": 1197
+    },
+    {
+      "lang": "en",
+      "text": "through the industrial district to avoid the main road.",
+      "start_sample": 19155,
+      "end_sample": 65776,
+      "start_ms": 1197,
+      "end_ms": 4111
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We took the chikamichi through the industrial district to avoid the main road.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4043,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We took the",
+          "start_sample": 0,
+          "end_sample": 7562,
+          "start_ms": 0,
+          "end_ms": 473
+        },
+        {
+          "lang": "ja",
+          "text": "近道",
+          "start_sample": 7562,
+          "end_sample": 17861,
+          "start_ms": 473,
+          "end_ms": 1116
+        },
+        {
+          "lang": "en",
+          "text": "through the industrial district to avoid the main road.",
+          "start_sample": 17861,
+          "end_sample": 64682,
+          "start_ms": 1116,
+          "end_ms": 4043
+        }
+      ]
+    },
+    "ja": {
+      "text": "We took the 近道 through the industrial district to avoid the main road.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5535,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We took the",
+          "start_sample": 0,
+          "end_sample": 15080,
+          "start_ms": 0,
+          "end_ms": 942
+        },
+        {
+          "lang": "ja",
+          "text": "近道",
+          "start_sample": 15080,
+          "end_sample": 27273,
+          "start_ms": 942,
+          "end_ms": 1705
+        },
+        {
+          "lang": "en",
+          "text": "through the industrial district to avoid the main road.",
+          "start_sample": 27273,
+          "end_sample": 88558,
+          "start_ms": 1705,
+          "end_ms": 5535
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 206,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

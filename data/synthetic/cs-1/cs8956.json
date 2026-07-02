@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8956.flac",
+  "sentence": "The 明細書 showed three charges I didn't recognize at all.",
+  "sample_rate": 16000,
+  "duration_ms": 4117,
+  "reference_speaker": "en/speaker_019_53050c1aaaa1.mp3",
+  "seed": 8998,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1401,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "明細書",
+      "start_sample": 1401,
+      "end_sample": 10951,
+      "start_ms": 88,
+      "end_ms": 684
+    },
+    {
+      "lang": "en",
+      "text": "showed three charges I didn't recognize at all.",
+      "start_sample": 10951,
+      "end_sample": 65865,
+      "start_ms": 684,
+      "end_ms": 4117
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The meisai kaki showed three charges I didn't recognize at all.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4526,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1601,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "明細書",
+          "start_sample": 1601,
+          "end_sample": 17303,
+          "start_ms": 100,
+          "end_ms": 1081
+        },
+        {
+          "lang": "en",
+          "text": "showed three charges I didn't recognize at all.",
+          "start_sample": 17303,
+          "end_sample": 72417,
+          "start_ms": 1081,
+          "end_ms": 4526
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 明細書 showed three charges I didn't recognize at all.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3470,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4170,
+          "start_ms": 0,
+          "end_ms": 261
+        },
+        {
+          "lang": "ja",
+          "text": "明細書",
+          "start_sample": 4170,
+          "end_sample": 14120,
+          "start_ms": 261,
+          "end_ms": 882
+        },
+        {
+          "lang": "en",
+          "text": "showed three charges I didn't recognize at all.",
+          "start_sample": 14120,
+          "end_sample": 55522,
+          "start_ms": 882,
+          "end_ms": 3470
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 206,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs770.flac",
+  "sentence": "I always feel a wave of 緊張 right before I give my 自己紹介.",
+  "sample_rate": 16000,
+  "duration_ms": 3904,
+  "reference_speaker": "en/speaker_051_36aa24c8ddec.mp3",
+  "seed": 17625,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always feel a wave of",
+      "start_sample": 0,
+      "end_sample": 20310,
+      "start_ms": 0,
+      "end_ms": 1269
+    },
+    {
+      "lang": "ja",
+      "text": "緊張",
+      "start_sample": 20310,
+      "end_sample": 29706,
+      "start_ms": 1269,
+      "end_ms": 1857
+    },
+    {
+      "lang": "en",
+      "text": "right before I give my",
+      "start_sample": 29706,
+      "end_sample": 48055,
+      "start_ms": 1857,
+      "end_ms": 3003
+    },
+    {
+      "lang": "ja",
+      "text": "自己紹介.",
+      "start_sample": 48055,
+      "end_sample": 62466,
+      "start_ms": 3003,
+      "end_ms": 3904
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always feel a wave of kinchou right before I give my jiko shoukai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4006,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel a wave of",
+          "start_sample": 0,
+          "end_sample": 20510,
+          "start_ms": 0,
+          "end_ms": 1282
+        },
+        {
+          "lang": "ja",
+          "text": "緊張",
+          "start_sample": 20510,
+          "end_sample": 29324,
+          "start_ms": 1282,
+          "end_ms": 1833
+        },
+        {
+          "lang": "en",
+          "text": "right before I give my",
+          "start_sample": 29324,
+          "end_sample": 48073,
+          "start_ms": 1833,
+          "end_ms": 3005
+        },
+        {
+          "lang": "ja",
+          "text": "自己紹介.",
+          "start_sample": 48073,
+          "end_sample": 64097,
+          "start_ms": 3005,
+          "end_ms": 4006
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always feel a wave of 緊張 right before I give my 自己紹介.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5841,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel a wave of",
+          "start_sample": 0,
+          "end_sample": 36130,
+          "start_ms": 0,
+          "end_ms": 2258
+        },
+        {
+          "lang": "ja",
+          "text": "緊張",
+          "start_sample": 36130,
+          "end_sample": 45926,
+          "start_ms": 2258,
+          "end_ms": 2870
+        },
+        {
+          "lang": "en",
+          "text": "right before I give my",
+          "start_sample": 45926,
+          "end_sample": 78848,
+          "start_ms": 2870,
+          "end_ms": 4928
+        },
+        {
+          "lang": "ja",
+          "text": "自己紹介.",
+          "start_sample": 78848,
+          "end_sample": 93459,
+          "start_ms": 4928,
+          "end_ms": 5841
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7889.flac",
+  "sentence": "Have you ever watched a 山車 roll through the streets during a summer parade?",
+  "sample_rate": 16000,
+  "duration_ms": 4449,
+  "reference_speaker": "jp/speaker_085_c431b4a9ddfb.mp3",
+  "seed": 7931,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you ever watched a",
+      "start_sample": 0,
+      "end_sample": 16351,
+      "start_ms": 0,
+      "end_ms": 1022
+    },
+    {
+      "lang": "ja",
+      "text": "山車",
+      "start_sample": 16351,
+      "end_sample": 22371,
+      "start_ms": 1022,
+      "end_ms": 1398
+    },
+    {
+      "lang": "en",
+      "text": "roll through the streets during a summer parade?",
+      "start_sample": 22371,
+      "end_sample": 71179,
+      "start_ms": 1398,
+      "end_ms": 4449
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you ever watched a dashi roll through the streets during a summer parade?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4499,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever watched a",
+          "start_sample": 0,
+          "end_sample": 16551,
+          "start_ms": 0,
+          "end_ms": 1034
+        },
+        {
+          "lang": "ja",
+          "text": "山車",
+          "start_sample": 16551,
+          "end_sample": 22978,
+          "start_ms": 1034,
+          "end_ms": 1436
+        },
+        {
+          "lang": "en",
+          "text": "roll through the streets during a summer parade?",
+          "start_sample": 22978,
+          "end_sample": 71986,
+          "start_ms": 1436,
+          "end_ms": 4499
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you ever watched a 山車 roll through the streets during a summer parade?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4915,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever watched a",
+          "start_sample": 0,
+          "end_sample": 20382,
+          "start_ms": 0,
+          "end_ms": 1274
+        },
+        {
+          "lang": "ja",
+          "text": "山車",
+          "start_sample": 20382,
+          "end_sample": 26802,
+          "start_ms": 1274,
+          "end_ms": 1675
+        },
+        {
+          "lang": "en",
+          "text": "roll through the streets during a summer parade?",
+          "start_sample": 26802,
+          "end_sample": 78639,
+          "start_ms": 1675,
+          "end_ms": 4915
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 223,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

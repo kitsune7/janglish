@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11675.flac",
+  "sentence": "私はdormの自分の部屋で勉強するのが好きだ。",
+  "sample_rate": 16000,
+  "duration_ms": 3470,
+  "reference_speaker": "jp/speaker_043_1ef414c9abc5.mp3",
+  "seed": 11717,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "私は",
+      "start_sample": 0,
+      "end_sample": 7827,
+      "start_ms": 0,
+      "end_ms": 489
+    },
+    {
+      "lang": "en",
+      "text": "dorm",
+      "start_sample": 7827,
+      "end_sample": 20078,
+      "start_ms": 489,
+      "end_ms": 1255
+    },
+    {
+      "lang": "ja",
+      "text": "の自分の部屋で勉強するのが好きだ。",
+      "start_sample": 20078,
+      "end_sample": 55517,
+      "start_ms": 1255,
+      "end_ms": 3470
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "watashi ha dorm no jibun no heya de benkyou suru no ga suki da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5985,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私は",
+          "start_sample": 0,
+          "end_sample": 12010,
+          "start_ms": 0,
+          "end_ms": 751
+        },
+        {
+          "lang": "en",
+          "text": "dorm",
+          "start_sample": 12010,
+          "end_sample": 24661,
+          "start_ms": 751,
+          "end_ms": 1541
+        },
+        {
+          "lang": "ja",
+          "text": "の自分の部屋で勉強するのが好きだ。",
+          "start_sample": 24661,
+          "end_sample": 95764,
+          "start_ms": 1541,
+          "end_ms": 5985
+        }
+      ]
+    },
+    "ja": {
+      "text": "私はdormの自分の部屋で勉強するのが好きだ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3070,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私は",
+          "start_sample": 0,
+          "end_sample": 8027,
+          "start_ms": 0,
+          "end_ms": 502
+        },
+        {
+          "lang": "en",
+          "text": "dorm",
+          "start_sample": 8027,
+          "end_sample": 13485,
+          "start_ms": 502,
+          "end_ms": 843
+        },
+        {
+          "lang": "ja",
+          "text": "の自分の部屋で勉強するのが好きだ。",
+          "start_sample": 13485,
+          "end_sample": 49124,
+          "start_ms": 843,
+          "end_ms": 3070
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 174,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

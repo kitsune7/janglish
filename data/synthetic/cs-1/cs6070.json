@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6070.flac",
+  "sentence": "His voicemail greeting sounds so 不自然 that nobody ever leaves a message.",
+  "sample_rate": 16000,
+  "duration_ms": 5250,
+  "reference_speaker": "jp/speaker_083_f660ed2250be.mp3",
+  "seed": 6112,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His voicemail greeting sounds so",
+      "start_sample": 0,
+      "end_sample": 38202,
+      "start_ms": 0,
+      "end_ms": 2388
+    },
+    {
+      "lang": "ja",
+      "text": "不自然",
+      "start_sample": 38202,
+      "end_sample": 50300,
+      "start_ms": 2388,
+      "end_ms": 3144
+    },
+    {
+      "lang": "en",
+      "text": "that nobody ever leaves a message.",
+      "start_sample": 50300,
+      "end_sample": 84000,
+      "start_ms": 3144,
+      "end_ms": 5250
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His voicemail greeting sounds so fu shizen that nobody ever leaves a message.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5523,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His voicemail greeting sounds so",
+          "start_sample": 0,
+          "end_sample": 38402,
+          "start_ms": 0,
+          "end_ms": 2400
+        },
+        {
+          "lang": "ja",
+          "text": "不自然",
+          "start_sample": 38402,
+          "end_sample": 54470,
+          "start_ms": 2400,
+          "end_ms": 3404
+        },
+        {
+          "lang": "en",
+          "text": "that nobody ever leaves a message.",
+          "start_sample": 54470,
+          "end_sample": 88370,
+          "start_ms": 3404,
+          "end_ms": 5523
+        }
+      ]
+    },
+    "ja": {
+      "text": "His voicemail greeting sounds so 不自然 that nobody ever leaves a message.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6649,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His voicemail greeting sounds so",
+          "start_sample": 0,
+          "end_sample": 42300,
+          "start_ms": 0,
+          "end_ms": 2644
+        },
+        {
+          "lang": "ja",
+          "text": "不自然",
+          "start_sample": 42300,
+          "end_sample": 54798,
+          "start_ms": 2644,
+          "end_ms": 3425
+        },
+        {
+          "lang": "en",
+          "text": "that nobody ever leaves a message.",
+          "start_sample": 54798,
+          "end_sample": 106391,
+          "start_ms": 3425,
+          "end_ms": 6649
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 263,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

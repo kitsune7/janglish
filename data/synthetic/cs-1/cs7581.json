@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7581.flac",
+  "sentence": "I feel so 眠い after back-to-back video calls all morning.",
+  "sample_rate": 16000,
+  "duration_ms": 4200,
+  "reference_speaker": "jp/speaker_003_7f373ff7d9ea.mp3",
+  "seed": 7623,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I feel so",
+      "start_sample": 0,
+      "end_sample": 11209,
+      "start_ms": 0,
+      "end_ms": 701
+    },
+    {
+      "lang": "ja",
+      "text": "眠い",
+      "start_sample": 11209,
+      "end_sample": 19498,
+      "start_ms": 701,
+      "end_ms": 1219
+    },
+    {
+      "lang": "en",
+      "text": "after back-to-back video calls all morning.",
+      "start_sample": 19498,
+      "end_sample": 67200,
+      "start_ms": 1219,
+      "end_ms": 4200
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I feel so nemui after back-to-back video calls all morning.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4360,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I feel so",
+          "start_sample": 0,
+          "end_sample": 11409,
+          "start_ms": 0,
+          "end_ms": 713
+        },
+        {
+          "lang": "ja",
+          "text": "眠い",
+          "start_sample": 11409,
+          "end_sample": 21859,
+          "start_ms": 713,
+          "end_ms": 1366
+        },
+        {
+          "lang": "en",
+          "text": "after back-to-back video calls all morning.",
+          "start_sample": 21859,
+          "end_sample": 69761,
+          "start_ms": 1366,
+          "end_ms": 4360
+        }
+      ]
+    },
+    "ja": {
+      "text": "I feel so 眠い after back-to-back video calls all morning.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3922,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I feel so",
+          "start_sample": 0,
+          "end_sample": 9649,
+          "start_ms": 0,
+          "end_ms": 603
+        },
+        {
+          "lang": "ja",
+          "text": "眠い",
+          "start_sample": 9649,
+          "end_sample": 18338,
+          "start_ms": 603,
+          "end_ms": 1146
+        },
+        {
+          "lang": "en",
+          "text": "after back-to-back video calls all morning.",
+          "start_sample": 18338,
+          "end_sample": 62746,
+          "start_ms": 1146,
+          "end_ms": 3922
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

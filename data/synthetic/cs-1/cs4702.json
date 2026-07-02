@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4702.flac",
+  "sentence": "The bus driver gave a very 丁寧 announcement before every stop.",
+  "sample_rate": 16000,
+  "duration_ms": 4672,
+  "reference_speaker": "en/speaker_063_66f0ab0f5d48.mp3",
+  "seed": 4744,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The bus driver gave a very",
+      "start_sample": 0,
+      "end_sample": 19851,
+      "start_ms": 0,
+      "end_ms": 1241
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧",
+      "start_sample": 19851,
+      "end_sample": 25072,
+      "start_ms": 1241,
+      "end_ms": 1567
+    },
+    {
+      "lang": "en",
+      "text": "announcement before every stop.",
+      "start_sample": 25072,
+      "end_sample": 74759,
+      "start_ms": 1567,
+      "end_ms": 4672
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The bus driver gave a very teinei announcement before every stop.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4812,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bus driver gave a very",
+          "start_sample": 0,
+          "end_sample": 20051,
+          "start_ms": 0,
+          "end_ms": 1253
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 20051,
+          "end_sample": 27109,
+          "start_ms": 1253,
+          "end_ms": 1694
+        },
+        {
+          "lang": "en",
+          "text": "announcement before every stop.",
+          "start_sample": 27109,
+          "end_sample": 76996,
+          "start_ms": 1694,
+          "end_ms": 4812
+        }
+      ]
+    },
+    "ja": {
+      "text": "The bus driver gave a very 丁寧 announcement before every stop.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5861,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bus driver gave a very",
+          "start_sample": 0,
+          "end_sample": 37575,
+          "start_ms": 0,
+          "end_ms": 2348
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 37575,
+          "end_sample": 43196,
+          "start_ms": 2348,
+          "end_ms": 2700
+        },
+        {
+          "lang": "en",
+          "text": "announcement before every stop.",
+          "start_sample": 43196,
+          "end_sample": 93780,
+          "start_ms": 2700,
+          "end_ms": 5861
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 234,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

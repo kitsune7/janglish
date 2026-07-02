@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8926.flac",
+  "sentence": "The 締め切り for the loan application is this Friday.",
+  "sample_rate": 16000,
+  "duration_ms": 4249,
+  "reference_speaker": "jp/speaker_015_c26b5026d437.mp3",
+  "seed": 8968,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1408,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "締め切り",
+      "start_sample": 1408,
+      "end_sample": 14312,
+      "start_ms": 88,
+      "end_ms": 894
+    },
+    {
+      "lang": "en",
+      "text": "for the loan application is this Friday.",
+      "start_sample": 14312,
+      "end_sample": 67988,
+      "start_ms": 894,
+      "end_ms": 4249
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shimekiri for the loan application is this Friday.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4222,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1608,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "締め切り",
+          "start_sample": 1608,
+          "end_sample": 13670,
+          "start_ms": 100,
+          "end_ms": 854
+        },
+        {
+          "lang": "en",
+          "text": "for the loan application is this Friday.",
+          "start_sample": 13670,
+          "end_sample": 67546,
+          "start_ms": 854,
+          "end_ms": 4222
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 締め切り for the loan application is this Friday.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4328,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6411,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "ja",
+          "text": "締め切り",
+          "start_sample": 6411,
+          "end_sample": 19715,
+          "start_ms": 401,
+          "end_ms": 1232
+        },
+        {
+          "lang": "en",
+          "text": "for the loan application is this Friday.",
+          "start_sample": 19715,
+          "end_sample": 69242,
+          "start_ms": 1232,
+          "end_ms": 4328
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 213,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

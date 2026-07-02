@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs311.flac",
+  "sentence": "The pediatrician explained the 接種 schedule clearly, which removed a lot of the parents' 不確かさ.",
+  "sample_rate": 16000,
+  "duration_ms": 6418,
+  "reference_speaker": "en/speaker_085_1a04e2db0811.mp3",
+  "seed": 17166,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The pediatrician explained the",
+      "start_sample": 0,
+      "end_sample": 27380,
+      "start_ms": 0,
+      "end_ms": 1711
+    },
+    {
+      "lang": "ja",
+      "text": "接種",
+      "start_sample": 27380,
+      "end_sample": 37873,
+      "start_ms": 1711,
+      "end_ms": 2367
+    },
+    {
+      "lang": "en",
+      "text": "schedule clearly, which removed a lot of the parents'",
+      "start_sample": 37873,
+      "end_sample": 90551,
+      "start_ms": 2367,
+      "end_ms": 5659
+    },
+    {
+      "lang": "ja",
+      "text": "不確かさ.",
+      "start_sample": 90551,
+      "end_sample": 102685,
+      "start_ms": 5659,
+      "end_ms": 6418
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The pediatrician explained the sesshu schedule clearly, which removed a lot of the parents' futashika sa",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6494,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The pediatrician explained the",
+          "start_sample": 0,
+          "end_sample": 27580,
+          "start_ms": 0,
+          "end_ms": 1724
+        },
+        {
+          "lang": "ja",
+          "text": "接種",
+          "start_sample": 27580,
+          "end_sample": 33994,
+          "start_ms": 1724,
+          "end_ms": 2125
+        },
+        {
+          "lang": "en",
+          "text": "schedule clearly, which removed a lot of the parents'",
+          "start_sample": 33994,
+          "end_sample": 87072,
+          "start_ms": 2125,
+          "end_ms": 5442
+        },
+        {
+          "lang": "ja",
+          "text": "不確かさ.",
+          "start_sample": 87072,
+          "end_sample": 103907,
+          "start_ms": 5442,
+          "end_ms": 6494
+        }
+      ]
+    },
+    "ja": {
+      "text": "The pediatrician explained the 接種 schedule clearly, which removed a lot of the parents' 不確かさ.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8209,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The pediatrician explained the",
+          "start_sample": 0,
+          "end_sample": 42767,
+          "start_ms": 0,
+          "end_ms": 2673
+        },
+        {
+          "lang": "ja",
+          "text": "接種",
+          "start_sample": 42767,
+          "end_sample": 53660,
+          "start_ms": 2673,
+          "end_ms": 3354
+        },
+        {
+          "lang": "en",
+          "text": "schedule clearly, which removed a lot of the parents'",
+          "start_sample": 53660,
+          "end_sample": 119012,
+          "start_ms": 3354,
+          "end_ms": 7438
+        },
+        {
+          "lang": "ja",
+          "text": "不確かさ.",
+          "start_sample": 119012,
+          "end_sample": 131346,
+          "start_ms": 7438,
+          "end_ms": 8209
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 321,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

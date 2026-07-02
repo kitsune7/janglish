@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs150.flac",
+  "sentence": "I need something 軽め because I have a 仕事 early tomorrow.",
+  "sample_rate": 16000,
+  "duration_ms": 3689,
+  "reference_speaker": "jp/speaker_025_0f8f304ca1ab.mp3",
+  "seed": 17005,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I need something",
+      "start_sample": 0,
+      "end_sample": 11016,
+      "start_ms": 0,
+      "end_ms": 688
+    },
+    {
+      "lang": "ja",
+      "text": "軽め",
+      "start_sample": 11016,
+      "end_sample": 17853,
+      "start_ms": 688,
+      "end_ms": 1116
+    },
+    {
+      "lang": "en",
+      "text": "because I have a",
+      "start_sample": 17853,
+      "end_sample": 38446,
+      "start_ms": 1116,
+      "end_ms": 2403
+    },
+    {
+      "lang": "ja",
+      "text": "仕事",
+      "start_sample": 38446,
+      "end_sample": 45926,
+      "start_ms": 2403,
+      "end_ms": 2870
+    },
+    {
+      "lang": "en",
+      "text": "early tomorrow.",
+      "start_sample": 45926,
+      "end_sample": 59025,
+      "start_ms": 2870,
+      "end_ms": 3689
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I need something keime because I have a shigoto early tomorrow.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4006,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need something",
+          "start_sample": 0,
+          "end_sample": 11216,
+          "start_ms": 0,
+          "end_ms": 701
+        },
+        {
+          "lang": "ja",
+          "text": "軽め",
+          "start_sample": 11216,
+          "end_sample": 20350,
+          "start_ms": 701,
+          "end_ms": 1272
+        },
+        {
+          "lang": "en",
+          "text": "because I have a",
+          "start_sample": 20350,
+          "end_sample": 41343,
+          "start_ms": 1272,
+          "end_ms": 2584
+        },
+        {
+          "lang": "ja",
+          "text": "仕事",
+          "start_sample": 41343,
+          "end_sample": 50798,
+          "start_ms": 2584,
+          "end_ms": 3175
+        },
+        {
+          "lang": "en",
+          "text": "early tomorrow.",
+          "start_sample": 50798,
+          "end_sample": 64097,
+          "start_ms": 3175,
+          "end_ms": 4006
+        }
+      ]
+    },
+    "ja": {
+      "text": "I need something 軽め because I have a 仕事 early tomorrow.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3538,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need something",
+          "start_sample": 0,
+          "end_sample": 13830,
+          "start_ms": 0,
+          "end_ms": 864
+        },
+        {
+          "lang": "ja",
+          "text": "軽め",
+          "start_sample": 13830,
+          "end_sample": 21067,
+          "start_ms": 864,
+          "end_ms": 1317
+        },
+        {
+          "lang": "en",
+          "text": "because I have a",
+          "start_sample": 21067,
+          "end_sample": 35541,
+          "start_ms": 1317,
+          "end_ms": 2221
+        },
+        {
+          "lang": "ja",
+          "text": "仕事",
+          "start_sample": 35541,
+          "end_sample": 43421,
+          "start_ms": 2221,
+          "end_ms": 2714
+        },
+        {
+          "lang": "en",
+          "text": "early tomorrow.",
+          "start_sample": 43421,
+          "end_sample": 56604,
+          "start_ms": 2714,
+          "end_ms": 3538
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 185,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

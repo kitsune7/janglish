@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5779.flac",
+  "sentence": "The 花びら are scattered all over the lawn after last night's wind.",
+  "sample_rate": 16000,
+  "duration_ms": 3463,
+  "reference_speaker": "en/speaker_016_fcffb37fddea.mp3",
+  "seed": 5821,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1400,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "花びら",
+      "start_sample": 1400,
+      "end_sample": 10940,
+      "start_ms": 88,
+      "end_ms": 684
+    },
+    {
+      "lang": "en",
+      "text": "are scattered all over the lawn after last night's wind.",
+      "start_sample": 10940,
+      "end_sample": 55412,
+      "start_ms": 684,
+      "end_ms": 3463
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hanabira are scattered all over the lawn after last night's wind.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3522,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1600,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "花びら",
+          "start_sample": 1600,
+          "end_sample": 11688,
+          "start_ms": 100,
+          "end_ms": 730
+        },
+        {
+          "lang": "en",
+          "text": "are scattered all over the lawn after last night's wind.",
+          "start_sample": 11688,
+          "end_sample": 56360,
+          "start_ms": 730,
+          "end_ms": 3522
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 花びら are scattered all over the lawn after last night's wind.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4489,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3204,
+          "start_ms": 0,
+          "end_ms": 200
+        },
+        {
+          "lang": "ja",
+          "text": "花びら",
+          "start_sample": 3204,
+          "end_sample": 13144,
+          "start_ms": 200,
+          "end_ms": 822
+        },
+        {
+          "lang": "en",
+          "text": "are scattered all over the lawn after last night's wind.",
+          "start_sample": 13144,
+          "end_sample": 71821,
+          "start_ms": 822,
+          "end_ms": 4489
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 174,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

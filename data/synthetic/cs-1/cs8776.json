@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8776.flac",
+  "sentence": "友達とfestivalに行く計画を立てているところだ。",
+  "sample_rate": 16000,
+  "duration_ms": 3958,
+  "reference_speaker": "en/speaker_017_11ec372417df.mp3",
+  "seed": 8818,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "友達と",
+      "start_sample": 0,
+      "end_sample": 9614,
+      "start_ms": 0,
+      "end_ms": 601
+    },
+    {
+      "lang": "en",
+      "text": "festival",
+      "start_sample": 9614,
+      "end_sample": 31671,
+      "start_ms": 601,
+      "end_ms": 1979
+    },
+    {
+      "lang": "ja",
+      "text": "に行く計画を立てているところだ。",
+      "start_sample": 31671,
+      "end_sample": 63324,
+      "start_ms": 1979,
+      "end_ms": 3958
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "tomodachi to festival ni iku keikaku wo tate te iru tokoro da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8642,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "友達と",
+          "start_sample": 0,
+          "end_sample": 15398,
+          "start_ms": 0,
+          "end_ms": 962
+        },
+        {
+          "lang": "en",
+          "text": "festival",
+          "start_sample": 15398,
+          "end_sample": 37855,
+          "start_ms": 962,
+          "end_ms": 2366
+        },
+        {
+          "lang": "ja",
+          "text": "に行く計画を立てているところだ。",
+          "start_sample": 37855,
+          "end_sample": 138266,
+          "start_ms": 2366,
+          "end_ms": 8642
+        }
+      ]
+    },
+    "ja": {
+      "text": "友達とfestivalに行く計画を立てているところだ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3198,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "友達と",
+          "start_sample": 0,
+          "end_sample": 9814,
+          "start_ms": 0,
+          "end_ms": 613
+        },
+        {
+          "lang": "en",
+          "text": "festival",
+          "start_sample": 9814,
+          "end_sample": 19307,
+          "start_ms": 613,
+          "end_ms": 1207
+        },
+        {
+          "lang": "ja",
+          "text": "に行く計画を立てているところだ。",
+          "start_sample": 19307,
+          "end_sample": 51160,
+          "start_ms": 1207,
+          "end_ms": 3198
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 198,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

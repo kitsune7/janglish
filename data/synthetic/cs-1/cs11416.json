@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11416.flac",
+  "sentence": "このコートのhoodが取り外せるので、とても便利です。",
+  "sample_rate": 16000,
+  "duration_ms": 3804,
+  "reference_speaker": "en/speaker_066_73a931d5f7bb.mp3",
+  "seed": 11458,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このコートの",
+      "start_sample": 0,
+      "end_sample": 13451,
+      "start_ms": 0,
+      "end_ms": 841
+    },
+    {
+      "lang": "en",
+      "text": "hood",
+      "start_sample": 13451,
+      "end_sample": 21558,
+      "start_ms": 841,
+      "end_ms": 1347
+    },
+    {
+      "lang": "ja",
+      "text": "が取り外せるので、とても便利です。",
+      "start_sample": 21558,
+      "end_sample": 60863,
+      "start_ms": 1347,
+      "end_ms": 3804
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono kooto no hood ga torihazuseru no de totemo benri desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6360,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このコートの",
+          "start_sample": 0,
+          "end_sample": 27930,
+          "start_ms": 0,
+          "end_ms": 1746
+        },
+        {
+          "lang": "en",
+          "text": "hood",
+          "start_sample": 27930,
+          "end_sample": 36437,
+          "start_ms": 1746,
+          "end_ms": 2277
+        },
+        {
+          "lang": "ja",
+          "text": "が取り外せるので、とても便利です。",
+          "start_sample": 36437,
+          "end_sample": 101765,
+          "start_ms": 2277,
+          "end_ms": 6360
+        }
+      ]
+    },
+    "ja": {
+      "text": "このコートのhoodが取り外せるので、とても便利です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3754,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このコートの",
+          "start_sample": 0,
+          "end_sample": 13651,
+          "start_ms": 0,
+          "end_ms": 853
+        },
+        {
+          "lang": "en",
+          "text": "hood",
+          "start_sample": 13651,
+          "end_sample": 20557,
+          "start_ms": 853,
+          "end_ms": 1285
+        },
+        {
+          "lang": "ja",
+          "text": "が取り外せるので、とても便利です。",
+          "start_sample": 20557,
+          "end_sample": 60062,
+          "start_ms": 1285,
+          "end_ms": 3754
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 191,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

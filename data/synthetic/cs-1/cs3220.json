@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3220.flac",
+  "sentence": "This 小さな USB dongle can store up to two terabytes of data.",
+  "sample_rate": 16000,
+  "duration_ms": 3535,
+  "reference_speaker": "jp/speaker_039_c39ab9ed59f2.mp3",
+  "seed": 3262,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This",
+      "start_sample": 0,
+      "end_sample": 3484,
+      "start_ms": 0,
+      "end_ms": 218
+    },
+    {
+      "lang": "ja",
+      "text": "小さな",
+      "start_sample": 3484,
+      "end_sample": 12547,
+      "start_ms": 218,
+      "end_ms": 784
+    },
+    {
+      "lang": "en",
+      "text": "USB dongle can store up to two terabytes of data.",
+      "start_sample": 12547,
+      "end_sample": 56564,
+      "start_ms": 784,
+      "end_ms": 3535
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This chiisana USB dongle can store up to two terabytes of data.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3524,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This",
+          "start_sample": 0,
+          "end_sample": 3684,
+          "start_ms": 0,
+          "end_ms": 230
+        },
+        {
+          "lang": "ja",
+          "text": "小さな",
+          "start_sample": 3684,
+          "end_sample": 12175,
+          "start_ms": 230,
+          "end_ms": 761
+        },
+        {
+          "lang": "en",
+          "text": "USB dongle can store up to two terabytes of data.",
+          "start_sample": 12175,
+          "end_sample": 56392,
+          "start_ms": 761,
+          "end_ms": 3524
+        }
+      ]
+    },
+    "ja": {
+      "text": "This 小さな USB dongle can store up to two terabytes of data.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4991,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This",
+          "start_sample": 0,
+          "end_sample": 3206,
+          "start_ms": 0,
+          "end_ms": 200
+        },
+        {
+          "lang": "ja",
+          "text": "小さな",
+          "start_sample": 3206,
+          "end_sample": 12669,
+          "start_ms": 200,
+          "end_ms": 792
+        },
+        {
+          "lang": "en",
+          "text": "USB dongle can store up to two terabytes of data.",
+          "start_sample": 12669,
+          "end_sample": 79863,
+          "start_ms": 792,
+          "end_ms": 4991
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "eeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11583.flac",
+  "sentence": "彼はいつもcalmに見えるけど、内心はそうじゃないらしい。",
+  "sample_rate": 16000,
+  "duration_ms": 3029,
+  "reference_speaker": "jp/speaker_019_45c9ebd0ae18.mp3",
+  "seed": 11625,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼はいつも",
+      "start_sample": 0,
+      "end_sample": 8949,
+      "start_ms": 0,
+      "end_ms": 559
+    },
+    {
+      "lang": "en",
+      "text": "calm",
+      "start_sample": 8949,
+      "end_sample": 18322,
+      "start_ms": 559,
+      "end_ms": 1145
+    },
+    {
+      "lang": "ja",
+      "text": "に見えるけど、内心はそうじゃないらしい。",
+      "start_sample": 18322,
+      "end_sample": 48458,
+      "start_ms": 1145,
+      "end_ms": 3029
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha itsu mo calm ni mieru kedo naishin ha sou ja nai rashii",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5246,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼はいつも",
+          "start_sample": 0,
+          "end_sample": 28354,
+          "start_ms": 0,
+          "end_ms": 1772
+        },
+        {
+          "lang": "en",
+          "text": "calm",
+          "start_sample": 28354,
+          "end_sample": 38127,
+          "start_ms": 1772,
+          "end_ms": 2383
+        },
+        {
+          "lang": "ja",
+          "text": "に見えるけど、内心はそうじゃないらしい。",
+          "start_sample": 38127,
+          "end_sample": 83943,
+          "start_ms": 2383,
+          "end_ms": 5246
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はいつもcalmに見えるけど、内心はそうじゃないらしい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2749,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼はいつも",
+          "start_sample": 0,
+          "end_sample": 9149,
+          "start_ms": 0,
+          "end_ms": 572
+        },
+        {
+          "lang": "en",
+          "text": "calm",
+          "start_sample": 9149,
+          "end_sample": 13643,
+          "start_ms": 572,
+          "end_ms": 853
+        },
+        {
+          "lang": "ja",
+          "text": "に見えるけど、内心はそうじゃないらしい。",
+          "start_sample": 13643,
+          "end_sample": 43979,
+          "start_ms": 853,
+          "end_ms": 2749
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 152,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4849.flac",
+  "sentence": "He spent three 日 just exploring the local markets.",
+  "sample_rate": 16000,
+  "duration_ms": 3718,
+  "reference_speaker": "jp/speaker_084_122c648d361d.mp3",
+  "seed": 4891,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He spent three",
+      "start_sample": 0,
+      "end_sample": 12464,
+      "start_ms": 0,
+      "end_ms": 779
+    },
+    {
+      "lang": "ja",
+      "text": "日",
+      "start_sample": 12464,
+      "end_sample": 19929,
+      "start_ms": 779,
+      "end_ms": 1246
+    },
+    {
+      "lang": "en",
+      "text": "just exploring the local markets.",
+      "start_sample": 19929,
+      "end_sample": 59484,
+      "start_ms": 1246,
+      "end_ms": 3718
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He spent three nichi just exploring the local markets.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3988,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He spent three",
+          "start_sample": 0,
+          "end_sample": 12664,
+          "start_ms": 0,
+          "end_ms": 792
+        },
+        {
+          "lang": "ja",
+          "text": "日",
+          "start_sample": 12664,
+          "end_sample": 24046,
+          "start_ms": 792,
+          "end_ms": 1503
+        },
+        {
+          "lang": "en",
+          "text": "just exploring the local markets.",
+          "start_sample": 24046,
+          "end_sample": 63801,
+          "start_ms": 1503,
+          "end_ms": 3988
+        }
+      ]
+    },
+    "ja": {
+      "text": "He spent three 日 just exploring the local markets.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4835,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He spent three",
+          "start_sample": 0,
+          "end_sample": 19742,
+          "start_ms": 0,
+          "end_ms": 1234
+        },
+        {
+          "lang": "ja",
+          "text": "日",
+          "start_sample": 19742,
+          "end_sample": 27607,
+          "start_ms": 1234,
+          "end_ms": 1725
+        },
+        {
+          "lang": "en",
+          "text": "just exploring the local markets.",
+          "start_sample": 27607,
+          "end_sample": 77361,
+          "start_ms": 1725,
+          "end_ms": 4835
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 186,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

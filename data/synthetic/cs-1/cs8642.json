@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8642.flac",
+  "sentence": "My cat is so 気まぐれ — she ignores me all morning and then demands attention at midnight.",
+  "sample_rate": 16000,
+  "duration_ms": 7616,
+  "reference_speaker": "en/speaker_027_12abacd76d5f.mp3",
+  "seed": 8684,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My cat is so",
+      "start_sample": 0,
+      "end_sample": 18692,
+      "start_ms": 0,
+      "end_ms": 1168
+    },
+    {
+      "lang": "ja",
+      "text": "気まぐれ —",
+      "start_sample": 18692,
+      "end_sample": 32877,
+      "start_ms": 1168,
+      "end_ms": 2055
+    },
+    {
+      "lang": "en",
+      "text": "she ignores me all morning and then demands attention at midnight.",
+      "start_sample": 32877,
+      "end_sample": 121856,
+      "start_ms": 2055,
+      "end_ms": 7616
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My cat is so kimagure she ignores me all morning and then demands attention at midnight.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7765,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My cat is so",
+          "start_sample": 0,
+          "end_sample": 18892,
+          "start_ms": 0,
+          "end_ms": 1181
+        },
+        {
+          "lang": "ja",
+          "text": "気まぐれ —",
+          "start_sample": 18892,
+          "end_sample": 35063,
+          "start_ms": 1181,
+          "end_ms": 2191
+        },
+        {
+          "lang": "en",
+          "text": "she ignores me all morning and then demands attention at midnight.",
+          "start_sample": 35063,
+          "end_sample": 124242,
+          "start_ms": 2191,
+          "end_ms": 7765
+        }
+      ]
+    },
+    "ja": {
+      "text": "My cat is so 気まぐれ — she ignores me all morning and then demands attention at midnight.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 12081,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My cat is so",
+          "start_sample": 0,
+          "end_sample": 28849,
+          "start_ms": 0,
+          "end_ms": 1803
+        },
+        {
+          "lang": "ja",
+          "text": "気まぐれ —",
+          "start_sample": 28849,
+          "end_sample": 43434,
+          "start_ms": 1803,
+          "end_ms": 2715
+        },
+        {
+          "lang": "en",
+          "text": "she ignores me all morning and then demands attention at midnight.",
+          "start_sample": 43434,
+          "end_sample": 193293,
+          "start_ms": 2715,
+          "end_ms": 12081
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 381,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

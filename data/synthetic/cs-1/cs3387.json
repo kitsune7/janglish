@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3387.flac",
+  "sentence": "このsweaterはセールで半額になっていますよ。",
+  "sample_rate": 16000,
+  "duration_ms": 2468,
+  "reference_speaker": "jp/speaker_025_0f8f304ca1ab.mp3",
+  "seed": 3429,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3010,
+      "start_ms": 0,
+      "end_ms": 188
+    },
+    {
+      "lang": "en",
+      "text": "sweater",
+      "start_sample": 3010,
+      "end_sample": 14804,
+      "start_ms": 188,
+      "end_ms": 925
+    },
+    {
+      "lang": "ja",
+      "text": "はセールで半額になっていますよ。",
+      "start_sample": 14804,
+      "end_sample": 39485,
+      "start_ms": 925,
+      "end_ms": 2468
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono sweater ha seeru de hangaku ni natsu te i masu yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4914,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4171,
+          "start_ms": 0,
+          "end_ms": 261
+        },
+        {
+          "lang": "en",
+          "text": "sweater",
+          "start_sample": 4171,
+          "end_sample": 16365,
+          "start_ms": 261,
+          "end_ms": 1023
+        },
+        {
+          "lang": "ja",
+          "text": "はセールで半額になっていますよ。",
+          "start_sample": 16365,
+          "end_sample": 78619,
+          "start_ms": 1023,
+          "end_ms": 4914
+        }
+      ]
+    },
+    "ja": {
+      "text": "このsweaterはセールで半額になっていますよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2147,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3210,
+          "start_ms": 0,
+          "end_ms": 201
+        },
+        {
+          "lang": "en",
+          "text": "sweater",
+          "start_sample": 3210,
+          "end_sample": 9471,
+          "start_ms": 201,
+          "end_ms": 592
+        },
+        {
+          "lang": "ja",
+          "text": "はセールで半額になっていますよ。",
+          "start_sample": 9471,
+          "end_sample": 34352,
+          "start_ms": 592,
+          "end_ms": 2147
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 124,
+  "frame_labels": "jjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

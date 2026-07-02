@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9650.flac",
+  "sentence": "The whole thread got 複雑 after too many people joined.",
+  "sample_rate": 16000,
+  "duration_ms": 4085,
+  "reference_speaker": "jp/speaker_041_36b0f2924199.mp3",
+  "seed": 9692,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole thread got",
+      "start_sample": 0,
+      "end_sample": 23090,
+      "start_ms": 0,
+      "end_ms": 1443
+    },
+    {
+      "lang": "ja",
+      "text": "複雑",
+      "start_sample": 23090,
+      "end_sample": 32791,
+      "start_ms": 1443,
+      "end_ms": 2049
+    },
+    {
+      "lang": "en",
+      "text": "after too many people joined.",
+      "start_sample": 32791,
+      "end_sample": 65356,
+      "start_ms": 2049,
+      "end_ms": 4085
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole thread got fukuzatsu after too many people joined.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4638,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole thread got",
+          "start_sample": 0,
+          "end_sample": 23290,
+          "start_ms": 0,
+          "end_ms": 1456
+        },
+        {
+          "lang": "ja",
+          "text": "複雑",
+          "start_sample": 23290,
+          "end_sample": 41441,
+          "start_ms": 1456,
+          "end_ms": 2590
+        },
+        {
+          "lang": "en",
+          "text": "after too many people joined.",
+          "start_sample": 41441,
+          "end_sample": 74206,
+          "start_ms": 2590,
+          "end_ms": 4638
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole thread got 複雑 after too many people joined.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3587,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole thread got",
+          "start_sample": 0,
+          "end_sample": 19879,
+          "start_ms": 0,
+          "end_ms": 1242
+        },
+        {
+          "lang": "ja",
+          "text": "複雑",
+          "start_sample": 19879,
+          "end_sample": 29980,
+          "start_ms": 1242,
+          "end_ms": 1874
+        },
+        {
+          "lang": "en",
+          "text": "after too many people joined.",
+          "start_sample": 29980,
+          "end_sample": 57396,
+          "start_ms": 1874,
+          "end_ms": 3587
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 205,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

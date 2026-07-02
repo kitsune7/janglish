@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9703.flac",
+  "sentence": "このハムスターはnocturnalなので、夜中にずっとホイールを回しています。",
+  "sample_rate": 16000,
+  "duration_ms": 7119,
+  "reference_speaker": "jp/speaker_098_e4abe7929ff4.mp3",
+  "seed": 9745,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このハムスターは",
+      "start_sample": 0,
+      "end_sample": 18099,
+      "start_ms": 0,
+      "end_ms": 1131
+    },
+    {
+      "lang": "en",
+      "text": "nocturnal",
+      "start_sample": 18099,
+      "end_sample": 40113,
+      "start_ms": 1131,
+      "end_ms": 2507
+    },
+    {
+      "lang": "ja",
+      "text": "なので、夜中にずっとホイールを回しています。",
+      "start_sample": 40113,
+      "end_sample": 113910,
+      "start_ms": 2507,
+      "end_ms": 7119
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono hamusutaa ha nocturnal na no de yonaka ni zutto hoiiru wo mawashi te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8085,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このハムスターは",
+          "start_sample": 0,
+          "end_sample": 16490,
+          "start_ms": 0,
+          "end_ms": 1031
+        },
+        {
+          "lang": "en",
+          "text": "nocturnal",
+          "start_sample": 16490,
+          "end_sample": 38904,
+          "start_ms": 1031,
+          "end_ms": 2432
+        },
+        {
+          "lang": "ja",
+          "text": "なので、夜中にずっとホイールを回しています。",
+          "start_sample": 38904,
+          "end_sample": 129361,
+          "start_ms": 2432,
+          "end_ms": 8085
+        }
+      ]
+    },
+    "ja": {
+      "text": "このハムスターはnocturnalなので、夜中にずっとホイールを回しています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6641,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このハムスターは",
+          "start_sample": 0,
+          "end_sample": 18299,
+          "start_ms": 0,
+          "end_ms": 1144
+        },
+        {
+          "lang": "en",
+          "text": "nocturnal",
+          "start_sample": 18299,
+          "end_sample": 32263,
+          "start_ms": 1144,
+          "end_ms": 2016
+        },
+        {
+          "lang": "ja",
+          "text": "なので、夜中にずっとホイールを回しています。",
+          "start_sample": 32263,
+          "end_sample": 106260,
+          "start_ms": 2016,
+          "end_ms": 6641
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 356,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

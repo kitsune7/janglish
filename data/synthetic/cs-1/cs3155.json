@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3155.flac",
+  "sentence": "このお店のhappy hourは五時から七時までです。",
+  "sample_rate": 16000,
+  "duration_ms": 3106,
+  "reference_speaker": "en/speaker_054_103b0eb5778e.mp3",
+  "seed": 3197,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このお店の",
+      "start_sample": 0,
+      "end_sample": 9782,
+      "start_ms": 0,
+      "end_ms": 611
+    },
+    {
+      "lang": "en",
+      "text": "happy hour",
+      "start_sample": 9782,
+      "end_sample": 23977,
+      "start_ms": 611,
+      "end_ms": 1499
+    },
+    {
+      "lang": "ja",
+      "text": "は五時から七時までです。",
+      "start_sample": 23977,
+      "end_sample": 49693,
+      "start_ms": 1499,
+      "end_ms": 3106
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono o mise no happy hour ha go toki kara shichi toki made desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6215,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このお店の",
+          "start_sample": 0,
+          "end_sample": 24380,
+          "start_ms": 0,
+          "end_ms": 1524
+        },
+        {
+          "lang": "en",
+          "text": "happy hour",
+          "start_sample": 24380,
+          "end_sample": 38975,
+          "start_ms": 1524,
+          "end_ms": 2436
+        },
+        {
+          "lang": "ja",
+          "text": "は五時から七時までです。",
+          "start_sample": 38975,
+          "end_sample": 99442,
+          "start_ms": 2436,
+          "end_ms": 6215
+        }
+      ]
+    },
+    "ja": {
+      "text": "このお店のhappy hourは五時から七時までです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2958,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このお店の",
+          "start_sample": 0,
+          "end_sample": 9982,
+          "start_ms": 0,
+          "end_ms": 624
+        },
+        {
+          "lang": "en",
+          "text": "happy hour",
+          "start_sample": 9982,
+          "end_sample": 21413,
+          "start_ms": 624,
+          "end_ms": 1338
+        },
+        {
+          "lang": "ja",
+          "text": "は五時から七時までです。",
+          "start_sample": 21413,
+          "end_sample": 47329,
+          "start_ms": 1338,
+          "end_ms": 2958
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 156,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

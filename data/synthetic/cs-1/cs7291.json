@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7291.flac",
+  "sentence": "The spring air feels so 清々しい after a whole week of rain.",
+  "sample_rate": 16000,
+  "duration_ms": 5157,
+  "reference_speaker": "jp/speaker_091_bf2621e97933.mp3",
+  "seed": 7333,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The spring air feels so",
+      "start_sample": 0,
+      "end_sample": 35126,
+      "start_ms": 0,
+      "end_ms": 2195
+    },
+    {
+      "lang": "ja",
+      "text": "清々しい",
+      "start_sample": 35126,
+      "end_sample": 51243,
+      "start_ms": 2195,
+      "end_ms": 3203
+    },
+    {
+      "lang": "en",
+      "text": "after a whole week of rain.",
+      "start_sample": 51243,
+      "end_sample": 82513,
+      "start_ms": 3203,
+      "end_ms": 5157
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The spring air feels so sugasugashii after a whole week of rain.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5801,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The spring air feels so",
+          "start_sample": 0,
+          "end_sample": 35326,
+          "start_ms": 0,
+          "end_ms": 2208
+        },
+        {
+          "lang": "ja",
+          "text": "清々しい",
+          "start_sample": 35326,
+          "end_sample": 61339,
+          "start_ms": 2208,
+          "end_ms": 3834
+        },
+        {
+          "lang": "en",
+          "text": "after a whole week of rain.",
+          "start_sample": 61339,
+          "end_sample": 92809,
+          "start_ms": 3834,
+          "end_ms": 5801
+        }
+      ]
+    },
+    "ja": {
+      "text": "The spring air feels so 清々しい after a whole week of rain.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6434,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The spring air feels so",
+          "start_sample": 0,
+          "end_sample": 44097,
+          "start_ms": 0,
+          "end_ms": 2756
+        },
+        {
+          "lang": "ja",
+          "text": "清々しい",
+          "start_sample": 44097,
+          "end_sample": 60614,
+          "start_ms": 2756,
+          "end_ms": 3788
+        },
+        {
+          "lang": "en",
+          "text": "after a whole week of rain.",
+          "start_sample": 60614,
+          "end_sample": 102945,
+          "start_ms": 3788,
+          "end_ms": 6434
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 258,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

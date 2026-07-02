@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10649.flac",
+  "sentence": "The 終点 is two stops past the airport, so don't fall asleep.",
+  "sample_rate": 16000,
+  "duration_ms": 4080,
+  "reference_speaker": "jp/speaker_017_2adba246654a.mp3",
+  "seed": 10691,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1402,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "終点",
+      "start_sample": 1402,
+      "end_sample": 11774,
+      "start_ms": 88,
+      "end_ms": 736
+    },
+    {
+      "lang": "en",
+      "text": "is two stops past the airport, so don't fall asleep.",
+      "start_sample": 11774,
+      "end_sample": 65277,
+      "start_ms": 736,
+      "end_ms": 4080
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shuuten is two stops past the airport, so don't fall asleep.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3948,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1602,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "終点",
+          "start_sample": 1602,
+          "end_sample": 9457,
+          "start_ms": 100,
+          "end_ms": 591
+        },
+        {
+          "lang": "en",
+          "text": "is two stops past the airport, so don't fall asleep.",
+          "start_sample": 9457,
+          "end_sample": 63160,
+          "start_ms": 591,
+          "end_ms": 3948
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 終点 is two stops past the airport, so don't fall asleep.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4441,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2733,
+          "start_ms": 0,
+          "end_ms": 171
+        },
+        {
+          "lang": "ja",
+          "text": "終点",
+          "start_sample": 2733,
+          "end_sample": 13505,
+          "start_ms": 171,
+          "end_ms": 844
+        },
+        {
+          "lang": "en",
+          "text": "is two stops past the airport, so don't fall asleep.",
+          "start_sample": 13505,
+          "end_sample": 71059,
+          "start_ms": 844,
+          "end_ms": 4441
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4524.flac",
+  "sentence": "The 会議 ran thirty minutes over schedule again.",
+  "sample_rate": 16000,
+  "duration_ms": 7004,
+  "reference_speaker": "jp/speaker_031_8da19046583d.mp3",
+  "seed": 4566,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2203,
+      "start_ms": 0,
+      "end_ms": 138
+    },
+    {
+      "lang": "ja",
+      "text": "会議",
+      "start_sample": 2203,
+      "end_sample": 12580,
+      "start_ms": 138,
+      "end_ms": 786
+    },
+    {
+      "lang": "en",
+      "text": "ran thirty minutes over schedule again.",
+      "start_sample": 12580,
+      "end_sample": 112066,
+      "start_ms": 786,
+      "end_ms": 7004
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kaigi ran thirty minutes over schedule again.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6952,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2403,
+          "start_ms": 0,
+          "end_ms": 150
+        },
+        {
+          "lang": "ja",
+          "text": "会議",
+          "start_sample": 2403,
+          "end_sample": 11539,
+          "start_ms": 150,
+          "end_ms": 721
+        },
+        {
+          "lang": "en",
+          "text": "ran thirty minutes over schedule again.",
+          "start_sample": 11539,
+          "end_sample": 111225,
+          "start_ms": 721,
+          "end_ms": 6952
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 会議 ran thirty minutes over schedule again.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4343,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5146,
+          "start_ms": 0,
+          "end_ms": 322
+        },
+        {
+          "lang": "ja",
+          "text": "会議",
+          "start_sample": 5146,
+          "end_sample": 15923,
+          "start_ms": 322,
+          "end_ms": 995
+        },
+        {
+          "lang": "en",
+          "text": "ran thirty minutes over schedule again.",
+          "start_sample": 15923,
+          "end_sample": 69481,
+          "start_ms": 995,
+          "end_ms": 4343
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 351,
+  "frame_labels": "eeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

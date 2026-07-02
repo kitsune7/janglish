@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs147.flac",
+  "sentence": "We found a 穴場 bar downtown that was surprisingly 豪華 inside.",
+  "sample_rate": 16000,
+  "duration_ms": 5597,
+  "reference_speaker": "jp/speaker_051_2b805c12b1e0.mp3",
+  "seed": 17002,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We found a",
+      "start_sample": 0,
+      "end_sample": 10371,
+      "start_ms": 0,
+      "end_ms": 648
+    },
+    {
+      "lang": "ja",
+      "text": "穴場",
+      "start_sample": 10371,
+      "end_sample": 20549,
+      "start_ms": 648,
+      "end_ms": 1284
+    },
+    {
+      "lang": "en",
+      "text": "bar downtown that was surprisingly",
+      "start_sample": 20549,
+      "end_sample": 66280,
+      "start_ms": 1284,
+      "end_ms": 4142
+    },
+    {
+      "lang": "ja",
+      "text": "豪華",
+      "start_sample": 66280,
+      "end_sample": 72452,
+      "start_ms": 4142,
+      "end_ms": 4528
+    },
+    {
+      "lang": "en",
+      "text": "inside.",
+      "start_sample": 72452,
+      "end_sample": 89551,
+      "start_ms": 4528,
+      "end_ms": 5597
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We found a anaba bar downtown that was surprisingly gouka inside.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5926,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We found a",
+          "start_sample": 0,
+          "end_sample": 10571,
+          "start_ms": 0,
+          "end_ms": 661
+        },
+        {
+          "lang": "ja",
+          "text": "穴場",
+          "start_sample": 10571,
+          "end_sample": 19541,
+          "start_ms": 661,
+          "end_ms": 1221
+        },
+        {
+          "lang": "en",
+          "text": "bar downtown that was surprisingly",
+          "start_sample": 19541,
+          "end_sample": 65672,
+          "start_ms": 1221,
+          "end_ms": 4104
+        },
+        {
+          "lang": "ja",
+          "text": "豪華",
+          "start_sample": 65672,
+          "end_sample": 77525,
+          "start_ms": 4104,
+          "end_ms": 4845
+        },
+        {
+          "lang": "en",
+          "text": "inside.",
+          "start_sample": 77525,
+          "end_sample": 94824,
+          "start_ms": 4845,
+          "end_ms": 5926
+        }
+      ]
+    },
+    "ja": {
+      "text": "We found a 穴場 bar downtown that was surprisingly 豪華 inside.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5349,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We found a",
+          "start_sample": 0,
+          "end_sample": 17950,
+          "start_ms": 0,
+          "end_ms": 1122
+        },
+        {
+          "lang": "ja",
+          "text": "穴場",
+          "start_sample": 17950,
+          "end_sample": 28528,
+          "start_ms": 1122,
+          "end_ms": 1783
+        },
+        {
+          "lang": "en",
+          "text": "bar downtown that was surprisingly",
+          "start_sample": 28528,
+          "end_sample": 70039,
+          "start_ms": 1783,
+          "end_ms": 4377
+        },
+        {
+          "lang": "ja",
+          "text": "豪華",
+          "start_sample": 70039,
+          "end_sample": 76611,
+          "start_ms": 4377,
+          "end_ms": 4788
+        },
+        {
+          "lang": "en",
+          "text": "inside.",
+          "start_sample": 76611,
+          "end_sample": 85585,
+          "start_ms": 4788,
+          "end_ms": 5349
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 280,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

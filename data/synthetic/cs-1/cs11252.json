@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11252.flac",
+  "sentence": "この土はclay質が多くて固いですね。",
+  "sample_rate": 16000,
+  "duration_ms": 2958,
+  "reference_speaker": "jp/speaker_023_d9597f21cb60.mp3",
+  "seed": 11294,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この土は",
+      "start_sample": 0,
+      "end_sample": 12152,
+      "start_ms": 0,
+      "end_ms": 760
+    },
+    {
+      "lang": "en",
+      "text": "clay",
+      "start_sample": 12152,
+      "end_sample": 19770,
+      "start_ms": 760,
+      "end_ms": 1236
+    },
+    {
+      "lang": "ja",
+      "text": "質が多くて固いですね。",
+      "start_sample": 19770,
+      "end_sample": 47322,
+      "start_ms": 1236,
+      "end_ms": 2958
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono tsuchi ha clay shitsu ga ooku te katai desu ne",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4991,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この土は",
+          "start_sample": 0,
+          "end_sample": 26942,
+          "start_ms": 0,
+          "end_ms": 1684
+        },
+        {
+          "lang": "en",
+          "text": "clay",
+          "start_sample": 26942,
+          "end_sample": 34960,
+          "start_ms": 1684,
+          "end_ms": 2185
+        },
+        {
+          "lang": "ja",
+          "text": "質が多くて固いですね。",
+          "start_sample": 34960,
+          "end_sample": 79863,
+          "start_ms": 2185,
+          "end_ms": 4991
+        }
+      ]
+    },
+    "ja": {
+      "text": "この土はclay質が多くて固いですね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2888,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この土は",
+          "start_sample": 0,
+          "end_sample": 12352,
+          "start_ms": 0,
+          "end_ms": 772
+        },
+        {
+          "lang": "en",
+          "text": "clay",
+          "start_sample": 12352,
+          "end_sample": 18448,
+          "start_ms": 772,
+          "end_ms": 1153
+        },
+        {
+          "lang": "ja",
+          "text": "質が多くて固いですね。",
+          "start_sample": 18448,
+          "end_sample": 46200,
+          "start_ms": 1153,
+          "end_ms": 2888
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 148,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

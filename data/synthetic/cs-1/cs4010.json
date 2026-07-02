@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4010.flac",
+  "sentence": "That 沈黙 between them wasn't awkward at all — it was comfortable and warm.",
+  "sample_rate": 16000,
+  "duration_ms": 4752,
+  "reference_speaker": "jp/speaker_080_c886ae0e1a09.mp3",
+  "seed": 4052,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That",
+      "start_sample": 0,
+      "end_sample": 2045,
+      "start_ms": 0,
+      "end_ms": 128
+    },
+    {
+      "lang": "ja",
+      "text": "沈黙",
+      "start_sample": 2045,
+      "end_sample": 9814,
+      "start_ms": 128,
+      "end_ms": 613
+    },
+    {
+      "lang": "en",
+      "text": "between them wasn't awkward at all — it was comfortable and warm.",
+      "start_sample": 9814,
+      "end_sample": 76028,
+      "start_ms": 613,
+      "end_ms": 4752
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That chinmoku between them wasn't awkward at all — it was comfortable and warm.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4813,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That",
+          "start_sample": 0,
+          "end_sample": 2245,
+          "start_ms": 0,
+          "end_ms": 140
+        },
+        {
+          "lang": "ja",
+          "text": "沈黙",
+          "start_sample": 2245,
+          "end_sample": 10587,
+          "start_ms": 140,
+          "end_ms": 662
+        },
+        {
+          "lang": "en",
+          "text": "between them wasn't awkward at all — it was comfortable and warm.",
+          "start_sample": 10587,
+          "end_sample": 77001,
+          "start_ms": 662,
+          "end_ms": 4813
+        }
+      ]
+    },
+    "ja": {
+      "text": "That 沈黙 between them wasn't awkward at all — it was comfortable and warm.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4565,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That",
+          "start_sample": 0,
+          "end_sample": 4164,
+          "start_ms": 0,
+          "end_ms": 260
+        },
+        {
+          "lang": "ja",
+          "text": "沈黙",
+          "start_sample": 4164,
+          "end_sample": 12333,
+          "start_ms": 260,
+          "end_ms": 771
+        },
+        {
+          "lang": "en",
+          "text": "between them wasn't awkward at all — it was comfortable and warm.",
+          "start_sample": 12333,
+          "end_sample": 73044,
+          "start_ms": 771,
+          "end_ms": 4565
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 238,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

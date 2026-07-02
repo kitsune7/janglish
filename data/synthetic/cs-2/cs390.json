@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs390.flac",
+  "sentence": "The pedestrian 通路 under the tracks leads directly to the 西口 of the terminal.",
+  "sample_rate": 16000,
+  "duration_ms": 6061,
+  "reference_speaker": "jp/speaker_040_473e7a57e696.mp3",
+  "seed": 17245,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The pedestrian",
+      "start_sample": 0,
+      "end_sample": 11498,
+      "start_ms": 0,
+      "end_ms": 719
+    },
+    {
+      "lang": "ja",
+      "text": "通路",
+      "start_sample": 11498,
+      "end_sample": 23445,
+      "start_ms": 719,
+      "end_ms": 1465
+    },
+    {
+      "lang": "en",
+      "text": "under the tracks leads directly to the",
+      "start_sample": 23445,
+      "end_sample": 68557,
+      "start_ms": 1465,
+      "end_ms": 4285
+    },
+    {
+      "lang": "ja",
+      "text": "西口",
+      "start_sample": 68557,
+      "end_sample": 82268,
+      "start_ms": 4285,
+      "end_ms": 5142
+    },
+    {
+      "lang": "en",
+      "text": "of the terminal.",
+      "start_sample": 82268,
+      "end_sample": 96970,
+      "start_ms": 5142,
+      "end_ms": 6061
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The pedestrian tsuuro under the tracks leads directly to the nishiguchi of the terminal.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6510,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The pedestrian",
+          "start_sample": 0,
+          "end_sample": 11698,
+          "start_ms": 0,
+          "end_ms": 731
+        },
+        {
+          "lang": "ja",
+          "text": "通路",
+          "start_sample": 11698,
+          "end_sample": 30929,
+          "start_ms": 731,
+          "end_ms": 1933
+        },
+        {
+          "lang": "en",
+          "text": "under the tracks leads directly to the",
+          "start_sample": 30929,
+          "end_sample": 76441,
+          "start_ms": 1933,
+          "end_ms": 4778
+        },
+        {
+          "lang": "ja",
+          "text": "西口",
+          "start_sample": 76441,
+          "end_sample": 89261,
+          "start_ms": 4778,
+          "end_ms": 5579
+        },
+        {
+          "lang": "en",
+          "text": "of the terminal.",
+          "start_sample": 89261,
+          "end_sample": 104163,
+          "start_ms": 5579,
+          "end_ms": 6510
+        }
+      ]
+    },
+    "ja": {
+      "text": "The pedestrian 通路 under the tracks leads directly to the 西口 of the terminal.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9200,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The pedestrian",
+          "start_sample": 0,
+          "end_sample": 26134,
+          "start_ms": 0,
+          "end_ms": 1633
+        },
+        {
+          "lang": "ja",
+          "text": "通路",
+          "start_sample": 26134,
+          "end_sample": 38481,
+          "start_ms": 1633,
+          "end_ms": 2405
+        },
+        {
+          "lang": "en",
+          "text": "under the tracks leads directly to the",
+          "start_sample": 38481,
+          "end_sample": 116729,
+          "start_ms": 2405,
+          "end_ms": 7296
+        },
+        {
+          "lang": "ja",
+          "text": "西口",
+          "start_sample": 116729,
+          "end_sample": 130840,
+          "start_ms": 7296,
+          "end_ms": 8178
+        },
+        {
+          "lang": "en",
+          "text": "of the terminal.",
+          "start_sample": 130840,
+          "end_sample": 147193,
+          "start_ms": 8178,
+          "end_ms": 9200
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 304,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

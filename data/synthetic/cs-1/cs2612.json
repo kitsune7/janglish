@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2612.flac",
+  "sentence": "The 改札 was broken again, so the line backed up all the way to the stairs.",
+  "sample_rate": 16000,
+  "duration_ms": 4508,
+  "reference_speaker": "jp/speaker_039_c39ab9ed59f2.mp3",
+  "seed": 2654,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2210,
+      "start_ms": 0,
+      "end_ms": 138
+    },
+    {
+      "lang": "ja",
+      "text": "改札",
+      "start_sample": 2210,
+      "end_sample": 12719,
+      "start_ms": 138,
+      "end_ms": 795
+    },
+    {
+      "lang": "en",
+      "text": "was broken again, so the line backed up all the way to the stairs.",
+      "start_sample": 12719,
+      "end_sample": 72132,
+      "start_ms": 795,
+      "end_ms": 4508
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kaisatsu was broken again, so the line backed up all the way to the stairs.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4499,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2410,
+          "start_ms": 0,
+          "end_ms": 151
+        },
+        {
+          "lang": "ja",
+          "text": "改札",
+          "start_sample": 2410,
+          "end_sample": 12373,
+          "start_ms": 151,
+          "end_ms": 773
+        },
+        {
+          "lang": "en",
+          "text": "was broken again, so the line backed up all the way to the stairs.",
+          "start_sample": 12373,
+          "end_sample": 71986,
+          "start_ms": 773,
+          "end_ms": 4499
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 改札 was broken again, so the line backed up all the way to the stairs.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5634,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6253,
+          "start_ms": 0,
+          "end_ms": 391
+        },
+        {
+          "lang": "ja",
+          "text": "改札",
+          "start_sample": 6253,
+          "end_sample": 17162,
+          "start_ms": 391,
+          "end_ms": 1073
+        },
+        {
+          "lang": "en",
+          "text": "was broken again, so the line backed up all the way to the stairs.",
+          "start_sample": 17162,
+          "end_sample": 90149,
+          "start_ms": 1073,
+          "end_ms": 5634
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 226,
+  "frame_labels": "eeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

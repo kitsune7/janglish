@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7583.flac",
+  "sentence": "Working from home means my commute is just 数歩 from bed to desk.",
+  "sample_rate": 16000,
+  "duration_ms": 3660,
+  "reference_speaker": "en/speaker_069_688632e24cd4.mp3",
+  "seed": 7625,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Working from home means my commute is just",
+      "start_sample": 0,
+      "end_sample": 44403,
+      "start_ms": 0,
+      "end_ms": 2775
+    },
+    {
+      "lang": "ja",
+      "text": "数歩",
+      "start_sample": 44403,
+      "end_sample": 52990,
+      "start_ms": 2775,
+      "end_ms": 3312
+    },
+    {
+      "lang": "en",
+      "text": "from bed to desk.",
+      "start_sample": 52990,
+      "end_sample": 58563,
+      "start_ms": 3312,
+      "end_ms": 3660
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Working from home means my commute is just kazu ho from bed to desk.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3750,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Working from home means my commute is just",
+          "start_sample": 0,
+          "end_sample": 44603,
+          "start_ms": 0,
+          "end_ms": 2788
+        },
+        {
+          "lang": "ja",
+          "text": "数歩",
+          "start_sample": 44603,
+          "end_sample": 54230,
+          "start_ms": 2788,
+          "end_ms": 3389
+        },
+        {
+          "lang": "en",
+          "text": "from bed to desk.",
+          "start_sample": 54230,
+          "end_sample": 60003,
+          "start_ms": 3389,
+          "end_ms": 3750
+        }
+      ]
+    },
+    "ja": {
+      "text": "Working from home means my commute is just 数歩 from bed to desk.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4754,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Working from home means my commute is just",
+          "start_sample": 0,
+          "end_sample": 49428,
+          "start_ms": 0,
+          "end_ms": 3089
+        },
+        {
+          "lang": "ja",
+          "text": "数歩",
+          "start_sample": 49428,
+          "end_sample": 58415,
+          "start_ms": 3089,
+          "end_ms": 3651
+        },
+        {
+          "lang": "en",
+          "text": "from bed to desk.",
+          "start_sample": 58415,
+          "end_sample": 76066,
+          "start_ms": 3651,
+          "end_ms": 4754
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 184,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeee"
+}

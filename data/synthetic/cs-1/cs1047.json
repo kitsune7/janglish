@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1047.flac",
+  "sentence": "このcider、思ったより全然甘くなくてすっきりしている。",
+  "sample_rate": 16000,
+  "duration_ms": 4302,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 1089,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 2049,
+      "start_ms": 0,
+      "end_ms": 128
+    },
+    {
+      "lang": "en",
+      "text": "cider、",
+      "start_sample": 2049,
+      "end_sample": 37529,
+      "start_ms": 128,
+      "end_ms": 2346
+    },
+    {
+      "lang": "ja",
+      "text": "思ったより全然甘くなくてすっきりしている。",
+      "start_sample": 37529,
+      "end_sample": 68830,
+      "start_ms": 2346,
+      "end_ms": 4302
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono cider、 omotsu ta yori zenzen amaku naku te sukkiri shi te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9510,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4004,
+          "start_ms": 0,
+          "end_ms": 250
+        },
+        {
+          "lang": "en",
+          "text": "cider、",
+          "start_sample": 4004,
+          "end_sample": 39884,
+          "start_ms": 250,
+          "end_ms": 2493
+        },
+        {
+          "lang": "ja",
+          "text": "思ったより全然甘くなくてすっきりしている。",
+          "start_sample": 39884,
+          "end_sample": 152168,
+          "start_ms": 2493,
+          "end_ms": 9510
+        }
+      ]
+    },
+    "ja": {
+      "text": "このcider、思ったより全然甘くなくてすっきりしている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2471,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 2249,
+          "start_ms": 0,
+          "end_ms": 141
+        },
+        {
+          "lang": "en",
+          "text": "cider、",
+          "start_sample": 2249,
+          "end_sample": 8037,
+          "start_ms": 141,
+          "end_ms": 502
+        },
+        {
+          "lang": "ja",
+          "text": "思ったより全然甘くなくてすっきりしている。",
+          "start_sample": 8037,
+          "end_sample": 39538,
+          "start_ms": 502,
+          "end_ms": 2471
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 216,
+  "frame_labels": "jjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

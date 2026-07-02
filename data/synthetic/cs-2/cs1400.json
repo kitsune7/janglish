@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1400.flac",
+  "sentence": "The server explained every dish with obvious 誇り, which made the whole meal feel more 大切.",
+  "sample_rate": 16000,
+  "duration_ms": 4910,
+  "reference_speaker": "jp/speaker_099_c404e17fc007.mp3",
+  "seed": 18255,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The server explained every dish with obvious",
+      "start_sample": 0,
+      "end_sample": 31591,
+      "start_ms": 0,
+      "end_ms": 1974
+    },
+    {
+      "lang": "ja",
+      "text": "誇り,",
+      "start_sample": 31591,
+      "end_sample": 41445,
+      "start_ms": 1974,
+      "end_ms": 2590
+    },
+    {
+      "lang": "en",
+      "text": "which made the whole meal feel more",
+      "start_sample": 41445,
+      "end_sample": 68342,
+      "start_ms": 2590,
+      "end_ms": 4271
+    },
+    {
+      "lang": "ja",
+      "text": "大切.",
+      "start_sample": 68342,
+      "end_sample": 78556,
+      "start_ms": 4271,
+      "end_ms": 4910
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The server explained every dish with obvious hokori which made the whole meal feel more taisetsu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4736,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The server explained every dish with obvious",
+          "start_sample": 0,
+          "end_sample": 31791,
+          "start_ms": 0,
+          "end_ms": 1987
+        },
+        {
+          "lang": "ja",
+          "text": "誇り,",
+          "start_sample": 31791,
+          "end_sample": 39498,
+          "start_ms": 1987,
+          "end_ms": 2469
+        },
+        {
+          "lang": "en",
+          "text": "which made the whole meal feel more",
+          "start_sample": 39498,
+          "end_sample": 66795,
+          "start_ms": 2469,
+          "end_ms": 4175
+        },
+        {
+          "lang": "ja",
+          "text": "大切.",
+          "start_sample": 66795,
+          "end_sample": 75783,
+          "start_ms": 4175,
+          "end_ms": 4736
+        }
+      ]
+    },
+    "ja": {
+      "text": "The server explained every dish with obvious 誇り, which made the whole meal feel more 大切.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8152,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The server explained every dish with obvious",
+          "start_sample": 0,
+          "end_sample": 58003,
+          "start_ms": 0,
+          "end_ms": 3625
+        },
+        {
+          "lang": "ja",
+          "text": "誇り,",
+          "start_sample": 58003,
+          "end_sample": 68257,
+          "start_ms": 3625,
+          "end_ms": 4266
+        },
+        {
+          "lang": "en",
+          "text": "which made the whole meal feel more",
+          "start_sample": 68257,
+          "end_sample": 120012,
+          "start_ms": 4266,
+          "end_ms": 7501
+        },
+        {
+          "lang": "ja",
+          "text": "大切.",
+          "start_sample": 120012,
+          "end_sample": 130426,
+          "start_ms": 7501,
+          "end_ms": 8152
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 246,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

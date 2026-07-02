@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs1388.flac",
+  "sentence": "northbound方面のバスは十分おきに来ます。",
+  "sample_rate": 16000,
+  "duration_ms": 3110,
+  "reference_speaker": "en/speaker_095_862d569c1af2.mp3",
+  "seed": 1430,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "northbound",
+      "start_sample": 0,
+      "end_sample": 9728,
+      "start_ms": 0,
+      "end_ms": 608
+    },
+    {
+      "lang": "ja",
+      "text": "方面のバスは十分おきに来ます。",
+      "start_sample": 9728,
+      "end_sample": 49759,
+      "start_ms": 608,
+      "end_ms": 3110
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "northbound houmen no basu ha juubun oki ni rai masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5105,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "northbound",
+          "start_sample": 0,
+          "end_sample": 9928,
+          "start_ms": 0,
+          "end_ms": 620
+        },
+        {
+          "lang": "ja",
+          "text": "方面のバスは十分おきに来ます。",
+          "start_sample": 9928,
+          "end_sample": 81673,
+          "start_ms": 620,
+          "end_ms": 5105
+        }
+      ]
+    },
+    "ja": {
+      "text": "northbound方面のバスは十分おきに来ます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3346,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "northbound",
+          "start_sample": 0,
+          "end_sample": 13302,
+          "start_ms": 0,
+          "end_ms": 831
+        },
+        {
+          "lang": "ja",
+          "text": "方面のバスは十分おきに来ます。",
+          "start_sample": 13302,
+          "end_sample": 53533,
+          "start_ms": 831,
+          "end_ms": 3346
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 156,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

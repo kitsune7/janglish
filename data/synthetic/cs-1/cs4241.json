@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4241.flac",
+  "sentence": "I repotted the fig tree and added fresh 堆肥 to the mix.",
+  "sample_rate": 16000,
+  "duration_ms": 3306,
+  "reference_speaker": "en/speaker_095_862d569c1af2.mp3",
+  "seed": 4283,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I repotted the fig tree and added fresh",
+      "start_sample": 0,
+      "end_sample": 36483,
+      "start_ms": 0,
+      "end_ms": 2280
+    },
+    {
+      "lang": "ja",
+      "text": "堆肥",
+      "start_sample": 36483,
+      "end_sample": 43774,
+      "start_ms": 2280,
+      "end_ms": 2736
+    },
+    {
+      "lang": "en",
+      "text": "to the mix.",
+      "start_sample": 43774,
+      "end_sample": 52902,
+      "start_ms": 2736,
+      "end_ms": 3306
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I repotted the fig tree and added fresh taihi to the mix.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3278,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I repotted the fig tree and added fresh",
+          "start_sample": 0,
+          "end_sample": 36683,
+          "start_ms": 0,
+          "end_ms": 2293
+        },
+        {
+          "lang": "ja",
+          "text": "堆肥",
+          "start_sample": 36683,
+          "end_sample": 43119,
+          "start_ms": 2293,
+          "end_ms": 2695
+        },
+        {
+          "lang": "en",
+          "text": "to the mix.",
+          "start_sample": 43119,
+          "end_sample": 52447,
+          "start_ms": 2695,
+          "end_ms": 3278
+        }
+      ]
+    },
+    "ja": {
+      "text": "I repotted the fig tree and added fresh 堆肥 to the mix.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4446,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I repotted the fig tree and added fresh",
+          "start_sample": 0,
+          "end_sample": 49510,
+          "start_ms": 0,
+          "end_ms": 3094
+        },
+        {
+          "lang": "ja",
+          "text": "堆肥",
+          "start_sample": 49510,
+          "end_sample": 57201,
+          "start_ms": 3094,
+          "end_ms": 3575
+        },
+        {
+          "lang": "en",
+          "text": "to the mix.",
+          "start_sample": 57201,
+          "end_sample": 71140,
+          "start_ms": 3575,
+          "end_ms": 4446
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 166,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

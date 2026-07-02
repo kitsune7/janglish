@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6859.flac",
+  "sentence": "She wore a 浴衣 to the outdoor summer concert and looked absolutely wonderful.",
+  "sample_rate": 16000,
+  "duration_ms": 4489,
+  "reference_speaker": "en/speaker_075_373f531aa159.mp3",
+  "seed": 6901,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She wore a",
+      "start_sample": 0,
+      "end_sample": 6391,
+      "start_ms": 0,
+      "end_ms": 399
+    },
+    {
+      "lang": "ja",
+      "text": "浴衣",
+      "start_sample": 6391,
+      "end_sample": 15119,
+      "start_ms": 399,
+      "end_ms": 945
+    },
+    {
+      "lang": "en",
+      "text": "to the outdoor summer concert and looked absolutely wonderful.",
+      "start_sample": 15119,
+      "end_sample": 71830,
+      "start_ms": 945,
+      "end_ms": 4489
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She wore a yukata to the outdoor summer concert and looked absolutely wonderful.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4562,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She wore a",
+          "start_sample": 0,
+          "end_sample": 6591,
+          "start_ms": 0,
+          "end_ms": 412
+        },
+        {
+          "lang": "ja",
+          "text": "浴衣",
+          "start_sample": 6591,
+          "end_sample": 16077,
+          "start_ms": 412,
+          "end_ms": 1005
+        },
+        {
+          "lang": "en",
+          "text": "to the outdoor summer concert and looked absolutely wonderful.",
+          "start_sample": 16077,
+          "end_sample": 72988,
+          "start_ms": 1005,
+          "end_ms": 4562
+        }
+      ]
+    },
+    "ja": {
+      "text": "She wore a 浴衣 to the outdoor summer concert and looked absolutely wonderful.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7626,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She wore a",
+          "start_sample": 0,
+          "end_sample": 10568,
+          "start_ms": 0,
+          "end_ms": 660
+        },
+        {
+          "lang": "ja",
+          "text": "浴衣",
+          "start_sample": 10568,
+          "end_sample": 19696,
+          "start_ms": 660,
+          "end_ms": 1231
+        },
+        {
+          "lang": "en",
+          "text": "to the outdoor summer concert and looked absolutely wonderful.",
+          "start_sample": 19696,
+          "end_sample": 122023,
+          "start_ms": 1231,
+          "end_ms": 7626
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs8276.flac",
+  "sentence": "budgetの承認がまだ下りていません。",
+  "sample_rate": 16000,
+  "duration_ms": 2484,
+  "reference_speaker": "en/speaker_022_008f1e5e50d2.mp3",
+  "seed": 8318,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "budget",
+      "start_sample": 0,
+      "end_sample": 7829,
+      "start_ms": 0,
+      "end_ms": 489
+    },
+    {
+      "lang": "ja",
+      "text": "の承認がまだ下りていません。",
+      "start_sample": 7829,
+      "end_sample": 39737,
+      "start_ms": 489,
+      "end_ms": 2484
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "budget no shounin ga mada kudari te i mase n",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5523,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "budget",
+          "start_sample": 0,
+          "end_sample": 8029,
+          "start_ms": 0,
+          "end_ms": 502
+        },
+        {
+          "lang": "ja",
+          "text": "の承認がまだ下りていません。",
+          "start_sample": 8029,
+          "end_sample": 88366,
+          "start_ms": 502,
+          "end_ms": 5523
+        }
+      ]
+    },
+    "ja": {
+      "text": "budgetの承認がまだ下りていません。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2602,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "budget",
+          "start_sample": 0,
+          "end_sample": 9522,
+          "start_ms": 0,
+          "end_ms": 595
+        },
+        {
+          "lang": "ja",
+          "text": "の承認がまだ下りていません。",
+          "start_sample": 9522,
+          "end_sample": 41630,
+          "start_ms": 595,
+          "end_ms": 2602
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 125,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

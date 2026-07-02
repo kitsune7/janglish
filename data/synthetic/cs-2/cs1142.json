@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs1142.flac",
+  "sentence": "She always says Thanksgiving feels more 本物 when there's a real 炉端 fire going.",
+  "sample_rate": 16000,
+  "duration_ms": 3506,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 17997,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She always says Thanksgiving feels more",
+      "start_sample": 0,
+      "end_sample": 26896,
+      "start_ms": 0,
+      "end_ms": 1681
+    },
+    {
+      "lang": "ja",
+      "text": "本物",
+      "start_sample": 26896,
+      "end_sample": 33381,
+      "start_ms": 1681,
+      "end_ms": 2086
+    },
+    {
+      "lang": "en",
+      "text": "when there's a real",
+      "start_sample": 33381,
+      "end_sample": 42761,
+      "start_ms": 2086,
+      "end_ms": 2673
+    },
+    {
+      "lang": "ja",
+      "text": "炉端",
+      "start_sample": 42761,
+      "end_sample": 47324,
+      "start_ms": 2673,
+      "end_ms": 2958
+    },
+    {
+      "lang": "en",
+      "text": "fire going.",
+      "start_sample": 47324,
+      "end_sample": 56101,
+      "start_ms": 2958,
+      "end_ms": 3506
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She always says Thanksgiving feels more honmono when there's a real robata fire going.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3748,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She always says Thanksgiving feels more",
+          "start_sample": 0,
+          "end_sample": 27096,
+          "start_ms": 0,
+          "end_ms": 1694
+        },
+        {
+          "lang": "ja",
+          "text": "本物",
+          "start_sample": 27096,
+          "end_sample": 35113,
+          "start_ms": 1694,
+          "end_ms": 2195
+        },
+        {
+          "lang": "en",
+          "text": "when there's a real",
+          "start_sample": 35113,
+          "end_sample": 44893,
+          "start_ms": 2195,
+          "end_ms": 2806
+        },
+        {
+          "lang": "ja",
+          "text": "炉端",
+          "start_sample": 44893,
+          "end_sample": 50986,
+          "start_ms": 2806,
+          "end_ms": 3187
+        },
+        {
+          "lang": "en",
+          "text": "fire going.",
+          "start_sample": 50986,
+          "end_sample": 59963,
+          "start_ms": 3187,
+          "end_ms": 3748
+        }
+      ]
+    },
+    "ja": {
+      "text": "She always says Thanksgiving feels more 本物 when there's a real 炉端 fire going.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5804,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She always says Thanksgiving feels more",
+          "start_sample": 0,
+          "end_sample": 49315,
+          "start_ms": 0,
+          "end_ms": 3082
+        },
+        {
+          "lang": "ja",
+          "text": "本物",
+          "start_sample": 49315,
+          "end_sample": 56200,
+          "start_ms": 3082,
+          "end_ms": 3512
+        },
+        {
+          "lang": "en",
+          "text": "when there's a real",
+          "start_sample": 56200,
+          "end_sample": 76535,
+          "start_ms": 3512,
+          "end_ms": 4783
+        },
+        {
+          "lang": "ja",
+          "text": "炉端",
+          "start_sample": 76535,
+          "end_sample": 81498,
+          "start_ms": 4783,
+          "end_ms": 5094
+        },
+        {
+          "lang": "en",
+          "text": "fire going.",
+          "start_sample": 81498,
+          "end_sample": 92866,
+          "start_ms": 5094,
+          "end_ms": 5804
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 176,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

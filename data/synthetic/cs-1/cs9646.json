@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9646.flac",
+  "sentence": "That was a 突然 call — I had no idea she would reach out.",
+  "sample_rate": 16000,
+  "duration_ms": 3375,
+  "reference_speaker": "jp/speaker_086_b5416e90d3b7.mp3",
+  "seed": 9688,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That was a",
+      "start_sample": 0,
+      "end_sample": 6230,
+      "start_ms": 0,
+      "end_ms": 389
+    },
+    {
+      "lang": "ja",
+      "text": "突然",
+      "start_sample": 6230,
+      "end_sample": 15294,
+      "start_ms": 389,
+      "end_ms": 956
+    },
+    {
+      "lang": "en",
+      "text": "call — I had no idea she would reach out.",
+      "start_sample": 15294,
+      "end_sample": 53994,
+      "start_ms": 956,
+      "end_ms": 3375
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That was a totsuzen call — I had no idea she would reach out.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3496,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That was a",
+          "start_sample": 0,
+          "end_sample": 6430,
+          "start_ms": 0,
+          "end_ms": 402
+        },
+        {
+          "lang": "ja",
+          "text": "突然",
+          "start_sample": 6430,
+          "end_sample": 17040,
+          "start_ms": 402,
+          "end_ms": 1065
+        },
+        {
+          "lang": "en",
+          "text": "call — I had no idea she would reach out.",
+          "start_sample": 17040,
+          "end_sample": 55940,
+          "start_ms": 1065,
+          "end_ms": 3496
+        }
+      ]
+    },
+    "ja": {
+      "text": "That was a 突然 call — I had no idea she would reach out.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2928,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That was a",
+          "start_sample": 0,
+          "end_sample": 8663,
+          "start_ms": 0,
+          "end_ms": 541
+        },
+        {
+          "lang": "ja",
+          "text": "突然",
+          "start_sample": 8663,
+          "end_sample": 18127,
+          "start_ms": 541,
+          "end_ms": 1133
+        },
+        {
+          "lang": "en",
+          "text": "call — I had no idea she would reach out.",
+          "start_sample": 18127,
+          "end_sample": 46842,
+          "start_ms": 1133,
+          "end_ms": 2928
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 169,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

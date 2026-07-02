@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5328.flac",
+  "sentence": "Is there a 駐車場 available for guests who arrive by car?",
+  "sample_rate": 16000,
+  "duration_ms": 4128,
+  "reference_speaker": "jp/speaker_086_b5416e90d3b7.mp3",
+  "seed": 5370,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Is there a",
+      "start_sample": 0,
+      "end_sample": 11857,
+      "start_ms": 0,
+      "end_ms": 741
+    },
+    {
+      "lang": "ja",
+      "text": "駐車場",
+      "start_sample": 11857,
+      "end_sample": 21880,
+      "start_ms": 741,
+      "end_ms": 1368
+    },
+    {
+      "lang": "en",
+      "text": "available for guests who arrive by car?",
+      "start_sample": 21880,
+      "end_sample": 66050,
+      "start_ms": 1368,
+      "end_ms": 4128
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Is there a chuusha ba available for guests who arrive by car?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4562,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is there a",
+          "start_sample": 0,
+          "end_sample": 12057,
+          "start_ms": 0,
+          "end_ms": 754
+        },
+        {
+          "lang": "ja",
+          "text": "駐車場",
+          "start_sample": 12057,
+          "end_sample": 28618,
+          "start_ms": 754,
+          "end_ms": 1789
+        },
+        {
+          "lang": "en",
+          "text": "available for guests who arrive by car?",
+          "start_sample": 28618,
+          "end_sample": 72988,
+          "start_ms": 1789,
+          "end_ms": 4562
+        }
+      ]
+    },
+    "ja": {
+      "text": "Is there a 駐車場 available for guests who arrive by car?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4169,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is there a",
+          "start_sample": 0,
+          "end_sample": 8014,
+          "start_ms": 0,
+          "end_ms": 501
+        },
+        {
+          "lang": "ja",
+          "text": "駐車場",
+          "start_sample": 8014,
+          "end_sample": 18437,
+          "start_ms": 501,
+          "end_ms": 1152
+        },
+        {
+          "lang": "en",
+          "text": "available for guests who arrive by car?",
+          "start_sample": 18437,
+          "end_sample": 66700,
+          "start_ms": 1152,
+          "end_ms": 4169
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 207,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10613.flac",
+  "sentence": "Isn't it 不思議 how a seed this tiny can become a full-grown pumpkin?",
+  "sample_rate": 16000,
+  "duration_ms": 4447,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 10655,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Isn't it",
+      "start_sample": 0,
+      "end_sample": 4926,
+      "start_ms": 0,
+      "end_ms": 308
+    },
+    {
+      "lang": "ja",
+      "text": "不思議",
+      "start_sample": 4926,
+      "end_sample": 10142,
+      "start_ms": 308,
+      "end_ms": 634
+    },
+    {
+      "lang": "en",
+      "text": "how a seed this tiny can become a full-grown pumpkin?",
+      "start_sample": 10142,
+      "end_sample": 71149,
+      "start_ms": 634,
+      "end_ms": 4447
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Isn't it fushigi how a seed this tiny can become a full-grown pumpkin?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5368,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Isn't it",
+          "start_sample": 0,
+          "end_sample": 5126,
+          "start_ms": 0,
+          "end_ms": 320
+        },
+        {
+          "lang": "ja",
+          "text": "不思議",
+          "start_sample": 5126,
+          "end_sample": 24675,
+          "start_ms": 320,
+          "end_ms": 1542
+        },
+        {
+          "lang": "en",
+          "text": "how a seed this tiny can become a full-grown pumpkin?",
+          "start_sample": 24675,
+          "end_sample": 85882,
+          "start_ms": 1542,
+          "end_ms": 5368
+        }
+      ]
+    },
+    "ja": {
+      "text": "Isn't it 不思議 how a seed this tiny can become a full-grown pumpkin?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3710,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Isn't it",
+          "start_sample": 0,
+          "end_sample": 6096,
+          "start_ms": 0,
+          "end_ms": 381
+        },
+        {
+          "lang": "ja",
+          "text": "不思議",
+          "start_sample": 6096,
+          "end_sample": 11712,
+          "start_ms": 381,
+          "end_ms": 732
+        },
+        {
+          "lang": "en",
+          "text": "how a seed this tiny can become a full-grown pumpkin?",
+          "start_sample": 11712,
+          "end_sample": 59362,
+          "start_ms": 732,
+          "end_ms": 3710
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 223,
+  "frame_labels": "eeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

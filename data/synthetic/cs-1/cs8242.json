@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8242.flac",
+  "sentence": "She drank plenty of water to avoid 脱水 during the heat wave.",
+  "sample_rate": 16000,
+  "duration_ms": 5046,
+  "reference_speaker": "en/speaker_050_6b3579133fec.mp3",
+  "seed": 8284,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She drank plenty of water to avoid",
+      "start_sample": 0,
+      "end_sample": 45773,
+      "start_ms": 0,
+      "end_ms": 2861
+    },
+    {
+      "lang": "ja",
+      "text": "脱水",
+      "start_sample": 45773,
+      "end_sample": 54194,
+      "start_ms": 2861,
+      "end_ms": 3387
+    },
+    {
+      "lang": "en",
+      "text": "during the heat wave.",
+      "start_sample": 54194,
+      "end_sample": 80744,
+      "start_ms": 3387,
+      "end_ms": 5046
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She drank plenty of water to avoid dassui during the heat wave.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5586,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She drank plenty of water to avoid",
+          "start_sample": 0,
+          "end_sample": 45973,
+          "start_ms": 0,
+          "end_ms": 2873
+        },
+        {
+          "lang": "ja",
+          "text": "脱水",
+          "start_sample": 45973,
+          "end_sample": 62633,
+          "start_ms": 2873,
+          "end_ms": 3915
+        },
+        {
+          "lang": "en",
+          "text": "during the heat wave.",
+          "start_sample": 62633,
+          "end_sample": 89383,
+          "start_ms": 3915,
+          "end_ms": 5586
+        }
+      ]
+    },
+    "ja": {
+      "text": "She drank plenty of water to avoid 脱水 during the heat wave.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6114,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She drank plenty of water to avoid",
+          "start_sample": 0,
+          "end_sample": 52118,
+          "start_ms": 0,
+          "end_ms": 3257
+        },
+        {
+          "lang": "ja",
+          "text": "脱水",
+          "start_sample": 52118,
+          "end_sample": 60939,
+          "start_ms": 3257,
+          "end_ms": 3809
+        },
+        {
+          "lang": "en",
+          "text": "during the heat wave.",
+          "start_sample": 60939,
+          "end_sample": 97823,
+          "start_ms": 3809,
+          "end_ms": 6114
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 253,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

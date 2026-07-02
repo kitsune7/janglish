@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11193.flac",
+  "sentence": "この地域で一番secureな駐輪場はどこですか？",
+  "sample_rate": 16000,
+  "duration_ms": 4401,
+  "reference_speaker": "jp/speaker_012_14fe5dfafe10.mp3",
+  "seed": 11235,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この地域で一番",
+      "start_sample": 0,
+      "end_sample": 18887,
+      "start_ms": 0,
+      "end_ms": 1180
+    },
+    {
+      "lang": "en",
+      "text": "secure",
+      "start_sample": 18887,
+      "end_sample": 45433,
+      "start_ms": 1180,
+      "end_ms": 2840
+    },
+    {
+      "lang": "ja",
+      "text": "な駐輪場はどこですか？",
+      "start_sample": 45433,
+      "end_sample": 70414,
+      "start_ms": 2840,
+      "end_ms": 4401
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono chiiki de ichiban secure na chuurin ba ha doko desu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6295,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この地域で一番",
+          "start_sample": 0,
+          "end_sample": 30154,
+          "start_ms": 0,
+          "end_ms": 1885
+        },
+        {
+          "lang": "en",
+          "text": "secure",
+          "start_sample": 30154,
+          "end_sample": 57100,
+          "start_ms": 1885,
+          "end_ms": 3569
+        },
+        {
+          "lang": "ja",
+          "text": "な駐輪場はどこですか？",
+          "start_sample": 57100,
+          "end_sample": 100725,
+          "start_ms": 3569,
+          "end_ms": 6295
+        }
+      ]
+    },
+    "ja": {
+      "text": "この地域で一番secureな駐輪場はどこですか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3168,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この地域で一番",
+          "start_sample": 0,
+          "end_sample": 19087,
+          "start_ms": 0,
+          "end_ms": 1193
+        },
+        {
+          "lang": "en",
+          "text": "secure",
+          "start_sample": 19087,
+          "end_sample": 25503,
+          "start_ms": 1193,
+          "end_ms": 1594
+        },
+        {
+          "lang": "ja",
+          "text": "な駐輪場はどこですか？",
+          "start_sample": 25503,
+          "end_sample": 50684,
+          "start_ms": 1594,
+          "end_ms": 3168
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 221,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3188.flac",
+  "sentence": "The new software update is 便利 for managing large files.",
+  "sample_rate": 16000,
+  "duration_ms": 4231,
+  "reference_speaker": "jp/speaker_059_4c496a210b8b.mp3",
+  "seed": 3230,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The new software update is",
+      "start_sample": 0,
+      "end_sample": 29396,
+      "start_ms": 0,
+      "end_ms": 1837
+    },
+    {
+      "lang": "ja",
+      "text": "便利",
+      "start_sample": 29396,
+      "end_sample": 35409,
+      "start_ms": 1837,
+      "end_ms": 2213
+    },
+    {
+      "lang": "en",
+      "text": "for managing large files.",
+      "start_sample": 35409,
+      "end_sample": 67695,
+      "start_ms": 2213,
+      "end_ms": 4231
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The new software update is benri for managing large files.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4483,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new software update is",
+          "start_sample": 0,
+          "end_sample": 29596,
+          "start_ms": 0,
+          "end_ms": 1850
+        },
+        {
+          "lang": "ja",
+          "text": "便利",
+          "start_sample": 29596,
+          "end_sample": 39247,
+          "start_ms": 1850,
+          "end_ms": 2453
+        },
+        {
+          "lang": "en",
+          "text": "for managing large files.",
+          "start_sample": 39247,
+          "end_sample": 71733,
+          "start_ms": 2453,
+          "end_ms": 4483
+        }
+      ]
+    },
+    "ja": {
+      "text": "The new software update is 便利 for managing large files.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5050,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new software update is",
+          "start_sample": 0,
+          "end_sample": 43607,
+          "start_ms": 0,
+          "end_ms": 2725
+        },
+        {
+          "lang": "ja",
+          "text": "便利",
+          "start_sample": 43607,
+          "end_sample": 50020,
+          "start_ms": 2725,
+          "end_ms": 3126
+        },
+        {
+          "lang": "en",
+          "text": "for managing large files.",
+          "start_sample": 50020,
+          "end_sample": 80801,
+          "start_ms": 3126,
+          "end_ms": 5050
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 212,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

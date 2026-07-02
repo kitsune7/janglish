@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4282.flac",
+  "sentence": "彼はcrosswordパズルを毎朝解いて頭を鍛えています。",
+  "sample_rate": 16000,
+  "duration_ms": 4747,
+  "reference_speaker": "en/speaker_056_b1458b769af8.mp3",
+  "seed": 4324,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼は",
+      "start_sample": 0,
+      "end_sample": 5903,
+      "start_ms": 0,
+      "end_ms": 369
+    },
+    {
+      "lang": "en",
+      "text": "crossword",
+      "start_sample": 5903,
+      "end_sample": 25726,
+      "start_ms": 369,
+      "end_ms": 1608
+    },
+    {
+      "lang": "ja",
+      "text": "パズルを毎朝解いて頭を鍛えています。",
+      "start_sample": 25726,
+      "end_sample": 75959,
+      "start_ms": 1608,
+      "end_ms": 4747
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha crossword pazuru wo maiasa toi te atama wo kitae te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7042,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 13321,
+          "start_ms": 0,
+          "end_ms": 833
+        },
+        {
+          "lang": "en",
+          "text": "crossword",
+          "start_sample": 13321,
+          "end_sample": 33544,
+          "start_ms": 833,
+          "end_ms": 2096
+        },
+        {
+          "lang": "ja",
+          "text": "パズルを毎朝解いて頭を鍛えています。",
+          "start_sample": 33544,
+          "end_sample": 112669,
+          "start_ms": 2096,
+          "end_ms": 7042
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はcrosswordパズルを毎朝解いて頭を鍛えています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4196,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 6103,
+          "start_ms": 0,
+          "end_ms": 381
+        },
+        {
+          "lang": "en",
+          "text": "crossword",
+          "start_sample": 6103,
+          "end_sample": 16705,
+          "start_ms": 381,
+          "end_ms": 1044
+        },
+        {
+          "lang": "ja",
+          "text": "パズルを毎朝解いて頭を鍛えています。",
+          "start_sample": 16705,
+          "end_sample": 67138,
+          "start_ms": 1044,
+          "end_ms": 4196
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 238,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

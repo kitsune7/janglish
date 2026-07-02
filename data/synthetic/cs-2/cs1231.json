@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs1231.flac",
+  "sentence": "The bittersweet chocolate had an intense 苦味 that paired perfectly with the subtle 酸味 of the berry coulis.",
+  "sample_rate": 16000,
+  "duration_ms": 5928,
+  "reference_speaker": "jp/speaker_039_c39ab9ed59f2.mp3",
+  "seed": 18086,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The bittersweet chocolate had an intense",
+      "start_sample": 0,
+      "end_sample": 28959,
+      "start_ms": 0,
+      "end_ms": 1810
+    },
+    {
+      "lang": "ja",
+      "text": "苦味",
+      "start_sample": 28959,
+      "end_sample": 39773,
+      "start_ms": 1810,
+      "end_ms": 2486
+    },
+    {
+      "lang": "en",
+      "text": "that paired perfectly with the subtle",
+      "start_sample": 39773,
+      "end_sample": 68212,
+      "start_ms": 2486,
+      "end_ms": 4263
+    },
+    {
+      "lang": "ja",
+      "text": "酸味",
+      "start_sample": 68212,
+      "end_sample": 79026,
+      "start_ms": 4263,
+      "end_ms": 4939
+    },
+    {
+      "lang": "en",
+      "text": "of the berry coulis.",
+      "start_sample": 79026,
+      "end_sample": 94847,
+      "start_ms": 4939,
+      "end_ms": 5928
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The bittersweet chocolate had an intense nigami that paired perfectly with the subtle sanmi of the berry coulis.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5788,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bittersweet chocolate had an intense",
+          "start_sample": 0,
+          "end_sample": 29159,
+          "start_ms": 0,
+          "end_ms": 1822
+        },
+        {
+          "lang": "ja",
+          "text": "苦味",
+          "start_sample": 29159,
+          "end_sample": 41496,
+          "start_ms": 1822,
+          "end_ms": 2594
+        },
+        {
+          "lang": "en",
+          "text": "that paired perfectly with the subtle",
+          "start_sample": 41496,
+          "end_sample": 70335,
+          "start_ms": 2594,
+          "end_ms": 4396
+        },
+        {
+          "lang": "ja",
+          "text": "酸味",
+          "start_sample": 70335,
+          "end_sample": 76583,
+          "start_ms": 4396,
+          "end_ms": 4786
+        },
+        {
+          "lang": "en",
+          "text": "of the berry coulis.",
+          "start_sample": 76583,
+          "end_sample": 92604,
+          "start_ms": 4786,
+          "end_ms": 5788
+        }
+      ]
+    },
+    "ja": {
+      "text": "The bittersweet chocolate had an intense 苦味 that paired perfectly with the subtle 酸味 of the berry coulis.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9452,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bittersweet chocolate had an intense",
+          "start_sample": 0,
+          "end_sample": 65201,
+          "start_ms": 0,
+          "end_ms": 4075
+        },
+        {
+          "lang": "ja",
+          "text": "苦味",
+          "start_sample": 65201,
+          "end_sample": 76415,
+          "start_ms": 4075,
+          "end_ms": 4776
+        },
+        {
+          "lang": "en",
+          "text": "that paired perfectly with the subtle",
+          "start_sample": 76415,
+          "end_sample": 114864,
+          "start_ms": 4776,
+          "end_ms": 7179
+        },
+        {
+          "lang": "ja",
+          "text": "酸味",
+          "start_sample": 114864,
+          "end_sample": 126078,
+          "start_ms": 7179,
+          "end_ms": 7880
+        },
+        {
+          "lang": "en",
+          "text": "of the berry coulis.",
+          "start_sample": 126078,
+          "end_sample": 151229,
+          "start_ms": 7880,
+          "end_ms": 9452
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 297,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

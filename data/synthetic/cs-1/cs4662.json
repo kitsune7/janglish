@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4662.flac",
+  "sentence": "The 質感 of this cashmere is unlike anything I've ever touched.",
+  "sample_rate": 16000,
+  "duration_ms": 4681,
+  "reference_speaker": "jp/speaker_026_f1fcfd0f4786.mp3",
+  "seed": 4704,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2050,
+      "start_ms": 0,
+      "end_ms": 128
+    },
+    {
+      "lang": "ja",
+      "text": "質感",
+      "start_sample": 2050,
+      "end_sample": 13520,
+      "start_ms": 128,
+      "end_ms": 845
+    },
+    {
+      "lang": "en",
+      "text": "of this cashmere is unlike anything I've ever touched.",
+      "start_sample": 13520,
+      "end_sample": 74894,
+      "start_ms": 845,
+      "end_ms": 4681
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shitsukan of this cashmere is unlike anything I've ever touched.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4682,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2250,
+          "start_ms": 0,
+          "end_ms": 141
+        },
+        {
+          "lang": "ja",
+          "text": "質感",
+          "start_sample": 2250,
+          "end_sample": 13344,
+          "start_ms": 141,
+          "end_ms": 834
+        },
+        {
+          "lang": "en",
+          "text": "of this cashmere is unlike anything I've ever touched.",
+          "start_sample": 13344,
+          "end_sample": 74918,
+          "start_ms": 834,
+          "end_ms": 4682
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 質感 of this cashmere is unlike anything I've ever touched.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4892,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2887,
+          "start_ms": 0,
+          "end_ms": 180
+        },
+        {
+          "lang": "ja",
+          "text": "質感",
+          "start_sample": 2887,
+          "end_sample": 14757,
+          "start_ms": 180,
+          "end_ms": 922
+        },
+        {
+          "lang": "en",
+          "text": "of this cashmere is unlike anything I've ever touched.",
+          "start_sample": 14757,
+          "end_sample": 78280,
+          "start_ms": 922,
+          "end_ms": 4892
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 235,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

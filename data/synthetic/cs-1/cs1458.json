@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1458.flac",
+  "sentence": "あの電車はいつもon timeで到着するから好きだ。",
+  "sample_rate": 16000,
+  "duration_ms": 2640,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 1500,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの電車はいつも",
+      "start_sample": 0,
+      "end_sample": 14588,
+      "start_ms": 0,
+      "end_ms": 912
+    },
+    {
+      "lang": "en",
+      "text": "on time",
+      "start_sample": 14588,
+      "end_sample": 23640,
+      "start_ms": 912,
+      "end_ms": 1478
+    },
+    {
+      "lang": "ja",
+      "text": "で到着するから好きだ。",
+      "start_sample": 23640,
+      "end_sample": 42243,
+      "start_ms": 1478,
+      "end_ms": 2640
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano densha ha itsu mo on time de touchaku suru kara suki da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5086,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの電車はいつも",
+          "start_sample": 0,
+          "end_sample": 35883,
+          "start_ms": 0,
+          "end_ms": 2243
+        },
+        {
+          "lang": "en",
+          "text": "on time",
+          "start_sample": 35883,
+          "end_sample": 45335,
+          "start_ms": 2243,
+          "end_ms": 2833
+        },
+        {
+          "lang": "ja",
+          "text": "で到着するから好きだ。",
+          "start_sample": 45335,
+          "end_sample": 81378,
+          "start_ms": 2833,
+          "end_ms": 5086
+        }
+      ]
+    },
+    "ja": {
+      "text": "あの電車はいつもon timeで到着するから好きだ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2471,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの電車はいつも",
+          "start_sample": 0,
+          "end_sample": 14788,
+          "start_ms": 0,
+          "end_ms": 924
+        },
+        {
+          "lang": "en",
+          "text": "on time",
+          "start_sample": 14788,
+          "end_sample": 20735,
+          "start_ms": 924,
+          "end_ms": 1296
+        },
+        {
+          "lang": "ja",
+          "text": "で到着するから好きだ。",
+          "start_sample": 20735,
+          "end_sample": 39538,
+          "start_ms": 1296,
+          "end_ms": 2471
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 133,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

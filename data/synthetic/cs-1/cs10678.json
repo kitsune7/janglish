@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10678.flac",
+  "sentence": "The 荷物 in the back seat shifted every time she braked hard.",
+  "sample_rate": 16000,
+  "duration_ms": 3756,
+  "reference_speaker": "en/speaker_056_b1458b769af8.mp3",
+  "seed": 10720,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1247,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "荷物",
+      "start_sample": 1247,
+      "end_sample": 14626,
+      "start_ms": 78,
+      "end_ms": 914
+    },
+    {
+      "lang": "en",
+      "text": "in the back seat shifted every time she braked hard.",
+      "start_sample": 14626,
+      "end_sample": 60094,
+      "start_ms": 914,
+      "end_ms": 3756
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The nimotsu in the back seat shifted every time she braked hard.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3558,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1447,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "荷物",
+          "start_sample": 1447,
+          "end_sample": 11257,
+          "start_ms": 90,
+          "end_ms": 704
+        },
+        {
+          "lang": "en",
+          "text": "in the back seat shifted every time she braked hard.",
+          "start_sample": 11257,
+          "end_sample": 56925,
+          "start_ms": 704,
+          "end_ms": 3558
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 荷物 in the back seat shifted every time she braked hard.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5488,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3845,
+          "start_ms": 0,
+          "end_ms": 240
+        },
+        {
+          "lang": "ja",
+          "text": "荷物",
+          "start_sample": 3845,
+          "end_sample": 17624,
+          "start_ms": 240,
+          "end_ms": 1102
+        },
+        {
+          "lang": "en",
+          "text": "in the back seat shifted every time she braked hard.",
+          "start_sample": 17624,
+          "end_sample": 87804,
+          "start_ms": 1102,
+          "end_ms": 5488
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2196.flac",
+  "sentence": "週末に家具のassemblyをひとりでやったら疲れ果てた。",
+  "sample_rate": 16000,
+  "duration_ms": 4655,
+  "reference_speaker": "en/speaker_065_22dd21ffb5a9.mp3",
+  "seed": 2238,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "週末に家具の",
+      "start_sample": 0,
+      "end_sample": 22129,
+      "start_ms": 0,
+      "end_ms": 1383
+    },
+    {
+      "lang": "en",
+      "text": "assembly",
+      "start_sample": 22129,
+      "end_sample": 40311,
+      "start_ms": 1383,
+      "end_ms": 2519
+    },
+    {
+      "lang": "ja",
+      "text": "をひとりでやったら疲れ果てた。",
+      "start_sample": 40311,
+      "end_sample": 74486,
+      "start_ms": 2519,
+      "end_ms": 4655
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shuumatsu ni kagu no assembly wo hitori de yatsu tara tsukare hate ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8149,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "週末に家具の",
+          "start_sample": 0,
+          "end_sample": 53819,
+          "start_ms": 0,
+          "end_ms": 3364
+        },
+        {
+          "lang": "en",
+          "text": "assembly",
+          "start_sample": 53819,
+          "end_sample": 72401,
+          "start_ms": 3364,
+          "end_ms": 4525
+        },
+        {
+          "lang": "ja",
+          "text": "をひとりでやったら疲れ果てた。",
+          "start_sample": 72401,
+          "end_sample": 130385,
+          "start_ms": 4525,
+          "end_ms": 8149
+        }
+      ]
+    },
+    "ja": {
+      "text": "週末に家具のassemblyをひとりでやったら疲れ果てた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4277,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "週末に家具の",
+          "start_sample": 0,
+          "end_sample": 22329,
+          "start_ms": 0,
+          "end_ms": 1396
+        },
+        {
+          "lang": "en",
+          "text": "assembly",
+          "start_sample": 22329,
+          "end_sample": 34057,
+          "start_ms": 1396,
+          "end_ms": 2129
+        },
+        {
+          "lang": "ja",
+          "text": "をひとりでやったら疲れ果てた。",
+          "start_sample": 34057,
+          "end_sample": 68432,
+          "start_ms": 2129,
+          "end_ms": 4277
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 233,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs1590.flac",
+  "sentence": "costumeを自分で縫うのが最近の趣味です。",
+  "sample_rate": 16000,
+  "duration_ms": 3659,
+  "reference_speaker": "en/speaker_067_3f15e2fece31.mp3",
+  "seed": 1632,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "costume",
+      "start_sample": 0,
+      "end_sample": 18536,
+      "start_ms": 0,
+      "end_ms": 1158
+    },
+    {
+      "lang": "ja",
+      "text": "を自分で縫うのが最近の趣味です。",
+      "start_sample": 18536,
+      "end_sample": 58551,
+      "start_ms": 1158,
+      "end_ms": 3659
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "costume wo jibun de nuu no ga saikin no shumi desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5585,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "costume",
+          "start_sample": 0,
+          "end_sample": 18736,
+          "start_ms": 0,
+          "end_ms": 1171
+        },
+        {
+          "lang": "ja",
+          "text": "を自分で縫うのが最近の趣味です。",
+          "start_sample": 18736,
+          "end_sample": 89360,
+          "start_ms": 1171,
+          "end_ms": 5585
+        }
+      ]
+    },
+    "ja": {
+      "text": "costumeを自分で縫うのが最近の趣味です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3076,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "costume",
+          "start_sample": 0,
+          "end_sample": 9009,
+          "start_ms": 0,
+          "end_ms": 563
+        },
+        {
+          "lang": "ja",
+          "text": "を自分で縫うのが最近の趣味です。",
+          "start_sample": 9009,
+          "end_sample": 49224,
+          "start_ms": 563,
+          "end_ms": 3076
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 183,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs169.flac",
+  "sentence": "The 客層 here is very mixed, which gives the bar a warm 活気.",
+  "sample_rate": 16000,
+  "duration_ms": 4346,
+  "reference_speaker": "en/speaker_090_cd7a1ed8add3.mp3",
+  "seed": 17024,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1247,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "客層",
+      "start_sample": 1247,
+      "end_sample": 10803,
+      "start_ms": 78,
+      "end_ms": 675
+    },
+    {
+      "lang": "en",
+      "text": "here is very mixed, which gives the bar a warm",
+      "start_sample": 10803,
+      "end_sample": 61231,
+      "start_ms": 675,
+      "end_ms": 3827
+    },
+    {
+      "lang": "ja",
+      "text": "活気.",
+      "start_sample": 61231,
+      "end_sample": 69538,
+      "start_ms": 3827,
+      "end_ms": 4346
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kyakusou here is very mixed, which gives the bar a warm kakki",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4363,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1447,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "客層",
+          "start_sample": 1447,
+          "end_sample": 11259,
+          "start_ms": 90,
+          "end_ms": 704
+        },
+        {
+          "lang": "en",
+          "text": "here is very mixed, which gives the bar a warm",
+          "start_sample": 11259,
+          "end_sample": 62087,
+          "start_ms": 704,
+          "end_ms": 3880
+        },
+        {
+          "lang": "ja",
+          "text": "活気.",
+          "start_sample": 62087,
+          "end_sample": 69803,
+          "start_ms": 3880,
+          "end_ms": 4363
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 客層 here is very mixed, which gives the bar a warm 活気.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5720,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4652,
+          "start_ms": 0,
+          "end_ms": 291
+        },
+        {
+          "lang": "ja",
+          "text": "客層",
+          "start_sample": 4652,
+          "end_sample": 14608,
+          "start_ms": 291,
+          "end_ms": 913
+        },
+        {
+          "lang": "en",
+          "text": "here is very mixed, which gives the bar a warm",
+          "start_sample": 14608,
+          "end_sample": 83014,
+          "start_ms": 913,
+          "end_ms": 5188
+        },
+        {
+          "lang": "ja",
+          "text": "活気.",
+          "start_sample": 83014,
+          "end_sample": 91521,
+          "start_ms": 5188,
+          "end_ms": 5720
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

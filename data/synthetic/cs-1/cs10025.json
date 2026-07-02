@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10025.flac",
+  "sentence": "The whole atmosphere of the memorial felt 厳粛 and still.",
+  "sample_rate": 16000,
+  "duration_ms": 5508,
+  "reference_speaker": "jp/speaker_016_f3aac8b73f15.mp3",
+  "seed": 10067,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole atmosphere of the memorial felt",
+      "start_sample": 0,
+      "end_sample": 61264,
+      "start_ms": 0,
+      "end_ms": 3829
+    },
+    {
+      "lang": "ja",
+      "text": "厳粛",
+      "start_sample": 61264,
+      "end_sample": 70675,
+      "start_ms": 3829,
+      "end_ms": 4417
+    },
+    {
+      "lang": "en",
+      "text": "and still.",
+      "start_sample": 70675,
+      "end_sample": 88125,
+      "start_ms": 4417,
+      "end_ms": 5508
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole atmosphere of the memorial felt genshuku and still.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6038,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole atmosphere of the memorial felt",
+          "start_sample": 0,
+          "end_sample": 61464,
+          "start_ms": 0,
+          "end_ms": 3842
+        },
+        {
+          "lang": "ja",
+          "text": "厳粛",
+          "start_sample": 61464,
+          "end_sample": 78957,
+          "start_ms": 3842,
+          "end_ms": 4935
+        },
+        {
+          "lang": "en",
+          "text": "and still.",
+          "start_sample": 78957,
+          "end_sample": 96607,
+          "start_ms": 4935,
+          "end_ms": 6038
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole atmosphere of the memorial felt 厳粛 and still.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4443,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole atmosphere of the memorial felt",
+          "start_sample": 0,
+          "end_sample": 50024,
+          "start_ms": 0,
+          "end_ms": 3126
+        },
+        {
+          "lang": "ja",
+          "text": "厳粛",
+          "start_sample": 50024,
+          "end_sample": 59835,
+          "start_ms": 3126,
+          "end_ms": 3740
+        },
+        {
+          "lang": "en",
+          "text": "and still.",
+          "start_sample": 59835,
+          "end_sample": 71090,
+          "start_ms": 3740,
+          "end_ms": 4443
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 276,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8540.flac",
+  "sentence": "好きな俳優のdocumentaryを見るのが、雨の日の楽しみです。",
+  "sample_rate": 16000,
+  "duration_ms": 4822,
+  "reference_speaker": "jp/speaker_015_c26b5026d437.mp3",
+  "seed": 8582,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "好きな俳優の",
+      "start_sample": 0,
+      "end_sample": 16848,
+      "start_ms": 0,
+      "end_ms": 1053
+    },
+    {
+      "lang": "en",
+      "text": "documentary",
+      "start_sample": 16848,
+      "end_sample": 38106,
+      "start_ms": 1053,
+      "end_ms": 2382
+    },
+    {
+      "lang": "ja",
+      "text": "を見るのが、雨の日の楽しみです。",
+      "start_sample": 38106,
+      "end_sample": 77145,
+      "start_ms": 2382,
+      "end_ms": 4822
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "suki na haiyuu no documentary wo miru no ga ame no nichi no tanoshimi desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8703,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "好きな俳優の",
+          "start_sample": 0,
+          "end_sample": 33851,
+          "start_ms": 0,
+          "end_ms": 2116
+        },
+        {
+          "lang": "en",
+          "text": "documentary",
+          "start_sample": 33851,
+          "end_sample": 55509,
+          "start_ms": 2116,
+          "end_ms": 3469
+        },
+        {
+          "lang": "ja",
+          "text": "を見るのが、雨の日の楽しみです。",
+          "start_sample": 55509,
+          "end_sample": 139254,
+          "start_ms": 3469,
+          "end_ms": 8703
+        }
+      ]
+    },
+    "ja": {
+      "text": "好きな俳優のdocumentaryを見るのが、雨の日の楽しみです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4302,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "好きな俳優の",
+          "start_sample": 0,
+          "end_sample": 17048,
+          "start_ms": 0,
+          "end_ms": 1066
+        },
+        {
+          "lang": "en",
+          "text": "documentary",
+          "start_sample": 17048,
+          "end_sample": 29593,
+          "start_ms": 1066,
+          "end_ms": 1850
+        },
+        {
+          "lang": "ja",
+          "text": "を見るのが、雨の日の楽しみです。",
+          "start_sample": 29593,
+          "end_sample": 68832,
+          "start_ms": 1850,
+          "end_ms": 4302
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 242,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

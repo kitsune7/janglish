@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11721.flac",
+  "sentence": "その地区全体がunstableな状態だった。",
+  "sample_rate": 16000,
+  "duration_ms": 3100,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 11763,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その地区全体が",
+      "start_sample": 0,
+      "end_sample": 18198,
+      "start_ms": 0,
+      "end_ms": 1137
+    },
+    {
+      "lang": "en",
+      "text": "unstable",
+      "start_sample": 18198,
+      "end_sample": 35605,
+      "start_ms": 1137,
+      "end_ms": 2225
+    },
+    {
+      "lang": "ja",
+      "text": "な状態だった。",
+      "start_sample": 35605,
+      "end_sample": 49599,
+      "start_ms": 2225,
+      "end_ms": 3100
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono chiku zentai ga unstable na joutai datsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6517,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その地区全体が",
+          "start_sample": 0,
+          "end_sample": 52455,
+          "start_ms": 0,
+          "end_ms": 3278
+        },
+        {
+          "lang": "en",
+          "text": "unstable",
+          "start_sample": 52455,
+          "end_sample": 70262,
+          "start_ms": 3278,
+          "end_ms": 4391
+        },
+        {
+          "lang": "ja",
+          "text": "な状態だった。",
+          "start_sample": 70262,
+          "end_sample": 104267,
+          "start_ms": 4391,
+          "end_ms": 6517
+        }
+      ]
+    },
+    "ja": {
+      "text": "その地区全体がunstableな状態だった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2662,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その地区全体が",
+          "start_sample": 0,
+          "end_sample": 18398,
+          "start_ms": 0,
+          "end_ms": 1150
+        },
+        {
+          "lang": "en",
+          "text": "unstable",
+          "start_sample": 18398,
+          "end_sample": 28404,
+          "start_ms": 1150,
+          "end_ms": 1775
+        },
+        {
+          "lang": "ja",
+          "text": "な状態だった。",
+          "start_sample": 28404,
+          "end_sample": 42598,
+          "start_ms": 1775,
+          "end_ms": 2662
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 155,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

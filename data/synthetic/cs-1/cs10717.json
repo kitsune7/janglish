@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10717.flac",
+  "sentence": "She cut the butter into 細かい pieces before folding it into the dough.",
+  "sample_rate": 16000,
+  "duration_ms": 4238,
+  "reference_speaker": "en/speaker_003_7963691c43c8.mp3",
+  "seed": 10759,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She cut the butter into",
+      "start_sample": 0,
+      "end_sample": 15988,
+      "start_ms": 0,
+      "end_ms": 999
+    },
+    {
+      "lang": "ja",
+      "text": "細かい",
+      "start_sample": 15988,
+      "end_sample": 23930,
+      "start_ms": 999,
+      "end_ms": 1496
+    },
+    {
+      "lang": "en",
+      "text": "pieces before folding it into the dough.",
+      "start_sample": 23930,
+      "end_sample": 67807,
+      "start_ms": 1496,
+      "end_ms": 4238
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She cut the butter into komakai pieces before folding it into the dough.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4328,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She cut the butter into",
+          "start_sample": 0,
+          "end_sample": 16188,
+          "start_ms": 0,
+          "end_ms": 1012
+        },
+        {
+          "lang": "ja",
+          "text": "細かい",
+          "start_sample": 16188,
+          "end_sample": 25165,
+          "start_ms": 1012,
+          "end_ms": 1573
+        },
+        {
+          "lang": "en",
+          "text": "pieces before folding it into the dough.",
+          "start_sample": 25165,
+          "end_sample": 69242,
+          "start_ms": 1573,
+          "end_ms": 4328
+        }
+      ]
+    },
+    "ja": {
+      "text": "She cut the butter into 細かい pieces before folding it into the dough.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4833,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She cut the butter into",
+          "start_sample": 0,
+          "end_sample": 22619,
+          "start_ms": 0,
+          "end_ms": 1414
+        },
+        {
+          "lang": "ja",
+          "text": "細かい",
+          "start_sample": 22619,
+          "end_sample": 30961,
+          "start_ms": 1414,
+          "end_ms": 1935
+        },
+        {
+          "lang": "en",
+          "text": "pieces before folding it into the dough.",
+          "start_sample": 30961,
+          "end_sample": 77322,
+          "start_ms": 1935,
+          "end_ms": 4833
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 212,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

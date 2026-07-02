@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1269.flac",
+  "sentence": "A 灯台 stood at the edge of the cliff, painted bright white.",
+  "sample_rate": 16000,
+  "duration_ms": 4026,
+  "reference_speaker": "en/speaker_050_6b3579133fec.mp3",
+  "seed": 1311,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "A",
+      "start_sample": 0,
+      "end_sample": 1401,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "灯台",
+      "start_sample": 1401,
+      "end_sample": 11267,
+      "start_ms": 88,
+      "end_ms": 704
+    },
+    {
+      "lang": "en",
+      "text": "stood at the edge of the cliff, painted bright white.",
+      "start_sample": 11267,
+      "end_sample": 64415,
+      "start_ms": 704,
+      "end_ms": 4026
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "A toudai stood at the edge of the cliff, painted bright white.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3945,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "A",
+          "start_sample": 0,
+          "end_sample": 1601,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "灯台",
+          "start_sample": 1601,
+          "end_sample": 9772,
+          "start_ms": 100,
+          "end_ms": 611
+        },
+        {
+          "lang": "en",
+          "text": "stood at the edge of the cliff, painted bright white.",
+          "start_sample": 9772,
+          "end_sample": 63120,
+          "start_ms": 611,
+          "end_ms": 3945
+        }
+      ]
+    },
+    "ja": {
+      "text": "A 灯台 stood at the edge of the cliff, painted bright white.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7619,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "A",
+          "start_sample": 0,
+          "end_sample": 2404,
+          "start_ms": 0,
+          "end_ms": 150
+        },
+        {
+          "lang": "ja",
+          "text": "灯台",
+          "start_sample": 2404,
+          "end_sample": 12670,
+          "start_ms": 150,
+          "end_ms": 792
+        },
+        {
+          "lang": "en",
+          "text": "stood at the edge of the cliff, painted bright white.",
+          "start_sample": 12670,
+          "end_sample": 121906,
+          "start_ms": 792,
+          "end_ms": 7619
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

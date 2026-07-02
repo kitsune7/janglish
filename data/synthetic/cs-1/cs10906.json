@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10906.flac",
+  "sentence": "この画家のstyleはピカソに似ているが、独自の個性もある。",
+  "sample_rate": 16000,
+  "duration_ms": 4168,
+  "reference_speaker": "en/speaker_001_b06ec2cd8db9.mp3",
+  "seed": 10948,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この画家の",
+      "start_sample": 0,
+      "end_sample": 8778,
+      "start_ms": 0,
+      "end_ms": 549
+    },
+    {
+      "lang": "en",
+      "text": "style",
+      "start_sample": 8778,
+      "end_sample": 21517,
+      "start_ms": 549,
+      "end_ms": 1345
+    },
+    {
+      "lang": "ja",
+      "text": "はピカソに似ているが、独自の個性もある。",
+      "start_sample": 21517,
+      "end_sample": 66690,
+      "start_ms": 1345,
+      "end_ms": 4168
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono gaka no style ha pikaso ni ji te iru ga dokuji no kosei mo aru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7872,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この画家の",
+          "start_sample": 0,
+          "end_sample": 25798,
+          "start_ms": 0,
+          "end_ms": 1612
+        },
+        {
+          "lang": "en",
+          "text": "style",
+          "start_sample": 25798,
+          "end_sample": 38937,
+          "start_ms": 1612,
+          "end_ms": 2434
+        },
+        {
+          "lang": "ja",
+          "text": "はピカソに似ているが、独自の個性もある。",
+          "start_sample": 38937,
+          "end_sample": 125946,
+          "start_ms": 2434,
+          "end_ms": 7872
+        }
+      ]
+    },
+    "ja": {
+      "text": "この画家のstyleはピカソに似ているが、独自の個性もある。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3748,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この画家の",
+          "start_sample": 0,
+          "end_sample": 8978,
+          "start_ms": 0,
+          "end_ms": 561
+        },
+        {
+          "lang": "en",
+          "text": "style",
+          "start_sample": 8978,
+          "end_sample": 14590,
+          "start_ms": 561,
+          "end_ms": 912
+        },
+        {
+          "lang": "ja",
+          "text": "はピカソに似ているが、独自の個性もある。",
+          "start_sample": 14590,
+          "end_sample": 59963,
+          "start_ms": 912,
+          "end_ms": 3748
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 209,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

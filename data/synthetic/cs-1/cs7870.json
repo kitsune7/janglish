@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7870.flac",
+  "sentence": "The 放送部 interrupted class to announce the schedule change.",
+  "sample_rate": 16000,
+  "duration_ms": 4818,
+  "reference_speaker": "jp/speaker_049_435108c1173c.mp3",
+  "seed": 7912,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1245,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "放送部",
+      "start_sample": 1245,
+      "end_sample": 11442,
+      "start_ms": 78,
+      "end_ms": 715
+    },
+    {
+      "lang": "en",
+      "text": "interrupted class to announce the schedule change.",
+      "start_sample": 11442,
+      "end_sample": 77080,
+      "start_ms": 715,
+      "end_ms": 4818
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The housou bu interrupted class to announce the schedule change.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4958,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1445,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "放送部",
+          "start_sample": 1445,
+          "end_sample": 13489,
+          "start_ms": 90,
+          "end_ms": 843
+        },
+        {
+          "lang": "en",
+          "text": "interrupted class to announce the schedule change.",
+          "start_sample": 13489,
+          "end_sample": 79327,
+          "start_ms": 843,
+          "end_ms": 4958
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 放送部 interrupted class to announce the schedule change.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3773,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3210,
+          "start_ms": 0,
+          "end_ms": 201
+        },
+        {
+          "lang": "ja",
+          "text": "放送部",
+          "start_sample": 3210,
+          "end_sample": 13807,
+          "start_ms": 201,
+          "end_ms": 863
+        },
+        {
+          "lang": "en",
+          "text": "interrupted class to announce the schedule change.",
+          "start_sample": 13807,
+          "end_sample": 60363,
+          "start_ms": 863,
+          "end_ms": 3773
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 241,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

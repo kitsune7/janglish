@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11711.flac",
+  "sentence": "その事故はtotallyの予想外だった。",
+  "sample_rate": 16000,
+  "duration_ms": 2857,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 11753,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その事故は",
+      "start_sample": 0,
+      "end_sample": 10111,
+      "start_ms": 0,
+      "end_ms": 632
+    },
+    {
+      "lang": "en",
+      "text": "totally",
+      "start_sample": 10111,
+      "end_sample": 27060,
+      "start_ms": 632,
+      "end_ms": 1691
+    },
+    {
+      "lang": "ja",
+      "text": "の予想外だった。",
+      "start_sample": 27060,
+      "end_sample": 45705,
+      "start_ms": 1691,
+      "end_ms": 2857
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono jiko ha totally no yosou soto datsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5823,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その事故は",
+          "start_sample": 0,
+          "end_sample": 35984,
+          "start_ms": 0,
+          "end_ms": 2249
+        },
+        {
+          "lang": "en",
+          "text": "totally",
+          "start_sample": 35984,
+          "end_sample": 53333,
+          "start_ms": 2249,
+          "end_ms": 3333
+        },
+        {
+          "lang": "ja",
+          "text": "の予想外だった。",
+          "start_sample": 53333,
+          "end_sample": 93169,
+          "start_ms": 3333,
+          "end_ms": 5823
+        }
+      ]
+    },
+    "ja": {
+      "text": "その事故はtotallyの予想外だった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2316,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その事故は",
+          "start_sample": 0,
+          "end_sample": 10311,
+          "start_ms": 0,
+          "end_ms": 644
+        },
+        {
+          "lang": "en",
+          "text": "totally",
+          "start_sample": 10311,
+          "end_sample": 18207,
+          "start_ms": 644,
+          "end_ms": 1138
+        },
+        {
+          "lang": "ja",
+          "text": "の予想外だった。",
+          "start_sample": 18207,
+          "end_sample": 37052,
+          "start_ms": 1138,
+          "end_ms": 2316
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 143,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

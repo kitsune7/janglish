@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1137.flac",
+  "sentence": "Can you adjust the 焦点距離 before we shoot the next frame?",
+  "sample_rate": 16000,
+  "duration_ms": 4306,
+  "reference_speaker": "jp/speaker_082_d12288b68351.mp3",
+  "seed": 1179,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you adjust the",
+      "start_sample": 0,
+      "end_sample": 15877,
+      "start_ms": 0,
+      "end_ms": 992
+    },
+    {
+      "lang": "ja",
+      "text": "焦点距離",
+      "start_sample": 15877,
+      "end_sample": 35811,
+      "start_ms": 992,
+      "end_ms": 2238
+    },
+    {
+      "lang": "en",
+      "text": "before we shoot the next frame?",
+      "start_sample": 35811,
+      "end_sample": 68888,
+      "start_ms": 2238,
+      "end_ms": 4306
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you adjust the shouten kyori before we shoot the next frame?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4522,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you adjust the",
+          "start_sample": 0,
+          "end_sample": 16077,
+          "start_ms": 0,
+          "end_ms": 1005
+        },
+        {
+          "lang": "ja",
+          "text": "焦点距離",
+          "start_sample": 16077,
+          "end_sample": 39068,
+          "start_ms": 1005,
+          "end_ms": 2442
+        },
+        {
+          "lang": "en",
+          "text": "before we shoot the next frame?",
+          "start_sample": 39068,
+          "end_sample": 72345,
+          "start_ms": 2442,
+          "end_ms": 4522
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you adjust the 焦点距離 before we shoot the next frame?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6104,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you adjust the",
+          "start_sample": 0,
+          "end_sample": 30742,
+          "start_ms": 0,
+          "end_ms": 1921
+        },
+        {
+          "lang": "ja",
+          "text": "焦点距離",
+          "start_sample": 30742,
+          "end_sample": 51076,
+          "start_ms": 1921,
+          "end_ms": 3192
+        },
+        {
+          "lang": "en",
+          "text": "before we shoot the next frame?",
+          "start_sample": 51076,
+          "end_sample": 97670,
+          "start_ms": 3192,
+          "end_ms": 6104
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 216,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11498.flac",
+  "sentence": "This new razor gives me such a 滑らか shave that I can't go back to the old one.",
+  "sample_rate": 16000,
+  "duration_ms": 4855,
+  "reference_speaker": "en/speaker_023_9d57aeaf822c.mp3",
+  "seed": 11540,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This new razor gives me such a",
+      "start_sample": 0,
+      "end_sample": 23025,
+      "start_ms": 0,
+      "end_ms": 1439
+    },
+    {
+      "lang": "ja",
+      "text": "滑らか",
+      "start_sample": 23025,
+      "end_sample": 34157,
+      "start_ms": 1439,
+      "end_ms": 2135
+    },
+    {
+      "lang": "en",
+      "text": "shave that I can't go back to the old one.",
+      "start_sample": 34157,
+      "end_sample": 77684,
+      "start_ms": 2135,
+      "end_ms": 4855
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This new razor gives me such a nameraka shave that I can't go back to the old one.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4825,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This new razor gives me such a",
+          "start_sample": 0,
+          "end_sample": 23225,
+          "start_ms": 0,
+          "end_ms": 1452
+        },
+        {
+          "lang": "ja",
+          "text": "滑らか",
+          "start_sample": 23225,
+          "end_sample": 33477,
+          "start_ms": 1452,
+          "end_ms": 2092
+        },
+        {
+          "lang": "en",
+          "text": "shave that I can't go back to the old one.",
+          "start_sample": 33477,
+          "end_sample": 77204,
+          "start_ms": 2092,
+          "end_ms": 4825
+        }
+      ]
+    },
+    "ja": {
+      "text": "This new razor gives me such a 滑らか shave that I can't go back to the old one.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5686,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This new razor gives me such a",
+          "start_sample": 0,
+          "end_sample": 30591,
+          "start_ms": 0,
+          "end_ms": 1912
+        },
+        {
+          "lang": "ja",
+          "text": "滑らか",
+          "start_sample": 30591,
+          "end_sample": 42123,
+          "start_ms": 1912,
+          "end_ms": 2633
+        },
+        {
+          "lang": "en",
+          "text": "shave that I can't go back to the old one.",
+          "start_sample": 42123,
+          "end_sample": 90973,
+          "start_ms": 2633,
+          "end_ms": 5686
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 243,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

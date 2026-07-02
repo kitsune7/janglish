@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs142.flac",
+  "sentence": "The bartender's 手際 was impressive, and the result was honestly 絶品.",
+  "sample_rate": 16000,
+  "duration_ms": 5178,
+  "reference_speaker": "jp/speaker_002_02a8841a00d7.mp3",
+  "seed": 16997,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The bartender's",
+      "start_sample": 0,
+      "end_sample": 11505,
+      "start_ms": 0,
+      "end_ms": 719
+    },
+    {
+      "lang": "ja",
+      "text": "手際",
+      "start_sample": 11505,
+      "end_sample": 17694,
+      "start_ms": 719,
+      "end_ms": 1106
+    },
+    {
+      "lang": "en",
+      "text": "was impressive, and the result was honestly",
+      "start_sample": 17694,
+      "end_sample": 76143,
+      "start_ms": 1106,
+      "end_ms": 4759
+    },
+    {
+      "lang": "ja",
+      "text": "絶品.",
+      "start_sample": 76143,
+      "end_sample": 82850,
+      "start_ms": 4759,
+      "end_ms": 5178
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The bartender's tegiwa was impressive, and the result was honestly zeppin",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5352,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bartender's",
+          "start_sample": 0,
+          "end_sample": 11705,
+          "start_ms": 0,
+          "end_ms": 732
+        },
+        {
+          "lang": "ja",
+          "text": "手際",
+          "start_sample": 11705,
+          "end_sample": 19402,
+          "start_ms": 732,
+          "end_ms": 1213
+        },
+        {
+          "lang": "en",
+          "text": "was impressive, and the result was honestly",
+          "start_sample": 19402,
+          "end_sample": 78251,
+          "start_ms": 1213,
+          "end_ms": 4891
+        },
+        {
+          "lang": "ja",
+          "text": "絶品.",
+          "start_sample": 78251,
+          "end_sample": 85625,
+          "start_ms": 4891,
+          "end_ms": 5352
+        }
+      ]
+    },
+    "ja": {
+      "text": "The bartender's 手際 was impressive, and the result was honestly 絶品.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4660,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bartender's",
+          "start_sample": 0,
+          "end_sample": 16392,
+          "start_ms": 0,
+          "end_ms": 1024
+        },
+        {
+          "lang": "ja",
+          "text": "手際",
+          "start_sample": 16392,
+          "end_sample": 22981,
+          "start_ms": 1024,
+          "end_ms": 1436
+        },
+        {
+          "lang": "en",
+          "text": "was impressive, and the result was honestly",
+          "start_sample": 22981,
+          "end_sample": 67658,
+          "start_ms": 1436,
+          "end_ms": 4229
+        },
+        {
+          "lang": "ja",
+          "text": "絶品.",
+          "start_sample": 67658,
+          "end_sample": 74565,
+          "start_ms": 4229,
+          "end_ms": 4660
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 259,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjj"
+}

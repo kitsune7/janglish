@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11357.flac",
+  "sentence": "He's so 上手 at building in that survival game.",
+  "sample_rate": 16000,
+  "duration_ms": 2738,
+  "reference_speaker": "jp/speaker_057_6b77a20f629a.mp3",
+  "seed": 11399,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He's so",
+      "start_sample": 0,
+      "end_sample": 6381,
+      "start_ms": 0,
+      "end_ms": 399
+    },
+    {
+      "lang": "ja",
+      "text": "上手",
+      "start_sample": 6381,
+      "end_sample": 12234,
+      "start_ms": 399,
+      "end_ms": 765
+    },
+    {
+      "lang": "en",
+      "text": "at building in that survival game.",
+      "start_sample": 12234,
+      "end_sample": 43816,
+      "start_ms": 765,
+      "end_ms": 2738
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He's so jouzu at building in that survival game.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2990,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He's so",
+          "start_sample": 0,
+          "end_sample": 6581,
+          "start_ms": 0,
+          "end_ms": 411
+        },
+        {
+          "lang": "ja",
+          "text": "上手",
+          "start_sample": 6581,
+          "end_sample": 16052,
+          "start_ms": 411,
+          "end_ms": 1003
+        },
+        {
+          "lang": "en",
+          "text": "at building in that survival game.",
+          "start_sample": 16052,
+          "end_sample": 47834,
+          "start_ms": 1003,
+          "end_ms": 2990
+        }
+      ]
+    },
+    "ja": {
+      "text": "He's so 上手 at building in that survival game.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2465,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He's so",
+          "start_sample": 0,
+          "end_sample": 7214,
+          "start_ms": 0,
+          "end_ms": 451
+        },
+        {
+          "lang": "ja",
+          "text": "上手",
+          "start_sample": 7214,
+          "end_sample": 13467,
+          "start_ms": 451,
+          "end_ms": 842
+        },
+        {
+          "lang": "en",
+          "text": "at building in that survival game.",
+          "start_sample": 13467,
+          "end_sample": 39437,
+          "start_ms": 842,
+          "end_ms": 2465
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 137,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

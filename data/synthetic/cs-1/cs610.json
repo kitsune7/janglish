@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs610.flac",
+  "sentence": "The landlord said the 鍵 for the mailbox is still with the previous tenant.",
+  "sample_rate": 16000,
+  "duration_ms": 5135,
+  "reference_speaker": "en/speaker_049_4b799abf92c3.mp3",
+  "seed": 652,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The landlord said the",
+      "start_sample": 0,
+      "end_sample": 29328,
+      "start_ms": 0,
+      "end_ms": 1833
+    },
+    {
+      "lang": "ja",
+      "text": "鍵",
+      "start_sample": 29328,
+      "end_sample": 43045,
+      "start_ms": 1833,
+      "end_ms": 2690
+    },
+    {
+      "lang": "en",
+      "text": "for the mailbox is still with the previous tenant.",
+      "start_sample": 43045,
+      "end_sample": 82161,
+      "start_ms": 2690,
+      "end_ms": 5135
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The landlord said the kagi for the mailbox is still with the previous tenant.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4714,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The landlord said the",
+          "start_sample": 0,
+          "end_sample": 29528,
+          "start_ms": 0,
+          "end_ms": 1846
+        },
+        {
+          "lang": "ja",
+          "text": "鍵",
+          "start_sample": 29528,
+          "end_sample": 36108,
+          "start_ms": 1846,
+          "end_ms": 2257
+        },
+        {
+          "lang": "en",
+          "text": "for the mailbox is still with the previous tenant.",
+          "start_sample": 36108,
+          "end_sample": 75424,
+          "start_ms": 2257,
+          "end_ms": 4714
+        }
+      ]
+    },
+    "ja": {
+      "text": "The landlord said the 鍵 for the mailbox is still with the previous tenant.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8121,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The landlord said the",
+          "start_sample": 0,
+          "end_sample": 38497,
+          "start_ms": 0,
+          "end_ms": 2406
+        },
+        {
+          "lang": "ja",
+          "text": "鍵",
+          "start_sample": 38497,
+          "end_sample": 52614,
+          "start_ms": 2406,
+          "end_ms": 3288
+        },
+        {
+          "lang": "en",
+          "text": "for the mailbox is still with the previous tenant.",
+          "start_sample": 52614,
+          "end_sample": 129934,
+          "start_ms": 3288,
+          "end_ms": 8121
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 257,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

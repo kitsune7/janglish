@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4424.flac",
+  "sentence": "The towels here are incredibly 柔らか, nothing like the scratchy ones at the last place.",
+  "sample_rate": 16000,
+  "duration_ms": 5438,
+  "reference_speaker": "jp/speaker_041_36b0f2924199.mp3",
+  "seed": 4466,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The towels here are incredibly",
+      "start_sample": 0,
+      "end_sample": 21638,
+      "start_ms": 0,
+      "end_ms": 1352
+    },
+    {
+      "lang": "ja",
+      "text": "柔らか,",
+      "start_sample": 21638,
+      "end_sample": 32142,
+      "start_ms": 1352,
+      "end_ms": 2009
+    },
+    {
+      "lang": "en",
+      "text": "nothing like the scratchy ones at the last place.",
+      "start_sample": 32142,
+      "end_sample": 87016,
+      "start_ms": 2009,
+      "end_ms": 5438
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The towels here are incredibly yawaraka nothing like the scratchy ones at the last place.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5821,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The towels here are incredibly",
+          "start_sample": 0,
+          "end_sample": 21838,
+          "start_ms": 0,
+          "end_ms": 1365
+        },
+        {
+          "lang": "ja",
+          "text": "柔らか,",
+          "start_sample": 21838,
+          "end_sample": 38056,
+          "start_ms": 1365,
+          "end_ms": 2378
+        },
+        {
+          "lang": "en",
+          "text": "nothing like the scratchy ones at the last place.",
+          "start_sample": 38056,
+          "end_sample": 93130,
+          "start_ms": 2378,
+          "end_ms": 5821
+        }
+      ]
+    },
+    "ja": {
+      "text": "The towels here are incredibly 柔らか, nothing like the scratchy ones at the last place.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6434,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The towels here are incredibly",
+          "start_sample": 0,
+          "end_sample": 33834,
+          "start_ms": 0,
+          "end_ms": 2115
+        },
+        {
+          "lang": "ja",
+          "text": "柔らか,",
+          "start_sample": 33834,
+          "end_sample": 44738,
+          "start_ms": 2115,
+          "end_ms": 2796
+        },
+        {
+          "lang": "en",
+          "text": "nothing like the scratchy ones at the last place.",
+          "start_sample": 44738,
+          "end_sample": 102945,
+          "start_ms": 2796,
+          "end_ms": 6434
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 272,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

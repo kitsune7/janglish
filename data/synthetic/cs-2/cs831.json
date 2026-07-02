@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs831.flac",
+  "sentence": "The 標識 along that rural highway are faded and dangerously 不明確.",
+  "sample_rate": 16000,
+  "duration_ms": 5393,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 17686,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1245,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "標識",
+      "start_sample": 1245,
+      "end_sample": 11905,
+      "start_ms": 78,
+      "end_ms": 744
+    },
+    {
+      "lang": "en",
+      "text": "along that rural highway are faded and dangerously",
+      "start_sample": 11905,
+      "end_sample": 73668,
+      "start_ms": 744,
+      "end_ms": 4604
+    },
+    {
+      "lang": "ja",
+      "text": "不明確.",
+      "start_sample": 73668,
+      "end_sample": 86290,
+      "start_ms": 4604,
+      "end_ms": 5393
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hyoushiki along that rural highway are faded and dangerously fu meikaku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5562,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1445,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "標識",
+          "start_sample": 1445,
+          "end_sample": 12046,
+          "start_ms": 90,
+          "end_ms": 753
+        },
+        {
+          "lang": "en",
+          "text": "along that rural highway are faded and dangerously",
+          "start_sample": 12046,
+          "end_sample": 74209,
+          "start_ms": 753,
+          "end_ms": 4638
+        },
+        {
+          "lang": "ja",
+          "text": "不明確.",
+          "start_sample": 74209,
+          "end_sample": 88984,
+          "start_ms": 4638,
+          "end_ms": 5562
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 標識 along that rural highway are faded and dangerously 不明確.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6392,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3205,
+          "start_ms": 0,
+          "end_ms": 200
+        },
+        {
+          "lang": "ja",
+          "text": "標識",
+          "start_sample": 3205,
+          "end_sample": 14265,
+          "start_ms": 200,
+          "end_ms": 892
+        },
+        {
+          "lang": "en",
+          "text": "along that rural highway are faded and dangerously",
+          "start_sample": 14265,
+          "end_sample": 89442,
+          "start_ms": 892,
+          "end_ms": 5590
+        },
+        {
+          "lang": "ja",
+          "text": "不明確.",
+          "start_sample": 89442,
+          "end_sample": 102264,
+          "start_ms": 5590,
+          "end_ms": 6392
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 270,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

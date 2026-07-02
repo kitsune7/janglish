@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs662.flac",
+  "sentence": "The sudden 強風 ripped through town and left the streets surprisingly 静寂.",
+  "sample_rate": 16000,
+  "duration_ms": 5369,
+  "reference_speaker": "en/speaker_089_6f14b0930650.mp3",
+  "seed": 17517,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The sudden",
+      "start_sample": 0,
+      "end_sample": 9107,
+      "start_ms": 0,
+      "end_ms": 569
+    },
+    {
+      "lang": "ja",
+      "text": "強風",
+      "start_sample": 9107,
+      "end_sample": 16074,
+      "start_ms": 569,
+      "end_ms": 1005
+    },
+    {
+      "lang": "en",
+      "text": "ripped through town and left the streets surprisingly",
+      "start_sample": 16074,
+      "end_sample": 76978,
+      "start_ms": 1005,
+      "end_ms": 4811
+    },
+    {
+      "lang": "ja",
+      "text": "静寂.",
+      "start_sample": 76978,
+      "end_sample": 85906,
+      "start_ms": 4811,
+      "end_ms": 5369
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The sudden kyoufuu ripped through town and left the streets surprisingly seijaku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6098,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The sudden",
+          "start_sample": 0,
+          "end_sample": 9307,
+          "start_ms": 0,
+          "end_ms": 582
+        },
+        {
+          "lang": "ja",
+          "text": "強風",
+          "start_sample": 9307,
+          "end_sample": 24553,
+          "start_ms": 582,
+          "end_ms": 1535
+        },
+        {
+          "lang": "en",
+          "text": "ripped through town and left the streets surprisingly",
+          "start_sample": 24553,
+          "end_sample": 85857,
+          "start_ms": 1535,
+          "end_ms": 5366
+        },
+        {
+          "lang": "ja",
+          "text": "静寂.",
+          "start_sample": 85857,
+          "end_sample": 97570,
+          "start_ms": 5366,
+          "end_ms": 6098
+        }
+      ]
+    },
+    "ja": {
+      "text": "The sudden 強風 ripped through town and left the streets surprisingly 静寂.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4524,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The sudden",
+          "start_sample": 0,
+          "end_sample": 9288,
+          "start_ms": 0,
+          "end_ms": 580
+        },
+        {
+          "lang": "ja",
+          "text": "強風",
+          "start_sample": 9288,
+          "end_sample": 16655,
+          "start_ms": 580,
+          "end_ms": 1041
+        },
+        {
+          "lang": "en",
+          "text": "ripped through town and left the streets surprisingly",
+          "start_sample": 16655,
+          "end_sample": 63260,
+          "start_ms": 1041,
+          "end_ms": 3954
+        },
+        {
+          "lang": "ja",
+          "text": "静寂.",
+          "start_sample": 63260,
+          "end_sample": 72388,
+          "start_ms": 3954,
+          "end_ms": 4524
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 269,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

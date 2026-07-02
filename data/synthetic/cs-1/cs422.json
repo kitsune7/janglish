@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs422.flac",
+  "sentence": "The dust on top of the 冷蔵庫 is honestly an inch thick at this point.",
+  "sample_rate": 16000,
+  "duration_ms": 5885,
+  "reference_speaker": "en/speaker_092_0f181b6e11f2.mp3",
+  "seed": 464,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The dust on top of the",
+      "start_sample": 0,
+      "end_sample": 22264,
+      "start_ms": 0,
+      "end_ms": 1392
+    },
+    {
+      "lang": "ja",
+      "text": "冷蔵庫",
+      "start_sample": 22264,
+      "end_sample": 33715,
+      "start_ms": 1392,
+      "end_ms": 2107
+    },
+    {
+      "lang": "en",
+      "text": "is honestly an inch thick at this point.",
+      "start_sample": 33715,
+      "end_sample": 94166,
+      "start_ms": 2107,
+      "end_ms": 5885
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The dust on top of the reizou ko is honestly an inch thick at this point.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6338,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The dust on top of the",
+          "start_sample": 0,
+          "end_sample": 22464,
+          "start_ms": 0,
+          "end_ms": 1404
+        },
+        {
+          "lang": "ja",
+          "text": "冷蔵庫",
+          "start_sample": 22464,
+          "end_sample": 40756,
+          "start_ms": 1404,
+          "end_ms": 2547
+        },
+        {
+          "lang": "en",
+          "text": "is honestly an inch thick at this point.",
+          "start_sample": 40756,
+          "end_sample": 101407,
+          "start_ms": 2547,
+          "end_ms": 6338
+        }
+      ]
+    },
+    "ja": {
+      "text": "The dust on top of the 冷蔵庫 is honestly an inch thick at this point.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9188,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The dust on top of the",
+          "start_sample": 0,
+          "end_sample": 47243,
+          "start_ms": 0,
+          "end_ms": 2953
+        },
+        {
+          "lang": "ja",
+          "text": "冷蔵庫",
+          "start_sample": 47243,
+          "end_sample": 59094,
+          "start_ms": 2953,
+          "end_ms": 3693
+        },
+        {
+          "lang": "en",
+          "text": "is honestly an inch thick at this point.",
+          "start_sample": 59094,
+          "end_sample": 147015,
+          "start_ms": 3693,
+          "end_ms": 9188
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 295,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

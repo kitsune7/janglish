@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8670.flac",
+  "sentence": "She has this 優しい way of handling injured birds that puts them immediately at ease.",
+  "sample_rate": 16000,
+  "duration_ms": 5935,
+  "reference_speaker": "en/speaker_046_c5e6fd979dbd.mp3",
+  "seed": 8712,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She has this",
+      "start_sample": 0,
+      "end_sample": 12791,
+      "start_ms": 0,
+      "end_ms": 799
+    },
+    {
+      "lang": "ja",
+      "text": "優しい",
+      "start_sample": 12791,
+      "end_sample": 22978,
+      "start_ms": 799,
+      "end_ms": 1436
+    },
+    {
+      "lang": "en",
+      "text": "way of handling injured birds that puts them immediately at ease.",
+      "start_sample": 22978,
+      "end_sample": 94962,
+      "start_ms": 1436,
+      "end_ms": 5935
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She has this yasashii way of handling injured birds that puts them immediately at ease.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6015,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She has this",
+          "start_sample": 0,
+          "end_sample": 12991,
+          "start_ms": 0,
+          "end_ms": 812
+        },
+        {
+          "lang": "ja",
+          "text": "優しい",
+          "start_sample": 12991,
+          "end_sample": 24060,
+          "start_ms": 812,
+          "end_ms": 1504
+        },
+        {
+          "lang": "en",
+          "text": "way of handling injured birds that puts them immediately at ease.",
+          "start_sample": 24060,
+          "end_sample": 96244,
+          "start_ms": 1504,
+          "end_ms": 6015
+        }
+      ]
+    },
+    "ja": {
+      "text": "She has this 優しい way of handling injured birds that puts them immediately at ease.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7679,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She has this",
+          "start_sample": 0,
+          "end_sample": 17963,
+          "start_ms": 0,
+          "end_ms": 1123
+        },
+        {
+          "lang": "ja",
+          "text": "優しい",
+          "start_sample": 17963,
+          "end_sample": 28550,
+          "start_ms": 1123,
+          "end_ms": 1784
+        },
+        {
+          "lang": "en",
+          "text": "way of handling injured birds that puts them immediately at ease.",
+          "start_sample": 28550,
+          "end_sample": 122868,
+          "start_ms": 1784,
+          "end_ms": 7679
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 297,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

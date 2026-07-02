@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9330.flac",
+  "sentence": "The 知事 vetoed the proposed tax increase on Tuesday.",
+  "sample_rate": 16000,
+  "duration_ms": 5530,
+  "reference_speaker": "jp/speaker_066_d870c5c7ad93.mp3",
+  "seed": 9372,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2208,
+      "start_ms": 0,
+      "end_ms": 138
+    },
+    {
+      "lang": "ja",
+      "text": "知事",
+      "start_sample": 2208,
+      "end_sample": 15444,
+      "start_ms": 138,
+      "end_ms": 965
+    },
+    {
+      "lang": "en",
+      "text": "vetoed the proposed tax increase on Tuesday.",
+      "start_sample": 15444,
+      "end_sample": 88472,
+      "start_ms": 965,
+      "end_ms": 5530
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The chiji vetoed the proposed tax increase on Tuesday.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5982,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2408,
+          "start_ms": 0,
+          "end_ms": 150
+        },
+        {
+          "lang": "ja",
+          "text": "知事",
+          "start_sample": 2408,
+          "end_sample": 22483,
+          "start_ms": 150,
+          "end_ms": 1405
+        },
+        {
+          "lang": "en",
+          "text": "vetoed the proposed tax increase on Tuesday.",
+          "start_sample": 22483,
+          "end_sample": 95711,
+          "start_ms": 1405,
+          "end_ms": 5982
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 知事 vetoed the proposed tax increase on Tuesday.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7379,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6735,
+          "start_ms": 0,
+          "end_ms": 421
+        },
+        {
+          "lang": "ja",
+          "text": "知事",
+          "start_sample": 6735,
+          "end_sample": 20371,
+          "start_ms": 421,
+          "end_ms": 1273
+        },
+        {
+          "lang": "en",
+          "text": "vetoed the proposed tax increase on Tuesday.",
+          "start_sample": 20371,
+          "end_sample": 118069,
+          "start_ms": 1273,
+          "end_ms": 7379
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 277,
+  "frame_labels": "eeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

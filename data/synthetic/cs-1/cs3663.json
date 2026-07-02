@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3663.flac",
+  "sentence": "Can you make something 甘め for me? I'm not a big fan of bitter drinks.",
+  "sample_rate": 16000,
+  "duration_ms": 3907,
+  "reference_speaker": "en/speaker_035_aa6a3aa058c0.mp3",
+  "seed": 3705,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you make something",
+      "start_sample": 0,
+      "end_sample": 11177,
+      "start_ms": 0,
+      "end_ms": 699
+    },
+    {
+      "lang": "ja",
+      "text": "甘め",
+      "start_sample": 11177,
+      "end_sample": 17839,
+      "start_ms": 699,
+      "end_ms": 1115
+    },
+    {
+      "lang": "en",
+      "text": "for me? I'm not a big fan of bitter drinks.",
+      "start_sample": 17839,
+      "end_sample": 62507,
+      "start_ms": 1115,
+      "end_ms": 3907
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you make something kanme for me? I'm not a big fan of bitter drinks.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4006,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you make something",
+          "start_sample": 0,
+          "end_sample": 11377,
+          "start_ms": 0,
+          "end_ms": 711
+        },
+        {
+          "lang": "ja",
+          "text": "甘め",
+          "start_sample": 11377,
+          "end_sample": 19230,
+          "start_ms": 711,
+          "end_ms": 1202
+        },
+        {
+          "lang": "en",
+          "text": "for me? I'm not a big fan of bitter drinks.",
+          "start_sample": 19230,
+          "end_sample": 64098,
+          "start_ms": 1202,
+          "end_ms": 4006
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you make something 甘め for me? I'm not a big fan of bitter drinks.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4735,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you make something",
+          "start_sample": 0,
+          "end_sample": 17334,
+          "start_ms": 0,
+          "end_ms": 1083
+        },
+        {
+          "lang": "ja",
+          "text": "甘め",
+          "start_sample": 17334,
+          "end_sample": 24396,
+          "start_ms": 1083,
+          "end_ms": 1525
+        },
+        {
+          "lang": "en",
+          "text": "for me? I'm not a big fan of bitter drinks.",
+          "start_sample": 24396,
+          "end_sample": 75753,
+          "start_ms": 1525,
+          "end_ms": 4735
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

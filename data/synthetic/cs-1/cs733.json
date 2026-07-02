@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs733.flac",
+  "sentence": "The whole 親戚 came out of the woodwork when grandpa passed away.",
+  "sample_rate": 16000,
+  "duration_ms": 3964,
+  "reference_speaker": "jp/speaker_055_b88f2897e0f4.mp3",
+  "seed": 775,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole",
+      "start_sample": 0,
+      "end_sample": 8147,
+      "start_ms": 0,
+      "end_ms": 509
+    },
+    {
+      "lang": "ja",
+      "text": "親戚",
+      "start_sample": 8147,
+      "end_sample": 15622,
+      "start_ms": 509,
+      "end_ms": 976
+    },
+    {
+      "lang": "en",
+      "text": "came out of the woodwork when grandpa passed away.",
+      "start_sample": 15622,
+      "end_sample": 63421,
+      "start_ms": 976,
+      "end_ms": 3964
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole shinseki came out of the woodwork when grandpa passed away.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4635,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole",
+          "start_sample": 0,
+          "end_sample": 8347,
+          "start_ms": 0,
+          "end_ms": 522
+        },
+        {
+          "lang": "ja",
+          "text": "親戚",
+          "start_sample": 8347,
+          "end_sample": 26168,
+          "start_ms": 522,
+          "end_ms": 1636
+        },
+        {
+          "lang": "en",
+          "text": "came out of the woodwork when grandpa passed away.",
+          "start_sample": 26168,
+          "end_sample": 74167,
+          "start_ms": 1636,
+          "end_ms": 4635
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole 親戚 came out of the woodwork when grandpa passed away.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3515,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole",
+          "start_sample": 0,
+          "end_sample": 6910,
+          "start_ms": 0,
+          "end_ms": 432
+        },
+        {
+          "lang": "ja",
+          "text": "親戚",
+          "start_sample": 6910,
+          "end_sample": 14785,
+          "start_ms": 432,
+          "end_ms": 924
+        },
+        {
+          "lang": "en",
+          "text": "came out of the woodwork when grandpa passed away.",
+          "start_sample": 14785,
+          "end_sample": 56244,
+          "start_ms": 924,
+          "end_ms": 3515
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 199,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

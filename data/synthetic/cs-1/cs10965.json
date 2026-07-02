@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10965.flac",
+  "sentence": "He was always 正直 with her, even when the truth was uncomfortable.",
+  "sample_rate": 16000,
+  "duration_ms": 3827,
+  "reference_speaker": "jp/speaker_007_69caf5c5275d.mp3",
+  "seed": 11007,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He was always",
+      "start_sample": 0,
+      "end_sample": 9091,
+      "start_ms": 0,
+      "end_ms": 568
+    },
+    {
+      "lang": "ja",
+      "text": "正直",
+      "start_sample": 9091,
+      "end_sample": 17855,
+      "start_ms": 568,
+      "end_ms": 1116
+    },
+    {
+      "lang": "en",
+      "text": "with her, even when the truth was uncomfortable.",
+      "start_sample": 17855,
+      "end_sample": 61230,
+      "start_ms": 1116,
+      "end_ms": 3827
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He was always shoujiki with her, even when the truth was uncomfortable.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3805,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He was always",
+          "start_sample": 0,
+          "end_sample": 9291,
+          "start_ms": 0,
+          "end_ms": 581
+        },
+        {
+          "lang": "ja",
+          "text": "正直",
+          "start_sample": 9291,
+          "end_sample": 17302,
+          "start_ms": 581,
+          "end_ms": 1081
+        },
+        {
+          "lang": "en",
+          "text": "with her, even when the truth was uncomfortable.",
+          "start_sample": 17302,
+          "end_sample": 60877,
+          "start_ms": 1081,
+          "end_ms": 3805
+        }
+      ]
+    },
+    "ja": {
+      "text": "He was always 正直 with her, even when the truth was uncomfortable.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4622,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He was always",
+          "start_sample": 0,
+          "end_sample": 14952,
+          "start_ms": 0,
+          "end_ms": 934
+        },
+        {
+          "lang": "ja",
+          "text": "正直",
+          "start_sample": 14952,
+          "end_sample": 24116,
+          "start_ms": 934,
+          "end_ms": 1507
+        },
+        {
+          "lang": "en",
+          "text": "with her, even when the truth was uncomfortable.",
+          "start_sample": 24116,
+          "end_sample": 73953,
+          "start_ms": 1507,
+          "end_ms": 4622
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

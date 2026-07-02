@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs530.flac",
+  "sentence": "面接の結果はどのくらいでdirectに連絡が来ますか？",
+  "sample_rate": 16000,
+  "duration_ms": 3308,
+  "reference_speaker": "en/speaker_072_33acedb4c9a7.mp3",
+  "seed": 572,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "面接の結果はどのくらいで",
+      "start_sample": 0,
+      "end_sample": 25144,
+      "start_ms": 0,
+      "end_ms": 1572
+    },
+    {
+      "lang": "en",
+      "text": "direct",
+      "start_sample": 25144,
+      "end_sample": 33715,
+      "start_ms": 1572,
+      "end_ms": 2107
+    },
+    {
+      "lang": "ja",
+      "text": "に連絡が来ますか？",
+      "start_sample": 33715,
+      "end_sample": 52923,
+      "start_ms": 2107,
+      "end_ms": 3308
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mensetsu no kekka ha dono kurai de direct ni renraku ga rai masu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6949,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "面接の結果はどのくらいで",
+          "start_sample": 0,
+          "end_sample": 47901,
+          "start_ms": 0,
+          "end_ms": 2994
+        },
+        {
+          "lang": "en",
+          "text": "direct",
+          "start_sample": 47901,
+          "end_sample": 56872,
+          "start_ms": 2994,
+          "end_ms": 3554
+        },
+        {
+          "lang": "ja",
+          "text": "に連絡が来ますか？",
+          "start_sample": 56872,
+          "end_sample": 111182,
+          "start_ms": 3554,
+          "end_ms": 6949
+        }
+      ]
+    },
+    "ja": {
+      "text": "面接の結果はどのくらいでdirectに連絡が来ますか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3208,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "面接の結果はどのくらいで",
+          "start_sample": 0,
+          "end_sample": 25344,
+          "start_ms": 0,
+          "end_ms": 1584
+        },
+        {
+          "lang": "en",
+          "text": "direct",
+          "start_sample": 25344,
+          "end_sample": 31921,
+          "start_ms": 1584,
+          "end_ms": 1995
+        },
+        {
+          "lang": "ja",
+          "text": "に連絡が来ますか？",
+          "start_sample": 31921,
+          "end_sample": 51329,
+          "start_ms": 1995,
+          "end_ms": 3208
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 166,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

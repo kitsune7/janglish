@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1342.flac",
+  "sentence": "I heard the 雷 rumbling all through the night and barely slept.",
+  "sample_rate": 16000,
+  "duration_ms": 4025,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 1384,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I heard the",
+      "start_sample": 0,
+      "end_sample": 6703,
+      "start_ms": 0,
+      "end_ms": 419
+    },
+    {
+      "lang": "ja",
+      "text": "雷",
+      "start_sample": 6703,
+      "end_sample": 15454,
+      "start_ms": 419,
+      "end_ms": 966
+    },
+    {
+      "lang": "en",
+      "text": "rumbling all through the night and barely slept.",
+      "start_sample": 15454,
+      "end_sample": 64396,
+      "start_ms": 966,
+      "end_ms": 4025
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I heard the kaminari rumbling all through the night and barely slept.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4476,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I heard the",
+          "start_sample": 0,
+          "end_sample": 6903,
+          "start_ms": 0,
+          "end_ms": 431
+        },
+        {
+          "lang": "ja",
+          "text": "雷",
+          "start_sample": 6903,
+          "end_sample": 22481,
+          "start_ms": 431,
+          "end_ms": 1405
+        },
+        {
+          "lang": "en",
+          "text": "rumbling all through the night and barely slept.",
+          "start_sample": 22481,
+          "end_sample": 71623,
+          "start_ms": 1405,
+          "end_ms": 4476
+        }
+      ]
+    },
+    "ja": {
+      "text": "I heard the 雷 rumbling all through the night and barely slept.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4555,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I heard the",
+          "start_sample": 0,
+          "end_sample": 10271,
+          "start_ms": 0,
+          "end_ms": 642
+        },
+        {
+          "lang": "ja",
+          "text": "雷",
+          "start_sample": 10271,
+          "end_sample": 19422,
+          "start_ms": 642,
+          "end_ms": 1214
+        },
+        {
+          "lang": "en",
+          "text": "rumbling all through the night and barely slept.",
+          "start_sample": 19422,
+          "end_sample": 72879,
+          "start_ms": 1214,
+          "end_ms": 4555
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

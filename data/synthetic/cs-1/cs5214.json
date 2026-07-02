@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5214.flac",
+  "sentence": "The whole 家族 drove fourteen hours straight to reach the cabin.",
+  "sample_rate": 16000,
+  "duration_ms": 3722,
+  "reference_speaker": "jp/speaker_092_08c69e35de07.mp3",
+  "seed": 5256,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole",
+      "start_sample": 0,
+      "end_sample": 7985,
+      "start_ms": 0,
+      "end_ms": 499
+    },
+    {
+      "lang": "ja",
+      "text": "家族",
+      "start_sample": 7985,
+      "end_sample": 16233,
+      "start_ms": 499,
+      "end_ms": 1015
+    },
+    {
+      "lang": "en",
+      "text": "drove fourteen hours straight to reach the cabin.",
+      "start_sample": 16233,
+      "end_sample": 59546,
+      "start_ms": 1015,
+      "end_ms": 3722
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole kazoku drove fourteen hours straight to reach the cabin.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3934,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole",
+          "start_sample": 0,
+          "end_sample": 8185,
+          "start_ms": 0,
+          "end_ms": 512
+        },
+        {
+          "lang": "ja",
+          "text": "家族",
+          "start_sample": 8185,
+          "end_sample": 19426,
+          "start_ms": 512,
+          "end_ms": 1214
+        },
+        {
+          "lang": "en",
+          "text": "drove fourteen hours straight to reach the cabin.",
+          "start_sample": 19426,
+          "end_sample": 62939,
+          "start_ms": 1214,
+          "end_ms": 3934
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole 家族 drove fourteen hours straight to reach the cabin.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6165,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole",
+          "start_sample": 0,
+          "end_sample": 11529,
+          "start_ms": 0,
+          "end_ms": 721
+        },
+        {
+          "lang": "ja",
+          "text": "家族",
+          "start_sample": 11529,
+          "end_sample": 20177,
+          "start_ms": 721,
+          "end_ms": 1261
+        },
+        {
+          "lang": "en",
+          "text": "drove fourteen hours straight to reach the cabin.",
+          "start_sample": 20177,
+          "end_sample": 98646,
+          "start_ms": 1261,
+          "end_ms": 6165
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 187,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

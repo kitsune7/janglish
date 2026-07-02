@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6448.flac",
+  "sentence": "その番組のhostがとても話し上手で毎回見てしまう。",
+  "sample_rate": 16000,
+  "duration_ms": 4508,
+  "reference_speaker": "jp/speaker_049_435108c1173c.mp3",
+  "seed": 6490,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その番組の",
+      "start_sample": 0,
+      "end_sample": 14222,
+      "start_ms": 0,
+      "end_ms": 889
+    },
+    {
+      "lang": "en",
+      "text": "host",
+      "start_sample": 14222,
+      "end_sample": 25856,
+      "start_ms": 889,
+      "end_ms": 1616
+    },
+    {
+      "lang": "ja",
+      "text": "がとても話し上手で毎回見てしまう。",
+      "start_sample": 25856,
+      "end_sample": 72128,
+      "start_ms": 1616,
+      "end_ms": 4508
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono bangumi no host ga totemo hanashi jouzu de maikai ken te shimau",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7581,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その番組の",
+          "start_sample": 0,
+          "end_sample": 39468,
+          "start_ms": 0,
+          "end_ms": 2467
+        },
+        {
+          "lang": "en",
+          "text": "host",
+          "start_sample": 39468,
+          "end_sample": 51502,
+          "start_ms": 2467,
+          "end_ms": 3219
+        },
+        {
+          "lang": "ja",
+          "text": "がとても話し上手で毎回見てしまう。",
+          "start_sample": 51502,
+          "end_sample": 121293,
+          "start_ms": 3219,
+          "end_ms": 7581
+        }
+      ]
+    },
+    "ja": {
+      "text": "その番組のhostがとても話し上手で毎回見てしまう。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4146,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その番組の",
+          "start_sample": 0,
+          "end_sample": 14422,
+          "start_ms": 0,
+          "end_ms": 901
+        },
+        {
+          "lang": "en",
+          "text": "host",
+          "start_sample": 14422,
+          "end_sample": 19870,
+          "start_ms": 901,
+          "end_ms": 1242
+        },
+        {
+          "lang": "ja",
+          "text": "がとても話し上手で毎回見てしまう。",
+          "start_sample": 19870,
+          "end_sample": 66342,
+          "start_ms": 1242,
+          "end_ms": 4146
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 226,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

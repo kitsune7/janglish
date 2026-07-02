@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4978.flac",
+  "sentence": "この地方ではsparseにしか雪が降らない。",
+  "sample_rate": 16000,
+  "duration_ms": 3230,
+  "reference_speaker": "jp/speaker_045_fda9acd0702e.mp3",
+  "seed": 5020,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この地方では",
+      "start_sample": 0,
+      "end_sample": 15200,
+      "start_ms": 0,
+      "end_ms": 950
+    },
+    {
+      "lang": "en",
+      "text": "sparse",
+      "start_sample": 15200,
+      "end_sample": 29263,
+      "start_ms": 950,
+      "end_ms": 1829
+    },
+    {
+      "lang": "ja",
+      "text": "にしか雪が降らない。",
+      "start_sample": 29263,
+      "end_sample": 51681,
+      "start_ms": 1829,
+      "end_ms": 3230
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono chihou de ha sparse ni shika yuki ga fura nai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4519,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この地方では",
+          "start_sample": 0,
+          "end_sample": 26674,
+          "start_ms": 0,
+          "end_ms": 1667
+        },
+        {
+          "lang": "en",
+          "text": "sparse",
+          "start_sample": 26674,
+          "end_sample": 41137,
+          "start_ms": 1667,
+          "end_ms": 2571
+        },
+        {
+          "lang": "ja",
+          "text": "にしか雪が降らない。",
+          "start_sample": 41137,
+          "end_sample": 72307,
+          "start_ms": 2571,
+          "end_ms": 4519
+        }
+      ]
+    },
+    "ja": {
+      "text": "この地方ではsparseにしか雪が降らない。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2908,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この地方では",
+          "start_sample": 0,
+          "end_sample": 15400,
+          "start_ms": 0,
+          "end_ms": 962
+        },
+        {
+          "lang": "en",
+          "text": "sparse",
+          "start_sample": 15400,
+          "end_sample": 23903,
+          "start_ms": 962,
+          "end_ms": 1494
+        },
+        {
+          "lang": "ja",
+          "text": "にしか雪が降らない。",
+          "start_sample": 23903,
+          "end_sample": 46521,
+          "start_ms": 1494,
+          "end_ms": 2908
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 162,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

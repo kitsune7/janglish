@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs435.flac",
+  "sentence": "The kids left their 靴下 all over the hallway and someone needs to collect them.",
+  "sample_rate": 16000,
+  "duration_ms": 5356,
+  "reference_speaker": "jp/speaker_095_1daf6547c74f.mp3",
+  "seed": 477,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The kids left their",
+      "start_sample": 0,
+      "end_sample": 11010,
+      "start_ms": 0,
+      "end_ms": 688
+    },
+    {
+      "lang": "ja",
+      "text": "靴下",
+      "start_sample": 11010,
+      "end_sample": 21515,
+      "start_ms": 688,
+      "end_ms": 1345
+    },
+    {
+      "lang": "en",
+      "text": "all over the hallway and someone needs to collect them.",
+      "start_sample": 21515,
+      "end_sample": 85697,
+      "start_ms": 1345,
+      "end_ms": 5356
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kids left their kutsushita all over the hallway and someone needs to collect them.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5706,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The kids left their",
+          "start_sample": 0,
+          "end_sample": 11210,
+          "start_ms": 0,
+          "end_ms": 701
+        },
+        {
+          "lang": "ja",
+          "text": "靴下",
+          "start_sample": 11210,
+          "end_sample": 26906,
+          "start_ms": 701,
+          "end_ms": 1682
+        },
+        {
+          "lang": "en",
+          "text": "all over the hallway and someone needs to collect them.",
+          "start_sample": 26906,
+          "end_sample": 91288,
+          "start_ms": 1682,
+          "end_ms": 5706
+        }
+      ]
+    },
+    "ja": {
+      "text": "The kids left their 靴下 all over the hallway and someone needs to collect them.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6053,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The kids left their",
+          "start_sample": 0,
+          "end_sample": 22448,
+          "start_ms": 0,
+          "end_ms": 1403
+        },
+        {
+          "lang": "ja",
+          "text": "靴下",
+          "start_sample": 22448,
+          "end_sample": 33353,
+          "start_ms": 1403,
+          "end_ms": 2085
+        },
+        {
+          "lang": "en",
+          "text": "all over the hallway and someone needs to collect them.",
+          "start_sample": 33353,
+          "end_sample": 96853,
+          "start_ms": 2085,
+          "end_ms": 6053
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 268,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs263.flac",
+  "sentence": "うちの犬はsnacksをもらうと、すごく嬉しそうに尾を振ります。",
+  "sample_rate": 16000,
+  "duration_ms": 5422,
+  "reference_speaker": "en/speaker_062_05f0c617d0bb.mp3",
+  "seed": 305,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "うちの犬は",
+      "start_sample": 0,
+      "end_sample": 12172,
+      "start_ms": 0,
+      "end_ms": 761
+    },
+    {
+      "lang": "en",
+      "text": "snacks",
+      "start_sample": 12172,
+      "end_sample": 20104,
+      "start_ms": 761,
+      "end_ms": 1256
+    },
+    {
+      "lang": "ja",
+      "text": "をもらうと、すごく嬉しそうに尾を振ります。",
+      "start_sample": 20104,
+      "end_sample": 86744,
+      "start_ms": 1256,
+      "end_ms": 5422
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "uchi no inu ha snacks wo morau to sugoku ureshi sou ni o wo furi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6569,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちの犬は",
+          "start_sample": 0,
+          "end_sample": 25312,
+          "start_ms": 0,
+          "end_ms": 1582
+        },
+        {
+          "lang": "en",
+          "text": "snacks",
+          "start_sample": 25312,
+          "end_sample": 33644,
+          "start_ms": 1582,
+          "end_ms": 2103
+        },
+        {
+          "lang": "ja",
+          "text": "をもらうと、すごく嬉しそうに尾を振ります。",
+          "start_sample": 33644,
+          "end_sample": 105100,
+          "start_ms": 2103,
+          "end_ms": 6569
+        }
+      ]
+    },
+    "ja": {
+      "text": "うちの犬はsnacksをもらうと、すごく嬉しそうに尾を振ります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5503,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちの犬は",
+          "start_sample": 0,
+          "end_sample": 12372,
+          "start_ms": 0,
+          "end_ms": 773
+        },
+        {
+          "lang": "en",
+          "text": "snacks",
+          "start_sample": 12372,
+          "end_sample": 21209,
+          "start_ms": 773,
+          "end_ms": 1326
+        },
+        {
+          "lang": "ja",
+          "text": "をもらうと、すごく嬉しそうに尾を振ります。",
+          "start_sample": 21209,
+          "end_sample": 88049,
+          "start_ms": 1326,
+          "end_ms": 5503
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 272,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

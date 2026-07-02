@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10713.flac",
+  "sentence": "Are there any 残り物 in the fridge we can use for lunch?",
+  "sample_rate": 16000,
+  "duration_ms": 2939,
+  "reference_speaker": "jp/speaker_080_c886ae0e1a09.mp3",
+  "seed": 10755,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Are there any",
+      "start_sample": 0,
+      "end_sample": 6219,
+      "start_ms": 0,
+      "end_ms": 389
+    },
+    {
+      "lang": "ja",
+      "text": "残り物",
+      "start_sample": 6219,
+      "end_sample": 17541,
+      "start_ms": 389,
+      "end_ms": 1096
+    },
+    {
+      "lang": "en",
+      "text": "in the fridge we can use for lunch?",
+      "start_sample": 17541,
+      "end_sample": 47027,
+      "start_ms": 1096,
+      "end_ms": 2939
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Are there any nokorimono in the fridge we can use for lunch?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3149,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Are there any",
+          "start_sample": 0,
+          "end_sample": 6419,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "ja",
+          "text": "残り物",
+          "start_sample": 6419,
+          "end_sample": 20701,
+          "start_ms": 401,
+          "end_ms": 1294
+        },
+        {
+          "lang": "en",
+          "text": "in the fridge we can use for lunch?",
+          "start_sample": 20701,
+          "end_sample": 50387,
+          "start_ms": 1294,
+          "end_ms": 3149
+        }
+      ]
+    },
+    "ja": {
+      "text": "Are there any 残り物 in the fridge we can use for lunch?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3733,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Are there any",
+          "start_sample": 0,
+          "end_sample": 14126,
+          "start_ms": 0,
+          "end_ms": 883
+        },
+        {
+          "lang": "ja",
+          "text": "残り物",
+          "start_sample": 14126,
+          "end_sample": 25848,
+          "start_ms": 883,
+          "end_ms": 1616
+        },
+        {
+          "lang": "en",
+          "text": "in the fridge we can use for lunch?",
+          "start_sample": 25848,
+          "end_sample": 59724,
+          "start_ms": 1616,
+          "end_ms": 3733
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 147,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

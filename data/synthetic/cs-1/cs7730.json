@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7730.flac",
+  "sentence": "管理費にlobbyのメンテナンス費用も含まれています。",
+  "sample_rate": 16000,
+  "duration_ms": 4184,
+  "reference_speaker": "jp/speaker_080_c886ae0e1a09.mp3",
+  "seed": 7772,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "管理費に",
+      "start_sample": 0,
+      "end_sample": 7831,
+      "start_ms": 0,
+      "end_ms": 489
+    },
+    {
+      "lang": "en",
+      "text": "lobby",
+      "start_sample": 7831,
+      "end_sample": 30361,
+      "start_ms": 489,
+      "end_ms": 1898
+    },
+    {
+      "lang": "ja",
+      "text": "のメンテナンス費用も含まれています。",
+      "start_sample": 30361,
+      "end_sample": 66941,
+      "start_ms": 1898,
+      "end_ms": 4184
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanri hi ni lobby no mentenansu hiyou mo fukuma re te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6434,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "管理費に",
+          "start_sample": 0,
+          "end_sample": 16516,
+          "start_ms": 0,
+          "end_ms": 1032
+        },
+        {
+          "lang": "en",
+          "text": "lobby",
+          "start_sample": 16516,
+          "end_sample": 39446,
+          "start_ms": 1032,
+          "end_ms": 2465
+        },
+        {
+          "lang": "ja",
+          "text": "のメンテナンス費用も含まれています。",
+          "start_sample": 39446,
+          "end_sample": 102945,
+          "start_ms": 2465,
+          "end_ms": 6434
+        }
+      ]
+    },
+    "ja": {
+      "text": "管理費にlobbyのメンテナンス費用も含まれています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3092,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "管理費に",
+          "start_sample": 0,
+          "end_sample": 8031,
+          "start_ms": 0,
+          "end_ms": 502
+        },
+        {
+          "lang": "en",
+          "text": "lobby",
+          "start_sample": 8031,
+          "end_sample": 12689,
+          "start_ms": 502,
+          "end_ms": 793
+        },
+        {
+          "lang": "ja",
+          "text": "のメンテナンス費用も含まれています。",
+          "start_sample": 12689,
+          "end_sample": 49469,
+          "start_ms": 793,
+          "end_ms": 3092
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

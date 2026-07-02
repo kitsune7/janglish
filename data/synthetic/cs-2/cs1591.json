@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs1591.flac",
+  "sentence": "The sudden burst of 陽光 broke through the clouds and gave everything a warm, 輝き quality.",
+  "sample_rate": 16000,
+  "duration_ms": 6062,
+  "reference_speaker": "en/speaker_080_2ec83f7b270e.mp3",
+  "seed": 18446,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The sudden burst of",
+      "start_sample": 0,
+      "end_sample": 14703,
+      "start_ms": 0,
+      "end_ms": 919
+    },
+    {
+      "lang": "ja",
+      "text": "陽光",
+      "start_sample": 14703,
+      "end_sample": 23296,
+      "start_ms": 919,
+      "end_ms": 1456
+    },
+    {
+      "lang": "en",
+      "text": "broke through the clouds and gave everything a warm,",
+      "start_sample": 23296,
+      "end_sample": 78023,
+      "start_ms": 1456,
+      "end_ms": 4876
+    },
+    {
+      "lang": "ja",
+      "text": "輝き",
+      "start_sample": 78023,
+      "end_sample": 87901,
+      "start_ms": 4876,
+      "end_ms": 5494
+    },
+    {
+      "lang": "en",
+      "text": "quality.",
+      "start_sample": 87901,
+      "end_sample": 96994,
+      "start_ms": 5494,
+      "end_ms": 6062
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The sudden burst of youkou broke through the clouds and gave everything a warm, kagayaki quality.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6550,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The sudden burst of",
+          "start_sample": 0,
+          "end_sample": 14903,
+          "start_ms": 0,
+          "end_ms": 931
+        },
+        {
+          "lang": "ja",
+          "text": "陽光",
+          "start_sample": 14903,
+          "end_sample": 25961,
+          "start_ms": 931,
+          "end_ms": 1623
+        },
+        {
+          "lang": "en",
+          "text": "broke through the clouds and gave everything a warm,",
+          "start_sample": 25961,
+          "end_sample": 81088,
+          "start_ms": 1623,
+          "end_ms": 5068
+        },
+        {
+          "lang": "ja",
+          "text": "輝き",
+          "start_sample": 81088,
+          "end_sample": 95511,
+          "start_ms": 5068,
+          "end_ms": 5969
+        },
+        {
+          "lang": "en",
+          "text": "quality.",
+          "start_sample": 95511,
+          "end_sample": 104804,
+          "start_ms": 5969,
+          "end_ms": 6550
+        }
+      ]
+    },
+    "ja": {
+      "text": "The sudden burst of 陽光 broke through the clouds and gave everything a warm, 輝き quality.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6022,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The sudden burst of",
+          "start_sample": 0,
+          "end_sample": 23446,
+          "start_ms": 0,
+          "end_ms": 1465
+        },
+        {
+          "lang": "ja",
+          "text": "陽光",
+          "start_sample": 23446,
+          "end_sample": 32439,
+          "start_ms": 1465,
+          "end_ms": 2027
+        },
+        {
+          "lang": "en",
+          "text": "broke through the clouds and gave everything a warm,",
+          "start_sample": 32439,
+          "end_sample": 80618,
+          "start_ms": 2027,
+          "end_ms": 5039
+        },
+        {
+          "lang": "ja",
+          "text": "輝き",
+          "start_sample": 80618,
+          "end_sample": 90896,
+          "start_ms": 5039,
+          "end_ms": 5681
+        },
+        {
+          "lang": "en",
+          "text": "quality.",
+          "start_sample": 90896,
+          "end_sample": 96353,
+          "start_ms": 5681,
+          "end_ms": 6022
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 304,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

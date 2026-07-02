@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8281.flac",
+  "sentence": "彼はいつもproactiveに行動します。",
+  "sample_rate": 16000,
+  "duration_ms": 2772,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 8323,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼はいつも",
+      "start_sample": 0,
+      "end_sample": 10898,
+      "start_ms": 0,
+      "end_ms": 681
+    },
+    {
+      "lang": "en",
+      "text": "proactive",
+      "start_sample": 10898,
+      "end_sample": 31534,
+      "start_ms": 681,
+      "end_ms": 1971
+    },
+    {
+      "lang": "ja",
+      "text": "に行動します。",
+      "start_sample": 31534,
+      "end_sample": 44359,
+      "start_ms": 1971,
+      "end_ms": 2772
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha itsu mo proactive ni koudou shi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5660,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼はいつも",
+          "start_sample": 0,
+          "end_sample": 43515,
+          "start_ms": 0,
+          "end_ms": 2720
+        },
+        {
+          "lang": "en",
+          "text": "proactive",
+          "start_sample": 43515,
+          "end_sample": 64551,
+          "start_ms": 2720,
+          "end_ms": 4034
+        },
+        {
+          "lang": "ja",
+          "text": "に行動します。",
+          "start_sample": 64551,
+          "end_sample": 90561,
+          "start_ms": 4034,
+          "end_ms": 5660
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はいつもproactiveに行動します。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2191,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼はいつも",
+          "start_sample": 0,
+          "end_sample": 11098,
+          "start_ms": 0,
+          "end_ms": 694
+        },
+        {
+          "lang": "en",
+          "text": "proactive",
+          "start_sample": 11098,
+          "end_sample": 22035,
+          "start_ms": 694,
+          "end_ms": 1377
+        },
+        {
+          "lang": "ja",
+          "text": "に行動します。",
+          "start_sample": 22035,
+          "end_sample": 35060,
+          "start_ms": 1377,
+          "end_ms": 2191
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 139,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9915.flac",
+  "sentence": "駐車場でcartを返すのをうっかり忘れてしまいました。",
+  "sample_rate": 16000,
+  "duration_ms": 3545,
+  "reference_speaker": "jp/speaker_083_f660ed2250be.mp3",
+  "seed": 9957,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "駐車場で",
+      "start_sample": 0,
+      "end_sample": 10572,
+      "start_ms": 0,
+      "end_ms": 661
+    },
+    {
+      "lang": "en",
+      "text": "cart",
+      "start_sample": 10572,
+      "end_sample": 21867,
+      "start_ms": 661,
+      "end_ms": 1367
+    },
+    {
+      "lang": "ja",
+      "text": "を返すのをうっかり忘れてしまいました。",
+      "start_sample": 21867,
+      "end_sample": 56713,
+      "start_ms": 1367,
+      "end_ms": 3545
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "chuusha ba de cart wo kaesu no wo ukkari wasure te shimai mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7069,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "駐車場で",
+          "start_sample": 0,
+          "end_sample": 13938,
+          "start_ms": 0,
+          "end_ms": 871
+        },
+        {
+          "lang": "en",
+          "text": "cart",
+          "start_sample": 13938,
+          "end_sample": 25633,
+          "start_ms": 871,
+          "end_ms": 1602
+        },
+        {
+          "lang": "ja",
+          "text": "を返すのをうっかり忘れてしまいました。",
+          "start_sample": 25633,
+          "end_sample": 113105,
+          "start_ms": 1602,
+          "end_ms": 7069
+        }
+      ]
+    },
+    "ja": {
+      "text": "駐車場でcartを返すのをうっかり忘れてしまいました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3195,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "駐車場で",
+          "start_sample": 0,
+          "end_sample": 10772,
+          "start_ms": 0,
+          "end_ms": 673
+        },
+        {
+          "lang": "en",
+          "text": "cart",
+          "start_sample": 10772,
+          "end_sample": 16077,
+          "start_ms": 673,
+          "end_ms": 1005
+        },
+        {
+          "lang": "ja",
+          "text": "を返すのをうっかり忘れてしまいました。",
+          "start_sample": 16077,
+          "end_sample": 51123,
+          "start_ms": 1005,
+          "end_ms": 3195
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 178,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

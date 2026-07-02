@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11351.flac",
+  "sentence": "体育館でのindoor 練習が続いて少し飽きてきた。",
+  "sample_rate": 16000,
+  "duration_ms": 2705,
+  "reference_speaker": "jp/speaker_019_45c9ebd0ae18.mp3",
+  "seed": 11393,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "体育館での",
+      "start_sample": 0,
+      "end_sample": 9899,
+      "start_ms": 0,
+      "end_ms": 619
+    },
+    {
+      "lang": "en",
+      "text": "indoor",
+      "start_sample": 9899,
+      "end_sample": 18788,
+      "start_ms": 619,
+      "end_ms": 1174
+    },
+    {
+      "lang": "ja",
+      "text": "練習が続いて少し飽きてきた。",
+      "start_sample": 18788,
+      "end_sample": 43276,
+      "start_ms": 1174,
+      "end_ms": 2705
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "taiiku kan de no indoor renshuu ga tsuzui te sukoshi aki te ki ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6426,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "体育館での",
+          "start_sample": 0,
+          "end_sample": 22261,
+          "start_ms": 0,
+          "end_ms": 1391
+        },
+        {
+          "lang": "en",
+          "text": "indoor",
+          "start_sample": 22261,
+          "end_sample": 31550,
+          "start_ms": 1391,
+          "end_ms": 1972
+        },
+        {
+          "lang": "ja",
+          "text": "練習が続いて少し飽きてきた。",
+          "start_sample": 31550,
+          "end_sample": 102819,
+          "start_ms": 1972,
+          "end_ms": 6426
+        }
+      ]
+    },
+    "ja": {
+      "text": "体育館でのindoor 練習が続いて少し飽きてきた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2505,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "体育館での",
+          "start_sample": 0,
+          "end_sample": 10099,
+          "start_ms": 0,
+          "end_ms": 631
+        },
+        {
+          "lang": "en",
+          "text": "indoor",
+          "start_sample": 10099,
+          "end_sample": 15390,
+          "start_ms": 631,
+          "end_ms": 962
+        },
+        {
+          "lang": "ja",
+          "text": "練習が続いて少し飽きてきた。",
+          "start_sample": 15390,
+          "end_sample": 40078,
+          "start_ms": 962,
+          "end_ms": 2505
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 136,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

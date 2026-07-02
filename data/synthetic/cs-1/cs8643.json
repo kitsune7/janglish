@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8643.flac",
+  "sentence": "The puppy looked absolutely 無邪気 chasing its own tail around the yard.",
+  "sample_rate": 16000,
+  "duration_ms": 4356,
+  "reference_speaker": "en/speaker_020_5f047713c8bd.mp3",
+  "seed": 8685,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The puppy looked absolutely",
+      "start_sample": 0,
+      "end_sample": 22932,
+      "start_ms": 0,
+      "end_ms": 1433
+    },
+    {
+      "lang": "ja",
+      "text": "無邪気",
+      "start_sample": 22932,
+      "end_sample": 31986,
+      "start_ms": 1433,
+      "end_ms": 1999
+    },
+    {
+      "lang": "en",
+      "text": "chasing its own tail around the yard.",
+      "start_sample": 31986,
+      "end_sample": 69694,
+      "start_ms": 1999,
+      "end_ms": 4356
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The puppy looked absolutely mujaki chasing its own tail around the yard.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4618,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The puppy looked absolutely",
+          "start_sample": 0,
+          "end_sample": 23132,
+          "start_ms": 0,
+          "end_ms": 1446
+        },
+        {
+          "lang": "ja",
+          "text": "無邪気",
+          "start_sample": 23132,
+          "end_sample": 35984,
+          "start_ms": 1446,
+          "end_ms": 2249
+        },
+        {
+          "lang": "en",
+          "text": "chasing its own tail around the yard.",
+          "start_sample": 35984,
+          "end_sample": 73892,
+          "start_ms": 2249,
+          "end_ms": 4618
+        }
+      ]
+    },
+    "ja": {
+      "text": "The puppy looked absolutely 無邪気 chasing its own tail around the yard.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5348,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The puppy looked absolutely",
+          "start_sample": 0,
+          "end_sample": 43741,
+          "start_ms": 0,
+          "end_ms": 2734
+        },
+        {
+          "lang": "ja",
+          "text": "無邪気",
+          "start_sample": 43741,
+          "end_sample": 53195,
+          "start_ms": 2734,
+          "end_ms": 3325
+        },
+        {
+          "lang": "en",
+          "text": "chasing its own tail around the yard.",
+          "start_sample": 53195,
+          "end_sample": 85560,
+          "start_ms": 3325,
+          "end_ms": 5348
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1758.flac",
+  "sentence": "He felt a little 恥ずかしい asking the sommelier to recommend something cheap.",
+  "sample_rate": 16000,
+  "duration_ms": 5777,
+  "reference_speaker": "jp/speaker_019_45c9ebd0ae18.mp3",
+  "seed": 1800,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He felt a little",
+      "start_sample": 0,
+      "end_sample": 26545,
+      "start_ms": 0,
+      "end_ms": 1659
+    },
+    {
+      "lang": "ja",
+      "text": "恥ずかしい",
+      "start_sample": 26545,
+      "end_sample": 36253,
+      "start_ms": 1659,
+      "end_ms": 2266
+    },
+    {
+      "lang": "en",
+      "text": "asking the sommelier to recommend something cheap.",
+      "start_sample": 36253,
+      "end_sample": 92426,
+      "start_ms": 2266,
+      "end_ms": 5777
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He felt a little hazukashii asking the sommelier to recommend something cheap.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6006,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He felt a little",
+          "start_sample": 0,
+          "end_sample": 26745,
+          "start_ms": 0,
+          "end_ms": 1672
+        },
+        {
+          "lang": "ja",
+          "text": "恥ずかしい",
+          "start_sample": 26745,
+          "end_sample": 39717,
+          "start_ms": 1672,
+          "end_ms": 2482
+        },
+        {
+          "lang": "en",
+          "text": "asking the sommelier to recommend something cheap.",
+          "start_sample": 39717,
+          "end_sample": 96090,
+          "start_ms": 2482,
+          "end_ms": 6006
+        }
+      ]
+    },
+    "ja": {
+      "text": "He felt a little 恥ずかしい asking the sommelier to recommend something cheap.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4653,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He felt a little",
+          "start_sample": 0,
+          "end_sample": 13798,
+          "start_ms": 0,
+          "end_ms": 862
+        },
+        {
+          "lang": "ja",
+          "text": "恥ずかしい",
+          "start_sample": 13798,
+          "end_sample": 23906,
+          "start_ms": 862,
+          "end_ms": 1494
+        },
+        {
+          "lang": "en",
+          "text": "asking the sommelier to recommend something cheap.",
+          "start_sample": 23906,
+          "end_sample": 74446,
+          "start_ms": 1494,
+          "end_ms": 4653
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 289,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4706.flac",
+  "sentence": "The 踏切 warning sounded just as I was about to cross the road.",
+  "sample_rate": 16000,
+  "duration_ms": 3799,
+  "reference_speaker": "jp/speaker_099_c404e17fc007.mp3",
+  "seed": 4748,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1403,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "踏切",
+      "start_sample": 1403,
+      "end_sample": 13833,
+      "start_ms": 88,
+      "end_ms": 865
+    },
+    {
+      "lang": "en",
+      "text": "warning sounded just as I was about to cross the road.",
+      "start_sample": 13833,
+      "end_sample": 60781,
+      "start_ms": 865,
+      "end_ms": 3799
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The fumikiri warning sounded just as I was about to cross the road.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3849,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1603,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "踏切",
+          "start_sample": 1603,
+          "end_sample": 14433,
+          "start_ms": 100,
+          "end_ms": 902
+        },
+        {
+          "lang": "en",
+          "text": "warning sounded just as I was about to cross the road.",
+          "start_sample": 14433,
+          "end_sample": 61581,
+          "start_ms": 902,
+          "end_ms": 3849
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 踏切 warning sounded just as I was about to cross the road.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4931,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2405,
+          "start_ms": 0,
+          "end_ms": 150
+        },
+        {
+          "lang": "ja",
+          "text": "踏切",
+          "start_sample": 2405,
+          "end_sample": 15235,
+          "start_ms": 150,
+          "end_ms": 952
+        },
+        {
+          "lang": "en",
+          "text": "warning sounded just as I was about to cross the road.",
+          "start_sample": 15235,
+          "end_sample": 78901,
+          "start_ms": 952,
+          "end_ms": 4931
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8436.flac",
+  "sentence": "He handled the bankruptcy process in a very 冷静 manner.",
+  "sample_rate": 16000,
+  "duration_ms": 4010,
+  "reference_speaker": "jp/speaker_065_12fed3376ff0.mp3",
+  "seed": 8478,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He handled the bankruptcy process in a very",
+      "start_sample": 0,
+      "end_sample": 49210,
+      "start_ms": 0,
+      "end_ms": 3076
+    },
+    {
+      "lang": "ja",
+      "text": "冷静",
+      "start_sample": 49210,
+      "end_sample": 57462,
+      "start_ms": 3076,
+      "end_ms": 3591
+    },
+    {
+      "lang": "en",
+      "text": "manner.",
+      "start_sample": 57462,
+      "end_sample": 64157,
+      "start_ms": 3591,
+      "end_ms": 4010
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He handled the bankruptcy process in a very reisei manner.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4010,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He handled the bankruptcy process in a very",
+          "start_sample": 0,
+          "end_sample": 49410,
+          "start_ms": 0,
+          "end_ms": 3088
+        },
+        {
+          "lang": "ja",
+          "text": "冷静",
+          "start_sample": 49410,
+          "end_sample": 57272,
+          "start_ms": 3088,
+          "end_ms": 3580
+        },
+        {
+          "lang": "en",
+          "text": "manner.",
+          "start_sample": 57272,
+          "end_sample": 64167,
+          "start_ms": 3580,
+          "end_ms": 4010
+        }
+      ]
+    },
+    "ja": {
+      "text": "He handled the bankruptcy process in a very 冷静 manner.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4827,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He handled the bankruptcy process in a very",
+          "start_sample": 0,
+          "end_sample": 62328,
+          "start_ms": 0,
+          "end_ms": 3896
+        },
+        {
+          "lang": "ja",
+          "text": "冷静",
+          "start_sample": 62328,
+          "end_sample": 70980,
+          "start_ms": 3896,
+          "end_ms": 4436
+        },
+        {
+          "lang": "en",
+          "text": "manner.",
+          "start_sample": 70980,
+          "end_sample": 77228,
+          "start_ms": 4436,
+          "end_ms": 4827
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeee"
+}

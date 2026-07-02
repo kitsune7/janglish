@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1331.flac",
+  "sentence": "I spent an hour just staring at the 余白 because the emptiness felt so 意味深.",
+  "sample_rate": 16000,
+  "duration_ms": 5280,
+  "reference_speaker": "jp/speaker_087_849529715d29.mp3",
+  "seed": 18186,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I spent an hour just staring at the",
+      "start_sample": 0,
+      "end_sample": 29807,
+      "start_ms": 0,
+      "end_ms": 1863
+    },
+    {
+      "lang": "ja",
+      "text": "余白",
+      "start_sample": 29807,
+      "end_sample": 37746,
+      "start_ms": 1863,
+      "end_ms": 2359
+    },
+    {
+      "lang": "en",
+      "text": "because the emptiness felt so",
+      "start_sample": 37746,
+      "end_sample": 74257,
+      "start_ms": 2359,
+      "end_ms": 4641
+    },
+    {
+      "lang": "ja",
+      "text": "意味深.",
+      "start_sample": 74257,
+      "end_sample": 84478,
+      "start_ms": 4641,
+      "end_ms": 5280
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I spent an hour just staring at the yohaku because the emptiness felt so imi shin",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5938,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I spent an hour just staring at the",
+          "start_sample": 0,
+          "end_sample": 30007,
+          "start_ms": 0,
+          "end_ms": 1875
+        },
+        {
+          "lang": "ja",
+          "text": "余白",
+          "start_sample": 30007,
+          "end_sample": 45414,
+          "start_ms": 1875,
+          "end_ms": 2838
+        },
+        {
+          "lang": "en",
+          "text": "because the emptiness felt so",
+          "start_sample": 45414,
+          "end_sample": 82325,
+          "start_ms": 2838,
+          "end_ms": 5145
+        },
+        {
+          "lang": "ja",
+          "text": "意味深.",
+          "start_sample": 82325,
+          "end_sample": 95000,
+          "start_ms": 5145,
+          "end_ms": 5938
+        }
+      ]
+    },
+    "ja": {
+      "text": "I spent an hour just staring at the 余白 because the emptiness felt so 意味深.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7015,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I spent an hour just staring at the",
+          "start_sample": 0,
+          "end_sample": 48586,
+          "start_ms": 0,
+          "end_ms": 3037
+        },
+        {
+          "lang": "ja",
+          "text": "余白",
+          "start_sample": 48586,
+          "end_sample": 56925,
+          "start_ms": 3037,
+          "end_ms": 3558
+        },
+        {
+          "lang": "en",
+          "text": "because the emptiness felt so",
+          "start_sample": 56925,
+          "end_sample": 101825,
+          "start_ms": 3558,
+          "end_ms": 6364
+        },
+        {
+          "lang": "ja",
+          "text": "意味深.",
+          "start_sample": 101825,
+          "end_sample": 112246,
+          "start_ms": 6364,
+          "end_ms": 7015
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 264,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

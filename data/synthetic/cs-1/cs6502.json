@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6502.flac",
+  "sentence": "大晦日のカウントダウンはoutdoorで行われる予定だ。",
+  "sample_rate": 16000,
+  "duration_ms": 3911,
+  "reference_speaker": "en/speaker_083_60e45fe6f2e9.mp3",
+  "seed": 6544,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "大晦日のカウントダウンは",
+      "start_sample": 0,
+      "end_sample": 31573,
+      "start_ms": 0,
+      "end_ms": 1973
+    },
+    {
+      "lang": "en",
+      "text": "outdoor",
+      "start_sample": 31573,
+      "end_sample": 41268,
+      "start_ms": 1973,
+      "end_ms": 2579
+    },
+    {
+      "lang": "ja",
+      "text": "で行われる予定だ。",
+      "start_sample": 41268,
+      "end_sample": 62570,
+      "start_ms": 2579,
+      "end_ms": 3911
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "oomisoka no kauntodaun ha outdoor de okonawa reru yotei da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6750,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "大晦日のカウントダウンは",
+          "start_sample": 0,
+          "end_sample": 57046,
+          "start_ms": 0,
+          "end_ms": 3565
+        },
+        {
+          "lang": "en",
+          "text": "outdoor",
+          "start_sample": 57046,
+          "end_sample": 67141,
+          "start_ms": 3565,
+          "end_ms": 4196
+        },
+        {
+          "lang": "ja",
+          "text": "で行われる予定だ。",
+          "start_sample": 67141,
+          "end_sample": 108002,
+          "start_ms": 4196,
+          "end_ms": 6750
+        }
+      ]
+    },
+    "ja": {
+      "text": "大晦日のカウントダウンはoutdoorで行われる予定だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4092,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "大晦日のカウントダウンは",
+          "start_sample": 0,
+          "end_sample": 31773,
+          "start_ms": 0,
+          "end_ms": 1986
+        },
+        {
+          "lang": "en",
+          "text": "outdoor",
+          "start_sample": 31773,
+          "end_sample": 43970,
+          "start_ms": 1986,
+          "end_ms": 2748
+        },
+        {
+          "lang": "ja",
+          "text": "で行われる予定だ。",
+          "start_sample": 43970,
+          "end_sample": 65472,
+          "start_ms": 2748,
+          "end_ms": 4092
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6795.flac",
+  "sentence": "The recruiter described the team's 目標 before asking how I would contribute.",
+  "sample_rate": 16000,
+  "duration_ms": 5133,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 6837,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The recruiter described the team's",
+      "start_sample": 0,
+      "end_sample": 30436,
+      "start_ms": 0,
+      "end_ms": 1902
+    },
+    {
+      "lang": "ja",
+      "text": "目標",
+      "start_sample": 30436,
+      "end_sample": 42233,
+      "start_ms": 1902,
+      "end_ms": 2640
+    },
+    {
+      "lang": "en",
+      "text": "before asking how I would contribute.",
+      "start_sample": 42233,
+      "end_sample": 82131,
+      "start_ms": 2640,
+      "end_ms": 5133
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The recruiter described the team's mokuhyou before asking how I would contribute.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5273,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The recruiter described the team's",
+          "start_sample": 0,
+          "end_sample": 30636,
+          "start_ms": 0,
+          "end_ms": 1915
+        },
+        {
+          "lang": "ja",
+          "text": "目標",
+          "start_sample": 30636,
+          "end_sample": 44270,
+          "start_ms": 1915,
+          "end_ms": 2767
+        },
+        {
+          "lang": "en",
+          "text": "before asking how I would contribute.",
+          "start_sample": 44270,
+          "end_sample": 84368,
+          "start_ms": 2767,
+          "end_ms": 5273
+        }
+      ]
+    },
+    "ja": {
+      "text": "The recruiter described the team's 目標 before asking how I would contribute.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7903,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The recruiter described the team's",
+          "start_sample": 0,
+          "end_sample": 52475,
+          "start_ms": 0,
+          "end_ms": 3280
+        },
+        {
+          "lang": "ja",
+          "text": "目標",
+          "start_sample": 52475,
+          "end_sample": 64672,
+          "start_ms": 3280,
+          "end_ms": 4042
+        },
+        {
+          "lang": "en",
+          "text": "before asking how I would contribute.",
+          "start_sample": 64672,
+          "end_sample": 126453,
+          "start_ms": 4042,
+          "end_ms": 7903
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 257,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

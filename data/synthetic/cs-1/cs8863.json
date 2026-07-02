@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs8863.flac",
+  "sentence": "inflationのせいで日用品の値段がどんどん上がっています。",
+  "sample_rate": 16000,
+  "duration_ms": 4071,
+  "reference_speaker": "en/speaker_059_8cc960ae4dc2.mp3",
+  "seed": 8905,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "inflation",
+      "start_sample": 0,
+      "end_sample": 17580,
+      "start_ms": 0,
+      "end_ms": 1099
+    },
+    {
+      "lang": "ja",
+      "text": "のせいで日用品の値段がどんどん上がっています。",
+      "start_sample": 17580,
+      "end_sample": 65133,
+      "start_ms": 1099,
+      "end_ms": 4071
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "inflation no sei de nichiyou hin no nedan ga dondon agatsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6848,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "inflation",
+          "start_sample": 0,
+          "end_sample": 17780,
+          "start_ms": 0,
+          "end_ms": 1111
+        },
+        {
+          "lang": "ja",
+          "text": "のせいで日用品の値段がどんどん上がっています。",
+          "start_sample": 17780,
+          "end_sample": 109563,
+          "start_ms": 1111,
+          "end_ms": 6848
+        }
+      ]
+    },
+    "ja": {
+      "text": "inflationのせいで日用品の値段がどんどん上がっています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3376,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "inflation",
+          "start_sample": 0,
+          "end_sample": 6271,
+          "start_ms": 0,
+          "end_ms": 392
+        },
+        {
+          "lang": "ja",
+          "text": "のせいで日用品の値段がどんどん上がっています。",
+          "start_sample": 6271,
+          "end_sample": 54024,
+          "start_ms": 392,
+          "end_ms": 3376
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

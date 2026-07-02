@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs824.flac",
+  "sentence": "Her parallel parking on that 坂道 was honestly 見事.",
+  "sample_rate": 16000,
+  "duration_ms": 4581,
+  "reference_speaker": "jp/speaker_018_b5ccf3bf7c65.mp3",
+  "seed": 17679,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Her parallel parking on that",
+      "start_sample": 0,
+      "end_sample": 43169,
+      "start_ms": 0,
+      "end_ms": 2698
+    },
+    {
+      "lang": "ja",
+      "text": "坂道",
+      "start_sample": 43169,
+      "end_sample": 52066,
+      "start_ms": 2698,
+      "end_ms": 3254
+    },
+    {
+      "lang": "en",
+      "text": "was honestly",
+      "start_sample": 52066,
+      "end_sample": 69175,
+      "start_ms": 3254,
+      "end_ms": 4323
+    },
+    {
+      "lang": "ja",
+      "text": "見事.",
+      "start_sample": 69175,
+      "end_sample": 73302,
+      "start_ms": 4323,
+      "end_ms": 4581
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Her parallel parking on that sakamichi was honestly migoto",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5602,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her parallel parking on that",
+          "start_sample": 0,
+          "end_sample": 43369,
+          "start_ms": 0,
+          "end_ms": 2711
+        },
+        {
+          "lang": "ja",
+          "text": "坂道",
+          "start_sample": 43369,
+          "end_sample": 59271,
+          "start_ms": 2711,
+          "end_ms": 3704
+        },
+        {
+          "lang": "en",
+          "text": "was honestly",
+          "start_sample": 59271,
+          "end_sample": 76780,
+          "start_ms": 3704,
+          "end_ms": 4799
+        },
+        {
+          "lang": "ja",
+          "text": "見事.",
+          "start_sample": 76780,
+          "end_sample": 89626,
+          "start_ms": 4799,
+          "end_ms": 5602
+        }
+      ]
+    },
+    "ja": {
+      "text": "Her parallel parking on that 坂道 was honestly 見事.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4008,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her parallel parking on that",
+          "start_sample": 0,
+          "end_sample": 37833,
+          "start_ms": 0,
+          "end_ms": 2365
+        },
+        {
+          "lang": "ja",
+          "text": "坂道",
+          "start_sample": 37833,
+          "end_sample": 47130,
+          "start_ms": 2365,
+          "end_ms": 2946
+        },
+        {
+          "lang": "en",
+          "text": "was honestly",
+          "start_sample": 47130,
+          "end_sample": 59795,
+          "start_ms": 2946,
+          "end_ms": 3737
+        },
+        {
+          "lang": "ja",
+          "text": "見事.",
+          "start_sample": 59795,
+          "end_sample": 64122,
+          "start_ms": 3737,
+          "end_ms": 4008
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 230,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4588.flac",
+  "sentence": "もし具合が悪くなったら、すぐにnurseを呼んでください。",
+  "sample_rate": 16000,
+  "duration_ms": 3315,
+  "reference_speaker": "en/speaker_019_53050c1aaaa1.mp3",
+  "seed": 4630,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "もし具合が悪くなったら、すぐに",
+      "start_sample": 0,
+      "end_sample": 29382,
+      "start_ms": 0,
+      "end_ms": 1836
+    },
+    {
+      "lang": "en",
+      "text": "nurse",
+      "start_sample": 29382,
+      "end_sample": 40697,
+      "start_ms": 1836,
+      "end_ms": 2544
+    },
+    {
+      "lang": "ja",
+      "text": "を呼んでください。",
+      "start_sample": 40697,
+      "end_sample": 53034,
+      "start_ms": 2544,
+      "end_ms": 3315
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "moshi guai ga waruku natsu tara sugu ni nurse wo yon de kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6058,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "もし具合が悪くなったら、すぐに",
+          "start_sample": 0,
+          "end_sample": 59538,
+          "start_ms": 0,
+          "end_ms": 3721
+        },
+        {
+          "lang": "en",
+          "text": "nurse",
+          "start_sample": 59538,
+          "end_sample": 71253,
+          "start_ms": 3721,
+          "end_ms": 4453
+        },
+        {
+          "lang": "ja",
+          "text": "を呼んでください。",
+          "start_sample": 71253,
+          "end_sample": 96928,
+          "start_ms": 4453,
+          "end_ms": 6058
+        }
+      ]
+    },
+    "ja": {
+      "text": "もし具合が悪くなったら、すぐにnurseを呼んでください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2954,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "もし具合が悪くなったら、すぐに",
+          "start_sample": 0,
+          "end_sample": 29582,
+          "start_ms": 0,
+          "end_ms": 1849
+        },
+        {
+          "lang": "en",
+          "text": "nurse",
+          "start_sample": 29582,
+          "end_sample": 34728,
+          "start_ms": 1849,
+          "end_ms": 2170
+        },
+        {
+          "lang": "ja",
+          "text": "を呼んでください。",
+          "start_sample": 34728,
+          "end_sample": 47265,
+          "start_ms": 2170,
+          "end_ms": 2954
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 166,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

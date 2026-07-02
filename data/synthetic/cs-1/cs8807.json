@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8807.flac",
+  "sentence": "Is knitting during your 休憩 at work actually a thing people do?",
+  "sample_rate": 16000,
+  "duration_ms": 6033,
+  "reference_speaker": "en/speaker_038_cc7cc15dbf19.mp3",
+  "seed": 8849,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Is knitting during your",
+      "start_sample": 0,
+      "end_sample": 20639,
+      "start_ms": 0,
+      "end_ms": 1290
+    },
+    {
+      "lang": "ja",
+      "text": "休憩",
+      "start_sample": 20639,
+      "end_sample": 28592,
+      "start_ms": 1290,
+      "end_ms": 1787
+    },
+    {
+      "lang": "en",
+      "text": "at work actually a thing people do?",
+      "start_sample": 28592,
+      "end_sample": 96524,
+      "start_ms": 1787,
+      "end_ms": 6033
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Is knitting during your kyuukei at work actually a thing people do?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6432,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is knitting during your",
+          "start_sample": 0,
+          "end_sample": 20839,
+          "start_ms": 0,
+          "end_ms": 1302
+        },
+        {
+          "lang": "ja",
+          "text": "休憩",
+          "start_sample": 20839,
+          "end_sample": 34787,
+          "start_ms": 1302,
+          "end_ms": 2174
+        },
+        {
+          "lang": "en",
+          "text": "at work actually a thing people do?",
+          "start_sample": 34787,
+          "end_sample": 102919,
+          "start_ms": 2174,
+          "end_ms": 6432
+        }
+      ]
+    },
+    "ja": {
+      "text": "Is knitting during your 休憩 at work actually a thing people do?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5582,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is knitting during your",
+          "start_sample": 0,
+          "end_sample": 25860,
+          "start_ms": 0,
+          "end_ms": 1616
+        },
+        {
+          "lang": "ja",
+          "text": "休憩",
+          "start_sample": 25860,
+          "end_sample": 34213,
+          "start_ms": 1616,
+          "end_ms": 2138
+        },
+        {
+          "lang": "en",
+          "text": "at work actually a thing people do?",
+          "start_sample": 34213,
+          "end_sample": 89305,
+          "start_ms": 2138,
+          "end_ms": 5582
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 302,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

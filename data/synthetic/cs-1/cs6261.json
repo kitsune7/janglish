@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6261.flac",
+  "sentence": "彼女のskinはとても綺麗で、みんなに羨ましがられている。",
+  "sample_rate": 16000,
+  "duration_ms": 4378,
+  "reference_speaker": "jp/speaker_040_473e7a57e696.mp3",
+  "seed": 6303,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女の",
+      "start_sample": 0,
+      "end_sample": 6690,
+      "start_ms": 0,
+      "end_ms": 418
+    },
+    {
+      "lang": "en",
+      "text": "skin",
+      "start_sample": 6690,
+      "end_sample": 17363,
+      "start_ms": 418,
+      "end_ms": 1085
+    },
+    {
+      "lang": "ja",
+      "text": "はとても綺麗で、みんなに羨ましがられている。",
+      "start_sample": 17363,
+      "end_sample": 70045,
+      "start_ms": 1085,
+      "end_ms": 4378
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo no skin ha totemo kirei de minna ni urayamashi gara re te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7362,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の",
+          "start_sample": 0,
+          "end_sample": 27281,
+          "start_ms": 0,
+          "end_ms": 1705
+        },
+        {
+          "lang": "en",
+          "text": "skin",
+          "start_sample": 27281,
+          "end_sample": 38354,
+          "start_ms": 1705,
+          "end_ms": 2397
+        },
+        {
+          "lang": "ja",
+          "text": "はとても綺麗で、みんなに羨ましがられている。",
+          "start_sample": 38354,
+          "end_sample": 117790,
+          "start_ms": 2397,
+          "end_ms": 7362
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女のskinはとても綺麗で、みんなに羨ましがられている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4066,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の",
+          "start_sample": 0,
+          "end_sample": 6890,
+          "start_ms": 0,
+          "end_ms": 431
+        },
+        {
+          "lang": "en",
+          "text": "skin",
+          "start_sample": 6890,
+          "end_sample": 12178,
+          "start_ms": 431,
+          "end_ms": 761
+        },
+        {
+          "lang": "ja",
+          "text": "はとても綺麗で、みんなに羨ましがられている。",
+          "start_sample": 12178,
+          "end_sample": 65060,
+          "start_ms": 761,
+          "end_ms": 4066
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 219,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

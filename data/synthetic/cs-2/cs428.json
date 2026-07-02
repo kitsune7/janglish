@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs428.flac",
+  "sentence": "My grandmother swears that keeping a sense of 感謝 every day is the real secret behind her remarkable 長寿.",
+  "sample_rate": 16000,
+  "duration_ms": 6543,
+  "reference_speaker": "en/speaker_049_4b799abf92c3.mp3",
+  "seed": 17283,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My grandmother swears that keeping a sense of",
+      "start_sample": 0,
+      "end_sample": 34238,
+      "start_ms": 0,
+      "end_ms": 2140
+    },
+    {
+      "lang": "ja",
+      "text": "感謝",
+      "start_sample": 34238,
+      "end_sample": 44098,
+      "start_ms": 2140,
+      "end_ms": 2756
+    },
+    {
+      "lang": "en",
+      "text": "every day is the real secret behind her remarkable",
+      "start_sample": 44098,
+      "end_sample": 98320,
+      "start_ms": 2756,
+      "end_ms": 6145
+    },
+    {
+      "lang": "ja",
+      "text": "長寿.",
+      "start_sample": 98320,
+      "end_sample": 104691,
+      "start_ms": 6145,
+      "end_ms": 6543
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My grandmother swears that keeping a sense of kansha every day is the real secret behind her remarkable chouju",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6788,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My grandmother swears that keeping a sense of",
+          "start_sample": 0,
+          "end_sample": 34438,
+          "start_ms": 0,
+          "end_ms": 2152
+        },
+        {
+          "lang": "ja",
+          "text": "感謝",
+          "start_sample": 34438,
+          "end_sample": 46933,
+          "start_ms": 2152,
+          "end_ms": 2933
+        },
+        {
+          "lang": "en",
+          "text": "every day is the real secret behind her remarkable",
+          "start_sample": 46933,
+          "end_sample": 101555,
+          "start_ms": 2933,
+          "end_ms": 6347
+        },
+        {
+          "lang": "ja",
+          "text": "長寿.",
+          "start_sample": 101555,
+          "end_sample": 108602,
+          "start_ms": 6347,
+          "end_ms": 6788
+        }
+      ]
+    },
+    "ja": {
+      "text": "My grandmother swears that keeping a sense of 感謝 every day is the real secret behind her remarkable 長寿.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7594,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My grandmother swears that keeping a sense of",
+          "start_sample": 0,
+          "end_sample": 45525,
+          "start_ms": 0,
+          "end_ms": 2845
+        },
+        {
+          "lang": "ja",
+          "text": "感謝",
+          "start_sample": 45525,
+          "end_sample": 55785,
+          "start_ms": 2845,
+          "end_ms": 3487
+        },
+        {
+          "lang": "en",
+          "text": "every day is the real secret behind her remarkable",
+          "start_sample": 55785,
+          "end_sample": 114937,
+          "start_ms": 3487,
+          "end_ms": 7184
+        },
+        {
+          "lang": "ja",
+          "text": "長寿.",
+          "start_sample": 114937,
+          "end_sample": 121508,
+          "start_ms": 7184,
+          "end_ms": 7594
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 328,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjj"
+}

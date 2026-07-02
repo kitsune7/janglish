@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs742.flac",
+  "sentence": "We sat by the window and shared a bottle of wine in total 静寂, feeling so 幸せ.",
+  "sample_rate": 16000,
+  "duration_ms": 5263,
+  "reference_speaker": "jp/speaker_055_b88f2897e0f4.mp3",
+  "seed": 17597,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We sat by the window and shared a bottle of wine in total",
+      "start_sample": 0,
+      "end_sample": 54892,
+      "start_ms": 0,
+      "end_ms": 3431
+    },
+    {
+      "lang": "ja",
+      "text": "静寂,",
+      "start_sample": 54892,
+      "end_sample": 64451,
+      "start_ms": 3431,
+      "end_ms": 4028
+    },
+    {
+      "lang": "en",
+      "text": "feeling so",
+      "start_sample": 64451,
+      "end_sample": 75101,
+      "start_ms": 4028,
+      "end_ms": 4694
+    },
+    {
+      "lang": "ja",
+      "text": "幸せ.",
+      "start_sample": 75101,
+      "end_sample": 84214,
+      "start_ms": 4694,
+      "end_ms": 5263
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We sat by the window and shared a bottle of wine in total seijaku feeling so shiawase",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5385,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We sat by the window and shared a bottle of wine in total",
+          "start_sample": 0,
+          "end_sample": 55092,
+          "start_ms": 0,
+          "end_ms": 3443
+        },
+        {
+          "lang": "ja",
+          "text": "静寂,",
+          "start_sample": 55092,
+          "end_sample": 63901,
+          "start_ms": 3443,
+          "end_ms": 3994
+        },
+        {
+          "lang": "en",
+          "text": "feeling so",
+          "start_sample": 63901,
+          "end_sample": 74951,
+          "start_ms": 3994,
+          "end_ms": 4684
+        },
+        {
+          "lang": "ja",
+          "text": "幸せ.",
+          "start_sample": 74951,
+          "end_sample": 86161,
+          "start_ms": 4684,
+          "end_ms": 5385
+        }
+      ]
+    },
+    "ja": {
+      "text": "We sat by the window and shared a bottle of wine in total 静寂, feeling so 幸せ.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5722,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We sat by the window and shared a bottle of wine in total",
+          "start_sample": 0,
+          "end_sample": 57665,
+          "start_ms": 0,
+          "end_ms": 3604
+        },
+        {
+          "lang": "ja",
+          "text": "静寂,",
+          "start_sample": 57665,
+          "end_sample": 67624,
+          "start_ms": 3604,
+          "end_ms": 4226
+        },
+        {
+          "lang": "en",
+          "text": "feeling so",
+          "start_sample": 67624,
+          "end_sample": 82241,
+          "start_ms": 4226,
+          "end_ms": 5140
+        },
+        {
+          "lang": "ja",
+          "text": "幸せ.",
+          "start_sample": 82241,
+          "end_sample": 91554,
+          "start_ms": 5140,
+          "end_ms": 5722
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 264,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

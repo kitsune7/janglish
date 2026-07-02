@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs165.flac",
+  "sentence": "The whole family gathered for the baby's お宮参り ceremony last weekend.",
+  "sample_rate": 16000,
+  "duration_ms": 4669,
+  "reference_speaker": "jp/speaker_060_dda9a032fd63.mp3",
+  "seed": 207,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole family gathered for the baby's",
+      "start_sample": 0,
+      "end_sample": 42227,
+      "start_ms": 0,
+      "end_ms": 2639
+    },
+    {
+      "lang": "ja",
+      "text": "お宮参り",
+      "start_sample": 42227,
+      "end_sample": 53854,
+      "start_ms": 2639,
+      "end_ms": 3366
+    },
+    {
+      "lang": "en",
+      "text": "ceremony last weekend.",
+      "start_sample": 53854,
+      "end_sample": 74703,
+      "start_ms": 3366,
+      "end_ms": 4669
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole family gathered for the baby's o miyamairi ceremony last weekend.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4721,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole family gathered for the baby's",
+          "start_sample": 0,
+          "end_sample": 42427,
+          "start_ms": 0,
+          "end_ms": 2652
+        },
+        {
+          "lang": "ja",
+          "text": "お宮参り",
+          "start_sample": 42427,
+          "end_sample": 54480,
+          "start_ms": 2652,
+          "end_ms": 3405
+        },
+        {
+          "lang": "en",
+          "text": "ceremony last weekend.",
+          "start_sample": 54480,
+          "end_sample": 75529,
+          "start_ms": 3405,
+          "end_ms": 4721
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole family gathered for the baby's お宮参り ceremony last weekend.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4911,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole family gathered for the baby's",
+          "start_sample": 0,
+          "end_sample": 45224,
+          "start_ms": 0,
+          "end_ms": 2826
+        },
+        {
+          "lang": "ja",
+          "text": "お宮参り",
+          "start_sample": 45224,
+          "end_sample": 57251,
+          "start_ms": 2826,
+          "end_ms": 3578
+        },
+        {
+          "lang": "en",
+          "text": "ceremony last weekend.",
+          "start_sample": 57251,
+          "end_sample": 78579,
+          "start_ms": 3578,
+          "end_ms": 4911
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 234,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

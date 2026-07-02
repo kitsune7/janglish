@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8615.flac",
+  "sentence": "He spent hours adjusting the 色温度 in post-production.",
+  "sample_rate": 16000,
+  "duration_ms": 3602,
+  "reference_speaker": "en/speaker_072_33acedb4c9a7.mp3",
+  "seed": 8657,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He spent hours adjusting the",
+      "start_sample": 0,
+      "end_sample": 31428,
+      "start_ms": 0,
+      "end_ms": 1964
+    },
+    {
+      "lang": "ja",
+      "text": "色温度",
+      "start_sample": 31428,
+      "end_sample": 41616,
+      "start_ms": 1964,
+      "end_ms": 2601
+    },
+    {
+      "lang": "en",
+      "text": "in post-production.",
+      "start_sample": 41616,
+      "end_sample": 57628,
+      "start_ms": 2601,
+      "end_ms": 3602
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He spent hours adjusting the iro ondo in post-production.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3712,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He spent hours adjusting the",
+          "start_sample": 0,
+          "end_sample": 31628,
+          "start_ms": 0,
+          "end_ms": 1977
+        },
+        {
+          "lang": "ja",
+          "text": "色温度",
+          "start_sample": 31628,
+          "end_sample": 43187,
+          "start_ms": 1977,
+          "end_ms": 2699
+        },
+        {
+          "lang": "en",
+          "text": "in post-production.",
+          "start_sample": 43187,
+          "end_sample": 59399,
+          "start_ms": 2699,
+          "end_ms": 3712
+        }
+      ]
+    },
+    "ja": {
+      "text": "He spent hours adjusting the 色温度 in post-production.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4873,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He spent hours adjusting the",
+          "start_sample": 0,
+          "end_sample": 44277,
+          "start_ms": 0,
+          "end_ms": 2767
+        },
+        {
+          "lang": "ja",
+          "text": "色温度",
+          "start_sample": 44277,
+          "end_sample": 54865,
+          "start_ms": 2767,
+          "end_ms": 3429
+        },
+        {
+          "lang": "en",
+          "text": "in post-production.",
+          "start_sample": 54865,
+          "end_sample": 77964,
+          "start_ms": 3429,
+          "end_ms": 4873
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 181,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

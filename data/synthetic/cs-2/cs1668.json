@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1668.flac",
+  "sentence": "She arranged a small 棚 by the front door to hold keys and mail, and the hallway immediately felt more 整然.",
+  "sample_rate": 16000,
+  "duration_ms": 6622,
+  "reference_speaker": "jp/speaker_090_d408fe95e0f2.mp3",
+  "seed": 18523,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She arranged a small",
+      "start_sample": 0,
+      "end_sample": 16936,
+      "start_ms": 0,
+      "end_ms": 1058
+    },
+    {
+      "lang": "ja",
+      "text": "棚",
+      "start_sample": 16936,
+      "end_sample": 21665,
+      "start_ms": 1058,
+      "end_ms": 1354
+    },
+    {
+      "lang": "en",
+      "text": "by the front door to hold keys and mail, and the hallway immediately felt more",
+      "start_sample": 21665,
+      "end_sample": 96699,
+      "start_ms": 1354,
+      "end_ms": 6044
+    },
+    {
+      "lang": "ja",
+      "text": "整然.",
+      "start_sample": 96699,
+      "end_sample": 105954,
+      "start_ms": 6044,
+      "end_ms": 6622
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She arranged a small tana by the front door to hold keys and mail, and the hallway immediately felt more seizen",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6666,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She arranged a small",
+          "start_sample": 0,
+          "end_sample": 17136,
+          "start_ms": 0,
+          "end_ms": 1071
+        },
+        {
+          "lang": "ja",
+          "text": "棚",
+          "start_sample": 17136,
+          "end_sample": 23702,
+          "start_ms": 1071,
+          "end_ms": 1481
+        },
+        {
+          "lang": "en",
+          "text": "by the front door to hold keys and mail, and the hallway immediately felt more",
+          "start_sample": 23702,
+          "end_sample": 99136,
+          "start_ms": 1481,
+          "end_ms": 6196
+        },
+        {
+          "lang": "ja",
+          "text": "整然.",
+          "start_sample": 99136,
+          "end_sample": 106663,
+          "start_ms": 6196,
+          "end_ms": 6666
+        }
+      ]
+    },
+    "ja": {
+      "text": "She arranged a small 棚 by the front door to hold keys and mail, and the hallway immediately felt more 整然.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7793,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She arranged a small",
+          "start_sample": 0,
+          "end_sample": 22115,
+          "start_ms": 0,
+          "end_ms": 1382
+        },
+        {
+          "lang": "ja",
+          "text": "棚",
+          "start_sample": 22115,
+          "end_sample": 27244,
+          "start_ms": 1382,
+          "end_ms": 1703
+        },
+        {
+          "lang": "en",
+          "text": "by the front door to hold keys and mail, and the hallway immediately felt more",
+          "start_sample": 27244,
+          "end_sample": 115234,
+          "start_ms": 1703,
+          "end_ms": 7202
+        },
+        {
+          "lang": "ja",
+          "text": "整然.",
+          "start_sample": 115234,
+          "end_sample": 124689,
+          "start_ms": 7202,
+          "end_ms": 7793
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 332,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

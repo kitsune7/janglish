@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1026.flac",
+  "sentence": "このお店のsignatureドリンクは何ですか？",
+  "sample_rate": 16000,
+  "duration_ms": 2181,
+  "reference_speaker": "jp/speaker_035_dd783030d2b8.mp3",
+  "seed": 1068,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このお店の",
+      "start_sample": 0,
+      "end_sample": 10095,
+      "start_ms": 0,
+      "end_ms": 631
+    },
+    {
+      "lang": "en",
+      "text": "signature",
+      "start_sample": 10095,
+      "end_sample": 18535,
+      "start_ms": 631,
+      "end_ms": 1158
+    },
+    {
+      "lang": "ja",
+      "text": "ドリンクは何ですか？",
+      "start_sample": 18535,
+      "end_sample": 34900,
+      "start_ms": 1158,
+      "end_ms": 2181
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono o mise no signature dorinku ha nani desu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4600,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このお店の",
+          "start_sample": 0,
+          "end_sample": 33266,
+          "start_ms": 0,
+          "end_ms": 2079
+        },
+        {
+          "lang": "en",
+          "text": "signature",
+          "start_sample": 33266,
+          "end_sample": 42106,
+          "start_ms": 2079,
+          "end_ms": 2632
+        },
+        {
+          "lang": "ja",
+          "text": "ドリンクは何ですか？",
+          "start_sample": 42106,
+          "end_sample": 73601,
+          "start_ms": 2632,
+          "end_ms": 4600
+        }
+      ]
+    },
+    "ja": {
+      "text": "このお店のsignatureドリンクは何ですか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2232,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このお店の",
+          "start_sample": 0,
+          "end_sample": 10295,
+          "start_ms": 0,
+          "end_ms": 643
+        },
+        {
+          "lang": "en",
+          "text": "signature",
+          "start_sample": 10295,
+          "end_sample": 19143,
+          "start_ms": 643,
+          "end_ms": 1196
+        },
+        {
+          "lang": "ja",
+          "text": "ドリンクは何ですか？",
+          "start_sample": 19143,
+          "end_sample": 35708,
+          "start_ms": 1196,
+          "end_ms": 2232
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 110,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

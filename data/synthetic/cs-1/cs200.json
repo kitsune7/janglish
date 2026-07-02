@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs200.flac",
+  "sentence": "このtweezerで眉毛を整えるのはとても難しいです。",
+  "sample_rate": 16000,
+  "duration_ms": 3801,
+  "reference_speaker": "jp/speaker_012_14fe5dfafe10.mp3",
+  "seed": 242,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3170,
+      "start_ms": 0,
+      "end_ms": 198
+    },
+    {
+      "lang": "en",
+      "text": "tweezer",
+      "start_sample": 3170,
+      "end_sample": 9179,
+      "start_ms": 198,
+      "end_ms": 574
+    },
+    {
+      "lang": "ja",
+      "text": "で眉毛を整えるのはとても難しいです。",
+      "start_sample": 9179,
+      "end_sample": 60821,
+      "start_ms": 574,
+      "end_ms": 3801
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono tweezer de mayuge wo totonoeru no ha totemo muzukashii desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6569,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4485,
+          "start_ms": 0,
+          "end_ms": 280
+        },
+        {
+          "lang": "en",
+          "text": "tweezer",
+          "start_sample": 4485,
+          "end_sample": 10894,
+          "start_ms": 280,
+          "end_ms": 681
+        },
+        {
+          "lang": "ja",
+          "text": "で眉毛を整えるのはとても難しいです。",
+          "start_sample": 10894,
+          "end_sample": 105101,
+          "start_ms": 681,
+          "end_ms": 6569
+        }
+      ]
+    },
+    "ja": {
+      "text": "このtweezerで眉毛を整えるのはとても難しいです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3992,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3370,
+          "start_ms": 0,
+          "end_ms": 211
+        },
+        {
+          "lang": "en",
+          "text": "tweezer",
+          "start_sample": 3370,
+          "end_sample": 12037,
+          "start_ms": 211,
+          "end_ms": 752
+        },
+        {
+          "lang": "ja",
+          "text": "で眉毛を整えるのはとても難しいです。",
+          "start_sample": 12037,
+          "end_sample": 63879,
+          "start_ms": 752,
+          "end_ms": 3992
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 191,
+  "frame_labels": "jjjjjjjjjjeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

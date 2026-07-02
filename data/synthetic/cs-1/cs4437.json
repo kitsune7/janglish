@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4437.flac",
+  "sentence": "The hotel sits right on the 海岸, and you can hear the waves from your bed.",
+  "sample_rate": 16000,
+  "duration_ms": 4239,
+  "reference_speaker": "jp/speaker_034_3e5442a60675.mp3",
+  "seed": 4479,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The hotel sits right on the",
+      "start_sample": 0,
+      "end_sample": 24012,
+      "start_ms": 0,
+      "end_ms": 1501
+    },
+    {
+      "lang": "ja",
+      "text": "海岸,",
+      "start_sample": 24012,
+      "end_sample": 36923,
+      "start_ms": 1501,
+      "end_ms": 2308
+    },
+    {
+      "lang": "en",
+      "text": "and you can hear the waves from your bed.",
+      "start_sample": 36923,
+      "end_sample": 67829,
+      "start_ms": 2308,
+      "end_ms": 4239
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hotel sits right on the kaigan and you can hear the waves from your bed.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4169,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hotel sits right on the",
+          "start_sample": 0,
+          "end_sample": 24212,
+          "start_ms": 0,
+          "end_ms": 1513
+        },
+        {
+          "lang": "ja",
+          "text": "海岸,",
+          "start_sample": 24212,
+          "end_sample": 35596,
+          "start_ms": 1513,
+          "end_ms": 2225
+        },
+        {
+          "lang": "en",
+          "text": "and you can hear the waves from your bed.",
+          "start_sample": 35596,
+          "end_sample": 66702,
+          "start_ms": 2225,
+          "end_ms": 4169
+        }
+      ]
+    },
+    "ja": {
+      "text": "The hotel sits right on the 海岸, and you can hear the waves from your bed.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5833,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hotel sits right on the",
+          "start_sample": 0,
+          "end_sample": 34157,
+          "start_ms": 0,
+          "end_ms": 2135
+        },
+        {
+          "lang": "ja",
+          "text": "海岸,",
+          "start_sample": 34157,
+          "end_sample": 47468,
+          "start_ms": 2135,
+          "end_ms": 2967
+        },
+        {
+          "lang": "en",
+          "text": "and you can hear the waves from your bed.",
+          "start_sample": 47468,
+          "end_sample": 93334,
+          "start_ms": 2967,
+          "end_ms": 5833
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 212,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

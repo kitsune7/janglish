@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs3414.flac",
+  "sentence": "vintageの食器を集めているから、骨董市によく行きます。",
+  "sample_rate": 16000,
+  "duration_ms": 3479,
+  "reference_speaker": "jp/speaker_024_53a01817659b.mp3",
+  "seed": 3456,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "vintage",
+      "start_sample": 0,
+      "end_sample": 11337,
+      "start_ms": 0,
+      "end_ms": 709
+    },
+    {
+      "lang": "ja",
+      "text": "の食器を集めているから、骨董市によく行きます。",
+      "start_sample": 11337,
+      "end_sample": 55669,
+      "start_ms": 709,
+      "end_ms": 3479
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "vintage no shokki wo atsume te iru kara kottou shi ni yoku iki masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6850,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "vintage",
+          "start_sample": 0,
+          "end_sample": 11537,
+          "start_ms": 0,
+          "end_ms": 721
+        },
+        {
+          "lang": "ja",
+          "text": "の食器を集めているから、骨董市によく行きます。",
+          "start_sample": 11537,
+          "end_sample": 109604,
+          "start_ms": 721,
+          "end_ms": 6850
+        }
+      ]
+    },
+    "ja": {
+      "text": "vintageの食器を集めているから、骨董市によく行きます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3235,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "vintage",
+          "start_sample": 0,
+          "end_sample": 7234,
+          "start_ms": 0,
+          "end_ms": 452
+        },
+        {
+          "lang": "ja",
+          "text": "の食器を集めているから、骨董市によく行きます。",
+          "start_sample": 7234,
+          "end_sample": 51766,
+          "start_ms": 452,
+          "end_ms": 3235
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 174,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

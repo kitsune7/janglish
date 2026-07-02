@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6931.flac",
+  "sentence": "The bar was so 混雑 that we couldn't even find a spot to stand.",
+  "sample_rate": 16000,
+  "duration_ms": 4374,
+  "reference_speaker": "en/speaker_094_291d9dee87c4.mp3",
+  "seed": 6973,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The bar was so",
+      "start_sample": 0,
+      "end_sample": 10712,
+      "start_ms": 0,
+      "end_ms": 670
+    },
+    {
+      "lang": "ja",
+      "text": "混雑",
+      "start_sample": 10712,
+      "end_sample": 27178,
+      "start_ms": 670,
+      "end_ms": 1699
+    },
+    {
+      "lang": "en",
+      "text": "that we couldn't even find a spot to stand.",
+      "start_sample": 27178,
+      "end_sample": 69985,
+      "start_ms": 1699,
+      "end_ms": 4374
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The bar was so konzatsu that we couldn't even find a spot to stand.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4754,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bar was so",
+          "start_sample": 0,
+          "end_sample": 10912,
+          "start_ms": 0,
+          "end_ms": 682
+        },
+        {
+          "lang": "ja",
+          "text": "混雑",
+          "start_sample": 10912,
+          "end_sample": 33059,
+          "start_ms": 682,
+          "end_ms": 2066
+        },
+        {
+          "lang": "en",
+          "text": "that we couldn't even find a spot to stand.",
+          "start_sample": 33059,
+          "end_sample": 76066,
+          "start_ms": 2066,
+          "end_ms": 4754
+        }
+      ]
+    },
+    "ja": {
+      "text": "The bar was so 混雑 that we couldn't even find a spot to stand.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5722,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bar was so",
+          "start_sample": 0,
+          "end_sample": 14616,
+          "start_ms": 0,
+          "end_ms": 914
+        },
+        {
+          "lang": "ja",
+          "text": "混雑",
+          "start_sample": 14616,
+          "end_sample": 31482,
+          "start_ms": 914,
+          "end_ms": 1968
+        },
+        {
+          "lang": "en",
+          "text": "that we couldn't even find a spot to stand.",
+          "start_sample": 31482,
+          "end_sample": 91554,
+          "start_ms": 1968,
+          "end_ms": 5722
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 219,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

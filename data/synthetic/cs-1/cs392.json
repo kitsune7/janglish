@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs392.flac",
+  "sentence": "The 悪役 in that show is far more interesting than the hero.",
+  "sample_rate": 16000,
+  "duration_ms": 3614,
+  "reference_speaker": "jp/speaker_019_45c9ebd0ae18.mp3",
+  "seed": 434,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2529,
+      "start_ms": 0,
+      "end_ms": 158
+    },
+    {
+      "lang": "ja",
+      "text": "悪役",
+      "start_sample": 2529,
+      "end_sample": 14996,
+      "start_ms": 158,
+      "end_ms": 937
+    },
+    {
+      "lang": "en",
+      "text": "in that show is far more interesting than the hero.",
+      "start_sample": 14996,
+      "end_sample": 57824,
+      "start_ms": 937,
+      "end_ms": 3614
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The akuyaku in that show is far more interesting than the hero.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3592,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2729,
+          "start_ms": 0,
+          "end_ms": 171
+        },
+        {
+          "lang": "ja",
+          "text": "悪役",
+          "start_sample": 2729,
+          "end_sample": 14450,
+          "start_ms": 171,
+          "end_ms": 903
+        },
+        {
+          "lang": "en",
+          "text": "in that show is far more interesting than the hero.",
+          "start_sample": 14450,
+          "end_sample": 57478,
+          "start_ms": 903,
+          "end_ms": 3592
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 悪役 in that show is far more interesting than the hero.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4262,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5307,
+          "start_ms": 0,
+          "end_ms": 332
+        },
+        {
+          "lang": "ja",
+          "text": "悪役",
+          "start_sample": 5307,
+          "end_sample": 18174,
+          "start_ms": 332,
+          "end_ms": 1136
+        },
+        {
+          "lang": "en",
+          "text": "in that show is far more interesting than the hero.",
+          "start_sample": 18174,
+          "end_sample": 68189,
+          "start_ms": 1136,
+          "end_ms": 4262
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 181,
+  "frame_labels": "eeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

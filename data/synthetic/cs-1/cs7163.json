@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7163.flac",
+  "sentence": "彼はrecklessな運転のせいで免許を取り消されてしまった。",
+  "sample_rate": 16000,
+  "duration_ms": 3721,
+  "reference_speaker": "en/speaker_072_33acedb4c9a7.mp3",
+  "seed": 7205,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼は",
+      "start_sample": 0,
+      "end_sample": 5415,
+      "start_ms": 0,
+      "end_ms": 338
+    },
+    {
+      "lang": "en",
+      "text": "reckless",
+      "start_sample": 5415,
+      "end_sample": 14168,
+      "start_ms": 338,
+      "end_ms": 886
+    },
+    {
+      "lang": "ja",
+      "text": "な運転のせいで免許を取り消されてしまった。",
+      "start_sample": 14168,
+      "end_sample": 59532,
+      "start_ms": 886,
+      "end_ms": 3721
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha reckless na unten no sei de menkyo wo torikesa re te shimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5941,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 5459,
+          "start_ms": 0,
+          "end_ms": 341
+        },
+        {
+          "lang": "en",
+          "text": "reckless",
+          "start_sample": 5459,
+          "end_sample": 14612,
+          "start_ms": 341,
+          "end_ms": 913
+        },
+        {
+          "lang": "ja",
+          "text": "な運転のせいで免許を取り消されてしまった。",
+          "start_sample": 14612,
+          "end_sample": 95061,
+          "start_ms": 913,
+          "end_ms": 5941
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はrecklessな運転のせいで免許を取り消されてしまった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3710,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 5615,
+          "start_ms": 0,
+          "end_ms": 351
+        },
+        {
+          "lang": "en",
+          "text": "reckless",
+          "start_sample": 5615,
+          "end_sample": 13798,
+          "start_ms": 351,
+          "end_ms": 862
+        },
+        {
+          "lang": "ja",
+          "text": "な運転のせいで免許を取り消されてしまった。",
+          "start_sample": 13798,
+          "end_sample": 59362,
+          "start_ms": 862,
+          "end_ms": 3710
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 187,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

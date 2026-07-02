@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7065.flac",
+  "sentence": "The 副作用 from the new prescription hit her harder than expected.",
+  "sample_rate": 16000,
+  "duration_ms": 3757,
+  "reference_speaker": "en/speaker_011_d1413283d794.mp3",
+  "seed": 7107,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1241,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "副作用",
+      "start_sample": 1241,
+      "end_sample": 12089,
+      "start_ms": 78,
+      "end_ms": 756
+    },
+    {
+      "lang": "en",
+      "text": "from the new prescription hit her harder than expected.",
+      "start_sample": 12089,
+      "end_sample": 60117,
+      "start_ms": 756,
+      "end_ms": 3757
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The fuku sayou from the new prescription hit her harder than expected.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4346,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1441,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "副作用",
+          "start_sample": 1441,
+          "end_sample": 21310,
+          "start_ms": 90,
+          "end_ms": 1332
+        },
+        {
+          "lang": "en",
+          "text": "from the new prescription hit her harder than expected.",
+          "start_sample": 21310,
+          "end_sample": 69538,
+          "start_ms": 1332,
+          "end_ms": 4346
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 副作用 from the new prescription hit her harder than expected.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5242,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5619,
+          "start_ms": 0,
+          "end_ms": 351
+        },
+        {
+          "lang": "ja",
+          "text": "副作用",
+          "start_sample": 5619,
+          "end_sample": 16867,
+          "start_ms": 351,
+          "end_ms": 1054
+        },
+        {
+          "lang": "en",
+          "text": "from the new prescription hit her harder than expected.",
+          "start_sample": 16867,
+          "end_sample": 83867,
+          "start_ms": 1054,
+          "end_ms": 5242
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

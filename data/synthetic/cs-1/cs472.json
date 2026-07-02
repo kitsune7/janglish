@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs472.flac",
+  "sentence": "ホテルのshuttleが空港まで無料で送ってくれるそうです。",
+  "sample_rate": 16000,
+  "duration_ms": 4697,
+  "reference_speaker": "jp/speaker_018_b5ccf3bf7c65.mp3",
+  "seed": 514,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "ホテルの",
+      "start_sample": 0,
+      "end_sample": 6074,
+      "start_ms": 0,
+      "end_ms": 380
+    },
+    {
+      "lang": "en",
+      "text": "shuttle",
+      "start_sample": 6074,
+      "end_sample": 36748,
+      "start_ms": 380,
+      "end_ms": 2297
+    },
+    {
+      "lang": "ja",
+      "text": "が空港まで無料で送ってくれるそうです。",
+      "start_sample": 36748,
+      "end_sample": 75159,
+      "start_ms": 2297,
+      "end_ms": 4697
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "hoteru no shuttle ga kuukou made muryou de okutsu te kureru sou desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7048,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ホテルの",
+          "start_sample": 0,
+          "end_sample": 17298,
+          "start_ms": 0,
+          "end_ms": 1081
+        },
+        {
+          "lang": "en",
+          "text": "shuttle",
+          "start_sample": 17298,
+          "end_sample": 48372,
+          "start_ms": 1081,
+          "end_ms": 3023
+        },
+        {
+          "lang": "ja",
+          "text": "が空港まで無料で送ってくれるそうです。",
+          "start_sample": 48372,
+          "end_sample": 112762,
+          "start_ms": 3023,
+          "end_ms": 7048
+        }
+      ]
+    },
+    "ja": {
+      "text": "ホテルのshuttleが空港まで無料で送ってくれるそうです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3177,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ホテルの",
+          "start_sample": 0,
+          "end_sample": 6274,
+          "start_ms": 0,
+          "end_ms": 392
+        },
+        {
+          "lang": "en",
+          "text": "shuttle",
+          "start_sample": 6274,
+          "end_sample": 12228,
+          "start_ms": 392,
+          "end_ms": 764
+        },
+        {
+          "lang": "ja",
+          "text": "が空港まで無料で送ってくれるそうです。",
+          "start_sample": 12228,
+          "end_sample": 50839,
+          "start_ms": 764,
+          "end_ms": 3177
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 235,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

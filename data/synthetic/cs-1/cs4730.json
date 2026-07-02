@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs4730.flac",
+  "sentence": "productiveな一日を送るために、朝のルーティンを大切にしている。",
+  "sample_rate": 16000,
+  "duration_ms": 4274,
+  "reference_speaker": "en/speaker_025_5a5c462b583a.mp3",
+  "seed": 4772,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "productive",
+      "start_sample": 0,
+      "end_sample": 9886,
+      "start_ms": 0,
+      "end_ms": 618
+    },
+    {
+      "lang": "ja",
+      "text": "な一日を送るために、朝のルーティンを大切にしている。",
+      "start_sample": 9886,
+      "end_sample": 68381,
+      "start_ms": 618,
+      "end_ms": 4274
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "productive na tsuitachi wo okuru tame ni asa no ruutein wo taisetsu ni shi te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8125,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "productive",
+          "start_sample": 0,
+          "end_sample": 10086,
+          "start_ms": 0,
+          "end_ms": 630
+        },
+        {
+          "lang": "ja",
+          "text": "な一日を送るために、朝のルーティンを大切にしている。",
+          "start_sample": 10086,
+          "end_sample": 130001,
+          "start_ms": 630,
+          "end_ms": 8125
+        }
+      ]
+    },
+    "ja": {
+      "text": "productiveな一日を送るために、朝のルーティンを大切にしている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4330,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "productive",
+          "start_sample": 0,
+          "end_sample": 10584,
+          "start_ms": 0,
+          "end_ms": 662
+        },
+        {
+          "lang": "ja",
+          "text": "な一日を送るために、朝のルーティンを大切にしている。",
+          "start_sample": 10584,
+          "end_sample": 69279,
+          "start_ms": 662,
+          "end_ms": 4330
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 214,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

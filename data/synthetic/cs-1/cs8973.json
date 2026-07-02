@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8973.flac",
+  "sentence": "The 段ボール box was completely crushed when it arrived at my door.",
+  "sample_rate": 16000,
+  "duration_ms": 4860,
+  "reference_speaker": "en/speaker_018_b0dec8b93359.mp3",
+  "seed": 9015,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1406,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "段ボール",
+      "start_sample": 1406,
+      "end_sample": 15293,
+      "start_ms": 88,
+      "end_ms": 956
+    },
+    {
+      "lang": "en",
+      "text": "box was completely crushed when it arrived at my door.",
+      "start_sample": 15293,
+      "end_sample": 77766,
+      "start_ms": 956,
+      "end_ms": 4860
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The dan booru box was completely crushed when it arrived at my door.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4700,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1606,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "段ボール",
+          "start_sample": 1606,
+          "end_sample": 12535,
+          "start_ms": 100,
+          "end_ms": 783
+        },
+        {
+          "lang": "en",
+          "text": "box was completely crushed when it arrived at my door.",
+          "start_sample": 12535,
+          "end_sample": 75208,
+          "start_ms": 783,
+          "end_ms": 4700
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 段ボール box was completely crushed when it arrived at my door.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5137,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4815,
+          "start_ms": 0,
+          "end_ms": 301
+        },
+        {
+          "lang": "ja",
+          "text": "段ボール",
+          "start_sample": 4815,
+          "end_sample": 19102,
+          "start_ms": 301,
+          "end_ms": 1194
+        },
+        {
+          "lang": "en",
+          "text": "box was completely crushed when it arrived at my door.",
+          "start_sample": 19102,
+          "end_sample": 82188,
+          "start_ms": 1194,
+          "end_ms": 5137
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 244,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

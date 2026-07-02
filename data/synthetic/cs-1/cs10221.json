@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10221.flac",
+  "sentence": "She kept the windows open because the 空気 inside felt stale.",
+  "sample_rate": 16000,
+  "duration_ms": 3107,
+  "reference_speaker": "jp/speaker_035_dd783030d2b8.mp3",
+  "seed": 10263,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She kept the windows open because the",
+      "start_sample": 0,
+      "end_sample": 25722,
+      "start_ms": 0,
+      "end_ms": 1608
+    },
+    {
+      "lang": "ja",
+      "text": "空気",
+      "start_sample": 25722,
+      "end_sample": 31892,
+      "start_ms": 1608,
+      "end_ms": 1993
+    },
+    {
+      "lang": "en",
+      "text": "inside felt stale.",
+      "start_sample": 31892,
+      "end_sample": 49718,
+      "start_ms": 1993,
+      "end_ms": 3107
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She kept the windows open because the kuuki inside felt stale.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3059,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She kept the windows open because the",
+          "start_sample": 0,
+          "end_sample": 25922,
+          "start_ms": 0,
+          "end_ms": 1620
+        },
+        {
+          "lang": "ja",
+          "text": "空気",
+          "start_sample": 25922,
+          "end_sample": 30913,
+          "start_ms": 1620,
+          "end_ms": 1932
+        },
+        {
+          "lang": "en",
+          "text": "inside felt stale.",
+          "start_sample": 30913,
+          "end_sample": 48939,
+          "start_ms": 1932,
+          "end_ms": 3059
+        }
+      ]
+    },
+    "ja": {
+      "text": "She kept the windows open because the 空気 inside felt stale.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4166,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She kept the windows open because the",
+          "start_sample": 0,
+          "end_sample": 37177,
+          "start_ms": 0,
+          "end_ms": 2324
+        },
+        {
+          "lang": "ja",
+          "text": "空気",
+          "start_sample": 37177,
+          "end_sample": 43747,
+          "start_ms": 2324,
+          "end_ms": 2734
+        },
+        {
+          "lang": "en",
+          "text": "inside felt stale.",
+          "start_sample": 43747,
+          "end_sample": 66661,
+          "start_ms": 2734,
+          "end_ms": 4166
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 156,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8502.flac",
+  "sentence": "彼女は landscape 写真が専門です。",
+  "sample_rate": 16000,
+  "duration_ms": 3560,
+  "reference_speaker": "en/speaker_027_12abacd76d5f.mp3",
+  "seed": 8544,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は",
+      "start_sample": 0,
+      "end_sample": 14569,
+      "start_ms": 0,
+      "end_ms": 911
+    },
+    {
+      "lang": "en",
+      "text": "landscape",
+      "start_sample": 14569,
+      "end_sample": 30515,
+      "start_ms": 911,
+      "end_ms": 1907
+    },
+    {
+      "lang": "ja",
+      "text": "写真が専門です。",
+      "start_sample": 30515,
+      "end_sample": 56968,
+      "start_ms": 1907,
+      "end_ms": 3560
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha landscape shashin ga senmon desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5469,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 16506,
+          "start_ms": 0,
+          "end_ms": 1032
+        },
+        {
+          "lang": "en",
+          "text": "landscape",
+          "start_sample": 16506,
+          "end_sample": 32852,
+          "start_ms": 1032,
+          "end_ms": 2053
+        },
+        {
+          "lang": "ja",
+          "text": "写真が専門です。",
+          "start_sample": 32852,
+          "end_sample": 87500,
+          "start_ms": 2053,
+          "end_ms": 5469
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女は landscape 写真が専門です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3894,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 14769,
+          "start_ms": 0,
+          "end_ms": 923
+        },
+        {
+          "lang": "en",
+          "text": "landscape",
+          "start_sample": 14769,
+          "end_sample": 35644,
+          "start_ms": 923,
+          "end_ms": 2228
+        },
+        {
+          "lang": "ja",
+          "text": "写真が専門です。",
+          "start_sample": 35644,
+          "end_sample": 62297,
+          "start_ms": 2228,
+          "end_ms": 3894
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 179,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1997.flac",
+  "sentence": "The museum is hosting an exhibit of 戦時中 documentary photographs.",
+  "sample_rate": 16000,
+  "duration_ms": 6380,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 2039,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The museum is hosting an exhibit of",
+      "start_sample": 0,
+      "end_sample": 59236,
+      "start_ms": 0,
+      "end_ms": 3702
+    },
+    {
+      "lang": "ja",
+      "text": "戦時中",
+      "start_sample": 59236,
+      "end_sample": 69759,
+      "start_ms": 3702,
+      "end_ms": 4360
+    },
+    {
+      "lang": "en",
+      "text": "documentary photographs.",
+      "start_sample": 69759,
+      "end_sample": 102081,
+      "start_ms": 4360,
+      "end_ms": 6380
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The museum is hosting an exhibit of senji naka documentary photographs.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7009,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The museum is hosting an exhibit of",
+          "start_sample": 0,
+          "end_sample": 59436,
+          "start_ms": 0,
+          "end_ms": 3715
+        },
+        {
+          "lang": "ja",
+          "text": "戦時中",
+          "start_sample": 59436,
+          "end_sample": 79622,
+          "start_ms": 3715,
+          "end_ms": 4976
+        },
+        {
+          "lang": "en",
+          "text": "documentary photographs.",
+          "start_sample": 79622,
+          "end_sample": 112144,
+          "start_ms": 4976,
+          "end_ms": 7009
+        }
+      ]
+    },
+    "ja": {
+      "text": "The museum is hosting an exhibit of 戦時中 documentary photographs.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5180,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The museum is hosting an exhibit of",
+          "start_sample": 0,
+          "end_sample": 48666,
+          "start_ms": 0,
+          "end_ms": 3042
+        },
+        {
+          "lang": "ja",
+          "text": "戦時中",
+          "start_sample": 48666,
+          "end_sample": 59589,
+          "start_ms": 3042,
+          "end_ms": 3724
+        },
+        {
+          "lang": "en",
+          "text": "documentary photographs.",
+          "start_sample": 59589,
+          "end_sample": 82876,
+          "start_ms": 3724,
+          "end_ms": 5180
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 320,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

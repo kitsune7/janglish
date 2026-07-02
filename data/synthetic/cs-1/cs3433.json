@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3433.flac",
+  "sentence": "The seamstress added a 細かい embroidered detail along the hem.",
+  "sample_rate": 16000,
+  "duration_ms": 4596,
+  "reference_speaker": "en/speaker_065_22dd21ffb5a9.mp3",
+  "seed": 3475,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The seamstress added a",
+      "start_sample": 0,
+      "end_sample": 28072,
+      "start_ms": 0,
+      "end_ms": 1754
+    },
+    {
+      "lang": "ja",
+      "text": "細かい",
+      "start_sample": 28072,
+      "end_sample": 40647,
+      "start_ms": 1754,
+      "end_ms": 2540
+    },
+    {
+      "lang": "en",
+      "text": "embroidered detail along the hem.",
+      "start_sample": 40647,
+      "end_sample": 73536,
+      "start_ms": 2540,
+      "end_ms": 4596
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The seamstress added a komakai embroidered detail along the hem.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4699,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The seamstress added a",
+          "start_sample": 0,
+          "end_sample": 28272,
+          "start_ms": 0,
+          "end_ms": 1767
+        },
+        {
+          "lang": "ja",
+          "text": "細かい",
+          "start_sample": 28272,
+          "end_sample": 42088,
+          "start_ms": 1767,
+          "end_ms": 2630
+        },
+        {
+          "lang": "en",
+          "text": "embroidered detail along the hem.",
+          "start_sample": 42088,
+          "end_sample": 75177,
+          "start_ms": 2630,
+          "end_ms": 4699
+        }
+      ]
+    },
+    "ja": {
+      "text": "The seamstress added a 細かい embroidered detail along the hem.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5486,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The seamstress added a",
+          "start_sample": 0,
+          "end_sample": 34600,
+          "start_ms": 0,
+          "end_ms": 2162
+        },
+        {
+          "lang": "ja",
+          "text": "細かい",
+          "start_sample": 34600,
+          "end_sample": 47575,
+          "start_ms": 2162,
+          "end_ms": 2973
+        },
+        {
+          "lang": "en",
+          "text": "embroidered detail along the hem.",
+          "start_sample": 47575,
+          "end_sample": 87781,
+          "start_ms": 2973,
+          "end_ms": 5486
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 230,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

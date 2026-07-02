@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3248.flac",
+  "sentence": "Could you prepare a quick 概要 of the project for the stakeholders?",
+  "sample_rate": 16000,
+  "duration_ms": 3905,
+  "reference_speaker": "jp/speaker_053_8435a3c28f36.mp3",
+  "seed": 3290,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Could you prepare a quick",
+      "start_sample": 0,
+      "end_sample": 18432,
+      "start_ms": 0,
+      "end_ms": 1152
+    },
+    {
+      "lang": "ja",
+      "text": "概要",
+      "start_sample": 18432,
+      "end_sample": 30394,
+      "start_ms": 1152,
+      "end_ms": 1900
+    },
+    {
+      "lang": "en",
+      "text": "of the project for the stakeholders?",
+      "start_sample": 30394,
+      "end_sample": 62477,
+      "start_ms": 1900,
+      "end_ms": 3905
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Could you prepare a quick gaiyou of the project for the stakeholders?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3674,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you prepare a quick",
+          "start_sample": 0,
+          "end_sample": 18632,
+          "start_ms": 0,
+          "end_ms": 1164
+        },
+        {
+          "lang": "ja",
+          "text": "概要",
+          "start_sample": 18632,
+          "end_sample": 26503,
+          "start_ms": 1164,
+          "end_ms": 1656
+        },
+        {
+          "lang": "en",
+          "text": "of the project for the stakeholders?",
+          "start_sample": 26503,
+          "end_sample": 58786,
+          "start_ms": 1656,
+          "end_ms": 3674
+        }
+      ]
+    },
+    "ja": {
+      "text": "Could you prepare a quick 概要 of the project for the stakeholders?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4656,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you prepare a quick",
+          "start_sample": 0,
+          "end_sample": 21030,
+          "start_ms": 0,
+          "end_ms": 1314
+        },
+        {
+          "lang": "ja",
+          "text": "概要",
+          "start_sample": 21030,
+          "end_sample": 33392,
+          "start_ms": 1314,
+          "end_ms": 2087
+        },
+        {
+          "lang": "en",
+          "text": "of the project for the stakeholders?",
+          "start_sample": 33392,
+          "end_sample": 74488,
+          "start_ms": 2087,
+          "end_ms": 4656
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

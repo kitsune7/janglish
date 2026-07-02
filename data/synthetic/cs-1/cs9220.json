@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9220.flac",
+  "sentence": "キッチンのcounterをきれいに拭いておいてください。",
+  "sample_rate": 16000,
+  "duration_ms": 3034,
+  "reference_speaker": "en/speaker_030_bdb9e7b61df6.mp3",
+  "seed": 9262,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "キッチンの",
+      "start_sample": 0,
+      "end_sample": 8156,
+      "start_ms": 0,
+      "end_ms": 510
+    },
+    {
+      "lang": "en",
+      "text": "counter",
+      "start_sample": 8156,
+      "end_sample": 20458,
+      "start_ms": 510,
+      "end_ms": 1279
+    },
+    {
+      "lang": "ja",
+      "text": "をきれいに拭いておいてください。",
+      "start_sample": 20458,
+      "end_sample": 48539,
+      "start_ms": 1279,
+      "end_ms": 3034
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kitchin no counter wo kirei ni nugui te oi te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4502,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "キッチンの",
+          "start_sample": 0,
+          "end_sample": 8199,
+          "start_ms": 0,
+          "end_ms": 512
+        },
+        {
+          "lang": "en",
+          "text": "counter",
+          "start_sample": 8199,
+          "end_sample": 20901,
+          "start_ms": 512,
+          "end_ms": 1306
+        },
+        {
+          "lang": "ja",
+          "text": "をきれいに拭いておいてください。",
+          "start_sample": 20901,
+          "end_sample": 72024,
+          "start_ms": 1306,
+          "end_ms": 4502
+        }
+      ]
+    },
+    "ja": {
+      "text": "キッチンのcounterをきれいに拭いておいてください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2812,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "キッチンの",
+          "start_sample": 0,
+          "end_sample": 8356,
+          "start_ms": 0,
+          "end_ms": 522
+        },
+        {
+          "lang": "en",
+          "text": "counter",
+          "start_sample": 8356,
+          "end_sample": 16713,
+          "start_ms": 522,
+          "end_ms": 1045
+        },
+        {
+          "lang": "ja",
+          "text": "をきれいに拭いておいてください。",
+          "start_sample": 16713,
+          "end_sample": 44994,
+          "start_ms": 1045,
+          "end_ms": 2812
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 152,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8464.flac",
+  "sentence": "給料のnegotiationはとても緊張するものですね。",
+  "sample_rate": 16000,
+  "duration_ms": 4158,
+  "reference_speaker": "jp/speaker_075_35b3b5e9beb2.mp3",
+  "seed": 8506,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "給料の",
+      "start_sample": 0,
+      "end_sample": 10381,
+      "start_ms": 0,
+      "end_ms": 649
+    },
+    {
+      "lang": "en",
+      "text": "negotiation",
+      "start_sample": 10381,
+      "end_sample": 32105,
+      "start_ms": 649,
+      "end_ms": 2007
+    },
+    {
+      "lang": "ja",
+      "text": "はとても緊張するものですね。",
+      "start_sample": 32105,
+      "end_sample": 66536,
+      "start_ms": 2007,
+      "end_ms": 4158
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyuuryou no negotiation ha totemo kinchou suru mono desu ne",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6392,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "給料の",
+          "start_sample": 0,
+          "end_sample": 15550,
+          "start_ms": 0,
+          "end_ms": 972
+        },
+        {
+          "lang": "en",
+          "text": "negotiation",
+          "start_sample": 15550,
+          "end_sample": 37674,
+          "start_ms": 972,
+          "end_ms": 2355
+        },
+        {
+          "lang": "ja",
+          "text": "はとても緊張するものですね。",
+          "start_sample": 37674,
+          "end_sample": 102279,
+          "start_ms": 2355,
+          "end_ms": 6392
+        }
+      ]
+    },
+    "ja": {
+      "text": "給料のnegotiationはとても緊張するものですね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3668,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "給料の",
+          "start_sample": 0,
+          "end_sample": 10581,
+          "start_ms": 0,
+          "end_ms": 661
+        },
+        {
+          "lang": "en",
+          "text": "negotiation",
+          "start_sample": 10581,
+          "end_sample": 24050,
+          "start_ms": 661,
+          "end_ms": 1503
+        },
+        {
+          "lang": "ja",
+          "text": "はとても緊張するものですね。",
+          "start_sample": 24050,
+          "end_sample": 58681,
+          "start_ms": 1503,
+          "end_ms": 3668
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9533.flac",
+  "sentence": "The 暖房 in our cabin wasn't working, so we asked for a portable heater.",
+  "sample_rate": 16000,
+  "duration_ms": 5489,
+  "reference_speaker": "jp/speaker_047_6ac706d7456d.mp3",
+  "seed": 9575,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 7186,
+      "start_ms": 0,
+      "end_ms": 449
+    },
+    {
+      "lang": "ja",
+      "text": "暖房",
+      "start_sample": 7186,
+      "end_sample": 19782,
+      "start_ms": 449,
+      "end_ms": 1236
+    },
+    {
+      "lang": "en",
+      "text": "in our cabin wasn't working, so we asked for a portable heater.",
+      "start_sample": 19782,
+      "end_sample": 87824,
+      "start_ms": 1236,
+      "end_ms": 5489
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The danbou in our cabin wasn't working, so we asked for a portable heater.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5821,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 7386,
+          "start_ms": 0,
+          "end_ms": 462
+        },
+        {
+          "lang": "ja",
+          "text": "暖房",
+          "start_sample": 7386,
+          "end_sample": 24888,
+          "start_ms": 462,
+          "end_ms": 1556
+        },
+        {
+          "lang": "en",
+          "text": "in our cabin wasn't working, so we asked for a portable heater.",
+          "start_sample": 24888,
+          "end_sample": 93130,
+          "start_ms": 1556,
+          "end_ms": 5821
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 暖房 in our cabin wasn't working, so we asked for a portable heater.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6999,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6096,
+          "start_ms": 0,
+          "end_ms": 381
+        },
+        {
+          "lang": "ja",
+          "text": "暖房",
+          "start_sample": 6096,
+          "end_sample": 19092,
+          "start_ms": 381,
+          "end_ms": 1193
+        },
+        {
+          "lang": "en",
+          "text": "in our cabin wasn't working, so we asked for a portable heater.",
+          "start_sample": 19092,
+          "end_sample": 111987,
+          "start_ms": 1193,
+          "end_ms": 6999
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 275,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11577.flac",
+  "sentence": "二人の間のtensionが、部屋全体に伝わっていた。",
+  "sample_rate": 16000,
+  "duration_ms": 3521,
+  "reference_speaker": "jp/speaker_067_07a7e7b35c3a.mp3",
+  "seed": 11619,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "二人の間の",
+      "start_sample": 0,
+      "end_sample": 12005,
+      "start_ms": 0,
+      "end_ms": 750
+    },
+    {
+      "lang": "en",
+      "text": "tension",
+      "start_sample": 12005,
+      "end_sample": 22493,
+      "start_ms": 750,
+      "end_ms": 1406
+    },
+    {
+      "lang": "ja",
+      "text": "が、部屋全体に伝わっていた。",
+      "start_sample": 22493,
+      "end_sample": 56336,
+      "start_ms": 1406,
+      "end_ms": 3521
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "futari no kan no tension ga heya zentai ni tsutawatsu te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6765,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "二人の間の",
+          "start_sample": 0,
+          "end_sample": 33785,
+          "start_ms": 0,
+          "end_ms": 2112
+        },
+        {
+          "lang": "en",
+          "text": "tension",
+          "start_sample": 33785,
+          "end_sample": 44673,
+          "start_ms": 2112,
+          "end_ms": 2792
+        },
+        {
+          "lang": "ja",
+          "text": "が、部屋全体に伝わっていた。",
+          "start_sample": 44673,
+          "end_sample": 108241,
+          "start_ms": 2792,
+          "end_ms": 6765
+        }
+      ]
+    },
+    "ja": {
+      "text": "二人の間のtensionが、部屋全体に伝わっていた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3412,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "二人の間の",
+          "start_sample": 0,
+          "end_sample": 12205,
+          "start_ms": 0,
+          "end_ms": 763
+        },
+        {
+          "lang": "en",
+          "text": "tension",
+          "start_sample": 12205,
+          "end_sample": 20556,
+          "start_ms": 763,
+          "end_ms": 1285
+        },
+        {
+          "lang": "ja",
+          "text": "が、部屋全体に伝わっていた。",
+          "start_sample": 20556,
+          "end_sample": 54599,
+          "start_ms": 1285,
+          "end_ms": 3412
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

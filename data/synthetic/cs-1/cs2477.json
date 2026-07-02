@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2477.flac",
+  "sentence": "このassignmentの意味がよくわかりません。",
+  "sample_rate": 16000,
+  "duration_ms": 2905,
+  "reference_speaker": "en/speaker_007_70c21ca1cc3d.mp3",
+  "seed": 2519,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 5411,
+      "start_ms": 0,
+      "end_ms": 338
+    },
+    {
+      "lang": "en",
+      "text": "assignment",
+      "start_sample": 5411,
+      "end_sample": 22152,
+      "start_ms": 338,
+      "end_ms": 1384
+    },
+    {
+      "lang": "ja",
+      "text": "の意味がよくわかりません。",
+      "start_sample": 22152,
+      "end_sample": 46487,
+      "start_ms": 1384,
+      "end_ms": 2905
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono assignment no imi ga yoku wakari mase n",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5506,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4324,
+          "start_ms": 0,
+          "end_ms": 270
+        },
+        {
+          "lang": "en",
+          "text": "assignment",
+          "start_sample": 4324,
+          "end_sample": 21465,
+          "start_ms": 270,
+          "end_ms": 1342
+        },
+        {
+          "lang": "ja",
+          "text": "の意味がよくわかりません。",
+          "start_sample": 21465,
+          "end_sample": 88102,
+          "start_ms": 1342,
+          "end_ms": 5506
+        }
+      ]
+    },
+    "ja": {
+      "text": "このassignmentの意味がよくわかりません。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2546,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5611,
+          "start_ms": 0,
+          "end_ms": 351
+        },
+        {
+          "lang": "en",
+          "text": "assignment",
+          "start_sample": 5611,
+          "end_sample": 16196,
+          "start_ms": 351,
+          "end_ms": 1012
+        },
+        {
+          "lang": "ja",
+          "text": "の意味がよくわかりません。",
+          "start_sample": 16196,
+          "end_sample": 40731,
+          "start_ms": 1012,
+          "end_ms": 2546
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 146,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

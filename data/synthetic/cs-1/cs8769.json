@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8769.flac",
+  "sentence": "このmelodyはなぜかずっと頭から離れない。",
+  "sample_rate": 16000,
+  "duration_ms": 2906,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 8811,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3644,
+      "start_ms": 0,
+      "end_ms": 228
+    },
+    {
+      "lang": "en",
+      "text": "melody",
+      "start_sample": 3644,
+      "end_sample": 15601,
+      "start_ms": 228,
+      "end_ms": 975
+    },
+    {
+      "lang": "ja",
+      "text": "はなぜかずっと頭から離れない。",
+      "start_sample": 15601,
+      "end_sample": 46488,
+      "start_ms": 975,
+      "end_ms": 2906
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono melody ha naze ka zutto atama kara hanare nai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6038,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5616,
+          "start_ms": 0,
+          "end_ms": 351
+        },
+        {
+          "lang": "en",
+          "text": "melody",
+          "start_sample": 5616,
+          "end_sample": 17973,
+          "start_ms": 351,
+          "end_ms": 1123
+        },
+        {
+          "lang": "ja",
+          "text": "はなぜかずっと頭から離れない。",
+          "start_sample": 17973,
+          "end_sample": 96607,
+          "start_ms": 1123,
+          "end_ms": 6038
+        }
+      ]
+    },
+    "ja": {
+      "text": "このmelodyはなぜかずっと頭から離れない。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2584,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3844,
+          "start_ms": 0,
+          "end_ms": 240
+        },
+        {
+          "lang": "en",
+          "text": "melody",
+          "start_sample": 3844,
+          "end_sample": 10254,
+          "start_ms": 240,
+          "end_ms": 641
+        },
+        {
+          "lang": "ja",
+          "text": "はなぜかずっと頭から離れない。",
+          "start_sample": 10254,
+          "end_sample": 41341,
+          "start_ms": 641,
+          "end_ms": 2584
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 146,
+  "frame_labels": "jjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

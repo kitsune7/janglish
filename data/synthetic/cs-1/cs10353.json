@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10353.flac",
+  "sentence": "Did you remember to lock the 勝手口 before you left this morning?",
+  "sample_rate": 16000,
+  "duration_ms": 3085,
+  "reference_speaker": "jp/speaker_011_3c9d94093b88.mp3",
+  "seed": 10395,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Did you remember to lock the",
+      "start_sample": 0,
+      "end_sample": 17175,
+      "start_ms": 0,
+      "end_ms": 1073
+    },
+    {
+      "lang": "ja",
+      "text": "勝手口",
+      "start_sample": 17175,
+      "end_sample": 28162,
+      "start_ms": 1073,
+      "end_ms": 1760
+    },
+    {
+      "lang": "en",
+      "text": "before you left this morning?",
+      "start_sample": 28162,
+      "end_sample": 49355,
+      "start_ms": 1760,
+      "end_ms": 3085
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Did you remember to lock the katteguchi before you left this morning?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3036,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you remember to lock the",
+          "start_sample": 0,
+          "end_sample": 17375,
+          "start_ms": 0,
+          "end_ms": 1086
+        },
+        {
+          "lang": "ja",
+          "text": "勝手口",
+          "start_sample": 17375,
+          "end_sample": 27188,
+          "start_ms": 1086,
+          "end_ms": 1699
+        },
+        {
+          "lang": "en",
+          "text": "before you left this morning?",
+          "start_sample": 27188,
+          "end_sample": 48581,
+          "start_ms": 1699,
+          "end_ms": 3036
+        }
+      ]
+    },
+    "ja": {
+      "text": "Did you remember to lock the 勝手口 before you left this morning?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3889,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you remember to lock the",
+          "start_sample": 0,
+          "end_sample": 26140,
+          "start_ms": 0,
+          "end_ms": 1634
+        },
+        {
+          "lang": "ja",
+          "text": "勝手口",
+          "start_sample": 26140,
+          "end_sample": 37527,
+          "start_ms": 1634,
+          "end_ms": 2345
+        },
+        {
+          "lang": "en",
+          "text": "before you left this morning?",
+          "start_sample": 37527,
+          "end_sample": 62223,
+          "start_ms": 2345,
+          "end_ms": 3889
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 155,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

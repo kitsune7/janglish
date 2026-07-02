@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3502.flac",
+  "sentence": "冬のfrostyな窓ガラスに絵を描くのは子どもの頃の楽しみでした。",
+  "sample_rate": 16000,
+  "duration_ms": 5252,
+  "reference_speaker": "jp/speaker_053_8435a3c28f36.mp3",
+  "seed": 3544,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "冬の",
+      "start_sample": 0,
+      "end_sample": 5252,
+      "start_ms": 0,
+      "end_ms": 328
+    },
+    {
+      "lang": "en",
+      "text": "frosty",
+      "start_sample": 5252,
+      "end_sample": 18793,
+      "start_ms": 328,
+      "end_ms": 1175
+    },
+    {
+      "lang": "ja",
+      "text": "な窓ガラスに絵を描くのは子どもの頃の楽しみでした。",
+      "start_sample": 18793,
+      "end_sample": 84024,
+      "start_ms": 1175,
+      "end_ms": 5252
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "fuyu no frosty na mado garasu ni e wo egaku no ha kodomo no goro no tanoshimi deshi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10435,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冬の",
+          "start_sample": 0,
+          "end_sample": 8492,
+          "start_ms": 0,
+          "end_ms": 531
+        },
+        {
+          "lang": "en",
+          "text": "frosty",
+          "start_sample": 8492,
+          "end_sample": 22433,
+          "start_ms": 531,
+          "end_ms": 1402
+        },
+        {
+          "lang": "ja",
+          "text": "な窓ガラスに絵を描くのは子どもの頃の楽しみでした。",
+          "start_sample": 22433,
+          "end_sample": 166965,
+          "start_ms": 1402,
+          "end_ms": 10435
+        }
+      ]
+    },
+    "ja": {
+      "text": "冬のfrostyな窓ガラスに絵を描くのは子どもの頃の楽しみでした。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5032,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冬の",
+          "start_sample": 0,
+          "end_sample": 5452,
+          "start_ms": 0,
+          "end_ms": 341
+        },
+        {
+          "lang": "en",
+          "text": "frosty",
+          "start_sample": 5452,
+          "end_sample": 15074,
+          "start_ms": 341,
+          "end_ms": 942
+        },
+        {
+          "lang": "ja",
+          "text": "な窓ガラスに絵を描くのは子どもの頃の楽しみでした。",
+          "start_sample": 15074,
+          "end_sample": 80505,
+          "start_ms": 942,
+          "end_ms": 5032
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 263,
+  "frame_labels": "jjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

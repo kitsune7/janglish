@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8177.flac",
+  "sentence": "地図のlegendを見れば記号の意味がわかります。",
+  "sample_rate": 16000,
+  "duration_ms": 3148,
+  "reference_speaker": "en/speaker_096_4389a887e640.mp3",
+  "seed": 8219,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "地図の",
+      "start_sample": 0,
+      "end_sample": 6377,
+      "start_ms": 0,
+      "end_ms": 399
+    },
+    {
+      "lang": "en",
+      "text": "legend",
+      "start_sample": 6377,
+      "end_sample": 17194,
+      "start_ms": 399,
+      "end_ms": 1075
+    },
+    {
+      "lang": "ja",
+      "text": "を見れば記号の意味がわかります。",
+      "start_sample": 17194,
+      "end_sample": 50360,
+      "start_ms": 1075,
+      "end_ms": 3148
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "chizu no legend wo mire ba kigou no imi ga wakari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8573,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "地図の",
+          "start_sample": 0,
+          "end_sample": 26120,
+          "start_ms": 0,
+          "end_ms": 1632
+        },
+        {
+          "lang": "en",
+          "text": "legend",
+          "start_sample": 26120,
+          "end_sample": 37337,
+          "start_ms": 1632,
+          "end_ms": 2334
+        },
+        {
+          "lang": "ja",
+          "text": "を見れば記号の意味がわかります。",
+          "start_sample": 37337,
+          "end_sample": 137170,
+          "start_ms": 2334,
+          "end_ms": 8573
+        }
+      ]
+    },
+    "ja": {
+      "text": "地図のlegendを見れば記号の意味がわかります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2968,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "地図の",
+          "start_sample": 0,
+          "end_sample": 6577,
+          "start_ms": 0,
+          "end_ms": 411
+        },
+        {
+          "lang": "en",
+          "text": "legend",
+          "start_sample": 6577,
+          "end_sample": 14117,
+          "start_ms": 411,
+          "end_ms": 882
+        },
+        {
+          "lang": "ja",
+          "text": "を見れば記号の意味がわかります。",
+          "start_sample": 14117,
+          "end_sample": 47483,
+          "start_ms": 882,
+          "end_ms": 2968
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 158,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

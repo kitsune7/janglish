@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4768.flac",
+  "sentence": "The 駅 is only four blocks north from where we're standing.",
+  "sample_rate": 16000,
+  "duration_ms": 5397,
+  "reference_speaker": "en/speaker_087_5027771311b0.mp3",
+  "seed": 4810,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2047,
+      "start_ms": 0,
+      "end_ms": 128
+    },
+    {
+      "lang": "ja",
+      "text": "駅",
+      "start_sample": 2047,
+      "end_sample": 12706,
+      "start_ms": 128,
+      "end_ms": 794
+    },
+    {
+      "lang": "en",
+      "text": "is only four blocks north from where we're standing.",
+      "start_sample": 12706,
+      "end_sample": 86347,
+      "start_ms": 794,
+      "end_ms": 5397
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The eki is only four blocks north from where we're standing.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5077,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2247,
+          "start_ms": 0,
+          "end_ms": 140
+        },
+        {
+          "lang": "ja",
+          "text": "駅",
+          "start_sample": 2247,
+          "end_sample": 7384,
+          "start_ms": 140,
+          "end_ms": 462
+        },
+        {
+          "lang": "en",
+          "text": "is only four blocks north from where we're standing.",
+          "start_sample": 7384,
+          "end_sample": 81225,
+          "start_ms": 462,
+          "end_ms": 5077
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 駅 is only four blocks north from where we're standing.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5269,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5929,
+          "start_ms": 0,
+          "end_ms": 371
+        },
+        {
+          "lang": "ja",
+          "text": "駅",
+          "start_sample": 5929,
+          "end_sample": 16988,
+          "start_ms": 371,
+          "end_ms": 1062
+        },
+        {
+          "lang": "en",
+          "text": "is only four blocks north from where we're standing.",
+          "start_sample": 16988,
+          "end_sample": 84302,
+          "start_ms": 1062,
+          "end_ms": 5269
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 270,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

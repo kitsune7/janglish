@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4480.flac",
+  "sentence": "I changed my 待ち受け画面 to a photo from the trip.",
+  "sample_rate": 16000,
+  "duration_ms": 3012,
+  "reference_speaker": "jp/speaker_088_9d72b694e145.mp3",
+  "seed": 4522,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I changed my",
+      "start_sample": 0,
+      "end_sample": 9756,
+      "start_ms": 0,
+      "end_ms": 610
+    },
+    {
+      "lang": "ja",
+      "text": "待ち受け画面",
+      "start_sample": 9756,
+      "end_sample": 23818,
+      "start_ms": 610,
+      "end_ms": 1489
+    },
+    {
+      "lang": "en",
+      "text": "to a photo from the trip.",
+      "start_sample": 23818,
+      "end_sample": 48193,
+      "start_ms": 1489,
+      "end_ms": 3012
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I changed my machiuke gamen to a photo from the trip.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3413,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I changed my",
+          "start_sample": 0,
+          "end_sample": 9956,
+          "start_ms": 0,
+          "end_ms": 622
+        },
+        {
+          "lang": "ja",
+          "text": "待ち受け画面",
+          "start_sample": 9956,
+          "end_sample": 30037,
+          "start_ms": 622,
+          "end_ms": 1877
+        },
+        {
+          "lang": "en",
+          "text": "to a photo from the trip.",
+          "start_sample": 30037,
+          "end_sample": 54612,
+          "start_ms": 1877,
+          "end_ms": 3413
+        }
+      ]
+    },
+    "ja": {
+      "text": "I changed my 待ち受け画面 to a photo from the trip.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3173,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I changed my",
+          "start_sample": 0,
+          "end_sample": 9315,
+          "start_ms": 0,
+          "end_ms": 582
+        },
+        {
+          "lang": "ja",
+          "text": "待ち受け画面",
+          "start_sample": 9315,
+          "end_sample": 23777,
+          "start_ms": 582,
+          "end_ms": 1486
+        },
+        {
+          "lang": "en",
+          "text": "to a photo from the trip.",
+          "start_sample": 23777,
+          "end_sample": 50769,
+          "start_ms": 1486,
+          "end_ms": 3173
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 151,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

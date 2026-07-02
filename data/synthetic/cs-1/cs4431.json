@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4431.flac",
+  "sentence": "The 廊下 outside our room was dimly lit, which gave the whole place an eerie feeling.",
+  "sample_rate": 16000,
+  "duration_ms": 6277,
+  "reference_speaker": "en/speaker_087_5027771311b0.mp3",
+  "seed": 4473,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1721,
+      "start_ms": 0,
+      "end_ms": 108
+    },
+    {
+      "lang": "ja",
+      "text": "廊下",
+      "start_sample": 1721,
+      "end_sample": 14942,
+      "start_ms": 108,
+      "end_ms": 934
+    },
+    {
+      "lang": "en",
+      "text": "outside our room was dimly lit, which gave the whole place an eerie feeling.",
+      "start_sample": 14942,
+      "end_sample": 100437,
+      "start_ms": 934,
+      "end_ms": 6277
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The rouka outside our room was dimly lit, which gave the whole place an eerie feeling.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5866,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1921,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "廊下",
+          "start_sample": 1921,
+          "end_sample": 8168,
+          "start_ms": 120,
+          "end_ms": 510
+        },
+        {
+          "lang": "en",
+          "text": "outside our room was dimly lit, which gave the whole place an eerie feeling.",
+          "start_sample": 8168,
+          "end_sample": 93863,
+          "start_ms": 510,
+          "end_ms": 5866
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 廊下 outside our room was dimly lit, which gave the whole place an eerie feeling.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8713,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6569,
+          "start_ms": 0,
+          "end_ms": 411
+        },
+        {
+          "lang": "ja",
+          "text": "廊下",
+          "start_sample": 6569,
+          "end_sample": 20190,
+          "start_ms": 411,
+          "end_ms": 1262
+        },
+        {
+          "lang": "en",
+          "text": "outside our room was dimly lit, which gave the whole place an eerie feeling.",
+          "start_sample": 20190,
+          "end_sample": 139413,
+          "start_ms": 1262,
+          "end_ms": 8713
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 314,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

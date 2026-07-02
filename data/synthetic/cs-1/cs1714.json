@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1714.flac",
+  "sentence": "ガソリンスタンドでfull tankにしてから出発しましょう。",
+  "sample_rate": 16000,
+  "duration_ms": 3735,
+  "reference_speaker": "en/speaker_096_4389a887e640.mp3",
+  "seed": 1756,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "ガソリンスタンドで",
+      "start_sample": 0,
+      "end_sample": 19259,
+      "start_ms": 0,
+      "end_ms": 1204
+    },
+    {
+      "lang": "en",
+      "text": "full tank",
+      "start_sample": 19259,
+      "end_sample": 35524,
+      "start_ms": 1204,
+      "end_ms": 2220
+    },
+    {
+      "lang": "ja",
+      "text": "にしてから出発しましょう。",
+      "start_sample": 35524,
+      "end_sample": 59764,
+      "start_ms": 2220,
+      "end_ms": 3735
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "gasorin sutando de full tank ni shi te kara shuppatsu shi mashou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6850,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ガソリンスタンドで",
+          "start_sample": 0,
+          "end_sample": 37656,
+          "start_ms": 0,
+          "end_ms": 2354
+        },
+        {
+          "lang": "en",
+          "text": "full tank",
+          "start_sample": 37656,
+          "end_sample": 54321,
+          "start_ms": 2354,
+          "end_ms": 3395
+        },
+        {
+          "lang": "ja",
+          "text": "にしてから出発しましょう。",
+          "start_sample": 54321,
+          "end_sample": 109604,
+          "start_ms": 3395,
+          "end_ms": 6850
+        }
+      ]
+    },
+    "ja": {
+      "text": "ガソリンスタンドでfull tankにしてから出発しましょう。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3498,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ガソリンスタンドで",
+          "start_sample": 0,
+          "end_sample": 19459,
+          "start_ms": 0,
+          "end_ms": 1216
+        },
+        {
+          "lang": "en",
+          "text": "full tank",
+          "start_sample": 19459,
+          "end_sample": 31520,
+          "start_ms": 1216,
+          "end_ms": 1970
+        },
+        {
+          "lang": "ja",
+          "text": "にしてから出発しましょう。",
+          "start_sample": 31520,
+          "end_sample": 55960,
+          "start_ms": 1970,
+          "end_ms": 3498
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 187,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

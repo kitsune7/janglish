@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7713.flac",
+  "sentence": "毎月のutility billが夏になると高くなります。",
+  "sample_rate": 16000,
+  "duration_ms": 4440,
+  "reference_speaker": "jp/speaker_049_435108c1173c.mp3",
+  "seed": 7755,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "毎月の",
+      "start_sample": 0,
+      "end_sample": 11657,
+      "start_ms": 0,
+      "end_ms": 729
+    },
+    {
+      "lang": "en",
+      "text": "utility bill",
+      "start_sample": 11657,
+      "end_sample": 39666,
+      "start_ms": 729,
+      "end_ms": 2479
+    },
+    {
+      "lang": "ja",
+      "text": "が夏になると高くなります。",
+      "start_sample": 39666,
+      "end_sample": 71034,
+      "start_ms": 2479,
+      "end_ms": 4440
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "maitsuki no utility bill ga natsu ni naru to takaku nari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7022,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎月の",
+          "start_sample": 0,
+          "end_sample": 19741,
+          "start_ms": 0,
+          "end_ms": 1234
+        },
+        {
+          "lang": "en",
+          "text": "utility bill",
+          "start_sample": 19741,
+          "end_sample": 48150,
+          "start_ms": 1234,
+          "end_ms": 3009
+        },
+        {
+          "lang": "ja",
+          "text": "が夏になると高くなります。",
+          "start_sample": 48150,
+          "end_sample": 112348,
+          "start_ms": 3009,
+          "end_ms": 7022
+        }
+      ]
+    },
+    "ja": {
+      "text": "毎月のutility billが夏になると高くなります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3565,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎月の",
+          "start_sample": 0,
+          "end_sample": 11857,
+          "start_ms": 0,
+          "end_ms": 741
+        },
+        {
+          "lang": "en",
+          "text": "utility bill",
+          "start_sample": 11857,
+          "end_sample": 25478,
+          "start_ms": 741,
+          "end_ms": 1592
+        },
+        {
+          "lang": "ja",
+          "text": "が夏になると高くなります。",
+          "start_sample": 25478,
+          "end_sample": 57046,
+          "start_ms": 1592,
+          "end_ms": 3565
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 222,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

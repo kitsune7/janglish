@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7119.flac",
+  "sentence": "She spent the whole weekend making a 手作り birthday cake for the twins.",
+  "sample_rate": 16000,
+  "duration_ms": 3827,
+  "reference_speaker": "jp/speaker_055_b88f2897e0f4.mp3",
+  "seed": 7161,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She spent the whole weekend making a",
+      "start_sample": 0,
+      "end_sample": 25431,
+      "start_ms": 0,
+      "end_ms": 1589
+    },
+    {
+      "lang": "ja",
+      "text": "手作り",
+      "start_sample": 25431,
+      "end_sample": 33552,
+      "start_ms": 1589,
+      "end_ms": 2097
+    },
+    {
+      "lang": "en",
+      "text": "birthday cake for the twins.",
+      "start_sample": 33552,
+      "end_sample": 61226,
+      "start_ms": 2097,
+      "end_ms": 3827
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She spent the whole weekend making a tezukuri birthday cake for the twins.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4045,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She spent the whole weekend making a",
+          "start_sample": 0,
+          "end_sample": 25631,
+          "start_ms": 0,
+          "end_ms": 1602
+        },
+        {
+          "lang": "ja",
+          "text": "手作り",
+          "start_sample": 25631,
+          "end_sample": 36845,
+          "start_ms": 1602,
+          "end_ms": 2303
+        },
+        {
+          "lang": "en",
+          "text": "birthday cake for the twins.",
+          "start_sample": 36845,
+          "end_sample": 64719,
+          "start_ms": 2303,
+          "end_ms": 4045
+        }
+      ]
+    },
+    "ja": {
+      "text": "She spent the whole weekend making a 手作り birthday cake for the twins.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4481,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She spent the whole weekend making a",
+          "start_sample": 0,
+          "end_sample": 37300,
+          "start_ms": 0,
+          "end_ms": 2331
+        },
+        {
+          "lang": "ja",
+          "text": "手作り",
+          "start_sample": 37300,
+          "end_sample": 45821,
+          "start_ms": 2331,
+          "end_ms": 2864
+        },
+        {
+          "lang": "en",
+          "text": "birthday cake for the twins.",
+          "start_sample": 45821,
+          "end_sample": 71702,
+          "start_ms": 2864,
+          "end_ms": 4481
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

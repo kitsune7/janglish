@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8713.flac",
+  "sentence": "She administered 応急 treatment until the paramedics arrived.",
+  "sample_rate": 16000,
+  "duration_ms": 4499,
+  "reference_speaker": "jp/speaker_015_c26b5026d437.mp3",
+  "seed": 8755,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She administered",
+      "start_sample": 0,
+      "end_sample": 18287,
+      "start_ms": 0,
+      "end_ms": 1143
+    },
+    {
+      "lang": "ja",
+      "text": "応急",
+      "start_sample": 18287,
+      "end_sample": 29580,
+      "start_ms": 1143,
+      "end_ms": 1849
+    },
+    {
+      "lang": "en",
+      "text": "treatment until the paramedics arrived.",
+      "start_sample": 29580,
+      "end_sample": 71983,
+      "start_ms": 1849,
+      "end_ms": 4499
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She administered oukyuu treatment until the paramedics arrived.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4501,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She administered",
+          "start_sample": 0,
+          "end_sample": 18487,
+          "start_ms": 0,
+          "end_ms": 1155
+        },
+        {
+          "lang": "ja",
+          "text": "応急",
+          "start_sample": 18487,
+          "end_sample": 29418,
+          "start_ms": 1155,
+          "end_ms": 1839
+        },
+        {
+          "lang": "en",
+          "text": "treatment until the paramedics arrived.",
+          "start_sample": 29418,
+          "end_sample": 72021,
+          "start_ms": 1839,
+          "end_ms": 4501
+        }
+      ]
+    },
+    "ja": {
+      "text": "She administered 応急 treatment until the paramedics arrived.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6006,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She administered",
+          "start_sample": 0,
+          "end_sample": 25307,
+          "start_ms": 0,
+          "end_ms": 1582
+        },
+        {
+          "lang": "ja",
+          "text": "応急",
+          "start_sample": 25307,
+          "end_sample": 37000,
+          "start_ms": 1582,
+          "end_ms": 2312
+        },
+        {
+          "lang": "en",
+          "text": "treatment until the paramedics arrived.",
+          "start_sample": 37000,
+          "end_sample": 96104,
+          "start_ms": 2312,
+          "end_ms": 6006
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

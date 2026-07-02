@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4665.flac",
+  "sentence": "The embroidery on this collar is so 手が込んだ, it must have taken weeks.",
+  "sample_rate": 16000,
+  "duration_ms": 4836,
+  "reference_speaker": "jp/speaker_085_c431b4a9ddfb.mp3",
+  "seed": 4707,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The embroidery on this collar is so",
+      "start_sample": 0,
+      "end_sample": 34077,
+      "start_ms": 0,
+      "end_ms": 2130
+    },
+    {
+      "lang": "ja",
+      "text": "手が込んだ,",
+      "start_sample": 34077,
+      "end_sample": 49714,
+      "start_ms": 2130,
+      "end_ms": 3107
+    },
+    {
+      "lang": "en",
+      "text": "it must have taken weeks.",
+      "start_sample": 49714,
+      "end_sample": 77384,
+      "start_ms": 3107,
+      "end_ms": 4836
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The embroidery on this collar is so te ga kon da it must have taken weeks.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5786,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The embroidery on this collar is so",
+          "start_sample": 0,
+          "end_sample": 34277,
+          "start_ms": 0,
+          "end_ms": 2142
+        },
+        {
+          "lang": "ja",
+          "text": "手が込んだ,",
+          "start_sample": 34277,
+          "end_sample": 64711,
+          "start_ms": 2142,
+          "end_ms": 4044
+        },
+        {
+          "lang": "en",
+          "text": "it must have taken weeks.",
+          "start_sample": 64711,
+          "end_sample": 92581,
+          "start_ms": 4044,
+          "end_ms": 5786
+        }
+      ]
+    },
+    "ja": {
+      "text": "The embroidery on this collar is so 手が込んだ, it must have taken weeks.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5112,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The embroidery on this collar is so",
+          "start_sample": 0,
+          "end_sample": 34959,
+          "start_ms": 0,
+          "end_ms": 2185
+        },
+        {
+          "lang": "ja",
+          "text": "手が込んだ,",
+          "start_sample": 34959,
+          "end_sample": 50996,
+          "start_ms": 2185,
+          "end_ms": 3187
+        },
+        {
+          "lang": "en",
+          "text": "it must have taken weeks.",
+          "start_sample": 50996,
+          "end_sample": 81786,
+          "start_ms": 3187,
+          "end_ms": 5112
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 242,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

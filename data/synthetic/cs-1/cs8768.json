@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs8768.flac",
+  "sentence": "guitarのソロが始まった瞬間、会場全体が静まり返った。",
+  "sample_rate": 16000,
+  "duration_ms": 4484,
+  "reference_speaker": "jp/speaker_051_2b805c12b1e0.mp3",
+  "seed": 8810,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "guitar",
+      "start_sample": 0,
+      "end_sample": 10535,
+      "start_ms": 0,
+      "end_ms": 658
+    },
+    {
+      "lang": "ja",
+      "text": "のソロが始まった瞬間、会場全体が静まり返った。",
+      "start_sample": 10535,
+      "end_sample": 71745,
+      "start_ms": 658,
+      "end_ms": 4484
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "guitar no soro ga hajimatsu ta shunkan kaijou zentai ga shizumarikaetsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7772,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "guitar",
+          "start_sample": 0,
+          "end_sample": 10735,
+          "start_ms": 0,
+          "end_ms": 671
+        },
+        {
+          "lang": "ja",
+          "text": "のソロが始まった瞬間、会場全体が静まり返った。",
+          "start_sample": 10735,
+          "end_sample": 124344,
+          "start_ms": 671,
+          "end_ms": 7772
+        }
+      ]
+    },
+    "ja": {
+      "text": "guitarのソロが始まった瞬間、会場全体が静まり返った。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4189,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "guitar",
+          "start_sample": 0,
+          "end_sample": 5612,
+          "start_ms": 0,
+          "end_ms": 351
+        },
+        {
+          "lang": "ja",
+          "text": "のソロが始まった瞬間、会場全体が静まり返った。",
+          "start_sample": 5612,
+          "end_sample": 67022,
+          "start_ms": 351,
+          "end_ms": 4189
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

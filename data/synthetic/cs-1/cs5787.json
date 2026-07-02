@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5787.flac",
+  "sentence": "I prefer a 自然な look to the garden rather than anything too manicured.",
+  "sample_rate": 16000,
+  "duration_ms": 4388,
+  "reference_speaker": "jp/speaker_055_b88f2897e0f4.mp3",
+  "seed": 5829,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I prefer a",
+      "start_sample": 0,
+      "end_sample": 8291,
+      "start_ms": 0,
+      "end_ms": 518
+    },
+    {
+      "lang": "ja",
+      "text": "自然な",
+      "start_sample": 8291,
+      "end_sample": 15454,
+      "start_ms": 518,
+      "end_ms": 966
+    },
+    {
+      "lang": "en",
+      "text": "look to the garden rather than anything too manicured.",
+      "start_sample": 15454,
+      "end_sample": 70211,
+      "start_ms": 966,
+      "end_ms": 4388
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I prefer a shizen na look to the garden rather than anything too manicured.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4606,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I prefer a",
+          "start_sample": 0,
+          "end_sample": 8491,
+          "start_ms": 0,
+          "end_ms": 531
+        },
+        {
+          "lang": "ja",
+          "text": "自然な",
+          "start_sample": 8491,
+          "end_sample": 18746,
+          "start_ms": 531,
+          "end_ms": 1172
+        },
+        {
+          "lang": "en",
+          "text": "look to the garden rather than anything too manicured.",
+          "start_sample": 18746,
+          "end_sample": 73703,
+          "start_ms": 1172,
+          "end_ms": 4606
+        }
+      ]
+    },
+    "ja": {
+      "text": "I prefer a 自然な look to the garden rather than anything too manicured.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4163,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I prefer a",
+          "start_sample": 0,
+          "end_sample": 9010,
+          "start_ms": 0,
+          "end_ms": 563
+        },
+        {
+          "lang": "ja",
+          "text": "自然な",
+          "start_sample": 9010,
+          "end_sample": 16573,
+          "start_ms": 563,
+          "end_ms": 1036
+        },
+        {
+          "lang": "en",
+          "text": "look to the garden rather than anything too manicured.",
+          "start_sample": 16573,
+          "end_sample": 66613,
+          "start_ms": 1036,
+          "end_ms": 4163
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 220,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4382.flac",
+  "sentence": "Have you tested the new 機能 they added in the latest update?",
+  "sample_rate": 16000,
+  "duration_ms": 4356,
+  "reference_speaker": "en/speaker_059_8cc960ae4dc2.mp3",
+  "seed": 4424,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you tested the new",
+      "start_sample": 0,
+      "end_sample": 26453,
+      "start_ms": 0,
+      "end_ms": 1653
+    },
+    {
+      "lang": "ja",
+      "text": "機能",
+      "start_sample": 26453,
+      "end_sample": 33131,
+      "start_ms": 1653,
+      "end_ms": 2071
+    },
+    {
+      "lang": "en",
+      "text": "they added in the latest update?",
+      "start_sample": 33131,
+      "end_sample": 69697,
+      "start_ms": 2071,
+      "end_ms": 4356
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you tested the new kinou they added in the latest update?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4817,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you tested the new",
+          "start_sample": 0,
+          "end_sample": 26653,
+          "start_ms": 0,
+          "end_ms": 1666
+        },
+        {
+          "lang": "ja",
+          "text": "機能",
+          "start_sample": 26653,
+          "end_sample": 40301,
+          "start_ms": 1666,
+          "end_ms": 2519
+        },
+        {
+          "lang": "en",
+          "text": "they added in the latest update?",
+          "start_sample": 40301,
+          "end_sample": 77067,
+          "start_ms": 2519,
+          "end_ms": 4817
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you tested the new 機能 they added in the latest update?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4403,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you tested the new",
+          "start_sample": 0,
+          "end_sample": 22357,
+          "start_ms": 0,
+          "end_ms": 1397
+        },
+        {
+          "lang": "ja",
+          "text": "機能",
+          "start_sample": 22357,
+          "end_sample": 29435,
+          "start_ms": 1397,
+          "end_ms": 1840
+        },
+        {
+          "lang": "en",
+          "text": "they added in the latest update?",
+          "start_sample": 29435,
+          "end_sample": 70447,
+          "start_ms": 1840,
+          "end_ms": 4403
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

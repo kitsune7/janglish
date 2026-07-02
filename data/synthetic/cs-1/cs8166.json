@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8166.flac",
+  "sentence": "そのcornerを左に折れると郵便局があります。",
+  "sample_rate": 16000,
+  "duration_ms": 4187,
+  "reference_speaker": "jp/speaker_079_e96ebb016d7a.mp3",
+  "seed": 8208,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その",
+      "start_sample": 0,
+      "end_sample": 4770,
+      "start_ms": 0,
+      "end_ms": 298
+    },
+    {
+      "lang": "en",
+      "text": "corner",
+      "start_sample": 4770,
+      "end_sample": 20703,
+      "start_ms": 298,
+      "end_ms": 1294
+    },
+    {
+      "lang": "ja",
+      "text": "を左に折れると郵便局があります。",
+      "start_sample": 20703,
+      "end_sample": 66999,
+      "start_ms": 1294,
+      "end_ms": 4187
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono corner wo hidari ni oreru to yuubin kyoku ga ari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8386,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 4322,
+          "start_ms": 0,
+          "end_ms": 270
+        },
+        {
+          "lang": "en",
+          "text": "corner",
+          "start_sample": 4322,
+          "end_sample": 20655,
+          "start_ms": 270,
+          "end_ms": 1291
+        },
+        {
+          "lang": "ja",
+          "text": "を左に折れると郵便局があります。",
+          "start_sample": 20655,
+          "end_sample": 134183,
+          "start_ms": 1291,
+          "end_ms": 8386
+        }
+      ]
+    },
+    "ja": {
+      "text": "そのcornerを左に折れると郵便局があります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3748,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 4970,
+          "start_ms": 0,
+          "end_ms": 311
+        },
+        {
+          "lang": "en",
+          "text": "corner",
+          "start_sample": 4970,
+          "end_sample": 13467,
+          "start_ms": 311,
+          "end_ms": 842
+        },
+        {
+          "lang": "ja",
+          "text": "を左に折れると郵便局があります。",
+          "start_sample": 13467,
+          "end_sample": 59963,
+          "start_ms": 842,
+          "end_ms": 3748
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "jjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

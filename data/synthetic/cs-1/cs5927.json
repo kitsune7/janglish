@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5927.flac",
+  "sentence": "She stays 冷静 even when the game gets really intense.",
+  "sample_rate": 16000,
+  "duration_ms": 4592,
+  "reference_speaker": "en/speaker_015_995e028794f8.mp3",
+  "seed": 5969,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She stays",
+      "start_sample": 0,
+      "end_sample": 10707,
+      "start_ms": 0,
+      "end_ms": 669
+    },
+    {
+      "lang": "ja",
+      "text": "冷静",
+      "start_sample": 10707,
+      "end_sample": 27805,
+      "start_ms": 669,
+      "end_ms": 1738
+    },
+    {
+      "lang": "en",
+      "text": "even when the game gets really intense.",
+      "start_sample": 27805,
+      "end_sample": 73480,
+      "start_ms": 1738,
+      "end_ms": 4592
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She stays reisei even when the game gets really intense.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4030,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She stays",
+          "start_sample": 0,
+          "end_sample": 10907,
+          "start_ms": 0,
+          "end_ms": 682
+        },
+        {
+          "lang": "ja",
+          "text": "冷静",
+          "start_sample": 10907,
+          "end_sample": 18607,
+          "start_ms": 682,
+          "end_ms": 1163
+        },
+        {
+          "lang": "en",
+          "text": "even when the game gets really intense.",
+          "start_sample": 18607,
+          "end_sample": 64482,
+          "start_ms": 1163,
+          "end_ms": 4030
+        }
+      ]
+    },
+    "ja": {
+      "text": "She stays 冷静 even when the game gets really intense.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5137,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She stays",
+          "start_sample": 0,
+          "end_sample": 12678,
+          "start_ms": 0,
+          "end_ms": 792
+        },
+        {
+          "lang": "ja",
+          "text": "冷静",
+          "start_sample": 12678,
+          "end_sample": 30176,
+          "start_ms": 792,
+          "end_ms": 1886
+        },
+        {
+          "lang": "en",
+          "text": "even when the game gets really intense.",
+          "start_sample": 30176,
+          "end_sample": 82185,
+          "start_ms": 1886,
+          "end_ms": 5137
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 230,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

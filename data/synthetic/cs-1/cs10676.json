@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10676.flac",
+  "sentence": "He always keeps a spare tire and 工具 in his trunk.",
+  "sample_rate": 16000,
+  "duration_ms": 3053,
+  "reference_speaker": "jp/speaker_043_1ef414c9abc5.mp3",
+  "seed": 10718,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He always keeps a spare tire and",
+      "start_sample": 0,
+      "end_sample": 30652,
+      "start_ms": 0,
+      "end_ms": 1916
+    },
+    {
+      "lang": "ja",
+      "text": "工具",
+      "start_sample": 30652,
+      "end_sample": 37162,
+      "start_ms": 1916,
+      "end_ms": 2323
+    },
+    {
+      "lang": "en",
+      "text": "in his trunk.",
+      "start_sample": 37162,
+      "end_sample": 48849,
+      "start_ms": 2323,
+      "end_ms": 3053
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He always keeps a spare tire and kougu in his trunk.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3113,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He always keeps a spare tire and",
+          "start_sample": 0,
+          "end_sample": 30852,
+          "start_ms": 0,
+          "end_ms": 1928
+        },
+        {
+          "lang": "ja",
+          "text": "工具",
+          "start_sample": 30852,
+          "end_sample": 37923,
+          "start_ms": 1928,
+          "end_ms": 2370
+        },
+        {
+          "lang": "en",
+          "text": "in his trunk.",
+          "start_sample": 37923,
+          "end_sample": 49810,
+          "start_ms": 2370,
+          "end_ms": 3113
+        }
+      ]
+    },
+    "ja": {
+      "text": "He always keeps a spare tire and 工具 in his trunk.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3435,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He always keeps a spare tire and",
+          "start_sample": 0,
+          "end_sample": 37445,
+          "start_ms": 0,
+          "end_ms": 2340
+        },
+        {
+          "lang": "ja",
+          "text": "工具",
+          "start_sample": 37445,
+          "end_sample": 44355,
+          "start_ms": 2340,
+          "end_ms": 2772
+        },
+        {
+          "lang": "en",
+          "text": "in his trunk.",
+          "start_sample": 44355,
+          "end_sample": 54958,
+          "start_ms": 2772,
+          "end_ms": 3435
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 153,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

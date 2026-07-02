@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2817.flac",
+  "sentence": "She stitches 花 patterns onto everything she owns.",
+  "sample_rate": 16000,
+  "duration_ms": 3913,
+  "reference_speaker": "jp/speaker_055_b88f2897e0f4.mp3",
+  "seed": 2859,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She stitches",
+      "start_sample": 0,
+      "end_sample": 11198,
+      "start_ms": 0,
+      "end_ms": 700
+    },
+    {
+      "lang": "ja",
+      "text": "花",
+      "start_sample": 11198,
+      "end_sample": 19942,
+      "start_ms": 700,
+      "end_ms": 1246
+    },
+    {
+      "lang": "en",
+      "text": "patterns onto everything she owns.",
+      "start_sample": 19942,
+      "end_sample": 62606,
+      "start_ms": 1246,
+      "end_ms": 3913
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She stitches hana patterns onto everything she owns.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3753,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She stitches",
+          "start_sample": 0,
+          "end_sample": 11398,
+          "start_ms": 0,
+          "end_ms": 712
+        },
+        {
+          "lang": "ja",
+          "text": "花",
+          "start_sample": 11398,
+          "end_sample": 17178,
+          "start_ms": 712,
+          "end_ms": 1074
+        },
+        {
+          "lang": "en",
+          "text": "patterns onto everything she owns.",
+          "start_sample": 17178,
+          "end_sample": 60042,
+          "start_ms": 1074,
+          "end_ms": 3753
+        }
+      ]
+    },
+    "ja": {
+      "text": "She stitches 花 patterns onto everything she owns.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4511,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She stitches",
+          "start_sample": 0,
+          "end_sample": 23097,
+          "start_ms": 0,
+          "end_ms": 1444
+        },
+        {
+          "lang": "ja",
+          "text": "花",
+          "start_sample": 23097,
+          "end_sample": 32241,
+          "start_ms": 1444,
+          "end_ms": 2015
+        },
+        {
+          "lang": "en",
+          "text": "patterns onto everything she owns.",
+          "start_sample": 32241,
+          "end_sample": 72182,
+          "start_ms": 2015,
+          "end_ms": 4511
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

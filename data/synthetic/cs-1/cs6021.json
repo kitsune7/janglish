@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6021.flac",
+  "sentence": "Those 編み物 mittens were clearly handmade by someone very skilled.",
+  "sample_rate": 16000,
+  "duration_ms": 4714,
+  "reference_speaker": "jp/speaker_025_0f8f304ca1ab.mp3",
+  "seed": 6063,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Those",
+      "start_sample": 0,
+      "end_sample": 6056,
+      "start_ms": 0,
+      "end_ms": 378
+    },
+    {
+      "lang": "ja",
+      "text": "編み物",
+      "start_sample": 6056,
+      "end_sample": 13534,
+      "start_ms": 378,
+      "end_ms": 846
+    },
+    {
+      "lang": "en",
+      "text": "mittens were clearly handmade by someone very skilled.",
+      "start_sample": 13534,
+      "end_sample": 75417,
+      "start_ms": 846,
+      "end_ms": 4714
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Those amimono mittens were clearly handmade by someone very skilled.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4873,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Those",
+          "start_sample": 0,
+          "end_sample": 6256,
+          "start_ms": 0,
+          "end_ms": 391
+        },
+        {
+          "lang": "ja",
+          "text": "編み物",
+          "start_sample": 6256,
+          "end_sample": 15881,
+          "start_ms": 391,
+          "end_ms": 993
+        },
+        {
+          "lang": "en",
+          "text": "mittens were clearly handmade by someone very skilled.",
+          "start_sample": 15881,
+          "end_sample": 77964,
+          "start_ms": 993,
+          "end_ms": 4873
+        }
+      ]
+    },
+    "ja": {
+      "text": "Those 編み物 mittens were clearly handmade by someone very skilled.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4542,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Those",
+          "start_sample": 0,
+          "end_sample": 5144,
+          "start_ms": 0,
+          "end_ms": 322
+        },
+        {
+          "lang": "ja",
+          "text": "編み物",
+          "start_sample": 5144,
+          "end_sample": 13022,
+          "start_ms": 322,
+          "end_ms": 814
+        },
+        {
+          "lang": "en",
+          "text": "mittens were clearly handmade by someone very skilled.",
+          "start_sample": 13022,
+          "end_sample": 72667,
+          "start_ms": 814,
+          "end_ms": 4542
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 236,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

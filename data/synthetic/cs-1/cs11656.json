@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11656.flac",
+  "sentence": "兄はとてもcarefulで、何でも計画を立ててから動きます。",
+  "sample_rate": 16000,
+  "duration_ms": 3580,
+  "reference_speaker": "jp/speaker_086_b5416e90d3b7.mp3",
+  "seed": 11698,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "兄はとても",
+      "start_sample": 0,
+      "end_sample": 9460,
+      "start_ms": 0,
+      "end_ms": 591
+    },
+    {
+      "lang": "en",
+      "text": "careful",
+      "start_sample": 9460,
+      "end_sample": 21414,
+      "start_ms": 591,
+      "end_ms": 1338
+    },
+    {
+      "lang": "ja",
+      "text": "で、何でも計画を立ててから動きます。",
+      "start_sample": 21414,
+      "end_sample": 57275,
+      "start_ms": 1338,
+      "end_ms": 3580
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ani ha totemo careful de nani de mo keikaku wo tate te kara ugoki masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6197,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "兄はとても",
+          "start_sample": 0,
+          "end_sample": 24225,
+          "start_ms": 0,
+          "end_ms": 1514
+        },
+        {
+          "lang": "en",
+          "text": "careful",
+          "start_sample": 24225,
+          "end_sample": 36579,
+          "start_ms": 1514,
+          "end_ms": 2286
+        },
+        {
+          "lang": "ja",
+          "text": "で、何でも計画を立ててから動きます。",
+          "start_sample": 36579,
+          "end_sample": 99147,
+          "start_ms": 2286,
+          "end_ms": 6197
+        }
+      ]
+    },
+    "ja": {
+      "text": "兄はとてもcarefulで、何でも計画を立ててから動きます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3341,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "兄はとても",
+          "start_sample": 0,
+          "end_sample": 9660,
+          "start_ms": 0,
+          "end_ms": 604
+        },
+        {
+          "lang": "en",
+          "text": "careful",
+          "start_sample": 9660,
+          "end_sample": 17389,
+          "start_ms": 604,
+          "end_ms": 1087
+        },
+        {
+          "lang": "ja",
+          "text": "で、何でも計画を立ててから動きます。",
+          "start_sample": 17389,
+          "end_sample": 53450,
+          "start_ms": 1087,
+          "end_ms": 3341
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 179,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

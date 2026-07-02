@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4026.flac",
+  "sentence": "She stretched for a full 時間 before getting on the bike.",
+  "sample_rate": 16000,
+  "duration_ms": 2650,
+  "reference_speaker": "en/speaker_072_33acedb4c9a7.mp3",
+  "seed": 4068,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She stretched for a full",
+      "start_sample": 0,
+      "end_sample": 18505,
+      "start_ms": 0,
+      "end_ms": 1157
+    },
+    {
+      "lang": "ja",
+      "text": "時間",
+      "start_sample": 18505,
+      "end_sample": 23091,
+      "start_ms": 1157,
+      "end_ms": 1443
+    },
+    {
+      "lang": "en",
+      "text": "before getting on the bike.",
+      "start_sample": 23091,
+      "end_sample": 42395,
+      "start_ms": 1443,
+      "end_ms": 2650
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She stretched for a full jikan before getting on the bike.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2882,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She stretched for a full",
+          "start_sample": 0,
+          "end_sample": 18705,
+          "start_ms": 0,
+          "end_ms": 1169
+        },
+        {
+          "lang": "ja",
+          "text": "時間",
+          "start_sample": 18705,
+          "end_sample": 26606,
+          "start_ms": 1169,
+          "end_ms": 1663
+        },
+        {
+          "lang": "en",
+          "text": "before getting on the bike.",
+          "start_sample": 26606,
+          "end_sample": 46110,
+          "start_ms": 1663,
+          "end_ms": 2882
+        }
+      ]
+    },
+    "ja": {
+      "text": "She stretched for a full 時間 before getting on the bike.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3498,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She stretched for a full",
+          "start_sample": 0,
+          "end_sample": 21710,
+          "start_ms": 0,
+          "end_ms": 1357
+        },
+        {
+          "lang": "ja",
+          "text": "時間",
+          "start_sample": 21710,
+          "end_sample": 26696,
+          "start_ms": 1357,
+          "end_ms": 1668
+        },
+        {
+          "lang": "en",
+          "text": "before getting on the bike.",
+          "start_sample": 26696,
+          "end_sample": 55960,
+          "start_ms": 1668,
+          "end_ms": 3498
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 133,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

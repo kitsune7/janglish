@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9603.flac",
+  "sentence": "チーズがcreamyでパスタによく合っています。",
+  "sample_rate": 16000,
+  "duration_ms": 3200,
+  "reference_speaker": "en/speaker_082_0d071699a4ef.mp3",
+  "seed": 9645,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "チーズが",
+      "start_sample": 0,
+      "end_sample": 8668,
+      "start_ms": 0,
+      "end_ms": 542
+    },
+    {
+      "lang": "en",
+      "text": "creamy",
+      "start_sample": 8668,
+      "end_sample": 20285,
+      "start_ms": 542,
+      "end_ms": 1268
+    },
+    {
+      "lang": "ja",
+      "text": "でパスタによく合っています。",
+      "start_sample": 20285,
+      "end_sample": 51199,
+      "start_ms": 1268,
+      "end_ms": 3200
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "chiizu ga creamy de pasuta ni yoku atsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5628,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "チーズが",
+          "start_sample": 0,
+          "end_sample": 16181,
+          "start_ms": 0,
+          "end_ms": 1011
+        },
+        {
+          "lang": "en",
+          "text": "creamy",
+          "start_sample": 16181,
+          "end_sample": 28198,
+          "start_ms": 1011,
+          "end_ms": 1762
+        },
+        {
+          "lang": "ja",
+          "text": "でパスタによく合っています。",
+          "start_sample": 28198,
+          "end_sample": 90041,
+          "start_ms": 1762,
+          "end_ms": 5628
+        }
+      ]
+    },
+    "ja": {
+      "text": "チーズがcreamyでパスタによく合っています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3043,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "チーズが",
+          "start_sample": 0,
+          "end_sample": 8868,
+          "start_ms": 0,
+          "end_ms": 554
+        },
+        {
+          "lang": "en",
+          "text": "creamy",
+          "start_sample": 8868,
+          "end_sample": 17575,
+          "start_ms": 554,
+          "end_ms": 1098
+        },
+        {
+          "lang": "ja",
+          "text": "でパスタによく合っています。",
+          "start_sample": 17575,
+          "end_sample": 48689,
+          "start_ms": 1098,
+          "end_ms": 3043
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

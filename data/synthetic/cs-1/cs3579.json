@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3579.flac",
+  "sentence": "猫のwhiskerを観察すると、気分が分かると聞きました。",
+  "sample_rate": 16000,
+  "duration_ms": 4491,
+  "reference_speaker": "jp/speaker_015_c26b5026d437.mp3",
+  "seed": 3621,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "猫の",
+      "start_sample": 0,
+      "end_sample": 5589,
+      "start_ms": 0,
+      "end_ms": 349
+    },
+    {
+      "lang": "en",
+      "text": "whisker",
+      "start_sample": 5589,
+      "end_sample": 19146,
+      "start_ms": 349,
+      "end_ms": 1197
+    },
+    {
+      "lang": "ja",
+      "text": "を観察すると、気分が分かると聞きました。",
+      "start_sample": 19146,
+      "end_sample": 71856,
+      "start_ms": 1197,
+      "end_ms": 4491
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "neko no whisker wo kansatsu suru to kibun ga wakaru to kiki mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8542,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "猫の",
+          "start_sample": 0,
+          "end_sample": 15237,
+          "start_ms": 0,
+          "end_ms": 952
+        },
+        {
+          "lang": "en",
+          "text": "whisker",
+          "start_sample": 15237,
+          "end_sample": 29194,
+          "start_ms": 952,
+          "end_ms": 1825
+        },
+        {
+          "lang": "ja",
+          "text": "を観察すると、気分が分かると聞きました。",
+          "start_sample": 29194,
+          "end_sample": 136672,
+          "start_ms": 1825,
+          "end_ms": 8542
+        }
+      ]
+    },
+    "ja": {
+      "text": "猫のwhiskerを観察すると、気分が分かると聞きました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4242,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "猫の",
+          "start_sample": 0,
+          "end_sample": 5789,
+          "start_ms": 0,
+          "end_ms": 362
+        },
+        {
+          "lang": "en",
+          "text": "whisker",
+          "start_sample": 5789,
+          "end_sample": 14957,
+          "start_ms": 362,
+          "end_ms": 935
+        },
+        {
+          "lang": "ja",
+          "text": "を観察すると、気分が分かると聞きました。",
+          "start_sample": 14957,
+          "end_sample": 67867,
+          "start_ms": 935,
+          "end_ms": 4242
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

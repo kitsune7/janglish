@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9030.flac",
+  "sentence": "He keeps all his 道具 for leatherworking in a single battered tin box.",
+  "sample_rate": 16000,
+  "duration_ms": 4673,
+  "reference_speaker": "en/speaker_054_103b0eb5778e.mp3",
+  "seed": 9072,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He keeps all his",
+      "start_sample": 0,
+      "end_sample": 14561,
+      "start_ms": 0,
+      "end_ms": 910
+    },
+    {
+      "lang": "ja",
+      "text": "道具",
+      "start_sample": 14561,
+      "end_sample": 20100,
+      "start_ms": 910,
+      "end_ms": 1256
+    },
+    {
+      "lang": "en",
+      "text": "for leatherworking in a single battered tin box.",
+      "start_sample": 20100,
+      "end_sample": 74773,
+      "start_ms": 1256,
+      "end_ms": 4673
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He keeps all his dougu for leatherworking in a single battered tin box.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5174,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He keeps all his",
+          "start_sample": 0,
+          "end_sample": 14761,
+          "start_ms": 0,
+          "end_ms": 923
+        },
+        {
+          "lang": "ja",
+          "text": "道具",
+          "start_sample": 14761,
+          "end_sample": 27918,
+          "start_ms": 923,
+          "end_ms": 1745
+        },
+        {
+          "lang": "en",
+          "text": "for leatherworking in a single battered tin box.",
+          "start_sample": 27918,
+          "end_sample": 82791,
+          "start_ms": 1745,
+          "end_ms": 5174
+        }
+      ]
+    },
+    "ja": {
+      "text": "He keeps all his 道具 for leatherworking in a single battered tin box.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5898,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He keeps all his",
+          "start_sample": 0,
+          "end_sample": 18457,
+          "start_ms": 0,
+          "end_ms": 1154
+        },
+        {
+          "lang": "ja",
+          "text": "道具",
+          "start_sample": 18457,
+          "end_sample": 24396,
+          "start_ms": 1154,
+          "end_ms": 1525
+        },
+        {
+          "lang": "en",
+          "text": "for leatherworking in a single battered tin box.",
+          "start_sample": 24396,
+          "end_sample": 94371,
+          "start_ms": 1525,
+          "end_ms": 5898
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 234,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

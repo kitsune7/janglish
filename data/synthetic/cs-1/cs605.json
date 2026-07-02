@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs605.flac",
+  "sentence": "She keeps her 布団 rolled up in the closet during the day to save space.",
+  "sample_rate": 16000,
+  "duration_ms": 3672,
+  "reference_speaker": "jp/speaker_072_6a4d94080268.mp3",
+  "seed": 647,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She keeps her",
+      "start_sample": 0,
+      "end_sample": 9111,
+      "start_ms": 0,
+      "end_ms": 569
+    },
+    {
+      "lang": "ja",
+      "text": "布団",
+      "start_sample": 9111,
+      "end_sample": 15118,
+      "start_ms": 569,
+      "end_ms": 945
+    },
+    {
+      "lang": "en",
+      "text": "rolled up in the closet during the day to save space.",
+      "start_sample": 15118,
+      "end_sample": 58745,
+      "start_ms": 945,
+      "end_ms": 3672
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She keeps her futon rolled up in the closet during the day to save space.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3773,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She keeps her",
+          "start_sample": 0,
+          "end_sample": 9311,
+          "start_ms": 0,
+          "end_ms": 582
+        },
+        {
+          "lang": "ja",
+          "text": "布団",
+          "start_sample": 9311,
+          "end_sample": 16536,
+          "start_ms": 582,
+          "end_ms": 1034
+        },
+        {
+          "lang": "en",
+          "text": "rolled up in the closet during the day to save space.",
+          "start_sample": 16536,
+          "end_sample": 60363,
+          "start_ms": 1034,
+          "end_ms": 3773
+        }
+      ]
+    },
+    "ja": {
+      "text": "She keeps her 布団 rolled up in the closet during the day to save space.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4305,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She keeps her",
+          "start_sample": 0,
+          "end_sample": 10412,
+          "start_ms": 0,
+          "end_ms": 651
+        },
+        {
+          "lang": "ja",
+          "text": "布団",
+          "start_sample": 10412,
+          "end_sample": 16819,
+          "start_ms": 651,
+          "end_ms": 1051
+        },
+        {
+          "lang": "en",
+          "text": "rolled up in the closet during the day to save space.",
+          "start_sample": 16819,
+          "end_sample": 68881,
+          "start_ms": 1051,
+          "end_ms": 4305
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 184,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5420.flac",
+  "sentence": "あのsceneの撮影はどこでしたんだろうと気になった。",
+  "sample_rate": 16000,
+  "duration_ms": 3750,
+  "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 5462,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの",
+      "start_sample": 0,
+      "end_sample": 3488,
+      "start_ms": 0,
+      "end_ms": 218
+    },
+    {
+      "lang": "en",
+      "text": "scene",
+      "start_sample": 3488,
+      "end_sample": 18639,
+      "start_ms": 218,
+      "end_ms": 1165
+    },
+    {
+      "lang": "ja",
+      "text": "の撮影はどこでしたんだろうと気になった。",
+      "start_sample": 18639,
+      "end_sample": 60001,
+      "start_ms": 1165,
+      "end_ms": 3750
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano scene no satsuei ha doko deshi ta n darou to ki ni natsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6974,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 5449,
+          "start_ms": 0,
+          "end_ms": 341
+        },
+        {
+          "lang": "en",
+          "text": "scene",
+          "start_sample": 5449,
+          "end_sample": 21000,
+          "start_ms": 341,
+          "end_ms": 1312
+        },
+        {
+          "lang": "ja",
+          "text": "の撮影はどこでしたんだろうと気になった。",
+          "start_sample": 21000,
+          "end_sample": 111578,
+          "start_ms": 1312,
+          "end_ms": 6974
+        }
+      ]
+    },
+    "ja": {
+      "text": "あのsceneの撮影はどこでしたんだろうと気になった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3109,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 3688,
+          "start_ms": 0,
+          "end_ms": 230
+        },
+        {
+          "lang": "en",
+          "text": "scene",
+          "start_sample": 3688,
+          "end_sample": 8182,
+          "start_ms": 230,
+          "end_ms": 511
+        },
+        {
+          "lang": "ja",
+          "text": "の撮影はどこでしたんだろうと気になった。",
+          "start_sample": 8182,
+          "end_sample": 49744,
+          "start_ms": 511,
+          "end_ms": 3109
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "jjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

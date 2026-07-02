@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11384.flac",
+  "sentence": "My favorite part is the 静寂 right before the final boss music kicks in.",
+  "sample_rate": 16000,
+  "duration_ms": 6290,
+  "reference_speaker": "en/speaker_059_8cc960ae4dc2.mp3",
+  "seed": 11426,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My favorite part is the",
+      "start_sample": 0,
+      "end_sample": 35533,
+      "start_ms": 0,
+      "end_ms": 2221
+    },
+    {
+      "lang": "ja",
+      "text": "静寂",
+      "start_sample": 35533,
+      "end_sample": 43474,
+      "start_ms": 2221,
+      "end_ms": 2717
+    },
+    {
+      "lang": "en",
+      "text": "right before the final boss music kicks in.",
+      "start_sample": 43474,
+      "end_sample": 100640,
+      "start_ms": 2717,
+      "end_ms": 6290
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My favorite part is the seijaku right before the final boss music kicks in.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6890,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My favorite part is the",
+          "start_sample": 0,
+          "end_sample": 35733,
+          "start_ms": 0,
+          "end_ms": 2233
+        },
+        {
+          "lang": "ja",
+          "text": "静寂",
+          "start_sample": 35733,
+          "end_sample": 52879,
+          "start_ms": 2233,
+          "end_ms": 3305
+        },
+        {
+          "lang": "en",
+          "text": "right before the final boss music kicks in.",
+          "start_sample": 52879,
+          "end_sample": 110245,
+          "start_ms": 3305,
+          "end_ms": 6890
+        }
+      ]
+    },
+    "ja": {
+      "text": "My favorite part is the 静寂 right before the final boss music kicks in.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6356,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My favorite part is the",
+          "start_sample": 0,
+          "end_sample": 37371,
+          "start_ms": 0,
+          "end_ms": 2336
+        },
+        {
+          "lang": "ja",
+          "text": "静寂",
+          "start_sample": 37371,
+          "end_sample": 45712,
+          "start_ms": 2336,
+          "end_ms": 2857
+        },
+        {
+          "lang": "en",
+          "text": "right before the final boss music kicks in.",
+          "start_sample": 45712,
+          "end_sample": 101688,
+          "start_ms": 2857,
+          "end_ms": 6356
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 315,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

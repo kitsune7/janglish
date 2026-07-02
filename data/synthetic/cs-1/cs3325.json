@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3325.flac",
+  "sentence": "病院のwaitingルームで二時間も待たされました。",
+  "sample_rate": 16000,
+  "duration_ms": 4044,
+  "reference_speaker": "en/speaker_088_9950f069efac.mp3",
+  "seed": 3367,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "病院の",
+      "start_sample": 0,
+      "end_sample": 9284,
+      "start_ms": 0,
+      "end_ms": 580
+    },
+    {
+      "lang": "en",
+      "text": "waiting",
+      "start_sample": 9284,
+      "end_sample": 30187,
+      "start_ms": 580,
+      "end_ms": 1887
+    },
+    {
+      "lang": "ja",
+      "text": "ルームで二時間も待たされました。",
+      "start_sample": 30187,
+      "end_sample": 64708,
+      "start_ms": 1887,
+      "end_ms": 4044
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "byouin no waiting ruumu de ni jikan mo matasa re mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8109,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "病院の",
+          "start_sample": 0,
+          "end_sample": 41166,
+          "start_ms": 0,
+          "end_ms": 2573
+        },
+        {
+          "lang": "en",
+          "text": "waiting",
+          "start_sample": 41166,
+          "end_sample": 62469,
+          "start_ms": 2573,
+          "end_ms": 3904
+        },
+        {
+          "lang": "ja",
+          "text": "ルームで二時間も待たされました。",
+          "start_sample": 62469,
+          "end_sample": 129744,
+          "start_ms": 3904,
+          "end_ms": 8109
+        }
+      ]
+    },
+    "ja": {
+      "text": "病院のwaitingルームで二時間も待たされました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3376,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "病院の",
+          "start_sample": 0,
+          "end_sample": 9484,
+          "start_ms": 0,
+          "end_ms": 593
+        },
+        {
+          "lang": "en",
+          "text": "waiting",
+          "start_sample": 9484,
+          "end_sample": 19290,
+          "start_ms": 593,
+          "end_ms": 1206
+        },
+        {
+          "lang": "ja",
+          "text": "ルームで二時間も待たされました。",
+          "start_sample": 19290,
+          "end_sample": 54011,
+          "start_ms": 1206,
+          "end_ms": 3376
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

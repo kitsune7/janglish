@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9232.flac",
+  "sentence": "お風呂のgrout部分が黒ずんでいて、なかなか落ちません。",
+  "sample_rate": 16000,
+  "duration_ms": 5166,
+  "reference_speaker": "en/speaker_031_dcac4ff5a983.mp3",
+  "seed": 9274,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "お風呂の",
+      "start_sample": 0,
+      "end_sample": 9266,
+      "start_ms": 0,
+      "end_ms": 579
+    },
+    {
+      "lang": "en",
+      "text": "grout",
+      "start_sample": 9266,
+      "end_sample": 23464,
+      "start_ms": 579,
+      "end_ms": 1466
+    },
+    {
+      "lang": "ja",
+      "text": "部分が黒ずんでいて、なかなか落ちません。",
+      "start_sample": 23464,
+      "end_sample": 82649,
+      "start_ms": 1466,
+      "end_ms": 5166
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "o furo no grout bubun ga kurozun de i te nakanaka ochi mase n",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7419,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お風呂の",
+          "start_sample": 0,
+          "end_sample": 29035,
+          "start_ms": 0,
+          "end_ms": 1815
+        },
+        {
+          "lang": "en",
+          "text": "grout",
+          "start_sample": 29035,
+          "end_sample": 43633,
+          "start_ms": 1815,
+          "end_ms": 2727
+        },
+        {
+          "lang": "ja",
+          "text": "部分が黒ずんでいて、なかなか落ちません。",
+          "start_sample": 43633,
+          "end_sample": 118711,
+          "start_ms": 2727,
+          "end_ms": 7419
+        }
+      ]
+    },
+    "ja": {
+      "text": "お風呂のgrout部分が黒ずんでいて、なかなか落ちません。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4915,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お風呂の",
+          "start_sample": 0,
+          "end_sample": 9466,
+          "start_ms": 0,
+          "end_ms": 592
+        },
+        {
+          "lang": "en",
+          "text": "grout",
+          "start_sample": 9466,
+          "end_sample": 19257,
+          "start_ms": 592,
+          "end_ms": 1204
+        },
+        {
+          "lang": "ja",
+          "text": "部分が黒ずんでいて、なかなか落ちません。",
+          "start_sample": 19257,
+          "end_sample": 78642,
+          "start_ms": 1204,
+          "end_ms": 4915
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 259,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

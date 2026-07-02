@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs6705.flac",
+  "sentence": "fraudの被害に遭った場合はすぐに銀行に連絡してください。",
+  "sample_rate": 16000,
+  "duration_ms": 4159,
+  "reference_speaker": "en/speaker_026_a41b49f8d6ee.mp3",
+  "seed": 6747,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "fraud",
+      "start_sample": 0,
+      "end_sample": 13250,
+      "start_ms": 0,
+      "end_ms": 828
+    },
+    {
+      "lang": "ja",
+      "text": "の被害に遭った場合はすぐに銀行に連絡してください。",
+      "start_sample": 13250,
+      "end_sample": 66542,
+      "start_ms": 828,
+      "end_ms": 4159
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "fraud no higai ni atsu ta baai ha sugu ni ginkou ni renraku shi te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10028,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "fraud",
+          "start_sample": 0,
+          "end_sample": 13450,
+          "start_ms": 0,
+          "end_ms": 841
+        },
+        {
+          "lang": "ja",
+          "text": "の被害に遭った場合はすぐに銀行に連絡してください。",
+          "start_sample": 13450,
+          "end_sample": 160444,
+          "start_ms": 841,
+          "end_ms": 10028
+        }
+      ]
+    },
+    "ja": {
+      "text": "fraudの被害に遭った場合はすぐに銀行に連絡してください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3574,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "fraud",
+          "start_sample": 0,
+          "end_sample": 3694,
+          "start_ms": 0,
+          "end_ms": 231
+        },
+        {
+          "lang": "ja",
+          "text": "の被害に遭った場合はすぐに銀行に連絡してください。",
+          "start_sample": 3694,
+          "end_sample": 57186,
+          "start_ms": 231,
+          "end_ms": 3574
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

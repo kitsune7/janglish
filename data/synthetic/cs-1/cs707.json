@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs707.flac",
+  "sentence": "眉毛をthreadingで整えてもらいました。",
+  "sample_rate": 16000,
+  "duration_ms": 2698,
+  "reference_speaker": "jp/speaker_046_38f0b7b27586.mp3",
+  "seed": 749,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "眉毛を",
+      "start_sample": 0,
+      "end_sample": 8789,
+      "start_ms": 0,
+      "end_ms": 549
+    },
+    {
+      "lang": "en",
+      "text": "threading",
+      "start_sample": 8789,
+      "end_sample": 23783,
+      "start_ms": 549,
+      "end_ms": 1486
+    },
+    {
+      "lang": "ja",
+      "text": "で整えてもらいました。",
+      "start_sample": 23783,
+      "end_sample": 43171,
+      "start_ms": 1486,
+      "end_ms": 2698
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mayuge wo threading de totonoe te morai mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7476,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "眉毛を",
+          "start_sample": 0,
+          "end_sample": 45220,
+          "start_ms": 0,
+          "end_ms": 2826
+        },
+        {
+          "lang": "en",
+          "text": "threading",
+          "start_sample": 45220,
+          "end_sample": 60614,
+          "start_ms": 2826,
+          "end_ms": 3788
+        },
+        {
+          "lang": "ja",
+          "text": "で整えてもらいました。",
+          "start_sample": 60614,
+          "end_sample": 119623,
+          "start_ms": 3788,
+          "end_ms": 7476
+        }
+      ]
+    },
+    "ja": {
+      "text": "眉毛をthreadingで整えてもらいました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2348,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "眉毛を",
+          "start_sample": 0,
+          "end_sample": 8989,
+          "start_ms": 0,
+          "end_ms": 562
+        },
+        {
+          "lang": "en",
+          "text": "threading",
+          "start_sample": 8989,
+          "end_sample": 17982,
+          "start_ms": 562,
+          "end_ms": 1124
+        },
+        {
+          "lang": "ja",
+          "text": "で整えてもらいました。",
+          "start_sample": 17982,
+          "end_sample": 37570,
+          "start_ms": 1124,
+          "end_ms": 2348
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 135,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

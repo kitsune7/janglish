@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2936.flac",
+  "sentence": "Even a small 素描 by that master sells for millions at auction.",
+  "sample_rate": 16000,
+  "duration_ms": 3688,
+  "reference_speaker": "jp/speaker_083_f660ed2250be.mp3",
+  "seed": 2978,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Even a small",
+      "start_sample": 0,
+      "end_sample": 12788,
+      "start_ms": 0,
+      "end_ms": 799
+    },
+    {
+      "lang": "ja",
+      "text": "素描",
+      "start_sample": 12788,
+      "end_sample": 17679,
+      "start_ms": 799,
+      "end_ms": 1105
+    },
+    {
+      "lang": "en",
+      "text": "by that master sells for millions at auction.",
+      "start_sample": 17679,
+      "end_sample": 59009,
+      "start_ms": 1105,
+      "end_ms": 3688
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Even a small sobyou by that master sells for millions at auction.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3888,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Even a small",
+          "start_sample": 0,
+          "end_sample": 12988,
+          "start_ms": 0,
+          "end_ms": 812
+        },
+        {
+          "lang": "ja",
+          "text": "素描",
+          "start_sample": 12988,
+          "end_sample": 20684,
+          "start_ms": 812,
+          "end_ms": 1293
+        },
+        {
+          "lang": "en",
+          "text": "by that master sells for millions at auction.",
+          "start_sample": 20684,
+          "end_sample": 62214,
+          "start_ms": 1293,
+          "end_ms": 3888
+        }
+      ]
+    },
+    "ja": {
+      "text": "Even a small 素描 by that master sells for millions at auction.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3728,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Even a small",
+          "start_sample": 0,
+          "end_sample": 14269,
+          "start_ms": 0,
+          "end_ms": 892
+        },
+        {
+          "lang": "ja",
+          "text": "素描",
+          "start_sample": 14269,
+          "end_sample": 19560,
+          "start_ms": 892,
+          "end_ms": 1222
+        },
+        {
+          "lang": "en",
+          "text": "by that master sells for millions at auction.",
+          "start_sample": 19560,
+          "end_sample": 59643,
+          "start_ms": 1222,
+          "end_ms": 3728
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 185,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3584.flac",
+  "sentence": "去年のクリスマスはとてもsnowで道が凍っていました。",
+  "sample_rate": 16000,
+  "duration_ms": 3034,
+  "reference_speaker": "jp/speaker_087_849529715d29.mp3",
+  "seed": 3626,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "去年のクリスマスはとても",
+      "start_sample": 0,
+      "end_sample": 20223,
+      "start_ms": 0,
+      "end_ms": 1264
+    },
+    {
+      "lang": "en",
+      "text": "snow",
+      "start_sample": 20223,
+      "end_sample": 27682,
+      "start_ms": 1264,
+      "end_ms": 1730
+    },
+    {
+      "lang": "ja",
+      "text": "で道が凍っていました。",
+      "start_sample": 27682,
+      "end_sample": 48545,
+      "start_ms": 1730,
+      "end_ms": 3034
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyonen no kurisumasu ha totemo snow de michi ga kogotsu te i mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8822,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "去年のクリスマスはとても",
+          "start_sample": 0,
+          "end_sample": 55981,
+          "start_ms": 0,
+          "end_ms": 3499
+        },
+        {
+          "lang": "en",
+          "text": "snow",
+          "start_sample": 55981,
+          "end_sample": 63840,
+          "start_ms": 3499,
+          "end_ms": 3990
+        },
+        {
+          "lang": "ja",
+          "text": "で道が凍っていました。",
+          "start_sample": 63840,
+          "end_sample": 141153,
+          "start_ms": 3990,
+          "end_ms": 8822
+        }
+      ]
+    },
+    "ja": {
+      "text": "去年のクリスマスはとてもsnowで道が凍っていました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2874,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "去年のクリスマスはとても",
+          "start_sample": 0,
+          "end_sample": 20423,
+          "start_ms": 0,
+          "end_ms": 1276
+        },
+        {
+          "lang": "en",
+          "text": "snow",
+          "start_sample": 20423,
+          "end_sample": 24927,
+          "start_ms": 1276,
+          "end_ms": 1558
+        },
+        {
+          "lang": "ja",
+          "text": "で道が凍っていました。",
+          "start_sample": 24927,
+          "end_sample": 45990,
+          "start_ms": 1558,
+          "end_ms": 2874
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 152,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

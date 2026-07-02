@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs444.flac",
+  "sentence": "The new vaccine rollout was described as 迅速 by health officials, and early data suggests a high 有効率.",
+  "sample_rate": 16000,
+  "duration_ms": 6888,
+  "reference_speaker": "en/speaker_096_4389a887e640.mp3",
+  "seed": 17299,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The new vaccine rollout was described as",
+      "start_sample": 0,
+      "end_sample": 36834,
+      "start_ms": 0,
+      "end_ms": 2302
+    },
+    {
+      "lang": "ja",
+      "text": "迅速",
+      "start_sample": 36834,
+      "end_sample": 43966,
+      "start_ms": 2302,
+      "end_ms": 2748
+    },
+    {
+      "lang": "en",
+      "text": "by health officials, and early data suggests a high",
+      "start_sample": 43966,
+      "end_sample": 101282,
+      "start_ms": 2748,
+      "end_ms": 6330
+    },
+    {
+      "lang": "ja",
+      "text": "有効率.",
+      "start_sample": 101282,
+      "end_sample": 110215,
+      "start_ms": 6330,
+      "end_ms": 6888
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The new vaccine rollout was described as jinsoku by health officials, and early data suggests a high yuukou ritsu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7756,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new vaccine rollout was described as",
+          "start_sample": 0,
+          "end_sample": 37034,
+          "start_ms": 0,
+          "end_ms": 2315
+        },
+        {
+          "lang": "ja",
+          "text": "迅速",
+          "start_sample": 37034,
+          "end_sample": 51303,
+          "start_ms": 2315,
+          "end_ms": 3206
+        },
+        {
+          "lang": "en",
+          "text": "by health officials, and early data suggests a high",
+          "start_sample": 51303,
+          "end_sample": 109019,
+          "start_ms": 3206,
+          "end_ms": 6814
+        },
+        {
+          "lang": "ja",
+          "text": "有効率.",
+          "start_sample": 109019,
+          "end_sample": 124088,
+          "start_ms": 6814,
+          "end_ms": 7756
+        }
+      ]
+    },
+    "ja": {
+      "text": "The new vaccine rollout was described as 迅速 by health officials, and early data suggests a high 有効率.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7992,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new vaccine rollout was described as",
+          "start_sample": 0,
+          "end_sample": 51916,
+          "start_ms": 0,
+          "end_ms": 3245
+        },
+        {
+          "lang": "ja",
+          "text": "迅速",
+          "start_sample": 51916,
+          "end_sample": 59448,
+          "start_ms": 3245,
+          "end_ms": 3716
+        },
+        {
+          "lang": "en",
+          "text": "by health officials, and early data suggests a high",
+          "start_sample": 59448,
+          "end_sample": 118736,
+          "start_ms": 3716,
+          "end_ms": 7421
+        },
+        {
+          "lang": "ja",
+          "text": "有効率.",
+          "start_sample": 118736,
+          "end_sample": 127869,
+          "start_ms": 7421,
+          "end_ms": 7992
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 345,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

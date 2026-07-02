@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10256.flac",
+  "sentence": "We shipped the order 翌日 so it should reach you by tomorrow evening.",
+  "sample_rate": 16000,
+  "duration_ms": 3629,
+  "reference_speaker": "en/speaker_007_70c21ca1cc3d.mp3",
+  "seed": 10298,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We shipped the order",
+      "start_sample": 0,
+      "end_sample": 14235,
+      "start_ms": 0,
+      "end_ms": 890
+    },
+    {
+      "lang": "ja",
+      "text": "翌日",
+      "start_sample": 14235,
+      "end_sample": 24415,
+      "start_ms": 890,
+      "end_ms": 1526
+    },
+    {
+      "lang": "en",
+      "text": "so it should reach you by tomorrow evening.",
+      "start_sample": 24415,
+      "end_sample": 58057,
+      "start_ms": 1526,
+      "end_ms": 3629
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We shipped the order yokujitsu so it should reach you by tomorrow evening.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3809,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We shipped the order",
+          "start_sample": 0,
+          "end_sample": 14435,
+          "start_ms": 0,
+          "end_ms": 902
+        },
+        {
+          "lang": "ja",
+          "text": "翌日",
+          "start_sample": 14435,
+          "end_sample": 27107,
+          "start_ms": 902,
+          "end_ms": 1694
+        },
+        {
+          "lang": "en",
+          "text": "so it should reach you by tomorrow evening.",
+          "start_sample": 27107,
+          "end_sample": 60949,
+          "start_ms": 1694,
+          "end_ms": 3809
+        }
+      ]
+    },
+    "ja": {
+      "text": "We shipped the order 翌日 so it should reach you by tomorrow evening.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4207,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We shipped the order",
+          "start_sample": 0,
+          "end_sample": 18592,
+          "start_ms": 0,
+          "end_ms": 1162
+        },
+        {
+          "lang": "ja",
+          "text": "翌日",
+          "start_sample": 18592,
+          "end_sample": 29172,
+          "start_ms": 1162,
+          "end_ms": 1823
+        },
+        {
+          "lang": "en",
+          "text": "so it should reach you by tomorrow evening.",
+          "start_sample": 29172,
+          "end_sample": 67319,
+          "start_ms": 1823,
+          "end_ms": 4207
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 182,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

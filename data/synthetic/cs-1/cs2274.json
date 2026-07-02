@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2274.flac",
+  "sentence": "庭のshedに古い道具がたくさん入っている。",
+  "sample_rate": 16000,
+  "duration_ms": 3340,
+  "reference_speaker": "jp/speaker_047_6ac706d7456d.mp3",
+  "seed": 2316,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "庭の",
+      "start_sample": 0,
+      "end_sample": 5443,
+      "start_ms": 0,
+      "end_ms": 340
+    },
+    {
+      "lang": "en",
+      "text": "shed",
+      "start_sample": 5443,
+      "end_sample": 19946,
+      "start_ms": 340,
+      "end_ms": 1247
+    },
+    {
+      "lang": "ja",
+      "text": "に古い道具がたくさん入っている。",
+      "start_sample": 19946,
+      "end_sample": 53440,
+      "start_ms": 1247,
+      "end_ms": 3340
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "niwa no shed ni furui dougu ga takusan itsutsu te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9034,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "庭の",
+          "start_sample": 0,
+          "end_sample": 26441,
+          "start_ms": 0,
+          "end_ms": 1653
+        },
+        {
+          "lang": "en",
+          "text": "shed",
+          "start_sample": 26441,
+          "end_sample": 41344,
+          "start_ms": 1653,
+          "end_ms": 2584
+        },
+        {
+          "lang": "ja",
+          "text": "に古い道具がたくさん入っている。",
+          "start_sample": 41344,
+          "end_sample": 144548,
+          "start_ms": 2584,
+          "end_ms": 9034
+        }
+      ]
+    },
+    "ja": {
+      "text": "庭のshedに古い道具がたくさん入っている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2801,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "庭の",
+          "start_sample": 0,
+          "end_sample": 5643,
+          "start_ms": 0,
+          "end_ms": 353
+        },
+        {
+          "lang": "en",
+          "text": "shed",
+          "start_sample": 5643,
+          "end_sample": 11126,
+          "start_ms": 353,
+          "end_ms": 695
+        },
+        {
+          "lang": "ja",
+          "text": "に古い道具がたくさん入っている。",
+          "start_sample": 11126,
+          "end_sample": 44820,
+          "start_ms": 695,
+          "end_ms": 2801
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 167,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

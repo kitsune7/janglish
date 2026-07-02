@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1684.flac",
+  "sentence": "Can you check if the 駐車場 near the mall still has 空き?",
+  "sample_rate": 16000,
+  "duration_ms": 3720,
+  "reference_speaker": "jp/speaker_051_2b805c12b1e0.mp3",
+  "seed": 18539,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you check if the",
+      "start_sample": 0,
+      "end_sample": 16177,
+      "start_ms": 0,
+      "end_ms": 1011
+    },
+    {
+      "lang": "ja",
+      "text": "駐車場",
+      "start_sample": 16177,
+      "end_sample": 26071,
+      "start_ms": 1011,
+      "end_ms": 1629
+    },
+    {
+      "lang": "en",
+      "text": "near the mall still has",
+      "start_sample": 26071,
+      "end_sample": 55054,
+      "start_ms": 1629,
+      "end_ms": 3441
+    },
+    {
+      "lang": "ja",
+      "text": "空き?",
+      "start_sample": 55054,
+      "end_sample": 59514,
+      "start_ms": 3441,
+      "end_ms": 3720
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you check if the chuusha ba near the mall still has aki",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4476,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you check if the",
+          "start_sample": 0,
+          "end_sample": 16377,
+          "start_ms": 0,
+          "end_ms": 1024
+        },
+        {
+          "lang": "ja",
+          "text": "駐車場",
+          "start_sample": 16377,
+          "end_sample": 36287,
+          "start_ms": 1024,
+          "end_ms": 2268
+        },
+        {
+          "lang": "en",
+          "text": "near the mall still has",
+          "start_sample": 36287,
+          "end_sample": 65670,
+          "start_ms": 2268,
+          "end_ms": 4104
+        },
+        {
+          "lang": "ja",
+          "text": "空き?",
+          "start_sample": 65670,
+          "end_sample": 71608,
+          "start_ms": 4104,
+          "end_ms": 4476
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you check if the 駐車場 near the mall still has 空き?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4363,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you check if the",
+          "start_sample": 0,
+          "end_sample": 28470,
+          "start_ms": 0,
+          "end_ms": 1779
+        },
+        {
+          "lang": "ja",
+          "text": "駐車場",
+          "start_sample": 28470,
+          "end_sample": 38764,
+          "start_ms": 1779,
+          "end_ms": 2423
+        },
+        {
+          "lang": "en",
+          "text": "near the mall still has",
+          "start_sample": 38764,
+          "end_sample": 65143,
+          "start_ms": 2423,
+          "end_ms": 4071
+        },
+        {
+          "lang": "ja",
+          "text": "空き?",
+          "start_sample": 65143,
+          "end_sample": 69803,
+          "start_ms": 4071,
+          "end_ms": 4363
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 186,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjj"
+}

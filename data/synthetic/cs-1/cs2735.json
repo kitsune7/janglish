@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2735.flac",
+  "sentence": "I had to step outside because the 電波 in the building was terrible.",
+  "sample_rate": 16000,
+  "duration_ms": 3179,
+  "reference_speaker": "jp/speaker_088_9d72b694e145.mp3",
+  "seed": 2777,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I had to step outside because the",
+      "start_sample": 0,
+      "end_sample": 24285,
+      "start_ms": 0,
+      "end_ms": 1518
+    },
+    {
+      "lang": "ja",
+      "text": "電波",
+      "start_sample": 24285,
+      "end_sample": 31093,
+      "start_ms": 1518,
+      "end_ms": 1943
+    },
+    {
+      "lang": "en",
+      "text": "in the building was terrible.",
+      "start_sample": 31093,
+      "end_sample": 50867,
+      "start_ms": 1943,
+      "end_ms": 3179
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I had to step outside because the denpa in the building was terrible.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3161,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I had to step outside because the",
+          "start_sample": 0,
+          "end_sample": 24485,
+          "start_ms": 0,
+          "end_ms": 1530
+        },
+        {
+          "lang": "ja",
+          "text": "電波",
+          "start_sample": 24485,
+          "end_sample": 30607,
+          "start_ms": 1530,
+          "end_ms": 1913
+        },
+        {
+          "lang": "en",
+          "text": "in the building was terrible.",
+          "start_sample": 30607,
+          "end_sample": 50581,
+          "start_ms": 1913,
+          "end_ms": 3161
+        }
+      ]
+    },
+    "ja": {
+      "text": "I had to step outside because the 電波 in the building was terrible.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4245,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I had to step outside because the",
+          "start_sample": 0,
+          "end_sample": 35402,
+          "start_ms": 0,
+          "end_ms": 2213
+        },
+        {
+          "lang": "ja",
+          "text": "電波",
+          "start_sample": 35402,
+          "end_sample": 42610,
+          "start_ms": 2213,
+          "end_ms": 2663
+        },
+        {
+          "lang": "en",
+          "text": "in the building was terrible.",
+          "start_sample": 42610,
+          "end_sample": 67920,
+          "start_ms": 2663,
+          "end_ms": 4245
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

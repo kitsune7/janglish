@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10378.flac",
+  "sentence": "The 共用部 in our building is always spotless — someone clearly takes pride in it.",
+  "sample_rate": 16000,
+  "duration_ms": 5474,
+  "reference_speaker": "jp/speaker_063_0760e257c60c.mp3",
+  "seed": 10420,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 6857,
+      "start_ms": 0,
+      "end_ms": 429
+    },
+    {
+      "lang": "ja",
+      "text": "共用部",
+      "start_sample": 6857,
+      "end_sample": 15608,
+      "start_ms": 429,
+      "end_ms": 976
+    },
+    {
+      "lang": "en",
+      "text": "in our building is always spotless — someone clearly takes pride in it.",
+      "start_sample": 15608,
+      "end_sample": 87592,
+      "start_ms": 976,
+      "end_ms": 5474
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kyouyou bu in our building is always spotless — someone clearly takes pride in it.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6035,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 7057,
+          "start_ms": 0,
+          "end_ms": 441
+        },
+        {
+          "lang": "ja",
+          "text": "共用部",
+          "start_sample": 7057,
+          "end_sample": 24383,
+          "start_ms": 441,
+          "end_ms": 1524
+        },
+        {
+          "lang": "en",
+          "text": "in our building is always spotless — someone clearly takes pride in it.",
+          "start_sample": 24383,
+          "end_sample": 96567,
+          "start_ms": 1524,
+          "end_ms": 6035
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 共用部 in our building is always spotless — someone clearly takes pride in it.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4996,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2725,
+          "start_ms": 0,
+          "end_ms": 170
+        },
+        {
+          "lang": "ja",
+          "text": "共用部",
+          "start_sample": 2725,
+          "end_sample": 11876,
+          "start_ms": 170,
+          "end_ms": 742
+        },
+        {
+          "lang": "en",
+          "text": "in our building is always spotless — someone clearly takes pride in it.",
+          "start_sample": 11876,
+          "end_sample": 79938,
+          "start_ms": 742,
+          "end_ms": 4996
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 274,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

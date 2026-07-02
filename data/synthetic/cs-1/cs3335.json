@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3335.flac",
+  "sentence": "このsupplementは鉄分と亜鉛が豊富に含まれています。",
+  "sample_rate": 16000,
+  "duration_ms": 3677,
+  "reference_speaker": "jp/speaker_100_5a2cde56c3f2.mp3",
+  "seed": 3377,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 4446,
+      "start_ms": 0,
+      "end_ms": 278
+    },
+    {
+      "lang": "en",
+      "text": "supplement",
+      "start_sample": 4446,
+      "end_sample": 19930,
+      "start_ms": 278,
+      "end_ms": 1246
+    },
+    {
+      "lang": "ja",
+      "text": "は鉄分と亜鉛が豊富に含まれています。",
+      "start_sample": 19930,
+      "end_sample": 58839,
+      "start_ms": 1246,
+      "end_ms": 3677
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono supplement ha tetsubun to aen ga houfu ni fukuma re te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6538,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 8501,
+          "start_ms": 0,
+          "end_ms": 531
+        },
+        {
+          "lang": "en",
+          "text": "supplement",
+          "start_sample": 8501,
+          "end_sample": 24385,
+          "start_ms": 531,
+          "end_ms": 1524
+        },
+        {
+          "lang": "ja",
+          "text": "は鉄分と亜鉛が豊富に含まれています。",
+          "start_sample": 24385,
+          "end_sample": 104604,
+          "start_ms": 1524,
+          "end_ms": 6538
+        }
+      ]
+    },
+    "ja": {
+      "text": "このsupplementは鉄分と亜鉛が豊富に含まれています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3386,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4646,
+          "start_ms": 0,
+          "end_ms": 290
+        },
+        {
+          "lang": "en",
+          "text": "supplement",
+          "start_sample": 4646,
+          "end_sample": 15065,
+          "start_ms": 290,
+          "end_ms": 942
+        },
+        {
+          "lang": "ja",
+          "text": "は鉄分と亜鉛が豊富に含まれています。",
+          "start_sample": 15065,
+          "end_sample": 54174,
+          "start_ms": 942,
+          "end_ms": 3386
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 184,
+  "frame_labels": "jjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

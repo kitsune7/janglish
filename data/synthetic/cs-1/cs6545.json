@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6545.flac",
+  "sentence": "She described the book as 深い, and honestly that one word is the perfect review.",
+  "sample_rate": 16000,
+  "duration_ms": 5544,
+  "reference_speaker": "jp/speaker_097_1c56b79c3d3b.mp3",
+  "seed": 6587,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She described the book as",
+      "start_sample": 0,
+      "end_sample": 18568,
+      "start_ms": 0,
+      "end_ms": 1160
+    },
+    {
+      "lang": "ja",
+      "text": "深い,",
+      "start_sample": 18568,
+      "end_sample": 29389,
+      "start_ms": 1160,
+      "end_ms": 1837
+    },
+    {
+      "lang": "en",
+      "text": "and honestly that one word is the perfect review.",
+      "start_sample": 29389,
+      "end_sample": 88701,
+      "start_ms": 1837,
+      "end_ms": 5544
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She described the book as fukai and honestly that one word is the perfect review.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5935,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She described the book as",
+          "start_sample": 0,
+          "end_sample": 18768,
+          "start_ms": 0,
+          "end_ms": 1173
+        },
+        {
+          "lang": "ja",
+          "text": "深い,",
+          "start_sample": 18768,
+          "end_sample": 35451,
+          "start_ms": 1173,
+          "end_ms": 2216
+        },
+        {
+          "lang": "en",
+          "text": "and honestly that one word is the perfect review.",
+          "start_sample": 35451,
+          "end_sample": 94963,
+          "start_ms": 2216,
+          "end_ms": 5935
+        }
+      ]
+    },
+    "ja": {
+      "text": "She described the book as 深い, and honestly that one word is the perfect review.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7894,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She described the book as",
+          "start_sample": 0,
+          "end_sample": 50329,
+          "start_ms": 0,
+          "end_ms": 3146
+        },
+        {
+          "lang": "ja",
+          "text": "深い,",
+          "start_sample": 50329,
+          "end_sample": 61550,
+          "start_ms": 3146,
+          "end_ms": 3847
+        },
+        {
+          "lang": "en",
+          "text": "and honestly that one word is the perfect review.",
+          "start_sample": 61550,
+          "end_sample": 126306,
+          "start_ms": 3847,
+          "end_ms": 7894
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 278,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

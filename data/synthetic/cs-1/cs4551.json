@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4551.flac",
+  "sentence": "The 会社 announced a new hybrid work policy this morning.",
+  "sample_rate": 16000,
+  "duration_ms": 3534,
+  "reference_speaker": "en/speaker_051_36aa24c8ddec.mp3",
+  "seed": 4593,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1085,
+      "start_ms": 0,
+      "end_ms": 68
+    },
+    {
+      "lang": "ja",
+      "text": "会社",
+      "start_sample": 1085,
+      "end_sample": 13176,
+      "start_ms": 68,
+      "end_ms": 824
+    },
+    {
+      "lang": "en",
+      "text": "announced a new hybrid work policy this morning.",
+      "start_sample": 13176,
+      "end_sample": 56543,
+      "start_ms": 824,
+      "end_ms": 3534
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kaisha announced a new hybrid work policy this morning.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3195,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1285,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "会社",
+          "start_sample": 1285,
+          "end_sample": 7556,
+          "start_ms": 80,
+          "end_ms": 472
+        },
+        {
+          "lang": "en",
+          "text": "announced a new hybrid work policy this morning.",
+          "start_sample": 7556,
+          "end_sample": 51123,
+          "start_ms": 472,
+          "end_ms": 3195
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 会社 announced a new hybrid work policy this morning.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7026,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5124,
+          "start_ms": 0,
+          "end_ms": 320
+        },
+        {
+          "lang": "ja",
+          "text": "会社",
+          "start_sample": 5124,
+          "end_sample": 17615,
+          "start_ms": 320,
+          "end_ms": 1101
+        },
+        {
+          "lang": "en",
+          "text": "announced a new hybrid work policy this morning.",
+          "start_sample": 17615,
+          "end_sample": 112424,
+          "start_ms": 1101,
+          "end_ms": 7026
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3403.flac",
+  "sentence": "レジのqueueが長すぎて、別のレーンに移ったよ。",
+  "sample_rate": 16000,
+  "duration_ms": 3178,
+  "reference_speaker": "en/speaker_023_9d57aeaf822c.mp3",
+  "seed": 3445,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "レジの",
+      "start_sample": 0,
+      "end_sample": 7661,
+      "start_ms": 0,
+      "end_ms": 479
+    },
+    {
+      "lang": "en",
+      "text": "queue",
+      "start_sample": 7661,
+      "end_sample": 14146,
+      "start_ms": 479,
+      "end_ms": 884
+    },
+    {
+      "lang": "ja",
+      "text": "が長すぎて、別のレーンに移ったよ。",
+      "start_sample": 14146,
+      "end_sample": 50854,
+      "start_ms": 884,
+      "end_ms": 3178
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "reji no queue ga chou sugi te betsu no reen ni utsutsu ta yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8666,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "レジの",
+          "start_sample": 0,
+          "end_sample": 10567,
+          "start_ms": 0,
+          "end_ms": 660
+        },
+        {
+          "lang": "en",
+          "text": "queue",
+          "start_sample": 10567,
+          "end_sample": 17452,
+          "start_ms": 660,
+          "end_ms": 1091
+        },
+        {
+          "lang": "ja",
+          "text": "が長すぎて、別のレーンに移ったよ。",
+          "start_sample": 17452,
+          "end_sample": 138663,
+          "start_ms": 1091,
+          "end_ms": 8666
+        }
+      ]
+    },
+    "ja": {
+      "text": "レジのqueueが長すぎて、別のレーンに移ったよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3089,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "レジの",
+          "start_sample": 0,
+          "end_sample": 7861,
+          "start_ms": 0,
+          "end_ms": 491
+        },
+        {
+          "lang": "en",
+          "text": "queue",
+          "start_sample": 7861,
+          "end_sample": 12515,
+          "start_ms": 491,
+          "end_ms": 782
+        },
+        {
+          "lang": "ja",
+          "text": "が長すぎて、別のレーンに移ったよ。",
+          "start_sample": 12515,
+          "end_sample": 49423,
+          "start_ms": 782,
+          "end_ms": 3089
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

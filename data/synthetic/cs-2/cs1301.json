@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1301.flac",
+  "sentence": "The 浴槽 took the most effort, but the result had real 満足感.",
+  "sample_rate": 16000,
+  "duration_ms": 5113,
+  "reference_speaker": "en/speaker_065_22dd21ffb5a9.mp3",
+  "seed": 18156,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1406,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "浴槽",
+      "start_sample": 1406,
+      "end_sample": 13187,
+      "start_ms": 88,
+      "end_ms": 824
+    },
+    {
+      "lang": "en",
+      "text": "took the most effort, but the result had real",
+      "start_sample": 13187,
+      "end_sample": 69668,
+      "start_ms": 824,
+      "end_ms": 4354
+    },
+    {
+      "lang": "ja",
+      "text": "満足感.",
+      "start_sample": 69668,
+      "end_sample": 81807,
+      "start_ms": 4354,
+      "end_ms": 5113
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The yokusou took the most effort, but the result had real manzoku kan",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5503,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1606,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "浴槽",
+          "start_sample": 1606,
+          "end_sample": 12050,
+          "start_ms": 100,
+          "end_ms": 753
+        },
+        {
+          "lang": "en",
+          "text": "took the most effort, but the result had real",
+          "start_sample": 12050,
+          "end_sample": 68931,
+          "start_ms": 753,
+          "end_ms": 4308
+        },
+        {
+          "lang": "ja",
+          "text": "満足感.",
+          "start_sample": 68931,
+          "end_sample": 88049,
+          "start_ms": 4308,
+          "end_ms": 5503
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 浴槽 took the most effort, but the result had real 満足感.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6772,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6409,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "ja",
+          "text": "浴槽",
+          "start_sample": 6409,
+          "end_sample": 18590,
+          "start_ms": 401,
+          "end_ms": 1162
+        },
+        {
+          "lang": "en",
+          "text": "took the most effort, but the result had real",
+          "start_sample": 18590,
+          "end_sample": 96005,
+          "start_ms": 1162,
+          "end_ms": 6000
+        },
+        {
+          "lang": "ja",
+          "text": "満足感.",
+          "start_sample": 96005,
+          "end_sample": 108344,
+          "start_ms": 6000,
+          "end_ms": 6772
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 256,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

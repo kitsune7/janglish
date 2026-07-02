@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs399.flac",
+  "sentence": "Going 南 from the plaza brings you to the 市場, which is hard to miss.",
+  "sample_rate": 16000,
+  "duration_ms": 4499,
+  "reference_speaker": "jp/speaker_020_8ca1bbc6858e.mp3",
+  "seed": 17254,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Going",
+      "start_sample": 0,
+      "end_sample": 3964,
+      "start_ms": 0,
+      "end_ms": 248
+    },
+    {
+      "lang": "ja",
+      "text": "南",
+      "start_sample": 3964,
+      "end_sample": 11274,
+      "start_ms": 248,
+      "end_ms": 705
+    },
+    {
+      "lang": "en",
+      "text": "from the plaza brings you to the",
+      "start_sample": 11274,
+      "end_sample": 44515,
+      "start_ms": 705,
+      "end_ms": 2782
+    },
+    {
+      "lang": "ja",
+      "text": "市場,",
+      "start_sample": 44515,
+      "end_sample": 56001,
+      "start_ms": 2782,
+      "end_ms": 3500
+    },
+    {
+      "lang": "en",
+      "text": "which is hard to miss.",
+      "start_sample": 56001,
+      "end_sample": 71980,
+      "start_ms": 3500,
+      "end_ms": 4499
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Going minami from the plaza brings you to the shijou which is hard to miss.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4325,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Going",
+          "start_sample": 0,
+          "end_sample": 4164,
+          "start_ms": 0,
+          "end_ms": 260
+        },
+        {
+          "lang": "ja",
+          "text": "南",
+          "start_sample": 4164,
+          "end_sample": 12494,
+          "start_ms": 260,
+          "end_ms": 781
+        },
+        {
+          "lang": "en",
+          "text": "from the plaza brings you to the",
+          "start_sample": 12494,
+          "end_sample": 46135,
+          "start_ms": 781,
+          "end_ms": 2883
+        },
+        {
+          "lang": "ja",
+          "text": "市場,",
+          "start_sample": 46135,
+          "end_sample": 53023,
+          "start_ms": 2883,
+          "end_ms": 3314
+        },
+        {
+          "lang": "en",
+          "text": "which is hard to miss.",
+          "start_sample": 53023,
+          "end_sample": 69202,
+          "start_ms": 3314,
+          "end_ms": 4325
+        }
+      ]
+    },
+    "ja": {
+      "text": "Going 南 from the plaza brings you to the 市場, which is hard to miss.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5762,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Going",
+          "start_sample": 0,
+          "end_sample": 6264,
+          "start_ms": 0,
+          "end_ms": 392
+        },
+        {
+          "lang": "ja",
+          "text": "南",
+          "start_sample": 6264,
+          "end_sample": 13974,
+          "start_ms": 392,
+          "end_ms": 873
+        },
+        {
+          "lang": "en",
+          "text": "from the plaza brings you to the",
+          "start_sample": 13974,
+          "end_sample": 55737,
+          "start_ms": 873,
+          "end_ms": 3484
+        },
+        {
+          "lang": "ja",
+          "text": "市場,",
+          "start_sample": 55737,
+          "end_sample": 67623,
+          "start_ms": 3484,
+          "end_ms": 4226
+        },
+        {
+          "lang": "en",
+          "text": "which is hard to miss.",
+          "start_sample": 67623,
+          "end_sample": 92196,
+          "start_ms": 4226,
+          "end_ms": 5762
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "eeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

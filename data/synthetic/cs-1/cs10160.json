@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs10160.flac",
+  "sentence": "woodworkingはとても集中力が必要な趣味だと思います。",
+  "sample_rate": 16000,
+  "duration_ms": 4284,
+  "reference_speaker": "jp/speaker_049_435108c1173c.mp3",
+  "seed": 10202,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "woodworking",
+      "start_sample": 0,
+      "end_sample": 16483,
+      "start_ms": 0,
+      "end_ms": 1030
+    },
+    {
+      "lang": "ja",
+      "text": "はとても集中力が必要な趣味だと思います。",
+      "start_sample": 16483,
+      "end_sample": 68543,
+      "start_ms": 1030,
+      "end_ms": 4284
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "woodworking ha totemo shuuchuu chikara ga hitsuyou na shumi da to omoi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7339,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "woodworking",
+          "start_sample": 0,
+          "end_sample": 16683,
+          "start_ms": 0,
+          "end_ms": 1043
+        },
+        {
+          "lang": "ja",
+          "text": "はとても集中力が必要な趣味だと思います。",
+          "start_sample": 16683,
+          "end_sample": 117429,
+          "start_ms": 1043,
+          "end_ms": 7339
+        }
+      ]
+    },
+    "ja": {
+      "text": "woodworkingはとても集中力が必要な趣味だと思います。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4008,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "woodworking",
+          "start_sample": 0,
+          "end_sample": 11862,
+          "start_ms": 0,
+          "end_ms": 741
+        },
+        {
+          "lang": "ja",
+          "text": "はとても集中力が必要な趣味だと思います。",
+          "start_sample": 11862,
+          "end_sample": 64122,
+          "start_ms": 741,
+          "end_ms": 4008
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 215,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3625.flac",
+  "sentence": "彼女はallergy持ちなので、花粉の季節がつらそうです。",
+  "sample_rate": 16000,
+  "duration_ms": 3839,
+  "reference_speaker": "en/speaker_069_688632e24cd4.mp3",
+  "seed": 3667,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は",
+      "start_sample": 0,
+      "end_sample": 7680,
+      "start_ms": 0,
+      "end_ms": 480
+    },
+    {
+      "lang": "en",
+      "text": "allergy",
+      "start_sample": 7680,
+      "end_sample": 16274,
+      "start_ms": 480,
+      "end_ms": 1017
+    },
+    {
+      "lang": "ja",
+      "text": "持ちなので、花粉の季節がつらそうです。",
+      "start_sample": 16274,
+      "end_sample": 61421,
+      "start_ms": 1017,
+      "end_ms": 3839
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha allergy mochi na no de kafun no kisetsu ga tsura sou desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5782,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 18472,
+          "start_ms": 0,
+          "end_ms": 1154
+        },
+        {
+          "lang": "en",
+          "text": "allergy",
+          "start_sample": 18472,
+          "end_sample": 27466,
+          "start_ms": 1154,
+          "end_ms": 1717
+        },
+        {
+          "lang": "ja",
+          "text": "持ちなので、花粉の季節がつらそうです。",
+          "start_sample": 27466,
+          "end_sample": 92517,
+          "start_ms": 1717,
+          "end_ms": 5782
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はallergy持ちなので、花粉の季節がつらそうです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3638,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 7880,
+          "start_ms": 0,
+          "end_ms": 492
+        },
+        {
+          "lang": "en",
+          "text": "allergy",
+          "start_sample": 7880,
+          "end_sample": 12865,
+          "start_ms": 492,
+          "end_ms": 804
+        },
+        {
+          "lang": "ja",
+          "text": "持ちなので、花粉の季節がつらそうです。",
+          "start_sample": 12865,
+          "end_sample": 58212,
+          "start_ms": 804,
+          "end_ms": 3638
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

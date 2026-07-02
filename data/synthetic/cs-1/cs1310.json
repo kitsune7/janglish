@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1310.flac",
+  "sentence": "リビングをもっとcozyな雰囲気にしたいんだよね。",
+  "sample_rate": 16000,
+  "duration_ms": 2797,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 1352,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "リビングをもっと",
+      "start_sample": 0,
+      "end_sample": 14226,
+      "start_ms": 0,
+      "end_ms": 889
+    },
+    {
+      "lang": "en",
+      "text": "cozy",
+      "start_sample": 14226,
+      "end_sample": 26194,
+      "start_ms": 889,
+      "end_ms": 1637
+    },
+    {
+      "lang": "ja",
+      "text": "な雰囲気にしたいんだよね。",
+      "start_sample": 26194,
+      "end_sample": 44749,
+      "start_ms": 1637,
+      "end_ms": 2797
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ribingu wo motto cozy na fun'iki ni shi tai n da yo ne",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5401,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "リビングをもっと",
+          "start_sample": 0,
+          "end_sample": 29073,
+          "start_ms": 0,
+          "end_ms": 1817
+        },
+        {
+          "lang": "en",
+          "text": "cozy",
+          "start_sample": 29073,
+          "end_sample": 41441,
+          "start_ms": 1817,
+          "end_ms": 2590
+        },
+        {
+          "lang": "ja",
+          "text": "な雰囲気にしたいんだよね。",
+          "start_sample": 41441,
+          "end_sample": 86414,
+          "start_ms": 2590,
+          "end_ms": 5401
+        }
+      ]
+    },
+    "ja": {
+      "text": "リビングをもっとcozyな雰囲気にしたいんだよね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2424,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "リビングをもっと",
+          "start_sample": 0,
+          "end_sample": 14426,
+          "start_ms": 0,
+          "end_ms": 902
+        },
+        {
+          "lang": "en",
+          "text": "cozy",
+          "start_sample": 14426,
+          "end_sample": 20037,
+          "start_ms": 902,
+          "end_ms": 1252
+        },
+        {
+          "lang": "ja",
+          "text": "な雰囲気にしたいんだよね。",
+          "start_sample": 20037,
+          "end_sample": 38792,
+          "start_ms": 1252,
+          "end_ms": 2424
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 140,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

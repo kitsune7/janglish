@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10292.flac",
+  "sentence": "クリスマスイブにsurpriseパーティーを計画しています。",
+  "sample_rate": 16000,
+  "duration_ms": 3821,
+  "reference_speaker": "en/speaker_054_103b0eb5778e.mp3",
+  "seed": 10334,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "クリスマスイブに",
+      "start_sample": 0,
+      "end_sample": 15209,
+      "start_ms": 0,
+      "end_ms": 951
+    },
+    {
+      "lang": "en",
+      "text": "surprise",
+      "start_sample": 15209,
+      "end_sample": 30835,
+      "start_ms": 951,
+      "end_ms": 1927
+    },
+    {
+      "lang": "ja",
+      "text": "パーティーを計画しています。",
+      "start_sample": 30835,
+      "end_sample": 61131,
+      "start_ms": 1927,
+      "end_ms": 3821
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kurisumasu ibu ni surprise paateii wo keikaku shi te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5569,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "クリスマスイブに",
+          "start_sample": 0,
+          "end_sample": 28846,
+          "start_ms": 0,
+          "end_ms": 1803
+        },
+        {
+          "lang": "en",
+          "text": "surprise",
+          "start_sample": 28846,
+          "end_sample": 44872,
+          "start_ms": 1803,
+          "end_ms": 2804
+        },
+        {
+          "lang": "ja",
+          "text": "パーティーを計画しています。",
+          "start_sample": 44872,
+          "end_sample": 89102,
+          "start_ms": 2804,
+          "end_ms": 5569
+        }
+      ]
+    },
+    "ja": {
+      "text": "クリスマスイブにsurpriseパーティーを計画しています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3531,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "クリスマスイブに",
+          "start_sample": 0,
+          "end_sample": 15409,
+          "start_ms": 0,
+          "end_ms": 963
+        },
+        {
+          "lang": "en",
+          "text": "surprise",
+          "start_sample": 15409,
+          "end_sample": 26003,
+          "start_ms": 963,
+          "end_ms": 1625
+        },
+        {
+          "lang": "ja",
+          "text": "パーティーを計画しています。",
+          "start_sample": 26003,
+          "end_sample": 56499,
+          "start_ms": 1625,
+          "end_ms": 3531
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

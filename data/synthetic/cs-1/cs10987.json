@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10987.flac",
+  "sentence": "あのbassラインが曲全体を支えている。",
+  "sample_rate": 16000,
+  "duration_ms": 3394,
+  "reference_speaker": "en/speaker_059_8cc960ae4dc2.mp3",
+  "seed": 11029,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの",
+      "start_sample": 0,
+      "end_sample": 2866,
+      "start_ms": 0,
+      "end_ms": 179
+    },
+    {
+      "lang": "en",
+      "text": "bass",
+      "start_sample": 2866,
+      "end_sample": 18839,
+      "start_ms": 179,
+      "end_ms": 1177
+    },
+    {
+      "lang": "ja",
+      "text": "ラインが曲全体を支えている。",
+      "start_sample": 18839,
+      "end_sample": 54298,
+      "start_ms": 1177,
+      "end_ms": 3394
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano bass rain ga kyoku zentai wo sasae te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7103,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 13640,
+          "start_ms": 0,
+          "end_ms": 852
+        },
+        {
+          "lang": "en",
+          "text": "bass",
+          "start_sample": 13640,
+          "end_sample": 30013,
+          "start_ms": 852,
+          "end_ms": 1876
+        },
+        {
+          "lang": "ja",
+          "text": "ラインが曲全体を支えている。",
+          "start_sample": 30013,
+          "end_sample": 113641,
+          "start_ms": 1876,
+          "end_ms": 7103
+        }
+      ]
+    },
+    "ja": {
+      "text": "あのbassラインが曲全体を支えている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2662,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 3066,
+          "start_ms": 0,
+          "end_ms": 192
+        },
+        {
+          "lang": "en",
+          "text": "bass",
+          "start_sample": 3066,
+          "end_sample": 6939,
+          "start_ms": 192,
+          "end_ms": 434
+        },
+        {
+          "lang": "ja",
+          "text": "ラインが曲全体を支えている。",
+          "start_sample": 6939,
+          "end_sample": 42598,
+          "start_ms": 434,
+          "end_ms": 2662
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 170,
+  "frame_labels": "jjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs548.flac",
+  "sentence": "面接ではchallengeだった経験を話すよう求められました。",
+  "sample_rate": 16000,
+  "duration_ms": 4106,
+  "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 590,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "面接では",
+      "start_sample": 0,
+      "end_sample": 15378,
+      "start_ms": 0,
+      "end_ms": 961
+    },
+    {
+      "lang": "en",
+      "text": "challenge",
+      "start_sample": 15378,
+      "end_sample": 28140,
+      "start_ms": 961,
+      "end_ms": 1759
+    },
+    {
+      "lang": "ja",
+      "text": "だった経験を話すよう求められました。",
+      "start_sample": 28140,
+      "end_sample": 65688,
+      "start_ms": 1759,
+      "end_ms": 4106
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mensetsu de ha challenge datsu ta keiken wo hanasu you motome rare mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7183,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "面接では",
+          "start_sample": 0,
+          "end_sample": 25201,
+          "start_ms": 0,
+          "end_ms": 1575
+        },
+        {
+          "lang": "en",
+          "text": "challenge",
+          "start_sample": 25201,
+          "end_sample": 38363,
+          "start_ms": 1575,
+          "end_ms": 2398
+        },
+        {
+          "lang": "ja",
+          "text": "だった経験を話すよう求められました。",
+          "start_sample": 38363,
+          "end_sample": 114928,
+          "start_ms": 2398,
+          "end_ms": 7183
+        }
+      ]
+    },
+    "ja": {
+      "text": "面接ではchallengeだった経験を話すよう求められました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3996,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "面接では",
+          "start_sample": 0,
+          "end_sample": 15578,
+          "start_ms": 0,
+          "end_ms": 974
+        },
+        {
+          "lang": "en",
+          "text": "challenge",
+          "start_sample": 15578,
+          "end_sample": 26180,
+          "start_ms": 974,
+          "end_ms": 1636
+        },
+        {
+          "lang": "ja",
+          "text": "だった経験を話すよう求められました。",
+          "start_sample": 26180,
+          "end_sample": 63928,
+          "start_ms": 1636,
+          "end_ms": 3996
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 206,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

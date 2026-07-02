@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3119.flac",
+  "sentence": "The office atmosphere felt very 活気ある when I arrived for my on-site interview.",
+  "sample_rate": 16000,
+  "duration_ms": 5595,
+  "reference_speaker": "en/speaker_088_9950f069efac.mp3",
+  "seed": 3161,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The office atmosphere felt very",
+      "start_sample": 0,
+      "end_sample": 30709,
+      "start_ms": 0,
+      "end_ms": 1919
+    },
+    {
+      "lang": "ja",
+      "text": "活気ある",
+      "start_sample": 30709,
+      "end_sample": 49521,
+      "start_ms": 1919,
+      "end_ms": 3095
+    },
+    {
+      "lang": "en",
+      "text": "when I arrived for my on-site interview.",
+      "start_sample": 49521,
+      "end_sample": 89519,
+      "start_ms": 3095,
+      "end_ms": 5595
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The office atmosphere felt very kakki aru when I arrived for my on-site interview.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5385,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The office atmosphere felt very",
+          "start_sample": 0,
+          "end_sample": 30909,
+          "start_ms": 0,
+          "end_ms": 1932
+        },
+        {
+          "lang": "ja",
+          "text": "活気ある",
+          "start_sample": 30909,
+          "end_sample": 45964,
+          "start_ms": 1932,
+          "end_ms": 2873
+        },
+        {
+          "lang": "en",
+          "text": "when I arrived for my on-site interview.",
+          "start_sample": 45964,
+          "end_sample": 86162,
+          "start_ms": 2873,
+          "end_ms": 5385
+        }
+      ]
+    },
+    "ja": {
+      "text": "The office atmosphere felt very 活気ある when I arrived for my on-site interview.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7785,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The office atmosphere felt very",
+          "start_sample": 0,
+          "end_sample": 46109,
+          "start_ms": 0,
+          "end_ms": 2882
+        },
+        {
+          "lang": "ja",
+          "text": "活気ある",
+          "start_sample": 46109,
+          "end_sample": 65321,
+          "start_ms": 2882,
+          "end_ms": 4083
+        },
+        {
+          "lang": "en",
+          "text": "when I arrived for my on-site interview.",
+          "start_sample": 65321,
+          "end_sample": 124559,
+          "start_ms": 4083,
+          "end_ms": 7785
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 280,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

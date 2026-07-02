@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs9658.flac",
+  "sentence": "He copied everyone on that message, which was pretty 迷惑.",
+  "sample_rate": 16000,
+  "duration_ms": 5800,
+  "reference_speaker": "en/speaker_037_fbb436f58f44.mp3",
+  "seed": 9700,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He copied everyone on that message, which was pretty",
+      "start_sample": 0,
+      "end_sample": 85152,
+      "start_ms": 0,
+      "end_ms": 5322
+    },
+    {
+      "lang": "ja",
+      "text": "迷惑.",
+      "start_sample": 85152,
+      "end_sample": 92802,
+      "start_ms": 5322,
+      "end_ms": 5800
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He copied everyone on that message, which was pretty meiwaku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6217,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He copied everyone on that message, which was pretty",
+          "start_sample": 0,
+          "end_sample": 85352,
+          "start_ms": 0,
+          "end_ms": 5334
+        },
+        {
+          "lang": "ja",
+          "text": "迷惑.",
+          "start_sample": 85352,
+          "end_sample": 99468,
+          "start_ms": 5334,
+          "end_ms": 6217
+        }
+      ]
+    },
+    "ja": {
+      "text": "He copied everyone on that message, which was pretty 迷惑.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3965,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He copied everyone on that message, which was pretty",
+          "start_sample": 0,
+          "end_sample": 55591,
+          "start_ms": 0,
+          "end_ms": 3474
+        },
+        {
+          "lang": "ja",
+          "text": "迷惑.",
+          "start_sample": 55591,
+          "end_sample": 63441,
+          "start_ms": 3474,
+          "end_ms": 3965
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 291,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjj"
+}

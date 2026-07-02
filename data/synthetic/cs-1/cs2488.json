@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2488.flac",
+  "sentence": "彼はいつもproactiveに授業の予習をしています。",
+  "sample_rate": 16000,
+  "duration_ms": 4226,
+  "reference_speaker": "jp/speaker_060_dda9a032fd63.mp3",
+  "seed": 2530,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼はいつも",
+      "start_sample": 0,
+      "end_sample": 12026,
+      "start_ms": 0,
+      "end_ms": 752
+    },
+    {
+      "lang": "en",
+      "text": "proactive",
+      "start_sample": 12026,
+      "end_sample": 42239,
+      "start_ms": 752,
+      "end_ms": 2640
+    },
+    {
+      "lang": "ja",
+      "text": "に授業の予習をしています。",
+      "start_sample": 42239,
+      "end_sample": 67614,
+      "start_ms": 2640,
+      "end_ms": 4226
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha itsu mo proactive ni jugyou no yoshuu wo shi te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7372,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼はいつも",
+          "start_sample": 0,
+          "end_sample": 28688,
+          "start_ms": 0,
+          "end_ms": 1793
+        },
+        {
+          "lang": "en",
+          "text": "proactive",
+          "start_sample": 28688,
+          "end_sample": 59301,
+          "start_ms": 1793,
+          "end_ms": 3706
+        },
+        {
+          "lang": "ja",
+          "text": "に授業の予習をしています。",
+          "start_sample": 59301,
+          "end_sample": 117959,
+          "start_ms": 3706,
+          "end_ms": 7372
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はいつもproactiveに授業の予習をしています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3097,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼はいつも",
+          "start_sample": 0,
+          "end_sample": 12226,
+          "start_ms": 0,
+          "end_ms": 764
+        },
+        {
+          "lang": "en",
+          "text": "proactive",
+          "start_sample": 12226,
+          "end_sample": 23971,
+          "start_ms": 764,
+          "end_ms": 1498
+        },
+        {
+          "lang": "ja",
+          "text": "に授業の予習をしています。",
+          "start_sample": 23971,
+          "end_sample": 49546,
+          "start_ms": 1498,
+          "end_ms": 3097
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 212,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

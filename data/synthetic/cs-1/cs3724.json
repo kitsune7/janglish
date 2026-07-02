@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3724.flac",
+  "sentence": "Could you weigh this on the 計量器 before I decide which service to use?",
+  "sample_rate": 16000,
+  "duration_ms": 5749,
+  "reference_speaker": "en/speaker_077_cf8a4971b1d4.mp3",
+  "seed": 3766,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Could you weigh this on the",
+      "start_sample": 0,
+      "end_sample": 17899,
+      "start_ms": 0,
+      "end_ms": 1119
+    },
+    {
+      "lang": "ja",
+      "text": "計量器",
+      "start_sample": 17899,
+      "end_sample": 35170,
+      "start_ms": 1119,
+      "end_ms": 2198
+    },
+    {
+      "lang": "en",
+      "text": "before I decide which service to use?",
+      "start_sample": 35170,
+      "end_sample": 91991,
+      "start_ms": 2198,
+      "end_ms": 5749
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Could you weigh this on the keiryou utsuwa before I decide which service to use?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7188,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you weigh this on the",
+          "start_sample": 0,
+          "end_sample": 18099,
+          "start_ms": 0,
+          "end_ms": 1131
+        },
+        {
+          "lang": "ja",
+          "text": "計量器",
+          "start_sample": 18099,
+          "end_sample": 57983,
+          "start_ms": 1131,
+          "end_ms": 3624
+        },
+        {
+          "lang": "en",
+          "text": "before I decide which service to use?",
+          "start_sample": 57983,
+          "end_sample": 115004,
+          "start_ms": 3624,
+          "end_ms": 7188
+        }
+      ]
+    },
+    "ja": {
+      "text": "Could you weigh this on the 計量器 before I decide which service to use?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4859,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you weigh this on the",
+          "start_sample": 0,
+          "end_sample": 17992,
+          "start_ms": 0,
+          "end_ms": 1124
+        },
+        {
+          "lang": "ja",
+          "text": "計量器",
+          "start_sample": 17992,
+          "end_sample": 35663,
+          "start_ms": 1124,
+          "end_ms": 2229
+        },
+        {
+          "lang": "en",
+          "text": "before I decide which service to use?",
+          "start_sample": 35663,
+          "end_sample": 77749,
+          "start_ms": 2229,
+          "end_ms": 4859
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 288,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6625.flac",
+  "sentence": "彼女はclient向けの資料を一人で全部作りました。",
+  "sample_rate": 16000,
+  "duration_ms": 5380,
+  "reference_speaker": "en/speaker_011_d1413283d794.mp3",
+  "seed": 6667,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は",
+      "start_sample": 0,
+      "end_sample": 9418,
+      "start_ms": 0,
+      "end_ms": 589
+    },
+    {
+      "lang": "en",
+      "text": "client",
+      "start_sample": 9418,
+      "end_sample": 25365,
+      "start_ms": 589,
+      "end_ms": 1585
+    },
+    {
+      "lang": "ja",
+      "text": "向けの資料を一人で全部作りました。",
+      "start_sample": 25365,
+      "end_sample": 86079,
+      "start_ms": 1585,
+      "end_ms": 5380
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha client muke no shiryou wo hitori de zenbu tsukuri mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7853,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 26121,
+          "start_ms": 0,
+          "end_ms": 1633
+        },
+        {
+          "lang": "en",
+          "text": "client",
+          "start_sample": 26121,
+          "end_sample": 42468,
+          "start_ms": 1633,
+          "end_ms": 2654
+        },
+        {
+          "lang": "ja",
+          "text": "向けの資料を一人で全部作りました。",
+          "start_sample": 42468,
+          "end_sample": 125642,
+          "start_ms": 2654,
+          "end_ms": 7853
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はclient向けの資料を一人で全部作りました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5009,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 9618,
+          "start_ms": 0,
+          "end_ms": 601
+        },
+        {
+          "lang": "en",
+          "text": "client",
+          "start_sample": 9618,
+          "end_sample": 19236,
+          "start_ms": 601,
+          "end_ms": 1202
+        },
+        {
+          "lang": "ja",
+          "text": "向けの資料を一人で全部作りました。",
+          "start_sample": 19236,
+          "end_sample": 80150,
+          "start_ms": 1202,
+          "end_ms": 5009
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 269,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

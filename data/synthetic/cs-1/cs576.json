@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs576.flac",
+  "sentence": "このtaskを終わらせたら、少し休憩しようと思っている。",
+  "sample_rate": 16000,
+  "duration_ms": 4011,
+  "reference_speaker": "jp/speaker_047_6ac706d7456d.mp3",
+  "seed": 618,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3822,
+      "start_ms": 0,
+      "end_ms": 239
+    },
+    {
+      "lang": "en",
+      "text": "task",
+      "start_sample": 3822,
+      "end_sample": 9517,
+      "start_ms": 239,
+      "end_ms": 595
+    },
+    {
+      "lang": "ja",
+      "text": "を終わらせたら、少し休憩しようと思っている。",
+      "start_sample": 9517,
+      "end_sample": 64183,
+      "start_ms": 595,
+      "end_ms": 4011
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono task wo owara se tara sukoshi kyuukei shiyou to omotsu te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8741,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5292,
+          "start_ms": 0,
+          "end_ms": 331
+        },
+        {
+          "lang": "en",
+          "text": "task",
+          "start_sample": 5292,
+          "end_sample": 11387,
+          "start_ms": 331,
+          "end_ms": 712
+        },
+        {
+          "lang": "ja",
+          "text": "を終わらせたら、少し休憩しようと思っている。",
+          "start_sample": 11387,
+          "end_sample": 139855,
+          "start_ms": 712,
+          "end_ms": 8741
+        }
+      ]
+    },
+    "ja": {
+      "text": "このtaskを終わらせたら、少し休憩しようと思っている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4083,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4022,
+          "start_ms": 0,
+          "end_ms": 251
+        },
+        {
+          "lang": "en",
+          "text": "task",
+          "start_sample": 4022,
+          "end_sample": 10459,
+          "start_ms": 251,
+          "end_ms": 654
+        },
+        {
+          "lang": "ja",
+          "text": "を終わらせたら、少し休憩しようと思っている。",
+          "start_sample": 10459,
+          "end_sample": 65325,
+          "start_ms": 654,
+          "end_ms": 4083
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "jjjjjjjjjjjjeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

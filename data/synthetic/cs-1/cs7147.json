@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs7147.flac",
+  "sentence": "Drop-off was rough this morning — she cried until I was out of 視界.",
+  "sample_rate": 16000,
+  "duration_ms": 3525,
+  "reference_speaker": "en/speaker_069_688632e24cd4.mp3",
+  "seed": 7189,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Drop-off was rough this morning — she cried until I was out of",
+      "start_sample": 0,
+      "end_sample": 50660,
+      "start_ms": 0,
+      "end_ms": 3166
+    },
+    {
+      "lang": "ja",
+      "text": "視界.",
+      "start_sample": 50660,
+      "end_sample": 56394,
+      "start_ms": 3166,
+      "end_ms": 3525
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Drop-off was rough this morning — she cried until I was out of shikai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3690,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Drop-off was rough this morning — she cried until I was out of",
+          "start_sample": 0,
+          "end_sample": 50860,
+          "start_ms": 0,
+          "end_ms": 3179
+        },
+        {
+          "lang": "ja",
+          "text": "視界.",
+          "start_sample": 50860,
+          "end_sample": 59041,
+          "start_ms": 3179,
+          "end_ms": 3690
+        }
+      ]
+    },
+    "ja": {
+      "text": "Drop-off was rough this morning — she cried until I was out of 視界.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4893,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Drop-off was rough this morning — she cried until I was out of",
+          "start_sample": 0,
+          "end_sample": 72351,
+          "start_ms": 0,
+          "end_ms": 4522
+        },
+        {
+          "lang": "ja",
+          "text": "視界.",
+          "start_sample": 72351,
+          "end_sample": 78285,
+          "start_ms": 4522,
+          "end_ms": 4893
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjj"
+}

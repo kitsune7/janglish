@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10346.flac",
+  "sentence": "My new apartment has such a 広い living room — I can't believe the rent.",
+  "sample_rate": 16000,
+  "duration_ms": 7002,
+  "reference_speaker": "en/speaker_003_7963691c43c8.mp3",
+  "seed": 10388,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My new apartment has such a",
+      "start_sample": 0,
+      "end_sample": 46186,
+      "start_ms": 0,
+      "end_ms": 2887
+    },
+    {
+      "lang": "ja",
+      "text": "広い",
+      "start_sample": 46186,
+      "end_sample": 55887,
+      "start_ms": 2887,
+      "end_ms": 3493
+    },
+    {
+      "lang": "en",
+      "text": "living room — I can't believe the rent.",
+      "start_sample": 55887,
+      "end_sample": 112026,
+      "start_ms": 3493,
+      "end_ms": 7002
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My new apartment has such a hiroi living room — I can't believe the rent.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7323,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My new apartment has such a",
+          "start_sample": 0,
+          "end_sample": 46386,
+          "start_ms": 0,
+          "end_ms": 2899
+        },
+        {
+          "lang": "ja",
+          "text": "広い",
+          "start_sample": 46386,
+          "end_sample": 60833,
+          "start_ms": 2899,
+          "end_ms": 3802
+        },
+        {
+          "lang": "en",
+          "text": "living room — I can't believe the rent.",
+          "start_sample": 60833,
+          "end_sample": 117172,
+          "start_ms": 3802,
+          "end_ms": 7323
+        }
+      ]
+    },
+    "ja": {
+      "text": "My new apartment has such a 広い living room — I can't believe the rent.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6333,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My new apartment has such a",
+          "start_sample": 0,
+          "end_sample": 37517,
+          "start_ms": 0,
+          "end_ms": 2345
+        },
+        {
+          "lang": "ja",
+          "text": "広い",
+          "start_sample": 37517,
+          "end_sample": 47618,
+          "start_ms": 2345,
+          "end_ms": 2976
+        },
+        {
+          "lang": "en",
+          "text": "living room — I can't believe the rent.",
+          "start_sample": 47618,
+          "end_sample": 101327,
+          "start_ms": 2976,
+          "end_ms": 6333
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 351,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

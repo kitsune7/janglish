@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10252.flac",
+  "sentence": "The post office was so 混雑 that I waited over forty minutes.",
+  "sample_rate": 16000,
+  "duration_ms": 3915,
+  "reference_speaker": "jp/speaker_007_69caf5c5275d.mp3",
+  "seed": 10294,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The post office was so",
+      "start_sample": 0,
+      "end_sample": 18117,
+      "start_ms": 0,
+      "end_ms": 1132
+    },
+    {
+      "lang": "ja",
+      "text": "混雑",
+      "start_sample": 18117,
+      "end_sample": 27809,
+      "start_ms": 1132,
+      "end_ms": 1738
+    },
+    {
+      "lang": "en",
+      "text": "that I waited over forty minutes.",
+      "start_sample": 27809,
+      "end_sample": 62633,
+      "start_ms": 1738,
+      "end_ms": 3915
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The post office was so konzatsu that I waited over forty minutes.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4218,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The post office was so",
+          "start_sample": 0,
+          "end_sample": 18317,
+          "start_ms": 0,
+          "end_ms": 1145
+        },
+        {
+          "lang": "ja",
+          "text": "混雑",
+          "start_sample": 18317,
+          "end_sample": 32457,
+          "start_ms": 1145,
+          "end_ms": 2029
+        },
+        {
+          "lang": "en",
+          "text": "that I waited over forty minutes.",
+          "start_sample": 32457,
+          "end_sample": 67481,
+          "start_ms": 2029,
+          "end_ms": 4218
+        }
+      ]
+    },
+    "ja": {
+      "text": "The post office was so 混雑 that I waited over forty minutes.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4385,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The post office was so",
+          "start_sample": 0,
+          "end_sample": 26430,
+          "start_ms": 0,
+          "end_ms": 1652
+        },
+        {
+          "lang": "ja",
+          "text": "混雑",
+          "start_sample": 26430,
+          "end_sample": 36522,
+          "start_ms": 1652,
+          "end_ms": 2283
+        },
+        {
+          "lang": "en",
+          "text": "that I waited over forty minutes.",
+          "start_sample": 36522,
+          "end_sample": 70162,
+          "start_ms": 2283,
+          "end_ms": 4385
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

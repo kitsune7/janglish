@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8792.flac",
+  "sentence": "セットが終わってもaudienceはなかなか帰ろうとしなかった。",
+  "sample_rate": 16000,
+  "duration_ms": 5261,
+  "reference_speaker": "jp/speaker_066_d870c5c7ad93.mp3",
+  "seed": 8834,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "セットが終わっても",
+      "start_sample": 0,
+      "end_sample": 27059,
+      "start_ms": 0,
+      "end_ms": 1691
+    },
+    {
+      "lang": "en",
+      "text": "audience",
+      "start_sample": 27059,
+      "end_sample": 46377,
+      "start_ms": 1691,
+      "end_ms": 2899
+    },
+    {
+      "lang": "ja",
+      "text": "はなかなか帰ろうとしなかった。",
+      "start_sample": 46377,
+      "end_sample": 84178,
+      "start_ms": 2899,
+      "end_ms": 5261
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "setto ga owatsu te mo audience ha nakanaka kaerou to shi nakatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10099,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "セットが終わっても",
+          "start_sample": 0,
+          "end_sample": 50977,
+          "start_ms": 0,
+          "end_ms": 3186
+        },
+        {
+          "lang": "en",
+          "text": "audience",
+          "start_sample": 50977,
+          "end_sample": 70695,
+          "start_ms": 3186,
+          "end_ms": 4418
+        },
+        {
+          "lang": "ja",
+          "text": "はなかなか帰ろうとしなかった。",
+          "start_sample": 70695,
+          "end_sample": 161588,
+          "start_ms": 4418,
+          "end_ms": 10099
+        }
+      ]
+    },
+    "ja": {
+      "text": "セットが終わってもaudienceはなかなか帰ろうとしなかった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5332,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "セットが終わっても",
+          "start_sample": 0,
+          "end_sample": 27259,
+          "start_ms": 0,
+          "end_ms": 1704
+        },
+        {
+          "lang": "en",
+          "text": "audience",
+          "start_sample": 27259,
+          "end_sample": 47303,
+          "start_ms": 1704,
+          "end_ms": 2956
+        },
+        {
+          "lang": "ja",
+          "text": "はなかなか帰ろうとしなかった。",
+          "start_sample": 47303,
+          "end_sample": 85304,
+          "start_ms": 2956,
+          "end_ms": 5332
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 264,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5831.flac",
+  "sentence": "The shopping district was so 賑やか on a Saturday afternoon.",
+  "sample_rate": 16000,
+  "duration_ms": 3957,
+  "reference_speaker": "jp/speaker_088_9d72b694e145.mp3",
+  "seed": 5873,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The shopping district was so",
+      "start_sample": 0,
+      "end_sample": 23916,
+      "start_ms": 0,
+      "end_ms": 1495
+    },
+    {
+      "lang": "ja",
+      "text": "賑やか",
+      "start_sample": 23916,
+      "end_sample": 34580,
+      "start_ms": 1495,
+      "end_ms": 2161
+    },
+    {
+      "lang": "en",
+      "text": "on a Saturday afternoon.",
+      "start_sample": 34580,
+      "end_sample": 63316,
+      "start_ms": 2161,
+      "end_ms": 3957
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shopping district was so nigiyaka on a Saturday afternoon.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4602,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The shopping district was so",
+          "start_sample": 0,
+          "end_sample": 24116,
+          "start_ms": 0,
+          "end_ms": 1507
+        },
+        {
+          "lang": "ja",
+          "text": "賑やか",
+          "start_sample": 24116,
+          "end_sample": 44696,
+          "start_ms": 1507,
+          "end_ms": 2794
+        },
+        {
+          "lang": "en",
+          "text": "on a Saturday afternoon.",
+          "start_sample": 44696,
+          "end_sample": 73632,
+          "start_ms": 2794,
+          "end_ms": 4602
+        }
+      ]
+    },
+    "ja": {
+      "text": "The shopping district was so 賑やか on a Saturday afternoon.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4209,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The shopping district was so",
+          "start_sample": 0,
+          "end_sample": 34794,
+          "start_ms": 0,
+          "end_ms": 2175
+        },
+        {
+          "lang": "ja",
+          "text": "賑やか",
+          "start_sample": 34794,
+          "end_sample": 45858,
+          "start_ms": 2175,
+          "end_ms": 2866
+        },
+        {
+          "lang": "en",
+          "text": "on a Saturday afternoon.",
+          "start_sample": 45858,
+          "end_sample": 67343,
+          "start_ms": 2866,
+          "end_ms": 4209
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 198,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1532.flac",
+  "sentence": "今夜のdinnerはどこに行こうか迷っています。",
+  "sample_rate": 16000,
+  "duration_ms": 3087,
+  "reference_speaker": "jp/speaker_054_a553b6ec02eb.mp3",
+  "seed": 1574,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今夜の",
+      "start_sample": 0,
+      "end_sample": 6693,
+      "start_ms": 0,
+      "end_ms": 418
+    },
+    {
+      "lang": "en",
+      "text": "dinner",
+      "start_sample": 6693,
+      "end_sample": 19616,
+      "start_ms": 418,
+      "end_ms": 1226
+    },
+    {
+      "lang": "ja",
+      "text": "はどこに行こうか迷っています。",
+      "start_sample": 19616,
+      "end_sample": 49397,
+      "start_ms": 1226,
+      "end_ms": 3087
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "konya no dinner ha doko ni ikou ka mayotsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4916,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今夜の",
+          "start_sample": 0,
+          "end_sample": 11396,
+          "start_ms": 0,
+          "end_ms": 712
+        },
+        {
+          "lang": "en",
+          "text": "dinner",
+          "start_sample": 11396,
+          "end_sample": 24719,
+          "start_ms": 712,
+          "end_ms": 1545
+        },
+        {
+          "lang": "ja",
+          "text": "はどこに行こうか迷っています。",
+          "start_sample": 24719,
+          "end_sample": 78651,
+          "start_ms": 1545,
+          "end_ms": 4916
+        }
+      ]
+    },
+    "ja": {
+      "text": "今夜のdinnerはどこに行こうか迷っています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2645,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今夜の",
+          "start_sample": 0,
+          "end_sample": 6893,
+          "start_ms": 0,
+          "end_ms": 431
+        },
+        {
+          "lang": "en",
+          "text": "dinner",
+          "start_sample": 6893,
+          "end_sample": 12344,
+          "start_ms": 431,
+          "end_ms": 772
+        },
+        {
+          "lang": "ja",
+          "text": "はどこに行こうか迷っています。",
+          "start_sample": 12344,
+          "end_sample": 42325,
+          "start_ms": 772,
+          "end_ms": 2645
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 155,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

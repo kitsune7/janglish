@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs732.flac",
+  "sentence": "He took a 真剣 approach to understanding his family's history.",
+  "sample_rate": 16000,
+  "duration_ms": 3249,
+  "reference_speaker": "jp/speaker_002_02a8841a00d7.mp3",
+  "seed": 774,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He took a",
+      "start_sample": 0,
+      "end_sample": 5413,
+      "start_ms": 0,
+      "end_ms": 338
+    },
+    {
+      "lang": "ja",
+      "text": "真剣",
+      "start_sample": 5413,
+      "end_sample": 12886,
+      "start_ms": 338,
+      "end_ms": 805
+    },
+    {
+      "lang": "en",
+      "text": "approach to understanding his family's history.",
+      "start_sample": 12886,
+      "end_sample": 51981,
+      "start_ms": 805,
+      "end_ms": 3249
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He took a shinken approach to understanding his family's history.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3188,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He took a",
+          "start_sample": 0,
+          "end_sample": 5613,
+          "start_ms": 0,
+          "end_ms": 351
+        },
+        {
+          "lang": "ja",
+          "text": "真剣",
+          "start_sample": 5613,
+          "end_sample": 11708,
+          "start_ms": 351,
+          "end_ms": 732
+        },
+        {
+          "lang": "en",
+          "text": "approach to understanding his family's history.",
+          "start_sample": 11708,
+          "end_sample": 51003,
+          "start_ms": 732,
+          "end_ms": 3188
+        }
+      ]
+    },
+    "ja": {
+      "text": "He took a 真剣 approach to understanding his family's history.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4519,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He took a",
+          "start_sample": 0,
+          "end_sample": 11409,
+          "start_ms": 0,
+          "end_ms": 713
+        },
+        {
+          "lang": "ja",
+          "text": "真剣",
+          "start_sample": 11409,
+          "end_sample": 19282,
+          "start_ms": 713,
+          "end_ms": 1205
+        },
+        {
+          "lang": "en",
+          "text": "approach to understanding his family's history.",
+          "start_sample": 19282,
+          "end_sample": 72307,
+          "start_ms": 1205,
+          "end_ms": 4519
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 163,
+  "frame_labels": "eeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1318.flac",
+  "sentence": "I need to buy a new scrub brush because the current one lacks the 硬さ for this 汚れ.",
+  "sample_rate": 16000,
+  "duration_ms": 6072,
+  "reference_speaker": "en/speaker_070_eb9077114ebd.mp3",
+  "seed": 18173,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I need to buy a new scrub brush because the current one lacks the",
+      "start_sample": 0,
+      "end_sample": 69635,
+      "start_ms": 0,
+      "end_ms": 4352
+    },
+    {
+      "lang": "ja",
+      "text": "硬さ",
+      "start_sample": 69635,
+      "end_sample": 79975,
+      "start_ms": 4352,
+      "end_ms": 4998
+    },
+    {
+      "lang": "en",
+      "text": "for this",
+      "start_sample": 79975,
+      "end_sample": 89506,
+      "start_ms": 4998,
+      "end_ms": 5594
+    },
+    {
+      "lang": "ja",
+      "text": "汚れ.",
+      "start_sample": 89506,
+      "end_sample": 97159,
+      "start_ms": 5594,
+      "end_ms": 6072
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I need to buy a new scrub brush because the current one lacks the kou sa for this yogore",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6267,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need to buy a new scrub brush because the current one lacks the",
+          "start_sample": 0,
+          "end_sample": 69835,
+          "start_ms": 0,
+          "end_ms": 4365
+        },
+        {
+          "lang": "ja",
+          "text": "硬さ",
+          "start_sample": 69835,
+          "end_sample": 81688,
+          "start_ms": 4365,
+          "end_ms": 5106
+        },
+        {
+          "lang": "en",
+          "text": "for this",
+          "start_sample": 81688,
+          "end_sample": 91619,
+          "start_ms": 5106,
+          "end_ms": 5726
+        },
+        {
+          "lang": "ja",
+          "text": "汚れ.",
+          "start_sample": 91619,
+          "end_sample": 100268,
+          "start_ms": 5726,
+          "end_ms": 6267
+        }
+      ]
+    },
+    "ja": {
+      "text": "I need to buy a new scrub brush because the current one lacks the 硬さ for this 汚れ.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7914,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need to buy a new scrub brush because the current one lacks the",
+          "start_sample": 0,
+          "end_sample": 96975,
+          "start_ms": 0,
+          "end_ms": 6061
+        },
+        {
+          "lang": "ja",
+          "text": "硬さ",
+          "start_sample": 96975,
+          "end_sample": 107715,
+          "start_ms": 6061,
+          "end_ms": 6732
+        },
+        {
+          "lang": "en",
+          "text": "for this",
+          "start_sample": 107715,
+          "end_sample": 118775,
+          "start_ms": 6732,
+          "end_ms": 7423
+        },
+        {
+          "lang": "ja",
+          "text": "汚れ.",
+          "start_sample": 118775,
+          "end_sample": 126628,
+          "start_ms": 7423,
+          "end_ms": 7914
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 304,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjj"
+}

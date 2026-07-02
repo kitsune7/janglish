@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7050.flac",
+  "sentence": "He was so 心配 about his test results that he couldn't sleep.",
+  "sample_rate": 16000,
+  "duration_ms": 3291,
+  "reference_speaker": "jp/speaker_014_9e367176533e.mp3",
+  "seed": 7092,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He was so",
+      "start_sample": 0,
+      "end_sample": 6864,
+      "start_ms": 0,
+      "end_ms": 429
+    },
+    {
+      "lang": "ja",
+      "text": "心配",
+      "start_sample": 6864,
+      "end_sample": 15772,
+      "start_ms": 429,
+      "end_ms": 986
+    },
+    {
+      "lang": "en",
+      "text": "about his test results that he couldn't sleep.",
+      "start_sample": 15772,
+      "end_sample": 52659,
+      "start_ms": 986,
+      "end_ms": 3291
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He was so shinpai about his test results that he couldn't sleep.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3372,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He was so",
+          "start_sample": 0,
+          "end_sample": 7064,
+          "start_ms": 0,
+          "end_ms": 442
+        },
+        {
+          "lang": "ja",
+          "text": "心配",
+          "start_sample": 7064,
+          "end_sample": 16859,
+          "start_ms": 442,
+          "end_ms": 1054
+        },
+        {
+          "lang": "en",
+          "text": "about his test results that he couldn't sleep.",
+          "start_sample": 16859,
+          "end_sample": 53946,
+          "start_ms": 1054,
+          "end_ms": 3372
+        }
+      ]
+    },
+    "ja": {
+      "text": "He was so 心配 about his test results that he couldn't sleep.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4092,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He was so",
+          "start_sample": 0,
+          "end_sample": 7542,
+          "start_ms": 0,
+          "end_ms": 471
+        },
+        {
+          "lang": "ja",
+          "text": "心配",
+          "start_sample": 7542,
+          "end_sample": 16850,
+          "start_ms": 471,
+          "end_ms": 1053
+        },
+        {
+          "lang": "en",
+          "text": "about his test results that he couldn't sleep.",
+          "start_sample": 16850,
+          "end_sample": 65474,
+          "start_ms": 1053,
+          "end_ms": 4092
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 165,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

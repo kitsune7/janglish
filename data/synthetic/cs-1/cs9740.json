@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9740.flac",
+  "sentence": "面接の前にresumeをもう一度確認しました。",
+  "sample_rate": 16000,
+  "duration_ms": 2733,
+  "reference_speaker": "jp/speaker_029_debaa03f9928.mp3",
+  "seed": 9782,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "面接の前に",
+      "start_sample": 0,
+      "end_sample": 13150,
+      "start_ms": 0,
+      "end_ms": 822
+    },
+    {
+      "lang": "en",
+      "text": "resume",
+      "start_sample": 13150,
+      "end_sample": 23652,
+      "start_ms": 822,
+      "end_ms": 1478
+    },
+    {
+      "lang": "ja",
+      "text": "をもう一度確認しました。",
+      "start_sample": 23652,
+      "end_sample": 43722,
+      "start_ms": 1478,
+      "end_ms": 2733
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mensetsu no mae ni resume wo mou ichi do kakunin shi mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6473,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "面接の前に",
+          "start_sample": 0,
+          "end_sample": 18918,
+          "start_ms": 0,
+          "end_ms": 1182
+        },
+        {
+          "lang": "en",
+          "text": "resume",
+          "start_sample": 18918,
+          "end_sample": 29820,
+          "start_ms": 1182,
+          "end_ms": 1864
+        },
+        {
+          "lang": "ja",
+          "text": "をもう一度確認しました。",
+          "start_sample": 29820,
+          "end_sample": 103574,
+          "start_ms": 1864,
+          "end_ms": 6473
+        }
+      ]
+    },
+    "ja": {
+      "text": "面接の前にresumeをもう一度確認しました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2433,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "面接の前に",
+          "start_sample": 0,
+          "end_sample": 13350,
+          "start_ms": 0,
+          "end_ms": 834
+        },
+        {
+          "lang": "en",
+          "text": "resume",
+          "start_sample": 13350,
+          "end_sample": 18661,
+          "start_ms": 834,
+          "end_ms": 1166
+        },
+        {
+          "lang": "ja",
+          "text": "をもう一度確認しました。",
+          "start_sample": 18661,
+          "end_sample": 38931,
+          "start_ms": 1166,
+          "end_ms": 2433
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 137,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

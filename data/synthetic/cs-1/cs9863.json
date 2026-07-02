@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9863.flac",
+  "sentence": "美術館のentranceで音声ガイドを借りることができます。",
+  "sample_rate": 16000,
+  "duration_ms": 4487,
+  "reference_speaker": "jp/speaker_047_6ac706d7456d.mp3",
+  "seed": 9905,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "美術館の",
+      "start_sample": 0,
+      "end_sample": 12624,
+      "start_ms": 0,
+      "end_ms": 789
+    },
+    {
+      "lang": "en",
+      "text": "entrance",
+      "start_sample": 12624,
+      "end_sample": 30953,
+      "start_ms": 789,
+      "end_ms": 1935
+    },
+    {
+      "lang": "ja",
+      "text": "で音声ガイドを借りることができます。",
+      "start_sample": 30953,
+      "end_sample": 71791,
+      "start_ms": 1935,
+      "end_ms": 4487
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "bijutsu kan no entrance de onsei gaido wo kariru koto ga deki masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9945,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "美術館の",
+          "start_sample": 0,
+          "end_sample": 31056,
+          "start_ms": 0,
+          "end_ms": 1941
+        },
+        {
+          "lang": "en",
+          "text": "entrance",
+          "start_sample": 31056,
+          "end_sample": 49785,
+          "start_ms": 1941,
+          "end_ms": 3112
+        },
+        {
+          "lang": "ja",
+          "text": "で音声ガイドを借りることができます。",
+          "start_sample": 49785,
+          "end_sample": 159122,
+          "start_ms": 3112,
+          "end_ms": 9945
+        }
+      ]
+    },
+    "ja": {
+      "text": "美術館のentranceで音声ガイドを借りることができます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4048,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "美術館の",
+          "start_sample": 0,
+          "end_sample": 12824,
+          "start_ms": 0,
+          "end_ms": 802
+        },
+        {
+          "lang": "en",
+          "text": "entrance",
+          "start_sample": 12824,
+          "end_sample": 23725,
+          "start_ms": 802,
+          "end_ms": 1483
+        },
+        {
+          "lang": "ja",
+          "text": "で音声ガイドを借りることができます。",
+          "start_sample": 23725,
+          "end_sample": 64763,
+          "start_ms": 1483,
+          "end_ms": 4048
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

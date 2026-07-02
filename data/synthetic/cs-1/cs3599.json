@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3599.flac",
+  "sentence": "クリスマスのwreathを玄関のドアに飾りました。",
+  "sample_rate": 16000,
+  "duration_ms": 2673,
+  "reference_speaker": "jp/speaker_080_c886ae0e1a09.mp3",
+  "seed": 3641,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "クリスマスの",
+      "start_sample": 0,
+      "end_sample": 10419,
+      "start_ms": 0,
+      "end_ms": 651
+    },
+    {
+      "lang": "en",
+      "text": "wreath",
+      "start_sample": 10419,
+      "end_sample": 15305,
+      "start_ms": 651,
+      "end_ms": 957
+    },
+    {
+      "lang": "ja",
+      "text": "を玄関のドアに飾りました。",
+      "start_sample": 15305,
+      "end_sample": 42775,
+      "start_ms": 957,
+      "end_ms": 2673
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kurisumasu no wreath wo genkan no doa ni kazari mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5466,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "クリスマスの",
+          "start_sample": 0,
+          "end_sample": 30755,
+          "start_ms": 0,
+          "end_ms": 1922
+        },
+        {
+          "lang": "en",
+          "text": "wreath",
+          "start_sample": 30755,
+          "end_sample": 36041,
+          "start_ms": 1922,
+          "end_ms": 2253
+        },
+        {
+          "lang": "ja",
+          "text": "を玄関のドアに飾りました。",
+          "start_sample": 36041,
+          "end_sample": 87461,
+          "start_ms": 2253,
+          "end_ms": 5466
+        }
+      ]
+    },
+    "ja": {
+      "text": "クリスマスのwreathを玄関のドアに飾りました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2735,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "クリスマスの",
+          "start_sample": 0,
+          "end_sample": 10619,
+          "start_ms": 0,
+          "end_ms": 664
+        },
+        {
+          "lang": "en",
+          "text": "wreath",
+          "start_sample": 10619,
+          "end_sample": 16089,
+          "start_ms": 664,
+          "end_ms": 1006
+        },
+        {
+          "lang": "ja",
+          "text": "を玄関のドアに飾りました。",
+          "start_sample": 16089,
+          "end_sample": 43759,
+          "start_ms": 1006,
+          "end_ms": 2735
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 134,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

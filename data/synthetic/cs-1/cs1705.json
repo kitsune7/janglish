@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1705.flac",
+  "sentence": "傷口からの出血がひどいので、すぐにbandageを巻いてください。",
+  "sample_rate": 16000,
+  "duration_ms": 4175,
+  "reference_speaker": "jp/speaker_049_435108c1173c.mp3",
+  "seed": 1747,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "傷口からの出血がひどいので、すぐに",
+      "start_sample": 0,
+      "end_sample": 41277,
+      "start_ms": 0,
+      "end_ms": 2580
+    },
+    {
+      "lang": "en",
+      "text": "bandage",
+      "start_sample": 41277,
+      "end_sample": 53551,
+      "start_ms": 2580,
+      "end_ms": 3347
+    },
+    {
+      "lang": "ja",
+      "text": "を巻いてください。",
+      "start_sample": 53551,
+      "end_sample": 66803,
+      "start_ms": 3347,
+      "end_ms": 4175
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kizuguchi kara no shukketsu ga hidoi no de sugu ni bandage wo mai te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7400,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "傷口からの出血がひどいので、すぐに",
+          "start_sample": 0,
+          "end_sample": 82940,
+          "start_ms": 0,
+          "end_ms": 5184
+        },
+        {
+          "lang": "en",
+          "text": "bandage",
+          "start_sample": 82940,
+          "end_sample": 95614,
+          "start_ms": 5184,
+          "end_ms": 5976
+        },
+        {
+          "lang": "ja",
+          "text": "を巻いてください。",
+          "start_sample": 95614,
+          "end_sample": 118392,
+          "start_ms": 5976,
+          "end_ms": 7400
+        }
+      ]
+    },
+    "ja": {
+      "text": "傷口からの出血がひどいので、すぐにbandageを巻いてください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3984,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "傷口からの出血がひどいので、すぐに",
+          "start_sample": 0,
+          "end_sample": 41477,
+          "start_ms": 0,
+          "end_ms": 2592
+        },
+        {
+          "lang": "en",
+          "text": "bandage",
+          "start_sample": 41477,
+          "end_sample": 50285,
+          "start_ms": 2592,
+          "end_ms": 3143
+        },
+        {
+          "lang": "ja",
+          "text": "を巻いてください。",
+          "start_sample": 50285,
+          "end_sample": 63737,
+          "start_ms": 3143,
+          "end_ms": 3984
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 209,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

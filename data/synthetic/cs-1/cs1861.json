@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1861.flac",
+  "sentence": "今日のlunchboxには何を入れてくれたの？",
+  "sample_rate": 16000,
+  "duration_ms": 2920,
+  "reference_speaker": "en/speaker_062_05f0c617d0bb.mp3",
+  "seed": 1903,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日の",
+      "start_sample": 0,
+      "end_sample": 5097,
+      "start_ms": 0,
+      "end_ms": 319
+    },
+    {
+      "lang": "en",
+      "text": "lunchbox",
+      "start_sample": 5097,
+      "end_sample": 17380,
+      "start_ms": 319,
+      "end_ms": 1086
+    },
+    {
+      "lang": "ja",
+      "text": "には何を入れてくれたの？",
+      "start_sample": 17380,
+      "end_sample": 46718,
+      "start_ms": 1086,
+      "end_ms": 2920
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou no lunchbox ni ha nani wo ire te kure ta no",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4455,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の",
+          "start_sample": 0,
+          "end_sample": 15411,
+          "start_ms": 0,
+          "end_ms": 963
+        },
+        {
+          "lang": "en",
+          "text": "lunchbox",
+          "start_sample": 15411,
+          "end_sample": 28094,
+          "start_ms": 963,
+          "end_ms": 1756
+        },
+        {
+          "lang": "ja",
+          "text": "には何を入れてくれたの？",
+          "start_sample": 28094,
+          "end_sample": 71277,
+          "start_ms": 1756,
+          "end_ms": 4455
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日のlunchboxには何を入れてくれたの？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2850,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の",
+          "start_sample": 0,
+          "end_sample": 5297,
+          "start_ms": 0,
+          "end_ms": 331
+        },
+        {
+          "lang": "en",
+          "text": "lunchbox",
+          "start_sample": 5297,
+          "end_sample": 16054,
+          "start_ms": 331,
+          "end_ms": 1003
+        },
+        {
+          "lang": "ja",
+          "text": "には何を入れてくれたの？",
+          "start_sample": 16054,
+          "end_sample": 45592,
+          "start_ms": 1003,
+          "end_ms": 2850
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 146,
+  "frame_labels": "jjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

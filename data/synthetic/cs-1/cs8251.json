@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs8251.flac",
+  "sentence": "She was relieved when the biopsy came back 陰性.",
+  "sample_rate": 16000,
+  "duration_ms": 2565,
+  "reference_speaker": "en/speaker_056_b1458b769af8.mp3",
+  "seed": 8293,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She was relieved when the biopsy came back",
+      "start_sample": 0,
+      "end_sample": 32901,
+      "start_ms": 0,
+      "end_ms": 2056
+    },
+    {
+      "lang": "ja",
+      "text": "陰性.",
+      "start_sample": 32901,
+      "end_sample": 41042,
+      "start_ms": 2056,
+      "end_ms": 2565
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She was relieved when the biopsy came back insei",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2611,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She was relieved when the biopsy came back",
+          "start_sample": 0,
+          "end_sample": 33101,
+          "start_ms": 0,
+          "end_ms": 2069
+        },
+        {
+          "lang": "ja",
+          "text": "陰性.",
+          "start_sample": 33101,
+          "end_sample": 41774,
+          "start_ms": 2069,
+          "end_ms": 2611
+        }
+      ]
+    },
+    "ja": {
+      "text": "She was relieved when the biopsy came back 陰性.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3650,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She was relieved when the biopsy came back",
+          "start_sample": 0,
+          "end_sample": 50056,
+          "start_ms": 0,
+          "end_ms": 3128
+        },
+        {
+          "lang": "ja",
+          "text": "陰性.",
+          "start_sample": 50056,
+          "end_sample": 58397,
+          "start_ms": 3128,
+          "end_ms": 3650
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 129,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs1395.flac",
+  "sentence": "southwestの方角に進むと海が見えてきます。",
+  "sample_rate": 16000,
+  "duration_ms": 3671,
+  "reference_speaker": "en/speaker_073_3c0d9d6a3b88.mp3",
+  "seed": 1437,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "southwest",
+      "start_sample": 0,
+      "end_sample": 16619,
+      "start_ms": 0,
+      "end_ms": 1039
+    },
+    {
+      "lang": "ja",
+      "text": "の方角に進むと海が見えてきます。",
+      "start_sample": 16619,
+      "end_sample": 58731,
+      "start_ms": 1039,
+      "end_ms": 3671
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "southwest no hougaku ni susumu to umi ga mie te ki masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5166,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "southwest",
+          "start_sample": 0,
+          "end_sample": 16819,
+          "start_ms": 0,
+          "end_ms": 1051
+        },
+        {
+          "lang": "ja",
+          "text": "の方角に進むと海が見えてきます。",
+          "start_sample": 16819,
+          "end_sample": 82660,
+          "start_ms": 1051,
+          "end_ms": 5166
+        }
+      ]
+    },
+    "ja": {
+      "text": "southwestの方角に進むと海が見えてきます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3318,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "southwest",
+          "start_sample": 0,
+          "end_sample": 10779,
+          "start_ms": 0,
+          "end_ms": 674
+        },
+        {
+          "lang": "ja",
+          "text": "の方角に進むと海が見えてきます。",
+          "start_sample": 10779,
+          "end_sample": 53091,
+          "start_ms": 674,
+          "end_ms": 3318
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 184,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

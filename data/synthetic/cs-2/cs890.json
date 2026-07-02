@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs890.flac",
+  "sentence": "During 冬至, the nights feel almost 永遠 long.",
+  "sample_rate": 16000,
+  "duration_ms": 2818,
+  "reference_speaker": "en/speaker_029_435fb74c25c3.mp3",
+  "seed": 17745,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "During",
+      "start_sample": 0,
+      "end_sample": 4929,
+      "start_ms": 0,
+      "end_ms": 308
+    },
+    {
+      "lang": "ja",
+      "text": "冬至,",
+      "start_sample": 4929,
+      "end_sample": 14172,
+      "start_ms": 308,
+      "end_ms": 886
+    },
+    {
+      "lang": "en",
+      "text": "the nights feel almost",
+      "start_sample": 14172,
+      "end_sample": 32686,
+      "start_ms": 886,
+      "end_ms": 2043
+    },
+    {
+      "lang": "ja",
+      "text": "永遠",
+      "start_sample": 32686,
+      "end_sample": 38714,
+      "start_ms": 2043,
+      "end_ms": 2420
+    },
+    {
+      "lang": "en",
+      "text": "long.",
+      "start_sample": 38714,
+      "end_sample": 45084,
+      "start_ms": 2420,
+      "end_ms": 2818
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "During touji the nights feel almost eien long.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2765,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "During",
+          "start_sample": 0,
+          "end_sample": 5129,
+          "start_ms": 0,
+          "end_ms": 321
+        },
+        {
+          "lang": "ja",
+          "text": "冬至,",
+          "start_sample": 5129,
+          "end_sample": 11861,
+          "start_ms": 321,
+          "end_ms": 741
+        },
+        {
+          "lang": "en",
+          "text": "the nights feel almost",
+          "start_sample": 11861,
+          "end_sample": 30775,
+          "start_ms": 741,
+          "end_ms": 1923
+        },
+        {
+          "lang": "ja",
+          "text": "永遠",
+          "start_sample": 30775,
+          "end_sample": 37667,
+          "start_ms": 1923,
+          "end_ms": 2354
+        },
+        {
+          "lang": "en",
+          "text": "long.",
+          "start_sample": 37667,
+          "end_sample": 44237,
+          "start_ms": 2354,
+          "end_ms": 2765
+        }
+      ]
+    },
+    "ja": {
+      "text": "During 冬至, the nights feel almost 永遠 long.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3455,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "During",
+          "start_sample": 0,
+          "end_sample": 6588,
+          "start_ms": 0,
+          "end_ms": 412
+        },
+        {
+          "lang": "ja",
+          "text": "冬至,",
+          "start_sample": 6588,
+          "end_sample": 16231,
+          "start_ms": 412,
+          "end_ms": 1014
+        },
+        {
+          "lang": "en",
+          "text": "the nights feel almost",
+          "start_sample": 16231,
+          "end_sample": 44195,
+          "start_ms": 1014,
+          "end_ms": 2762
+        },
+        {
+          "lang": "ja",
+          "text": "永遠",
+          "start_sample": 44195,
+          "end_sample": 50623,
+          "start_ms": 2762,
+          "end_ms": 3164
+        },
+        {
+          "lang": "en",
+          "text": "long.",
+          "start_sample": 50623,
+          "end_sample": 55280,
+          "start_ms": 3164,
+          "end_ms": 3455
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 141,
+  "frame_labels": "eeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeee"
+}

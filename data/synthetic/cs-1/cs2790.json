@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2790.flac",
+  "sentence": "毎朝stand-upで進捗を確認しています。",
+  "sample_rate": 16000,
+  "duration_ms": 3407,
+  "reference_speaker": "en/speaker_018_b0dec8b93359.mp3",
+  "seed": 2832,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "毎朝",
+      "start_sample": 0,
+      "end_sample": 6693,
+      "start_ms": 0,
+      "end_ms": 418
+    },
+    {
+      "lang": "en",
+      "text": "stand-up",
+      "start_sample": 6693,
+      "end_sample": 23458,
+      "start_ms": 418,
+      "end_ms": 1466
+    },
+    {
+      "lang": "ja",
+      "text": "で進捗を確認しています。",
+      "start_sample": 23458,
+      "end_sample": 54517,
+      "start_ms": 1466,
+      "end_ms": 3407
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "maiasa stand-up de shinchoku wo kakunin shi te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5935,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝",
+          "start_sample": 0,
+          "end_sample": 11228,
+          "start_ms": 0,
+          "end_ms": 702
+        },
+        {
+          "lang": "en",
+          "text": "stand-up",
+          "start_sample": 11228,
+          "end_sample": 28393,
+          "start_ms": 702,
+          "end_ms": 1775
+        },
+        {
+          "lang": "ja",
+          "text": "で進捗を確認しています。",
+          "start_sample": 28393,
+          "end_sample": 94963,
+          "start_ms": 1775,
+          "end_ms": 5935
+        }
+      ]
+    },
+    "ja": {
+      "text": "毎朝stand-upで進捗を確認しています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3026,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝",
+          "start_sample": 0,
+          "end_sample": 6893,
+          "start_ms": 0,
+          "end_ms": 431
+        },
+        {
+          "lang": "en",
+          "text": "stand-up",
+          "start_sample": 6893,
+          "end_sample": 17152,
+          "start_ms": 431,
+          "end_ms": 1072
+        },
+        {
+          "lang": "ja",
+          "text": "で進捗を確認しています。",
+          "start_sample": 17152,
+          "end_sample": 48411,
+          "start_ms": 1072,
+          "end_ms": 3026
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 171,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

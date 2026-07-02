@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7294.flac",
+  "sentence": "There is something deeply 懐かしい about the smell of cinnamon in autumn.",
+  "sample_rate": 16000,
+  "duration_ms": 4451,
+  "reference_speaker": "jp/speaker_040_473e7a57e696.mp3",
+  "seed": 7336,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "There is something deeply",
+      "start_sample": 0,
+      "end_sample": 21135,
+      "start_ms": 0,
+      "end_ms": 1321
+    },
+    {
+      "lang": "ja",
+      "text": "懐かしい",
+      "start_sample": 21135,
+      "end_sample": 30992,
+      "start_ms": 1321,
+      "end_ms": 1937
+    },
+    {
+      "lang": "en",
+      "text": "about the smell of cinnamon in autumn.",
+      "start_sample": 30992,
+      "end_sample": 71215,
+      "start_ms": 1937,
+      "end_ms": 4451
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "There is something deeply natsukashii about the smell of cinnamon in autumn.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5093,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "There is something deeply",
+          "start_sample": 0,
+          "end_sample": 21335,
+          "start_ms": 0,
+          "end_ms": 1333
+        },
+        {
+          "lang": "ja",
+          "text": "懐かしい",
+          "start_sample": 21335,
+          "end_sample": 41065,
+          "start_ms": 1333,
+          "end_ms": 2567
+        },
+        {
+          "lang": "en",
+          "text": "about the smell of cinnamon in autumn.",
+          "start_sample": 41065,
+          "end_sample": 81488,
+          "start_ms": 2567,
+          "end_ms": 5093
+        }
+      ]
+    },
+    "ja": {
+      "text": "There is something deeply 懐かしい about the smell of cinnamon in autumn.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4146,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "There is something deeply",
+          "start_sample": 0,
+          "end_sample": 21471,
+          "start_ms": 0,
+          "end_ms": 1342
+        },
+        {
+          "lang": "ja",
+          "text": "懐かしい",
+          "start_sample": 21471,
+          "end_sample": 31728,
+          "start_ms": 1342,
+          "end_ms": 1983
+        },
+        {
+          "lang": "en",
+          "text": "about the smell of cinnamon in autumn.",
+          "start_sample": 31728,
+          "end_sample": 66340,
+          "start_ms": 1983,
+          "end_ms": 4146
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 223,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

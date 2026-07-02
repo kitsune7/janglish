@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1770.flac",
+  "sentence": "Turn right at the 角 and keep going until you pass the second 橋.",
+  "sample_rate": 16000,
+  "duration_ms": 4117,
+  "reference_speaker": "jp/speaker_030_78b8d1b530d5.mp3",
+  "seed": 18625,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Turn right at the",
+      "start_sample": 0,
+      "end_sample": 13282,
+      "start_ms": 0,
+      "end_ms": 830
+    },
+    {
+      "lang": "ja",
+      "text": "角",
+      "start_sample": 13282,
+      "end_sample": 18493,
+      "start_ms": 830,
+      "end_ms": 1156
+    },
+    {
+      "lang": "en",
+      "text": "and keep going until you pass the second",
+      "start_sample": 18493,
+      "end_sample": 60307,
+      "start_ms": 1156,
+      "end_ms": 3769
+    },
+    {
+      "lang": "ja",
+      "text": "橋.",
+      "start_sample": 60307,
+      "end_sample": 65877,
+      "start_ms": 3769,
+      "end_ms": 4117
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Turn right at the kaku and keep going until you pass the second hashi",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4695,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Turn right at the",
+          "start_sample": 0,
+          "end_sample": 13482,
+          "start_ms": 0,
+          "end_ms": 843
+        },
+        {
+          "lang": "ja",
+          "text": "角",
+          "start_sample": 13482,
+          "end_sample": 25520,
+          "start_ms": 843,
+          "end_ms": 1595
+        },
+        {
+          "lang": "en",
+          "text": "and keep going until you pass the second",
+          "start_sample": 25520,
+          "end_sample": 67734,
+          "start_ms": 1595,
+          "end_ms": 4233
+        },
+        {
+          "lang": "ja",
+          "text": "橋.",
+          "start_sample": 67734,
+          "end_sample": 75114,
+          "start_ms": 4233,
+          "end_ms": 4695
+        }
+      ]
+    },
+    "ja": {
+      "text": "Turn right at the 角 and keep going until you pass the second 橋.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5090,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Turn right at the",
+          "start_sample": 0,
+          "end_sample": 17635,
+          "start_ms": 0,
+          "end_ms": 1102
+        },
+        {
+          "lang": "ja",
+          "text": "角",
+          "start_sample": 17635,
+          "end_sample": 23246,
+          "start_ms": 1102,
+          "end_ms": 1453
+        },
+        {
+          "lang": "en",
+          "text": "and keep going until you pass the second",
+          "start_sample": 23246,
+          "end_sample": 75672,
+          "start_ms": 1453,
+          "end_ms": 4730
+        },
+        {
+          "lang": "ja",
+          "text": "橋.",
+          "start_sample": 75672,
+          "end_sample": 81442,
+          "start_ms": 4730,
+          "end_ms": 5090
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 206,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2845.flac",
+  "sentence": "She said the pasta tasted 濃い, like it had too much cream.",
+  "sample_rate": 16000,
+  "duration_ms": 6846,
+  "reference_speaker": "jp/speaker_098_e4abe7929ff4.mp3",
+  "seed": 2887,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She said the pasta tasted",
+      "start_sample": 0,
+      "end_sample": 34865,
+      "start_ms": 0,
+      "end_ms": 2179
+    },
+    {
+      "lang": "ja",
+      "text": "濃い,",
+      "start_sample": 34865,
+      "end_sample": 46492,
+      "start_ms": 2179,
+      "end_ms": 2906
+    },
+    {
+      "lang": "en",
+      "text": "like it had too much cream.",
+      "start_sample": 46492,
+      "end_sample": 109538,
+      "start_ms": 2906,
+      "end_ms": 6846
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She said the pasta tasted koi like it had too much cream.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7105,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She said the pasta tasted",
+          "start_sample": 0,
+          "end_sample": 35065,
+          "start_ms": 0,
+          "end_ms": 2192
+        },
+        {
+          "lang": "ja",
+          "text": "濃い,",
+          "start_sample": 35065,
+          "end_sample": 50436,
+          "start_ms": 2192,
+          "end_ms": 3152
+        },
+        {
+          "lang": "en",
+          "text": "like it had too much cream.",
+          "start_sample": 50436,
+          "end_sample": 113682,
+          "start_ms": 3152,
+          "end_ms": 7105
+        }
+      ]
+    },
+    "ja": {
+      "text": "She said the pasta tasted 濃い, like it had too much cream.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6394,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She said the pasta tasted",
+          "start_sample": 0,
+          "end_sample": 50190,
+          "start_ms": 0,
+          "end_ms": 3137
+        },
+        {
+          "lang": "ja",
+          "text": "濃い,",
+          "start_sample": 50190,
+          "end_sample": 62217,
+          "start_ms": 3137,
+          "end_ms": 3889
+        },
+        {
+          "lang": "en",
+          "text": "like it had too much cream.",
+          "start_sample": 62217,
+          "end_sample": 102304,
+          "start_ms": 3889,
+          "end_ms": 6394
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 343,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

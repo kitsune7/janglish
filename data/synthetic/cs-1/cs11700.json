@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11700.flac",
+  "sentence": "警察にemergencyの番号を教えてもらった。",
+  "sample_rate": 16000,
+  "duration_ms": 2747,
+  "reference_speaker": "jp/speaker_055_b88f2897e0f4.mp3",
+  "seed": 11742,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "警察に",
+      "start_sample": 0,
+      "end_sample": 9270,
+      "start_ms": 0,
+      "end_ms": 579
+    },
+    {
+      "lang": "en",
+      "text": "emergency",
+      "start_sample": 9270,
+      "end_sample": 21364,
+      "start_ms": 579,
+      "end_ms": 1335
+    },
+    {
+      "lang": "ja",
+      "text": "の番号を教えてもらった。",
+      "start_sample": 21364,
+      "end_sample": 43955,
+      "start_ms": 1335,
+      "end_ms": 2747
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "keisatsu ni emergency no bangou wo oshie te moratsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5846,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "警察に",
+          "start_sample": 0,
+          "end_sample": 14415,
+          "start_ms": 0,
+          "end_ms": 901
+        },
+        {
+          "lang": "en",
+          "text": "emergency",
+          "start_sample": 14415,
+          "end_sample": 26909,
+          "start_ms": 901,
+          "end_ms": 1682
+        },
+        {
+          "lang": "ja",
+          "text": "の番号を教えてもらった。",
+          "start_sample": 26909,
+          "end_sample": 93542,
+          "start_ms": 1682,
+          "end_ms": 5846
+        }
+      ]
+    },
+    "ja": {
+      "text": "警察にemergencyの番号を教えてもらった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2749,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "警察に",
+          "start_sample": 0,
+          "end_sample": 9470,
+          "start_ms": 0,
+          "end_ms": 592
+        },
+        {
+          "lang": "en",
+          "text": "emergency",
+          "start_sample": 9470,
+          "end_sample": 21188,
+          "start_ms": 592,
+          "end_ms": 1324
+        },
+        {
+          "lang": "ja",
+          "text": "の番号を教えてもらった。",
+          "start_sample": 21188,
+          "end_sample": 43979,
+          "start_ms": 1324,
+          "end_ms": 2749
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 138,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

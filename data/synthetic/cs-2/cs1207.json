@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs1207.flac",
+  "sentence": "The 一番 spicy dish on the menu gave me a real 満足感 afterward.",
+  "sample_rate": 16000,
+  "duration_ms": 5584,
+  "reference_speaker": "en/speaker_025_5a5c462b583a.mp3",
+  "seed": 18062,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1403,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "一番",
+      "start_sample": 1403,
+      "end_sample": 11592,
+      "start_ms": 88,
+      "end_ms": 724
+    },
+    {
+      "lang": "en",
+      "text": "spicy dish on the menu gave me a real",
+      "start_sample": 11592,
+      "end_sample": 49521,
+      "start_ms": 724,
+      "end_ms": 3095
+    },
+    {
+      "lang": "ja",
+      "text": "満足感",
+      "start_sample": 49521,
+      "end_sample": 60833,
+      "start_ms": 3095,
+      "end_ms": 3802
+    },
+    {
+      "lang": "en",
+      "text": "afterward.",
+      "start_sample": 60833,
+      "end_sample": 89338,
+      "start_ms": 3802,
+      "end_ms": 5584
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The ichiban spicy dish on the menu gave me a real manzoku kan afterward.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10184,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1603,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "一番",
+          "start_sample": 1603,
+          "end_sample": 9782,
+          "start_ms": 100,
+          "end_ms": 611
+        },
+        {
+          "lang": "en",
+          "text": "spicy dish on the menu gave me a real",
+          "start_sample": 9782,
+          "end_sample": 48111,
+          "start_ms": 611,
+          "end_ms": 3007
+        },
+        {
+          "lang": "ja",
+          "text": "満足感",
+          "start_sample": 48111,
+          "end_sample": 134232,
+          "start_ms": 3007,
+          "end_ms": 8390
+        },
+        {
+          "lang": "en",
+          "text": "afterward.",
+          "start_sample": 134232,
+          "end_sample": 162937,
+          "start_ms": 8390,
+          "end_ms": 10184
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 一番 spicy dish on the menu gave me a real 満足感 afterward.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6598,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 7699,
+          "start_ms": 0,
+          "end_ms": 481
+        },
+        {
+          "lang": "ja",
+          "text": "一番",
+          "start_sample": 7699,
+          "end_sample": 18288,
+          "start_ms": 481,
+          "end_ms": 1143
+        },
+        {
+          "lang": "en",
+          "text": "spicy dish on the menu gave me a real",
+          "start_sample": 18288,
+          "end_sample": 81503,
+          "start_ms": 1143,
+          "end_ms": 5094
+        },
+        {
+          "lang": "ja",
+          "text": "満足感",
+          "start_sample": 81503,
+          "end_sample": 93215,
+          "start_ms": 5094,
+          "end_ms": 5826
+        },
+        {
+          "lang": "en",
+          "text": "afterward.",
+          "start_sample": 93215,
+          "end_sample": 105567,
+          "start_ms": 5826,
+          "end_ms": 6598
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 280,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

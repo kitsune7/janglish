@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11092.flac",
+  "sentence": "明日はstormyになるって天気予報が言ってた。",
+  "sample_rate": 16000,
+  "duration_ms": 3332,
+  "reference_speaker": "jp/speaker_030_78b8d1b530d5.mp3",
+  "seed": 11134,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "明日は",
+      "start_sample": 0,
+      "end_sample": 6867,
+      "start_ms": 0,
+      "end_ms": 429
+    },
+    {
+      "lang": "en",
+      "text": "stormy",
+      "start_sample": 6867,
+      "end_sample": 26051,
+      "start_ms": 429,
+      "end_ms": 1628
+    },
+    {
+      "lang": "ja",
+      "text": "になるって天気予報が言ってた。",
+      "start_sample": 26051,
+      "end_sample": 53314,
+      "start_ms": 1628,
+      "end_ms": 3332
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ashita ha stormy ni naru tte tenki yohou ga itsutsu te ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7223,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "明日は",
+          "start_sample": 0,
+          "end_sample": 22311,
+          "start_ms": 0,
+          "end_ms": 1394
+        },
+        {
+          "lang": "en",
+          "text": "stormy",
+          "start_sample": 22311,
+          "end_sample": 41895,
+          "start_ms": 1394,
+          "end_ms": 2618
+        },
+        {
+          "lang": "ja",
+          "text": "になるって天気予報が言ってた。",
+          "start_sample": 41895,
+          "end_sample": 115570,
+          "start_ms": 2618,
+          "end_ms": 7223
+        }
+      ]
+    },
+    "ja": {
+      "text": "明日はstormyになるって天気予報が言ってた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2630,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "明日は",
+          "start_sample": 0,
+          "end_sample": 7067,
+          "start_ms": 0,
+          "end_ms": 442
+        },
+        {
+          "lang": "en",
+          "text": "stormy",
+          "start_sample": 7067,
+          "end_sample": 14617,
+          "start_ms": 442,
+          "end_ms": 914
+        },
+        {
+          "lang": "ja",
+          "text": "になるって天気予報が言ってた。",
+          "start_sample": 14617,
+          "end_sample": 42080,
+          "start_ms": 914,
+          "end_ms": 2630
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 167,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8480.flac",
+  "sentence": "面接でnetworkingの話題が出ることも多い。",
+  "sample_rate": 16000,
+  "duration_ms": 3515,
+  "reference_speaker": "jp/speaker_007_69caf5c5275d.mp3",
+  "seed": 8522,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "面接で",
+      "start_sample": 0,
+      "end_sample": 10096,
+      "start_ms": 0,
+      "end_ms": 631
+    },
+    {
+      "lang": "en",
+      "text": "networking",
+      "start_sample": 10096,
+      "end_sample": 30872,
+      "start_ms": 631,
+      "end_ms": 1930
+    },
+    {
+      "lang": "ja",
+      "text": "の話題が出ることも多い。",
+      "start_sample": 30872,
+      "end_sample": 56247,
+      "start_ms": 1930,
+      "end_ms": 3515
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mensetsu de networking no wadai ga deru koto mo ooi",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4833,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "面接で",
+          "start_sample": 0,
+          "end_sample": 10106,
+          "start_ms": 0,
+          "end_ms": 632
+        },
+        {
+          "lang": "en",
+          "text": "networking",
+          "start_sample": 10106,
+          "end_sample": 31282,
+          "start_ms": 632,
+          "end_ms": 1955
+        },
+        {
+          "lang": "ja",
+          "text": "の話題が出ることも多い。",
+          "start_sample": 31282,
+          "end_sample": 77322,
+          "start_ms": 1955,
+          "end_ms": 4833
+        }
+      ]
+    },
+    "ja": {
+      "text": "面接でnetworkingの話題が出ることも多い。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3056,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "面接で",
+          "start_sample": 0,
+          "end_sample": 10296,
+          "start_ms": 0,
+          "end_ms": 644
+        },
+        {
+          "lang": "en",
+          "text": "networking",
+          "start_sample": 10296,
+          "end_sample": 23327,
+          "start_ms": 644,
+          "end_ms": 1458
+        },
+        {
+          "lang": "ja",
+          "text": "の話題が出ることも多い。",
+          "start_sample": 23327,
+          "end_sample": 48902,
+          "start_ms": 1458,
+          "end_ms": 3056
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 176,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

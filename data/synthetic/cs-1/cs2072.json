@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2072.flac",
+  "sentence": "I wish I had started learning 三味線 much earlier in life.",
+  "sample_rate": 16000,
+  "duration_ms": 5440,
+  "reference_speaker": "en/speaker_082_0d071699a4ef.mp3",
+  "seed": 2114,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I wish I had started learning",
+      "start_sample": 0,
+      "end_sample": 44524,
+      "start_ms": 0,
+      "end_ms": 2783
+    },
+    {
+      "lang": "ja",
+      "text": "三味線",
+      "start_sample": 44524,
+      "end_sample": 64643,
+      "start_ms": 2783,
+      "end_ms": 4040
+    },
+    {
+      "lang": "en",
+      "text": "much earlier in life.",
+      "start_sample": 64643,
+      "end_sample": 87044,
+      "start_ms": 4040,
+      "end_ms": 5440
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I wish I had started learning shami sen much earlier in life.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5450,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I wish I had started learning",
+          "start_sample": 0,
+          "end_sample": 44724,
+          "start_ms": 0,
+          "end_ms": 2795
+        },
+        {
+          "lang": "ja",
+          "text": "三味線",
+          "start_sample": 44724,
+          "end_sample": 64602,
+          "start_ms": 2795,
+          "end_ms": 4038
+        },
+        {
+          "lang": "en",
+          "text": "much earlier in life.",
+          "start_sample": 64602,
+          "end_sample": 87203,
+          "start_ms": 4038,
+          "end_ms": 5450
+        }
+      ]
+    },
+    "ja": {
+      "text": "I wish I had started learning 三味線 much earlier in life.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5570,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I wish I had started learning",
+          "start_sample": 0,
+          "end_sample": 39274,
+          "start_ms": 0,
+          "end_ms": 2455
+        },
+        {
+          "lang": "ja",
+          "text": "三味線",
+          "start_sample": 39274,
+          "end_sample": 59793,
+          "start_ms": 2455,
+          "end_ms": 3737
+        },
+        {
+          "lang": "en",
+          "text": "much earlier in life.",
+          "start_sample": 59793,
+          "end_sample": 89127,
+          "start_ms": 3737,
+          "end_ms": 5570
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 273,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

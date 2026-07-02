@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5767.flac",
+  "sentence": "I noticed the 根っこ of that maple are starting to crack the pathway.",
+  "sample_rate": 16000,
+  "duration_ms": 4516,
+  "reference_speaker": "en/speaker_031_dcac4ff5a983.mp3",
+  "seed": 5809,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I noticed the",
+      "start_sample": 0,
+      "end_sample": 12458,
+      "start_ms": 0,
+      "end_ms": 779
+    },
+    {
+      "lang": "ja",
+      "text": "根っこ",
+      "start_sample": 12458,
+      "end_sample": 28075,
+      "start_ms": 779,
+      "end_ms": 1755
+    },
+    {
+      "lang": "en",
+      "text": "of that maple are starting to crack the pathway.",
+      "start_sample": 28075,
+      "end_sample": 72263,
+      "start_ms": 1755,
+      "end_ms": 4516
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I noticed the nekko of that maple are starting to crack the pathway.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4006,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I noticed the",
+          "start_sample": 0,
+          "end_sample": 12658,
+          "start_ms": 0,
+          "end_ms": 791
+        },
+        {
+          "lang": "ja",
+          "text": "根っこ",
+          "start_sample": 12658,
+          "end_sample": 19709,
+          "start_ms": 791,
+          "end_ms": 1232
+        },
+        {
+          "lang": "en",
+          "text": "of that maple are starting to crack the pathway.",
+          "start_sample": 19709,
+          "end_sample": 64097,
+          "start_ms": 1232,
+          "end_ms": 4006
+        }
+      ]
+    },
+    "ja": {
+      "text": "I noticed the 根っこ of that maple are starting to crack the pathway.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7108,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I noticed the",
+          "start_sample": 0,
+          "end_sample": 19860,
+          "start_ms": 0,
+          "end_ms": 1241
+        },
+        {
+          "lang": "ja",
+          "text": "根っこ",
+          "start_sample": 19860,
+          "end_sample": 35877,
+          "start_ms": 1241,
+          "end_ms": 2242
+        },
+        {
+          "lang": "en",
+          "text": "of that maple are starting to crack the pathway.",
+          "start_sample": 35877,
+          "end_sample": 113722,
+          "start_ms": 2242,
+          "end_ms": 7108
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 226,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs8219.flac",
+  "sentence": "offlineの時間を意識的に作るようにしている。",
+  "sample_rate": 16000,
+  "duration_ms": 3403,
+  "reference_speaker": "jp/speaker_095_1daf6547c74f.mp3",
+  "seed": 8261,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "offline",
+      "start_sample": 0,
+      "end_sample": 19367,
+      "start_ms": 0,
+      "end_ms": 1210
+    },
+    {
+      "lang": "ja",
+      "text": "の時間を意識的に作るようにしている。",
+      "start_sample": 19367,
+      "end_sample": 54448,
+      "start_ms": 1210,
+      "end_ms": 3403
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "offline no jikan wo ishiki teki ni tsukuru you ni shi te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8721,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "offline",
+          "start_sample": 0,
+          "end_sample": 19567,
+          "start_ms": 0,
+          "end_ms": 1223
+        },
+        {
+          "lang": "ja",
+          "text": "の時間を意識的に作るようにしている。",
+          "start_sample": 19567,
+          "end_sample": 139534,
+          "start_ms": 1223,
+          "end_ms": 8721
+        }
+      ]
+    },
+    "ja": {
+      "text": "offlineの時間を意識的に作るようにしている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2686,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "offline",
+          "start_sample": 0,
+          "end_sample": 7698,
+          "start_ms": 0,
+          "end_ms": 481
+        },
+        {
+          "lang": "ja",
+          "text": "の時間を意識的に作るようにしている。",
+          "start_sample": 7698,
+          "end_sample": 42979,
+          "start_ms": 481,
+          "end_ms": 2686
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 171,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

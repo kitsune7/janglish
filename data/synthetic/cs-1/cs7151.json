@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7151.flac",
+  "sentence": "I packed the 水筒 but totally forgot the snacks — classic.",
+  "sample_rate": 16000,
+  "duration_ms": 3479,
+  "reference_speaker": "jp/speaker_035_dd783030d2b8.mp3",
+  "seed": 7193,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I packed the",
+      "start_sample": 0,
+      "end_sample": 6875,
+      "start_ms": 0,
+      "end_ms": 430
+    },
+    {
+      "lang": "ja",
+      "text": "水筒",
+      "start_sample": 6875,
+      "end_sample": 14199,
+      "start_ms": 430,
+      "end_ms": 887
+    },
+    {
+      "lang": "en",
+      "text": "but totally forgot the snacks — classic.",
+      "start_sample": 14199,
+      "end_sample": 55671,
+      "start_ms": 887,
+      "end_ms": 3479
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I packed the suitou but totally forgot the snacks — classic.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3439,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I packed the",
+          "start_sample": 0,
+          "end_sample": 7075,
+          "start_ms": 0,
+          "end_ms": 442
+        },
+        {
+          "lang": "ja",
+          "text": "水筒",
+          "start_sample": 7075,
+          "end_sample": 13350,
+          "start_ms": 442,
+          "end_ms": 834
+        },
+        {
+          "lang": "en",
+          "text": "but totally forgot the snacks — classic.",
+          "start_sample": 13350,
+          "end_sample": 55022,
+          "start_ms": 834,
+          "end_ms": 3439
+        }
+      ]
+    },
+    "ja": {
+      "text": "I packed the 水筒 but totally forgot the snacks — classic.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3298,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I packed the",
+          "start_sample": 0,
+          "end_sample": 9010,
+          "start_ms": 0,
+          "end_ms": 563
+        },
+        {
+          "lang": "ja",
+          "text": "水筒",
+          "start_sample": 9010,
+          "end_sample": 16734,
+          "start_ms": 563,
+          "end_ms": 1046
+        },
+        {
+          "lang": "en",
+          "text": "but totally forgot the snacks — classic.",
+          "start_sample": 16734,
+          "end_sample": 52774,
+          "start_ms": 1046,
+          "end_ms": 3298
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 174,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

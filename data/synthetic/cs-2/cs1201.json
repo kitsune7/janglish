@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs1201.flac",
+  "sentence": "The 外国語 on the customs form caused 混乱 at the desk until a bilingual clerk stepped in.",
+  "sample_rate": 16000,
+  "duration_ms": 6141,
+  "reference_speaker": "en/speaker_035_aa6a3aa058c0.mp3",
+  "seed": 18056,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1082,
+      "start_ms": 0,
+      "end_ms": 68
+    },
+    {
+      "lang": "ja",
+      "text": "外国語",
+      "start_sample": 1082,
+      "end_sample": 20223,
+      "start_ms": 68,
+      "end_ms": 1264
+    },
+    {
+      "lang": "en",
+      "text": "on the customs form caused",
+      "start_sample": 20223,
+      "end_sample": 43234,
+      "start_ms": 1264,
+      "end_ms": 2702
+    },
+    {
+      "lang": "ja",
+      "text": "混乱",
+      "start_sample": 43234,
+      "end_sample": 57730,
+      "start_ms": 2702,
+      "end_ms": 3608
+    },
+    {
+      "lang": "en",
+      "text": "at the desk until a bilingual clerk stepped in.",
+      "start_sample": 57730,
+      "end_sample": 98258,
+      "start_ms": 3608,
+      "end_ms": 6141
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The gaikoku go on the customs form caused konran at the desk until a bilingual clerk stepped in.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5312,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1282,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "外国語",
+          "start_sample": 1282,
+          "end_sample": 14110,
+          "start_ms": 80,
+          "end_ms": 882
+        },
+        {
+          "lang": "en",
+          "text": "on the customs form caused",
+          "start_sample": 14110,
+          "end_sample": 37521,
+          "start_ms": 882,
+          "end_ms": 2345
+        },
+        {
+          "lang": "ja",
+          "text": "混乱",
+          "start_sample": 37521,
+          "end_sample": 44256,
+          "start_ms": 2345,
+          "end_ms": 2766
+        },
+        {
+          "lang": "en",
+          "text": "at the desk until a bilingual clerk stepped in.",
+          "start_sample": 44256,
+          "end_sample": 84984,
+          "start_ms": 2766,
+          "end_ms": 5312
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 外国語 on the customs form caused 混乱 at the desk until a bilingual clerk stepped in.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9850,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 8328,
+          "start_ms": 0,
+          "end_ms": 520
+        },
+        {
+          "lang": "ja",
+          "text": "外国語",
+          "start_sample": 8328,
+          "end_sample": 27869,
+          "start_ms": 520,
+          "end_ms": 1742
+        },
+        {
+          "lang": "en",
+          "text": "on the customs form caused",
+          "start_sample": 27869,
+          "end_sample": 71917,
+          "start_ms": 1742,
+          "end_ms": 4495
+        },
+        {
+          "lang": "ja",
+          "text": "混乱",
+          "start_sample": 71917,
+          "end_sample": 86813,
+          "start_ms": 4495,
+          "end_ms": 5426
+        },
+        {
+          "lang": "en",
+          "text": "at the desk until a bilingual clerk stepped in.",
+          "start_sample": 86813,
+          "end_sample": 157608,
+          "start_ms": 5426,
+          "end_ms": 9850
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 308,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

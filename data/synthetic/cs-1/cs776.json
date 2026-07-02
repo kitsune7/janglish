@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs776.flac",
+  "sentence": "I returned the broken umbrella and got a 払い戻し without any hassle.",
+  "sample_rate": 16000,
+  "duration_ms": 5039,
+  "reference_speaker": "jp/speaker_051_2b805c12b1e0.mp3",
+  "seed": 818,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I returned the broken umbrella and got a",
+      "start_sample": 0,
+      "end_sample": 44675,
+      "start_ms": 0,
+      "end_ms": 2792
+    },
+    {
+      "lang": "ja",
+      "text": "払い戻し",
+      "start_sample": 44675,
+      "end_sample": 58231,
+      "start_ms": 2792,
+      "end_ms": 3639
+    },
+    {
+      "lang": "en",
+      "text": "without any hassle.",
+      "start_sample": 58231,
+      "end_sample": 80628,
+      "start_ms": 3639,
+      "end_ms": 5039
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I returned the broken umbrella and got a haraimodoshi without any hassle.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5289,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I returned the broken umbrella and got a",
+          "start_sample": 0,
+          "end_sample": 44875,
+          "start_ms": 0,
+          "end_ms": 2805
+        },
+        {
+          "lang": "ja",
+          "text": "払い戻し",
+          "start_sample": 44875,
+          "end_sample": 62025,
+          "start_ms": 2805,
+          "end_ms": 3877
+        },
+        {
+          "lang": "en",
+          "text": "without any hassle.",
+          "start_sample": 62025,
+          "end_sample": 84622,
+          "start_ms": 3877,
+          "end_ms": 5289
+        }
+      ]
+    },
+    "ja": {
+      "text": "I returned the broken umbrella and got a 払い戻し without any hassle.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5935,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I returned the broken umbrella and got a",
+          "start_sample": 0,
+          "end_sample": 63683,
+          "start_ms": 0,
+          "end_ms": 3980
+        },
+        {
+          "lang": "ja",
+          "text": "払い戻し",
+          "start_sample": 63683,
+          "end_sample": 77639,
+          "start_ms": 3980,
+          "end_ms": 4852
+        },
+        {
+          "lang": "en",
+          "text": "without any hassle.",
+          "start_sample": 77639,
+          "end_sample": 94962,
+          "start_ms": 4852,
+          "end_ms": 5935
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 252,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

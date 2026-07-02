@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3437.flac",
+  "sentence": "That blouse comes in 深い green, which would suit you perfectly.",
+  "sample_rate": 16000,
+  "duration_ms": 4137,
+  "reference_speaker": "en/speaker_075_373f531aa159.mp3",
+  "seed": 3479,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That blouse comes in",
+      "start_sample": 0,
+      "end_sample": 15186,
+      "start_ms": 0,
+      "end_ms": 949
+    },
+    {
+      "lang": "ja",
+      "text": "深い",
+      "start_sample": 15186,
+      "end_sample": 22477,
+      "start_ms": 949,
+      "end_ms": 1405
+    },
+    {
+      "lang": "en",
+      "text": "green, which would suit you perfectly.",
+      "start_sample": 22477,
+      "end_sample": 66191,
+      "start_ms": 1405,
+      "end_ms": 4137
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That blouse comes in fukai green, which would suit you perfectly.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4127,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That blouse comes in",
+          "start_sample": 0,
+          "end_sample": 15386,
+          "start_ms": 0,
+          "end_ms": 962
+        },
+        {
+          "lang": "ja",
+          "text": "深い",
+          "start_sample": 15386,
+          "end_sample": 22117,
+          "start_ms": 962,
+          "end_ms": 1382
+        },
+        {
+          "lang": "en",
+          "text": "green, which would suit you perfectly.",
+          "start_sample": 22117,
+          "end_sample": 66031,
+          "start_ms": 1382,
+          "end_ms": 4127
+        }
+      ]
+    },
+    "ja": {
+      "text": "That blouse comes in 深い green, which would suit you perfectly.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5428,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That blouse comes in",
+          "start_sample": 0,
+          "end_sample": 20188,
+          "start_ms": 0,
+          "end_ms": 1262
+        },
+        {
+          "lang": "ja",
+          "text": "深い",
+          "start_sample": 20188,
+          "end_sample": 27879,
+          "start_ms": 1262,
+          "end_ms": 1742
+        },
+        {
+          "lang": "en",
+          "text": "green, which would suit you perfectly.",
+          "start_sample": 27879,
+          "end_sample": 86843,
+          "start_ms": 1742,
+          "end_ms": 5428
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 207,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

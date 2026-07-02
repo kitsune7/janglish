@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5795.flac",
+  "sentence": "The checkout line was so 長い that I almost left without buying anything.",
+  "sample_rate": 16000,
+  "duration_ms": 3665,
+  "reference_speaker": "jp/speaker_072_6a4d94080268.mp3",
+  "seed": 5837,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The checkout line was so",
+      "start_sample": 0,
+      "end_sample": 18704,
+      "start_ms": 0,
+      "end_ms": 1169
+    },
+    {
+      "lang": "ja",
+      "text": "長い",
+      "start_sample": 18704,
+      "end_sample": 23603,
+      "start_ms": 1169,
+      "end_ms": 1475
+    },
+    {
+      "lang": "en",
+      "text": "that I almost left without buying anything.",
+      "start_sample": 23603,
+      "end_sample": 58647,
+      "start_ms": 1475,
+      "end_ms": 3665
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The checkout line was so nagai that I almost left without buying anything.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3945,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The checkout line was so",
+          "start_sample": 0,
+          "end_sample": 18904,
+          "start_ms": 0,
+          "end_ms": 1182
+        },
+        {
+          "lang": "ja",
+          "text": "長い",
+          "start_sample": 18904,
+          "end_sample": 27876,
+          "start_ms": 1182,
+          "end_ms": 1742
+        },
+        {
+          "lang": "en",
+          "text": "that I almost left without buying anything.",
+          "start_sample": 27876,
+          "end_sample": 63120,
+          "start_ms": 1742,
+          "end_ms": 3945
+        }
+      ]
+    },
+    "ja": {
+      "text": "The checkout line was so 長い that I almost left without buying anything.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3894,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The checkout line was so",
+          "start_sample": 0,
+          "end_sample": 19108,
+          "start_ms": 0,
+          "end_ms": 1194
+        },
+        {
+          "lang": "ja",
+          "text": "長い",
+          "start_sample": 19108,
+          "end_sample": 24407,
+          "start_ms": 1194,
+          "end_ms": 1525
+        },
+        {
+          "lang": "en",
+          "text": "that I almost left without buying anything.",
+          "start_sample": 24407,
+          "end_sample": 62301,
+          "start_ms": 1525,
+          "end_ms": 3894
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 184,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

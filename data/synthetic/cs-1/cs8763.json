@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs8763.flac",
+  "sentence": "soundcheckが終わったら本番まで少し休もう。",
+  "sample_rate": 16000,
+  "duration_ms": 3521,
+  "reference_speaker": "en/speaker_065_22dd21ffb5a9.mp3",
+  "seed": 8805,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "soundcheck",
+      "start_sample": 0,
+      "end_sample": 19378,
+      "start_ms": 0,
+      "end_ms": 1211
+    },
+    {
+      "lang": "ja",
+      "text": "が終わったら本番まで少し休もう。",
+      "start_sample": 19378,
+      "end_sample": 56337,
+      "start_ms": 1211,
+      "end_ms": 3521
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "soundcheck ga owatsu tara honban made sukoshi yasumou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6239,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "soundcheck",
+          "start_sample": 0,
+          "end_sample": 19578,
+          "start_ms": 0,
+          "end_ms": 1224
+        },
+        {
+          "lang": "ja",
+          "text": "が終わったら本番まで少し休もう。",
+          "start_sample": 19578,
+          "end_sample": 99825,
+          "start_ms": 1224,
+          "end_ms": 6239
+        }
+      ]
+    },
+    "ja": {
+      "text": "soundcheckが終わったら本番まで少し休もう。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2956,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "soundcheck",
+          "start_sample": 0,
+          "end_sample": 10130,
+          "start_ms": 0,
+          "end_ms": 633
+        },
+        {
+          "lang": "ja",
+          "text": "が終わったら本番まで少し休もう。",
+          "start_sample": 10130,
+          "end_sample": 47289,
+          "start_ms": 633,
+          "end_ms": 2956
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

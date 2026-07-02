@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs571.flac",
+  "sentence": "会議の前にheadphonesをどこに置いたか忘れてしまった。",
+  "sample_rate": 16000,
+  "duration_ms": 4001,
+  "reference_speaker": "en/speaker_093_c561f370b1dd.mp3",
+  "seed": 613,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "会議の前に",
+      "start_sample": 0,
+      "end_sample": 15848,
+      "start_ms": 0,
+      "end_ms": 990
+    },
+    {
+      "lang": "en",
+      "text": "headphones",
+      "start_sample": 15848,
+      "end_sample": 28269,
+      "start_ms": 990,
+      "end_ms": 1767
+    },
+    {
+      "lang": "ja",
+      "text": "をどこに置いたか忘れてしまった。",
+      "start_sample": 28269,
+      "end_sample": 64014,
+      "start_ms": 1767,
+      "end_ms": 4001
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kaigi no mae ni headphones wo doko ni oi ta ka wasure te shimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5669,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "会議の前に",
+          "start_sample": 0,
+          "end_sample": 24519,
+          "start_ms": 0,
+          "end_ms": 1532
+        },
+        {
+          "lang": "en",
+          "text": "headphones",
+          "start_sample": 24519,
+          "end_sample": 37340,
+          "start_ms": 1532,
+          "end_ms": 2334
+        },
+        {
+          "lang": "ja",
+          "text": "をどこに置いたか忘れてしまった。",
+          "start_sample": 37340,
+          "end_sample": 90705,
+          "start_ms": 2334,
+          "end_ms": 5669
+        }
+      ]
+    },
+    "ja": {
+      "text": "会議の前にheadphonesをどこに置いたか忘れてしまった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4032,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "会議の前に",
+          "start_sample": 0,
+          "end_sample": 16048,
+          "start_ms": 0,
+          "end_ms": 1003
+        },
+        {
+          "lang": "en",
+          "text": "headphones",
+          "start_sample": 16048,
+          "end_sample": 28566,
+          "start_ms": 1003,
+          "end_ms": 1785
+        },
+        {
+          "lang": "ja",
+          "text": "をどこに置いたか忘れてしまった。",
+          "start_sample": 28566,
+          "end_sample": 64511,
+          "start_ms": 1785,
+          "end_ms": 4032
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

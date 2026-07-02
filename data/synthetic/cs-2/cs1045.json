@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1045.flac",
+  "sentence": "The crowd's 声援 during the final lap gave me a burst of energy that felt almost 奇跡.",
+  "sample_rate": 16000,
+  "duration_ms": 5362,
+  "reference_speaker": "en/speaker_029_435fb74c25c3.mp3",
+  "seed": 17900,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The crowd's",
+      "start_sample": 0,
+      "end_sample": 8770,
+      "start_ms": 0,
+      "end_ms": 548
+    },
+    {
+      "lang": "ja",
+      "text": "声援",
+      "start_sample": 8770,
+      "end_sample": 16870,
+      "start_ms": 548,
+      "end_ms": 1054
+    },
+    {
+      "lang": "en",
+      "text": "during the final lap gave me a burst of energy that felt almost",
+      "start_sample": 16870,
+      "end_sample": 79583,
+      "start_ms": 1054,
+      "end_ms": 4974
+    },
+    {
+      "lang": "ja",
+      "text": "奇跡.",
+      "start_sample": 79583,
+      "end_sample": 85797,
+      "start_ms": 4974,
+      "end_ms": 5362
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The crowd's seien during the final lap gave me a burst of energy that felt almost kiseki",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5486,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The crowd's",
+          "start_sample": 0,
+          "end_sample": 8970,
+          "start_ms": 0,
+          "end_ms": 561
+        },
+        {
+          "lang": "ja",
+          "text": "声援",
+          "start_sample": 8970,
+          "end_sample": 15698,
+          "start_ms": 561,
+          "end_ms": 981
+        },
+        {
+          "lang": "en",
+          "text": "during the final lap gave me a burst of energy that felt almost",
+          "start_sample": 15698,
+          "end_sample": 78811,
+          "start_ms": 981,
+          "end_ms": 4926
+        },
+        {
+          "lang": "ja",
+          "text": "奇跡.",
+          "start_sample": 78811,
+          "end_sample": 87781,
+          "start_ms": 4926,
+          "end_ms": 5486
+        }
+      ]
+    },
+    "ja": {
+      "text": "The crowd's 声援 during the final lap gave me a burst of energy that felt almost 奇跡.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8761,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The crowd's",
+          "start_sample": 0,
+          "end_sample": 12349,
+          "start_ms": 0,
+          "end_ms": 772
+        },
+        {
+          "lang": "ja",
+          "text": "声援",
+          "start_sample": 12349,
+          "end_sample": 20849,
+          "start_ms": 772,
+          "end_ms": 1303
+        },
+        {
+          "lang": "en",
+          "text": "during the final lap gave me a burst of energy that felt almost",
+          "start_sample": 20849,
+          "end_sample": 133762,
+          "start_ms": 1303,
+          "end_ms": 8360
+        },
+        {
+          "lang": "ja",
+          "text": "奇跡.",
+          "start_sample": 133762,
+          "end_sample": 140176,
+          "start_ms": 8360,
+          "end_ms": 8761
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 269,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjj"
+}

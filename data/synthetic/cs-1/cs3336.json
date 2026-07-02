@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3336.flac",
+  "sentence": "脳のscanの結果が出るまで一週間ほどかかります。",
+  "sample_rate": 16000,
+  "duration_ms": 3740,
+  "reference_speaker": "jp/speaker_022_b672c364242e.mp3",
+  "seed": 3378,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "脳の",
+      "start_sample": 0,
+      "end_sample": 5435,
+      "start_ms": 0,
+      "end_ms": 340
+    },
+    {
+      "lang": "en",
+      "text": "scan",
+      "start_sample": 5435,
+      "end_sample": 18016,
+      "start_ms": 340,
+      "end_ms": 1126
+    },
+    {
+      "lang": "ja",
+      "text": "の結果が出るまで一週間ほどかかります。",
+      "start_sample": 18016,
+      "end_sample": 59834,
+      "start_ms": 1126,
+      "end_ms": 3740
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "nou no scan no kekka ga deru made ichi shuukan hodo kakari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7893,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "脳の",
+          "start_sample": 0,
+          "end_sample": 25159,
+          "start_ms": 0,
+          "end_ms": 1572
+        },
+        {
+          "lang": "en",
+          "text": "scan",
+          "start_sample": 25159,
+          "end_sample": 38140,
+          "start_ms": 1572,
+          "end_ms": 2384
+        },
+        {
+          "lang": "ja",
+          "text": "の結果が出るまで一週間ほどかかります。",
+          "start_sample": 38140,
+          "end_sample": 126281,
+          "start_ms": 2384,
+          "end_ms": 7893
+        }
+      ]
+    },
+    "ja": {
+      "text": "脳のscanの結果が出るまで一週間ほどかかります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3341,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "脳の",
+          "start_sample": 0,
+          "end_sample": 5635,
+          "start_ms": 0,
+          "end_ms": 352
+        },
+        {
+          "lang": "en",
+          "text": "scan",
+          "start_sample": 5635,
+          "end_sample": 11432,
+          "start_ms": 352,
+          "end_ms": 714
+        },
+        {
+          "lang": "ja",
+          "text": "の結果が出るまで一週間ほどかかります。",
+          "start_sample": 11432,
+          "end_sample": 53450,
+          "start_ms": 714,
+          "end_ms": 3341
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 187,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

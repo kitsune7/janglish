@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8039.flac",
+  "sentence": "Our family has a 伝統 of gathering on the first Sunday of every month for brunch.",
+  "sample_rate": 16000,
+  "duration_ms": 4109,
+  "reference_speaker": "jp/speaker_072_6a4d94080268.mp3",
+  "seed": 8081,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Our family has a",
+      "start_sample": 0,
+      "end_sample": 13268,
+      "start_ms": 0,
+      "end_ms": 829
+    },
+    {
+      "lang": "ja",
+      "text": "伝統",
+      "start_sample": 13268,
+      "end_sample": 19127,
+      "start_ms": 829,
+      "end_ms": 1195
+    },
+    {
+      "lang": "en",
+      "text": "of gathering on the first Sunday of every month for brunch.",
+      "start_sample": 19127,
+      "end_sample": 65747,
+      "start_ms": 1195,
+      "end_ms": 4109
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Our family has a dentou of gathering on the first Sunday of every month for brunch.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4149,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Our family has a",
+          "start_sample": 0,
+          "end_sample": 13468,
+          "start_ms": 0,
+          "end_ms": 842
+        },
+        {
+          "lang": "ja",
+          "text": "伝統",
+          "start_sample": 13468,
+          "end_sample": 19561,
+          "start_ms": 842,
+          "end_ms": 1223
+        },
+        {
+          "lang": "en",
+          "text": "of gathering on the first Sunday of every month for brunch.",
+          "start_sample": 19561,
+          "end_sample": 66381,
+          "start_ms": 1223,
+          "end_ms": 4149
+        }
+      ]
+    },
+    "ja": {
+      "text": "Our family has a 伝統 of gathering on the first Sunday of every month for brunch.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4674,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Our family has a",
+          "start_sample": 0,
+          "end_sample": 16206,
+          "start_ms": 0,
+          "end_ms": 1013
+        },
+        {
+          "lang": "ja",
+          "text": "伝統",
+          "start_sample": 16206,
+          "end_sample": 22465,
+          "start_ms": 1013,
+          "end_ms": 1404
+        },
+        {
+          "lang": "en",
+          "text": "of gathering on the first Sunday of every month for brunch.",
+          "start_sample": 22465,
+          "end_sample": 74780,
+          "start_ms": 1404,
+          "end_ms": 4674
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 206,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

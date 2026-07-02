@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs841.flac",
+  "sentence": "ホテルのrooftop barから見える夜景はとても美しかった。",
+  "sample_rate": 16000,
+  "duration_ms": 4709,
+  "reference_speaker": "jp/speaker_077_a8ec885aec97.mp3",
+  "seed": 883,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "ホテルの",
+      "start_sample": 0,
+      "end_sample": 9096,
+      "start_ms": 0,
+      "end_ms": 568
+    },
+    {
+      "lang": "en",
+      "text": "rooftop bar",
+      "start_sample": 9096,
+      "end_sample": 33710,
+      "start_ms": 568,
+      "end_ms": 2107
+    },
+    {
+      "lang": "ja",
+      "text": "から見える夜景はとても美しかった。",
+      "start_sample": 33710,
+      "end_sample": 75344,
+      "start_ms": 2107,
+      "end_ms": 4709
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "hoteru no rooftop bar kara mieru yakei ha totemo utsukushikatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9059,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ホテルの",
+          "start_sample": 0,
+          "end_sample": 38161,
+          "start_ms": 0,
+          "end_ms": 2385
+        },
+        {
+          "lang": "en",
+          "text": "rooftop bar",
+          "start_sample": 38161,
+          "end_sample": 63175,
+          "start_ms": 2385,
+          "end_ms": 3948
+        },
+        {
+          "lang": "ja",
+          "text": "から見える夜景はとても美しかった。",
+          "start_sample": 63175,
+          "end_sample": 144950,
+          "start_ms": 3948,
+          "end_ms": 9059
+        }
+      ]
+    },
+    "ja": {
+      "text": "ホテルのrooftop barから見える夜景はとても美しかった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4268,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ホテルの",
+          "start_sample": 0,
+          "end_sample": 9296,
+          "start_ms": 0,
+          "end_ms": 581
+        },
+        {
+          "lang": "en",
+          "text": "rooftop bar",
+          "start_sample": 9296,
+          "end_sample": 26447,
+          "start_ms": 581,
+          "end_ms": 1653
+        },
+        {
+          "lang": "ja",
+          "text": "から見える夜景はとても美しかった。",
+          "start_sample": 26447,
+          "end_sample": 68281,
+          "start_ms": 1653,
+          "end_ms": 4268
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 236,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8247.flac",
+  "sentence": "The 外科医 recommended waiting three months before considering a second operation.",
+  "sample_rate": 16000,
+  "duration_ms": 4609,
+  "reference_speaker": "jp/speaker_060_dda9a032fd63.mp3",
+  "seed": 8289,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2204,
+      "start_ms": 0,
+      "end_ms": 138
+    },
+    {
+      "lang": "ja",
+      "text": "外科医",
+      "start_sample": 2204,
+      "end_sample": 7892,
+      "start_ms": 138,
+      "end_ms": 493
+    },
+    {
+      "lang": "en",
+      "text": "recommended waiting three months before considering a second operation.",
+      "start_sample": 7892,
+      "end_sample": 73740,
+      "start_ms": 493,
+      "end_ms": 4609
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The geka i recommended waiting three months before considering a second operation.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5451,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2404,
+          "start_ms": 0,
+          "end_ms": 150
+        },
+        {
+          "lang": "ja",
+          "text": "外科医",
+          "start_sample": 2404,
+          "end_sample": 21161,
+          "start_ms": 150,
+          "end_ms": 1323
+        },
+        {
+          "lang": "en",
+          "text": "recommended waiting three months before considering a second operation.",
+          "start_sample": 21161,
+          "end_sample": 87209,
+          "start_ms": 1323,
+          "end_ms": 5451
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 外科医 recommended waiting three months before considering a second operation.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4806,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2242,
+          "start_ms": 0,
+          "end_ms": 140
+        },
+        {
+          "lang": "ja",
+          "text": "外科医",
+          "start_sample": 2242,
+          "end_sample": 8330,
+          "start_ms": 140,
+          "end_ms": 521
+        },
+        {
+          "lang": "en",
+          "text": "recommended waiting three months before considering a second operation.",
+          "start_sample": 8330,
+          "end_sample": 76903,
+          "start_ms": 521,
+          "end_ms": 4806
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 231,
+  "frame_labels": "eeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

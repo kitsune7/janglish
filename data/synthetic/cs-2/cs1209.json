@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs1209.flac",
+  "sentence": "That broth had such a deep 旨味 that it left a long 余韻 on the palate.",
+  "sample_rate": 16000,
+  "duration_ms": 4156,
+  "reference_speaker": "en/speaker_056_b1458b769af8.mp3",
+  "seed": 18064,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That broth had such a deep",
+      "start_sample": 0,
+      "end_sample": 19190,
+      "start_ms": 0,
+      "end_ms": 1199
+    },
+    {
+      "lang": "ja",
+      "text": "旨味",
+      "start_sample": 19190,
+      "end_sample": 30165,
+      "start_ms": 1199,
+      "end_ms": 1885
+    },
+    {
+      "lang": "en",
+      "text": "that it left a long",
+      "start_sample": 30165,
+      "end_sample": 46271,
+      "start_ms": 1885,
+      "end_ms": 2892
+    },
+    {
+      "lang": "ja",
+      "text": "余韻",
+      "start_sample": 46271,
+      "end_sample": 52599,
+      "start_ms": 2892,
+      "end_ms": 3287
+    },
+    {
+      "lang": "en",
+      "text": "on the palate.",
+      "start_sample": 52599,
+      "end_sample": 66500,
+      "start_ms": 3287,
+      "end_ms": 4156
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That broth had such a deep umami that it left a long yoin on the palate.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4186,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That broth had such a deep",
+          "start_sample": 0,
+          "end_sample": 19390,
+          "start_ms": 0,
+          "end_ms": 1212
+        },
+        {
+          "lang": "ja",
+          "text": "旨味",
+          "start_sample": 19390,
+          "end_sample": 26761,
+          "start_ms": 1212,
+          "end_ms": 1673
+        },
+        {
+          "lang": "en",
+          "text": "that it left a long",
+          "start_sample": 26761,
+          "end_sample": 43267,
+          "start_ms": 1673,
+          "end_ms": 2704
+        },
+        {
+          "lang": "ja",
+          "text": "余韻",
+          "start_sample": 43267,
+          "end_sample": 52882,
+          "start_ms": 2704,
+          "end_ms": 3305
+        },
+        {
+          "lang": "en",
+          "text": "on the palate.",
+          "start_sample": 52882,
+          "end_sample": 66983,
+          "start_ms": 3305,
+          "end_ms": 4186
+        }
+      ]
+    },
+    "ja": {
+      "text": "That broth had such a deep 旨味 that it left a long 余韻 on the palate.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5146,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That broth had such a deep",
+          "start_sample": 0,
+          "end_sample": 30757,
+          "start_ms": 0,
+          "end_ms": 1922
+        },
+        {
+          "lang": "ja",
+          "text": "旨味",
+          "start_sample": 30757,
+          "end_sample": 42132,
+          "start_ms": 1922,
+          "end_ms": 2633
+        },
+        {
+          "lang": "en",
+          "text": "that it left a long",
+          "start_sample": 42132,
+          "end_sample": 62637,
+          "start_ms": 2633,
+          "end_ms": 3915
+        },
+        {
+          "lang": "ja",
+          "text": "余韻",
+          "start_sample": 62637,
+          "end_sample": 69365,
+          "start_ms": 3915,
+          "end_ms": 4335
+        },
+        {
+          "lang": "en",
+          "text": "on the palate.",
+          "start_sample": 69365,
+          "end_sample": 82341,
+          "start_ms": 4335,
+          "end_ms": 5146
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

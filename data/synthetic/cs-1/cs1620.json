@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1620.flac",
+  "sentence": "The 黒板 in our old classroom was so worn out you could barely read what was written.",
+  "sample_rate": 16000,
+  "duration_ms": 5834,
+  "reference_speaker": "en/speaker_098_f600c480bfab.mp3",
+  "seed": 1662,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1243,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "黒板",
+      "start_sample": 1243,
+      "end_sample": 9817,
+      "start_ms": 78,
+      "end_ms": 614
+    },
+    {
+      "lang": "en",
+      "text": "in our old classroom was so worn out you could barely read what was written.",
+      "start_sample": 9817,
+      "end_sample": 93352,
+      "start_ms": 614,
+      "end_ms": 5834
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kokuban in our old classroom was so worn out you could barely read what was written.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5935,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1443,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "黒板",
+          "start_sample": 1443,
+          "end_sample": 11228,
+          "start_ms": 90,
+          "end_ms": 702
+        },
+        {
+          "lang": "en",
+          "text": "in our old classroom was so worn out you could barely read what was written.",
+          "start_sample": 11228,
+          "end_sample": 94963,
+          "start_ms": 702,
+          "end_ms": 5935
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 黒板 in our old classroom was so worn out you could barely read what was written.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5929,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3845,
+          "start_ms": 0,
+          "end_ms": 240
+        },
+        {
+          "lang": "ja",
+          "text": "黒板",
+          "start_sample": 3845,
+          "end_sample": 12819,
+          "start_ms": 240,
+          "end_ms": 801
+        },
+        {
+          "lang": "en",
+          "text": "in our old classroom was so worn out you could barely read what was written.",
+          "start_sample": 12819,
+          "end_sample": 94862,
+          "start_ms": 801,
+          "end_ms": 5929
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 292,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

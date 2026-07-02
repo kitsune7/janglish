@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4954.flac",
+  "sentence": "雨の後、空気がfreshで気持ちがよかった。",
+  "sample_rate": 16000,
+  "duration_ms": 3787,
+  "reference_speaker": "en/speaker_088_9950f069efac.mp3",
+  "seed": 4996,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "雨の後、空気が",
+      "start_sample": 0,
+      "end_sample": 28013,
+      "start_ms": 0,
+      "end_ms": 1751
+    },
+    {
+      "lang": "en",
+      "text": "fresh",
+      "start_sample": 28013,
+      "end_sample": 43642,
+      "start_ms": 1751,
+      "end_ms": 2728
+    },
+    {
+      "lang": "ja",
+      "text": "で気持ちがよかった。",
+      "start_sample": 43642,
+      "end_sample": 60593,
+      "start_ms": 2728,
+      "end_ms": 3787
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ame no nochi kuuki ga fresh de kimochi ga yokatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7874,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "雨の後、空気が",
+          "start_sample": 0,
+          "end_sample": 81747,
+          "start_ms": 0,
+          "end_ms": 5109
+        },
+        {
+          "lang": "en",
+          "text": "fresh",
+          "start_sample": 81747,
+          "end_sample": 97776,
+          "start_ms": 5109,
+          "end_ms": 6111
+        },
+        {
+          "lang": "ja",
+          "text": "で気持ちがよかった。",
+          "start_sample": 97776,
+          "end_sample": 125986,
+          "start_ms": 6111,
+          "end_ms": 7874
+        }
+      ]
+    },
+    "ja": {
+      "text": "雨の後、空気がfreshで気持ちがよかった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3206,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "雨の後、空気が",
+          "start_sample": 0,
+          "end_sample": 28213,
+          "start_ms": 0,
+          "end_ms": 1763
+        },
+        {
+          "lang": "en",
+          "text": "fresh",
+          "start_sample": 28213,
+          "end_sample": 34145,
+          "start_ms": 1763,
+          "end_ms": 2134
+        },
+        {
+          "lang": "ja",
+          "text": "で気持ちがよかった。",
+          "start_sample": 34145,
+          "end_sample": 51296,
+          "start_ms": 2134,
+          "end_ms": 3206
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

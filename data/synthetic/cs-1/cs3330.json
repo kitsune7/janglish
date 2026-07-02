@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3330.flac",
+  "sentence": "このcapsuleは一日二回、食後に飲んでください。",
+  "sample_rate": 16000,
+  "duration_ms": 3277,
+  "reference_speaker": "jp/speaker_072_6a4d94080268.mp3",
+  "seed": 3372,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 2054,
+      "start_ms": 0,
+      "end_ms": 128
+    },
+    {
+      "lang": "en",
+      "text": "capsule",
+      "start_sample": 2054,
+      "end_sample": 15604,
+      "start_ms": 128,
+      "end_ms": 975
+    },
+    {
+      "lang": "ja",
+      "text": "は一日二回、食後に飲んでください。",
+      "start_sample": 15604,
+      "end_sample": 52429,
+      "start_ms": 975,
+      "end_ms": 3277
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono capsule ha ichi nichi ni kai shokugo ni non de kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5231,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5772,
+          "start_ms": 0,
+          "end_ms": 361
+        },
+        {
+          "lang": "en",
+          "text": "capsule",
+          "start_sample": 5772,
+          "end_sample": 19722,
+          "start_ms": 361,
+          "end_ms": 1233
+        },
+        {
+          "lang": "ja",
+          "text": "は一日二回、食後に飲んでください。",
+          "start_sample": 19722,
+          "end_sample": 83701,
+          "start_ms": 1233,
+          "end_ms": 5231
+        }
+      ]
+    },
+    "ja": {
+      "text": "このcapsuleは一日二回、食後に飲んでください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3079,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 2254,
+          "start_ms": 0,
+          "end_ms": 141
+        },
+        {
+          "lang": "en",
+          "text": "capsule",
+          "start_sample": 2254,
+          "end_sample": 12236,
+          "start_ms": 141,
+          "end_ms": 765
+        },
+        {
+          "lang": "ja",
+          "text": "は一日二回、食後に飲んでください。",
+          "start_sample": 12236,
+          "end_sample": 49261,
+          "start_ms": 765,
+          "end_ms": 3079
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 164,
+  "frame_labels": "jjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs653.flac",
+  "sentence": "I love watching the 積雪 pile up while staying somewhere 暖か inside.",
+  "sample_rate": 16000,
+  "duration_ms": 4906,
+  "reference_speaker": "jp/speaker_038_fa40784c77e2.mp3",
+  "seed": 17508,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I love watching the",
+      "start_sample": 0,
+      "end_sample": 15813,
+      "start_ms": 0,
+      "end_ms": 988
+    },
+    {
+      "lang": "ja",
+      "text": "積雪",
+      "start_sample": 15813,
+      "end_sample": 24877,
+      "start_ms": 988,
+      "end_ms": 1555
+    },
+    {
+      "lang": "en",
+      "text": "pile up while staying somewhere",
+      "start_sample": 24877,
+      "end_sample": 57467,
+      "start_ms": 1555,
+      "end_ms": 3592
+    },
+    {
+      "lang": "ja",
+      "text": "暖か",
+      "start_sample": 57467,
+      "end_sample": 65248,
+      "start_ms": 3592,
+      "end_ms": 4078
+    },
+    {
+      "lang": "en",
+      "text": "inside.",
+      "start_sample": 65248,
+      "end_sample": 78500,
+      "start_ms": 4078,
+      "end_ms": 4906
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I love watching the sekisetsu pile up while staying somewhere atataka inside.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5665,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I love watching the",
+          "start_sample": 0,
+          "end_sample": 16013,
+          "start_ms": 0,
+          "end_ms": 1001
+        },
+        {
+          "lang": "ja",
+          "text": "積雪",
+          "start_sample": 16013,
+          "end_sample": 29625,
+          "start_ms": 1001,
+          "end_ms": 1852
+        },
+        {
+          "lang": "en",
+          "text": "pile up while staying somewhere",
+          "start_sample": 29625,
+          "end_sample": 62615,
+          "start_ms": 1852,
+          "end_ms": 3913
+        },
+        {
+          "lang": "ja",
+          "text": "暖か",
+          "start_sample": 62615,
+          "end_sample": 77188,
+          "start_ms": 3913,
+          "end_ms": 4824
+        },
+        {
+          "lang": "en",
+          "text": "inside.",
+          "start_sample": 77188,
+          "end_sample": 90640,
+          "start_ms": 4824,
+          "end_ms": 5665
+        }
+      ]
+    },
+    "ja": {
+      "text": "I love watching the 積雪 pile up while staying somewhere 暖か inside.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5213,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I love watching the",
+          "start_sample": 0,
+          "end_sample": 18122,
+          "start_ms": 0,
+          "end_ms": 1133
+        },
+        {
+          "lang": "ja",
+          "text": "積雪",
+          "start_sample": 18122,
+          "end_sample": 27586,
+          "start_ms": 1133,
+          "end_ms": 1724
+        },
+        {
+          "lang": "en",
+          "text": "pile up while staying somewhere",
+          "start_sample": 27586,
+          "end_sample": 66402,
+          "start_ms": 1724,
+          "end_ms": 4150
+        },
+        {
+          "lang": "ja",
+          "text": "暖か",
+          "start_sample": 66402,
+          "end_sample": 74583,
+          "start_ms": 4150,
+          "end_ms": 4661
+        },
+        {
+          "lang": "en",
+          "text": "inside.",
+          "start_sample": 74583,
+          "end_sample": 83403,
+          "start_ms": 4661,
+          "end_ms": 5213
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 246,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

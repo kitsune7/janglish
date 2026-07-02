@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4295.flac",
+  "sentence": "His reaction time is so 速い that nobody on the team can keep up.",
+  "sample_rate": 16000,
+  "duration_ms": 3895,
+  "reference_speaker": "en/speaker_021_0c003e301f78.mp3",
+  "seed": 4337,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His reaction time is so",
+      "start_sample": 0,
+      "end_sample": 22226,
+      "start_ms": 0,
+      "end_ms": 1389
+    },
+    {
+      "lang": "ja",
+      "text": "速い",
+      "start_sample": 22226,
+      "end_sample": 29361,
+      "start_ms": 1389,
+      "end_ms": 1835
+    },
+    {
+      "lang": "en",
+      "text": "that nobody on the team can keep up.",
+      "start_sample": 29361,
+      "end_sample": 62319,
+      "start_ms": 1835,
+      "end_ms": 3895
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His reaction time is so hayai that nobody on the team can keep up.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4205,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His reaction time is so",
+          "start_sample": 0,
+          "end_sample": 22426,
+          "start_ms": 0,
+          "end_ms": 1402
+        },
+        {
+          "lang": "ja",
+          "text": "速い",
+          "start_sample": 22426,
+          "end_sample": 34119,
+          "start_ms": 1402,
+          "end_ms": 2132
+        },
+        {
+          "lang": "en",
+          "text": "that nobody on the team can keep up.",
+          "start_sample": 34119,
+          "end_sample": 67277,
+          "start_ms": 2132,
+          "end_ms": 4205
+        }
+      ]
+    },
+    "ja": {
+      "text": "His reaction time is so 速い that nobody on the team can keep up.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5230,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His reaction time is so",
+          "start_sample": 0,
+          "end_sample": 28056,
+          "start_ms": 0,
+          "end_ms": 1754
+        },
+        {
+          "lang": "ja",
+          "text": "速い",
+          "start_sample": 28056,
+          "end_sample": 35591,
+          "start_ms": 1754,
+          "end_ms": 2224
+        },
+        {
+          "lang": "en",
+          "text": "that nobody on the team can keep up.",
+          "start_sample": 35591,
+          "end_sample": 83687,
+          "start_ms": 2224,
+          "end_ms": 5230
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 195,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

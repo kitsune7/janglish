@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6205.flac",
+  "sentence": "毎朝メールをチェックするのが私のroutineになっています。",
+  "sample_rate": 16000,
+  "duration_ms": 3428,
+  "reference_speaker": "jp/speaker_089_6207739e2e58.mp3",
+  "seed": 6247,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "毎朝メールをチェックするのが私の",
+      "start_sample": 0,
+      "end_sample": 34875,
+      "start_ms": 0,
+      "end_ms": 2180
+    },
+    {
+      "lang": "en",
+      "text": "routine",
+      "start_sample": 34875,
+      "end_sample": 43466,
+      "start_ms": 2180,
+      "end_ms": 2717
+    },
+    {
+      "lang": "ja",
+      "text": "になっています。",
+      "start_sample": 43466,
+      "end_sample": 54846,
+      "start_ms": 2717,
+      "end_ms": 3428
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "maiasa meeru wo chekku suru no ga watashi no routine ni natsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4837,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝メールをチェックするのが私の",
+          "start_sample": 0,
+          "end_sample": 48651,
+          "start_ms": 0,
+          "end_ms": 3041
+        },
+        {
+          "lang": "en",
+          "text": "routine",
+          "start_sample": 48651,
+          "end_sample": 57642,
+          "start_ms": 3041,
+          "end_ms": 3603
+        },
+        {
+          "lang": "ja",
+          "text": "になっています。",
+          "start_sample": 57642,
+          "end_sample": 77389,
+          "start_ms": 3603,
+          "end_ms": 4837
+        }
+      ]
+    },
+    "ja": {
+      "text": "毎朝メールをチェックするのが私のroutineになっています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3278,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝メールをチェックするのが私の",
+          "start_sample": 0,
+          "end_sample": 35075,
+          "start_ms": 0,
+          "end_ms": 2192
+        },
+        {
+          "lang": "en",
+          "text": "routine",
+          "start_sample": 35075,
+          "end_sample": 40868,
+          "start_ms": 2192,
+          "end_ms": 2554
+        },
+        {
+          "lang": "ja",
+          "text": "になっています。",
+          "start_sample": 40868,
+          "end_sample": 52448,
+          "start_ms": 2554,
+          "end_ms": 3278
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 172,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

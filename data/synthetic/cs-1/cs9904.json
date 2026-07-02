@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9904.flac",
+  "sentence": "このsizeは在庫が残っていますか？",
+  "sample_rate": 16000,
+  "duration_ms": 2646,
+  "reference_speaker": "jp/speaker_049_435108c1173c.mp3",
+  "seed": 9946,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3967,
+      "start_ms": 0,
+      "end_ms": 248
+    },
+    {
+      "lang": "en",
+      "text": "size",
+      "start_sample": 3967,
+      "end_sample": 20401,
+      "start_ms": 248,
+      "end_ms": 1275
+    },
+    {
+      "lang": "ja",
+      "text": "は在庫が残っていますか？",
+      "start_sample": 20401,
+      "end_sample": 42332,
+      "start_ms": 1275,
+      "end_ms": 2646
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono size ha zaiko ga nokotsu te i masu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4890,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4969,
+          "start_ms": 0,
+          "end_ms": 311
+        },
+        {
+          "lang": "en",
+          "text": "size",
+          "start_sample": 4969,
+          "end_sample": 21803,
+          "start_ms": 311,
+          "end_ms": 1363
+        },
+        {
+          "lang": "ja",
+          "text": "は在庫が残っていますか？",
+          "start_sample": 21803,
+          "end_sample": 78236,
+          "start_ms": 1363,
+          "end_ms": 4890
+        }
+      ]
+    },
+    "ja": {
+      "text": "このsizeは在庫が残っていますか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 1984,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4167,
+          "start_ms": 0,
+          "end_ms": 260
+        },
+        {
+          "lang": "en",
+          "text": "size",
+          "start_sample": 4167,
+          "end_sample": 9620,
+          "start_ms": 260,
+          "end_ms": 601
+        },
+        {
+          "lang": "ja",
+          "text": "は在庫が残っていますか？",
+          "start_sample": 9620,
+          "end_sample": 31751,
+          "start_ms": 601,
+          "end_ms": 1984
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 133,
+  "frame_labels": "jjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

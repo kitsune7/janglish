@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5423.flac",
+  "sentence": "この本はhardcoverしか買えなかった。",
+  "sample_rate": 16000,
+  "duration_ms": 3145,
+  "reference_speaker": "en/speaker_024_d461ea23a991.mp3",
+  "seed": 5465,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この本は",
+      "start_sample": 0,
+      "end_sample": 11823,
+      "start_ms": 0,
+      "end_ms": 739
+    },
+    {
+      "lang": "en",
+      "text": "hardcover",
+      "start_sample": 11823,
+      "end_sample": 32083,
+      "start_ms": 739,
+      "end_ms": 2005
+    },
+    {
+      "lang": "ja",
+      "text": "しか買えなかった。",
+      "start_sample": 32083,
+      "end_sample": 50319,
+      "start_ms": 2005,
+      "end_ms": 3145
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono hon ha hardcover shika kae nakatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5165,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この本は",
+          "start_sample": 0,
+          "end_sample": 26104,
+          "start_ms": 0,
+          "end_ms": 1632
+        },
+        {
+          "lang": "en",
+          "text": "hardcover",
+          "start_sample": 26104,
+          "end_sample": 46764,
+          "start_ms": 1632,
+          "end_ms": 2923
+        },
+        {
+          "lang": "ja",
+          "text": "しか買えなかった。",
+          "start_sample": 46764,
+          "end_sample": 82638,
+          "start_ms": 2923,
+          "end_ms": 5165
+        }
+      ]
+    },
+    "ja": {
+      "text": "この本はhardcoverしか買えなかった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2685,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この本は",
+          "start_sample": 0,
+          "end_sample": 12023,
+          "start_ms": 0,
+          "end_ms": 751
+        },
+        {
+          "lang": "en",
+          "text": "hardcover",
+          "start_sample": 12023,
+          "end_sample": 24530,
+          "start_ms": 751,
+          "end_ms": 1533
+        },
+        {
+          "lang": "ja",
+          "text": "しか買えなかった。",
+          "start_sample": 24530,
+          "end_sample": 42966,
+          "start_ms": 1533,
+          "end_ms": 2685
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 158,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

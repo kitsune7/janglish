@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs2391.flac",
+  "sentence": "physicalな強さだけでなく、精神力も必要だ。",
+  "sample_rate": 16000,
+  "duration_ms": 3403,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 2433,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "physical",
+      "start_sample": 0,
+      "end_sample": 9759,
+      "start_ms": 0,
+      "end_ms": 610
+    },
+    {
+      "lang": "ja",
+      "text": "な強さだけでなく、精神力も必要だ。",
+      "start_sample": 9759,
+      "end_sample": 54445,
+      "start_ms": 610,
+      "end_ms": 3403
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "physical na kyou sa dake de naku seishin chikara mo hitsuyou da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5863,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "physical",
+          "start_sample": 0,
+          "end_sample": 9959,
+          "start_ms": 0,
+          "end_ms": 622
+        },
+        {
+          "lang": "ja",
+          "text": "な強さだけでなく、精神力も必要だ。",
+          "start_sample": 9959,
+          "end_sample": 93812,
+          "start_ms": 622,
+          "end_ms": 5863
+        }
+      ]
+    },
+    "ja": {
+      "text": "physicalな強さだけでなく、精神力も必要だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3198,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "physical",
+          "start_sample": 0,
+          "end_sample": 6274,
+          "start_ms": 0,
+          "end_ms": 392
+        },
+        {
+          "lang": "ja",
+          "text": "な強さだけでなく、精神力も必要だ。",
+          "start_sample": 6274,
+          "end_sample": 51160,
+          "start_ms": 392,
+          "end_ms": 3198
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 171,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

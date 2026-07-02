@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10576.flac",
+  "sentence": "うちのモルモットはとてもchubbyで、ごはんをあげすぎたかもしれない。",
+  "sample_rate": 16000,
+  "duration_ms": 6696,
+  "reference_speaker": "en/speaker_027_12abacd76d5f.mp3",
+  "seed": 10618,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "うちのモルモットはとても",
+      "start_sample": 0,
+      "end_sample": 31094,
+      "start_ms": 0,
+      "end_ms": 1943
+    },
+    {
+      "lang": "en",
+      "text": "chubby",
+      "start_sample": 31094,
+      "end_sample": 63526,
+      "start_ms": 1943,
+      "end_ms": 3970
+    },
+    {
+      "lang": "ja",
+      "text": "で、ごはんをあげすぎたかもしれない。",
+      "start_sample": 63526,
+      "end_sample": 107141,
+      "start_ms": 3970,
+      "end_ms": 6696
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "uchi no morumotto ha totemo chubby de gohan wo age sugi ta ka mo shire nai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 13533,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちのモルモットはとても",
+          "start_sample": 0,
+          "end_sample": 123159,
+          "start_ms": 0,
+          "end_ms": 7697
+        },
+        {
+          "lang": "en",
+          "text": "chubby",
+          "start_sample": 123159,
+          "end_sample": 155991,
+          "start_ms": 7697,
+          "end_ms": 9749
+        },
+        {
+          "lang": "ja",
+          "text": "で、ごはんをあげすぎたかもしれない。",
+          "start_sample": 155991,
+          "end_sample": 216529,
+          "start_ms": 9749,
+          "end_ms": 13533
+        }
+      ]
+    },
+    "ja": {
+      "text": "うちのモルモットはとてもchubbyで、ごはんをあげすぎたかもしれない。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5256,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちのモルモットはとても",
+          "start_sample": 0,
+          "end_sample": 31294,
+          "start_ms": 0,
+          "end_ms": 1956
+        },
+        {
+          "lang": "en",
+          "text": "chubby",
+          "start_sample": 31294,
+          "end_sample": 40282,
+          "start_ms": 1956,
+          "end_ms": 2518
+        },
+        {
+          "lang": "ja",
+          "text": "で、ごはんをあげすぎたかもしれない。",
+          "start_sample": 40282,
+          "end_sample": 84097,
+          "start_ms": 2518,
+          "end_ms": 5256
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 335,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

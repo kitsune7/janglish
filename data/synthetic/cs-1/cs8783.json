@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8783.flac",
+  "sentence": "あのproducerが手がけた曲はどれも品質が高い。",
+  "sample_rate": 16000,
+  "duration_ms": 3985,
+  "reference_speaker": "en/speaker_088_9950f069efac.mp3",
+  "seed": 8825,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの",
+      "start_sample": 0,
+      "end_sample": 3178,
+      "start_ms": 0,
+      "end_ms": 199
+    },
+    {
+      "lang": "en",
+      "text": "producer",
+      "start_sample": 3178,
+      "end_sample": 27277,
+      "start_ms": 199,
+      "end_ms": 1705
+    },
+    {
+      "lang": "ja",
+      "text": "が手がけた曲はどれも品質が高い。",
+      "start_sample": 27277,
+      "end_sample": 63757,
+      "start_ms": 1705,
+      "end_ms": 3985
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano producer ga tegake ta kyoku ha dore mo hinshitsu ga takai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8726,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 4322,
+          "start_ms": 0,
+          "end_ms": 270
+        },
+        {
+          "lang": "en",
+          "text": "producer",
+          "start_sample": 4322,
+          "end_sample": 28821,
+          "start_ms": 270,
+          "end_ms": 1801
+        },
+        {
+          "lang": "ja",
+          "text": "が手がけた曲はどれも品質が高い。",
+          "start_sample": 28821,
+          "end_sample": 139624,
+          "start_ms": 1801,
+          "end_ms": 8726
+        }
+      ]
+    },
+    "ja": {
+      "text": "あのproducerが手がけた曲はどれも品質が高い。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3218,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 3378,
+          "start_ms": 0,
+          "end_ms": 211
+        },
+        {
+          "lang": "en",
+          "text": "producer",
+          "start_sample": 3378,
+          "end_sample": 14802,
+          "start_ms": 211,
+          "end_ms": 925
+        },
+        {
+          "lang": "ja",
+          "text": "が手がけた曲はどれも品質が高い。",
+          "start_sample": 14802,
+          "end_sample": 51482,
+          "start_ms": 925,
+          "end_ms": 3218
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 200,
+  "frame_labels": "jjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

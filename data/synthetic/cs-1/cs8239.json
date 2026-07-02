@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8239.flac",
+  "sentence": "It's impressive how 丁寧 the nurses were throughout the entire procedure.",
+  "sample_rate": 16000,
+  "duration_ms": 4787,
+  "reference_speaker": "en/speaker_030_bdb9e7b61df6.mp3",
+  "seed": 8281,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "It's impressive how",
+      "start_sample": 0,
+      "end_sample": 15862,
+      "start_ms": 0,
+      "end_ms": 991
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧",
+      "start_sample": 15862,
+      "end_sample": 26194,
+      "start_ms": 991,
+      "end_ms": 1637
+    },
+    {
+      "lang": "en",
+      "text": "the nurses were throughout the entire procedure.",
+      "start_sample": 26194,
+      "end_sample": 76589,
+      "start_ms": 1637,
+      "end_ms": 4787
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "It's impressive how teinei the nurses were throughout the entire procedure.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4698,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "It's impressive how",
+          "start_sample": 0,
+          "end_sample": 16062,
+          "start_ms": 0,
+          "end_ms": 1004
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 16062,
+          "end_sample": 24575,
+          "start_ms": 1004,
+          "end_ms": 1536
+        },
+        {
+          "lang": "en",
+          "text": "the nurses were throughout the entire procedure.",
+          "start_sample": 24575,
+          "end_sample": 75170,
+          "start_ms": 1536,
+          "end_ms": 4698
+        }
+      ]
+    },
+    "ja": {
+      "text": "It's impressive how 丁寧 the nurses were throughout the entire procedure.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5806,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "It's impressive how",
+          "start_sample": 0,
+          "end_sample": 27069,
+          "start_ms": 0,
+          "end_ms": 1692
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 27069,
+          "end_sample": 37801,
+          "start_ms": 1692,
+          "end_ms": 2363
+        },
+        {
+          "lang": "en",
+          "text": "the nurses were throughout the entire procedure.",
+          "start_sample": 37801,
+          "end_sample": 92901,
+          "start_ms": 2363,
+          "end_ms": 5806
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 240,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2150.flac",
+  "sentence": "毎朝joggingをする前に、軽くストレッチをします。",
+  "sample_rate": 16000,
+  "duration_ms": 3695,
+  "reference_speaker": "jp/speaker_020_8ca1bbc6858e.mp3",
+  "seed": 2192,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "毎朝",
+      "start_sample": 0,
+      "end_sample": 8930,
+      "start_ms": 0,
+      "end_ms": 558
+    },
+    {
+      "lang": "en",
+      "text": "jogging",
+      "start_sample": 8930,
+      "end_sample": 17989,
+      "start_ms": 558,
+      "end_ms": 1124
+    },
+    {
+      "lang": "ja",
+      "text": "をする前に、軽くストレッチをします。",
+      "start_sample": 17989,
+      "end_sample": 59118,
+      "start_ms": 1124,
+      "end_ms": 3695
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "maiasa jogging wo suru mae ni karuku sutoretchi wo shi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4990,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝",
+          "start_sample": 0,
+          "end_sample": 10260,
+          "start_ms": 0,
+          "end_ms": 641
+        },
+        {
+          "lang": "en",
+          "text": "jogging",
+          "start_sample": 10260,
+          "end_sample": 19719,
+          "start_ms": 641,
+          "end_ms": 1232
+        },
+        {
+          "lang": "ja",
+          "text": "をする前に、軽くストレッチをします。",
+          "start_sample": 19719,
+          "end_sample": 79839,
+          "start_ms": 1232,
+          "end_ms": 4990
+        }
+      ]
+    },
+    "ja": {
+      "text": "毎朝joggingをする前に、軽くストレッチをします。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3824,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝",
+          "start_sample": 0,
+          "end_sample": 9130,
+          "start_ms": 0,
+          "end_ms": 571
+        },
+        {
+          "lang": "en",
+          "text": "jogging",
+          "start_sample": 9130,
+          "end_sample": 19863,
+          "start_ms": 571,
+          "end_ms": 1241
+        },
+        {
+          "lang": "ja",
+          "text": "をする前に、軽くストレッチをします。",
+          "start_sample": 19863,
+          "end_sample": 61192,
+          "start_ms": 1241,
+          "end_ms": 3824
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 185,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2317.flac",
+  "sentence": "そのskylineをバックに記念写真を撮った。",
+  "sample_rate": 16000,
+  "duration_ms": 3816,
+  "reference_speaker": "jp/speaker_077_a8ec885aec97.mp3",
+  "seed": 2359,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その",
+      "start_sample": 0,
+      "end_sample": 3005,
+      "start_ms": 0,
+      "end_ms": 188
+    },
+    {
+      "lang": "en",
+      "text": "skyline",
+      "start_sample": 3005,
+      "end_sample": 30971,
+      "start_ms": 188,
+      "end_ms": 1936
+    },
+    {
+      "lang": "ja",
+      "text": "をバックに記念写真を撮った。",
+      "start_sample": 30971,
+      "end_sample": 61064,
+      "start_ms": 1936,
+      "end_ms": 3816
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono skyline wo bakku ni kinen shashin wo totsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7933,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 4807,
+          "start_ms": 0,
+          "end_ms": 300
+        },
+        {
+          "lang": "en",
+          "text": "skyline",
+          "start_sample": 4807,
+          "end_sample": 33173,
+          "start_ms": 300,
+          "end_ms": 2073
+        },
+        {
+          "lang": "ja",
+          "text": "をバックに記念写真を撮った。",
+          "start_sample": 33173,
+          "end_sample": 126924,
+          "start_ms": 2073,
+          "end_ms": 7933
+        }
+      ]
+    },
+    "ja": {
+      "text": "そのskylineをバックに記念写真を撮った。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2785,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 3205,
+          "start_ms": 0,
+          "end_ms": 200
+        },
+        {
+          "lang": "en",
+          "text": "skyline",
+          "start_sample": 3205,
+          "end_sample": 14265,
+          "start_ms": 200,
+          "end_ms": 892
+        },
+        {
+          "lang": "ja",
+          "text": "をバックに記念写真を撮った。",
+          "start_sample": 14265,
+          "end_sample": 44558,
+          "start_ms": 892,
+          "end_ms": 2785
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 191,
+  "frame_labels": "jjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

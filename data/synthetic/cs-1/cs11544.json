@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11544.flac",
+  "sentence": "Rush-hour trains here are so 激しい that I prefer cycling in summer.",
+  "sample_rate": 16000,
+  "duration_ms": 4170,
+  "reference_speaker": "jp/speaker_034_3e5442a60675.mp3",
+  "seed": 11586,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Rush-hour trains here are so",
+      "start_sample": 0,
+      "end_sample": 25535,
+      "start_ms": 0,
+      "end_ms": 1596
+    },
+    {
+      "lang": "ja",
+      "text": "激しい",
+      "start_sample": 25535,
+      "end_sample": 35080,
+      "start_ms": 1596,
+      "end_ms": 2192
+    },
+    {
+      "lang": "en",
+      "text": "that I prefer cycling in summer.",
+      "start_sample": 35080,
+      "end_sample": 66723,
+      "start_ms": 2192,
+      "end_ms": 4170
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Rush-hour trains here are so hageshii that I prefer cycling in summer.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4423,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Rush-hour trains here are so",
+          "start_sample": 0,
+          "end_sample": 25735,
+          "start_ms": 0,
+          "end_ms": 1608
+        },
+        {
+          "lang": "ja",
+          "text": "激しい",
+          "start_sample": 25735,
+          "end_sample": 38925,
+          "start_ms": 1608,
+          "end_ms": 2433
+        },
+        {
+          "lang": "en",
+          "text": "that I prefer cycling in summer.",
+          "start_sample": 38925,
+          "end_sample": 70768,
+          "start_ms": 2433,
+          "end_ms": 4423
+        }
+      ]
+    },
+    "ja": {
+      "text": "Rush-hour trains here are so 激しい that I prefer cycling in summer.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6096,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Rush-hour trains here are so",
+          "start_sample": 0,
+          "end_sample": 41868,
+          "start_ms": 0,
+          "end_ms": 2617
+        },
+        {
+          "lang": "ja",
+          "text": "激しい",
+          "start_sample": 41868,
+          "end_sample": 51813,
+          "start_ms": 2617,
+          "end_ms": 3238
+        },
+        {
+          "lang": "en",
+          "text": "that I prefer cycling in summer.",
+          "start_sample": 51813,
+          "end_sample": 97530,
+          "start_ms": 3238,
+          "end_ms": 6096
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 209,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

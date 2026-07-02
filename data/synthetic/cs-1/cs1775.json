@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1775.flac",
+  "sentence": "He recommended the 麦茶 as a non-alcoholic option, and it was actually perfect.",
+  "sample_rate": 16000,
+  "duration_ms": 4148,
+  "reference_speaker": "jp/speaker_072_6a4d94080268.mp3",
+  "seed": 1817,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He recommended the",
+      "start_sample": 0,
+      "end_sample": 11340,
+      "start_ms": 0,
+      "end_ms": 709
+    },
+    {
+      "lang": "ja",
+      "text": "麦茶",
+      "start_sample": 11340,
+      "end_sample": 16555,
+      "start_ms": 709,
+      "end_ms": 1035
+    },
+    {
+      "lang": "en",
+      "text": "as a non-alcoholic option, and it was actually perfect.",
+      "start_sample": 16555,
+      "end_sample": 66364,
+      "start_ms": 1035,
+      "end_ms": 4148
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He recommended the mugicha as a non-alcoholic option, and it was actually perfect.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4408,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He recommended the",
+          "start_sample": 0,
+          "end_sample": 11540,
+          "start_ms": 0,
+          "end_ms": 721
+        },
+        {
+          "lang": "ja",
+          "text": "麦茶",
+          "start_sample": 11540,
+          "end_sample": 20516,
+          "start_ms": 721,
+          "end_ms": 1282
+        },
+        {
+          "lang": "en",
+          "text": "as a non-alcoholic option, and it was actually perfect.",
+          "start_sample": 20516,
+          "end_sample": 70525,
+          "start_ms": 1282,
+          "end_ms": 4408
+        }
+      ]
+    },
+    "ja": {
+      "text": "He recommended the 麦茶 as a non-alcoholic option, and it was actually perfect.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4894,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He recommended the",
+          "start_sample": 0,
+          "end_sample": 15724,
+          "start_ms": 0,
+          "end_ms": 983
+        },
+        {
+          "lang": "ja",
+          "text": "麦茶",
+          "start_sample": 15724,
+          "end_sample": 21339,
+          "start_ms": 983,
+          "end_ms": 1334
+        },
+        {
+          "lang": "en",
+          "text": "as a non-alcoholic option, and it was actually perfect.",
+          "start_sample": 21339,
+          "end_sample": 78298,
+          "start_ms": 1334,
+          "end_ms": 4894
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

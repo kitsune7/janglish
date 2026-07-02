@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8974.flac",
+  "sentence": "He asked the clerk if 翌日配達 was available for that region.",
+  "sample_rate": 16000,
+  "duration_ms": 5108,
+  "reference_speaker": "jp/speaker_040_473e7a57e696.mp3",
+  "seed": 9016,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He asked the clerk if",
+      "start_sample": 0,
+      "end_sample": 33744,
+      "start_ms": 0,
+      "end_ms": 2109
+    },
+    {
+      "lang": "ja",
+      "text": "翌日配達",
+      "start_sample": 33744,
+      "end_sample": 51191,
+      "start_ms": 2109,
+      "end_ms": 3199
+    },
+    {
+      "lang": "en",
+      "text": "was available for that region.",
+      "start_sample": 51191,
+      "end_sample": 81733,
+      "start_ms": 3199,
+      "end_ms": 5108
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He asked the clerk if yokujitsu haitatsu was available for that region.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6104,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He asked the clerk if",
+          "start_sample": 0,
+          "end_sample": 33944,
+          "start_ms": 0,
+          "end_ms": 2122
+        },
+        {
+          "lang": "ja",
+          "text": "翌日配達",
+          "start_sample": 33944,
+          "end_sample": 66928,
+          "start_ms": 2122,
+          "end_ms": 4183
+        },
+        {
+          "lang": "en",
+          "text": "was available for that region.",
+          "start_sample": 66928,
+          "end_sample": 97670,
+          "start_ms": 4183,
+          "end_ms": 6104
+        }
+      ]
+    },
+    "ja": {
+      "text": "He asked the clerk if 翌日配達 was available for that region.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4642,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He asked the clerk if",
+          "start_sample": 0,
+          "end_sample": 25241,
+          "start_ms": 0,
+          "end_ms": 1578
+        },
+        {
+          "lang": "ja",
+          "text": "翌日配達",
+          "start_sample": 25241,
+          "end_sample": 43088,
+          "start_ms": 1578,
+          "end_ms": 2693
+        },
+        {
+          "lang": "en",
+          "text": "was available for that region.",
+          "start_sample": 43088,
+          "end_sample": 74275,
+          "start_ms": 2693,
+          "end_ms": 4642
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 256,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

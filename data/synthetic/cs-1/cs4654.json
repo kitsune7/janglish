@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4654.flac",
+  "sentence": "Wearing something 新鮮 to work really changes your whole mood.",
+  "sample_rate": 16000,
+  "duration_ms": 5166,
+  "reference_speaker": "en/speaker_098_f600c480bfab.mp3",
+  "seed": 4696,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Wearing something",
+      "start_sample": 0,
+      "end_sample": 12776,
+      "start_ms": 0,
+      "end_ms": 798
+    },
+    {
+      "lang": "ja",
+      "text": "新鮮",
+      "start_sample": 12776,
+      "end_sample": 20227,
+      "start_ms": 798,
+      "end_ms": 1264
+    },
+    {
+      "lang": "en",
+      "text": "to work really changes your whole mood.",
+      "start_sample": 20227,
+      "end_sample": 82664,
+      "start_ms": 1264,
+      "end_ms": 5166
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Wearing something shinsen to work really changes your whole mood.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5226,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Wearing something",
+          "start_sample": 0,
+          "end_sample": 12976,
+          "start_ms": 0,
+          "end_ms": 811
+        },
+        {
+          "lang": "ja",
+          "text": "新鮮",
+          "start_sample": 12976,
+          "end_sample": 20985,
+          "start_ms": 811,
+          "end_ms": 1312
+        },
+        {
+          "lang": "en",
+          "text": "to work really changes your whole mood.",
+          "start_sample": 20985,
+          "end_sample": 83622,
+          "start_ms": 1312,
+          "end_ms": 5226
+        }
+      ]
+    },
+    "ja": {
+      "text": "Wearing something 新鮮 to work really changes your whole mood.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3925,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Wearing something",
+          "start_sample": 0,
+          "end_sample": 17141,
+          "start_ms": 0,
+          "end_ms": 1071
+        },
+        {
+          "lang": "ja",
+          "text": "新鮮",
+          "start_sample": 17141,
+          "end_sample": 24992,
+          "start_ms": 1071,
+          "end_ms": 1562
+        },
+        {
+          "lang": "en",
+          "text": "to work really changes your whole mood.",
+          "start_sample": 24992,
+          "end_sample": 62800,
+          "start_ms": 1562,
+          "end_ms": 3925
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 259,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

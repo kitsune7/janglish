@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10909.flac",
+  "sentence": "このportraitに描かれた女性はいったい誰なのだろう。",
+  "sample_rate": 16000,
+  "duration_ms": 4641,
+  "reference_speaker": "en/speaker_049_4b799abf92c3.mp3",
+  "seed": 10951,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 2686,
+      "start_ms": 0,
+      "end_ms": 168
+    },
+    {
+      "lang": "en",
+      "text": "portrait",
+      "start_sample": 2686,
+      "end_sample": 26670,
+      "start_ms": 168,
+      "end_ms": 1667
+    },
+    {
+      "lang": "ja",
+      "text": "に描かれた女性はいったい誰なのだろう。",
+      "start_sample": 26670,
+      "end_sample": 74260,
+      "start_ms": 1667,
+      "end_ms": 4641
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono portrait ni egaka re ta josei ha ittai dare na no darou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8442,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 14437,
+          "start_ms": 0,
+          "end_ms": 902
+        },
+        {
+          "lang": "en",
+          "text": "portrait",
+          "start_sample": 14437,
+          "end_sample": 38821,
+          "start_ms": 902,
+          "end_ms": 2426
+        },
+        {
+          "lang": "ja",
+          "text": "に描かれた女性はいったい誰なのだろう。",
+          "start_sample": 38821,
+          "end_sample": 135070,
+          "start_ms": 2426,
+          "end_ms": 8442
+        }
+      ]
+    },
+    "ja": {
+      "text": "このportraitに描かれた女性はいったい誰なのだろう。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3869,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 2886,
+          "start_ms": 0,
+          "end_ms": 180
+        },
+        {
+          "lang": "en",
+          "text": "portrait",
+          "start_sample": 2886,
+          "end_sample": 14112,
+          "start_ms": 180,
+          "end_ms": 882
+        },
+        {
+          "lang": "ja",
+          "text": "に描かれた女性はいったい誰なのだろう。",
+          "start_sample": 14112,
+          "end_sample": 61902,
+          "start_ms": 882,
+          "end_ms": 3869
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 233,
+  "frame_labels": "jjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

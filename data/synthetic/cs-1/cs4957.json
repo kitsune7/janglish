@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4957.flac",
+  "sentence": "このぐらいのdrizzleなら傘は要らないと思う。",
+  "sample_rate": 16000,
+  "duration_ms": 2675,
+  "reference_speaker": "jp/speaker_087_849529715d29.mp3",
+  "seed": 4999,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このぐらいの",
+      "start_sample": 0,
+      "end_sample": 10220,
+      "start_ms": 0,
+      "end_ms": 639
+    },
+    {
+      "lang": "en",
+      "text": "drizzle",
+      "start_sample": 10220,
+      "end_sample": 21517,
+      "start_ms": 639,
+      "end_ms": 1345
+    },
+    {
+      "lang": "ja",
+      "text": "なら傘は要らないと思う。",
+      "start_sample": 21517,
+      "end_sample": 42800,
+      "start_ms": 1345,
+      "end_ms": 2675
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono gurai no drizzle nara kasa ha ira nai to omou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8192,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このぐらいの",
+          "start_sample": 0,
+          "end_sample": 36211,
+          "start_ms": 0,
+          "end_ms": 2263
+        },
+        {
+          "lang": "en",
+          "text": "drizzle",
+          "start_sample": 36211,
+          "end_sample": 47908,
+          "start_ms": 2263,
+          "end_ms": 2994
+        },
+        {
+          "lang": "ja",
+          "text": "なら傘は要らないと思う。",
+          "start_sample": 47908,
+          "end_sample": 131066,
+          "start_ms": 2994,
+          "end_ms": 8192
+        }
+      ]
+    },
+    "ja": {
+      "text": "このぐらいのdrizzleなら傘は要らないと思う。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2405,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このぐらいの",
+          "start_sample": 0,
+          "end_sample": 10420,
+          "start_ms": 0,
+          "end_ms": 651
+        },
+        {
+          "lang": "en",
+          "text": "drizzle",
+          "start_sample": 10420,
+          "end_sample": 16994,
+          "start_ms": 651,
+          "end_ms": 1062
+        },
+        {
+          "lang": "ja",
+          "text": "なら傘は要らないと思う。",
+          "start_sample": 16994,
+          "end_sample": 38477,
+          "start_ms": 1062,
+          "end_ms": 2405
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 134,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

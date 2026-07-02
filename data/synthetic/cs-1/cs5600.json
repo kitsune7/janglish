@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5600.flac",
+  "sentence": "I asked the フロント staff if they could store my luggage until check-in.",
+  "sample_rate": 16000,
+  "duration_ms": 3535,
+  "reference_speaker": "en/speaker_030_bdb9e7b61df6.mp3",
+  "seed": 5642,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I asked the",
+      "start_sample": 0,
+      "end_sample": 7028,
+      "start_ms": 0,
+      "end_ms": 439
+    },
+    {
+      "lang": "ja",
+      "text": "フロント",
+      "start_sample": 7028,
+      "end_sample": 16742,
+      "start_ms": 439,
+      "end_ms": 1046
+    },
+    {
+      "lang": "en",
+      "text": "staff if they could store my luggage until check-in.",
+      "start_sample": 16742,
+      "end_sample": 56555,
+      "start_ms": 1046,
+      "end_ms": 3535
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I asked the furonto staff if they could store my luggage until check-in.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3495,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I asked the",
+          "start_sample": 0,
+          "end_sample": 7228,
+          "start_ms": 0,
+          "end_ms": 452
+        },
+        {
+          "lang": "ja",
+          "text": "フロント",
+          "start_sample": 7228,
+          "end_sample": 15906,
+          "start_ms": 452,
+          "end_ms": 994
+        },
+        {
+          "lang": "en",
+          "text": "staff if they could store my luggage until check-in.",
+          "start_sample": 15906,
+          "end_sample": 55919,
+          "start_ms": 994,
+          "end_ms": 3495
+        }
+      ]
+    },
+    "ja": {
+      "text": "I asked the フロント staff if they could store my luggage until check-in.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6241,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I asked the",
+          "start_sample": 0,
+          "end_sample": 19262,
+          "start_ms": 0,
+          "end_ms": 1204
+        },
+        {
+          "lang": "ja",
+          "text": "フロント",
+          "start_sample": 19262,
+          "end_sample": 29376,
+          "start_ms": 1204,
+          "end_ms": 1836
+        },
+        {
+          "lang": "en",
+          "text": "staff if they could store my luggage until check-in.",
+          "start_sample": 29376,
+          "end_sample": 99853,
+          "start_ms": 1836,
+          "end_ms": 6241
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

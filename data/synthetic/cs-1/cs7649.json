@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7649.flac",
+  "sentence": "酔いが回ってきたので、そろそろwaterを飲んだほうがいい。",
+  "sample_rate": 16000,
+  "duration_ms": 4976,
+  "reference_speaker": "en/speaker_079_9589554d8179.mp3",
+  "seed": 7691,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "酔いが回ってきたので、そろそろ",
+      "start_sample": 0,
+      "end_sample": 37610,
+      "start_ms": 0,
+      "end_ms": 2351
+    },
+    {
+      "lang": "en",
+      "text": "water",
+      "start_sample": 37610,
+      "end_sample": 62197,
+      "start_ms": 2351,
+      "end_ms": 3887
+    },
+    {
+      "lang": "ja",
+      "text": "を飲んだほうがいい。",
+      "start_sample": 62197,
+      "end_sample": 79620,
+      "start_ms": 3887,
+      "end_ms": 4976
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "yoi ga mawatsu te ki ta no de sorosoro water wo non da hou ga ii",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10852,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "酔いが回ってきたので、そろそろ",
+          "start_sample": 0,
+          "end_sample": 98985,
+          "start_ms": 0,
+          "end_ms": 6187
+        },
+        {
+          "lang": "en",
+          "text": "water",
+          "start_sample": 98985,
+          "end_sample": 123972,
+          "start_ms": 6187,
+          "end_ms": 7748
+        },
+        {
+          "lang": "ja",
+          "text": "を飲んだほうがいい。",
+          "start_sample": 123972,
+          "end_sample": 173624,
+          "start_ms": 7748,
+          "end_ms": 10852
+        }
+      ]
+    },
+    "ja": {
+      "text": "酔いが回ってきたので、そろそろwaterを飲んだほうがいい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3945,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "酔いが回ってきたので、そろそろ",
+          "start_sample": 0,
+          "end_sample": 37810,
+          "start_ms": 0,
+          "end_ms": 2363
+        },
+        {
+          "lang": "en",
+          "text": "water",
+          "start_sample": 37810,
+          "end_sample": 45500,
+          "start_ms": 2363,
+          "end_ms": 2844
+        },
+        {
+          "lang": "ja",
+          "text": "を飲んだほうがいい。",
+          "start_sample": 45500,
+          "end_sample": 63123,
+          "start_ms": 2844,
+          "end_ms": 3945
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 249,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

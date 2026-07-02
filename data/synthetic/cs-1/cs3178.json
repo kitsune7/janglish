@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3178.flac",
+  "sentence": "そのフォンデュはrichすぎて、半分も食べられませんでした。",
+  "sample_rate": 16000,
+  "duration_ms": 3892,
+  "reference_speaker": "en/speaker_070_eb9077114ebd.mp3",
+  "seed": 3220,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "そのフォンデュは",
+      "start_sample": 0,
+      "end_sample": 16331,
+      "start_ms": 0,
+      "end_ms": 1021
+    },
+    {
+      "lang": "en",
+      "text": "rich",
+      "start_sample": 16331,
+      "end_sample": 21383,
+      "start_ms": 1021,
+      "end_ms": 1336
+    },
+    {
+      "lang": "ja",
+      "text": "すぎて、半分も食べられませんでした。",
+      "start_sample": 21383,
+      "end_sample": 62276,
+      "start_ms": 1336,
+      "end_ms": 3892
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono fondeyu ha rich sugi te hanbun mo tabe rare mase n deshi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7917,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "そのフォンデュは",
+          "start_sample": 0,
+          "end_sample": 45055,
+          "start_ms": 0,
+          "end_ms": 2816
+        },
+        {
+          "lang": "en",
+          "text": "rich",
+          "start_sample": 45055,
+          "end_sample": 50507,
+          "start_ms": 2816,
+          "end_ms": 3157
+        },
+        {
+          "lang": "ja",
+          "text": "すぎて、半分も食べられませんでした。",
+          "start_sample": 50507,
+          "end_sample": 126668,
+          "start_ms": 3157,
+          "end_ms": 7917
+        }
+      ]
+    },
+    "ja": {
+      "text": "そのフォンデュはrichすぎて、半分も食べられませんでした。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3953,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "そのフォンデュは",
+          "start_sample": 0,
+          "end_sample": 16531,
+          "start_ms": 0,
+          "end_ms": 1033
+        },
+        {
+          "lang": "en",
+          "text": "rich",
+          "start_sample": 16531,
+          "end_sample": 22150,
+          "start_ms": 1033,
+          "end_ms": 1384
+        },
+        {
+          "lang": "ja",
+          "text": "すぎて、半分も食べられませんでした。",
+          "start_sample": 22150,
+          "end_sample": 63243,
+          "start_ms": 1384,
+          "end_ms": 3953
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 195,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

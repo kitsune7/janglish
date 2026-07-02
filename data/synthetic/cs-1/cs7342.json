@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7342.flac",
+  "sentence": "I finally tackled that pile of 古新聞 that had been sitting in the corner for months.",
+  "sample_rate": 16000,
+  "duration_ms": 4648,
+  "reference_speaker": "jp/speaker_070_8f5dfeca773f.mp3",
+  "seed": 7384,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I finally tackled that pile of",
+      "start_sample": 0,
+      "end_sample": 28484,
+      "start_ms": 0,
+      "end_ms": 1780
+    },
+    {
+      "lang": "ja",
+      "text": "古新聞",
+      "start_sample": 28484,
+      "end_sample": 37707,
+      "start_ms": 1780,
+      "end_ms": 2357
+    },
+    {
+      "lang": "en",
+      "text": "that had been sitting in the corner for months.",
+      "start_sample": 37707,
+      "end_sample": 74365,
+      "start_ms": 2357,
+      "end_ms": 4648
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I finally tackled that pile of ko shinbun that had been sitting in the corner for months.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5388,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I finally tackled that pile of",
+          "start_sample": 0,
+          "end_sample": 28684,
+          "start_ms": 0,
+          "end_ms": 1793
+        },
+        {
+          "lang": "ja",
+          "text": "古新聞",
+          "start_sample": 28684,
+          "end_sample": 49358,
+          "start_ms": 1793,
+          "end_ms": 3085
+        },
+        {
+          "lang": "en",
+          "text": "that had been sitting in the corner for months.",
+          "start_sample": 49358,
+          "end_sample": 86216,
+          "start_ms": 3085,
+          "end_ms": 5388
+        }
+      ]
+    },
+    "ja": {
+      "text": "I finally tackled that pile of 古新聞 that had been sitting in the corner for months.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6074,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I finally tackled that pile of",
+          "start_sample": 0,
+          "end_sample": 45063,
+          "start_ms": 0,
+          "end_ms": 2816
+        },
+        {
+          "lang": "ja",
+          "text": "古新聞",
+          "start_sample": 45063,
+          "end_sample": 54686,
+          "start_ms": 2816,
+          "end_ms": 3418
+        },
+        {
+          "lang": "en",
+          "text": "that had been sitting in the corner for months.",
+          "start_sample": 54686,
+          "end_sample": 97183,
+          "start_ms": 3418,
+          "end_ms": 6074
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 233,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

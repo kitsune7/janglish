@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2613.flac",
+  "sentence": "He stood in the 優先席 area without even noticing the elderly woman nearby.",
+  "sample_rate": 16000,
+  "duration_ms": 4477,
+  "reference_speaker": "en/speaker_041_b54335ce95b5.mp3",
+  "seed": 2655,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He stood in the",
+      "start_sample": 0,
+      "end_sample": 10249,
+      "start_ms": 0,
+      "end_ms": 641
+    },
+    {
+      "lang": "ja",
+      "text": "優先席",
+      "start_sample": 10249,
+      "end_sample": 25697,
+      "start_ms": 641,
+      "end_ms": 1606
+    },
+    {
+      "lang": "en",
+      "text": "area without even noticing the elderly woman nearby.",
+      "start_sample": 25697,
+      "end_sample": 71631,
+      "start_ms": 1606,
+      "end_ms": 4477
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He stood in the yuusen seki area without even noticing the elderly woman nearby.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4340,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He stood in the",
+          "start_sample": 0,
+          "end_sample": 10449,
+          "start_ms": 0,
+          "end_ms": 653
+        },
+        {
+          "lang": "ja",
+          "text": "優先席",
+          "start_sample": 10449,
+          "end_sample": 23310,
+          "start_ms": 653,
+          "end_ms": 1457
+        },
+        {
+          "lang": "en",
+          "text": "area without even noticing the elderly woman nearby.",
+          "start_sample": 23310,
+          "end_sample": 69444,
+          "start_ms": 1457,
+          "end_ms": 4340
+        }
+      ]
+    },
+    "ja": {
+      "text": "He stood in the 優先席 area without even noticing the elderly woman nearby.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8825,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He stood in the",
+          "start_sample": 0,
+          "end_sample": 28014,
+          "start_ms": 0,
+          "end_ms": 1751
+        },
+        {
+          "lang": "ja",
+          "text": "優先席",
+          "start_sample": 28014,
+          "end_sample": 43862,
+          "start_ms": 1751,
+          "end_ms": 2741
+        },
+        {
+          "lang": "en",
+          "text": "area without even noticing the elderly woman nearby.",
+          "start_sample": 43862,
+          "end_sample": 141193,
+          "start_ms": 2741,
+          "end_ms": 8825
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 224,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

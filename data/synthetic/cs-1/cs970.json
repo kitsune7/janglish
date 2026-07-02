@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs970.flac",
+  "sentence": "このパンはcrispy で、スープと一緒に食べると最高です。",
+  "sample_rate": 16000,
+  "duration_ms": 4570,
+  "reference_speaker": "jp/speaker_013_e472ee9e6d56.mp3",
+  "seed": 1012,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このパンは",
+      "start_sample": 0,
+      "end_sample": 10699,
+      "start_ms": 0,
+      "end_ms": 669
+    },
+    {
+      "lang": "en",
+      "text": "crispy",
+      "start_sample": 10699,
+      "end_sample": 26190,
+      "start_ms": 669,
+      "end_ms": 1637
+    },
+    {
+      "lang": "ja",
+      "text": "で、スープと一緒に食べると最高です。",
+      "start_sample": 26190,
+      "end_sample": 73113,
+      "start_ms": 1637,
+      "end_ms": 4570
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono pan ha crispy de suupu to issho ni taberu to saikou desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7283,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このパンは",
+          "start_sample": 0,
+          "end_sample": 19904,
+          "start_ms": 0,
+          "end_ms": 1244
+        },
+        {
+          "lang": "en",
+          "text": "crispy",
+          "start_sample": 19904,
+          "end_sample": 35795,
+          "start_ms": 1244,
+          "end_ms": 2237
+        },
+        {
+          "lang": "ja",
+          "text": "で、スープと一緒に食べると最高です。",
+          "start_sample": 35795,
+          "end_sample": 116533,
+          "start_ms": 2237,
+          "end_ms": 7283
+        }
+      ]
+    },
+    "ja": {
+      "text": "このパンはcrispy で、スープと一緒に食べると最高です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4328,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このパンは",
+          "start_sample": 0,
+          "end_sample": 10899,
+          "start_ms": 0,
+          "end_ms": 681
+        },
+        {
+          "lang": "en",
+          "text": "crispy",
+          "start_sample": 10899,
+          "end_sample": 22119,
+          "start_ms": 681,
+          "end_ms": 1382
+        },
+        {
+          "lang": "ja",
+          "text": "で、スープと一緒に食べると最高です。",
+          "start_sample": 22119,
+          "end_sample": 69242,
+          "start_ms": 1382,
+          "end_ms": 4328
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 229,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

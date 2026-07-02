@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11753.flac",
+  "sentence": "His older sister always acts with such 丁寧 care when helping him with homework.",
+  "sample_rate": 16000,
+  "duration_ms": 7530,
+  "reference_speaker": "en/speaker_038_cc7cc15dbf19.mp3",
+  "seed": 11795,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His older sister always acts with such",
+      "start_sample": 0,
+      "end_sample": 65742,
+      "start_ms": 0,
+      "end_ms": 4109
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧",
+      "start_sample": 65742,
+      "end_sample": 74629,
+      "start_ms": 4109,
+      "end_ms": 4664
+    },
+    {
+      "lang": "en",
+      "text": "care when helping him with homework.",
+      "start_sample": 74629,
+      "end_sample": 120474,
+      "start_ms": 4664,
+      "end_ms": 7530
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His older sister always acts with such teinei care when helping him with homework.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7621,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His older sister always acts with such",
+          "start_sample": 0,
+          "end_sample": 65942,
+          "start_ms": 0,
+          "end_ms": 4121
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 65942,
+          "end_sample": 75889,
+          "start_ms": 4121,
+          "end_ms": 4743
+        },
+        {
+          "lang": "en",
+          "text": "care when helping him with homework.",
+          "start_sample": 75889,
+          "end_sample": 121934,
+          "start_ms": 4743,
+          "end_ms": 7621
+        }
+      ]
+    },
+    "ja": {
+      "text": "His older sister always acts with such 丁寧 care when helping him with homework.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8606,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His older sister always acts with such",
+          "start_sample": 0,
+          "end_sample": 75415,
+          "start_ms": 0,
+          "end_ms": 4713
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 75415,
+          "end_sample": 84702,
+          "start_ms": 4713,
+          "end_ms": 5294
+        },
+        {
+          "lang": "en",
+          "text": "care when helping him with homework.",
+          "start_sample": 84702,
+          "end_sample": 137701,
+          "start_ms": 5294,
+          "end_ms": 8606
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 377,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

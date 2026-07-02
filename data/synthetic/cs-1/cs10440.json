@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10440.flac",
+  "sentence": "秋になると葉がcrimsonに変わっていく。",
+  "sample_rate": 16000,
+  "duration_ms": 3248,
+  "reference_speaker": "en/speaker_026_a41b49f8d6ee.mp3",
+  "seed": 10482,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "秋になると葉が",
+      "start_sample": 0,
+      "end_sample": 17282,
+      "start_ms": 0,
+      "end_ms": 1080
+    },
+    {
+      "lang": "en",
+      "text": "crimson",
+      "start_sample": 17282,
+      "end_sample": 35972,
+      "start_ms": 1080,
+      "end_ms": 2248
+    },
+    {
+      "lang": "ja",
+      "text": "に変わっていく。",
+      "start_sample": 35972,
+      "end_sample": 51971,
+      "start_ms": 2248,
+      "end_ms": 3248
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "aki ni naru to ha ga crimson ni kawatsu te iku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6236,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "秋になると葉が",
+          "start_sample": 0,
+          "end_sample": 41707,
+          "start_ms": 0,
+          "end_ms": 2607
+        },
+        {
+          "lang": "en",
+          "text": "crimson",
+          "start_sample": 41707,
+          "end_sample": 60797,
+          "start_ms": 2607,
+          "end_ms": 3800
+        },
+        {
+          "lang": "ja",
+          "text": "に変わっていく。",
+          "start_sample": 60797,
+          "end_sample": 99776,
+          "start_ms": 3800,
+          "end_ms": 6236
+        }
+      ]
+    },
+    "ja": {
+      "text": "秋になると葉がcrimsonに変わっていく。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2707,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "秋になると葉が",
+          "start_sample": 0,
+          "end_sample": 17482,
+          "start_ms": 0,
+          "end_ms": 1093
+        },
+        {
+          "lang": "en",
+          "text": "crimson",
+          "start_sample": 17482,
+          "end_sample": 27107,
+          "start_ms": 1093,
+          "end_ms": 1694
+        },
+        {
+          "lang": "ja",
+          "text": "に変わっていく。",
+          "start_sample": 27107,
+          "end_sample": 43306,
+          "start_ms": 1694,
+          "end_ms": 2707
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 163,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

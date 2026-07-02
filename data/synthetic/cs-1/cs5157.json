@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5157.flac",
+  "sentence": "The 氷 in this cocktail is hand-carved, apparently — you can really tell.",
+  "sample_rate": 16000,
+  "duration_ms": 7621,
+  "reference_speaker": "en/speaker_027_12abacd76d5f.mp3",
+  "seed": 5199,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2206,
+      "start_ms": 0,
+      "end_ms": 138
+    },
+    {
+      "lang": "ja",
+      "text": "氷",
+      "start_sample": 2206,
+      "end_sample": 14934,
+      "start_ms": 138,
+      "end_ms": 933
+    },
+    {
+      "lang": "en",
+      "text": "in this cocktail is hand-carved, apparently — you can really tell.",
+      "start_sample": 14934,
+      "end_sample": 121933,
+      "start_ms": 933,
+      "end_ms": 7621
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The koori in this cocktail is hand-carved, apparently — you can really tell.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7442,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2406,
+          "start_ms": 0,
+          "end_ms": 150
+        },
+        {
+          "lang": "ja",
+          "text": "氷",
+          "start_sample": 2406,
+          "end_sample": 11875,
+          "start_ms": 150,
+          "end_ms": 742
+        },
+        {
+          "lang": "en",
+          "text": "in this cocktail is hand-carved, apparently — you can really tell.",
+          "start_sample": 11875,
+          "end_sample": 119074,
+          "start_ms": 742,
+          "end_ms": 7442
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 氷 in this cocktail is hand-carved, apparently — you can really tell.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8966,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 8805,
+          "start_ms": 0,
+          "end_ms": 550
+        },
+        {
+          "lang": "ja",
+          "text": "氷",
+          "start_sample": 8805,
+          "end_sample": 21933,
+          "start_ms": 550,
+          "end_ms": 1371
+        },
+        {
+          "lang": "en",
+          "text": "in this cocktail is hand-carved, apparently — you can really tell.",
+          "start_sample": 21933,
+          "end_sample": 143449,
+          "start_ms": 1371,
+          "end_ms": 8966
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 382,
+  "frame_labels": "eeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

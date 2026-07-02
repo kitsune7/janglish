@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11709.flac",
+  "sentence": "この地域はhigh riskだと警告された。",
+  "sample_rate": 16000,
+  "duration_ms": 3499,
+  "reference_speaker": "jp/speaker_100_5a2cde56c3f2.mp3",
+  "seed": 11751,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この地域は",
+      "start_sample": 0,
+      "end_sample": 9591,
+      "start_ms": 0,
+      "end_ms": 599
+    },
+    {
+      "lang": "en",
+      "text": "high risk",
+      "start_sample": 9591,
+      "end_sample": 39334,
+      "start_ms": 599,
+      "end_ms": 2458
+    },
+    {
+      "lang": "ja",
+      "text": "だと警告された。",
+      "start_sample": 39334,
+      "end_sample": 55986,
+      "start_ms": 2458,
+      "end_ms": 3499
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono chiiki ha high risk da to keikoku sa re ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7395,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この地域は",
+          "start_sample": 0,
+          "end_sample": 41366,
+          "start_ms": 0,
+          "end_ms": 2585
+        },
+        {
+          "lang": "en",
+          "text": "high risk",
+          "start_sample": 41366,
+          "end_sample": 71509,
+          "start_ms": 2585,
+          "end_ms": 4469
+        },
+        {
+          "lang": "ja",
+          "text": "だと警告された。",
+          "start_sample": 71509,
+          "end_sample": 118326,
+          "start_ms": 4469,
+          "end_ms": 7395
+        }
+      ]
+    },
+    "ja": {
+      "text": "この地域はhigh riskだと警告された。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2167,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この地域は",
+          "start_sample": 0,
+          "end_sample": 9791,
+          "start_ms": 0,
+          "end_ms": 612
+        },
+        {
+          "lang": "en",
+          "text": "high risk",
+          "start_sample": 9791,
+          "end_sample": 17817,
+          "start_ms": 612,
+          "end_ms": 1114
+        },
+        {
+          "lang": "ja",
+          "text": "だと警告された。",
+          "start_sample": 17817,
+          "end_sample": 34669,
+          "start_ms": 1114,
+          "end_ms": 2167
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

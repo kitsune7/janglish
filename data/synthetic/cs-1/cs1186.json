@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1186.flac",
+  "sentence": "窓際のseatが空いていたので、すぐに座った。",
+  "sample_rate": 16000,
+  "duration_ms": 4373,
+  "reference_speaker": "en/speaker_040_ec293248c910.mp3",
+  "seed": 1228,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "窓際の",
+      "start_sample": 0,
+      "end_sample": 11546,
+      "start_ms": 0,
+      "end_ms": 722
+    },
+    {
+      "lang": "en",
+      "text": "seat",
+      "start_sample": 11546,
+      "end_sample": 22377,
+      "start_ms": 722,
+      "end_ms": 1399
+    },
+    {
+      "lang": "ja",
+      "text": "が空いていたので、すぐに座った。",
+      "start_sample": 22377,
+      "end_sample": 69963,
+      "start_ms": 1399,
+      "end_ms": 4373
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "madogiwa no seat ga ai te i ta no de sugu ni suwatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4994,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "窓際の",
+          "start_sample": 0,
+          "end_sample": 14280,
+          "start_ms": 0,
+          "end_ms": 892
+        },
+        {
+          "lang": "en",
+          "text": "seat",
+          "start_sample": 14280,
+          "end_sample": 25511,
+          "start_ms": 892,
+          "end_ms": 1594
+        },
+        {
+          "lang": "ja",
+          "text": "が空いていたので、すぐに座った。",
+          "start_sample": 25511,
+          "end_sample": 79903,
+          "start_ms": 1594,
+          "end_ms": 4994
+        }
+      ]
+    },
+    "ja": {
+      "text": "窓際のseatが空いていたので、すぐに座った。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4103,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "窓際の",
+          "start_sample": 0,
+          "end_sample": 11746,
+          "start_ms": 0,
+          "end_ms": 734
+        },
+        {
+          "lang": "en",
+          "text": "seat",
+          "start_sample": 11746,
+          "end_sample": 17861,
+          "start_ms": 734,
+          "end_ms": 1116
+        },
+        {
+          "lang": "ja",
+          "text": "が空いていたので、すぐに座った。",
+          "start_sample": 17861,
+          "end_sample": 65647,
+          "start_ms": 1116,
+          "end_ms": 4103
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 219,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2514.flac",
+  "sentence": "そのelderlyな男性の話を聞いて、胸が痛くなった。",
+  "sample_rate": 16000,
+  "duration_ms": 3730,
+  "reference_speaker": "en/speaker_035_aa6a3aa058c0.mp3",
+  "seed": 2556,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その",
+      "start_sample": 0,
+      "end_sample": 6697,
+      "start_ms": 0,
+      "end_ms": 419
+    },
+    {
+      "lang": "en",
+      "text": "elderly",
+      "start_sample": 6697,
+      "end_sample": 13521,
+      "start_ms": 419,
+      "end_ms": 845
+    },
+    {
+      "lang": "ja",
+      "text": "な男性の話を聞いて、胸が痛くなった。",
+      "start_sample": 13521,
+      "end_sample": 59677,
+      "start_ms": 845,
+      "end_ms": 3730
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono elderly na dansei no hanashi wo kii te mune ga itaku natsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6121,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 5458,
+          "start_ms": 0,
+          "end_ms": 341
+        },
+        {
+          "lang": "en",
+          "text": "elderly",
+          "start_sample": 5458,
+          "end_sample": 12682,
+          "start_ms": 341,
+          "end_ms": 793
+        },
+        {
+          "lang": "ja",
+          "text": "な男性の話を聞いて、胸が痛くなった。",
+          "start_sample": 12682,
+          "end_sample": 97930,
+          "start_ms": 793,
+          "end_ms": 6121
+        }
+      ]
+    },
+    "ja": {
+      "text": "そのelderlyな男性の話を聞いて、胸が痛くなった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4030,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 6897,
+          "start_ms": 0,
+          "end_ms": 431
+        },
+        {
+          "lang": "en",
+          "text": "elderly",
+          "start_sample": 6897,
+          "end_sample": 18126,
+          "start_ms": 431,
+          "end_ms": 1133
+        },
+        {
+          "lang": "ja",
+          "text": "な男性の話を聞いて、胸が痛くなった。",
+          "start_sample": 18126,
+          "end_sample": 64482,
+          "start_ms": 1133,
+          "end_ms": 4030
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 187,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

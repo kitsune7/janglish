@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3590.flac",
+  "sentence": "バレンタインデーにhandmadeのチョコを渡しました。",
+  "sample_rate": 16000,
+  "duration_ms": 3584,
+  "reference_speaker": "en/speaker_095_862d569c1af2.mp3",
+  "seed": 3632,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "バレンタインデーに",
+      "start_sample": 0,
+      "end_sample": 15538,
+      "start_ms": 0,
+      "end_ms": 971
+    },
+    {
+      "lang": "en",
+      "text": "handmade",
+      "start_sample": 15538,
+      "end_sample": 32809,
+      "start_ms": 971,
+      "end_ms": 2051
+    },
+    {
+      "lang": "ja",
+      "text": "のチョコを渡しました。",
+      "start_sample": 32809,
+      "end_sample": 57342,
+      "start_ms": 2051,
+      "end_ms": 3584
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "barentain dee ni handmade no choko wo watashi mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3875,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "バレンタインデーに",
+          "start_sample": 0,
+          "end_sample": 13330,
+          "start_ms": 0,
+          "end_ms": 833
+        },
+        {
+          "lang": "en",
+          "text": "handmade",
+          "start_sample": 13330,
+          "end_sample": 31001,
+          "start_ms": 833,
+          "end_ms": 1938
+        },
+        {
+          "lang": "ja",
+          "text": "のチョコを渡しました。",
+          "start_sample": 31001,
+          "end_sample": 62002,
+          "start_ms": 1938,
+          "end_ms": 3875
+        }
+      ]
+    },
+    "ja": {
+      "text": "バレンタインデーにhandmadeのチョコを渡しました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3031,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "バレンタインデーに",
+          "start_sample": 0,
+          "end_sample": 15738,
+          "start_ms": 0,
+          "end_ms": 984
+        },
+        {
+          "lang": "en",
+          "text": "handmade",
+          "start_sample": 15738,
+          "end_sample": 23769,
+          "start_ms": 984,
+          "end_ms": 1486
+        },
+        {
+          "lang": "ja",
+          "text": "のチョコを渡しました。",
+          "start_sample": 23769,
+          "end_sample": 48502,
+          "start_ms": 1486,
+          "end_ms": 3031
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 180,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

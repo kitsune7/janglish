@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2729.flac",
+  "sentence": "Can you put him on 保留 for a second while I grab the file?",
+  "sample_rate": 16000,
+  "duration_ms": 3639,
+  "reference_speaker": "en/speaker_071_72384e582e15.mp3",
+  "seed": 2771,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you put him on",
+      "start_sample": 0,
+      "end_sample": 16795,
+      "start_ms": 0,
+      "end_ms": 1050
+    },
+    {
+      "lang": "ja",
+      "text": "保留",
+      "start_sample": 16795,
+      "end_sample": 26679,
+      "start_ms": 1050,
+      "end_ms": 1667
+    },
+    {
+      "lang": "en",
+      "text": "for a second while I grab the file?",
+      "start_sample": 26679,
+      "end_sample": 58224,
+      "start_ms": 1667,
+      "end_ms": 3639
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you put him on horyuu for a second while I grab the file?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3708,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you put him on",
+          "start_sample": 0,
+          "end_sample": 16995,
+          "start_ms": 0,
+          "end_ms": 1062
+        },
+        {
+          "lang": "ja",
+          "text": "保留",
+          "start_sample": 16995,
+          "end_sample": 27577,
+          "start_ms": 1062,
+          "end_ms": 1724
+        },
+        {
+          "lang": "en",
+          "text": "for a second while I grab the file?",
+          "start_sample": 27577,
+          "end_sample": 59322,
+          "start_ms": 1724,
+          "end_ms": 3708
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you put him on 保留 for a second while I grab the file?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5543,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you put him on",
+          "start_sample": 0,
+          "end_sample": 20566,
+          "start_ms": 0,
+          "end_ms": 1285
+        },
+        {
+          "lang": "ja",
+          "text": "保留",
+          "start_sample": 20566,
+          "end_sample": 30850,
+          "start_ms": 1285,
+          "end_ms": 1928
+        },
+        {
+          "lang": "en",
+          "text": "for a second while I grab the file?",
+          "start_sample": 30850,
+          "end_sample": 88691,
+          "start_ms": 1928,
+          "end_ms": 5543
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 182,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

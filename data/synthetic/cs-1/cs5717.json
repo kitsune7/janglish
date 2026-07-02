@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5717.flac",
+  "sentence": "He remembered every 細かい detail from our first date, which completely melted my heart.",
+  "sample_rate": 16000,
+  "duration_ms": 4861,
+  "reference_speaker": "jp/speaker_022_b672c364242e.mp3",
+  "seed": 5759,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He remembered every",
+      "start_sample": 0,
+      "end_sample": 15035,
+      "start_ms": 0,
+      "end_ms": 940
+    },
+    {
+      "lang": "ja",
+      "text": "細かい",
+      "start_sample": 15035,
+      "end_sample": 22650,
+      "start_ms": 940,
+      "end_ms": 1416
+    },
+    {
+      "lang": "en",
+      "text": "detail from our first date, which completely melted my heart.",
+      "start_sample": 22650,
+      "end_sample": 77777,
+      "start_ms": 1416,
+      "end_ms": 4861
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He remembered every komakai detail from our first date, which completely melted my heart.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5012,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He remembered every",
+          "start_sample": 0,
+          "end_sample": 15235,
+          "start_ms": 0,
+          "end_ms": 952
+        },
+        {
+          "lang": "ja",
+          "text": "細かい",
+          "start_sample": 15235,
+          "end_sample": 24857,
+          "start_ms": 952,
+          "end_ms": 1554
+        },
+        {
+          "lang": "en",
+          "text": "detail from our first date, which completely melted my heart.",
+          "start_sample": 24857,
+          "end_sample": 80184,
+          "start_ms": 1554,
+          "end_ms": 5012
+        }
+      ]
+    },
+    "ja": {
+      "text": "He remembered every 細かい detail from our first date, which completely melted my heart.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6351,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He remembered every",
+          "start_sample": 0,
+          "end_sample": 19394,
+          "start_ms": 0,
+          "end_ms": 1212
+        },
+        {
+          "lang": "ja",
+          "text": "細かい",
+          "start_sample": 19394,
+          "end_sample": 27409,
+          "start_ms": 1212,
+          "end_ms": 1713
+        },
+        {
+          "lang": "en",
+          "text": "detail from our first date, which completely melted my heart.",
+          "start_sample": 27409,
+          "end_sample": 101623,
+          "start_ms": 1713,
+          "end_ms": 6351
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 244,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

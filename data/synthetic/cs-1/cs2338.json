@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2338.flac",
+  "sentence": "床のscrubが終わったら、休憩しましょう。",
+  "sample_rate": 16000,
+  "duration_ms": 3070,
+  "reference_speaker": "jp/speaker_034_3e5442a60675.mp3",
+  "seed": 2380,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "床の",
+      "start_sample": 0,
+      "end_sample": 6566,
+      "start_ms": 0,
+      "end_ms": 410
+    },
+    {
+      "lang": "en",
+      "text": "scrub",
+      "start_sample": 6566,
+      "end_sample": 13401,
+      "start_ms": 410,
+      "end_ms": 838
+    },
+    {
+      "lang": "ja",
+      "text": "が終わったら、休憩しましょう。",
+      "start_sample": 13401,
+      "end_sample": 49126,
+      "start_ms": 838,
+      "end_ms": 3070
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "toko no scrub ga owatsu tara kyuukei shi mashou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4401,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "床の",
+          "start_sample": 0,
+          "end_sample": 8199,
+          "start_ms": 0,
+          "end_ms": 512
+        },
+        {
+          "lang": "en",
+          "text": "scrub",
+          "start_sample": 8199,
+          "end_sample": 15434,
+          "start_ms": 512,
+          "end_ms": 965
+        },
+        {
+          "lang": "ja",
+          "text": "が終わったら、休憩しましょう。",
+          "start_sample": 15434,
+          "end_sample": 70416,
+          "start_ms": 965,
+          "end_ms": 4401
+        }
+      ]
+    },
+    "ja": {
+      "text": "床のscrubが終わったら、休憩しましょう。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3142,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "床の",
+          "start_sample": 0,
+          "end_sample": 6766,
+          "start_ms": 0,
+          "end_ms": 423
+        },
+        {
+          "lang": "en",
+          "text": "scrub",
+          "start_sample": 6766,
+          "end_sample": 14339,
+          "start_ms": 423,
+          "end_ms": 896
+        },
+        {
+          "lang": "ja",
+          "text": "が終わったら、休憩しましょう。",
+          "start_sample": 14339,
+          "end_sample": 50264,
+          "start_ms": 896,
+          "end_ms": 3142
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 154,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

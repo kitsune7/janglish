@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1445.flac",
+  "sentence": "今日のコーデのmain colorは深い青にしました。",
+  "sample_rate": 16000,
+  "duration_ms": 3845,
+  "reference_speaker": "en/speaker_060_be3496638824.mp3",
+  "seed": 1487,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日のコーデの",
+      "start_sample": 0,
+      "end_sample": 23670,
+      "start_ms": 0,
+      "end_ms": 1479
+    },
+    {
+      "lang": "en",
+      "text": "main color",
+      "start_sample": 23670,
+      "end_sample": 34964,
+      "start_ms": 1479,
+      "end_ms": 2185
+    },
+    {
+      "lang": "ja",
+      "text": "は深い青にしました。",
+      "start_sample": 34964,
+      "end_sample": 61518,
+      "start_ms": 2185,
+      "end_ms": 3845
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou no koode no main color ha fukai ao ni shi mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5326,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日のコーデの",
+          "start_sample": 0,
+          "end_sample": 15858,
+          "start_ms": 0,
+          "end_ms": 991
+        },
+        {
+          "lang": "en",
+          "text": "main color",
+          "start_sample": 15858,
+          "end_sample": 27552,
+          "start_ms": 991,
+          "end_ms": 1722
+        },
+        {
+          "lang": "ja",
+          "text": "は深い青にしました。",
+          "start_sample": 27552,
+          "end_sample": 85218,
+          "start_ms": 1722,
+          "end_ms": 5326
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日のコーデのmain colorは深い青にしました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3965,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日のコーデの",
+          "start_sample": 0,
+          "end_sample": 23870,
+          "start_ms": 0,
+          "end_ms": 1492
+        },
+        {
+          "lang": "en",
+          "text": "main color",
+          "start_sample": 23870,
+          "end_sample": 36687,
+          "start_ms": 1492,
+          "end_ms": 2293
+        },
+        {
+          "lang": "ja",
+          "text": "は深い青にしました。",
+          "start_sample": 36687,
+          "end_sample": 63441,
+          "start_ms": 2293,
+          "end_ms": 3965
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 193,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2869.flac",
+  "sentence": "Our server was incredibly 親切 and remembered everyone's allergies.",
+  "sample_rate": 16000,
+  "duration_ms": 5622,
+  "reference_speaker": "jp/speaker_051_2b805c12b1e0.mp3",
+  "seed": 2911,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Our server was incredibly",
+      "start_sample": 0,
+      "end_sample": 32085,
+      "start_ms": 0,
+      "end_ms": 2005
+    },
+    {
+      "lang": "ja",
+      "text": "親切",
+      "start_sample": 32085,
+      "end_sample": 48058,
+      "start_ms": 2005,
+      "end_ms": 3004
+    },
+    {
+      "lang": "en",
+      "text": "and remembered everyone's allergies.",
+      "start_sample": 48058,
+      "end_sample": 89944,
+      "start_ms": 3004,
+      "end_ms": 5622
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Our server was incredibly shinsetsu and remembered everyone's allergies.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5903,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Our server was incredibly",
+          "start_sample": 0,
+          "end_sample": 32285,
+          "start_ms": 0,
+          "end_ms": 2018
+        },
+        {
+          "lang": "ja",
+          "text": "親切",
+          "start_sample": 32285,
+          "end_sample": 52365,
+          "start_ms": 2018,
+          "end_ms": 3273
+        },
+        {
+          "lang": "en",
+          "text": "and remembered everyone's allergies.",
+          "start_sample": 52365,
+          "end_sample": 94451,
+          "start_ms": 3273,
+          "end_ms": 5903
+        }
+      ]
+    },
+    "ja": {
+      "text": "Our server was incredibly 親切 and remembered everyone's allergies.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7323,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Our server was incredibly",
+          "start_sample": 0,
+          "end_sample": 42052,
+          "start_ms": 0,
+          "end_ms": 2628
+        },
+        {
+          "lang": "ja",
+          "text": "親切",
+          "start_sample": 42052,
+          "end_sample": 58425,
+          "start_ms": 2628,
+          "end_ms": 3652
+        },
+        {
+          "lang": "en",
+          "text": "and remembered everyone's allergies.",
+          "start_sample": 58425,
+          "end_sample": 117172,
+          "start_ms": 3652,
+          "end_ms": 7323
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 282,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

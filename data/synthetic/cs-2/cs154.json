@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs154.flac",
+  "sentence": "Is there anything 無糖 on the menu, or is everything 甘口?",
+  "sample_rate": 16000,
+  "duration_ms": 8395,
+  "reference_speaker": "jp/speaker_090_d408fe95e0f2.mp3",
+  "seed": 17009,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Is there anything",
+      "start_sample": 0,
+      "end_sample": 33912,
+      "start_ms": 0,
+      "end_ms": 2120
+    },
+    {
+      "lang": "ja",
+      "text": "無糖",
+      "start_sample": 33912,
+      "end_sample": 42656,
+      "start_ms": 2120,
+      "end_ms": 2666
+    },
+    {
+      "lang": "en",
+      "text": "on the menu, or is everything",
+      "start_sample": 42656,
+      "end_sample": 122653,
+      "start_ms": 2666,
+      "end_ms": 7666
+    },
+    {
+      "lang": "ja",
+      "text": "甘口?",
+      "start_sample": 122653,
+      "end_sample": 134322,
+      "start_ms": 7666,
+      "end_ms": 8395
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Is there anything mutou on the menu, or is everything amakuchi",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9609,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is there anything",
+          "start_sample": 0,
+          "end_sample": 34112,
+          "start_ms": 0,
+          "end_ms": 2132
+        },
+        {
+          "lang": "ja",
+          "text": "無糖",
+          "start_sample": 34112,
+          "end_sample": 53010,
+          "start_ms": 2132,
+          "end_ms": 3313
+        },
+        {
+          "lang": "en",
+          "text": "on the menu, or is everything",
+          "start_sample": 53010,
+          "end_sample": 133407,
+          "start_ms": 3313,
+          "end_ms": 8338
+        },
+        {
+          "lang": "ja",
+          "text": "甘口?",
+          "start_sample": 133407,
+          "end_sample": 153745,
+          "start_ms": 8338,
+          "end_ms": 9609
+        }
+      ]
+    },
+    "ja": {
+      "text": "Is there anything 無糖 on the menu, or is everything 甘口?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6075,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is there anything",
+          "start_sample": 0,
+          "end_sample": 20049,
+          "start_ms": 0,
+          "end_ms": 1253
+        },
+        {
+          "lang": "ja",
+          "text": "無糖",
+          "start_sample": 20049,
+          "end_sample": 29193,
+          "start_ms": 1253,
+          "end_ms": 1825
+        },
+        {
+          "lang": "en",
+          "text": "on the menu, or is everything",
+          "start_sample": 29193,
+          "end_sample": 85338,
+          "start_ms": 1825,
+          "end_ms": 5334
+        },
+        {
+          "lang": "ja",
+          "text": "甘口?",
+          "start_sample": 85338,
+          "end_sample": 97207,
+          "start_ms": 5334,
+          "end_ms": 6075
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 420,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

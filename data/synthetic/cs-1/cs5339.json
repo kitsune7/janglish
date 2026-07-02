@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5339.flac",
+  "sentence": "The hotel charges a 保証金 that they return when you check out.",
+  "sample_rate": 16000,
+  "duration_ms": 4069,
+  "reference_speaker": "jp/speaker_063_0760e257c60c.mp3",
+  "seed": 5381,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The hotel charges a",
+      "start_sample": 0,
+      "end_sample": 28649,
+      "start_ms": 0,
+      "end_ms": 1791
+    },
+    {
+      "lang": "ja",
+      "text": "保証金",
+      "start_sample": 28649,
+      "end_sample": 37253,
+      "start_ms": 1791,
+      "end_ms": 2328
+    },
+    {
+      "lang": "en",
+      "text": "that they return when you check out.",
+      "start_sample": 37253,
+      "end_sample": 65100,
+      "start_ms": 2328,
+      "end_ms": 4069
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hotel charges a hoshou kin that they return when you check out.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5309,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hotel charges a",
+          "start_sample": 0,
+          "end_sample": 28849,
+          "start_ms": 0,
+          "end_ms": 1803
+        },
+        {
+          "lang": "ja",
+          "text": "保証金",
+          "start_sample": 28849,
+          "end_sample": 56897,
+          "start_ms": 1803,
+          "end_ms": 3556
+        },
+        {
+          "lang": "en",
+          "text": "that they return when you check out.",
+          "start_sample": 56897,
+          "end_sample": 84944,
+          "start_ms": 3556,
+          "end_ms": 5309
+        }
+      ]
+    },
+    "ja": {
+      "text": "The hotel charges a 保証金 that they return when you check out.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3175,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hotel charges a",
+          "start_sample": 0,
+          "end_sample": 16555,
+          "start_ms": 0,
+          "end_ms": 1035
+        },
+        {
+          "lang": "ja",
+          "text": "保証金",
+          "start_sample": 16555,
+          "end_sample": 25559,
+          "start_ms": 1035,
+          "end_ms": 1597
+        },
+        {
+          "lang": "en",
+          "text": "that they return when you check out.",
+          "start_sample": 25559,
+          "end_sample": 50797,
+          "start_ms": 1597,
+          "end_ms": 3175
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

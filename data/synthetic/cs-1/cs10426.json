@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10426.flac",
+  "sentence": "庭にwild flowerをたくさん植えたいんです。",
+  "sample_rate": 16000,
+  "duration_ms": 4051,
+  "reference_speaker": "jp/speaker_052_8e5df296063d.mp3",
+  "seed": 10468,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "庭に",
+      "start_sample": 0,
+      "end_sample": 7492,
+      "start_ms": 0,
+      "end_ms": 468
+    },
+    {
+      "lang": "en",
+      "text": "wild flower",
+      "start_sample": 7492,
+      "end_sample": 38736,
+      "start_ms": 468,
+      "end_ms": 2421
+    },
+    {
+      "lang": "ja",
+      "text": "をたくさん植えたいんです。",
+      "start_sample": 38736,
+      "end_sample": 64819,
+      "start_ms": 2421,
+      "end_ms": 4051
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "niwa ni wild flower wo takusan ue tai n desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5521,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "庭に",
+          "start_sample": 0,
+          "end_sample": 10758,
+          "start_ms": 0,
+          "end_ms": 672
+        },
+        {
+          "lang": "en",
+          "text": "wild flower",
+          "start_sample": 10758,
+          "end_sample": 42402,
+          "start_ms": 672,
+          "end_ms": 2650
+        },
+        {
+          "lang": "ja",
+          "text": "をたくさん植えたいんです。",
+          "start_sample": 42402,
+          "end_sample": 88338,
+          "start_ms": 2650,
+          "end_ms": 5521
+        }
+      ]
+    },
+    "ja": {
+      "text": "庭にwild flowerをたくさん植えたいんです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3025,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "庭に",
+          "start_sample": 0,
+          "end_sample": 7692,
+          "start_ms": 0,
+          "end_ms": 481
+        },
+        {
+          "lang": "en",
+          "text": "wild flower",
+          "start_sample": 7692,
+          "end_sample": 22117,
+          "start_ms": 481,
+          "end_ms": 1382
+        },
+        {
+          "lang": "ja",
+          "text": "をたくさん植えたいんです。",
+          "start_sample": 22117,
+          "end_sample": 48400,
+          "start_ms": 1382,
+          "end_ms": 3025
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

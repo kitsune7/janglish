@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3006.flac",
+  "sentence": "面接の結果はまだpendingの状態です。",
+  "sample_rate": 16000,
+  "duration_ms": 3152,
+  "reference_speaker": "en/speaker_056_b1458b769af8.mp3",
+  "seed": 3048,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "面接の結果はまだ",
+      "start_sample": 0,
+      "end_sample": 27262,
+      "start_ms": 0,
+      "end_ms": 1704
+    },
+    {
+      "lang": "en",
+      "text": "pending",
+      "start_sample": 27262,
+      "end_sample": 34418,
+      "start_ms": 1704,
+      "end_ms": 2151
+    },
+    {
+      "lang": "ja",
+      "text": "の状態です。",
+      "start_sample": 34418,
+      "end_sample": 50435,
+      "start_ms": 2151,
+      "end_ms": 3152
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mensetsu no kekka ha mada pending no joutai desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4260,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "面接の結果はまだ",
+          "start_sample": 0,
+          "end_sample": 42762,
+          "start_ms": 0,
+          "end_ms": 2673
+        },
+        {
+          "lang": "en",
+          "text": "pending",
+          "start_sample": 42762,
+          "end_sample": 50318,
+          "start_ms": 2673,
+          "end_ms": 3145
+        },
+        {
+          "lang": "ja",
+          "text": "の状態です。",
+          "start_sample": 50318,
+          "end_sample": 68158,
+          "start_ms": 3145,
+          "end_ms": 4260
+        }
+      ]
+    },
+    "ja": {
+      "text": "面接の結果はまだpendingの状態です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3332,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "面接の結果はまだ",
+          "start_sample": 0,
+          "end_sample": 27462,
+          "start_ms": 0,
+          "end_ms": 1716
+        },
+        {
+          "lang": "en",
+          "text": "pending",
+          "start_sample": 27462,
+          "end_sample": 37098,
+          "start_ms": 1716,
+          "end_ms": 2319
+        },
+        {
+          "lang": "ja",
+          "text": "の状態です。",
+          "start_sample": 37098,
+          "end_sample": 53315,
+          "start_ms": 2319,
+          "end_ms": 3332
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 158,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

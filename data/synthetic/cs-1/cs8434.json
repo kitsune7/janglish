@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs8434.flac",
+  "sentence": "My new debit card arrived, but I still need the 暗証番号.",
+  "sample_rate": 16000,
+  "duration_ms": 3855,
+  "reference_speaker": "jp/speaker_017_2adba246654a.mp3",
+  "seed": 8476,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My new debit card arrived, but I still need the",
+      "start_sample": 0,
+      "end_sample": 47893,
+      "start_ms": 0,
+      "end_ms": 2993
+    },
+    {
+      "lang": "ja",
+      "text": "暗証番号.",
+      "start_sample": 47893,
+      "end_sample": 61687,
+      "start_ms": 2993,
+      "end_ms": 3855
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My new debit card arrived, but I still need the anshou bangou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3927,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My new debit card arrived, but I still need the",
+          "start_sample": 0,
+          "end_sample": 48093,
+          "start_ms": 0,
+          "end_ms": 3006
+        },
+        {
+          "lang": "ja",
+          "text": "暗証番号.",
+          "start_sample": 48093,
+          "end_sample": 62839,
+          "start_ms": 3006,
+          "end_ms": 3927
+        }
+      ]
+    },
+    "ja": {
+      "text": "My new debit card arrived, but I still need the 暗証番号.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4103,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My new debit card arrived, but I still need the",
+          "start_sample": 0,
+          "end_sample": 51653,
+          "start_ms": 0,
+          "end_ms": 3228
+        },
+        {
+          "lang": "ja",
+          "text": "暗証番号.",
+          "start_sample": 51653,
+          "end_sample": 65647,
+          "start_ms": 3228,
+          "end_ms": 4103
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 193,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

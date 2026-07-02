@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7950.flac",
+  "sentence": "免許を取ってからspeedingで捕まったことは一度もない。",
+  "sample_rate": 16000,
+  "duration_ms": 3402,
+  "reference_speaker": "en/speaker_045_730ff605e95b.mp3",
+  "seed": 7992,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "免許を取ってから",
+      "start_sample": 0,
+      "end_sample": 17147,
+      "start_ms": 0,
+      "end_ms": 1072
+    },
+    {
+      "lang": "en",
+      "text": "speeding",
+      "start_sample": 17147,
+      "end_sample": 24606,
+      "start_ms": 1072,
+      "end_ms": 1538
+    },
+    {
+      "lang": "ja",
+      "text": "で捕まったことは一度もない。",
+      "start_sample": 24606,
+      "end_sample": 54440,
+      "start_ms": 1538,
+      "end_ms": 3402
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "menkyo wo totsu te kara speeding de tsukamatsu ta koto ha ichi do mo nai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7818,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "免許を取ってから",
+          "start_sample": 0,
+          "end_sample": 53083,
+          "start_ms": 0,
+          "end_ms": 3318
+        },
+        {
+          "lang": "en",
+          "text": "speeding",
+          "start_sample": 53083,
+          "end_sample": 60942,
+          "start_ms": 3318,
+          "end_ms": 3809
+        },
+        {
+          "lang": "ja",
+          "text": "で捕まったことは一度もない。",
+          "start_sample": 60942,
+          "end_sample": 125090,
+          "start_ms": 3809,
+          "end_ms": 7818
+        }
+      ]
+    },
+    "ja": {
+      "text": "免許を取ってからspeedingで捕まったことは一度もない。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3614,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "免許を取ってから",
+          "start_sample": 0,
+          "end_sample": 17347,
+          "start_ms": 0,
+          "end_ms": 1084
+        },
+        {
+          "lang": "en",
+          "text": "speeding",
+          "start_sample": 17347,
+          "end_sample": 27788,
+          "start_ms": 1084,
+          "end_ms": 1737
+        },
+        {
+          "lang": "ja",
+          "text": "で捕まったことは一度もない。",
+          "start_sample": 27788,
+          "end_sample": 57822,
+          "start_ms": 1737,
+          "end_ms": 3614
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 171,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

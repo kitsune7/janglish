@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3929.flac",
+  "sentence": "He always shows up 遅刻 to dates, which drives her absolutely crazy.",
+  "sample_rate": 16000,
+  "duration_ms": 5059,
+  "reference_speaker": "jp/speaker_014_9e367176533e.mp3",
+  "seed": 3971,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He always shows up",
+      "start_sample": 0,
+      "end_sample": 15667,
+      "start_ms": 0,
+      "end_ms": 979
+    },
+    {
+      "lang": "ja",
+      "text": "遅刻",
+      "start_sample": 15667,
+      "end_sample": 22485,
+      "start_ms": 979,
+      "end_ms": 1405
+    },
+    {
+      "lang": "en",
+      "text": "to dates, which drives her absolutely crazy.",
+      "start_sample": 22485,
+      "end_sample": 80944,
+      "start_ms": 1405,
+      "end_ms": 5059
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He always shows up chikoku to dates, which drives her absolutely crazy.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5229,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He always shows up",
+          "start_sample": 0,
+          "end_sample": 15867,
+          "start_ms": 0,
+          "end_ms": 992
+        },
+        {
+          "lang": "ja",
+          "text": "遅刻",
+          "start_sample": 15867,
+          "end_sample": 25002,
+          "start_ms": 992,
+          "end_ms": 1563
+        },
+        {
+          "lang": "en",
+          "text": "to dates, which drives her absolutely crazy.",
+          "start_sample": 25002,
+          "end_sample": 83661,
+          "start_ms": 1563,
+          "end_ms": 5229
+        }
+      ]
+    },
+    "ja": {
+      "text": "He always shows up 遅刻 to dates, which drives her absolutely crazy.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5193,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He always shows up",
+          "start_sample": 0,
+          "end_sample": 20851,
+          "start_ms": 0,
+          "end_ms": 1303
+        },
+        {
+          "lang": "ja",
+          "text": "遅刻",
+          "start_sample": 20851,
+          "end_sample": 28069,
+          "start_ms": 1303,
+          "end_ms": 1754
+        },
+        {
+          "lang": "en",
+          "text": "to dates, which drives her absolutely crazy.",
+          "start_sample": 28069,
+          "end_sample": 83084,
+          "start_ms": 1754,
+          "end_ms": 5193
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 253,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

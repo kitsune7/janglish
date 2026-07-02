@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10952.flac",
+  "sentence": "She described the breakup as utterly 辛い but ultimately necessary.",
+  "sample_rate": 16000,
+  "duration_ms": 5346,
+  "reference_speaker": "jp/speaker_011_3c9d94093b88.mp3",
+  "seed": 10994,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She described the breakup as utterly",
+      "start_sample": 0,
+      "end_sample": 42821,
+      "start_ms": 0,
+      "end_ms": 2676
+    },
+    {
+      "lang": "ja",
+      "text": "辛い",
+      "start_sample": 42821,
+      "end_sample": 50109,
+      "start_ms": 2676,
+      "end_ms": 3132
+    },
+    {
+      "lang": "en",
+      "text": "but ultimately necessary.",
+      "start_sample": 50109,
+      "end_sample": 85543,
+      "start_ms": 3132,
+      "end_ms": 5346
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She described the breakup as utterly tsurai but ultimately necessary.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5919,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She described the breakup as utterly",
+          "start_sample": 0,
+          "end_sample": 43021,
+          "start_ms": 0,
+          "end_ms": 2689
+        },
+        {
+          "lang": "ja",
+          "text": "辛い",
+          "start_sample": 43021,
+          "end_sample": 59074,
+          "start_ms": 2689,
+          "end_ms": 3692
+        },
+        {
+          "lang": "en",
+          "text": "but ultimately necessary.",
+          "start_sample": 59074,
+          "end_sample": 94708,
+          "start_ms": 3692,
+          "end_ms": 5919
+        }
+      ]
+    },
+    "ja": {
+      "text": "She described the breakup as utterly 辛い but ultimately necessary.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5566,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She described the breakup as utterly",
+          "start_sample": 0,
+          "end_sample": 54142,
+          "start_ms": 0,
+          "end_ms": 3384
+        },
+        {
+          "lang": "ja",
+          "text": "辛い",
+          "start_sample": 54142,
+          "end_sample": 61830,
+          "start_ms": 3384,
+          "end_ms": 3864
+        },
+        {
+          "lang": "en",
+          "text": "but ultimately necessary.",
+          "start_sample": 61830,
+          "end_sample": 89062,
+          "start_ms": 3864,
+          "end_ms": 5566
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 268,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

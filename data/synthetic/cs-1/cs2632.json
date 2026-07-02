@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2632.flac",
+  "sentence": "The driver made a 急停車 that sent everyone sliding toward the front of the bus.",
+  "sample_rate": 16000,
+  "duration_ms": 4732,
+  "reference_speaker": "en/speaker_012_29b1e5a58d16.mp3",
+  "seed": 2674,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The driver made a",
+      "start_sample": 0,
+      "end_sample": 13598,
+      "start_ms": 0,
+      "end_ms": 850
+    },
+    {
+      "lang": "ja",
+      "text": "急停車",
+      "start_sample": 13598,
+      "end_sample": 29059,
+      "start_ms": 850,
+      "end_ms": 1816
+    },
+    {
+      "lang": "en",
+      "text": "that sent everyone sliding toward the front of the bus.",
+      "start_sample": 29059,
+      "end_sample": 75709,
+      "start_ms": 1816,
+      "end_ms": 4732
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The driver made a kyuu teisha that sent everyone sliding toward the front of the bus.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5014,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The driver made a",
+          "start_sample": 0,
+          "end_sample": 13798,
+          "start_ms": 0,
+          "end_ms": 862
+        },
+        {
+          "lang": "ja",
+          "text": "急停車",
+          "start_sample": 13798,
+          "end_sample": 33374,
+          "start_ms": 862,
+          "end_ms": 2086
+        },
+        {
+          "lang": "en",
+          "text": "that sent everyone sliding toward the front of the bus.",
+          "start_sample": 33374,
+          "end_sample": 80224,
+          "start_ms": 2086,
+          "end_ms": 5014
+        }
+      ]
+    },
+    "ja": {
+      "text": "The driver made a 急停車 that sent everyone sliding toward the front of the bus.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5628,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The driver made a",
+          "start_sample": 0,
+          "end_sample": 15541,
+          "start_ms": 0,
+          "end_ms": 971
+        },
+        {
+          "lang": "ja",
+          "text": "急停車",
+          "start_sample": 15541,
+          "end_sample": 31402,
+          "start_ms": 971,
+          "end_ms": 1963
+        },
+        {
+          "lang": "en",
+          "text": "that sent everyone sliding toward the front of the bus.",
+          "start_sample": 31402,
+          "end_sample": 90041,
+          "start_ms": 1963,
+          "end_ms": 5628
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 237,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

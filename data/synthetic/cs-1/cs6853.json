@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6853.flac",
+  "sentence": "They set up a 屋台 right on the corner during the autumn harvest fair.",
+  "sample_rate": 16000,
+  "duration_ms": 4183,
+  "reference_speaker": "en/speaker_050_6b3579133fec.mp3",
+  "seed": 6895,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "They set up a",
+      "start_sample": 0,
+      "end_sample": 8765,
+      "start_ms": 0,
+      "end_ms": 548
+    },
+    {
+      "lang": "ja",
+      "text": "屋台",
+      "start_sample": 8765,
+      "end_sample": 19263,
+      "start_ms": 548,
+      "end_ms": 1204
+    },
+    {
+      "lang": "en",
+      "text": "right on the corner during the autumn harvest fair.",
+      "start_sample": 19263,
+      "end_sample": 66933,
+      "start_ms": 1204,
+      "end_ms": 4183
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "They set up a yatai right on the corner during the autumn harvest fair.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4843,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "They set up a",
+          "start_sample": 0,
+          "end_sample": 8965,
+          "start_ms": 0,
+          "end_ms": 560
+        },
+        {
+          "lang": "ja",
+          "text": "屋台",
+          "start_sample": 8965,
+          "end_sample": 29618,
+          "start_ms": 560,
+          "end_ms": 1851
+        },
+        {
+          "lang": "en",
+          "text": "right on the corner during the autumn harvest fair.",
+          "start_sample": 29618,
+          "end_sample": 77488,
+          "start_ms": 1851,
+          "end_ms": 4843
+        }
+      ]
+    },
+    "ja": {
+      "text": "They set up a 屋台 right on the corner during the autumn harvest fair.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6510,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "They set up a",
+          "start_sample": 0,
+          "end_sample": 19550,
+          "start_ms": 0,
+          "end_ms": 1222
+        },
+        {
+          "lang": "ja",
+          "text": "屋台",
+          "start_sample": 19550,
+          "end_sample": 30448,
+          "start_ms": 1222,
+          "end_ms": 1903
+        },
+        {
+          "lang": "en",
+          "text": "right on the corner during the autumn harvest fair.",
+          "start_sample": 30448,
+          "end_sample": 104163,
+          "start_ms": 1903,
+          "end_ms": 6510
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

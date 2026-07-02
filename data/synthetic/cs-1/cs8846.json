@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8846.flac",
+  "sentence": "先月のinterestがついに口座に反映されました。",
+  "sample_rate": 16000,
+  "duration_ms": 3102,
+  "reference_speaker": "jp/speaker_084_122c648d361d.mp3",
+  "seed": 8888,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "先月の",
+      "start_sample": 0,
+      "end_sample": 7031,
+      "start_ms": 0,
+      "end_ms": 439
+    },
+    {
+      "lang": "en",
+      "text": "interest",
+      "start_sample": 7031,
+      "end_sample": 19293,
+      "start_ms": 439,
+      "end_ms": 1206
+    },
+    {
+      "lang": "ja",
+      "text": "がついに口座に反映されました。",
+      "start_sample": 19293,
+      "end_sample": 49624,
+      "start_ms": 1206,
+      "end_ms": 3102
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sengetsu no interest ga tsuini kouza ni han'ei sa re mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6651,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先月の",
+          "start_sample": 0,
+          "end_sample": 28369,
+          "start_ms": 0,
+          "end_ms": 1773
+        },
+        {
+          "lang": "en",
+          "text": "interest",
+          "start_sample": 28369,
+          "end_sample": 41031,
+          "start_ms": 1773,
+          "end_ms": 2564
+        },
+        {
+          "lang": "ja",
+          "text": "がついに口座に反映されました。",
+          "start_sample": 41031,
+          "end_sample": 106423,
+          "start_ms": 2564,
+          "end_ms": 6651
+        }
+      ]
+    },
+    "ja": {
+      "text": "先月のinterestがついに口座に反映されました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2832,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先月の",
+          "start_sample": 0,
+          "end_sample": 7231,
+          "start_ms": 0,
+          "end_ms": 452
+        },
+        {
+          "lang": "en",
+          "text": "interest",
+          "start_sample": 7231,
+          "end_sample": 14785,
+          "start_ms": 452,
+          "end_ms": 924
+        },
+        {
+          "lang": "ja",
+          "text": "がついに口座に反映されました。",
+          "start_sample": 14785,
+          "end_sample": 45316,
+          "start_ms": 924,
+          "end_ms": 2832
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 156,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

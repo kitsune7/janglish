@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8287.flac",
+  "sentence": "プレゼン用のslideをもう少し簡潔にしてください。",
+  "sample_rate": 16000,
+  "duration_ms": 4020,
+  "reference_speaker": "jp/speaker_088_9d72b694e145.mp3",
+  "seed": 8329,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "プレゼン用の",
+      "start_sample": 0,
+      "end_sample": 22904,
+      "start_ms": 0,
+      "end_ms": 1432
+    },
+    {
+      "lang": "en",
+      "text": "slide",
+      "start_sample": 22904,
+      "end_sample": 38364,
+      "start_ms": 1432,
+      "end_ms": 2398
+    },
+    {
+      "lang": "ja",
+      "text": "をもう少し簡潔にしてください。",
+      "start_sample": 38364,
+      "end_sample": 64315,
+      "start_ms": 2398,
+      "end_ms": 4020
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "purezen you no slide wo mou sukoshi kanketsu ni shi te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7349,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "プレゼン用の",
+          "start_sample": 0,
+          "end_sample": 17141,
+          "start_ms": 0,
+          "end_ms": 1071
+        },
+        {
+          "lang": "en",
+          "text": "slide",
+          "start_sample": 17141,
+          "end_sample": 33001,
+          "start_ms": 1071,
+          "end_ms": 2063
+        },
+        {
+          "lang": "ja",
+          "text": "をもう少し簡潔にしてください。",
+          "start_sample": 33001,
+          "end_sample": 117586,
+          "start_ms": 2063,
+          "end_ms": 7349
+        }
+      ]
+    },
+    "ja": {
+      "text": "プレゼン用のslideをもう少し簡潔にしてください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3710,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "プレゼン用の",
+          "start_sample": 0,
+          "end_sample": 23104,
+          "start_ms": 0,
+          "end_ms": 1444
+        },
+        {
+          "lang": "en",
+          "text": "slide",
+          "start_sample": 23104,
+          "end_sample": 33211,
+          "start_ms": 1444,
+          "end_ms": 2076
+        },
+        {
+          "lang": "ja",
+          "text": "をもう少し簡潔にしてください。",
+          "start_sample": 33211,
+          "end_sample": 59362,
+          "start_ms": 2076,
+          "end_ms": 3710
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

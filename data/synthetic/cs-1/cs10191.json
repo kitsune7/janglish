@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10191.flac",
+  "sentence": "彼はsoloキャンプを通じて、自然とのつながりを感じています。",
+  "sample_rate": 16000,
+  "duration_ms": 4266,
+  "reference_speaker": "jp/speaker_017_2adba246654a.mp3",
+  "seed": 10233,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼は",
+      "start_sample": 0,
+      "end_sample": 5086,
+      "start_ms": 0,
+      "end_ms": 318
+    },
+    {
+      "lang": "en",
+      "text": "solo",
+      "start_sample": 5086,
+      "end_sample": 12538,
+      "start_ms": 318,
+      "end_ms": 784
+    },
+    {
+      "lang": "ja",
+      "text": "キャンプを通じて、自然とのつながりを感じています。",
+      "start_sample": 12538,
+      "end_sample": 68250,
+      "start_ms": 784,
+      "end_ms": 4266
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha solo kyanpu wo tsuuji te shizen to no tsunagari wo kanji te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6590,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 8653,
+          "start_ms": 0,
+          "end_ms": 541
+        },
+        {
+          "lang": "en",
+          "text": "solo",
+          "start_sample": 8653,
+          "end_sample": 16505,
+          "start_ms": 541,
+          "end_ms": 1032
+        },
+        {
+          "lang": "ja",
+          "text": "キャンプを通じて、自然とのつながりを感じています。",
+          "start_sample": 16505,
+          "end_sample": 105445,
+          "start_ms": 1032,
+          "end_ms": 6590
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はsoloキャンプを通じて、自然とのつながりを感じています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4065,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 5286,
+          "start_ms": 0,
+          "end_ms": 330
+        },
+        {
+          "lang": "en",
+          "text": "solo",
+          "start_sample": 5286,
+          "end_sample": 9131,
+          "start_ms": 330,
+          "end_ms": 571
+        },
+        {
+          "lang": "ja",
+          "text": "キャンプを通じて、自然とのつながりを感じています。",
+          "start_sample": 9131,
+          "end_sample": 65043,
+          "start_ms": 571,
+          "end_ms": 4065
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 214,
+  "frame_labels": "jjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

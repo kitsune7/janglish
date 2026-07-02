@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1975.flac",
+  "sentence": "彼女のまつ毛はcurled していて、アイラッシュカーラーを使っていないように見えない。",
+  "sample_rate": 16000,
+  "duration_ms": 5113,
+  "reference_speaker": "en/speaker_067_3f15e2fece31.mp3",
+  "seed": 2017,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女のまつ毛は",
+      "start_sample": 0,
+      "end_sample": 16326,
+      "start_ms": 0,
+      "end_ms": 1020
+    },
+    {
+      "lang": "en",
+      "text": "curled",
+      "start_sample": 16326,
+      "end_sample": 24572,
+      "start_ms": 1020,
+      "end_ms": 1536
+    },
+    {
+      "lang": "ja",
+      "text": "していて、アイラッシュカーラーを使っていないように見えない。",
+      "start_sample": 24572,
+      "end_sample": 81812,
+      "start_ms": 1536,
+      "end_ms": 5113
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo no matsuke ha curled shi te i te airasshu kaaraa wo tsukatsu te i nai you ni mie nai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8847,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女のまつ毛は",
+          "start_sample": 0,
+          "end_sample": 39229,
+          "start_ms": 0,
+          "end_ms": 2452
+        },
+        {
+          "lang": "en",
+          "text": "curled",
+          "start_sample": 39229,
+          "end_sample": 47875,
+          "start_ms": 2452,
+          "end_ms": 2992
+        },
+        {
+          "lang": "ja",
+          "text": "していて、アイラッシュカーラーを使っていないように見えない。",
+          "start_sample": 47875,
+          "end_sample": 141545,
+          "start_ms": 2992,
+          "end_ms": 8847
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女のまつ毛はcurled していて、アイラッシュカーラーを使っていないように見えない。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5114,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女のまつ毛は",
+          "start_sample": 0,
+          "end_sample": 16526,
+          "start_ms": 0,
+          "end_ms": 1033
+        },
+        {
+          "lang": "en",
+          "text": "curled",
+          "start_sample": 16526,
+          "end_sample": 24388,
+          "start_ms": 1033,
+          "end_ms": 1524
+        },
+        {
+          "lang": "ja",
+          "text": "していて、アイラッシュカーラーを使っていないように見えない。",
+          "start_sample": 24388,
+          "end_sample": 81828,
+          "start_ms": 1524,
+          "end_ms": 5114
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 256,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

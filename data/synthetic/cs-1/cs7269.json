@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7269.flac",
+  "sentence": "She was clearly 不安 about taking on more debt at her age.",
+  "sample_rate": 16000,
+  "duration_ms": 3254,
+  "reference_speaker": "en/speaker_054_103b0eb5778e.mp3",
+  "seed": 7311,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She was clearly",
+      "start_sample": 0,
+      "end_sample": 12342,
+      "start_ms": 0,
+      "end_ms": 771
+    },
+    {
+      "lang": "ja",
+      "text": "不安",
+      "start_sample": 12342,
+      "end_sample": 19152,
+      "start_ms": 771,
+      "end_ms": 1197
+    },
+    {
+      "lang": "en",
+      "text": "about taking on more debt at her age.",
+      "start_sample": 19152,
+      "end_sample": 52072,
+      "start_ms": 1197,
+      "end_ms": 3254
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She was clearly fuan about taking on more debt at her age.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3336,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She was clearly",
+          "start_sample": 0,
+          "end_sample": 12542,
+          "start_ms": 0,
+          "end_ms": 784
+        },
+        {
+          "lang": "ja",
+          "text": "不安",
+          "start_sample": 12542,
+          "end_sample": 20260,
+          "start_ms": 784,
+          "end_ms": 1266
+        },
+        {
+          "lang": "en",
+          "text": "about taking on more debt at her age.",
+          "start_sample": 20260,
+          "end_sample": 53380,
+          "start_ms": 1266,
+          "end_ms": 3336
+        }
+      ]
+    },
+    "ja": {
+      "text": "She was clearly 不安 about taking on more debt at her age.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3945,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She was clearly",
+          "start_sample": 0,
+          "end_sample": 15378,
+          "start_ms": 0,
+          "end_ms": 961
+        },
+        {
+          "lang": "ja",
+          "text": "不安",
+          "start_sample": 15378,
+          "end_sample": 22588,
+          "start_ms": 961,
+          "end_ms": 1412
+        },
+        {
+          "lang": "en",
+          "text": "about taking on more debt at her age.",
+          "start_sample": 22588,
+          "end_sample": 63119,
+          "start_ms": 1412,
+          "end_ms": 3945
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 163,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

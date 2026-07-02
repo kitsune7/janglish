@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7865.flac",
+  "sentence": "I genuinely enjoy the 理科 experiments more than any other class.",
+  "sample_rate": 16000,
+  "duration_ms": 5075,
+  "reference_speaker": "en/speaker_072_33acedb4c9a7.mp3",
+  "seed": 7907,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I genuinely enjoy the",
+      "start_sample": 0,
+      "end_sample": 25475,
+      "start_ms": 0,
+      "end_ms": 1592
+    },
+    {
+      "lang": "ja",
+      "text": "理科",
+      "start_sample": 25475,
+      "end_sample": 36469,
+      "start_ms": 1592,
+      "end_ms": 2279
+    },
+    {
+      "lang": "en",
+      "text": "experiments more than any other class.",
+      "start_sample": 36469,
+      "end_sample": 81202,
+      "start_ms": 2279,
+      "end_ms": 5075
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I genuinely enjoy the rika experiments more than any other class.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4794,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I genuinely enjoy the",
+          "start_sample": 0,
+          "end_sample": 25675,
+          "start_ms": 0,
+          "end_ms": 1605
+        },
+        {
+          "lang": "ja",
+          "text": "理科",
+          "start_sample": 25675,
+          "end_sample": 31773,
+          "start_ms": 1605,
+          "end_ms": 1986
+        },
+        {
+          "lang": "en",
+          "text": "experiments more than any other class.",
+          "start_sample": 31773,
+          "end_sample": 76706,
+          "start_ms": 1986,
+          "end_ms": 4794
+        }
+      ]
+    },
+    "ja": {
+      "text": "I genuinely enjoy the 理科 experiments more than any other class.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6178,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I genuinely enjoy the",
+          "start_sample": 0,
+          "end_sample": 39476,
+          "start_ms": 0,
+          "end_ms": 2467
+        },
+        {
+          "lang": "ja",
+          "text": "理科",
+          "start_sample": 39476,
+          "end_sample": 50870,
+          "start_ms": 2467,
+          "end_ms": 3179
+        },
+        {
+          "lang": "en",
+          "text": "experiments more than any other class.",
+          "start_sample": 50870,
+          "end_sample": 98852,
+          "start_ms": 3179,
+          "end_ms": 6178
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 254,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -2,9 +2,9 @@
   "audio_path": "synthetic/cs-1/cs19.flac",
   "sentence": "明日はmeetingが三つもあります。",
   "sample_rate": 16000,
-  "duration_ms": 2588,
-  "reference_speaker": "en/speaker_098_f600c480bfab.mp3",
-  "seed": 91,
+  "duration_ms": 3927,
+  "reference_speaker": "jp/speaker_057_6b77a20f629a.mp3",
+  "seed": 61,
   "tts_language": "stitched",
   "alignment": "forced-dual",
   "spans": [
@@ -12,25 +12,25 @@
       "lang": "ja",
       "text": "明日は",
       "start_sample": 0,
-      "end_sample": 8991,
+      "end_sample": 5778,
       "start_ms": 0,
-      "end_ms": 562
+      "end_ms": 361
     },
     {
       "lang": "en",
       "text": "meeting",
-      "start_sample": 8991,
-      "end_sample": 16937,
-      "start_ms": 562,
-      "end_ms": 1059
+      "start_sample": 5778,
+      "end_sample": 46394,
+      "start_ms": 361,
+      "end_ms": 2900
     },
     {
       "lang": "ja",
       "text": "が三つもあります。",
-      "start_sample": 16937,
-      "end_sample": 41401,
-      "start_ms": 1059,
-      "end_ms": 2588
+      "start_sample": 46394,
+      "end_sample": 62828,
+      "start_ms": 2900,
+      "end_ms": 3927
     }
   ],
   "renders": {
@@ -38,31 +38,31 @@
       "text": "ashita ha meeting ga san tsu mo ari masu",
       "tts_language": "en",
       "alignment": "forced",
-      "duration_ms": 6019,
+      "duration_ms": 6689,
       "spans": [
         {
           "lang": "ja",
           "text": "明日は",
           "start_sample": 0,
-          "end_sample": 44779,
+          "end_sample": 15540,
           "start_ms": 0,
-          "end_ms": 2799
+          "end_ms": 971
         },
         {
           "lang": "en",
           "text": "meeting",
-          "start_sample": 44779,
-          "end_sample": 53125,
-          "start_ms": 2799,
-          "end_ms": 3320
+          "start_sample": 15540,
+          "end_sample": 56556,
+          "start_ms": 971,
+          "end_ms": 3535
         },
         {
           "lang": "ja",
           "text": "が三つもあります。",
-          "start_sample": 53125,
-          "end_sample": 96297,
-          "start_ms": 3320,
-          "end_ms": 6019
+          "start_sample": 56556,
+          "end_sample": 107023,
+          "start_ms": 3535,
+          "end_ms": 6689
         }
       ]
     },
@@ -70,36 +70,36 @@
       "text": "明日はmeetingが三つもあります。",
       "tts_language": "ja",
       "alignment": "forced",
-      "duration_ms": 2761,
+      "duration_ms": 1817,
       "spans": [
         {
           "lang": "ja",
           "text": "明日は",
           "start_sample": 0,
-          "end_sample": 9191,
+          "end_sample": 5978,
           "start_ms": 0,
-          "end_ms": 574
+          "end_ms": 374
         },
         {
           "lang": "en",
           "text": "meeting",
-          "start_sample": 9191,
-          "end_sample": 19511,
-          "start_ms": 574,
-          "end_ms": 1219
+          "start_sample": 5978,
+          "end_sample": 12442,
+          "start_ms": 374,
+          "end_ms": 778
         },
         {
           "lang": "ja",
           "text": "が三つもあります。",
-          "start_sample": 19511,
-          "end_sample": 44175,
-          "start_ms": 1219,
-          "end_ms": 2761
+          "start_sample": 12442,
+          "end_sample": 29076,
+          "start_ms": 778,
+          "end_ms": 1817
         }
       ]
     }
   },
   "frame_rate_hz": 50,
-  "num_frames": 130,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 197,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

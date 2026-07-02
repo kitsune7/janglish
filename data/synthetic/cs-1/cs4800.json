@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4800.flac",
+  "sentence": "あなたはいつもglowingしているね、秘訣は何ですか？",
+  "sample_rate": 16000,
+  "duration_ms": 3983,
+  "reference_speaker": "en/speaker_020_5f047713c8bd.mp3",
+  "seed": 4842,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あなたはいつも",
+      "start_sample": 0,
+      "end_sample": 12968,
+      "start_ms": 0,
+      "end_ms": 810
+    },
+    {
+      "lang": "en",
+      "text": "glowing",
+      "start_sample": 12968,
+      "end_sample": 31646,
+      "start_ms": 810,
+      "end_ms": 1978
+    },
+    {
+      "lang": "ja",
+      "text": "しているね、秘訣は何ですか？",
+      "start_sample": 31646,
+      "end_sample": 63723,
+      "start_ms": 1978,
+      "end_ms": 3983
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "anata ha itsu mo glowing shi te iru ne hiketsu ha nani desu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7715,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あなたはいつも",
+          "start_sample": 0,
+          "end_sample": 33347,
+          "start_ms": 0,
+          "end_ms": 2084
+        },
+        {
+          "lang": "en",
+          "text": "glowing",
+          "start_sample": 33347,
+          "end_sample": 52425,
+          "start_ms": 2084,
+          "end_ms": 3277
+        },
+        {
+          "lang": "ja",
+          "text": "しているね、秘訣は何ですか？",
+          "start_sample": 52425,
+          "end_sample": 123446,
+          "start_ms": 3277,
+          "end_ms": 7715
+        }
+      ]
+    },
+    "ja": {
+      "text": "あなたはいつもglowingしているね、秘訣は何ですか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3392,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あなたはいつも",
+          "start_sample": 0,
+          "end_sample": 13168,
+          "start_ms": 0,
+          "end_ms": 823
+        },
+        {
+          "lang": "en",
+          "text": "glowing",
+          "start_sample": 13168,
+          "end_sample": 22001,
+          "start_ms": 823,
+          "end_ms": 1375
+        },
+        {
+          "lang": "ja",
+          "text": "しているね、秘訣は何ですか？",
+          "start_sample": 22001,
+          "end_sample": 54278,
+          "start_ms": 1375,
+          "end_ms": 3392
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 200,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

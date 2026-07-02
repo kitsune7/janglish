@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs9571.flac",
+  "sentence": "silentモードにするの忘れて、映画館で鳴ってしまった。",
+  "sample_rate": 16000,
+  "duration_ms": 3133,
+  "reference_speaker": "jp/speaker_061_3e186ef591ed.mp3",
+  "seed": 9613,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "silent",
+      "start_sample": 0,
+      "end_sample": 8131,
+      "start_ms": 0,
+      "end_ms": 508
+    },
+    {
+      "lang": "ja",
+      "text": "モードにするの忘れて、映画館で鳴ってしまった。",
+      "start_sample": 8131,
+      "end_sample": 50134,
+      "start_ms": 508,
+      "end_ms": 3133
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "silent moodo ni suru no wasure te eiga kan de natsu te shimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6729,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "silent",
+          "start_sample": 0,
+          "end_sample": 8331,
+          "start_ms": 0,
+          "end_ms": 521
+        },
+        {
+          "lang": "ja",
+          "text": "モードにするの忘れて、映画館で鳴ってしまった。",
+          "start_sample": 8331,
+          "end_sample": 107664,
+          "start_ms": 521,
+          "end_ms": 6729
+        }
+      ]
+    },
+    "ja": {
+      "text": "silentモードにするの忘れて、映画館で鳴ってしまった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3069,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "silent",
+          "start_sample": 0,
+          "end_sample": 6900,
+          "start_ms": 0,
+          "end_ms": 431
+        },
+        {
+          "lang": "ja",
+          "text": "モードにするの忘れて、映画館で鳴ってしまった。",
+          "start_sample": 6900,
+          "end_sample": 49103,
+          "start_ms": 431,
+          "end_ms": 3069
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 157,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10601.flac",
+  "sentence": "We saw a 白い butterfly hovering around the lavender for nearly an hour.",
+  "sample_rate": 16000,
+  "duration_ms": 4757,
+  "reference_speaker": "en/speaker_080_2ec83f7b270e.mp3",
+  "seed": 10643,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We saw a",
+      "start_sample": 0,
+      "end_sample": 7989,
+      "start_ms": 0,
+      "end_ms": 499
+    },
+    {
+      "lang": "ja",
+      "text": "白い",
+      "start_sample": 7989,
+      "end_sample": 13682,
+      "start_ms": 499,
+      "end_ms": 855
+    },
+    {
+      "lang": "en",
+      "text": "butterfly hovering around the lavender for nearly an hour.",
+      "start_sample": 13682,
+      "end_sample": 76109,
+      "start_ms": 855,
+      "end_ms": 4757
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We saw a shiroi butterfly hovering around the lavender for nearly an hour.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4958,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We saw a",
+          "start_sample": 0,
+          "end_sample": 8189,
+          "start_ms": 0,
+          "end_ms": 512
+        },
+        {
+          "lang": "ja",
+          "text": "白い",
+          "start_sample": 8189,
+          "end_sample": 16700,
+          "start_ms": 512,
+          "end_ms": 1044
+        },
+        {
+          "lang": "en",
+          "text": "butterfly hovering around the lavender for nearly an hour.",
+          "start_sample": 16700,
+          "end_sample": 79327,
+          "start_ms": 1044,
+          "end_ms": 4958
+        }
+      ]
+    },
+    "ja": {
+      "text": "We saw a 白い butterfly hovering around the lavender for nearly an hour.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5352,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We saw a",
+          "start_sample": 0,
+          "end_sample": 8658,
+          "start_ms": 0,
+          "end_ms": 541
+        },
+        {
+          "lang": "ja",
+          "text": "白い",
+          "start_sample": 8658,
+          "end_sample": 14751,
+          "start_ms": 541,
+          "end_ms": 922
+        },
+        {
+          "lang": "en",
+          "text": "butterfly hovering around the lavender for nearly an hour.",
+          "start_sample": 14751,
+          "end_sample": 85625,
+          "start_ms": 922,
+          "end_ms": 5352
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 238,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

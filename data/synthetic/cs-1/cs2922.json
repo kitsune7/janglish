@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2922.flac",
+  "sentence": "She described the brushwork as incredibly 繊細 for a piece so large.",
+  "sample_rate": 16000,
+  "duration_ms": 6891,
+  "reference_speaker": "en/speaker_016_fcffb37fddea.mp3",
+  "seed": 2964,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She described the brushwork as incredibly",
+      "start_sample": 0,
+      "end_sample": 62625,
+      "start_ms": 0,
+      "end_ms": 3914
+    },
+    {
+      "lang": "ja",
+      "text": "繊細",
+      "start_sample": 62625,
+      "end_sample": 75036,
+      "start_ms": 3914,
+      "end_ms": 4690
+    },
+    {
+      "lang": "en",
+      "text": "for a piece so large.",
+      "start_sample": 75036,
+      "end_sample": 110254,
+      "start_ms": 4690,
+      "end_ms": 6891
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She described the brushwork as incredibly sensai for a piece so large.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7472,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She described the brushwork as incredibly",
+          "start_sample": 0,
+          "end_sample": 62825,
+          "start_ms": 0,
+          "end_ms": 3927
+        },
+        {
+          "lang": "ja",
+          "text": "繊細",
+          "start_sample": 62825,
+          "end_sample": 84142,
+          "start_ms": 3927,
+          "end_ms": 5259
+        },
+        {
+          "lang": "en",
+          "text": "for a piece so large.",
+          "start_sample": 84142,
+          "end_sample": 119560,
+          "start_ms": 5259,
+          "end_ms": 7472
+        }
+      ]
+    },
+    "ja": {
+      "text": "She described the brushwork as incredibly 繊細 for a piece so large.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7986,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She described the brushwork as incredibly",
+          "start_sample": 0,
+          "end_sample": 75099,
+          "start_ms": 0,
+          "end_ms": 4694
+        },
+        {
+          "lang": "ja",
+          "text": "繊細",
+          "start_sample": 75099,
+          "end_sample": 87910,
+          "start_ms": 4694,
+          "end_ms": 5494
+        },
+        {
+          "lang": "en",
+          "text": "for a piece so large.",
+          "start_sample": 87910,
+          "end_sample": 127781,
+          "start_ms": 5494,
+          "end_ms": 7986
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 345,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

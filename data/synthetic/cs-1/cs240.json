@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs240.flac",
+  "sentence": "旅行中に見つけたcozyな宿に二泊しました。",
+  "sample_rate": 16000,
+  "duration_ms": 3758,
+  "reference_speaker": "en/speaker_015_995e028794f8.mp3",
+  "seed": 282,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "旅行中に見つけた",
+      "start_sample": 0,
+      "end_sample": 29135,
+      "start_ms": 0,
+      "end_ms": 1821
+    },
+    {
+      "lang": "en",
+      "text": "cozy",
+      "start_sample": 29135,
+      "end_sample": 34194,
+      "start_ms": 1821,
+      "end_ms": 2137
+    },
+    {
+      "lang": "ja",
+      "text": "な宿に二泊しました。",
+      "start_sample": 34194,
+      "end_sample": 60122,
+      "start_ms": 2137,
+      "end_ms": 3758
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ryokou naka ni mitsuke ta cozy na yado ni ni haku shi mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5800,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "旅行中に見つけた",
+          "start_sample": 0,
+          "end_sample": 39659,
+          "start_ms": 0,
+          "end_ms": 2479
+        },
+        {
+          "lang": "en",
+          "text": "cozy",
+          "start_sample": 39659,
+          "end_sample": 45118,
+          "start_ms": 2479,
+          "end_ms": 2820
+        },
+        {
+          "lang": "ja",
+          "text": "な宿に二泊しました。",
+          "start_sample": 45118,
+          "end_sample": 92806,
+          "start_ms": 2820,
+          "end_ms": 5800
+        }
+      ]
+    },
+    "ja": {
+      "text": "旅行中に見つけたcozyな宿に二泊しました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3887,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "旅行中に見つけた",
+          "start_sample": 0,
+          "end_sample": 29335,
+          "start_ms": 0,
+          "end_ms": 1833
+        },
+        {
+          "lang": "en",
+          "text": "cozy",
+          "start_sample": 29335,
+          "end_sample": 36068,
+          "start_ms": 1833,
+          "end_ms": 2254
+        },
+        {
+          "lang": "ja",
+          "text": "な宿に二泊しました。",
+          "start_sample": 36068,
+          "end_sample": 62196,
+          "start_ms": 2254,
+          "end_ms": 3887
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

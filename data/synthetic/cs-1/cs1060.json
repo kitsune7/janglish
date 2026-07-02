@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1060.flac",
+  "sentence": "彼のscreenを見たら、知らない番号から着信があった。",
+  "sample_rate": 16000,
+  "duration_ms": 4195,
+  "reference_speaker": "jp/speaker_020_8ca1bbc6858e.mp3",
+  "seed": 1102,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼の",
+      "start_sample": 0,
+      "end_sample": 5581,
+      "start_ms": 0,
+      "end_ms": 349
+    },
+    {
+      "lang": "en",
+      "text": "screen",
+      "start_sample": 5581,
+      "end_sample": 18827,
+      "start_ms": 349,
+      "end_ms": 1177
+    },
+    {
+      "lang": "ja",
+      "text": "を見たら、知らない番号から着信があった。",
+      "start_sample": 18827,
+      "end_sample": 67126,
+      "start_ms": 1177,
+      "end_ms": 4195
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare no screen wo ken tara shira nai bangou kara chakushin ga atsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6903,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼の",
+          "start_sample": 0,
+          "end_sample": 7384,
+          "start_ms": 0,
+          "end_ms": 462
+        },
+        {
+          "lang": "en",
+          "text": "screen",
+          "start_sample": 7384,
+          "end_sample": 21030,
+          "start_ms": 462,
+          "end_ms": 1314
+        },
+        {
+          "lang": "ja",
+          "text": "を見たら、知らない番号から着信があった。",
+          "start_sample": 21030,
+          "end_sample": 110449,
+          "start_ms": 1314,
+          "end_ms": 6903
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼のscreenを見たら、知らない番号から着信があった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3874,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼の",
+          "start_sample": 0,
+          "end_sample": 5781,
+          "start_ms": 0,
+          "end_ms": 361
+        },
+        {
+          "lang": "en",
+          "text": "screen",
+          "start_sample": 5781,
+          "end_sample": 13490,
+          "start_ms": 361,
+          "end_ms": 843
+        },
+        {
+          "lang": "ja",
+          "text": "を見たら、知らない番号から着信があった。",
+          "start_sample": 13490,
+          "end_sample": 61989,
+          "start_ms": 843,
+          "end_ms": 3874
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

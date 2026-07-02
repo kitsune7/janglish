@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4089.flac",
+  "sentence": "We built a small 祭壇 in the living room to honor family members during the remembrance holiday.",
+  "sample_rate": 16000,
+  "duration_ms": 5710,
+  "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 4131,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We built a small",
+      "start_sample": 0,
+      "end_sample": 13421,
+      "start_ms": 0,
+      "end_ms": 839
+    },
+    {
+      "lang": "ja",
+      "text": "祭壇",
+      "start_sample": 13421,
+      "end_sample": 22803,
+      "start_ms": 839,
+      "end_ms": 1425
+    },
+    {
+      "lang": "en",
+      "text": "in the living room to honor family members during the remembrance holiday.",
+      "start_sample": 22803,
+      "end_sample": 91353,
+      "start_ms": 1425,
+      "end_ms": 5710
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We built a small saidan in the living room to honor family members during the remembrance holiday.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5629,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We built a small",
+          "start_sample": 0,
+          "end_sample": 13621,
+          "start_ms": 0,
+          "end_ms": 851
+        },
+        {
+          "lang": "ja",
+          "text": "祭壇",
+          "start_sample": 13621,
+          "end_sample": 21314,
+          "start_ms": 851,
+          "end_ms": 1332
+        },
+        {
+          "lang": "en",
+          "text": "in the living room to honor family members during the remembrance holiday.",
+          "start_sample": 21314,
+          "end_sample": 90064,
+          "start_ms": 1332,
+          "end_ms": 5629
+        }
+      ]
+    },
+    "ja": {
+      "text": "We built a small 祭壇 in the living room to honor family members during the remembrance holiday.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8138,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We built a small",
+          "start_sample": 0,
+          "end_sample": 17799,
+          "start_ms": 0,
+          "end_ms": 1112
+        },
+        {
+          "lang": "ja",
+          "text": "祭壇",
+          "start_sample": 17799,
+          "end_sample": 27581,
+          "start_ms": 1112,
+          "end_ms": 1724
+        },
+        {
+          "lang": "en",
+          "text": "in the living room to honor family members during the remembrance holiday.",
+          "start_sample": 27581,
+          "end_sample": 130208,
+          "start_ms": 1724,
+          "end_ms": 8138
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 286,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

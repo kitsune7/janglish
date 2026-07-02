@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1814.flac",
+  "sentence": "We found the 陶器 gallery entirely by accident while looking for the restrooms.",
+  "sample_rate": 16000,
+  "duration_ms": 5543,
+  "reference_speaker": "jp/speaker_057_6b77a20f629a.mp3",
+  "seed": 1856,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We found the",
+      "start_sample": 0,
+      "end_sample": 7176,
+      "start_ms": 0,
+      "end_ms": 448
+    },
+    {
+      "lang": "ja",
+      "text": "陶器",
+      "start_sample": 7176,
+      "end_sample": 18963,
+      "start_ms": 448,
+      "end_ms": 1185
+    },
+    {
+      "lang": "en",
+      "text": "gallery entirely by accident while looking for the restrooms.",
+      "start_sample": 18963,
+      "end_sample": 88684,
+      "start_ms": 1185,
+      "end_ms": 5543
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We found the touki gallery entirely by accident while looking for the restrooms.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5152,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We found the",
+          "start_sample": 0,
+          "end_sample": 7376,
+          "start_ms": 0,
+          "end_ms": 461
+        },
+        {
+          "lang": "ja",
+          "text": "陶器",
+          "start_sample": 7376,
+          "end_sample": 12508,
+          "start_ms": 461,
+          "end_ms": 782
+        },
+        {
+          "lang": "en",
+          "text": "gallery entirely by accident while looking for the restrooms.",
+          "start_sample": 12508,
+          "end_sample": 82429,
+          "start_ms": 782,
+          "end_ms": 5152
+        }
+      ]
+    },
+    "ja": {
+      "text": "We found the 陶器 gallery entirely by accident while looking for the restrooms.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5752,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We found the",
+          "start_sample": 0,
+          "end_sample": 15071,
+          "start_ms": 0,
+          "end_ms": 942
+        },
+        {
+          "lang": "ja",
+          "text": "陶器",
+          "start_sample": 15071,
+          "end_sample": 27258,
+          "start_ms": 942,
+          "end_ms": 1704
+        },
+        {
+          "lang": "en",
+          "text": "gallery entirely by accident while looking for the restrooms.",
+          "start_sample": 27258,
+          "end_sample": 92040,
+          "start_ms": 1704,
+          "end_ms": 5752
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 278,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

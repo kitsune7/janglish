@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10529.flac",
+  "sentence": "That whole evening had a strange, 気まずい atmosphere that no one acknowledged.",
+  "sample_rate": 16000,
+  "duration_ms": 5081,
+  "reference_speaker": "jp/speaker_070_8f5dfeca773f.mp3",
+  "seed": 10571,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That whole evening had a strange,",
+      "start_sample": 0,
+      "end_sample": 34440,
+      "start_ms": 0,
+      "end_ms": 2152
+    },
+    {
+      "lang": "ja",
+      "text": "気まずい",
+      "start_sample": 34440,
+      "end_sample": 45574,
+      "start_ms": 2152,
+      "end_ms": 2848
+    },
+    {
+      "lang": "en",
+      "text": "atmosphere that no one acknowledged.",
+      "start_sample": 45574,
+      "end_sample": 81296,
+      "start_ms": 2848,
+      "end_ms": 5081
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That whole evening had a strange, kimazui atmosphere that no one acknowledged.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5052,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That whole evening had a strange,",
+          "start_sample": 0,
+          "end_sample": 34640,
+          "start_ms": 0,
+          "end_ms": 2165
+        },
+        {
+          "lang": "ja",
+          "text": "気まずい",
+          "start_sample": 34640,
+          "end_sample": 44904,
+          "start_ms": 2165,
+          "end_ms": 2806
+        },
+        {
+          "lang": "en",
+          "text": "atmosphere that no one acknowledged.",
+          "start_sample": 44904,
+          "end_sample": 80826,
+          "start_ms": 2806,
+          "end_ms": 5052
+        }
+      ]
+    },
+    "ja": {
+      "text": "That whole evening had a strange, 気まずい atmosphere that no one acknowledged.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5426,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That whole evening had a strange,",
+          "start_sample": 0,
+          "end_sample": 36841,
+          "start_ms": 0,
+          "end_ms": 2303
+        },
+        {
+          "lang": "ja",
+          "text": "気まずい",
+          "start_sample": 36841,
+          "end_sample": 48375,
+          "start_ms": 2303,
+          "end_ms": 3023
+        },
+        {
+          "lang": "en",
+          "text": "atmosphere that no one acknowledged.",
+          "start_sample": 48375,
+          "end_sample": 86819,
+          "start_ms": 3023,
+          "end_ms": 5426
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 255,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

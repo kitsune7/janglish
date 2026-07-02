@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1876.flac",
+  "sentence": "His voice always sounds so 穏やか on the phone, even when he's busy.",
+  "sample_rate": 16000,
+  "duration_ms": 3706,
+  "reference_speaker": "en/speaker_023_9d57aeaf822c.mp3",
+  "seed": 1918,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His voice always sounds so",
+      "start_sample": 0,
+      "end_sample": 19986,
+      "start_ms": 0,
+      "end_ms": 1249
+    },
+    {
+      "lang": "ja",
+      "text": "穏やか",
+      "start_sample": 19986,
+      "end_sample": 27289,
+      "start_ms": 1249,
+      "end_ms": 1706
+    },
+    {
+      "lang": "en",
+      "text": "on the phone, even when he's busy.",
+      "start_sample": 27289,
+      "end_sample": 59290,
+      "start_ms": 1706,
+      "end_ms": 3706
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His voice always sounds so odayaka on the phone, even when he's busy.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3825,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His voice always sounds so",
+          "start_sample": 0,
+          "end_sample": 20186,
+          "start_ms": 0,
+          "end_ms": 1262
+        },
+        {
+          "lang": "ja",
+          "text": "穏やか",
+          "start_sample": 20186,
+          "end_sample": 28997,
+          "start_ms": 1262,
+          "end_ms": 1812
+        },
+        {
+          "lang": "en",
+          "text": "on the phone, even when he's busy.",
+          "start_sample": 28997,
+          "end_sample": 61198,
+          "start_ms": 1812,
+          "end_ms": 3825
+        }
+      ]
+    },
+    "ja": {
+      "text": "His voice always sounds so 穏やか on the phone, even when he's busy.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4854,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His voice always sounds so",
+          "start_sample": 0,
+          "end_sample": 33859,
+          "start_ms": 0,
+          "end_ms": 2116
+        },
+        {
+          "lang": "ja",
+          "text": "穏やか",
+          "start_sample": 33859,
+          "end_sample": 41562,
+          "start_ms": 2116,
+          "end_ms": 2598
+        },
+        {
+          "lang": "en",
+          "text": "on the phone, even when he's busy.",
+          "start_sample": 41562,
+          "end_sample": 77668,
+          "start_ms": 2598,
+          "end_ms": 4854
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 186,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs991.flac",
+  "sentence": "その法案はsenateで否決される可能性が高い。",
+  "sample_rate": 16000,
+  "duration_ms": 4071,
+  "reference_speaker": "en/speaker_071_72384e582e15.mp3",
+  "seed": 1033,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その法案は",
+      "start_sample": 0,
+      "end_sample": 18086,
+      "start_ms": 0,
+      "end_ms": 1130
+    },
+    {
+      "lang": "en",
+      "text": "senate",
+      "start_sample": 18086,
+      "end_sample": 31008,
+      "start_ms": 1130,
+      "end_ms": 1938
+    },
+    {
+      "lang": "ja",
+      "text": "で否決される可能性が高い。",
+      "start_sample": 31008,
+      "end_sample": 65134,
+      "start_ms": 1938,
+      "end_ms": 4071
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono hou an ha senate de hiketsu sa reru kanou sei ga takai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6099,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その法案は",
+          "start_sample": 0,
+          "end_sample": 16210,
+          "start_ms": 0,
+          "end_ms": 1013
+        },
+        {
+          "lang": "en",
+          "text": "senate",
+          "start_sample": 16210,
+          "end_sample": 29532,
+          "start_ms": 1013,
+          "end_ms": 1846
+        },
+        {
+          "lang": "ja",
+          "text": "で否決される可能性が高い。",
+          "start_sample": 29532,
+          "end_sample": 97581,
+          "start_ms": 1846,
+          "end_ms": 6099
+        }
+      ]
+    },
+    "ja": {
+      "text": "その法案はsenateで否決される可能性が高い。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4050,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その法案は",
+          "start_sample": 0,
+          "end_sample": 18286,
+          "start_ms": 0,
+          "end_ms": 1143
+        },
+        {
+          "lang": "en",
+          "text": "senate",
+          "start_sample": 18286,
+          "end_sample": 30477,
+          "start_ms": 1143,
+          "end_ms": 1905
+        },
+        {
+          "lang": "ja",
+          "text": "で否決される可能性が高い。",
+          "start_sample": 30477,
+          "end_sample": 64803,
+          "start_ms": 1905,
+          "end_ms": 4050
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

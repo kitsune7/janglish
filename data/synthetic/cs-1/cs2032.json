@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2032.flac",
+  "sentence": "先生から息子のprogressについて良い話を聞きました。",
+  "sample_rate": 16000,
+  "duration_ms": 4427,
+  "reference_speaker": "en/speaker_090_cd7a1ed8add3.mp3",
+  "seed": 2074,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "先生から息子の",
+      "start_sample": 0,
+      "end_sample": 20784,
+      "start_ms": 0,
+      "end_ms": 1299
+    },
+    {
+      "lang": "en",
+      "text": "progress",
+      "start_sample": 20784,
+      "end_sample": 34185,
+      "start_ms": 1299,
+      "end_ms": 2137
+    },
+    {
+      "lang": "ja",
+      "text": "について良い話を聞きました。",
+      "start_sample": 34185,
+      "end_sample": 70829,
+      "start_ms": 2137,
+      "end_ms": 4427
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sensei kara musuko no progress ni tsui te yoi hanashi wo kiki mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5998,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先生から息子の",
+          "start_sample": 0,
+          "end_sample": 30812,
+          "start_ms": 0,
+          "end_ms": 1926
+        },
+        {
+          "lang": "en",
+          "text": "progress",
+          "start_sample": 30812,
+          "end_sample": 44613,
+          "start_ms": 1926,
+          "end_ms": 2788
+        },
+        {
+          "lang": "ja",
+          "text": "について良い話を聞きました。",
+          "start_sample": 44613,
+          "end_sample": 95965,
+          "start_ms": 2788,
+          "end_ms": 5998
+        }
+      ]
+    },
+    "ja": {
+      "text": "先生から息子のprogressについて良い話を聞きました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4285,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先生から息子の",
+          "start_sample": 0,
+          "end_sample": 20984,
+          "start_ms": 0,
+          "end_ms": 1312
+        },
+        {
+          "lang": "en",
+          "text": "progress",
+          "start_sample": 20984,
+          "end_sample": 31717,
+          "start_ms": 1312,
+          "end_ms": 1982
+        },
+        {
+          "lang": "ja",
+          "text": "について良い話を聞きました。",
+          "start_sample": 31717,
+          "end_sample": 68561,
+          "start_ms": 1982,
+          "end_ms": 4285
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 222,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

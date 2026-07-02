@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6418.flac",
+  "sentence": "この小説のmain characterは本当に魅力的だと思う。",
+  "sample_rate": 16000,
+  "duration_ms": 5003,
+  "reference_speaker": "en/speaker_036_d0b62ac1e57e.mp3",
+  "seed": 6460,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この小説の",
+      "start_sample": 0,
+      "end_sample": 13755,
+      "start_ms": 0,
+      "end_ms": 860
+    },
+    {
+      "lang": "en",
+      "text": "main character",
+      "start_sample": 13755,
+      "end_sample": 44154,
+      "start_ms": 860,
+      "end_ms": 2760
+    },
+    {
+      "lang": "ja",
+      "text": "は本当に魅力的だと思う。",
+      "start_sample": 44154,
+      "end_sample": 80044,
+      "start_ms": 2760,
+      "end_ms": 5003
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono shousetsu no main character ha hontou ni miryoku teki da to omou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6576,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この小説の",
+          "start_sample": 0,
+          "end_sample": 22454,
+          "start_ms": 0,
+          "end_ms": 1403
+        },
+        {
+          "lang": "en",
+          "text": "main character",
+          "start_sample": 22454,
+          "end_sample": 53253,
+          "start_ms": 1403,
+          "end_ms": 3328
+        },
+        {
+          "lang": "ja",
+          "text": "は本当に魅力的だと思う。",
+          "start_sample": 53253,
+          "end_sample": 105223,
+          "start_ms": 3328,
+          "end_ms": 6576
+        }
+      ]
+    },
+    "ja": {
+      "text": "この小説のmain characterは本当に魅力的だと思う。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4050,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この小説の",
+          "start_sample": 0,
+          "end_sample": 13955,
+          "start_ms": 0,
+          "end_ms": 872
+        },
+        {
+          "lang": "en",
+          "text": "main character",
+          "start_sample": 13955,
+          "end_sample": 28713,
+          "start_ms": 872,
+          "end_ms": 1795
+        },
+        {
+          "lang": "ja",
+          "text": "は本当に魅力的だと思う。",
+          "start_sample": 28713,
+          "end_sample": 64803,
+          "start_ms": 1795,
+          "end_ms": 4050
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 251,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

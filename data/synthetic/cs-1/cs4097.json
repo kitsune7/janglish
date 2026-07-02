@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4097.flac",
+  "sentence": "お盆のperiodは電車がとても混んでいるので気をつけてね。",
+  "sample_rate": 16000,
+  "duration_ms": 2948,
+  "reference_speaker": "en/speaker_019_53050c1aaaa1.mp3",
+  "seed": 4139,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "お盆の",
+      "start_sample": 0,
+      "end_sample": 6217,
+      "start_ms": 0,
+      "end_ms": 389
+    },
+    {
+      "lang": "en",
+      "text": "period",
+      "start_sample": 6217,
+      "end_sample": 12392,
+      "start_ms": 389,
+      "end_ms": 774
+    },
+    {
+      "lang": "ja",
+      "text": "は電車がとても混んでいるので気をつけてね。",
+      "start_sample": 12392,
+      "end_sample": 47173,
+      "start_ms": 774,
+      "end_ms": 2948
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "o bon no period ha densha ga totemo kon de iru no de ki wo tsuke te ne",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6114,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お盆の",
+          "start_sample": 0,
+          "end_sample": 18280,
+          "start_ms": 0,
+          "end_ms": 1142
+        },
+        {
+          "lang": "en",
+          "text": "period",
+          "start_sample": 18280,
+          "end_sample": 24855,
+          "start_ms": 1142,
+          "end_ms": 1553
+        },
+        {
+          "lang": "ja",
+          "text": "は電車がとても混んでいるので気をつけてね。",
+          "start_sample": 24855,
+          "end_sample": 97823,
+          "start_ms": 1553,
+          "end_ms": 6114
+        }
+      ]
+    },
+    "ja": {
+      "text": "お盆のperiodは電車がとても混んでいるので気をつけてね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2948,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お盆の",
+          "start_sample": 0,
+          "end_sample": 6417,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "en",
+          "text": "period",
+          "start_sample": 6417,
+          "end_sample": 12194,
+          "start_ms": 401,
+          "end_ms": 762
+        },
+        {
+          "lang": "ja",
+          "text": "は電車がとても混んでいるので気をつけてね。",
+          "start_sample": 12194,
+          "end_sample": 47175,
+          "start_ms": 762,
+          "end_ms": 2948
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 148,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

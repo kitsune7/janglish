@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3162.flac",
+  "sentence": "お会計の前にtake-outの箱をもらえますか？",
+  "sample_rate": 16000,
+  "duration_ms": 3153,
+  "reference_speaker": "en/speaker_040_ec293248c910.mp3",
+  "seed": 3204,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "お会計の前に",
+      "start_sample": 0,
+      "end_sample": 17175,
+      "start_ms": 0,
+      "end_ms": 1073
+    },
+    {
+      "lang": "en",
+      "text": "take-out",
+      "start_sample": 17175,
+      "end_sample": 30871,
+      "start_ms": 1073,
+      "end_ms": 1929
+    },
+    {
+      "lang": "ja",
+      "text": "の箱をもらえますか？",
+      "start_sample": 30871,
+      "end_sample": 50454,
+      "start_ms": 1929,
+      "end_ms": 3153
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "o kaikei no mae ni take-out no hako wo morae masu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5466,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お会計の前に",
+          "start_sample": 0,
+          "end_sample": 30274,
+          "start_ms": 0,
+          "end_ms": 1892
+        },
+        {
+          "lang": "en",
+          "text": "take-out",
+          "start_sample": 30274,
+          "end_sample": 44370,
+          "start_ms": 1892,
+          "end_ms": 2773
+        },
+        {
+          "lang": "ja",
+          "text": "の箱をもらえますか？",
+          "start_sample": 44370,
+          "end_sample": 87460,
+          "start_ms": 2773,
+          "end_ms": 5466
+        }
+      ]
+    },
+    "ja": {
+      "text": "お会計の前にtake-outの箱をもらえますか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2976,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お会計の前に",
+          "start_sample": 0,
+          "end_sample": 17375,
+          "start_ms": 0,
+          "end_ms": 1086
+        },
+        {
+          "lang": "en",
+          "text": "take-out",
+          "start_sample": 17375,
+          "end_sample": 27832,
+          "start_ms": 1086,
+          "end_ms": 1740
+        },
+        {
+          "lang": "ja",
+          "text": "の箱をもらえますか？",
+          "start_sample": 27832,
+          "end_sample": 47615,
+          "start_ms": 1740,
+          "end_ms": 2976
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 158,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

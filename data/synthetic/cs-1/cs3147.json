@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3147.flac",
+  "sentence": "このcafeは雰囲気がとても落ち着いていますね。",
+  "sample_rate": 16000,
+  "duration_ms": 3855,
+  "reference_speaker": "jp/speaker_082_d12288b68351.mp3",
+  "seed": 3189,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3335,
+      "start_ms": 0,
+      "end_ms": 208
+    },
+    {
+      "lang": "en",
+      "text": "cafe",
+      "start_sample": 3335,
+      "end_sample": 15772,
+      "start_ms": 208,
+      "end_ms": 986
+    },
+    {
+      "lang": "ja",
+      "text": "は雰囲気がとても落ち着いていますね。",
+      "start_sample": 15772,
+      "end_sample": 61687,
+      "start_ms": 986,
+      "end_ms": 3855
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono cafe ha fun'iki ga totemo ochitsui te i masu ne",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8343,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4331,
+          "start_ms": 0,
+          "end_ms": 271
+        },
+        {
+          "lang": "en",
+          "text": "cafe",
+          "start_sample": 4331,
+          "end_sample": 17168,
+          "start_ms": 271,
+          "end_ms": 1073
+        },
+        {
+          "lang": "ja",
+          "text": "は雰囲気がとても落ち着いていますね。",
+          "start_sample": 17168,
+          "end_sample": 133492,
+          "start_ms": 1073,
+          "end_ms": 8343
+        }
+      ]
+    },
+    "ja": {
+      "text": "このcafeは雰囲気がとても落ち着いていますね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3455,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3535,
+          "start_ms": 0,
+          "end_ms": 221
+        },
+        {
+          "lang": "en",
+          "text": "cafe",
+          "start_sample": 3535,
+          "end_sample": 9159,
+          "start_ms": 221,
+          "end_ms": 572
+        },
+        {
+          "lang": "ja",
+          "text": "は雰囲気がとても落ち着いていますね。",
+          "start_sample": 9159,
+          "end_sample": 55274,
+          "start_ms": 572,
+          "end_ms": 3455
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 193,
+  "frame_labels": "jjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

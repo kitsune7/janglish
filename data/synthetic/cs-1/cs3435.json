@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3435.flac",
+  "sentence": "She draped a 薄い linen shawl over her shoulders as the breeze picked up.",
+  "sample_rate": 16000,
+  "duration_ms": 6174,
+  "reference_speaker": "jp/speaker_082_d12288b68351.mp3",
+  "seed": 3477,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She draped a",
+      "start_sample": 0,
+      "end_sample": 20969,
+      "start_ms": 0,
+      "end_ms": 1311
+    },
+    {
+      "lang": "ja",
+      "text": "薄い",
+      "start_sample": 20969,
+      "end_sample": 29223,
+      "start_ms": 1311,
+      "end_ms": 1826
+    },
+    {
+      "lang": "en",
+      "text": "linen shawl over her shoulders as the breeze picked up.",
+      "start_sample": 29223,
+      "end_sample": 98784,
+      "start_ms": 1826,
+      "end_ms": 6174
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She draped a usui linen shawl over her shoulders as the breeze picked up.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6154,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She draped a",
+          "start_sample": 0,
+          "end_sample": 21169,
+          "start_ms": 0,
+          "end_ms": 1323
+        },
+        {
+          "lang": "ja",
+          "text": "薄い",
+          "start_sample": 21169,
+          "end_sample": 28707,
+          "start_ms": 1323,
+          "end_ms": 1794
+        },
+        {
+          "lang": "en",
+          "text": "linen shawl over her shoulders as the breeze picked up.",
+          "start_sample": 28707,
+          "end_sample": 98468,
+          "start_ms": 1794,
+          "end_ms": 6154
+        }
+      ]
+    },
+    "ja": {
+      "text": "She draped a 薄い linen shawl over her shoulders as the breeze picked up.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8373,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She draped a",
+          "start_sample": 0,
+          "end_sample": 24197,
+          "start_ms": 0,
+          "end_ms": 1512
+        },
+        {
+          "lang": "ja",
+          "text": "薄い",
+          "start_sample": 24197,
+          "end_sample": 32851,
+          "start_ms": 1512,
+          "end_ms": 2053
+        },
+        {
+          "lang": "en",
+          "text": "linen shawl over her shoulders as the breeze picked up.",
+          "start_sample": 32851,
+          "end_sample": 133971,
+          "start_ms": 2053,
+          "end_ms": 8373
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 309,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

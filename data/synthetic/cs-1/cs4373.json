@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4373.flac",
+  "sentence": "The Wi-Fi signal on the 三階 is always terrible.",
+  "sample_rate": 16000,
+  "duration_ms": 3506,
+  "reference_speaker": "jp/speaker_029_debaa03f9928.mp3",
+  "seed": 4415,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The Wi-Fi signal on the",
+      "start_sample": 0,
+      "end_sample": 28328,
+      "start_ms": 0,
+      "end_ms": 1770
+    },
+    {
+      "lang": "ja",
+      "text": "三階",
+      "start_sample": 28328,
+      "end_sample": 34820,
+      "start_ms": 1770,
+      "end_ms": 2176
+    },
+    {
+      "lang": "en",
+      "text": "is always terrible.",
+      "start_sample": 34820,
+      "end_sample": 56096,
+      "start_ms": 2176,
+      "end_ms": 3506
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The Wi-Fi signal on the san kai is always terrible.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4007,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The Wi-Fi signal on the",
+          "start_sample": 0,
+          "end_sample": 28528,
+          "start_ms": 0,
+          "end_ms": 1783
+        },
+        {
+          "lang": "ja",
+          "text": "三階",
+          "start_sample": 28528,
+          "end_sample": 42632,
+          "start_ms": 1783,
+          "end_ms": 2664
+        },
+        {
+          "lang": "en",
+          "text": "is always terrible.",
+          "start_sample": 42632,
+          "end_sample": 64108,
+          "start_ms": 2664,
+          "end_ms": 4007
+        }
+      ]
+    },
+    "ja": {
+      "text": "The Wi-Fi signal on the 三階 is always terrible.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2664,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The Wi-Fi signal on the",
+          "start_sample": 0,
+          "end_sample": 22116,
+          "start_ms": 0,
+          "end_ms": 1382
+        },
+        {
+          "lang": "ja",
+          "text": "三階",
+          "start_sample": 22116,
+          "end_sample": 29008,
+          "start_ms": 1382,
+          "end_ms": 1813
+        },
+        {
+          "lang": "en",
+          "text": "is always terrible.",
+          "start_sample": 29008,
+          "end_sample": 42629,
+          "start_ms": 1813,
+          "end_ms": 2664
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 176,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

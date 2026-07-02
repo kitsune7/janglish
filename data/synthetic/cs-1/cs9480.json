@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9480.flac",
+  "sentence": "The CEO gave a very 丁寧 response to the shareholders' questions.",
+  "sample_rate": 16000,
+  "duration_ms": 5587,
+  "reference_speaker": "jp/speaker_082_d12288b68351.mp3",
+  "seed": 9522,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The CEO gave a very",
+      "start_sample": 0,
+      "end_sample": 43216,
+      "start_ms": 0,
+      "end_ms": 2701
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧",
+      "start_sample": 43216,
+      "end_sample": 51784,
+      "start_ms": 2701,
+      "end_ms": 3236
+    },
+    {
+      "lang": "en",
+      "text": "response to the shareholders' questions.",
+      "start_sample": 51784,
+      "end_sample": 89392,
+      "start_ms": 3236,
+      "end_ms": 5587
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The CEO gave a very teinei response to the shareholders' questions.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5587,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The CEO gave a very",
+          "start_sample": 0,
+          "end_sample": 43416,
+          "start_ms": 0,
+          "end_ms": 2714
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 43416,
+          "end_sample": 51587,
+          "start_ms": 2714,
+          "end_ms": 3224
+        },
+        {
+          "lang": "en",
+          "text": "response to the shareholders' questions.",
+          "start_sample": 51587,
+          "end_sample": 89395,
+          "start_ms": 3224,
+          "end_ms": 5587
+        }
+      ]
+    },
+    "ja": {
+      "text": "The CEO gave a very 丁寧 response to the shareholders' questions.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7928,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The CEO gave a very",
+          "start_sample": 0,
+          "end_sample": 50928,
+          "start_ms": 0,
+          "end_ms": 3183
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 50928,
+          "end_sample": 59896,
+          "start_ms": 3183,
+          "end_ms": 3744
+        },
+        {
+          "lang": "en",
+          "text": "response to the shareholders' questions.",
+          "start_sample": 59896,
+          "end_sample": 126840,
+          "start_ms": 3744,
+          "end_ms": 7928
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 280,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

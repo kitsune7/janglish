@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1123.flac",
+  "sentence": "Her 心拍数 spiked during the stress test, which worried the cardiologist.",
+  "sample_rate": 16000,
+  "duration_ms": 4506,
+  "reference_speaker": "en/speaker_049_4b799abf92c3.mp3",
+  "seed": 1165,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Her",
+      "start_sample": 0,
+      "end_sample": 1887,
+      "start_ms": 0,
+      "end_ms": 118
+    },
+    {
+      "lang": "ja",
+      "text": "心拍数",
+      "start_sample": 1887,
+      "end_sample": 19943,
+      "start_ms": 118,
+      "end_ms": 1246
+    },
+    {
+      "lang": "en",
+      "text": "spiked during the stress test, which worried the cardiologist.",
+      "start_sample": 19943,
+      "end_sample": 72096,
+      "start_ms": 1246,
+      "end_ms": 4506
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Her shinpaku kazu spiked during the stress test, which worried the cardiologist.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4456,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 2087,
+          "start_ms": 0,
+          "end_ms": 130
+        },
+        {
+          "lang": "ja",
+          "text": "心拍数",
+          "start_sample": 2087,
+          "end_sample": 18951,
+          "start_ms": 130,
+          "end_ms": 1184
+        },
+        {
+          "lang": "en",
+          "text": "spiked during the stress test, which worried the cardiologist.",
+          "start_sample": 18951,
+          "end_sample": 71304,
+          "start_ms": 1184,
+          "end_ms": 4456
+        }
+      ]
+    },
+    "ja": {
+      "text": "Her 心拍数 spiked during the stress test, which worried the cardiologist.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7322,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 5295,
+          "start_ms": 0,
+          "end_ms": 331
+        },
+        {
+          "lang": "ja",
+          "text": "心拍数",
+          "start_sample": 5295,
+          "end_sample": 23751,
+          "start_ms": 331,
+          "end_ms": 1484
+        },
+        {
+          "lang": "en",
+          "text": "spiked during the stress test, which worried the cardiologist.",
+          "start_sample": 23751,
+          "end_sample": 117148,
+          "start_ms": 1484,
+          "end_ms": 7322
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 226,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

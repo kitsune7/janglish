@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4798.flac",
+  "sentence": "このsunscreenは肌に優しいと聞きました。",
+  "sample_rate": 16000,
+  "duration_ms": 3187,
+  "reference_speaker": "jp/speaker_037_97f38629e8a3.mp3",
+  "seed": 4840,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 4131,
+      "start_ms": 0,
+      "end_ms": 258
+    },
+    {
+      "lang": "en",
+      "text": "sunscreen",
+      "start_sample": 4131,
+      "end_sample": 21836,
+      "start_ms": 258,
+      "end_ms": 1365
+    },
+    {
+      "lang": "ja",
+      "text": "は肌に優しいと聞きました。",
+      "start_sample": 21836,
+      "end_sample": 50992,
+      "start_ms": 1365,
+      "end_ms": 3187
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono sunscreen ha hada ni yasashii to kiki mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5788,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5927,
+          "start_ms": 0,
+          "end_ms": 370
+        },
+        {
+          "lang": "en",
+          "text": "sunscreen",
+          "start_sample": 5927,
+          "end_sample": 24032,
+          "start_ms": 370,
+          "end_ms": 1502
+        },
+        {
+          "lang": "ja",
+          "text": "は肌に優しいと聞きました。",
+          "start_sample": 24032,
+          "end_sample": 92604,
+          "start_ms": 1502,
+          "end_ms": 5788
+        }
+      ]
+    },
+    "ja": {
+      "text": "このsunscreenは肌に優しいと聞きました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2827,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4331,
+          "start_ms": 0,
+          "end_ms": 271
+        },
+        {
+          "lang": "en",
+          "text": "sunscreen",
+          "start_sample": 4331,
+          "end_sample": 15881,
+          "start_ms": 271,
+          "end_ms": 993
+        },
+        {
+          "lang": "ja",
+          "text": "は肌に優しいと聞きました。",
+          "start_sample": 15881,
+          "end_sample": 45237,
+          "start_ms": 993,
+          "end_ms": 2827
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "jjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

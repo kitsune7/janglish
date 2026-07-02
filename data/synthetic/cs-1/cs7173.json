@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7173.flac",
+  "sentence": "そのsedanは燃費が良くて長距離ドライブに向いている。",
+  "sample_rate": 16000,
+  "duration_ms": 3697,
+  "reference_speaker": "jp/speaker_084_122c648d361d.mp3",
+  "seed": 7215,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その",
+      "start_sample": 0,
+      "end_sample": 3165,
+      "start_ms": 0,
+      "end_ms": 198
+    },
+    {
+      "lang": "en",
+      "text": "sedan",
+      "start_sample": 3165,
+      "end_sample": 18496,
+      "start_ms": 198,
+      "end_ms": 1156
+    },
+    {
+      "lang": "ja",
+      "text": "は燃費が良くて長距離ドライブに向いている。",
+      "start_sample": 18496,
+      "end_sample": 59158,
+      "start_ms": 1156,
+      "end_ms": 3697
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono sedan ha nenpi ga yoku te chou kyori doraibu ni mui te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7263,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 5457,
+          "start_ms": 0,
+          "end_ms": 341
+        },
+        {
+          "lang": "en",
+          "text": "sedan",
+          "start_sample": 5457,
+          "end_sample": 21188,
+          "start_ms": 341,
+          "end_ms": 1324
+        },
+        {
+          "lang": "ja",
+          "text": "は燃費が良くて長距離ドライブに向いている。",
+          "start_sample": 21188,
+          "end_sample": 116212,
+          "start_ms": 1324,
+          "end_ms": 7263
+        }
+      ]
+    },
+    "ja": {
+      "text": "そのsedanは燃費が良くて長距離ドライブに向いている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3085,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 3365,
+          "start_ms": 0,
+          "end_ms": 210
+        },
+        {
+          "lang": "en",
+          "text": "sedan",
+          "start_sample": 3365,
+          "end_sample": 8493,
+          "start_ms": 210,
+          "end_ms": 531
+        },
+        {
+          "lang": "ja",
+          "text": "は燃費が良くて長距離ドライブに向いている。",
+          "start_sample": 8493,
+          "end_sample": 49355,
+          "start_ms": 531,
+          "end_ms": 3085
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 185,
+  "frame_labels": "jjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

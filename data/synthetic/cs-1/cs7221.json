@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7221.flac",
+  "sentence": "The 幹 of that cedar tree is wider than my arm span.",
+  "sample_rate": 16000,
+  "duration_ms": 2929,
+  "reference_speaker": "en/speaker_073_3c0d9d6a3b88.mp3",
+  "seed": 7263,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1243,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "幹",
+      "start_sample": 1243,
+      "end_sample": 3579,
+      "start_ms": 78,
+      "end_ms": 224
+    },
+    {
+      "lang": "en",
+      "text": "of that cedar tree is wider than my arm span.",
+      "start_sample": 3579,
+      "end_sample": 46866,
+      "start_ms": 224,
+      "end_ms": 2929
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kan of that cedar tree is wider than my arm span.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3029,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1443,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "幹",
+          "start_sample": 1443,
+          "end_sample": 4974,
+          "start_ms": 90,
+          "end_ms": 311
+        },
+        {
+          "lang": "en",
+          "text": "of that cedar tree is wider than my arm span.",
+          "start_sample": 4974,
+          "end_sample": 48461,
+          "start_ms": 311,
+          "end_ms": 3029
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 幹 of that cedar tree is wider than my arm span.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3278,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4826,
+          "start_ms": 0,
+          "end_ms": 302
+        },
+        {
+          "lang": "ja",
+          "text": "幹",
+          "start_sample": 4826,
+          "end_sample": 7562,
+          "start_ms": 302,
+          "end_ms": 473
+        },
+        {
+          "lang": "en",
+          "text": "of that cedar tree is wider than my arm span.",
+          "start_sample": 7562,
+          "end_sample": 52448,
+          "start_ms": 473,
+          "end_ms": 3278
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 147,
+  "frame_labels": "eeeejjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

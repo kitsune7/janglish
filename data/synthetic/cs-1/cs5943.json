@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5943.flac",
+  "sentence": "Running barefoot on the 砂 at the beach is a great workout.",
+  "sample_rate": 16000,
+  "duration_ms": 3806,
+  "reference_speaker": "en/speaker_021_0c003e301f78.mp3",
+  "seed": 5985,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Running barefoot on the",
+      "start_sample": 0,
+      "end_sample": 16460,
+      "start_ms": 0,
+      "end_ms": 1029
+    },
+    {
+      "lang": "ja",
+      "text": "砂",
+      "start_sample": 16460,
+      "end_sample": 24571,
+      "start_ms": 1029,
+      "end_ms": 1536
+    },
+    {
+      "lang": "en",
+      "text": "at the beach is a great workout.",
+      "start_sample": 24571,
+      "end_sample": 60895,
+      "start_ms": 1536,
+      "end_ms": 3806
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Running barefoot on the suna at the beach is a great workout.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3825,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Running barefoot on the",
+          "start_sample": 0,
+          "end_sample": 16660,
+          "start_ms": 0,
+          "end_ms": 1041
+        },
+        {
+          "lang": "ja",
+          "text": "砂",
+          "start_sample": 16660,
+          "end_sample": 24670,
+          "start_ms": 1041,
+          "end_ms": 1542
+        },
+        {
+          "lang": "en",
+          "text": "at the beach is a great workout.",
+          "start_sample": 24670,
+          "end_sample": 61194,
+          "start_ms": 1542,
+          "end_ms": 3825
+        }
+      ]
+    },
+    "ja": {
+      "text": "Running barefoot on the 砂 at the beach is a great workout.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5942,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Running barefoot on the",
+          "start_sample": 0,
+          "end_sample": 43039,
+          "start_ms": 0,
+          "end_ms": 2690
+        },
+        {
+          "lang": "ja",
+          "text": "砂",
+          "start_sample": 43039,
+          "end_sample": 51550,
+          "start_ms": 2690,
+          "end_ms": 3222
+        },
+        {
+          "lang": "en",
+          "text": "at the beach is a great workout.",
+          "start_sample": 51550,
+          "end_sample": 95068,
+          "start_ms": 3222,
+          "end_ms": 5942
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 191,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

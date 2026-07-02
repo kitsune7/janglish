@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs143.flac",
+  "sentence": "He stood at the 端 of the counter and drank in 沈黙.",
+  "sample_rate": 16000,
+  "duration_ms": 3815,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 16998,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He stood at the",
+      "start_sample": 0,
+      "end_sample": 11193,
+      "start_ms": 0,
+      "end_ms": 700
+    },
+    {
+      "lang": "ja",
+      "text": "端",
+      "start_sample": 11193,
+      "end_sample": 19769,
+      "start_ms": 700,
+      "end_ms": 1236
+    },
+    {
+      "lang": "en",
+      "text": "of the counter and drank in",
+      "start_sample": 19769,
+      "end_sample": 52427,
+      "start_ms": 1236,
+      "end_ms": 3277
+    },
+    {
+      "lang": "ja",
+      "text": "沈黙.",
+      "start_sample": 52427,
+      "end_sample": 61042,
+      "start_ms": 3277,
+      "end_ms": 3815
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He stood at the haji of the counter and drank in chinmoku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3831,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He stood at the",
+          "start_sample": 0,
+          "end_sample": 11393,
+          "start_ms": 0,
+          "end_ms": 712
+        },
+        {
+          "lang": "ja",
+          "text": "端",
+          "start_sample": 11393,
+          "end_sample": 18615,
+          "start_ms": 712,
+          "end_ms": 1163
+        },
+        {
+          "lang": "en",
+          "text": "of the counter and drank in",
+          "start_sample": 18615,
+          "end_sample": 51673,
+          "start_ms": 1163,
+          "end_ms": 3230
+        },
+        {
+          "lang": "ja",
+          "text": "沈黙.",
+          "start_sample": 51673,
+          "end_sample": 61299,
+          "start_ms": 3230,
+          "end_ms": 3831
+        }
+      ]
+    },
+    "ja": {
+      "text": "He stood at the 端 of the counter and drank in 沈黙.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4308,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He stood at the",
+          "start_sample": 0,
+          "end_sample": 19394,
+          "start_ms": 0,
+          "end_ms": 1212
+        },
+        {
+          "lang": "ja",
+          "text": "端",
+          "start_sample": 19394,
+          "end_sample": 28370,
+          "start_ms": 1212,
+          "end_ms": 1773
+        },
+        {
+          "lang": "en",
+          "text": "of the counter and drank in",
+          "start_sample": 28370,
+          "end_sample": 60107,
+          "start_ms": 1773,
+          "end_ms": 3757
+        },
+        {
+          "lang": "ja",
+          "text": "沈黙.",
+          "start_sample": 60107,
+          "end_sample": 68922,
+          "start_ms": 3757,
+          "end_ms": 4308
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 191,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5180.flac",
+  "sentence": "その瞬間、私はとてもvulnerableだと感じた。",
+  "sample_rate": 16000,
+  "duration_ms": 3420,
+  "reference_speaker": "jp/speaker_037_97f38629e8a3.mp3",
+  "seed": 5222,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その瞬間、私はとても",
+      "start_sample": 0,
+      "end_sample": 30779,
+      "start_ms": 0,
+      "end_ms": 1924
+    },
+    {
+      "lang": "en",
+      "text": "vulnerable",
+      "start_sample": 30779,
+      "end_sample": 41594,
+      "start_ms": 1924,
+      "end_ms": 2600
+    },
+    {
+      "lang": "ja",
+      "text": "だと感じた。",
+      "start_sample": 41594,
+      "end_sample": 54714,
+      "start_ms": 2600,
+      "end_ms": 3420
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono shunkan watashi ha totemo vulnerable da to kanji ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5668,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その瞬間、私はとても",
+          "start_sample": 0,
+          "end_sample": 62164,
+          "start_ms": 0,
+          "end_ms": 3885
+        },
+        {
+          "lang": "en",
+          "text": "vulnerable",
+          "start_sample": 62164,
+          "end_sample": 73379,
+          "start_ms": 3885,
+          "end_ms": 4586
+        },
+        {
+          "lang": "ja",
+          "text": "だと感じた。",
+          "start_sample": 73379,
+          "end_sample": 90681,
+          "start_ms": 4586,
+          "end_ms": 5668
+        }
+      ]
+    },
+    "ja": {
+      "text": "その瞬間、私はとてもvulnerableだと感じた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3571,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その瞬間、私はとても",
+          "start_sample": 0,
+          "end_sample": 30979,
+          "start_ms": 0,
+          "end_ms": 1936
+        },
+        {
+          "lang": "en",
+          "text": "vulnerable",
+          "start_sample": 30979,
+          "end_sample": 43821,
+          "start_ms": 1936,
+          "end_ms": 2739
+        },
+        {
+          "lang": "ja",
+          "text": "だと感じた。",
+          "start_sample": 43821,
+          "end_sample": 57141,
+          "start_ms": 2739,
+          "end_ms": 3571
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 171,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

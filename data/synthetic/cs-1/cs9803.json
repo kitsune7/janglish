@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9803.flac",
+  "sentence": "彼女はremoteで働いているので、毎日ビデオ通話をしています。",
+  "sample_rate": 16000,
+  "duration_ms": 5265,
+  "reference_speaker": "jp/speaker_058_a8a05baeecbd.mp3",
+  "seed": 9845,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は",
+      "start_sample": 0,
+      "end_sample": 13733,
+      "start_ms": 0,
+      "end_ms": 858
+    },
+    {
+      "lang": "en",
+      "text": "remote",
+      "start_sample": 13733,
+      "end_sample": 19737,
+      "start_ms": 858,
+      "end_ms": 1234
+    },
+    {
+      "lang": "ja",
+      "text": "で働いているので、毎日ビデオ通話をしています。",
+      "start_sample": 19737,
+      "end_sample": 84240,
+      "start_ms": 1234,
+      "end_ms": 5265
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha remote de hatarai te iru no de mainichi bideo tsuuwa wo shi te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9786,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 27858,
+          "start_ms": 0,
+          "end_ms": 1741
+        },
+        {
+          "lang": "en",
+          "text": "remote",
+          "start_sample": 27858,
+          "end_sample": 34262,
+          "start_ms": 1741,
+          "end_ms": 2141
+        },
+        {
+          "lang": "ja",
+          "text": "で働いているので、毎日ビデオ通話をしています。",
+          "start_sample": 34262,
+          "end_sample": 156583,
+          "start_ms": 2141,
+          "end_ms": 9786
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はremoteで働いているので、毎日ビデオ通話をしています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5706,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 13933,
+          "start_ms": 0,
+          "end_ms": 871
+        },
+        {
+          "lang": "en",
+          "text": "remote",
+          "start_sample": 13933,
+          "end_sample": 26585,
+          "start_ms": 871,
+          "end_ms": 1662
+        },
+        {
+          "lang": "ja",
+          "text": "で働いているので、毎日ビデオ通話をしています。",
+          "start_sample": 26585,
+          "end_sample": 91288,
+          "start_ms": 1662,
+          "end_ms": 5706
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 264,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

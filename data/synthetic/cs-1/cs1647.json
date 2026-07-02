@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1647.flac",
+  "sentence": "He talked about his late cat with such 愛情 that I almost cried.",
+  "sample_rate": 16000,
+  "duration_ms": 4149,
+  "reference_speaker": "jp/speaker_082_d12288b68351.mp3",
+  "seed": 1689,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He talked about his late cat with such",
+      "start_sample": 0,
+      "end_sample": 29625,
+      "start_ms": 0,
+      "end_ms": 1852
+    },
+    {
+      "lang": "ja",
+      "text": "愛情",
+      "start_sample": 29625,
+      "end_sample": 48147,
+      "start_ms": 1852,
+      "end_ms": 3009
+    },
+    {
+      "lang": "en",
+      "text": "that I almost cried.",
+      "start_sample": 48147,
+      "end_sample": 66385,
+      "start_ms": 3009,
+      "end_ms": 4149
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He talked about his late cat with such aijou that I almost cried.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3447,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He talked about his late cat with such",
+          "start_sample": 0,
+          "end_sample": 29825,
+          "start_ms": 0,
+          "end_ms": 1864
+        },
+        {
+          "lang": "ja",
+          "text": "愛情",
+          "start_sample": 29825,
+          "end_sample": 36721,
+          "start_ms": 1864,
+          "end_ms": 2295
+        },
+        {
+          "lang": "en",
+          "text": "that I almost cried.",
+          "start_sample": 36721,
+          "end_sample": 55159,
+          "start_ms": 2295,
+          "end_ms": 3447
+        }
+      ]
+    },
+    "ja": {
+      "text": "He talked about his late cat with such 愛情 that I almost cried.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8479,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He talked about his late cat with such",
+          "start_sample": 0,
+          "end_sample": 73604,
+          "start_ms": 0,
+          "end_ms": 4600
+        },
+        {
+          "lang": "ja",
+          "text": "愛情",
+          "start_sample": 73604,
+          "end_sample": 92526,
+          "start_ms": 4600,
+          "end_ms": 5783
+        },
+        {
+          "lang": "en",
+          "text": "that I almost cried.",
+          "start_sample": 92526,
+          "end_sample": 135660,
+          "start_ms": 5783,
+          "end_ms": 8479
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

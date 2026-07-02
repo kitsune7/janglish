@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2706.flac",
+  "sentence": "The plating on every dish was incredibly 丁寧 and almost too pretty to eat.",
+  "sample_rate": 16000,
+  "duration_ms": 6014,
+  "reference_speaker": "en/speaker_098_f600c480bfab.mp3",
+  "seed": 2748,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The plating on every dish was incredibly",
+      "start_sample": 0,
+      "end_sample": 34124,
+      "start_ms": 0,
+      "end_ms": 2133
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧",
+      "start_sample": 34124,
+      "end_sample": 42373,
+      "start_ms": 2133,
+      "end_ms": 2648
+    },
+    {
+      "lang": "en",
+      "text": "and almost too pretty to eat.",
+      "start_sample": 42373,
+      "end_sample": 96224,
+      "start_ms": 2648,
+      "end_ms": 6014
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The plating on every dish was incredibly teinei and almost too pretty to eat.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6356,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The plating on every dish was incredibly",
+          "start_sample": 0,
+          "end_sample": 34324,
+          "start_ms": 0,
+          "end_ms": 2145
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 34324,
+          "end_sample": 47637,
+          "start_ms": 2145,
+          "end_ms": 2977
+        },
+        {
+          "lang": "en",
+          "text": "and almost too pretty to eat.",
+          "start_sample": 47637,
+          "end_sample": 101688,
+          "start_ms": 2977,
+          "end_ms": 6356
+        }
+      ]
+    },
+    "ja": {
+      "text": "The plating on every dish was incredibly 丁寧 and almost too pretty to eat.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7828,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The plating on every dish was incredibly",
+          "start_sample": 0,
+          "end_sample": 62942,
+          "start_ms": 0,
+          "end_ms": 3934
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 62942,
+          "end_sample": 71591,
+          "start_ms": 3934,
+          "end_ms": 4474
+        },
+        {
+          "lang": "en",
+          "text": "and almost too pretty to eat.",
+          "start_sample": 71591,
+          "end_sample": 125244,
+          "start_ms": 4474,
+          "end_ms": 7828
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 301,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

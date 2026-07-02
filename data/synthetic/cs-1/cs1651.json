@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1651.flac",
+  "sentence": "I never expected a 金魚 to live for over ten years.",
+  "sample_rate": 16000,
+  "duration_ms": 3387,
+  "reference_speaker": "en/speaker_050_6b3579133fec.mp3",
+  "seed": 1693,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I never expected a",
+      "start_sample": 0,
+      "end_sample": 15996,
+      "start_ms": 0,
+      "end_ms": 1000
+    },
+    {
+      "lang": "ja",
+      "text": "金魚",
+      "start_sample": 15996,
+      "end_sample": 22965,
+      "start_ms": 1000,
+      "end_ms": 1435
+    },
+    {
+      "lang": "en",
+      "text": "to live for over ten years.",
+      "start_sample": 22965,
+      "end_sample": 54196,
+      "start_ms": 1435,
+      "end_ms": 3387
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I never expected a kingyo to live for over ten years.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3789,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I never expected a",
+          "start_sample": 0,
+          "end_sample": 16196,
+          "start_ms": 0,
+          "end_ms": 1012
+        },
+        {
+          "lang": "ja",
+          "text": "金魚",
+          "start_sample": 16196,
+          "end_sample": 29186,
+          "start_ms": 1012,
+          "end_ms": 1824
+        },
+        {
+          "lang": "en",
+          "text": "to live for over ten years.",
+          "start_sample": 29186,
+          "end_sample": 60617,
+          "start_ms": 1824,
+          "end_ms": 3789
+        }
+      ]
+    },
+    "ja": {
+      "text": "I never expected a 金魚 to live for over ten years.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4686,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I never expected a",
+          "start_sample": 0,
+          "end_sample": 25470,
+          "start_ms": 0,
+          "end_ms": 1592
+        },
+        {
+          "lang": "ja",
+          "text": "金魚",
+          "start_sample": 25470,
+          "end_sample": 32839,
+          "start_ms": 1592,
+          "end_ms": 2052
+        },
+        {
+          "lang": "en",
+          "text": "to live for over ten years.",
+          "start_sample": 32839,
+          "end_sample": 74970,
+          "start_ms": 2052,
+          "end_ms": 4686
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 170,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

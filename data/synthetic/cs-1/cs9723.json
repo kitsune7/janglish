@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9723.flac",
+  "sentence": "この魚はaggressiveで、水槽の中でほかの魚をいじめています。",
+  "sample_rate": 16000,
+  "duration_ms": 5022,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 9765,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この魚は",
+      "start_sample": 0,
+      "end_sample": 10255,
+      "start_ms": 0,
+      "end_ms": 641
+    },
+    {
+      "lang": "en",
+      "text": "aggressive",
+      "start_sample": 10255,
+      "end_sample": 28766,
+      "start_ms": 641,
+      "end_ms": 1798
+    },
+    {
+      "lang": "ja",
+      "text": "で、水槽の中でほかの魚をいじめています。",
+      "start_sample": 28766,
+      "end_sample": 80355,
+      "start_ms": 1798,
+      "end_ms": 5022
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono sakana ha aggressive de suisou no naka de hoka no sakana wo ijime te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9435,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この魚は",
+          "start_sample": 0,
+          "end_sample": 33975,
+          "start_ms": 0,
+          "end_ms": 2123
+        },
+        {
+          "lang": "en",
+          "text": "aggressive",
+          "start_sample": 33975,
+          "end_sample": 52886,
+          "start_ms": 2123,
+          "end_ms": 3305
+        },
+        {
+          "lang": "ja",
+          "text": "で、水槽の中でほかの魚をいじめています。",
+          "start_sample": 52886,
+          "end_sample": 150967,
+          "start_ms": 3305,
+          "end_ms": 9435
+        }
+      ]
+    },
+    "ja": {
+      "text": "この魚はaggressiveで、水槽の中でほかの魚をいじめています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4503,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この魚は",
+          "start_sample": 0,
+          "end_sample": 10455,
+          "start_ms": 0,
+          "end_ms": 653
+        },
+        {
+          "lang": "en",
+          "text": "aggressive",
+          "start_sample": 10455,
+          "end_sample": 20266,
+          "start_ms": 653,
+          "end_ms": 1267
+        },
+        {
+          "lang": "ja",
+          "text": "で、水槽の中でほかの魚をいじめています。",
+          "start_sample": 20266,
+          "end_sample": 72055,
+          "start_ms": 1267,
+          "end_ms": 4503
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 252,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

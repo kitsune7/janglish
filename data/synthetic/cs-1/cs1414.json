@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1414.flac",
+  "sentence": "彼女のdressはパーティーにぴったりでした。",
+  "sample_rate": 16000,
+  "duration_ms": 2651,
+  "reference_speaker": "jp/speaker_049_435108c1173c.mp3",
+  "seed": 1456,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女の",
+      "start_sample": 0,
+      "end_sample": 7062,
+      "start_ms": 0,
+      "end_ms": 441
+    },
+    {
+      "lang": "en",
+      "text": "dress",
+      "start_sample": 7062,
+      "end_sample": 14225,
+      "start_ms": 441,
+      "end_ms": 889
+    },
+    {
+      "lang": "ja",
+      "text": "はパーティーにぴったりでした。",
+      "start_sample": 14225,
+      "end_sample": 42422,
+      "start_ms": 889,
+      "end_ms": 2651
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo no dress ha paateii ni pittari deshi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3962,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の",
+          "start_sample": 0,
+          "end_sample": 9815,
+          "start_ms": 0,
+          "end_ms": 613
+        },
+        {
+          "lang": "en",
+          "text": "dress",
+          "start_sample": 9815,
+          "end_sample": 17378,
+          "start_ms": 613,
+          "end_ms": 1086
+        },
+        {
+          "lang": "ja",
+          "text": "はパーティーにぴったりでした。",
+          "start_sample": 17378,
+          "end_sample": 63394,
+          "start_ms": 1086,
+          "end_ms": 3962
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女のdressはパーティーにぴったりでした。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2602,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の",
+          "start_sample": 0,
+          "end_sample": 7262,
+          "start_ms": 0,
+          "end_ms": 454
+        },
+        {
+          "lang": "en",
+          "text": "dress",
+          "start_sample": 7262,
+          "end_sample": 13233,
+          "start_ms": 454,
+          "end_ms": 827
+        },
+        {
+          "lang": "ja",
+          "text": "はパーティーにぴったりでした。",
+          "start_sample": 13233,
+          "end_sample": 41630,
+          "start_ms": 827,
+          "end_ms": 2602
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 133,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1343.flac",
+  "sentence": "Without any 説明 on the wall, the piece feels open and 自由.",
+  "sample_rate": 16000,
+  "duration_ms": 3886,
+  "reference_speaker": "jp/speaker_053_8435a3c28f36.mp3",
+  "seed": 18198,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Without any",
+      "start_sample": 0,
+      "end_sample": 10542,
+      "start_ms": 0,
+      "end_ms": 659
+    },
+    {
+      "lang": "ja",
+      "text": "説明",
+      "start_sample": 10542,
+      "end_sample": 19306,
+      "start_ms": 659,
+      "end_ms": 1207
+    },
+    {
+      "lang": "en",
+      "text": "on the wall, the piece feels open and",
+      "start_sample": 19306,
+      "end_sample": 56107,
+      "start_ms": 1207,
+      "end_ms": 3507
+    },
+    {
+      "lang": "ja",
+      "text": "自由.",
+      "start_sample": 56107,
+      "end_sample": 62173,
+      "start_ms": 3507,
+      "end_ms": 3886
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Without any setsumei on the wall, the piece feels open and jiyuu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4049,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Without any",
+          "start_sample": 0,
+          "end_sample": 10742,
+          "start_ms": 0,
+          "end_ms": 671
+        },
+        {
+          "lang": "ja",
+          "text": "説明",
+          "start_sample": 10742,
+          "end_sample": 21806,
+          "start_ms": 671,
+          "end_ms": 1363
+        },
+        {
+          "lang": "en",
+          "text": "on the wall, the piece feels open and",
+          "start_sample": 21806,
+          "end_sample": 59007,
+          "start_ms": 1363,
+          "end_ms": 3688
+        },
+        {
+          "lang": "ja",
+          "text": "自由.",
+          "start_sample": 59007,
+          "end_sample": 64777,
+          "start_ms": 3688,
+          "end_ms": 4049
+        }
+      ]
+    },
+    "ja": {
+      "text": "Without any 説明 on the wall, the piece feels open and 自由.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4340,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Without any",
+          "start_sample": 0,
+          "end_sample": 12699,
+          "start_ms": 0,
+          "end_ms": 794
+        },
+        {
+          "lang": "ja",
+          "text": "説明",
+          "start_sample": 12699,
+          "end_sample": 21863,
+          "start_ms": 794,
+          "end_ms": 1366
+        },
+        {
+          "lang": "en",
+          "text": "on the wall, the piece feels open and",
+          "start_sample": 21863,
+          "end_sample": 63178,
+          "start_ms": 1366,
+          "end_ms": 3949
+        },
+        {
+          "lang": "ja",
+          "text": "自由.",
+          "start_sample": 63178,
+          "end_sample": 69444,
+          "start_ms": 3949,
+          "end_ms": 4340
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 195,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjj"
+}

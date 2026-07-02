@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2857.flac",
+  "sentence": "The 朝ごはん set here comes with fruit, toast, and a soft-boiled egg.",
+  "sample_rate": 16000,
+  "duration_ms": 6763,
+  "reference_speaker": "jp/speaker_066_d870c5c7ad93.mp3",
+  "seed": 2899,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1565,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "朝ごはん",
+      "start_sample": 1565,
+      "end_sample": 14005,
+      "start_ms": 98,
+      "end_ms": 875
+    },
+    {
+      "lang": "en",
+      "text": "set here comes with fruit, toast, and a soft-boiled egg.",
+      "start_sample": 14005,
+      "end_sample": 108201,
+      "start_ms": 875,
+      "end_ms": 6763
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The asagohan set here comes with fruit, toast, and a soft-boiled egg.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7024,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1765,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "朝ごはん",
+          "start_sample": 1765,
+          "end_sample": 17980,
+          "start_ms": 110,
+          "end_ms": 1124
+        },
+        {
+          "lang": "en",
+          "text": "set here comes with fruit, toast, and a soft-boiled egg.",
+          "start_sample": 17980,
+          "end_sample": 112376,
+          "start_ms": 1124,
+          "end_ms": 7024
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 朝ごはん set here comes with fruit, toast, and a soft-boiled egg.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7102,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4812,
+          "start_ms": 0,
+          "end_ms": 301
+        },
+        {
+          "lang": "ja",
+          "text": "朝ごはん",
+          "start_sample": 4812,
+          "end_sample": 17652,
+          "start_ms": 301,
+          "end_ms": 1103
+        },
+        {
+          "lang": "en",
+          "text": "set here comes with fruit, toast, and a soft-boiled egg.",
+          "start_sample": 17652,
+          "end_sample": 113629,
+          "start_ms": 1103,
+          "end_ms": 7102
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 339,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2623.flac",
+  "sentence": "He smelled like rain and 電車 — that particular mix of metal and damp coats.",
+  "sample_rate": 16000,
+  "duration_ms": 3866,
+  "reference_speaker": "jp/speaker_035_dd783030d2b8.mp3",
+  "seed": 2665,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He smelled like rain and",
+      "start_sample": 0,
+      "end_sample": 15979,
+      "start_ms": 0,
+      "end_ms": 999
+    },
+    {
+      "lang": "ja",
+      "text": "電車 —",
+      "start_sample": 15979,
+      "end_sample": 21683,
+      "start_ms": 999,
+      "end_ms": 1355
+    },
+    {
+      "lang": "en",
+      "text": "that particular mix of metal and damp coats.",
+      "start_sample": 21683,
+      "end_sample": 61851,
+      "start_ms": 1355,
+      "end_ms": 3866
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He smelled like rain and densha that particular mix of metal and damp coats.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4285,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He smelled like rain and",
+          "start_sample": 0,
+          "end_sample": 16179,
+          "start_ms": 0,
+          "end_ms": 1011
+        },
+        {
+          "lang": "ja",
+          "text": "電車 —",
+          "start_sample": 16179,
+          "end_sample": 28193,
+          "start_ms": 1011,
+          "end_ms": 1762
+        },
+        {
+          "lang": "en",
+          "text": "that particular mix of metal and damp coats.",
+          "start_sample": 28193,
+          "end_sample": 68561,
+          "start_ms": 1762,
+          "end_ms": 4285
+        }
+      ]
+    },
+    "ja": {
+      "text": "He smelled like rain and 電車 — that particular mix of metal and damp coats.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4679,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He smelled like rain and",
+          "start_sample": 0,
+          "end_sample": 22651,
+          "start_ms": 0,
+          "end_ms": 1416
+        },
+        {
+          "lang": "ja",
+          "text": "電車 —",
+          "start_sample": 22651,
+          "end_sample": 28755,
+          "start_ms": 1416,
+          "end_ms": 1797
+        },
+        {
+          "lang": "en",
+          "text": "that particular mix of metal and damp coats.",
+          "start_sample": 28755,
+          "end_sample": 74857,
+          "start_ms": 1797,
+          "end_ms": 4679
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 194,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

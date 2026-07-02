@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1327.flac",
+  "sentence": "部屋全体のcolor schemeを白とグレーで統一したい。",
+  "sample_rate": 16000,
+  "duration_ms": 3489,
+  "reference_speaker": "jp/speaker_087_849529715d29.mp3",
+  "seed": 1369,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "部屋全体の",
+      "start_sample": 0,
+      "end_sample": 12307,
+      "start_ms": 0,
+      "end_ms": 769
+    },
+    {
+      "lang": "en",
+      "text": "color scheme",
+      "start_sample": 12307,
+      "end_sample": 30206,
+      "start_ms": 769,
+      "end_ms": 1888
+    },
+    {
+      "lang": "ja",
+      "text": "を白とグレーで統一したい。",
+      "start_sample": 30206,
+      "end_sample": 55824,
+      "start_ms": 1888,
+      "end_ms": 3489
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "heya zentai no color scheme wo shiro to guree de touitsu shi tai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6260,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "部屋全体の",
+          "start_sample": 0,
+          "end_sample": 30498,
+          "start_ms": 0,
+          "end_ms": 1906
+        },
+        {
+          "lang": "en",
+          "text": "color scheme",
+          "start_sample": 30498,
+          "end_sample": 48797,
+          "start_ms": 1906,
+          "end_ms": 3050
+        },
+        {
+          "lang": "ja",
+          "text": "を白とグレーで統一したい。",
+          "start_sample": 48797,
+          "end_sample": 100160,
+          "start_ms": 3050,
+          "end_ms": 6260
+        }
+      ]
+    },
+    "ja": {
+      "text": "部屋全体のcolor schemeを白とグレーで統一したい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3107,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "部屋全体の",
+          "start_sample": 0,
+          "end_sample": 12507,
+          "start_ms": 0,
+          "end_ms": 782
+        },
+        {
+          "lang": "en",
+          "text": "color scheme",
+          "start_sample": 12507,
+          "end_sample": 23894,
+          "start_ms": 782,
+          "end_ms": 1493
+        },
+        {
+          "lang": "ja",
+          "text": "を白とグレーで統一したい。",
+          "start_sample": 23894,
+          "end_sample": 49712,
+          "start_ms": 1493,
+          "end_ms": 3107
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

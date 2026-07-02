@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6976.flac",
+  "sentence": "幼稚園でのbullyingについて息子から話を聞いた。",
+  "sample_rate": 16000,
+  "duration_ms": 3968,
+  "reference_speaker": "jp/speaker_013_e472ee9e6d56.mp3",
+  "seed": 7018,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "幼稚園での",
+      "start_sample": 0,
+      "end_sample": 12302,
+      "start_ms": 0,
+      "end_ms": 769
+    },
+    {
+      "lang": "en",
+      "text": "bullying",
+      "start_sample": 12302,
+      "end_sample": 27464,
+      "start_ms": 769,
+      "end_ms": 1716
+    },
+    {
+      "lang": "ja",
+      "text": "について息子から話を聞いた。",
+      "start_sample": 27464,
+      "end_sample": 63488,
+      "start_ms": 1716,
+      "end_ms": 3968
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "youchi sono de no bullying ni tsui te musuko kara hanashi wo kii ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8603,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "幼稚園での",
+          "start_sample": 0,
+          "end_sample": 37220,
+          "start_ms": 0,
+          "end_ms": 2326
+        },
+        {
+          "lang": "en",
+          "text": "bullying",
+          "start_sample": 37220,
+          "end_sample": 52782,
+          "start_ms": 2326,
+          "end_ms": 3299
+        },
+        {
+          "lang": "ja",
+          "text": "について息子から話を聞いた。",
+          "start_sample": 52782,
+          "end_sample": 137650,
+          "start_ms": 3299,
+          "end_ms": 8603
+        }
+      ]
+    },
+    "ja": {
+      "text": "幼稚園でのbullyingについて息子から話を聞いた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3546,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "幼稚園での",
+          "start_sample": 0,
+          "end_sample": 12502,
+          "start_ms": 0,
+          "end_ms": 781
+        },
+        {
+          "lang": "en",
+          "text": "bullying",
+          "start_sample": 12502,
+          "end_sample": 20516,
+          "start_ms": 781,
+          "end_ms": 1282
+        },
+        {
+          "lang": "ja",
+          "text": "について息子から話を聞いた。",
+          "start_sample": 20516,
+          "end_sample": 56740,
+          "start_ms": 1282,
+          "end_ms": 3546
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 199,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

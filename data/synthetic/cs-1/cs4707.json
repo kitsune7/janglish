@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4707.flac",
+  "sentence": "This 下り service runs express all the way to the coast.",
+  "sample_rate": 16000,
+  "duration_ms": 2948,
+  "reference_speaker": "jp/speaker_041_36b0f2924199.mp3",
+  "seed": 4749,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This",
+      "start_sample": 0,
+      "end_sample": 4308,
+      "start_ms": 0,
+      "end_ms": 269
+    },
+    {
+      "lang": "ja",
+      "text": "下り",
+      "start_sample": 4308,
+      "end_sample": 9862,
+      "start_ms": 269,
+      "end_ms": 616
+    },
+    {
+      "lang": "en",
+      "text": "service runs express all the way to the coast.",
+      "start_sample": 9862,
+      "end_sample": 47172,
+      "start_ms": 616,
+      "end_ms": 2948
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This kudari service runs express all the way to the coast.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3240,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This",
+          "start_sample": 0,
+          "end_sample": 4508,
+          "start_ms": 0,
+          "end_ms": 282
+        },
+        {
+          "lang": "ja",
+          "text": "下り",
+          "start_sample": 4508,
+          "end_sample": 14330,
+          "start_ms": 282,
+          "end_ms": 896
+        },
+        {
+          "lang": "en",
+          "text": "service runs express all the way to the coast.",
+          "start_sample": 14330,
+          "end_sample": 51840,
+          "start_ms": 896,
+          "end_ms": 3240
+        }
+      ]
+    },
+    "ja": {
+      "text": "This 下り service runs express all the way to the coast.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3318,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This",
+          "start_sample": 0,
+          "end_sample": 3861,
+          "start_ms": 0,
+          "end_ms": 241
+        },
+        {
+          "lang": "ja",
+          "text": "下り",
+          "start_sample": 3861,
+          "end_sample": 9815,
+          "start_ms": 241,
+          "end_ms": 613
+        },
+        {
+          "lang": "en",
+          "text": "service runs express all the way to the coast.",
+          "start_sample": 9815,
+          "end_sample": 53096,
+          "start_ms": 613,
+          "end_ms": 3318
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 148,
+  "frame_labels": "eeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

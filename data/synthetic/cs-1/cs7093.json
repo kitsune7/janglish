@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs7093.flac",
+  "sentence": "aquaticスポーツが大好きな友達が何人かいる。",
+  "sample_rate": 16000,
+  "duration_ms": 2985,
+  "reference_speaker": "jp/speaker_009_33102318f73b.mp3",
+  "seed": 7135,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "aquatic",
+      "start_sample": 0,
+      "end_sample": 9434,
+      "start_ms": 0,
+      "end_ms": 590
+    },
+    {
+      "lang": "ja",
+      "text": "スポーツが大好きな友達が何人かいる。",
+      "start_sample": 9434,
+      "end_sample": 47765,
+      "start_ms": 590,
+      "end_ms": 2985
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "aquatic supootsu ga daisuki na tomodachi ga nani nin ka iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4938,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "aquatic",
+          "start_sample": 0,
+          "end_sample": 9634,
+          "start_ms": 0,
+          "end_ms": 602
+        },
+        {
+          "lang": "ja",
+          "text": "スポーツが大好きな友達が何人かいる。",
+          "start_sample": 9634,
+          "end_sample": 79006,
+          "start_ms": 602,
+          "end_ms": 4938
+        }
+      ]
+    },
+    "ja": {
+      "text": "aquaticスポーツが大好きな友達が何人かいる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3043,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "aquatic",
+          "start_sample": 0,
+          "end_sample": 10158,
+          "start_ms": 0,
+          "end_ms": 635
+        },
+        {
+          "lang": "ja",
+          "text": "スポーツが大好きな友達が何人かいる。",
+          "start_sample": 10158,
+          "end_sample": 48689,
+          "start_ms": 635,
+          "end_ms": 3043
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 150,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

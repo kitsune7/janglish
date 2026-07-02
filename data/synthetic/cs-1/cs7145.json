@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs7145.flac",
+  "sentence": "I miss when my kids were small and life felt more のんびり.",
+  "sample_rate": 16000,
+  "duration_ms": 3977,
+  "reference_speaker": "jp/speaker_092_08c69e35de07.mp3",
+  "seed": 7187,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I miss when my kids were small and life felt more",
+      "start_sample": 0,
+      "end_sample": 54698,
+      "start_ms": 0,
+      "end_ms": 3419
+    },
+    {
+      "lang": "ja",
+      "text": "のんびり.",
+      "start_sample": 54698,
+      "end_sample": 63632,
+      "start_ms": 3419,
+      "end_ms": 3977
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I miss when my kids were small and life felt more nonbiri",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4173,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I miss when my kids were small and life felt more",
+          "start_sample": 0,
+          "end_sample": 54898,
+          "start_ms": 0,
+          "end_ms": 3431
+        },
+        {
+          "lang": "ja",
+          "text": "のんびり.",
+          "start_sample": 54898,
+          "end_sample": 66774,
+          "start_ms": 3431,
+          "end_ms": 4173
+        }
+      ]
+    },
+    "ja": {
+      "text": "I miss when my kids were small and life felt more のんびり.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4427,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I miss when my kids were small and life felt more",
+          "start_sample": 0,
+          "end_sample": 61698,
+          "start_ms": 0,
+          "end_ms": 3856
+        },
+        {
+          "lang": "ja",
+          "text": "のんびり.",
+          "start_sample": 61698,
+          "end_sample": 70832,
+          "start_ms": 3856,
+          "end_ms": 4427
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 199,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

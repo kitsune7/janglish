@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7604.flac",
+  "sentence": "His morning 準備 routine is surprisingly elaborate for someone who never leaves home.",
+  "sample_rate": 16000,
+  "duration_ms": 5252,
+  "reference_speaker": "en/speaker_026_a41b49f8d6ee.mp3",
+  "seed": 7646,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His morning",
+      "start_sample": 0,
+      "end_sample": 8140,
+      "start_ms": 0,
+      "end_ms": 509
+    },
+    {
+      "lang": "ja",
+      "text": "準備",
+      "start_sample": 8140,
+      "end_sample": 14307,
+      "start_ms": 509,
+      "end_ms": 894
+    },
+    {
+      "lang": "en",
+      "text": "routine is surprisingly elaborate for someone who never leaves home.",
+      "start_sample": 14307,
+      "end_sample": 84039,
+      "start_ms": 894,
+      "end_ms": 5252
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His morning junbi routine is surprisingly elaborate for someone who never leaves home.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5233,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His morning",
+          "start_sample": 0,
+          "end_sample": 8340,
+          "start_ms": 0,
+          "end_ms": 521
+        },
+        {
+          "lang": "ja",
+          "text": "準備",
+          "start_sample": 8340,
+          "end_sample": 13794,
+          "start_ms": 521,
+          "end_ms": 862
+        },
+        {
+          "lang": "en",
+          "text": "routine is surprisingly elaborate for someone who never leaves home.",
+          "start_sample": 13794,
+          "end_sample": 83726,
+          "start_ms": 862,
+          "end_ms": 5233
+        }
+      ]
+    },
+    "ja": {
+      "text": "His morning 準備 routine is surprisingly elaborate for someone who never leaves home.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8529,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His morning",
+          "start_sample": 0,
+          "end_sample": 11371,
+          "start_ms": 0,
+          "end_ms": 711
+        },
+        {
+          "lang": "ja",
+          "text": "準備",
+          "start_sample": 11371,
+          "end_sample": 17938,
+          "start_ms": 711,
+          "end_ms": 1121
+        },
+        {
+          "lang": "en",
+          "text": "routine is surprisingly elaborate for someone who never leaves home.",
+          "start_sample": 17938,
+          "end_sample": 136461,
+          "start_ms": 1121,
+          "end_ms": 8529
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 263,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs557.flac",
+  "sentence": "彼女のbackgroundがこのポジションに完璧に一致していた。",
+  "sample_rate": 16000,
+  "duration_ms": 3501,
+  "reference_speaker": "en/speaker_012_29b1e5a58d16.mp3",
+  "seed": 599,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女の",
+      "start_sample": 0,
+      "end_sample": 6705,
+      "start_ms": 0,
+      "end_ms": 419
+    },
+    {
+      "lang": "en",
+      "text": "background",
+      "start_sample": 6705,
+      "end_sample": 20238,
+      "start_ms": 419,
+      "end_ms": 1265
+    },
+    {
+      "lang": "ja",
+      "text": "がこのポジションに完璧に一致していた。",
+      "start_sample": 20238,
+      "end_sample": 56009,
+      "start_ms": 1265,
+      "end_ms": 3501
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo no background ga kono pojishon ni kanpeki ni itchi shi te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7186,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の",
+          "start_sample": 0,
+          "end_sample": 12170,
+          "start_ms": 0,
+          "end_ms": 761
+        },
+        {
+          "lang": "en",
+          "text": "background",
+          "start_sample": 12170,
+          "end_sample": 26103,
+          "start_ms": 761,
+          "end_ms": 1631
+        },
+        {
+          "lang": "ja",
+          "text": "がこのポジションに完璧に一致していた。",
+          "start_sample": 26103,
+          "end_sample": 114982,
+          "start_ms": 1631,
+          "end_ms": 7186
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女のbackgroundがこのポジションに完璧に一致していた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3392,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の",
+          "start_sample": 0,
+          "end_sample": 6905,
+          "start_ms": 0,
+          "end_ms": 432
+        },
+        {
+          "lang": "en",
+          "text": "background",
+          "start_sample": 6905,
+          "end_sample": 18307,
+          "start_ms": 432,
+          "end_ms": 1144
+        },
+        {
+          "lang": "ja",
+          "text": "がこのポジションに完璧に一致していた。",
+          "start_sample": 18307,
+          "end_sample": 54278,
+          "start_ms": 1144,
+          "end_ms": 3392
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 176,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

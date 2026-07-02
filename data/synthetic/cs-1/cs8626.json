@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8626.flac",
+  "sentence": "She captured a 表情 on the child's face that no other photographer caught.",
+  "sample_rate": 16000,
+  "duration_ms": 3525,
+  "reference_speaker": "jp/speaker_035_dd783030d2b8.mp3",
+  "seed": 8668,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She captured a",
+      "start_sample": 0,
+      "end_sample": 10085,
+      "start_ms": 0,
+      "end_ms": 630
+    },
+    {
+      "lang": "ja",
+      "text": "表情",
+      "start_sample": 10085,
+      "end_sample": 18673,
+      "start_ms": 630,
+      "end_ms": 1167
+    },
+    {
+      "lang": "en",
+      "text": "on the child's face that no other photographer caught.",
+      "start_sample": 18673,
+      "end_sample": 56397,
+      "start_ms": 1167,
+      "end_ms": 3525
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She captured a hyoujou on the child's face that no other photographer caught.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3555,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She captured a",
+          "start_sample": 0,
+          "end_sample": 10285,
+          "start_ms": 0,
+          "end_ms": 643
+        },
+        {
+          "lang": "ja",
+          "text": "表情",
+          "start_sample": 10285,
+          "end_sample": 18963,
+          "start_ms": 643,
+          "end_ms": 1185
+        },
+        {
+          "lang": "en",
+          "text": "on the child's face that no other photographer caught.",
+          "start_sample": 18963,
+          "end_sample": 56887,
+          "start_ms": 1185,
+          "end_ms": 3555
+        }
+      ]
+    },
+    "ja": {
+      "text": "She captured a 表情 on the child's face that no other photographer caught.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4975,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She captured a",
+          "start_sample": 0,
+          "end_sample": 13800,
+          "start_ms": 0,
+          "end_ms": 862
+        },
+        {
+          "lang": "ja",
+          "text": "表情",
+          "start_sample": 13800,
+          "end_sample": 22788,
+          "start_ms": 862,
+          "end_ms": 1424
+        },
+        {
+          "lang": "en",
+          "text": "on the child's face that no other photographer caught.",
+          "start_sample": 22788,
+          "end_sample": 79602,
+          "start_ms": 1424,
+          "end_ms": 4975
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

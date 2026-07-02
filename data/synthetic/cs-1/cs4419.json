@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4419.flac",
+  "sentence": "He found the minibar prices absolutely 法外 and decided to walk to a convenience store instead.",
+  "sample_rate": 16000,
+  "duration_ms": 5606,
+  "reference_speaker": "en/speaker_019_53050c1aaaa1.mp3",
+  "seed": 4461,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He found the minibar prices absolutely",
+      "start_sample": 0,
+      "end_sample": 32693,
+      "start_ms": 0,
+      "end_ms": 2043
+    },
+    {
+      "lang": "ja",
+      "text": "法外",
+      "start_sample": 32693,
+      "end_sample": 40479,
+      "start_ms": 2043,
+      "end_ms": 2530
+    },
+    {
+      "lang": "en",
+      "text": "and decided to walk to a convenience store instead.",
+      "start_sample": 40479,
+      "end_sample": 89698,
+      "start_ms": 2530,
+      "end_ms": 5606
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He found the minibar prices absolutely hougai and decided to walk to a convenience store instead.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6037,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He found the minibar prices absolutely",
+          "start_sample": 0,
+          "end_sample": 32893,
+          "start_ms": 0,
+          "end_ms": 2056
+        },
+        {
+          "lang": "ja",
+          "text": "法外",
+          "start_sample": 32893,
+          "end_sample": 47174,
+          "start_ms": 2056,
+          "end_ms": 2948
+        },
+        {
+          "lang": "en",
+          "text": "and decided to walk to a convenience store instead.",
+          "start_sample": 47174,
+          "end_sample": 96593,
+          "start_ms": 2948,
+          "end_ms": 6037
+        }
+      ]
+    },
+    "ja": {
+      "text": "He found the minibar prices absolutely 法外 and decided to walk to a convenience store instead.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6901,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He found the minibar prices absolutely",
+          "start_sample": 0,
+          "end_sample": 40924,
+          "start_ms": 0,
+          "end_ms": 2558
+        },
+        {
+          "lang": "ja",
+          "text": "法外",
+          "start_sample": 40924,
+          "end_sample": 49110,
+          "start_ms": 2558,
+          "end_ms": 3069
+        },
+        {
+          "lang": "en",
+          "text": "and decided to walk to a convenience store instead.",
+          "start_sample": 49110,
+          "end_sample": 110417,
+          "start_ms": 3069,
+          "end_ms": 6901
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 281,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

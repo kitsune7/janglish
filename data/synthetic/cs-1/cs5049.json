@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5049.flac",
+  "sentence": "あの川のbanksに生えている野草を採りに行きませんか？",
+  "sample_rate": 16000,
+  "duration_ms": 3296,
+  "reference_speaker": "jp/speaker_008_925570fa5738.mp3",
+  "seed": 5091,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの川の",
+      "start_sample": 0,
+      "end_sample": 9608,
+      "start_ms": 0,
+      "end_ms": 600
+    },
+    {
+      "lang": "en",
+      "text": "banks",
+      "start_sample": 9608,
+      "end_sample": 16116,
+      "start_ms": 600,
+      "end_ms": 1007
+    },
+    {
+      "lang": "ja",
+      "text": "に生えている野草を採りに行きませんか？",
+      "start_sample": 16116,
+      "end_sample": 52735,
+      "start_ms": 1007,
+      "end_ms": 3296
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano kawa no banks ni hae te iru yasou wo tori ni iki mase n ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5723,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの川の",
+          "start_sample": 0,
+          "end_sample": 22971,
+          "start_ms": 0,
+          "end_ms": 1436
+        },
+        {
+          "lang": "en",
+          "text": "banks",
+          "start_sample": 22971,
+          "end_sample": 29879,
+          "start_ms": 1436,
+          "end_ms": 1867
+        },
+        {
+          "lang": "ja",
+          "text": "に生えている野草を採りに行きませんか？",
+          "start_sample": 29879,
+          "end_sample": 91563,
+          "start_ms": 1867,
+          "end_ms": 5723
+        }
+      ]
+    },
+    "ja": {
+      "text": "あの川のbanksに生えている野草を採りに行きませんか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3316,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの川の",
+          "start_sample": 0,
+          "end_sample": 9808,
+          "start_ms": 0,
+          "end_ms": 613
+        },
+        {
+          "lang": "en",
+          "text": "banks",
+          "start_sample": 9808,
+          "end_sample": 16240,
+          "start_ms": 613,
+          "end_ms": 1015
+        },
+        {
+          "lang": "ja",
+          "text": "に生えている野草を採りに行きませんか？",
+          "start_sample": 16240,
+          "end_sample": 53059,
+          "start_ms": 1015,
+          "end_ms": 3316
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 165,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

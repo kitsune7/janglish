@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3898.flac",
+  "sentence": "He looked genuinely 嬉しそう when she walked through the door.",
+  "sample_rate": 16000,
+  "duration_ms": 3386,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 3940,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He looked genuinely",
+      "start_sample": 0,
+      "end_sample": 17422,
+      "start_ms": 0,
+      "end_ms": 1089
+    },
+    {
+      "lang": "ja",
+      "text": "嬉しそう",
+      "start_sample": 17422,
+      "end_sample": 27458,
+      "start_ms": 1089,
+      "end_ms": 1716
+    },
+    {
+      "lang": "en",
+      "text": "when she walked through the door.",
+      "start_sample": 27458,
+      "end_sample": 54172,
+      "start_ms": 1716,
+      "end_ms": 3386
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He looked genuinely ureshi sou when she walked through the door.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3905,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He looked genuinely",
+          "start_sample": 0,
+          "end_sample": 17622,
+          "start_ms": 0,
+          "end_ms": 1101
+        },
+        {
+          "lang": "ja",
+          "text": "嬉しそう",
+          "start_sample": 17622,
+          "end_sample": 35566,
+          "start_ms": 1101,
+          "end_ms": 2223
+        },
+        {
+          "lang": "en",
+          "text": "when she walked through the door.",
+          "start_sample": 35566,
+          "end_sample": 62480,
+          "start_ms": 2223,
+          "end_ms": 3905
+        }
+      ]
+    },
+    "ja": {
+      "text": "He looked genuinely 嬉しそう when she walked through the door.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3873,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He looked genuinely",
+          "start_sample": 0,
+          "end_sample": 22155,
+          "start_ms": 0,
+          "end_ms": 1385
+        },
+        {
+          "lang": "ja",
+          "text": "嬉しそう",
+          "start_sample": 22155,
+          "end_sample": 32591,
+          "start_ms": 1385,
+          "end_ms": 2037
+        },
+        {
+          "lang": "en",
+          "text": "when she walked through the door.",
+          "start_sample": 32591,
+          "end_sample": 61968,
+          "start_ms": 2037,
+          "end_ms": 3873
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 170,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6388.flac",
+  "sentence": "We found the most 素朴 little village tucked behind the forest.",
+  "sample_rate": 16000,
+  "duration_ms": 3721,
+  "reference_speaker": "jp/speaker_011_3c9d94093b88.mp3",
+  "seed": 6430,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We found the most",
+      "start_sample": 0,
+      "end_sample": 12477,
+      "start_ms": 0,
+      "end_ms": 780
+    },
+    {
+      "lang": "ja",
+      "text": "素朴",
+      "start_sample": 12477,
+      "end_sample": 20258,
+      "start_ms": 780,
+      "end_ms": 1266
+    },
+    {
+      "lang": "en",
+      "text": "little village tucked behind the forest.",
+      "start_sample": 20258,
+      "end_sample": 59534,
+      "start_ms": 1266,
+      "end_ms": 3721
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We found the most soboku little village tucked behind the forest.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3831,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We found the most",
+          "start_sample": 0,
+          "end_sample": 12677,
+          "start_ms": 0,
+          "end_ms": 792
+        },
+        {
+          "lang": "ja",
+          "text": "素朴",
+          "start_sample": 12677,
+          "end_sample": 21825,
+          "start_ms": 792,
+          "end_ms": 1364
+        },
+        {
+          "lang": "en",
+          "text": "little village tucked behind the forest.",
+          "start_sample": 21825,
+          "end_sample": 61301,
+          "start_ms": 1364,
+          "end_ms": 3831
+        }
+      ]
+    },
+    "ja": {
+      "text": "We found the most 素朴 little village tucked behind the forest.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4752,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We found the most",
+          "start_sample": 0,
+          "end_sample": 20053,
+          "start_ms": 0,
+          "end_ms": 1253
+        },
+        {
+          "lang": "ja",
+          "text": "素朴",
+          "start_sample": 20053,
+          "end_sample": 28234,
+          "start_ms": 1253,
+          "end_ms": 1765
+        },
+        {
+          "lang": "en",
+          "text": "little village tucked behind the forest.",
+          "start_sample": 28234,
+          "end_sample": 76039,
+          "start_ms": 1765,
+          "end_ms": 4752
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 187,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

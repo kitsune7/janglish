@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4618.flac",
+  "sentence": "Our guinea pig is weirdly 恥ずかしがり and hides whenever guests come over.",
+  "sample_rate": 16000,
+  "duration_ms": 7208,
+  "reference_speaker": "en/speaker_082_0d071699a4ef.mp3",
+  "seed": 4660,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Our guinea pig is weirdly",
+      "start_sample": 0,
+      "end_sample": 57239,
+      "start_ms": 0,
+      "end_ms": 3577
+    },
+    {
+      "lang": "ja",
+      "text": "恥ずかしがり",
+      "start_sample": 57239,
+      "end_sample": 77671,
+      "start_ms": 3577,
+      "end_ms": 4854
+    },
+    {
+      "lang": "en",
+      "text": "and hides whenever guests come over.",
+      "start_sample": 77671,
+      "end_sample": 115334,
+      "start_ms": 4854,
+      "end_ms": 7208
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Our guinea pig is weirdly hazukashi gari and hides whenever guests come over.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8403,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Our guinea pig is weirdly",
+          "start_sample": 0,
+          "end_sample": 57439,
+          "start_ms": 0,
+          "end_ms": 3590
+        },
+        {
+          "lang": "ja",
+          "text": "恥ずかしがり",
+          "start_sample": 57439,
+          "end_sample": 96589,
+          "start_ms": 3590,
+          "end_ms": 6037
+        },
+        {
+          "lang": "en",
+          "text": "and hides whenever guests come over.",
+          "start_sample": 96589,
+          "end_sample": 134452,
+          "start_ms": 6037,
+          "end_ms": 8403
+        }
+      ]
+    },
+    "ja": {
+      "text": "Our guinea pig is weirdly 恥ずかしがり and hides whenever guests come over.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9374,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Our guinea pig is weirdly",
+          "start_sample": 0,
+          "end_sample": 55926,
+          "start_ms": 0,
+          "end_ms": 3495
+        },
+        {
+          "lang": "ja",
+          "text": "恥ずかしがり",
+          "start_sample": 55926,
+          "end_sample": 76758,
+          "start_ms": 3495,
+          "end_ms": 4797
+        },
+        {
+          "lang": "en",
+          "text": "and hides whenever guests come over.",
+          "start_sample": 76758,
+          "end_sample": 149990,
+          "start_ms": 4797,
+          "end_ms": 9374
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 361,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

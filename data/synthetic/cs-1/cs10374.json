@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs10374.flac",
+  "sentence": "The 出窓 in the living room is the perfect spot for growing herbs year-round.",
+  "sample_rate": 16000,
+  "duration_ms": 3583,
+  "reference_speaker": "jp/speaker_007_69caf5c5275d.mp3",
+  "seed": 10416,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 923,
+      "start_ms": 0,
+      "end_ms": 58
+    },
+    {
+      "lang": "ja",
+      "text": "出窓",
+      "start_sample": 923,
+      "end_sample": 9026,
+      "start_ms": 58,
+      "end_ms": 564
+    },
+    {
+      "lang": "en",
+      "text": "in the living room is the perfect spot for growing herbs year-round.",
+      "start_sample": 9026,
+      "end_sample": 57323,
+      "start_ms": 564,
+      "end_ms": 3583
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The demado in the living room is the perfect spot for growing herbs year-round.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3473,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1123,
+          "start_ms": 0,
+          "end_ms": 70
+        },
+        {
+          "lang": "ja",
+          "text": "出窓",
+          "start_sample": 1123,
+          "end_sample": 7066,
+          "start_ms": 70,
+          "end_ms": 442
+        },
+        {
+          "lang": "en",
+          "text": "in the living room is the perfect spot for growing herbs year-round.",
+          "start_sample": 7066,
+          "end_sample": 55563,
+          "start_ms": 442,
+          "end_ms": 3473
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 出窓 in the living room is the perfect spot for growing herbs year-round.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5455,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3048,
+          "start_ms": 0,
+          "end_ms": 190
+        },
+        {
+          "lang": "ja",
+          "text": "出窓",
+          "start_sample": 3048,
+          "end_sample": 11551,
+          "start_ms": 190,
+          "end_ms": 722
+        },
+        {
+          "lang": "en",
+          "text": "in the living room is the perfect spot for growing herbs year-round.",
+          "start_sample": 11551,
+          "end_sample": 87282,
+          "start_ms": 722,
+          "end_ms": 5455
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 180,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

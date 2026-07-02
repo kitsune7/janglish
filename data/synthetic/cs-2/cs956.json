@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs956.flac",
+  "sentence": "She taped the 送り状 firmly to the box and felt a wave of 達成感.",
+  "sample_rate": 16000,
+  "duration_ms": 4761,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 17811,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She taped the",
+      "start_sample": 0,
+      "end_sample": 9758,
+      "start_ms": 0,
+      "end_ms": 610
+    },
+    {
+      "lang": "ja",
+      "text": "送り状",
+      "start_sample": 9758,
+      "end_sample": 24592,
+      "start_ms": 610,
+      "end_ms": 1537
+    },
+    {
+      "lang": "en",
+      "text": "firmly to the box and felt a wave of",
+      "start_sample": 24592,
+      "end_sample": 65956,
+      "start_ms": 1537,
+      "end_ms": 4122
+    },
+    {
+      "lang": "ja",
+      "text": "達成感.",
+      "start_sample": 65956,
+      "end_sample": 76177,
+      "start_ms": 4122,
+      "end_ms": 4761
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She taped the okurijou firmly to the box and felt a wave of tassei kan",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4879,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She taped the",
+          "start_sample": 0,
+          "end_sample": 9958,
+          "start_ms": 0,
+          "end_ms": 622
+        },
+        {
+          "lang": "ja",
+          "text": "送り状",
+          "start_sample": 9958,
+          "end_sample": 20720,
+          "start_ms": 622,
+          "end_ms": 1295
+        },
+        {
+          "lang": "en",
+          "text": "firmly to the box and felt a wave of",
+          "start_sample": 20720,
+          "end_sample": 62484,
+          "start_ms": 1295,
+          "end_ms": 3905
+        },
+        {
+          "lang": "ja",
+          "text": "達成感.",
+          "start_sample": 62484,
+          "end_sample": 78061,
+          "start_ms": 3905,
+          "end_ms": 4879
+        }
+      ]
+    },
+    "ja": {
+      "text": "She taped the 送り状 firmly to the box and felt a wave of 達成感.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5071,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She taped the",
+          "start_sample": 0,
+          "end_sample": 12345,
+          "start_ms": 0,
+          "end_ms": 772
+        },
+        {
+          "lang": "ja",
+          "text": "送り状",
+          "start_sample": 12345,
+          "end_sample": 27579,
+          "start_ms": 772,
+          "end_ms": 1724
+        },
+        {
+          "lang": "en",
+          "text": "firmly to the box and felt a wave of",
+          "start_sample": 27579,
+          "end_sample": 70715,
+          "start_ms": 1724,
+          "end_ms": 4420
+        },
+        {
+          "lang": "ja",
+          "text": "達成感.",
+          "start_sample": 70715,
+          "end_sample": 81136,
+          "start_ms": 4420,
+          "end_ms": 5071
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 239,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

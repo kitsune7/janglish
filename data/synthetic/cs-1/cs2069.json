@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2069.flac",
+  "sentence": "Is your woodworking hobby more 趣味 or are you actually selling pieces?",
+  "sample_rate": 16000,
+  "duration_ms": 3989,
+  "reference_speaker": "jp/speaker_015_c26b5026d437.mp3",
+  "seed": 2111,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Is your woodworking hobby more",
+      "start_sample": 0,
+      "end_sample": 24332,
+      "start_ms": 0,
+      "end_ms": 1521
+    },
+    {
+      "lang": "ja",
+      "text": "趣味",
+      "start_sample": 24332,
+      "end_sample": 30514,
+      "start_ms": 1521,
+      "end_ms": 1907
+    },
+    {
+      "lang": "en",
+      "text": "or are you actually selling pieces?",
+      "start_sample": 30514,
+      "end_sample": 63825,
+      "start_ms": 1907,
+      "end_ms": 3989
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Is your woodworking hobby more shumi or are you actually selling pieces?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4229,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is your woodworking hobby more",
+          "start_sample": 0,
+          "end_sample": 24532,
+          "start_ms": 0,
+          "end_ms": 1533
+        },
+        {
+          "lang": "ja",
+          "text": "趣味",
+          "start_sample": 24532,
+          "end_sample": 34153,
+          "start_ms": 1533,
+          "end_ms": 2135
+        },
+        {
+          "lang": "en",
+          "text": "or are you actually selling pieces?",
+          "start_sample": 34153,
+          "end_sample": 67664,
+          "start_ms": 2135,
+          "end_ms": 4229
+        }
+      ]
+    },
+    "ja": {
+      "text": "Is your woodworking hobby more 趣味 or are you actually selling pieces?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4935,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is your woodworking hobby more",
+          "start_sample": 0,
+          "end_sample": 37397,
+          "start_ms": 0,
+          "end_ms": 2337
+        },
+        {
+          "lang": "ja",
+          "text": "趣味",
+          "start_sample": 37397,
+          "end_sample": 43979,
+          "start_ms": 2337,
+          "end_ms": 2749
+        },
+        {
+          "lang": "en",
+          "text": "or are you actually selling pieces?",
+          "start_sample": 43979,
+          "end_sample": 78966,
+          "start_ms": 2749,
+          "end_ms": 4935
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 200,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

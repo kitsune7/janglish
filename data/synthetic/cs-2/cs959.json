@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs959.flac",
+  "sentence": "The fragile 陶器 inside survived thanks to the thick 緩衝材 around it.",
+  "sample_rate": 16000,
+  "duration_ms": 5976,
+  "reference_speaker": "jp/speaker_085_c431b4a9ddfb.mp3",
+  "seed": 17814,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The fragile",
+      "start_sample": 0,
+      "end_sample": 10708,
+      "start_ms": 0,
+      "end_ms": 669
+    },
+    {
+      "lang": "ja",
+      "text": "陶器",
+      "start_sample": 10708,
+      "end_sample": 19452,
+      "start_ms": 669,
+      "end_ms": 1216
+    },
+    {
+      "lang": "en",
+      "text": "inside survived thanks to the thick",
+      "start_sample": 19452,
+      "end_sample": 72631,
+      "start_ms": 1216,
+      "end_ms": 4539
+    },
+    {
+      "lang": "ja",
+      "text": "緩衝材",
+      "start_sample": 72631,
+      "end_sample": 87310,
+      "start_ms": 4539,
+      "end_ms": 5457
+    },
+    {
+      "lang": "en",
+      "text": "around it.",
+      "start_sample": 87310,
+      "end_sample": 95609,
+      "start_ms": 5457,
+      "end_ms": 5976
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The fragile touki inside survived thanks to the thick kanshou zai around it.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6517,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The fragile",
+          "start_sample": 0,
+          "end_sample": 10908,
+          "start_ms": 0,
+          "end_ms": 682
+        },
+        {
+          "lang": "ja",
+          "text": "陶器",
+          "start_sample": 10908,
+          "end_sample": 29035,
+          "start_ms": 682,
+          "end_ms": 1815
+        },
+        {
+          "lang": "en",
+          "text": "inside survived thanks to the thick",
+          "start_sample": 29035,
+          "end_sample": 82614,
+          "start_ms": 1815,
+          "end_ms": 5163
+        },
+        {
+          "lang": "ja",
+          "text": "緩衝材",
+          "start_sample": 82614,
+          "end_sample": 95768,
+          "start_ms": 5163,
+          "end_ms": 5986
+        },
+        {
+          "lang": "en",
+          "text": "around it.",
+          "start_sample": 95768,
+          "end_sample": 104267,
+          "start_ms": 5986,
+          "end_ms": 6517
+        }
+      ]
+    },
+    "ja": {
+      "text": "The fragile 陶器 inside survived thanks to the thick 緩衝材 around it.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6818,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The fragile",
+          "start_sample": 0,
+          "end_sample": 16520,
+          "start_ms": 0,
+          "end_ms": 1032
+        },
+        {
+          "lang": "ja",
+          "text": "陶器",
+          "start_sample": 16520,
+          "end_sample": 25664,
+          "start_ms": 1032,
+          "end_ms": 1604
+        },
+        {
+          "lang": "en",
+          "text": "inside survived thanks to the thick",
+          "start_sample": 25664,
+          "end_sample": 83736,
+          "start_ms": 1604,
+          "end_ms": 5234
+        },
+        {
+          "lang": "ja",
+          "text": "緩衝材",
+          "start_sample": 83736,
+          "end_sample": 98815,
+          "start_ms": 5234,
+          "end_ms": 6176
+        },
+        {
+          "lang": "en",
+          "text": "around it.",
+          "start_sample": 98815,
+          "end_sample": 109080,
+          "start_ms": 6176,
+          "end_ms": 6818
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 299,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1723.flac",
+  "sentence": "山道でのbraking techniqueについて、教習所で詳しく習った。",
+  "sample_rate": 16000,
+  "duration_ms": 4324,
+  "reference_speaker": "en/speaker_072_33acedb4c9a7.mp3",
+  "seed": 1765,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "山道での",
+      "start_sample": 0,
+      "end_sample": 8943,
+      "start_ms": 0,
+      "end_ms": 559
+    },
+    {
+      "lang": "en",
+      "text": "braking technique",
+      "start_sample": 8943,
+      "end_sample": 30400,
+      "start_ms": 559,
+      "end_ms": 1900
+    },
+    {
+      "lang": "ja",
+      "text": "について、教習所で詳しく習った。",
+      "start_sample": 30400,
+      "end_sample": 69178,
+      "start_ms": 1900,
+      "end_ms": 4324
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "yamamichi de no braking technique ni tsui te kyoushuu tokoro de kuwashiku naratsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3616,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "山道での",
+          "start_sample": 0,
+          "end_sample": 15588,
+          "start_ms": 0,
+          "end_ms": 974
+        },
+        {
+          "lang": "en",
+          "text": "braking technique",
+          "start_sample": 15588,
+          "end_sample": 37445,
+          "start_ms": 974,
+          "end_ms": 2340
+        },
+        {
+          "lang": "ja",
+          "text": "について、教習所で詳しく習った。",
+          "start_sample": 37445,
+          "end_sample": 57856,
+          "start_ms": 2340,
+          "end_ms": 3616
+        }
+      ]
+    },
+    "ja": {
+      "text": "山道でのbraking techniqueについて、教習所で詳しく習った。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4030,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "山道での",
+          "start_sample": 0,
+          "end_sample": 9143,
+          "start_ms": 0,
+          "end_ms": 571
+        },
+        {
+          "lang": "en",
+          "text": "braking technique",
+          "start_sample": 9143,
+          "end_sample": 25504,
+          "start_ms": 571,
+          "end_ms": 1594
+        },
+        {
+          "lang": "ja",
+          "text": "について、教習所で詳しく習った。",
+          "start_sample": 25504,
+          "end_sample": 64482,
+          "start_ms": 1594,
+          "end_ms": 4030
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 217,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

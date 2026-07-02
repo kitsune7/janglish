@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3519.flac",
+  "sentence": "この本のchapter一がとても引き込まれる書き出しで驚いた。",
+  "sample_rate": 16000,
+  "duration_ms": 5531,
+  "reference_speaker": "en/speaker_041_b54335ce95b5.mp3",
+  "seed": 3561,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この本の",
+      "start_sample": 0,
+      "end_sample": 11346,
+      "start_ms": 0,
+      "end_ms": 709
+    },
+    {
+      "lang": "en",
+      "text": "chapter",
+      "start_sample": 11346,
+      "end_sample": 30167,
+      "start_ms": 709,
+      "end_ms": 1885
+    },
+    {
+      "lang": "ja",
+      "text": "一がとても引き込まれる書き出しで驚いた。",
+      "start_sample": 30167,
+      "end_sample": 88501,
+      "start_ms": 1885,
+      "end_ms": 5531
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono hon no chapter ichi ga totemo hikikoma reru kakidashi de odoroi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9410,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この本の",
+          "start_sample": 0,
+          "end_sample": 26908,
+          "start_ms": 0,
+          "end_ms": 1682
+        },
+        {
+          "lang": "en",
+          "text": "chapter",
+          "start_sample": 26908,
+          "end_sample": 46129,
+          "start_ms": 1682,
+          "end_ms": 2883
+        },
+        {
+          "lang": "ja",
+          "text": "一がとても引き込まれる書き出しで驚いた。",
+          "start_sample": 46129,
+          "end_sample": 150561,
+          "start_ms": 2883,
+          "end_ms": 9410
+        }
+      ]
+    },
+    "ja": {
+      "text": "この本のchapter一がとても引き込まれる書き出しで驚いた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5072,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この本の",
+          "start_sample": 0,
+          "end_sample": 11546,
+          "start_ms": 0,
+          "end_ms": 722
+        },
+        {
+          "lang": "en",
+          "text": "chapter",
+          "start_sample": 11546,
+          "end_sample": 22612,
+          "start_ms": 722,
+          "end_ms": 1413
+        },
+        {
+          "lang": "ja",
+          "text": "一がとても引き込まれる書き出しで驚いた。",
+          "start_sample": 22612,
+          "end_sample": 81146,
+          "start_ms": 1413,
+          "end_ms": 5072
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 277,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs11178.flac",
+  "sentence": "secondhand店でいい状態のコートを見つけた。",
+  "sample_rate": 16000,
+  "duration_ms": 3293,
+  "reference_speaker": "en/speaker_018_b0dec8b93359.mp3",
+  "seed": 11220,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "secondhand",
+      "start_sample": 0,
+      "end_sample": 16495,
+      "start_ms": 0,
+      "end_ms": 1031
+    },
+    {
+      "lang": "ja",
+      "text": "店でいい状態のコートを見つけた。",
+      "start_sample": 16495,
+      "end_sample": 52690,
+      "start_ms": 1031,
+      "end_ms": 3293
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "secondhand mise de ii joutai no kooto wo mitsuke ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6722,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "secondhand",
+          "start_sample": 0,
+          "end_sample": 16695,
+          "start_ms": 0,
+          "end_ms": 1043
+        },
+        {
+          "lang": "ja",
+          "text": "店でいい状態のコートを見つけた。",
+          "start_sample": 16695,
+          "end_sample": 107560,
+          "start_ms": 1043,
+          "end_ms": 6722
+        }
+      ]
+    },
+    "ja": {
+      "text": "secondhand店でいい状態のコートを見つけた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2986,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "secondhand",
+          "start_sample": 0,
+          "end_sample": 11383,
+          "start_ms": 0,
+          "end_ms": 711
+        },
+        {
+          "lang": "ja",
+          "text": "店でいい状態のコートを見つけた。",
+          "start_sample": 11383,
+          "end_sample": 47778,
+          "start_ms": 711,
+          "end_ms": 2986
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 165,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

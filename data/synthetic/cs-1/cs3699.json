@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3699.flac",
+  "sentence": "The delivery driver left a 不在通知 on my door again.",
+  "sample_rate": 16000,
+  "duration_ms": 4158,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 3741,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The delivery driver left a",
+      "start_sample": 0,
+      "end_sample": 24158,
+      "start_ms": 0,
+      "end_ms": 1510
+    },
+    {
+      "lang": "ja",
+      "text": "不在通知",
+      "start_sample": 24158,
+      "end_sample": 49254,
+      "start_ms": 1510,
+      "end_ms": 3078
+    },
+    {
+      "lang": "en",
+      "text": "on my door again.",
+      "start_sample": 49254,
+      "end_sample": 66520,
+      "start_ms": 3078,
+      "end_ms": 4158
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The delivery driver left a fuzai tsuuchi on my door again.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3826,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The delivery driver left a",
+          "start_sample": 0,
+          "end_sample": 24358,
+          "start_ms": 0,
+          "end_ms": 1522
+        },
+        {
+          "lang": "ja",
+          "text": "不在通知",
+          "start_sample": 24358,
+          "end_sample": 43749,
+          "start_ms": 1522,
+          "end_ms": 2734
+        },
+        {
+          "lang": "en",
+          "text": "on my door again.",
+          "start_sample": 43749,
+          "end_sample": 61215,
+          "start_ms": 2734,
+          "end_ms": 3826
+        }
+      ]
+    },
+    "ja": {
+      "text": "The delivery driver left a 不在通知 on my door again.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5331,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The delivery driver left a",
+          "start_sample": 0,
+          "end_sample": 43293,
+          "start_ms": 0,
+          "end_ms": 2706
+        },
+        {
+          "lang": "ja",
+          "text": "不在通知",
+          "start_sample": 43293,
+          "end_sample": 68789,
+          "start_ms": 2706,
+          "end_ms": 4299
+        },
+        {
+          "lang": "en",
+          "text": "on my door again.",
+          "start_sample": 68789,
+          "end_sample": 85303,
+          "start_ms": 4299,
+          "end_ms": 5331
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8909.flac",
+  "sentence": "警報が鳴った瞬間、全員がfreezeしてしまった。",
+  "sample_rate": 16000,
+  "duration_ms": 5039,
+  "reference_speaker": "en/speaker_011_d1413283d794.mp3",
+  "seed": 8951,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "警報が鳴った瞬間、全員が",
+      "start_sample": 0,
+      "end_sample": 47672,
+      "start_ms": 0,
+      "end_ms": 2980
+    },
+    {
+      "lang": "en",
+      "text": "freeze",
+      "start_sample": 47672,
+      "end_sample": 66853,
+      "start_ms": 2980,
+      "end_ms": 4178
+    },
+    {
+      "lang": "ja",
+      "text": "してしまった。",
+      "start_sample": 66853,
+      "end_sample": 80626,
+      "start_ms": 4178,
+      "end_ms": 5039
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "keihou ga natsu ta shunkan zen'in ga freeze shi te shimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6058,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "警報が鳴った瞬間、全員が",
+          "start_sample": 0,
+          "end_sample": 57777,
+          "start_ms": 0,
+          "end_ms": 3611
+        },
+        {
+          "lang": "en",
+          "text": "freeze",
+          "start_sample": 57777,
+          "end_sample": 77358,
+          "start_ms": 3611,
+          "end_ms": 4835
+        },
+        {
+          "lang": "ja",
+          "text": "してしまった。",
+          "start_sample": 77358,
+          "end_sample": 96936,
+          "start_ms": 4835,
+          "end_ms": 6058
+        }
+      ]
+    },
+    "ja": {
+      "text": "警報が鳴った瞬間、全員がfreezeしてしまった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4418,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "警報が鳴った瞬間、全員が",
+          "start_sample": 0,
+          "end_sample": 47872,
+          "start_ms": 0,
+          "end_ms": 2992
+        },
+        {
+          "lang": "en",
+          "text": "freeze",
+          "start_sample": 47872,
+          "end_sample": 56708,
+          "start_ms": 2992,
+          "end_ms": 3544
+        },
+        {
+          "lang": "ja",
+          "text": "してしまった。",
+          "start_sample": 56708,
+          "end_sample": 70681,
+          "start_ms": 3544,
+          "end_ms": 4418
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 252,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs5483.flac",
+  "sentence": "That documentary about ocean pollution was really 衝撃的 to watch.",
+  "sample_rate": 16000,
+  "duration_ms": 3915,
+  "reference_speaker": "en/speaker_095_862d569c1af2.mp3",
+  "seed": 5525,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That documentary about ocean pollution was really",
+      "start_sample": 0,
+      "end_sample": 39531,
+      "start_ms": 0,
+      "end_ms": 2471
+    },
+    {
+      "lang": "ja",
+      "text": "衝撃的",
+      "start_sample": 39531,
+      "end_sample": 52904,
+      "start_ms": 2471,
+      "end_ms": 3306
+    },
+    {
+      "lang": "en",
+      "text": "to watch.",
+      "start_sample": 52904,
+      "end_sample": 62636,
+      "start_ms": 3306,
+      "end_ms": 3915
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That documentary about ocean pollution was really shougeki teki to watch.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3965,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That documentary about ocean pollution was really",
+          "start_sample": 0,
+          "end_sample": 39731,
+          "start_ms": 0,
+          "end_ms": 2483
+        },
+        {
+          "lang": "ja",
+          "text": "衝撃的",
+          "start_sample": 39731,
+          "end_sample": 53509,
+          "start_ms": 2483,
+          "end_ms": 3344
+        },
+        {
+          "lang": "en",
+          "text": "to watch.",
+          "start_sample": 53509,
+          "end_sample": 63441,
+          "start_ms": 3344,
+          "end_ms": 3965
+        }
+      ]
+    },
+    "ja": {
+      "text": "That documentary about ocean pollution was really 衝撃的 to watch.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5525,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That documentary about ocean pollution was really",
+          "start_sample": 0,
+          "end_sample": 65183,
+          "start_ms": 0,
+          "end_ms": 4074
+        },
+        {
+          "lang": "ja",
+          "text": "衝撃的",
+          "start_sample": 65183,
+          "end_sample": 78956,
+          "start_ms": 4074,
+          "end_ms": 4935
+        },
+        {
+          "lang": "en",
+          "text": "to watch.",
+          "start_sample": 78956,
+          "end_sample": 88405,
+          "start_ms": 4935,
+          "end_ms": 5525
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

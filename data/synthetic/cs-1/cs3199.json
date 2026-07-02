@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3199.flac",
+  "sentence": "I noticed the 電池 on this smartwatch drains faster than expected.",
+  "sample_rate": 16000,
+  "duration_ms": 3743,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 3241,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I noticed the",
+      "start_sample": 0,
+      "end_sample": 10393,
+      "start_ms": 0,
+      "end_ms": 650
+    },
+    {
+      "lang": "ja",
+      "text": "電池",
+      "start_sample": 10393,
+      "end_sample": 16746,
+      "start_ms": 650,
+      "end_ms": 1047
+    },
+    {
+      "lang": "en",
+      "text": "on this smartwatch drains faster than expected.",
+      "start_sample": 16746,
+      "end_sample": 59891,
+      "start_ms": 1047,
+      "end_ms": 3743
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I noticed the denchi on this smartwatch drains faster than expected.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3793,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I noticed the",
+          "start_sample": 0,
+          "end_sample": 10593,
+          "start_ms": 0,
+          "end_ms": 662
+        },
+        {
+          "lang": "ja",
+          "text": "電池",
+          "start_sample": 10593,
+          "end_sample": 17336,
+          "start_ms": 662,
+          "end_ms": 1084
+        },
+        {
+          "lang": "en",
+          "text": "on this smartwatch drains faster than expected.",
+          "start_sample": 17336,
+          "end_sample": 60681,
+          "start_ms": 1084,
+          "end_ms": 3793
+        }
+      ]
+    },
+    "ja": {
+      "text": "I noticed the 電池 on this smartwatch drains faster than expected.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4280,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I noticed the",
+          "start_sample": 0,
+          "end_sample": 12534,
+          "start_ms": 0,
+          "end_ms": 783
+        },
+        {
+          "lang": "ja",
+          "text": "電池",
+          "start_sample": 12534,
+          "end_sample": 19287,
+          "start_ms": 783,
+          "end_ms": 1205
+        },
+        {
+          "lang": "en",
+          "text": "on this smartwatch drains faster than expected.",
+          "start_sample": 19287,
+          "end_sample": 68475,
+          "start_ms": 1205,
+          "end_ms": 4280
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

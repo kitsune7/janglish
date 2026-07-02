@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs8185.flac",
+  "sentence": "そのparking lotを目印にして右に曲がってください。",
+  "sample_rate": 16000,
+  "duration_ms": 4974,
+  "reference_speaker": "en/speaker_082_0d071699a4ef.mp3",
+  "seed": 8227,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その",
+      "start_sample": 0,
+      "end_sample": 4776,
+      "start_ms": 0,
+      "end_ms": 298
+    },
+    {
+      "lang": "en",
+      "text": "parking lot",
+      "start_sample": 4776,
+      "end_sample": 25517,
+      "start_ms": 298,
+      "end_ms": 1595
+    },
+    {
+      "lang": "ja",
+      "text": "を目印にして右に曲がってください。",
+      "start_sample": 25517,
+      "end_sample": 79577,
+      "start_ms": 1595,
+      "end_ms": 4974
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono parking lot wo mejirushi ni shi te migi ni magatsu te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6606,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 10089,
+          "start_ms": 0,
+          "end_ms": 631
+        },
+        {
+          "lang": "en",
+          "text": "parking lot",
+          "start_sample": 10089,
+          "end_sample": 31230,
+          "start_ms": 631,
+          "end_ms": 1952
+        },
+        {
+          "lang": "ja",
+          "text": "を目印にして右に曲がってください。",
+          "start_sample": 31230,
+          "end_sample": 105702,
+          "start_ms": 1952,
+          "end_ms": 6606
+        }
+      ]
+    },
+    "ja": {
+      "text": "そのparking lotを目印にして右に曲がってください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4615,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 4976,
+          "start_ms": 0,
+          "end_ms": 311
+        },
+        {
+          "lang": "en",
+          "text": "parking lot",
+          "start_sample": 4976,
+          "end_sample": 19586,
+          "start_ms": 311,
+          "end_ms": 1224
+        },
+        {
+          "lang": "ja",
+          "text": "を目印にして右に曲がってください。",
+          "start_sample": 19586,
+          "end_sample": 73846,
+          "start_ms": 1224,
+          "end_ms": 4615
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 249,
+  "frame_labels": "jjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6351.flac",
+  "sentence": "お互いにhonestでいることが大切だと思う。",
+  "sample_rate": 16000,
+  "duration_ms": 2899,
+  "reference_speaker": "jp/speaker_008_925570fa5738.mp3",
+  "seed": 6393,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "お互いに",
+      "start_sample": 0,
+      "end_sample": 8514,
+      "start_ms": 0,
+      "end_ms": 532
+    },
+    {
+      "lang": "en",
+      "text": "honest",
+      "start_sample": 8514,
+      "end_sample": 19646,
+      "start_ms": 532,
+      "end_ms": 1228
+    },
+    {
+      "lang": "ja",
+      "text": "でいることが大切だと思う。",
+      "start_sample": 19646,
+      "end_sample": 46390,
+      "start_ms": 1228,
+      "end_ms": 2899
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "o tagai ni honest de iru koto ga taisetsu da to omou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6586,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お互いに",
+          "start_sample": 0,
+          "end_sample": 35073,
+          "start_ms": 0,
+          "end_ms": 2192
+        },
+        {
+          "lang": "en",
+          "text": "honest",
+          "start_sample": 35073,
+          "end_sample": 46605,
+          "start_ms": 2192,
+          "end_ms": 2913
+        },
+        {
+          "lang": "ja",
+          "text": "でいることが大切だと思う。",
+          "start_sample": 46605,
+          "end_sample": 105382,
+          "start_ms": 2913,
+          "end_ms": 6586
+        }
+      ]
+    },
+    "ja": {
+      "text": "お互いにhonestでいることが大切だと思う。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2642,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お互いに",
+          "start_sample": 0,
+          "end_sample": 8714,
+          "start_ms": 0,
+          "end_ms": 545
+        },
+        {
+          "lang": "en",
+          "text": "honest",
+          "start_sample": 8714,
+          "end_sample": 15332,
+          "start_ms": 545,
+          "end_ms": 958
+        },
+        {
+          "lang": "ja",
+          "text": "でいることが大切だと思う。",
+          "start_sample": 15332,
+          "end_sample": 42276,
+          "start_ms": 958,
+          "end_ms": 2642
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 145,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs7220.flac",
+  "sentence": "I love how 静か the garden is just before sunrise.",
+  "sample_rate": 16000,
+  "duration_ms": 4044,
+  "reference_speaker": "jp/speaker_065_12fed3376ff0.mp3",
+  "seed": 7262,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I love how",
+      "start_sample": 0,
+      "end_sample": 12319,
+      "start_ms": 0,
+      "end_ms": 770
+    },
+    {
+      "lang": "ja",
+      "text": "静か",
+      "start_sample": 12319,
+      "end_sample": 21248,
+      "start_ms": 770,
+      "end_ms": 1328
+    },
+    {
+      "lang": "en",
+      "text": "the garden is just before sunrise.",
+      "start_sample": 21248,
+      "end_sample": 64712,
+      "start_ms": 1328,
+      "end_ms": 4044
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I love how shizuka the garden is just before sunrise.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4615,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I love how",
+          "start_sample": 0,
+          "end_sample": 12519,
+          "start_ms": 0,
+          "end_ms": 782
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 12519,
+          "end_sample": 30179,
+          "start_ms": 782,
+          "end_ms": 1886
+        },
+        {
+          "lang": "en",
+          "text": "the garden is just before sunrise.",
+          "start_sample": 30179,
+          "end_sample": 73843,
+          "start_ms": 1886,
+          "end_ms": 4615
+        }
+      ]
+    },
+    "ja": {
+      "text": "I love how 静か the garden is just before sunrise.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3538,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I love how",
+          "start_sample": 0,
+          "end_sample": 9966,
+          "start_ms": 0,
+          "end_ms": 623
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 9966,
+          "end_sample": 19295,
+          "start_ms": 623,
+          "end_ms": 1206
+        },
+        {
+          "lang": "en",
+          "text": "the garden is just before sunrise.",
+          "start_sample": 19295,
+          "end_sample": 56604,
+          "start_ms": 1206,
+          "end_ms": 3538
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

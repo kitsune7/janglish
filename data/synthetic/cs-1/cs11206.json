@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs11206.flac",
+  "sentence": "このcourier会社はいつも時間通りに届けてくれます。",
+  "sample_rate": 16000,
+  "duration_ms": 3907,
+  "reference_speaker": "en/speaker_077_cf8a4971b1d4.mp3",
+  "seed": 11248,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3806,
+      "start_ms": 0,
+      "end_ms": 238
+    },
+    {
+      "lang": "en",
+      "text": "courier",
+      "start_sample": 3806,
+      "end_sample": 12709,
+      "start_ms": 238,
+      "end_ms": 794
+    },
+    {
+      "lang": "ja",
+      "text": "会社はいつも時間通りに届けてくれます。",
+      "start_sample": 12709,
+      "end_sample": 62512,
+      "start_ms": 794,
+      "end_ms": 3907
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono courier kaisha ha itsu mo jikan touri ni todoke te kure masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7418,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5773,
+          "start_ms": 0,
+          "end_ms": 361
+        },
+        {
+          "lang": "en",
+          "text": "courier",
+          "start_sample": 5773,
+          "end_sample": 15076,
+          "start_ms": 361,
+          "end_ms": 942
+        },
+        {
+          "lang": "ja",
+          "text": "会社はいつも時間通りに届けてくれます。",
+          "start_sample": 15076,
+          "end_sample": 118687,
+          "start_ms": 942,
+          "end_ms": 7418
+        }
+      ]
+    },
+    "ja": {
+      "text": "このcourier会社はいつも時間通りに届けてくれます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3866,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4006,
+          "start_ms": 0,
+          "end_ms": 250
+        },
+        {
+          "lang": "en",
+          "text": "courier",
+          "start_sample": 4006,
+          "end_sample": 11860,
+          "start_ms": 250,
+          "end_ms": 741
+        },
+        {
+          "lang": "ja",
+          "text": "会社はいつも時間通りに届けてくれます。",
+          "start_sample": 11860,
+          "end_sample": 61863,
+          "start_ms": 741,
+          "end_ms": 3866
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "jjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

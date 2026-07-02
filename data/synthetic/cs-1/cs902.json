@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/cs902.flac",
+  "sentence": "diningエリアと喫煙スペースは分かれています。",
+  "sample_rate": 16000,
+  "duration_ms": 2894,
+  "reference_speaker": "en/speaker_004_1a0446d48b2f.mp3",
+  "seed": 944,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "dining",
+      "start_sample": 0,
+      "end_sample": 6845,
+      "start_ms": 0,
+      "end_ms": 428
+    },
+    {
+      "lang": "ja",
+      "text": "エリアと喫煙スペースは分かれています。",
+      "start_sample": 6845,
+      "end_sample": 46311,
+      "start_ms": 428,
+      "end_ms": 2894
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "dining eria to kitsuen supeesu ha wakare te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6805,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "dining",
+          "start_sample": 0,
+          "end_sample": 7045,
+          "start_ms": 0,
+          "end_ms": 440
+        },
+        {
+          "lang": "ja",
+          "text": "エリアと喫煙スペースは分かれています。",
+          "start_sample": 7045,
+          "end_sample": 108882,
+          "start_ms": 440,
+          "end_ms": 6805
+        }
+      ]
+    },
+    "ja": {
+      "text": "diningエリアと喫煙スペースは分かれています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3071,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "dining",
+          "start_sample": 0,
+          "end_sample": 9471,
+          "start_ms": 0,
+          "end_ms": 592
+        },
+        {
+          "lang": "ja",
+          "text": "エリアと喫煙スペースは分かれています。",
+          "start_sample": 9471,
+          "end_sample": 49137,
+          "start_ms": 592,
+          "end_ms": 3071
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 145,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

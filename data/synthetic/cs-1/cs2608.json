@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2608.flac",
+  "sentence": "I missed the 急行 by about thirty seconds this morning.",
+  "sample_rate": 16000,
+  "duration_ms": 4238,
+  "reference_speaker": "en/speaker_087_5027771311b0.mp3",
+  "seed": 2650,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I missed the",
+      "start_sample": 0,
+      "end_sample": 8609,
+      "start_ms": 0,
+      "end_ms": 538
+    },
+    {
+      "lang": "ja",
+      "text": "急行",
+      "start_sample": 8609,
+      "end_sample": 18981,
+      "start_ms": 538,
+      "end_ms": 1186
+    },
+    {
+      "lang": "en",
+      "text": "by about thirty seconds this morning.",
+      "start_sample": 18981,
+      "end_sample": 67800,
+      "start_ms": 1186,
+      "end_ms": 4238
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I missed the kyuukou by about thirty seconds this morning.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4425,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I missed the",
+          "start_sample": 0,
+          "end_sample": 8809,
+          "start_ms": 0,
+          "end_ms": 551
+        },
+        {
+          "lang": "ja",
+          "text": "急行",
+          "start_sample": 8809,
+          "end_sample": 21785,
+          "start_ms": 551,
+          "end_ms": 1362
+        },
+        {
+          "lang": "en",
+          "text": "by about thirty seconds this morning.",
+          "start_sample": 21785,
+          "end_sample": 70804,
+          "start_ms": 1362,
+          "end_ms": 4425
+        }
+      ]
+    },
+    "ja": {
+      "text": "I missed the 急行 by about thirty seconds this morning.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4562,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I missed the",
+          "start_sample": 0,
+          "end_sample": 12058,
+          "start_ms": 0,
+          "end_ms": 754
+        },
+        {
+          "lang": "ja",
+          "text": "急行",
+          "start_sample": 12058,
+          "end_sample": 22830,
+          "start_ms": 754,
+          "end_ms": 1427
+        },
+        {
+          "lang": "en",
+          "text": "by about thirty seconds this morning.",
+          "start_sample": 22830,
+          "end_sample": 72988,
+          "start_ms": 1427,
+          "end_ms": 4562
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 212,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

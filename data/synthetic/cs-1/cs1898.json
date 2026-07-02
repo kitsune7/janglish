@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs1898.flac",
+  "sentence": "She wrote a 長文 that took me ten minutes to read.",
+  "sample_rate": 16000,
+  "duration_ms": 2823,
+  "reference_speaker": "en/speaker_098_f600c480bfab.mp3",
+  "seed": 1940,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She wrote a",
+      "start_sample": 0,
+      "end_sample": 7969,
+      "start_ms": 0,
+      "end_ms": 498
+    },
+    {
+      "lang": "ja",
+      "text": "長文",
+      "start_sample": 7969,
+      "end_sample": 15898,
+      "start_ms": 498,
+      "end_ms": 994
+    },
+    {
+      "lang": "en",
+      "text": "that took me ten minutes to read.",
+      "start_sample": 15898,
+      "end_sample": 45172,
+      "start_ms": 994,
+      "end_ms": 2823
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She wrote a choubun that took me ten minutes to read.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3003,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She wrote a",
+          "start_sample": 0,
+          "end_sample": 8169,
+          "start_ms": 0,
+          "end_ms": 511
+        },
+        {
+          "lang": "ja",
+          "text": "長文",
+          "start_sample": 8169,
+          "end_sample": 18581,
+          "start_ms": 511,
+          "end_ms": 1161
+        },
+        {
+          "lang": "en",
+          "text": "that took me ten minutes to read.",
+          "start_sample": 18581,
+          "end_sample": 48055,
+          "start_ms": 1161,
+          "end_ms": 3003
+        }
+      ]
+    },
+    "ja": {
+      "text": "She wrote a 長文 that took me ten minutes to read.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3604,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She wrote a",
+          "start_sample": 0,
+          "end_sample": 16177,
+          "start_ms": 0,
+          "end_ms": 1011
+        },
+        {
+          "lang": "ja",
+          "text": "長文",
+          "start_sample": 16177,
+          "end_sample": 24506,
+          "start_ms": 1011,
+          "end_ms": 1532
+        },
+        {
+          "lang": "en",
+          "text": "that took me ten minutes to read.",
+          "start_sample": 24506,
+          "end_sample": 57662,
+          "start_ms": 1532,
+          "end_ms": 3604
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 142,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

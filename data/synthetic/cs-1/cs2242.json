@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs2242.flac",
+  "sentence": "His guitar tone is so 温かい, like something wrapping around your shoulders.",
+  "sample_rate": 16000,
+  "duration_ms": 4887,
+  "reference_speaker": "jp/speaker_018_b5ccf3bf7c65.mp3",
+  "seed": 2284,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His guitar tone is so",
+      "start_sample": 0,
+      "end_sample": 30387,
+      "start_ms": 0,
+      "end_ms": 1899
+    },
+    {
+      "lang": "ja",
+      "text": "温かい,",
+      "start_sample": 30387,
+      "end_sample": 42033,
+      "start_ms": 1899,
+      "end_ms": 2627
+    },
+    {
+      "lang": "en",
+      "text": "like something wrapping around your shoulders.",
+      "start_sample": 42033,
+      "end_sample": 78186,
+      "start_ms": 2627,
+      "end_ms": 4887
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His guitar tone is so atatakai like something wrapping around your shoulders.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5705,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His guitar tone is so",
+          "start_sample": 0,
+          "end_sample": 30587,
+          "start_ms": 0,
+          "end_ms": 1912
+        },
+        {
+          "lang": "ja",
+          "text": "温かい,",
+          "start_sample": 30587,
+          "end_sample": 54929,
+          "start_ms": 1912,
+          "end_ms": 3433
+        },
+        {
+          "lang": "en",
+          "text": "like something wrapping around your shoulders.",
+          "start_sample": 54929,
+          "end_sample": 91282,
+          "start_ms": 3433,
+          "end_ms": 5705
+        }
+      ]
+    },
+    "ja": {
+      "text": "His guitar tone is so 温かい, like something wrapping around your shoulders.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5219,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His guitar tone is so",
+          "start_sample": 0,
+          "end_sample": 21678,
+          "start_ms": 0,
+          "end_ms": 1355
+        },
+        {
+          "lang": "ja",
+          "text": "温かい,",
+          "start_sample": 21678,
+          "end_sample": 33724,
+          "start_ms": 1355,
+          "end_ms": 2108
+        },
+        {
+          "lang": "en",
+          "text": "like something wrapping around your shoulders.",
+          "start_sample": 33724,
+          "end_sample": 83510,
+          "start_ms": 2108,
+          "end_ms": 5219
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 245,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

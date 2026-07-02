@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs6188.flac",
+  "sentence": "このsoftwareはインストールするのが難しいです。",
+  "sample_rate": 16000,
+  "duration_ms": 3916,
+  "reference_speaker": "en/speaker_086_0a418a567872.mp3",
+  "seed": 6230,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 4619,
+      "start_ms": 0,
+      "end_ms": 289
+    },
+    {
+      "lang": "en",
+      "text": "software",
+      "start_sample": 4619,
+      "end_sample": 22819,
+      "start_ms": 289,
+      "end_ms": 1426
+    },
+    {
+      "lang": "ja",
+      "text": "はインストールするのが難しいです。",
+      "start_sample": 22819,
+      "end_sample": 62648,
+      "start_ms": 1426,
+      "end_ms": 3916
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono software ha insutooru suru no ga muzukashii desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7315,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5771,
+          "start_ms": 0,
+          "end_ms": 361
+        },
+        {
+          "lang": "en",
+          "text": "software",
+          "start_sample": 5771,
+          "end_sample": 24371,
+          "start_ms": 361,
+          "end_ms": 1523
+        },
+        {
+          "lang": "ja",
+          "text": "はインストールするのが難しいです。",
+          "start_sample": 24371,
+          "end_sample": 117043,
+          "start_ms": 1523,
+          "end_ms": 7315
+        }
+      ]
+    },
+    "ja": {
+      "text": "このsoftwareはインストールするのが難しいです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3396,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4819,
+          "start_ms": 0,
+          "end_ms": 301
+        },
+        {
+          "lang": "en",
+          "text": "software",
+          "start_sample": 4819,
+          "end_sample": 14305,
+          "start_ms": 301,
+          "end_ms": 894
+        },
+        {
+          "lang": "ja",
+          "text": "はインストールするのが難しいです。",
+          "start_sample": 14305,
+          "end_sample": 54334,
+          "start_ms": 894,
+          "end_ms": 3396
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "jjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

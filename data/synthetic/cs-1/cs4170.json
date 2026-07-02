@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4170.flac",
+  "sentence": "義父はとてもsupportiveで、私たちの決断をいつも尊重してくれる。",
+  "sample_rate": 16000,
+  "duration_ms": 4198,
+  "reference_speaker": "jp/speaker_030_78b8d1b530d5.mp3",
+  "seed": 4212,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "義父はとても",
+      "start_sample": 0,
+      "end_sample": 13142,
+      "start_ms": 0,
+      "end_ms": 821
+    },
+    {
+      "lang": "en",
+      "text": "supportive",
+      "start_sample": 13142,
+      "end_sample": 22685,
+      "start_ms": 821,
+      "end_ms": 1418
+    },
+    {
+      "lang": "ja",
+      "text": "で、私たちの決断をいつも尊重してくれる。",
+      "start_sample": 22685,
+      "end_sample": 67172,
+      "start_ms": 1418,
+      "end_ms": 4198
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "gifu ha totemo supportive de watashi tachi no ketsudan wo itsu mo sonchou shi te kureru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7698,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "義父はとても",
+          "start_sample": 0,
+          "end_sample": 40574,
+          "start_ms": 0,
+          "end_ms": 2536
+        },
+        {
+          "lang": "en",
+          "text": "supportive",
+          "start_sample": 40574,
+          "end_sample": 50517,
+          "start_ms": 2536,
+          "end_ms": 3157
+        },
+        {
+          "lang": "ja",
+          "text": "で、私たちの決断をいつも尊重してくれる。",
+          "start_sample": 50517,
+          "end_sample": 123166,
+          "start_ms": 3157,
+          "end_ms": 7698
+        }
+      ]
+    },
+    "ja": {
+      "text": "義父はとてもsupportiveで、私たちの決断をいつも尊重してくれる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4360,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "義父はとても",
+          "start_sample": 0,
+          "end_sample": 13342,
+          "start_ms": 0,
+          "end_ms": 834
+        },
+        {
+          "lang": "en",
+          "text": "supportive",
+          "start_sample": 13342,
+          "end_sample": 25078,
+          "start_ms": 834,
+          "end_ms": 1567
+        },
+        {
+          "lang": "ja",
+          "text": "で、私たちの決断をいつも尊重してくれる。",
+          "start_sample": 25078,
+          "end_sample": 69765,
+          "start_ms": 1567,
+          "end_ms": 4360
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

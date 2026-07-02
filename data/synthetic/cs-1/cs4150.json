@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4150.flac",
+  "sentence": "いとこの結婚式のspeechで思わず泣いてしまった。",
+  "sample_rate": 16000,
+  "duration_ms": 3134,
+  "reference_speaker": "jp/speaker_008_925570fa5738.mp3",
+  "seed": 4192,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "いとこの結婚式の",
+      "start_sample": 0,
+      "end_sample": 20218,
+      "start_ms": 0,
+      "end_ms": 1264
+    },
+    {
+      "lang": "en",
+      "text": "speech",
+      "start_sample": 20218,
+      "end_sample": 27354,
+      "start_ms": 1264,
+      "end_ms": 1710
+    },
+    {
+      "lang": "ja",
+      "text": "で思わず泣いてしまった。",
+      "start_sample": 27354,
+      "end_sample": 50141,
+      "start_ms": 1710,
+      "end_ms": 3134
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "itoko no kekkon shiki no speech de omowa zu nai te shimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6153,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "いとこの結婚式の",
+          "start_sample": 0,
+          "end_sample": 36234,
+          "start_ms": 0,
+          "end_ms": 2265
+        },
+        {
+          "lang": "en",
+          "text": "speech",
+          "start_sample": 36234,
+          "end_sample": 43770,
+          "start_ms": 2265,
+          "end_ms": 2736
+        },
+        {
+          "lang": "ja",
+          "text": "で思わず泣いてしまった。",
+          "start_sample": 43770,
+          "end_sample": 98441,
+          "start_ms": 2736,
+          "end_ms": 6153
+        }
+      ]
+    },
+    "ja": {
+      "text": "いとこの結婚式のspeechで思わず泣いてしまった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3135,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "いとこの結婚式の",
+          "start_sample": 0,
+          "end_sample": 20418,
+          "start_ms": 0,
+          "end_ms": 1276
+        },
+        {
+          "lang": "en",
+          "text": "speech",
+          "start_sample": 20418,
+          "end_sample": 27171,
+          "start_ms": 1276,
+          "end_ms": 1698
+        },
+        {
+          "lang": "ja",
+          "text": "で思わず泣いてしまった。",
+          "start_sample": 27171,
+          "end_sample": 50158,
+          "start_ms": 1698,
+          "end_ms": 3135
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 157,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

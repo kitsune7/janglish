@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs9630.flac",
+  "sentence": "He spoke in a really 穏やか tone during the whole call.",
+  "sample_rate": 16000,
+  "duration_ms": 3002,
+  "reference_speaker": "en/speaker_060_be3496638824.mp3",
+  "seed": 9672,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He spoke in a really",
+      "start_sample": 0,
+      "end_sample": 18760,
+      "start_ms": 0,
+      "end_ms": 1172
+    },
+    {
+      "lang": "ja",
+      "text": "穏やか",
+      "start_sample": 18760,
+      "end_sample": 26053,
+      "start_ms": 1172,
+      "end_ms": 1628
+    },
+    {
+      "lang": "en",
+      "text": "tone during the whole call.",
+      "start_sample": 26053,
+      "end_sample": 48024,
+      "start_ms": 1628,
+      "end_ms": 3002
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He spoke in a really odayaka tone during the whole call.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3254,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He spoke in a really",
+          "start_sample": 0,
+          "end_sample": 18960,
+          "start_ms": 0,
+          "end_ms": 1185
+        },
+        {
+          "lang": "ja",
+          "text": "穏やか",
+          "start_sample": 18960,
+          "end_sample": 29887,
+          "start_ms": 1185,
+          "end_ms": 1868
+        },
+        {
+          "lang": "en",
+          "text": "tone during the whole call.",
+          "start_sample": 29887,
+          "end_sample": 52058,
+          "start_ms": 1868,
+          "end_ms": 3254
+        }
+      ]
+    },
+    "ja": {
+      "text": "He spoke in a really 穏やか tone during the whole call.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3826,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He spoke in a really",
+          "start_sample": 0,
+          "end_sample": 22277,
+          "start_ms": 0,
+          "end_ms": 1392
+        },
+        {
+          "lang": "ja",
+          "text": "穏やか",
+          "start_sample": 22277,
+          "end_sample": 29970,
+          "start_ms": 1392,
+          "end_ms": 1873
+        },
+        {
+          "lang": "en",
+          "text": "tone during the whole call.",
+          "start_sample": 29970,
+          "end_sample": 61222,
+          "start_ms": 1873,
+          "end_ms": 3826
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 151,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs162.flac",
+  "sentence": "This tiny 角打ち is such a 掘り出し物 find on this street.",
+  "sample_rate": 16000,
+  "duration_ms": 4120,
+  "reference_speaker": "jp/speaker_070_8f5dfeca773f.mp3",
+  "seed": 17017,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This tiny",
+      "start_sample": 0,
+      "end_sample": 12304,
+      "start_ms": 0,
+      "end_ms": 769
+    },
+    {
+      "lang": "ja",
+      "text": "角打ち",
+      "start_sample": 12304,
+      "end_sample": 23459,
+      "start_ms": 769,
+      "end_ms": 1466
+    },
+    {
+      "lang": "en",
+      "text": "is such a",
+      "start_sample": 23459,
+      "end_sample": 31876,
+      "start_ms": 1466,
+      "end_ms": 1992
+    },
+    {
+      "lang": "ja",
+      "text": "掘り出し物",
+      "start_sample": 31876,
+      "end_sample": 46401,
+      "start_ms": 1992,
+      "end_ms": 2900
+    },
+    {
+      "lang": "en",
+      "text": "find on this street.",
+      "start_sample": 46401,
+      "end_sample": 65918,
+      "start_ms": 2900,
+      "end_ms": 4120
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This tiny kakuuchi is such a horidashi mono find on this street.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4288,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This tiny",
+          "start_sample": 0,
+          "end_sample": 12504,
+          "start_ms": 0,
+          "end_ms": 782
+        },
+        {
+          "lang": "ja",
+          "text": "角打ち",
+          "start_sample": 12504,
+          "end_sample": 23085,
+          "start_ms": 782,
+          "end_ms": 1443
+        },
+        {
+          "lang": "en",
+          "text": "is such a",
+          "start_sample": 23085,
+          "end_sample": 31902,
+          "start_ms": 1443,
+          "end_ms": 1994
+        },
+        {
+          "lang": "ja",
+          "text": "掘り出し物",
+          "start_sample": 31902,
+          "end_sample": 48895,
+          "start_ms": 1994,
+          "end_ms": 3056
+        },
+        {
+          "lang": "en",
+          "text": "find on this street.",
+          "start_sample": 48895,
+          "end_sample": 68612,
+          "start_ms": 3056,
+          "end_ms": 4288
+        }
+      ]
+    },
+    "ja": {
+      "text": "This tiny 角打ち is such a 掘り出し物 find on this street.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4694,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This tiny",
+          "start_sample": 0,
+          "end_sample": 11875,
+          "start_ms": 0,
+          "end_ms": 742
+        },
+        {
+          "lang": "ja",
+          "text": "角打ち",
+          "start_sample": 11875,
+          "end_sample": 23430,
+          "start_ms": 742,
+          "end_ms": 1464
+        },
+        {
+          "lang": "en",
+          "text": "is such a",
+          "start_sample": 23430,
+          "end_sample": 37071,
+          "start_ms": 1464,
+          "end_ms": 2317
+        },
+        {
+          "lang": "ja",
+          "text": "掘り出し物",
+          "start_sample": 37071,
+          "end_sample": 51996,
+          "start_ms": 2317,
+          "end_ms": 3250
+        },
+        {
+          "lang": "en",
+          "text": "find on this street.",
+          "start_sample": 51996,
+          "end_sample": 75103,
+          "start_ms": 3250,
+          "end_ms": 4694
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 206,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs3125.flac",
+  "sentence": "The interviewer's 質問 about five-year plans caught him completely off guard.",
+  "sample_rate": 16000,
+  "duration_ms": 4152,
+  "reference_speaker": "en/speaker_030_bdb9e7b61df6.mp3",
+  "seed": 3167,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The interviewer's",
+      "start_sample": 0,
+      "end_sample": 11385,
+      "start_ms": 0,
+      "end_ms": 712
+    },
+    {
+      "lang": "ja",
+      "text": "質問",
+      "start_sample": 11385,
+      "end_sample": 21097,
+      "start_ms": 712,
+      "end_ms": 1319
+    },
+    {
+      "lang": "en",
+      "text": "about five-year plans caught him completely off guard.",
+      "start_sample": 21097,
+      "end_sample": 66431,
+      "start_ms": 1319,
+      "end_ms": 4152
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The interviewer's shitsumon about five-year plans caught him completely off guard.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4123,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The interviewer's",
+          "start_sample": 0,
+          "end_sample": 11585,
+          "start_ms": 0,
+          "end_ms": 724
+        },
+        {
+          "lang": "ja",
+          "text": "質問",
+          "start_sample": 11585,
+          "end_sample": 20435,
+          "start_ms": 724,
+          "end_ms": 1277
+        },
+        {
+          "lang": "en",
+          "text": "about five-year plans caught him completely off guard.",
+          "start_sample": 20435,
+          "end_sample": 65969,
+          "start_ms": 1277,
+          "end_ms": 4123
+        }
+      ]
+    },
+    "ja": {
+      "text": "The interviewer's 質問 about five-year plans caught him completely off guard.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4915,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The interviewer's",
+          "start_sample": 0,
+          "end_sample": 19741,
+          "start_ms": 0,
+          "end_ms": 1234
+        },
+        {
+          "lang": "ja",
+          "text": "質問",
+          "start_sample": 19741,
+          "end_sample": 29853,
+          "start_ms": 1234,
+          "end_ms": 1866
+        },
+        {
+          "lang": "en",
+          "text": "about five-year plans caught him completely off guard.",
+          "start_sample": 29853,
+          "end_sample": 78642,
+          "start_ms": 1866,
+          "end_ms": 4915
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

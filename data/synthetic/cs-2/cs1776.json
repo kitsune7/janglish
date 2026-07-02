@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs1776.flac",
+  "sentence": "Walking along the 川沿い path is 爽快 on a clear morning like this.",
+  "sample_rate": 16000,
+  "duration_ms": 4637,
+  "reference_speaker": "jp/speaker_030_78b8d1b530d5.mp3",
+  "seed": 18631,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Walking along the",
+      "start_sample": 0,
+      "end_sample": 16346,
+      "start_ms": 0,
+      "end_ms": 1022
+    },
+    {
+      "lang": "ja",
+      "text": "川沿い",
+      "start_sample": 16346,
+      "end_sample": 25568,
+      "start_ms": 1022,
+      "end_ms": 1598
+    },
+    {
+      "lang": "en",
+      "text": "path is",
+      "start_sample": 25568,
+      "end_sample": 40593,
+      "start_ms": 1598,
+      "end_ms": 2537
+    },
+    {
+      "lang": "ja",
+      "text": "爽快",
+      "start_sample": 40593,
+      "end_sample": 48694,
+      "start_ms": 2537,
+      "end_ms": 3043
+    },
+    {
+      "lang": "en",
+      "text": "on a clear morning like this.",
+      "start_sample": 48694,
+      "end_sample": 74199,
+      "start_ms": 3043,
+      "end_ms": 4637
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Walking along the kawa soi path is soukai on a clear morning like this.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5483,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Walking along the",
+          "start_sample": 0,
+          "end_sample": 16546,
+          "start_ms": 0,
+          "end_ms": 1034
+        },
+        {
+          "lang": "ja",
+          "text": "川沿い",
+          "start_sample": 16546,
+          "end_sample": 36149,
+          "start_ms": 1034,
+          "end_ms": 2259
+        },
+        {
+          "lang": "en",
+          "text": "path is",
+          "start_sample": 36149,
+          "end_sample": 51574,
+          "start_ms": 2259,
+          "end_ms": 3223
+        },
+        {
+          "lang": "ja",
+          "text": "爽快",
+          "start_sample": 51574,
+          "end_sample": 62019,
+          "start_ms": 3223,
+          "end_ms": 3876
+        },
+        {
+          "lang": "en",
+          "text": "on a clear morning like this.",
+          "start_sample": 62019,
+          "end_sample": 87724,
+          "start_ms": 3876,
+          "end_ms": 5483
+        }
+      ]
+    },
+    "ja": {
+      "text": "Walking along the 川沿い path is 爽快 on a clear morning like this.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4971,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Walking along the",
+          "start_sample": 0,
+          "end_sample": 21971,
+          "start_ms": 0,
+          "end_ms": 1373
+        },
+        {
+          "lang": "ja",
+          "text": "川沿い",
+          "start_sample": 21971,
+          "end_sample": 31593,
+          "start_ms": 1373,
+          "end_ms": 1975
+        },
+        {
+          "lang": "en",
+          "text": "path is",
+          "start_sample": 31593,
+          "end_sample": 40092,
+          "start_ms": 1975,
+          "end_ms": 2506
+        },
+        {
+          "lang": "ja",
+          "text": "爽快",
+          "start_sample": 40092,
+          "end_sample": 48593,
+          "start_ms": 2506,
+          "end_ms": 3037
+        },
+        {
+          "lang": "en",
+          "text": "on a clear morning like this.",
+          "start_sample": 48593,
+          "end_sample": 79543,
+          "start_ms": 3037,
+          "end_ms": 4971
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 232,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

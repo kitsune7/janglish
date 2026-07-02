@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs1693.flac",
+  "sentence": "She pulled into the 路肩 and took a 一息 before continuing the long drive home.",
+  "sample_rate": 16000,
+  "duration_ms": 4583,
+  "reference_speaker": "en/speaker_001_b06ec2cd8db9.mp3",
+  "seed": 18548,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She pulled into the",
+      "start_sample": 0,
+      "end_sample": 13280,
+      "start_ms": 0,
+      "end_ms": 830
+    },
+    {
+      "lang": "ja",
+      "text": "路肩",
+      "start_sample": 13280,
+      "end_sample": 23139,
+      "start_ms": 830,
+      "end_ms": 1446
+    },
+    {
+      "lang": "en",
+      "text": "and took a",
+      "start_sample": 23139,
+      "end_sample": 34935,
+      "start_ms": 1446,
+      "end_ms": 2183
+    },
+    {
+      "lang": "ja",
+      "text": "一息",
+      "start_sample": 34935,
+      "end_sample": 42390,
+      "start_ms": 2183,
+      "end_ms": 2649
+    },
+    {
+      "lang": "en",
+      "text": "before continuing the long drive home.",
+      "start_sample": 42390,
+      "end_sample": 73321,
+      "start_ms": 2649,
+      "end_ms": 4583
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She pulled into the rokata and took a hitoiki before continuing the long drive home.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4955,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She pulled into the",
+          "start_sample": 0,
+          "end_sample": 13480,
+          "start_ms": 0,
+          "end_ms": 842
+        },
+        {
+          "lang": "ja",
+          "text": "路肩",
+          "start_sample": 13480,
+          "end_sample": 26800,
+          "start_ms": 842,
+          "end_ms": 1675
+        },
+        {
+          "lang": "en",
+          "text": "and took a",
+          "start_sample": 26800,
+          "end_sample": 38996,
+          "start_ms": 1675,
+          "end_ms": 2437
+        },
+        {
+          "lang": "ja",
+          "text": "一息",
+          "start_sample": 38996,
+          "end_sample": 48144,
+          "start_ms": 2437,
+          "end_ms": 3009
+        },
+        {
+          "lang": "en",
+          "text": "before continuing the long drive home.",
+          "start_sample": 48144,
+          "end_sample": 79275,
+          "start_ms": 3009,
+          "end_ms": 4955
+        }
+      ]
+    },
+    "ja": {
+      "text": "She pulled into the 路肩 and took a 一息 before continuing the long drive home.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5490,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She pulled into the",
+          "start_sample": 0,
+          "end_sample": 19716,
+          "start_ms": 0,
+          "end_ms": 1232
+        },
+        {
+          "lang": "ja",
+          "text": "路肩",
+          "start_sample": 19716,
+          "end_sample": 29975,
+          "start_ms": 1232,
+          "end_ms": 1873
+        },
+        {
+          "lang": "en",
+          "text": "and took a",
+          "start_sample": 29975,
+          "end_sample": 41357,
+          "start_ms": 1873,
+          "end_ms": 2585
+        },
+        {
+          "lang": "ja",
+          "text": "一息",
+          "start_sample": 41357,
+          "end_sample": 49212,
+          "start_ms": 2585,
+          "end_ms": 3076
+        },
+        {
+          "lang": "en",
+          "text": "before continuing the long drive home.",
+          "start_sample": 49212,
+          "end_sample": 87844,
+          "start_ms": 3076,
+          "end_ms": 5490
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 230,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

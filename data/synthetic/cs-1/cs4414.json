@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4414.flac",
+  "sentence": "She left her 財布 in the hotel safe and nearly had a panic attack at the airport.",
+  "sample_rate": 16000,
+  "duration_ms": 5700,
+  "reference_speaker": "jp/speaker_079_e96ebb016d7a.mp3",
+  "seed": 4456,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She left her",
+      "start_sample": 0,
+      "end_sample": 7491,
+      "start_ms": 0,
+      "end_ms": 468
+    },
+    {
+      "lang": "ja",
+      "text": "財布",
+      "start_sample": 7491,
+      "end_sample": 15113,
+      "start_ms": 468,
+      "end_ms": 945
+    },
+    {
+      "lang": "en",
+      "text": "in the hotel safe and nearly had a panic attack at the airport.",
+      "start_sample": 15113,
+      "end_sample": 91193,
+      "start_ms": 945,
+      "end_ms": 5700
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She left her saifu in the hotel safe and nearly had a panic attack at the airport.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5649,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She left her",
+          "start_sample": 0,
+          "end_sample": 7691,
+          "start_ms": 0,
+          "end_ms": 481
+        },
+        {
+          "lang": "ja",
+          "text": "財布",
+          "start_sample": 7691,
+          "end_sample": 14101,
+          "start_ms": 481,
+          "end_ms": 881
+        },
+        {
+          "lang": "en",
+          "text": "in the hotel safe and nearly had a panic attack at the airport.",
+          "start_sample": 14101,
+          "end_sample": 90381,
+          "start_ms": 881,
+          "end_ms": 5649
+        }
+      ]
+    },
+    "ja": {
+      "text": "She left her 財布 in the hotel safe and nearly had a panic attack at the airport.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7400,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She left her",
+          "start_sample": 0,
+          "end_sample": 13956,
+          "start_ms": 0,
+          "end_ms": 872
+        },
+        {
+          "lang": "ja",
+          "text": "財布",
+          "start_sample": 13956,
+          "end_sample": 21978,
+          "start_ms": 872,
+          "end_ms": 1374
+        },
+        {
+          "lang": "en",
+          "text": "in the hotel safe and nearly had a panic attack at the airport.",
+          "start_sample": 21978,
+          "end_sample": 118402,
+          "start_ms": 1374,
+          "end_ms": 7400
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 285,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

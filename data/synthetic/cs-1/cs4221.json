@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs4221.flac",
+  "sentence": "What a 豊か harvest we got from the vegetable patch this year!",
+  "sample_rate": 16000,
+  "duration_ms": 3878,
+  "reference_speaker": "en/speaker_003_7963691c43c8.mp3",
+  "seed": 4263,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "What a",
+      "start_sample": 0,
+      "end_sample": 5729,
+      "start_ms": 0,
+      "end_ms": 358
+    },
+    {
+      "lang": "ja",
+      "text": "豊か",
+      "start_sample": 5729,
+      "end_sample": 18179,
+      "start_ms": 358,
+      "end_ms": 1136
+    },
+    {
+      "lang": "en",
+      "text": "harvest we got from the vegetable patch this year!",
+      "start_sample": 18179,
+      "end_sample": 62052,
+      "start_ms": 1136,
+      "end_ms": 3878
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "What a yutaka harvest we got from the vegetable patch this year!",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3766,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "What a",
+          "start_sample": 0,
+          "end_sample": 5929,
+          "start_ms": 0,
+          "end_ms": 371
+        },
+        {
+          "lang": "ja",
+          "text": "豊か",
+          "start_sample": 5929,
+          "end_sample": 16187,
+          "start_ms": 371,
+          "end_ms": 1012
+        },
+        {
+          "lang": "en",
+          "text": "harvest we got from the vegetable patch this year!",
+          "start_sample": 16187,
+          "end_sample": 60260,
+          "start_ms": 1012,
+          "end_ms": 3766
+        }
+      ]
+    },
+    "ja": {
+      "text": "What a 豊か harvest we got from the vegetable patch this year!",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5682,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "What a",
+          "start_sample": 0,
+          "end_sample": 5621,
+          "start_ms": 0,
+          "end_ms": 351
+        },
+        {
+          "lang": "ja",
+          "text": "豊か",
+          "start_sample": 5621,
+          "end_sample": 18471,
+          "start_ms": 351,
+          "end_ms": 1154
+        },
+        {
+          "lang": "en",
+          "text": "harvest we got from the vegetable patch this year!",
+          "start_sample": 18471,
+          "end_sample": 90911,
+          "start_ms": 1154,
+          "end_ms": 5682
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 194,
+  "frame_labels": "eeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

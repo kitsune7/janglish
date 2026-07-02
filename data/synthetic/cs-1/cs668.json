@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/cs668.flac",
+  "sentence": "このソテーはgarlic風味が効いていて、食欲が止まりません。",
+  "sample_rate": 16000,
+  "duration_ms": 3847,
+  "reference_speaker": "jp/speaker_024_53a01817659b.mp3",
+  "seed": 710,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このソテーは",
+      "start_sample": 0,
+      "end_sample": 11983,
+      "start_ms": 0,
+      "end_ms": 749
+    },
+    {
+      "lang": "en",
+      "text": "garlic",
+      "start_sample": 11983,
+      "end_sample": 20237,
+      "start_ms": 749,
+      "end_ms": 1265
+    },
+    {
+      "lang": "ja",
+      "text": "風味が効いていて、食欲が止まりません。",
+      "start_sample": 20237,
+      "end_sample": 61556,
+      "start_ms": 1265,
+      "end_ms": 3847
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono sotee ha garlic fuumi ga kii te i te shokuyoku ga domari mase n",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5048,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このソテーは",
+          "start_sample": 0,
+          "end_sample": 20993,
+          "start_ms": 0,
+          "end_ms": 1312
+        },
+        {
+          "lang": "en",
+          "text": "garlic",
+          "start_sample": 20993,
+          "end_sample": 29647,
+          "start_ms": 1312,
+          "end_ms": 1853
+        },
+        {
+          "lang": "ja",
+          "text": "風味が効いていて、食欲が止まりません。",
+          "start_sample": 29647,
+          "end_sample": 80769,
+          "start_ms": 1853,
+          "end_ms": 5048
+        }
+      ]
+    },
+    "ja": {
+      "text": "このソテーはgarlic風味が効いていて、食欲が止まりません。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4008,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このソテーは",
+          "start_sample": 0,
+          "end_sample": 12183,
+          "start_ms": 0,
+          "end_ms": 761
+        },
+        {
+          "lang": "en",
+          "text": "garlic",
+          "start_sample": 12183,
+          "end_sample": 22603,
+          "start_ms": 761,
+          "end_ms": 1413
+        },
+        {
+          "lang": "ja",
+          "text": "風味が効いていて、食欲が止まりません。",
+          "start_sample": 22603,
+          "end_sample": 64122,
+          "start_ms": 1413,
+          "end_ms": 4008
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 193,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}
