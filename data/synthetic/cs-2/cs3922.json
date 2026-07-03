@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs3922.flac",
+  "sentence": "The building's 外観 is a bit plain, but the 内装 inside is beautifully renovated.",
+  "sample_rate": 16000,
+  "duration_ms": 4975,
+  "reference_speaker": "en/speaker_090_cd7a1ed8add3.mp3",
+  "seed": 3964,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The building's",
+      "start_sample": 0,
+      "end_sample": 7824,
+      "start_ms": 0,
+      "end_ms": 489
+    },
+    {
+      "lang": "ja",
+      "text": "外観",
+      "start_sample": 7824,
+      "end_sample": 20420,
+      "start_ms": 489,
+      "end_ms": 1276
+    },
+    {
+      "lang": "en",
+      "text": "is a bit plain, but the",
+      "start_sample": 20420,
+      "end_sample": 42487,
+      "start_ms": 1276,
+      "end_ms": 2655
+    },
+    {
+      "lang": "ja",
+      "text": "内装",
+      "start_sample": 42487,
+      "end_sample": 50751,
+      "start_ms": 2655,
+      "end_ms": 3172
+    },
+    {
+      "lang": "en",
+      "text": "inside is beautifully renovated.",
+      "start_sample": 50751,
+      "end_sample": 79596,
+      "start_ms": 3172,
+      "end_ms": 4975
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The building's gaikan is a bit plain, but the naisou inside is beautifully renovated.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4774,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The building's",
+          "start_sample": 0,
+          "end_sample": 8024,
+          "start_ms": 0,
+          "end_ms": 501
+        },
+        {
+          "lang": "ja",
+          "text": "外観",
+          "start_sample": 8024,
+          "end_sample": 17653,
+          "start_ms": 501,
+          "end_ms": 1103
+        },
+        {
+          "lang": "en",
+          "text": "is a bit plain, but the",
+          "start_sample": 17653,
+          "end_sample": 40120,
+          "start_ms": 1103,
+          "end_ms": 2508
+        },
+        {
+          "lang": "ja",
+          "text": "内装",
+          "start_sample": 40120,
+          "end_sample": 47342,
+          "start_ms": 2508,
+          "end_ms": 2959
+        },
+        {
+          "lang": "en",
+          "text": "inside is beautifully renovated.",
+          "start_sample": 47342,
+          "end_sample": 76387,
+          "start_ms": 2959,
+          "end_ms": 4774
+        }
+      ]
+    },
+    "ja": {
+      "text": "The building's 外観 is a bit plain, but the 内装 inside is beautifully renovated.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6859,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The building's",
+          "start_sample": 0,
+          "end_sample": 16365,
+          "start_ms": 0,
+          "end_ms": 1023
+        },
+        {
+          "lang": "ja",
+          "text": "外観",
+          "start_sample": 16365,
+          "end_sample": 29361,
+          "start_ms": 1023,
+          "end_ms": 1835
+        },
+        {
+          "lang": "en",
+          "text": "is a bit plain, but the",
+          "start_sample": 29361,
+          "end_sample": 61449,
+          "start_ms": 1835,
+          "end_ms": 3841
+        },
+        {
+          "lang": "ja",
+          "text": "内装",
+          "start_sample": 61449,
+          "end_sample": 70113,
+          "start_ms": 3841,
+          "end_ms": 4382
+        },
+        {
+          "lang": "en",
+          "text": "inside is beautifully renovated.",
+          "start_sample": 70113,
+          "end_sample": 109741,
+          "start_ms": 4382,
+          "end_ms": 6859
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 249,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

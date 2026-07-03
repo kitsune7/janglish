@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs3773.flac",
+  "sentence": "The label was 曖昧 in two places, which is probably why the 荷物 was sent to the wrong address.",
+  "sample_rate": 16000,
+  "duration_ms": 5769,
+  "reference_speaker": "en/speaker_040_ec293248c910.mp3",
+  "seed": 3815,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The label was",
+      "start_sample": 0,
+      "end_sample": 11518,
+      "start_ms": 0,
+      "end_ms": 720
+    },
+    {
+      "lang": "ja",
+      "text": "曖昧",
+      "start_sample": 11518,
+      "end_sample": 17699,
+      "start_ms": 720,
+      "end_ms": 1106
+    },
+    {
+      "lang": "en",
+      "text": "in two places, which is probably why the",
+      "start_sample": 17699,
+      "end_sample": 61284,
+      "start_ms": 1106,
+      "end_ms": 3830
+    },
+    {
+      "lang": "ja",
+      "text": "荷物",
+      "start_sample": 61284,
+      "end_sample": 68106,
+      "start_ms": 3830,
+      "end_ms": 4257
+    },
+    {
+      "lang": "en",
+      "text": "was sent to the wrong address.",
+      "start_sample": 68106,
+      "end_sample": 92303,
+      "start_ms": 4257,
+      "end_ms": 5769
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The label was aimai in two places, which is probably why the nimotsu was sent to the wrong address.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6000,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The label was",
+          "start_sample": 0,
+          "end_sample": 11718,
+          "start_ms": 0,
+          "end_ms": 732
+        },
+        {
+          "lang": "ja",
+          "text": "曖昧",
+          "start_sample": 11718,
+          "end_sample": 17657,
+          "start_ms": 732,
+          "end_ms": 1104
+        },
+        {
+          "lang": "en",
+          "text": "in two places, which is probably why the",
+          "start_sample": 17657,
+          "end_sample": 61642,
+          "start_ms": 1104,
+          "end_ms": 3853
+        },
+        {
+          "lang": "ja",
+          "text": "荷物",
+          "start_sample": 61642,
+          "end_sample": 71595,
+          "start_ms": 3853,
+          "end_ms": 4475
+        },
+        {
+          "lang": "en",
+          "text": "was sent to the wrong address.",
+          "start_sample": 71595,
+          "end_sample": 95992,
+          "start_ms": 4475,
+          "end_ms": 6000
+        }
+      ]
+    },
+    "ja": {
+      "text": "The label was 曖昧 in two places, which is probably why the 荷物 was sent to the wrong address.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7142,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The label was",
+          "start_sample": 0,
+          "end_sample": 16210,
+          "start_ms": 0,
+          "end_ms": 1013
+        },
+        {
+          "lang": "ja",
+          "text": "曖昧",
+          "start_sample": 16210,
+          "end_sample": 22791,
+          "start_ms": 1013,
+          "end_ms": 1424
+        },
+        {
+          "lang": "en",
+          "text": "in two places, which is probably why the",
+          "start_sample": 22791,
+          "end_sample": 67410,
+          "start_ms": 1424,
+          "end_ms": 4213
+        },
+        {
+          "lang": "ja",
+          "text": "荷物",
+          "start_sample": 67410,
+          "end_sample": 74632,
+          "start_ms": 4213,
+          "end_ms": 4664
+        },
+        {
+          "lang": "en",
+          "text": "was sent to the wrong address.",
+          "start_sample": 74632,
+          "end_sample": 114273,
+          "start_ms": 4664,
+          "end_ms": 7142
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 289,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

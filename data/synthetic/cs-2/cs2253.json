@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs2253.flac",
+  "sentence": "The bank required 本人確認 before releasing the 凍結 funds.",
+  "sample_rate": 16000,
+  "duration_ms": 5418,
+  "reference_speaker": "en/speaker_094_291d9dee87c4.mp3",
+  "seed": 2295,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The bank required",
+      "start_sample": 0,
+      "end_sample": 22381,
+      "start_ms": 0,
+      "end_ms": 1399
+    },
+    {
+      "lang": "ja",
+      "text": "本人確認",
+      "start_sample": 22381,
+      "end_sample": 37379,
+      "start_ms": 1399,
+      "end_ms": 2336
+    },
+    {
+      "lang": "en",
+      "text": "before releasing the",
+      "start_sample": 37379,
+      "end_sample": 62764,
+      "start_ms": 2336,
+      "end_ms": 3923
+    },
+    {
+      "lang": "ja",
+      "text": "凍結",
+      "start_sample": 62764,
+      "end_sample": 71346,
+      "start_ms": 3923,
+      "end_ms": 4459
+    },
+    {
+      "lang": "en",
+      "text": "funds.",
+      "start_sample": 71346,
+      "end_sample": 86680,
+      "start_ms": 4459,
+      "end_ms": 5418
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The bank required honnin kakunin before releasing the touketsu funds.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6686,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bank required",
+          "start_sample": 0,
+          "end_sample": 22581,
+          "start_ms": 0,
+          "end_ms": 1411
+        },
+        {
+          "lang": "ja",
+          "text": "本人確認",
+          "start_sample": 22581,
+          "end_sample": 46925,
+          "start_ms": 1411,
+          "end_ms": 2933
+        },
+        {
+          "lang": "en",
+          "text": "before releasing the",
+          "start_sample": 46925,
+          "end_sample": 72710,
+          "start_ms": 2933,
+          "end_ms": 4544
+        },
+        {
+          "lang": "ja",
+          "text": "凍結",
+          "start_sample": 72710,
+          "end_sample": 91449,
+          "start_ms": 4544,
+          "end_ms": 5716
+        },
+        {
+          "lang": "en",
+          "text": "funds.",
+          "start_sample": 91449,
+          "end_sample": 106983,
+          "start_ms": 5716,
+          "end_ms": 6686
+        }
+      ]
+    },
+    "ja": {
+      "text": "The bank required 本人確認 before releasing the 凍結 funds.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4391,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bank required",
+          "start_sample": 0,
+          "end_sample": 19728,
+          "start_ms": 0,
+          "end_ms": 1233
+        },
+        {
+          "lang": "ja",
+          "text": "本人確認",
+          "start_sample": 19728,
+          "end_sample": 35126,
+          "start_ms": 1233,
+          "end_ms": 2195
+        },
+        {
+          "lang": "en",
+          "text": "before releasing the",
+          "start_sample": 35126,
+          "end_sample": 55015,
+          "start_ms": 2195,
+          "end_ms": 3438
+        },
+        {
+          "lang": "ja",
+          "text": "凍結",
+          "start_sample": 55015,
+          "end_sample": 63997,
+          "start_ms": 3438,
+          "end_ms": 4000
+        },
+        {
+          "lang": "en",
+          "text": "funds.",
+          "start_sample": 63997,
+          "end_sample": 70250,
+          "start_ms": 4000,
+          "end_ms": 4391
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 271,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

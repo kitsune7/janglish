@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs2905.flac",
+  "sentence": "A sudden 遅延 threw off my whole schedule and left me feeling deeply 後悔.",
+  "sample_rate": 16000,
+  "duration_ms": 5206,
+  "reference_speaker": "en/speaker_083_60e45fe6f2e9.mp3",
+  "seed": 2947,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "A sudden",
+      "start_sample": 0,
+      "end_sample": 7336,
+      "start_ms": 0,
+      "end_ms": 458
+    },
+    {
+      "lang": "ja",
+      "text": "遅延",
+      "start_sample": 7336,
+      "end_sample": 13829,
+      "start_ms": 458,
+      "end_ms": 864
+    },
+    {
+      "lang": "en",
+      "text": "threw off my whole schedule and left me feeling deeply",
+      "start_sample": 13829,
+      "end_sample": 74683,
+      "start_ms": 864,
+      "end_ms": 4668
+    },
+    {
+      "lang": "ja",
+      "text": "後悔.",
+      "start_sample": 74683,
+      "end_sample": 83299,
+      "start_ms": 4668,
+      "end_ms": 5206
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "A sudden chien threw off my whole schedule and left me feeling deeply koukai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5332,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "A sudden",
+          "start_sample": 0,
+          "end_sample": 7536,
+          "start_ms": 0,
+          "end_ms": 471
+        },
+        {
+          "lang": "ja",
+          "text": "遅延",
+          "start_sample": 7536,
+          "end_sample": 14271,
+          "start_ms": 471,
+          "end_ms": 892
+        },
+        {
+          "lang": "en",
+          "text": "threw off my whole schedule and left me feeling deeply",
+          "start_sample": 14271,
+          "end_sample": 75525,
+          "start_ms": 892,
+          "end_ms": 4720
+        },
+        {
+          "lang": "ja",
+          "text": "後悔.",
+          "start_sample": 75525,
+          "end_sample": 85304,
+          "start_ms": 4720,
+          "end_ms": 5332
+        }
+      ]
+    },
+    "ja": {
+      "text": "A sudden 遅延 threw off my whole schedule and left me feeling deeply 後悔.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6232,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "A sudden",
+          "start_sample": 0,
+          "end_sample": 9296,
+          "start_ms": 0,
+          "end_ms": 581
+        },
+        {
+          "lang": "ja",
+          "text": "遅延",
+          "start_sample": 9296,
+          "end_sample": 16189,
+          "start_ms": 581,
+          "end_ms": 1012
+        },
+        {
+          "lang": "en",
+          "text": "threw off my whole schedule and left me feeling deeply",
+          "start_sample": 16189,
+          "end_sample": 90896,
+          "start_ms": 1012,
+          "end_ms": 5681
+        },
+        {
+          "lang": "ja",
+          "text": "後悔.",
+          "start_sample": 90896,
+          "end_sample": 99712,
+          "start_ms": 5681,
+          "end_ms": 6232
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 261,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

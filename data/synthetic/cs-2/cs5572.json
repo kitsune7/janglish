@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs5572.flac",
+  "sentence": "猫がcurtainを登るのはcute だけど、困ってしまう。",
+  "sample_rate": 16000,
+  "duration_ms": 3601,
+  "reference_speaker": "en/speaker_034_add467545a59.mp3",
+  "seed": 5614,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "猫が",
+      "start_sample": 0,
+      "end_sample": 6863,
+      "start_ms": 0,
+      "end_ms": 429
+    },
+    {
+      "lang": "en",
+      "text": "curtain",
+      "start_sample": 6863,
+      "end_sample": 20735,
+      "start_ms": 429,
+      "end_ms": 1296
+    },
+    {
+      "lang": "ja",
+      "text": "を登るのは",
+      "start_sample": 20735,
+      "end_sample": 31417,
+      "start_ms": 1296,
+      "end_ms": 1964
+    },
+    {
+      "lang": "en",
+      "text": "cute",
+      "start_sample": 31417,
+      "end_sample": 38393,
+      "start_ms": 1964,
+      "end_ms": 2400
+    },
+    {
+      "lang": "ja",
+      "text": "だけど、困ってしまう。",
+      "start_sample": 38393,
+      "end_sample": 57623,
+      "start_ms": 2400,
+      "end_ms": 3601
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "neko ga curtain wo noboru no ha cute da kedo komatsu te shimau",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6474,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "猫が",
+          "start_sample": 0,
+          "end_sample": 9460,
+          "start_ms": 0,
+          "end_ms": 591
+        },
+        {
+          "lang": "en",
+          "text": "curtain",
+          "start_sample": 9460,
+          "end_sample": 23732,
+          "start_ms": 591,
+          "end_ms": 1483
+        },
+        {
+          "lang": "ja",
+          "text": "を登るのは",
+          "start_sample": 23732,
+          "end_sample": 61095,
+          "start_ms": 1483,
+          "end_ms": 3818
+        },
+        {
+          "lang": "en",
+          "text": "cute",
+          "start_sample": 61095,
+          "end_sample": 68471,
+          "start_ms": 3818,
+          "end_ms": 4279
+        },
+        {
+          "lang": "ja",
+          "text": "だけど、困ってしまう。",
+          "start_sample": 68471,
+          "end_sample": 103587,
+          "start_ms": 4279,
+          "end_ms": 6474
+        }
+      ]
+    },
+    "ja": {
+      "text": "猫がcurtainを登るのはcute だけど、困ってしまう。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3051,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "猫が",
+          "start_sample": 0,
+          "end_sample": 7063,
+          "start_ms": 0,
+          "end_ms": 441
+        },
+        {
+          "lang": "en",
+          "text": "curtain",
+          "start_sample": 7063,
+          "end_sample": 14290,
+          "start_ms": 441,
+          "end_ms": 893
+        },
+        {
+          "lang": "ja",
+          "text": "を登るのは",
+          "start_sample": 14290,
+          "end_sample": 25372,
+          "start_ms": 893,
+          "end_ms": 1586
+        },
+        {
+          "lang": "en",
+          "text": "cute",
+          "start_sample": 25372,
+          "end_sample": 29387,
+          "start_ms": 1586,
+          "end_ms": 1837
+        },
+        {
+          "lang": "ja",
+          "text": "だけど、困ってしまう。",
+          "start_sample": 29387,
+          "end_sample": 48817,
+          "start_ms": 1837,
+          "end_ms": 3051
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 181,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

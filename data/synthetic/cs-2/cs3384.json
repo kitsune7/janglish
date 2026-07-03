@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs3384.flac",
+  "sentence": "The 授業 was so 退屈 that half the class fell asleep.",
+  "sample_rate": 16000,
+  "duration_ms": 3119,
+  "reference_speaker": "en/speaker_089_6f14b0930650.mp3",
+  "seed": 3426,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1250,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "授業",
+      "start_sample": 1250,
+      "end_sample": 7914,
+      "start_ms": 78,
+      "end_ms": 495
+    },
+    {
+      "lang": "en",
+      "text": "was so",
+      "start_sample": 7914,
+      "end_sample": 14770,
+      "start_ms": 495,
+      "end_ms": 923
+    },
+    {
+      "lang": "ja",
+      "text": "退屈",
+      "start_sample": 14770,
+      "end_sample": 26251,
+      "start_ms": 923,
+      "end_ms": 1641
+    },
+    {
+      "lang": "en",
+      "text": "that half the class fell asleep.",
+      "start_sample": 26251,
+      "end_sample": 49908,
+      "start_ms": 1641,
+      "end_ms": 3119
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The jugyou was so taikutsu that half the class fell asleep.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3003,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1450,
+          "start_ms": 0,
+          "end_ms": 91
+        },
+        {
+          "lang": "ja",
+          "text": "授業",
+          "start_sample": 1450,
+          "end_sample": 7578,
+          "start_ms": 91,
+          "end_ms": 474
+        },
+        {
+          "lang": "en",
+          "text": "was so",
+          "start_sample": 7578,
+          "end_sample": 14834,
+          "start_ms": 474,
+          "end_ms": 927
+        },
+        {
+          "lang": "ja",
+          "text": "退屈",
+          "start_sample": 14834,
+          "end_sample": 24187,
+          "start_ms": 927,
+          "end_ms": 1512
+        },
+        {
+          "lang": "en",
+          "text": "that half the class fell asleep.",
+          "start_sample": 24187,
+          "end_sample": 48044,
+          "start_ms": 1512,
+          "end_ms": 3003
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 授業 was so 退屈 that half the class fell asleep.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4014,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2408,
+          "start_ms": 0,
+          "end_ms": 150
+        },
+        {
+          "lang": "ja",
+          "text": "授業",
+          "start_sample": 2408,
+          "end_sample": 9472,
+          "start_ms": 150,
+          "end_ms": 592
+        },
+        {
+          "lang": "en",
+          "text": "was so",
+          "start_sample": 9472,
+          "end_sample": 15735,
+          "start_ms": 592,
+          "end_ms": 983
+        },
+        {
+          "lang": "ja",
+          "text": "退屈",
+          "start_sample": 15735,
+          "end_sample": 27616,
+          "start_ms": 983,
+          "end_ms": 1726
+        },
+        {
+          "lang": "en",
+          "text": "that half the class fell asleep.",
+          "start_sample": 27616,
+          "end_sample": 64222,
+          "start_ms": 1726,
+          "end_ms": 4014
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 156,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

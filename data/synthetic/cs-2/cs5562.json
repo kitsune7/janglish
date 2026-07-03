@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs5562.flac",
+  "sentence": "うちのcatはいつもソファの上でlazy に寝ている。",
+  "sample_rate": 16000,
+  "duration_ms": 3296,
+  "reference_speaker": "en/speaker_072_33acedb4c9a7.mp3",
+  "seed": 5604,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "うちの",
+      "start_sample": 0,
+      "end_sample": 4788,
+      "start_ms": 0,
+      "end_ms": 299
+    },
+    {
+      "lang": "en",
+      "text": "cat",
+      "start_sample": 4788,
+      "end_sample": 10801,
+      "start_ms": 299,
+      "end_ms": 675
+    },
+    {
+      "lang": "ja",
+      "text": "はいつもソファの上で",
+      "start_sample": 10801,
+      "end_sample": 37113,
+      "start_ms": 675,
+      "end_ms": 2320
+    },
+    {
+      "lang": "en",
+      "text": "lazy",
+      "start_sample": 37113,
+      "end_sample": 42164,
+      "start_ms": 2320,
+      "end_ms": 2635
+    },
+    {
+      "lang": "ja",
+      "text": "に寝ている。",
+      "start_sample": 42164,
+      "end_sample": 52740,
+      "start_ms": 2635,
+      "end_ms": 3296
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "uchi no cat ha itsu mo sofa no ue de lazy ni ne te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5150,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちの",
+          "start_sample": 0,
+          "end_sample": 10900,
+          "start_ms": 0,
+          "end_ms": 681
+        },
+        {
+          "lang": "en",
+          "text": "cat",
+          "start_sample": 10900,
+          "end_sample": 17313,
+          "start_ms": 681,
+          "end_ms": 1082
+        },
+        {
+          "lang": "ja",
+          "text": "はいつもソファの上で",
+          "start_sample": 17313,
+          "end_sample": 61563,
+          "start_ms": 1082,
+          "end_ms": 3848
+        },
+        {
+          "lang": "en",
+          "text": "lazy",
+          "start_sample": 61563,
+          "end_sample": 67014,
+          "start_ms": 3848,
+          "end_ms": 4188
+        },
+        {
+          "lang": "ja",
+          "text": "に寝ている。",
+          "start_sample": 67014,
+          "end_sample": 82403,
+          "start_ms": 4188,
+          "end_ms": 5150
+        }
+      ]
+    },
+    "ja": {
+      "text": "うちのcatはいつもソファの上でlazy に寝ている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3379,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちの",
+          "start_sample": 0,
+          "end_sample": 4988,
+          "start_ms": 0,
+          "end_ms": 312
+        },
+        {
+          "lang": "en",
+          "text": "cat",
+          "start_sample": 4988,
+          "end_sample": 9493,
+          "start_ms": 312,
+          "end_ms": 593
+        },
+        {
+          "lang": "ja",
+          "text": "はいつもソファの上で",
+          "start_sample": 9493,
+          "end_sample": 36205,
+          "start_ms": 593,
+          "end_ms": 2263
+        },
+        {
+          "lang": "en",
+          "text": "lazy",
+          "start_sample": 36205,
+          "end_sample": 43285,
+          "start_ms": 2263,
+          "end_ms": 2705
+        },
+        {
+          "lang": "ja",
+          "text": "に寝ている。",
+          "start_sample": 43285,
+          "end_sample": 54061,
+          "start_ms": 2705,
+          "end_ms": 3379
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 165,
+  "frame_labels": "jjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

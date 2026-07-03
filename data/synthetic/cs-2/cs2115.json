@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs2115.flac",
+  "sentence": "I love how the 朝露 clings to every leaf with such 繊細 delicacy.",
+  "sample_rate": 16000,
+  "duration_ms": 4288,
+  "reference_speaker": "jp/speaker_020_8ca1bbc6858e.mp3",
+  "seed": 2157,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I love how the",
+      "start_sample": 0,
+      "end_sample": 13299,
+      "start_ms": 0,
+      "end_ms": 831
+    },
+    {
+      "lang": "ja",
+      "text": "朝露",
+      "start_sample": 13299,
+      "end_sample": 23486,
+      "start_ms": 831,
+      "end_ms": 1468
+    },
+    {
+      "lang": "en",
+      "text": "clings to every leaf with such",
+      "start_sample": 23486,
+      "end_sample": 50576,
+      "start_ms": 1468,
+      "end_ms": 3161
+    },
+    {
+      "lang": "ja",
+      "text": "繊細",
+      "start_sample": 50576,
+      "end_sample": 58838,
+      "start_ms": 3161,
+      "end_ms": 3677
+    },
+    {
+      "lang": "en",
+      "text": "delicacy.",
+      "start_sample": 58838,
+      "end_sample": 68601,
+      "start_ms": 3677,
+      "end_ms": 4288
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I love how the asatsuyu clings to every leaf with such sensai delicacy.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4280,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I love how the",
+          "start_sample": 0,
+          "end_sample": 13499,
+          "start_ms": 0,
+          "end_ms": 844
+        },
+        {
+          "lang": "ja",
+          "text": "朝露",
+          "start_sample": 13499,
+          "end_sample": 24110,
+          "start_ms": 844,
+          "end_ms": 1507
+        },
+        {
+          "lang": "en",
+          "text": "clings to every leaf with such",
+          "start_sample": 24110,
+          "end_sample": 51600,
+          "start_ms": 1507,
+          "end_ms": 3225
+        },
+        {
+          "lang": "ja",
+          "text": "繊細",
+          "start_sample": 51600,
+          "end_sample": 58512,
+          "start_ms": 3225,
+          "end_ms": 3657
+        },
+        {
+          "lang": "en",
+          "text": "delicacy.",
+          "start_sample": 58512,
+          "end_sample": 68475,
+          "start_ms": 3657,
+          "end_ms": 4280
+        }
+      ]
+    },
+    "ja": {
+      "text": "I love how the 朝露 clings to every leaf with such 繊細 delicacy.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5915,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I love how the",
+          "start_sample": 0,
+          "end_sample": 14756,
+          "start_ms": 0,
+          "end_ms": 922
+        },
+        {
+          "lang": "ja",
+          "text": "朝露",
+          "start_sample": 14756,
+          "end_sample": 25343,
+          "start_ms": 922,
+          "end_ms": 1584
+        },
+        {
+          "lang": "en",
+          "text": "clings to every leaf with such",
+          "start_sample": 25343,
+          "end_sample": 75874,
+          "start_ms": 1584,
+          "end_ms": 4742
+        },
+        {
+          "lang": "ja",
+          "text": "繊細",
+          "start_sample": 75874,
+          "end_sample": 84536,
+          "start_ms": 4742,
+          "end_ms": 5284
+        },
+        {
+          "lang": "en",
+          "text": "delicacy.",
+          "start_sample": 84536,
+          "end_sample": 94640,
+          "start_ms": 5284,
+          "end_ms": 5915
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 215,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

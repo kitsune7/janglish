@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs1826.flac",
+  "sentence": "The persistent 北風 this week has given everything a kind of 凛 quality.",
+  "sample_rate": 16000,
+  "duration_ms": 5546,
+  "reference_speaker": "jp/speaker_091_bf2621e97933.mp3",
+  "seed": 1868,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The persistent",
+      "start_sample": 0,
+      "end_sample": 11654,
+      "start_ms": 0,
+      "end_ms": 728
+    },
+    {
+      "lang": "ja",
+      "text": "北風",
+      "start_sample": 11654,
+      "end_sample": 26303,
+      "start_ms": 728,
+      "end_ms": 1644
+    },
+    {
+      "lang": "en",
+      "text": "this week has given everything a kind of",
+      "start_sample": 26303,
+      "end_sample": 71239,
+      "start_ms": 1644,
+      "end_ms": 4452
+    },
+    {
+      "lang": "ja",
+      "text": "凛",
+      "start_sample": 71239,
+      "end_sample": 79644,
+      "start_ms": 4452,
+      "end_ms": 4978
+    },
+    {
+      "lang": "en",
+      "text": "quality.",
+      "start_sample": 79644,
+      "end_sample": 88735,
+      "start_ms": 4978,
+      "end_ms": 5546
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The persistent kitakaze this week has given everything a kind of rin quality.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5166,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The persistent",
+          "start_sample": 0,
+          "end_sample": 11854,
+          "start_ms": 0,
+          "end_ms": 741
+        },
+        {
+          "lang": "ja",
+          "text": "北風",
+          "start_sample": 11854,
+          "end_sample": 21466,
+          "start_ms": 741,
+          "end_ms": 1342
+        },
+        {
+          "lang": "en",
+          "text": "this week has given everything a kind of",
+          "start_sample": 21466,
+          "end_sample": 66802,
+          "start_ms": 1342,
+          "end_ms": 4175
+        },
+        {
+          "lang": "ja",
+          "text": "凛",
+          "start_sample": 66802,
+          "end_sample": 73370,
+          "start_ms": 4175,
+          "end_ms": 4586
+        },
+        {
+          "lang": "en",
+          "text": "quality.",
+          "start_sample": 73370,
+          "end_sample": 82661,
+          "start_ms": 4586,
+          "end_ms": 5166
+        }
+      ]
+    },
+    "ja": {
+      "text": "The persistent 北風 this week has given everything a kind of 凛 quality.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7345,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The persistent",
+          "start_sample": 0,
+          "end_sample": 22894,
+          "start_ms": 0,
+          "end_ms": 1431
+        },
+        {
+          "lang": "ja",
+          "text": "北風",
+          "start_sample": 22894,
+          "end_sample": 37943,
+          "start_ms": 1431,
+          "end_ms": 2371
+        },
+        {
+          "lang": "en",
+          "text": "this week has given everything a kind of",
+          "start_sample": 37943,
+          "end_sample": 99103,
+          "start_ms": 2371,
+          "end_ms": 6194
+        },
+        {
+          "lang": "ja",
+          "text": "凛",
+          "start_sample": 99103,
+          "end_sample": 107908,
+          "start_ms": 6194,
+          "end_ms": 6744
+        },
+        {
+          "lang": "en",
+          "text": "quality.",
+          "start_sample": 107908,
+          "end_sample": 117514,
+          "start_ms": 6744,
+          "end_ms": 7345
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 278,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

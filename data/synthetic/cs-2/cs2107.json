@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs2107.flac",
+  "sentence": "The lip liner gave the entire look a sharper 輪郭, which made the color feel far more 鮮明.",
+  "sample_rate": 16000,
+  "duration_ms": 6427,
+  "reference_speaker": "jp/speaker_079_e96ebb016d7a.mp3",
+  "seed": 2149,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The lip liner gave the entire look a sharper",
+      "start_sample": 0,
+      "end_sample": 49005,
+      "start_ms": 0,
+      "end_ms": 3063
+    },
+    {
+      "lang": "ja",
+      "text": "輪郭,",
+      "start_sample": 49005,
+      "end_sample": 59351,
+      "start_ms": 3063,
+      "end_ms": 3709
+    },
+    {
+      "lang": "en",
+      "text": "which made the color feel far more",
+      "start_sample": 59351,
+      "end_sample": 95975,
+      "start_ms": 3709,
+      "end_ms": 5998
+    },
+    {
+      "lang": "ja",
+      "text": "鮮明.",
+      "start_sample": 95975,
+      "end_sample": 102830,
+      "start_ms": 5998,
+      "end_ms": 6427
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The lip liner gave the entire look a sharper rinkaku which made the color feel far more senmei",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6792,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The lip liner gave the entire look a sharper",
+          "start_sample": 0,
+          "end_sample": 49205,
+          "start_ms": 0,
+          "end_ms": 3075
+        },
+        {
+          "lang": "ja",
+          "text": "輪郭,",
+          "start_sample": 49205,
+          "end_sample": 62828,
+          "start_ms": 3075,
+          "end_ms": 3927
+        },
+        {
+          "lang": "en",
+          "text": "which made the color feel far more",
+          "start_sample": 62828,
+          "end_sample": 99852,
+          "start_ms": 3927,
+          "end_ms": 6241
+        },
+        {
+          "lang": "ja",
+          "text": "鮮明.",
+          "start_sample": 99852,
+          "end_sample": 108666,
+          "start_ms": 6241,
+          "end_ms": 6792
+        }
+      ]
+    },
+    "ja": {
+      "text": "The lip liner gave the entire look a sharper 輪郭, which made the color feel far more 鮮明.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9162,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The lip liner gave the entire look a sharper",
+          "start_sample": 0,
+          "end_sample": 82438,
+          "start_ms": 0,
+          "end_ms": 5152
+        },
+        {
+          "lang": "ja",
+          "text": "輪郭,",
+          "start_sample": 82438,
+          "end_sample": 93184,
+          "start_ms": 5152,
+          "end_ms": 5824
+        },
+        {
+          "lang": "en",
+          "text": "which made the color feel far more",
+          "start_sample": 93184,
+          "end_sample": 139537,
+          "start_ms": 5824,
+          "end_ms": 8721
+        },
+        {
+          "lang": "ja",
+          "text": "鮮明.",
+          "start_sample": 139537,
+          "end_sample": 146592,
+          "start_ms": 8721,
+          "end_ms": 9162
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 322,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjj"
+}

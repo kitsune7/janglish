@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1897.flac",
+  "sentence": "I always lose track of 時間 when the scenery outside the window is this 壮大.",
+  "sample_rate": 16000,
+  "duration_ms": 5105,
+  "reference_speaker": "jp/speaker_084_122c648d361d.mp3",
+  "seed": 1939,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always lose track of",
+      "start_sample": 0,
+      "end_sample": 18880,
+      "start_ms": 0,
+      "end_ms": 1180
+    },
+    {
+      "lang": "ja",
+      "text": "時間",
+      "start_sample": 18880,
+      "end_sample": 23444,
+      "start_ms": 1180,
+      "end_ms": 1465
+    },
+    {
+      "lang": "en",
+      "text": "when the scenery outside the window is this",
+      "start_sample": 23444,
+      "end_sample": 71311,
+      "start_ms": 1465,
+      "end_ms": 4457
+    },
+    {
+      "lang": "ja",
+      "text": "壮大.",
+      "start_sample": 71311,
+      "end_sample": 81680,
+      "start_ms": 4457,
+      "end_ms": 5105
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always lose track of jikan when the scenery outside the window is this soudai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5773,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always lose track of",
+          "start_sample": 0,
+          "end_sample": 19080,
+          "start_ms": 0,
+          "end_ms": 1192
+        },
+        {
+          "lang": "ja",
+          "text": "時間",
+          "start_sample": 19080,
+          "end_sample": 35116,
+          "start_ms": 1192,
+          "end_ms": 2195
+        },
+        {
+          "lang": "en",
+          "text": "when the scenery outside the window is this",
+          "start_sample": 35116,
+          "end_sample": 83383,
+          "start_ms": 2195,
+          "end_ms": 5211
+        },
+        {
+          "lang": "ja",
+          "text": "壮大.",
+          "start_sample": 83383,
+          "end_sample": 92361,
+          "start_ms": 5211,
+          "end_ms": 5773
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always lose track of 時間 when the scenery outside the window is this 壮大.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6846,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always lose track of",
+          "start_sample": 0,
+          "end_sample": 41955,
+          "start_ms": 0,
+          "end_ms": 2622
+        },
+        {
+          "lang": "ja",
+          "text": "時間",
+          "start_sample": 41955,
+          "end_sample": 46919,
+          "start_ms": 2622,
+          "end_ms": 2932
+        },
+        {
+          "lang": "en",
+          "text": "when the scenery outside the window is this",
+          "start_sample": 46919,
+          "end_sample": 98963,
+          "start_ms": 2932,
+          "end_ms": 6185
+        },
+        {
+          "lang": "ja",
+          "text": "壮大.",
+          "start_sample": 98963,
+          "end_sample": 109532,
+          "start_ms": 6185,
+          "end_ms": 6846
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 256,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

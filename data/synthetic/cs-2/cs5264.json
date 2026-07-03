@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs5264.flac",
+  "sentence": "Her understanding of the 理論 is solid, but her actual writing style is still a bit 未熟.",
+  "sample_rate": 16000,
+  "duration_ms": 5284,
+  "reference_speaker": "en/speaker_040_ec293248c910.mp3",
+  "seed": 5306,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Her understanding of the",
+      "start_sample": 0,
+      "end_sample": 13423,
+      "start_ms": 0,
+      "end_ms": 839
+    },
+    {
+      "lang": "ja",
+      "text": "理論",
+      "start_sample": 13423,
+      "end_sample": 25048,
+      "start_ms": 839,
+      "end_ms": 1566
+    },
+    {
+      "lang": "en",
+      "text": "is solid, but her actual writing style is still a bit",
+      "start_sample": 25048,
+      "end_sample": 76577,
+      "start_ms": 1566,
+      "end_ms": 4786
+    },
+    {
+      "lang": "ja",
+      "text": "未熟.",
+      "start_sample": 76577,
+      "end_sample": 84552,
+      "start_ms": 4786,
+      "end_ms": 5284
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Her understanding of the riron is solid, but her actual writing style is still a bit mijuku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5149,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her understanding of the",
+          "start_sample": 0,
+          "end_sample": 13623,
+          "start_ms": 0,
+          "end_ms": 851
+        },
+        {
+          "lang": "ja",
+          "text": "理論",
+          "start_sample": 13623,
+          "end_sample": 19072,
+          "start_ms": 851,
+          "end_ms": 1192
+        },
+        {
+          "lang": "en",
+          "text": "is solid, but her actual writing style is still a bit",
+          "start_sample": 19072,
+          "end_sample": 71001,
+          "start_ms": 1192,
+          "end_ms": 4438
+        },
+        {
+          "lang": "ja",
+          "text": "未熟.",
+          "start_sample": 71001,
+          "end_sample": 82379,
+          "start_ms": 4438,
+          "end_ms": 5149
+        }
+      ]
+    },
+    "ja": {
+      "text": "Her understanding of the 理論 is solid, but her actual writing style is still a bit 未熟.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8297,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her understanding of the",
+          "start_sample": 0,
+          "end_sample": 41044,
+          "start_ms": 0,
+          "end_ms": 2565
+        },
+        {
+          "lang": "ja",
+          "text": "理論",
+          "start_sample": 41044,
+          "end_sample": 53069,
+          "start_ms": 2565,
+          "end_ms": 3317
+        },
+        {
+          "lang": "en",
+          "text": "is solid, but her actual writing style is still a bit",
+          "start_sample": 53069,
+          "end_sample": 124576,
+          "start_ms": 3317,
+          "end_ms": 7786
+        },
+        {
+          "lang": "ja",
+          "text": "未熟.",
+          "start_sample": 124576,
+          "end_sample": 132751,
+          "start_ms": 7786,
+          "end_ms": 8297
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 265,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs5030.flac",
+  "sentence": "This blush shade is so 鮮やか that even a small tap gives your cheeks real 表情.",
+  "sample_rate": 16000,
+  "duration_ms": 5313,
+  "reference_speaker": "en/speaker_070_eb9077114ebd.mp3",
+  "seed": 5072,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This blush shade is so",
+      "start_sample": 0,
+      "end_sample": 23243,
+      "start_ms": 0,
+      "end_ms": 1453
+    },
+    {
+      "lang": "ja",
+      "text": "鮮やか",
+      "start_sample": 23243,
+      "end_sample": 33751,
+      "start_ms": 1453,
+      "end_ms": 2109
+    },
+    {
+      "lang": "en",
+      "text": "that even a small tap gives your cheeks real",
+      "start_sample": 33751,
+      "end_sample": 74138,
+      "start_ms": 2109,
+      "end_ms": 4634
+    },
+    {
+      "lang": "ja",
+      "text": "表情.",
+      "start_sample": 74138,
+      "end_sample": 85003,
+      "start_ms": 4634,
+      "end_ms": 5313
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This blush shade is so senyaka that even a small tap gives your cheeks real hyoujou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5359,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This blush shade is so",
+          "start_sample": 0,
+          "end_sample": 23443,
+          "start_ms": 0,
+          "end_ms": 1465
+        },
+        {
+          "lang": "ja",
+          "text": "鮮やか",
+          "start_sample": 23443,
+          "end_sample": 34523,
+          "start_ms": 1465,
+          "end_ms": 2158
+        },
+        {
+          "lang": "en",
+          "text": "that even a small tap gives your cheeks real",
+          "start_sample": 34523,
+          "end_sample": 75310,
+          "start_ms": 2158,
+          "end_ms": 4707
+        },
+        {
+          "lang": "ja",
+          "text": "表情.",
+          "start_sample": 75310,
+          "end_sample": 85744,
+          "start_ms": 4707,
+          "end_ms": 5359
+        }
+      ]
+    },
+    "ja": {
+      "text": "This blush shade is so 鮮やか that even a small tap gives your cheeks real 表情.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7238,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This blush shade is so",
+          "start_sample": 0,
+          "end_sample": 32400,
+          "start_ms": 0,
+          "end_ms": 2025
+        },
+        {
+          "lang": "ja",
+          "text": "鮮やか",
+          "start_sample": 32400,
+          "end_sample": 43308,
+          "start_ms": 2025,
+          "end_ms": 2707
+        },
+        {
+          "lang": "en",
+          "text": "that even a small tap gives your cheeks real",
+          "start_sample": 43308,
+          "end_sample": 104745,
+          "start_ms": 2707,
+          "end_ms": 6547
+        },
+        {
+          "lang": "ja",
+          "text": "表情.",
+          "start_sample": 104745,
+          "end_sample": 115810,
+          "start_ms": 6547,
+          "end_ms": 7238
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 266,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

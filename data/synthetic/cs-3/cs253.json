@@ -1,0 +1,177 @@
+{
+  "audio_path": "synthetic/cs-3/cs253.flac",
+  "sentence": "The 乗り換え at the central hub takes longer than my entire 区間 ride, which feels like a real 無駄.",
+  "sample_rate": 16000,
+  "duration_ms": 5950,
+  "reference_speaker": "en/speaker_095_862d569c1af2.mp3",
+  "seed": 295,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1403,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "乗り換え",
+      "start_sample": 1403,
+      "end_sample": 13193,
+      "start_ms": 88,
+      "end_ms": 825
+    },
+    {
+      "lang": "en",
+      "text": "at the central hub takes longer than my entire",
+      "start_sample": 13193,
+      "end_sample": 53860,
+      "start_ms": 825,
+      "end_ms": 3366
+    },
+    {
+      "lang": "ja",
+      "text": "区間",
+      "start_sample": 53860,
+      "end_sample": 60838,
+      "start_ms": 3366,
+      "end_ms": 3802
+    },
+    {
+      "lang": "en",
+      "text": "ride, which feels like a real",
+      "start_sample": 60838,
+      "end_sample": 90115,
+      "start_ms": 3802,
+      "end_ms": 5632
+    },
+    {
+      "lang": "ja",
+      "text": "無駄.",
+      "start_sample": 90115,
+      "end_sample": 95206,
+      "start_ms": 5632,
+      "end_ms": 5950
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The norikae at the central hub takes longer than my entire kukan ride, which feels like a real muda",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5915,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1603,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "乗り換え",
+          "start_sample": 1603,
+          "end_sample": 10426,
+          "start_ms": 100,
+          "end_ms": 652
+        },
+        {
+          "lang": "en",
+          "text": "at the central hub takes longer than my entire",
+          "start_sample": 10426,
+          "end_sample": 51493,
+          "start_ms": 652,
+          "end_ms": 3218
+        },
+        {
+          "lang": "ja",
+          "text": "区間",
+          "start_sample": 51493,
+          "end_sample": 59353,
+          "start_ms": 3218,
+          "end_ms": 3710
+        },
+        {
+          "lang": "en",
+          "text": "ride, which feels like a real",
+          "start_sample": 59353,
+          "end_sample": 89030,
+          "start_ms": 3710,
+          "end_ms": 5564
+        },
+        {
+          "lang": "ja",
+          "text": "無駄.",
+          "start_sample": 89030,
+          "end_sample": 94642,
+          "start_ms": 5564,
+          "end_ms": 5915
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 乗り換え at the central hub takes longer than my entire 区間 ride, which feels like a real 無駄.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8320,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6252,
+          "start_ms": 0,
+          "end_ms": 391
+        },
+        {
+          "lang": "ja",
+          "text": "乗り換え",
+          "start_sample": 6252,
+          "end_sample": 18442,
+          "start_ms": 391,
+          "end_ms": 1153
+        },
+        {
+          "lang": "en",
+          "text": "at the central hub takes longer than my entire",
+          "start_sample": 18442,
+          "end_sample": 77144,
+          "start_ms": 1153,
+          "end_ms": 4822
+        },
+        {
+          "lang": "ja",
+          "text": "区間",
+          "start_sample": 77144,
+          "end_sample": 84522,
+          "start_ms": 4822,
+          "end_ms": 5283
+        },
+        {
+          "lang": "en",
+          "text": "ride, which feels like a real",
+          "start_sample": 84522,
+          "end_sample": 127826,
+          "start_ms": 5283,
+          "end_ms": 7989
+        },
+        {
+          "lang": "ja",
+          "text": "無駄.",
+          "start_sample": 127826,
+          "end_sample": 133117,
+          "start_ms": 7989,
+          "end_ms": 8320
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 298,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjj"
+}

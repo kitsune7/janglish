@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs8604.flac",
+  "sentence": "backstageに入るためのpassは持っていますか？",
+  "sample_rate": 16000,
+  "duration_ms": 2682,
+  "reference_speaker": "en/speaker_083_60e45fe6f2e9.mp3",
+  "seed": 8646,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "backstage",
+      "start_sample": 0,
+      "end_sample": 10874,
+      "start_ms": 0,
+      "end_ms": 680
+    },
+    {
+      "lang": "ja",
+      "text": "に入るための",
+      "start_sample": 10874,
+      "end_sample": 22178,
+      "start_ms": 680,
+      "end_ms": 1386
+    },
+    {
+      "lang": "en",
+      "text": "pass",
+      "start_sample": 22178,
+      "end_sample": 28679,
+      "start_ms": 1386,
+      "end_ms": 1792
+    },
+    {
+      "lang": "ja",
+      "text": "は持っていますか？",
+      "start_sample": 28679,
+      "end_sample": 42906,
+      "start_ms": 1792,
+      "end_ms": 2682
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "backstage ni iru tame no pass ha motsu te i masu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6159,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "backstage",
+          "start_sample": 0,
+          "end_sample": 11074,
+          "start_ms": 0,
+          "end_ms": 692
+        },
+        {
+          "lang": "ja",
+          "text": "に入るための",
+          "start_sample": 11074,
+          "end_sample": 40767,
+          "start_ms": 692,
+          "end_ms": 2548
+        },
+        {
+          "lang": "en",
+          "text": "pass",
+          "start_sample": 40767,
+          "end_sample": 47668,
+          "start_ms": 2548,
+          "end_ms": 2979
+        },
+        {
+          "lang": "ja",
+          "text": "は持っていますか？",
+          "start_sample": 47668,
+          "end_sample": 98544,
+          "start_ms": 2979,
+          "end_ms": 6159
+        }
+      ]
+    },
+    "ja": {
+      "text": "backstageに入るためのpassは持っていますか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2445,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "backstage",
+          "start_sample": 0,
+          "end_sample": 9298,
+          "start_ms": 0,
+          "end_ms": 581
+        },
+        {
+          "lang": "ja",
+          "text": "に入るための",
+          "start_sample": 9298,
+          "end_sample": 21002,
+          "start_ms": 581,
+          "end_ms": 1313
+        },
+        {
+          "lang": "en",
+          "text": "pass",
+          "start_sample": 21002,
+          "end_sample": 24689,
+          "start_ms": 1313,
+          "end_ms": 1543
+        },
+        {
+          "lang": "ja",
+          "text": "は持っていますか？",
+          "start_sample": 24689,
+          "end_sample": 39116,
+          "start_ms": 1543,
+          "end_ms": 2445
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 135,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

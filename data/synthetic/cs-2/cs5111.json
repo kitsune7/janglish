@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs5111.flac",
+  "sentence": "We budgeted for 食費 but somehow always end up splurging on totally unplanned 衝動買い.",
+  "sample_rate": 16000,
+  "duration_ms": 7593,
+  "reference_speaker": "jp/speaker_054_a553b6ec02eb.mp3",
+  "seed": 5153,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We budgeted for",
+      "start_sample": 0,
+      "end_sample": 18857,
+      "start_ms": 0,
+      "end_ms": 1179
+    },
+    {
+      "lang": "ja",
+      "text": "食費",
+      "start_sample": 18857,
+      "end_sample": 29191,
+      "start_ms": 1179,
+      "end_ms": 1824
+    },
+    {
+      "lang": "en",
+      "text": "but somehow always end up splurging on totally unplanned",
+      "start_sample": 29191,
+      "end_sample": 109187,
+      "start_ms": 1824,
+      "end_ms": 6824
+    },
+    {
+      "lang": "ja",
+      "text": "衝動買い.",
+      "start_sample": 109187,
+      "end_sample": 121482,
+      "start_ms": 6824,
+      "end_ms": 7593
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We budgeted for shokuhi but somehow always end up splurging on totally unplanned shoudou kai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8288,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We budgeted for",
+          "start_sample": 0,
+          "end_sample": 19057,
+          "start_ms": 0,
+          "end_ms": 1191
+        },
+        {
+          "lang": "ja",
+          "text": "食費",
+          "start_sample": 19057,
+          "end_sample": 38436,
+          "start_ms": 1191,
+          "end_ms": 2402
+        },
+        {
+          "lang": "en",
+          "text": "but somehow always end up splurging on totally unplanned",
+          "start_sample": 38436,
+          "end_sample": 118832,
+          "start_ms": 2402,
+          "end_ms": 7427
+        },
+        {
+          "lang": "ja",
+          "text": "衝動買い.",
+          "start_sample": 118832,
+          "end_sample": 132604,
+          "start_ms": 7427,
+          "end_ms": 8288
+        }
+      ]
+    },
+    "ja": {
+      "text": "We budgeted for 食費 but somehow always end up splurging on totally unplanned 衝動買い.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7349,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We budgeted for",
+          "start_sample": 0,
+          "end_sample": 15537,
+          "start_ms": 0,
+          "end_ms": 971
+        },
+        {
+          "lang": "ja",
+          "text": "食費",
+          "start_sample": 15537,
+          "end_sample": 26271,
+          "start_ms": 971,
+          "end_ms": 1642
+        },
+        {
+          "lang": "en",
+          "text": "but somehow always end up splurging on totally unplanned",
+          "start_sample": 26271,
+          "end_sample": 105088,
+          "start_ms": 1642,
+          "end_ms": 6568
+        },
+        {
+          "lang": "ja",
+          "text": "衝動買い.",
+          "start_sample": 105088,
+          "end_sample": 117583,
+          "start_ms": 6568,
+          "end_ms": 7349
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 380,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

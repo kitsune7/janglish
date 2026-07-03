@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs4033.flac",
+  "sentence": "The 構成 of that novel is brilliant — each chapter shifts 視点 in surprising ways.",
+  "sample_rate": 16000,
+  "duration_ms": 5676,
+  "reference_speaker": "en/speaker_015_995e028794f8.mp3",
+  "seed": 4075,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1401,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "構成",
+      "start_sample": 1401,
+      "end_sample": 13333,
+      "start_ms": 88,
+      "end_ms": 833
+    },
+    {
+      "lang": "en",
+      "text": "of that novel is brilliant — each chapter shifts",
+      "start_sample": 13333,
+      "end_sample": 64662,
+      "start_ms": 833,
+      "end_ms": 4041
+    },
+    {
+      "lang": "ja",
+      "text": "視点",
+      "start_sample": 64662,
+      "end_sample": 72111,
+      "start_ms": 4041,
+      "end_ms": 4507
+    },
+    {
+      "lang": "en",
+      "text": "in surprising ways.",
+      "start_sample": 72111,
+      "end_sample": 90809,
+      "start_ms": 4507,
+      "end_ms": 5676
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kousei of that novel is brilliant — each chapter shifts shiten in surprising ways.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5405,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1601,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "構成",
+          "start_sample": 1601,
+          "end_sample": 8968,
+          "start_ms": 100,
+          "end_ms": 560
+        },
+        {
+          "lang": "en",
+          "text": "of that novel is brilliant — each chapter shifts",
+          "start_sample": 8968,
+          "end_sample": 60697,
+          "start_ms": 560,
+          "end_ms": 3794
+        },
+        {
+          "lang": "ja",
+          "text": "視点",
+          "start_sample": 60697,
+          "end_sample": 67584,
+          "start_ms": 3794,
+          "end_ms": 4224
+        },
+        {
+          "lang": "en",
+          "text": "in surprising ways.",
+          "start_sample": 67584,
+          "end_sample": 86482,
+          "start_ms": 4224,
+          "end_ms": 5405
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 構成 of that novel is brilliant — each chapter shifts 視点 in surprising ways.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7388,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6727,
+          "start_ms": 0,
+          "end_ms": 420
+        },
+        {
+          "lang": "ja",
+          "text": "構成",
+          "start_sample": 6727,
+          "end_sample": 19059,
+          "start_ms": 420,
+          "end_ms": 1191
+        },
+        {
+          "lang": "en",
+          "text": "of that novel is brilliant — each chapter shifts",
+          "start_sample": 19059,
+          "end_sample": 75598,
+          "start_ms": 1191,
+          "end_ms": 4725
+        },
+        {
+          "lang": "ja",
+          "text": "視点",
+          "start_sample": 75598,
+          "end_sample": 83447,
+          "start_ms": 4725,
+          "end_ms": 5215
+        },
+        {
+          "lang": "en",
+          "text": "in surprising ways.",
+          "start_sample": 83447,
+          "end_sample": 118202,
+          "start_ms": 5215,
+          "end_ms": 7388
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 284,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

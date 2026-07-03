@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs3333.flac",
+  "sentence": "The 踏み切り is always crowded, which makes the 通行 very slow at rush hour.",
+  "sample_rate": 16000,
+  "duration_ms": 6848,
+  "reference_speaker": "en/speaker_087_5027771311b0.mp3",
+  "seed": 3375,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1561,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "踏み切り",
+      "start_sample": 1561,
+      "end_sample": 14944,
+      "start_ms": 98,
+      "end_ms": 934
+    },
+    {
+      "lang": "en",
+      "text": "is always crowded, which makes the",
+      "start_sample": 14944,
+      "end_sample": 58747,
+      "start_ms": 934,
+      "end_ms": 3672
+    },
+    {
+      "lang": "ja",
+      "text": "通行",
+      "start_sample": 58747,
+      "end_sample": 74374,
+      "start_ms": 3672,
+      "end_ms": 4648
+    },
+    {
+      "lang": "en",
+      "text": "very slow at rush hour.",
+      "start_sample": 74374,
+      "end_sample": 109568,
+      "start_ms": 4648,
+      "end_ms": 6848
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The fumikiri is always crowded, which makes the tsuukou very slow at rush hour.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6626,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1761,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "踏み切り",
+          "start_sample": 1761,
+          "end_sample": 16656,
+          "start_ms": 110,
+          "end_ms": 1041
+        },
+        {
+          "lang": "en",
+          "text": "is always crowded, which makes the",
+          "start_sample": 16656,
+          "end_sample": 60859,
+          "start_ms": 1041,
+          "end_ms": 3804
+        },
+        {
+          "lang": "ja",
+          "text": "通行",
+          "start_sample": 60859,
+          "end_sample": 70628,
+          "start_ms": 3804,
+          "end_ms": 4414
+        },
+        {
+          "lang": "en",
+          "text": "very slow at rush hour.",
+          "start_sample": 70628,
+          "end_sample": 106022,
+          "start_ms": 4414,
+          "end_ms": 6626
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 踏み切り is always crowded, which makes the 通行 very slow at rush hour.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8093,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3685,
+          "start_ms": 0,
+          "end_ms": 230
+        },
+        {
+          "lang": "ja",
+          "text": "踏み切り",
+          "start_sample": 3685,
+          "end_sample": 17468,
+          "start_ms": 230,
+          "end_ms": 1092
+        },
+        {
+          "lang": "en",
+          "text": "is always crowded, which makes the",
+          "start_sample": 17468,
+          "end_sample": 73558,
+          "start_ms": 1092,
+          "end_ms": 4597
+        },
+        {
+          "lang": "ja",
+          "text": "通行",
+          "start_sample": 73558,
+          "end_sample": 89585,
+          "start_ms": 4597,
+          "end_ms": 5599
+        },
+        {
+          "lang": "en",
+          "text": "very slow at rush hour.",
+          "start_sample": 89585,
+          "end_sample": 129488,
+          "start_ms": 5599,
+          "end_ms": 8093
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 343,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

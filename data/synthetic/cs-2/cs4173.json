@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs4173.flac",
+  "sentence": "The 修正 request came in late, but the 対応 from the team was impressively fast.",
+  "sample_rate": 16000,
+  "duration_ms": 5529,
+  "reference_speaker": "jp/speaker_084_122c648d361d.mp3",
+  "seed": 4215,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2047,
+      "start_ms": 0,
+      "end_ms": 128
+    },
+    {
+      "lang": "ja",
+      "text": "修正",
+      "start_sample": 2047,
+      "end_sample": 8062,
+      "start_ms": 128,
+      "end_ms": 504
+    },
+    {
+      "lang": "en",
+      "text": "request came in late, but the",
+      "start_sample": 8062,
+      "end_sample": 46522,
+      "start_ms": 504,
+      "end_ms": 2908
+    },
+    {
+      "lang": "ja",
+      "text": "対応",
+      "start_sample": 46522,
+      "end_sample": 52217,
+      "start_ms": 2908,
+      "end_ms": 3264
+    },
+    {
+      "lang": "en",
+      "text": "from the team was impressively fast.",
+      "start_sample": 52217,
+      "end_sample": 88464,
+      "start_ms": 3264,
+      "end_ms": 5529
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shuusei request came in late, but the taiou from the team was impressively fast.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5801,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2247,
+          "start_ms": 0,
+          "end_ms": 140
+        },
+        {
+          "lang": "ja",
+          "text": "修正",
+          "start_sample": 2247,
+          "end_sample": 9473,
+          "start_ms": 140,
+          "end_ms": 592
+        },
+        {
+          "lang": "en",
+          "text": "request came in late, but the",
+          "start_sample": 9473,
+          "end_sample": 48333,
+          "start_ms": 592,
+          "end_ms": 3021
+        },
+        {
+          "lang": "ja",
+          "text": "対応",
+          "start_sample": 48333,
+          "end_sample": 56362,
+          "start_ms": 3021,
+          "end_ms": 3523
+        },
+        {
+          "lang": "en",
+          "text": "from the team was impressively fast.",
+          "start_sample": 56362,
+          "end_sample": 92809,
+          "start_ms": 3523,
+          "end_ms": 5801
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 修正 request came in late, but the 対応 from the team was impressively fast.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5533,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1764,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "修正",
+          "start_sample": 1764,
+          "end_sample": 8179,
+          "start_ms": 110,
+          "end_ms": 511
+        },
+        {
+          "lang": "en",
+          "text": "request came in late, but the",
+          "start_sample": 8179,
+          "end_sample": 40739,
+          "start_ms": 511,
+          "end_ms": 2546
+        },
+        {
+          "lang": "ja",
+          "text": "対応",
+          "start_sample": 40739,
+          "end_sample": 46834,
+          "start_ms": 2546,
+          "end_ms": 2927
+        },
+        {
+          "lang": "en",
+          "text": "from the team was impressively fast.",
+          "start_sample": 46834,
+          "end_sample": 88535,
+          "start_ms": 2927,
+          "end_ms": 5533
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 277,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

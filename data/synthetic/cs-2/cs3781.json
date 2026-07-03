@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs3781.flac",
+  "sentence": "The 出汁 was so 豊か that I couldn't stop drinking it straight from the bowl.",
+  "sample_rate": 16000,
+  "duration_ms": 3520,
+  "reference_speaker": "en/speaker_001_b06ec2cd8db9.mp3",
+  "seed": 3823,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1885,
+      "start_ms": 0,
+      "end_ms": 118
+    },
+    {
+      "lang": "ja",
+      "text": "出汁",
+      "start_sample": 1885,
+      "end_sample": 6936,
+      "start_ms": 118,
+      "end_ms": 434
+    },
+    {
+      "lang": "en",
+      "text": "was so",
+      "start_sample": 6936,
+      "end_sample": 12313,
+      "start_ms": 434,
+      "end_ms": 770
+    },
+    {
+      "lang": "ja",
+      "text": "豊か",
+      "start_sample": 12313,
+      "end_sample": 18487,
+      "start_ms": 770,
+      "end_ms": 1155
+    },
+    {
+      "lang": "en",
+      "text": "that I couldn't stop drinking it straight from the bowl.",
+      "start_sample": 18487,
+      "end_sample": 56318,
+      "start_ms": 1155,
+      "end_ms": 3520
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The dejiru was so yutaka that I couldn't stop drinking it straight from the bowl.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3932,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2085,
+          "start_ms": 0,
+          "end_ms": 130
+        },
+        {
+          "lang": "ja",
+          "text": "出汁",
+          "start_sample": 2085,
+          "end_sample": 10109,
+          "start_ms": 130,
+          "end_ms": 632
+        },
+        {
+          "lang": "en",
+          "text": "was so",
+          "start_sample": 10109,
+          "end_sample": 15886,
+          "start_ms": 632,
+          "end_ms": 993
+        },
+        {
+          "lang": "ja",
+          "text": "豊か",
+          "start_sample": 15886,
+          "end_sample": 24873,
+          "start_ms": 993,
+          "end_ms": 1555
+        },
+        {
+          "lang": "en",
+          "text": "that I couldn't stop drinking it straight from the bowl.",
+          "start_sample": 24873,
+          "end_sample": 62904,
+          "start_ms": 1555,
+          "end_ms": 3932
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 出汁 was so 豊か that I couldn't stop drinking it straight from the bowl.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4008,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2724,
+          "start_ms": 0,
+          "end_ms": 170
+        },
+        {
+          "lang": "ja",
+          "text": "出汁",
+          "start_sample": 2724,
+          "end_sample": 8175,
+          "start_ms": 170,
+          "end_ms": 511
+        },
+        {
+          "lang": "en",
+          "text": "was so",
+          "start_sample": 8175,
+          "end_sample": 13145,
+          "start_ms": 511,
+          "end_ms": 822
+        },
+        {
+          "lang": "ja",
+          "text": "豊か",
+          "start_sample": 13145,
+          "end_sample": 19719,
+          "start_ms": 822,
+          "end_ms": 1232
+        },
+        {
+          "lang": "en",
+          "text": "that I couldn't stop drinking it straight from the bowl.",
+          "start_sample": 19719,
+          "end_sample": 64129,
+          "start_ms": 1232,
+          "end_ms": 4008
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 176,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

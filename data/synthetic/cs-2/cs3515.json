@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs3515.flac",
+  "sentence": "The local 食堂 was so 賑やか that we had to wait outside for twenty minutes.",
+  "sample_rate": 16000,
+  "duration_ms": 4597,
+  "reference_speaker": "en/speaker_085_1a04e2db0811.mp3",
+  "seed": 3557,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The local",
+      "start_sample": 0,
+      "end_sample": 6712,
+      "start_ms": 0,
+      "end_ms": 420
+    },
+    {
+      "lang": "ja",
+      "text": "食堂",
+      "start_sample": 6712,
+      "end_sample": 14966,
+      "start_ms": 420,
+      "end_ms": 935
+    },
+    {
+      "lang": "en",
+      "text": "was so",
+      "start_sample": 14966,
+      "end_sample": 21157,
+      "start_ms": 935,
+      "end_ms": 1322
+    },
+    {
+      "lang": "ja",
+      "text": "賑やか",
+      "start_sample": 21157,
+      "end_sample": 37104,
+      "start_ms": 1322,
+      "end_ms": 2319
+    },
+    {
+      "lang": "en",
+      "text": "that we had to wait outside for twenty minutes.",
+      "start_sample": 37104,
+      "end_sample": 73553,
+      "start_ms": 2319,
+      "end_ms": 4597
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The local shokudou was so nigiyaka that we had to wait outside for twenty minutes.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4400,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The local",
+          "start_sample": 0,
+          "end_sample": 6912,
+          "start_ms": 0,
+          "end_ms": 432
+        },
+        {
+          "lang": "ja",
+          "text": "食堂",
+          "start_sample": 6912,
+          "end_sample": 14789,
+          "start_ms": 432,
+          "end_ms": 924
+        },
+        {
+          "lang": "en",
+          "text": "was so",
+          "start_sample": 14789,
+          "end_sample": 21380,
+          "start_ms": 924,
+          "end_ms": 1336
+        },
+        {
+          "lang": "ja",
+          "text": "賑やか",
+          "start_sample": 21380,
+          "end_sample": 33759,
+          "start_ms": 1336,
+          "end_ms": 2110
+        },
+        {
+          "lang": "en",
+          "text": "that we had to wait outside for twenty minutes.",
+          "start_sample": 33759,
+          "end_sample": 70408,
+          "start_ms": 2110,
+          "end_ms": 4400
+        }
+      ]
+    },
+    "ja": {
+      "text": "The local 食堂 was so 賑やか that we had to wait outside for twenty minutes.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6811,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The local",
+          "start_sample": 0,
+          "end_sample": 11539,
+          "start_ms": 0,
+          "end_ms": 721
+        },
+        {
+          "lang": "ja",
+          "text": "食堂",
+          "start_sample": 11539,
+          "end_sample": 20193,
+          "start_ms": 721,
+          "end_ms": 1262
+        },
+        {
+          "lang": "en",
+          "text": "was so",
+          "start_sample": 20193,
+          "end_sample": 30930,
+          "start_ms": 1262,
+          "end_ms": 1933
+        },
+        {
+          "lang": "ja",
+          "text": "賑やか",
+          "start_sample": 30930,
+          "end_sample": 47277,
+          "start_ms": 1933,
+          "end_ms": 2955
+        },
+        {
+          "lang": "en",
+          "text": "that we had to wait outside for twenty minutes.",
+          "start_sample": 47277,
+          "end_sample": 108979,
+          "start_ms": 2955,
+          "end_ms": 6811
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 230,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

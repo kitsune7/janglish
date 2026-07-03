@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs3578.flac",
+  "sentence": "She spoke to the teacher with 勇気 about her child's 困難 in the classroom.",
+  "sample_rate": 16000,
+  "duration_ms": 3487,
+  "reference_speaker": "jp/speaker_062_ec2cf7781d6b.mp3",
+  "seed": 3620,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She spoke to the teacher with",
+      "start_sample": 0,
+      "end_sample": 18068,
+      "start_ms": 0,
+      "end_ms": 1129
+    },
+    {
+      "lang": "ja",
+      "text": "勇気",
+      "start_sample": 18068,
+      "end_sample": 23285,
+      "start_ms": 1129,
+      "end_ms": 1455
+    },
+    {
+      "lang": "en",
+      "text": "about her child's",
+      "start_sample": 23285,
+      "end_sample": 35705,
+      "start_ms": 1455,
+      "end_ms": 2232
+    },
+    {
+      "lang": "ja",
+      "text": "困難",
+      "start_sample": 35705,
+      "end_sample": 43811,
+      "start_ms": 2232,
+      "end_ms": 2738
+    },
+    {
+      "lang": "en",
+      "text": "in the classroom.",
+      "start_sample": 43811,
+      "end_sample": 55789,
+      "start_ms": 2738,
+      "end_ms": 3487
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She spoke to the teacher with yuuki about her child's konnan in the classroom.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3385,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She spoke to the teacher with",
+          "start_sample": 0,
+          "end_sample": 18268,
+          "start_ms": 0,
+          "end_ms": 1142
+        },
+        {
+          "lang": "ja",
+          "text": "勇気",
+          "start_sample": 18268,
+          "end_sample": 23556,
+          "start_ms": 1142,
+          "end_ms": 1472
+        },
+        {
+          "lang": "en",
+          "text": "about her child's",
+          "start_sample": 23556,
+          "end_sample": 36376,
+          "start_ms": 1472,
+          "end_ms": 2274
+        },
+        {
+          "lang": "ja",
+          "text": "困難",
+          "start_sample": 36376,
+          "end_sample": 41985,
+          "start_ms": 2274,
+          "end_ms": 2624
+        },
+        {
+          "lang": "en",
+          "text": "in the classroom.",
+          "start_sample": 41985,
+          "end_sample": 54163,
+          "start_ms": 2624,
+          "end_ms": 3385
+        }
+      ]
+    },
+    "ja": {
+      "text": "She spoke to the teacher with 勇気 about her child's 困難 in the classroom.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5397,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She spoke to the teacher with",
+          "start_sample": 0,
+          "end_sample": 34989,
+          "start_ms": 0,
+          "end_ms": 2187
+        },
+        {
+          "lang": "ja",
+          "text": "勇気",
+          "start_sample": 34989,
+          "end_sample": 40606,
+          "start_ms": 2187,
+          "end_ms": 2538
+        },
+        {
+          "lang": "en",
+          "text": "about her child's",
+          "start_sample": 40606,
+          "end_sample": 57780,
+          "start_ms": 2538,
+          "end_ms": 3611
+        },
+        {
+          "lang": "ja",
+          "text": "困難",
+          "start_sample": 57780,
+          "end_sample": 66286,
+          "start_ms": 3611,
+          "end_ms": 4143
+        },
+        {
+          "lang": "en",
+          "text": "in the classroom.",
+          "start_sample": 66286,
+          "end_sample": 86346,
+          "start_ms": 4143,
+          "end_ms": 5397
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

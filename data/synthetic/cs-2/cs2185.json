@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs2185.flac",
+  "sentence": "The chat log captured every 細かい exchange right up to the 決断.",
+  "sample_rate": 16000,
+  "duration_ms": 4112,
+  "reference_speaker": "en/speaker_090_cd7a1ed8add3.mp3",
+  "seed": 2227,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The chat log captured every",
+      "start_sample": 0,
+      "end_sample": 24959,
+      "start_ms": 0,
+      "end_ms": 1560
+    },
+    {
+      "lang": "ja",
+      "text": "細かい",
+      "start_sample": 24959,
+      "end_sample": 35777,
+      "start_ms": 1560,
+      "end_ms": 2236
+    },
+    {
+      "lang": "en",
+      "text": "exchange right up to the",
+      "start_sample": 35777,
+      "end_sample": 55729,
+      "start_ms": 2236,
+      "end_ms": 3483
+    },
+    {
+      "lang": "ja",
+      "text": "決断.",
+      "start_sample": 55729,
+      "end_sample": 65784,
+      "start_ms": 3483,
+      "end_ms": 4112
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The chat log captured every komakai exchange right up to the ketsudan",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4086,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The chat log captured every",
+          "start_sample": 0,
+          "end_sample": 25159,
+          "start_ms": 0,
+          "end_ms": 1572
+        },
+        {
+          "lang": "ja",
+          "text": "細かい",
+          "start_sample": 25159,
+          "end_sample": 34453,
+          "start_ms": 1572,
+          "end_ms": 2153
+        },
+        {
+          "lang": "en",
+          "text": "exchange right up to the",
+          "start_sample": 34453,
+          "end_sample": 54805,
+          "start_ms": 2153,
+          "end_ms": 3425
+        },
+        {
+          "lang": "ja",
+          "text": "決断.",
+          "start_sample": 54805,
+          "end_sample": 65380,
+          "start_ms": 3425,
+          "end_ms": 4086
+        }
+      ]
+    },
+    "ja": {
+      "text": "The chat log captured every 細かい exchange right up to the 決断.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5569,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The chat log captured every",
+          "start_sample": 0,
+          "end_sample": 39261,
+          "start_ms": 0,
+          "end_ms": 2454
+        },
+        {
+          "lang": "ja",
+          "text": "細かい",
+          "start_sample": 39261,
+          "end_sample": 50479,
+          "start_ms": 2454,
+          "end_ms": 3155
+        },
+        {
+          "lang": "en",
+          "text": "exchange right up to the",
+          "start_sample": 50479,
+          "end_sample": 78846,
+          "start_ms": 3155,
+          "end_ms": 4928
+        },
+        {
+          "lang": "ja",
+          "text": "決断.",
+          "start_sample": 78846,
+          "end_sample": 89101,
+          "start_ms": 4928,
+          "end_ms": 5569
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 206,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

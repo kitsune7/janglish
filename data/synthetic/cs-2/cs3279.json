@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs3279.flac",
+  "sentence": "His 本音 came out after the third round, which made the whole 席 go silent.",
+  "sample_rate": 16000,
+  "duration_ms": 5001,
+  "reference_speaker": "en/speaker_014_9db071da66e5.mp3",
+  "seed": 3321,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His",
+      "start_sample": 0,
+      "end_sample": 2044,
+      "start_ms": 0,
+      "end_ms": 128
+    },
+    {
+      "lang": "ja",
+      "text": "本音",
+      "start_sample": 2044,
+      "end_sample": 8212,
+      "start_ms": 128,
+      "end_ms": 513
+    },
+    {
+      "lang": "en",
+      "text": "came out after the third round, which made the whole",
+      "start_sample": 8212,
+      "end_sample": 62660,
+      "start_ms": 513,
+      "end_ms": 3916
+    },
+    {
+      "lang": "ja",
+      "text": "席",
+      "start_sample": 62660,
+      "end_sample": 67865,
+      "start_ms": 3916,
+      "end_ms": 4242
+    },
+    {
+      "lang": "en",
+      "text": "go silent.",
+      "start_sample": 67865,
+      "end_sample": 80012,
+      "start_ms": 4242,
+      "end_ms": 5001
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His honne came out after the third round, which made the whole seki go silent.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5012,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His",
+          "start_sample": 0,
+          "end_sample": 2244,
+          "start_ms": 0,
+          "end_ms": 140
+        },
+        {
+          "lang": "ja",
+          "text": "本音",
+          "start_sample": 2244,
+          "end_sample": 7216,
+          "start_ms": 140,
+          "end_ms": 451
+        },
+        {
+          "lang": "en",
+          "text": "came out after the third round, which made the whole",
+          "start_sample": 7216,
+          "end_sample": 62064,
+          "start_ms": 451,
+          "end_ms": 3879
+        },
+        {
+          "lang": "ja",
+          "text": "席",
+          "start_sample": 62064,
+          "end_sample": 67837,
+          "start_ms": 3879,
+          "end_ms": 4240
+        },
+        {
+          "lang": "en",
+          "text": "go silent.",
+          "start_sample": 67837,
+          "end_sample": 80184,
+          "start_ms": 4240,
+          "end_ms": 5012
+        }
+      ]
+    },
+    "ja": {
+      "text": "His 本音 came out after the third round, which made the whole 席 go silent.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5706,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His",
+          "start_sample": 0,
+          "end_sample": 1921,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "本音",
+          "start_sample": 1921,
+          "end_sample": 8489,
+          "start_ms": 120,
+          "end_ms": 531
+        },
+        {
+          "lang": "en",
+          "text": "came out after the third round, which made the whole",
+          "start_sample": 8489,
+          "end_sample": 69196,
+          "start_ms": 531,
+          "end_ms": 4325
+        },
+        {
+          "lang": "ja",
+          "text": "席",
+          "start_sample": 69196,
+          "end_sample": 74801,
+          "start_ms": 4325,
+          "end_ms": 4675
+        },
+        {
+          "lang": "en",
+          "text": "go silent.",
+          "start_sample": 74801,
+          "end_sample": 91299,
+          "start_ms": 4675,
+          "end_ms": 5706
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 251,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

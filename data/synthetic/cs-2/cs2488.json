@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs2488.flac",
+  "sentence": "The side mirror had a big 傷 on it, and the entire left panel looked quite 無惨.",
+  "sample_rate": 16000,
+  "duration_ms": 5416,
+  "reference_speaker": "jp/speaker_060_dda9a032fd63.mp3",
+  "seed": 2530,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The side mirror had a big",
+      "start_sample": 0,
+      "end_sample": 18916,
+      "start_ms": 0,
+      "end_ms": 1182
+    },
+    {
+      "lang": "ja",
+      "text": "傷",
+      "start_sample": 18916,
+      "end_sample": 22690,
+      "start_ms": 1182,
+      "end_ms": 1418
+    },
+    {
+      "lang": "en",
+      "text": "on it, and the entire left panel looked quite",
+      "start_sample": 22690,
+      "end_sample": 80765,
+      "start_ms": 1418,
+      "end_ms": 5048
+    },
+    {
+      "lang": "ja",
+      "text": "無惨.",
+      "start_sample": 80765,
+      "end_sample": 86662,
+      "start_ms": 5048,
+      "end_ms": 5416
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The side mirror had a big kizu on it, and the entire left panel looked quite muzan",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5803,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The side mirror had a big",
+          "start_sample": 0,
+          "end_sample": 19116,
+          "start_ms": 0,
+          "end_ms": 1195
+        },
+        {
+          "lang": "ja",
+          "text": "傷",
+          "start_sample": 19116,
+          "end_sample": 25220,
+          "start_ms": 1195,
+          "end_ms": 1576
+        },
+        {
+          "lang": "en",
+          "text": "on it, and the entire left panel looked quite",
+          "start_sample": 25220,
+          "end_sample": 83695,
+          "start_ms": 1576,
+          "end_ms": 5231
+        },
+        {
+          "lang": "ja",
+          "text": "無惨.",
+          "start_sample": 83695,
+          "end_sample": 92848,
+          "start_ms": 5231,
+          "end_ms": 5803
+        }
+      ]
+    },
+    "ja": {
+      "text": "The side mirror had a big 傷 on it, and the entire left panel looked quite 無惨.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5699,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The side mirror had a big",
+          "start_sample": 0,
+          "end_sample": 22311,
+          "start_ms": 0,
+          "end_ms": 1394
+        },
+        {
+          "lang": "ja",
+          "text": "傷",
+          "start_sample": 22311,
+          "end_sample": 26485,
+          "start_ms": 1394,
+          "end_ms": 1655
+        },
+        {
+          "lang": "en",
+          "text": "on it, and the entire left panel looked quite",
+          "start_sample": 26485,
+          "end_sample": 85082,
+          "start_ms": 1655,
+          "end_ms": 5318
+        },
+        {
+          "lang": "ja",
+          "text": "無惨.",
+          "start_sample": 85082,
+          "end_sample": 91179,
+          "start_ms": 5318,
+          "end_ms": 5699
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 271,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjj"
+}

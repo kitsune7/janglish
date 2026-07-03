@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs4864.flac",
+  "sentence": "The pediatrician was 穏やか with the children, which made the whole checkup feel 自然.",
+  "sample_rate": 16000,
+  "duration_ms": 6300,
+  "reference_speaker": "en/speaker_051_36aa24c8ddec.mp3",
+  "seed": 4906,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The pediatrician was",
+      "start_sample": 0,
+      "end_sample": 28353,
+      "start_ms": 0,
+      "end_ms": 1772
+    },
+    {
+      "lang": "ja",
+      "text": "穏やか",
+      "start_sample": 28353,
+      "end_sample": 37730,
+      "start_ms": 1772,
+      "end_ms": 2358
+    },
+    {
+      "lang": "en",
+      "text": "with the children, which made the whole checkup feel",
+      "start_sample": 37730,
+      "end_sample": 92513,
+      "start_ms": 2358,
+      "end_ms": 5782
+    },
+    {
+      "lang": "ja",
+      "text": "自然.",
+      "start_sample": 92513,
+      "end_sample": 100806,
+      "start_ms": 5782,
+      "end_ms": 6300
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The pediatrician was odayaka with the children, which made the whole checkup feel shizen",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6537,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The pediatrician was",
+          "start_sample": 0,
+          "end_sample": 28553,
+          "start_ms": 0,
+          "end_ms": 1785
+        },
+        {
+          "lang": "ja",
+          "text": "穏やか",
+          "start_sample": 28553,
+          "end_sample": 39943,
+          "start_ms": 1785,
+          "end_ms": 2496
+        },
+        {
+          "lang": "en",
+          "text": "with the children, which made the whole checkup feel",
+          "start_sample": 39943,
+          "end_sample": 95126,
+          "start_ms": 2496,
+          "end_ms": 5945
+        },
+        {
+          "lang": "ja",
+          "text": "自然.",
+          "start_sample": 95126,
+          "end_sample": 104588,
+          "start_ms": 5945,
+          "end_ms": 6537
+        }
+      ]
+    },
+    "ja": {
+      "text": "The pediatrician was 穏やか with the children, which made the whole checkup feel 自然.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7012,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The pediatrician was",
+          "start_sample": 0,
+          "end_sample": 32693,
+          "start_ms": 0,
+          "end_ms": 2043
+        },
+        {
+          "lang": "ja",
+          "text": "穏やか",
+          "start_sample": 32693,
+          "end_sample": 42470,
+          "start_ms": 2043,
+          "end_ms": 2654
+        },
+        {
+          "lang": "en",
+          "text": "with the children, which made the whole checkup feel",
+          "start_sample": 42470,
+          "end_sample": 103691,
+          "start_ms": 2654,
+          "end_ms": 6481
+        },
+        {
+          "lang": "ja",
+          "text": "自然.",
+          "start_sample": 103691,
+          "end_sample": 112184,
+          "start_ms": 6481,
+          "end_ms": 7012
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 316,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

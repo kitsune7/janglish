@@ -2,9 +2,9 @@
   "audio_path": "synthetic/cs-2/cs1009.flac",
   "sentence": "The gym's 雰囲気 on Monday mornings is surprisingly 静か.",
   "sample_rate": 16000,
-  "duration_ms": 3956,
-  "reference_speaker": "en/speaker_097_44a775a22921.mp3",
-  "seed": 17864,
+  "duration_ms": 3488,
+  "reference_speaker": "en/speaker_017_11ec372417df.mp3",
+  "seed": 1051,
   "tts_language": "stitched",
   "alignment": "forced-dual",
   "spans": [
@@ -12,33 +12,33 @@
       "lang": "en",
       "text": "The gym's",
       "start_sample": 0,
-      "end_sample": 9901,
+      "end_sample": 5902,
       "start_ms": 0,
-      "end_ms": 619
+      "end_ms": 369
     },
     {
       "lang": "ja",
       "text": "雰囲気",
-      "start_sample": 9901,
-      "end_sample": 20906,
-      "start_ms": 619,
-      "end_ms": 1307
+      "start_sample": 5902,
+      "end_sample": 17223,
+      "start_ms": 369,
+      "end_ms": 1076
     },
     {
       "lang": "en",
       "text": "on Monday mornings is surprisingly",
-      "start_sample": 20906,
-      "end_sample": 55301,
-      "start_ms": 1307,
-      "end_ms": 3456
+      "start_sample": 17223,
+      "end_sample": 47819,
+      "start_ms": 1076,
+      "end_ms": 2989
     },
     {
       "lang": "ja",
       "text": "静か.",
-      "start_sample": 55301,
-      "end_sample": 63290,
-      "start_ms": 3456,
-      "end_ms": 3956
+      "start_sample": 47819,
+      "end_sample": 55805,
+      "start_ms": 2989,
+      "end_ms": 3488
     }
   ],
   "renders": {
@@ -46,39 +46,39 @@
       "text": "The gym's fun'iki on Monday mornings is surprisingly shizuka",
       "tts_language": "en",
       "alignment": "forced",
-      "duration_ms": 4069,
+      "duration_ms": 3292,
       "spans": [
         {
           "lang": "en",
           "text": "The gym's",
           "start_sample": 0,
-          "end_sample": 10101,
+          "end_sample": 6102,
           "start_ms": 0,
-          "end_ms": 631
+          "end_ms": 381
         },
         {
           "lang": "ja",
           "text": "雰囲気",
-          "start_sample": 10101,
-          "end_sample": 21486,
-          "start_ms": 631,
-          "end_ms": 1343
+          "start_sample": 6102,
+          "end_sample": 13489,
+          "start_ms": 381,
+          "end_ms": 843
         },
         {
           "lang": "en",
           "text": "on Monday mornings is surprisingly",
-          "start_sample": 21486,
-          "end_sample": 56281,
-          "start_ms": 1343,
-          "end_ms": 3518
+          "start_sample": 13489,
+          "end_sample": 44485,
+          "start_ms": 843,
+          "end_ms": 2780
         },
         {
           "lang": "ja",
           "text": "静か.",
-          "start_sample": 56281,
-          "end_sample": 65098,
-          "start_ms": 3518,
-          "end_ms": 4069
+          "start_sample": 44485,
+          "end_sample": 52672,
+          "start_ms": 2780,
+          "end_ms": 3292
         }
       ]
     },
@@ -86,44 +86,44 @@
       "text": "The gym's 雰囲気 on Monday mornings is surprisingly 静か.",
       "tts_language": "ja",
       "alignment": "forced",
-      "duration_ms": 5823,
+      "duration_ms": 4857,
       "spans": [
         {
           "lang": "en",
           "text": "The gym's",
           "start_sample": 0,
-          "end_sample": 19916,
+          "end_sample": 10757,
           "start_ms": 0,
-          "end_ms": 1245
+          "end_ms": 672
         },
         {
           "lang": "ja",
           "text": "雰囲気",
-          "start_sample": 19916,
-          "end_sample": 31321,
-          "start_ms": 1245,
-          "end_ms": 1958
+          "start_sample": 10757,
+          "end_sample": 22478,
+          "start_ms": 672,
+          "end_ms": 1405
         },
         {
           "lang": "en",
           "text": "on Monday mornings is surprisingly",
-          "start_sample": 31321,
-          "end_sample": 84977,
-          "start_ms": 1958,
-          "end_ms": 5311
+          "start_sample": 22478,
+          "end_sample": 69524,
+          "start_ms": 1405,
+          "end_ms": 4345
         },
         {
           "lang": "ja",
           "text": "静か.",
-          "start_sample": 84977,
-          "end_sample": 93166,
-          "start_ms": 5311,
-          "end_ms": 5823
+          "start_sample": 69524,
+          "end_sample": 77710,
+          "start_ms": 4345,
+          "end_ms": 4857
         }
       ]
     }
   },
   "frame_rate_hz": 50,
-  "num_frames": 198,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 175,
+  "frame_labels": "eeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

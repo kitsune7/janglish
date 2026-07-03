@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs5034.flac",
+  "sentence": "My 唇 feel so dry in winter that even the most 高級 balm only helps for an hour.",
+  "sample_rate": 16000,
+  "duration_ms": 5008,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 5076,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My",
+      "start_sample": 0,
+      "end_sample": 1722,
+      "start_ms": 0,
+      "end_ms": 108
+    },
+    {
+      "lang": "ja",
+      "text": "唇",
+      "start_sample": 1722,
+      "end_sample": 7420,
+      "start_ms": 108,
+      "end_ms": 464
+    },
+    {
+      "lang": "en",
+      "text": "feel so dry in winter that even the most",
+      "start_sample": 7420,
+      "end_sample": 47235,
+      "start_ms": 464,
+      "end_ms": 2952
+    },
+    {
+      "lang": "ja",
+      "text": "高級",
+      "start_sample": 47235,
+      "end_sample": 53896,
+      "start_ms": 2952,
+      "end_ms": 3368
+    },
+    {
+      "lang": "en",
+      "text": "balm only helps for an hour.",
+      "start_sample": 53896,
+      "end_sample": 80131,
+      "start_ms": 3368,
+      "end_ms": 5008
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My kuchibiru feel so dry in winter that even the most koukyuu balm only helps for an hour.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5808,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 1922,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "唇",
+          "start_sample": 1922,
+          "end_sample": 17943,
+          "start_ms": 120,
+          "end_ms": 1121
+        },
+        {
+          "lang": "en",
+          "text": "feel so dry in winter that even the most",
+          "start_sample": 17943,
+          "end_sample": 58158,
+          "start_ms": 1121,
+          "end_ms": 3635
+        },
+        {
+          "lang": "ja",
+          "text": "高級",
+          "start_sample": 58158,
+          "end_sample": 66489,
+          "start_ms": 3635,
+          "end_ms": 4156
+        },
+        {
+          "lang": "en",
+          "text": "balm only helps for an hour.",
+          "start_sample": 66489,
+          "end_sample": 92924,
+          "start_ms": 4156,
+          "end_ms": 5808
+        }
+      ]
+    },
+    "ja": {
+      "text": "My 唇 feel so dry in winter that even the most 高級 balm only helps for an hour.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5235,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 2246,
+          "start_ms": 0,
+          "end_ms": 140
+        },
+        {
+          "lang": "ja",
+          "text": "唇",
+          "start_sample": 2246,
+          "end_sample": 8344,
+          "start_ms": 140,
+          "end_ms": 522
+        },
+        {
+          "lang": "en",
+          "text": "feel so dry in winter that even the most",
+          "start_sample": 8344,
+          "end_sample": 45735,
+          "start_ms": 522,
+          "end_ms": 2858
+        },
+        {
+          "lang": "ja",
+          "text": "高級",
+          "start_sample": 45735,
+          "end_sample": 52796,
+          "start_ms": 2858,
+          "end_ms": 3300
+        },
+        {
+          "lang": "en",
+          "text": "balm only helps for an hour.",
+          "start_sample": 52796,
+          "end_sample": 83766,
+          "start_ms": 3300,
+          "end_ms": 5235
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 251,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

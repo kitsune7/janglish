@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs2161.flac",
+  "sentence": "Are you free for a quick 通話 later to go over the 予算?",
+  "sample_rate": 16000,
+  "duration_ms": 4298,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 2203,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Are you free for a quick",
+      "start_sample": 0,
+      "end_sample": 32386,
+      "start_ms": 0,
+      "end_ms": 2024
+    },
+    {
+      "lang": "ja",
+      "text": "通話",
+      "start_sample": 32386,
+      "end_sample": 41282,
+      "start_ms": 2024,
+      "end_ms": 2580
+    },
+    {
+      "lang": "en",
+      "text": "later to go over the",
+      "start_sample": 41282,
+      "end_sample": 61110,
+      "start_ms": 2580,
+      "end_ms": 3819
+    },
+    {
+      "lang": "ja",
+      "text": "予算?",
+      "start_sample": 61110,
+      "end_sample": 68762,
+      "start_ms": 3819,
+      "end_ms": 4298
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Are you free for a quick tsuuwa later to go over the yosan",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4515,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Are you free for a quick",
+          "start_sample": 0,
+          "end_sample": 32586,
+          "start_ms": 0,
+          "end_ms": 2037
+        },
+        {
+          "lang": "ja",
+          "text": "通話",
+          "start_sample": 32586,
+          "end_sample": 43182,
+          "start_ms": 2037,
+          "end_ms": 2699
+        },
+        {
+          "lang": "en",
+          "text": "later to go over the",
+          "start_sample": 43182,
+          "end_sample": 63410,
+          "start_ms": 2699,
+          "end_ms": 3963
+        },
+        {
+          "lang": "ja",
+          "text": "予算?",
+          "start_sample": 63410,
+          "end_sample": 72237,
+          "start_ms": 3963,
+          "end_ms": 4515
+        }
+      ]
+    },
+    "ja": {
+      "text": "Are you free for a quick 通話 later to go over the 予算?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3806,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Are you free for a quick",
+          "start_sample": 0,
+          "end_sample": 22918,
+          "start_ms": 0,
+          "end_ms": 1432
+        },
+        {
+          "lang": "ja",
+          "text": "通話",
+          "start_sample": 22918,
+          "end_sample": 32214,
+          "start_ms": 1432,
+          "end_ms": 2013
+        },
+        {
+          "lang": "en",
+          "text": "later to go over the",
+          "start_sample": 32214,
+          "end_sample": 53049,
+          "start_ms": 2013,
+          "end_ms": 3316
+        },
+        {
+          "lang": "ja",
+          "text": "予算?",
+          "start_sample": 53049,
+          "end_sample": 60901,
+          "start_ms": 3316,
+          "end_ms": 3806
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 215,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjj"
+}

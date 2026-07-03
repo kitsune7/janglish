@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs2291.flac",
+  "sentence": "She asked me with complete 真剣 why the sky is blue, and I realized I needed a better 説明.",
+  "sample_rate": 16000,
+  "duration_ms": 5001,
+  "reference_speaker": "en/speaker_012_29b1e5a58d16.mp3",
+  "seed": 2333,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She asked me with complete",
+      "start_sample": 0,
+      "end_sample": 16135,
+      "start_ms": 0,
+      "end_ms": 1008
+    },
+    {
+      "lang": "ja",
+      "text": "真剣",
+      "start_sample": 16135,
+      "end_sample": 23594,
+      "start_ms": 1008,
+      "end_ms": 1475
+    },
+    {
+      "lang": "en",
+      "text": "why the sky is blue, and I realized I needed a better",
+      "start_sample": 23594,
+      "end_sample": 72361,
+      "start_ms": 1475,
+      "end_ms": 4523
+    },
+    {
+      "lang": "ja",
+      "text": "説明.",
+      "start_sample": 72361,
+      "end_sample": 80017,
+      "start_ms": 4523,
+      "end_ms": 5001
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She asked me with complete shinken why the sky is blue, and I realized I needed a better setsumei",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5345,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She asked me with complete",
+          "start_sample": 0,
+          "end_sample": 16335,
+          "start_ms": 0,
+          "end_ms": 1021
+        },
+        {
+          "lang": "ja",
+          "text": "真剣",
+          "start_sample": 16335,
+          "end_sample": 25944,
+          "start_ms": 1021,
+          "end_ms": 1622
+        },
+        {
+          "lang": "en",
+          "text": "why the sky is blue, and I realized I needed a better",
+          "start_sample": 25944,
+          "end_sample": 75111,
+          "start_ms": 1622,
+          "end_ms": 4694
+        },
+        {
+          "lang": "ja",
+          "text": "説明.",
+          "start_sample": 75111,
+          "end_sample": 85521,
+          "start_ms": 4694,
+          "end_ms": 5345
+        }
+      ]
+    },
+    "ja": {
+      "text": "She asked me with complete 真剣 why the sky is blue, and I realized I needed a better 説明.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7758,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She asked me with complete",
+          "start_sample": 0,
+          "end_sample": 33355,
+          "start_ms": 0,
+          "end_ms": 2085
+        },
+        {
+          "lang": "ja",
+          "text": "真剣",
+          "start_sample": 33355,
+          "end_sample": 41214,
+          "start_ms": 2085,
+          "end_ms": 2576
+        },
+        {
+          "lang": "en",
+          "text": "why the sky is blue, and I realized I needed a better",
+          "start_sample": 41214,
+          "end_sample": 116270,
+          "start_ms": 2576,
+          "end_ms": 7267
+        },
+        {
+          "lang": "ja",
+          "text": "説明.",
+          "start_sample": 116270,
+          "end_sample": 124126,
+          "start_ms": 7267,
+          "end_ms": 7758
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 251,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjj"
+}

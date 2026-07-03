@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs4816.flac",
+  "sentence": "He tackled the 浴室 first because the grime in there was truly 最悪.",
+  "sample_rate": 16000,
+  "duration_ms": 5803,
+  "reference_speaker": "en/speaker_079_9589554d8179.mp3",
+  "seed": 4858,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He tackled the",
+      "start_sample": 0,
+      "end_sample": 10720,
+      "start_ms": 0,
+      "end_ms": 670
+    },
+    {
+      "lang": "ja",
+      "text": "浴室",
+      "start_sample": 10720,
+      "end_sample": 22013,
+      "start_ms": 670,
+      "end_ms": 1376
+    },
+    {
+      "lang": "en",
+      "text": "first because the grime in there was truly",
+      "start_sample": 22013,
+      "end_sample": 83763,
+      "start_ms": 1376,
+      "end_ms": 5235
+    },
+    {
+      "lang": "ja",
+      "text": "最悪.",
+      "start_sample": 83763,
+      "end_sample": 92852,
+      "start_ms": 5235,
+      "end_ms": 5803
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He tackled the yokushitsu first because the grime in there was truly saiaku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5841,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He tackled the",
+          "start_sample": 0,
+          "end_sample": 10920,
+          "start_ms": 0,
+          "end_ms": 682
+        },
+        {
+          "lang": "ja",
+          "text": "浴室",
+          "start_sample": 10920,
+          "end_sample": 21359,
+          "start_ms": 682,
+          "end_ms": 1335
+        },
+        {
+          "lang": "en",
+          "text": "first because the grime in there was truly",
+          "start_sample": 21359,
+          "end_sample": 83509,
+          "start_ms": 1335,
+          "end_ms": 5219
+        },
+        {
+          "lang": "ja",
+          "text": "最悪.",
+          "start_sample": 83509,
+          "end_sample": 93462,
+          "start_ms": 5219,
+          "end_ms": 5841
+        }
+      ]
+    },
+    "ja": {
+      "text": "He tackled the 浴室 first because the grime in there was truly 最悪.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5085,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He tackled the",
+          "start_sample": 0,
+          "end_sample": 16656,
+          "start_ms": 0,
+          "end_ms": 1041
+        },
+        {
+          "lang": "ja",
+          "text": "浴室",
+          "start_sample": 16656,
+          "end_sample": 28349,
+          "start_ms": 1041,
+          "end_ms": 1772
+        },
+        {
+          "lang": "en",
+          "text": "first because the grime in there was truly",
+          "start_sample": 28349,
+          "end_sample": 72077,
+          "start_ms": 1772,
+          "end_ms": 4505
+        },
+        {
+          "lang": "ja",
+          "text": "最悪.",
+          "start_sample": 72077,
+          "end_sample": 81366,
+          "start_ms": 4505,
+          "end_ms": 5085
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 291,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs3062.flac",
+  "sentence": "The 欠陥 in that security library went unnoticed for years, which in hindsight seems 不注意.",
+  "sample_rate": 16000,
+  "duration_ms": 7115,
+  "reference_speaker": "en/speaker_036_d0b62ac1e57e.mp3",
+  "seed": 3104,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2365,
+      "start_ms": 0,
+      "end_ms": 148
+    },
+    {
+      "lang": "ja",
+      "text": "欠陥",
+      "start_sample": 2365,
+      "end_sample": 14791,
+      "start_ms": 148,
+      "end_ms": 924
+    },
+    {
+      "lang": "en",
+      "text": "in that security library went unnoticed for years, which in hindsight seems",
+      "start_sample": 14791,
+      "end_sample": 106187,
+      "start_ms": 924,
+      "end_ms": 6637
+    },
+    {
+      "lang": "ja",
+      "text": "不注意.",
+      "start_sample": 106187,
+      "end_sample": 113842,
+      "start_ms": 6637,
+      "end_ms": 7115
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kekkan in that security library went unnoticed for years, which in hindsight seems fu chuui",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7322,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2565,
+          "start_ms": 0,
+          "end_ms": 160
+        },
+        {
+          "lang": "ja",
+          "text": "欠陥",
+          "start_sample": 2565,
+          "end_sample": 11712,
+          "start_ms": 160,
+          "end_ms": 732
+        },
+        {
+          "lang": "en",
+          "text": "in that security library went unnoticed for years, which in hindsight seems",
+          "start_sample": 11712,
+          "end_sample": 103508,
+          "start_ms": 732,
+          "end_ms": 6469
+        },
+        {
+          "lang": "ja",
+          "text": "不注意.",
+          "start_sample": 103508,
+          "end_sample": 117146,
+          "start_ms": 6469,
+          "end_ms": 7322
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 欠陥 in that security library went unnoticed for years, which in hindsight seems 不注意.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 10141,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2885,
+          "start_ms": 0,
+          "end_ms": 180
+        },
+        {
+          "lang": "ja",
+          "text": "欠陥",
+          "start_sample": 2885,
+          "end_sample": 15711,
+          "start_ms": 180,
+          "end_ms": 982
+        },
+        {
+          "lang": "en",
+          "text": "in that security library went unnoticed for years, which in hindsight seems",
+          "start_sample": 15711,
+          "end_sample": 154395,
+          "start_ms": 982,
+          "end_ms": 9650
+        },
+        {
+          "lang": "ja",
+          "text": "不注意.",
+          "start_sample": 154395,
+          "end_sample": 162250,
+          "start_ms": 9650,
+          "end_ms": 10141
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 356,
+  "frame_labels": "eeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjj"
+}

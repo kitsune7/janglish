@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs5346.flac",
+  "sentence": "野良猫にfoodを与えると、すぐにfriendlyになってくれます。",
+  "sample_rate": 16000,
+  "duration_ms": 4598,
+  "reference_speaker": "jp/speaker_065_12fed3376ff0.mp3",
+  "seed": 5388,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "野良猫に",
+      "start_sample": 0,
+      "end_sample": 8774,
+      "start_ms": 0,
+      "end_ms": 548
+    },
+    {
+      "lang": "en",
+      "text": "food",
+      "start_sample": 8774,
+      "end_sample": 24568,
+      "start_ms": 548,
+      "end_ms": 1536
+    },
+    {
+      "lang": "ja",
+      "text": "を与えると、すぐに",
+      "start_sample": 24568,
+      "end_sample": 44522,
+      "start_ms": 1536,
+      "end_ms": 2783
+    },
+    {
+      "lang": "en",
+      "text": "friendly",
+      "start_sample": 44522,
+      "end_sample": 57750,
+      "start_ms": 2783,
+      "end_ms": 3609
+    },
+    {
+      "lang": "ja",
+      "text": "になってくれます。",
+      "start_sample": 57750,
+      "end_sample": 73575,
+      "start_ms": 3609,
+      "end_ms": 4598
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "noraneko ni food wo ataeru to sugu ni friendly ni natsu te kure masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6954,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "野良猫に",
+          "start_sample": 0,
+          "end_sample": 16354,
+          "start_ms": 0,
+          "end_ms": 1022
+        },
+        {
+          "lang": "en",
+          "text": "food",
+          "start_sample": 16354,
+          "end_sample": 32548,
+          "start_ms": 1022,
+          "end_ms": 2034
+        },
+        {
+          "lang": "ja",
+          "text": "を与えると、すぐに",
+          "start_sample": 32548,
+          "end_sample": 67341,
+          "start_ms": 2034,
+          "end_ms": 4209
+        },
+        {
+          "lang": "en",
+          "text": "friendly",
+          "start_sample": 67341,
+          "end_sample": 80969,
+          "start_ms": 4209,
+          "end_ms": 5061
+        },
+        {
+          "lang": "ja",
+          "text": "になってくれます。",
+          "start_sample": 80969,
+          "end_sample": 111271,
+          "start_ms": 5061,
+          "end_ms": 6954
+        }
+      ]
+    },
+    "ja": {
+      "text": "野良猫にfoodを与えると、すぐにfriendlyになってくれます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3706,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "野良猫に",
+          "start_sample": 0,
+          "end_sample": 8974,
+          "start_ms": 0,
+          "end_ms": 561
+        },
+        {
+          "lang": "en",
+          "text": "food",
+          "start_sample": 8974,
+          "end_sample": 13943,
+          "start_ms": 561,
+          "end_ms": 871
+        },
+        {
+          "lang": "ja",
+          "text": "を与えると、すぐに",
+          "start_sample": 13943,
+          "end_sample": 34297,
+          "start_ms": 871,
+          "end_ms": 2144
+        },
+        {
+          "lang": "en",
+          "text": "friendly",
+          "start_sample": 34297,
+          "end_sample": 43273,
+          "start_ms": 2144,
+          "end_ms": 2705
+        },
+        {
+          "lang": "ja",
+          "text": "になってくれます。",
+          "start_sample": 43273,
+          "end_sample": 59298,
+          "start_ms": 2705,
+          "end_ms": 3706
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 230,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

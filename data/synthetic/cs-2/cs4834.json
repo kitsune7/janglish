@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs4834.flac",
+  "sentence": "I was 本格的 about tackling the 屋根裏 before winter set in.",
+  "sample_rate": 16000,
+  "duration_ms": 4349,
+  "reference_speaker": "jp/speaker_052_8e5df296063d.mp3",
+  "seed": 4876,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I was",
+      "start_sample": 0,
+      "end_sample": 3328,
+      "start_ms": 0,
+      "end_ms": 208
+    },
+    {
+      "lang": "ja",
+      "text": "本格的",
+      "start_sample": 3328,
+      "end_sample": 13341,
+      "start_ms": 208,
+      "end_ms": 834
+    },
+    {
+      "lang": "en",
+      "text": "about tackling the",
+      "start_sample": 13341,
+      "end_sample": 31707,
+      "start_ms": 834,
+      "end_ms": 1982
+    },
+    {
+      "lang": "ja",
+      "text": "屋根裏",
+      "start_sample": 31707,
+      "end_sample": 41239,
+      "start_ms": 1982,
+      "end_ms": 2577
+    },
+    {
+      "lang": "en",
+      "text": "before winter set in.",
+      "start_sample": 41239,
+      "end_sample": 69587,
+      "start_ms": 2577,
+      "end_ms": 4349
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I was honkaku teki about tackling the yaneura before winter set in.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5032,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I was",
+          "start_sample": 0,
+          "end_sample": 3528,
+          "start_ms": 0,
+          "end_ms": 220
+        },
+        {
+          "lang": "ja",
+          "text": "本格的",
+          "start_sample": 3528,
+          "end_sample": 22133,
+          "start_ms": 220,
+          "end_ms": 1383
+        },
+        {
+          "lang": "en",
+          "text": "about tackling the",
+          "start_sample": 22133,
+          "end_sample": 40899,
+          "start_ms": 1383,
+          "end_ms": 2556
+        },
+        {
+          "lang": "ja",
+          "text": "屋根裏",
+          "start_sample": 40899,
+          "end_sample": 51966,
+          "start_ms": 2556,
+          "end_ms": 3248
+        },
+        {
+          "lang": "en",
+          "text": "before winter set in.",
+          "start_sample": 51966,
+          "end_sample": 80514,
+          "start_ms": 3248,
+          "end_ms": 5032
+        }
+      ]
+    },
+    "ja": {
+      "text": "I was 本格的 about tackling the 屋根裏 before winter set in.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4285,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I was",
+          "start_sample": 0,
+          "end_sample": 5285,
+          "start_ms": 0,
+          "end_ms": 330
+        },
+        {
+          "lang": "ja",
+          "text": "本格的",
+          "start_sample": 5285,
+          "end_sample": 15698,
+          "start_ms": 330,
+          "end_ms": 981
+        },
+        {
+          "lang": "en",
+          "text": "about tackling the",
+          "start_sample": 15698,
+          "end_sample": 35883,
+          "start_ms": 981,
+          "end_ms": 2243
+        },
+        {
+          "lang": "ja",
+          "text": "屋根裏",
+          "start_sample": 35883,
+          "end_sample": 45815,
+          "start_ms": 2243,
+          "end_ms": 2863
+        },
+        {
+          "lang": "en",
+          "text": "before winter set in.",
+          "start_sample": 45815,
+          "end_sample": 68561,
+          "start_ms": 2863,
+          "end_ms": 4285
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "eeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -2,9 +2,9 @@
   "audio_path": "synthetic/cs-2/cs9.flac",
   "sentence": "My 猫 and 犬 have somehow become best friends.",
   "sample_rate": 16000,
-  "duration_ms": 4157,
-  "reference_speaker": "jp/speaker_066_d870c5c7ad93.mp3",
-  "seed": 16864,
+  "duration_ms": 2964,
+  "reference_speaker": "en/speaker_083_60e45fe6f2e9.mp3",
+  "seed": 51,
   "tts_language": "stitched",
   "alignment": "forced-dual",
   "spans": [
@@ -12,41 +12,41 @@
       "lang": "en",
       "text": "My",
       "start_sample": 0,
-      "end_sample": 3484,
+      "end_sample": 2856,
       "start_ms": 0,
-      "end_ms": 218
+      "end_ms": 178
     },
     {
       "lang": "ja",
       "text": "猫",
-      "start_sample": 3484,
-      "end_sample": 11264,
-      "start_ms": 218,
-      "end_ms": 704
+      "start_sample": 2856,
+      "end_sample": 7909,
+      "start_ms": 178,
+      "end_ms": 494
     },
     {
       "lang": "en",
       "text": "and",
-      "start_sample": 11264,
-      "end_sample": 14068,
-      "start_ms": 704,
-      "end_ms": 879
+      "start_sample": 7909,
+      "end_sample": 11531,
+      "start_ms": 494,
+      "end_ms": 721
     },
     {
       "lang": "ja",
       "text": "犬",
-      "start_sample": 14068,
-      "end_sample": 27943,
-      "start_ms": 879,
-      "end_ms": 1746
+      "start_sample": 11531,
+      "end_sample": 17225,
+      "start_ms": 721,
+      "end_ms": 1077
     },
     {
       "lang": "en",
       "text": "have somehow become best friends.",
-      "start_sample": 27943,
-      "end_sample": 66513,
-      "start_ms": 1746,
-      "end_ms": 4157
+      "start_sample": 17225,
+      "end_sample": 47430,
+      "start_ms": 1077,
+      "end_ms": 2964
     }
   ],
   "renders": {
@@ -54,47 +54,47 @@
       "text": "My neko and inu have somehow become best friends.",
       "tts_language": "en",
       "alignment": "forced",
-      "duration_ms": 3865,
+      "duration_ms": 3177,
       "spans": [
         {
           "lang": "en",
           "text": "My",
           "start_sample": 0,
-          "end_sample": 3684,
+          "end_sample": 3056,
           "start_ms": 0,
-          "end_ms": 230
+          "end_ms": 191
         },
         {
           "lang": "ja",
           "text": "猫",
-          "start_sample": 3684,
-          "end_sample": 10413,
-          "start_ms": 230,
-          "end_ms": 651
+          "start_sample": 3056,
+          "end_sample": 9332,
+          "start_ms": 191,
+          "end_ms": 583
         },
         {
           "lang": "en",
           "text": "and",
-          "start_sample": 10413,
-          "end_sample": 13617,
-          "start_ms": 651,
-          "end_ms": 851
+          "start_sample": 9332,
+          "end_sample": 13354,
+          "start_ms": 583,
+          "end_ms": 835
         },
         {
           "lang": "ja",
           "text": "犬",
-          "start_sample": 13617,
-          "end_sample": 23069,
-          "start_ms": 851,
-          "end_ms": 1442
+          "start_sample": 13354,
+          "end_sample": 20434,
+          "start_ms": 835,
+          "end_ms": 1277
         },
         {
           "lang": "en",
           "text": "have somehow become best friends.",
-          "start_sample": 23069,
-          "end_sample": 61839,
-          "start_ms": 1442,
-          "end_ms": 3865
+          "start_sample": 20434,
+          "end_sample": 50839,
+          "start_ms": 1277,
+          "end_ms": 3177
         }
       ]
     },
@@ -102,52 +102,52 @@
       "text": "My 猫 and 犬 have somehow become best friends.",
       "tts_language": "ja",
       "alignment": "forced",
-      "duration_ms": 6275,
+      "duration_ms": 4370,
       "spans": [
         {
           "lang": "en",
           "text": "My",
           "start_sample": 0,
-          "end_sample": 5774,
+          "end_sample": 4488,
           "start_ms": 0,
-          "end_ms": 361
+          "end_ms": 280
         },
         {
           "lang": "ja",
           "text": "猫",
-          "start_sample": 5774,
-          "end_sample": 13954,
-          "start_ms": 361,
-          "end_ms": 872
+          "start_sample": 4488,
+          "end_sample": 9941,
+          "start_ms": 280,
+          "end_ms": 621
         },
         {
           "lang": "en",
           "text": "and",
-          "start_sample": 13954,
-          "end_sample": 21492,
-          "start_ms": 872,
-          "end_ms": 1343
+          "start_sample": 9941,
+          "end_sample": 15554,
+          "start_ms": 621,
+          "end_ms": 972
         },
         {
           "lang": "ja",
           "text": "犬",
-          "start_sample": 21492,
-          "end_sample": 35767,
-          "start_ms": 1343,
-          "end_ms": 2235
+          "start_sample": 15554,
+          "end_sample": 21648,
+          "start_ms": 972,
+          "end_ms": 1353
         },
         {
           "lang": "en",
           "text": "have somehow become best friends.",
-          "start_sample": 35767,
-          "end_sample": 100404,
-          "start_ms": 2235,
-          "end_ms": 6275
+          "start_sample": 21648,
+          "end_sample": 69918,
+          "start_ms": 1353,
+          "end_ms": 4370
         }
       ]
     }
   },
   "frame_rate_hz": 50,
-  "num_frames": 208,
-  "frame_labels": "eeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 149,
+  "frame_labels": "eeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

@@ -1,0 +1,201 @@
+{
+  "audio_path": "synthetic/cs-3/cs1012.flac",
+  "sentence": "Head 北 until you pass the 川, then turn east and look for the 赤い gate.",
+  "sample_rate": 16000,
+  "duration_ms": 5457,
+  "reference_speaker": "en/speaker_040_ec293248c910.mp3",
+  "seed": 1054,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Head",
+      "start_sample": 0,
+      "end_sample": 3012,
+      "start_ms": 0,
+      "end_ms": 188
+    },
+    {
+      "lang": "ja",
+      "text": "北",
+      "start_sample": 3012,
+      "end_sample": 12859,
+      "start_ms": 188,
+      "end_ms": 804
+    },
+    {
+      "lang": "en",
+      "text": "until you pass the",
+      "start_sample": 12859,
+      "end_sample": 35752,
+      "start_ms": 804,
+      "end_ms": 2234
+    },
+    {
+      "lang": "ja",
+      "text": "川,",
+      "start_sample": 35752,
+      "end_sample": 44159,
+      "start_ms": 2234,
+      "end_ms": 2760
+    },
+    {
+      "lang": "en",
+      "text": "then turn east and look for the",
+      "start_sample": 44159,
+      "end_sample": 74281,
+      "start_ms": 2760,
+      "end_ms": 4643
+    },
+    {
+      "lang": "ja",
+      "text": "赤い",
+      "start_sample": 74281,
+      "end_sample": 81567,
+      "start_ms": 4643,
+      "end_ms": 5098
+    },
+    {
+      "lang": "en",
+      "text": "gate.",
+      "start_sample": 81567,
+      "end_sample": 87307,
+      "start_ms": 5098,
+      "end_ms": 5457
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Head kita until you pass the kawa then turn east and look for the akai gate.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5903,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Head",
+          "start_sample": 0,
+          "end_sample": 3212,
+          "start_ms": 0,
+          "end_ms": 201
+        },
+        {
+          "lang": "ja",
+          "text": "北",
+          "start_sample": 3212,
+          "end_sample": 16867,
+          "start_ms": 201,
+          "end_ms": 1054
+        },
+        {
+          "lang": "en",
+          "text": "until you pass the",
+          "start_sample": 16867,
+          "end_sample": 40160,
+          "start_ms": 1054,
+          "end_ms": 2510
+        },
+        {
+          "lang": "ja",
+          "text": "川,",
+          "start_sample": 40160,
+          "end_sample": 51245,
+          "start_ms": 2510,
+          "end_ms": 3203
+        },
+        {
+          "lang": "en",
+          "text": "then turn east and look for the",
+          "start_sample": 51245,
+          "end_sample": 81767,
+          "start_ms": 3203,
+          "end_ms": 5110
+        },
+        {
+          "lang": "ja",
+          "text": "赤い",
+          "start_sample": 81767,
+          "end_sample": 88514,
+          "start_ms": 5110,
+          "end_ms": 5532
+        },
+        {
+          "lang": "en",
+          "text": "gate.",
+          "start_sample": 88514,
+          "end_sample": 94454,
+          "start_ms": 5532,
+          "end_ms": 5903
+        }
+      ]
+    },
+    "ja": {
+      "text": "Head 北 until you pass the 川, then turn east and look for the 赤い gate.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7145,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Head",
+          "start_sample": 0,
+          "end_sample": 5764,
+          "start_ms": 0,
+          "end_ms": 360
+        },
+        {
+          "lang": "ja",
+          "text": "北",
+          "start_sample": 5764,
+          "end_sample": 16011,
+          "start_ms": 360,
+          "end_ms": 1001
+        },
+        {
+          "lang": "en",
+          "text": "until you pass the",
+          "start_sample": 16011,
+          "end_sample": 49155,
+          "start_ms": 1001,
+          "end_ms": 3072
+        },
+        {
+          "lang": "ja",
+          "text": "川,",
+          "start_sample": 49155,
+          "end_sample": 57962,
+          "start_ms": 3072,
+          "end_ms": 3623
+        },
+        {
+          "lang": "en",
+          "text": "then turn east and look for the",
+          "start_sample": 57962,
+          "end_sample": 98791,
+          "start_ms": 3623,
+          "end_ms": 6174
+        },
+        {
+          "lang": "ja",
+          "text": "赤い",
+          "start_sample": 98791,
+          "end_sample": 106477,
+          "start_ms": 6174,
+          "end_ms": 6655
+        },
+        {
+          "lang": "en",
+          "text": "gate.",
+          "start_sample": 106477,
+          "end_sample": 114322,
+          "start_ms": 6655,
+          "end_ms": 7145
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 273,
+  "frame_labels": "eeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeee"
+}

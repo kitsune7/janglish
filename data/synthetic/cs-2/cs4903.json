@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs4903.flac",
+  "sentence": "The storm hit with 突然 force, leaving the community in a state of 混乱.",
+  "sample_rate": 16000,
+  "duration_ms": 5770,
+  "reference_speaker": "jp/speaker_055_b88f2897e0f4.mp3",
+  "seed": 4945,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The storm hit with",
+      "start_sample": 0,
+      "end_sample": 23818,
+      "start_ms": 0,
+      "end_ms": 1489
+    },
+    {
+      "lang": "ja",
+      "text": "突然",
+      "start_sample": 23818,
+      "end_sample": 32075,
+      "start_ms": 1489,
+      "end_ms": 2005
+    },
+    {
+      "lang": "en",
+      "text": "force, leaving the community in a state of",
+      "start_sample": 32075,
+      "end_sample": 85796,
+      "start_ms": 2005,
+      "end_ms": 5362
+    },
+    {
+      "lang": "ja",
+      "text": "混乱.",
+      "start_sample": 85796,
+      "end_sample": 92327,
+      "start_ms": 5362,
+      "end_ms": 5770
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The storm hit with totsuzen force, leaving the community in a state of konran",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6045,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The storm hit with",
+          "start_sample": 0,
+          "end_sample": 24018,
+          "start_ms": 0,
+          "end_ms": 1501
+        },
+        {
+          "lang": "ja",
+          "text": "突然",
+          "start_sample": 24018,
+          "end_sample": 34265,
+          "start_ms": 1501,
+          "end_ms": 2142
+        },
+        {
+          "lang": "en",
+          "text": "force, leaving the community in a state of",
+          "start_sample": 34265,
+          "end_sample": 88386,
+          "start_ms": 2142,
+          "end_ms": 5524
+        },
+        {
+          "lang": "ja",
+          "text": "混乱.",
+          "start_sample": 88386,
+          "end_sample": 96713,
+          "start_ms": 5524,
+          "end_ms": 6045
+        }
+      ]
+    },
+    "ja": {
+      "text": "The storm hit with 突然 force, leaving the community in a state of 混乱.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4929,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The storm hit with",
+          "start_sample": 0,
+          "end_sample": 21479,
+          "start_ms": 0,
+          "end_ms": 1342
+        },
+        {
+          "lang": "ja",
+          "text": "突然",
+          "start_sample": 21479,
+          "end_sample": 30136,
+          "start_ms": 1342,
+          "end_ms": 1884
+        },
+        {
+          "lang": "en",
+          "text": "force, leaving the community in a state of",
+          "start_sample": 30136,
+          "end_sample": 72136,
+          "start_ms": 1884,
+          "end_ms": 4508
+        },
+        {
+          "lang": "ja",
+          "text": "混乱.",
+          "start_sample": 72136,
+          "end_sample": 78867,
+          "start_ms": 4508,
+          "end_ms": 4929
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 289,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjj"
+}

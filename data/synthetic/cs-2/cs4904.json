@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs4904.flac",
+  "sentence": "The 被害者 were taken to the nearest hospital, and volunteers worked through the night with 献身.",
+  "sample_rate": 16000,
+  "duration_ms": 7587,
+  "reference_speaker": "en/speaker_088_9950f069efac.mp3",
+  "seed": 4946,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1562,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "被害者",
+      "start_sample": 1562,
+      "end_sample": 9980,
+      "start_ms": 98,
+      "end_ms": 624
+    },
+    {
+      "lang": "en",
+      "text": "were taken to the nearest hospital, and volunteers worked through the night with",
+      "start_sample": 9980,
+      "end_sample": 110209,
+      "start_ms": 624,
+      "end_ms": 6888
+    },
+    {
+      "lang": "ja",
+      "text": "献身.",
+      "start_sample": 110209,
+      "end_sample": 121391,
+      "start_ms": 6888,
+      "end_ms": 7587
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The higai mono were taken to the nearest hospital, and volunteers worked through the night with kenshin",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8272,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1762,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "被害者",
+          "start_sample": 1762,
+          "end_sample": 22272,
+          "start_ms": 110,
+          "end_ms": 1392
+        },
+        {
+          "lang": "en",
+          "text": "were taken to the nearest hospital, and volunteers worked through the night with",
+          "start_sample": 22272,
+          "end_sample": 122901,
+          "start_ms": 1392,
+          "end_ms": 7681
+        },
+        {
+          "lang": "ja",
+          "text": "献身.",
+          "start_sample": 122901,
+          "end_sample": 132354,
+          "start_ms": 7681,
+          "end_ms": 8272
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 被害者 were taken to the nearest hospital, and volunteers worked through the night with 献身.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7936,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3044,
+          "start_ms": 0,
+          "end_ms": 190
+        },
+        {
+          "lang": "ja",
+          "text": "被害者",
+          "start_sample": 3044,
+          "end_sample": 11862,
+          "start_ms": 190,
+          "end_ms": 741
+        },
+        {
+          "lang": "en",
+          "text": "were taken to the nearest hospital, and volunteers worked through the night with",
+          "start_sample": 11862,
+          "end_sample": 115595,
+          "start_ms": 741,
+          "end_ms": 7225
+        },
+        {
+          "lang": "ja",
+          "text": "献身.",
+          "start_sample": 115595,
+          "end_sample": 126977,
+          "start_ms": 7225,
+          "end_ms": 7936
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 380,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

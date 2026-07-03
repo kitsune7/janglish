@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs5131.flac",
+  "sentence": "This soup needs just a pinch of 塩 and maybe a squeeze of 柚子胡椒 on top.",
+  "sample_rate": 16000,
+  "duration_ms": 5440,
+  "reference_speaker": "jp/speaker_084_122c648d361d.mp3",
+  "seed": 5173,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This soup needs just a pinch of",
+      "start_sample": 0,
+      "end_sample": 35223,
+      "start_ms": 0,
+      "end_ms": 2201
+    },
+    {
+      "lang": "ja",
+      "text": "塩",
+      "start_sample": 35223,
+      "end_sample": 40114,
+      "start_ms": 2201,
+      "end_ms": 2507
+    },
+    {
+      "lang": "en",
+      "text": "and maybe a squeeze of",
+      "start_sample": 40114,
+      "end_sample": 64078,
+      "start_ms": 2507,
+      "end_ms": 4005
+    },
+    {
+      "lang": "ja",
+      "text": "柚子胡椒",
+      "start_sample": 64078,
+      "end_sample": 75222,
+      "start_ms": 4005,
+      "end_ms": 4701
+    },
+    {
+      "lang": "en",
+      "text": "on top.",
+      "start_sample": 75222,
+      "end_sample": 87043,
+      "start_ms": 4701,
+      "end_ms": 5440
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This soup needs just a pinch of shio and maybe a squeeze of yuzu koshou on top.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6592,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This soup needs just a pinch of",
+          "start_sample": 0,
+          "end_sample": 35423,
+          "start_ms": 0,
+          "end_ms": 2214
+        },
+        {
+          "lang": "ja",
+          "text": "塩",
+          "start_sample": 35423,
+          "end_sample": 46324,
+          "start_ms": 2214,
+          "end_ms": 2895
+        },
+        {
+          "lang": "en",
+          "text": "and maybe a squeeze of",
+          "start_sample": 46324,
+          "end_sample": 70688,
+          "start_ms": 2895,
+          "end_ms": 4418
+        },
+        {
+          "lang": "ja",
+          "text": "柚子胡椒",
+          "start_sample": 70688,
+          "end_sample": 93449,
+          "start_ms": 4418,
+          "end_ms": 5841
+        },
+        {
+          "lang": "en",
+          "text": "on top.",
+          "start_sample": 93449,
+          "end_sample": 105470,
+          "start_ms": 5841,
+          "end_ms": 6592
+        }
+      ]
+    },
+    "ja": {
+      "text": "This soup needs just a pinch of 塩 and maybe a squeeze of 柚子胡椒 on top.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6153,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This soup needs just a pinch of",
+          "start_sample": 0,
+          "end_sample": 43449,
+          "start_ms": 0,
+          "end_ms": 2716
+        },
+        {
+          "lang": "ja",
+          "text": "塩",
+          "start_sample": 43449,
+          "end_sample": 48740,
+          "start_ms": 2716,
+          "end_ms": 3046
+        },
+        {
+          "lang": "en",
+          "text": "and maybe a squeeze of",
+          "start_sample": 48740,
+          "end_sample": 79363,
+          "start_ms": 3046,
+          "end_ms": 4960
+        },
+        {
+          "lang": "ja",
+          "text": "柚子胡椒",
+          "start_sample": 79363,
+          "end_sample": 90907,
+          "start_ms": 4960,
+          "end_ms": 5682
+        },
+        {
+          "lang": "en",
+          "text": "on top.",
+          "start_sample": 90907,
+          "end_sample": 98441,
+          "start_ms": 5682,
+          "end_ms": 6153
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 273,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

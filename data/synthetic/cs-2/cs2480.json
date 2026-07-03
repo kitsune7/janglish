@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs2480.flac",
+  "sentence": "Her 判断 at the intersection was impressively 冷静 given the chaos around her.",
+  "sample_rate": 16000,
+  "duration_ms": 4858,
+  "reference_speaker": "jp/speaker_013_e472ee9e6d56.mp3",
+  "seed": 2522,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Her",
+      "start_sample": 0,
+      "end_sample": 2532,
+      "start_ms": 0,
+      "end_ms": 158
+    },
+    {
+      "lang": "ja",
+      "text": "判断",
+      "start_sample": 2532,
+      "end_sample": 15268,
+      "start_ms": 158,
+      "end_ms": 954
+    },
+    {
+      "lang": "en",
+      "text": "at the intersection was impressively",
+      "start_sample": 15268,
+      "end_sample": 44452,
+      "start_ms": 954,
+      "end_ms": 2778
+    },
+    {
+      "lang": "ja",
+      "text": "冷静",
+      "start_sample": 44452,
+      "end_sample": 54304,
+      "start_ms": 2778,
+      "end_ms": 3394
+    },
+    {
+      "lang": "en",
+      "text": "given the chaos around her.",
+      "start_sample": 54304,
+      "end_sample": 77734,
+      "start_ms": 3394,
+      "end_ms": 4858
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Her handan at the intersection was impressively reisei given the chaos around her.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4502,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 2732,
+          "start_ms": 0,
+          "end_ms": 171
+        },
+        {
+          "lang": "ja",
+          "text": "判断",
+          "start_sample": 2732,
+          "end_sample": 9485,
+          "start_ms": 171,
+          "end_ms": 593
+        },
+        {
+          "lang": "en",
+          "text": "at the intersection was impressively",
+          "start_sample": 9485,
+          "end_sample": 39069,
+          "start_ms": 593,
+          "end_ms": 2442
+        },
+        {
+          "lang": "ja",
+          "text": "冷静",
+          "start_sample": 39069,
+          "end_sample": 48394,
+          "start_ms": 2442,
+          "end_ms": 3025
+        },
+        {
+          "lang": "en",
+          "text": "given the chaos around her.",
+          "start_sample": 48394,
+          "end_sample": 72024,
+          "start_ms": 3025,
+          "end_ms": 4502
+        }
+      ]
+    },
+    "ja": {
+      "text": "Her 判断 at the intersection was impressively 冷静 given the chaos around her.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7369,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 4645,
+          "start_ms": 0,
+          "end_ms": 290
+        },
+        {
+          "lang": "ja",
+          "text": "判断",
+          "start_sample": 4645,
+          "end_sample": 17781,
+          "start_ms": 290,
+          "end_ms": 1111
+        },
+        {
+          "lang": "en",
+          "text": "at the intersection was impressively",
+          "start_sample": 17781,
+          "end_sample": 69844,
+          "start_ms": 1111,
+          "end_ms": 4365
+        },
+        {
+          "lang": "ja",
+          "text": "冷静",
+          "start_sample": 69844,
+          "end_sample": 80096,
+          "start_ms": 4365,
+          "end_ms": 5006
+        },
+        {
+          "lang": "en",
+          "text": "given the chaos around her.",
+          "start_sample": 80096,
+          "end_sample": 117901,
+          "start_ms": 5006,
+          "end_ms": 7369
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 243,
+  "frame_labels": "eeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

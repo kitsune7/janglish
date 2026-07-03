@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs4142.flac",
+  "sentence": "Her 提案 was bold, but the 反応 from the stakeholders was lukewarm.",
+  "sample_rate": 16000,
+  "duration_ms": 4798,
+  "reference_speaker": "en/speaker_023_9d57aeaf822c.mp3",
+  "seed": 4184,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Her",
+      "start_sample": 0,
+      "end_sample": 1888,
+      "start_ms": 0,
+      "end_ms": 118
+    },
+    {
+      "lang": "ja",
+      "text": "提案",
+      "start_sample": 1888,
+      "end_sample": 10474,
+      "start_ms": 118,
+      "end_ms": 655
+    },
+    {
+      "lang": "en",
+      "text": "was bold, but the",
+      "start_sample": 10474,
+      "end_sample": 40593,
+      "start_ms": 655,
+      "end_ms": 2537
+    },
+    {
+      "lang": "ja",
+      "text": "反応",
+      "start_sample": 40593,
+      "end_sample": 47895,
+      "start_ms": 2537,
+      "end_ms": 2993
+    },
+    {
+      "lang": "en",
+      "text": "from the stakeholders was lukewarm.",
+      "start_sample": 47895,
+      "end_sample": 76765,
+      "start_ms": 2993,
+      "end_ms": 4798
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Her teian was bold, but the hannou from the stakeholders was lukewarm.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4578,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 2088,
+          "start_ms": 0,
+          "end_ms": 130
+        },
+        {
+          "lang": "ja",
+          "text": "提案",
+          "start_sample": 2088,
+          "end_sample": 8834,
+          "start_ms": 130,
+          "end_ms": 552
+        },
+        {
+          "lang": "en",
+          "text": "was bold, but the",
+          "start_sample": 8834,
+          "end_sample": 39353,
+          "start_ms": 552,
+          "end_ms": 2460
+        },
+        {
+          "lang": "ja",
+          "text": "反応",
+          "start_sample": 39353,
+          "end_sample": 44172,
+          "start_ms": 2460,
+          "end_ms": 2761
+        },
+        {
+          "lang": "en",
+          "text": "from the stakeholders was lukewarm.",
+          "start_sample": 44172,
+          "end_sample": 73242,
+          "start_ms": 2761,
+          "end_ms": 4578
+        }
+      ]
+    },
+    "ja": {
+      "text": "Her 提案 was bold, but the 反応 from the stakeholders was lukewarm.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5937,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 5292,
+          "start_ms": 0,
+          "end_ms": 331
+        },
+        {
+          "lang": "ja",
+          "text": "提案",
+          "start_sample": 5292,
+          "end_sample": 14278,
+          "start_ms": 331,
+          "end_ms": 892
+        },
+        {
+          "lang": "en",
+          "text": "was bold, but the",
+          "start_sample": 14278,
+          "end_sample": 43000,
+          "start_ms": 892,
+          "end_ms": 2688
+        },
+        {
+          "lang": "ja",
+          "text": "反応",
+          "start_sample": 43000,
+          "end_sample": 50702,
+          "start_ms": 2688,
+          "end_ms": 3169
+        },
+        {
+          "lang": "en",
+          "text": "from the stakeholders was lukewarm.",
+          "start_sample": 50702,
+          "end_sample": 94986,
+          "start_ms": 3169,
+          "end_ms": 5937
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 240,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

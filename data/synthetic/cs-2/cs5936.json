@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs5936.flac",
+  "sentence": "警報が鳴ったとき、彼はimmediatelyにexitへ向かった。",
+  "sample_rate": 16000,
+  "duration_ms": 4529,
+  "reference_speaker": "jp/speaker_092_08c69e35de07.mp3",
+  "seed": 5978,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "警報が鳴ったとき、彼は",
+      "start_sample": 0,
+      "end_sample": 27867,
+      "start_ms": 0,
+      "end_ms": 1742
+    },
+    {
+      "lang": "en",
+      "text": "immediately",
+      "start_sample": 27867,
+      "end_sample": 48291,
+      "start_ms": 1742,
+      "end_ms": 3018
+    },
+    {
+      "lang": "ja",
+      "text": "に",
+      "start_sample": 48291,
+      "end_sample": 51421,
+      "start_ms": 3018,
+      "end_ms": 3214
+    },
+    {
+      "lang": "en",
+      "text": "exit",
+      "start_sample": 51421,
+      "end_sample": 62715,
+      "start_ms": 3214,
+      "end_ms": 3920
+    },
+    {
+      "lang": "ja",
+      "text": "へ向かった。",
+      "start_sample": 62715,
+      "end_sample": 72458,
+      "start_ms": 3920,
+      "end_ms": 4529
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "keihou ga natsu ta toki kare ha immediately ni exit he mukatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9510,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "警報が鳴ったとき、彼は",
+          "start_sample": 0,
+          "end_sample": 92582,
+          "start_ms": 0,
+          "end_ms": 5786
+        },
+        {
+          "lang": "en",
+          "text": "immediately",
+          "start_sample": 92582,
+          "end_sample": 113406,
+          "start_ms": 5786,
+          "end_ms": 7088
+        },
+        {
+          "lang": "ja",
+          "text": "に",
+          "start_sample": 113406,
+          "end_sample": 121574,
+          "start_ms": 7088,
+          "end_ms": 7598
+        },
+        {
+          "lang": "en",
+          "text": "exit",
+          "start_sample": 121574,
+          "end_sample": 133268,
+          "start_ms": 7598,
+          "end_ms": 8329
+        },
+        {
+          "lang": "ja",
+          "text": "へ向かった。",
+          "start_sample": 133268,
+          "end_sample": 152168,
+          "start_ms": 8329,
+          "end_ms": 9510
+        }
+      ]
+    },
+    "ja": {
+      "text": "警報が鳴ったとき、彼はimmediatelyにexitへ向かった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3869,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "警報が鳴ったとき、彼は",
+          "start_sample": 0,
+          "end_sample": 28067,
+          "start_ms": 0,
+          "end_ms": 1754
+        },
+        {
+          "lang": "en",
+          "text": "immediately",
+          "start_sample": 28067,
+          "end_sample": 40738,
+          "start_ms": 1754,
+          "end_ms": 2546
+        },
+        {
+          "lang": "ja",
+          "text": "に",
+          "start_sample": 40738,
+          "end_sample": 44268,
+          "start_ms": 2546,
+          "end_ms": 2767
+        },
+        {
+          "lang": "en",
+          "text": "exit",
+          "start_sample": 44268,
+          "end_sample": 51966,
+          "start_ms": 2767,
+          "end_ms": 3248
+        },
+        {
+          "lang": "ja",
+          "text": "へ向かった。",
+          "start_sample": 51966,
+          "end_sample": 61909,
+          "start_ms": 3248,
+          "end_ms": 3869
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 227,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

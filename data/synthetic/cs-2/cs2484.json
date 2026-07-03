@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs2484.flac",
+  "sentence": "Could you turn down the 音量 on the GPS? The voice is way too 大袈裟.",
+  "sample_rate": 16000,
+  "duration_ms": 6389,
+  "reference_speaker": "en/speaker_077_cf8a4971b1d4.mp3",
+  "seed": 2526,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Could you turn down the",
+      "start_sample": 0,
+      "end_sample": 16636,
+      "start_ms": 0,
+      "end_ms": 1040
+    },
+    {
+      "lang": "ja",
+      "text": "音量",
+      "start_sample": 16636,
+      "end_sample": 25699,
+      "start_ms": 1040,
+      "end_ms": 1606
+    },
+    {
+      "lang": "en",
+      "text": "on the GPS? The voice is way too",
+      "start_sample": 25699,
+      "end_sample": 91686,
+      "start_ms": 1606,
+      "end_ms": 5730
+    },
+    {
+      "lang": "ja",
+      "text": "大袈裟.",
+      "start_sample": 91686,
+      "end_sample": 102230,
+      "start_ms": 5730,
+      "end_ms": 6389
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Could you turn down the onryou on the GPS? The voice is way too oogesa",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6434,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you turn down the",
+          "start_sample": 0,
+          "end_sample": 16836,
+          "start_ms": 0,
+          "end_ms": 1052
+        },
+        {
+          "lang": "ja",
+          "text": "音量",
+          "start_sample": 16836,
+          "end_sample": 26618,
+          "start_ms": 1052,
+          "end_ms": 1664
+        },
+        {
+          "lang": "en",
+          "text": "on the GPS? The voice is way too",
+          "start_sample": 26618,
+          "end_sample": 93005,
+          "start_ms": 1664,
+          "end_ms": 5813
+        },
+        {
+          "lang": "ja",
+          "text": "大袈裟.",
+          "start_sample": 93005,
+          "end_sample": 102945,
+          "start_ms": 5813,
+          "end_ms": 6434
+        }
+      ]
+    },
+    "ja": {
+      "text": "Could you turn down the 音量 on the GPS? The voice is way too 大袈裟.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6255,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you turn down the",
+          "start_sample": 0,
+          "end_sample": 20530,
+          "start_ms": 0,
+          "end_ms": 1283
+        },
+        {
+          "lang": "ja",
+          "text": "音量",
+          "start_sample": 20530,
+          "end_sample": 29993,
+          "start_ms": 1283,
+          "end_ms": 1875
+        },
+        {
+          "lang": "en",
+          "text": "on the GPS? The voice is way too",
+          "start_sample": 29993,
+          "end_sample": 89337,
+          "start_ms": 1875,
+          "end_ms": 5584
+        },
+        {
+          "lang": "ja",
+          "text": "大袈裟.",
+          "start_sample": 89337,
+          "end_sample": 100081,
+          "start_ms": 5584,
+          "end_ms": 6255
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 320,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs4161.flac",
+  "sentence": "The sudden 変更 threw off the whole team's 段取り for the week.",
+  "sample_rate": 16000,
+  "duration_ms": 3650,
+  "reference_speaker": "jp/speaker_052_8e5df296063d.mp3",
+  "seed": 4203,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The sudden",
+      "start_sample": 0,
+      "end_sample": 6215,
+      "start_ms": 0,
+      "end_ms": 388
+    },
+    {
+      "lang": "ja",
+      "text": "変更",
+      "start_sample": 6215,
+      "end_sample": 13043,
+      "start_ms": 388,
+      "end_ms": 815
+    },
+    {
+      "lang": "en",
+      "text": "threw off the whole team's",
+      "start_sample": 13043,
+      "end_sample": 38146,
+      "start_ms": 815,
+      "end_ms": 2384
+    },
+    {
+      "lang": "ja",
+      "text": "段取り",
+      "start_sample": 38146,
+      "end_sample": 45456,
+      "start_ms": 2384,
+      "end_ms": 2841
+    },
+    {
+      "lang": "en",
+      "text": "for the week.",
+      "start_sample": 45456,
+      "end_sample": 58406,
+      "start_ms": 2841,
+      "end_ms": 3650
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The sudden henkou threw off the whole team's dandori for the week.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4250,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The sudden",
+          "start_sample": 0,
+          "end_sample": 6415,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "ja",
+          "text": "変更",
+          "start_sample": 6415,
+          "end_sample": 17643,
+          "start_ms": 401,
+          "end_ms": 1103
+        },
+        {
+          "lang": "en",
+          "text": "threw off the whole team's",
+          "start_sample": 17643,
+          "end_sample": 43146,
+          "start_ms": 1103,
+          "end_ms": 2697
+        },
+        {
+          "lang": "ja",
+          "text": "段取り",
+          "start_sample": 43146,
+          "end_sample": 54855,
+          "start_ms": 2697,
+          "end_ms": 3428
+        },
+        {
+          "lang": "en",
+          "text": "for the week.",
+          "start_sample": 54855,
+          "end_sample": 68005,
+          "start_ms": 3428,
+          "end_ms": 4250
+        }
+      ]
+    },
+    "ja": {
+      "text": "The sudden 変更 threw off the whole team's 段取り for the week.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3634,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The sudden",
+          "start_sample": 0,
+          "end_sample": 6903,
+          "start_ms": 0,
+          "end_ms": 431
+        },
+        {
+          "lang": "ja",
+          "text": "変更",
+          "start_sample": 6903,
+          "end_sample": 14131,
+          "start_ms": 431,
+          "end_ms": 883
+        },
+        {
+          "lang": "en",
+          "text": "threw off the whole team's",
+          "start_sample": 14131,
+          "end_sample": 36780,
+          "start_ms": 883,
+          "end_ms": 2299
+        },
+        {
+          "lang": "ja",
+          "text": "段取り",
+          "start_sample": 36780,
+          "end_sample": 44490,
+          "start_ms": 2299,
+          "end_ms": 2781
+        },
+        {
+          "lang": "en",
+          "text": "for the week.",
+          "start_sample": 44490,
+          "end_sample": 58140,
+          "start_ms": 2781,
+          "end_ms": 3634
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 183,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

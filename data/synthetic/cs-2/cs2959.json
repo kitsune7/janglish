@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs2959.flac",
+  "sentence": "The 運転士 made a smooth stop, which was a nice 対照 to yesterday's jerky braking.",
+  "sample_rate": 16000,
+  "duration_ms": 6002,
+  "reference_speaker": "en/speaker_097_44a775a22921.mp3",
+  "seed": 3001,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2044,
+      "start_ms": 0,
+      "end_ms": 128
+    },
+    {
+      "lang": "ja",
+      "text": "運転士",
+      "start_sample": 2044,
+      "end_sample": 13664,
+      "start_ms": 128,
+      "end_ms": 854
+    },
+    {
+      "lang": "en",
+      "text": "made a smooth stop, which was a nice",
+      "start_sample": 13664,
+      "end_sample": 58152,
+      "start_ms": 854,
+      "end_ms": 3634
+    },
+    {
+      "lang": "ja",
+      "text": "対照",
+      "start_sample": 58152,
+      "end_sample": 65285,
+      "start_ms": 3634,
+      "end_ms": 4080
+    },
+    {
+      "lang": "en",
+      "text": "to yesterday's jerky braking.",
+      "start_sample": 65285,
+      "end_sample": 96024,
+      "start_ms": 4080,
+      "end_ms": 6002
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The unten samurai made a smooth stop, which was a nice taishou to yesterday's jerky braking.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6673,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2244,
+          "start_ms": 0,
+          "end_ms": 140
+        },
+        {
+          "lang": "ja",
+          "text": "運転士",
+          "start_sample": 2244,
+          "end_sample": 20840,
+          "start_ms": 140,
+          "end_ms": 1302
+        },
+        {
+          "lang": "en",
+          "text": "made a smooth stop, which was a nice",
+          "start_sample": 20840,
+          "end_sample": 65728,
+          "start_ms": 1302,
+          "end_ms": 4108
+        },
+        {
+          "lang": "ja",
+          "text": "対照",
+          "start_sample": 65728,
+          "end_sample": 75828,
+          "start_ms": 4108,
+          "end_ms": 4739
+        },
+        {
+          "lang": "en",
+          "text": "to yesterday's jerky braking.",
+          "start_sample": 75828,
+          "end_sample": 106767,
+          "start_ms": 4739,
+          "end_ms": 6673
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 運転士 made a smooth stop, which was a nice 対照 to yesterday's jerky braking.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7893,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5288,
+          "start_ms": 0,
+          "end_ms": 330
+        },
+        {
+          "lang": "ja",
+          "text": "運転士",
+          "start_sample": 5288,
+          "end_sample": 17308,
+          "start_ms": 330,
+          "end_ms": 1082
+        },
+        {
+          "lang": "en",
+          "text": "made a smooth stop, which was a nice",
+          "start_sample": 17308,
+          "end_sample": 83340,
+          "start_ms": 1082,
+          "end_ms": 5209
+        },
+        {
+          "lang": "ja",
+          "text": "対照",
+          "start_sample": 83340,
+          "end_sample": 90873,
+          "start_ms": 5209,
+          "end_ms": 5680
+        },
+        {
+          "lang": "en",
+          "text": "to yesterday's jerky braking.",
+          "start_sample": 90873,
+          "end_sample": 126292,
+          "start_ms": 5680,
+          "end_ms": 7893
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 301,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

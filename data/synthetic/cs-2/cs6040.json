@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs6040.flac",
+  "sentence": "homeに誰もいなかったので、荷物はsecure場所に置かれていました。",
+  "sample_rate": 16000,
+  "duration_ms": 3708,
+  "reference_speaker": "en/speaker_075_373f531aa159.mp3",
+  "seed": 6082,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "home",
+      "start_sample": 0,
+      "end_sample": 3804,
+      "start_ms": 0,
+      "end_ms": 238
+    },
+    {
+      "lang": "ja",
+      "text": "に誰もいなかったので、荷物は",
+      "start_sample": 3804,
+      "end_sample": 31204,
+      "start_ms": 238,
+      "end_ms": 1950
+    },
+    {
+      "lang": "en",
+      "text": "secure",
+      "start_sample": 31204,
+      "end_sample": 42179,
+      "start_ms": 1950,
+      "end_ms": 2636
+    },
+    {
+      "lang": "ja",
+      "text": "場所に置かれていました。",
+      "start_sample": 42179,
+      "end_sample": 59330,
+      "start_ms": 2636,
+      "end_ms": 3708
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "home ni dare mo i nakatsu ta no de nimotsu ha secure basho ni oka re te i mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7970,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "home",
+          "start_sample": 0,
+          "end_sample": 4004,
+          "start_ms": 0,
+          "end_ms": 250
+        },
+        {
+          "lang": "ja",
+          "text": "に誰もいなかったので、荷物は",
+          "start_sample": 4004,
+          "end_sample": 72254,
+          "start_ms": 250,
+          "end_ms": 4516
+        },
+        {
+          "lang": "en",
+          "text": "secure",
+          "start_sample": 72254,
+          "end_sample": 83629,
+          "start_ms": 4516,
+          "end_ms": 5227
+        },
+        {
+          "lang": "ja",
+          "text": "場所に置かれていました。",
+          "start_sample": 83629,
+          "end_sample": 127525,
+          "start_ms": 5227,
+          "end_ms": 7970
+        }
+      ]
+    },
+    "ja": {
+      "text": "homeに誰もいなかったので、荷物はsecure場所に置かれていました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3455,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "home",
+          "start_sample": 0,
+          "end_sample": 3856,
+          "start_ms": 0,
+          "end_ms": 241
+        },
+        {
+          "lang": "ja",
+          "text": "に誰もいなかったので、荷物は",
+          "start_sample": 3856,
+          "end_sample": 31656,
+          "start_ms": 241,
+          "end_ms": 1978
+        },
+        {
+          "lang": "en",
+          "text": "secure",
+          "start_sample": 31656,
+          "end_sample": 37923,
+          "start_ms": 1978,
+          "end_ms": 2370
+        },
+        {
+          "lang": "ja",
+          "text": "場所に置かれていました。",
+          "start_sample": 37923,
+          "end_sample": 55274,
+          "start_ms": 2370,
+          "end_ms": 3455
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 186,
+  "frame_labels": "eeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

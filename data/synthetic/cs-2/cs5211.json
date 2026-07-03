@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs5211.flac",
+  "sentence": "The corner table has the best 眺め and gets beautiful 朝日 in the morning.",
+  "sample_rate": 16000,
+  "duration_ms": 4214,
+  "reference_speaker": "jp/speaker_037_97f38629e8a3.mp3",
+  "seed": 5253,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The corner table has the best",
+      "start_sample": 0,
+      "end_sample": 22861,
+      "start_ms": 0,
+      "end_ms": 1429
+    },
+    {
+      "lang": "ja",
+      "text": "眺め",
+      "start_sample": 22861,
+      "end_sample": 30948,
+      "start_ms": 1429,
+      "end_ms": 1934
+    },
+    {
+      "lang": "en",
+      "text": "and gets beautiful",
+      "start_sample": 30948,
+      "end_sample": 47844,
+      "start_ms": 1934,
+      "end_ms": 2990
+    },
+    {
+      "lang": "ja",
+      "text": "朝日",
+      "start_sample": 47844,
+      "end_sample": 56251,
+      "start_ms": 2990,
+      "end_ms": 3516
+    },
+    {
+      "lang": "en",
+      "text": "in the morning.",
+      "start_sample": 56251,
+      "end_sample": 67421,
+      "start_ms": 3516,
+      "end_ms": 4214
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The corner table has the best nagame and gets beautiful asahi in the morning.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4544,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The corner table has the best",
+          "start_sample": 0,
+          "end_sample": 23061,
+          "start_ms": 0,
+          "end_ms": 1441
+        },
+        {
+          "lang": "ja",
+          "text": "眺め",
+          "start_sample": 23061,
+          "end_sample": 35554,
+          "start_ms": 1441,
+          "end_ms": 2222
+        },
+        {
+          "lang": "en",
+          "text": "and gets beautiful",
+          "start_sample": 35554,
+          "end_sample": 52850,
+          "start_ms": 2222,
+          "end_ms": 3303
+        },
+        {
+          "lang": "ja",
+          "text": "朝日",
+          "start_sample": 52850,
+          "end_sample": 61338,
+          "start_ms": 3303,
+          "end_ms": 3834
+        },
+        {
+          "lang": "en",
+          "text": "in the morning.",
+          "start_sample": 61338,
+          "end_sample": 72708,
+          "start_ms": 3834,
+          "end_ms": 4544
+        }
+      ]
+    },
+    "ja": {
+      "text": "The corner table has the best 眺め and gets beautiful 朝日 in the morning.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5605,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The corner table has the best",
+          "start_sample": 0,
+          "end_sample": 37954,
+          "start_ms": 0,
+          "end_ms": 2372
+        },
+        {
+          "lang": "ja",
+          "text": "眺め",
+          "start_sample": 37954,
+          "end_sample": 46441,
+          "start_ms": 2372,
+          "end_ms": 2903
+        },
+        {
+          "lang": "en",
+          "text": "and gets beautiful",
+          "start_sample": 46441,
+          "end_sample": 66140,
+          "start_ms": 2903,
+          "end_ms": 4134
+        },
+        {
+          "lang": "ja",
+          "text": "朝日",
+          "start_sample": 66140,
+          "end_sample": 74947,
+          "start_ms": 4134,
+          "end_ms": 4684
+        },
+        {
+          "lang": "en",
+          "text": "in the morning.",
+          "start_sample": 74947,
+          "end_sample": 89680,
+          "start_ms": 4684,
+          "end_ms": 5605
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 211,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

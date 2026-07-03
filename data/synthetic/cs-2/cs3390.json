@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs3390.flac",
+  "sentence": "I left my 宿題 at home and the teacher was not 寛大 about it at all.",
+  "sample_rate": 16000,
+  "duration_ms": 4895,
+  "reference_speaker": "en/speaker_005_e790d1a6d652.mp3",
+  "seed": 3432,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I left my",
+      "start_sample": 0,
+      "end_sample": 8789,
+      "start_ms": 0,
+      "end_ms": 549
+    },
+    {
+      "lang": "ja",
+      "text": "宿題",
+      "start_sample": 8789,
+      "end_sample": 19605,
+      "start_ms": 549,
+      "end_ms": 1225
+    },
+    {
+      "lang": "en",
+      "text": "at home and the teacher was not",
+      "start_sample": 19605,
+      "end_sample": 55338,
+      "start_ms": 1225,
+      "end_ms": 3459
+    },
+    {
+      "lang": "ja",
+      "text": "寛大",
+      "start_sample": 55338,
+      "end_sample": 63430,
+      "start_ms": 3459,
+      "end_ms": 3964
+    },
+    {
+      "lang": "en",
+      "text": "about it at all.",
+      "start_sample": 63430,
+      "end_sample": 78322,
+      "start_ms": 3964,
+      "end_ms": 4895
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I left my shukudai at home and the teacher was not kandai about it at all.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4898,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I left my",
+          "start_sample": 0,
+          "end_sample": 8989,
+          "start_ms": 0,
+          "end_ms": 562
+        },
+        {
+          "lang": "ja",
+          "text": "宿題",
+          "start_sample": 8989,
+          "end_sample": 18946,
+          "start_ms": 562,
+          "end_ms": 1184
+        },
+        {
+          "lang": "en",
+          "text": "at home and the teacher was not",
+          "start_sample": 18946,
+          "end_sample": 55079,
+          "start_ms": 1184,
+          "end_ms": 3442
+        },
+        {
+          "lang": "ja",
+          "text": "寛大",
+          "start_sample": 55079,
+          "end_sample": 63268,
+          "start_ms": 3442,
+          "end_ms": 3954
+        },
+        {
+          "lang": "en",
+          "text": "about it at all.",
+          "start_sample": 63268,
+          "end_sample": 78360,
+          "start_ms": 3954,
+          "end_ms": 4898
+        }
+      ]
+    },
+    "ja": {
+      "text": "I left my 宿題 at home and the teacher was not 寛大 about it at all.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6229,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I left my",
+          "start_sample": 0,
+          "end_sample": 13298,
+          "start_ms": 0,
+          "end_ms": 831
+        },
+        {
+          "lang": "ja",
+          "text": "宿題",
+          "start_sample": 13298,
+          "end_sample": 24514,
+          "start_ms": 831,
+          "end_ms": 1532
+        },
+        {
+          "lang": "en",
+          "text": "at home and the teacher was not",
+          "start_sample": 24514,
+          "end_sample": 73384,
+          "start_ms": 1532,
+          "end_ms": 4586
+        },
+        {
+          "lang": "ja",
+          "text": "寛大",
+          "start_sample": 73384,
+          "end_sample": 81876,
+          "start_ms": 4586,
+          "end_ms": 5117
+        },
+        {
+          "lang": "en",
+          "text": "about it at all.",
+          "start_sample": 81876,
+          "end_sample": 99661,
+          "start_ms": 5117,
+          "end_ms": 6229
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 245,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

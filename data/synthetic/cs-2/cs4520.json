@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs4520.flac",
+  "sentence": "Would you mind folding the 洗濯物 while I scrub down the 洗面台?",
+  "sample_rate": 16000,
+  "duration_ms": 6173,
+  "reference_speaker": "en/speaker_098_f600c480bfab.mp3",
+  "seed": 4562,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Would you mind folding the",
+      "start_sample": 0,
+      "end_sample": 37923,
+      "start_ms": 0,
+      "end_ms": 2370
+    },
+    {
+      "lang": "ja",
+      "text": "洗濯物",
+      "start_sample": 37923,
+      "end_sample": 55310,
+      "start_ms": 2370,
+      "end_ms": 3457
+    },
+    {
+      "lang": "en",
+      "text": "while I scrub down the",
+      "start_sample": 55310,
+      "end_sample": 85825,
+      "start_ms": 3457,
+      "end_ms": 5364
+    },
+    {
+      "lang": "ja",
+      "text": "洗面台?",
+      "start_sample": 85825,
+      "end_sample": 98764,
+      "start_ms": 5364,
+      "end_ms": 6173
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Would you mind folding the sentaku mono while I scrub down the senmen dai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6808,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Would you mind folding the",
+          "start_sample": 0,
+          "end_sample": 38123,
+          "start_ms": 0,
+          "end_ms": 2383
+        },
+        {
+          "lang": "ja",
+          "text": "洗濯物",
+          "start_sample": 38123,
+          "end_sample": 64233,
+          "start_ms": 2383,
+          "end_ms": 4015
+        },
+        {
+          "lang": "en",
+          "text": "while I scrub down the",
+          "start_sample": 64233,
+          "end_sample": 95148,
+          "start_ms": 4015,
+          "end_ms": 5947
+        },
+        {
+          "lang": "ja",
+          "text": "洗面台?",
+          "start_sample": 95148,
+          "end_sample": 108923,
+          "start_ms": 5947,
+          "end_ms": 6808
+        }
+      ]
+    },
+    "ja": {
+      "text": "Would you mind folding the 洗濯物 while I scrub down the 洗面台?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5288,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Would you mind folding the",
+          "start_sample": 0,
+          "end_sample": 25317,
+          "start_ms": 0,
+          "end_ms": 1582
+        },
+        {
+          "lang": "ja",
+          "text": "洗濯物",
+          "start_sample": 25317,
+          "end_sample": 43104,
+          "start_ms": 1582,
+          "end_ms": 2694
+        },
+        {
+          "lang": "en",
+          "text": "while I scrub down the",
+          "start_sample": 43104,
+          "end_sample": 71467,
+          "start_ms": 2694,
+          "end_ms": 4467
+        },
+        {
+          "lang": "ja",
+          "text": "洗面台?",
+          "start_sample": 71467,
+          "end_sample": 84606,
+          "start_ms": 4467,
+          "end_ms": 5288
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 309,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

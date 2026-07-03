@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs2315.flac",
+  "sentence": "The barber always finishes with a hot towel, which adds such a nice 爽快 feeling and removes any 余分な stubble.",
+  "sample_rate": 16000,
+  "duration_ms": 7500,
+  "reference_speaker": "jp/speaker_011_3c9d94093b88.mp3",
+  "seed": 2357,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The barber always finishes with a hot towel, which adds such a nice",
+      "start_sample": 0,
+      "end_sample": 65500,
+      "start_ms": 0,
+      "end_ms": 4094
+    },
+    {
+      "lang": "ja",
+      "text": "爽快",
+      "start_sample": 65500,
+      "end_sample": 73424,
+      "start_ms": 4094,
+      "end_ms": 4589
+    },
+    {
+      "lang": "en",
+      "text": "feeling and removes any",
+      "start_sample": 73424,
+      "end_sample": 104753,
+      "start_ms": 4589,
+      "end_ms": 6547
+    },
+    {
+      "lang": "ja",
+      "text": "余分な",
+      "start_sample": 104753,
+      "end_sample": 111717,
+      "start_ms": 6547,
+      "end_ms": 6982
+    },
+    {
+      "lang": "en",
+      "text": "stubble.",
+      "start_sample": 111717,
+      "end_sample": 120008,
+      "start_ms": 6982,
+      "end_ms": 7500
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The barber always finishes with a hot towel, which adds such a nice soukai feeling and removes any yobun na stubble.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7952,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The barber always finishes with a hot towel, which adds such a nice",
+          "start_sample": 0,
+          "end_sample": 65700,
+          "start_ms": 0,
+          "end_ms": 4106
+        },
+        {
+          "lang": "ja",
+          "text": "爽快",
+          "start_sample": 65700,
+          "end_sample": 73072,
+          "start_ms": 4106,
+          "end_ms": 4567
+        },
+        {
+          "lang": "en",
+          "text": "feeling and removes any",
+          "start_sample": 73072,
+          "end_sample": 104801,
+          "start_ms": 4567,
+          "end_ms": 6550
+        },
+        {
+          "lang": "ja",
+          "text": "余分な",
+          "start_sample": 104801,
+          "end_sample": 118743,
+          "start_ms": 6550,
+          "end_ms": 7421
+        },
+        {
+          "lang": "en",
+          "text": "stubble.",
+          "start_sample": 118743,
+          "end_sample": 127234,
+          "start_ms": 7421,
+          "end_ms": 7952
+        }
+      ]
+    },
+    "ja": {
+      "text": "The barber always finishes with a hot towel, which adds such a nice 爽快 feeling and removes any 余分な stubble.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8885,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The barber always finishes with a hot towel, which adds such a nice",
+          "start_sample": 0,
+          "end_sample": 88532,
+          "start_ms": 0,
+          "end_ms": 5533
+        },
+        {
+          "lang": "ja",
+          "text": "爽快",
+          "start_sample": 88532,
+          "end_sample": 96856,
+          "start_ms": 5533,
+          "end_ms": 6054
+        },
+        {
+          "lang": "en",
+          "text": "feeling and removes any",
+          "start_sample": 96856,
+          "end_sample": 128235,
+          "start_ms": 6054,
+          "end_ms": 8015
+        },
+        {
+          "lang": "ja",
+          "text": "余分な",
+          "start_sample": 128235,
+          "end_sample": 135599,
+          "start_ms": 8015,
+          "end_ms": 8475
+        },
+        {
+          "lang": "en",
+          "text": "stubble.",
+          "start_sample": 135599,
+          "end_sample": 142163,
+          "start_ms": 8475,
+          "end_ms": 8885
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 376,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

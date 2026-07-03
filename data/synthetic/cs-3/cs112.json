@@ -1,0 +1,201 @@
+{
+  "audio_path": "synthetic/cs-3/cs112.flac",
+  "sentence": "The 地図 shows a 近道 through the market, but the 人混み there makes it slower than going around.",
+  "sample_rate": 16000,
+  "duration_ms": 5980,
+  "reference_speaker": "en/speaker_070_eb9077114ebd.mp3",
+  "seed": 154,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1562,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "地図",
+      "start_sample": 1562,
+      "end_sample": 8056,
+      "start_ms": 98,
+      "end_ms": 503
+    },
+    {
+      "lang": "en",
+      "text": "shows a",
+      "start_sample": 8056,
+      "end_sample": 18553,
+      "start_ms": 503,
+      "end_ms": 1160
+    },
+    {
+      "lang": "ja",
+      "text": "近道",
+      "start_sample": 18553,
+      "end_sample": 26810,
+      "start_ms": 1160,
+      "end_ms": 1676
+    },
+    {
+      "lang": "en",
+      "text": "through the market, but the",
+      "start_sample": 26810,
+      "end_sample": 54935,
+      "start_ms": 1676,
+      "end_ms": 3433
+    },
+    {
+      "lang": "ja",
+      "text": "人混み",
+      "start_sample": 54935,
+      "end_sample": 63514,
+      "start_ms": 3433,
+      "end_ms": 3970
+    },
+    {
+      "lang": "en",
+      "text": "there makes it slower than going around.",
+      "start_sample": 63514,
+      "end_sample": 95684,
+      "start_ms": 3970,
+      "end_ms": 5980
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The chizu shows a chikamichi through the market, but the hitogomi there makes it slower than going around.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6610,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1762,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "地図",
+          "start_sample": 1762,
+          "end_sample": 8012,
+          "start_ms": 110,
+          "end_ms": 501
+        },
+        {
+          "lang": "en",
+          "text": "shows a",
+          "start_sample": 8012,
+          "end_sample": 18909,
+          "start_ms": 501,
+          "end_ms": 1182
+        },
+        {
+          "lang": "ja",
+          "text": "近道",
+          "start_sample": 18909,
+          "end_sample": 30608,
+          "start_ms": 1182,
+          "end_ms": 1913
+        },
+        {
+          "lang": "en",
+          "text": "through the market, but the",
+          "start_sample": 30608,
+          "end_sample": 59133,
+          "start_ms": 1913,
+          "end_ms": 3696
+        },
+        {
+          "lang": "ja",
+          "text": "人混み",
+          "start_sample": 59133,
+          "end_sample": 73396,
+          "start_ms": 3696,
+          "end_ms": 4587
+        },
+        {
+          "lang": "en",
+          "text": "there makes it slower than going around.",
+          "start_sample": 73396,
+          "end_sample": 105766,
+          "start_ms": 4587,
+          "end_ms": 6610
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 地図 shows a 近道 through the market, but the 人混み there makes it slower than going around.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7355,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4647,
+          "start_ms": 0,
+          "end_ms": 290
+        },
+        {
+          "lang": "ja",
+          "text": "地図",
+          "start_sample": 4647,
+          "end_sample": 11541,
+          "start_ms": 290,
+          "end_ms": 721
+        },
+        {
+          "lang": "en",
+          "text": "shows a",
+          "start_sample": 11541,
+          "end_sample": 20841,
+          "start_ms": 721,
+          "end_ms": 1303
+        },
+        {
+          "lang": "ja",
+          "text": "近道",
+          "start_sample": 20841,
+          "end_sample": 29498,
+          "start_ms": 1303,
+          "end_ms": 1844
+        },
+        {
+          "lang": "en",
+          "text": "through the market, but the",
+          "start_sample": 29498,
+          "end_sample": 64129,
+          "start_ms": 1844,
+          "end_ms": 4008
+        },
+        {
+          "lang": "ja",
+          "text": "人混み",
+          "start_sample": 64129,
+          "end_sample": 73108,
+          "start_ms": 4008,
+          "end_ms": 4569
+        },
+        {
+          "lang": "en",
+          "text": "there makes it slower than going around.",
+          "start_sample": 73108,
+          "end_sample": 117678,
+          "start_ms": 4569,
+          "end_ms": 7355
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 300,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

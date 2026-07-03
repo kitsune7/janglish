@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs5113.flac",
+  "sentence": "I only went in for one thing but the 陳列 was so tempting that I left with a full 袋.",
+  "sample_rate": 16000,
+  "duration_ms": 6232,
+  "reference_speaker": "jp/speaker_031_8da19046583d.mp3",
+  "seed": 5155,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I only went in for one thing but the",
+      "start_sample": 0,
+      "end_sample": 39518,
+      "start_ms": 0,
+      "end_ms": 2470
+    },
+    {
+      "lang": "ja",
+      "text": "陳列",
+      "start_sample": 39518,
+      "end_sample": 48412,
+      "start_ms": 2470,
+      "end_ms": 3026
+    },
+    {
+      "lang": "en",
+      "text": "was so tempting that I left with a full",
+      "start_sample": 48412,
+      "end_sample": 93016,
+      "start_ms": 3026,
+      "end_ms": 5814
+    },
+    {
+      "lang": "ja",
+      "text": "袋.",
+      "start_sample": 93016,
+      "end_sample": 99706,
+      "start_ms": 5814,
+      "end_ms": 6232
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I only went in for one thing but the chinretsu was so tempting that I left with a full fukuro",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6626,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I only went in for one thing but the",
+          "start_sample": 0,
+          "end_sample": 39718,
+          "start_ms": 0,
+          "end_ms": 2482
+        },
+        {
+          "lang": "ja",
+          "text": "陳列",
+          "start_sample": 39718,
+          "end_sample": 50608,
+          "start_ms": 2482,
+          "end_ms": 3163
+        },
+        {
+          "lang": "en",
+          "text": "was so tempting that I left with a full",
+          "start_sample": 50608,
+          "end_sample": 95612,
+          "start_ms": 3163,
+          "end_ms": 5976
+        },
+        {
+          "lang": "ja",
+          "text": "袋.",
+          "start_sample": 95612,
+          "end_sample": 106022,
+          "start_ms": 5976,
+          "end_ms": 6626
+        }
+      ]
+    },
+    "ja": {
+      "text": "I only went in for one thing but the 陳列 was so tempting that I left with a full 袋.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5769,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I only went in for one thing but the",
+          "start_sample": 0,
+          "end_sample": 32369,
+          "start_ms": 0,
+          "end_ms": 2023
+        },
+        {
+          "lang": "ja",
+          "text": "陳列",
+          "start_sample": 32369,
+          "end_sample": 41663,
+          "start_ms": 2023,
+          "end_ms": 2604
+        },
+        {
+          "lang": "en",
+          "text": "was so tempting that I left with a full",
+          "start_sample": 41663,
+          "end_sample": 85410,
+          "start_ms": 2604,
+          "end_ms": 5338
+        },
+        {
+          "lang": "ja",
+          "text": "袋.",
+          "start_sample": 85410,
+          "end_sample": 92300,
+          "start_ms": 5338,
+          "end_ms": 5769
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 312,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjj"
+}

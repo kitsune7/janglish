@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs5242.flac",
+  "sentence": "The portion size is 適度 and the flavor balance shows true 均衡.",
+  "sample_rate": 16000,
+  "duration_ms": 4601,
+  "reference_speaker": "en/speaker_036_d0b62ac1e57e.mp3",
+  "seed": 5284,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The portion size is",
+      "start_sample": 0,
+      "end_sample": 24211,
+      "start_ms": 0,
+      "end_ms": 1513
+    },
+    {
+      "lang": "ja",
+      "text": "適度",
+      "start_sample": 24211,
+      "end_sample": 35680,
+      "start_ms": 1513,
+      "end_ms": 2230
+    },
+    {
+      "lang": "en",
+      "text": "and the flavor balance shows true",
+      "start_sample": 35680,
+      "end_sample": 65478,
+      "start_ms": 2230,
+      "end_ms": 4092
+    },
+    {
+      "lang": "ja",
+      "text": "均衡.",
+      "start_sample": 65478,
+      "end_sample": 73616,
+      "start_ms": 4092,
+      "end_ms": 4601
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The portion size is tekido and the flavor balance shows true kinkou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4698,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The portion size is",
+          "start_sample": 0,
+          "end_sample": 24411,
+          "start_ms": 0,
+          "end_ms": 1526
+        },
+        {
+          "lang": "ja",
+          "text": "適度",
+          "start_sample": 24411,
+          "end_sample": 37101,
+          "start_ms": 1526,
+          "end_ms": 2319
+        },
+        {
+          "lang": "en",
+          "text": "and the flavor balance shows true",
+          "start_sample": 37101,
+          "end_sample": 67299,
+          "start_ms": 2319,
+          "end_ms": 4206
+        },
+        {
+          "lang": "ja",
+          "text": "均衡.",
+          "start_sample": 67299,
+          "end_sample": 75166,
+          "start_ms": 4206,
+          "end_ms": 4698
+        }
+      ]
+    },
+    "ja": {
+      "text": "The portion size is 適度 and the flavor balance shows true 均衡.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6115,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The portion size is",
+          "start_sample": 0,
+          "end_sample": 28548,
+          "start_ms": 0,
+          "end_ms": 1784
+        },
+        {
+          "lang": "ja",
+          "text": "適度",
+          "start_sample": 28548,
+          "end_sample": 40417,
+          "start_ms": 1784,
+          "end_ms": 2526
+        },
+        {
+          "lang": "en",
+          "text": "and the flavor balance shows true",
+          "start_sample": 40417,
+          "end_sample": 89496,
+          "start_ms": 2526,
+          "end_ms": 5594
+        },
+        {
+          "lang": "ja",
+          "text": "均衡.",
+          "start_sample": 89496,
+          "end_sample": 97834,
+          "start_ms": 5594,
+          "end_ms": 6115
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 231,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

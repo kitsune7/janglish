@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs4513.flac",
+  "sentence": "He swept the 階段 with 手早い strokes and finished in under five minutes.",
+  "sample_rate": 16000,
+  "duration_ms": 5201,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 4555,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He swept the",
+      "start_sample": 0,
+      "end_sample": 11822,
+      "start_ms": 0,
+      "end_ms": 739
+    },
+    {
+      "lang": "ja",
+      "text": "階段",
+      "start_sample": 11822,
+      "end_sample": 18484,
+      "start_ms": 739,
+      "end_ms": 1155
+    },
+    {
+      "lang": "en",
+      "text": "with",
+      "start_sample": 18484,
+      "end_sample": 21931,
+      "start_ms": 1155,
+      "end_ms": 1371
+    },
+    {
+      "lang": "ja",
+      "text": "手早い",
+      "start_sample": 21931,
+      "end_sample": 29396,
+      "start_ms": 1371,
+      "end_ms": 1837
+    },
+    {
+      "lang": "en",
+      "text": "strokes and finished in under five minutes.",
+      "start_sample": 29396,
+      "end_sample": 83217,
+      "start_ms": 1837,
+      "end_ms": 5201
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He swept the kaidan with tebayai strokes and finished in under five minutes.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5570,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He swept the",
+          "start_sample": 0,
+          "end_sample": 12022,
+          "start_ms": 0,
+          "end_ms": 751
+        },
+        {
+          "lang": "ja",
+          "text": "階段",
+          "start_sample": 12022,
+          "end_sample": 19877,
+          "start_ms": 751,
+          "end_ms": 1242
+        },
+        {
+          "lang": "en",
+          "text": "with",
+          "start_sample": 19877,
+          "end_sample": 23724,
+          "start_ms": 1242,
+          "end_ms": 1483
+        },
+        {
+          "lang": "ja",
+          "text": "手早い",
+          "start_sample": 23724,
+          "end_sample": 35106,
+          "start_ms": 1483,
+          "end_ms": 2194
+        },
+        {
+          "lang": "en",
+          "text": "strokes and finished in under five minutes.",
+          "start_sample": 35106,
+          "end_sample": 89127,
+          "start_ms": 2194,
+          "end_ms": 5570
+        }
+      ]
+    },
+    "ja": {
+      "text": "He swept the 階段 with 手早い strokes and finished in under five minutes.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4875,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He swept the",
+          "start_sample": 0,
+          "end_sample": 10591,
+          "start_ms": 0,
+          "end_ms": 662
+        },
+        {
+          "lang": "ja",
+          "text": "階段",
+          "start_sample": 10591,
+          "end_sample": 17653,
+          "start_ms": 662,
+          "end_ms": 1103
+        },
+        {
+          "lang": "en",
+          "text": "with",
+          "start_sample": 17653,
+          "end_sample": 21022,
+          "start_ms": 1103,
+          "end_ms": 1314
+        },
+        {
+          "lang": "ja",
+          "text": "手早い",
+          "start_sample": 21022,
+          "end_sample": 28887,
+          "start_ms": 1314,
+          "end_ms": 1805
+        },
+        {
+          "lang": "en",
+          "text": "strokes and finished in under five minutes.",
+          "start_sample": 28887,
+          "end_sample": 77995,
+          "start_ms": 1805,
+          "end_ms": 4875
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 261,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

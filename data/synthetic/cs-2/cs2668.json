@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs2668.flac",
+  "sentence": "My daughter has such 元気 in the mornings, but by bedtime she's totally 無気力.",
+  "sample_rate": 16000,
+  "duration_ms": 5853,
+  "reference_speaker": "jp/speaker_060_dda9a032fd63.mp3",
+  "seed": 2710,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My daughter has such",
+      "start_sample": 0,
+      "end_sample": 14055,
+      "start_ms": 0,
+      "end_ms": 878
+    },
+    {
+      "lang": "ja",
+      "text": "元気",
+      "start_sample": 14055,
+      "end_sample": 20234,
+      "start_ms": 878,
+      "end_ms": 1265
+    },
+    {
+      "lang": "en",
+      "text": "in the mornings, but by bedtime she's totally",
+      "start_sample": 20234,
+      "end_sample": 82623,
+      "start_ms": 1265,
+      "end_ms": 5164
+    },
+    {
+      "lang": "ja",
+      "text": "無気力.",
+      "start_sample": 82623,
+      "end_sample": 93653,
+      "start_ms": 5164,
+      "end_ms": 5853
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My daughter has such genki in the mornings, but by bedtime she's totally mu kiryoku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5886,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My daughter has such",
+          "start_sample": 0,
+          "end_sample": 14255,
+          "start_ms": 0,
+          "end_ms": 891
+        },
+        {
+          "lang": "ja",
+          "text": "元気",
+          "start_sample": 14255,
+          "end_sample": 20342,
+          "start_ms": 891,
+          "end_ms": 1271
+        },
+        {
+          "lang": "en",
+          "text": "in the mornings, but by bedtime she's totally",
+          "start_sample": 20342,
+          "end_sample": 83131,
+          "start_ms": 1271,
+          "end_ms": 5196
+        },
+        {
+          "lang": "ja",
+          "text": "無気力.",
+          "start_sample": 83131,
+          "end_sample": 94183,
+          "start_ms": 5196,
+          "end_ms": 5886
+        }
+      ]
+    },
+    "ja": {
+      "text": "My daughter has such 元気 in the mornings, but by bedtime she's totally 無気力.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6438,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My daughter has such",
+          "start_sample": 0,
+          "end_sample": 23106,
+          "start_ms": 0,
+          "end_ms": 1444
+        },
+        {
+          "lang": "ja",
+          "text": "元気",
+          "start_sample": 23106,
+          "end_sample": 29685,
+          "start_ms": 1444,
+          "end_ms": 1855
+        },
+        {
+          "lang": "en",
+          "text": "in the mornings, but by bedtime she's totally",
+          "start_sample": 29685,
+          "end_sample": 91785,
+          "start_ms": 1855,
+          "end_ms": 5737
+        },
+        {
+          "lang": "ja",
+          "text": "無気力.",
+          "start_sample": 91785,
+          "end_sample": 103015,
+          "start_ms": 5737,
+          "end_ms": 6438
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 293,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

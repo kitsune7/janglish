@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs4706.flac",
+  "sentence": "Her 一言 at the end of the message carried more weight than the entire 前置き.",
+  "sample_rate": 16000,
+  "duration_ms": 4623,
+  "reference_speaker": "jp/speaker_099_c404e17fc007.mp3",
+  "seed": 4748,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Her",
+      "start_sample": 0,
+      "end_sample": 1723,
+      "start_ms": 0,
+      "end_ms": 108
+    },
+    {
+      "lang": "ja",
+      "text": "一言",
+      "start_sample": 1723,
+      "end_sample": 8852,
+      "start_ms": 108,
+      "end_ms": 553
+    },
+    {
+      "lang": "en",
+      "text": "at the end of the message carried more weight than the entire",
+      "start_sample": 8852,
+      "end_sample": 63436,
+      "start_ms": 553,
+      "end_ms": 3965
+    },
+    {
+      "lang": "ja",
+      "text": "前置き.",
+      "start_sample": 63436,
+      "end_sample": 73967,
+      "start_ms": 3965,
+      "end_ms": 4623
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Her hitokoto at the end of the message carried more weight than the entire maeoki",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5370,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 1923,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "一言",
+          "start_sample": 1923,
+          "end_sample": 14267,
+          "start_ms": 120,
+          "end_ms": 892
+        },
+        {
+          "lang": "en",
+          "text": "at the end of the message carried more weight than the entire",
+          "start_sample": 14267,
+          "end_sample": 69251,
+          "start_ms": 892,
+          "end_ms": 4328
+        },
+        {
+          "lang": "ja",
+          "text": "前置き.",
+          "start_sample": 69251,
+          "end_sample": 85921,
+          "start_ms": 4328,
+          "end_ms": 5370
+        }
+      ]
+    },
+    "ja": {
+      "text": "Her 一言 at the end of the message carried more weight than the entire 前置き.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5726,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 4644,
+          "start_ms": 0,
+          "end_ms": 290
+        },
+        {
+          "lang": "ja",
+          "text": "一言",
+          "start_sample": 4644,
+          "end_sample": 12173,
+          "start_ms": 290,
+          "end_ms": 761
+        },
+        {
+          "lang": "en",
+          "text": "at the end of the message carried more weight than the entire",
+          "start_sample": 12173,
+          "end_sample": 80889,
+          "start_ms": 761,
+          "end_ms": 5056
+        },
+        {
+          "lang": "ja",
+          "text": "前置き.",
+          "start_sample": 80889,
+          "end_sample": 91620,
+          "start_ms": 5056,
+          "end_ms": 5726
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 232,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

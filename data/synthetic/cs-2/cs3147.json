@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs3147.flac",
+  "sentence": "The rabbit's 毛並み was incredibly soft, and it moved with quiet 優雅さ.",
+  "sample_rate": 16000,
+  "duration_ms": 6063,
+  "reference_speaker": "jp/speaker_082_d12288b68351.mp3",
+  "seed": 3189,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The rabbit's",
+      "start_sample": 0,
+      "end_sample": 7489,
+      "start_ms": 0,
+      "end_ms": 468
+    },
+    {
+      "lang": "ja",
+      "text": "毛並み",
+      "start_sample": 7489,
+      "end_sample": 13978,
+      "start_ms": 468,
+      "end_ms": 874
+    },
+    {
+      "lang": "en",
+      "text": "was incredibly soft, and it moved with quiet",
+      "start_sample": 13978,
+      "end_sample": 84875,
+      "start_ms": 874,
+      "end_ms": 5305
+    },
+    {
+      "lang": "ja",
+      "text": "優雅さ.",
+      "start_sample": 84875,
+      "end_sample": 97011,
+      "start_ms": 5305,
+      "end_ms": 6063
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The rabbit's kenami was incredibly soft, and it moved with quiet yuuga sa",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5988,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The rabbit's",
+          "start_sample": 0,
+          "end_sample": 7689,
+          "start_ms": 0,
+          "end_ms": 481
+        },
+        {
+          "lang": "ja",
+          "text": "毛並み",
+          "start_sample": 7689,
+          "end_sample": 14579,
+          "start_ms": 481,
+          "end_ms": 911
+        },
+        {
+          "lang": "en",
+          "text": "was incredibly soft, and it moved with quiet",
+          "start_sample": 14579,
+          "end_sample": 85876,
+          "start_ms": 911,
+          "end_ms": 5367
+        },
+        {
+          "lang": "ja",
+          "text": "優雅さ.",
+          "start_sample": 85876,
+          "end_sample": 95808,
+          "start_ms": 5367,
+          "end_ms": 5988
+        }
+      ]
+    },
+    "ja": {
+      "text": "The rabbit's 毛並み was incredibly soft, and it moved with quiet 優雅さ.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6588,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The rabbit's",
+          "start_sample": 0,
+          "end_sample": 22268,
+          "start_ms": 0,
+          "end_ms": 1392
+        },
+        {
+          "lang": "ja",
+          "text": "毛並み",
+          "start_sample": 22268,
+          "end_sample": 29157,
+          "start_ms": 1392,
+          "end_ms": 1822
+        },
+        {
+          "lang": "en",
+          "text": "was incredibly soft, and it moved with quiet",
+          "start_sample": 29157,
+          "end_sample": 93080,
+          "start_ms": 1822,
+          "end_ms": 5818
+        },
+        {
+          "lang": "ja",
+          "text": "優雅さ.",
+          "start_sample": 93080,
+          "end_sample": 105416,
+          "start_ms": 5818,
+          "end_ms": 6588
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 304,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

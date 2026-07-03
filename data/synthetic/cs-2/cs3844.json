@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs3844.flac",
+  "sentence": "I heard a 名演 last night — the pianist's touch was unbelievably 繊細.",
+  "sample_rate": 16000,
+  "duration_ms": 5514,
+  "reference_speaker": "en/speaker_093_c561f370b1dd.mp3",
+  "seed": 3886,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I heard a",
+      "start_sample": 0,
+      "end_sample": 9109,
+      "start_ms": 0,
+      "end_ms": 569
+    },
+    {
+      "lang": "ja",
+      "text": "名演",
+      "start_sample": 9109,
+      "end_sample": 15288,
+      "start_ms": 569,
+      "end_ms": 956
+    },
+    {
+      "lang": "en",
+      "text": "last night — the pianist's touch was unbelievably",
+      "start_sample": 15288,
+      "end_sample": 76710,
+      "start_ms": 956,
+      "end_ms": 4794
+    },
+    {
+      "lang": "ja",
+      "text": "繊細.",
+      "start_sample": 76710,
+      "end_sample": 88222,
+      "start_ms": 4794,
+      "end_ms": 5514
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I heard a meien last night — the pianist's touch was unbelievably sensai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5760,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I heard a",
+          "start_sample": 0,
+          "end_sample": 9309,
+          "start_ms": 0,
+          "end_ms": 582
+        },
+        {
+          "lang": "ja",
+          "text": "名演",
+          "start_sample": 9309,
+          "end_sample": 20871,
+          "start_ms": 582,
+          "end_ms": 1304
+        },
+        {
+          "lang": "en",
+          "text": "last night — the pianist's touch was unbelievably",
+          "start_sample": 20871,
+          "end_sample": 82693,
+          "start_ms": 1304,
+          "end_ms": 5168
+        },
+        {
+          "lang": "ja",
+          "text": "繊細.",
+          "start_sample": 82693,
+          "end_sample": 92163,
+          "start_ms": 5168,
+          "end_ms": 5760
+        }
+      ]
+    },
+    "ja": {
+      "text": "I heard a 名演 last night — the pianist's touch was unbelievably 繊細.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7140,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I heard a",
+          "start_sample": 0,
+          "end_sample": 20536,
+          "start_ms": 0,
+          "end_ms": 1284
+        },
+        {
+          "lang": "ja",
+          "text": "名演",
+          "start_sample": 20536,
+          "end_sample": 27115,
+          "start_ms": 1284,
+          "end_ms": 1695
+        },
+        {
+          "lang": "en",
+          "text": "last night — the pianist's touch was unbelievably",
+          "start_sample": 27115,
+          "end_sample": 102533,
+          "start_ms": 1695,
+          "end_ms": 6408
+        },
+        {
+          "lang": "ja",
+          "text": "繊細.",
+          "start_sample": 102533,
+          "end_sample": 114245,
+          "start_ms": 6408,
+          "end_ms": 7140
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 276,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

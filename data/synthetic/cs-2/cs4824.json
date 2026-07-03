@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs4824.flac",
+  "sentence": "I used baking soda on the 換気扇 because the grease buildup was genuinely 頑固.",
+  "sample_rate": 16000,
+  "duration_ms": 5740,
+  "reference_speaker": "en/speaker_082_0d071699a4ef.mp3",
+  "seed": 4866,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I used baking soda on the",
+      "start_sample": 0,
+      "end_sample": 28519,
+      "start_ms": 0,
+      "end_ms": 1782
+    },
+    {
+      "lang": "ja",
+      "text": "換気扇",
+      "start_sample": 28519,
+      "end_sample": 39821,
+      "start_ms": 1782,
+      "end_ms": 2489
+    },
+    {
+      "lang": "en",
+      "text": "because the grease buildup was genuinely",
+      "start_sample": 39821,
+      "end_sample": 81461,
+      "start_ms": 2489,
+      "end_ms": 5091
+    },
+    {
+      "lang": "ja",
+      "text": "頑固.",
+      "start_sample": 81461,
+      "end_sample": 91839,
+      "start_ms": 5091,
+      "end_ms": 5740
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I used baking soda on the kanki ougi because the grease buildup was genuinely ganko",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6258,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I used baking soda on the",
+          "start_sample": 0,
+          "end_sample": 28719,
+          "start_ms": 0,
+          "end_ms": 1795
+        },
+        {
+          "lang": "ja",
+          "text": "換気扇",
+          "start_sample": 28719,
+          "end_sample": 49739,
+          "start_ms": 1795,
+          "end_ms": 3109
+        },
+        {
+          "lang": "en",
+          "text": "because the grease buildup was genuinely",
+          "start_sample": 49739,
+          "end_sample": 91779,
+          "start_ms": 3109,
+          "end_ms": 5736
+        },
+        {
+          "lang": "ja",
+          "text": "頑固.",
+          "start_sample": 91779,
+          "end_sample": 100121,
+          "start_ms": 5736,
+          "end_ms": 6258
+        }
+      ]
+    },
+    "ja": {
+      "text": "I used baking soda on the 換気扇 because the grease buildup was genuinely 頑固.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8977,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I used baking soda on the",
+          "start_sample": 0,
+          "end_sample": 37189,
+          "start_ms": 0,
+          "end_ms": 2324
+        },
+        {
+          "lang": "ja",
+          "text": "換気扇",
+          "start_sample": 37189,
+          "end_sample": 48891,
+          "start_ms": 2324,
+          "end_ms": 3056
+        },
+        {
+          "lang": "en",
+          "text": "because the grease buildup was genuinely",
+          "start_sample": 48891,
+          "end_sample": 133049,
+          "start_ms": 3056,
+          "end_ms": 8316
+        },
+        {
+          "lang": "ja",
+          "text": "頑固.",
+          "start_sample": 133049,
+          "end_sample": 143627,
+          "start_ms": 8316,
+          "end_ms": 8977
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 287,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

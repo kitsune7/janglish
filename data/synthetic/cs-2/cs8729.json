@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs8729.flac",
+  "sentence": "peak timeに乗り換えをすると、escalatorの前で長い列ができる。",
+  "sample_rate": 16000,
+  "duration_ms": 4600,
+  "reference_speaker": "jp/speaker_075_35b3b5e9beb2.mp3",
+  "seed": 8771,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "peak time",
+      "start_sample": 0,
+      "end_sample": 16452,
+      "start_ms": 0,
+      "end_ms": 1028
+    },
+    {
+      "lang": "ja",
+      "text": "に乗り換えをすると、",
+      "start_sample": 16452,
+      "end_sample": 35916,
+      "start_ms": 1028,
+      "end_ms": 2245
+    },
+    {
+      "lang": "en",
+      "text": "escalator",
+      "start_sample": 35916,
+      "end_sample": 49126,
+      "start_ms": 2245,
+      "end_ms": 3070
+    },
+    {
+      "lang": "ja",
+      "text": "の前で長い列ができる。",
+      "start_sample": 49126,
+      "end_sample": 73595,
+      "start_ms": 3070,
+      "end_ms": 4600
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "peak time ni norikae wo suru to escalator no mae de nagai retsu ga dekiru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7125,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "peak time",
+          "start_sample": 0,
+          "end_sample": 16652,
+          "start_ms": 0,
+          "end_ms": 1041
+        },
+        {
+          "lang": "ja",
+          "text": "に乗り換えをすると、",
+          "start_sample": 16652,
+          "end_sample": 60363,
+          "start_ms": 1041,
+          "end_ms": 3773
+        },
+        {
+          "lang": "en",
+          "text": "escalator",
+          "start_sample": 60363,
+          "end_sample": 73973,
+          "start_ms": 3773,
+          "end_ms": 4623
+        },
+        {
+          "lang": "ja",
+          "text": "の前で長い列ができる。",
+          "start_sample": 73973,
+          "end_sample": 114002,
+          "start_ms": 4623,
+          "end_ms": 7125
+        }
+      ]
+    },
+    "ja": {
+      "text": "peak timeに乗り換えをすると、escalatorの前で長い列ができる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4305,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "peak time",
+          "start_sample": 0,
+          "end_sample": 11052,
+          "start_ms": 0,
+          "end_ms": 691
+        },
+        {
+          "lang": "ja",
+          "text": "に乗り換えをすると、",
+          "start_sample": 11052,
+          "end_sample": 30916,
+          "start_ms": 691,
+          "end_ms": 1932
+        },
+        {
+          "lang": "en",
+          "text": "escalator",
+          "start_sample": 30916,
+          "end_sample": 44212,
+          "start_ms": 1932,
+          "end_ms": 2763
+        },
+        {
+          "lang": "ja",
+          "text": "の前で長い列ができる。",
+          "start_sample": 44212,
+          "end_sample": 68881,
+          "start_ms": 2763,
+          "end_ms": 4305
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 230,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

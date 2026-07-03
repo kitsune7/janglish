@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs3820.flac",
+  "sentence": "The 前奏 of that piece was so 見事 that nobody moved a muscle.",
+  "sample_rate": 16000,
+  "duration_ms": 4313,
+  "reference_speaker": "en/speaker_082_0d071699a4ef.mp3",
+  "seed": 3862,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1566,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "前奏",
+      "start_sample": 1566,
+      "end_sample": 10777,
+      "start_ms": 98,
+      "end_ms": 674
+    },
+    {
+      "lang": "en",
+      "text": "of that piece was so",
+      "start_sample": 10777,
+      "end_sample": 29647,
+      "start_ms": 674,
+      "end_ms": 1853
+    },
+    {
+      "lang": "ja",
+      "text": "見事",
+      "start_sample": 29647,
+      "end_sample": 37096,
+      "start_ms": 1853,
+      "end_ms": 2318
+    },
+    {
+      "lang": "en",
+      "text": "that nobody moved a muscle.",
+      "start_sample": 37096,
+      "end_sample": 69010,
+      "start_ms": 2318,
+      "end_ms": 4313
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The zensou of that piece was so migoto that nobody moved a muscle.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4998,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1766,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "前奏",
+          "start_sample": 1766,
+          "end_sample": 13168,
+          "start_ms": 110,
+          "end_ms": 823
+        },
+        {
+          "lang": "en",
+          "text": "of that piece was so",
+          "start_sample": 13168,
+          "end_sample": 32438,
+          "start_ms": 823,
+          "end_ms": 2027
+        },
+        {
+          "lang": "ja",
+          "text": "見事",
+          "start_sample": 32438,
+          "end_sample": 47855,
+          "start_ms": 2027,
+          "end_ms": 2991
+        },
+        {
+          "lang": "en",
+          "text": "that nobody moved a muscle.",
+          "start_sample": 47855,
+          "end_sample": 79969,
+          "start_ms": 2991,
+          "end_ms": 4998
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 前奏 of that piece was so 見事 that nobody moved a muscle.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5546,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2082,
+          "start_ms": 0,
+          "end_ms": 130
+        },
+        {
+          "lang": "ja",
+          "text": "前奏",
+          "start_sample": 2082,
+          "end_sample": 11693,
+          "start_ms": 130,
+          "end_ms": 731
+        },
+        {
+          "lang": "en",
+          "text": "of that piece was so",
+          "start_sample": 11693,
+          "end_sample": 38925,
+          "start_ms": 731,
+          "end_ms": 2433
+        },
+        {
+          "lang": "ja",
+          "text": "見事",
+          "start_sample": 38925,
+          "end_sample": 46774,
+          "start_ms": 2433,
+          "end_ms": 2923
+        },
+        {
+          "lang": "en",
+          "text": "that nobody moved a muscle.",
+          "start_sample": 46774,
+          "end_sample": 88742,
+          "start_ms": 2923,
+          "end_ms": 5546
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 216,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

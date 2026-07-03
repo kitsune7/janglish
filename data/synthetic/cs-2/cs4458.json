@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs4458.flac",
+  "sentence": "The mechanic found some 錆び under the chassis and called it a 緊急 situation.",
+  "sample_rate": 16000,
+  "duration_ms": 6324,
+  "reference_speaker": "jp/speaker_065_12fed3376ff0.mp3",
+  "seed": 4500,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The mechanic found some",
+      "start_sample": 0,
+      "end_sample": 20815,
+      "start_ms": 0,
+      "end_ms": 1301
+    },
+    {
+      "lang": "ja",
+      "text": "錆び",
+      "start_sample": 20815,
+      "end_sample": 28581,
+      "start_ms": 1301,
+      "end_ms": 1786
+    },
+    {
+      "lang": "en",
+      "text": "under the chassis and called it a",
+      "start_sample": 28581,
+      "end_sample": 70533,
+      "start_ms": 1786,
+      "end_ms": 4408
+    },
+    {
+      "lang": "ja",
+      "text": "緊急",
+      "start_sample": 70533,
+      "end_sample": 87747,
+      "start_ms": 4408,
+      "end_ms": 5484
+    },
+    {
+      "lang": "en",
+      "text": "situation.",
+      "start_sample": 87747,
+      "end_sample": 101181,
+      "start_ms": 5484,
+      "end_ms": 6324
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The mechanic found some sabi under the chassis and called it a kinkyuu situation.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5855,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The mechanic found some",
+          "start_sample": 0,
+          "end_sample": 21015,
+          "start_ms": 0,
+          "end_ms": 1313
+        },
+        {
+          "lang": "ja",
+          "text": "錆び",
+          "start_sample": 21015,
+          "end_sample": 28716,
+          "start_ms": 1313,
+          "end_ms": 1795
+        },
+        {
+          "lang": "en",
+          "text": "under the chassis and called it a",
+          "start_sample": 28716,
+          "end_sample": 71068,
+          "start_ms": 1795,
+          "end_ms": 4442
+        },
+        {
+          "lang": "ja",
+          "text": "緊急",
+          "start_sample": 71068,
+          "end_sample": 80052,
+          "start_ms": 4442,
+          "end_ms": 5003
+        },
+        {
+          "lang": "en",
+          "text": "situation.",
+          "start_sample": 80052,
+          "end_sample": 93686,
+          "start_ms": 5003,
+          "end_ms": 5855
+        }
+      ]
+    },
+    "ja": {
+      "text": "The mechanic found some 錆び under the chassis and called it a 緊急 situation.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8186,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The mechanic found some",
+          "start_sample": 0,
+          "end_sample": 31222,
+          "start_ms": 0,
+          "end_ms": 1951
+        },
+        {
+          "lang": "ja",
+          "text": "錆び",
+          "start_sample": 31222,
+          "end_sample": 39388,
+          "start_ms": 1951,
+          "end_ms": 2462
+        },
+        {
+          "lang": "en",
+          "text": "under the chassis and called it a",
+          "start_sample": 39388,
+          "end_sample": 96871,
+          "start_ms": 2462,
+          "end_ms": 6054
+        },
+        {
+          "lang": "ja",
+          "text": "緊急",
+          "start_sample": 96871,
+          "end_sample": 114485,
+          "start_ms": 6054,
+          "end_ms": 7155
+        },
+        {
+          "lang": "en",
+          "text": "situation.",
+          "start_sample": 114485,
+          "end_sample": 130977,
+          "start_ms": 7155,
+          "end_ms": 8186
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 317,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

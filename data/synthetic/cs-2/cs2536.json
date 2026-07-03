@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs2536.flac",
+  "sentence": "The problem with this stew is that the 食感 is too soft — it needs something 歯ごたえ in there.",
+  "sample_rate": 16000,
+  "duration_ms": 6388,
+  "reference_speaker": "jp/speaker_043_1ef414c9abc5.mp3",
+  "seed": 2578,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The problem with this stew is that the",
+      "start_sample": 0,
+      "end_sample": 38959,
+      "start_ms": 0,
+      "end_ms": 2435
+    },
+    {
+      "lang": "ja",
+      "text": "食感",
+      "start_sample": 38959,
+      "end_sample": 48811,
+      "start_ms": 2435,
+      "end_ms": 3051
+    },
+    {
+      "lang": "en",
+      "text": "is too soft — it needs something",
+      "start_sample": 48811,
+      "end_sample": 85648,
+      "start_ms": 3051,
+      "end_ms": 5353
+    },
+    {
+      "lang": "ja",
+      "text": "歯ごたえ",
+      "start_sample": 85648,
+      "end_sample": 94538,
+      "start_ms": 5353,
+      "end_ms": 5909
+    },
+    {
+      "lang": "en",
+      "text": "in there.",
+      "start_sample": 94538,
+      "end_sample": 102200,
+      "start_ms": 5909,
+      "end_ms": 6388
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The problem with this stew is that the shokkan is too soft — it needs something hagotae in there.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6460,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The problem with this stew is that the",
+          "start_sample": 0,
+          "end_sample": 39159,
+          "start_ms": 0,
+          "end_ms": 2447
+        },
+        {
+          "lang": "ja",
+          "text": "食感",
+          "start_sample": 39159,
+          "end_sample": 47184,
+          "start_ms": 2447,
+          "end_ms": 2949
+        },
+        {
+          "lang": "en",
+          "text": "is too soft — it needs something",
+          "start_sample": 47184,
+          "end_sample": 84421,
+          "start_ms": 2949,
+          "end_ms": 5276
+        },
+        {
+          "lang": "ja",
+          "text": "歯ごたえ",
+          "start_sample": 84421,
+          "end_sample": 95495,
+          "start_ms": 5276,
+          "end_ms": 5968
+        },
+        {
+          "lang": "en",
+          "text": "in there.",
+          "start_sample": 95495,
+          "end_sample": 103357,
+          "start_ms": 5968,
+          "end_ms": 6460
+        }
+      ]
+    },
+    "ja": {
+      "text": "The problem with this stew is that the 食感 is too soft — it needs something 歯ごたえ in there.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6447,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The problem with this stew is that the",
+          "start_sample": 0,
+          "end_sample": 42605,
+          "start_ms": 0,
+          "end_ms": 2663
+        },
+        {
+          "lang": "ja",
+          "text": "食感",
+          "start_sample": 42605,
+          "end_sample": 52857,
+          "start_ms": 2663,
+          "end_ms": 3304
+        },
+        {
+          "lang": "en",
+          "text": "is too soft — it needs something",
+          "start_sample": 52857,
+          "end_sample": 84411,
+          "start_ms": 3304,
+          "end_ms": 5276
+        },
+        {
+          "lang": "ja",
+          "text": "歯ごたえ",
+          "start_sample": 84411,
+          "end_sample": 93701,
+          "start_ms": 5276,
+          "end_ms": 5856
+        },
+        {
+          "lang": "en",
+          "text": "in there.",
+          "start_sample": 93701,
+          "end_sample": 103150,
+          "start_ms": 5856,
+          "end_ms": 6447
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 320,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeee"
+}

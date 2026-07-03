@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs7470.flac",
+  "sentence": "weekdayとweekendでは運賃が違うので注意が必要だ。",
+  "sample_rate": 16000,
+  "duration_ms": 4201,
+  "reference_speaker": "jp/speaker_051_2b805c12b1e0.mp3",
+  "seed": 7512,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "weekday",
+      "start_sample": 0,
+      "end_sample": 11182,
+      "start_ms": 0,
+      "end_ms": 699
+    },
+    {
+      "lang": "ja",
+      "text": "と",
+      "start_sample": 11182,
+      "end_sample": 14947,
+      "start_ms": 699,
+      "end_ms": 934
+    },
+    {
+      "lang": "en",
+      "text": "weekend",
+      "start_sample": 14947,
+      "end_sample": 22723,
+      "start_ms": 934,
+      "end_ms": 1420
+    },
+    {
+      "lang": "ja",
+      "text": "では運賃が違うので注意が必要だ。",
+      "start_sample": 22723,
+      "end_sample": 67216,
+      "start_ms": 1420,
+      "end_ms": 4201
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "weekday to weekend de ha unchin ga chigau no de chuui ga hitsuyou da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6633,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "weekday",
+          "start_sample": 0,
+          "end_sample": 11382,
+          "start_ms": 0,
+          "end_ms": 711
+        },
+        {
+          "lang": "ja",
+          "text": "と",
+          "start_sample": 11382,
+          "end_sample": 15229,
+          "start_ms": 711,
+          "end_ms": 952
+        },
+        {
+          "lang": "en",
+          "text": "weekend",
+          "start_sample": 15229,
+          "end_sample": 23405,
+          "start_ms": 952,
+          "end_ms": 1463
+        },
+        {
+          "lang": "ja",
+          "text": "では運賃が違うので注意が必要だ。",
+          "start_sample": 23405,
+          "end_sample": 106126,
+          "start_ms": 1463,
+          "end_ms": 6633
+        }
+      ]
+    },
+    "ja": {
+      "text": "weekdayとweekendでは運賃が違うので注意が必要だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4245,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "weekday",
+          "start_sample": 0,
+          "end_sample": 8970,
+          "start_ms": 0,
+          "end_ms": 561
+        },
+        {
+          "lang": "ja",
+          "text": "と",
+          "start_sample": 8970,
+          "end_sample": 13135,
+          "start_ms": 561,
+          "end_ms": 821
+        },
+        {
+          "lang": "en",
+          "text": "weekend",
+          "start_sample": 13135,
+          "end_sample": 23227,
+          "start_ms": 821,
+          "end_ms": 1452
+        },
+        {
+          "lang": "ja",
+          "text": "では運賃が違うので注意が必要だ。",
+          "start_sample": 23227,
+          "end_sample": 67920,
+          "start_ms": 1452,
+          "end_ms": 4245
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 211,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

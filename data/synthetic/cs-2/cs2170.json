@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs2170.flac",
+  "sentence": "He sent a 長文 that night, full of 後悔 about the meeting.",
+  "sample_rate": 16000,
+  "duration_ms": 3862,
+  "reference_speaker": "jp/speaker_062_ec2cf7781d6b.mp3",
+  "seed": 2212,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He sent a",
+      "start_sample": 0,
+      "end_sample": 7019,
+      "start_ms": 0,
+      "end_ms": 439
+    },
+    {
+      "lang": "ja",
+      "text": "長文",
+      "start_sample": 7019,
+      "end_sample": 15131,
+      "start_ms": 439,
+      "end_ms": 946
+    },
+    {
+      "lang": "en",
+      "text": "that night, full of",
+      "start_sample": 15131,
+      "end_sample": 37835,
+      "start_ms": 946,
+      "end_ms": 2365
+    },
+    {
+      "lang": "ja",
+      "text": "後悔",
+      "start_sample": 37835,
+      "end_sample": 48678,
+      "start_ms": 2365,
+      "end_ms": 3042
+    },
+    {
+      "lang": "en",
+      "text": "about the meeting.",
+      "start_sample": 48678,
+      "end_sample": 61792,
+      "start_ms": 3042,
+      "end_ms": 3862
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He sent a choubun that night, full of koukai about the meeting.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3730,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He sent a",
+          "start_sample": 0,
+          "end_sample": 7219,
+          "start_ms": 0,
+          "end_ms": 451
+        },
+        {
+          "lang": "ja",
+          "text": "長文",
+          "start_sample": 7219,
+          "end_sample": 15562,
+          "start_ms": 451,
+          "end_ms": 973
+        },
+        {
+          "lang": "en",
+          "text": "that night, full of",
+          "start_sample": 15562,
+          "end_sample": 38666,
+          "start_ms": 973,
+          "end_ms": 2417
+        },
+        {
+          "lang": "ja",
+          "text": "後悔",
+          "start_sample": 38666,
+          "end_sample": 46368,
+          "start_ms": 2417,
+          "end_ms": 2898
+        },
+        {
+          "lang": "en",
+          "text": "about the meeting.",
+          "start_sample": 46368,
+          "end_sample": 59682,
+          "start_ms": 2898,
+          "end_ms": 3730
+        }
+      ]
+    },
+    "ja": {
+      "text": "He sent a 長文 that night, full of 後悔 about the meeting.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4416,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He sent a",
+          "start_sample": 0,
+          "end_sample": 9154,
+          "start_ms": 0,
+          "end_ms": 572
+        },
+        {
+          "lang": "ja",
+          "text": "長文",
+          "start_sample": 9154,
+          "end_sample": 17666,
+          "start_ms": 572,
+          "end_ms": 1104
+        },
+        {
+          "lang": "en",
+          "text": "that night, full of",
+          "start_sample": 17666,
+          "end_sample": 41114,
+          "start_ms": 1104,
+          "end_ms": 2570
+        },
+        {
+          "lang": "ja",
+          "text": "後悔",
+          "start_sample": 41114,
+          "end_sample": 52357,
+          "start_ms": 2570,
+          "end_ms": 3272
+        },
+        {
+          "lang": "en",
+          "text": "about the meeting.",
+          "start_sample": 52357,
+          "end_sample": 70662,
+          "start_ms": 3272,
+          "end_ms": 4416
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 194,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

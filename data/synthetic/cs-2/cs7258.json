@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs7258.flac",
+  "sentence": "野菜をchopして、brothに加えてください。",
+  "sample_rate": 16000,
+  "duration_ms": 3092,
+  "reference_speaker": "jp/speaker_098_e4abe7929ff4.mp3",
+  "seed": 7300,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "野菜を",
+      "start_sample": 0,
+      "end_sample": 7028,
+      "start_ms": 0,
+      "end_ms": 439
+    },
+    {
+      "lang": "en",
+      "text": "chop",
+      "start_sample": 7028,
+      "end_sample": 11767,
+      "start_ms": 439,
+      "end_ms": 735
+    },
+    {
+      "lang": "ja",
+      "text": "して、",
+      "start_sample": 11767,
+      "end_sample": 18595,
+      "start_ms": 735,
+      "end_ms": 1162
+    },
+    {
+      "lang": "en",
+      "text": "broth",
+      "start_sample": 18595,
+      "end_sample": 32005,
+      "start_ms": 1162,
+      "end_ms": 2000
+    },
+    {
+      "lang": "ja",
+      "text": "に加えてください。",
+      "start_sample": 32005,
+      "end_sample": 49470,
+      "start_ms": 2000,
+      "end_ms": 3092
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "yasai wo chop shite broth ni kuwae te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5760,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "野菜を",
+          "start_sample": 0,
+          "end_sample": 17823,
+          "start_ms": 0,
+          "end_ms": 1114
+        },
+        {
+          "lang": "en",
+          "text": "chop",
+          "start_sample": 17823,
+          "end_sample": 22962,
+          "start_ms": 1114,
+          "end_ms": 1435
+        },
+        {
+          "lang": "ja",
+          "text": "して、",
+          "start_sample": 22962,
+          "end_sample": 28742,
+          "start_ms": 1435,
+          "end_ms": 1796
+        },
+        {
+          "lang": "en",
+          "text": "broth",
+          "start_sample": 28742,
+          "end_sample": 42552,
+          "start_ms": 1796,
+          "end_ms": 2660
+        },
+        {
+          "lang": "ja",
+          "text": "に加えてください。",
+          "start_sample": 42552,
+          "end_sample": 92167,
+          "start_ms": 2660,
+          "end_ms": 5760
+        }
+      ]
+    },
+    "ja": {
+      "text": "野菜をchopして、brothに加えてください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2931,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "野菜を",
+          "start_sample": 0,
+          "end_sample": 7228,
+          "start_ms": 0,
+          "end_ms": 452
+        },
+        {
+          "lang": "en",
+          "text": "chop",
+          "start_sample": 7228,
+          "end_sample": 13171,
+          "start_ms": 452,
+          "end_ms": 823
+        },
+        {
+          "lang": "ja",
+          "text": "して、",
+          "start_sample": 13171,
+          "end_sample": 20399,
+          "start_ms": 823,
+          "end_ms": 1275
+        },
+        {
+          "lang": "en",
+          "text": "broth",
+          "start_sample": 20399,
+          "end_sample": 29234,
+          "start_ms": 1275,
+          "end_ms": 1827
+        },
+        {
+          "lang": "ja",
+          "text": "に加えてください。",
+          "start_sample": 29234,
+          "end_sample": 46899,
+          "start_ms": 1827,
+          "end_ms": 2931
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 155,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

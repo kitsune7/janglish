@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs1846.flac",
+  "sentence": "The nail technician worked with such 丁寧さ, and the finished design was incredibly 繊細.",
+  "sample_rate": 16000,
+  "duration_ms": 7004,
+  "reference_speaker": "jp/speaker_092_08c69e35de07.mp3",
+  "seed": 1888,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The nail technician worked with such",
+      "start_sample": 0,
+      "end_sample": 45135,
+      "start_ms": 0,
+      "end_ms": 2821
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧さ,",
+      "start_sample": 45135,
+      "end_sample": 59481,
+      "start_ms": 2821,
+      "end_ms": 3718
+    },
+    {
+      "lang": "en",
+      "text": "and the finished design was incredibly",
+      "start_sample": 59481,
+      "end_sample": 100892,
+      "start_ms": 3718,
+      "end_ms": 6306
+    },
+    {
+      "lang": "ja",
+      "text": "繊細.",
+      "start_sample": 100892,
+      "end_sample": 112071,
+      "start_ms": 6306,
+      "end_ms": 7004
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The nail technician worked with such teinei sa and the finished design was incredibly sensai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9792,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The nail technician worked with such",
+          "start_sample": 0,
+          "end_sample": 45335,
+          "start_ms": 0,
+          "end_ms": 2833
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧さ,",
+          "start_sample": 45335,
+          "end_sample": 103807,
+          "start_ms": 2833,
+          "end_ms": 6488
+        },
+        {
+          "lang": "en",
+          "text": "and the finished design was incredibly",
+          "start_sample": 103807,
+          "end_sample": 145618,
+          "start_ms": 6488,
+          "end_ms": 9101
+        },
+        {
+          "lang": "ja",
+          "text": "繊細.",
+          "start_sample": 145618,
+          "end_sample": 156671,
+          "start_ms": 9101,
+          "end_ms": 9792
+        }
+      ]
+    },
+    "ja": {
+      "text": "The nail technician worked with such 丁寧さ, and the finished design was incredibly 繊細.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8615,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The nail technician worked with such",
+          "start_sample": 0,
+          "end_sample": 42152,
+          "start_ms": 0,
+          "end_ms": 2634
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧さ,",
+          "start_sample": 42152,
+          "end_sample": 56898,
+          "start_ms": 2634,
+          "end_ms": 3556
+        },
+        {
+          "lang": "en",
+          "text": "and the finished design was incredibly",
+          "start_sample": 56898,
+          "end_sample": 126460,
+          "start_ms": 3556,
+          "end_ms": 7904
+        },
+        {
+          "lang": "ja",
+          "text": "繊細.",
+          "start_sample": 126460,
+          "end_sample": 137839,
+          "start_ms": 7904,
+          "end_ms": 8615
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 351,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

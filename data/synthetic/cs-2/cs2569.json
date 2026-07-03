@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs2569.flac",
+  "sentence": "The ATM showed a 警告 message, so I called the 窓口 to sort it out.",
+  "sample_rate": 16000,
+  "duration_ms": 4710,
+  "reference_speaker": "jp/speaker_034_3e5442a60675.mp3",
+  "seed": 2611,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The ATM showed a",
+      "start_sample": 0,
+      "end_sample": 19029,
+      "start_ms": 0,
+      "end_ms": 1189
+    },
+    {
+      "lang": "ja",
+      "text": "警告",
+      "start_sample": 19029,
+      "end_sample": 26661,
+      "start_ms": 1189,
+      "end_ms": 1666
+    },
+    {
+      "lang": "en",
+      "text": "message, so I called the",
+      "start_sample": 26661,
+      "end_sample": 50939,
+      "start_ms": 1666,
+      "end_ms": 3184
+    },
+    {
+      "lang": "ja",
+      "text": "窓口",
+      "start_sample": 50939,
+      "end_sample": 59696,
+      "start_ms": 3184,
+      "end_ms": 3731
+    },
+    {
+      "lang": "en",
+      "text": "to sort it out.",
+      "start_sample": 59696,
+      "end_sample": 75358,
+      "start_ms": 3731,
+      "end_ms": 4710
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The ATM showed a keikoku message, so I called the madoguchi to sort it out.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5128,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The ATM showed a",
+          "start_sample": 0,
+          "end_sample": 19229,
+          "start_ms": 0,
+          "end_ms": 1202
+        },
+        {
+          "lang": "ja",
+          "text": "警告",
+          "start_sample": 19229,
+          "end_sample": 29644,
+          "start_ms": 1202,
+          "end_ms": 1853
+        },
+        {
+          "lang": "en",
+          "text": "message, so I called the",
+          "start_sample": 29644,
+          "end_sample": 54322,
+          "start_ms": 1853,
+          "end_ms": 3395
+        },
+        {
+          "lang": "ja",
+          "text": "窓口",
+          "start_sample": 54322,
+          "end_sample": 66180,
+          "start_ms": 3395,
+          "end_ms": 4136
+        },
+        {
+          "lang": "en",
+          "text": "to sort it out.",
+          "start_sample": 66180,
+          "end_sample": 82042,
+          "start_ms": 4136,
+          "end_ms": 5128
+        }
+      ]
+    },
+    "ja": {
+      "text": "The ATM showed a 警告 message, so I called the 窓口 to sort it out.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5923,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The ATM showed a",
+          "start_sample": 0,
+          "end_sample": 24093,
+          "start_ms": 0,
+          "end_ms": 1506
+        },
+        {
+          "lang": "ja",
+          "text": "警告",
+          "start_sample": 24093,
+          "end_sample": 32125,
+          "start_ms": 1506,
+          "end_ms": 2008
+        },
+        {
+          "lang": "en",
+          "text": "message, so I called the",
+          "start_sample": 32125,
+          "end_sample": 65057,
+          "start_ms": 2008,
+          "end_ms": 4066
+        },
+        {
+          "lang": "ja",
+          "text": "窓口",
+          "start_sample": 65057,
+          "end_sample": 74214,
+          "start_ms": 4066,
+          "end_ms": 4638
+        },
+        {
+          "lang": "en",
+          "text": "to sort it out.",
+          "start_sample": 74214,
+          "end_sample": 94773,
+          "start_ms": 4638,
+          "end_ms": 5923
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 236,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

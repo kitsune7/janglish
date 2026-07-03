@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs3466.flac",
+  "sentence": "His presentation had real 説得力, but the budget slides felt oddly 中途半端.",
+  "sample_rate": 16000,
+  "duration_ms": 5480,
+  "reference_speaker": "jp/speaker_002_02a8841a00d7.mp3",
+  "seed": 3508,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His presentation had real",
+      "start_sample": 0,
+      "end_sample": 20653,
+      "start_ms": 0,
+      "end_ms": 1291
+    },
+    {
+      "lang": "ja",
+      "text": "説得力,",
+      "start_sample": 20653,
+      "end_sample": 38393,
+      "start_ms": 1291,
+      "end_ms": 2400
+    },
+    {
+      "lang": "en",
+      "text": "but the budget slides felt oddly",
+      "start_sample": 38393,
+      "end_sample": 74728,
+      "start_ms": 2400,
+      "end_ms": 4670
+    },
+    {
+      "lang": "ja",
+      "text": "中途半端.",
+      "start_sample": 74728,
+      "end_sample": 87688,
+      "start_ms": 4670,
+      "end_ms": 5480
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His presentation had real settoku chikara but the budget slides felt oddly chuuto hanpa",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5955,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His presentation had real",
+          "start_sample": 0,
+          "end_sample": 20853,
+          "start_ms": 0,
+          "end_ms": 1303
+        },
+        {
+          "lang": "ja",
+          "text": "説得力,",
+          "start_sample": 20853,
+          "end_sample": 43953,
+          "start_ms": 1303,
+          "end_ms": 2747
+        },
+        {
+          "lang": "en",
+          "text": "but the budget slides felt oddly",
+          "start_sample": 43953,
+          "end_sample": 80688,
+          "start_ms": 2747,
+          "end_ms": 5043
+        },
+        {
+          "lang": "ja",
+          "text": "中途半端.",
+          "start_sample": 80688,
+          "end_sample": 95284,
+          "start_ms": 5043,
+          "end_ms": 5955
+        }
+      ]
+    },
+    "ja": {
+      "text": "His presentation had real 説得力, but the budget slides felt oddly 中途半端.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5979,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His presentation had real",
+          "start_sample": 0,
+          "end_sample": 30018,
+          "start_ms": 0,
+          "end_ms": 1876
+        },
+        {
+          "lang": "ja",
+          "text": "説得力,",
+          "start_sample": 30018,
+          "end_sample": 48158,
+          "start_ms": 1876,
+          "end_ms": 3010
+        },
+        {
+          "lang": "en",
+          "text": "but the budget slides felt oddly",
+          "start_sample": 48158,
+          "end_sample": 82511,
+          "start_ms": 3010,
+          "end_ms": 5157
+        },
+        {
+          "lang": "ja",
+          "text": "中途半端.",
+          "start_sample": 82511,
+          "end_sample": 95671,
+          "start_ms": 5157,
+          "end_ms": 5979
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 275,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

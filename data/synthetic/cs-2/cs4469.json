@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs4469.flac",
+  "sentence": "The sudden 急カーブ caught him off guard and he felt a flash of 恐怖.",
+  "sample_rate": 16000,
+  "duration_ms": 4058,
+  "reference_speaker": "en/speaker_053_ceb29bce299d.mp3",
+  "seed": 4511,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The sudden",
+      "start_sample": 0,
+      "end_sample": 6540,
+      "start_ms": 0,
+      "end_ms": 409
+    },
+    {
+      "lang": "ja",
+      "text": "急カーブ",
+      "start_sample": 6540,
+      "end_sample": 16902,
+      "start_ms": 409,
+      "end_ms": 1056
+    },
+    {
+      "lang": "en",
+      "text": "caught him off guard and he felt a flash of",
+      "start_sample": 16902,
+      "end_sample": 58067,
+      "start_ms": 1056,
+      "end_ms": 3629
+    },
+    {
+      "lang": "ja",
+      "text": "恐怖.",
+      "start_sample": 58067,
+      "end_sample": 64931,
+      "start_ms": 3629,
+      "end_ms": 4058
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The sudden kyuu kaabu caught him off guard and he felt a flash of kyoufu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4533,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The sudden",
+          "start_sample": 0,
+          "end_sample": 6740,
+          "start_ms": 0,
+          "end_ms": 421
+        },
+        {
+          "lang": "ja",
+          "text": "急カーブ",
+          "start_sample": 6740,
+          "end_sample": 23270,
+          "start_ms": 421,
+          "end_ms": 1454
+        },
+        {
+          "lang": "en",
+          "text": "caught him off guard and he felt a flash of",
+          "start_sample": 23270,
+          "end_sample": 64835,
+          "start_ms": 1454,
+          "end_ms": 4052
+        },
+        {
+          "lang": "ja",
+          "text": "恐怖.",
+          "start_sample": 64835,
+          "end_sample": 72535,
+          "start_ms": 4052,
+          "end_ms": 4533
+        }
+      ]
+    },
+    "ja": {
+      "text": "The sudden 急カーブ caught him off guard and he felt a flash of 恐怖.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4598,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The sudden",
+          "start_sample": 0,
+          "end_sample": 9637,
+          "start_ms": 0,
+          "end_ms": 602
+        },
+        {
+          "lang": "ja",
+          "text": "急カーブ",
+          "start_sample": 9637,
+          "end_sample": 20399,
+          "start_ms": 602,
+          "end_ms": 1275
+        },
+        {
+          "lang": "en",
+          "text": "caught him off guard and he felt a flash of",
+          "start_sample": 20399,
+          "end_sample": 66499,
+          "start_ms": 1275,
+          "end_ms": 4156
+        },
+        {
+          "lang": "ja",
+          "text": "恐怖.",
+          "start_sample": 66499,
+          "end_sample": 73563,
+          "start_ms": 4156,
+          "end_ms": 4598
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjj"
+}

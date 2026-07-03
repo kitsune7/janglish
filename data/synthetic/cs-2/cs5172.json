@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs5172.flac",
+  "sentence": "The 緊急 sirens went off at midnight, sending the entire neighborhood into a state of 恐怖.",
+  "sample_rate": 16000,
+  "duration_ms": 6556,
+  "reference_speaker": "jp/speaker_014_9e367176533e.mp3",
+  "seed": 5214,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1242,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "緊急",
+      "start_sample": 1242,
+      "end_sample": 12059,
+      "start_ms": 78,
+      "end_ms": 754
+    },
+    {
+      "lang": "en",
+      "text": "sirens went off at midnight, sending the entire neighborhood into a state of",
+      "start_sample": 12059,
+      "end_sample": 96132,
+      "start_ms": 754,
+      "end_ms": 6008
+    },
+    {
+      "lang": "ja",
+      "text": "恐怖.",
+      "start_sample": 96132,
+      "end_sample": 104904,
+      "start_ms": 6008,
+      "end_ms": 6556
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kinkyuu sirens went off at midnight, sending the entire neighborhood into a state of kyoufu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6311,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1442,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "緊急",
+          "start_sample": 1442,
+          "end_sample": 7854,
+          "start_ms": 90,
+          "end_ms": 491
+        },
+        {
+          "lang": "en",
+          "text": "sirens went off at midnight, sending the entire neighborhood into a state of",
+          "start_sample": 7854,
+          "end_sample": 92327,
+          "start_ms": 491,
+          "end_ms": 5770
+        },
+        {
+          "lang": "ja",
+          "text": "恐怖.",
+          "start_sample": 92327,
+          "end_sample": 100982,
+          "start_ms": 5770,
+          "end_ms": 6311
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 緊急 sirens went off at midnight, sending the entire neighborhood into a state of 恐怖.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 10516,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5447,
+          "start_ms": 0,
+          "end_ms": 340
+        },
+        {
+          "lang": "ja",
+          "text": "緊急",
+          "start_sample": 5447,
+          "end_sample": 16664,
+          "start_ms": 340,
+          "end_ms": 1042
+        },
+        {
+          "lang": "en",
+          "text": "sirens went off at midnight, sending the entire neighborhood into a state of",
+          "start_sample": 16664,
+          "end_sample": 159281,
+          "start_ms": 1042,
+          "end_ms": 9955
+        },
+        {
+          "lang": "ja",
+          "text": "恐怖.",
+          "start_sample": 159281,
+          "end_sample": 168253,
+          "start_ms": 9955,
+          "end_ms": 10516
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 328,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

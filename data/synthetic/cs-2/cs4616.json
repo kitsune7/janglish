@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs4616.flac",
+  "sentence": "The whole yard has a lovely 自然 atmosphere, almost 静か enough to meditate in.",
+  "sample_rate": 16000,
+  "duration_ms": 4941,
+  "reference_speaker": "jp/speaker_086_b5416e90d3b7.mp3",
+  "seed": 4658,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole yard has a lovely",
+      "start_sample": 0,
+      "end_sample": 18557,
+      "start_ms": 0,
+      "end_ms": 1160
+    },
+    {
+      "lang": "ja",
+      "text": "自然",
+      "start_sample": 18557,
+      "end_sample": 27467,
+      "start_ms": 1160,
+      "end_ms": 1717
+    },
+    {
+      "lang": "en",
+      "text": "atmosphere, almost",
+      "start_sample": 27467,
+      "end_sample": 50313,
+      "start_ms": 1717,
+      "end_ms": 3145
+    },
+    {
+      "lang": "ja",
+      "text": "静か",
+      "start_sample": 50313,
+      "end_sample": 57939,
+      "start_ms": 3145,
+      "end_ms": 3621
+    },
+    {
+      "lang": "en",
+      "text": "enough to meditate in.",
+      "start_sample": 57939,
+      "end_sample": 79060,
+      "start_ms": 3621,
+      "end_ms": 4941
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole yard has a lovely shizen atmosphere, almost shizuka enough to meditate in.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5130,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole yard has a lovely",
+          "start_sample": 0,
+          "end_sample": 18757,
+          "start_ms": 0,
+          "end_ms": 1172
+        },
+        {
+          "lang": "ja",
+          "text": "自然",
+          "start_sample": 18757,
+          "end_sample": 26774,
+          "start_ms": 1172,
+          "end_ms": 1673
+        },
+        {
+          "lang": "en",
+          "text": "atmosphere, almost",
+          "start_sample": 26774,
+          "end_sample": 50020,
+          "start_ms": 1673,
+          "end_ms": 3126
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 50020,
+          "end_sample": 60762,
+          "start_ms": 3126,
+          "end_ms": 3798
+        },
+        {
+          "lang": "en",
+          "text": "enough to meditate in.",
+          "start_sample": 60762,
+          "end_sample": 82083,
+          "start_ms": 3798,
+          "end_ms": 5130
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole yard has a lovely 自然 atmosphere, almost 静か enough to meditate in.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6300,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole yard has a lovely",
+          "start_sample": 0,
+          "end_sample": 31298,
+          "start_ms": 0,
+          "end_ms": 1956
+        },
+        {
+          "lang": "ja",
+          "text": "自然",
+          "start_sample": 31298,
+          "end_sample": 40608,
+          "start_ms": 1956,
+          "end_ms": 2538
+        },
+        {
+          "lang": "en",
+          "text": "atmosphere, almost",
+          "start_sample": 40608,
+          "end_sample": 66933,
+          "start_ms": 2538,
+          "end_ms": 4183
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 66933,
+          "end_sample": 74959,
+          "start_ms": 4183,
+          "end_ms": 4685
+        },
+        {
+          "lang": "en",
+          "text": "enough to meditate in.",
+          "start_sample": 74959,
+          "end_sample": 100800,
+          "start_ms": 4685,
+          "end_ms": 6300
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 248,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

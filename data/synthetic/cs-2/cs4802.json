@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs4802.flac",
+  "sentence": "She moves the 三脚 just a few centimeters until the geometry feels exactly 均整.",
+  "sample_rate": 16000,
+  "duration_ms": 6022,
+  "reference_speaker": "en/speaker_085_1a04e2db0811.mp3",
+  "seed": 4844,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She moves the",
+      "start_sample": 0,
+      "end_sample": 10874,
+      "start_ms": 0,
+      "end_ms": 680
+    },
+    {
+      "lang": "ja",
+      "text": "三脚",
+      "start_sample": 10874,
+      "end_sample": 23458,
+      "start_ms": 680,
+      "end_ms": 1466
+    },
+    {
+      "lang": "en",
+      "text": "just a few centimeters until the geometry feels exactly",
+      "start_sample": 23458,
+      "end_sample": 88221,
+      "start_ms": 1466,
+      "end_ms": 5514
+    },
+    {
+      "lang": "ja",
+      "text": "均整.",
+      "start_sample": 88221,
+      "end_sample": 96355,
+      "start_ms": 5514,
+      "end_ms": 6022
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She moves the sankyaku just a few centimeters until the geometry feels exactly kinsei",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6279,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She moves the",
+          "start_sample": 0,
+          "end_sample": 11074,
+          "start_ms": 0,
+          "end_ms": 692
+        },
+        {
+          "lang": "ja",
+          "text": "三脚",
+          "start_sample": 11074,
+          "end_sample": 25198,
+          "start_ms": 692,
+          "end_ms": 1575
+        },
+        {
+          "lang": "en",
+          "text": "just a few centimeters until the geometry feels exactly",
+          "start_sample": 25198,
+          "end_sample": 90361,
+          "start_ms": 1575,
+          "end_ms": 5648
+        },
+        {
+          "lang": "ja",
+          "text": "均整.",
+          "start_sample": 90361,
+          "end_sample": 100470,
+          "start_ms": 5648,
+          "end_ms": 6279
+        }
+      ]
+    },
+    "ja": {
+      "text": "She moves the 三脚 just a few centimeters until the geometry feels exactly 均整.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9017,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She moves the",
+          "start_sample": 0,
+          "end_sample": 14906,
+          "start_ms": 0,
+          "end_ms": 932
+        },
+        {
+          "lang": "ja",
+          "text": "三脚",
+          "start_sample": 14906,
+          "end_sample": 27890,
+          "start_ms": 932,
+          "end_ms": 1743
+        },
+        {
+          "lang": "en",
+          "text": "just a few centimeters until the geometry feels exactly",
+          "start_sample": 27890,
+          "end_sample": 135933,
+          "start_ms": 1743,
+          "end_ms": 8496
+        },
+        {
+          "lang": "ja",
+          "text": "均整.",
+          "start_sample": 135933,
+          "end_sample": 144267,
+          "start_ms": 8496,
+          "end_ms": 9017
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 302,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

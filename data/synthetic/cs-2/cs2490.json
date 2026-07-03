@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs2490.flac",
+  "sentence": "The 踏切 ahead was flashing, so the traffic felt suddenly 窮屈.",
+  "sample_rate": 16000,
+  "duration_ms": 5671,
+  "reference_speaker": "en/speaker_082_0d071699a4ef.mp3",
+  "seed": 2532,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1401,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "踏切",
+      "start_sample": 1401,
+      "end_sample": 17662,
+      "start_ms": 88,
+      "end_ms": 1104
+    },
+    {
+      "lang": "en",
+      "text": "ahead was flashing, so the traffic felt suddenly",
+      "start_sample": 17662,
+      "end_sample": 77801,
+      "start_ms": 1104,
+      "end_ms": 4863
+    },
+    {
+      "lang": "ja",
+      "text": "窮屈.",
+      "start_sample": 77801,
+      "end_sample": 90737,
+      "start_ms": 4863,
+      "end_ms": 5671
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The fumikiri ahead was flashing, so the traffic felt suddenly kyuukutsu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5325,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1601,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "踏切",
+          "start_sample": 1601,
+          "end_sample": 11530,
+          "start_ms": 100,
+          "end_ms": 721
+        },
+        {
+          "lang": "en",
+          "text": "ahead was flashing, so the traffic felt suddenly",
+          "start_sample": 11530,
+          "end_sample": 72069,
+          "start_ms": 721,
+          "end_ms": 4504
+        },
+        {
+          "lang": "ja",
+          "text": "窮屈.",
+          "start_sample": 72069,
+          "end_sample": 85200,
+          "start_ms": 4504,
+          "end_ms": 5325
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 踏切 ahead was flashing, so the traffic felt suddenly 窮屈.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8310,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4164,
+          "start_ms": 0,
+          "end_ms": 260
+        },
+        {
+          "lang": "ja",
+          "text": "踏切",
+          "start_sample": 4164,
+          "end_sample": 20825,
+          "start_ms": 260,
+          "end_ms": 1302
+        },
+        {
+          "lang": "en",
+          "text": "ahead was flashing, so the traffic felt suddenly",
+          "start_sample": 20825,
+          "end_sample": 119830,
+          "start_ms": 1302,
+          "end_ms": 7489
+        },
+        {
+          "lang": "ja",
+          "text": "窮屈.",
+          "start_sample": 119830,
+          "end_sample": 132966,
+          "start_ms": 7489,
+          "end_ms": 8310
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 284,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

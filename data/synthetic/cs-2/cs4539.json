@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs4539.flac",
+  "sentence": "He reads every new 文庫本 he can find and keeps a running 感想 journal about each one.",
+  "sample_rate": 16000,
+  "duration_ms": 4772,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 4581,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He reads every new",
+      "start_sample": 0,
+      "end_sample": 14400,
+      "start_ms": 0,
+      "end_ms": 900
+    },
+    {
+      "lang": "ja",
+      "text": "文庫本",
+      "start_sample": 14400,
+      "end_sample": 23774,
+      "start_ms": 900,
+      "end_ms": 1486
+    },
+    {
+      "lang": "en",
+      "text": "he can find and keeps a running",
+      "start_sample": 23774,
+      "end_sample": 50491,
+      "start_ms": 1486,
+      "end_ms": 3156
+    },
+    {
+      "lang": "ja",
+      "text": "感想",
+      "start_sample": 50491,
+      "end_sample": 55859,
+      "start_ms": 3156,
+      "end_ms": 3491
+    },
+    {
+      "lang": "en",
+      "text": "journal about each one.",
+      "start_sample": 55859,
+      "end_sample": 76355,
+      "start_ms": 3491,
+      "end_ms": 4772
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He reads every new bunko hon he can find and keeps a running kansou journal about each one.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5054,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He reads every new",
+          "start_sample": 0,
+          "end_sample": 14600,
+          "start_ms": 0,
+          "end_ms": 912
+        },
+        {
+          "lang": "ja",
+          "text": "文庫本",
+          "start_sample": 14600,
+          "end_sample": 25832,
+          "start_ms": 912,
+          "end_ms": 1614
+        },
+        {
+          "lang": "en",
+          "text": "he can find and keeps a running",
+          "start_sample": 25832,
+          "end_sample": 52949,
+          "start_ms": 1614,
+          "end_ms": 3309
+        },
+        {
+          "lang": "ja",
+          "text": "感想",
+          "start_sample": 52949,
+          "end_sample": 60169,
+          "start_ms": 3309,
+          "end_ms": 3761
+        },
+        {
+          "lang": "en",
+          "text": "journal about each one.",
+          "start_sample": 60169,
+          "end_sample": 80865,
+          "start_ms": 3761,
+          "end_ms": 5054
+        }
+      ]
+    },
+    "ja": {
+      "text": "He reads every new 文庫本 he can find and keeps a running 感想 journal about each one.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5388,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He reads every new",
+          "start_sample": 0,
+          "end_sample": 12497,
+          "start_ms": 0,
+          "end_ms": 781
+        },
+        {
+          "lang": "ja",
+          "text": "文庫本",
+          "start_sample": 12497,
+          "end_sample": 22271,
+          "start_ms": 781,
+          "end_ms": 1392
+        },
+        {
+          "lang": "en",
+          "text": "he can find and keeps a running",
+          "start_sample": 22271,
+          "end_sample": 51914,
+          "start_ms": 1392,
+          "end_ms": 3245
+        },
+        {
+          "lang": "ja",
+          "text": "感想",
+          "start_sample": 51914,
+          "end_sample": 57682,
+          "start_ms": 3245,
+          "end_ms": 3605
+        },
+        {
+          "lang": "en",
+          "text": "journal about each one.",
+          "start_sample": 57682,
+          "end_sample": 86202,
+          "start_ms": 3605,
+          "end_ms": 5388
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 239,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

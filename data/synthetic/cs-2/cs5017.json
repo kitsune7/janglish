@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs5017.flac",
+  "sentence": "I love how the 余白 in a minimal makeup look creates such a quiet 品格.",
+  "sample_rate": 16000,
+  "duration_ms": 5038,
+  "reference_speaker": "en/speaker_094_291d9dee87c4.mp3",
+  "seed": 5059,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I love how the",
+      "start_sample": 0,
+      "end_sample": 9912,
+      "start_ms": 0,
+      "end_ms": 620
+    },
+    {
+      "lang": "ja",
+      "text": "余白",
+      "start_sample": 9912,
+      "end_sample": 23926,
+      "start_ms": 620,
+      "end_ms": 1495
+    },
+    {
+      "lang": "en",
+      "text": "in a minimal makeup look creates such a quiet",
+      "start_sample": 23926,
+      "end_sample": 68324,
+      "start_ms": 1495,
+      "end_ms": 4270
+    },
+    {
+      "lang": "ja",
+      "text": "品格.",
+      "start_sample": 68324,
+      "end_sample": 80616,
+      "start_ms": 4270,
+      "end_ms": 5038
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I love how the yohaku in a minimal makeup look creates such a quiet hinkaku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4636,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I love how the",
+          "start_sample": 0,
+          "end_sample": 10112,
+          "start_ms": 0,
+          "end_ms": 632
+        },
+        {
+          "lang": "ja",
+          "text": "余白",
+          "start_sample": 10112,
+          "end_sample": 19104,
+          "start_ms": 632,
+          "end_ms": 1194
+        },
+        {
+          "lang": "en",
+          "text": "in a minimal makeup look creates such a quiet",
+          "start_sample": 19104,
+          "end_sample": 63902,
+          "start_ms": 1194,
+          "end_ms": 3994
+        },
+        {
+          "lang": "ja",
+          "text": "品格.",
+          "start_sample": 63902,
+          "end_sample": 74175,
+          "start_ms": 3994,
+          "end_ms": 4636
+        }
+      ]
+    },
+    "ja": {
+      "text": "I love how the 余白 in a minimal makeup look creates such a quiet 品格.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8568,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I love how the",
+          "start_sample": 0,
+          "end_sample": 17456,
+          "start_ms": 0,
+          "end_ms": 1091
+        },
+        {
+          "lang": "ja",
+          "text": "余白",
+          "start_sample": 17456,
+          "end_sample": 31870,
+          "start_ms": 1091,
+          "end_ms": 1992
+        },
+        {
+          "lang": "en",
+          "text": "in a minimal makeup look creates such a quiet",
+          "start_sample": 31870,
+          "end_sample": 124598,
+          "start_ms": 1992,
+          "end_ms": 7787
+        },
+        {
+          "lang": "ja",
+          "text": "品格.",
+          "start_sample": 124598,
+          "end_sample": 137090,
+          "start_ms": 7787,
+          "end_ms": 8568
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 252,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

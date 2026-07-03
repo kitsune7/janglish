@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs3783.flac",
+  "sentence": "I roasted the vegetables until they were 香ばしい, then finished them with a drizzle of 黒酢.",
+  "sample_rate": 16000,
+  "duration_ms": 5911,
+  "reference_speaker": "en/speaker_025_5a5c462b583a.mp3",
+  "seed": 3825,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I roasted the vegetables until they were",
+      "start_sample": 0,
+      "end_sample": 29337,
+      "start_ms": 0,
+      "end_ms": 1834
+    },
+    {
+      "lang": "ja",
+      "text": "香ばしい,",
+      "start_sample": 29337,
+      "end_sample": 47348,
+      "start_ms": 1834,
+      "end_ms": 2959
+    },
+    {
+      "lang": "en",
+      "text": "then finished them with a drizzle of",
+      "start_sample": 47348,
+      "end_sample": 86925,
+      "start_ms": 2959,
+      "end_ms": 5433
+    },
+    {
+      "lang": "ja",
+      "text": "黒酢.",
+      "start_sample": 86925,
+      "end_sample": 94570,
+      "start_ms": 5433,
+      "end_ms": 5911
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I roasted the vegetables until they were koobashii then finished them with a drizzle of kurozu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6000,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I roasted the vegetables until they were",
+          "start_sample": 0,
+          "end_sample": 29537,
+          "start_ms": 0,
+          "end_ms": 1846
+        },
+        {
+          "lang": "ja",
+          "text": "香ばしい,",
+          "start_sample": 29537,
+          "end_sample": 47036,
+          "start_ms": 1846,
+          "end_ms": 2940
+        },
+        {
+          "lang": "en",
+          "text": "then finished them with a drizzle of",
+          "start_sample": 47036,
+          "end_sample": 87013,
+          "start_ms": 2940,
+          "end_ms": 5438
+        },
+        {
+          "lang": "ja",
+          "text": "黒酢.",
+          "start_sample": 87013,
+          "end_sample": 96000,
+          "start_ms": 5438,
+          "end_ms": 6000
+        }
+      ]
+    },
+    "ja": {
+      "text": "I roasted the vegetables until they were 香ばしい, then finished them with a drizzle of 黒酢.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 11647,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I roasted the vegetables until they were",
+          "start_sample": 0,
+          "end_sample": 61638,
+          "start_ms": 0,
+          "end_ms": 3852
+        },
+        {
+          "lang": "ja",
+          "text": "香ばしい,",
+          "start_sample": 61638,
+          "end_sample": 80049,
+          "start_ms": 3852,
+          "end_ms": 5003
+        },
+        {
+          "lang": "en",
+          "text": "then finished them with a drizzle of",
+          "start_sample": 80049,
+          "end_sample": 178511,
+          "start_ms": 5003,
+          "end_ms": 11157
+        },
+        {
+          "lang": "ja",
+          "text": "黒酢.",
+          "start_sample": 178511,
+          "end_sample": 186356,
+          "start_ms": 11157,
+          "end_ms": 11647
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 296,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjj"
+}

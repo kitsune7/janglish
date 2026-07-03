@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs8281.flac",
+  "sentence": "あの映画のendingはとてもsadで、泣いてしまった。",
+  "sample_rate": 16000,
+  "duration_ms": 3466,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 8323,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの映画の",
+      "start_sample": 0,
+      "end_sample": 9101,
+      "start_ms": 0,
+      "end_ms": 569
+    },
+    {
+      "lang": "en",
+      "text": "ending",
+      "start_sample": 9101,
+      "end_sample": 24398,
+      "start_ms": 569,
+      "end_ms": 1525
+    },
+    {
+      "lang": "ja",
+      "text": "はとても",
+      "start_sample": 24398,
+      "end_sample": 31856,
+      "start_ms": 1525,
+      "end_ms": 1991
+    },
+    {
+      "lang": "en",
+      "text": "sad",
+      "start_sample": 31856,
+      "end_sample": 40266,
+      "start_ms": 1991,
+      "end_ms": 2517
+    },
+    {
+      "lang": "ja",
+      "text": "で、泣いてしまった。",
+      "start_sample": 40266,
+      "end_sample": 55460,
+      "start_ms": 2517,
+      "end_ms": 3466
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano eiga no ending ha totemo sad de nai te shimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7048,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの映画の",
+          "start_sample": 0,
+          "end_sample": 28029,
+          "start_ms": 0,
+          "end_ms": 1752
+        },
+        {
+          "lang": "en",
+          "text": "ending",
+          "start_sample": 28029,
+          "end_sample": 43726,
+          "start_ms": 1752,
+          "end_ms": 2733
+        },
+        {
+          "lang": "ja",
+          "text": "はとても",
+          "start_sample": 43726,
+          "end_sample": 66311,
+          "start_ms": 2733,
+          "end_ms": 4144
+        },
+        {
+          "lang": "en",
+          "text": "sad",
+          "start_sample": 66311,
+          "end_sample": 75121,
+          "start_ms": 4144,
+          "end_ms": 4695
+        },
+        {
+          "lang": "ja",
+          "text": "で、泣いてしまった。",
+          "start_sample": 75121,
+          "end_sample": 112761,
+          "start_ms": 4695,
+          "end_ms": 7048
+        }
+      ]
+    },
+    "ja": {
+      "text": "あの映画のendingはとてもsadで、泣いてしまった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2666,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの映画の",
+          "start_sample": 0,
+          "end_sample": 9301,
+          "start_ms": 0,
+          "end_ms": 581
+        },
+        {
+          "lang": "en",
+          "text": "ending",
+          "start_sample": 9301,
+          "end_sample": 15396,
+          "start_ms": 581,
+          "end_ms": 962
+        },
+        {
+          "lang": "ja",
+          "text": "はとても",
+          "start_sample": 15396,
+          "end_sample": 23254,
+          "start_ms": 962,
+          "end_ms": 1453
+        },
+        {
+          "lang": "en",
+          "text": "sad",
+          "start_sample": 23254,
+          "end_sample": 27264,
+          "start_ms": 1453,
+          "end_ms": 1704
+        },
+        {
+          "lang": "ja",
+          "text": "で、泣いてしまった。",
+          "start_sample": 27264,
+          "end_sample": 42658,
+          "start_ms": 1704,
+          "end_ms": 2666
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 174,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

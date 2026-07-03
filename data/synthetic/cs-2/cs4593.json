@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs4593.flac",
+  "sentence": "The 甘味 in this liqueur is subtle, not cloying, which makes the whole drink feel 上品.",
+  "sample_rate": 16000,
+  "duration_ms": 6202,
+  "reference_speaker": "jp/speaker_100_5a2cde56c3f2.mp3",
+  "seed": 4635,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1081,
+      "start_ms": 0,
+      "end_ms": 68
+    },
+    {
+      "lang": "ja",
+      "text": "甘味",
+      "start_sample": 1081,
+      "end_sample": 6770,
+      "start_ms": 68,
+      "end_ms": 423
+    },
+    {
+      "lang": "en",
+      "text": "in this liqueur is subtle, not cloying, which makes the whole drink feel",
+      "start_sample": 6770,
+      "end_sample": 90625,
+      "start_ms": 423,
+      "end_ms": 5664
+    },
+    {
+      "lang": "ja",
+      "text": "上品.",
+      "start_sample": 90625,
+      "end_sample": 99236,
+      "start_ms": 5664,
+      "end_ms": 6202
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The amami in this liqueur is subtle, not cloying, which makes the whole drink feel jouhin",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6207,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1281,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "甘味",
+          "start_sample": 1281,
+          "end_sample": 7208,
+          "start_ms": 80,
+          "end_ms": 450
+        },
+        {
+          "lang": "en",
+          "text": "in this liqueur is subtle, not cloying, which makes the whole drink feel",
+          "start_sample": 7208,
+          "end_sample": 91463,
+          "start_ms": 450,
+          "end_ms": 5716
+        },
+        {
+          "lang": "ja",
+          "text": "上品.",
+          "start_sample": 91463,
+          "end_sample": 99312,
+          "start_ms": 5716,
+          "end_ms": 6207
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 甘味 in this liqueur is subtle, not cloying, which makes the whole drink feel 上品.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7431,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2082,
+          "start_ms": 0,
+          "end_ms": 130
+        },
+        {
+          "lang": "ja",
+          "text": "甘味",
+          "start_sample": 2082,
+          "end_sample": 8171,
+          "start_ms": 130,
+          "end_ms": 511
+        },
+        {
+          "lang": "en",
+          "text": "in this liqueur is subtle, not cloying, which makes the whole drink feel",
+          "start_sample": 8171,
+          "end_sample": 110078,
+          "start_ms": 511,
+          "end_ms": 6880
+        },
+        {
+          "lang": "ja",
+          "text": "上品.",
+          "start_sample": 110078,
+          "end_sample": 118889,
+          "start_ms": 6880,
+          "end_ms": 7431
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 311,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

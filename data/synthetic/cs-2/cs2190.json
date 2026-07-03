@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs2190.flac",
+  "sentence": "We schedule a 振り返り call every week to keep the 連携 tight.",
+  "sample_rate": 16000,
+  "duration_ms": 4000,
+  "reference_speaker": "en/speaker_012_29b1e5a58d16.mp3",
+  "seed": 2232,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We schedule a",
+      "start_sample": 0,
+      "end_sample": 9588,
+      "start_ms": 0,
+      "end_ms": 599
+    },
+    {
+      "lang": "ja",
+      "text": "振り返り",
+      "start_sample": 9588,
+      "end_sample": 19918,
+      "start_ms": 599,
+      "end_ms": 1245
+    },
+    {
+      "lang": "en",
+      "text": "call every week to keep the",
+      "start_sample": 19918,
+      "end_sample": 50329,
+      "start_ms": 1245,
+      "end_ms": 3146
+    },
+    {
+      "lang": "ja",
+      "text": "連携",
+      "start_sample": 50329,
+      "end_sample": 58417,
+      "start_ms": 3146,
+      "end_ms": 3651
+    },
+    {
+      "lang": "en",
+      "text": "tight.",
+      "start_sample": 58417,
+      "end_sample": 63992,
+      "start_ms": 3651,
+      "end_ms": 4000
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We schedule a furikaeri call every week to keep the renkei tight.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3932,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We schedule a",
+          "start_sample": 0,
+          "end_sample": 9788,
+          "start_ms": 0,
+          "end_ms": 612
+        },
+        {
+          "lang": "ja",
+          "text": "振り返り",
+          "start_sample": 9788,
+          "end_sample": 19578,
+          "start_ms": 612,
+          "end_ms": 1224
+        },
+        {
+          "lang": "en",
+          "text": "call every week to keep the",
+          "start_sample": 19578,
+          "end_sample": 50389,
+          "start_ms": 1224,
+          "end_ms": 3149
+        },
+        {
+          "lang": "ja",
+          "text": "連携",
+          "start_sample": 50389,
+          "end_sample": 57129,
+          "start_ms": 3149,
+          "end_ms": 3571
+        },
+        {
+          "lang": "en",
+          "text": "tight.",
+          "start_sample": 57129,
+          "end_sample": 62904,
+          "start_ms": 3571,
+          "end_ms": 3932
+        }
+      ]
+    },
+    "ja": {
+      "text": "We schedule a 振り返り call every week to keep the 連携 tight.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4604,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We schedule a",
+          "start_sample": 0,
+          "end_sample": 13773,
+          "start_ms": 0,
+          "end_ms": 861
+        },
+        {
+          "lang": "ja",
+          "text": "振り返り",
+          "start_sample": 13773,
+          "end_sample": 24503,
+          "start_ms": 861,
+          "end_ms": 1531
+        },
+        {
+          "lang": "en",
+          "text": "call every week to keep the",
+          "start_sample": 24503,
+          "end_sample": 59256,
+          "start_ms": 1531,
+          "end_ms": 3704
+        },
+        {
+          "lang": "ja",
+          "text": "連携",
+          "start_sample": 59256,
+          "end_sample": 67744,
+          "start_ms": 3704,
+          "end_ms": 4234
+        },
+        {
+          "lang": "en",
+          "text": "tight.",
+          "start_sample": 67744,
+          "end_sample": 73669,
+          "start_ms": 4234,
+          "end_ms": 4604
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 200,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeee"
+}

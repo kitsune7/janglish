@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs4017.flac",
+  "sentence": "The 間 between episodes felt too long, but the 結末 was worth it.",
+  "sample_rate": 16000,
+  "duration_ms": 4482,
+  "reference_speaker": "en/speaker_031_dcac4ff5a983.mp3",
+  "seed": 4059,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1244,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "間",
+      "start_sample": 1244,
+      "end_sample": 6290,
+      "start_ms": 78,
+      "end_ms": 393
+    },
+    {
+      "lang": "en",
+      "text": "between episodes felt too long, but the",
+      "start_sample": 6290,
+      "end_sample": 47622,
+      "start_ms": 393,
+      "end_ms": 2976
+    },
+    {
+      "lang": "ja",
+      "text": "結末",
+      "start_sample": 47622,
+      "end_sample": 57631,
+      "start_ms": 2976,
+      "end_ms": 3602
+    },
+    {
+      "lang": "en",
+      "text": "was worth it.",
+      "start_sample": 57631,
+      "end_sample": 71713,
+      "start_ms": 3602,
+      "end_ms": 4482
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kan between episodes felt too long, but the ketsumatsu was worth it.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4976,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1444,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "間",
+          "start_sample": 1444,
+          "end_sample": 6420,
+          "start_ms": 90,
+          "end_ms": 401
+        },
+        {
+          "lang": "en",
+          "text": "between episodes felt too long, but the",
+          "start_sample": 6420,
+          "end_sample": 48152,
+          "start_ms": 401,
+          "end_ms": 3010
+        },
+        {
+          "lang": "ja",
+          "text": "結末",
+          "start_sample": 48152,
+          "end_sample": 65326,
+          "start_ms": 3010,
+          "end_ms": 4083
+        },
+        {
+          "lang": "en",
+          "text": "was worth it.",
+          "start_sample": 65326,
+          "end_sample": 79608,
+          "start_ms": 4083,
+          "end_ms": 4976
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 間 between episodes felt too long, but the 結末 was worth it.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6906,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2241,
+          "start_ms": 0,
+          "end_ms": 140
+        },
+        {
+          "lang": "ja",
+          "text": "間",
+          "start_sample": 2241,
+          "end_sample": 7687,
+          "start_ms": 140,
+          "end_ms": 480
+        },
+        {
+          "lang": "en",
+          "text": "between episodes felt too long, but the",
+          "start_sample": 7687,
+          "end_sample": 80715,
+          "start_ms": 480,
+          "end_ms": 5045
+        },
+        {
+          "lang": "ja",
+          "text": "結末",
+          "start_sample": 80715,
+          "end_sample": 91124,
+          "start_ms": 5045,
+          "end_ms": 5695
+        },
+        {
+          "lang": "en",
+          "text": "was worth it.",
+          "start_sample": 91124,
+          "end_sample": 110502,
+          "start_ms": 5695,
+          "end_ms": 6906
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs4718.flac",
+  "sentence": "I always feel a wave of 緊張 right before a long international call, yet afterward comes pure 解放感.",
+  "sample_rate": 16000,
+  "duration_ms": 6418,
+  "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 4760,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always feel a wave of",
+      "start_sample": 0,
+      "end_sample": 16154,
+      "start_ms": 0,
+      "end_ms": 1010
+    },
+    {
+      "lang": "ja",
+      "text": "緊張",
+      "start_sample": 16154,
+      "end_sample": 23922,
+      "start_ms": 1010,
+      "end_ms": 1495
+    },
+    {
+      "lang": "en",
+      "text": "right before a long international call, yet afterward comes pure",
+      "start_sample": 23922,
+      "end_sample": 91352,
+      "start_ms": 1495,
+      "end_ms": 5710
+    },
+    {
+      "lang": "ja",
+      "text": "解放感.",
+      "start_sample": 91352,
+      "end_sample": 102683,
+      "start_ms": 5710,
+      "end_ms": 6418
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always feel a wave of kinchou right before a long international call, yet afterward comes pure kaihou kan",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6434,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel a wave of",
+          "start_sample": 0,
+          "end_sample": 16354,
+          "start_ms": 0,
+          "end_ms": 1022
+        },
+        {
+          "lang": "ja",
+          "text": "緊張",
+          "start_sample": 16354,
+          "end_sample": 23410,
+          "start_ms": 1022,
+          "end_ms": 1463
+        },
+        {
+          "lang": "en",
+          "text": "right before a long international call, yet afterward comes pure",
+          "start_sample": 23410,
+          "end_sample": 91240,
+          "start_ms": 1463,
+          "end_ms": 5702
+        },
+        {
+          "lang": "ja",
+          "text": "解放感.",
+          "start_sample": 91240,
+          "end_sample": 102944,
+          "start_ms": 5702,
+          "end_ms": 6434
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always feel a wave of 緊張 right before a long international call, yet afterward comes pure 解放感.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7528,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel a wave of",
+          "start_sample": 0,
+          "end_sample": 27868,
+          "start_ms": 0,
+          "end_ms": 1742
+        },
+        {
+          "lang": "ja",
+          "text": "緊張",
+          "start_sample": 27868,
+          "end_sample": 36036,
+          "start_ms": 1742,
+          "end_ms": 2252
+        },
+        {
+          "lang": "en",
+          "text": "right before a long international call, yet afterward comes pure",
+          "start_sample": 36036,
+          "end_sample": 108913,
+          "start_ms": 2252,
+          "end_ms": 6807
+        },
+        {
+          "lang": "ja",
+          "text": "解放感.",
+          "start_sample": 108913,
+          "end_sample": 120444,
+          "start_ms": 6807,
+          "end_ms": 7528
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 321,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

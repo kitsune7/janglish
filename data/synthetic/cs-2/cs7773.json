@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs7773.flac",
+  "sentence": "addressを間違えたせいで、大切なletter が戻ってきてしまった。",
+  "sample_rate": 16000,
+  "duration_ms": 4746,
+  "reference_speaker": "jp/speaker_037_97f38629e8a3.mp3",
+  "seed": 7815,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "address",
+      "start_sample": 0,
+      "end_sample": 9891,
+      "start_ms": 0,
+      "end_ms": 618
+    },
+    {
+      "lang": "ja",
+      "text": "を間違えたせいで、大切な",
+      "start_sample": 9891,
+      "end_sample": 40783,
+      "start_ms": 618,
+      "end_ms": 2549
+    },
+    {
+      "lang": "en",
+      "text": "letter",
+      "start_sample": 40783,
+      "end_sample": 56402,
+      "start_ms": 2549,
+      "end_ms": 3525
+    },
+    {
+      "lang": "ja",
+      "text": "が戻ってきてしまった。",
+      "start_sample": 56402,
+      "end_sample": 75938,
+      "start_ms": 3525,
+      "end_ms": 4746
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "address wo machigae ta sei de taisetsu na letter ga modotsu te ki te shimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10873,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "address",
+          "start_sample": 0,
+          "end_sample": 10091,
+          "start_ms": 0,
+          "end_ms": 631
+        },
+        {
+          "lang": "ja",
+          "text": "を間違えたせいで、大切な",
+          "start_sample": 10091,
+          "end_sample": 89707,
+          "start_ms": 631,
+          "end_ms": 5607
+        },
+        {
+          "lang": "en",
+          "text": "letter",
+          "start_sample": 89707,
+          "end_sample": 105726,
+          "start_ms": 5607,
+          "end_ms": 6608
+        },
+        {
+          "lang": "ja",
+          "text": "が戻ってきてしまった。",
+          "start_sample": 105726,
+          "end_sample": 173967,
+          "start_ms": 6608,
+          "end_ms": 10873
+        }
+      ]
+    },
+    "ja": {
+      "text": "addressを間違えたせいで、大切なletter が戻ってきてしまった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3891,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "address",
+          "start_sample": 0,
+          "end_sample": 6419,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "ja",
+          "text": "を間違えたせいで、大切な",
+          "start_sample": 6419,
+          "end_sample": 37711,
+          "start_ms": 401,
+          "end_ms": 2357
+        },
+        {
+          "lang": "en",
+          "text": "letter",
+          "start_sample": 37711,
+          "end_sample": 42526,
+          "start_ms": 2357,
+          "end_ms": 2658
+        },
+        {
+          "lang": "ja",
+          "text": "が戻ってきてしまった。",
+          "start_sample": 42526,
+          "end_sample": 62262,
+          "start_ms": 2658,
+          "end_ms": 3891
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 238,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

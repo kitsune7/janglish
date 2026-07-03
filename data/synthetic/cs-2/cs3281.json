@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs3281.flac",
+  "sentence": "We asked for something 辛口 and the bartender brought out a bottle with real 個性.",
+  "sample_rate": 16000,
+  "duration_ms": 5309,
+  "reference_speaker": "en/speaker_014_9db071da66e5.mp3",
+  "seed": 3323,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We asked for something",
+      "start_sample": 0,
+      "end_sample": 13287,
+      "start_ms": 0,
+      "end_ms": 830
+    },
+    {
+      "lang": "ja",
+      "text": "辛口",
+      "start_sample": 13287,
+      "end_sample": 36107,
+      "start_ms": 830,
+      "end_ms": 2257
+    },
+    {
+      "lang": "en",
+      "text": "and the bartender brought out a bottle with real",
+      "start_sample": 36107,
+      "end_sample": 78256,
+      "start_ms": 2257,
+      "end_ms": 4891
+    },
+    {
+      "lang": "ja",
+      "text": "個性.",
+      "start_sample": 78256,
+      "end_sample": 84942,
+      "start_ms": 4891,
+      "end_ms": 5309
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We asked for something karakuchi and the bartender brought out a bottle with real kosei",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4797,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We asked for something",
+          "start_sample": 0,
+          "end_sample": 13487,
+          "start_ms": 0,
+          "end_ms": 843
+        },
+        {
+          "lang": "ja",
+          "text": "辛口",
+          "start_sample": 13487,
+          "end_sample": 24245,
+          "start_ms": 843,
+          "end_ms": 1515
+        },
+        {
+          "lang": "en",
+          "text": "and the bartender brought out a bottle with real",
+          "start_sample": 24245,
+          "end_sample": 66794,
+          "start_ms": 1515,
+          "end_ms": 4175
+        },
+        {
+          "lang": "ja",
+          "text": "個性.",
+          "start_sample": 66794,
+          "end_sample": 76746,
+          "start_ms": 4175,
+          "end_ms": 4797
+        }
+      ]
+    },
+    "ja": {
+      "text": "We asked for something 辛口 and the bartender brought out a bottle with real 個性.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7206,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We asked for something",
+          "start_sample": 0,
+          "end_sample": 24982,
+          "start_ms": 0,
+          "end_ms": 1561
+        },
+        {
+          "lang": "ja",
+          "text": "辛口",
+          "start_sample": 24982,
+          "end_sample": 48202,
+          "start_ms": 1561,
+          "end_ms": 3013
+        },
+        {
+          "lang": "en",
+          "text": "and the bartender brought out a bottle with real",
+          "start_sample": 48202,
+          "end_sample": 108416,
+          "start_ms": 3013,
+          "end_ms": 6776
+        },
+        {
+          "lang": "ja",
+          "text": "個性.",
+          "start_sample": 108416,
+          "end_sample": 115302,
+          "start_ms": 6776,
+          "end_ms": 7206
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 266,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjj"
+}

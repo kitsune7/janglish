@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs2125.flac",
+  "sentence": "This 苗 needs a much 日当たり spot or it simply will not thrive.",
+  "sample_rate": 16000,
+  "duration_ms": 4805,
+  "reference_speaker": "jp/speaker_088_9d72b694e145.mp3",
+  "seed": 2167,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This",
+      "start_sample": 0,
+      "end_sample": 4292,
+      "start_ms": 0,
+      "end_ms": 268
+    },
+    {
+      "lang": "ja",
+      "text": "苗",
+      "start_sample": 4292,
+      "end_sample": 9352,
+      "start_ms": 268,
+      "end_ms": 584
+    },
+    {
+      "lang": "en",
+      "text": "needs a much",
+      "start_sample": 9352,
+      "end_sample": 21147,
+      "start_ms": 584,
+      "end_ms": 1322
+    },
+    {
+      "lang": "ja",
+      "text": "日当たり",
+      "start_sample": 21147,
+      "end_sample": 31828,
+      "start_ms": 1322,
+      "end_ms": 1989
+    },
+    {
+      "lang": "en",
+      "text": "spot or it simply will not thrive.",
+      "start_sample": 31828,
+      "end_sample": 76875,
+      "start_ms": 1989,
+      "end_ms": 4805
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This nae needs a much hiatari spot or it simply will not thrive.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5054,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This",
+          "start_sample": 0,
+          "end_sample": 4492,
+          "start_ms": 0,
+          "end_ms": 281
+        },
+        {
+          "lang": "ja",
+          "text": "苗",
+          "start_sample": 4492,
+          "end_sample": 12515,
+          "start_ms": 281,
+          "end_ms": 782
+        },
+        {
+          "lang": "en",
+          "text": "needs a much",
+          "start_sample": 12515,
+          "end_sample": 24710,
+          "start_ms": 782,
+          "end_ms": 1544
+        },
+        {
+          "lang": "ja",
+          "text": "日当たり",
+          "start_sample": 24710,
+          "end_sample": 35621,
+          "start_ms": 1544,
+          "end_ms": 2226
+        },
+        {
+          "lang": "en",
+          "text": "spot or it simply will not thrive.",
+          "start_sample": 35621,
+          "end_sample": 80868,
+          "start_ms": 2226,
+          "end_ms": 5054
+        }
+      ]
+    },
+    "ja": {
+      "text": "This 苗 needs a much 日当たり spot or it simply will not thrive.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6122,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This",
+          "start_sample": 0,
+          "end_sample": 4175,
+          "start_ms": 0,
+          "end_ms": 261
+        },
+        {
+          "lang": "ja",
+          "text": "苗",
+          "start_sample": 4175,
+          "end_sample": 9635,
+          "start_ms": 261,
+          "end_ms": 602
+        },
+        {
+          "lang": "en",
+          "text": "needs a much",
+          "start_sample": 9635,
+          "end_sample": 32921,
+          "start_ms": 602,
+          "end_ms": 2058
+        },
+        {
+          "lang": "ja",
+          "text": "日当たり",
+          "start_sample": 32921,
+          "end_sample": 44002,
+          "start_ms": 2058,
+          "end_ms": 2750
+        },
+        {
+          "lang": "en",
+          "text": "spot or it simply will not thrive.",
+          "start_sample": 44002,
+          "end_sample": 97959,
+          "start_ms": 2750,
+          "end_ms": 6122
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 241,
+  "frame_labels": "eeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

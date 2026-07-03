@@ -1,0 +1,177 @@
+{
+  "audio_path": "synthetic/cs-3/cs820.flac",
+  "sentence": "We asked for a 禁煙 room on a high floor, but the only 空き available was on the second floor near the 非常口.",
+  "sample_rate": 16000,
+  "duration_ms": 6199,
+  "reference_speaker": "jp/speaker_080_c886ae0e1a09.mp3",
+  "seed": 862,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We asked for a",
+      "start_sample": 0,
+      "end_sample": 8299,
+      "start_ms": 0,
+      "end_ms": 519
+    },
+    {
+      "lang": "ja",
+      "text": "禁煙",
+      "start_sample": 8299,
+      "end_sample": 16395,
+      "start_ms": 519,
+      "end_ms": 1025
+    },
+    {
+      "lang": "en",
+      "text": "room on a high floor, but the only",
+      "start_sample": 16395,
+      "end_sample": 48230,
+      "start_ms": 1025,
+      "end_ms": 3014
+    },
+    {
+      "lang": "ja",
+      "text": "空き",
+      "start_sample": 48230,
+      "end_sample": 53601,
+      "start_ms": 3014,
+      "end_ms": 3350
+    },
+    {
+      "lang": "en",
+      "text": "available was on the second floor near the",
+      "start_sample": 53601,
+      "end_sample": 88002,
+      "start_ms": 3350,
+      "end_ms": 5500
+    },
+    {
+      "lang": "ja",
+      "text": "非常口.",
+      "start_sample": 88002,
+      "end_sample": 99183,
+      "start_ms": 5500,
+      "end_ms": 6199
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We asked for a kin'en room on a high floor, but the only aki available was on the second floor near the hijou kuchi",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6134,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We asked for a",
+          "start_sample": 0,
+          "end_sample": 8499,
+          "start_ms": 0,
+          "end_ms": 531
+        },
+        {
+          "lang": "ja",
+          "text": "禁煙",
+          "start_sample": 8499,
+          "end_sample": 13631,
+          "start_ms": 531,
+          "end_ms": 852
+        },
+        {
+          "lang": "en",
+          "text": "room on a high floor, but the only",
+          "start_sample": 13631,
+          "end_sample": 45866,
+          "start_ms": 852,
+          "end_ms": 2867
+        },
+        {
+          "lang": "ja",
+          "text": "空き",
+          "start_sample": 45866,
+          "end_sample": 50517,
+          "start_ms": 2867,
+          "end_ms": 3157
+        },
+        {
+          "lang": "en",
+          "text": "available was on the second floor near the",
+          "start_sample": 50517,
+          "end_sample": 85318,
+          "start_ms": 3157,
+          "end_ms": 5332
+        },
+        {
+          "lang": "ja",
+          "text": "非常口.",
+          "start_sample": 85318,
+          "end_sample": 98146,
+          "start_ms": 5332,
+          "end_ms": 6134
+        }
+      ]
+    },
+    "ja": {
+      "text": "We asked for a 禁煙 room on a high floor, but the only 空き available was on the second floor near the 非常口.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8156,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We asked for a",
+          "start_sample": 0,
+          "end_sample": 17954,
+          "start_ms": 0,
+          "end_ms": 1122
+        },
+        {
+          "lang": "ja",
+          "text": "禁煙",
+          "start_sample": 17954,
+          "end_sample": 26450,
+          "start_ms": 1122,
+          "end_ms": 1653
+        },
+        {
+          "lang": "en",
+          "text": "room on a high floor, but the only",
+          "start_sample": 26450,
+          "end_sample": 66689,
+          "start_ms": 1653,
+          "end_ms": 4168
+        },
+        {
+          "lang": "ja",
+          "text": "空き",
+          "start_sample": 66689,
+          "end_sample": 72460,
+          "start_ms": 4168,
+          "end_ms": 4529
+        },
+        {
+          "lang": "en",
+          "text": "available was on the second floor near the",
+          "start_sample": 72460,
+          "end_sample": 119110,
+          "start_ms": 4529,
+          "end_ms": 7444
+        },
+        {
+          "lang": "ja",
+          "text": "非常口.",
+          "start_sample": 119110,
+          "end_sample": 130491,
+          "start_ms": 7444,
+          "end_ms": 8156
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 310,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

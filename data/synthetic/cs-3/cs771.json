@@ -1,0 +1,177 @@
+{
+  "audio_path": "synthetic/cs-3/cs771.flac",
+  "sentence": "The sudden 霧 made the 視界 so narrow that driving became genuinely 不安.",
+  "sample_rate": 16000,
+  "duration_ms": 4410,
+  "reference_speaker": "en/speaker_041_b54335ce95b5.mp3",
+  "seed": 813,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The sudden",
+      "start_sample": 0,
+      "end_sample": 7029,
+      "start_ms": 0,
+      "end_ms": 439
+    },
+    {
+      "lang": "ja",
+      "text": "霧",
+      "start_sample": 7029,
+      "end_sample": 12717,
+      "start_ms": 439,
+      "end_ms": 795
+    },
+    {
+      "lang": "en",
+      "text": "made the",
+      "start_sample": 12717,
+      "end_sample": 18904,
+      "start_ms": 795,
+      "end_ms": 1182
+    },
+    {
+      "lang": "ja",
+      "text": "視界",
+      "start_sample": 18904,
+      "end_sample": 25554,
+      "start_ms": 1182,
+      "end_ms": 1597
+    },
+    {
+      "lang": "en",
+      "text": "so narrow that driving became genuinely",
+      "start_sample": 25554,
+      "end_sample": 62745,
+      "start_ms": 1597,
+      "end_ms": 3922
+    },
+    {
+      "lang": "ja",
+      "text": "不安.",
+      "start_sample": 62745,
+      "end_sample": 70555,
+      "start_ms": 3922,
+      "end_ms": 4410
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The sudden kiri made the shikai so narrow that driving became genuinely fuan",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4779,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The sudden",
+          "start_sample": 0,
+          "end_sample": 7229,
+          "start_ms": 0,
+          "end_ms": 452
+        },
+        {
+          "lang": "ja",
+          "text": "霧",
+          "start_sample": 7229,
+          "end_sample": 13815,
+          "start_ms": 452,
+          "end_ms": 863
+        },
+        {
+          "lang": "en",
+          "text": "made the",
+          "start_sample": 13815,
+          "end_sample": 20402,
+          "start_ms": 863,
+          "end_ms": 1275
+        },
+        {
+          "lang": "ja",
+          "text": "視界",
+          "start_sample": 20402,
+          "end_sample": 28595,
+          "start_ms": 1275,
+          "end_ms": 1787
+        },
+        {
+          "lang": "en",
+          "text": "so narrow that driving became genuinely",
+          "start_sample": 28595,
+          "end_sample": 66186,
+          "start_ms": 1787,
+          "end_ms": 4137
+        },
+        {
+          "lang": "ja",
+          "text": "不安.",
+          "start_sample": 66186,
+          "end_sample": 76464,
+          "start_ms": 4137,
+          "end_ms": 4779
+        }
+      ]
+    },
+    "ja": {
+      "text": "The sudden 霧 made the 視界 so narrow that driving became genuinely 不安.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8252,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The sudden",
+          "start_sample": 0,
+          "end_sample": 12176,
+          "start_ms": 0,
+          "end_ms": 761
+        },
+        {
+          "lang": "ja",
+          "text": "霧",
+          "start_sample": 12176,
+          "end_sample": 18264,
+          "start_ms": 761,
+          "end_ms": 1142
+        },
+        {
+          "lang": "en",
+          "text": "made the",
+          "start_sample": 18264,
+          "end_sample": 37652,
+          "start_ms": 1142,
+          "end_ms": 2353
+        },
+        {
+          "lang": "ja",
+          "text": "視界",
+          "start_sample": 37652,
+          "end_sample": 44702,
+          "start_ms": 2353,
+          "end_ms": 2794
+        },
+        {
+          "lang": "en",
+          "text": "so narrow that driving became genuinely",
+          "start_sample": 44702,
+          "end_sample": 124015,
+          "start_ms": 2794,
+          "end_ms": 7751
+        },
+        {
+          "lang": "ja",
+          "text": "不安.",
+          "start_sample": 124015,
+          "end_sample": 132025,
+          "start_ms": 7751,
+          "end_ms": 8252
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 221,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjj"
+}

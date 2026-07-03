@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs5127.flac",
+  "sentence": "We stopped at the 青果 stand first and then worked our way through the rest of the 店内.",
+  "sample_rate": 16000,
+  "duration_ms": 6317,
+  "reference_speaker": "jp/speaker_018_b5ccf3bf7c65.mp3",
+  "seed": 5169,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We stopped at the",
+      "start_sample": 0,
+      "end_sample": 15668,
+      "start_ms": 0,
+      "end_ms": 979
+    },
+    {
+      "lang": "ja",
+      "text": "青果",
+      "start_sample": 15668,
+      "end_sample": 20720,
+      "start_ms": 979,
+      "end_ms": 1295
+    },
+    {
+      "lang": "en",
+      "text": "stand first and then worked our way through the rest of the",
+      "start_sample": 20720,
+      "end_sample": 91650,
+      "start_ms": 1295,
+      "end_ms": 5728
+    },
+    {
+      "lang": "ja",
+      "text": "店内.",
+      "start_sample": 91650,
+      "end_sample": 101070,
+      "start_ms": 5728,
+      "end_ms": 6317
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We stopped at the seika stand first and then worked our way through the rest of the tennai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6351,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We stopped at the",
+          "start_sample": 0,
+          "end_sample": 15868,
+          "start_ms": 0,
+          "end_ms": 992
+        },
+        {
+          "lang": "ja",
+          "text": "青果",
+          "start_sample": 15868,
+          "end_sample": 23883,
+          "start_ms": 992,
+          "end_ms": 1493
+        },
+        {
+          "lang": "en",
+          "text": "stand first and then worked our way through the rest of the",
+          "start_sample": 23883,
+          "end_sample": 95213,
+          "start_ms": 1493,
+          "end_ms": 5951
+        },
+        {
+          "lang": "ja",
+          "text": "店内.",
+          "start_sample": 95213,
+          "end_sample": 101623,
+          "start_ms": 5951,
+          "end_ms": 6351
+        }
+      ]
+    },
+    "ja": {
+      "text": "We stopped at the 青果 stand first and then worked our way through the rest of the 店内.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5312,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We stopped at the",
+          "start_sample": 0,
+          "end_sample": 18761,
+          "start_ms": 0,
+          "end_ms": 1173
+        },
+        {
+          "lang": "ja",
+          "text": "青果",
+          "start_sample": 18761,
+          "end_sample": 24213,
+          "start_ms": 1173,
+          "end_ms": 1513
+        },
+        {
+          "lang": "en",
+          "text": "stand first and then worked our way through the rest of the",
+          "start_sample": 24213,
+          "end_sample": 75364,
+          "start_ms": 1513,
+          "end_ms": 4710
+        },
+        {
+          "lang": "ja",
+          "text": "店内.",
+          "start_sample": 75364,
+          "end_sample": 84984,
+          "start_ms": 4710,
+          "end_ms": 5312
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 316,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,177 @@
+{
+  "audio_path": "synthetic/cs-3/cs1130.flac",
+  "sentence": "Are you feeling 大丈夫 after that last shot, or should we order some 水 right 今すぐ?",
+  "sample_rate": 16000,
+  "duration_ms": 7015,
+  "reference_speaker": "jp/speaker_075_35b3b5e9beb2.mp3",
+  "seed": 1172,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Are you feeling",
+      "start_sample": 0,
+      "end_sample": 14720,
+      "start_ms": 0,
+      "end_ms": 920
+    },
+    {
+      "lang": "ja",
+      "text": "大丈夫",
+      "start_sample": 14720,
+      "end_sample": 27315,
+      "start_ms": 920,
+      "end_ms": 1707
+    },
+    {
+      "lang": "en",
+      "text": "after that last shot, or should we order some",
+      "start_sample": 27315,
+      "end_sample": 86447,
+      "start_ms": 1707,
+      "end_ms": 5403
+    },
+    {
+      "lang": "ja",
+      "text": "水",
+      "start_sample": 86447,
+      "end_sample": 93587,
+      "start_ms": 5403,
+      "end_ms": 5849
+    },
+    {
+      "lang": "en",
+      "text": "right",
+      "start_sample": 93587,
+      "end_sample": 101371,
+      "start_ms": 5849,
+      "end_ms": 6336
+    },
+    {
+      "lang": "ja",
+      "text": "今すぐ?",
+      "start_sample": 101371,
+      "end_sample": 112239,
+      "start_ms": 6336,
+      "end_ms": 7015
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Are you feeling daijoubu after that last shot, or should we order some mizu right ima sugu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7301,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Are you feeling",
+          "start_sample": 0,
+          "end_sample": 14920,
+          "start_ms": 0,
+          "end_ms": 932
+        },
+        {
+          "lang": "ja",
+          "text": "大丈夫",
+          "start_sample": 14920,
+          "end_sample": 26153,
+          "start_ms": 932,
+          "end_ms": 1635
+        },
+        {
+          "lang": "en",
+          "text": "after that last shot, or should we order some",
+          "start_sample": 26153,
+          "end_sample": 85685,
+          "start_ms": 1635,
+          "end_ms": 5355
+        },
+        {
+          "lang": "ja",
+          "text": "水",
+          "start_sample": 85685,
+          "end_sample": 94831,
+          "start_ms": 5355,
+          "end_ms": 5927
+        },
+        {
+          "lang": "en",
+          "text": "right",
+          "start_sample": 94831,
+          "end_sample": 103015,
+          "start_ms": 5927,
+          "end_ms": 6438
+        },
+        {
+          "lang": "ja",
+          "text": "今すぐ?",
+          "start_sample": 103015,
+          "end_sample": 116812,
+          "start_ms": 6438,
+          "end_ms": 7301
+        }
+      ]
+    },
+    "ja": {
+      "text": "Are you feeling 大丈夫 after that last shot, or should we order some 水 right 今すぐ?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8002,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Are you feeling",
+          "start_sample": 0,
+          "end_sample": 17167,
+          "start_ms": 0,
+          "end_ms": 1073
+        },
+        {
+          "lang": "ja",
+          "text": "大丈夫",
+          "start_sample": 17167,
+          "end_sample": 30162,
+          "start_ms": 1073,
+          "end_ms": 1885
+        },
+        {
+          "lang": "en",
+          "text": "after that last shot, or should we order some",
+          "start_sample": 30162,
+          "end_sample": 101400,
+          "start_ms": 1885,
+          "end_ms": 6338
+        },
+        {
+          "lang": "ja",
+          "text": "水",
+          "start_sample": 101400,
+          "end_sample": 108940,
+          "start_ms": 6338,
+          "end_ms": 6809
+        },
+        {
+          "lang": "en",
+          "text": "right",
+          "start_sample": 108940,
+          "end_sample": 116963,
+          "start_ms": 6809,
+          "end_ms": 7310
+        },
+        {
+          "lang": "ja",
+          "text": "今すぐ?",
+          "start_sample": 116963,
+          "end_sample": 128031,
+          "start_ms": 7310,
+          "end_ms": 8002
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 351,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs2530.flac",
+  "sentence": "The recipe called for 卵黄 only, which made the pasta dough wonderfully 滑らか.",
+  "sample_rate": 16000,
+  "duration_ms": 5704,
+  "reference_speaker": "en/speaker_017_11ec372417df.mp3",
+  "seed": 2572,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The recipe called for",
+      "start_sample": 0,
+      "end_sample": 18870,
+      "start_ms": 0,
+      "end_ms": 1179
+    },
+    {
+      "lang": "ja",
+      "text": "卵黄",
+      "start_sample": 18870,
+      "end_sample": 29685,
+      "start_ms": 1179,
+      "end_ms": 1855
+    },
+    {
+      "lang": "en",
+      "text": "only, which made the pasta dough wonderfully",
+      "start_sample": 29685,
+      "end_sample": 80408,
+      "start_ms": 1855,
+      "end_ms": 5026
+    },
+    {
+      "lang": "ja",
+      "text": "滑らか.",
+      "start_sample": 80408,
+      "end_sample": 91261,
+      "start_ms": 5026,
+      "end_ms": 5704
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The recipe called for ran'ou only, which made the pasta dough wonderfully nameraka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5529,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The recipe called for",
+          "start_sample": 0,
+          "end_sample": 19070,
+          "start_ms": 0,
+          "end_ms": 1192
+        },
+        {
+          "lang": "ja",
+          "text": "卵黄",
+          "start_sample": 19070,
+          "end_sample": 25641,
+          "start_ms": 1192,
+          "end_ms": 1603
+        },
+        {
+          "lang": "en",
+          "text": "only, which made the pasta dough wonderfully",
+          "start_sample": 25641,
+          "end_sample": 76764,
+          "start_ms": 1603,
+          "end_ms": 4798
+        },
+        {
+          "lang": "ja",
+          "text": "滑らか.",
+          "start_sample": 76764,
+          "end_sample": 88461,
+          "start_ms": 4798,
+          "end_ms": 5529
+        }
+      ]
+    },
+    "ja": {
+      "text": "The recipe called for 卵黄 only, which made the pasta dough wonderfully 滑らか.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6769,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The recipe called for",
+          "start_sample": 0,
+          "end_sample": 23871,
+          "start_ms": 0,
+          "end_ms": 1492
+        },
+        {
+          "lang": "ja",
+          "text": "卵黄",
+          "start_sample": 23871,
+          "end_sample": 35086,
+          "start_ms": 1492,
+          "end_ms": 2193
+        },
+        {
+          "lang": "en",
+          "text": "only, which made the pasta dough wonderfully",
+          "start_sample": 35086,
+          "end_sample": 97251,
+          "start_ms": 2193,
+          "end_ms": 6078
+        },
+        {
+          "lang": "ja",
+          "text": "滑らか.",
+          "start_sample": 97251,
+          "end_sample": 108304,
+          "start_ms": 6078,
+          "end_ms": 6769
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 286,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

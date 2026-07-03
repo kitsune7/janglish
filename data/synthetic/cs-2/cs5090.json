@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs5090.flac",
+  "sentence": "I asked for a 返金 but the clerk gave me store credit instead, which felt 不満.",
+  "sample_rate": 16000,
+  "duration_ms": 4268,
+  "reference_speaker": "jp/speaker_035_dd783030d2b8.mp3",
+  "seed": 5132,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I asked for a",
+      "start_sample": 0,
+      "end_sample": 8145,
+      "start_ms": 0,
+      "end_ms": 509
+    },
+    {
+      "lang": "ja",
+      "text": "返金",
+      "start_sample": 8145,
+      "end_sample": 15602,
+      "start_ms": 509,
+      "end_ms": 975
+    },
+    {
+      "lang": "en",
+      "text": "but the clerk gave me store credit instead, which felt",
+      "start_sample": 15602,
+      "end_sample": 62241,
+      "start_ms": 975,
+      "end_ms": 3890
+    },
+    {
+      "lang": "ja",
+      "text": "不満.",
+      "start_sample": 62241,
+      "end_sample": 68293,
+      "start_ms": 3890,
+      "end_ms": 4268
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I asked for a henkin but the clerk gave me store credit instead, which felt fuman",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4575,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I asked for a",
+          "start_sample": 0,
+          "end_sample": 8345,
+          "start_ms": 0,
+          "end_ms": 522
+        },
+        {
+          "lang": "ja",
+          "text": "返金",
+          "start_sample": 8345,
+          "end_sample": 18940,
+          "start_ms": 522,
+          "end_ms": 1184
+        },
+        {
+          "lang": "en",
+          "text": "but the clerk gave me store credit instead, which felt",
+          "start_sample": 18940,
+          "end_sample": 65979,
+          "start_ms": 1184,
+          "end_ms": 4124
+        },
+        {
+          "lang": "ja",
+          "text": "不満.",
+          "start_sample": 65979,
+          "end_sample": 73201,
+          "start_ms": 4124,
+          "end_ms": 4575
+        }
+      ]
+    },
+    "ja": {
+      "text": "I asked for a 返金 but the clerk gave me store credit instead, which felt 不満.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5312,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I asked for a",
+          "start_sample": 0,
+          "end_sample": 9460,
+          "start_ms": 0,
+          "end_ms": 591
+        },
+        {
+          "lang": "ja",
+          "text": "返金",
+          "start_sample": 9460,
+          "end_sample": 17317,
+          "start_ms": 591,
+          "end_ms": 1082
+        },
+        {
+          "lang": "en",
+          "text": "but the clerk gave me store credit instead, which felt",
+          "start_sample": 17317,
+          "end_sample": 78732,
+          "start_ms": 1082,
+          "end_ms": 4921
+        },
+        {
+          "lang": "ja",
+          "text": "不満.",
+          "start_sample": 78732,
+          "end_sample": 84984,
+          "start_ms": 4921,
+          "end_ms": 5312
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 214,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs3928.flac",
+  "sentence": "The kitchen's 換気扇 is so loud that we have to raise our voices — it kills any 会話.",
+  "sample_rate": 16000,
+  "duration_ms": 7117,
+  "reference_speaker": "en/speaker_034_add467545a59.mp3",
+  "seed": 3970,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The kitchen's",
+      "start_sample": 0,
+      "end_sample": 12140,
+      "start_ms": 0,
+      "end_ms": 759
+    },
+    {
+      "lang": "ja",
+      "text": "換気扇",
+      "start_sample": 12140,
+      "end_sample": 23439,
+      "start_ms": 759,
+      "end_ms": 1465
+    },
+    {
+      "lang": "en",
+      "text": "is so loud that we have to raise our voices — it kills any",
+      "start_sample": 23439,
+      "end_sample": 106540,
+      "start_ms": 1465,
+      "end_ms": 6659
+    },
+    {
+      "lang": "ja",
+      "text": "会話.",
+      "start_sample": 106540,
+      "end_sample": 113871,
+      "start_ms": 6659,
+      "end_ms": 7117
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kitchen's kanki ougi is so loud that we have to raise our voices — it kills any kaiwa",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7633,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The kitchen's",
+          "start_sample": 0,
+          "end_sample": 12340,
+          "start_ms": 0,
+          "end_ms": 771
+        },
+        {
+          "lang": "ja",
+          "text": "換気扇",
+          "start_sample": 12340,
+          "end_sample": 29489,
+          "start_ms": 771,
+          "end_ms": 1843
+        },
+        {
+          "lang": "en",
+          "text": "is so loud that we have to raise our voices — it kills any",
+          "start_sample": 29489,
+          "end_sample": 112990,
+          "start_ms": 1843,
+          "end_ms": 7062
+        },
+        {
+          "lang": "ja",
+          "text": "会話.",
+          "start_sample": 112990,
+          "end_sample": 122124,
+          "start_ms": 7062,
+          "end_ms": 7633
+        }
+      ]
+    },
+    "ja": {
+      "text": "The kitchen's 換気扇 is so loud that we have to raise our voices — it kills any 会話.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7132,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The kitchen's",
+          "start_sample": 0,
+          "end_sample": 16346,
+          "start_ms": 0,
+          "end_ms": 1022
+        },
+        {
+          "lang": "ja",
+          "text": "換気扇",
+          "start_sample": 16346,
+          "end_sample": 28045,
+          "start_ms": 1022,
+          "end_ms": 1753
+        },
+        {
+          "lang": "en",
+          "text": "is so loud that we have to raise our voices — it kills any",
+          "start_sample": 28045,
+          "end_sample": 106578,
+          "start_ms": 1753,
+          "end_ms": 6661
+        },
+        {
+          "lang": "ja",
+          "text": "会話.",
+          "start_sample": 106578,
+          "end_sample": 114109,
+          "start_ms": 6661,
+          "end_ms": 7132
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 356,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjj"
+}

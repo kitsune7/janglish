@@ -1,0 +1,177 @@
+{
+  "audio_path": "synthetic/cs-3/cs4370.flac",
+  "sentence": "gas stationのself-serviceレーンは混んでいたが、full-serviceは空いていた。",
+  "sample_rate": 16000,
+  "duration_ms": 4686,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 4412,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "gas station",
+      "start_sample": 0,
+      "end_sample": 11018,
+      "start_ms": 0,
+      "end_ms": 689
+    },
+    {
+      "lang": "ja",
+      "text": "の",
+      "start_sample": 11018,
+      "end_sample": 12865,
+      "start_ms": 689,
+      "end_ms": 804
+    },
+    {
+      "lang": "en",
+      "text": "self-service",
+      "start_sample": 12865,
+      "end_sample": 27050,
+      "start_ms": 804,
+      "end_ms": 1691
+    },
+    {
+      "lang": "ja",
+      "text": "レーンは混んでいたが、",
+      "start_sample": 27050,
+      "end_sample": 46075,
+      "start_ms": 1691,
+      "end_ms": 2880
+    },
+    {
+      "lang": "en",
+      "text": "full-service",
+      "start_sample": 46075,
+      "end_sample": 63465,
+      "start_ms": 2880,
+      "end_ms": 3967
+    },
+    {
+      "lang": "ja",
+      "text": "は空いていた。",
+      "start_sample": 63465,
+      "end_sample": 74982,
+      "start_ms": 3967,
+      "end_ms": 4686
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "gas station no self-service reen ha kon de i ta ga full-service ha ai te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7693,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "gas station",
+          "start_sample": 0,
+          "end_sample": 11218,
+          "start_ms": 0,
+          "end_ms": 701
+        },
+        {
+          "lang": "ja",
+          "text": "の",
+          "start_sample": 11218,
+          "end_sample": 13782,
+          "start_ms": 701,
+          "end_ms": 861
+        },
+        {
+          "lang": "en",
+          "text": "self-service",
+          "start_sample": 13782,
+          "end_sample": 28367,
+          "start_ms": 861,
+          "end_ms": 1773
+        },
+        {
+          "lang": "ja",
+          "text": "レーンは混んでいたが、",
+          "start_sample": 28367,
+          "end_sample": 89590,
+          "start_ms": 1773,
+          "end_ms": 5599
+        },
+        {
+          "lang": "en",
+          "text": "full-service",
+          "start_sample": 89590,
+          "end_sample": 107380,
+          "start_ms": 5599,
+          "end_ms": 6711
+        },
+        {
+          "lang": "ja",
+          "text": "は空いていた。",
+          "start_sample": 107380,
+          "end_sample": 123085,
+          "start_ms": 6711,
+          "end_ms": 7693
+        }
+      ]
+    },
+    "ja": {
+      "text": "gas stationのself-serviceレーンは混んでいたが、full-serviceは空いていた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4615,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "gas station",
+          "start_sample": 0,
+          "end_sample": 12361,
+          "start_ms": 0,
+          "end_ms": 773
+        },
+        {
+          "lang": "ja",
+          "text": "の",
+          "start_sample": 12361,
+          "end_sample": 14608,
+          "start_ms": 773,
+          "end_ms": 913
+        },
+        {
+          "lang": "en",
+          "text": "self-service",
+          "start_sample": 14608,
+          "end_sample": 27934,
+          "start_ms": 913,
+          "end_ms": 1746
+        },
+        {
+          "lang": "ja",
+          "text": "レーンは混んでいたが、",
+          "start_sample": 27934,
+          "end_sample": 47359,
+          "start_ms": 1746,
+          "end_ms": 2960
+        },
+        {
+          "lang": "en",
+          "text": "full-service",
+          "start_sample": 47359,
+          "end_sample": 62129,
+          "start_ms": 2960,
+          "end_ms": 3883
+        },
+        {
+          "lang": "ja",
+          "text": "は空いていた。",
+          "start_sample": 62129,
+          "end_sample": 73846,
+          "start_ms": 3883,
+          "end_ms": 4615
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 235,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

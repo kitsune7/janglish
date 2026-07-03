@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs7044.flac",
+  "sentence": "dustpanとbroomをセットで買ったら、掃除がずいぶん楽になった。",
+  "sample_rate": 16000,
+  "duration_ms": 4686,
+  "reference_speaker": "jp/speaker_066_d870c5c7ad93.mp3",
+  "seed": 7086,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "dustpan",
+      "start_sample": 0,
+      "end_sample": 7814,
+      "start_ms": 0,
+      "end_ms": 488
+    },
+    {
+      "lang": "ja",
+      "text": "と",
+      "start_sample": 7814,
+      "end_sample": 9989,
+      "start_ms": 488,
+      "end_ms": 624
+    },
+    {
+      "lang": "en",
+      "text": "broom",
+      "start_sample": 9989,
+      "end_sample": 26581,
+      "start_ms": 624,
+      "end_ms": 1661
+    },
+    {
+      "lang": "ja",
+      "text": "をセットで買ったら、掃除がずいぶん楽になった。",
+      "start_sample": 26581,
+      "end_sample": 74972,
+      "start_ms": 1661,
+      "end_ms": 4686
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "dustpan to broom wo setto de katsu tara souji ga zuibun raku ni natsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10540,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "dustpan",
+          "start_sample": 0,
+          "end_sample": 8014,
+          "start_ms": 0,
+          "end_ms": 501
+        },
+        {
+          "lang": "ja",
+          "text": "と",
+          "start_sample": 8014,
+          "end_sample": 11060,
+          "start_ms": 501,
+          "end_ms": 691
+        },
+        {
+          "lang": "en",
+          "text": "broom",
+          "start_sample": 11060,
+          "end_sample": 28052,
+          "start_ms": 691,
+          "end_ms": 1753
+        },
+        {
+          "lang": "ja",
+          "text": "をセットで買ったら、掃除がずいぶん楽になった。",
+          "start_sample": 28052,
+          "end_sample": 168632,
+          "start_ms": 1753,
+          "end_ms": 10540
+        }
+      ]
+    },
+    "ja": {
+      "text": "dustpanとbroomをセットで買ったら、掃除がずいぶん楽になった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4143,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "dustpan",
+          "start_sample": 0,
+          "end_sample": 9166,
+          "start_ms": 0,
+          "end_ms": 573
+        },
+        {
+          "lang": "ja",
+          "text": "と",
+          "start_sample": 9166,
+          "end_sample": 11741,
+          "start_ms": 573,
+          "end_ms": 734
+        },
+        {
+          "lang": "en",
+          "text": "broom",
+          "start_sample": 11741,
+          "end_sample": 17695,
+          "start_ms": 734,
+          "end_ms": 1106
+        },
+        {
+          "lang": "ja",
+          "text": "をセットで買ったら、掃除がずいぶん楽になった。",
+          "start_sample": 17695,
+          "end_sample": 66286,
+          "start_ms": 1106,
+          "end_ms": 4143
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 235,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeejjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

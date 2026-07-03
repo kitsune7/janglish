@@ -1,0 +1,177 @@
+{
+  "audio_path": "synthetic/cs-3/cs1115.flac",
+  "sentence": "She ordered something 甘口 because the last 辛口 cocktail left her completely 無言.",
+  "sample_rate": 16000,
+  "duration_ms": 5333,
+  "reference_speaker": "jp/speaker_083_f660ed2250be.mp3",
+  "seed": 1157,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She ordered something",
+      "start_sample": 0,
+      "end_sample": 15974,
+      "start_ms": 0,
+      "end_ms": 998
+    },
+    {
+      "lang": "ja",
+      "text": "甘口",
+      "start_sample": 15974,
+      "end_sample": 24883,
+      "start_ms": 998,
+      "end_ms": 1555
+    },
+    {
+      "lang": "en",
+      "text": "because the last",
+      "start_sample": 24883,
+      "end_sample": 48506,
+      "start_ms": 1555,
+      "end_ms": 3032
+    },
+    {
+      "lang": "ja",
+      "text": "辛口",
+      "start_sample": 48506,
+      "end_sample": 54847,
+      "start_ms": 3032,
+      "end_ms": 3428
+    },
+    {
+      "lang": "en",
+      "text": "cocktail left her completely",
+      "start_sample": 54847,
+      "end_sample": 79271,
+      "start_ms": 3428,
+      "end_ms": 4954
+    },
+    {
+      "lang": "ja",
+      "text": "無言.",
+      "start_sample": 79271,
+      "end_sample": 85327,
+      "start_ms": 4954,
+      "end_ms": 5333
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She ordered something amakuchi because the last karakuchi cocktail left her completely mugon",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6666,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She ordered something",
+          "start_sample": 0,
+          "end_sample": 16174,
+          "start_ms": 0,
+          "end_ms": 1011
+        },
+        {
+          "lang": "ja",
+          "text": "甘口",
+          "start_sample": 16174,
+          "end_sample": 38116,
+          "start_ms": 1011,
+          "end_ms": 2382
+        },
+        {
+          "lang": "en",
+          "text": "because the last",
+          "start_sample": 38116,
+          "end_sample": 62139,
+          "start_ms": 2382,
+          "end_ms": 3884
+        },
+        {
+          "lang": "ja",
+          "text": "辛口",
+          "start_sample": 62139,
+          "end_sample": 73030,
+          "start_ms": 3884,
+          "end_ms": 4564
+        },
+        {
+          "lang": "en",
+          "text": "cocktail left her completely",
+          "start_sample": 73030,
+          "end_sample": 97854,
+          "start_ms": 4564,
+          "end_ms": 6116
+        },
+        {
+          "lang": "ja",
+          "text": "無言.",
+          "start_sample": 97854,
+          "end_sample": 106662,
+          "start_ms": 6116,
+          "end_ms": 6666
+        }
+      ]
+    },
+    "ja": {
+      "text": "She ordered something 甘口 because the last 辛口 cocktail left her completely 無言.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5938,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She ordered something",
+          "start_sample": 0,
+          "end_sample": 20057,
+          "start_ms": 0,
+          "end_ms": 1254
+        },
+        {
+          "lang": "ja",
+          "text": "甘口",
+          "start_sample": 20057,
+          "end_sample": 29366,
+          "start_ms": 1254,
+          "end_ms": 1835
+        },
+        {
+          "lang": "en",
+          "text": "because the last",
+          "start_sample": 29366,
+          "end_sample": 46216,
+          "start_ms": 1835,
+          "end_ms": 2888
+        },
+        {
+          "lang": "ja",
+          "text": "辛口",
+          "start_sample": 46216,
+          "end_sample": 52957,
+          "start_ms": 2888,
+          "end_ms": 3310
+        },
+        {
+          "lang": "en",
+          "text": "cocktail left her completely",
+          "start_sample": 52957,
+          "end_sample": 88744,
+          "start_ms": 3310,
+          "end_ms": 5546
+        },
+        {
+          "lang": "ja",
+          "text": "無言.",
+          "start_sample": 88744,
+          "end_sample": 95000,
+          "start_ms": 5546,
+          "end_ms": 5938
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 267,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjj"
+}

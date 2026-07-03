@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs3075.flac",
+  "sentence": "The call dropped right in the middle of her 説明, leaving everyone in 混乱.",
+  "sample_rate": 16000,
+  "duration_ms": 4336,
+  "reference_speaker": "jp/speaker_045_fda9acd0702e.mp3",
+  "seed": 3117,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The call dropped right in the middle of her",
+      "start_sample": 0,
+      "end_sample": 29821,
+      "start_ms": 0,
+      "end_ms": 1864
+    },
+    {
+      "lang": "ja",
+      "text": "説明,",
+      "start_sample": 29821,
+      "end_sample": 41591,
+      "start_ms": 1864,
+      "end_ms": 2599
+    },
+    {
+      "lang": "en",
+      "text": "leaving everyone in",
+      "start_sample": 41591,
+      "end_sample": 59974,
+      "start_ms": 2599,
+      "end_ms": 3748
+    },
+    {
+      "lang": "ja",
+      "text": "混乱.",
+      "start_sample": 59974,
+      "end_sample": 69382,
+      "start_ms": 3748,
+      "end_ms": 4336
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The call dropped right in the middle of her setsumei leaving everyone in konran",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4535,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The call dropped right in the middle of her",
+          "start_sample": 0,
+          "end_sample": 30021,
+          "start_ms": 0,
+          "end_ms": 1876
+        },
+        {
+          "lang": "ja",
+          "text": "説明,",
+          "start_sample": 30021,
+          "end_sample": 43988,
+          "start_ms": 1876,
+          "end_ms": 2749
+        },
+        {
+          "lang": "en",
+          "text": "leaving everyone in",
+          "start_sample": 43988,
+          "end_sample": 62771,
+          "start_ms": 2749,
+          "end_ms": 3923
+        },
+        {
+          "lang": "ja",
+          "text": "混乱.",
+          "start_sample": 62771,
+          "end_sample": 72561,
+          "start_ms": 3923,
+          "end_ms": 4535
+        }
+      ]
+    },
+    "ja": {
+      "text": "The call dropped right in the middle of her 説明, leaving everyone in 混乱.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5785,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The call dropped right in the middle of her",
+          "start_sample": 0,
+          "end_sample": 44358,
+          "start_ms": 0,
+          "end_ms": 2772
+        },
+        {
+          "lang": "ja",
+          "text": "説明,",
+          "start_sample": 44358,
+          "end_sample": 56528,
+          "start_ms": 2772,
+          "end_ms": 3533
+        },
+        {
+          "lang": "en",
+          "text": "leaving everyone in",
+          "start_sample": 56528,
+          "end_sample": 82951,
+          "start_ms": 3533,
+          "end_ms": 5184
+        },
+        {
+          "lang": "ja",
+          "text": "混乱.",
+          "start_sample": 82951,
+          "end_sample": 92559,
+          "start_ms": 5184,
+          "end_ms": 5785
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 217,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

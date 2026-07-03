@@ -2,9 +2,9 @@
   "audio_path": "synthetic/cs-2/cs888.flac",
   "sentence": "The 梅雨 season makes every morning feel so 湿気っぽい outside.",
   "sample_rate": 16000,
-  "duration_ms": 5098,
-  "reference_speaker": "en/speaker_086_0a418a567872.mp3",
-  "seed": 17743,
+  "duration_ms": 4235,
+  "reference_speaker": "jp/speaker_065_12fed3376ff0.mp3",
+  "seed": 930,
   "tts_language": "stitched",
   "alignment": "forced-dual",
   "spans": [
@@ -12,41 +12,41 @@
       "lang": "en",
       "text": "The",
       "start_sample": 0,
-      "end_sample": 1401,
+      "end_sample": 1405,
       "start_ms": 0,
       "end_ms": 88
     },
     {
       "lang": "ja",
       "text": "梅雨",
-      "start_sample": 1401,
-      "end_sample": 9665,
+      "start_sample": 1405,
+      "end_sample": 5982,
       "start_ms": 88,
-      "end_ms": 604
+      "end_ms": 374
     },
     {
       "lang": "en",
       "text": "season makes every morning feel so",
-      "start_sample": 9665,
-      "end_sample": 56831,
-      "start_ms": 604,
-      "end_ms": 3552
+      "start_sample": 5982,
+      "end_sample": 37861,
+      "start_ms": 374,
+      "end_ms": 2366
     },
     {
       "lang": "ja",
       "text": "湿気っぽい",
-      "start_sample": 56831,
-      "end_sample": 71511,
-      "start_ms": 3552,
-      "end_ms": 4469
+      "start_sample": 37861,
+      "end_sample": 56887,
+      "start_ms": 2366,
+      "end_ms": 3555
     },
     {
       "lang": "en",
       "text": "outside.",
-      "start_sample": 71511,
-      "end_sample": 81560,
-      "start_ms": 4469,
-      "end_ms": 5098
+      "start_sample": 56887,
+      "end_sample": 67765,
+      "start_ms": 3555,
+      "end_ms": 4235
     }
   ],
   "renders": {
@@ -54,47 +54,47 @@
       "text": "The tsuyu season makes every morning feel so shikke ppoi outside.",
       "tts_language": "en",
       "alignment": "forced",
-      "duration_ms": 5445,
+      "duration_ms": 3995,
       "spans": [
         {
           "lang": "en",
           "text": "The",
           "start_sample": 0,
-          "end_sample": 1601,
+          "end_sample": 1605,
           "start_ms": 0,
           "end_ms": 100
         },
         {
           "lang": "ja",
           "text": "梅雨",
-          "start_sample": 1601,
-          "end_sample": 7206,
+          "start_sample": 1605,
+          "end_sample": 7869,
           "start_ms": 100,
-          "end_ms": 450
+          "end_ms": 492
         },
         {
           "lang": "en",
           "text": "season makes every morning feel so",
-          "start_sample": 7206,
-          "end_sample": 54772,
-          "start_ms": 450,
-          "end_ms": 3423
+          "start_sample": 7869,
+          "end_sample": 40148,
+          "start_ms": 492,
+          "end_ms": 2509
         },
         {
           "lang": "ja",
           "text": "湿気っぽい",
-          "start_sample": 54772,
-          "end_sample": 76873,
-          "start_ms": 3423,
-          "end_ms": 4805
+          "start_sample": 40148,
+          "end_sample": 52835,
+          "start_ms": 2509,
+          "end_ms": 3302
         },
         {
           "lang": "en",
           "text": "outside.",
-          "start_sample": 76873,
-          "end_sample": 87122,
-          "start_ms": 4805,
-          "end_ms": 5445
+          "start_sample": 52835,
+          "end_sample": 63913,
+          "start_ms": 3302,
+          "end_ms": 3995
         }
       ]
     },
@@ -102,52 +102,52 @@
       "text": "The 梅雨 season makes every morning feel so 湿気っぽい outside.",
       "tts_language": "ja",
       "alignment": "forced",
-      "duration_ms": 5494,
+      "duration_ms": 5599,
       "spans": [
         {
           "lang": "en",
           "text": "The",
           "start_sample": 0,
-          "end_sample": 3687,
+          "end_sample": 1926,
           "start_ms": 0,
-          "end_ms": 230
+          "end_ms": 120
         },
         {
           "lang": "ja",
           "text": "梅雨",
-          "start_sample": 3687,
-          "end_sample": 12351,
-          "start_ms": 230,
-          "end_ms": 772
+          "start_sample": 1926,
+          "end_sample": 6903,
+          "start_ms": 120,
+          "end_ms": 431
         },
         {
           "lang": "en",
           "text": "season makes every morning feel so",
-          "start_sample": 12351,
-          "end_sample": 61601,
-          "start_ms": 772,
-          "end_ms": 3850
+          "start_sample": 6903,
+          "end_sample": 59562,
+          "start_ms": 431,
+          "end_ms": 3723
         },
         {
           "lang": "ja",
           "text": "湿気っぽい",
-          "start_sample": 61601,
-          "end_sample": 76681,
-          "start_ms": 3850,
-          "end_ms": 4793
+          "start_sample": 59562,
+          "end_sample": 78988,
+          "start_ms": 3723,
+          "end_ms": 4937
         },
         {
           "lang": "en",
           "text": "outside.",
-          "start_sample": 76681,
-          "end_sample": 87909,
-          "start_ms": 4793,
-          "end_ms": 5494
+          "start_sample": 78988,
+          "end_sample": 89581,
+          "start_ms": 4937,
+          "end_ms": 5599
         }
       ]
     }
   },
   "frame_rate_hz": 50,
-  "num_frames": 255,
-  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 212,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

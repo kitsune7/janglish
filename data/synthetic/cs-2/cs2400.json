@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/cs2400.flac",
+  "sentence": "The boutique had a strong 世界観 that made even the plain cotton tees feel 贅沢.",
+  "sample_rate": 16000,
+  "duration_ms": 7288,
+  "reference_speaker": "jp/speaker_014_9e367176533e.mp3",
+  "seed": 2442,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The boutique had a strong",
+      "start_sample": 0,
+      "end_sample": 21603,
+      "start_ms": 0,
+      "end_ms": 1350
+    },
+    {
+      "lang": "ja",
+      "text": "世界観",
+      "start_sample": 21603,
+      "end_sample": 34657,
+      "start_ms": 1350,
+      "end_ms": 2166
+    },
+    {
+      "lang": "en",
+      "text": "that made even the plain cotton tees feel",
+      "start_sample": 34657,
+      "end_sample": 106883,
+      "start_ms": 2166,
+      "end_ms": 6680
+    },
+    {
+      "lang": "ja",
+      "text": "贅沢.",
+      "start_sample": 106883,
+      "end_sample": 116612,
+      "start_ms": 6680,
+      "end_ms": 7288
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The boutique had a strong sekai kan that made even the plain cotton tees feel zeitaku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7635,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The boutique had a strong",
+          "start_sample": 0,
+          "end_sample": 21803,
+          "start_ms": 0,
+          "end_ms": 1363
+        },
+        {
+          "lang": "ja",
+          "text": "世界観",
+          "start_sample": 21803,
+          "end_sample": 38958,
+          "start_ms": 1363,
+          "end_ms": 2435
+        },
+        {
+          "lang": "en",
+          "text": "that made even the plain cotton tees feel",
+          "start_sample": 38958,
+          "end_sample": 111584,
+          "start_ms": 2435,
+          "end_ms": 6974
+        },
+        {
+          "lang": "ja",
+          "text": "贅沢.",
+          "start_sample": 111584,
+          "end_sample": 122164,
+          "start_ms": 6974,
+          "end_ms": 7635
+        }
+      ]
+    },
+    "ja": {
+      "text": "The boutique had a strong 世界観 that made even the plain cotton tees feel 贅沢.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7307,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The boutique had a strong",
+          "start_sample": 0,
+          "end_sample": 30430,
+          "start_ms": 0,
+          "end_ms": 1902
+        },
+        {
+          "lang": "ja",
+          "text": "世界観",
+          "start_sample": 30430,
+          "end_sample": 43884,
+          "start_ms": 1902,
+          "end_ms": 2743
+        },
+        {
+          "lang": "en",
+          "text": "that made even the plain cotton tees feel",
+          "start_sample": 43884,
+          "end_sample": 106990,
+          "start_ms": 2743,
+          "end_ms": 6687
+        },
+        {
+          "lang": "ja",
+          "text": "贅沢.",
+          "start_sample": 106990,
+          "end_sample": 116919,
+          "start_ms": 6687,
+          "end_ms": 7307
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 365,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

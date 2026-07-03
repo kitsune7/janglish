@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/cs5246.flac",
+  "sentence": "She spent the whole afternoon in 勉強 mode, barely taking a 休憩 between chapters.",
+  "sample_rate": 16000,
+  "duration_ms": 4926,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 5288,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She spent the whole afternoon in",
+      "start_sample": 0,
+      "end_sample": 23020,
+      "start_ms": 0,
+      "end_ms": 1439
+    },
+    {
+      "lang": "ja",
+      "text": "勉強",
+      "start_sample": 23020,
+      "end_sample": 28880,
+      "start_ms": 1439,
+      "end_ms": 1805
+    },
+    {
+      "lang": "en",
+      "text": "mode, barely taking a",
+      "start_sample": 28880,
+      "end_sample": 51701,
+      "start_ms": 1805,
+      "end_ms": 3231
+    },
+    {
+      "lang": "ja",
+      "text": "休憩",
+      "start_sample": 51701,
+      "end_sample": 56438,
+      "start_ms": 3231,
+      "end_ms": 3527
+    },
+    {
+      "lang": "en",
+      "text": "between chapters.",
+      "start_sample": 56438,
+      "end_sample": 78818,
+      "start_ms": 3527,
+      "end_ms": 4926
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She spent the whole afternoon in benkyou mode, barely taking a kyuukei between chapters.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5685,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She spent the whole afternoon in",
+          "start_sample": 0,
+          "end_sample": 23220,
+          "start_ms": 0,
+          "end_ms": 1451
+        },
+        {
+          "lang": "ja",
+          "text": "勉強",
+          "start_sample": 23220,
+          "end_sample": 29466,
+          "start_ms": 1451,
+          "end_ms": 1842
+        },
+        {
+          "lang": "en",
+          "text": "mode, barely taking a",
+          "start_sample": 29466,
+          "end_sample": 52687,
+          "start_ms": 1842,
+          "end_ms": 3293
+        },
+        {
+          "lang": "ja",
+          "text": "休憩",
+          "start_sample": 52687,
+          "end_sample": 68381,
+          "start_ms": 3293,
+          "end_ms": 4274
+        },
+        {
+          "lang": "en",
+          "text": "between chapters.",
+          "start_sample": 68381,
+          "end_sample": 90961,
+          "start_ms": 4274,
+          "end_ms": 5685
+        }
+      ]
+    },
+    "ja": {
+      "text": "She spent the whole afternoon in 勉強 mode, barely taking a 休憩 between chapters.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4816,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She spent the whole afternoon in",
+          "start_sample": 0,
+          "end_sample": 25684,
+          "start_ms": 0,
+          "end_ms": 1605
+        },
+        {
+          "lang": "ja",
+          "text": "勉強",
+          "start_sample": 25684,
+          "end_sample": 31944,
+          "start_ms": 1605,
+          "end_ms": 1996
+        },
+        {
+          "lang": "en",
+          "text": "mode, barely taking a",
+          "start_sample": 31944,
+          "end_sample": 54739,
+          "start_ms": 1996,
+          "end_ms": 3421
+        },
+        {
+          "lang": "ja",
+          "text": "休憩",
+          "start_sample": 54739,
+          "end_sample": 59876,
+          "start_ms": 3421,
+          "end_ms": 3742
+        },
+        {
+          "lang": "en",
+          "text": "between chapters.",
+          "start_sample": 59876,
+          "end_sample": 77050,
+          "start_ms": 3742,
+          "end_ms": 4816
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 247,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}
