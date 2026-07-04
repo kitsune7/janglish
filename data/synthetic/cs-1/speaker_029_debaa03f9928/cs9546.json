@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_029_debaa03f9928/cs9546.flac",
+  "sentence": "The hotel sent a 確認 email immediately after I changed the reservation dates.",
+  "sample_rate": 16000,
+  "duration_ms": 4870,
+  "reference_speaker": "jp/speaker_029_debaa03f9928.mp3",
+  "seed": 9588,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The hotel sent a",
+      "start_sample": 0,
+      "end_sample": 19682,
+      "start_ms": 0,
+      "end_ms": 1230
+    },
+    {
+      "lang": "ja",
+      "text": "確認",
+      "start_sample": 19682,
+      "end_sample": 27291,
+      "start_ms": 1230,
+      "end_ms": 1706
+    },
+    {
+      "lang": "en",
+      "text": "email immediately after I changed the reservation dates.",
+      "start_sample": 27291,
+      "end_sample": 77920,
+      "start_ms": 1706,
+      "end_ms": 4870
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hotel sent a kakunin email immediately after I changed the reservation dates.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4870,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hotel sent a",
+          "start_sample": 0,
+          "end_sample": 19882,
+          "start_ms": 0,
+          "end_ms": 1243
+        },
+        {
+          "lang": "ja",
+          "text": "確認",
+          "start_sample": 19882,
+          "end_sample": 27098,
+          "start_ms": 1243,
+          "end_ms": 1694
+        },
+        {
+          "lang": "en",
+          "text": "email immediately after I changed the reservation dates.",
+          "start_sample": 27098,
+          "end_sample": 77927,
+          "start_ms": 1694,
+          "end_ms": 4870
+        }
+      ]
+    },
+    "ja": {
+      "text": "The hotel sent a 確認 email immediately after I changed the reservation dates.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5826,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hotel sent a",
+          "start_sample": 0,
+          "end_sample": 17137,
+          "start_ms": 0,
+          "end_ms": 1071
+        },
+        {
+          "lang": "ja",
+          "text": "確認",
+          "start_sample": 17137,
+          "end_sample": 25146,
+          "start_ms": 1071,
+          "end_ms": 1572
+        },
+        {
+          "lang": "en",
+          "text": "email immediately after I changed the reservation dates.",
+          "start_sample": 25146,
+          "end_sample": 93219,
+          "start_ms": 1572,
+          "end_ms": 5826
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 244,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

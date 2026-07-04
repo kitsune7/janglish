@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_049_4b799abf92c3/cs1716.flac",
+  "sentence": "高速道路でmergeするとき、もっと注意してください。",
+  "sample_rate": 16000,
+  "duration_ms": 4175,
+  "reference_speaker": "en/speaker_049_4b799abf92c3.mp3",
+  "seed": 1758,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "高速道路で",
+      "start_sample": 0,
+      "end_sample": 14746,
+      "start_ms": 0,
+      "end_ms": 922
+    },
+    {
+      "lang": "en",
+      "text": "merge",
+      "start_sample": 14746,
+      "end_sample": 32447,
+      "start_ms": 922,
+      "end_ms": 2028
+    },
+    {
+      "lang": "ja",
+      "text": "するとき、もっと注意してください。",
+      "start_sample": 32447,
+      "end_sample": 66806,
+      "start_ms": 2028,
+      "end_ms": 4175
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kousoku douro de merge suru toki motto chuui shi te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6848,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "高速道路で",
+          "start_sample": 0,
+          "end_sample": 17940,
+          "start_ms": 0,
+          "end_ms": 1121
+        },
+        {
+          "lang": "en",
+          "text": "merge",
+          "start_sample": 17940,
+          "end_sample": 36041,
+          "start_ms": 1121,
+          "end_ms": 2253
+        },
+        {
+          "lang": "ja",
+          "text": "するとき、もっと注意してください。",
+          "start_sample": 36041,
+          "end_sample": 109563,
+          "start_ms": 2253,
+          "end_ms": 6848
+        }
+      ]
+    },
+    "ja": {
+      "text": "高速道路でmergeするとき、もっと注意してください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3456,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "高速道路で",
+          "start_sample": 0,
+          "end_sample": 14946,
+          "start_ms": 0,
+          "end_ms": 934
+        },
+        {
+          "lang": "en",
+          "text": "merge",
+          "start_sample": 14946,
+          "end_sample": 20733,
+          "start_ms": 934,
+          "end_ms": 1296
+        },
+        {
+          "lang": "ja",
+          "text": "するとき、もっと注意してください。",
+          "start_sample": 20733,
+          "end_sample": 55292,
+          "start_ms": 1296,
+          "end_ms": 3456
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 209,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

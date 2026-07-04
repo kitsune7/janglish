@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_089_6207739e2e58/cs5790.flac",
+  "sentence": "The 風 this afternoon is strong enough to knock over the young plants.",
+  "sample_rate": 16000,
+  "duration_ms": 3822,
+  "reference_speaker": "jp/speaker_089_6207739e2e58.mp3",
+  "seed": 5832,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1405,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "風",
+      "start_sample": 1405,
+      "end_sample": 5334,
+      "start_ms": 88,
+      "end_ms": 333
+    },
+    {
+      "lang": "en",
+      "text": "this afternoon is strong enough to knock over the young plants.",
+      "start_sample": 5334,
+      "end_sample": 61160,
+      "start_ms": 333,
+      "end_ms": 3822
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kaze this afternoon is strong enough to knock over the young plants.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4676,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1605,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "風",
+          "start_sample": 1605,
+          "end_sample": 18783,
+          "start_ms": 100,
+          "end_ms": 1174
+        },
+        {
+          "lang": "en",
+          "text": "this afternoon is strong enough to knock over the young plants.",
+          "start_sample": 18783,
+          "end_sample": 74809,
+          "start_ms": 1174,
+          "end_ms": 4676
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 風 this afternoon is strong enough to knock over the young plants.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5092,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 962,
+          "start_ms": 0,
+          "end_ms": 60
+        },
+        {
+          "lang": "ja",
+          "text": "風",
+          "start_sample": 962,
+          "end_sample": 5291,
+          "start_ms": 60,
+          "end_ms": 331
+        },
+        {
+          "lang": "en",
+          "text": "this afternoon is strong enough to knock over the young plants.",
+          "start_sample": 5291,
+          "end_sample": 81467,
+          "start_ms": 331,
+          "end_ms": 5092
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "eeeejjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

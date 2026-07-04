@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_001_b06ec2cd8db9/cs10708.flac",
+  "sentence": "I forgot to take the 卵 out of the fridge early enough.",
+  "sample_rate": 16000,
+  "duration_ms": 2336,
+  "reference_speaker": "en/speaker_001_b06ec2cd8db9.mp3",
+  "seed": 10750,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I forgot to take the",
+      "start_sample": 0,
+      "end_sample": 12471,
+      "start_ms": 0,
+      "end_ms": 779
+    },
+    {
+      "lang": "ja",
+      "text": "卵",
+      "start_sample": 12471,
+      "end_sample": 18805,
+      "start_ms": 779,
+      "end_ms": 1175
+    },
+    {
+      "lang": "en",
+      "text": "out of the fridge early enough.",
+      "start_sample": 18805,
+      "end_sample": 37373,
+      "start_ms": 1175,
+      "end_ms": 2336
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I forgot to take the tamago out of the fridge early enough.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2406,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I forgot to take the",
+          "start_sample": 0,
+          "end_sample": 12671,
+          "start_ms": 0,
+          "end_ms": 792
+        },
+        {
+          "lang": "ja",
+          "text": "卵",
+          "start_sample": 12671,
+          "end_sample": 19730,
+          "start_ms": 792,
+          "end_ms": 1233
+        },
+        {
+          "lang": "en",
+          "text": "out of the fridge early enough.",
+          "start_sample": 19730,
+          "end_sample": 38498,
+          "start_ms": 1233,
+          "end_ms": 2406
+        }
+      ]
+    },
+    "ja": {
+      "text": "I forgot to take the 卵 out of the fridge early enough.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3507,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I forgot to take the",
+          "start_sample": 0,
+          "end_sample": 21803,
+          "start_ms": 0,
+          "end_ms": 1363
+        },
+        {
+          "lang": "ja",
+          "text": "卵",
+          "start_sample": 21803,
+          "end_sample": 28537,
+          "start_ms": 1363,
+          "end_ms": 1784
+        },
+        {
+          "lang": "en",
+          "text": "out of the fridge early enough.",
+          "start_sample": 28537,
+          "end_sample": 56113,
+          "start_ms": 1784,
+          "end_ms": 3507
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 117,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

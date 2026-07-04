@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_093_c561f370b1dd/cs3397.flac",
+  "sentence": "あのbrand、最近どこのお店でも売り切れだよね。",
+  "sample_rate": 16000,
+  "duration_ms": 3157,
+  "reference_speaker": "en/speaker_093_c561f370b1dd.mp3",
+  "seed": 3439,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの",
+      "start_sample": 0,
+      "end_sample": 3661,
+      "start_ms": 0,
+      "end_ms": 229
+    },
+    {
+      "lang": "en",
+      "text": "brand、",
+      "start_sample": 3661,
+      "end_sample": 10805,
+      "start_ms": 229,
+      "end_ms": 675
+    },
+    {
+      "lang": "ja",
+      "text": "最近どこのお店でも売り切れだよね。",
+      "start_sample": 10805,
+      "end_sample": 50506,
+      "start_ms": 675,
+      "end_ms": 3157
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano brand、 saikin doko no o mise de mo urikire da yo ne",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7203,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 6417,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "en",
+          "text": "brand、",
+          "start_sample": 6417,
+          "end_sample": 13961,
+          "start_ms": 401,
+          "end_ms": 873
+        },
+        {
+          "lang": "ja",
+          "text": "最近どこのお店でも売り切れだよね。",
+          "start_sample": 13961,
+          "end_sample": 115246,
+          "start_ms": 873,
+          "end_ms": 7203
+        }
+      ]
+    },
+    "ja": {
+      "text": "あのbrand、最近どこのお店でも売り切れだよね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3379,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 3861,
+          "start_ms": 0,
+          "end_ms": 241
+        },
+        {
+          "lang": "en",
+          "text": "brand、",
+          "start_sample": 3861,
+          "end_sample": 14160,
+          "start_ms": 241,
+          "end_ms": 885
+        },
+        {
+          "lang": "ja",
+          "text": "最近どこのお店でも売り切れだよね。",
+          "start_sample": 14160,
+          "end_sample": 54061,
+          "start_ms": 885,
+          "end_ms": 3379
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 158,
+  "frame_labels": "jjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

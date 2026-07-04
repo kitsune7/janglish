@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_026_a41b49f8d6ee/cs2875.flac",
+  "sentence": "The chef came out and explained each 食材 in the tasting course.",
+  "sample_rate": 16000,
+  "duration_ms": 4059,
+  "reference_speaker": "en/speaker_026_a41b49f8d6ee.mp3",
+  "seed": 2917,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The chef came out and explained each",
+      "start_sample": 0,
+      "end_sample": 31389,
+      "start_ms": 0,
+      "end_ms": 1962
+    },
+    {
+      "lang": "ja",
+      "text": "食材",
+      "start_sample": 31389,
+      "end_sample": 45101,
+      "start_ms": 1962,
+      "end_ms": 2819
+    },
+    {
+      "lang": "en",
+      "text": "in the tasting course.",
+      "start_sample": 45101,
+      "end_sample": 64943,
+      "start_ms": 2819,
+      "end_ms": 4059
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The chef came out and explained each shokuzai in the tasting course.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3888,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The chef came out and explained each",
+          "start_sample": 0,
+          "end_sample": 31589,
+          "start_ms": 0,
+          "end_ms": 1974
+        },
+        {
+          "lang": "ja",
+          "text": "食材",
+          "start_sample": 31589,
+          "end_sample": 42173,
+          "start_ms": 1974,
+          "end_ms": 2636
+        },
+        {
+          "lang": "en",
+          "text": "in the tasting course.",
+          "start_sample": 42173,
+          "end_sample": 62215,
+          "start_ms": 2636,
+          "end_ms": 3888
+        }
+      ]
+    },
+    "ja": {
+      "text": "The chef came out and explained each 食材 in the tasting course.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5012,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The chef came out and explained each",
+          "start_sample": 0,
+          "end_sample": 43942,
+          "start_ms": 0,
+          "end_ms": 2746
+        },
+        {
+          "lang": "ja",
+          "text": "食材",
+          "start_sample": 43942,
+          "end_sample": 58054,
+          "start_ms": 2746,
+          "end_ms": 3628
+        },
+        {
+          "lang": "en",
+          "text": "in the tasting course.",
+          "start_sample": 58054,
+          "end_sample": 80184,
+          "start_ms": 3628,
+          "end_ms": 5012
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_029_debaa03f9928/cs9518.flac",
+  "sentence": "I lost my 鍵 somewhere between the elevator and the ice machine.",
+  "sample_rate": 16000,
+  "duration_ms": 4892,
+  "reference_speaker": "jp/speaker_029_debaa03f9928.mp3",
+  "seed": 9560,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I lost my",
+      "start_sample": 0,
+      "end_sample": 13912,
+      "start_ms": 0,
+      "end_ms": 870
+    },
+    {
+      "lang": "ja",
+      "text": "鍵",
+      "start_sample": 13912,
+      "end_sample": 16719,
+      "start_ms": 870,
+      "end_ms": 1045
+    },
+    {
+      "lang": "en",
+      "text": "somewhere between the elevator and the ice machine.",
+      "start_sample": 16719,
+      "end_sample": 78270,
+      "start_ms": 1045,
+      "end_ms": 4892
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I lost my kagi somewhere between the elevator and the ice machine.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5273,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I lost my",
+          "start_sample": 0,
+          "end_sample": 14112,
+          "start_ms": 0,
+          "end_ms": 882
+        },
+        {
+          "lang": "ja",
+          "text": "鍵",
+          "start_sample": 14112,
+          "end_sample": 22612,
+          "start_ms": 882,
+          "end_ms": 1413
+        },
+        {
+          "lang": "en",
+          "text": "somewhere between the elevator and the ice machine.",
+          "start_sample": 22612,
+          "end_sample": 84363,
+          "start_ms": 1413,
+          "end_ms": 5273
+        }
+      ]
+    },
+    "ja": {
+      "text": "I lost my 鍵 somewhere between the elevator and the ice machine.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2846,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I lost my",
+          "start_sample": 0,
+          "end_sample": 8816,
+          "start_ms": 0,
+          "end_ms": 551
+        },
+        {
+          "lang": "ja",
+          "text": "鍵",
+          "start_sample": 8816,
+          "end_sample": 12023,
+          "start_ms": 551,
+          "end_ms": 751
+        },
+        {
+          "lang": "en",
+          "text": "somewhere between the elevator and the ice machine.",
+          "start_sample": 12023,
+          "end_sample": 45534,
+          "start_ms": 751,
+          "end_ms": 2846
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 245,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

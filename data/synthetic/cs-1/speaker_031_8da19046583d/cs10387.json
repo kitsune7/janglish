@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_031_8da19046583d/cs10387.flac",
+  "sentence": "The 花火 last night were honestly the best I've ever seen.",
+  "sample_rate": 16000,
+  "duration_ms": 3678,
+  "reference_speaker": "jp/speaker_031_8da19046583d.mp3",
+  "seed": 10429,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1723,
+      "start_ms": 0,
+      "end_ms": 108
+    },
+    {
+      "lang": "ja",
+      "text": "花火",
+      "start_sample": 1723,
+      "end_sample": 10812,
+      "start_ms": 108,
+      "end_ms": 676
+    },
+    {
+      "lang": "en",
+      "text": "last night were honestly the best I've ever seen.",
+      "start_sample": 10812,
+      "end_sample": 58852,
+      "start_ms": 676,
+      "end_ms": 3678
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hanabi last night were honestly the best I've ever seen.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3726,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1923,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "花火",
+          "start_sample": 1923,
+          "end_sample": 11379,
+          "start_ms": 120,
+          "end_ms": 711
+        },
+        {
+          "lang": "en",
+          "text": "last night were honestly the best I've ever seen.",
+          "start_sample": 11379,
+          "end_sample": 59619,
+          "start_ms": 711,
+          "end_ms": 3726
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 花火 last night were honestly the best I've ever seen.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4242,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3860,
+          "start_ms": 0,
+          "end_ms": 241
+        },
+        {
+          "lang": "ja",
+          "text": "花火",
+          "start_sample": 3860,
+          "end_sample": 13349,
+          "start_ms": 241,
+          "end_ms": 834
+        },
+        {
+          "lang": "en",
+          "text": "last night were honestly the best I've ever seen.",
+          "start_sample": 13349,
+          "end_sample": 67867,
+          "start_ms": 834,
+          "end_ms": 4242
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 184,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

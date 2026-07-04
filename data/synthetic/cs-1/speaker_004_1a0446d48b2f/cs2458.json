@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_004_1a0446d48b2f/cs2458.flac",
+  "sentence": "先週のexamの結果がまだ返ってきていません。",
+  "sample_rate": 16000,
+  "duration_ms": 3580,
+  "reference_speaker": "en/speaker_004_1a0446d48b2f.mp3",
+  "seed": 2500,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "先週の",
+      "start_sample": 0,
+      "end_sample": 9909,
+      "start_ms": 0,
+      "end_ms": 619
+    },
+    {
+      "lang": "en",
+      "text": "exam",
+      "start_sample": 9909,
+      "end_sample": 21528,
+      "start_ms": 619,
+      "end_ms": 1346
+    },
+    {
+      "lang": "ja",
+      "text": "の結果がまだ返ってきていません。",
+      "start_sample": 21528,
+      "end_sample": 57272,
+      "start_ms": 1346,
+      "end_ms": 3580
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "senshuu no exam no kekka ga mada kaetsu te ki te i mase n",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8113,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先週の",
+          "start_sample": 0,
+          "end_sample": 33653,
+          "start_ms": 0,
+          "end_ms": 2103
+        },
+        {
+          "lang": "en",
+          "text": "exam",
+          "start_sample": 33653,
+          "end_sample": 45672,
+          "start_ms": 2103,
+          "end_ms": 2854
+        },
+        {
+          "lang": "ja",
+          "text": "の結果がまだ返ってきていません。",
+          "start_sample": 45672,
+          "end_sample": 129807,
+          "start_ms": 2854,
+          "end_ms": 8113
+        }
+      ]
+    },
+    "ja": {
+      "text": "先週のexamの結果がまだ返ってきていません。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3229,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先週の",
+          "start_sample": 0,
+          "end_sample": 10109,
+          "start_ms": 0,
+          "end_ms": 632
+        },
+        {
+          "lang": "en",
+          "text": "exam",
+          "start_sample": 10109,
+          "end_sample": 15726,
+          "start_ms": 632,
+          "end_ms": 983
+        },
+        {
+          "lang": "ja",
+          "text": "の結果がまだ返ってきていません。",
+          "start_sample": 15726,
+          "end_sample": 51670,
+          "start_ms": 983,
+          "end_ms": 3229
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 179,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

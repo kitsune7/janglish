@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_040_ec293248c910/cs4626.flac",
+  "sentence": "He spent the afternoon building a 石垣 border that looks remarkably 丁寧.",
+  "sample_rate": 16000,
+  "duration_ms": 3995,
+  "reference_speaker": "en/speaker_040_ec293248c910.mp3",
+  "seed": 4668,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He spent the afternoon building a",
+      "start_sample": 0,
+      "end_sample": 20635,
+      "start_ms": 0,
+      "end_ms": 1290
+    },
+    {
+      "lang": "ja",
+      "text": "石垣",
+      "start_sample": 20635,
+      "end_sample": 35652,
+      "start_ms": 1290,
+      "end_ms": 2228
+    },
+    {
+      "lang": "en",
+      "text": "border that looks remarkably",
+      "start_sample": 35652,
+      "end_sample": 56889,
+      "start_ms": 2228,
+      "end_ms": 3556
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧.",
+      "start_sample": 56889,
+      "end_sample": 63913,
+      "start_ms": 3556,
+      "end_ms": 3995
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He spent the afternoon building a ishigaki border that looks remarkably teinei",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3766,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He spent the afternoon building a",
+          "start_sample": 0,
+          "end_sample": 20835,
+          "start_ms": 0,
+          "end_ms": 1302
+        },
+        {
+          "lang": "ja",
+          "text": "石垣",
+          "start_sample": 20835,
+          "end_sample": 29970,
+          "start_ms": 1302,
+          "end_ms": 1873
+        },
+        {
+          "lang": "en",
+          "text": "border that looks remarkably",
+          "start_sample": 29970,
+          "end_sample": 51607,
+          "start_ms": 1873,
+          "end_ms": 3225
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧.",
+          "start_sample": 51607,
+          "end_sample": 60260,
+          "start_ms": 3225,
+          "end_ms": 3766
+        }
+      ]
+    },
+    "ja": {
+      "text": "He spent the afternoon building a 石垣 border that looks remarkably 丁寧.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5982,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He spent the afternoon building a",
+          "start_sample": 0,
+          "end_sample": 35491,
+          "start_ms": 0,
+          "end_ms": 2218
+        },
+        {
+          "lang": "ja",
+          "text": "石垣",
+          "start_sample": 35491,
+          "end_sample": 50908,
+          "start_ms": 2218,
+          "end_ms": 3182
+        },
+        {
+          "lang": "en",
+          "text": "border that looks remarkably",
+          "start_sample": 50908,
+          "end_sample": 88487,
+          "start_ms": 3182,
+          "end_ms": 5530
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧.",
+          "start_sample": 88487,
+          "end_sample": 95711,
+          "start_ms": 5530,
+          "end_ms": 5982
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 200,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjj"
+}

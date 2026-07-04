@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_092_0f181b6e11f2/cs3425.flac",
+  "sentence": "His whole outfit was so 地味 that nobody noticed him at the party.",
+  "sample_rate": 16000,
+  "duration_ms": 5023,
+  "reference_speaker": "en/speaker_092_0f181b6e11f2.mp3",
+  "seed": 3467,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His whole outfit was so",
+      "start_sample": 0,
+      "end_sample": 30120,
+      "start_ms": 0,
+      "end_ms": 1882
+    },
+    {
+      "lang": "ja",
+      "text": "地味",
+      "start_sample": 30120,
+      "end_sample": 42866,
+      "start_ms": 1882,
+      "end_ms": 2679
+    },
+    {
+      "lang": "en",
+      "text": "that nobody noticed him at the party.",
+      "start_sample": 42866,
+      "end_sample": 80364,
+      "start_ms": 2679,
+      "end_ms": 5023
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His whole outfit was so jimi that nobody noticed him at the party.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4933,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His whole outfit was so",
+          "start_sample": 0,
+          "end_sample": 30320,
+          "start_ms": 0,
+          "end_ms": 1895
+        },
+        {
+          "lang": "ja",
+          "text": "地味",
+          "start_sample": 30320,
+          "end_sample": 41229,
+          "start_ms": 1895,
+          "end_ms": 2577
+        },
+        {
+          "lang": "en",
+          "text": "that nobody noticed him at the party.",
+          "start_sample": 41229,
+          "end_sample": 78927,
+          "start_ms": 2577,
+          "end_ms": 4933
+        }
+      ]
+    },
+    "ja": {
+      "text": "His whole outfit was so 地味 that nobody noticed him at the party.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5230,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His whole outfit was so",
+          "start_sample": 0,
+          "end_sample": 32385,
+          "start_ms": 0,
+          "end_ms": 2024
+        },
+        {
+          "lang": "ja",
+          "text": "地味",
+          "start_sample": 32385,
+          "end_sample": 45531,
+          "start_ms": 2024,
+          "end_ms": 2846
+        },
+        {
+          "lang": "en",
+          "text": "that nobody noticed him at the party.",
+          "start_sample": 45531,
+          "end_sample": 83687,
+          "start_ms": 2846,
+          "end_ms": 5230
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 252,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

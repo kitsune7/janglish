@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_063_0760e257c60c/cs367.flac",
+  "sentence": "She described the book as utterly 壮大 from the very first chapter.",
+  "sample_rate": 16000,
+  "duration_ms": 4522,
+  "reference_speaker": "jp/speaker_063_0760e257c60c.mp3",
+  "seed": 409,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She described the book as utterly",
+      "start_sample": 0,
+      "end_sample": 39585,
+      "start_ms": 0,
+      "end_ms": 2474
+    },
+    {
+      "lang": "ja",
+      "text": "壮大",
+      "start_sample": 39585,
+      "end_sample": 45447,
+      "start_ms": 2474,
+      "end_ms": 2840
+    },
+    {
+      "lang": "en",
+      "text": "from the very first chapter.",
+      "start_sample": 45447,
+      "end_sample": 72356,
+      "start_ms": 2840,
+      "end_ms": 4522
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She described the book as utterly soudai from the very first chapter.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4833,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She described the book as utterly",
+          "start_sample": 0,
+          "end_sample": 39785,
+          "start_ms": 0,
+          "end_ms": 2487
+        },
+        {
+          "lang": "ja",
+          "text": "壮大",
+          "start_sample": 39785,
+          "end_sample": 50213,
+          "start_ms": 2487,
+          "end_ms": 3138
+        },
+        {
+          "lang": "en",
+          "text": "from the very first chapter.",
+          "start_sample": 50213,
+          "end_sample": 77322,
+          "start_ms": 3138,
+          "end_ms": 4833
+        }
+      ]
+    },
+    "ja": {
+      "text": "She described the book as utterly 壮大 from the very first chapter.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3773,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She described the book as utterly",
+          "start_sample": 0,
+          "end_sample": 32751,
+          "start_ms": 0,
+          "end_ms": 2047
+        },
+        {
+          "lang": "ja",
+          "text": "壮大",
+          "start_sample": 32751,
+          "end_sample": 39013,
+          "start_ms": 2047,
+          "end_ms": 2438
+        },
+        {
+          "lang": "en",
+          "text": "from the very first chapter.",
+          "start_sample": 39013,
+          "end_sample": 60363,
+          "start_ms": 2438,
+          "end_ms": 3773
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 227,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

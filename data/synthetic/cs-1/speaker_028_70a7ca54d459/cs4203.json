@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_028_70a7ca54d459/cs4203.flac",
+  "sentence": "Everyone assembled 素早く once the emergency tone sounded overhead.",
+  "sample_rate": 16000,
+  "duration_ms": 4559,
+  "reference_speaker": "jp/speaker_028_70a7ca54d459.mp3",
+  "seed": 4245,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Everyone assembled",
+      "start_sample": 0,
+      "end_sample": 18602,
+      "start_ms": 0,
+      "end_ms": 1163
+    },
+    {
+      "lang": "ja",
+      "text": "素早く",
+      "start_sample": 18602,
+      "end_sample": 29433,
+      "start_ms": 1163,
+      "end_ms": 1840
+    },
+    {
+      "lang": "en",
+      "text": "once the emergency tone sounded overhead.",
+      "start_sample": 29433,
+      "end_sample": 72942,
+      "start_ms": 1840,
+      "end_ms": 4559
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Everyone assembled subayaku once the emergency tone sounded overhead.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4741,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Everyone assembled",
+          "start_sample": 0,
+          "end_sample": 18802,
+          "start_ms": 0,
+          "end_ms": 1175
+        },
+        {
+          "lang": "ja",
+          "text": "素早く",
+          "start_sample": 18802,
+          "end_sample": 32142,
+          "start_ms": 1175,
+          "end_ms": 2009
+        },
+        {
+          "lang": "en",
+          "text": "once the emergency tone sounded overhead.",
+          "start_sample": 32142,
+          "end_sample": 75851,
+          "start_ms": 2009,
+          "end_ms": 4741
+        }
+      ]
+    },
+    "ja": {
+      "text": "Everyone assembled 素早く once the emergency tone sounded overhead.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4813,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Everyone assembled",
+          "start_sample": 0,
+          "end_sample": 18608,
+          "start_ms": 0,
+          "end_ms": 1163
+        },
+        {
+          "lang": "ja",
+          "text": "素早く",
+          "start_sample": 18608,
+          "end_sample": 29839,
+          "start_ms": 1163,
+          "end_ms": 1865
+        },
+        {
+          "lang": "en",
+          "text": "once the emergency tone sounded overhead.",
+          "start_sample": 29839,
+          "end_sample": 77001,
+          "start_ms": 1865,
+          "end_ms": 4813
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 228,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

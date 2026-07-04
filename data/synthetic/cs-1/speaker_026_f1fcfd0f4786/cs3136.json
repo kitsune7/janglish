@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_026_f1fcfd0f4786/cs3136.flac",
+  "sentence": "The recruiter mentioned that 経験 in remote team management would be a big advantage.",
+  "sample_rate": 16000,
+  "duration_ms": 5017,
+  "reference_speaker": "jp/speaker_026_f1fcfd0f4786.mp3",
+  "seed": 3178,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The recruiter mentioned that",
+      "start_sample": 0,
+      "end_sample": 18382,
+      "start_ms": 0,
+      "end_ms": 1149
+    },
+    {
+      "lang": "ja",
+      "text": "経験",
+      "start_sample": 18382,
+      "end_sample": 26962,
+      "start_ms": 1149,
+      "end_ms": 1685
+    },
+    {
+      "lang": "en",
+      "text": "in remote team management would be a big advantage.",
+      "start_sample": 26962,
+      "end_sample": 80268,
+      "start_ms": 1685,
+      "end_ms": 5017
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The recruiter mentioned that keiken in remote team management would be a big advantage.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5206,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The recruiter mentioned that",
+          "start_sample": 0,
+          "end_sample": 18582,
+          "start_ms": 0,
+          "end_ms": 1161
+        },
+        {
+          "lang": "ja",
+          "text": "経験",
+          "start_sample": 18582,
+          "end_sample": 29796,
+          "start_ms": 1161,
+          "end_ms": 1862
+        },
+        {
+          "lang": "en",
+          "text": "in remote team management would be a big advantage.",
+          "start_sample": 29796,
+          "end_sample": 83302,
+          "start_ms": 1862,
+          "end_ms": 5206
+        }
+      ]
+    },
+    "ja": {
+      "text": "The recruiter mentioned that 経験 in remote team management would be a big advantage.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7657,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The recruiter mentioned that",
+          "start_sample": 0,
+          "end_sample": 38645,
+          "start_ms": 0,
+          "end_ms": 2415
+        },
+        {
+          "lang": "ja",
+          "text": "経験",
+          "start_sample": 38645,
+          "end_sample": 47625,
+          "start_ms": 2415,
+          "end_ms": 2977
+        },
+        {
+          "lang": "en",
+          "text": "in remote team management would be a big advantage.",
+          "start_sample": 47625,
+          "end_sample": 122509,
+          "start_ms": 2977,
+          "end_ms": 7657
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 251,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

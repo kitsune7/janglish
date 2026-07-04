@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_038_fa40784c77e2/cs2057.flac",
+  "sentence": "娘がはじめてjournalを書き始めて、とても嬉しいです。",
+  "sample_rate": 16000,
+  "duration_ms": 3588,
+  "reference_speaker": "jp/speaker_038_fa40784c77e2.mp3",
+  "seed": 2099,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "娘がはじめて",
+      "start_sample": 0,
+      "end_sample": 14554,
+      "start_ms": 0,
+      "end_ms": 910
+    },
+    {
+      "lang": "en",
+      "text": "journal",
+      "start_sample": 14554,
+      "end_sample": 25543,
+      "start_ms": 910,
+      "end_ms": 1596
+    },
+    {
+      "lang": "ja",
+      "text": "を書き始めて、とても嬉しいです。",
+      "start_sample": 25543,
+      "end_sample": 57416,
+      "start_ms": 1596,
+      "end_ms": 3588
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "musume ga hajimete journal wo kaki hajime te totemo ureshii desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6457,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "娘がはじめて",
+          "start_sample": 0,
+          "end_sample": 29035,
+          "start_ms": 0,
+          "end_ms": 1815
+        },
+        {
+          "lang": "en",
+          "text": "journal",
+          "start_sample": 29035,
+          "end_sample": 40424,
+          "start_ms": 1815,
+          "end_ms": 2526
+        },
+        {
+          "lang": "ja",
+          "text": "を書き始めて、とても嬉しいです。",
+          "start_sample": 40424,
+          "end_sample": 103305,
+          "start_ms": 2526,
+          "end_ms": 6457
+        }
+      ]
+    },
+    "ja": {
+      "text": "娘がはじめてjournalを書き始めて、とても嬉しいです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3328,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "娘がはじめて",
+          "start_sample": 0,
+          "end_sample": 14754,
+          "start_ms": 0,
+          "end_ms": 922
+        },
+        {
+          "lang": "en",
+          "text": "journal",
+          "start_sample": 14754,
+          "end_sample": 21169,
+          "start_ms": 922,
+          "end_ms": 1323
+        },
+        {
+          "lang": "ja",
+          "text": "を書き始めて、とても嬉しいです。",
+          "start_sample": 21169,
+          "end_sample": 53242,
+          "start_ms": 1323,
+          "end_ms": 3328
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 180,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

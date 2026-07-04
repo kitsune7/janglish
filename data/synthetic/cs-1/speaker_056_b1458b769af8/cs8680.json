@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_056_b1458b769af8/cs8680.flac",
+  "sentence": "She said caring for her elderly 猫 taught her more about patience than anything else in her life.",
+  "sample_rate": 16000,
+  "duration_ms": 4779,
+  "reference_speaker": "en/speaker_056_b1458b769af8.mp3",
+  "seed": 8722,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She said caring for her elderly",
+      "start_sample": 0,
+      "end_sample": 22942,
+      "start_ms": 0,
+      "end_ms": 1434
+    },
+    {
+      "lang": "ja",
+      "text": "猫",
+      "start_sample": 22942,
+      "end_sample": 32635,
+      "start_ms": 1434,
+      "end_ms": 2040
+    },
+    {
+      "lang": "en",
+      "text": "taught her more about patience than anything else in her life.",
+      "start_sample": 32635,
+      "end_sample": 76466,
+      "start_ms": 2040,
+      "end_ms": 4779
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She said caring for her elderly neko taught her more about patience than anything else in her life.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4761,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She said caring for her elderly",
+          "start_sample": 0,
+          "end_sample": 23142,
+          "start_ms": 0,
+          "end_ms": 1446
+        },
+        {
+          "lang": "ja",
+          "text": "猫",
+          "start_sample": 23142,
+          "end_sample": 32141,
+          "start_ms": 1446,
+          "end_ms": 2009
+        },
+        {
+          "lang": "en",
+          "text": "taught her more about patience than anything else in her life.",
+          "start_sample": 32141,
+          "end_sample": 76172,
+          "start_ms": 2009,
+          "end_ms": 4761
+        }
+      ]
+    },
+    "ja": {
+      "text": "She said caring for her elderly 猫 taught her more about patience than anything else in her life.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8030,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She said caring for her elderly",
+          "start_sample": 0,
+          "end_sample": 37006,
+          "start_ms": 0,
+          "end_ms": 2313
+        },
+        {
+          "lang": "ja",
+          "text": "猫",
+          "start_sample": 37006,
+          "end_sample": 47099,
+          "start_ms": 2313,
+          "end_ms": 2944
+        },
+        {
+          "lang": "en",
+          "text": "taught her more about patience than anything else in her life.",
+          "start_sample": 47099,
+          "end_sample": 128480,
+          "start_ms": 2944,
+          "end_ms": 8030
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 239,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

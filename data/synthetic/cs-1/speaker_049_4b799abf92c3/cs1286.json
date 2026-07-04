@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_049_4b799abf92c3/cs1286.flac",
+  "sentence": "Did you manage to get 予約 for the famous rooftop restaurant?",
+  "sample_rate": 16000,
+  "duration_ms": 2987,
+  "reference_speaker": "en/speaker_049_4b799abf92c3.mp3",
+  "seed": 1328,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Did you manage to get",
+      "start_sample": 0,
+      "end_sample": 14129,
+      "start_ms": 0,
+      "end_ms": 883
+    },
+    {
+      "lang": "ja",
+      "text": "予約",
+      "start_sample": 14129,
+      "end_sample": 21589,
+      "start_ms": 883,
+      "end_ms": 1349
+    },
+    {
+      "lang": "en",
+      "text": "for the famous rooftop restaurant?",
+      "start_sample": 21589,
+      "end_sample": 47788,
+      "start_ms": 1349,
+      "end_ms": 2987
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Did you manage to get yoyaku for the famous rooftop restaurant?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3079,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you manage to get",
+          "start_sample": 0,
+          "end_sample": 14329,
+          "start_ms": 0,
+          "end_ms": 896
+        },
+        {
+          "lang": "ja",
+          "text": "予約",
+          "start_sample": 14329,
+          "end_sample": 22862,
+          "start_ms": 896,
+          "end_ms": 1429
+        },
+        {
+          "lang": "en",
+          "text": "for the famous rooftop restaurant?",
+          "start_sample": 22862,
+          "end_sample": 49261,
+          "start_ms": 1429,
+          "end_ms": 3079
+        }
+      ]
+    },
+    "ja": {
+      "text": "Did you manage to get 予約 for the famous rooftop restaurant?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4010,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you manage to get",
+          "start_sample": 0,
+          "end_sample": 20532,
+          "start_ms": 0,
+          "end_ms": 1283
+        },
+        {
+          "lang": "ja",
+          "text": "予約",
+          "start_sample": 20532,
+          "end_sample": 28392,
+          "start_ms": 1283,
+          "end_ms": 1774
+        },
+        {
+          "lang": "en",
+          "text": "for the famous rooftop restaurant?",
+          "start_sample": 28392,
+          "end_sample": 64161,
+          "start_ms": 1774,
+          "end_ms": 4010
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 150,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

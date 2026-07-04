@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_024_d461ea23a991/cs25.flac",
+  "sentence": "妹は将来doctorになりたいそうです。",
+  "sample_rate": 16000,
+  "duration_ms": 2786,
+  "reference_speaker": "en/speaker_024_d461ea23a991.mp3",
+  "seed": 67,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "妹は将来",
+      "start_sample": 0,
+      "end_sample": 15831,
+      "start_ms": 0,
+      "end_ms": 989
+    },
+    {
+      "lang": "en",
+      "text": "doctor",
+      "start_sample": 15831,
+      "end_sample": 25866,
+      "start_ms": 989,
+      "end_ms": 1617
+    },
+    {
+      "lang": "ja",
+      "text": "になりたいそうです。",
+      "start_sample": 25866,
+      "end_sample": 44582,
+      "start_ms": 1617,
+      "end_ms": 2786
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "imouto ha shourai doctor ni nari tai sou desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4876,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "妹は将来",
+          "start_sample": 0,
+          "end_sample": 28092,
+          "start_ms": 0,
+          "end_ms": 1756
+        },
+        {
+          "lang": "en",
+          "text": "doctor",
+          "start_sample": 28092,
+          "end_sample": 38527,
+          "start_ms": 1756,
+          "end_ms": 2408
+        },
+        {
+          "lang": "ja",
+          "text": "になりたいそうです。",
+          "start_sample": 38527,
+          "end_sample": 78014,
+          "start_ms": 2408,
+          "end_ms": 4876
+        }
+      ]
+    },
+    "ja": {
+      "text": "妹は将来doctorになりたいそうです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2605,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "妹は将来",
+          "start_sample": 0,
+          "end_sample": 16031,
+          "start_ms": 0,
+          "end_ms": 1002
+        },
+        {
+          "lang": "en",
+          "text": "doctor",
+          "start_sample": 16031,
+          "end_sample": 22765,
+          "start_ms": 1002,
+          "end_ms": 1423
+        },
+        {
+          "lang": "ja",
+          "text": "になりたいそうです。",
+          "start_sample": 22765,
+          "end_sample": 41681,
+          "start_ms": 1423,
+          "end_ms": 2605
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 140,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

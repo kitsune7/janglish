@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_034_3e5442a60675/cs1672.flac",
+  "sentence": "The octopus at the aquarium was 不思議 — it seemed to recognize individual visitors.",
+  "sample_rate": 16000,
+  "duration_ms": 5302,
+  "reference_speaker": "jp/speaker_034_3e5442a60675.mp3",
+  "seed": 1714,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The octopus at the aquarium was",
+      "start_sample": 0,
+      "end_sample": 28722,
+      "start_ms": 0,
+      "end_ms": 1795
+    },
+    {
+      "lang": "ja",
+      "text": "不思議 —",
+      "start_sample": 28722,
+      "end_sample": 37309,
+      "start_ms": 1795,
+      "end_ms": 2332
+    },
+    {
+      "lang": "en",
+      "text": "it seemed to recognize individual visitors.",
+      "start_sample": 37309,
+      "end_sample": 84827,
+      "start_ms": 2332,
+      "end_ms": 5302
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The octopus at the aquarium was fushigi it seemed to recognize individual visitors.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5603,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The octopus at the aquarium was",
+          "start_sample": 0,
+          "end_sample": 28922,
+          "start_ms": 0,
+          "end_ms": 1808
+        },
+        {
+          "lang": "ja",
+          "text": "不思議 —",
+          "start_sample": 28922,
+          "end_sample": 41937,
+          "start_ms": 1808,
+          "end_ms": 2621
+        },
+        {
+          "lang": "en",
+          "text": "it seemed to recognize individual visitors.",
+          "start_sample": 41937,
+          "end_sample": 89655,
+          "start_ms": 2621,
+          "end_ms": 5603
+        }
+      ]
+    },
+    "ja": {
+      "text": "The octopus at the aquarium was 不思議 — it seemed to recognize individual visitors.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7943,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The octopus at the aquarium was",
+          "start_sample": 0,
+          "end_sample": 52794,
+          "start_ms": 0,
+          "end_ms": 3300
+        },
+        {
+          "lang": "ja",
+          "text": "不思議 —",
+          "start_sample": 52794,
+          "end_sample": 61781,
+          "start_ms": 3300,
+          "end_ms": 3861
+        },
+        {
+          "lang": "en",
+          "text": "it seemed to recognize individual visitors.",
+          "start_sample": 61781,
+          "end_sample": 127093,
+          "start_ms": 3861,
+          "end_ms": 7943
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 266,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_071_72384e582e15/cs4532.flac",
+  "sentence": "Are you available for a quick 打ち合わせ after lunch?",
+  "sample_rate": 16000,
+  "duration_ms": 2627,
+  "reference_speaker": "en/speaker_071_72384e582e15.mp3",
+  "seed": 4574,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Are you available for a quick",
+      "start_sample": 0,
+      "end_sample": 20185,
+      "start_ms": 0,
+      "end_ms": 1262
+    },
+    {
+      "lang": "ja",
+      "text": "打ち合わせ",
+      "start_sample": 20185,
+      "end_sample": 31485,
+      "start_ms": 1262,
+      "end_ms": 1968
+    },
+    {
+      "lang": "en",
+      "text": "after lunch?",
+      "start_sample": 31485,
+      "end_sample": 42037,
+      "start_ms": 1968,
+      "end_ms": 2627
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Are you available for a quick uchiawase after lunch?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2648,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Are you available for a quick",
+          "start_sample": 0,
+          "end_sample": 20385,
+          "start_ms": 0,
+          "end_ms": 1274
+        },
+        {
+          "lang": "ja",
+          "text": "打ち合わせ",
+          "start_sample": 20385,
+          "end_sample": 31622,
+          "start_ms": 1274,
+          "end_ms": 1976
+        },
+        {
+          "lang": "en",
+          "text": "after lunch?",
+          "start_sample": 31622,
+          "end_sample": 42374,
+          "start_ms": 1976,
+          "end_ms": 2648
+        }
+      ]
+    },
+    "ja": {
+      "text": "Are you available for a quick 打ち合わせ after lunch?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3666,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Are you available for a quick",
+          "start_sample": 0,
+          "end_sample": 31733,
+          "start_ms": 0,
+          "end_ms": 1983
+        },
+        {
+          "lang": "ja",
+          "text": "打ち合わせ",
+          "start_sample": 31733,
+          "end_sample": 43433,
+          "start_ms": 1983,
+          "end_ms": 2715
+        },
+        {
+          "lang": "en",
+          "text": "after lunch?",
+          "start_sample": 43433,
+          "end_sample": 58657,
+          "start_ms": 2715,
+          "end_ms": 3666
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 132,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

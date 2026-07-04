@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_015_995e028794f8/cs2036.flac",
+  "sentence": "息子はoutdoor遊びよりも絵を描くのが好きです。",
+  "sample_rate": 16000,
+  "duration_ms": 3146,
+  "reference_speaker": "en/speaker_015_995e028794f8.mp3",
+  "seed": 2078,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "息子は",
+      "start_sample": 0,
+      "end_sample": 11378,
+      "start_ms": 0,
+      "end_ms": 711
+    },
+    {
+      "lang": "en",
+      "text": "outdoor",
+      "start_sample": 11378,
+      "end_sample": 15797,
+      "start_ms": 711,
+      "end_ms": 987
+    },
+    {
+      "lang": "ja",
+      "text": "遊びよりも絵を描くのが好きです。",
+      "start_sample": 15797,
+      "end_sample": 50330,
+      "start_ms": 987,
+      "end_ms": 3146
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "musuko ha outdoor asobi yori mo e wo egaku no ga suki desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3674,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "息子は",
+          "start_sample": 0,
+          "end_sample": 17026,
+          "start_ms": 0,
+          "end_ms": 1064
+        },
+        {
+          "lang": "en",
+          "text": "outdoor",
+          "start_sample": 17026,
+          "end_sample": 21845,
+          "start_ms": 1064,
+          "end_ms": 1365
+        },
+        {
+          "lang": "ja",
+          "text": "遊びよりも絵を描くのが好きです。",
+          "start_sample": 21845,
+          "end_sample": 58786,
+          "start_ms": 1365,
+          "end_ms": 3674
+        }
+      ]
+    },
+    "ja": {
+      "text": "息子はoutdoor遊びよりも絵を描くのが好きです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3598,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "息子は",
+          "start_sample": 0,
+          "end_sample": 11578,
+          "start_ms": 0,
+          "end_ms": 724
+        },
+        {
+          "lang": "en",
+          "text": "outdoor",
+          "start_sample": 11578,
+          "end_sample": 22836,
+          "start_ms": 724,
+          "end_ms": 1427
+        },
+        {
+          "lang": "ja",
+          "text": "遊びよりも絵を描くのが好きです。",
+          "start_sample": 22836,
+          "end_sample": 57569,
+          "start_ms": 1427,
+          "end_ms": 3598
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 158,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

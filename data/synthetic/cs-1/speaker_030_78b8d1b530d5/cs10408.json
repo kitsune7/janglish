@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_030_78b8d1b530d5/cs10408.flac",
+  "sentence": "The children left 供え物 at the little roadside shrine during the neighborhood festival.",
+  "sample_rate": 16000,
+  "duration_ms": 5008,
+  "reference_speaker": "jp/speaker_030_78b8d1b530d5.mp3",
+  "seed": 10450,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The children left",
+      "start_sample": 0,
+      "end_sample": 11494,
+      "start_ms": 0,
+      "end_ms": 718
+    },
+    {
+      "lang": "ja",
+      "text": "供え物",
+      "start_sample": 11494,
+      "end_sample": 23934,
+      "start_ms": 718,
+      "end_ms": 1496
+    },
+    {
+      "lang": "en",
+      "text": "at the little roadside shrine during the neighborhood festival.",
+      "start_sample": 23934,
+      "end_sample": 80124,
+      "start_ms": 1496,
+      "end_ms": 5008
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The children left sonaemono at the little roadside shrine during the neighborhood festival.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5206,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The children left",
+          "start_sample": 0,
+          "end_sample": 11694,
+          "start_ms": 0,
+          "end_ms": 731
+        },
+        {
+          "lang": "ja",
+          "text": "供え物",
+          "start_sample": 11694,
+          "end_sample": 26912,
+          "start_ms": 731,
+          "end_ms": 1682
+        },
+        {
+          "lang": "en",
+          "text": "at the little roadside shrine during the neighborhood festival.",
+          "start_sample": 26912,
+          "end_sample": 83302,
+          "start_ms": 1682,
+          "end_ms": 5206
+        }
+      ]
+    },
+    "ja": {
+      "text": "The children left 供え物 at the little roadside shrine during the neighborhood festival.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6239,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The children left",
+          "start_sample": 0,
+          "end_sample": 18133,
+          "start_ms": 0,
+          "end_ms": 1133
+        },
+        {
+          "lang": "ja",
+          "text": "供え物",
+          "start_sample": 18133,
+          "end_sample": 30973,
+          "start_ms": 1133,
+          "end_ms": 1936
+        },
+        {
+          "lang": "en",
+          "text": "at the little roadside shrine during the neighborhood festival.",
+          "start_sample": 30973,
+          "end_sample": 99825,
+          "start_ms": 1936,
+          "end_ms": 6239
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 251,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

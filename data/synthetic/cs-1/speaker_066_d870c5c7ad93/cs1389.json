@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_066_d870c5c7ad93/cs1389.flac",
+  "sentence": "あのferry乗り場はどこですか？",
+  "sample_rate": 16000,
+  "duration_ms": 2563,
+  "reference_speaker": "jp/speaker_066_d870c5c7ad93.mp3",
+  "seed": 1431,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの",
+      "start_sample": 0,
+      "end_sample": 7689,
+      "start_ms": 0,
+      "end_ms": 481
+    },
+    {
+      "lang": "en",
+      "text": "ferry",
+      "start_sample": 7689,
+      "end_sample": 24310,
+      "start_ms": 481,
+      "end_ms": 1519
+    },
+    {
+      "lang": "ja",
+      "text": "乗り場はどこですか？",
+      "start_sample": 24310,
+      "end_sample": 41011,
+      "start_ms": 1519,
+      "end_ms": 2563
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano ferry noriba ha doko desu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5800,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 15091,
+          "start_ms": 0,
+          "end_ms": 943
+        },
+        {
+          "lang": "en",
+          "text": "ferry",
+          "start_sample": 15091,
+          "end_sample": 32112,
+          "start_ms": 943,
+          "end_ms": 2007
+        },
+        {
+          "lang": "ja",
+          "text": "乗り場はどこですか？",
+          "start_sample": 32112,
+          "end_sample": 92806,
+          "start_ms": 2007,
+          "end_ms": 5800
+        }
+      ]
+    },
+    "ja": {
+      "text": "あのferry乗り場はどこですか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2194,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 7889,
+          "start_ms": 0,
+          "end_ms": 493
+        },
+        {
+          "lang": "en",
+          "text": "ferry",
+          "start_sample": 7889,
+          "end_sample": 18195,
+          "start_ms": 493,
+          "end_ms": 1137
+        },
+        {
+          "lang": "ja",
+          "text": "乗り場はどこですか？",
+          "start_sample": 18195,
+          "end_sample": 35096,
+          "start_ms": 1137,
+          "end_ms": 2194
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 129,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

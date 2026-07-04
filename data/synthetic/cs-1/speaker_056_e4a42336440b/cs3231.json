@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_056_e4a42336440b/cs3231.flac",
+  "sentence": "The new 規則 about remote work is still unclear to most of us.",
+  "sample_rate": 16000,
+  "duration_ms": 3991,
+  "reference_speaker": "jp/speaker_056_e4a42336440b.mp3",
+  "seed": 3273,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The new",
+      "start_sample": 0,
+      "end_sample": 6075,
+      "start_ms": 0,
+      "end_ms": 380
+    },
+    {
+      "lang": "ja",
+      "text": "規則",
+      "start_sample": 6075,
+      "end_sample": 13527,
+      "start_ms": 380,
+      "end_ms": 845
+    },
+    {
+      "lang": "en",
+      "text": "about remote work is still unclear to most of us.",
+      "start_sample": 13527,
+      "end_sample": 63849,
+      "start_ms": 845,
+      "end_ms": 3991
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The new kisoku about remote work is still unclear to most of us.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4163,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new",
+          "start_sample": 0,
+          "end_sample": 6275,
+          "start_ms": 0,
+          "end_ms": 392
+        },
+        {
+          "lang": "ja",
+          "text": "規則",
+          "start_sample": 6275,
+          "end_sample": 16091,
+          "start_ms": 392,
+          "end_ms": 1006
+        },
+        {
+          "lang": "en",
+          "text": "about remote work is still unclear to most of us.",
+          "start_sample": 16091,
+          "end_sample": 66613,
+          "start_ms": 1006,
+          "end_ms": 4163
+        }
+      ]
+    },
+    "ja": {
+      "text": "The new 規則 about remote work is still unclear to most of us.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5368,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new",
+          "start_sample": 0,
+          "end_sample": 11696,
+          "start_ms": 0,
+          "end_ms": 731
+        },
+        {
+          "lang": "ja",
+          "text": "規則",
+          "start_sample": 11696,
+          "end_sample": 19548,
+          "start_ms": 731,
+          "end_ms": 1222
+        },
+        {
+          "lang": "en",
+          "text": "about remote work is still unclear to most of us.",
+          "start_sample": 19548,
+          "end_sample": 85887,
+          "start_ms": 1222,
+          "end_ms": 5368
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 200,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

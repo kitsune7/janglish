@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_082_d12288b68351/cs779.flac",
+  "sentence": "I always check the 賞味期限 before I put anything in the cart.",
+  "sample_rate": 16000,
+  "duration_ms": 4257,
+  "reference_speaker": "jp/speaker_082_d12288b68351.mp3",
+  "seed": 821,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always check the",
+      "start_sample": 0,
+      "end_sample": 15653,
+      "start_ms": 0,
+      "end_ms": 978
+    },
+    {
+      "lang": "ja",
+      "text": "賞味期限",
+      "start_sample": 15653,
+      "end_sample": 31634,
+      "start_ms": 978,
+      "end_ms": 1977
+    },
+    {
+      "lang": "en",
+      "text": "before I put anything in the cart.",
+      "start_sample": 31634,
+      "end_sample": 68106,
+      "start_ms": 1977,
+      "end_ms": 4257
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always check the shoumi kigen before I put anything in the cart.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4344,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always check the",
+          "start_sample": 0,
+          "end_sample": 15853,
+          "start_ms": 0,
+          "end_ms": 991
+        },
+        {
+          "lang": "ja",
+          "text": "賞味期限",
+          "start_sample": 15853,
+          "end_sample": 32828,
+          "start_ms": 991,
+          "end_ms": 2052
+        },
+        {
+          "lang": "en",
+          "text": "before I put anything in the cart.",
+          "start_sample": 32828,
+          "end_sample": 69500,
+          "start_ms": 2052,
+          "end_ms": 4344
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always check the 賞味期限 before I put anything in the cart.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5400,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always check the",
+          "start_sample": 0,
+          "end_sample": 27940,
+          "start_ms": 0,
+          "end_ms": 1746
+        },
+        {
+          "lang": "ja",
+          "text": "賞味期限",
+          "start_sample": 27940,
+          "end_sample": 44321,
+          "start_ms": 1746,
+          "end_ms": 2770
+        },
+        {
+          "lang": "en",
+          "text": "before I put anything in the cart.",
+          "start_sample": 44321,
+          "end_sample": 86393,
+          "start_ms": 2770,
+          "end_ms": 5400
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 213,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

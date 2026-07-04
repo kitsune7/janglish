@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_062_05f0c617d0bb/cs2062.flac",
+  "sentence": "I find watercolor painting incredibly 楽しい when the light is good.",
+  "sample_rate": 16000,
+  "duration_ms": 3955,
+  "reference_speaker": "en/speaker_062_05f0c617d0bb.mp3",
+  "seed": 2104,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I find watercolor painting incredibly",
+      "start_sample": 0,
+      "end_sample": 33920,
+      "start_ms": 0,
+      "end_ms": 2120
+    },
+    {
+      "lang": "ja",
+      "text": "楽しい",
+      "start_sample": 33920,
+      "end_sample": 43934,
+      "start_ms": 2120,
+      "end_ms": 2746
+    },
+    {
+      "lang": "en",
+      "text": "when the light is good.",
+      "start_sample": 43934,
+      "end_sample": 63277,
+      "start_ms": 2746,
+      "end_ms": 3955
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I find watercolor painting incredibly tanoshii when the light is good.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4085,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I find watercolor painting incredibly",
+          "start_sample": 0,
+          "end_sample": 34120,
+          "start_ms": 0,
+          "end_ms": 2132
+        },
+        {
+          "lang": "ja",
+          "text": "楽しい",
+          "start_sample": 34120,
+          "end_sample": 45814,
+          "start_ms": 2132,
+          "end_ms": 2863
+        },
+        {
+          "lang": "en",
+          "text": "when the light is good.",
+          "start_sample": 45814,
+          "end_sample": 65357,
+          "start_ms": 2863,
+          "end_ms": 4085
+        }
+      ]
+    },
+    "ja": {
+      "text": "I find watercolor painting incredibly 楽しい when the light is good.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4846,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I find watercolor painting incredibly",
+          "start_sample": 0,
+          "end_sample": 45660,
+          "start_ms": 0,
+          "end_ms": 2854
+        },
+        {
+          "lang": "ja",
+          "text": "楽しい",
+          "start_sample": 45660,
+          "end_sample": 56074,
+          "start_ms": 2854,
+          "end_ms": 3505
+        },
+        {
+          "lang": "en",
+          "text": "when the light is good.",
+          "start_sample": 56074,
+          "end_sample": 77542,
+          "start_ms": 3505,
+          "end_ms": 4846
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 198,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

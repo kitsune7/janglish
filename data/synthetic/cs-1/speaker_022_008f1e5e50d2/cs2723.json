@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_022_008f1e5e50d2/cs2723.flac",
+  "sentence": "I love how the 夜景 from the window table turns dinner into something cinematic.",
+  "sample_rate": 16000,
+  "duration_ms": 4769,
+  "reference_speaker": "en/speaker_022_008f1e5e50d2.mp3",
+  "seed": 2765,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I love how the",
+      "start_sample": 0,
+      "end_sample": 12491,
+      "start_ms": 0,
+      "end_ms": 781
+    },
+    {
+      "lang": "ja",
+      "text": "夜景",
+      "start_sample": 12491,
+      "end_sample": 24752,
+      "start_ms": 781,
+      "end_ms": 1547
+    },
+    {
+      "lang": "en",
+      "text": "from the window table turns dinner into something cinematic.",
+      "start_sample": 24752,
+      "end_sample": 76297,
+      "start_ms": 1547,
+      "end_ms": 4769
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I love how the yakei from the window table turns dinner into something cinematic.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4620,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I love how the",
+          "start_sample": 0,
+          "end_sample": 12691,
+          "start_ms": 0,
+          "end_ms": 793
+        },
+        {
+          "lang": "ja",
+          "text": "夜景",
+          "start_sample": 12691,
+          "end_sample": 22173,
+          "start_ms": 793,
+          "end_ms": 1386
+        },
+        {
+          "lang": "en",
+          "text": "from the window table turns dinner into something cinematic.",
+          "start_sample": 22173,
+          "end_sample": 73918,
+          "start_ms": 1386,
+          "end_ms": 4620
+        }
+      ]
+    },
+    "ja": {
+      "text": "I love how the 夜景 from the window table turns dinner into something cinematic.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7873,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I love how the",
+          "start_sample": 0,
+          "end_sample": 25800,
+          "start_ms": 0,
+          "end_ms": 1612
+        },
+        {
+          "lang": "ja",
+          "text": "夜景",
+          "start_sample": 25800,
+          "end_sample": 38461,
+          "start_ms": 1612,
+          "end_ms": 2404
+        },
+        {
+          "lang": "en",
+          "text": "from the window table turns dinner into something cinematic.",
+          "start_sample": 38461,
+          "end_sample": 125962,
+          "start_ms": 2404,
+          "end_ms": 7873
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 239,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_089_6207739e2e58/cs7129.flac",
+  "sentence": "We read a 絵本 together every single night before bed.",
+  "sample_rate": 16000,
+  "duration_ms": 3255,
+  "reference_speaker": "jp/speaker_089_6207739e2e58.mp3",
+  "seed": 7171,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We read a",
+      "start_sample": 0,
+      "end_sample": 6875,
+      "start_ms": 0,
+      "end_ms": 430
+    },
+    {
+      "lang": "ja",
+      "text": "絵本",
+      "start_sample": 6875,
+      "end_sample": 11763,
+      "start_ms": 430,
+      "end_ms": 735
+    },
+    {
+      "lang": "en",
+      "text": "together every single night before bed.",
+      "start_sample": 11763,
+      "end_sample": 52080,
+      "start_ms": 735,
+      "end_ms": 3255
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We read a ehon together every single night before bed.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3397,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We read a",
+          "start_sample": 0,
+          "end_sample": 7075,
+          "start_ms": 0,
+          "end_ms": 442
+        },
+        {
+          "lang": "ja",
+          "text": "絵本",
+          "start_sample": 7075,
+          "end_sample": 13828,
+          "start_ms": 442,
+          "end_ms": 864
+        },
+        {
+          "lang": "en",
+          "text": "together every single night before bed.",
+          "start_sample": 13828,
+          "end_sample": 54345,
+          "start_ms": 864,
+          "end_ms": 3397
+        }
+      ]
+    },
+    "ja": {
+      "text": "We read a 絵本 together every single night before bed.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3726,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We read a",
+          "start_sample": 0,
+          "end_sample": 13142,
+          "start_ms": 0,
+          "end_ms": 821
+        },
+        {
+          "lang": "ja",
+          "text": "絵本",
+          "start_sample": 13142,
+          "end_sample": 18430,
+          "start_ms": 821,
+          "end_ms": 1152
+        },
+        {
+          "lang": "en",
+          "text": "together every single night before bed.",
+          "start_sample": 18430,
+          "end_sample": 59619,
+          "start_ms": 1152,
+          "end_ms": 3726
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 163,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

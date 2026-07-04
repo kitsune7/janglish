@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_051_2b805c12b1e0/cs8005.flac",
+  "sentence": "I feel so 懐かしい whenever I look through old family photo albums.",
+  "sample_rate": 16000,
+  "duration_ms": 5069,
+  "reference_speaker": "jp/speaker_051_2b805c12b1e0.mp3",
+  "seed": 8047,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I feel so",
+      "start_sample": 0,
+      "end_sample": 11843,
+      "start_ms": 0,
+      "end_ms": 740
+    },
+    {
+      "lang": "ja",
+      "text": "懐かしい",
+      "start_sample": 11843,
+      "end_sample": 23964,
+      "start_ms": 740,
+      "end_ms": 1498
+    },
+    {
+      "lang": "en",
+      "text": "whenever I look through old family photo albums.",
+      "start_sample": 23964,
+      "end_sample": 81105,
+      "start_ms": 1498,
+      "end_ms": 5069
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I feel so natsukashii whenever I look through old family photo albums.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5642,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I feel so",
+          "start_sample": 0,
+          "end_sample": 12043,
+          "start_ms": 0,
+          "end_ms": 753
+        },
+        {
+          "lang": "ja",
+          "text": "懐かしい",
+          "start_sample": 12043,
+          "end_sample": 32925,
+          "start_ms": 753,
+          "end_ms": 2058
+        },
+        {
+          "lang": "en",
+          "text": "whenever I look through old family photo albums.",
+          "start_sample": 32925,
+          "end_sample": 90266,
+          "start_ms": 2058,
+          "end_ms": 5642
+        }
+      ]
+    },
+    "ja": {
+      "text": "I feel so 懐かしい whenever I look through old family photo albums.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5036,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I feel so",
+          "start_sample": 0,
+          "end_sample": 11234,
+          "start_ms": 0,
+          "end_ms": 702
+        },
+        {
+          "lang": "ja",
+          "text": "懐かしい",
+          "start_sample": 11234,
+          "end_sample": 23755,
+          "start_ms": 702,
+          "end_ms": 1485
+        },
+        {
+          "lang": "en",
+          "text": "whenever I look through old family photo albums.",
+          "start_sample": 23755,
+          "end_sample": 80580,
+          "start_ms": 1485,
+          "end_ms": 5036
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 254,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

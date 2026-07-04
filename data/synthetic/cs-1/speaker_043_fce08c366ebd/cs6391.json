@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_043_fce08c366ebd/cs6391.flac",
+  "sentence": "The 朝市 was full of colors and smells we didn't expect.",
+  "sample_rate": 16000,
+  "duration_ms": 3270,
+  "reference_speaker": "en/speaker_043_fce08c366ebd.mp3",
+  "seed": 6433,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1411,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "朝市",
+      "start_sample": 1411,
+      "end_sample": 12238,
+      "start_ms": 88,
+      "end_ms": 765
+    },
+    {
+      "lang": "en",
+      "text": "was full of colors and smells we didn't expect.",
+      "start_sample": 12238,
+      "end_sample": 52314,
+      "start_ms": 765,
+      "end_ms": 3270
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The asaichi was full of colors and smells we didn't expect.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3162,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1611,
+          "start_ms": 0,
+          "end_ms": 101
+        },
+        {
+          "lang": "ja",
+          "text": "朝市",
+          "start_sample": 1611,
+          "end_sample": 10311,
+          "start_ms": 101,
+          "end_ms": 644
+        },
+        {
+          "lang": "en",
+          "text": "was full of colors and smells we didn't expect.",
+          "start_sample": 10311,
+          "end_sample": 50587,
+          "start_ms": 644,
+          "end_ms": 3162
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 朝市 was full of colors and smells we didn't expect.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3949,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1923,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "朝市",
+          "start_sample": 1923,
+          "end_sample": 13150,
+          "start_ms": 120,
+          "end_ms": 822
+        },
+        {
+          "lang": "en",
+          "text": "was full of colors and smells we didn't expect.",
+          "start_sample": 13150,
+          "end_sample": 63185,
+          "start_ms": 822,
+          "end_ms": 3949
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 164,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

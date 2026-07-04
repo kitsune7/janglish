@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_082_0d071699a4ef/cs10550.flac",
+  "sentence": "鳥のfeatherが部屋中に散らばっている。",
+  "sample_rate": 16000,
+  "duration_ms": 3276,
+  "reference_speaker": "en/speaker_082_0d071699a4ef.mp3",
+  "seed": 10592,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "鳥の",
+      "start_sample": 0,
+      "end_sample": 5592,
+      "start_ms": 0,
+      "end_ms": 350
+    },
+    {
+      "lang": "en",
+      "text": "feather",
+      "start_sample": 5592,
+      "end_sample": 15934,
+      "start_ms": 350,
+      "end_ms": 996
+    },
+    {
+      "lang": "ja",
+      "text": "が部屋中に散らばっている。",
+      "start_sample": 15934,
+      "end_sample": 52414,
+      "start_ms": 996,
+      "end_ms": 3276
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "tori no feather ga heya naka ni chirabatsu te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5170,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "鳥の",
+          "start_sample": 0,
+          "end_sample": 7374,
+          "start_ms": 0,
+          "end_ms": 461
+        },
+        {
+          "lang": "en",
+          "text": "feather",
+          "start_sample": 7374,
+          "end_sample": 18116,
+          "start_ms": 461,
+          "end_ms": 1132
+        },
+        {
+          "lang": "ja",
+          "text": "が部屋中に散らばっている。",
+          "start_sample": 18116,
+          "end_sample": 82725,
+          "start_ms": 1132,
+          "end_ms": 5170
+        }
+      ]
+    },
+    "ja": {
+      "text": "鳥のfeatherが部屋中に散らばっている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3097,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "鳥の",
+          "start_sample": 0,
+          "end_sample": 5792,
+          "start_ms": 0,
+          "end_ms": 362
+        },
+        {
+          "lang": "en",
+          "text": "feather",
+          "start_sample": 5792,
+          "end_sample": 12871,
+          "start_ms": 362,
+          "end_ms": 804
+        },
+        {
+          "lang": "ja",
+          "text": "が部屋中に散らばっている。",
+          "start_sample": 12871,
+          "end_sample": 49551,
+          "start_ms": 804,
+          "end_ms": 3097
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 164,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

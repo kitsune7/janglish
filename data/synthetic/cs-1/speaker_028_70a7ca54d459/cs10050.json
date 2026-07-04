@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_028_70a7ca54d459/cs10050.flac",
+  "sentence": "その会議はvirtualで行われる予定です。",
+  "sample_rate": 16000,
+  "duration_ms": 2695,
+  "reference_speaker": "jp/speaker_028_70a7ca54d459.mp3",
+  "seed": 10092,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その会議は",
+      "start_sample": 0,
+      "end_sample": 11182,
+      "start_ms": 0,
+      "end_ms": 699
+    },
+    {
+      "lang": "en",
+      "text": "virtual",
+      "start_sample": 11182,
+      "end_sample": 20712,
+      "start_ms": 699,
+      "end_ms": 1294
+    },
+    {
+      "lang": "ja",
+      "text": "で行われる予定です。",
+      "start_sample": 20712,
+      "end_sample": 43115,
+      "start_ms": 1294,
+      "end_ms": 2695
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono kaigi ha virtual de okonawa reru yotei desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7887,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その会議は",
+          "start_sample": 0,
+          "end_sample": 24021,
+          "start_ms": 0,
+          "end_ms": 1501
+        },
+        {
+          "lang": "en",
+          "text": "virtual",
+          "start_sample": 24021,
+          "end_sample": 33951,
+          "start_ms": 1501,
+          "end_ms": 2122
+        },
+        {
+          "lang": "ja",
+          "text": "で行われる予定です。",
+          "start_sample": 33951,
+          "end_sample": 126197,
+          "start_ms": 2122,
+          "end_ms": 7887
+        }
+      ]
+    },
+    "ja": {
+      "text": "その会議はvirtualで行われる予定です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2605,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その会議は",
+          "start_sample": 0,
+          "end_sample": 11382,
+          "start_ms": 0,
+          "end_ms": 711
+        },
+        {
+          "lang": "en",
+          "text": "virtual",
+          "start_sample": 11382,
+          "end_sample": 19078,
+          "start_ms": 711,
+          "end_ms": 1192
+        },
+        {
+          "lang": "ja",
+          "text": "で行われる予定です。",
+          "start_sample": 19078,
+          "end_sample": 41681,
+          "start_ms": 1192,
+          "end_ms": 2605
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 135,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

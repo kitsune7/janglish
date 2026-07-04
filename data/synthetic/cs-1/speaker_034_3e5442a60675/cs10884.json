@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_034_3e5442a60675/cs10884.flac",
+  "sentence": "We prepared a huge 宴会 for the relatives who came from out of town for the holiday.",
+  "sample_rate": 16000,
+  "duration_ms": 5461,
+  "reference_speaker": "jp/speaker_034_3e5442a60675.mp3",
+  "seed": 10926,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We prepared a huge",
+      "start_sample": 0,
+      "end_sample": 21645,
+      "start_ms": 0,
+      "end_ms": 1353
+    },
+    {
+      "lang": "ja",
+      "text": "宴会",
+      "start_sample": 21645,
+      "end_sample": 28310,
+      "start_ms": 1353,
+      "end_ms": 1769
+    },
+    {
+      "lang": "en",
+      "text": "for the relatives who came from out of town for the holiday.",
+      "start_sample": 28310,
+      "end_sample": 87378,
+      "start_ms": 1769,
+      "end_ms": 5461
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We prepared a huge enkai for the relatives who came from out of town for the holiday.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5702,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We prepared a huge",
+          "start_sample": 0,
+          "end_sample": 21845,
+          "start_ms": 0,
+          "end_ms": 1365
+        },
+        {
+          "lang": "ja",
+          "text": "宴会",
+          "start_sample": 21845,
+          "end_sample": 31964,
+          "start_ms": 1365,
+          "end_ms": 1998
+        },
+        {
+          "lang": "en",
+          "text": "for the relatives who came from out of town for the holiday.",
+          "start_sample": 31964,
+          "end_sample": 91232,
+          "start_ms": 1998,
+          "end_ms": 5702
+        }
+      ]
+    },
+    "ja": {
+      "text": "We prepared a huge 宴会 for the relatives who came from out of town for the holiday.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6302,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We prepared a huge",
+          "start_sample": 0,
+          "end_sample": 22960,
+          "start_ms": 0,
+          "end_ms": 1435
+        },
+        {
+          "lang": "ja",
+          "text": "宴会",
+          "start_sample": 22960,
+          "end_sample": 30025,
+          "start_ms": 1435,
+          "end_ms": 1877
+        },
+        {
+          "lang": "en",
+          "text": "for the relatives who came from out of town for the holiday.",
+          "start_sample": 30025,
+          "end_sample": 100830,
+          "start_ms": 1877,
+          "end_ms": 6302
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 274,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

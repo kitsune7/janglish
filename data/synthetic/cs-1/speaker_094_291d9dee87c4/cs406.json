@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_094_291d9dee87c4/cs406.flac",
+  "sentence": "The kitchen floor is so 汚い that I don't even want to walk on it barefoot.",
+  "sample_rate": 16000,
+  "duration_ms": 4143,
+  "reference_speaker": "en/speaker_094_291d9dee87c4.mp3",
+  "seed": 448,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The kitchen floor is so",
+      "start_sample": 0,
+      "end_sample": 16650,
+      "start_ms": 0,
+      "end_ms": 1041
+    },
+    {
+      "lang": "ja",
+      "text": "汚い",
+      "start_sample": 16650,
+      "end_sample": 24442,
+      "start_ms": 1041,
+      "end_ms": 1528
+    },
+    {
+      "lang": "en",
+      "text": "that I don't even want to walk on it barefoot.",
+      "start_sample": 24442,
+      "end_sample": 66286,
+      "start_ms": 1528,
+      "end_ms": 4143
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kitchen floor is so kitanai that I don't even want to walk on it barefoot.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4794,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The kitchen floor is so",
+          "start_sample": 0,
+          "end_sample": 16850,
+          "start_ms": 0,
+          "end_ms": 1053
+        },
+        {
+          "lang": "ja",
+          "text": "汚い",
+          "start_sample": 16850,
+          "end_sample": 34664,
+          "start_ms": 1053,
+          "end_ms": 2166
+        },
+        {
+          "lang": "en",
+          "text": "that I don't even want to walk on it barefoot.",
+          "start_sample": 34664,
+          "end_sample": 76708,
+          "start_ms": 2166,
+          "end_ms": 4794
+        }
+      ]
+    },
+    "ja": {
+      "text": "The kitchen floor is so 汚い that I don't even want to walk on it barefoot.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4979,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The kitchen floor is so",
+          "start_sample": 0,
+          "end_sample": 27302,
+          "start_ms": 0,
+          "end_ms": 1706
+        },
+        {
+          "lang": "ja",
+          "text": "汚い",
+          "start_sample": 27302,
+          "end_sample": 35494,
+          "start_ms": 1706,
+          "end_ms": 2218
+        },
+        {
+          "lang": "en",
+          "text": "that I don't even want to walk on it barefoot.",
+          "start_sample": 35494,
+          "end_sample": 79658,
+          "start_ms": 2218,
+          "end_ms": 4979
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

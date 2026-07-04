@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_033_59cc0d3a6bc8/cs4208.flac",
+  "sentence": "Nobody expected the 崖崩れ to block the only road out of town.",
+  "sample_rate": 16000,
+  "duration_ms": 5116,
+  "reference_speaker": "jp/speaker_033_59cc0d3a6bc8.mp3",
+  "seed": 4250,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Nobody expected the",
+      "start_sample": 0,
+      "end_sample": 21484,
+      "start_ms": 0,
+      "end_ms": 1343
+    },
+    {
+      "lang": "ja",
+      "text": "崖崩れ",
+      "start_sample": 21484,
+      "end_sample": 44465,
+      "start_ms": 1343,
+      "end_ms": 2779
+    },
+    {
+      "lang": "en",
+      "text": "to block the only road out of town.",
+      "start_sample": 44465,
+      "end_sample": 81848,
+      "start_ms": 2779,
+      "end_ms": 5116
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Nobody expected the gakekuzure to block the only road out of town.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4678,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Nobody expected the",
+          "start_sample": 0,
+          "end_sample": 21684,
+          "start_ms": 0,
+          "end_ms": 1355
+        },
+        {
+          "lang": "ja",
+          "text": "崖崩れ",
+          "start_sample": 21684,
+          "end_sample": 37265,
+          "start_ms": 1355,
+          "end_ms": 2329
+        },
+        {
+          "lang": "en",
+          "text": "to block the only road out of town.",
+          "start_sample": 37265,
+          "end_sample": 74848,
+          "start_ms": 2329,
+          "end_ms": 4678
+        }
+      ]
+    },
+    "ja": {
+      "text": "Nobody expected the 崖崩れ to block the only road out of town.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5685,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Nobody expected the",
+          "start_sample": 0,
+          "end_sample": 26744,
+          "start_ms": 0,
+          "end_ms": 1672
+        },
+        {
+          "lang": "ja",
+          "text": "崖崩れ",
+          "start_sample": 26744,
+          "end_sample": 50125,
+          "start_ms": 1672,
+          "end_ms": 3133
+        },
+        {
+          "lang": "en",
+          "text": "to block the only road out of town.",
+          "start_sample": 50125,
+          "end_sample": 90961,
+          "start_ms": 3133,
+          "end_ms": 5685
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 256,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

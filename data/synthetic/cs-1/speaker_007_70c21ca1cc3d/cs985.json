@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_007_70c21ca1cc3d/cs985.flac",
+  "sentence": "このカフェのcold brew コーヒーは夏に特に人気があります。",
+  "sample_rate": 16000,
+  "duration_ms": 4982,
+  "reference_speaker": "en/speaker_007_70c21ca1cc3d.mp3",
+  "seed": 1027,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このカフェの",
+      "start_sample": 0,
+      "end_sample": 12635,
+      "start_ms": 0,
+      "end_ms": 790
+    },
+    {
+      "lang": "en",
+      "text": "cold brew",
+      "start_sample": 12635,
+      "end_sample": 28417,
+      "start_ms": 790,
+      "end_ms": 1776
+    },
+    {
+      "lang": "ja",
+      "text": "コーヒーは夏に特に人気があります。",
+      "start_sample": 28417,
+      "end_sample": 79720,
+      "start_ms": 1776,
+      "end_ms": 4982
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono kafe no cold brew koohii ha natsu ni tokuni ninki ga ari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6949,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このカフェの",
+          "start_sample": 0,
+          "end_sample": 25792,
+          "start_ms": 0,
+          "end_ms": 1612
+        },
+        {
+          "lang": "en",
+          "text": "cold brew",
+          "start_sample": 25792,
+          "end_sample": 41974,
+          "start_ms": 1612,
+          "end_ms": 2623
+        },
+        {
+          "lang": "ja",
+          "text": "コーヒーは夏に特に人気があります。",
+          "start_sample": 41974,
+          "end_sample": 111182,
+          "start_ms": 2623,
+          "end_ms": 6949
+        }
+      ]
+    },
+    "ja": {
+      "text": "このカフェのcold brew コーヒーは夏に特に人気があります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4994,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このカフェの",
+          "start_sample": 0,
+          "end_sample": 12835,
+          "start_ms": 0,
+          "end_ms": 802
+        },
+        {
+          "lang": "en",
+          "text": "cold brew",
+          "start_sample": 12835,
+          "end_sample": 28400,
+          "start_ms": 802,
+          "end_ms": 1775
+        },
+        {
+          "lang": "ja",
+          "text": "コーヒーは夏に特に人気があります。",
+          "start_sample": 28400,
+          "end_sample": 79903,
+          "start_ms": 1775,
+          "end_ms": 4994
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 250,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

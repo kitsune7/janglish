@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_059_8cc960ae4dc2/cs10690.flac",
+  "sentence": "She learned that the 裏道 through the neighborhood saves twenty minutes.",
+  "sample_rate": 16000,
+  "duration_ms": 5438,
+  "reference_speaker": "en/speaker_059_8cc960ae4dc2.mp3",
+  "seed": 10732,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She learned that the",
+      "start_sample": 0,
+      "end_sample": 23404,
+      "start_ms": 0,
+      "end_ms": 1463
+    },
+    {
+      "lang": "ja",
+      "text": "裏道",
+      "start_sample": 23404,
+      "end_sample": 35350,
+      "start_ms": 1463,
+      "end_ms": 2209
+    },
+    {
+      "lang": "en",
+      "text": "through the neighborhood saves twenty minutes.",
+      "start_sample": 35350,
+      "end_sample": 87013,
+      "start_ms": 2209,
+      "end_ms": 5438
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She learned that the uramichi through the neighborhood saves twenty minutes.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5780,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She learned that the",
+          "start_sample": 0,
+          "end_sample": 23604,
+          "start_ms": 0,
+          "end_ms": 1475
+        },
+        {
+          "lang": "ja",
+          "text": "裏道",
+          "start_sample": 23604,
+          "end_sample": 40625,
+          "start_ms": 1475,
+          "end_ms": 2539
+        },
+        {
+          "lang": "en",
+          "text": "through the neighborhood saves twenty minutes.",
+          "start_sample": 40625,
+          "end_sample": 92488,
+          "start_ms": 2539,
+          "end_ms": 5780
+        }
+      ]
+    },
+    "ja": {
+      "text": "She learned that the 裏道 through the neighborhood saves twenty minutes.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5171,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She learned that the",
+          "start_sample": 0,
+          "end_sample": 21646,
+          "start_ms": 0,
+          "end_ms": 1353
+        },
+        {
+          "lang": "ja",
+          "text": "裏道",
+          "start_sample": 21646,
+          "end_sample": 33992,
+          "start_ms": 1353,
+          "end_ms": 2124
+        },
+        {
+          "lang": "en",
+          "text": "through the neighborhood saves twenty minutes.",
+          "start_sample": 33992,
+          "end_sample": 82738,
+          "start_ms": 2124,
+          "end_ms": 5171
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 272,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

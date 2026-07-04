@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_005_e790d1a6d652/cs8151.flac",
+  "sentence": "このタレはtangyでほんのり甘く、どんな肉にも合います。",
+  "sample_rate": 16000,
+  "duration_ms": 4229,
+  "reference_speaker": "en/speaker_005_e790d1a6d652.mp3",
+  "seed": 8193,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このタレは",
+      "start_sample": 0,
+      "end_sample": 13587,
+      "start_ms": 0,
+      "end_ms": 849
+    },
+    {
+      "lang": "en",
+      "text": "tangy",
+      "start_sample": 13587,
+      "end_sample": 22654,
+      "start_ms": 849,
+      "end_ms": 1416
+    },
+    {
+      "lang": "ja",
+      "text": "でほんのり甘く、どんな肉にも合います。",
+      "start_sample": 22654,
+      "end_sample": 67671,
+      "start_ms": 1416,
+      "end_ms": 4229
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono tare ha tangy de honnori amaku donna niku ni mo ai masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7381,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このタレは",
+          "start_sample": 0,
+          "end_sample": 26797,
+          "start_ms": 0,
+          "end_ms": 1675
+        },
+        {
+          "lang": "en",
+          "text": "tangy",
+          "start_sample": 26797,
+          "end_sample": 36264,
+          "start_ms": 1675,
+          "end_ms": 2266
+        },
+        {
+          "lang": "ja",
+          "text": "でほんのり甘く、どんな肉にも合います。",
+          "start_sample": 36264,
+          "end_sample": 118098,
+          "start_ms": 2266,
+          "end_ms": 7381
+        }
+      ]
+    },
+    "ja": {
+      "text": "このタレはtangyでほんのり甘く、どんな肉にも合います。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4329,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このタレは",
+          "start_sample": 0,
+          "end_sample": 13787,
+          "start_ms": 0,
+          "end_ms": 862
+        },
+        {
+          "lang": "en",
+          "text": "tangy",
+          "start_sample": 13787,
+          "end_sample": 24050,
+          "start_ms": 862,
+          "end_ms": 1503
+        },
+        {
+          "lang": "ja",
+          "text": "でほんのり甘く、どんな肉にも合います。",
+          "start_sample": 24050,
+          "end_sample": 69267,
+          "start_ms": 1503,
+          "end_ms": 4329
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 212,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

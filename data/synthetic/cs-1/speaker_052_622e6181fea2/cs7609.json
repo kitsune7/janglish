@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_052_622e6181fea2/cs7609.flac",
+  "sentence": "My 朝ごはん has gotten fancier now that I actually have time to cook it.",
+  "sample_rate": 16000,
+  "duration_ms": 5246,
+  "reference_speaker": "en/speaker_052_622e6181fea2.mp3",
+  "seed": 7651,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My",
+      "start_sample": 0,
+      "end_sample": 2201,
+      "start_ms": 0,
+      "end_ms": 138
+    },
+    {
+      "lang": "ja",
+      "text": "朝ごはん",
+      "start_sample": 2201,
+      "end_sample": 13510,
+      "start_ms": 138,
+      "end_ms": 844
+    },
+    {
+      "lang": "en",
+      "text": "has gotten fancier now that I actually have time to cook it.",
+      "start_sample": 13510,
+      "end_sample": 83935,
+      "start_ms": 844,
+      "end_ms": 5246
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My asagohan has gotten fancier now that I actually have time to cook it.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5165,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 2401,
+          "start_ms": 0,
+          "end_ms": 150
+        },
+        {
+          "lang": "ja",
+          "text": "朝ごはん",
+          "start_sample": 2401,
+          "end_sample": 12011,
+          "start_ms": 150,
+          "end_ms": 751
+        },
+        {
+          "lang": "en",
+          "text": "has gotten fancier now that I actually have time to cook it.",
+          "start_sample": 12011,
+          "end_sample": 82636,
+          "start_ms": 751,
+          "end_ms": 5165
+        }
+      ]
+    },
+    "ja": {
+      "text": "My 朝ごはん has gotten fancier now that I actually have time to cook it.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5153,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 3689,
+          "start_ms": 0,
+          "end_ms": 231
+        },
+        {
+          "lang": "ja",
+          "text": "朝ごはん",
+          "start_sample": 3689,
+          "end_sample": 15398,
+          "start_ms": 231,
+          "end_ms": 962
+        },
+        {
+          "lang": "en",
+          "text": "has gotten fancier now that I actually have time to cook it.",
+          "start_sample": 15398,
+          "end_sample": 82443,
+          "start_ms": 962,
+          "end_ms": 5153
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 263,
+  "frame_labels": "eeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

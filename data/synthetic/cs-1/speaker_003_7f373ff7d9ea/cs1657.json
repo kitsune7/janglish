@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_003_7f373ff7d9ea/cs1657.flac",
+  "sentence": "The shelter is 満員 right now, so they're urgently looking for foster homes.",
+  "sample_rate": 16000,
+  "duration_ms": 4678,
+  "reference_speaker": "jp/speaker_003_7f373ff7d9ea.mp3",
+  "seed": 1699,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The shelter is",
+      "start_sample": 0,
+      "end_sample": 11525,
+      "start_ms": 0,
+      "end_ms": 720
+    },
+    {
+      "lang": "ja",
+      "text": "満員",
+      "start_sample": 11525,
+      "end_sample": 18188,
+      "start_ms": 720,
+      "end_ms": 1137
+    },
+    {
+      "lang": "en",
+      "text": "right now, so they're urgently looking for foster homes.",
+      "start_sample": 18188,
+      "end_sample": 74847,
+      "start_ms": 1137,
+      "end_ms": 4678
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shelter is man'in right now, so they're urgently looking for foster homes.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4678,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The shelter is",
+          "start_sample": 0,
+          "end_sample": 11725,
+          "start_ms": 0,
+          "end_ms": 733
+        },
+        {
+          "lang": "ja",
+          "text": "満員",
+          "start_sample": 11725,
+          "end_sample": 17989,
+          "start_ms": 733,
+          "end_ms": 1124
+        },
+        {
+          "lang": "en",
+          "text": "right now, so they're urgently looking for foster homes.",
+          "start_sample": 17989,
+          "end_sample": 74848,
+          "start_ms": 1124,
+          "end_ms": 4678
+        }
+      ]
+    },
+    "ja": {
+      "text": "The shelter is 満員 right now, so they're urgently looking for foster homes.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5899,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The shelter is",
+          "start_sample": 0,
+          "end_sample": 20065,
+          "start_ms": 0,
+          "end_ms": 1254
+        },
+        {
+          "lang": "ja",
+          "text": "満員",
+          "start_sample": 20065,
+          "end_sample": 27128,
+          "start_ms": 1254,
+          "end_ms": 1696
+        },
+        {
+          "lang": "en",
+          "text": "right now, so they're urgently looking for foster homes.",
+          "start_sample": 27128,
+          "end_sample": 94387,
+          "start_ms": 1696,
+          "end_ms": 5899
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 234,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

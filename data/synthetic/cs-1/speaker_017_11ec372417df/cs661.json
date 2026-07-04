@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_017_11ec372417df/cs661.flac",
+  "sentence": "野菜をsteamedにすると、栄養素が逃げにくいと聞きました。",
+  "sample_rate": 16000,
+  "duration_ms": 4520,
+  "reference_speaker": "en/speaker_017_11ec372417df.mp3",
+  "seed": 703,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "野菜を",
+      "start_sample": 0,
+      "end_sample": 6853,
+      "start_ms": 0,
+      "end_ms": 428
+    },
+    {
+      "lang": "en",
+      "text": "steamed",
+      "start_sample": 6853,
+      "end_sample": 25865,
+      "start_ms": 428,
+      "end_ms": 1617
+    },
+    {
+      "lang": "ja",
+      "text": "にすると、栄養素が逃げにくいと聞きました。",
+      "start_sample": 25865,
+      "end_sample": 72314,
+      "start_ms": 1617,
+      "end_ms": 4520
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "yasai wo steamed ni suru to eiyou moto ga nige nikui to kiki mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7520,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "野菜を",
+          "start_sample": 0,
+          "end_sample": 13475,
+          "start_ms": 0,
+          "end_ms": 842
+        },
+        {
+          "lang": "en",
+          "text": "steamed",
+          "start_sample": 13475,
+          "end_sample": 32887,
+          "start_ms": 842,
+          "end_ms": 2055
+        },
+        {
+          "lang": "ja",
+          "text": "にすると、栄養素が逃げにくいと聞きました。",
+          "start_sample": 32887,
+          "end_sample": 120320,
+          "start_ms": 2055,
+          "end_ms": 7520
+        }
+      ]
+    },
+    "ja": {
+      "text": "野菜をsteamedにすると、栄養素が逃げにくいと聞きました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3968,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "野菜を",
+          "start_sample": 0,
+          "end_sample": 7053,
+          "start_ms": 0,
+          "end_ms": 441
+        },
+        {
+          "lang": "en",
+          "text": "steamed",
+          "start_sample": 7053,
+          "end_sample": 16832,
+          "start_ms": 441,
+          "end_ms": 1052
+        },
+        {
+          "lang": "ja",
+          "text": "にすると、栄養素が逃げにくいと聞きました。",
+          "start_sample": 16832,
+          "end_sample": 63481,
+          "start_ms": 1052,
+          "end_ms": 3968
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 226,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_049_4b799abf92c3/cs9745.flac",
+  "sentence": "彼はpanel 面接がとても苦手だと言っていました。",
+  "sample_rate": 16000,
+  "duration_ms": 4422,
+  "reference_speaker": "en/speaker_049_4b799abf92c3.mp3",
+  "seed": 9787,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼は",
+      "start_sample": 0,
+      "end_sample": 7348,
+      "start_ms": 0,
+      "end_ms": 459
+    },
+    {
+      "lang": "en",
+      "text": "panel",
+      "start_sample": 7348,
+      "end_sample": 29202,
+      "start_ms": 459,
+      "end_ms": 1825
+    },
+    {
+      "lang": "ja",
+      "text": "面接がとても苦手だと言っていました。",
+      "start_sample": 29202,
+      "end_sample": 70756,
+      "start_ms": 1825,
+      "end_ms": 4422
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha panel mensetsu ga totemo nigate da to itsutsu te i mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10086,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 22734,
+          "start_ms": 0,
+          "end_ms": 1421
+        },
+        {
+          "lang": "en",
+          "text": "panel",
+          "start_sample": 22734,
+          "end_sample": 44988,
+          "start_ms": 1421,
+          "end_ms": 2812
+        },
+        {
+          "lang": "ja",
+          "text": "面接がとても苦手だと言っていました。",
+          "start_sample": 44988,
+          "end_sample": 161383,
+          "start_ms": 2812,
+          "end_ms": 10086
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はpanel 面接がとても苦手だと言っていました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3513,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 7548,
+          "start_ms": 0,
+          "end_ms": 472
+        },
+        {
+          "lang": "en",
+          "text": "panel",
+          "start_sample": 7548,
+          "end_sample": 14454,
+          "start_ms": 472,
+          "end_ms": 903
+        },
+        {
+          "lang": "ja",
+          "text": "面接がとても苦手だと言っていました。",
+          "start_sample": 14454,
+          "end_sample": 56208,
+          "start_ms": 903,
+          "end_ms": 3513
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 222,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

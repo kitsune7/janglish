@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_026_f1fcfd0f4786/cs8900.flac",
+  "sentence": "彼はstressで体を壊してしまった。",
+  "sample_rate": 16000,
+  "duration_ms": 2395,
+  "reference_speaker": "jp/speaker_026_f1fcfd0f4786.mp3",
+  "seed": 8942,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼は",
+      "start_sample": 0,
+      "end_sample": 4476,
+      "start_ms": 0,
+      "end_ms": 280
+    },
+    {
+      "lang": "en",
+      "text": "stress",
+      "start_sample": 4476,
+      "end_sample": 16280,
+      "start_ms": 280,
+      "end_ms": 1018
+    },
+    {
+      "lang": "ja",
+      "text": "で体を壊してしまった。",
+      "start_sample": 16280,
+      "end_sample": 38326,
+      "start_ms": 1018,
+      "end_ms": 2395
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha stress de karada wo kowashi te shimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5700,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 23604,
+          "start_ms": 0,
+          "end_ms": 1475
+        },
+        {
+          "lang": "en",
+          "text": "stress",
+          "start_sample": 23604,
+          "end_sample": 35808,
+          "start_ms": 1475,
+          "end_ms": 2238
+        },
+        {
+          "lang": "ja",
+          "text": "で体を壊してしまった。",
+          "start_sample": 35808,
+          "end_sample": 91203,
+          "start_ms": 2238,
+          "end_ms": 5700
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はstressで体を壊してしまった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2076,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 4676,
+          "start_ms": 0,
+          "end_ms": 292
+        },
+        {
+          "lang": "en",
+          "text": "stress",
+          "start_sample": 4676,
+          "end_sample": 10964,
+          "start_ms": 292,
+          "end_ms": 685
+        },
+        {
+          "lang": "ja",
+          "text": "で体を壊してしまった。",
+          "start_sample": 10964,
+          "end_sample": 33210,
+          "start_ms": 685,
+          "end_ms": 2076
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 120,
+  "frame_labels": "jjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

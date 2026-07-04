@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_013_e472ee9e6d56/cs4915.flac",
+  "sentence": "昨日、高速でspeed limitを超えてしまいました。",
+  "sample_rate": 16000,
+  "duration_ms": 4638,
+  "reference_speaker": "jp/speaker_013_e472ee9e6d56.mp3",
+  "seed": 4957,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "昨日、高速で",
+      "start_sample": 0,
+      "end_sample": 20316,
+      "start_ms": 0,
+      "end_ms": 1270
+    },
+    {
+      "lang": "en",
+      "text": "speed limit",
+      "start_sample": 20316,
+      "end_sample": 53420,
+      "start_ms": 1270,
+      "end_ms": 3339
+    },
+    {
+      "lang": "ja",
+      "text": "を超えてしまいました。",
+      "start_sample": 53420,
+      "end_sample": 74216,
+      "start_ms": 3339,
+      "end_ms": 4638
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kinou kousoku de speed limit wo koe te shimai mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5450,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "昨日、高速で",
+          "start_sample": 0,
+          "end_sample": 20518,
+          "start_ms": 0,
+          "end_ms": 1282
+        },
+        {
+          "lang": "en",
+          "text": "speed limit",
+          "start_sample": 20518,
+          "end_sample": 54022,
+          "start_ms": 1282,
+          "end_ms": 3376
+        },
+        {
+          "lang": "ja",
+          "text": "を超えてしまいました。",
+          "start_sample": 54022,
+          "end_sample": 87204,
+          "start_ms": 3376,
+          "end_ms": 5450
+        }
+      ]
+    },
+    "ja": {
+      "text": "昨日、高速でspeed limitを超えてしまいました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3326,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "昨日、高速で",
+          "start_sample": 0,
+          "end_sample": 20516,
+          "start_ms": 0,
+          "end_ms": 1282
+        },
+        {
+          "lang": "en",
+          "text": "speed limit",
+          "start_sample": 20516,
+          "end_sample": 32217,
+          "start_ms": 1282,
+          "end_ms": 2014
+        },
+        {
+          "lang": "ja",
+          "text": "を超えてしまいました。",
+          "start_sample": 32217,
+          "end_sample": 53213,
+          "start_ms": 2014,
+          "end_ms": 3326
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 232,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

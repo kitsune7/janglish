@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_047_6ac706d7456d/cs714.flac",
+  "sentence": "My 祖父 still remembers every single person he ever met.",
+  "sample_rate": 16000,
+  "duration_ms": 4229,
+  "reference_speaker": "jp/speaker_047_6ac706d7456d.mp3",
+  "seed": 756,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My",
+      "start_sample": 0,
+      "end_sample": 3968,
+      "start_ms": 0,
+      "end_ms": 248
+    },
+    {
+      "lang": "ja",
+      "text": "祖父",
+      "start_sample": 3968,
+      "end_sample": 15592,
+      "start_ms": 248,
+      "end_ms": 974
+    },
+    {
+      "lang": "en",
+      "text": "still remembers every single person he ever met.",
+      "start_sample": 15592,
+      "end_sample": 67663,
+      "start_ms": 974,
+      "end_ms": 4229
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My sofu still remembers every single person he ever met.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4109,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 4168,
+          "start_ms": 0,
+          "end_ms": 260
+        },
+        {
+          "lang": "ja",
+          "text": "祖父",
+          "start_sample": 4168,
+          "end_sample": 13468,
+          "start_ms": 260,
+          "end_ms": 842
+        },
+        {
+          "lang": "en",
+          "text": "still remembers every single person he ever met.",
+          "start_sample": 13468,
+          "end_sample": 65739,
+          "start_ms": 842,
+          "end_ms": 4109
+        }
+      ]
+    },
+    "ja": {
+      "text": "My 祖父 still remembers every single person he ever met.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6673,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 6571,
+          "start_ms": 0,
+          "end_ms": 411
+        },
+        {
+          "lang": "ja",
+          "text": "祖父",
+          "start_sample": 6571,
+          "end_sample": 18595,
+          "start_ms": 411,
+          "end_ms": 1162
+        },
+        {
+          "lang": "en",
+          "text": "still remembers every single person he ever met.",
+          "start_sample": 18595,
+          "end_sample": 106766,
+          "start_ms": 1162,
+          "end_ms": 6673
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 212,
+  "frame_labels": "eeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

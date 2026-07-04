@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_087_849529715d29/cs10840.flac",
+  "sentence": "There's leftover 炊き込みご飯 in the rice cooker if you're hungry.",
+  "sample_rate": 16000,
+  "duration_ms": 5243,
+  "reference_speaker": "jp/speaker_087_849529715d29.mp3",
+  "seed": 10882,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "There's leftover",
+      "start_sample": 0,
+      "end_sample": 16324,
+      "start_ms": 0,
+      "end_ms": 1020
+    },
+    {
+      "lang": "ja",
+      "text": "炊き込みご飯",
+      "start_sample": 16324,
+      "end_sample": 35476,
+      "start_ms": 1020,
+      "end_ms": 2217
+    },
+    {
+      "lang": "en",
+      "text": "in the rice cooker if you're hungry.",
+      "start_sample": 35476,
+      "end_sample": 83886,
+      "start_ms": 2217,
+      "end_ms": 5243
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "There's leftover takikomi gomeshi in the rice cooker if you're hungry.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6116,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "There's leftover",
+          "start_sample": 0,
+          "end_sample": 16524,
+          "start_ms": 0,
+          "end_ms": 1033
+        },
+        {
+          "lang": "ja",
+          "text": "炊き込みご飯",
+          "start_sample": 16524,
+          "end_sample": 49253,
+          "start_ms": 1033,
+          "end_ms": 3078
+        },
+        {
+          "lang": "en",
+          "text": "in the rice cooker if you're hungry.",
+          "start_sample": 49253,
+          "end_sample": 97863,
+          "start_ms": 3078,
+          "end_ms": 6116
+        }
+      ]
+    },
+    "ja": {
+      "text": "There's leftover 炊き込みご飯 in the rice cooker if you're hungry.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4547,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "There's leftover",
+          "start_sample": 0,
+          "end_sample": 17466,
+          "start_ms": 0,
+          "end_ms": 1092
+        },
+        {
+          "lang": "ja",
+          "text": "炊き込みご飯",
+          "start_sample": 17466,
+          "end_sample": 37018,
+          "start_ms": 1092,
+          "end_ms": 2314
+        },
+        {
+          "lang": "en",
+          "text": "in the rice cooker if you're hungry.",
+          "start_sample": 37018,
+          "end_sample": 72754,
+          "start_ms": 2314,
+          "end_ms": 4547
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 263,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

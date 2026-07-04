@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_066_73a931d5f7bb/cs6098.flac",
+  "sentence": "I appreciate when people send a 確認 text after making plans.",
+  "sample_rate": 16000,
+  "duration_ms": 4067,
+  "reference_speaker": "en/speaker_066_73a931d5f7bb.mp3",
+  "seed": 6140,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I appreciate when people send a",
+      "start_sample": 0,
+      "end_sample": 23198,
+      "start_ms": 0,
+      "end_ms": 1450
+    },
+    {
+      "lang": "ja",
+      "text": "確認",
+      "start_sample": 23198,
+      "end_sample": 31288,
+      "start_ms": 1450,
+      "end_ms": 1956
+    },
+    {
+      "lang": "en",
+      "text": "text after making plans.",
+      "start_sample": 31288,
+      "end_sample": 65065,
+      "start_ms": 1956,
+      "end_ms": 4067
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I appreciate when people send a kakunin text after making plans.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4147,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I appreciate when people send a",
+          "start_sample": 0,
+          "end_sample": 23398,
+          "start_ms": 0,
+          "end_ms": 1462
+        },
+        {
+          "lang": "ja",
+          "text": "確認",
+          "start_sample": 23398,
+          "end_sample": 32373,
+          "start_ms": 1462,
+          "end_ms": 2023
+        },
+        {
+          "lang": "en",
+          "text": "text after making plans.",
+          "start_sample": 32373,
+          "end_sample": 66350,
+          "start_ms": 2023,
+          "end_ms": 4147
+        }
+      ]
+    },
+    "ja": {
+      "text": "I appreciate when people send a 確認 text after making plans.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5326,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I appreciate when people send a",
+          "start_sample": 0,
+          "end_sample": 43093,
+          "start_ms": 0,
+          "end_ms": 2693
+        },
+        {
+          "lang": "ja",
+          "text": "確認",
+          "start_sample": 43093,
+          "end_sample": 51583,
+          "start_ms": 2693,
+          "end_ms": 3224
+        },
+        {
+          "lang": "en",
+          "text": "text after making plans.",
+          "start_sample": 51583,
+          "end_sample": 85224,
+          "start_ms": 3224,
+          "end_ms": 5326
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

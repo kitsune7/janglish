@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_040_473e7a57e696/cs4909.flac",
+  "sentence": "あの交差点でleft turnするのを忘れないでください。",
+  "sample_rate": 16000,
+  "duration_ms": 4781,
+  "reference_speaker": "jp/speaker_040_473e7a57e696.mp3",
+  "seed": 4951,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの交差点で",
+      "start_sample": 0,
+      "end_sample": 14430,
+      "start_ms": 0,
+      "end_ms": 902
+    },
+    {
+      "lang": "en",
+      "text": "left turn",
+      "start_sample": 14430,
+      "end_sample": 51139,
+      "start_ms": 902,
+      "end_ms": 3196
+    },
+    {
+      "lang": "ja",
+      "text": "するのを忘れないでください。",
+      "start_sample": 51139,
+      "end_sample": 76498,
+      "start_ms": 3196,
+      "end_ms": 4781
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano kousa ten de left turn suru no wo wasure nai de kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5823,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの交差点で",
+          "start_sample": 0,
+          "end_sample": 15903,
+          "start_ms": 0,
+          "end_ms": 994
+        },
+        {
+          "lang": "en",
+          "text": "left turn",
+          "start_sample": 15903,
+          "end_sample": 53012,
+          "start_ms": 994,
+          "end_ms": 3313
+        },
+        {
+          "lang": "ja",
+          "text": "するのを忘れないでください。",
+          "start_sample": 53012,
+          "end_sample": 93169,
+          "start_ms": 3313,
+          "end_ms": 5823
+        }
+      ]
+    },
+    "ja": {
+      "text": "あの交差点でleft turnするのを忘れないでください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3135,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの交差点で",
+          "start_sample": 0,
+          "end_sample": 14630,
+          "start_ms": 0,
+          "end_ms": 914
+        },
+        {
+          "lang": "en",
+          "text": "left turn",
+          "start_sample": 14630,
+          "end_sample": 24599,
+          "start_ms": 914,
+          "end_ms": 1537
+        },
+        {
+          "lang": "ja",
+          "text": "するのを忘れないでください。",
+          "start_sample": 24599,
+          "end_sample": 50158,
+          "start_ms": 1537,
+          "end_ms": 3135
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 240,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

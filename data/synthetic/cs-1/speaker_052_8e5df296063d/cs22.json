@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_052_8e5df296063d/cs22.flac",
+  "sentence": "新しいphoneを昨日買いました。",
+  "sample_rate": 16000,
+  "duration_ms": 2314,
+  "reference_speaker": "jp/speaker_052_8e5df296063d.mp3",
+  "seed": 64,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "新しい",
+      "start_sample": 0,
+      "end_sample": 8829,
+      "start_ms": 0,
+      "end_ms": 552
+    },
+    {
+      "lang": "en",
+      "text": "phone",
+      "start_sample": 8829,
+      "end_sample": 19007,
+      "start_ms": 552,
+      "end_ms": 1188
+    },
+    {
+      "lang": "ja",
+      "text": "を昨日買いました。",
+      "start_sample": 19007,
+      "end_sample": 37020,
+      "start_ms": 1188,
+      "end_ms": 2314
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "atarashii phone wo kinou kai mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5028,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 17309,
+          "start_ms": 0,
+          "end_ms": 1082
+        },
+        {
+          "lang": "en",
+          "text": "phone",
+          "start_sample": 17309,
+          "end_sample": 27887,
+          "start_ms": 1082,
+          "end_ms": 1743
+        },
+        {
+          "lang": "ja",
+          "text": "を昨日買いました。",
+          "start_sample": 27887,
+          "end_sample": 80456,
+          "start_ms": 1743,
+          "end_ms": 5028
+        }
+      ]
+    },
+    "ja": {
+      "text": "新しいphoneを昨日買いました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2015,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 9029,
+          "start_ms": 0,
+          "end_ms": 564
+        },
+        {
+          "lang": "en",
+          "text": "phone",
+          "start_sample": 9029,
+          "end_sample": 14028,
+          "start_ms": 564,
+          "end_ms": 877
+        },
+        {
+          "lang": "ja",
+          "text": "を昨日買いました。",
+          "start_sample": 14028,
+          "end_sample": 32241,
+          "start_ms": 877,
+          "end_ms": 2015
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 116,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_092_08c69e35de07/cs4984.flac",
+  "sentence": "昨日の朝、intersectionで信号が壊れていた。",
+  "sample_rate": 16000,
+  "duration_ms": 3933,
+  "reference_speaker": "jp/speaker_092_08c69e35de07.mp3",
+  "seed": 5026,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "昨日の朝、",
+      "start_sample": 0,
+      "end_sample": 14413,
+      "start_ms": 0,
+      "end_ms": 901
+    },
+    {
+      "lang": "en",
+      "text": "intersection",
+      "start_sample": 14413,
+      "end_sample": 39194,
+      "start_ms": 901,
+      "end_ms": 2450
+    },
+    {
+      "lang": "ja",
+      "text": "で信号が壊れていた。",
+      "start_sample": 39194,
+      "end_sample": 62924,
+      "start_ms": 2450,
+      "end_ms": 3933
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kinou no asa intersection de shingou ga koware te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7358,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "昨日の朝、",
+          "start_sample": 0,
+          "end_sample": 30153,
+          "start_ms": 0,
+          "end_ms": 1885
+        },
+        {
+          "lang": "en",
+          "text": "intersection",
+          "start_sample": 30153,
+          "end_sample": 55334,
+          "start_ms": 1885,
+          "end_ms": 3458
+        },
+        {
+          "lang": "ja",
+          "text": "で信号が壊れていた。",
+          "start_sample": 55334,
+          "end_sample": 117724,
+          "start_ms": 3458,
+          "end_ms": 7358
+        }
+      ]
+    },
+    "ja": {
+      "text": "昨日の朝、intersectionで信号が壊れていた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3292,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "昨日の朝、",
+          "start_sample": 0,
+          "end_sample": 14613,
+          "start_ms": 0,
+          "end_ms": 913
+        },
+        {
+          "lang": "en",
+          "text": "intersection",
+          "start_sample": 14613,
+          "end_sample": 28748,
+          "start_ms": 913,
+          "end_ms": 1797
+        },
+        {
+          "lang": "ja",
+          "text": "で信号が壊れていた。",
+          "start_sample": 28748,
+          "end_sample": 52678,
+          "start_ms": 1797,
+          "end_ms": 3292
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 197,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

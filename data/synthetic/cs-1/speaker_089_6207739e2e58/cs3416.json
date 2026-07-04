@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_089_6207739e2e58/cs3416.flac",
+  "sentence": "お釣りにcoinがたくさん出て、財布がパンパンになった。",
+  "sample_rate": 16000,
+  "duration_ms": 3415,
+  "reference_speaker": "jp/speaker_089_6207739e2e58.mp3",
+  "seed": 3458,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "お釣りに",
+      "start_sample": 0,
+      "end_sample": 8313,
+      "start_ms": 0,
+      "end_ms": 520
+    },
+    {
+      "lang": "en",
+      "text": "coin",
+      "start_sample": 8313,
+      "end_sample": 13216,
+      "start_ms": 520,
+      "end_ms": 826
+    },
+    {
+      "lang": "ja",
+      "text": "がたくさん出て、財布がパンパンになった。",
+      "start_sample": 13216,
+      "end_sample": 54636,
+      "start_ms": 826,
+      "end_ms": 3415
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "o tsuri ni coin ga takusan shutsu te saifu ga panpan ni natsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4418,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お釣りに",
+          "start_sample": 0,
+          "end_sample": 10601,
+          "start_ms": 0,
+          "end_ms": 663
+        },
+        {
+          "lang": "en",
+          "text": "coin",
+          "start_sample": 10601,
+          "end_sample": 15904,
+          "start_ms": 663,
+          "end_ms": 994
+        },
+        {
+          "lang": "ja",
+          "text": "がたくさん出て、財布がパンパンになった。",
+          "start_sample": 15904,
+          "end_sample": 70696,
+          "start_ms": 994,
+          "end_ms": 4418
+        }
+      ]
+    },
+    "ja": {
+      "text": "お釣りにcoinがたくさん出て、財布がパンパンになった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3495,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お釣りに",
+          "start_sample": 0,
+          "end_sample": 8513,
+          "start_ms": 0,
+          "end_ms": 532
+        },
+        {
+          "lang": "en",
+          "text": "coin",
+          "start_sample": 8513,
+          "end_sample": 14299,
+          "start_ms": 532,
+          "end_ms": 894
+        },
+        {
+          "lang": "ja",
+          "text": "がたくさん出て、財布がパンパンになった。",
+          "start_sample": 14299,
+          "end_sample": 55919,
+          "start_ms": 894,
+          "end_ms": 3495
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 171,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

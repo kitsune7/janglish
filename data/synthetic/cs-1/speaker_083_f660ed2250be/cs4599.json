@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_083_f660ed2250be/cs4599.flac",
+  "sentence": "mixedなメッセージのせいで対応が遅れてしまった。",
+  "sample_rate": 16000,
+  "duration_ms": 2988,
+  "reference_speaker": "jp/speaker_083_f660ed2250be.mp3",
+  "seed": 4641,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "mixed",
+      "start_sample": 0,
+      "end_sample": 8298,
+      "start_ms": 0,
+      "end_ms": 519
+    },
+    {
+      "lang": "ja",
+      "text": "なメッセージのせいで対応が遅れてしまった。",
+      "start_sample": 8298,
+      "end_sample": 47802,
+      "start_ms": 519,
+      "end_ms": 2988
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mixed na messeeji no sei de taiou ga okure te shimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5211,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "mixed",
+          "start_sample": 0,
+          "end_sample": 8498,
+          "start_ms": 0,
+          "end_ms": 531
+        },
+        {
+          "lang": "ja",
+          "text": "なメッセージのせいで対応が遅れてしまった。",
+          "start_sample": 8498,
+          "end_sample": 83380,
+          "start_ms": 531,
+          "end_ms": 5211
+        }
+      ]
+    },
+    "ja": {
+      "text": "mixedなメッセージのせいで対応が遅れてしまった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3054,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "mixed",
+          "start_sample": 0,
+          "end_sample": 9159,
+          "start_ms": 0,
+          "end_ms": 572
+        },
+        {
+          "lang": "ja",
+          "text": "なメッセージのせいで対応が遅れてしまった。",
+          "start_sample": 9159,
+          "end_sample": 48863,
+          "start_ms": 572,
+          "end_ms": 3054
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 150,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

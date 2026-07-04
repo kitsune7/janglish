@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_022_b672c364242e/cs3753.flac",
+  "sentence": "春のbreeze（そよ風）が窓から入ってきて、気持ちよかった。",
+  "sample_rate": 16000,
+  "duration_ms": 4711,
+  "reference_speaker": "jp/speaker_022_b672c364242e.mp3",
+  "seed": 3795,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "春の",
+      "start_sample": 0,
+      "end_sample": 5413,
+      "start_ms": 0,
+      "end_ms": 338
+    },
+    {
+      "lang": "en",
+      "text": "breeze（",
+      "start_sample": 5413,
+      "end_sample": 19117,
+      "start_ms": 338,
+      "end_ms": 1195
+    },
+    {
+      "lang": "ja",
+      "text": "そよ風）が窓から入ってきて、気持ちよかった。",
+      "start_sample": 19117,
+      "end_sample": 75376,
+      "start_ms": 1195,
+      "end_ms": 4711
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "haru no breeze（ soyokaze ga mado kara itsutsu te ki te kimochi yokatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8594,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "春の",
+          "start_sample": 0,
+          "end_sample": 14583,
+          "start_ms": 0,
+          "end_ms": 911
+        },
+        {
+          "lang": "en",
+          "text": "breeze（",
+          "start_sample": 14583,
+          "end_sample": 28687,
+          "start_ms": 911,
+          "end_ms": 1793
+        },
+        {
+          "lang": "ja",
+          "text": "そよ風）が窓から入ってきて、気持ちよかった。",
+          "start_sample": 28687,
+          "end_sample": 137511,
+          "start_ms": 1793,
+          "end_ms": 8594
+        }
+      ]
+    },
+    "ja": {
+      "text": "春のbreeze（そよ風）が窓から入ってきて、気持ちよかった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4511,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "春の",
+          "start_sample": 0,
+          "end_sample": 5613,
+          "start_ms": 0,
+          "end_ms": 351
+        },
+        {
+          "lang": "en",
+          "text": "breeze（",
+          "start_sample": 5613,
+          "end_sample": 15718,
+          "start_ms": 351,
+          "end_ms": 982
+        },
+        {
+          "lang": "ja",
+          "text": "そよ風）が窓から入ってきて、気持ちよかった。",
+          "start_sample": 15718,
+          "end_sample": 72177,
+          "start_ms": 982,
+          "end_ms": 4511
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 236,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

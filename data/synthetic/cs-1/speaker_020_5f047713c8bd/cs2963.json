@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_020_5f047713c8bd/cs2963.flac",
+  "sentence": "He spent twenty minutes on his 眉毛 before the date.",
+  "sample_rate": 16000,
+  "duration_ms": 3502,
+  "reference_speaker": "en/speaker_020_5f047713c8bd.mp3",
+  "seed": 3005,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He spent twenty minutes on his",
+      "start_sample": 0,
+      "end_sample": 24679,
+      "start_ms": 0,
+      "end_ms": 1542
+    },
+    {
+      "lang": "ja",
+      "text": "眉毛",
+      "start_sample": 24679,
+      "end_sample": 37609,
+      "start_ms": 1542,
+      "end_ms": 2351
+    },
+    {
+      "lang": "en",
+      "text": "before the date.",
+      "start_sample": 37609,
+      "end_sample": 56026,
+      "start_ms": 2351,
+      "end_ms": 3502
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He spent twenty minutes on his mayuge before the date.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3551,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He spent twenty minutes on his",
+          "start_sample": 0,
+          "end_sample": 24879,
+          "start_ms": 0,
+          "end_ms": 1555
+        },
+        {
+          "lang": "ja",
+          "text": "眉毛",
+          "start_sample": 24879,
+          "end_sample": 38203,
+          "start_ms": 1555,
+          "end_ms": 2388
+        },
+        {
+          "lang": "en",
+          "text": "before the date.",
+          "start_sample": 38203,
+          "end_sample": 56820,
+          "start_ms": 2388,
+          "end_ms": 3551
+        }
+      ]
+    },
+    "ja": {
+      "text": "He spent twenty minutes on his 眉毛 before the date.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4497,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He spent twenty minutes on his",
+          "start_sample": 0,
+          "end_sample": 33405,
+          "start_ms": 0,
+          "end_ms": 2088
+        },
+        {
+          "lang": "ja",
+          "text": "眉毛",
+          "start_sample": 33405,
+          "end_sample": 46735,
+          "start_ms": 2088,
+          "end_ms": 2921
+        },
+        {
+          "lang": "en",
+          "text": "before the date.",
+          "start_sample": 46735,
+          "end_sample": 71947,
+          "start_ms": 2921,
+          "end_ms": 4497
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 176,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

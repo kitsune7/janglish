@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_014_9db071da66e5/cs3984.flac",
+  "sentence": "She finally worked up the 勇気 to tell him how she felt.",
+  "sample_rate": 16000,
+  "duration_ms": 2651,
+  "reference_speaker": "en/speaker_014_9db071da66e5.mp3",
+  "seed": 4026,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She finally worked up the",
+      "start_sample": 0,
+      "end_sample": 18279,
+      "start_ms": 0,
+      "end_ms": 1142
+    },
+    {
+      "lang": "ja",
+      "text": "勇気",
+      "start_sample": 18279,
+      "end_sample": 22532,
+      "start_ms": 1142,
+      "end_ms": 1408
+    },
+    {
+      "lang": "en",
+      "text": "to tell him how she felt.",
+      "start_sample": 22532,
+      "end_sample": 42415,
+      "start_ms": 1408,
+      "end_ms": 2651
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She finally worked up the yuuki to tell him how she felt.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2772,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She finally worked up the",
+          "start_sample": 0,
+          "end_sample": 18479,
+          "start_ms": 0,
+          "end_ms": 1155
+        },
+        {
+          "lang": "ja",
+          "text": "勇気",
+          "start_sample": 18479,
+          "end_sample": 24264,
+          "start_ms": 1155,
+          "end_ms": 1516
+        },
+        {
+          "lang": "en",
+          "text": "to tell him how she felt.",
+          "start_sample": 24264,
+          "end_sample": 44347,
+          "start_ms": 1516,
+          "end_ms": 2772
+        }
+      ]
+    },
+    "ja": {
+      "text": "She finally worked up the 勇気 to tell him how she felt.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3690,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She finally worked up the",
+          "start_sample": 0,
+          "end_sample": 26473,
+          "start_ms": 0,
+          "end_ms": 1655
+        },
+        {
+          "lang": "ja",
+          "text": "勇気",
+          "start_sample": 26473,
+          "end_sample": 31126,
+          "start_ms": 1655,
+          "end_ms": 1945
+        },
+        {
+          "lang": "en",
+          "text": "to tell him how she felt.",
+          "start_sample": 31126,
+          "end_sample": 59041,
+          "start_ms": 1945,
+          "end_ms": 3690
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 133,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

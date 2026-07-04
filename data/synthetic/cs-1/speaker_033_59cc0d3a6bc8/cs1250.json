@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_033_59cc0d3a6bc8/cs1250.flac",
+  "sentence": "先生はresearchの進み具合を毎週確認している。",
+  "sample_rate": 16000,
+  "duration_ms": 3748,
+  "reference_speaker": "jp/speaker_033_59cc0d3a6bc8.mp3",
+  "seed": 1292,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "先生は",
+      "start_sample": 0,
+      "end_sample": 9127,
+      "start_ms": 0,
+      "end_ms": 570
+    },
+    {
+      "lang": "en",
+      "text": "research",
+      "start_sample": 9127,
+      "end_sample": 21250,
+      "start_ms": 570,
+      "end_ms": 1328
+    },
+    {
+      "lang": "ja",
+      "text": "の進み具合を毎週確認している。",
+      "start_sample": 21250,
+      "end_sample": 59964,
+      "start_ms": 1328,
+      "end_ms": 3748
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sensei ha research no susumi guai wo maishuu kakunin shi te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6903,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先生は",
+          "start_sample": 0,
+          "end_sample": 17816,
+          "start_ms": 0,
+          "end_ms": 1114
+        },
+        {
+          "lang": "en",
+          "text": "research",
+          "start_sample": 17816,
+          "end_sample": 30339,
+          "start_ms": 1114,
+          "end_ms": 1896
+        },
+        {
+          "lang": "ja",
+          "text": "の進み具合を毎週確認している。",
+          "start_sample": 30339,
+          "end_sample": 110446,
+          "start_ms": 1896,
+          "end_ms": 6903
+        }
+      ]
+    },
+    "ja": {
+      "text": "先生はresearchの進み具合を毎週確認している。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3538,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先生は",
+          "start_sample": 0,
+          "end_sample": 9327,
+          "start_ms": 0,
+          "end_ms": 583
+        },
+        {
+          "lang": "en",
+          "text": "research",
+          "start_sample": 9327,
+          "end_sample": 17690,
+          "start_ms": 583,
+          "end_ms": 1106
+        },
+        {
+          "lang": "ja",
+          "text": "の進み具合を毎週確認している。",
+          "start_sample": 17690,
+          "end_sample": 56604,
+          "start_ms": 1106,
+          "end_ms": 3538
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

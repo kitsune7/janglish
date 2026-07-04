@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_013_e472ee9e6d56/cs7287.flac",
+  "sentence": "The whole street smelled like 金木犀 every time the October breeze passed.",
+  "sample_rate": 16000,
+  "duration_ms": 6577,
+  "reference_speaker": "jp/speaker_013_e472ee9e6d56.mp3",
+  "seed": 7329,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole street smelled like",
+      "start_sample": 0,
+      "end_sample": 40958,
+      "start_ms": 0,
+      "end_ms": 2560
+    },
+    {
+      "lang": "ja",
+      "text": "金木犀",
+      "start_sample": 40958,
+      "end_sample": 55305,
+      "start_ms": 2560,
+      "end_ms": 3457
+    },
+    {
+      "lang": "en",
+      "text": "every time the October breeze passed.",
+      "start_sample": 55305,
+      "end_sample": 105231,
+      "start_ms": 3457,
+      "end_ms": 6577
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole street smelled like kin mokusei every time the October breeze passed.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7107,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole street smelled like",
+          "start_sample": 0,
+          "end_sample": 41158,
+          "start_ms": 0,
+          "end_ms": 2572
+        },
+        {
+          "lang": "ja",
+          "text": "金木犀",
+          "start_sample": 41158,
+          "end_sample": 63579,
+          "start_ms": 2572,
+          "end_ms": 3974
+        },
+        {
+          "lang": "en",
+          "text": "every time the October breeze passed.",
+          "start_sample": 63579,
+          "end_sample": 113705,
+          "start_ms": 3974,
+          "end_ms": 7107
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole street smelled like 金木犀 every time the October breeze passed.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7093,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole street smelled like",
+          "start_sample": 0,
+          "end_sample": 41514,
+          "start_ms": 0,
+          "end_ms": 2595
+        },
+        {
+          "lang": "ja",
+          "text": "金木犀",
+          "start_sample": 41514,
+          "end_sample": 56261,
+          "start_ms": 2595,
+          "end_ms": 3516
+        },
+        {
+          "lang": "en",
+          "text": "every time the October breeze passed.",
+          "start_sample": 56261,
+          "end_sample": 113483,
+          "start_ms": 3516,
+          "end_ms": 7093
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 329,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_092_08c69e35de07/cs1846.flac",
+  "sentence": "鍋にstockを入れてから弱火で煮てください。",
+  "sample_rate": 16000,
+  "duration_ms": 4342,
+  "reference_speaker": "jp/speaker_092_08c69e35de07.mp3",
+  "seed": 1888,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "鍋に",
+      "start_sample": 0,
+      "end_sample": 8945,
+      "start_ms": 0,
+      "end_ms": 559
+    },
+    {
+      "lang": "en",
+      "text": "stock",
+      "start_sample": 8945,
+      "end_sample": 27459,
+      "start_ms": 559,
+      "end_ms": 1716
+    },
+    {
+      "lang": "ja",
+      "text": "を入れてから弱火で煮てください。",
+      "start_sample": 27459,
+      "end_sample": 69470,
+      "start_ms": 1716,
+      "end_ms": 4342
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "nabe ni stock wo ire te kara yowabi de ni te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6932,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "鍋に",
+          "start_sample": 0,
+          "end_sample": 17470,
+          "start_ms": 0,
+          "end_ms": 1092
+        },
+        {
+          "lang": "en",
+          "text": "stock",
+          "start_sample": 17470,
+          "end_sample": 36384,
+          "start_ms": 1092,
+          "end_ms": 2274
+        },
+        {
+          "lang": "ja",
+          "text": "を入れてから弱火で煮てください。",
+          "start_sample": 36384,
+          "end_sample": 110918,
+          "start_ms": 2274,
+          "end_ms": 6932
+        }
+      ]
+    },
+    "ja": {
+      "text": "鍋にstockを入れてから弱火で煮てください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3711,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "鍋に",
+          "start_sample": 0,
+          "end_sample": 9145,
+          "start_ms": 0,
+          "end_ms": 572
+        },
+        {
+          "lang": "en",
+          "text": "stock",
+          "start_sample": 9145,
+          "end_sample": 17171,
+          "start_ms": 572,
+          "end_ms": 1073
+        },
+        {
+          "lang": "ja",
+          "text": "を入れてから弱火で煮てください。",
+          "start_sample": 17171,
+          "end_sample": 59382,
+          "start_ms": 1073,
+          "end_ms": 3711
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

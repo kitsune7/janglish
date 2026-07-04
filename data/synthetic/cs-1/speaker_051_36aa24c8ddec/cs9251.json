@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_051_36aa24c8ddec/cs9251.flac",
+  "sentence": "My little 弟 just got his driver's license last week.",
+  "sample_rate": 16000,
+  "duration_ms": 3838,
+  "reference_speaker": "en/speaker_051_36aa24c8ddec.mp3",
+  "seed": 9293,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My little",
+      "start_sample": 0,
+      "end_sample": 8779,
+      "start_ms": 0,
+      "end_ms": 549
+    },
+    {
+      "lang": "ja",
+      "text": "弟",
+      "start_sample": 8779,
+      "end_sample": 16547,
+      "start_ms": 549,
+      "end_ms": 1034
+    },
+    {
+      "lang": "en",
+      "text": "just got his driver's license last week.",
+      "start_sample": 16547,
+      "end_sample": 61402,
+      "start_ms": 1034,
+      "end_ms": 3838
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My little otouto just got his driver's license last week.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4189,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My little",
+          "start_sample": 0,
+          "end_sample": 8979,
+          "start_ms": 0,
+          "end_ms": 561
+        },
+        {
+          "lang": "ja",
+          "text": "弟",
+          "start_sample": 8979,
+          "end_sample": 21967,
+          "start_ms": 561,
+          "end_ms": 1373
+        },
+        {
+          "lang": "en",
+          "text": "just got his driver's license last week.",
+          "start_sample": 21967,
+          "end_sample": 67022,
+          "start_ms": 1373,
+          "end_ms": 4189
+        }
+      ]
+    },
+    "ja": {
+      "text": "My little 弟 just got his driver's license last week.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5765,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My little",
+          "start_sample": 0,
+          "end_sample": 9768,
+          "start_ms": 0,
+          "end_ms": 610
+        },
+        {
+          "lang": "ja",
+          "text": "弟",
+          "start_sample": 9768,
+          "end_sample": 17936,
+          "start_ms": 610,
+          "end_ms": 1121
+        },
+        {
+          "lang": "en",
+          "text": "just got his driver's license last week.",
+          "start_sample": 17936,
+          "end_sample": 92242,
+          "start_ms": 1121,
+          "end_ms": 5765
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_019_53050c1aaaa1/cs3365.flac",
+  "sentence": "その川はhazardousな状態になっています。",
+  "sample_rate": 16000,
+  "duration_ms": 2498,
+  "reference_speaker": "en/speaker_019_53050c1aaaa1.mp3",
+  "seed": 3407,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その川は",
+      "start_sample": 0,
+      "end_sample": 10079,
+      "start_ms": 0,
+      "end_ms": 630
+    },
+    {
+      "lang": "en",
+      "text": "hazardous",
+      "start_sample": 10079,
+      "end_sample": 19297,
+      "start_ms": 630,
+      "end_ms": 1206
+    },
+    {
+      "lang": "ja",
+      "text": "な状態になっています。",
+      "start_sample": 19297,
+      "end_sample": 39976,
+      "start_ms": 1206,
+      "end_ms": 2498
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono kawa ha hazardous na joutai ni natsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5330,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その川は",
+          "start_sample": 0,
+          "end_sample": 34143,
+          "start_ms": 0,
+          "end_ms": 2134
+        },
+        {
+          "lang": "en",
+          "text": "hazardous",
+          "start_sample": 34143,
+          "end_sample": 43761,
+          "start_ms": 2134,
+          "end_ms": 2735
+        },
+        {
+          "lang": "ja",
+          "text": "な状態になっています。",
+          "start_sample": 43761,
+          "end_sample": 85279,
+          "start_ms": 2735,
+          "end_ms": 5330
+        }
+      ]
+    },
+    "ja": {
+      "text": "その川はhazardousな状態になっています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2590,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その川は",
+          "start_sample": 0,
+          "end_sample": 10279,
+          "start_ms": 0,
+          "end_ms": 642
+        },
+        {
+          "lang": "en",
+          "text": "hazardous",
+          "start_sample": 10279,
+          "end_sample": 20559,
+          "start_ms": 642,
+          "end_ms": 1285
+        },
+        {
+          "lang": "ja",
+          "text": "な状態になっています。",
+          "start_sample": 20559,
+          "end_sample": 41438,
+          "start_ms": 1285,
+          "end_ms": 2590
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 125,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

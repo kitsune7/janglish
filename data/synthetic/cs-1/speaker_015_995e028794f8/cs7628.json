@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_015_995e028794f8/cs7628.flac",
+  "sentence": "彼はlast callまで店に残っていた。",
+  "sample_rate": 16000,
+  "duration_ms": 2974,
+  "reference_speaker": "en/speaker_015_995e028794f8.mp3",
+  "seed": 7670,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼は",
+      "start_sample": 0,
+      "end_sample": 7034,
+      "start_ms": 0,
+      "end_ms": 440
+    },
+    {
+      "lang": "en",
+      "text": "last call",
+      "start_sample": 7034,
+      "end_sample": 17876,
+      "start_ms": 440,
+      "end_ms": 1117
+    },
+    {
+      "lang": "ja",
+      "text": "まで店に残っていた。",
+      "start_sample": 17876,
+      "end_sample": 47576,
+      "start_ms": 1117,
+      "end_ms": 2974
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha last call ma de mise ni nokotsu te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3412,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 6260,
+          "start_ms": 0,
+          "end_ms": 391
+        },
+        {
+          "lang": "en",
+          "text": "last call",
+          "start_sample": 6260,
+          "end_sample": 17502,
+          "start_ms": 391,
+          "end_ms": 1094
+        },
+        {
+          "lang": "ja",
+          "text": "まで店に残っていた。",
+          "start_sample": 17502,
+          "end_sample": 54598,
+          "start_ms": 1094,
+          "end_ms": 3412
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はlast callまで店に残っていた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3135,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 7234,
+          "start_ms": 0,
+          "end_ms": 452
+        },
+        {
+          "lang": "en",
+          "text": "last call",
+          "start_sample": 7234,
+          "end_sample": 20258,
+          "start_ms": 452,
+          "end_ms": 1266
+        },
+        {
+          "lang": "ja",
+          "text": "まで店に残っていた。",
+          "start_sample": 20258,
+          "end_sample": 50158,
+          "start_ms": 1266,
+          "end_ms": 3135
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 149,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

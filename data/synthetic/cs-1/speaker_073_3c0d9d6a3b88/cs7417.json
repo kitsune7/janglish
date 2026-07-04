@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_073_3c0d9d6a3b88/cs7417.flac",
+  "sentence": "That was a 完璧 backhand — I have no idea how she pulled it off.",
+  "sample_rate": 16000,
+  "duration_ms": 3579,
+  "reference_speaker": "en/speaker_073_3c0d9d6a3b88.mp3",
+  "seed": 7459,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That was a",
+      "start_sample": 0,
+      "end_sample": 5732,
+      "start_ms": 0,
+      "end_ms": 358
+    },
+    {
+      "lang": "ja",
+      "text": "完璧",
+      "start_sample": 5732,
+      "end_sample": 13848,
+      "start_ms": 358,
+      "end_ms": 866
+    },
+    {
+      "lang": "en",
+      "text": "backhand — I have no idea how she pulled it off.",
+      "start_sample": 13848,
+      "end_sample": 57258,
+      "start_ms": 866,
+      "end_ms": 3579
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That was a kanpeki backhand — I have no idea how she pulled it off.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3607,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That was a",
+          "start_sample": 0,
+          "end_sample": 5932,
+          "start_ms": 0,
+          "end_ms": 371
+        },
+        {
+          "lang": "ja",
+          "text": "完璧",
+          "start_sample": 5932,
+          "end_sample": 14109,
+          "start_ms": 371,
+          "end_ms": 882
+        },
+        {
+          "lang": "en",
+          "text": "backhand — I have no idea how she pulled it off.",
+          "start_sample": 14109,
+          "end_sample": 57719,
+          "start_ms": 882,
+          "end_ms": 3607
+        }
+      ]
+    },
+    "ja": {
+      "text": "That was a 完璧 backhand — I have no idea how she pulled it off.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4559,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That was a",
+          "start_sample": 0,
+          "end_sample": 8195,
+          "start_ms": 0,
+          "end_ms": 512
+        },
+        {
+          "lang": "ja",
+          "text": "完璧",
+          "start_sample": 8195,
+          "end_sample": 16711,
+          "start_ms": 512,
+          "end_ms": 1044
+        },
+        {
+          "lang": "en",
+          "text": "backhand — I have no idea how she pulled it off.",
+          "start_sample": 16711,
+          "end_sample": 72950,
+          "start_ms": 1044,
+          "end_ms": 4559
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 179,
+  "frame_labels": "eeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

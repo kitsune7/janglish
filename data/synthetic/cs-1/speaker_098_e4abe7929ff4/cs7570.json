@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_098_e4abe7929ff4/cs7570.flac",
+  "sentence": "私はdraftを三回書き直した。",
+  "sample_rate": 16000,
+  "duration_ms": 2708,
+  "reference_speaker": "jp/speaker_098_e4abe7929ff4.mp3",
+  "seed": 7612,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "私は",
+      "start_sample": 0,
+      "end_sample": 7830,
+      "start_ms": 0,
+      "end_ms": 489
+    },
+    {
+      "lang": "en",
+      "text": "draft",
+      "start_sample": 7830,
+      "end_sample": 18961,
+      "start_ms": 489,
+      "end_ms": 1185
+    },
+    {
+      "lang": "ja",
+      "text": "を三回書き直した。",
+      "start_sample": 18961,
+      "end_sample": 43334,
+      "start_ms": 1185,
+      "end_ms": 2708
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "watashi ha draft wo san kai kakinaoshi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6866,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私は",
+          "start_sample": 0,
+          "end_sample": 59575,
+          "start_ms": 0,
+          "end_ms": 3723
+        },
+        {
+          "lang": "en",
+          "text": "draft",
+          "start_sample": 59575,
+          "end_sample": 71106,
+          "start_ms": 3723,
+          "end_ms": 4444
+        },
+        {
+          "lang": "ja",
+          "text": "を三回書き直した。",
+          "start_sample": 71106,
+          "end_sample": 109861,
+          "start_ms": 4444,
+          "end_ms": 6866
+        }
+      ]
+    },
+    "ja": {
+      "text": "私はdraftを三回書き直した。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2510,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私は",
+          "start_sample": 0,
+          "end_sample": 8030,
+          "start_ms": 0,
+          "end_ms": 502
+        },
+        {
+          "lang": "en",
+          "text": "draft",
+          "start_sample": 8030,
+          "end_sample": 15580,
+          "start_ms": 502,
+          "end_ms": 974
+        },
+        {
+          "lang": "ja",
+          "text": "を三回書き直した。",
+          "start_sample": 15580,
+          "end_sample": 40153,
+          "start_ms": 974,
+          "end_ms": 2510
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 136,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

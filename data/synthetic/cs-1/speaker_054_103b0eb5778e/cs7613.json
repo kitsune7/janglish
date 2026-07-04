@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_054_103b0eb5778e/cs7613.flac",
+  "sentence": "He prefers a 明るい workspace, so he moved his desk right beside the window.",
+  "sample_rate": 16000,
+  "duration_ms": 4982,
+  "reference_speaker": "en/speaker_054_103b0eb5778e.mp3",
+  "seed": 7655,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He prefers a",
+      "start_sample": 0,
+      "end_sample": 13112,
+      "start_ms": 0,
+      "end_ms": 820
+    },
+    {
+      "lang": "ja",
+      "text": "明るい",
+      "start_sample": 13112,
+      "end_sample": 20251,
+      "start_ms": 820,
+      "end_ms": 1266
+    },
+    {
+      "lang": "en",
+      "text": "workspace, so he moved his desk right beside the window.",
+      "start_sample": 20251,
+      "end_sample": 79718,
+      "start_ms": 1266,
+      "end_ms": 4982
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He prefers a akarui workspace, so he moved his desk right beside the window.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5153,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He prefers a",
+          "start_sample": 0,
+          "end_sample": 13312,
+          "start_ms": 0,
+          "end_ms": 832
+        },
+        {
+          "lang": "ja",
+          "text": "明るい",
+          "start_sample": 13312,
+          "end_sample": 22776,
+          "start_ms": 832,
+          "end_ms": 1424
+        },
+        {
+          "lang": "en",
+          "text": "workspace, so he moved his desk right beside the window.",
+          "start_sample": 22776,
+          "end_sample": 82443,
+          "start_ms": 1424,
+          "end_ms": 5153
+        }
+      ]
+    },
+    "ja": {
+      "text": "He prefers a 明るい workspace, so he moved his desk right beside the window.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6656,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He prefers a",
+          "start_sample": 0,
+          "end_sample": 21011,
+          "start_ms": 0,
+          "end_ms": 1313
+        },
+        {
+          "lang": "ja",
+          "text": "明るい",
+          "start_sample": 21011,
+          "end_sample": 28550,
+          "start_ms": 1313,
+          "end_ms": 1784
+        },
+        {
+          "lang": "en",
+          "text": "workspace, so he moved his desk right beside the window.",
+          "start_sample": 28550,
+          "end_sample": 106502,
+          "start_ms": 1784,
+          "end_ms": 6656
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 250,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

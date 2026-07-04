@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_083_60e45fe6f2e9/cs8650.flac",
+  "sentence": "Does your ferret always act this 元気, or is it extra hyper today?",
+  "sample_rate": 16000,
+  "duration_ms": 4516,
+  "reference_speaker": "en/speaker_083_60e45fe6f2e9.mp3",
+  "seed": 8692,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Does your ferret always act this",
+      "start_sample": 0,
+      "end_sample": 29664,
+      "start_ms": 0,
+      "end_ms": 1854
+    },
+    {
+      "lang": "ja",
+      "text": "元気,",
+      "start_sample": 29664,
+      "end_sample": 38897,
+      "start_ms": 1854,
+      "end_ms": 2431
+    },
+    {
+      "lang": "en",
+      "text": "or is it extra hyper today?",
+      "start_sample": 38897,
+      "end_sample": 72252,
+      "start_ms": 2431,
+      "end_ms": 4516
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Does your ferret always act this genki or is it extra hyper today?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4777,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Does your ferret always act this",
+          "start_sample": 0,
+          "end_sample": 29864,
+          "start_ms": 0,
+          "end_ms": 1866
+        },
+        {
+          "lang": "ja",
+          "text": "元気,",
+          "start_sample": 29864,
+          "end_sample": 42870,
+          "start_ms": 1866,
+          "end_ms": 2679
+        },
+        {
+          "lang": "en",
+          "text": "or is it extra hyper today?",
+          "start_sample": 42870,
+          "end_sample": 76425,
+          "start_ms": 2679,
+          "end_ms": 4777
+        }
+      ]
+    },
+    "ja": {
+      "text": "Does your ferret always act this 元気, or is it extra hyper today?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4555,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Does your ferret always act this",
+          "start_sample": 0,
+          "end_sample": 33713,
+          "start_ms": 0,
+          "end_ms": 2107
+        },
+        {
+          "lang": "ja",
+          "text": "元気,",
+          "start_sample": 33713,
+          "end_sample": 43346,
+          "start_ms": 2107,
+          "end_ms": 2709
+        },
+        {
+          "lang": "en",
+          "text": "or is it extra hyper today?",
+          "start_sample": 43346,
+          "end_sample": 72882,
+          "start_ms": 2709,
+          "end_ms": 4555
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 226,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

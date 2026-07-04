@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_012_29b1e5a58d16/cs5545.flac",
+  "sentence": "This is my 当番 for the week, so I'm in charge of the bathroom.",
+  "sample_rate": 16000,
+  "duration_ms": 3256,
+  "reference_speaker": "en/speaker_012_29b1e5a58d16.mp3",
+  "seed": 5587,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This is my",
+      "start_sample": 0,
+      "end_sample": 6050,
+      "start_ms": 0,
+      "end_ms": 378
+    },
+    {
+      "lang": "ja",
+      "text": "当番",
+      "start_sample": 6050,
+      "end_sample": 13516,
+      "start_ms": 378,
+      "end_ms": 845
+    },
+    {
+      "lang": "en",
+      "text": "for the week, so I'm in charge of the bathroom.",
+      "start_sample": 13516,
+      "end_sample": 52101,
+      "start_ms": 845,
+      "end_ms": 3256
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This is my touban for the week, so I'm in charge of the bathroom.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3245,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This is my",
+          "start_sample": 0,
+          "end_sample": 6250,
+          "start_ms": 0,
+          "end_ms": 391
+        },
+        {
+          "lang": "ja",
+          "text": "当番",
+          "start_sample": 6250,
+          "end_sample": 13141,
+          "start_ms": 391,
+          "end_ms": 821
+        },
+        {
+          "lang": "en",
+          "text": "for the week, so I'm in charge of the bathroom.",
+          "start_sample": 13141,
+          "end_sample": 51926,
+          "start_ms": 821,
+          "end_ms": 3245
+        }
+      ]
+    },
+    "ja": {
+      "text": "This is my 当番 for the week, so I'm in charge of the bathroom.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3611,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This is my",
+          "start_sample": 0,
+          "end_sample": 7864,
+          "start_ms": 0,
+          "end_ms": 492
+        },
+        {
+          "lang": "ja",
+          "text": "当番",
+          "start_sample": 7864,
+          "end_sample": 15730,
+          "start_ms": 492,
+          "end_ms": 983
+        },
+        {
+          "lang": "en",
+          "text": "for the week, so I'm in charge of the bathroom.",
+          "start_sample": 15730,
+          "end_sample": 57783,
+          "start_ms": 983,
+          "end_ms": 3611
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 163,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

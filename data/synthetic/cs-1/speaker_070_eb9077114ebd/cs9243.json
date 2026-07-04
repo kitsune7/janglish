@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_070_eb9077114ebd/cs9243.flac",
+  "sentence": "She calls her 母 every night before going to sleep.",
+  "sample_rate": 16000,
+  "duration_ms": 3424,
+  "reference_speaker": "en/speaker_070_eb9077114ebd.mp3",
+  "seed": 9285,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She calls her",
+      "start_sample": 0,
+      "end_sample": 12967,
+      "start_ms": 0,
+      "end_ms": 810
+    },
+    {
+      "lang": "ja",
+      "text": "母",
+      "start_sample": 12967,
+      "end_sample": 21096,
+      "start_ms": 810,
+      "end_ms": 1318
+    },
+    {
+      "lang": "en",
+      "text": "every night before going to sleep.",
+      "start_sample": 21096,
+      "end_sample": 54777,
+      "start_ms": 1318,
+      "end_ms": 3424
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She calls her haha every night before going to sleep.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3673,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She calls her",
+          "start_sample": 0,
+          "end_sample": 13167,
+          "start_ms": 0,
+          "end_ms": 823
+        },
+        {
+          "lang": "ja",
+          "text": "母",
+          "start_sample": 13167,
+          "end_sample": 24890,
+          "start_ms": 823,
+          "end_ms": 1556
+        },
+        {
+          "lang": "en",
+          "text": "every night before going to sleep.",
+          "start_sample": 24890,
+          "end_sample": 58771,
+          "start_ms": 1556,
+          "end_ms": 3673
+        }
+      ]
+    },
+    "ja": {
+      "text": "She calls her 母 every night before going to sleep.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3982,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She calls her",
+          "start_sample": 0,
+          "end_sample": 12867,
+          "start_ms": 0,
+          "end_ms": 804
+        },
+        {
+          "lang": "ja",
+          "text": "母",
+          "start_sample": 12867,
+          "end_sample": 21396,
+          "start_ms": 804,
+          "end_ms": 1337
+        },
+        {
+          "lang": "en",
+          "text": "every night before going to sleep.",
+          "start_sample": 21396,
+          "end_sample": 63711,
+          "start_ms": 1337,
+          "end_ms": 3982
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 172,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

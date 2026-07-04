@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_082_d12288b68351/cs11512.flac",
+  "sentence": "The 運賃 for the express bus went up again this month.",
+  "sample_rate": 16000,
+  "duration_ms": 4948,
+  "reference_speaker": "jp/speaker_082_d12288b68351.mp3",
+  "seed": 11554,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2042,
+      "start_ms": 0,
+      "end_ms": 128
+    },
+    {
+      "lang": "ja",
+      "text": "運賃",
+      "start_sample": 2042,
+      "end_sample": 11914,
+      "start_ms": 128,
+      "end_ms": 745
+    },
+    {
+      "lang": "en",
+      "text": "for the express bus went up again this month.",
+      "start_sample": 11914,
+      "end_sample": 79166,
+      "start_ms": 745,
+      "end_ms": 4948
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The unchin for the express bus went up again this month.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5327,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2242,
+          "start_ms": 0,
+          "end_ms": 140
+        },
+        {
+          "lang": "ja",
+          "text": "運賃",
+          "start_sample": 2242,
+          "end_sample": 17784,
+          "start_ms": 140,
+          "end_ms": 1112
+        },
+        {
+          "lang": "en",
+          "text": "for the express bus went up again this month.",
+          "start_sample": 17784,
+          "end_sample": 85236,
+          "start_ms": 1112,
+          "end_ms": 5327
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 運賃 for the express bus went up again this month.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4855,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6096,
+          "start_ms": 0,
+          "end_ms": 381
+        },
+        {
+          "lang": "ja",
+          "text": "運賃",
+          "start_sample": 6096,
+          "end_sample": 16368,
+          "start_ms": 381,
+          "end_ms": 1023
+        },
+        {
+          "lang": "en",
+          "text": "for the express bus went up again this month.",
+          "start_sample": 16368,
+          "end_sample": 77676,
+          "start_ms": 1023,
+          "end_ms": 4855
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 248,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

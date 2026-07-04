@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_079_e96ebb016d7a/cs2573.flac",
+  "sentence": "荷物をhostelのロッカーに預けておきました。",
+  "sample_rate": 16000,
+  "duration_ms": 2806,
+  "reference_speaker": "jp/speaker_079_e96ebb016d7a.mp3",
+  "seed": 2615,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "荷物を",
+      "start_sample": 0,
+      "end_sample": 7372,
+      "start_ms": 0,
+      "end_ms": 461
+    },
+    {
+      "lang": "en",
+      "text": "hostel",
+      "start_sample": 7372,
+      "end_sample": 20292,
+      "start_ms": 461,
+      "end_ms": 1268
+    },
+    {
+      "lang": "ja",
+      "text": "のロッカーに預けておきました。",
+      "start_sample": 20292,
+      "end_sample": 44900,
+      "start_ms": 1268,
+      "end_ms": 2806
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "nimotsu wo hostel no rokkaa ni azuke te oki mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7282,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "荷物を",
+          "start_sample": 0,
+          "end_sample": 28404,
+          "start_ms": 0,
+          "end_ms": 1775
+        },
+        {
+          "lang": "en",
+          "text": "hostel",
+          "start_sample": 28404,
+          "end_sample": 41724,
+          "start_ms": 1775,
+          "end_ms": 2608
+        },
+        {
+          "lang": "ja",
+          "text": "のロッカーに預けておきました。",
+          "start_sample": 41724,
+          "end_sample": 116506,
+          "start_ms": 2608,
+          "end_ms": 7282
+        }
+      ]
+    },
+    "ja": {
+      "text": "荷物をhostelのロッカーに預けておきました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2457,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "荷物を",
+          "start_sample": 0,
+          "end_sample": 7572,
+          "start_ms": 0,
+          "end_ms": 473
+        },
+        {
+          "lang": "en",
+          "text": "hostel",
+          "start_sample": 7572,
+          "end_sample": 14500,
+          "start_ms": 473,
+          "end_ms": 906
+        },
+        {
+          "lang": "ja",
+          "text": "のロッカーに預けておきました。",
+          "start_sample": 14500,
+          "end_sample": 39308,
+          "start_ms": 906,
+          "end_ms": 2457
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 141,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

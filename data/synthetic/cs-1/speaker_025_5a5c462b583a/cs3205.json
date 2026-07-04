@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_025_5a5c462b583a/cs3205.flac",
+  "sentence": "Did you remember to back up the 大切な data before formatting?",
+  "sample_rate": 16000,
+  "duration_ms": 5288,
+  "reference_speaker": "en/speaker_025_5a5c462b583a.mp3",
+  "seed": 3247,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Did you remember to back up the",
+      "start_sample": 0,
+      "end_sample": 36823,
+      "start_ms": 0,
+      "end_ms": 2301
+    },
+    {
+      "lang": "ja",
+      "text": "大切な",
+      "start_sample": 36823,
+      "end_sample": 47313,
+      "start_ms": 2301,
+      "end_ms": 2957
+    },
+    {
+      "lang": "en",
+      "text": "data before formatting?",
+      "start_sample": 47313,
+      "end_sample": 84616,
+      "start_ms": 2957,
+      "end_ms": 5288
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Did you remember to back up the taisetsu na data before formatting?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5229,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you remember to back up the",
+          "start_sample": 0,
+          "end_sample": 37023,
+          "start_ms": 0,
+          "end_ms": 2314
+        },
+        {
+          "lang": "ja",
+          "text": "大切な",
+          "start_sample": 37023,
+          "end_sample": 46158,
+          "start_ms": 2314,
+          "end_ms": 2885
+        },
+        {
+          "lang": "en",
+          "text": "data before formatting?",
+          "start_sample": 46158,
+          "end_sample": 83661,
+          "start_ms": 2885,
+          "end_ms": 5229
+        }
+      ]
+    },
+    "ja": {
+      "text": "Did you remember to back up the 大切な data before formatting?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4344,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you remember to back up the",
+          "start_sample": 0,
+          "end_sample": 36995,
+          "start_ms": 0,
+          "end_ms": 2312
+        },
+        {
+          "lang": "ja",
+          "text": "大切な",
+          "start_sample": 36995,
+          "end_sample": 47885,
+          "start_ms": 2312,
+          "end_ms": 2993
+        },
+        {
+          "lang": "en",
+          "text": "data before formatting?",
+          "start_sample": 47885,
+          "end_sample": 69505,
+          "start_ms": 2993,
+          "end_ms": 4344
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 265,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

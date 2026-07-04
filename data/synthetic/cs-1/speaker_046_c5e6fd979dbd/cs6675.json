@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_046_c5e6fd979dbd/cs6675.flac",
+  "sentence": "The 奥 of the restaurant is quieter if you want to have a real conversation.",
+  "sample_rate": 16000,
+  "duration_ms": 3819,
+  "reference_speaker": "en/speaker_046_c5e6fd979dbd.mp3",
+  "seed": 6717,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1723,
+      "start_ms": 0,
+      "end_ms": 108
+    },
+    {
+      "lang": "ja",
+      "text": "奥",
+      "start_sample": 1723,
+      "end_sample": 7266,
+      "start_ms": 108,
+      "end_ms": 454
+    },
+    {
+      "lang": "en",
+      "text": "of the restaurant is quieter if you want to have a real conversation.",
+      "start_sample": 7266,
+      "end_sample": 61101,
+      "start_ms": 454,
+      "end_ms": 3819
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The oku of the restaurant is quieter if you want to have a real conversation.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3988,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1923,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "奥",
+          "start_sample": 1923,
+          "end_sample": 9781,
+          "start_ms": 120,
+          "end_ms": 611
+        },
+        {
+          "lang": "en",
+          "text": "of the restaurant is quieter if you want to have a real conversation.",
+          "start_sample": 9781,
+          "end_sample": 63816,
+          "start_ms": 611,
+          "end_ms": 3988
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 奥 of the restaurant is quieter if you want to have a real conversation.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5742,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3372,
+          "start_ms": 0,
+          "end_ms": 211
+        },
+        {
+          "lang": "ja",
+          "text": "奥",
+          "start_sample": 3372,
+          "end_sample": 9315,
+          "start_ms": 211,
+          "end_ms": 582
+        },
+        {
+          "lang": "en",
+          "text": "of the restaurant is quieter if you want to have a real conversation.",
+          "start_sample": 9315,
+          "end_sample": 91866,
+          "start_ms": 582,
+          "end_ms": 5742
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 191,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

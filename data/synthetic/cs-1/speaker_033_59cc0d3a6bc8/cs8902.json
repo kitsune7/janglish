@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_033_59cc0d3a6bc8/cs8902.flac",
+  "sentence": "病院ではintensiveな治療が続いている。",
+  "sample_rate": 16000,
+  "duration_ms": 3521,
+  "reference_speaker": "jp/speaker_033_59cc0d3a6bc8.mp3",
+  "seed": 8944,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "病院では",
+      "start_sample": 0,
+      "end_sample": 11036,
+      "start_ms": 0,
+      "end_ms": 690
+    },
+    {
+      "lang": "en",
+      "text": "intensive",
+      "start_sample": 11036,
+      "end_sample": 35835,
+      "start_ms": 690,
+      "end_ms": 2240
+    },
+    {
+      "lang": "ja",
+      "text": "な治療が続いている。",
+      "start_sample": 35835,
+      "end_sample": 56339,
+      "start_ms": 2240,
+      "end_ms": 3521
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "byouin de ha intensive na chiryou ga tsuzui te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6179,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "病院では",
+          "start_sample": 0,
+          "end_sample": 20380,
+          "start_ms": 0,
+          "end_ms": 1274
+        },
+        {
+          "lang": "en",
+          "text": "intensive",
+          "start_sample": 20380,
+          "end_sample": 45579,
+          "start_ms": 1274,
+          "end_ms": 2849
+        },
+        {
+          "lang": "ja",
+          "text": "な治療が続いている。",
+          "start_sample": 45579,
+          "end_sample": 98862,
+          "start_ms": 2849,
+          "end_ms": 6179
+        }
+      ]
+    },
+    "ja": {
+      "text": "病院ではintensiveな治療が続いている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2709,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "病院では",
+          "start_sample": 0,
+          "end_sample": 11236,
+          "start_ms": 0,
+          "end_ms": 702
+        },
+        {
+          "lang": "en",
+          "text": "intensive",
+          "start_sample": 11236,
+          "end_sample": 22633,
+          "start_ms": 702,
+          "end_ms": 1415
+        },
+        {
+          "lang": "ja",
+          "text": "な治療が続いている。",
+          "start_sample": 22633,
+          "end_sample": 43337,
+          "start_ms": 1415,
+          "end_ms": 2709
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

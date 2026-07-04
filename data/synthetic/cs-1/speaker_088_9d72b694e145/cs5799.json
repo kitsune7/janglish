@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_088_9d72b694e145/cs5799.flac",
+  "sentence": "I always check the 値段 before I put anything in my cart.",
+  "sample_rate": 16000,
+  "duration_ms": 3050,
+  "reference_speaker": "jp/speaker_088_9d72b694e145.mp3",
+  "seed": 5841,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always check the",
+      "start_sample": 0,
+      "end_sample": 11038,
+      "start_ms": 0,
+      "end_ms": 690
+    },
+    {
+      "lang": "ja",
+      "text": "値段",
+      "start_sample": 11038,
+      "end_sample": 16730,
+      "start_ms": 690,
+      "end_ms": 1046
+    },
+    {
+      "lang": "en",
+      "text": "before I put anything in my cart.",
+      "start_sample": 16730,
+      "end_sample": 48807,
+      "start_ms": 1046,
+      "end_ms": 3050
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always check the nedan before I put anything in my cart.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3392,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always check the",
+          "start_sample": 0,
+          "end_sample": 11238,
+          "start_ms": 0,
+          "end_ms": 702
+        },
+        {
+          "lang": "ja",
+          "text": "値段",
+          "start_sample": 11238,
+          "end_sample": 21998,
+          "start_ms": 702,
+          "end_ms": 1375
+        },
+        {
+          "lang": "en",
+          "text": "before I put anything in my cart.",
+          "start_sample": 21998,
+          "end_sample": 54275,
+          "start_ms": 1375,
+          "end_ms": 3392
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always check the 値段 before I put anything in my cart.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3767,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always check the",
+          "start_sample": 0,
+          "end_sample": 18594,
+          "start_ms": 0,
+          "end_ms": 1162
+        },
+        {
+          "lang": "ja",
+          "text": "値段",
+          "start_sample": 18594,
+          "end_sample": 24686,
+          "start_ms": 1162,
+          "end_ms": 1543
+        },
+        {
+          "lang": "en",
+          "text": "before I put anything in my cart.",
+          "start_sample": 24686,
+          "end_sample": 60273,
+          "start_ms": 1543,
+          "end_ms": 3767
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 153,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

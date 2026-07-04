@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_019_53050c1aaaa1/cs11763.flac",
+  "sentence": "The pediatrician said his 成長 has been perfectly on track this year.",
+  "sample_rate": 16000,
+  "duration_ms": 5327,
+  "reference_speaker": "en/speaker_019_53050c1aaaa1.mp3",
+  "seed": 11805,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The pediatrician said his",
+      "start_sample": 0,
+      "end_sample": 39363,
+      "start_ms": 0,
+      "end_ms": 2460
+    },
+    {
+      "lang": "ja",
+      "text": "成長",
+      "start_sample": 39363,
+      "end_sample": 47785,
+      "start_ms": 2460,
+      "end_ms": 2987
+    },
+    {
+      "lang": "en",
+      "text": "has been perfectly on track this year.",
+      "start_sample": 47785,
+      "end_sample": 85226,
+      "start_ms": 2987,
+      "end_ms": 5327
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The pediatrician said his seichou has been perfectly on track this year.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5266,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The pediatrician said his",
+          "start_sample": 0,
+          "end_sample": 39563,
+          "start_ms": 0,
+          "end_ms": 2473
+        },
+        {
+          "lang": "ja",
+          "text": "成長",
+          "start_sample": 39563,
+          "end_sample": 46611,
+          "start_ms": 2473,
+          "end_ms": 2913
+        },
+        {
+          "lang": "en",
+          "text": "has been perfectly on track this year.",
+          "start_sample": 46611,
+          "end_sample": 84252,
+          "start_ms": 2913,
+          "end_ms": 5266
+        }
+      ]
+    },
+    "ja": {
+      "text": "The pediatrician said his 成長 has been perfectly on track this year.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5053,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The pediatrician said his",
+          "start_sample": 0,
+          "end_sample": 36893,
+          "start_ms": 0,
+          "end_ms": 2306
+        },
+        {
+          "lang": "ja",
+          "text": "成長",
+          "start_sample": 36893,
+          "end_sample": 45715,
+          "start_ms": 2306,
+          "end_ms": 2857
+        },
+        {
+          "lang": "en",
+          "text": "has been perfectly on track this year.",
+          "start_sample": 45715,
+          "end_sample": 80844,
+          "start_ms": 2857,
+          "end_ms": 5053
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 267,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_070_8f5dfeca773f/cs1046.flac",
+  "sentence": "グラスの縁にsaltをつけたマルガリータが飲みたい。",
+  "sample_rate": 16000,
+  "duration_ms": 3307,
+  "reference_speaker": "jp/speaker_070_8f5dfeca773f.mp3",
+  "seed": 1088,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "グラスの縁に",
+      "start_sample": 0,
+      "end_sample": 14290,
+      "start_ms": 0,
+      "end_ms": 893
+    },
+    {
+      "lang": "en",
+      "text": "salt",
+      "start_sample": 14290,
+      "end_sample": 25747,
+      "start_ms": 893,
+      "end_ms": 1609
+    },
+    {
+      "lang": "ja",
+      "text": "をつけたマルガリータが飲みたい。",
+      "start_sample": 25747,
+      "end_sample": 52912,
+      "start_ms": 1609,
+      "end_ms": 3307
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "gurasu no heri ni salt wo tsuke ta marugariita ga nomi tai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8172,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "グラスの縁に",
+          "start_sample": 0,
+          "end_sample": 44223,
+          "start_ms": 0,
+          "end_ms": 2764
+        },
+        {
+          "lang": "en",
+          "text": "salt",
+          "start_sample": 44223,
+          "end_sample": 56080,
+          "start_ms": 2764,
+          "end_ms": 3505
+        },
+        {
+          "lang": "ja",
+          "text": "をつけたマルガリータが飲みたい。",
+          "start_sample": 56080,
+          "end_sample": 130746,
+          "start_ms": 3505,
+          "end_ms": 8172
+        }
+      ]
+    },
+    "ja": {
+      "text": "グラスの縁にsaltをつけたマルガリータが飲みたい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3099,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "グラスの縁に",
+          "start_sample": 0,
+          "end_sample": 14490,
+          "start_ms": 0,
+          "end_ms": 906
+        },
+        {
+          "lang": "en",
+          "text": "salt",
+          "start_sample": 14490,
+          "end_sample": 22218,
+          "start_ms": 906,
+          "end_ms": 1389
+        },
+        {
+          "lang": "ja",
+          "text": "をつけたマルガリータが飲みたい。",
+          "start_sample": 22218,
+          "end_sample": 49583,
+          "start_ms": 1389,
+          "end_ms": 3099
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 166,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

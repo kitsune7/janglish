@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_061_3e186ef591ed/cs4869.flac",
+  "sentence": "We arrived at the 空港 three hours early and still almost missed the flight.",
+  "sample_rate": 16000,
+  "duration_ms": 6360,
+  "reference_speaker": "jp/speaker_061_3e186ef591ed.mp3",
+  "seed": 4911,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We arrived at the",
+      "start_sample": 0,
+      "end_sample": 15208,
+      "start_ms": 0,
+      "end_ms": 950
+    },
+    {
+      "lang": "ja",
+      "text": "空港",
+      "start_sample": 15208,
+      "end_sample": 25720,
+      "start_ms": 950,
+      "end_ms": 1608
+    },
+    {
+      "lang": "en",
+      "text": "three hours early and still almost missed the flight.",
+      "start_sample": 25720,
+      "end_sample": 101755,
+      "start_ms": 1608,
+      "end_ms": 6360
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We arrived at the kuukou three hours early and still almost missed the flight.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6360,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We arrived at the",
+          "start_sample": 0,
+          "end_sample": 15408,
+          "start_ms": 0,
+          "end_ms": 963
+        },
+        {
+          "lang": "ja",
+          "text": "空港",
+          "start_sample": 15408,
+          "end_sample": 25519,
+          "start_ms": 963,
+          "end_ms": 1595
+        },
+        {
+          "lang": "en",
+          "text": "three hours early and still almost missed the flight.",
+          "start_sample": 25519,
+          "end_sample": 101754,
+          "start_ms": 1595,
+          "end_ms": 6360
+        }
+      ]
+    },
+    "ja": {
+      "text": "We arrived at the 空港 three hours early and still almost missed the flight.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7161,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We arrived at the",
+          "start_sample": 0,
+          "end_sample": 29368,
+          "start_ms": 0,
+          "end_ms": 1836
+        },
+        {
+          "lang": "ja",
+          "text": "空港",
+          "start_sample": 29368,
+          "end_sample": 40280,
+          "start_ms": 1836,
+          "end_ms": 2518
+        },
+        {
+          "lang": "en",
+          "text": "three hours early and still almost missed the flight.",
+          "start_sample": 40280,
+          "end_sample": 114580,
+          "start_ms": 2518,
+          "end_ms": 7161
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 318,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

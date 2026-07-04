@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_053_ceb29bce299d/cs7506.flac",
+  "sentence": "銀行のfraudに遭わないよう注意が必要だ。",
+  "sample_rate": 16000,
+  "duration_ms": 3553,
+  "reference_speaker": "en/speaker_053_ceb29bce299d.mp3",
+  "seed": 7548,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "銀行の",
+      "start_sample": 0,
+      "end_sample": 10719,
+      "start_ms": 0,
+      "end_ms": 670
+    },
+    {
+      "lang": "en",
+      "text": "fraud",
+      "start_sample": 10719,
+      "end_sample": 16246,
+      "start_ms": 670,
+      "end_ms": 1015
+    },
+    {
+      "lang": "ja",
+      "text": "に遭わないよう注意が必要だ。",
+      "start_sample": 16246,
+      "end_sample": 56842,
+      "start_ms": 1015,
+      "end_ms": 3553
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ginkou no fraud ni souwa nai you chuui ga hitsuyou da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4165,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "銀行の",
+          "start_sample": 0,
+          "end_sample": 9611,
+          "start_ms": 0,
+          "end_ms": 601
+        },
+        {
+          "lang": "en",
+          "text": "fraud",
+          "start_sample": 9611,
+          "end_sample": 15538,
+          "start_ms": 601,
+          "end_ms": 971
+        },
+        {
+          "lang": "ja",
+          "text": "に遭わないよう注意が必要だ。",
+          "start_sample": 15538,
+          "end_sample": 66639,
+          "start_ms": 971,
+          "end_ms": 4165
+        }
+      ]
+    },
+    "ja": {
+      "text": "銀行のfraudに遭わないよう注意が必要だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3634,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "銀行の",
+          "start_sample": 0,
+          "end_sample": 10919,
+          "start_ms": 0,
+          "end_ms": 682
+        },
+        {
+          "lang": "en",
+          "text": "fraud",
+          "start_sample": 10919,
+          "end_sample": 17344,
+          "start_ms": 682,
+          "end_ms": 1084
+        },
+        {
+          "lang": "ja",
+          "text": "に遭わないよう注意が必要だ。",
+          "start_sample": 17344,
+          "end_sample": 58140,
+          "start_ms": 1084,
+          "end_ms": 3634
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 178,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

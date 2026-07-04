@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_034_add467545a59/cs3928.flac",
+  "sentence": "She described her ex as 冷たい in a way that was hard to explain.",
+  "sample_rate": 16000,
+  "duration_ms": 4828,
+  "reference_speaker": "en/speaker_034_add467545a59.mp3",
+  "seed": 3970,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She described her ex as",
+      "start_sample": 0,
+      "end_sample": 27358,
+      "start_ms": 0,
+      "end_ms": 1710
+    },
+    {
+      "lang": "ja",
+      "text": "冷たい",
+      "start_sample": 27358,
+      "end_sample": 35467,
+      "start_ms": 1710,
+      "end_ms": 2217
+    },
+    {
+      "lang": "en",
+      "text": "in a way that was hard to explain.",
+      "start_sample": 35467,
+      "end_sample": 77247,
+      "start_ms": 2217,
+      "end_ms": 4828
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She described her ex as tsumetai in a way that was hard to explain.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5368,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She described her ex as",
+          "start_sample": 0,
+          "end_sample": 27558,
+          "start_ms": 0,
+          "end_ms": 1722
+        },
+        {
+          "lang": "ja",
+          "text": "冷たい",
+          "start_sample": 27558,
+          "end_sample": 43901,
+          "start_ms": 1722,
+          "end_ms": 2744
+        },
+        {
+          "lang": "en",
+          "text": "in a way that was hard to explain.",
+          "start_sample": 43901,
+          "end_sample": 85881,
+          "start_ms": 2744,
+          "end_ms": 5368
+        }
+      ]
+    },
+    "ja": {
+      "text": "She described her ex as 冷たい in a way that was hard to explain.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4635,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She described her ex as",
+          "start_sample": 0,
+          "end_sample": 27770,
+          "start_ms": 0,
+          "end_ms": 1736
+        },
+        {
+          "lang": "ja",
+          "text": "冷たい",
+          "start_sample": 27770,
+          "end_sample": 36279,
+          "start_ms": 1736,
+          "end_ms": 2267
+        },
+        {
+          "lang": "en",
+          "text": "in a way that was hard to explain.",
+          "start_sample": 36279,
+          "end_sample": 74164,
+          "start_ms": 2267,
+          "end_ms": 4635
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 242,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

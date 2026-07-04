@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_051_2b805c12b1e0/cs10931.flac",
+  "sentence": "She felt completely 恥ずかしい when he showed up with flowers.",
+  "sample_rate": 16000,
+  "duration_ms": 3839,
+  "reference_speaker": "jp/speaker_051_2b805c12b1e0.mp3",
+  "seed": 10973,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She felt completely",
+      "start_sample": 0,
+      "end_sample": 21120,
+      "start_ms": 0,
+      "end_ms": 1320
+    },
+    {
+      "lang": "ja",
+      "text": "恥ずかしい",
+      "start_sample": 21120,
+      "end_sample": 32450,
+      "start_ms": 1320,
+      "end_ms": 2028
+    },
+    {
+      "lang": "en",
+      "text": "when he showed up with flowers.",
+      "start_sample": 32450,
+      "end_sample": 61425,
+      "start_ms": 2028,
+      "end_ms": 3839
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She felt completely hazukashii when he showed up with flowers.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4008,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She felt completely",
+          "start_sample": 0,
+          "end_sample": 21320,
+          "start_ms": 0,
+          "end_ms": 1332
+        },
+        {
+          "lang": "ja",
+          "text": "恥ずかしい",
+          "start_sample": 21320,
+          "end_sample": 34947,
+          "start_ms": 1332,
+          "end_ms": 2184
+        },
+        {
+          "lang": "en",
+          "text": "when he showed up with flowers.",
+          "start_sample": 34947,
+          "end_sample": 64122,
+          "start_ms": 2184,
+          "end_ms": 4008
+        }
+      ]
+    },
+    "ja": {
+      "text": "She felt completely 恥ずかしい when he showed up with flowers.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4519,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She felt completely",
+          "start_sample": 0,
+          "end_sample": 27635,
+          "start_ms": 0,
+          "end_ms": 1727
+        },
+        {
+          "lang": "ja",
+          "text": "恥ずかしい",
+          "start_sample": 27635,
+          "end_sample": 39365,
+          "start_ms": 1727,
+          "end_ms": 2460
+        },
+        {
+          "lang": "en",
+          "text": "when he showed up with flowers.",
+          "start_sample": 39365,
+          "end_sample": 72303,
+          "start_ms": 2460,
+          "end_ms": 4519
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

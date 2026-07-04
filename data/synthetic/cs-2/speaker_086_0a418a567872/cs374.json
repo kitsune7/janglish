@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_086_0a418a567872/cs374.flac",
+  "sentence": "This 地図 is so outdated that half the 道 on it don't exist anymore.",
+  "sample_rate": 16000,
+  "duration_ms": 4694,
+  "reference_speaker": "en/speaker_086_0a418a567872.mp3",
+  "seed": 416,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This",
+      "start_sample": 0,
+      "end_sample": 6043,
+      "start_ms": 0,
+      "end_ms": 378
+    },
+    {
+      "lang": "ja",
+      "text": "地図",
+      "start_sample": 6043,
+      "end_sample": 14947,
+      "start_ms": 378,
+      "end_ms": 934
+    },
+    {
+      "lang": "en",
+      "text": "is so outdated that half the",
+      "start_sample": 14947,
+      "end_sample": 44163,
+      "start_ms": 934,
+      "end_ms": 2760
+    },
+    {
+      "lang": "ja",
+      "text": "道",
+      "start_sample": 44163,
+      "end_sample": 49698,
+      "start_ms": 2760,
+      "end_ms": 3106
+    },
+    {
+      "lang": "en",
+      "text": "on it don't exist anymore.",
+      "start_sample": 49698,
+      "end_sample": 75111,
+      "start_ms": 3106,
+      "end_ms": 4694
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This chizu is so outdated that half the michi on it don't exist anymore.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4702,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This",
+          "start_sample": 0,
+          "end_sample": 6243,
+          "start_ms": 0,
+          "end_ms": 390
+        },
+        {
+          "lang": "ja",
+          "text": "地図",
+          "start_sample": 6243,
+          "end_sample": 14086,
+          "start_ms": 390,
+          "end_ms": 880
+        },
+        {
+          "lang": "en",
+          "text": "is so outdated that half the",
+          "start_sample": 14086,
+          "end_sample": 43702,
+          "start_ms": 880,
+          "end_ms": 2731
+        },
+        {
+          "lang": "ja",
+          "text": "道",
+          "start_sample": 43702,
+          "end_sample": 49625,
+          "start_ms": 2731,
+          "end_ms": 3102
+        },
+        {
+          "lang": "en",
+          "text": "on it don't exist anymore.",
+          "start_sample": 49625,
+          "end_sample": 75238,
+          "start_ms": 3102,
+          "end_ms": 4702
+        }
+      ]
+    },
+    "ja": {
+      "text": "This 地図 is so outdated that half the 道 on it don't exist anymore.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6617,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This",
+          "start_sample": 0,
+          "end_sample": 5451,
+          "start_ms": 0,
+          "end_ms": 341
+        },
+        {
+          "lang": "ja",
+          "text": "地図",
+          "start_sample": 5451,
+          "end_sample": 14755,
+          "start_ms": 341,
+          "end_ms": 922
+        },
+        {
+          "lang": "en",
+          "text": "is so outdated that half the",
+          "start_sample": 14755,
+          "end_sample": 65444,
+          "start_ms": 922,
+          "end_ms": 4090
+        },
+        {
+          "lang": "ja",
+          "text": "道",
+          "start_sample": 65444,
+          "end_sample": 71379,
+          "start_ms": 4090,
+          "end_ms": 4461
+        },
+        {
+          "lang": "en",
+          "text": "on it don't exist anymore.",
+          "start_sample": 71379,
+          "end_sample": 105865,
+          "start_ms": 4461,
+          "end_ms": 6617
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 235,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

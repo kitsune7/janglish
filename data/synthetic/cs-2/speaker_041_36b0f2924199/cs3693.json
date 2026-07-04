@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_041_36b0f2924199/cs3693.flac",
+  "sentence": "I printed the 送り状 at home to save time at the 郵便局.",
+  "sample_rate": 16000,
+  "duration_ms": 4632,
+  "reference_speaker": "jp/speaker_041_36b0f2924199.mp3",
+  "seed": 3735,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I printed the",
+      "start_sample": 0,
+      "end_sample": 8624,
+      "start_ms": 0,
+      "end_ms": 539
+    },
+    {
+      "lang": "ja",
+      "text": "送り状",
+      "start_sample": 8624,
+      "end_sample": 19000,
+      "start_ms": 539,
+      "end_ms": 1188
+    },
+    {
+      "lang": "en",
+      "text": "at home to save time at the",
+      "start_sample": 19000,
+      "end_sample": 62572,
+      "start_ms": 1188,
+      "end_ms": 3911
+    },
+    {
+      "lang": "ja",
+      "text": "郵便局.",
+      "start_sample": 62572,
+      "end_sample": 74110,
+      "start_ms": 3911,
+      "end_ms": 4632
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I printed the okurijou at home to save time at the yuubin kyoku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4674,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I printed the",
+          "start_sample": 0,
+          "end_sample": 8824,
+          "start_ms": 0,
+          "end_ms": 552
+        },
+        {
+          "lang": "ja",
+          "text": "送り状",
+          "start_sample": 8824,
+          "end_sample": 17490,
+          "start_ms": 552,
+          "end_ms": 1093
+        },
+        {
+          "lang": "en",
+          "text": "at home to save time at the",
+          "start_sample": 17490,
+          "end_sample": 61462,
+          "start_ms": 1093,
+          "end_ms": 3841
+        },
+        {
+          "lang": "ja",
+          "text": "郵便局.",
+          "start_sample": 61462,
+          "end_sample": 74780,
+          "start_ms": 3841,
+          "end_ms": 4674
+        }
+      ]
+    },
+    "ja": {
+      "text": "I printed the 送り状 at home to save time at the 郵便局.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4403,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I printed the",
+          "start_sample": 0,
+          "end_sample": 16723,
+          "start_ms": 0,
+          "end_ms": 1045
+        },
+        {
+          "lang": "ja",
+          "text": "送り状",
+          "start_sample": 16723,
+          "end_sample": 27499,
+          "start_ms": 1045,
+          "end_ms": 1719
+        },
+        {
+          "lang": "en",
+          "text": "at home to save time at the",
+          "start_sample": 27499,
+          "end_sample": 58704,
+          "start_ms": 1719,
+          "end_ms": 3669
+        },
+        {
+          "lang": "ja",
+          "text": "郵便局.",
+          "start_sample": 58704,
+          "end_sample": 70442,
+          "start_ms": 3669,
+          "end_ms": 4403
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 232,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

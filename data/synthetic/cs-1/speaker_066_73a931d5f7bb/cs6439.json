@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_066_73a931d5f7bb/cs6439.flac",
+  "sentence": "子供の頃に読んだfantasyの本を大人になって読み返した。",
+  "sample_rate": 16000,
+  "duration_ms": 3516,
+  "reference_speaker": "en/speaker_066_73a931d5f7bb.mp3",
+  "seed": 6481,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "子供の頃に読んだ",
+      "start_sample": 0,
+      "end_sample": 16953,
+      "start_ms": 0,
+      "end_ms": 1060
+    },
+    {
+      "lang": "en",
+      "text": "fantasy",
+      "start_sample": 16953,
+      "end_sample": 27126,
+      "start_ms": 1060,
+      "end_ms": 1695
+    },
+    {
+      "lang": "ja",
+      "text": "の本を大人になって読み返した。",
+      "start_sample": 27126,
+      "end_sample": 56261,
+      "start_ms": 1695,
+      "end_ms": 3516
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kodomo no goro ni yon da fantasy no hon wo otona ni natsu te yomikaeshi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6768,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "子供の頃に読んだ",
+          "start_sample": 0,
+          "end_sample": 33317,
+          "start_ms": 0,
+          "end_ms": 2082
+        },
+        {
+          "lang": "en",
+          "text": "fantasy",
+          "start_sample": 33317,
+          "end_sample": 43890,
+          "start_ms": 2082,
+          "end_ms": 2743
+        },
+        {
+          "lang": "ja",
+          "text": "の本を大人になって読み返した。",
+          "start_sample": 43890,
+          "end_sample": 108282,
+          "start_ms": 2743,
+          "end_ms": 6768
+        }
+      ]
+    },
+    "ja": {
+      "text": "子供の頃に読んだfantasyの本を大人になって読み返した。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3366,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "子供の頃に読んだ",
+          "start_sample": 0,
+          "end_sample": 17153,
+          "start_ms": 0,
+          "end_ms": 1072
+        },
+        {
+          "lang": "en",
+          "text": "fantasy",
+          "start_sample": 17153,
+          "end_sample": 24527,
+          "start_ms": 1072,
+          "end_ms": 1533
+        },
+        {
+          "lang": "ja",
+          "text": "の本を大人になって読み返した。",
+          "start_sample": 24527,
+          "end_sample": 53862,
+          "start_ms": 1533,
+          "end_ms": 3366
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 176,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

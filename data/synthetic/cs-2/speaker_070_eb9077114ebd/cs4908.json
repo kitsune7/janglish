@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_070_eb9077114ebd/cs4908.flac",
+  "sentence": "The evacuation route was marked clearly, but the 群衆 ignored the signs and caused 遅延.",
+  "sample_rate": 16000,
+  "duration_ms": 6909,
+  "reference_speaker": "en/speaker_070_eb9077114ebd.mp3",
+  "seed": 4950,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The evacuation route was marked clearly, but the",
+      "start_sample": 0,
+      "end_sample": 57994,
+      "start_ms": 0,
+      "end_ms": 3625
+    },
+    {
+      "lang": "ja",
+      "text": "群衆",
+      "start_sample": 57994,
+      "end_sample": 70742,
+      "start_ms": 3625,
+      "end_ms": 4421
+    },
+    {
+      "lang": "en",
+      "text": "ignored the signs and caused",
+      "start_sample": 70742,
+      "end_sample": 102245,
+      "start_ms": 4421,
+      "end_ms": 6390
+    },
+    {
+      "lang": "ja",
+      "text": "遅延.",
+      "start_sample": 102245,
+      "end_sample": 110541,
+      "start_ms": 6390,
+      "end_ms": 6909
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The evacuation route was marked clearly, but the gunshuu ignored the signs and caused chien",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6633,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The evacuation route was marked clearly, but the",
+          "start_sample": 0,
+          "end_sample": 58194,
+          "start_ms": 0,
+          "end_ms": 3637
+        },
+        {
+          "lang": "ja",
+          "text": "群衆",
+          "start_sample": 58194,
+          "end_sample": 67171,
+          "start_ms": 3637,
+          "end_ms": 4198
+        },
+        {
+          "lang": "en",
+          "text": "ignored the signs and caused",
+          "start_sample": 67171,
+          "end_sample": 99074,
+          "start_ms": 4198,
+          "end_ms": 6192
+        },
+        {
+          "lang": "ja",
+          "text": "遅延.",
+          "start_sample": 99074,
+          "end_sample": 106126,
+          "start_ms": 6192,
+          "end_ms": 6633
+        }
+      ]
+    },
+    "ja": {
+      "text": "The evacuation route was marked clearly, but the 群衆 ignored the signs and caused 遅延.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7876,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The evacuation route was marked clearly, but the",
+          "start_sample": 0,
+          "end_sample": 65096,
+          "start_ms": 0,
+          "end_ms": 4068
+        },
+        {
+          "lang": "ja",
+          "text": "群衆",
+          "start_sample": 65096,
+          "end_sample": 78244,
+          "start_ms": 4068,
+          "end_ms": 4890
+        },
+        {
+          "lang": "en",
+          "text": "ignored the signs and caused",
+          "start_sample": 78244,
+          "end_sample": 117528,
+          "start_ms": 4890,
+          "end_ms": 7346
+        },
+        {
+          "lang": "ja",
+          "text": "遅延.",
+          "start_sample": 117528,
+          "end_sample": 126024,
+          "start_ms": 7346,
+          "end_ms": 7876
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 346,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_040_ec293248c910/cs666.flac",
+  "sentence": "このスープはherbyな風味で、どこか懐かしい感じがします。",
+  "sample_rate": 16000,
+  "duration_ms": 5007,
+  "reference_speaker": "en/speaker_040_ec293248c910.mp3",
+  "seed": 708,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このスープは",
+      "start_sample": 0,
+      "end_sample": 12166,
+      "start_ms": 0,
+      "end_ms": 760
+    },
+    {
+      "lang": "en",
+      "text": "herby",
+      "start_sample": 12166,
+      "end_sample": 28280,
+      "start_ms": 760,
+      "end_ms": 1768
+    },
+    {
+      "lang": "ja",
+      "text": "な風味で、どこか懐かしい感じがします。",
+      "start_sample": 28280,
+      "end_sample": 80113,
+      "start_ms": 1768,
+      "end_ms": 5007
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono suupu ha herby na fuumi de doko ka natsukashii kanji ga shi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7756,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このスープは",
+          "start_sample": 0,
+          "end_sample": 26292,
+          "start_ms": 0,
+          "end_ms": 1643
+        },
+        {
+          "lang": "en",
+          "text": "herby",
+          "start_sample": 26292,
+          "end_sample": 42806,
+          "start_ms": 1643,
+          "end_ms": 2675
+        },
+        {
+          "lang": "ja",
+          "text": "な風味で、どこか懐かしい感じがします。",
+          "start_sample": 42806,
+          "end_sample": 124088,
+          "start_ms": 2675,
+          "end_ms": 7756
+        }
+      ]
+    },
+    "ja": {
+      "text": "このスープはherbyな風味で、どこか懐かしい感じがします。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4577,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このスープは",
+          "start_sample": 0,
+          "end_sample": 12366,
+          "start_ms": 0,
+          "end_ms": 773
+        },
+        {
+          "lang": "en",
+          "text": "herby",
+          "start_sample": 12366,
+          "end_sample": 21199,
+          "start_ms": 773,
+          "end_ms": 1325
+        },
+        {
+          "lang": "ja",
+          "text": "な風味で、どこか懐かしい感じがします。",
+          "start_sample": 21199,
+          "end_sample": 73232,
+          "start_ms": 1325,
+          "end_ms": 4577
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 251,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

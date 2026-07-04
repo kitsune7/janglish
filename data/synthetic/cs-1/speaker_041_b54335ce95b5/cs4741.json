@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_041_b54335ce95b5/cs4741.flac",
+  "sentence": "子どもが昼寝している間にquicklyレポートを仕上げた。",
+  "sample_rate": 16000,
+  "duration_ms": 3746,
+  "reference_speaker": "en/speaker_041_b54335ce95b5.mp3",
+  "seed": 4783,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "子どもが昼寝している間に",
+      "start_sample": 0,
+      "end_sample": 35215,
+      "start_ms": 0,
+      "end_ms": 2201
+    },
+    {
+      "lang": "en",
+      "text": "quickly",
+      "start_sample": 35215,
+      "end_sample": 41710,
+      "start_ms": 2201,
+      "end_ms": 2607
+    },
+    {
+      "lang": "ja",
+      "text": "レポートを仕上げた。",
+      "start_sample": 41710,
+      "end_sample": 59937,
+      "start_ms": 2607,
+      "end_ms": 3746
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kodomo ga hirune shi te iru kan ni quickly repooto wo shiage ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7577,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "子どもが昼寝している間に",
+          "start_sample": 0,
+          "end_sample": 90921,
+          "start_ms": 0,
+          "end_ms": 5683
+        },
+        {
+          "lang": "en",
+          "text": "quickly",
+          "start_sample": 90921,
+          "end_sample": 97816,
+          "start_ms": 5683,
+          "end_ms": 6114
+        },
+        {
+          "lang": "ja",
+          "text": "レポートを仕上げた。",
+          "start_sample": 97816,
+          "end_sample": 121227,
+          "start_ms": 6114,
+          "end_ms": 7577
+        }
+      ]
+    },
+    "ja": {
+      "text": "子どもが昼寝している間にquicklyレポートを仕上げた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4126,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "子どもが昼寝している間に",
+          "start_sample": 0,
+          "end_sample": 35415,
+          "start_ms": 0,
+          "end_ms": 2213
+        },
+        {
+          "lang": "en",
+          "text": "quickly",
+          "start_sample": 35415,
+          "end_sample": 47594,
+          "start_ms": 2213,
+          "end_ms": 2975
+        },
+        {
+          "lang": "ja",
+          "text": "レポートを仕上げた。",
+          "start_sample": 47594,
+          "end_sample": 66021,
+          "start_ms": 2975,
+          "end_ms": 4126
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_093_c561f370b1dd/cs677.flac",
+  "sentence": "この口紅の色はとてもvibrantですね。",
+  "sample_rate": 16000,
+  "duration_ms": 2935,
+  "reference_speaker": "en/speaker_093_c561f370b1dd.mp3",
+  "seed": 719,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この口紅の色はとても",
+      "start_sample": 0,
+      "end_sample": 31493,
+      "start_ms": 0,
+      "end_ms": 1968
+    },
+    {
+      "lang": "en",
+      "text": "vibrant",
+      "start_sample": 31493,
+      "end_sample": 39924,
+      "start_ms": 1968,
+      "end_ms": 2495
+    },
+    {
+      "lang": "ja",
+      "text": "ですね。",
+      "start_sample": 39924,
+      "end_sample": 46959,
+      "start_ms": 2495,
+      "end_ms": 2935
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono kuchibeni no iro ha totemo vibrant desu ne",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4797,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この口紅の色はとても",
+          "start_sample": 0,
+          "end_sample": 59730,
+          "start_ms": 0,
+          "end_ms": 3733
+        },
+        {
+          "lang": "en",
+          "text": "vibrant",
+          "start_sample": 59730,
+          "end_sample": 68561,
+          "start_ms": 3733,
+          "end_ms": 4285
+        },
+        {
+          "lang": "ja",
+          "text": "ですね。",
+          "start_sample": 68561,
+          "end_sample": 76746,
+          "start_ms": 4285,
+          "end_ms": 4797
+        }
+      ]
+    },
+    "ja": {
+      "text": "この口紅の色はとてもvibrantですね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3036,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この口紅の色はとても",
+          "start_sample": 0,
+          "end_sample": 31693,
+          "start_ms": 0,
+          "end_ms": 1981
+        },
+        {
+          "lang": "en",
+          "text": "vibrant",
+          "start_sample": 31693,
+          "end_sample": 41346,
+          "start_ms": 1981,
+          "end_ms": 2584
+        },
+        {
+          "lang": "ja",
+          "text": "ですね。",
+          "start_sample": 41346,
+          "end_sample": 48581,
+          "start_ms": 2584,
+          "end_ms": 3036
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 147,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_059_8cc960ae4dc2/cs5810.flac",
+  "sentence": "The store was 混んでいて we could barely move through the aisles.",
+  "sample_rate": 16000,
+  "duration_ms": 4754,
+  "reference_speaker": "en/speaker_059_8cc960ae4dc2.mp3",
+  "seed": 5852,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The store was",
+      "start_sample": 0,
+      "end_sample": 18726,
+      "start_ms": 0,
+      "end_ms": 1170
+    },
+    {
+      "lang": "ja",
+      "text": "混んでいて",
+      "start_sample": 18726,
+      "end_sample": 31843,
+      "start_ms": 1170,
+      "end_ms": 1990
+    },
+    {
+      "lang": "en",
+      "text": "we could barely move through the aisles.",
+      "start_sample": 31843,
+      "end_sample": 76071,
+      "start_ms": 1990,
+      "end_ms": 4754
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The store was kon de i te we could barely move through the aisles.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5233,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The store was",
+          "start_sample": 0,
+          "end_sample": 18926,
+          "start_ms": 0,
+          "end_ms": 1183
+        },
+        {
+          "lang": "ja",
+          "text": "混んでいて",
+          "start_sample": 18926,
+          "end_sample": 39298,
+          "start_ms": 1183,
+          "end_ms": 2456
+        },
+        {
+          "lang": "en",
+          "text": "we could barely move through the aisles.",
+          "start_sample": 39298,
+          "end_sample": 83726,
+          "start_ms": 2456,
+          "end_ms": 5233
+        }
+      ]
+    },
+    "ja": {
+      "text": "The store was 混んでいて we could barely move through the aisles.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4063,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The store was",
+          "start_sample": 0,
+          "end_sample": 11746,
+          "start_ms": 0,
+          "end_ms": 734
+        },
+        {
+          "lang": "ja",
+          "text": "混んでいて",
+          "start_sample": 11746,
+          "end_sample": 25263,
+          "start_ms": 734,
+          "end_ms": 1579
+        },
+        {
+          "lang": "en",
+          "text": "we could barely move through the aisles.",
+          "start_sample": 25263,
+          "end_sample": 65003,
+          "start_ms": 1579,
+          "end_ms": 4063
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 238,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

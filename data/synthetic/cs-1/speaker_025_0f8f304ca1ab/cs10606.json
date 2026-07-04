@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_025_0f8f304ca1ab/cs10606.flac",
+  "sentence": "Everything looks so 新鮮 after the morning dew settles on the grass.",
+  "sample_rate": 16000,
+  "duration_ms": 5369,
+  "reference_speaker": "jp/speaker_025_0f8f304ca1ab.mp3",
+  "seed": 10648,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Everything looks so",
+      "start_sample": 0,
+      "end_sample": 19393,
+      "start_ms": 0,
+      "end_ms": 1212
+    },
+    {
+      "lang": "ja",
+      "text": "新鮮",
+      "start_sample": 19393,
+      "end_sample": 30531,
+      "start_ms": 1212,
+      "end_ms": 1908
+    },
+    {
+      "lang": "en",
+      "text": "after the morning dew settles on the grass.",
+      "start_sample": 30531,
+      "end_sample": 85905,
+      "start_ms": 1908,
+      "end_ms": 5369
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Everything looks so shinsen after the morning dew settles on the grass.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5682,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Everything looks so",
+          "start_sample": 0,
+          "end_sample": 19593,
+          "start_ms": 0,
+          "end_ms": 1225
+        },
+        {
+          "lang": "ja",
+          "text": "新鮮",
+          "start_sample": 19593,
+          "end_sample": 35334,
+          "start_ms": 1225,
+          "end_ms": 2208
+        },
+        {
+          "lang": "en",
+          "text": "after the morning dew settles on the grass.",
+          "start_sample": 35334,
+          "end_sample": 90908,
+          "start_ms": 2208,
+          "end_ms": 5682
+        }
+      ]
+    },
+    "ja": {
+      "text": "Everything looks so 新鮮 after the morning dew settles on the grass.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5589,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Everything looks so",
+          "start_sample": 0,
+          "end_sample": 22596,
+          "start_ms": 0,
+          "end_ms": 1412
+        },
+        {
+          "lang": "ja",
+          "text": "新鮮",
+          "start_sample": 22596,
+          "end_sample": 34134,
+          "start_ms": 1412,
+          "end_ms": 2133
+        },
+        {
+          "lang": "en",
+          "text": "after the morning dew settles on the grass.",
+          "start_sample": 34134,
+          "end_sample": 89423,
+          "start_ms": 2133,
+          "end_ms": 5589
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 269,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

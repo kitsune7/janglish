@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_080_2ec83f7b270e/cs2855.flac",
+  "sentence": "Is the bread here 手作り or does it come from a supplier?",
+  "sample_rate": 16000,
+  "duration_ms": 5136,
+  "reference_speaker": "en/speaker_080_2ec83f7b270e.mp3",
+  "seed": 2897,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Is the bread here",
+      "start_sample": 0,
+      "end_sample": 27882,
+      "start_ms": 0,
+      "end_ms": 1743
+    },
+    {
+      "lang": "ja",
+      "text": "手作り",
+      "start_sample": 27882,
+      "end_sample": 40166,
+      "start_ms": 1743,
+      "end_ms": 2510
+    },
+    {
+      "lang": "en",
+      "text": "or does it come from a supplier?",
+      "start_sample": 40166,
+      "end_sample": 82169,
+      "start_ms": 2510,
+      "end_ms": 5136
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Is the bread here tezukuri or does it come from a supplier?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6018,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is the bread here",
+          "start_sample": 0,
+          "end_sample": 28082,
+          "start_ms": 0,
+          "end_ms": 1755
+        },
+        {
+          "lang": "ja",
+          "text": "手作り",
+          "start_sample": 28082,
+          "end_sample": 54080,
+          "start_ms": 1755,
+          "end_ms": 3380
+        },
+        {
+          "lang": "en",
+          "text": "or does it come from a supplier?",
+          "start_sample": 54080,
+          "end_sample": 96283,
+          "start_ms": 3380,
+          "end_ms": 6018
+        }
+      ]
+    },
+    "ja": {
+      "text": "Is the bread here 手作り or does it come from a supplier?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3732,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is the bread here",
+          "start_sample": 0,
+          "end_sample": 16214,
+          "start_ms": 0,
+          "end_ms": 1013
+        },
+        {
+          "lang": "ja",
+          "text": "手作り",
+          "start_sample": 16214,
+          "end_sample": 28898,
+          "start_ms": 1013,
+          "end_ms": 1806
+        },
+        {
+          "lang": "en",
+          "text": "or does it come from a supplier?",
+          "start_sample": 28898,
+          "end_sample": 59720,
+          "start_ms": 1806,
+          "end_ms": 3732
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 257,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

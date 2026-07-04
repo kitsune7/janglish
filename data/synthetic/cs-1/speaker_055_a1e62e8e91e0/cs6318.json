@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_055_a1e62e8e91e0/cs6318.flac",
+  "sentence": "The 行列 outside the sneaker shop wrapped all the way around the block.",
+  "sample_rate": 16000,
+  "duration_ms": 3654,
+  "reference_speaker": "en/speaker_055_a1e62e8e91e0.mp3",
+  "seed": 6360,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1084,
+      "start_ms": 0,
+      "end_ms": 68
+    },
+    {
+      "lang": "ja",
+      "text": "行列",
+      "start_sample": 1084,
+      "end_sample": 13534,
+      "start_ms": 68,
+      "end_ms": 846
+    },
+    {
+      "lang": "en",
+      "text": "outside the sneaker shop wrapped all the way around the block.",
+      "start_sample": 13534,
+      "end_sample": 58458,
+      "start_ms": 846,
+      "end_ms": 3654
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The gyouretsu outside the sneaker shop wrapped all the way around the block.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3412,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1284,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "行列",
+          "start_sample": 1284,
+          "end_sample": 9475,
+          "start_ms": 80,
+          "end_ms": 592
+        },
+        {
+          "lang": "en",
+          "text": "outside the sneaker shop wrapped all the way around the block.",
+          "start_sample": 9475,
+          "end_sample": 54599,
+          "start_ms": 592,
+          "end_ms": 3412
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 行列 outside the sneaker shop wrapped all the way around the block.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4779,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3373,
+          "start_ms": 0,
+          "end_ms": 211
+        },
+        {
+          "lang": "ja",
+          "text": "行列",
+          "start_sample": 3373,
+          "end_sample": 16223,
+          "start_ms": 211,
+          "end_ms": 1014
+        },
+        {
+          "lang": "en",
+          "text": "outside the sneaker shop wrapped all the way around the block.",
+          "start_sample": 16223,
+          "end_sample": 76459,
+          "start_ms": 1014,
+          "end_ms": 4779
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 183,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

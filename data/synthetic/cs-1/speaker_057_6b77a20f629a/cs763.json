@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_057_6b77a20f629a/cs763.flac",
+  "sentence": "I put the 牛乳 in the cart and then completely forgot to check out with it.",
+  "sample_rate": 16000,
+  "duration_ms": 4795,
+  "reference_speaker": "jp/speaker_057_6b77a20f629a.mp3",
+  "seed": 805,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I put the",
+      "start_sample": 0,
+      "end_sample": 6378,
+      "start_ms": 0,
+      "end_ms": 399
+    },
+    {
+      "lang": "ja",
+      "text": "牛乳",
+      "start_sample": 6378,
+      "end_sample": 16555,
+      "start_ms": 399,
+      "end_ms": 1035
+    },
+    {
+      "lang": "en",
+      "text": "in the cart and then completely forgot to check out with it.",
+      "start_sample": 16555,
+      "end_sample": 76716,
+      "start_ms": 1035,
+      "end_ms": 4795
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I put the gyuunyuu in the cart and then completely forgot to check out with it.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4555,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I put the",
+          "start_sample": 0,
+          "end_sample": 6578,
+          "start_ms": 0,
+          "end_ms": 411
+        },
+        {
+          "lang": "ja",
+          "text": "牛乳",
+          "start_sample": 6578,
+          "end_sample": 12519,
+          "start_ms": 411,
+          "end_ms": 782
+        },
+        {
+          "lang": "en",
+          "text": "in the cart and then completely forgot to check out with it.",
+          "start_sample": 12519,
+          "end_sample": 72880,
+          "start_ms": 782,
+          "end_ms": 4555
+        }
+      ]
+    },
+    "ja": {
+      "text": "I put the 牛乳 in the cart and then completely forgot to check out with it.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6591,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I put the",
+          "start_sample": 0,
+          "end_sample": 8492,
+          "start_ms": 0,
+          "end_ms": 531
+        },
+        {
+          "lang": "ja",
+          "text": "牛乳",
+          "start_sample": 8492,
+          "end_sample": 19069,
+          "start_ms": 531,
+          "end_ms": 1192
+        },
+        {
+          "lang": "en",
+          "text": "in the cart and then completely forgot to check out with it.",
+          "start_sample": 19069,
+          "end_sample": 105451,
+          "start_ms": 1192,
+          "end_ms": 6591
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 240,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

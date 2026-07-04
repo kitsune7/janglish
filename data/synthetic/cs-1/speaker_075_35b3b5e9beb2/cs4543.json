@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_075_35b3b5e9beb2/cs4543.flac",
+  "sentence": "The 社長 made a surprise appearance at the all-hands meeting.",
+  "sample_rate": 16000,
+  "duration_ms": 4300,
+  "reference_speaker": "jp/speaker_075_35b3b5e9beb2.mp3",
+  "seed": 4585,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1085,
+      "start_ms": 0,
+      "end_ms": 68
+    },
+    {
+      "lang": "ja",
+      "text": "社長",
+      "start_sample": 1085,
+      "end_sample": 7749,
+      "start_ms": 68,
+      "end_ms": 484
+    },
+    {
+      "lang": "en",
+      "text": "made a surprise appearance at the all-hands meeting.",
+      "start_sample": 7749,
+      "end_sample": 68794,
+      "start_ms": 484,
+      "end_ms": 4300
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shachou made a surprise appearance at the all-hands meeting.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4320,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1285,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "社長",
+          "start_sample": 1285,
+          "end_sample": 7877,
+          "start_ms": 80,
+          "end_ms": 492
+        },
+        {
+          "lang": "en",
+          "text": "made a surprise appearance at the all-hands meeting.",
+          "start_sample": 7877,
+          "end_sample": 69122,
+          "start_ms": 492,
+          "end_ms": 4320
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 社長 made a surprise appearance at the all-hands meeting.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4515,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3207,
+          "start_ms": 0,
+          "end_ms": 200
+        },
+        {
+          "lang": "ja",
+          "text": "社長",
+          "start_sample": 3207,
+          "end_sample": 10271,
+          "start_ms": 200,
+          "end_ms": 642
+        },
+        {
+          "lang": "en",
+          "text": "made a surprise appearance at the all-hands meeting.",
+          "start_sample": 10271,
+          "end_sample": 72237,
+          "start_ms": 642,
+          "end_ms": 4515
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 215,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

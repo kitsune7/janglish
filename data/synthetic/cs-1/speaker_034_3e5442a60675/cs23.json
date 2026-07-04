@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_034_3e5442a60675/cs23.flac",
+  "sentence": "今日はscheduleがとても忙しいです。",
+  "sample_rate": 16000,
+  "duration_ms": 2648,
+  "reference_speaker": "jp/speaker_034_3e5442a60675.mp3",
+  "seed": 65,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日は",
+      "start_sample": 0,
+      "end_sample": 5898,
+      "start_ms": 0,
+      "end_ms": 369
+    },
+    {
+      "lang": "en",
+      "text": "schedule",
+      "start_sample": 5898,
+      "end_sample": 18011,
+      "start_ms": 369,
+      "end_ms": 1126
+    },
+    {
+      "lang": "ja",
+      "text": "がとても忙しいです。",
+      "start_sample": 18011,
+      "end_sample": 42362,
+      "start_ms": 1126,
+      "end_ms": 2648
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou ha schedule ga totemo isogashii desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4793,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日は",
+          "start_sample": 0,
+          "end_sample": 14598,
+          "start_ms": 0,
+          "end_ms": 912
+        },
+        {
+          "lang": "en",
+          "text": "schedule",
+          "start_sample": 14598,
+          "end_sample": 27111,
+          "start_ms": 912,
+          "end_ms": 1694
+        },
+        {
+          "lang": "ja",
+          "text": "がとても忙しいです。",
+          "start_sample": 27111,
+          "end_sample": 76681,
+          "start_ms": 1694,
+          "end_ms": 4793
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日はscheduleがとても忙しいです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2648,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日は",
+          "start_sample": 0,
+          "end_sample": 6098,
+          "start_ms": 0,
+          "end_ms": 381
+        },
+        {
+          "lang": "en",
+          "text": "schedule",
+          "start_sample": 6098,
+          "end_sample": 17812,
+          "start_ms": 381,
+          "end_ms": 1113
+        },
+        {
+          "lang": "ja",
+          "text": "がとても忙しいです。",
+          "start_sample": 17812,
+          "end_sample": 42363,
+          "start_ms": 1113,
+          "end_ms": 2648
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 133,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

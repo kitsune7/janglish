@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_035_aa6a3aa058c0/cs9080.flac",
+  "sentence": "子どもたちはcandyをたくさんもらって、大喜びしていた。",
+  "sample_rate": 16000,
+  "duration_ms": 4232,
+  "reference_speaker": "en/speaker_035_aa6a3aa058c0.mp3",
+  "seed": 9122,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "子どもたちは",
+      "start_sample": 0,
+      "end_sample": 12322,
+      "start_ms": 0,
+      "end_ms": 770
+    },
+    {
+      "lang": "en",
+      "text": "candy",
+      "start_sample": 12322,
+      "end_sample": 29390,
+      "start_ms": 770,
+      "end_ms": 1837
+    },
+    {
+      "lang": "ja",
+      "text": "をたくさんもらって、大喜びしていた。",
+      "start_sample": 29390,
+      "end_sample": 67719,
+      "start_ms": 1837,
+      "end_ms": 4232
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kodomo tachi ha candy wo takusan moratsu te ooyorokobi shi te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7913,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "子どもたちは",
+          "start_sample": 0,
+          "end_sample": 19551,
+          "start_ms": 0,
+          "end_ms": 1222
+        },
+        {
+          "lang": "en",
+          "text": "candy",
+          "start_sample": 19551,
+          "end_sample": 37019,
+          "start_ms": 1222,
+          "end_ms": 2314
+        },
+        {
+          "lang": "ja",
+          "text": "をたくさんもらって、大喜びしていた。",
+          "start_sample": 37019,
+          "end_sample": 126603,
+          "start_ms": 2314,
+          "end_ms": 7913
+        }
+      ]
+    },
+    "ja": {
+      "text": "子どもたちはcandyをたくさんもらって、大喜びしていた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3753,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "子どもたちは",
+          "start_sample": 0,
+          "end_sample": 12522,
+          "start_ms": 0,
+          "end_ms": 783
+        },
+        {
+          "lang": "en",
+          "text": "candy",
+          "start_sample": 12522,
+          "end_sample": 21513,
+          "start_ms": 783,
+          "end_ms": 1345
+        },
+        {
+          "lang": "ja",
+          "text": "をたくさんもらって、大喜びしていた。",
+          "start_sample": 21513,
+          "end_sample": 60042,
+          "start_ms": 1345,
+          "end_ms": 3753
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 212,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_047_6ac706d7456d/cs2112.flac",
+  "sentence": "She felt a wave of 緊張 the moment she stepped into the building.",
+  "sample_rate": 16000,
+  "duration_ms": 3808,
+  "reference_speaker": "jp/speaker_047_6ac706d7456d.mp3",
+  "seed": 2154,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She felt a wave of",
+      "start_sample": 0,
+      "end_sample": 19522,
+      "start_ms": 0,
+      "end_ms": 1220
+    },
+    {
+      "lang": "ja",
+      "text": "緊張",
+      "start_sample": 19522,
+      "end_sample": 28583,
+      "start_ms": 1220,
+      "end_ms": 1786
+    },
+    {
+      "lang": "en",
+      "text": "the moment she stepped into the building.",
+      "start_sample": 28583,
+      "end_sample": 60932,
+      "start_ms": 1786,
+      "end_ms": 3808
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She felt a wave of kinchou the moment she stepped into the building.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4169,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She felt a wave of",
+          "start_sample": 0,
+          "end_sample": 19722,
+          "start_ms": 0,
+          "end_ms": 1233
+        },
+        {
+          "lang": "ja",
+          "text": "緊張",
+          "start_sample": 19722,
+          "end_sample": 34153,
+          "start_ms": 1233,
+          "end_ms": 2135
+        },
+        {
+          "lang": "en",
+          "text": "the moment she stepped into the building.",
+          "start_sample": 34153,
+          "end_sample": 66702,
+          "start_ms": 2135,
+          "end_ms": 4169
+        }
+      ]
+    },
+    "ja": {
+      "text": "She felt a wave of 緊張 the moment she stepped into the building.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5112,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She felt a wave of",
+          "start_sample": 0,
+          "end_sample": 24537,
+          "start_ms": 0,
+          "end_ms": 1534
+        },
+        {
+          "lang": "ja",
+          "text": "緊張",
+          "start_sample": 24537,
+          "end_sample": 33998,
+          "start_ms": 1534,
+          "end_ms": 2125
+        },
+        {
+          "lang": "en",
+          "text": "the moment she stepped into the building.",
+          "start_sample": 33998,
+          "end_sample": 81788,
+          "start_ms": 2125,
+          "end_ms": 5112
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 191,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

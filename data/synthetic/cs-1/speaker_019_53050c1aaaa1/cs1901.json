@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_019_53050c1aaaa1/cs1901.flac",
+  "sentence": "I keep forgetting to turn on 転送設定 when I leave the office.",
+  "sample_rate": 16000,
+  "duration_ms": 4478,
+  "reference_speaker": "en/speaker_019_53050c1aaaa1.mp3",
+  "seed": 1943,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I keep forgetting to turn on",
+      "start_sample": 0,
+      "end_sample": 39138,
+      "start_ms": 0,
+      "end_ms": 2446
+    },
+    {
+      "lang": "ja",
+      "text": "転送設定",
+      "start_sample": 39138,
+      "end_sample": 53059,
+      "start_ms": 2446,
+      "end_ms": 3316
+    },
+    {
+      "lang": "en",
+      "text": "when I leave the office.",
+      "start_sample": 53059,
+      "end_sample": 71643,
+      "start_ms": 3316,
+      "end_ms": 4478
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I keep forgetting to turn on tensou settei when I leave the office.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4696,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I keep forgetting to turn on",
+          "start_sample": 0,
+          "end_sample": 39338,
+          "start_ms": 0,
+          "end_ms": 2459
+        },
+        {
+          "lang": "ja",
+          "text": "転送設定",
+          "start_sample": 39338,
+          "end_sample": 56359,
+          "start_ms": 2459,
+          "end_ms": 3522
+        },
+        {
+          "lang": "en",
+          "text": "when I leave the office.",
+          "start_sample": 56359,
+          "end_sample": 75143,
+          "start_ms": 3522,
+          "end_ms": 4696
+        }
+      ]
+    },
+    "ja": {
+      "text": "I keep forgetting to turn on 転送設定 when I leave the office.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4062,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I keep forgetting to turn on",
+          "start_sample": 0,
+          "end_sample": 29120,
+          "start_ms": 0,
+          "end_ms": 1820
+        },
+        {
+          "lang": "ja",
+          "text": "転送設定",
+          "start_sample": 29120,
+          "end_sample": 43441,
+          "start_ms": 1820,
+          "end_ms": 2715
+        },
+        {
+          "lang": "en",
+          "text": "when I leave the office.",
+          "start_sample": 43441,
+          "end_sample": 64999,
+          "start_ms": 2715,
+          "end_ms": 4062
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 224,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

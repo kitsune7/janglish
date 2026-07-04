@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_082_0d071699a4ef/cs7235.flac",
+  "sentence": "The bank said my 口座 had been flagged for unusual activity.",
+  "sample_rate": 16000,
+  "duration_ms": 4882,
+  "reference_speaker": "en/speaker_082_0d071699a4ef.mp3",
+  "seed": 7277,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The bank said my",
+      "start_sample": 0,
+      "end_sample": 33157,
+      "start_ms": 0,
+      "end_ms": 2072
+    },
+    {
+      "lang": "ja",
+      "text": "口座",
+      "start_sample": 33157,
+      "end_sample": 40304,
+      "start_ms": 2072,
+      "end_ms": 2519
+    },
+    {
+      "lang": "en",
+      "text": "had been flagged for unusual activity.",
+      "start_sample": 40304,
+      "end_sample": 78111,
+      "start_ms": 2519,
+      "end_ms": 4882
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The bank said my kouza had been flagged for unusual activity.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4951,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bank said my",
+          "start_sample": 0,
+          "end_sample": 33357,
+          "start_ms": 0,
+          "end_ms": 2085
+        },
+        {
+          "lang": "ja",
+          "text": "口座",
+          "start_sample": 33357,
+          "end_sample": 41215,
+          "start_ms": 2085,
+          "end_ms": 2576
+        },
+        {
+          "lang": "en",
+          "text": "had been flagged for unusual activity.",
+          "start_sample": 41215,
+          "end_sample": 79222,
+          "start_ms": 2576,
+          "end_ms": 4951
+        }
+      ]
+    },
+    "ja": {
+      "text": "The bank said my 口座 had been flagged for unusual activity.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4777,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bank said my",
+          "start_sample": 0,
+          "end_sample": 15895,
+          "start_ms": 0,
+          "end_ms": 993
+        },
+        {
+          "lang": "ja",
+          "text": "口座",
+          "start_sample": 15895,
+          "end_sample": 23442,
+          "start_ms": 993,
+          "end_ms": 1465
+        },
+        {
+          "lang": "en",
+          "text": "had been flagged for unusual activity.",
+          "start_sample": 23442,
+          "end_sample": 76425,
+          "start_ms": 1465,
+          "end_ms": 4777
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 245,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

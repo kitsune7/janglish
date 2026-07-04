@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_002_7eff9a54bdb0/cs7350.flac",
+  "sentence": "I really dislike cleaning behind the 冷蔵庫 — there's always so much dust back there.",
+  "sample_rate": 16000,
+  "duration_ms": 5490,
+  "reference_speaker": "en/speaker_002_7eff9a54bdb0.mp3",
+  "seed": 7392,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I really dislike cleaning behind the",
+      "start_sample": 0,
+      "end_sample": 26951,
+      "start_ms": 0,
+      "end_ms": 1684
+    },
+    {
+      "lang": "ja",
+      "text": "冷蔵庫 —",
+      "start_sample": 26951,
+      "end_sample": 45631,
+      "start_ms": 1684,
+      "end_ms": 2852
+    },
+    {
+      "lang": "en",
+      "text": "there's always so much dust back there.",
+      "start_sample": 45631,
+      "end_sample": 87847,
+      "start_ms": 2852,
+      "end_ms": 5490
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I really dislike cleaning behind the reizou ko there's always so much dust back there.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5503,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I really dislike cleaning behind the",
+          "start_sample": 0,
+          "end_sample": 27151,
+          "start_ms": 0,
+          "end_ms": 1697
+        },
+        {
+          "lang": "ja",
+          "text": "冷蔵庫 —",
+          "start_sample": 27151,
+          "end_sample": 45629,
+          "start_ms": 1697,
+          "end_ms": 2852
+        },
+        {
+          "lang": "en",
+          "text": "there's always so much dust back there.",
+          "start_sample": 45629,
+          "end_sample": 88045,
+          "start_ms": 2852,
+          "end_ms": 5503
+        }
+      ]
+    },
+    "ja": {
+      "text": "I really dislike cleaning behind the 冷蔵庫 — there's always so much dust back there.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7576,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I really dislike cleaning behind the",
+          "start_sample": 0,
+          "end_sample": 44249,
+          "start_ms": 0,
+          "end_ms": 2766
+        },
+        {
+          "lang": "ja",
+          "text": "冷蔵庫 —",
+          "start_sample": 44249,
+          "end_sample": 63329,
+          "start_ms": 2766,
+          "end_ms": 3958
+        },
+        {
+          "lang": "en",
+          "text": "there's always so much dust back there.",
+          "start_sample": 63329,
+          "end_sample": 121208,
+          "start_ms": 3958,
+          "end_ms": 7576
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 275,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

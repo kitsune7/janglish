@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_091_bf2621e97933/cs2376.flac",
+  "sentence": "今日のpracticeはかなりきつかった。",
+  "sample_rate": 16000,
+  "duration_ms": 2269,
+  "reference_speaker": "jp/speaker_091_bf2621e97933.mp3",
+  "seed": 2418,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日の",
+      "start_sample": 0,
+      "end_sample": 6231,
+      "start_ms": 0,
+      "end_ms": 389
+    },
+    {
+      "lang": "en",
+      "text": "practice",
+      "start_sample": 6231,
+      "end_sample": 17862,
+      "start_ms": 389,
+      "end_ms": 1116
+    },
+    {
+      "lang": "ja",
+      "text": "はかなりきつかった。",
+      "start_sample": 17862,
+      "end_sample": 36309,
+      "start_ms": 1116,
+      "end_ms": 2269
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou no practice ha kanari kitsukatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3930,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の",
+          "start_sample": 0,
+          "end_sample": 19088,
+          "start_ms": 0,
+          "end_ms": 1193
+        },
+        {
+          "lang": "en",
+          "text": "practice",
+          "start_sample": 19088,
+          "end_sample": 31119,
+          "start_ms": 1193,
+          "end_ms": 1945
+        },
+        {
+          "lang": "ja",
+          "text": "はかなりきつかった。",
+          "start_sample": 31119,
+          "end_sample": 62878,
+          "start_ms": 1945,
+          "end_ms": 3930
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日のpracticeはかなりきつかった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2251,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の",
+          "start_sample": 0,
+          "end_sample": 6431,
+          "start_ms": 0,
+          "end_ms": 402
+        },
+        {
+          "lang": "en",
+          "text": "practice",
+          "start_sample": 6431,
+          "end_sample": 17363,
+          "start_ms": 402,
+          "end_ms": 1085
+        },
+        {
+          "lang": "ja",
+          "text": "はかなりきつかった。",
+          "start_sample": 17363,
+          "end_sample": 36010,
+          "start_ms": 1085,
+          "end_ms": 2251
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 114,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

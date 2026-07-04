@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_040_473e7a57e696/cs8449.flac",
+  "sentence": "The bank requires 本人確認 before releasing any frozen assets.",
+  "sample_rate": 16000,
+  "duration_ms": 4782,
+  "reference_speaker": "jp/speaker_040_473e7a57e696.mp3",
+  "seed": 8491,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The bank requires",
+      "start_sample": 0,
+      "end_sample": 18086,
+      "start_ms": 0,
+      "end_ms": 1130
+    },
+    {
+      "lang": "ja",
+      "text": "本人確認",
+      "start_sample": 18086,
+      "end_sample": 32604,
+      "start_ms": 1130,
+      "end_ms": 2038
+    },
+    {
+      "lang": "en",
+      "text": "before releasing any frozen assets.",
+      "start_sample": 32604,
+      "end_sample": 76517,
+      "start_ms": 2038,
+      "end_ms": 4782
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The bank requires honnin kakunin before releasing any frozen assets.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5995,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bank requires",
+          "start_sample": 0,
+          "end_sample": 18286,
+          "start_ms": 0,
+          "end_ms": 1143
+        },
+        {
+          "lang": "ja",
+          "text": "本人確認",
+          "start_sample": 18286,
+          "end_sample": 51813,
+          "start_ms": 1143,
+          "end_ms": 3238
+        },
+        {
+          "lang": "en",
+          "text": "before releasing any frozen assets.",
+          "start_sample": 51813,
+          "end_sample": 95926,
+          "start_ms": 3238,
+          "end_ms": 5995
+        }
+      ]
+    },
+    "ja": {
+      "text": "The bank requires 本人確認 before releasing any frozen assets.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5273,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bank requires",
+          "start_sample": 0,
+          "end_sample": 18606,
+          "start_ms": 0,
+          "end_ms": 1163
+        },
+        {
+          "lang": "ja",
+          "text": "本人確認",
+          "start_sample": 18606,
+          "end_sample": 33524,
+          "start_ms": 1163,
+          "end_ms": 2095
+        },
+        {
+          "lang": "en",
+          "text": "before releasing any frozen assets.",
+          "start_sample": 33524,
+          "end_sample": 84373,
+          "start_ms": 2095,
+          "end_ms": 5273
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 240,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

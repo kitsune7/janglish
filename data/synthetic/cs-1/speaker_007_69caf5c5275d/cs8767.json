@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_007_69caf5c5275d/cs8767.flac",
+  "sentence": "新しいalbumの曲はライブで聴くとさらに良い。",
+  "sample_rate": 16000,
+  "duration_ms": 4024,
+  "reference_speaker": "jp/speaker_007_69caf5c5275d.mp3",
+  "seed": 8809,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "新しい",
+      "start_sample": 0,
+      "end_sample": 10391,
+      "start_ms": 0,
+      "end_ms": 649
+    },
+    {
+      "lang": "en",
+      "text": "album",
+      "start_sample": 10391,
+      "end_sample": 25252,
+      "start_ms": 649,
+      "end_ms": 1578
+    },
+    {
+      "lang": "ja",
+      "text": "の曲はライブで聴くとさらに良い。",
+      "start_sample": 25252,
+      "end_sample": 64376,
+      "start_ms": 1578,
+      "end_ms": 4024
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "atarashii album no kyoku ha raibu de kiku to sarani yoi",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5843,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 10120,
+          "start_ms": 0,
+          "end_ms": 632
+        },
+        {
+          "lang": "en",
+          "text": "album",
+          "start_sample": 10120,
+          "end_sample": 25381,
+          "start_ms": 632,
+          "end_ms": 1586
+        },
+        {
+          "lang": "ja",
+          "text": "の曲はライブで聴くとさらに良い。",
+          "start_sample": 25381,
+          "end_sample": 93491,
+          "start_ms": 1586,
+          "end_ms": 5843
+        }
+      ]
+    },
+    "ja": {
+      "text": "新しいalbumの曲はライブで聴くとさらに良い。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3591,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 10591,
+          "start_ms": 0,
+          "end_ms": 662
+        },
+        {
+          "lang": "en",
+          "text": "album",
+          "start_sample": 10591,
+          "end_sample": 18135,
+          "start_ms": 662,
+          "end_ms": 1133
+        },
+        {
+          "lang": "ja",
+          "text": "の曲はライブで聴くとさらに良い。",
+          "start_sample": 18135,
+          "end_sample": 57459,
+          "start_ms": 1133,
+          "end_ms": 3591
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

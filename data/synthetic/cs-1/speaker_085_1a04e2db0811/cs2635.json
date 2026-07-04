@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_085_1a04e2db0811/cs2635.flac",
+  "sentence": "She grips the 吊り革 even when she doesn't strictly need to — old habit.",
+  "sample_rate": 16000,
+  "duration_ms": 5292,
+  "reference_speaker": "en/speaker_085_1a04e2db0811.mp3",
+  "seed": 2677,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She grips the",
+      "start_sample": 0,
+      "end_sample": 15349,
+      "start_ms": 0,
+      "end_ms": 959
+    },
+    {
+      "lang": "ja",
+      "text": "吊り革",
+      "start_sample": 15349,
+      "end_sample": 29080,
+      "start_ms": 959,
+      "end_ms": 1818
+    },
+    {
+      "lang": "en",
+      "text": "even when she doesn't strictly need to — old habit.",
+      "start_sample": 29080,
+      "end_sample": 84665,
+      "start_ms": 1818,
+      "end_ms": 5292
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She grips the tsurikawa even when she doesn't strictly need to — old habit.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5530,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She grips the",
+          "start_sample": 0,
+          "end_sample": 15549,
+          "start_ms": 0,
+          "end_ms": 972
+        },
+        {
+          "lang": "ja",
+          "text": "吊り革",
+          "start_sample": 15549,
+          "end_sample": 32701,
+          "start_ms": 972,
+          "end_ms": 2044
+        },
+        {
+          "lang": "en",
+          "text": "even when she doesn't strictly need to — old habit.",
+          "start_sample": 32701,
+          "end_sample": 88486,
+          "start_ms": 2044,
+          "end_ms": 5530
+        }
+      ]
+    },
+    "ja": {
+      "text": "She grips the 吊り革 even when she doesn't strictly need to — old habit.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5740,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She grips the",
+          "start_sample": 0,
+          "end_sample": 26494,
+          "start_ms": 0,
+          "end_ms": 1656
+        },
+        {
+          "lang": "ja",
+          "text": "吊り革",
+          "start_sample": 26494,
+          "end_sample": 40625,
+          "start_ms": 1656,
+          "end_ms": 2539
+        },
+        {
+          "lang": "en",
+          "text": "even when she doesn't strictly need to — old habit.",
+          "start_sample": 40625,
+          "end_sample": 91846,
+          "start_ms": 2539,
+          "end_ms": 5740
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 265,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

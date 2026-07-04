@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_049_435108c1173c/cs1461.flac",
+  "sentence": "今日は雨だからbusが特に混んでいる。",
+  "sample_rate": 16000,
+  "duration_ms": 2338,
+  "reference_speaker": "jp/speaker_049_435108c1173c.mp3",
+  "seed": 1503,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日は雨だから",
+      "start_sample": 0,
+      "end_sample": 16018,
+      "start_ms": 0,
+      "end_ms": 1001
+    },
+    {
+      "lang": "en",
+      "text": "bus",
+      "start_sample": 16018,
+      "end_sample": 20434,
+      "start_ms": 1001,
+      "end_ms": 1277
+    },
+    {
+      "lang": "ja",
+      "text": "が特に混んでいる。",
+      "start_sample": 20434,
+      "end_sample": 37414,
+      "start_ms": 1277,
+      "end_ms": 2338
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou ha ame da kara bus ga tokuni kon de iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4575,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日は雨だから",
+          "start_sample": 0,
+          "end_sample": 18462,
+          "start_ms": 0,
+          "end_ms": 1154
+        },
+        {
+          "lang": "en",
+          "text": "bus",
+          "start_sample": 18462,
+          "end_sample": 23278,
+          "start_ms": 1154,
+          "end_ms": 1455
+        },
+        {
+          "lang": "ja",
+          "text": "が特に混んでいる。",
+          "start_sample": 23278,
+          "end_sample": 73204,
+          "start_ms": 1455,
+          "end_ms": 4575
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日は雨だからbusが特に混んでいる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2388,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日は雨だから",
+          "start_sample": 0,
+          "end_sample": 16218,
+          "start_ms": 0,
+          "end_ms": 1014
+        },
+        {
+          "lang": "en",
+          "text": "bus",
+          "start_sample": 16218,
+          "end_sample": 21036,
+          "start_ms": 1014,
+          "end_ms": 1315
+        },
+        {
+          "lang": "ja",
+          "text": "が特に混んでいる。",
+          "start_sample": 21036,
+          "end_sample": 38216,
+          "start_ms": 1315,
+          "end_ms": 2388
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 117,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

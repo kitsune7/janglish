@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_061_3e186ef591ed/cs2353.flac",
+  "sentence": "この部屋はdustyすぎて、目がかゆくなる。",
+  "sample_rate": 16000,
+  "duration_ms": 2520,
+  "reference_speaker": "jp/speaker_061_3e186ef591ed.mp3",
+  "seed": 2395,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この部屋は",
+      "start_sample": 0,
+      "end_sample": 7513,
+      "start_ms": 0,
+      "end_ms": 470
+    },
+    {
+      "lang": "en",
+      "text": "dusty",
+      "start_sample": 7513,
+      "end_sample": 18178,
+      "start_ms": 470,
+      "end_ms": 1136
+    },
+    {
+      "lang": "ja",
+      "text": "すぎて、目がかゆくなる。",
+      "start_sample": 18178,
+      "end_sample": 40314,
+      "start_ms": 1136,
+      "end_ms": 2520
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono heya ha dusty sugi te me ga kayuku naru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6074,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この部屋は",
+          "start_sample": 0,
+          "end_sample": 35442,
+          "start_ms": 0,
+          "end_ms": 2215
+        },
+        {
+          "lang": "en",
+          "text": "dusty",
+          "start_sample": 35442,
+          "end_sample": 46507,
+          "start_ms": 2215,
+          "end_ms": 2907
+        },
+        {
+          "lang": "ja",
+          "text": "すぎて、目がかゆくなる。",
+          "start_sample": 46507,
+          "end_sample": 97183,
+          "start_ms": 2907,
+          "end_ms": 6074
+        }
+      ]
+    },
+    "ja": {
+      "text": "この部屋はdustyすぎて、目がかゆくなる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2290,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この部屋は",
+          "start_sample": 0,
+          "end_sample": 7713,
+          "start_ms": 0,
+          "end_ms": 482
+        },
+        {
+          "lang": "en",
+          "text": "dusty",
+          "start_sample": 7713,
+          "end_sample": 14302,
+          "start_ms": 482,
+          "end_ms": 894
+        },
+        {
+          "lang": "ja",
+          "text": "すぎて、目がかゆくなる。",
+          "start_sample": 14302,
+          "end_sample": 36638,
+          "start_ms": 894,
+          "end_ms": 2290
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 126,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

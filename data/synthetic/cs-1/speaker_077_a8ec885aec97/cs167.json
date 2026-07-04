@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_077_a8ec885aec97/cs167.flac",
+  "sentence": "I bought a colorful 図鑑 to encourage my daughter's love of bugs.",
+  "sample_rate": 16000,
+  "duration_ms": 5525,
+  "reference_speaker": "jp/speaker_077_a8ec885aec97.mp3",
+  "seed": 209,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I bought a colorful",
+      "start_sample": 0,
+      "end_sample": 20617,
+      "start_ms": 0,
+      "end_ms": 1289
+    },
+    {
+      "lang": "ja",
+      "text": "図鑑",
+      "start_sample": 20617,
+      "end_sample": 27583,
+      "start_ms": 1289,
+      "end_ms": 1724
+    },
+    {
+      "lang": "en",
+      "text": "to encourage my daughter's love of bugs.",
+      "start_sample": 27583,
+      "end_sample": 88398,
+      "start_ms": 1724,
+      "end_ms": 5525
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I bought a colorful zukan to encourage my daughter's love of bugs.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6165,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I bought a colorful",
+          "start_sample": 0,
+          "end_sample": 20817,
+          "start_ms": 0,
+          "end_ms": 1301
+        },
+        {
+          "lang": "ja",
+          "text": "図鑑",
+          "start_sample": 20817,
+          "end_sample": 37632,
+          "start_ms": 1301,
+          "end_ms": 2352
+        },
+        {
+          "lang": "en",
+          "text": "to encourage my daughter's love of bugs.",
+          "start_sample": 37632,
+          "end_sample": 98647,
+          "start_ms": 2352,
+          "end_ms": 6165
+        }
+      ]
+    },
+    "ja": {
+      "text": "I bought a colorful 図鑑 to encourage my daughter's love of bugs.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4944,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I bought a colorful",
+          "start_sample": 0,
+          "end_sample": 19057,
+          "start_ms": 0,
+          "end_ms": 1191
+        },
+        {
+          "lang": "ja",
+          "text": "図鑑",
+          "start_sample": 19057,
+          "end_sample": 26423,
+          "start_ms": 1191,
+          "end_ms": 1651
+        },
+        {
+          "lang": "en",
+          "text": "to encourage my daughter's love of bugs.",
+          "start_sample": 26423,
+          "end_sample": 79111,
+          "start_ms": 1651,
+          "end_ms": 4944
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 277,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

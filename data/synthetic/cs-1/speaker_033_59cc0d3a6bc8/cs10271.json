@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_033_59cc0d3a6bc8/cs10271.flac",
+  "sentence": "クリスマスのdecorationをリビングに飾りました。",
+  "sample_rate": 16000,
+  "duration_ms": 3239,
+  "reference_speaker": "jp/speaker_033_59cc0d3a6bc8.mp3",
+  "seed": 10313,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "クリスマスの",
+      "start_sample": 0,
+      "end_sample": 10545,
+      "start_ms": 0,
+      "end_ms": 659
+    },
+    {
+      "lang": "en",
+      "text": "decoration",
+      "start_sample": 10545,
+      "end_sample": 30051,
+      "start_ms": 659,
+      "end_ms": 1878
+    },
+    {
+      "lang": "ja",
+      "text": "をリビングに飾りました。",
+      "start_sample": 30051,
+      "end_sample": 51821,
+      "start_ms": 1878,
+      "end_ms": 3239
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kurisumasu no decoration wo ribingu ni kazari mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5879,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "クリスマスの",
+          "start_sample": 0,
+          "end_sample": 32426,
+          "start_ms": 0,
+          "end_ms": 2027
+        },
+        {
+          "lang": "en",
+          "text": "decoration",
+          "start_sample": 32426,
+          "end_sample": 52332,
+          "start_ms": 2027,
+          "end_ms": 3271
+        },
+        {
+          "lang": "ja",
+          "text": "をリビングに飾りました。",
+          "start_sample": 52332,
+          "end_sample": 94066,
+          "start_ms": 3271,
+          "end_ms": 5879
+        }
+      ]
+    },
+    "ja": {
+      "text": "クリスマスのdecorationをリビングに飾りました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2706,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "クリスマスの",
+          "start_sample": 0,
+          "end_sample": 10745,
+          "start_ms": 0,
+          "end_ms": 672
+        },
+        {
+          "lang": "en",
+          "text": "decoration",
+          "start_sample": 10745,
+          "end_sample": 21330,
+          "start_ms": 672,
+          "end_ms": 1333
+        },
+        {
+          "lang": "ja",
+          "text": "をリビングに飾りました。",
+          "start_sample": 21330,
+          "end_sample": 43300,
+          "start_ms": 1333,
+          "end_ms": 2706
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 162,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

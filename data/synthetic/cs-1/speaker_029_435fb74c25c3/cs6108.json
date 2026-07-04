@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_029_435fb74c25c3/cs6108.flac",
+  "sentence": "She keeps her desk remarkably 整理整頓 even when deadlines pile up.",
+  "sample_rate": 16000,
+  "duration_ms": 4867,
+  "reference_speaker": "en/speaker_029_435fb74c25c3.mp3",
+  "seed": 6150,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She keeps her desk remarkably",
+      "start_sample": 0,
+      "end_sample": 28374,
+      "start_ms": 0,
+      "end_ms": 1773
+    },
+    {
+      "lang": "ja",
+      "text": "整理整頓",
+      "start_sample": 28374,
+      "end_sample": 44037,
+      "start_ms": 1773,
+      "end_ms": 2752
+    },
+    {
+      "lang": "en",
+      "text": "even when deadlines pile up.",
+      "start_sample": 44037,
+      "end_sample": 77866,
+      "start_ms": 2752,
+      "end_ms": 4867
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She keeps her desk remarkably seiri seiton even when deadlines pile up.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5177,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She keeps her desk remarkably",
+          "start_sample": 0,
+          "end_sample": 28574,
+          "start_ms": 0,
+          "end_ms": 1786
+        },
+        {
+          "lang": "ja",
+          "text": "整理整頓",
+          "start_sample": 28574,
+          "end_sample": 48801,
+          "start_ms": 1786,
+          "end_ms": 3050
+        },
+        {
+          "lang": "en",
+          "text": "even when deadlines pile up.",
+          "start_sample": 48801,
+          "end_sample": 82830,
+          "start_ms": 3050,
+          "end_ms": 5177
+        }
+      ]
+    },
+    "ja": {
+      "text": "She keeps her desk remarkably 整理整頓 even when deadlines pile up.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5722,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She keeps her desk remarkably",
+          "start_sample": 0,
+          "end_sample": 42884,
+          "start_ms": 0,
+          "end_ms": 2680
+        },
+        {
+          "lang": "ja",
+          "text": "整理整頓",
+          "start_sample": 42884,
+          "end_sample": 58947,
+          "start_ms": 2680,
+          "end_ms": 3684
+        },
+        {
+          "lang": "en",
+          "text": "even when deadlines pile up.",
+          "start_sample": 58947,
+          "end_sample": 91551,
+          "start_ms": 3684,
+          "end_ms": 5722
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 244,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

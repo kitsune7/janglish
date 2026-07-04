@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_065_12fed3376ff0/cs10691.flac",
+  "sentence": "Can you check the 地図 and tell me which exit to take?",
+  "sample_rate": 16000,
+  "duration_ms": 3537,
+  "reference_speaker": "jp/speaker_065_12fed3376ff0.mp3",
+  "seed": 10733,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you check the",
+      "start_sample": 0,
+      "end_sample": 11184,
+      "start_ms": 0,
+      "end_ms": 699
+    },
+    {
+      "lang": "ja",
+      "text": "地図",
+      "start_sample": 11184,
+      "end_sample": 29055,
+      "start_ms": 699,
+      "end_ms": 1816
+    },
+    {
+      "lang": "en",
+      "text": "and tell me which exit to take?",
+      "start_sample": 29055,
+      "end_sample": 56593,
+      "start_ms": 1816,
+      "end_ms": 3537
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you check the chizu and tell me which exit to take?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2786,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you check the",
+          "start_sample": 0,
+          "end_sample": 11384,
+          "start_ms": 0,
+          "end_ms": 712
+        },
+        {
+          "lang": "ja",
+          "text": "地図",
+          "start_sample": 11384,
+          "end_sample": 16836,
+          "start_ms": 712,
+          "end_ms": 1052
+        },
+        {
+          "lang": "en",
+          "text": "and tell me which exit to take?",
+          "start_sample": 16836,
+          "end_sample": 44574,
+          "start_ms": 1052,
+          "end_ms": 2786
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you check the 地図 and tell me which exit to take?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5249,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you check the",
+          "start_sample": 0,
+          "end_sample": 26765,
+          "start_ms": 0,
+          "end_ms": 1673
+        },
+        {
+          "lang": "ja",
+          "text": "地図",
+          "start_sample": 26765,
+          "end_sample": 45036,
+          "start_ms": 1673,
+          "end_ms": 2815
+        },
+        {
+          "lang": "en",
+          "text": "and tell me which exit to take?",
+          "start_sample": 45036,
+          "end_sample": 83982,
+          "start_ms": 2815,
+          "end_ms": 5249
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

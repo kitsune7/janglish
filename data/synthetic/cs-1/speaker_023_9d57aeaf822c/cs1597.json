@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_023_9d57aeaf822c/cs1597.flac",
+  "sentence": "He borrowed my 鉛筆 during the chemistry exam and never gave it back.",
+  "sample_rate": 16000,
+  "duration_ms": 4448,
+  "reference_speaker": "en/speaker_023_9d57aeaf822c.mp3",
+  "seed": 1639,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He borrowed my",
+      "start_sample": 0,
+      "end_sample": 8959,
+      "start_ms": 0,
+      "end_ms": 560
+    },
+    {
+      "lang": "ja",
+      "text": "鉛筆",
+      "start_sample": 8959,
+      "end_sample": 16581,
+      "start_ms": 560,
+      "end_ms": 1036
+    },
+    {
+      "lang": "en",
+      "text": "during the chemistry exam and never gave it back.",
+      "start_sample": 16581,
+      "end_sample": 71173,
+      "start_ms": 1036,
+      "end_ms": 4448
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He borrowed my enpitsu during the chemistry exam and never gave it back.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4519,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He borrowed my",
+          "start_sample": 0,
+          "end_sample": 9159,
+          "start_ms": 0,
+          "end_ms": 572
+        },
+        {
+          "lang": "ja",
+          "text": "鉛筆",
+          "start_sample": 9159,
+          "end_sample": 17515,
+          "start_ms": 572,
+          "end_ms": 1095
+        },
+        {
+          "lang": "en",
+          "text": "during the chemistry exam and never gave it back.",
+          "start_sample": 17515,
+          "end_sample": 72307,
+          "start_ms": 1095,
+          "end_ms": 4519
+        }
+      ]
+    },
+    "ja": {
+      "text": "He borrowed my 鉛筆 during the chemistry exam and never gave it back.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4251,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He borrowed my",
+          "start_sample": 0,
+          "end_sample": 13154,
+          "start_ms": 0,
+          "end_ms": 822
+        },
+        {
+          "lang": "ja",
+          "text": "鉛筆",
+          "start_sample": 13154,
+          "end_sample": 21176,
+          "start_ms": 822,
+          "end_ms": 1324
+        },
+        {
+          "lang": "en",
+          "text": "during the chemistry exam and never gave it back.",
+          "start_sample": 21176,
+          "end_sample": 68018,
+          "start_ms": 1324,
+          "end_ms": 4251
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 223,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

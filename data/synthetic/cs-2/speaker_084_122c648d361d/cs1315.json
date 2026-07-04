@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_084_122c648d361d/cs1315.flac",
+  "sentence": "She vacuumed with 集中 focus and picked up every grain of dust from the 畳.",
+  "sample_rate": 16000,
+  "duration_ms": 6291,
+  "reference_speaker": "jp/speaker_084_122c648d361d.mp3",
+  "seed": 1357,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She vacuumed with",
+      "start_sample": 0,
+      "end_sample": 26705,
+      "start_ms": 0,
+      "end_ms": 1669
+    },
+    {
+      "lang": "ja",
+      "text": "集中",
+      "start_sample": 26705,
+      "end_sample": 34950,
+      "start_ms": 1669,
+      "end_ms": 2184
+    },
+    {
+      "lang": "en",
+      "text": "focus and picked up every grain of dust from the",
+      "start_sample": 34950,
+      "end_sample": 91886,
+      "start_ms": 2184,
+      "end_ms": 5743
+    },
+    {
+      "lang": "ja",
+      "text": "畳.",
+      "start_sample": 91886,
+      "end_sample": 100651,
+      "start_ms": 5743,
+      "end_ms": 6291
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She vacuumed with shuuchuu focus and picked up every grain of dust from the tatami",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6626,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She vacuumed with",
+          "start_sample": 0,
+          "end_sample": 26905,
+          "start_ms": 0,
+          "end_ms": 1682
+        },
+        {
+          "lang": "ja",
+          "text": "集中",
+          "start_sample": 26905,
+          "end_sample": 39398,
+          "start_ms": 1682,
+          "end_ms": 2462
+        },
+        {
+          "lang": "en",
+          "text": "focus and picked up every grain of dust from the",
+          "start_sample": 39398,
+          "end_sample": 96734,
+          "start_ms": 2462,
+          "end_ms": 6046
+        },
+        {
+          "lang": "ja",
+          "text": "畳.",
+          "start_sample": 96734,
+          "end_sample": 106022,
+          "start_ms": 6046,
+          "end_ms": 6626
+        }
+      ]
+    },
+    "ja": {
+      "text": "She vacuumed with 集中 focus and picked up every grain of dust from the 畳.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8225,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She vacuumed with",
+          "start_sample": 0,
+          "end_sample": 22252,
+          "start_ms": 0,
+          "end_ms": 1391
+        },
+        {
+          "lang": "ja",
+          "text": "集中",
+          "start_sample": 22252,
+          "end_sample": 30897,
+          "start_ms": 1391,
+          "end_ms": 1931
+        },
+        {
+          "lang": "en",
+          "text": "focus and picked up every grain of dust from the",
+          "start_sample": 30897,
+          "end_sample": 122629,
+          "start_ms": 1931,
+          "end_ms": 7664
+        },
+        {
+          "lang": "ja",
+          "text": "畳.",
+          "start_sample": 122629,
+          "end_sample": 131594,
+          "start_ms": 7664,
+          "end_ms": 8225
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 315,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_007_69caf5c5275d/cs215.flac",
+  "sentence": "山頂までのhikingトレイルはかなりきつかったです。",
+  "sample_rate": 16000,
+  "duration_ms": 3428,
+  "reference_speaker": "jp/speaker_007_69caf5c5275d.mp3",
+  "seed": 257,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "山頂までの",
+      "start_sample": 0,
+      "end_sample": 11553,
+      "start_ms": 0,
+      "end_ms": 722
+    },
+    {
+      "lang": "en",
+      "text": "hiking",
+      "start_sample": 11553,
+      "end_sample": 23016,
+      "start_ms": 722,
+      "end_ms": 1438
+    },
+    {
+      "lang": "ja",
+      "text": "トレイルはかなりきつかったです。",
+      "start_sample": 23016,
+      "end_sample": 54850,
+      "start_ms": 1438,
+      "end_ms": 3428
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sanchou made no hiking toreiru ha kanari kitsukatsu ta desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6633,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "山頂までの",
+          "start_sample": 0,
+          "end_sample": 12344,
+          "start_ms": 0,
+          "end_ms": 772
+        },
+        {
+          "lang": "en",
+          "text": "hiking",
+          "start_sample": 12344,
+          "end_sample": 24207,
+          "start_ms": 772,
+          "end_ms": 1513
+        },
+        {
+          "lang": "ja",
+          "text": "トレイルはかなりきつかったです。",
+          "start_sample": 24207,
+          "end_sample": 106126,
+          "start_ms": 1513,
+          "end_ms": 6633
+        }
+      ]
+    },
+    "ja": {
+      "text": "山頂までのhikingトレイルはかなりきつかったです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3139,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "山頂までの",
+          "start_sample": 0,
+          "end_sample": 11753,
+          "start_ms": 0,
+          "end_ms": 735
+        },
+        {
+          "lang": "en",
+          "text": "hiking",
+          "start_sample": 11753,
+          "end_sample": 18193,
+          "start_ms": 735,
+          "end_ms": 1137
+        },
+        {
+          "lang": "ja",
+          "text": "トレイルはかなりきつかったです。",
+          "start_sample": 18193,
+          "end_sample": 50227,
+          "start_ms": 1137,
+          "end_ms": 3139
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 172,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

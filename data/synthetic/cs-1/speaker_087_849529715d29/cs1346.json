@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_087_849529715d29/cs1346.flac",
+  "sentence": "We got caught in a 吹雪 on the mountain and had to turn back.",
+  "sample_rate": 16000,
+  "duration_ms": 4213,
+  "reference_speaker": "jp/speaker_087_849529715d29.mp3",
+  "seed": 1388,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We got caught in a",
+      "start_sample": 0,
+      "end_sample": 18576,
+      "start_ms": 0,
+      "end_ms": 1161
+    },
+    {
+      "lang": "ja",
+      "text": "吹雪",
+      "start_sample": 18576,
+      "end_sample": 25397,
+      "start_ms": 1161,
+      "end_ms": 1587
+    },
+    {
+      "lang": "en",
+      "text": "on the mountain and had to turn back.",
+      "start_sample": 25397,
+      "end_sample": 67402,
+      "start_ms": 1587,
+      "end_ms": 4213
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We got caught in a fubuki on the mountain and had to turn back.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4794,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We got caught in a",
+          "start_sample": 0,
+          "end_sample": 18776,
+          "start_ms": 0,
+          "end_ms": 1174
+        },
+        {
+          "lang": "ja",
+          "text": "吹雪",
+          "start_sample": 18776,
+          "end_sample": 34503,
+          "start_ms": 1174,
+          "end_ms": 2156
+        },
+        {
+          "lang": "en",
+          "text": "on the mountain and had to turn back.",
+          "start_sample": 34503,
+          "end_sample": 76708,
+          "start_ms": 2156,
+          "end_ms": 4794
+        }
+      ]
+    },
+    "ja": {
+      "text": "We got caught in a 吹雪 on the mountain and had to turn back.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3350,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We got caught in a",
+          "start_sample": 0,
+          "end_sample": 17650,
+          "start_ms": 0,
+          "end_ms": 1103
+        },
+        {
+          "lang": "ja",
+          "text": "吹雪",
+          "start_sample": 17650,
+          "end_sample": 24871,
+          "start_ms": 1103,
+          "end_ms": 1554
+        },
+        {
+          "lang": "en",
+          "text": "on the mountain and had to turn back.",
+          "start_sample": 24871,
+          "end_sample": 53595,
+          "start_ms": 1554,
+          "end_ms": 3350
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 211,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

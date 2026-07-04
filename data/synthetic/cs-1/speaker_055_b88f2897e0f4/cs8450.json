@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_055_b88f2897e0f4/cs8450.flac",
+  "sentence": "His portfolio has shown 安定 growth over the past five years.",
+  "sample_rate": 16000,
+  "duration_ms": 3490,
+  "reference_speaker": "jp/speaker_055_b88f2897e0f4.mp3",
+  "seed": 8492,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His portfolio has shown",
+      "start_sample": 0,
+      "end_sample": 22101,
+      "start_ms": 0,
+      "end_ms": 1381
+    },
+    {
+      "lang": "ja",
+      "text": "安定",
+      "start_sample": 22101,
+      "end_sample": 27323,
+      "start_ms": 1381,
+      "end_ms": 1708
+    },
+    {
+      "lang": "en",
+      "text": "growth over the past five years.",
+      "start_sample": 27323,
+      "end_sample": 55840,
+      "start_ms": 1708,
+      "end_ms": 3490
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His portfolio has shown antei growth over the past five years.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3670,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His portfolio has shown",
+          "start_sample": 0,
+          "end_sample": 22301,
+          "start_ms": 0,
+          "end_ms": 1394
+        },
+        {
+          "lang": "ja",
+          "text": "安定",
+          "start_sample": 22301,
+          "end_sample": 30003,
+          "start_ms": 1394,
+          "end_ms": 1875
+        },
+        {
+          "lang": "en",
+          "text": "growth over the past five years.",
+          "start_sample": 30003,
+          "end_sample": 58720,
+          "start_ms": 1875,
+          "end_ms": 3670
+        }
+      ]
+    },
+    "ja": {
+      "text": "His portfolio has shown 安定 growth over the past five years.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3654,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His portfolio has shown",
+          "start_sample": 0,
+          "end_sample": 21041,
+          "start_ms": 0,
+          "end_ms": 1315
+        },
+        {
+          "lang": "ja",
+          "text": "安定",
+          "start_sample": 21041,
+          "end_sample": 26663,
+          "start_ms": 1315,
+          "end_ms": 1666
+        },
+        {
+          "lang": "en",
+          "text": "growth over the past five years.",
+          "start_sample": 26663,
+          "end_sample": 58464,
+          "start_ms": 1666,
+          "end_ms": 3654
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

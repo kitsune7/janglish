@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_049_435108c1173c/cs6654.flac",
+  "sentence": "The new pasta place has a really 素敵 interior.",
+  "sample_rate": 16000,
+  "duration_ms": 2616,
+  "reference_speaker": "jp/speaker_049_435108c1173c.mp3",
+  "seed": 6696,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The new pasta place has a really",
+      "start_sample": 0,
+      "end_sample": 24483,
+      "start_ms": 0,
+      "end_ms": 1530
+    },
+    {
+      "lang": "ja",
+      "text": "素敵",
+      "start_sample": 24483,
+      "end_sample": 31163,
+      "start_ms": 1530,
+      "end_ms": 1948
+    },
+    {
+      "lang": "en",
+      "text": "interior.",
+      "start_sample": 31163,
+      "end_sample": 41861,
+      "start_ms": 1948,
+      "end_ms": 2616
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The new pasta place has a really suteki interior.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2825,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new pasta place has a really",
+          "start_sample": 0,
+          "end_sample": 24683,
+          "start_ms": 0,
+          "end_ms": 1543
+        },
+        {
+          "lang": "ja",
+          "text": "素敵",
+          "start_sample": 24683,
+          "end_sample": 34301,
+          "start_ms": 1543,
+          "end_ms": 2144
+        },
+        {
+          "lang": "en",
+          "text": "interior.",
+          "start_sample": 34301,
+          "end_sample": 45199,
+          "start_ms": 2144,
+          "end_ms": 2825
+        }
+      ]
+    },
+    "ja": {
+      "text": "The new pasta place has a really 素敵 interior.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4082,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new pasta place has a really",
+          "start_sample": 0,
+          "end_sample": 47786,
+          "start_ms": 0,
+          "end_ms": 2987
+        },
+        {
+          "lang": "ja",
+          "text": "素敵",
+          "start_sample": 47786,
+          "end_sample": 54866,
+          "start_ms": 2987,
+          "end_ms": 3429
+        },
+        {
+          "lang": "en",
+          "text": "interior.",
+          "start_sample": 54866,
+          "end_sample": 65320,
+          "start_ms": 3429,
+          "end_ms": 4082
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 131,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_043_1ef414c9abc5/cs806.flac",
+  "sentence": "I could eat this 揚げ出し豆腐 every single day without getting bored.",
+  "sample_rate": 16000,
+  "duration_ms": 5515,
+  "reference_speaker": "jp/speaker_043_1ef414c9abc5.mp3",
+  "seed": 848,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I could eat this",
+      "start_sample": 0,
+      "end_sample": 11504,
+      "start_ms": 0,
+      "end_ms": 719
+    },
+    {
+      "lang": "ja",
+      "text": "揚げ出し豆腐",
+      "start_sample": 11504,
+      "end_sample": 30871,
+      "start_ms": 719,
+      "end_ms": 1929
+    },
+    {
+      "lang": "en",
+      "text": "every single day without getting bored.",
+      "start_sample": 30871,
+      "end_sample": 88236,
+      "start_ms": 1929,
+      "end_ms": 5515
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I could eat this agedashi toufu every single day without getting bored.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5372,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I could eat this",
+          "start_sample": 0,
+          "end_sample": 11704,
+          "start_ms": 0,
+          "end_ms": 732
+        },
+        {
+          "lang": "ja",
+          "text": "揚げ出し豆腐",
+          "start_sample": 11704,
+          "end_sample": 28381,
+          "start_ms": 732,
+          "end_ms": 1774
+        },
+        {
+          "lang": "en",
+          "text": "every single day without getting bored.",
+          "start_sample": 28381,
+          "end_sample": 85946,
+          "start_ms": 1774,
+          "end_ms": 5372
+        }
+      ]
+    },
+    "ja": {
+      "text": "I could eat this 揚げ出し豆腐 every single day without getting bored.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4761,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I could eat this",
+          "start_sample": 0,
+          "end_sample": 16874,
+          "start_ms": 0,
+          "end_ms": 1055
+        },
+        {
+          "lang": "ja",
+          "text": "揚げ出し豆腐",
+          "start_sample": 16874,
+          "end_sample": 36641,
+          "start_ms": 1055,
+          "end_ms": 2290
+        },
+        {
+          "lang": "en",
+          "text": "every single day without getting bored.",
+          "start_sample": 36641,
+          "end_sample": 76172,
+          "start_ms": 2290,
+          "end_ms": 4761
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 276,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

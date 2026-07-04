@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_047_6ac706d7456d/cs5711.flac",
+  "sentence": "He was 慎重 about packing the antique vase for shipment.",
+  "sample_rate": 16000,
+  "duration_ms": 3533,
+  "reference_speaker": "jp/speaker_047_6ac706d7456d.mp3",
+  "seed": 5753,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He was",
+      "start_sample": 0,
+      "end_sample": 6541,
+      "start_ms": 0,
+      "end_ms": 409
+    },
+    {
+      "lang": "ja",
+      "text": "慎重",
+      "start_sample": 6541,
+      "end_sample": 14991,
+      "start_ms": 409,
+      "end_ms": 937
+    },
+    {
+      "lang": "en",
+      "text": "about packing the antique vase for shipment.",
+      "start_sample": 14991,
+      "end_sample": 56523,
+      "start_ms": 937,
+      "end_ms": 3533
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He was shinchou about packing the antique vase for shipment.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3571,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He was",
+          "start_sample": 0,
+          "end_sample": 6741,
+          "start_ms": 0,
+          "end_ms": 421
+        },
+        {
+          "lang": "ja",
+          "text": "慎重",
+          "start_sample": 6741,
+          "end_sample": 15409,
+          "start_ms": 421,
+          "end_ms": 963
+        },
+        {
+          "lang": "en",
+          "text": "about packing the antique vase for shipment.",
+          "start_sample": 15409,
+          "end_sample": 57141,
+          "start_ms": 963,
+          "end_ms": 3571
+        }
+      ]
+    },
+    "ja": {
+      "text": "He was 慎重 about packing the antique vase for shipment.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4022,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He was",
+          "start_sample": 0,
+          "end_sample": 5953,
+          "start_ms": 0,
+          "end_ms": 372
+        },
+        {
+          "lang": "ja",
+          "text": "慎重",
+          "start_sample": 5953,
+          "end_sample": 14803,
+          "start_ms": 372,
+          "end_ms": 925
+        },
+        {
+          "lang": "en",
+          "text": "about packing the antique vase for shipment.",
+          "start_sample": 14803,
+          "end_sample": 64360,
+          "start_ms": 925,
+          "end_ms": 4022
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

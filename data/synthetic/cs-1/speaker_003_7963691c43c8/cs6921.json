@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_003_7963691c43c8/cs6921.flac",
+  "sentence": "She ordered a 冷たい glass of sparkling water with lemon.",
+  "sample_rate": 16000,
+  "duration_ms": 4229,
+  "reference_speaker": "en/speaker_003_7963691c43c8.mp3",
+  "seed": 6963,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She ordered a",
+      "start_sample": 0,
+      "end_sample": 11697,
+      "start_ms": 0,
+      "end_ms": 731
+    },
+    {
+      "lang": "ja",
+      "text": "冷たい",
+      "start_sample": 11697,
+      "end_sample": 21406,
+      "start_ms": 731,
+      "end_ms": 1338
+    },
+    {
+      "lang": "en",
+      "text": "glass of sparkling water with lemon.",
+      "start_sample": 21406,
+      "end_sample": 67666,
+      "start_ms": 1338,
+      "end_ms": 4229
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She ordered a tsumetai glass of sparkling water with lemon.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4522,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She ordered a",
+          "start_sample": 0,
+          "end_sample": 11897,
+          "start_ms": 0,
+          "end_ms": 744
+        },
+        {
+          "lang": "ja",
+          "text": "冷たい",
+          "start_sample": 11897,
+          "end_sample": 25885,
+          "start_ms": 744,
+          "end_ms": 1618
+        },
+        {
+          "lang": "en",
+          "text": "glass of sparkling water with lemon.",
+          "start_sample": 25885,
+          "end_sample": 72345,
+          "start_ms": 1618,
+          "end_ms": 4522
+        }
+      ]
+    },
+    "ja": {
+      "text": "She ordered a 冷たい glass of sparkling water with lemon.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3851,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She ordered a",
+          "start_sample": 0,
+          "end_sample": 12196,
+          "start_ms": 0,
+          "end_ms": 762
+        },
+        {
+          "lang": "ja",
+          "text": "冷たい",
+          "start_sample": 12196,
+          "end_sample": 22305,
+          "start_ms": 762,
+          "end_ms": 1394
+        },
+        {
+          "lang": "en",
+          "text": "glass of sparkling water with lemon.",
+          "start_sample": 22305,
+          "end_sample": 61620,
+          "start_ms": 1394,
+          "end_ms": 3851
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 212,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

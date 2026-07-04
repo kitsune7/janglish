@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_065_12fed3376ff0/cs4458.flac",
+  "sentence": "I set up a 自動返信 message while I was on vacation.",
+  "sample_rate": 16000,
+  "duration_ms": 4037,
+  "reference_speaker": "jp/speaker_065_12fed3376ff0.mp3",
+  "seed": 4500,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I set up a",
+      "start_sample": 0,
+      "end_sample": 9251,
+      "start_ms": 0,
+      "end_ms": 578
+    },
+    {
+      "lang": "ja",
+      "text": "自動返信",
+      "start_sample": 9251,
+      "end_sample": 25053,
+      "start_ms": 578,
+      "end_ms": 1566
+    },
+    {
+      "lang": "en",
+      "text": "message while I was on vacation.",
+      "start_sample": 25053,
+      "end_sample": 64585,
+      "start_ms": 1566,
+      "end_ms": 4037
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I set up a jidou henshin message while I was on vacation.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4987,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I set up a",
+          "start_sample": 0,
+          "end_sample": 9451,
+          "start_ms": 0,
+          "end_ms": 591
+        },
+        {
+          "lang": "ja",
+          "text": "自動返信",
+          "start_sample": 9451,
+          "end_sample": 40053,
+          "start_ms": 591,
+          "end_ms": 2503
+        },
+        {
+          "lang": "en",
+          "text": "message while I was on vacation.",
+          "start_sample": 40053,
+          "end_sample": 79785,
+          "start_ms": 2503,
+          "end_ms": 4987
+        }
+      ]
+    },
+    "ja": {
+      "text": "I set up a 自動返信 message while I was on vacation.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5474,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I set up a",
+          "start_sample": 0,
+          "end_sample": 27589,
+          "start_ms": 0,
+          "end_ms": 1724
+        },
+        {
+          "lang": "ja",
+          "text": "自動返信",
+          "start_sample": 27589,
+          "end_sample": 43791,
+          "start_ms": 1724,
+          "end_ms": 2737
+        },
+        {
+          "lang": "en",
+          "text": "message while I was on vacation.",
+          "start_sample": 43791,
+          "end_sample": 87582,
+          "start_ms": 2737,
+          "end_ms": 5474
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

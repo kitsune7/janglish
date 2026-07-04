@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_070_eb9077114ebd/cs8330.flac",
+  "sentence": "このloaferは長時間歩いても疲れにくいです。",
+  "sample_rate": 16000,
+  "duration_ms": 3535,
+  "reference_speaker": "en/speaker_070_eb9077114ebd.mp3",
+  "seed": 8372,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 4764,
+      "start_ms": 0,
+      "end_ms": 298
+    },
+    {
+      "lang": "en",
+      "text": "loafer",
+      "start_sample": 4764,
+      "end_sample": 16074,
+      "start_ms": 298,
+      "end_ms": 1005
+    },
+    {
+      "lang": "ja",
+      "text": "は長時間歩いても疲れにくいです。",
+      "start_sample": 16074,
+      "end_sample": 56562,
+      "start_ms": 1005,
+      "end_ms": 3535
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono loafer ha chou jikan arui te mo tsukare nikui desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6336,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4491,
+          "start_ms": 0,
+          "end_ms": 281
+        },
+        {
+          "lang": "en",
+          "text": "loafer",
+          "start_sample": 4491,
+          "end_sample": 16201,
+          "start_ms": 281,
+          "end_ms": 1013
+        },
+        {
+          "lang": "ja",
+          "text": "は長時間歩いても疲れにくいです。",
+          "start_sample": 16201,
+          "end_sample": 101380,
+          "start_ms": 1013,
+          "end_ms": 6336
+        }
+      ]
+    },
+    "ja": {
+      "text": "このloaferは長時間歩いても疲れにくいです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3344,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4964,
+          "start_ms": 0,
+          "end_ms": 310
+        },
+        {
+          "lang": "en",
+          "text": "loafer",
+          "start_sample": 4964,
+          "end_sample": 12814,
+          "start_ms": 310,
+          "end_ms": 801
+        },
+        {
+          "lang": "ja",
+          "text": "は長時間歩いても疲れにくいです。",
+          "start_sample": 12814,
+          "end_sample": 53502,
+          "start_ms": 801,
+          "end_ms": 3344
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "jjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

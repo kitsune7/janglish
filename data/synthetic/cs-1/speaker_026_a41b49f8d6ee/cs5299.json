@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_026_a41b49f8d6ee/cs5299.flac",
+  "sentence": "獣医さんが犬に vaccine を打ってくれました。",
+  "sample_rate": 16000,
+  "duration_ms": 3489,
+  "reference_speaker": "en/speaker_026_a41b49f8d6ee.mp3",
+  "seed": 5341,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "獣医さんが犬に",
+      "start_sample": 0,
+      "end_sample": 19704,
+      "start_ms": 0,
+      "end_ms": 1232
+    },
+    {
+      "lang": "en",
+      "text": "vaccine",
+      "start_sample": 19704,
+      "end_sample": 39486,
+      "start_ms": 1232,
+      "end_ms": 2468
+    },
+    {
+      "lang": "ja",
+      "text": "を打ってくれました。",
+      "start_sample": 39486,
+      "end_sample": 55819,
+      "start_ms": 2468,
+      "end_ms": 3489
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "juui san ga inu ni vaccine wo utsu te kure mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6167,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "獣医さんが犬に",
+          "start_sample": 0,
+          "end_sample": 51417,
+          "start_ms": 0,
+          "end_ms": 3214
+        },
+        {
+          "lang": "en",
+          "text": "vaccine",
+          "start_sample": 51417,
+          "end_sample": 71599,
+          "start_ms": 3214,
+          "end_ms": 4475
+        },
+        {
+          "lang": "ja",
+          "text": "を打ってくれました。",
+          "start_sample": 71599,
+          "end_sample": 98668,
+          "start_ms": 4475,
+          "end_ms": 6167
+        }
+      ]
+    },
+    "ja": {
+      "text": "獣医さんが犬に vaccine を打ってくれました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2849,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "獣医さんが犬に",
+          "start_sample": 0,
+          "end_sample": 19904,
+          "start_ms": 0,
+          "end_ms": 1244
+        },
+        {
+          "lang": "en",
+          "text": "vaccine",
+          "start_sample": 19904,
+          "end_sample": 29056,
+          "start_ms": 1244,
+          "end_ms": 1816
+        },
+        {
+          "lang": "ja",
+          "text": "を打ってくれました。",
+          "start_sample": 29056,
+          "end_sample": 45589,
+          "start_ms": 1816,
+          "end_ms": 2849
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

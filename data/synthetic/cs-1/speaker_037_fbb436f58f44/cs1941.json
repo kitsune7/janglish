@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_037_fbb436f58f44/cs1941.flac",
+  "sentence": "窓口でcash払いしか受け付けていませんでした。",
+  "sample_rate": 16000,
+  "duration_ms": 3900,
+  "reference_speaker": "en/speaker_037_fbb436f58f44.mp3",
+  "seed": 1983,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "窓口で",
+      "start_sample": 0,
+      "end_sample": 12961,
+      "start_ms": 0,
+      "end_ms": 810
+    },
+    {
+      "lang": "en",
+      "text": "cash",
+      "start_sample": 12961,
+      "end_sample": 26649,
+      "start_ms": 810,
+      "end_ms": 1666
+    },
+    {
+      "lang": "ja",
+      "text": "払いしか受け付けていませんでした。",
+      "start_sample": 26649,
+      "end_sample": 62408,
+      "start_ms": 1666,
+      "end_ms": 3900
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "madoguchi de cash harai shika uketsuke te i mase n deshi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8825,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "窓口で",
+          "start_sample": 0,
+          "end_sample": 38742,
+          "start_ms": 0,
+          "end_ms": 2421
+        },
+        {
+          "lang": "en",
+          "text": "cash",
+          "start_sample": 38742,
+          "end_sample": 52830,
+          "start_ms": 2421,
+          "end_ms": 3302
+        },
+        {
+          "lang": "ja",
+          "text": "払いしか受け付けていませんでした。",
+          "start_sample": 52830,
+          "end_sample": 141202,
+          "start_ms": 3302,
+          "end_ms": 8825
+        }
+      ]
+    },
+    "ja": {
+      "text": "窓口でcash払いしか受け付けていませんでした。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3471,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "窓口で",
+          "start_sample": 0,
+          "end_sample": 13161,
+          "start_ms": 0,
+          "end_ms": 823
+        },
+        {
+          "lang": "en",
+          "text": "cash",
+          "start_sample": 13161,
+          "end_sample": 19582,
+          "start_ms": 823,
+          "end_ms": 1224
+        },
+        {
+          "lang": "ja",
+          "text": "払いしか受け付けていませんでした。",
+          "start_sample": 19582,
+          "end_sample": 55541,
+          "start_ms": 1224,
+          "end_ms": 3471
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

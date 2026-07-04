@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_046_c5e6fd979dbd/cs3630.flac",
+  "sentence": "毎晩のsleepの質が最近ずいぶん良くなりました。",
+  "sample_rate": 16000,
+  "duration_ms": 3409,
+  "reference_speaker": "en/speaker_046_c5e6fd979dbd.mp3",
+  "seed": 3672,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "毎晩の",
+      "start_sample": 0,
+      "end_sample": 8500,
+      "start_ms": 0,
+      "end_ms": 531
+    },
+    {
+      "lang": "en",
+      "text": "sleep",
+      "start_sample": 8500,
+      "end_sample": 20431,
+      "start_ms": 531,
+      "end_ms": 1277
+    },
+    {
+      "lang": "ja",
+      "text": "の質が最近ずいぶん良くなりました。",
+      "start_sample": 20431,
+      "end_sample": 54544,
+      "start_ms": 1277,
+      "end_ms": 3409
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "maiban no sleep no shitsu ga saikin zuibun yoku nari mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8568,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎晩の",
+          "start_sample": 0,
+          "end_sample": 21779,
+          "start_ms": 0,
+          "end_ms": 1361
+        },
+        {
+          "lang": "en",
+          "text": "sleep",
+          "start_sample": 21779,
+          "end_sample": 34110,
+          "start_ms": 1361,
+          "end_ms": 2132
+        },
+        {
+          "lang": "ja",
+          "text": "の質が最近ずいぶん良くなりました。",
+          "start_sample": 34110,
+          "end_sample": 137084,
+          "start_ms": 2132,
+          "end_ms": 8568
+        }
+      ]
+    },
+    "ja": {
+      "text": "毎晩のsleepの質が最近ずいぶん良くなりました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3142,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎晩の",
+          "start_sample": 0,
+          "end_sample": 8700,
+          "start_ms": 0,
+          "end_ms": 544
+        },
+        {
+          "lang": "en",
+          "text": "sleep",
+          "start_sample": 8700,
+          "end_sample": 15951,
+          "start_ms": 544,
+          "end_ms": 997
+        },
+        {
+          "lang": "ja",
+          "text": "の質が最近ずいぶん良くなりました。",
+          "start_sample": 15951,
+          "end_sample": 50264,
+          "start_ms": 997,
+          "end_ms": 3142
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 171,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

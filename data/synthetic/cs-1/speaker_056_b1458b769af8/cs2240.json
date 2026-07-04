@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_056_b1458b769af8/cs2240.flac",
+  "sentence": "I've never heard a 合唱 that powerful in such an intimate setting before.",
+  "sample_rate": 16000,
+  "duration_ms": 4990,
+  "reference_speaker": "en/speaker_056_b1458b769af8.mp3",
+  "seed": 2282,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I've never heard a",
+      "start_sample": 0,
+      "end_sample": 10702,
+      "start_ms": 0,
+      "end_ms": 669
+    },
+    {
+      "lang": "ja",
+      "text": "合唱",
+      "start_sample": 10702,
+      "end_sample": 23606,
+      "start_ms": 669,
+      "end_ms": 1475
+    },
+    {
+      "lang": "en",
+      "text": "that powerful in such an intimate setting before.",
+      "start_sample": 23606,
+      "end_sample": 79846,
+      "start_ms": 1475,
+      "end_ms": 4990
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I've never heard a gasshou that powerful in such an intimate setting before.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5211,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've never heard a",
+          "start_sample": 0,
+          "end_sample": 10902,
+          "start_ms": 0,
+          "end_ms": 681
+        },
+        {
+          "lang": "ja",
+          "text": "合唱",
+          "start_sample": 10902,
+          "end_sample": 26936,
+          "start_ms": 681,
+          "end_ms": 1684
+        },
+        {
+          "lang": "en",
+          "text": "that powerful in such an intimate setting before.",
+          "start_sample": 26936,
+          "end_sample": 83376,
+          "start_ms": 1684,
+          "end_ms": 5211
+        }
+      ]
+    },
+    "ja": {
+      "text": "I've never heard a 合唱 that powerful in such an intimate setting before.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6652,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've never heard a",
+          "start_sample": 0,
+          "end_sample": 36704,
+          "start_ms": 0,
+          "end_ms": 2294
+        },
+        {
+          "lang": "ja",
+          "text": "合唱",
+          "start_sample": 36704,
+          "end_sample": 50008,
+          "start_ms": 2294,
+          "end_ms": 3126
+        },
+        {
+          "lang": "en",
+          "text": "that powerful in such an intimate setting before.",
+          "start_sample": 50008,
+          "end_sample": 106428,
+          "start_ms": 3126,
+          "end_ms": 6652
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 250,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

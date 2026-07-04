@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_066_73a931d5f7bb/cs1159.flac",
+  "sentence": "I wish I had used a faster シャッター速度 during the parade.",
+  "sample_rate": 16000,
+  "duration_ms": 3528,
+  "reference_speaker": "en/speaker_066_73a931d5f7bb.mp3",
+  "seed": 1201,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I wish I had used a faster",
+      "start_sample": 0,
+      "end_sample": 25301,
+      "start_ms": 0,
+      "end_ms": 1581
+    },
+    {
+      "lang": "ja",
+      "text": "シャッター速度",
+      "start_sample": 25301,
+      "end_sample": 39166,
+      "start_ms": 1581,
+      "end_ms": 2448
+    },
+    {
+      "lang": "en",
+      "text": "during the parade.",
+      "start_sample": 39166,
+      "end_sample": 56447,
+      "start_ms": 2448,
+      "end_ms": 3528
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I wish I had used a faster shattaa sokudo during the parade.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3829,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I wish I had used a faster",
+          "start_sample": 0,
+          "end_sample": 25501,
+          "start_ms": 0,
+          "end_ms": 1594
+        },
+        {
+          "lang": "ja",
+          "text": "シャッター速度",
+          "start_sample": 25501,
+          "end_sample": 43785,
+          "start_ms": 1594,
+          "end_ms": 2737
+        },
+        {
+          "lang": "en",
+          "text": "during the parade.",
+          "start_sample": 43785,
+          "end_sample": 61266,
+          "start_ms": 2737,
+          "end_ms": 3829
+        }
+      ]
+    },
+    "ja": {
+      "text": "I wish I had used a faster シャッター速度 during the parade.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3947,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I wish I had used a faster",
+          "start_sample": 0,
+          "end_sample": 31256,
+          "start_ms": 0,
+          "end_ms": 1954
+        },
+        {
+          "lang": "ja",
+          "text": "シャッター速度",
+          "start_sample": 31256,
+          "end_sample": 45521,
+          "start_ms": 1954,
+          "end_ms": 2845
+        },
+        {
+          "lang": "en",
+          "text": "during the parade.",
+          "start_sample": 45521,
+          "end_sample": 63151,
+          "start_ms": 2845,
+          "end_ms": 3947
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

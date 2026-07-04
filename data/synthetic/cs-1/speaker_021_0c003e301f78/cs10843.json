@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_021_0c003e301f78/cs10843.flac",
+  "sentence": "He has a very 繊細 palate and can detect even trace spices.",
+  "sample_rate": 16000,
+  "duration_ms": 5257,
+  "reference_speaker": "en/speaker_021_0c003e301f78.mp3",
+  "seed": 10885,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He has a very",
+      "start_sample": 0,
+      "end_sample": 14373,
+      "start_ms": 0,
+      "end_ms": 898
+    },
+    {
+      "lang": "ja",
+      "text": "繊細",
+      "start_sample": 14373,
+      "end_sample": 23608,
+      "start_ms": 898,
+      "end_ms": 1476
+    },
+    {
+      "lang": "en",
+      "text": "palate and can detect even trace spices.",
+      "start_sample": 23608,
+      "end_sample": 84106,
+      "start_ms": 1476,
+      "end_ms": 5257
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He has a very sensai palate and can detect even trace spices.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5345,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He has a very",
+          "start_sample": 0,
+          "end_sample": 14573,
+          "start_ms": 0,
+          "end_ms": 911
+        },
+        {
+          "lang": "ja",
+          "text": "繊細",
+          "start_sample": 14573,
+          "end_sample": 24823,
+          "start_ms": 911,
+          "end_ms": 1551
+        },
+        {
+          "lang": "en",
+          "text": "palate and can detect even trace spices.",
+          "start_sample": 24823,
+          "end_sample": 85521,
+          "start_ms": 1551,
+          "end_ms": 5345
+        }
+      ]
+    },
+    "ja": {
+      "text": "He has a very 繊細 palate and can detect even trace spices.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5058,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He has a very",
+          "start_sample": 0,
+          "end_sample": 19431,
+          "start_ms": 0,
+          "end_ms": 1214
+        },
+        {
+          "lang": "ja",
+          "text": "繊細",
+          "start_sample": 19431,
+          "end_sample": 29066,
+          "start_ms": 1214,
+          "end_ms": 1817
+        },
+        {
+          "lang": "en",
+          "text": "palate and can detect even trace spices.",
+          "start_sample": 29066,
+          "end_sample": 80933,
+          "start_ms": 1817,
+          "end_ms": 5058
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 263,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

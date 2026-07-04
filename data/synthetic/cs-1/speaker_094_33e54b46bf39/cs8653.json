@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_094_33e54b46bf39/cs8653.flac",
+  "sentence": "My dog gives me this 真剣 stare every time I open the treat cabinet.",
+  "sample_rate": 16000,
+  "duration_ms": 4859,
+  "reference_speaker": "jp/speaker_094_33e54b46bf39.mp3",
+  "seed": 8695,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My dog gives me this",
+      "start_sample": 0,
+      "end_sample": 25995,
+      "start_ms": 0,
+      "end_ms": 1625
+    },
+    {
+      "lang": "ja",
+      "text": "真剣",
+      "start_sample": 25995,
+      "end_sample": 35367,
+      "start_ms": 1625,
+      "end_ms": 2210
+    },
+    {
+      "lang": "en",
+      "text": "stare every time I open the treat cabinet.",
+      "start_sample": 35367,
+      "end_sample": 77751,
+      "start_ms": 2210,
+      "end_ms": 4859
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My dog gives me this shinken stare every time I open the treat cabinet.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4761,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My dog gives me this",
+          "start_sample": 0,
+          "end_sample": 26195,
+          "start_ms": 0,
+          "end_ms": 1637
+        },
+        {
+          "lang": "ja",
+          "text": "真剣",
+          "start_sample": 26195,
+          "end_sample": 33588,
+          "start_ms": 1637,
+          "end_ms": 2099
+        },
+        {
+          "lang": "en",
+          "text": "stare every time I open the treat cabinet.",
+          "start_sample": 33588,
+          "end_sample": 76172,
+          "start_ms": 2099,
+          "end_ms": 4761
+        }
+      ]
+    },
+    "ja": {
+      "text": "My dog gives me this 真剣 stare every time I open the treat cabinet.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5946,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My dog gives me this",
+          "start_sample": 0,
+          "end_sample": 28350,
+          "start_ms": 0,
+          "end_ms": 1772
+        },
+        {
+          "lang": "ja",
+          "text": "真剣",
+          "start_sample": 28350,
+          "end_sample": 38122,
+          "start_ms": 1772,
+          "end_ms": 2383
+        },
+        {
+          "lang": "en",
+          "text": "stare every time I open the treat cabinet.",
+          "start_sample": 38122,
+          "end_sample": 95144,
+          "start_ms": 2383,
+          "end_ms": 5946
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 243,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

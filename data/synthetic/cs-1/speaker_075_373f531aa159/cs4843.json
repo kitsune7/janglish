@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_075_373f531aa159/cs4843.flac",
+  "sentence": "The ferry ride gave us a 素晴らしい view of the coastline.",
+  "sample_rate": 16000,
+  "duration_ms": 4493,
+  "reference_speaker": "en/speaker_075_373f531aa159.mp3",
+  "seed": 4885,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The ferry ride gave us a",
+      "start_sample": 0,
+      "end_sample": 29804,
+      "start_ms": 0,
+      "end_ms": 1863
+    },
+    {
+      "lang": "ja",
+      "text": "素晴らしい",
+      "start_sample": 29804,
+      "end_sample": 42567,
+      "start_ms": 1863,
+      "end_ms": 2660
+    },
+    {
+      "lang": "en",
+      "text": "view of the coastline.",
+      "start_sample": 42567,
+      "end_sample": 71888,
+      "start_ms": 2660,
+      "end_ms": 4493
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The ferry ride gave us a subarashii view of the coastline.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4472,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The ferry ride gave us a",
+          "start_sample": 0,
+          "end_sample": 30004,
+          "start_ms": 0,
+          "end_ms": 1875
+        },
+        {
+          "lang": "ja",
+          "text": "素晴らしい",
+          "start_sample": 30004,
+          "end_sample": 42038,
+          "start_ms": 1875,
+          "end_ms": 2627
+        },
+        {
+          "lang": "en",
+          "text": "view of the coastline.",
+          "start_sample": 42038,
+          "end_sample": 71559,
+          "start_ms": 2627,
+          "end_ms": 4472
+        }
+      ]
+    },
+    "ja": {
+      "text": "The ferry ride gave us a 素晴らしい view of the coastline.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5137,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The ferry ride gave us a",
+          "start_sample": 0,
+          "end_sample": 39811,
+          "start_ms": 0,
+          "end_ms": 2488
+        },
+        {
+          "lang": "ja",
+          "text": "素晴らしい",
+          "start_sample": 39811,
+          "end_sample": 52974,
+          "start_ms": 2488,
+          "end_ms": 3311
+        },
+        {
+          "lang": "en",
+          "text": "view of the coastline.",
+          "start_sample": 52974,
+          "end_sample": 82188,
+          "start_ms": 3311,
+          "end_ms": 5137
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

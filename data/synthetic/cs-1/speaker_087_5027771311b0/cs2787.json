@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_087_5027771311b0/cs2787.flac",
+  "sentence": "彼女はremote workを週三日しています。",
+  "sample_rate": 16000,
+  "duration_ms": 3252,
+  "reference_speaker": "en/speaker_087_5027771311b0.mp3",
+  "seed": 2829,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は",
+      "start_sample": 0,
+      "end_sample": 12333,
+      "start_ms": 0,
+      "end_ms": 771
+    },
+    {
+      "lang": "en",
+      "text": "remote work",
+      "start_sample": 12333,
+      "end_sample": 20748,
+      "start_ms": 771,
+      "end_ms": 1297
+    },
+    {
+      "lang": "ja",
+      "text": "を週三日しています。",
+      "start_sample": 20748,
+      "end_sample": 52040,
+      "start_ms": 1297,
+      "end_ms": 3252
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha remote work wo shuu san nichi shi te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10497,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 100482,
+          "start_ms": 0,
+          "end_ms": 6280
+        },
+        {
+          "lang": "en",
+          "text": "remote work",
+          "start_sample": 100482,
+          "end_sample": 109297,
+          "start_ms": 6280,
+          "end_ms": 6831
+        },
+        {
+          "lang": "ja",
+          "text": "を週三日しています。",
+          "start_sample": 109297,
+          "end_sample": 167950,
+          "start_ms": 6831,
+          "end_ms": 10497
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はremote workを週三日しています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3816,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 12533,
+          "start_ms": 0,
+          "end_ms": 783
+        },
+        {
+          "lang": "en",
+          "text": "remote work",
+          "start_sample": 12533,
+          "end_sample": 29567,
+          "start_ms": 783,
+          "end_ms": 1848
+        },
+        {
+          "lang": "ja",
+          "text": "を週三日しています。",
+          "start_sample": 29567,
+          "end_sample": 61059,
+          "start_ms": 1848,
+          "end_ms": 3816
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 163,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

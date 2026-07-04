@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_001_e5689aea6ff3/cs6038.flac",
+  "sentence": "The 予算 approval might take longer than we originally expected.",
+  "sample_rate": 16000,
+  "duration_ms": 3824,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 6080,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1727,
+      "start_ms": 0,
+      "end_ms": 108
+    },
+    {
+      "lang": "ja",
+      "text": "予算",
+      "start_sample": 1727,
+      "end_sample": 6936,
+      "start_ms": 108,
+      "end_ms": 434
+    },
+    {
+      "lang": "en",
+      "text": "approval might take longer than we originally expected.",
+      "start_sample": 6936,
+      "end_sample": 61185,
+      "start_ms": 434,
+      "end_ms": 3824
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The yosan approval might take longer than we originally expected.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3975,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1927,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "予算",
+          "start_sample": 1927,
+          "end_sample": 9155,
+          "start_ms": 120,
+          "end_ms": 572
+        },
+        {
+          "lang": "en",
+          "text": "approval might take longer than we originally expected.",
+          "start_sample": 9155,
+          "end_sample": 63604,
+          "start_ms": 572,
+          "end_ms": 3975
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 予算 approval might take longer than we originally expected.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4046,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3043,
+          "start_ms": 0,
+          "end_ms": 190
+        },
+        {
+          "lang": "ja",
+          "text": "予算",
+          "start_sample": 3043,
+          "end_sample": 8652,
+          "start_ms": 190,
+          "end_ms": 541
+        },
+        {
+          "lang": "en",
+          "text": "approval might take longer than we originally expected.",
+          "start_sample": 8652,
+          "end_sample": 64742,
+          "start_ms": 541,
+          "end_ms": 4046
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

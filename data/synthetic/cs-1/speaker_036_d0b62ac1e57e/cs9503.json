@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_036_d0b62ac1e57e/cs9503.flac",
+  "sentence": "I forgot to attach the 添付ファイル — please check your inbox for the updated version.",
+  "sample_rate": 16000,
+  "duration_ms": 5412,
+  "reference_speaker": "en/speaker_036_d0b62ac1e57e.mp3",
+  "seed": 9545,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I forgot to attach the",
+      "start_sample": 0,
+      "end_sample": 22403,
+      "start_ms": 0,
+      "end_ms": 1400
+    },
+    {
+      "lang": "ja",
+      "text": "添付ファイル —",
+      "start_sample": 22403,
+      "end_sample": 35003,
+      "start_ms": 1400,
+      "end_ms": 2188
+    },
+    {
+      "lang": "en",
+      "text": "please check your inbox for the updated version.",
+      "start_sample": 35003,
+      "end_sample": 86585,
+      "start_ms": 2188,
+      "end_ms": 5412
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I forgot to attach the tenpu fairu please check your inbox for the updated version.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6453,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I forgot to attach the",
+          "start_sample": 0,
+          "end_sample": 22603,
+          "start_ms": 0,
+          "end_ms": 1413
+        },
+        {
+          "lang": "ja",
+          "text": "添付ファイル —",
+          "start_sample": 22603,
+          "end_sample": 51462,
+          "start_ms": 1413,
+          "end_ms": 3216
+        },
+        {
+          "lang": "en",
+          "text": "please check your inbox for the updated version.",
+          "start_sample": 51462,
+          "end_sample": 103244,
+          "start_ms": 3216,
+          "end_ms": 6453
+        }
+      ]
+    },
+    "ja": {
+      "text": "I forgot to attach the 添付ファイル — please check your inbox for the updated version.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6881,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I forgot to attach the",
+          "start_sample": 0,
+          "end_sample": 34665,
+          "start_ms": 0,
+          "end_ms": 2167
+        },
+        {
+          "lang": "ja",
+          "text": "添付ファイル —",
+          "start_sample": 34665,
+          "end_sample": 47665,
+          "start_ms": 2167,
+          "end_ms": 2979
+        },
+        {
+          "lang": "en",
+          "text": "please check your inbox for the updated version.",
+          "start_sample": 47665,
+          "end_sample": 110096,
+          "start_ms": 2979,
+          "end_ms": 6881
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 271,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_057_6b77a20f629a/cs1790.flac",
+  "sentence": "We need to cross the 幹線道路 carefully before turning onto the quieter 住宅街.",
+  "sample_rate": 16000,
+  "duration_ms": 4991,
+  "reference_speaker": "jp/speaker_057_6b77a20f629a.mp3",
+  "seed": 1832,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We need to cross the",
+      "start_sample": 0,
+      "end_sample": 12151,
+      "start_ms": 0,
+      "end_ms": 759
+    },
+    {
+      "lang": "ja",
+      "text": "幹線道路",
+      "start_sample": 12151,
+      "end_sample": 23005,
+      "start_ms": 759,
+      "end_ms": 1438
+    },
+    {
+      "lang": "en",
+      "text": "carefully before turning onto the quieter",
+      "start_sample": 23005,
+      "end_sample": 67842,
+      "start_ms": 1438,
+      "end_ms": 4240
+    },
+    {
+      "lang": "ja",
+      "text": "住宅街.",
+      "start_sample": 67842,
+      "end_sample": 79857,
+      "start_ms": 4240,
+      "end_ms": 4991
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We need to cross the kansen douro carefully before turning onto the quieter juutaku machi",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6015,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We need to cross the",
+          "start_sample": 0,
+          "end_sample": 12351,
+          "start_ms": 0,
+          "end_ms": 772
+        },
+        {
+          "lang": "ja",
+          "text": "幹線道路",
+          "start_sample": 12351,
+          "end_sample": 35130,
+          "start_ms": 772,
+          "end_ms": 2196
+        },
+        {
+          "lang": "en",
+          "text": "carefully before turning onto the quieter",
+          "start_sample": 35130,
+          "end_sample": 80367,
+          "start_ms": 2196,
+          "end_ms": 5023
+        },
+        {
+          "lang": "ja",
+          "text": "住宅街.",
+          "start_sample": 80367,
+          "end_sample": 96246,
+          "start_ms": 5023,
+          "end_ms": 6015
+        }
+      ]
+    },
+    "ja": {
+      "text": "We need to cross the 幹線道路 carefully before turning onto the quieter 住宅街.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4542,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We need to cross the",
+          "start_sample": 0,
+          "end_sample": 12379,
+          "start_ms": 0,
+          "end_ms": 774
+        },
+        {
+          "lang": "ja",
+          "text": "幹線道路",
+          "start_sample": 12379,
+          "end_sample": 23633,
+          "start_ms": 774,
+          "end_ms": 1477
+        },
+        {
+          "lang": "en",
+          "text": "carefully before turning onto the quieter",
+          "start_sample": 23633,
+          "end_sample": 60451,
+          "start_ms": 1477,
+          "end_ms": 3778
+        },
+        {
+          "lang": "ja",
+          "text": "住宅街.",
+          "start_sample": 60451,
+          "end_sample": 72666,
+          "start_ms": 3778,
+          "end_ms": 4542
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 250,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

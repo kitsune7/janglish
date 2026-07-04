@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_020_8ca1bbc6858e/cs5991.flac",
+  "sentence": "I can't believe how 安い these linen trousers were at the market.",
+  "sample_rate": 16000,
+  "duration_ms": 3442,
+  "reference_speaker": "jp/speaker_020_8ca1bbc6858e.mp3",
+  "seed": 6033,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I can't believe how",
+      "start_sample": 0,
+      "end_sample": 12319,
+      "start_ms": 0,
+      "end_ms": 770
+    },
+    {
+      "lang": "ja",
+      "text": "安い",
+      "start_sample": 12319,
+      "end_sample": 19627,
+      "start_ms": 770,
+      "end_ms": 1227
+    },
+    {
+      "lang": "en",
+      "text": "these linen trousers were at the market.",
+      "start_sample": 19627,
+      "end_sample": 55066,
+      "start_ms": 1227,
+      "end_ms": 3442
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I can't believe how yasui these linen trousers were at the market.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3772,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I can't believe how",
+          "start_sample": 0,
+          "end_sample": 12519,
+          "start_ms": 0,
+          "end_ms": 782
+        },
+        {
+          "lang": "ja",
+          "text": "安い",
+          "start_sample": 12519,
+          "end_sample": 24721,
+          "start_ms": 782,
+          "end_ms": 1545
+        },
+        {
+          "lang": "en",
+          "text": "these linen trousers were at the market.",
+          "start_sample": 24721,
+          "end_sample": 60360,
+          "start_ms": 1545,
+          "end_ms": 3772
+        }
+      ]
+    },
+    "ja": {
+      "text": "I can't believe how 安い these linen trousers were at the market.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4536,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I can't believe how",
+          "start_sample": 0,
+          "end_sample": 20389,
+          "start_ms": 0,
+          "end_ms": 1274
+        },
+        {
+          "lang": "ja",
+          "text": "安い",
+          "start_sample": 20389,
+          "end_sample": 28097,
+          "start_ms": 1274,
+          "end_ms": 1756
+        },
+        {
+          "lang": "en",
+          "text": "these linen trousers were at the market.",
+          "start_sample": 28097,
+          "end_sample": 72573,
+          "start_ms": 1756,
+          "end_ms": 4536
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 173,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

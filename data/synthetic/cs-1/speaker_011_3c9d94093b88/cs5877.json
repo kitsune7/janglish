@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_011_3c9d94093b88/cs5877.flac",
+  "sentence": "The 港 was quiet at dawn, with fishing boats still anchored in rows.",
+  "sample_rate": 16000,
+  "duration_ms": 4603,
+  "reference_speaker": "jp/speaker_011_3c9d94093b88.mp3",
+  "seed": 5919,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 762,
+      "start_ms": 0,
+      "end_ms": 48
+    },
+    {
+      "lang": "ja",
+      "text": "港",
+      "start_sample": 762,
+      "end_sample": 4207,
+      "start_ms": 48,
+      "end_ms": 263
+    },
+    {
+      "lang": "en",
+      "text": "was quiet at dawn, with fishing boats still anchored in rows.",
+      "start_sample": 4207,
+      "end_sample": 73642,
+      "start_ms": 263,
+      "end_ms": 4603
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The minato was quiet at dawn, with fishing boats still anchored in rows.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5034,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 962,
+          "start_ms": 0,
+          "end_ms": 60
+        },
+        {
+          "lang": "ja",
+          "text": "港",
+          "start_sample": 962,
+          "end_sample": 10910,
+          "start_ms": 60,
+          "end_ms": 682
+        },
+        {
+          "lang": "en",
+          "text": "was quiet at dawn, with fishing boats still anchored in rows.",
+          "start_sample": 10910,
+          "end_sample": 80545,
+          "start_ms": 682,
+          "end_ms": 5034
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 港 was quiet at dawn, with fishing boats still anchored in rows.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5186,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1281,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "港",
+          "start_sample": 1281,
+          "end_sample": 5126,
+          "start_ms": 80,
+          "end_ms": 320
+        },
+        {
+          "lang": "en",
+          "text": "was quiet at dawn, with fishing boats still anchored in rows.",
+          "start_sample": 5126,
+          "end_sample": 82981,
+          "start_ms": 320,
+          "end_ms": 5186
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 231,
+  "frame_labels": "eejjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

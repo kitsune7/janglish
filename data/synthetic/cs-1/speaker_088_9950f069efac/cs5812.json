@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_088_9950f069efac/cs5812.flac",
+  "sentence": "They only had one 試着室 open, so the wait was incredibly long.",
+  "sample_rate": 16000,
+  "duration_ms": 6866,
+  "reference_speaker": "en/speaker_088_9950f069efac.mp3",
+  "seed": 5854,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "They only had one",
+      "start_sample": 0,
+      "end_sample": 39195,
+      "start_ms": 0,
+      "end_ms": 2450
+    },
+    {
+      "lang": "ja",
+      "text": "試着室",
+      "start_sample": 39195,
+      "end_sample": 59130,
+      "start_ms": 2450,
+      "end_ms": 3696
+    },
+    {
+      "lang": "en",
+      "text": "open, so the wait was incredibly long.",
+      "start_sample": 59130,
+      "end_sample": 109856,
+      "start_ms": 3696,
+      "end_ms": 6866
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "They only had one shichaku shitsu open, so the wait was incredibly long.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6746,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "They only had one",
+          "start_sample": 0,
+          "end_sample": 39395,
+          "start_ms": 0,
+          "end_ms": 2462
+        },
+        {
+          "lang": "ja",
+          "text": "試着室",
+          "start_sample": 39395,
+          "end_sample": 57011,
+          "start_ms": 2462,
+          "end_ms": 3563
+        },
+        {
+          "lang": "en",
+          "text": "open, so the wait was incredibly long.",
+          "start_sample": 57011,
+          "end_sample": 107937,
+          "start_ms": 3563,
+          "end_ms": 6746
+        }
+      ]
+    },
+    "ja": {
+      "text": "They only had one 試着室 open, so the wait was incredibly long.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7365,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "They only had one",
+          "start_sample": 0,
+          "end_sample": 27058,
+          "start_ms": 0,
+          "end_ms": 1691
+        },
+        {
+          "lang": "ja",
+          "text": "試着室",
+          "start_sample": 27058,
+          "end_sample": 47393,
+          "start_ms": 1691,
+          "end_ms": 2962
+        },
+        {
+          "lang": "en",
+          "text": "open, so the wait was incredibly long.",
+          "start_sample": 47393,
+          "end_sample": 117843,
+          "start_ms": 2962,
+          "end_ms": 7365
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 344,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

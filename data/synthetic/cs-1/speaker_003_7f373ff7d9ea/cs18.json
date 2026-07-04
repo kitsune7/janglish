@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_003_7f373ff7d9ea/cs18.flac",
+  "sentence": "新しいprojectを来週から始めます。",
+  "sample_rate": 16000,
+  "duration_ms": 3091,
+  "reference_speaker": "jp/speaker_003_7f373ff7d9ea.mp3",
+  "seed": 60,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "新しい",
+      "start_sample": 0,
+      "end_sample": 8319,
+      "start_ms": 0,
+      "end_ms": 520
+    },
+    {
+      "lang": "en",
+      "text": "project",
+      "start_sample": 8319,
+      "end_sample": 26511,
+      "start_ms": 520,
+      "end_ms": 1657
+    },
+    {
+      "lang": "ja",
+      "text": "を来週から始めます。",
+      "start_sample": 26511,
+      "end_sample": 49454,
+      "start_ms": 1657,
+      "end_ms": 3091
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "atarashii project wo raishuu kara hajime masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5129,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 13783,
+          "start_ms": 0,
+          "end_ms": 861
+        },
+        {
+          "lang": "en",
+          "text": "project",
+          "start_sample": 13783,
+          "end_sample": 32375,
+          "start_ms": 861,
+          "end_ms": 2023
+        },
+        {
+          "lang": "ja",
+          "text": "を来週から始めます。",
+          "start_sample": 32375,
+          "end_sample": 82059,
+          "start_ms": 2023,
+          "end_ms": 5129
+        }
+      ]
+    },
+    "ja": {
+      "text": "新しいprojectを来週から始めます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2552,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 8519,
+          "start_ms": 0,
+          "end_ms": 532
+        },
+        {
+          "lang": "en",
+          "text": "project",
+          "start_sample": 8519,
+          "end_sample": 17681,
+          "start_ms": 532,
+          "end_ms": 1105
+        },
+        {
+          "lang": "ja",
+          "text": "を来週から始めます。",
+          "start_sample": 17681,
+          "end_sample": 40824,
+          "start_ms": 1105,
+          "end_ms": 2552
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 155,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

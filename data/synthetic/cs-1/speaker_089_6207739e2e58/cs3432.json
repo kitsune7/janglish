@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_089_6207739e2e58/cs3432.flac",
+  "sentence": "He folded his 長袖 shirts into perfect rectangles before packing.",
+  "sample_rate": 16000,
+  "duration_ms": 3876,
+  "reference_speaker": "jp/speaker_089_6207739e2e58.mp3",
+  "seed": 3474,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He folded his",
+      "start_sample": 0,
+      "end_sample": 9412,
+      "start_ms": 0,
+      "end_ms": 588
+    },
+    {
+      "lang": "ja",
+      "text": "長袖",
+      "start_sample": 9412,
+      "end_sample": 18484,
+      "start_ms": 588,
+      "end_ms": 1155
+    },
+    {
+      "lang": "en",
+      "text": "shirts into perfect rectangles before packing.",
+      "start_sample": 18484,
+      "end_sample": 62020,
+      "start_ms": 1155,
+      "end_ms": 3876
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He folded his nagasode shirts into perfect rectangles before packing.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3945,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He folded his",
+          "start_sample": 0,
+          "end_sample": 9612,
+          "start_ms": 0,
+          "end_ms": 601
+        },
+        {
+          "lang": "ja",
+          "text": "長袖",
+          "start_sample": 9612,
+          "end_sample": 19384,
+          "start_ms": 601,
+          "end_ms": 1212
+        },
+        {
+          "lang": "en",
+          "text": "shirts into perfect rectangles before packing.",
+          "start_sample": 19384,
+          "end_sample": 63120,
+          "start_ms": 1212,
+          "end_ms": 3945
+        }
+      ]
+    },
+    "ja": {
+      "text": "He folded his 長袖 shirts into perfect rectangles before packing.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4635,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He folded his",
+          "start_sample": 0,
+          "end_sample": 18783,
+          "start_ms": 0,
+          "end_ms": 1174
+        },
+        {
+          "lang": "ja",
+          "text": "長袖",
+          "start_sample": 18783,
+          "end_sample": 28255,
+          "start_ms": 1174,
+          "end_ms": 1766
+        },
+        {
+          "lang": "en",
+          "text": "shirts into perfect rectangles before packing.",
+          "start_sample": 28255,
+          "end_sample": 74167,
+          "start_ms": 1766,
+          "end_ms": 4635
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 194,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

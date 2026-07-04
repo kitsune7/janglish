@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_057_6b77a20f629a/cs449.flac",
+  "sentence": "シングルroomよりダブルの方が少し安いと思います。",
+  "sample_rate": 16000,
+  "duration_ms": 3860,
+  "reference_speaker": "jp/speaker_057_6b77a20f629a.mp3",
+  "seed": 491,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "シングル",
+      "start_sample": 0,
+      "end_sample": 6572,
+      "start_ms": 0,
+      "end_ms": 411
+    },
+    {
+      "lang": "en",
+      "text": "room",
+      "start_sample": 6572,
+      "end_sample": 27625,
+      "start_ms": 411,
+      "end_ms": 1727
+    },
+    {
+      "lang": "ja",
+      "text": "よりダブルの方が少し安いと思います。",
+      "start_sample": 27625,
+      "end_sample": 61764,
+      "start_ms": 1727,
+      "end_ms": 3860
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shinguru room yori daburu no hou ga sukoshi yasui to omoi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8145,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "シングル",
+          "start_sample": 0,
+          "end_sample": 19212,
+          "start_ms": 0,
+          "end_ms": 1201
+        },
+        {
+          "lang": "en",
+          "text": "room",
+          "start_sample": 19212,
+          "end_sample": 40665,
+          "start_ms": 1201,
+          "end_ms": 2542
+        },
+        {
+          "lang": "ja",
+          "text": "よりダブルの方が少し安いと思います。",
+          "start_sample": 40665,
+          "end_sample": 130321,
+          "start_ms": 2542,
+          "end_ms": 8145
+        }
+      ]
+    },
+    "ja": {
+      "text": "シングルroomよりダブルの方が少し安いと思います。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2821,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "シングル",
+          "start_sample": 0,
+          "end_sample": 6772,
+          "start_ms": 0,
+          "end_ms": 423
+        },
+        {
+          "lang": "en",
+          "text": "room",
+          "start_sample": 6772,
+          "end_sample": 10803,
+          "start_ms": 423,
+          "end_ms": 675
+        },
+        {
+          "lang": "ja",
+          "text": "よりダブルの方が少し安いと思います。",
+          "start_sample": 10803,
+          "end_sample": 45142,
+          "start_ms": 675,
+          "end_ms": 2821
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 194,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

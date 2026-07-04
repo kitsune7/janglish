@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_072_33acedb4c9a7/cs8683.flac",
+  "sentence": "Can you call for 助け before the situation gets worse?",
+  "sample_rate": 16000,
+  "duration_ms": 2558,
+  "reference_speaker": "en/speaker_072_33acedb4c9a7.mp3",
+  "seed": 8725,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you call for",
+      "start_sample": 0,
+      "end_sample": 10070,
+      "start_ms": 0,
+      "end_ms": 629
+    },
+    {
+      "lang": "ja",
+      "text": "助け",
+      "start_sample": 10070,
+      "end_sample": 15774,
+      "start_ms": 629,
+      "end_ms": 986
+    },
+    {
+      "lang": "en",
+      "text": "before the situation gets worse?",
+      "start_sample": 15774,
+      "end_sample": 40927,
+      "start_ms": 986,
+      "end_ms": 2558
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you call for tasuke before the situation gets worse?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2668,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you call for",
+          "start_sample": 0,
+          "end_sample": 10270,
+          "start_ms": 0,
+          "end_ms": 642
+        },
+        {
+          "lang": "ja",
+          "text": "助け",
+          "start_sample": 10270,
+          "end_sample": 17331,
+          "start_ms": 642,
+          "end_ms": 1083
+        },
+        {
+          "lang": "en",
+          "text": "before the situation gets worse?",
+          "start_sample": 17331,
+          "end_sample": 42684,
+          "start_ms": 1083,
+          "end_ms": 2668
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you call for 助け before the situation gets worse?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3594,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you call for",
+          "start_sample": 0,
+          "end_sample": 15741,
+          "start_ms": 0,
+          "end_ms": 984
+        },
+        {
+          "lang": "ja",
+          "text": "助け",
+          "start_sample": 15741,
+          "end_sample": 21845,
+          "start_ms": 984,
+          "end_ms": 1365
+        },
+        {
+          "lang": "en",
+          "text": "before the situation gets worse?",
+          "start_sample": 21845,
+          "end_sample": 57501,
+          "start_ms": 1365,
+          "end_ms": 3594
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 128,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_023_d9597f21cb60/cs3359.flac",
+  "sentence": "緊急のalertが携帯に届きました。",
+  "sample_rate": 16000,
+  "duration_ms": 3080,
+  "reference_speaker": "jp/speaker_023_d9597f21cb60.mp3",
+  "seed": 3401,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "緊急の",
+      "start_sample": 0,
+      "end_sample": 9758,
+      "start_ms": 0,
+      "end_ms": 610
+    },
+    {
+      "lang": "en",
+      "text": "alert",
+      "start_sample": 9758,
+      "end_sample": 24110,
+      "start_ms": 610,
+      "end_ms": 1507
+    },
+    {
+      "lang": "ja",
+      "text": "が携帯に届きました。",
+      "start_sample": 24110,
+      "end_sample": 49285,
+      "start_ms": 1507,
+      "end_ms": 3080
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kinkyuu no alert ga keitai ni todoki mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5271,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "緊急の",
+          "start_sample": 0,
+          "end_sample": 23892,
+          "start_ms": 0,
+          "end_ms": 1493
+        },
+        {
+          "lang": "en",
+          "text": "alert",
+          "start_sample": 23892,
+          "end_sample": 38644,
+          "start_ms": 1493,
+          "end_ms": 2415
+        },
+        {
+          "lang": "ja",
+          "text": "が携帯に届きました。",
+          "start_sample": 38644,
+          "end_sample": 84342,
+          "start_ms": 2415,
+          "end_ms": 5271
+        }
+      ]
+    },
+    "ja": {
+      "text": "緊急のalertが携帯に届きました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2630,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "緊急の",
+          "start_sample": 0,
+          "end_sample": 9958,
+          "start_ms": 0,
+          "end_ms": 622
+        },
+        {
+          "lang": "en",
+          "text": "alert",
+          "start_sample": 9958,
+          "end_sample": 16705,
+          "start_ms": 622,
+          "end_ms": 1044
+        },
+        {
+          "lang": "ja",
+          "text": "が携帯に届きました。",
+          "start_sample": 16705,
+          "end_sample": 42080,
+          "start_ms": 1044,
+          "end_ms": 2630
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 155,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

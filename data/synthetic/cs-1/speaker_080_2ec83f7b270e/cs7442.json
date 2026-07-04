@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_080_2ec83f7b270e/cs7442.flac",
+  "sentence": "この路地はとてもphotogenicで何枚も写真を撮った。",
+  "sample_rate": 16000,
+  "duration_ms": 3774,
+  "reference_speaker": "en/speaker_080_2ec83f7b270e.mp3",
+  "seed": 7484,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この路地はとても",
+      "start_sample": 0,
+      "end_sample": 19245,
+      "start_ms": 0,
+      "end_ms": 1203
+    },
+    {
+      "lang": "en",
+      "text": "photogenic",
+      "start_sample": 19245,
+      "end_sample": 34549,
+      "start_ms": 1203,
+      "end_ms": 2159
+    },
+    {
+      "lang": "ja",
+      "text": "で何枚も写真を撮った。",
+      "start_sample": 34549,
+      "end_sample": 60380,
+      "start_ms": 2159,
+      "end_ms": 3774
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono roji ha totemo photogenic de nani mai mo shashin wo totsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6790,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この路地はとても",
+          "start_sample": 0,
+          "end_sample": 45348,
+          "start_ms": 0,
+          "end_ms": 2834
+        },
+        {
+          "lang": "en",
+          "text": "photogenic",
+          "start_sample": 45348,
+          "end_sample": 61052,
+          "start_ms": 2834,
+          "end_ms": 3816
+        },
+        {
+          "lang": "ja",
+          "text": "で何枚も写真を撮った。",
+          "start_sample": 61052,
+          "end_sample": 108643,
+          "start_ms": 3816,
+          "end_ms": 6790
+        }
+      ]
+    },
+    "ja": {
+      "text": "この路地はとてもphotogenicで何枚も写真を撮った。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3555,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この路地はとても",
+          "start_sample": 0,
+          "end_sample": 19445,
+          "start_ms": 0,
+          "end_ms": 1215
+        },
+        {
+          "lang": "en",
+          "text": "photogenic",
+          "start_sample": 19445,
+          "end_sample": 30856,
+          "start_ms": 1215,
+          "end_ms": 1928
+        },
+        {
+          "lang": "ja",
+          "text": "で何枚も写真を撮った。",
+          "start_sample": 30856,
+          "end_sample": 56887,
+          "start_ms": 1928,
+          "end_ms": 3555
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 189,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

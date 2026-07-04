@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_029_debaa03f9928/cs641.flac",
+  "sentence": "このパンはcrustyで、外側がとても香ばしいです。",
+  "sample_rate": 16000,
+  "duration_ms": 2587,
+  "reference_speaker": "jp/speaker_029_debaa03f9928.mp3",
+  "seed": 683,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このパンは",
+      "start_sample": 0,
+      "end_sample": 8144,
+      "start_ms": 0,
+      "end_ms": 509
+    },
+    {
+      "lang": "en",
+      "text": "crusty",
+      "start_sample": 8144,
+      "end_sample": 15278,
+      "start_ms": 509,
+      "end_ms": 955
+    },
+    {
+      "lang": "ja",
+      "text": "で、外側がとても香ばしいです。",
+      "start_sample": 15278,
+      "end_sample": 41394,
+      "start_ms": 955,
+      "end_ms": 2587
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono pan ha crusty de sotogawa ga totemo koobashii desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6291,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このパンは",
+          "start_sample": 0,
+          "end_sample": 19074,
+          "start_ms": 0,
+          "end_ms": 1192
+        },
+        {
+          "lang": "en",
+          "text": "crusty",
+          "start_sample": 19074,
+          "end_sample": 26608,
+          "start_ms": 1192,
+          "end_ms": 1663
+        },
+        {
+          "lang": "ja",
+          "text": "で、外側がとても香ばしいです。",
+          "start_sample": 26608,
+          "end_sample": 100661,
+          "start_ms": 1663,
+          "end_ms": 6291
+        }
+      ]
+    },
+    "ja": {
+      "text": "このパンはcrustyで、外側がとても香ばしいです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2628,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このパンは",
+          "start_sample": 0,
+          "end_sample": 8344,
+          "start_ms": 0,
+          "end_ms": 522
+        },
+        {
+          "lang": "en",
+          "text": "crusty",
+          "start_sample": 8344,
+          "end_sample": 15726,
+          "start_ms": 522,
+          "end_ms": 983
+        },
+        {
+          "lang": "ja",
+          "text": "で、外側がとても香ばしいです。",
+          "start_sample": 15726,
+          "end_sample": 42042,
+          "start_ms": 983,
+          "end_ms": 2628
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 130,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_005_a09e35e07333/cs8451.flac",
+  "sentence": "The 抵当 on the property was finally paid off last spring.",
+  "sample_rate": 16000,
+  "duration_ms": 4003,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 8493,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1564,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "抵当",
+      "start_sample": 1564,
+      "end_sample": 12249,
+      "start_ms": 98,
+      "end_ms": 766
+    },
+    {
+      "lang": "en",
+      "text": "on the property was finally paid off last spring.",
+      "start_sample": 12249,
+      "end_sample": 64041,
+      "start_ms": 766,
+      "end_ms": 4003
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The teitou on the property was finally paid off last spring.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3871,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1764,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "抵当",
+          "start_sample": 1764,
+          "end_sample": 9949,
+          "start_ms": 110,
+          "end_ms": 622
+        },
+        {
+          "lang": "en",
+          "text": "on the property was finally paid off last spring.",
+          "start_sample": 9949,
+          "end_sample": 61941,
+          "start_ms": 622,
+          "end_ms": 3871
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 抵当 on the property was finally paid off last spring.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5763,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4979,
+          "start_ms": 0,
+          "end_ms": 311
+        },
+        {
+          "lang": "ja",
+          "text": "抵当",
+          "start_sample": 4979,
+          "end_sample": 16064,
+          "start_ms": 311,
+          "end_ms": 1004
+        },
+        {
+          "lang": "en",
+          "text": "on the property was finally paid off last spring.",
+          "start_sample": 16064,
+          "end_sample": 92205,
+          "start_ms": 1004,
+          "end_ms": 5763
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

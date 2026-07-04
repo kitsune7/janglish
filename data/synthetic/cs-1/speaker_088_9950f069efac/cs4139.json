@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_088_9950f069efac/cs4139.flac",
+  "sentence": "お父さん、このrecipeはおばあちゃんから教わったの？",
+  "sample_rate": 16000,
+  "duration_ms": 4272,
+  "reference_speaker": "en/speaker_088_9950f069efac.mp3",
+  "seed": 4181,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "お父さん、この",
+      "start_sample": 0,
+      "end_sample": 23308,
+      "start_ms": 0,
+      "end_ms": 1457
+    },
+    {
+      "lang": "en",
+      "text": "recipe",
+      "start_sample": 23308,
+      "end_sample": 47789,
+      "start_ms": 1457,
+      "end_ms": 2987
+    },
+    {
+      "lang": "ja",
+      "text": "はおばあちゃんから教わったの？",
+      "start_sample": 47789,
+      "end_sample": 68354,
+      "start_ms": 2987,
+      "end_ms": 4272
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "o chichi san kono recipe ha o baa chan kara osowatsu ta no",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7223,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お父さん、この",
+          "start_sample": 0,
+          "end_sample": 21666,
+          "start_ms": 0,
+          "end_ms": 1354
+        },
+        {
+          "lang": "en",
+          "text": "recipe",
+          "start_sample": 21666,
+          "end_sample": 46547,
+          "start_ms": 1354,
+          "end_ms": 2909
+        },
+        {
+          "lang": "ja",
+          "text": "はおばあちゃんから教わったの？",
+          "start_sample": 46547,
+          "end_sample": 115567,
+          "start_ms": 2909,
+          "end_ms": 7223
+        }
+      ]
+    },
+    "ja": {
+      "text": "お父さん、このrecipeはおばあちゃんから教わったの？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3139,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お父さん、この",
+          "start_sample": 0,
+          "end_sample": 23508,
+          "start_ms": 0,
+          "end_ms": 1469
+        },
+        {
+          "lang": "en",
+          "text": "recipe",
+          "start_sample": 23508,
+          "end_sample": 29465,
+          "start_ms": 1469,
+          "end_ms": 1842
+        },
+        {
+          "lang": "ja",
+          "text": "はおばあちゃんから教わったの？",
+          "start_sample": 29465,
+          "end_sample": 50230,
+          "start_ms": 1842,
+          "end_ms": 3139
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 214,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

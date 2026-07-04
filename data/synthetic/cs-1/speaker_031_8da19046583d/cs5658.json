@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_031_8da19046583d/cs5658.flac",
+  "sentence": "The 内閣 announced a sweeping reshuffle on Thursday morning.",
+  "sample_rate": 16000,
+  "duration_ms": 5378,
+  "reference_speaker": "jp/speaker_031_8da19046583d.mp3",
+  "seed": 5700,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1566,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "内閣",
+      "start_sample": 1566,
+      "end_sample": 13978,
+      "start_ms": 98,
+      "end_ms": 874
+    },
+    {
+      "lang": "en",
+      "text": "announced a sweeping reshuffle on Thursday morning.",
+      "start_sample": 13978,
+      "end_sample": 86042,
+      "start_ms": 874,
+      "end_ms": 5378
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The naikaku announced a sweeping reshuffle on Thursday morning.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5962,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1766,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "内閣",
+          "start_sample": 1766,
+          "end_sample": 23125,
+          "start_ms": 110,
+          "end_ms": 1445
+        },
+        {
+          "lang": "en",
+          "text": "announced a sweeping reshuffle on Thursday morning.",
+          "start_sample": 23125,
+          "end_sample": 95389,
+          "start_ms": 1445,
+          "end_ms": 5962
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 内閣 announced a sweeping reshuffle on Thursday morning.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5565,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2081,
+          "start_ms": 0,
+          "end_ms": 130
+        },
+        {
+          "lang": "ja",
+          "text": "内閣",
+          "start_sample": 2081,
+          "end_sample": 14893,
+          "start_ms": 130,
+          "end_ms": 931
+        },
+        {
+          "lang": "en",
+          "text": "announced a sweeping reshuffle on Thursday morning.",
+          "start_sample": 14893,
+          "end_sample": 89040,
+          "start_ms": 931,
+          "end_ms": 5565
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 269,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

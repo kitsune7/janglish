@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_045_730ff605e95b/cs7496.flac",
+  "sentence": "stockの価格が今週に入って急落した。",
+  "sample_rate": 16000,
+  "duration_ms": 3193,
+  "reference_speaker": "en/speaker_045_730ff605e95b.mp3",
+  "seed": 7538,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "stock",
+      "start_sample": 0,
+      "end_sample": 6849,
+      "start_ms": 0,
+      "end_ms": 428
+    },
+    {
+      "lang": "ja",
+      "text": "の価格が今週に入って急落した。",
+      "start_sample": 6849,
+      "end_sample": 51085,
+      "start_ms": 428,
+      "end_ms": 3193
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "stock no kakaku ga konshuu ni itsutsu te kyuuraku shi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6529,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "stock",
+          "start_sample": 0,
+          "end_sample": 7049,
+          "start_ms": 0,
+          "end_ms": 441
+        },
+        {
+          "lang": "ja",
+          "text": "の価格が今週に入って急落した。",
+          "start_sample": 7049,
+          "end_sample": 104460,
+          "start_ms": 441,
+          "end_ms": 6529
+        }
+      ]
+    },
+    "ja": {
+      "text": "stockの価格が今週に入って急落した。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3268,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "stock",
+          "start_sample": 0,
+          "end_sample": 7858,
+          "start_ms": 0,
+          "end_ms": 491
+        },
+        {
+          "lang": "ja",
+          "text": "の価格が今週に入って急落した。",
+          "start_sample": 7858,
+          "end_sample": 52294,
+          "start_ms": 491,
+          "end_ms": 3268
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

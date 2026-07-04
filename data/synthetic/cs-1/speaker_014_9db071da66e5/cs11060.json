@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_014_9db071da66e5/cs11060.flac",
+  "sentence": "Please bring a 手拭い to the outdoor summer concert in case it gets sweaty.",
+  "sample_rate": 16000,
+  "duration_ms": 3740,
+  "reference_speaker": "en/speaker_014_9db071da66e5.mp3",
+  "seed": 11102,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Please bring a",
+      "start_sample": 0,
+      "end_sample": 10710,
+      "start_ms": 0,
+      "end_ms": 669
+    },
+    {
+      "lang": "ja",
+      "text": "手拭い",
+      "start_sample": 10710,
+      "end_sample": 20252,
+      "start_ms": 669,
+      "end_ms": 1266
+    },
+    {
+      "lang": "en",
+      "text": "to the outdoor summer concert in case it gets sweaty.",
+      "start_sample": 20252,
+      "end_sample": 59840,
+      "start_ms": 1266,
+      "end_ms": 3740
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Please bring a tenugui to the outdoor summer concert in case it gets sweaty.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3770,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Please bring a",
+          "start_sample": 0,
+          "end_sample": 10910,
+          "start_ms": 0,
+          "end_ms": 682
+        },
+        {
+          "lang": "ja",
+          "text": "手拭い",
+          "start_sample": 10910,
+          "end_sample": 20536,
+          "start_ms": 682,
+          "end_ms": 1284
+        },
+        {
+          "lang": "en",
+          "text": "to the outdoor summer concert in case it gets sweaty.",
+          "start_sample": 20536,
+          "end_sample": 60324,
+          "start_ms": 1284,
+          "end_ms": 3770
+        }
+      ]
+    },
+    "ja": {
+      "text": "Please bring a 手拭い to the outdoor summer concert in case it gets sweaty.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5773,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Please bring a",
+          "start_sample": 0,
+          "end_sample": 12187,
+          "start_ms": 0,
+          "end_ms": 762
+        },
+        {
+          "lang": "ja",
+          "text": "手拭い",
+          "start_sample": 12187,
+          "end_sample": 22129,
+          "start_ms": 762,
+          "end_ms": 1383
+        },
+        {
+          "lang": "en",
+          "text": "to the outdoor summer concert in case it gets sweaty.",
+          "start_sample": 22129,
+          "end_sample": 92364,
+          "start_ms": 1383,
+          "end_ms": 5773
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 187,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

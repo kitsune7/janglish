@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_088_9950f069efac/cs9645.flac",
+  "sentence": "I missed three 着信 while I was in the shower.",
+  "sample_rate": 16000,
+  "duration_ms": 3049,
+  "reference_speaker": "en/speaker_088_9950f069efac.mp3",
+  "seed": 9687,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I missed three",
+      "start_sample": 0,
+      "end_sample": 12318,
+      "start_ms": 0,
+      "end_ms": 770
+    },
+    {
+      "lang": "ja",
+      "text": "着信",
+      "start_sample": 12318,
+      "end_sample": 21536,
+      "start_ms": 770,
+      "end_ms": 1346
+    },
+    {
+      "lang": "en",
+      "text": "while I was in the shower.",
+      "start_sample": 21536,
+      "end_sample": 48783,
+      "start_ms": 1346,
+      "end_ms": 3049
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I missed three chakushin while I was in the shower.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3611,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I missed three",
+          "start_sample": 0,
+          "end_sample": 12518,
+          "start_ms": 0,
+          "end_ms": 782
+        },
+        {
+          "lang": "ja",
+          "text": "着信",
+          "start_sample": 12518,
+          "end_sample": 30336,
+          "start_ms": 782,
+          "end_ms": 1896
+        },
+        {
+          "lang": "en",
+          "text": "while I was in the shower.",
+          "start_sample": 30336,
+          "end_sample": 57783,
+          "start_ms": 1896,
+          "end_ms": 3611
+        }
+      ]
+    },
+    "ja": {
+      "text": "I missed three 着信 while I was in the shower.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4348,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I missed three",
+          "start_sample": 0,
+          "end_sample": 13303,
+          "start_ms": 0,
+          "end_ms": 831
+        },
+        {
+          "lang": "ja",
+          "text": "着信",
+          "start_sample": 13303,
+          "end_sample": 22921,
+          "start_ms": 831,
+          "end_ms": 1433
+        },
+        {
+          "lang": "en",
+          "text": "while I was in the shower.",
+          "start_sample": 22921,
+          "end_sample": 69563,
+          "start_ms": 1433,
+          "end_ms": 4348
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 153,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

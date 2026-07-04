@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_079_9589554d8179/cs9275.flac",
+  "sentence": "I always end up spending more than my 予算 when I go to the mall.",
+  "sample_rate": 16000,
+  "duration_ms": 4073,
+  "reference_speaker": "en/speaker_079_9589554d8179.mp3",
+  "seed": 9317,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always end up spending more than my",
+      "start_sample": 0,
+      "end_sample": 33668,
+      "start_ms": 0,
+      "end_ms": 2104
+    },
+    {
+      "lang": "ja",
+      "text": "予算",
+      "start_sample": 33668,
+      "end_sample": 48192,
+      "start_ms": 2104,
+      "end_ms": 3012
+    },
+    {
+      "lang": "en",
+      "text": "when I go to the mall.",
+      "start_sample": 48192,
+      "end_sample": 65166,
+      "start_ms": 3012,
+      "end_ms": 4073
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always end up spending more than my yosan when I go to the mall.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3652,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always end up spending more than my",
+          "start_sample": 0,
+          "end_sample": 33868,
+          "start_ms": 0,
+          "end_ms": 2117
+        },
+        {
+          "lang": "ja",
+          "text": "予算",
+          "start_sample": 33868,
+          "end_sample": 41252,
+          "start_ms": 2117,
+          "end_ms": 2578
+        },
+        {
+          "lang": "en",
+          "text": "when I go to the mall.",
+          "start_sample": 41252,
+          "end_sample": 58426,
+          "start_ms": 2578,
+          "end_ms": 3652
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always end up spending more than my 予算 when I go to the mall.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6178,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always end up spending more than my",
+          "start_sample": 0,
+          "end_sample": 58734,
+          "start_ms": 0,
+          "end_ms": 3671
+        },
+        {
+          "lang": "ja",
+          "text": "予算",
+          "start_sample": 58734,
+          "end_sample": 73658,
+          "start_ms": 3671,
+          "end_ms": 4604
+        },
+        {
+          "lang": "en",
+          "text": "when I go to the mall.",
+          "start_sample": 73658,
+          "end_sample": 98851,
+          "start_ms": 4604,
+          "end_ms": 6178
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

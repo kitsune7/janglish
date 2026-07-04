@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_008_925570fa5738/cs131.flac",
+  "sentence": "She wrote a 長編 novel in under a year, which is kind of remarkable.",
+  "sample_rate": 16000,
+  "duration_ms": 4431,
+  "reference_speaker": "jp/speaker_008_925570fa5738.mp3",
+  "seed": 173,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She wrote a",
+      "start_sample": 0,
+      "end_sample": 9743,
+      "start_ms": 0,
+      "end_ms": 609
+    },
+    {
+      "lang": "ja",
+      "text": "長編",
+      "start_sample": 9743,
+      "end_sample": 18488,
+      "start_ms": 609,
+      "end_ms": 1156
+    },
+    {
+      "lang": "en",
+      "text": "novel in under a year, which is kind of remarkable.",
+      "start_sample": 18488,
+      "end_sample": 70889,
+      "start_ms": 1156,
+      "end_ms": 4431
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She wrote a chouhen novel in under a year, which is kind of remarkable.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4350,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She wrote a",
+          "start_sample": 0,
+          "end_sample": 9943,
+          "start_ms": 0,
+          "end_ms": 621
+        },
+        {
+          "lang": "ja",
+          "text": "長編",
+          "start_sample": 9943,
+          "end_sample": 16999,
+          "start_ms": 621,
+          "end_ms": 1062
+        },
+        {
+          "lang": "en",
+          "text": "novel in under a year, which is kind of remarkable.",
+          "start_sample": 16999,
+          "end_sample": 69600,
+          "start_ms": 1062,
+          "end_ms": 4350
+        }
+      ]
+    },
+    "ja": {
+      "text": "She wrote a 長編 novel in under a year, which is kind of remarkable.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4833,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She wrote a",
+          "start_sample": 0,
+          "end_sample": 11710,
+          "start_ms": 0,
+          "end_ms": 732
+        },
+        {
+          "lang": "ja",
+          "text": "長編",
+          "start_sample": 11710,
+          "end_sample": 20855,
+          "start_ms": 732,
+          "end_ms": 1303
+        },
+        {
+          "lang": "en",
+          "text": "novel in under a year, which is kind of remarkable.",
+          "start_sample": 20855,
+          "end_sample": 77322,
+          "start_ms": 1303,
+          "end_ms": 4833
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 222,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

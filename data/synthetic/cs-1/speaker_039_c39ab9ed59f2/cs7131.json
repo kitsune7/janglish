@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_039_c39ab9ed59f2/cs7131.flac",
+  "sentence": "He left his 上着 at school again and it's the third time this month.",
+  "sample_rate": 16000,
+  "duration_ms": 3746,
+  "reference_speaker": "jp/speaker_039_c39ab9ed59f2.mp3",
+  "seed": 7173,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He left his",
+      "start_sample": 0,
+      "end_sample": 6873,
+      "start_ms": 0,
+      "end_ms": 430
+    },
+    {
+      "lang": "ja",
+      "text": "上着",
+      "start_sample": 6873,
+      "end_sample": 21711,
+      "start_ms": 430,
+      "end_ms": 1357
+    },
+    {
+      "lang": "en",
+      "text": "at school again and it's the third time this month.",
+      "start_sample": 21711,
+      "end_sample": 59933,
+      "start_ms": 1357,
+      "end_ms": 3746
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He left his uwagi at school again and it's the third time this month.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3195,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He left his",
+          "start_sample": 0,
+          "end_sample": 7073,
+          "start_ms": 0,
+          "end_ms": 442
+        },
+        {
+          "lang": "ja",
+          "text": "上着",
+          "start_sample": 7073,
+          "end_sample": 12701,
+          "start_ms": 442,
+          "end_ms": 794
+        },
+        {
+          "lang": "en",
+          "text": "at school again and it's the third time this month.",
+          "start_sample": 12701,
+          "end_sample": 51123,
+          "start_ms": 794,
+          "end_ms": 3195
+        }
+      ]
+    },
+    "ja": {
+      "text": "He left his 上着 at school again and it's the third time this month.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5253,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He left his",
+          "start_sample": 0,
+          "end_sample": 11548,
+          "start_ms": 0,
+          "end_ms": 722
+        },
+        {
+          "lang": "ja",
+          "text": "上着",
+          "start_sample": 11548,
+          "end_sample": 26786,
+          "start_ms": 722,
+          "end_ms": 1674
+        },
+        {
+          "lang": "en",
+          "text": "at school again and it's the third time this month.",
+          "start_sample": 26786,
+          "end_sample": 84047,
+          "start_ms": 1674,
+          "end_ms": 5253
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

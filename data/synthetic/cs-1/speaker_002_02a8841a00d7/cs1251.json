@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_002_02a8841a00d7/cs1251.flac",
+  "sentence": "彼女はlogicalな文章の組み立て方を授業で学んだ。",
+  "sample_rate": 16000,
+  "duration_ms": 3581,
+  "reference_speaker": "jp/speaker_002_02a8841a00d7.mp3",
+  "seed": 1293,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は",
+      "start_sample": 0,
+      "end_sample": 8467,
+      "start_ms": 0,
+      "end_ms": 529
+    },
+    {
+      "lang": "en",
+      "text": "logical",
+      "start_sample": 8467,
+      "end_sample": 16891,
+      "start_ms": 529,
+      "end_ms": 1056
+    },
+    {
+      "lang": "ja",
+      "text": "な文章の組み立て方を授業で学んだ。",
+      "start_sample": 16891,
+      "end_sample": 57299,
+      "start_ms": 1056,
+      "end_ms": 3581
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha logical na bunshou no kumitate hou wo jugyou de manan da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6096,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 11711,
+          "start_ms": 0,
+          "end_ms": 732
+        },
+        {
+          "lang": "en",
+          "text": "logical",
+          "start_sample": 11711,
+          "end_sample": 20535,
+          "start_ms": 732,
+          "end_ms": 1283
+        },
+        {
+          "lang": "ja",
+          "text": "な文章の組み立て方を授業で学んだ。",
+          "start_sample": 20535,
+          "end_sample": 97543,
+          "start_ms": 1283,
+          "end_ms": 6096
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はlogicalな文章の組み立て方を授業で学んだ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3571,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 8667,
+          "start_ms": 0,
+          "end_ms": 542
+        },
+        {
+          "lang": "en",
+          "text": "logical",
+          "start_sample": 8667,
+          "end_sample": 16533,
+          "start_ms": 542,
+          "end_ms": 1033
+        },
+        {
+          "lang": "ja",
+          "text": "な文章の組み立て方を授業で学んだ。",
+          "start_sample": 16533,
+          "end_sample": 57141,
+          "start_ms": 1033,
+          "end_ms": 3571
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 180,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

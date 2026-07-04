@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_083_f660ed2250be/cs5547.flac",
+  "sentence": "He was honestly kind of 感心 by how fast she cleaned the whole apartment.",
+  "sample_rate": 16000,
+  "duration_ms": 4061,
+  "reference_speaker": "jp/speaker_083_f660ed2250be.mp3",
+  "seed": 5589,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He was honestly kind of",
+      "start_sample": 0,
+      "end_sample": 20177,
+      "start_ms": 0,
+      "end_ms": 1261
+    },
+    {
+      "lang": "ja",
+      "text": "感心",
+      "start_sample": 20177,
+      "end_sample": 28754,
+      "start_ms": 1261,
+      "end_ms": 1797
+    },
+    {
+      "lang": "en",
+      "text": "by how fast she cleaned the whole apartment.",
+      "start_sample": 28754,
+      "end_sample": 64975,
+      "start_ms": 1797,
+      "end_ms": 4061
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He was honestly kind of kanshin by how fast she cleaned the whole apartment.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4232,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He was honestly kind of",
+          "start_sample": 0,
+          "end_sample": 20377,
+          "start_ms": 0,
+          "end_ms": 1274
+        },
+        {
+          "lang": "ja",
+          "text": "感心",
+          "start_sample": 20377,
+          "end_sample": 31289,
+          "start_ms": 1274,
+          "end_ms": 1956
+        },
+        {
+          "lang": "en",
+          "text": "by how fast she cleaned the whole apartment.",
+          "start_sample": 31289,
+          "end_sample": 67710,
+          "start_ms": 1956,
+          "end_ms": 4232
+        }
+      ]
+    },
+    "ja": {
+      "text": "He was honestly kind of 感心 by how fast she cleaned the whole apartment.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5510,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He was honestly kind of",
+          "start_sample": 0,
+          "end_sample": 23404,
+          "start_ms": 0,
+          "end_ms": 1463
+        },
+        {
+          "lang": "ja",
+          "text": "感心",
+          "start_sample": 23404,
+          "end_sample": 32381,
+          "start_ms": 1463,
+          "end_ms": 2024
+        },
+        {
+          "lang": "en",
+          "text": "by how fast she cleaned the whole apartment.",
+          "start_sample": 32381,
+          "end_sample": 88166,
+          "start_ms": 2024,
+          "end_ms": 5510
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

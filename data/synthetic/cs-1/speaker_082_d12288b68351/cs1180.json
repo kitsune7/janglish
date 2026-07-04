@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_082_d12288b68351/cs1180.flac",
+  "sentence": "あのcommuterたちは毎日二時間も電車に乗っている。",
+  "sample_rate": 16000,
+  "duration_ms": 5197,
+  "reference_speaker": "jp/speaker_082_d12288b68351.mp3",
+  "seed": 1222,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの",
+      "start_sample": 0,
+      "end_sample": 8290,
+      "start_ms": 0,
+      "end_ms": 518
+    },
+    {
+      "lang": "en",
+      "text": "commuter",
+      "start_sample": 8290,
+      "end_sample": 26790,
+      "start_ms": 518,
+      "end_ms": 1674
+    },
+    {
+      "lang": "ja",
+      "text": "たちは毎日二時間も電車に乗っている。",
+      "start_sample": 26790,
+      "end_sample": 83146,
+      "start_ms": 1674,
+      "end_ms": 5197
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano commuter tachi ha mainichi ni jikan mo densha ni joutsu te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8429,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 4004,
+          "start_ms": 0,
+          "end_ms": 250
+        },
+        {
+          "lang": "en",
+          "text": "commuter",
+          "start_sample": 4004,
+          "end_sample": 22904,
+          "start_ms": 250,
+          "end_ms": 1432
+        },
+        {
+          "lang": "ja",
+          "text": "たちは毎日二時間も電車に乗っている。",
+          "start_sample": 22904,
+          "end_sample": 134864,
+          "start_ms": 1432,
+          "end_ms": 8429
+        }
+      ]
+    },
+    "ja": {
+      "text": "あのcommuterたちは毎日二時間も電車に乗っている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4686,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 8490,
+          "start_ms": 0,
+          "end_ms": 531
+        },
+        {
+          "lang": "en",
+          "text": "commuter",
+          "start_sample": 8490,
+          "end_sample": 18423,
+          "start_ms": 531,
+          "end_ms": 1151
+        },
+        {
+          "lang": "ja",
+          "text": "たちは毎日二時間も電車に乗っている。",
+          "start_sample": 18423,
+          "end_sample": 74979,
+          "start_ms": 1151,
+          "end_ms": 4686
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 260,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_054_a553b6ec02eb/cs3712.flac",
+  "sentence": "That 封筒 is too small for all five documents to fit inside.",
+  "sample_rate": 16000,
+  "duration_ms": 3692,
+  "reference_speaker": "jp/speaker_054_a553b6ec02eb.mp3",
+  "seed": 3754,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That",
+      "start_sample": 0,
+      "end_sample": 2849,
+      "start_ms": 0,
+      "end_ms": 178
+    },
+    {
+      "lang": "ja",
+      "text": "封筒",
+      "start_sample": 2849,
+      "end_sample": 12086,
+      "start_ms": 178,
+      "end_ms": 755
+    },
+    {
+      "lang": "en",
+      "text": "is too small for all five documents to fit inside.",
+      "start_sample": 12086,
+      "end_sample": 59075,
+      "start_ms": 755,
+      "end_ms": 3692
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That fuutou is too small for all five documents to fit inside.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3611,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That",
+          "start_sample": 0,
+          "end_sample": 3049,
+          "start_ms": 0,
+          "end_ms": 191
+        },
+        {
+          "lang": "ja",
+          "text": "封筒",
+          "start_sample": 3049,
+          "end_sample": 10594,
+          "start_ms": 191,
+          "end_ms": 662
+        },
+        {
+          "lang": "en",
+          "text": "is too small for all five documents to fit inside.",
+          "start_sample": 10594,
+          "end_sample": 57783,
+          "start_ms": 662,
+          "end_ms": 3611
+        }
+      ]
+    },
+    "ja": {
+      "text": "That 封筒 is too small for all five documents to fit inside.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5662,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That",
+          "start_sample": 0,
+          "end_sample": 4176,
+          "start_ms": 0,
+          "end_ms": 261
+        },
+        {
+          "lang": "ja",
+          "text": "封筒",
+          "start_sample": 4176,
+          "end_sample": 13813,
+          "start_ms": 261,
+          "end_ms": 863
+        },
+        {
+          "lang": "en",
+          "text": "is too small for all five documents to fit inside.",
+          "start_sample": 13813,
+          "end_sample": 90590,
+          "start_ms": 863,
+          "end_ms": 5662
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 185,
+  "frame_labels": "eeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

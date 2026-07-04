@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_063_0760e257c60c/cs2423.flac",
+  "sentence": "The days get so 短い in December that it's already dark by five o'clock.",
+  "sample_rate": 16000,
+  "duration_ms": 4350,
+  "reference_speaker": "jp/speaker_063_0760e257c60c.mp3",
+  "seed": 2465,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The days get so",
+      "start_sample": 0,
+      "end_sample": 11184,
+      "start_ms": 0,
+      "end_ms": 699
+    },
+    {
+      "lang": "ja",
+      "text": "短い",
+      "start_sample": 11184,
+      "end_sample": 18644,
+      "start_ms": 699,
+      "end_ms": 1165
+    },
+    {
+      "lang": "en",
+      "text": "in December that it's already dark by five o'clock.",
+      "start_sample": 18644,
+      "end_sample": 69594,
+      "start_ms": 1165,
+      "end_ms": 4350
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The days get so mijikai in December that it's already dark by five o'clock.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4590,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The days get so",
+          "start_sample": 0,
+          "end_sample": 11384,
+          "start_ms": 0,
+          "end_ms": 712
+        },
+        {
+          "lang": "ja",
+          "text": "短い",
+          "start_sample": 11384,
+          "end_sample": 22288,
+          "start_ms": 712,
+          "end_ms": 1393
+        },
+        {
+          "lang": "en",
+          "text": "in December that it's already dark by five o'clock.",
+          "start_sample": 22288,
+          "end_sample": 73438,
+          "start_ms": 1393,
+          "end_ms": 4590
+        }
+      ]
+    },
+    "ja": {
+      "text": "The days get so 短い in December that it's already dark by five o'clock.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4130,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The days get so",
+          "start_sample": 0,
+          "end_sample": 15880,
+          "start_ms": 0,
+          "end_ms": 992
+        },
+        {
+          "lang": "ja",
+          "text": "短い",
+          "start_sample": 15880,
+          "end_sample": 23740,
+          "start_ms": 992,
+          "end_ms": 1484
+        },
+        {
+          "lang": "en",
+          "text": "in December that it's already dark by five o'clock.",
+          "start_sample": 23740,
+          "end_sample": 66086,
+          "start_ms": 1484,
+          "end_ms": 4130
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

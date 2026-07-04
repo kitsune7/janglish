@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_009_33102318f73b/cs8886.flac",
+  "sentence": "地震の後、casualtyの数が増えているらしい。",
+  "sample_rate": 16000,
+  "duration_ms": 3724,
+  "reference_speaker": "jp/speaker_009_33102318f73b.mp3",
+  "seed": 8928,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "地震の後、",
+      "start_sample": 0,
+      "end_sample": 20367,
+      "start_ms": 0,
+      "end_ms": 1273
+    },
+    {
+      "lang": "en",
+      "text": "casualty",
+      "start_sample": 20367,
+      "end_sample": 34405,
+      "start_ms": 1273,
+      "end_ms": 2150
+    },
+    {
+      "lang": "ja",
+      "text": "の数が増えているらしい。",
+      "start_sample": 34405,
+      "end_sample": 59590,
+      "start_ms": 2150,
+      "end_ms": 3724
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "jishin no nochi casualty no kazu ga fue te iru rashii",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4813,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "地震の後、",
+          "start_sample": 0,
+          "end_sample": 23101,
+          "start_ms": 0,
+          "end_ms": 1444
+        },
+        {
+          "lang": "en",
+          "text": "casualty",
+          "start_sample": 23101,
+          "end_sample": 37539,
+          "start_ms": 1444,
+          "end_ms": 2346
+        },
+        {
+          "lang": "ja",
+          "text": "の数が増えているらしい。",
+          "start_sample": 37539,
+          "end_sample": 77001,
+          "start_ms": 2346,
+          "end_ms": 4813
+        }
+      ]
+    },
+    "ja": {
+      "text": "地震の後、casualtyの数が増えているらしい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3294,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "地震の後、",
+          "start_sample": 0,
+          "end_sample": 20567,
+          "start_ms": 0,
+          "end_ms": 1285
+        },
+        {
+          "lang": "en",
+          "text": "casualty",
+          "start_sample": 20567,
+          "end_sample": 27316,
+          "start_ms": 1285,
+          "end_ms": 1707
+        },
+        {
+          "lang": "ja",
+          "text": "の数が増えているらしい。",
+          "start_sample": 27316,
+          "end_sample": 52701,
+          "start_ms": 1707,
+          "end_ms": 3294
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 187,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

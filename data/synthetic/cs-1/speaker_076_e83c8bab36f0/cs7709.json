@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_076_e83c8bab36f0/cs7709.flac",
+  "sentence": "寝室のclosetがいっぱいになってしまいました。",
+  "sample_rate": 16000,
+  "duration_ms": 2610,
+  "reference_speaker": "jp/speaker_076_e83c8bab36f0.mp3",
+  "seed": 7751,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "寝室の",
+      "start_sample": 0,
+      "end_sample": 9125,
+      "start_ms": 0,
+      "end_ms": 570
+    },
+    {
+      "lang": "en",
+      "text": "closet",
+      "start_sample": 9125,
+      "end_sample": 18499,
+      "start_ms": 570,
+      "end_ms": 1156
+    },
+    {
+      "lang": "ja",
+      "text": "がいっぱいになってしまいました。",
+      "start_sample": 18499,
+      "end_sample": 41768,
+      "start_ms": 1156,
+      "end_ms": 2610
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shinshitsu no closet ga ippai ni natsu te shimai mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6609,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "寝室の",
+          "start_sample": 0,
+          "end_sample": 31081,
+          "start_ms": 0,
+          "end_ms": 1943
+        },
+        {
+          "lang": "en",
+          "text": "closet",
+          "start_sample": 31081,
+          "end_sample": 40855,
+          "start_ms": 1943,
+          "end_ms": 2553
+        },
+        {
+          "lang": "ja",
+          "text": "がいっぱいになってしまいました。",
+          "start_sample": 40855,
+          "end_sample": 105742,
+          "start_ms": 2553,
+          "end_ms": 6609
+        }
+      ]
+    },
+    "ja": {
+      "text": "寝室のclosetがいっぱいになってしまいました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2512,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "寝室の",
+          "start_sample": 0,
+          "end_sample": 9325,
+          "start_ms": 0,
+          "end_ms": 583
+        },
+        {
+          "lang": "en",
+          "text": "closet",
+          "start_sample": 9325,
+          "end_sample": 16721,
+          "start_ms": 583,
+          "end_ms": 1045
+        },
+        {
+          "lang": "ja",
+          "text": "がいっぱいになってしまいました。",
+          "start_sample": 16721,
+          "end_sample": 40190,
+          "start_ms": 1045,
+          "end_ms": 2512
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 131,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

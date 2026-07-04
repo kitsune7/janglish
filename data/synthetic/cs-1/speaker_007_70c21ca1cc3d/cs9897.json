@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_007_70c21ca1cc3d/cs9897.flac",
+  "sentence": "receiptsを全部財布に入れておいてください。",
+  "sample_rate": 16000,
+  "duration_ms": 3185,
+  "reference_speaker": "en/speaker_007_70c21ca1cc3d.mp3",
+  "seed": 9939,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "receipts",
+      "start_sample": 0,
+      "end_sample": 16790,
+      "start_ms": 0,
+      "end_ms": 1049
+    },
+    {
+      "lang": "ja",
+      "text": "を全部財布に入れておいてください。",
+      "start_sample": 16790,
+      "end_sample": 50958,
+      "start_ms": 1049,
+      "end_ms": 3185
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "receipts wo zenbu saifu ni ire te oi te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6412,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "receipts",
+          "start_sample": 0,
+          "end_sample": 16990,
+          "start_ms": 0,
+          "end_ms": 1062
+        },
+        {
+          "lang": "ja",
+          "text": "を全部財布に入れておいてください。",
+          "start_sample": 16990,
+          "end_sample": 102584,
+          "start_ms": 1062,
+          "end_ms": 6412
+        }
+      ]
+    },
+    "ja": {
+      "text": "receiptsを全部財布に入れておいてください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2622,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "receipts",
+          "start_sample": 0,
+          "end_sample": 7585,
+          "start_ms": 0,
+          "end_ms": 474
+        },
+        {
+          "lang": "ja",
+          "text": "を全部財布に入れておいてください。",
+          "start_sample": 7585,
+          "end_sample": 41953,
+          "start_ms": 474,
+          "end_ms": 2622
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

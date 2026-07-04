@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_030_bdb9e7b61df6/cs2454.flac",
+  "sentence": "図書館でquietに勉強するのが一番好きです。",
+  "sample_rate": 16000,
+  "duration_ms": 3368,
+  "reference_speaker": "en/speaker_030_bdb9e7b61df6.mp3",
+  "seed": 2496,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "図書館で",
+      "start_sample": 0,
+      "end_sample": 9615,
+      "start_ms": 0,
+      "end_ms": 601
+    },
+    {
+      "lang": "en",
+      "text": "quiet",
+      "start_sample": 9615,
+      "end_sample": 16441,
+      "start_ms": 601,
+      "end_ms": 1028
+    },
+    {
+      "lang": "ja",
+      "text": "に勉強するのが一番好きです。",
+      "start_sample": 16441,
+      "end_sample": 53890,
+      "start_ms": 1028,
+      "end_ms": 3368
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "tosho kan de quiet ni benkyou suru no ga ichiban suki desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4757,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "図書館で",
+          "start_sample": 0,
+          "end_sample": 10438,
+          "start_ms": 0,
+          "end_ms": 652
+        },
+        {
+          "lang": "en",
+          "text": "quiet",
+          "start_sample": 10438,
+          "end_sample": 17664,
+          "start_ms": 652,
+          "end_ms": 1104
+        },
+        {
+          "lang": "ja",
+          "text": "に勉強するのが一番好きです。",
+          "start_sample": 17664,
+          "end_sample": 76115,
+          "start_ms": 1104,
+          "end_ms": 4757
+        }
+      ]
+    },
+    "ja": {
+      "text": "図書館でquietに勉強するのが一番好きです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3500,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "図書館で",
+          "start_sample": 0,
+          "end_sample": 9815,
+          "start_ms": 0,
+          "end_ms": 613
+        },
+        {
+          "lang": "en",
+          "text": "quiet",
+          "start_sample": 9815,
+          "end_sample": 18343,
+          "start_ms": 613,
+          "end_ms": 1146
+        },
+        {
+          "lang": "ja",
+          "text": "に勉強するのが一番好きです。",
+          "start_sample": 18343,
+          "end_sample": 55992,
+          "start_ms": 1146,
+          "end_ms": 3500
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 169,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

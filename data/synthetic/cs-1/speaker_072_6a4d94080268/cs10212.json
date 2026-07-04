@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_072_6a4d94080268/cs10212.flac",
+  "sentence": "The dashboard warning light turned 赤 right before the car stalled.",
+  "sample_rate": 16000,
+  "duration_ms": 4253,
+  "reference_speaker": "jp/speaker_072_6a4d94080268.mp3",
+  "seed": 10254,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The dashboard warning light turned",
+      "start_sample": 0,
+      "end_sample": 35106,
+      "start_ms": 0,
+      "end_ms": 2194
+    },
+    {
+      "lang": "ja",
+      "text": "赤",
+      "start_sample": 35106,
+      "end_sample": 40004,
+      "start_ms": 2194,
+      "end_ms": 2500
+    },
+    {
+      "lang": "en",
+      "text": "right before the car stalled.",
+      "start_sample": 40004,
+      "end_sample": 68047,
+      "start_ms": 2500,
+      "end_ms": 4253
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The dashboard warning light turned aka right before the car stalled.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4774,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The dashboard warning light turned",
+          "start_sample": 0,
+          "end_sample": 35306,
+          "start_ms": 0,
+          "end_ms": 2207
+        },
+        {
+          "lang": "ja",
+          "text": "赤",
+          "start_sample": 35306,
+          "end_sample": 48144,
+          "start_ms": 2207,
+          "end_ms": 3009
+        },
+        {
+          "lang": "en",
+          "text": "right before the car stalled.",
+          "start_sample": 48144,
+          "end_sample": 76387,
+          "start_ms": 3009,
+          "end_ms": 4774
+        }
+      ]
+    },
+    "ja": {
+      "text": "The dashboard warning light turned 赤 right before the car stalled.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3712,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The dashboard warning light turned",
+          "start_sample": 0,
+          "end_sample": 31788,
+          "start_ms": 0,
+          "end_ms": 1987
+        },
+        {
+          "lang": "ja",
+          "text": "赤",
+          "start_sample": 31788,
+          "end_sample": 37086,
+          "start_ms": 1987,
+          "end_ms": 2318
+        },
+        {
+          "lang": "en",
+          "text": "right before the car stalled.",
+          "start_sample": 37086,
+          "end_sample": 59399,
+          "start_ms": 2318,
+          "end_ms": 3712
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 213,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_080_c886ae0e1a09/cs11134.flac",
+  "sentence": "気温がdramaticallyに下がったから、厚いコートが必要だ。",
+  "sample_rate": 16000,
+  "duration_ms": 3308,
+  "reference_speaker": "jp/speaker_080_c886ae0e1a09.mp3",
+  "seed": 11176,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "気温が",
+      "start_sample": 0,
+      "end_sample": 5761,
+      "start_ms": 0,
+      "end_ms": 360
+    },
+    {
+      "lang": "en",
+      "text": "dramatically",
+      "start_sample": 5761,
+      "end_sample": 21077,
+      "start_ms": 360,
+      "end_ms": 1317
+    },
+    {
+      "lang": "ja",
+      "text": "に下がったから、厚いコートが必要だ。",
+      "start_sample": 21077,
+      "end_sample": 52935,
+      "start_ms": 1317,
+      "end_ms": 3308
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kion ga dramatically ni sagatsu ta kara atsui kooto ga hitsuyou da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6094,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "気温が",
+          "start_sample": 0,
+          "end_sample": 14914,
+          "start_ms": 0,
+          "end_ms": 932
+        },
+        {
+          "lang": "en",
+          "text": "dramatically",
+          "start_sample": 14914,
+          "end_sample": 30630,
+          "start_ms": 932,
+          "end_ms": 1914
+        },
+        {
+          "lang": "ja",
+          "text": "に下がったから、厚いコートが必要だ。",
+          "start_sample": 30630,
+          "end_sample": 97504,
+          "start_ms": 1914,
+          "end_ms": 6094
+        }
+      ]
+    },
+    "ja": {
+      "text": "気温がdramaticallyに下がったから、厚いコートが必要だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3081,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "気温が",
+          "start_sample": 0,
+          "end_sample": 5961,
+          "start_ms": 0,
+          "end_ms": 373
+        },
+        {
+          "lang": "en",
+          "text": "dramatically",
+          "start_sample": 5961,
+          "end_sample": 17240,
+          "start_ms": 373,
+          "end_ms": 1078
+        },
+        {
+          "lang": "ja",
+          "text": "に下がったから、厚いコートが必要だ。",
+          "start_sample": 17240,
+          "end_sample": 49298,
+          "start_ms": 1078,
+          "end_ms": 3081
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 166,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

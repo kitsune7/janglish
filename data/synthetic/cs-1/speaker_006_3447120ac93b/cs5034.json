@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_006_3447120ac93b/cs5034.flac",
+  "sentence": "droughtのせいで今年のトマトは小さくなってしまった。",
+  "sample_rate": 16000,
+  "duration_ms": 2293,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 5076,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "drought",
+      "start_sample": 0,
+      "end_sample": 3173,
+      "start_ms": 0,
+      "end_ms": 198
+    },
+    {
+      "lang": "ja",
+      "text": "のせいで今年のトマトは小さくなってしまった。",
+      "start_sample": 3173,
+      "end_sample": 36693,
+      "start_ms": 198,
+      "end_ms": 2293
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "drought no sei de konnen no tomato ha chiisaku natsu te shimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5823,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "drought",
+          "start_sample": 0,
+          "end_sample": 3373,
+          "start_ms": 0,
+          "end_ms": 211
+        },
+        {
+          "lang": "ja",
+          "text": "のせいで今年のトマトは小さくなってしまった。",
+          "start_sample": 3373,
+          "end_sample": 93169,
+          "start_ms": 211,
+          "end_ms": 5823
+        }
+      ]
+    },
+    "ja": {
+      "text": "droughtのせいで今年のトマトは小さくなってしまった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2409,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "drought",
+          "start_sample": 0,
+          "end_sample": 4817,
+          "start_ms": 0,
+          "end_ms": 301
+        },
+        {
+          "lang": "ja",
+          "text": "のせいで今年のトマトは小さくなってしまった。",
+          "start_sample": 4817,
+          "end_sample": 38537,
+          "start_ms": 301,
+          "end_ms": 2409
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 115,
+  "frame_labels": "eeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

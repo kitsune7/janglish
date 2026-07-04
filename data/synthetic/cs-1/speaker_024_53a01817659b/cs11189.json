@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_024_53a01817659b/cs11189.flac",
+  "sentence": "freshな野菜を求めて朝早く市場に行った。",
+  "sample_rate": 16000,
+  "duration_ms": 3172,
+  "reference_speaker": "jp/speaker_024_53a01817659b.mp3",
+  "seed": 11231,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "fresh",
+      "start_sample": 0,
+      "end_sample": 10214,
+      "start_ms": 0,
+      "end_ms": 638
+    },
+    {
+      "lang": "ja",
+      "text": "な野菜を求めて朝早く市場に行った。",
+      "start_sample": 10214,
+      "end_sample": 50760,
+      "start_ms": 638,
+      "end_ms": 3172
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "fresh na yasai wo motome te asa hayaku shijou ni itsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5428,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "fresh",
+          "start_sample": 0,
+          "end_sample": 10414,
+          "start_ms": 0,
+          "end_ms": 651
+        },
+        {
+          "lang": "ja",
+          "text": "な野菜を求めて朝早く市場に行った。",
+          "start_sample": 10414,
+          "end_sample": 86843,
+          "start_ms": 651,
+          "end_ms": 5428
+        }
+      ]
+    },
+    "ja": {
+      "text": "freshな野菜を求めて朝早く市場に行った。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2867,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "fresh",
+          "start_sample": 0,
+          "end_sample": 5133,
+          "start_ms": 0,
+          "end_ms": 321
+        },
+        {
+          "lang": "ja",
+          "text": "な野菜を求めて朝早く市場に行った。",
+          "start_sample": 5133,
+          "end_sample": 45879,
+          "start_ms": 321,
+          "end_ms": 2867
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_061_3e186ef591ed/cs8949.flac",
+  "sentence": "The 審査 process took almost two months to complete.",
+  "sample_rate": 16000,
+  "duration_ms": 3780,
+  "reference_speaker": "jp/speaker_061_3e186ef591ed.mp3",
+  "seed": 8991,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2044,
+      "start_ms": 0,
+      "end_ms": 128
+    },
+    {
+      "lang": "ja",
+      "text": "審査",
+      "start_sample": 2044,
+      "end_sample": 7593,
+      "start_ms": 128,
+      "end_ms": 475
+    },
+    {
+      "lang": "en",
+      "text": "process took almost two months to complete.",
+      "start_sample": 7593,
+      "end_sample": 60475,
+      "start_ms": 475,
+      "end_ms": 3780
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shinsa process took almost two months to complete.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3929,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2244,
+          "start_ms": 0,
+          "end_ms": 140
+        },
+        {
+          "lang": "ja",
+          "text": "審査",
+          "start_sample": 2244,
+          "end_sample": 9782,
+          "start_ms": 140,
+          "end_ms": 611
+        },
+        {
+          "lang": "en",
+          "text": "process took almost two months to complete.",
+          "start_sample": 9782,
+          "end_sample": 62864,
+          "start_ms": 611,
+          "end_ms": 3929
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 審査 process took almost two months to complete.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3115,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2893,
+          "start_ms": 0,
+          "end_ms": 181
+        },
+        {
+          "lang": "ja",
+          "text": "審査",
+          "start_sample": 2893,
+          "end_sample": 8842,
+          "start_ms": 181,
+          "end_ms": 553
+        },
+        {
+          "lang": "en",
+          "text": "process took almost two months to complete.",
+          "start_sample": 8842,
+          "end_sample": 49837,
+          "start_ms": 553,
+          "end_ms": 3115
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 189,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

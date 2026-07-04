@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_005_a09e35e07333/cs6541.flac",
+  "sentence": "His 文体 is so dense that I have to reread each paragraph at least twice.",
+  "sample_rate": 16000,
+  "duration_ms": 6040,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 6583,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His",
+      "start_sample": 0,
+      "end_sample": 3170,
+      "start_ms": 0,
+      "end_ms": 198
+    },
+    {
+      "lang": "ja",
+      "text": "文体",
+      "start_sample": 3170,
+      "end_sample": 13043,
+      "start_ms": 198,
+      "end_ms": 815
+    },
+    {
+      "lang": "en",
+      "text": "is so dense that I have to reread each paragraph at least twice.",
+      "start_sample": 13043,
+      "end_sample": 96635,
+      "start_ms": 815,
+      "end_ms": 6040
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His buntai is so dense that I have to reread each paragraph at least twice.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6040,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His",
+          "start_sample": 0,
+          "end_sample": 3370,
+          "start_ms": 0,
+          "end_ms": 211
+        },
+        {
+          "lang": "ja",
+          "text": "文体",
+          "start_sample": 3370,
+          "end_sample": 12842,
+          "start_ms": 211,
+          "end_ms": 803
+        },
+        {
+          "lang": "en",
+          "text": "is so dense that I have to reread each paragraph at least twice.",
+          "start_sample": 12842,
+          "end_sample": 96634,
+          "start_ms": 803,
+          "end_ms": 6040
+        }
+      ]
+    },
+    "ja": {
+      "text": "His 文体 is so dense that I have to reread each paragraph at least twice.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7283,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His",
+          "start_sample": 0,
+          "end_sample": 3210,
+          "start_ms": 0,
+          "end_ms": 201
+        },
+        {
+          "lang": "ja",
+          "text": "文体",
+          "start_sample": 3210,
+          "end_sample": 13483,
+          "start_ms": 201,
+          "end_ms": 843
+        },
+        {
+          "lang": "en",
+          "text": "is so dense that I have to reread each paragraph at least twice.",
+          "start_sample": 13483,
+          "end_sample": 116533,
+          "start_ms": 843,
+          "end_ms": 7283
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 302,
+  "frame_labels": "eeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

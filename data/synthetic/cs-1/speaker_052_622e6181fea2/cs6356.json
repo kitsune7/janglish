@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_052_622e6181fea2/cs6356.flac",
+  "sentence": "初めてのデートにはcasual な服装で行くつもりだ。",
+  "sample_rate": 16000,
+  "duration_ms": 3999,
+  "reference_speaker": "en/speaker_052_622e6181fea2.mp3",
+  "seed": 6398,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "初めてのデートには",
+      "start_sample": 0,
+      "end_sample": 16012,
+      "start_ms": 0,
+      "end_ms": 1001
+    },
+    {
+      "lang": "en",
+      "text": "casual",
+      "start_sample": 16012,
+      "end_sample": 43963,
+      "start_ms": 1001,
+      "end_ms": 2748
+    },
+    {
+      "lang": "ja",
+      "text": "な服装で行くつもりだ。",
+      "start_sample": 43963,
+      "end_sample": 63986,
+      "start_ms": 2748,
+      "end_ms": 3999
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "hajimete no deeto ni ha casual na fukusou de iku tsumori da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7048,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "初めてのデートには",
+          "start_sample": 0,
+          "end_sample": 39883,
+          "start_ms": 0,
+          "end_ms": 2493
+        },
+        {
+          "lang": "en",
+          "text": "casual",
+          "start_sample": 39883,
+          "end_sample": 68234,
+          "start_ms": 2493,
+          "end_ms": 4265
+        },
+        {
+          "lang": "ja",
+          "text": "な服装で行くつもりだ。",
+          "start_sample": 68234,
+          "end_sample": 112762,
+          "start_ms": 4265,
+          "end_ms": 7048
+        }
+      ]
+    },
+    "ja": {
+      "text": "初めてのデートにはcasual な服装で行くつもりだ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2729,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "初めてのデートには",
+          "start_sample": 0,
+          "end_sample": 16212,
+          "start_ms": 0,
+          "end_ms": 1013
+        },
+        {
+          "lang": "en",
+          "text": "casual",
+          "start_sample": 16212,
+          "end_sample": 23435,
+          "start_ms": 1013,
+          "end_ms": 1465
+        },
+        {
+          "lang": "ja",
+          "text": "な服装で行くつもりだ。",
+          "start_sample": 23435,
+          "end_sample": 43658,
+          "start_ms": 1465,
+          "end_ms": 2729
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 200,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

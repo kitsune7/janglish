@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_091_bf2621e97933/cs2823.flac",
+  "sentence": "She knits with a 速い rhythm that is almost hypnotic to watch.",
+  "sample_rate": 16000,
+  "duration_ms": 4011,
+  "reference_speaker": "jp/speaker_091_bf2621e97933.mp3",
+  "seed": 2865,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She knits with a",
+      "start_sample": 0,
+      "end_sample": 12630,
+      "start_ms": 0,
+      "end_ms": 789
+    },
+    {
+      "lang": "ja",
+      "text": "速い",
+      "start_sample": 12630,
+      "end_sample": 18822,
+      "start_ms": 789,
+      "end_ms": 1176
+    },
+    {
+      "lang": "en",
+      "text": "rhythm that is almost hypnotic to watch.",
+      "start_sample": 18822,
+      "end_sample": 64177,
+      "start_ms": 1176,
+      "end_ms": 4011
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She knits with a hayai rhythm that is almost hypnotic to watch.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4070,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She knits with a",
+          "start_sample": 0,
+          "end_sample": 12830,
+          "start_ms": 0,
+          "end_ms": 802
+        },
+        {
+          "lang": "ja",
+          "text": "速い",
+          "start_sample": 12830,
+          "end_sample": 19567,
+          "start_ms": 802,
+          "end_ms": 1223
+        },
+        {
+          "lang": "en",
+          "text": "rhythm that is almost hypnotic to watch.",
+          "start_sample": 19567,
+          "end_sample": 65122,
+          "start_ms": 1223,
+          "end_ms": 4070
+        }
+      ]
+    },
+    "ja": {
+      "text": "She knits with a 速い rhythm that is almost hypnotic to watch.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4562,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She knits with a",
+          "start_sample": 0,
+          "end_sample": 18002,
+          "start_ms": 0,
+          "end_ms": 1125
+        },
+        {
+          "lang": "ja",
+          "text": "速い",
+          "start_sample": 18002,
+          "end_sample": 24594,
+          "start_ms": 1125,
+          "end_ms": 1537
+        },
+        {
+          "lang": "en",
+          "text": "rhythm that is almost hypnotic to watch.",
+          "start_sample": 24594,
+          "end_sample": 72984,
+          "start_ms": 1537,
+          "end_ms": 4562
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

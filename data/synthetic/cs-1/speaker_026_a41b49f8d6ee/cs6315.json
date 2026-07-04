@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_026_a41b49f8d6ee/cs6315.flac",
+  "sentence": "We ran out of 電池 right in the middle of assembling the furniture.",
+  "sample_rate": 16000,
+  "duration_ms": 3940,
+  "reference_speaker": "en/speaker_026_a41b49f8d6ee.mp3",
+  "seed": 6357,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We ran out of",
+      "start_sample": 0,
+      "end_sample": 10061,
+      "start_ms": 0,
+      "end_ms": 629
+    },
+    {
+      "lang": "ja",
+      "text": "電池",
+      "start_sample": 10061,
+      "end_sample": 16898,
+      "start_ms": 629,
+      "end_ms": 1056
+    },
+    {
+      "lang": "en",
+      "text": "right in the middle of assembling the furniture.",
+      "start_sample": 16898,
+      "end_sample": 63036,
+      "start_ms": 1056,
+      "end_ms": 3940
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We ran out of denchi right in the middle of assembling the furniture.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3948,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We ran out of",
+          "start_sample": 0,
+          "end_sample": 10261,
+          "start_ms": 0,
+          "end_ms": 641
+        },
+        {
+          "lang": "ja",
+          "text": "電池",
+          "start_sample": 10261,
+          "end_sample": 16836,
+          "start_ms": 641,
+          "end_ms": 1052
+        },
+        {
+          "lang": "en",
+          "text": "right in the middle of assembling the furniture.",
+          "start_sample": 16836,
+          "end_sample": 63174,
+          "start_ms": 1052,
+          "end_ms": 3948
+        }
+      ]
+    },
+    "ja": {
+      "text": "We ran out of 電池 right in the middle of assembling the furniture.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4282,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We ran out of",
+          "start_sample": 0,
+          "end_sample": 15440,
+          "start_ms": 0,
+          "end_ms": 965
+        },
+        {
+          "lang": "ja",
+          "text": "電池",
+          "start_sample": 15440,
+          "end_sample": 22677,
+          "start_ms": 965,
+          "end_ms": 1417
+        },
+        {
+          "lang": "en",
+          "text": "right in the middle of assembling the furniture.",
+          "start_sample": 22677,
+          "end_sample": 68511,
+          "start_ms": 1417,
+          "end_ms": 4282
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 197,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

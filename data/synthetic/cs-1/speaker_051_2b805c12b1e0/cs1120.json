@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_051_2b805c12b1e0/cs1120.flac",
+  "sentence": "My 喉 has been sore since yesterday — do you think it's strep?",
+  "sample_rate": 16000,
+  "duration_ms": 3752,
+  "reference_speaker": "jp/speaker_051_2b805c12b1e0.mp3",
+  "seed": 1162,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My",
+      "start_sample": 0,
+      "end_sample": 3010,
+      "start_ms": 0,
+      "end_ms": 188
+    },
+    {
+      "lang": "ja",
+      "text": "喉",
+      "start_sample": 3010,
+      "end_sample": 10149,
+      "start_ms": 188,
+      "end_ms": 634
+    },
+    {
+      "lang": "en",
+      "text": "has been sore since yesterday — do you think it's strep?",
+      "start_sample": 10149,
+      "end_sample": 60028,
+      "start_ms": 634,
+      "end_ms": 3752
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My nodo has been sore since yesterday — do you think it's strep?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3672,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 3210,
+          "start_ms": 0,
+          "end_ms": 201
+        },
+        {
+          "lang": "ja",
+          "text": "喉",
+          "start_sample": 3210,
+          "end_sample": 8667,
+          "start_ms": 201,
+          "end_ms": 542
+        },
+        {
+          "lang": "en",
+          "text": "has been sore since yesterday — do you think it's strep?",
+          "start_sample": 8667,
+          "end_sample": 58746,
+          "start_ms": 542,
+          "end_ms": 3672
+        }
+      ]
+    },
+    "ja": {
+      "text": "My 喉 has been sore since yesterday — do you think it's strep?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5012,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 2886,
+          "start_ms": 0,
+          "end_ms": 180
+        },
+        {
+          "lang": "ja",
+          "text": "喉",
+          "start_sample": 2886,
+          "end_sample": 10425,
+          "start_ms": 180,
+          "end_ms": 652
+        },
+        {
+          "lang": "en",
+          "text": "has been sore since yesterday — do you think it's strep?",
+          "start_sample": 10425,
+          "end_sample": 80197,
+          "start_ms": 652,
+          "end_ms": 5012
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "eeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

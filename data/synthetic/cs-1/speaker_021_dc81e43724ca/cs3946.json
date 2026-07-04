@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_021_dc81e43724ca/cs3946.flac",
+  "sentence": "His code review comments were always 的確 and easy to act on.",
+  "sample_rate": 16000,
+  "duration_ms": 4149,
+  "reference_speaker": "jp/speaker_021_dc81e43724ca.mp3",
+  "seed": 3988,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His code review comments were always",
+      "start_sample": 0,
+      "end_sample": 32979,
+      "start_ms": 0,
+      "end_ms": 2061
+    },
+    {
+      "lang": "ja",
+      "text": "的確",
+      "start_sample": 32979,
+      "end_sample": 43828,
+      "start_ms": 2061,
+      "end_ms": 2739
+    },
+    {
+      "lang": "en",
+      "text": "and easy to act on.",
+      "start_sample": 43828,
+      "end_sample": 66388,
+      "start_ms": 2739,
+      "end_ms": 4149
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His code review comments were always tekikaku and easy to act on.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4268,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His code review comments were always",
+          "start_sample": 0,
+          "end_sample": 33179,
+          "start_ms": 0,
+          "end_ms": 2074
+        },
+        {
+          "lang": "ja",
+          "text": "的確",
+          "start_sample": 33179,
+          "end_sample": 45521,
+          "start_ms": 2074,
+          "end_ms": 2845
+        },
+        {
+          "lang": "en",
+          "text": "and easy to act on.",
+          "start_sample": 45521,
+          "end_sample": 68281,
+          "start_ms": 2845,
+          "end_ms": 4268
+        }
+      ]
+    },
+    "ja": {
+      "text": "His code review comments were always 的確 and easy to act on.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4439,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His code review comments were always",
+          "start_sample": 0,
+          "end_sample": 39851,
+          "start_ms": 0,
+          "end_ms": 2491
+        },
+        {
+          "lang": "ja",
+          "text": "的確",
+          "start_sample": 39851,
+          "end_sample": 51100,
+          "start_ms": 2491,
+          "end_ms": 3194
+        },
+        {
+          "lang": "en",
+          "text": "and easy to act on.",
+          "start_sample": 51100,
+          "end_sample": 71021,
+          "start_ms": 3194,
+          "end_ms": 4439
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

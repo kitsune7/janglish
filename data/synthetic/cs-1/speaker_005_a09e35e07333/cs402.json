@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_005_a09e35e07333/cs402.flac",
+  "sentence": "The 語り手 is completely unreliable, which makes the whole novel fascinating.",
+  "sample_rate": 16000,
+  "duration_ms": 5568,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 444,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1241,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "語り手",
+      "start_sample": 1241,
+      "end_sample": 16059,
+      "start_ms": 78,
+      "end_ms": 1004
+    },
+    {
+      "lang": "en",
+      "text": "is completely unreliable, which makes the whole novel fascinating.",
+      "start_sample": 16059,
+      "end_sample": 89083,
+      "start_ms": 1004,
+      "end_ms": 5568
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The katarite is completely unreliable, which makes the whole novel fascinating.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5428,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1441,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "語り手",
+          "start_sample": 1441,
+          "end_sample": 13619,
+          "start_ms": 90,
+          "end_ms": 851
+        },
+        {
+          "lang": "en",
+          "text": "is completely unreliable, which makes the whole novel fascinating.",
+          "start_sample": 13619,
+          "end_sample": 86843,
+          "start_ms": 851,
+          "end_ms": 5428
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 語り手 is completely unreliable, which makes the whole novel fascinating.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6748,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4644,
+          "start_ms": 0,
+          "end_ms": 290
+        },
+        {
+          "lang": "ja",
+          "text": "語り手",
+          "start_sample": 4644,
+          "end_sample": 19862,
+          "start_ms": 290,
+          "end_ms": 1241
+        },
+        {
+          "lang": "en",
+          "text": "is completely unreliable, which makes the whole novel fascinating.",
+          "start_sample": 19862,
+          "end_sample": 107962,
+          "start_ms": 1241,
+          "end_ms": 6748
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 279,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

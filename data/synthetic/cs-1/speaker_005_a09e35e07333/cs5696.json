@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_005_a09e35e07333/cs5696.flac",
+  "sentence": "She was 丁寧 about wrapping each item separately before shipping.",
+  "sample_rate": 16000,
+  "duration_ms": 4593,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 5738,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She was",
+      "start_sample": 0,
+      "end_sample": 6538,
+      "start_ms": 0,
+      "end_ms": 409
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧",
+      "start_sample": 6538,
+      "end_sample": 12074,
+      "start_ms": 409,
+      "end_ms": 755
+    },
+    {
+      "lang": "en",
+      "text": "about wrapping each item separately before shipping.",
+      "start_sample": 12074,
+      "end_sample": 73485,
+      "start_ms": 755,
+      "end_ms": 4593
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She was teinei about wrapping each item separately before shipping.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5054,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She was",
+          "start_sample": 0,
+          "end_sample": 6738,
+          "start_ms": 0,
+          "end_ms": 421
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 6738,
+          "end_sample": 19254,
+          "start_ms": 421,
+          "end_ms": 1203
+        },
+        {
+          "lang": "en",
+          "text": "about wrapping each item separately before shipping.",
+          "start_sample": 19254,
+          "end_sample": 80865,
+          "start_ms": 1203,
+          "end_ms": 5054
+        }
+      ]
+    },
+    "ja": {
+      "text": "She was 丁寧 about wrapping each item separately before shipping.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3590,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She was",
+          "start_sample": 0,
+          "end_sample": 5936,
+          "start_ms": 0,
+          "end_ms": 371
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 5936,
+          "end_sample": 11872,
+          "start_ms": 371,
+          "end_ms": 742
+        },
+        {
+          "lang": "en",
+          "text": "about wrapping each item separately before shipping.",
+          "start_sample": 11872,
+          "end_sample": 57436,
+          "start_ms": 742,
+          "end_ms": 3590
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 230,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

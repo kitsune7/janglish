@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_095_862d569c1af2/cs2624.flac",
+  "sentence": "I always feel slightly guilty sitting in the 窓側 while someone older is standing.",
+  "sample_rate": 16000,
+  "duration_ms": 4579,
+  "reference_speaker": "en/speaker_095_862d569c1af2.mp3",
+  "seed": 2666,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always feel slightly guilty sitting in the",
+      "start_sample": 0,
+      "end_sample": 31468,
+      "start_ms": 0,
+      "end_ms": 1967
+    },
+    {
+      "lang": "ja",
+      "text": "窓側",
+      "start_sample": 31468,
+      "end_sample": 44689,
+      "start_ms": 1967,
+      "end_ms": 2793
+    },
+    {
+      "lang": "en",
+      "text": "while someone older is standing.",
+      "start_sample": 44689,
+      "end_sample": 73264,
+      "start_ms": 2793,
+      "end_ms": 4579
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always feel slightly guilty sitting in the madogawa while someone older is standing.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4521,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel slightly guilty sitting in the",
+          "start_sample": 0,
+          "end_sample": 31668,
+          "start_ms": 0,
+          "end_ms": 1979
+        },
+        {
+          "lang": "ja",
+          "text": "窓側",
+          "start_sample": 31668,
+          "end_sample": 43566,
+          "start_ms": 1979,
+          "end_ms": 2723
+        },
+        {
+          "lang": "en",
+          "text": "while someone older is standing.",
+          "start_sample": 43566,
+          "end_sample": 72341,
+          "start_ms": 2723,
+          "end_ms": 4521
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always feel slightly guilty sitting in the 窓側 while someone older is standing.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8493,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel slightly guilty sitting in the",
+          "start_sample": 0,
+          "end_sample": 60415,
+          "start_ms": 0,
+          "end_ms": 3776
+        },
+        {
+          "lang": "ja",
+          "text": "窓側",
+          "start_sample": 60415,
+          "end_sample": 74036,
+          "start_ms": 3776,
+          "end_ms": 4627
+        },
+        {
+          "lang": "en",
+          "text": "while someone older is standing.",
+          "start_sample": 74036,
+          "end_sample": 135894,
+          "start_ms": 4627,
+          "end_ms": 8493
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 229,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_094_291d9dee87c4/cs2172.flac",
+  "sentence": "彼はsolderingが得意で、自分でラジオを組み立てました。",
+  "sample_rate": 16000,
+  "duration_ms": 3565,
+  "reference_speaker": "en/speaker_094_291d9dee87c4.mp3",
+  "seed": 2214,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼は",
+      "start_sample": 0,
+      "end_sample": 4127,
+      "start_ms": 0,
+      "end_ms": 258
+    },
+    {
+      "lang": "en",
+      "text": "soldering",
+      "start_sample": 4127,
+      "end_sample": 23099,
+      "start_ms": 258,
+      "end_ms": 1444
+    },
+    {
+      "lang": "ja",
+      "text": "が得意で、自分でラジオを組み立てました。",
+      "start_sample": 23099,
+      "end_sample": 57036,
+      "start_ms": 1444,
+      "end_ms": 3565
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha soldering ga tokui de jibun de rajio wo kumitate mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8485,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 27696,
+          "start_ms": 0,
+          "end_ms": 1731
+        },
+        {
+          "lang": "en",
+          "text": "soldering",
+          "start_sample": 27696,
+          "end_sample": 47068,
+          "start_ms": 1731,
+          "end_ms": 2942
+        },
+        {
+          "lang": "ja",
+          "text": "が得意で、自分でラジオを組み立てました。",
+          "start_sample": 47068,
+          "end_sample": 135762,
+          "start_ms": 2942,
+          "end_ms": 8485
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はsolderingが得意で、自分でラジオを組み立てました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3125,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 4327,
+          "start_ms": 0,
+          "end_ms": 270
+        },
+        {
+          "lang": "en",
+          "text": "soldering",
+          "start_sample": 4327,
+          "end_sample": 15866,
+          "start_ms": 270,
+          "end_ms": 992
+        },
+        {
+          "lang": "ja",
+          "text": "が得意で、自分でラジオを組み立てました。",
+          "start_sample": 15866,
+          "end_sample": 50003,
+          "start_ms": 992,
+          "end_ms": 3125
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 179,
+  "frame_labels": "jjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

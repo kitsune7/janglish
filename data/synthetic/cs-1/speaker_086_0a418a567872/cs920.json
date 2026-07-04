@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_086_0a418a567872/cs920.flac",
+  "sentence": "今日発売されたsoundtrackを聴きながら仕事してる。",
+  "sample_rate": 16000,
+  "duration_ms": 4256,
+  "reference_speaker": "en/speaker_086_0a418a567872.mp3",
+  "seed": 962,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日発売された",
+      "start_sample": 0,
+      "end_sample": 23737,
+      "start_ms": 0,
+      "end_ms": 1484
+    },
+    {
+      "lang": "en",
+      "text": "soundtrack",
+      "start_sample": 23737,
+      "end_sample": 42117,
+      "start_ms": 1484,
+      "end_ms": 2632
+    },
+    {
+      "lang": "ja",
+      "text": "を聴きながら仕事してる。",
+      "start_sample": 42117,
+      "end_sample": 68104,
+      "start_ms": 2632,
+      "end_ms": 4256
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou hatsubai sa re ta soundtrack wo kiki nagara shigoto shi teru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7062,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日発売された",
+          "start_sample": 0,
+          "end_sample": 50236,
+          "start_ms": 0,
+          "end_ms": 3140
+        },
+        {
+          "lang": "en",
+          "text": "soundtrack",
+          "start_sample": 50236,
+          "end_sample": 69016,
+          "start_ms": 3140,
+          "end_ms": 4314
+        },
+        {
+          "lang": "ja",
+          "text": "を聴きながら仕事してる。",
+          "start_sample": 69016,
+          "end_sample": 112990,
+          "start_ms": 4314,
+          "end_ms": 7062
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日発売されたsoundtrackを聴きながら仕事してる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3836,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日発売された",
+          "start_sample": 0,
+          "end_sample": 23937,
+          "start_ms": 0,
+          "end_ms": 1496
+        },
+        {
+          "lang": "en",
+          "text": "soundtrack",
+          "start_sample": 23937,
+          "end_sample": 35185,
+          "start_ms": 1496,
+          "end_ms": 2199
+        },
+        {
+          "lang": "ja",
+          "text": "を聴きながら仕事してる。",
+          "start_sample": 35185,
+          "end_sample": 61372,
+          "start_ms": 2199,
+          "end_ms": 3836
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 213,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

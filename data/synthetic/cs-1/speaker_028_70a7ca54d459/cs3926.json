@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_028_70a7ca54d459/cs3926.flac",
+  "sentence": "I could tell she was 本気 about him from the very beginning.",
+  "sample_rate": 16000,
+  "duration_ms": 3124,
+  "reference_speaker": "jp/speaker_028_70a7ca54d459.mp3",
+  "seed": 3968,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I could tell she was",
+      "start_sample": 0,
+      "end_sample": 12979,
+      "start_ms": 0,
+      "end_ms": 811
+    },
+    {
+      "lang": "ja",
+      "text": "本気",
+      "start_sample": 12979,
+      "end_sample": 19482,
+      "start_ms": 811,
+      "end_ms": 1218
+    },
+    {
+      "lang": "en",
+      "text": "about him from the very beginning.",
+      "start_sample": 19482,
+      "end_sample": 49986,
+      "start_ms": 1218,
+      "end_ms": 3124
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I could tell she was honki about him from the very beginning.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3114,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I could tell she was",
+          "start_sample": 0,
+          "end_sample": 13179,
+          "start_ms": 0,
+          "end_ms": 824
+        },
+        {
+          "lang": "ja",
+          "text": "本気",
+          "start_sample": 13179,
+          "end_sample": 19128,
+          "start_ms": 824,
+          "end_ms": 1196
+        },
+        {
+          "lang": "en",
+          "text": "about him from the very beginning.",
+          "start_sample": 19128,
+          "end_sample": 49832,
+          "start_ms": 1196,
+          "end_ms": 3114
+        }
+      ]
+    },
+    "ja": {
+      "text": "I could tell she was 本気 about him from the very beginning.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3652,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I could tell she was",
+          "start_sample": 0,
+          "end_sample": 17657,
+          "start_ms": 0,
+          "end_ms": 1104
+        },
+        {
+          "lang": "ja",
+          "text": "本気",
+          "start_sample": 17657,
+          "end_sample": 24560,
+          "start_ms": 1104,
+          "end_ms": 1535
+        },
+        {
+          "lang": "en",
+          "text": "about him from the very beginning.",
+          "start_sample": 24560,
+          "end_sample": 58433,
+          "start_ms": 1535,
+          "end_ms": 3652
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 157,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

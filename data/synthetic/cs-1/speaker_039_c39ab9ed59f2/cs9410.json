@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_039_c39ab9ed59f2/cs9410.flac",
+  "sentence": "面接の後でthank you noteを送った方がいい。",
+  "sample_rate": 16000,
+  "duration_ms": 3216,
+  "reference_speaker": "jp/speaker_039_c39ab9ed59f2.mp3",
+  "seed": 9452,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "面接の後で",
+      "start_sample": 0,
+      "end_sample": 17349,
+      "start_ms": 0,
+      "end_ms": 1084
+    },
+    {
+      "lang": "en",
+      "text": "thank you note",
+      "start_sample": 17349,
+      "end_sample": 35716,
+      "start_ms": 1084,
+      "end_ms": 2232
+    },
+    {
+      "lang": "ja",
+      "text": "を送った方がいい。",
+      "start_sample": 35716,
+      "end_sample": 51449,
+      "start_ms": 2232,
+      "end_ms": 3216
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mensetsu no nochi de thank you note wo okutsu ta hou ga ii",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5113,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "面接の後で",
+          "start_sample": 0,
+          "end_sample": 40260,
+          "start_ms": 0,
+          "end_ms": 2516
+        },
+        {
+          "lang": "en",
+          "text": "thank you note",
+          "start_sample": 40260,
+          "end_sample": 59027,
+          "start_ms": 2516,
+          "end_ms": 3689
+        },
+        {
+          "lang": "ja",
+          "text": "を送った方がいい。",
+          "start_sample": 59027,
+          "end_sample": 81801,
+          "start_ms": 3689,
+          "end_ms": 5113
+        }
+      ]
+    },
+    "ja": {
+      "text": "面接の後でthank you noteを送った方がいい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2978,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "面接の後で",
+          "start_sample": 0,
+          "end_sample": 17549,
+          "start_ms": 0,
+          "end_ms": 1097
+        },
+        {
+          "lang": "en",
+          "text": "thank you note",
+          "start_sample": 17549,
+          "end_sample": 31718,
+          "start_ms": 1097,
+          "end_ms": 1982
+        },
+        {
+          "lang": "ja",
+          "text": "を送った方がいい。",
+          "start_sample": 31718,
+          "end_sample": 47651,
+          "start_ms": 1982,
+          "end_ms": 2978
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 161,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

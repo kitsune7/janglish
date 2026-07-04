@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_014_9db071da66e5/cs4571.flac",
+  "sentence": "警察にemergencyだと伝えてください。",
+  "sample_rate": 16000,
+  "duration_ms": 3199,
+  "reference_speaker": "en/speaker_014_9db071da66e5.mp3",
+  "seed": 4613,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "警察に",
+      "start_sample": 0,
+      "end_sample": 8944,
+      "start_ms": 0,
+      "end_ms": 559
+    },
+    {
+      "lang": "en",
+      "text": "emergency",
+      "start_sample": 8944,
+      "end_sample": 33422,
+      "start_ms": 559,
+      "end_ms": 2089
+    },
+    {
+      "lang": "ja",
+      "text": "だと伝えてください。",
+      "start_sample": 33422,
+      "end_sample": 51188,
+      "start_ms": 2089,
+      "end_ms": 3199
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "keisatsu ni emergency da to tsutae te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5437,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "警察に",
+          "start_sample": 0,
+          "end_sample": 18136,
+          "start_ms": 0,
+          "end_ms": 1134
+        },
+        {
+          "lang": "en",
+          "text": "emergency",
+          "start_sample": 18136,
+          "end_sample": 43014,
+          "start_ms": 1134,
+          "end_ms": 2688
+        },
+        {
+          "lang": "ja",
+          "text": "だと伝えてください。",
+          "start_sample": 43014,
+          "end_sample": 86988,
+          "start_ms": 2688,
+          "end_ms": 5437
+        }
+      ]
+    },
+    "ja": {
+      "text": "警察にemergencyだと伝えてください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2386,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "警察に",
+          "start_sample": 0,
+          "end_sample": 9144,
+          "start_ms": 0,
+          "end_ms": 572
+        },
+        {
+          "lang": "en",
+          "text": "emergency",
+          "start_sample": 9144,
+          "end_sample": 20213,
+          "start_ms": 572,
+          "end_ms": 1263
+        },
+        {
+          "lang": "ja",
+          "text": "だと伝えてください。",
+          "start_sample": 20213,
+          "end_sample": 38179,
+          "start_ms": 1263,
+          "end_ms": 2386
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

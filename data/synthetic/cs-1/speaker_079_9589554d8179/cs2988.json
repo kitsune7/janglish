@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_079_9589554d8179/cs2988.flac",
+  "sentence": "I replaced my old makeup sponge with a 柔らか one and the difference is huge.",
+  "sample_rate": 16000,
+  "duration_ms": 4593,
+  "reference_speaker": "en/speaker_079_9589554d8179.mp3",
+  "seed": 3030,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I replaced my old makeup sponge with a",
+      "start_sample": 0,
+      "end_sample": 31974,
+      "start_ms": 0,
+      "end_ms": 1998
+    },
+    {
+      "lang": "ja",
+      "text": "柔らか",
+      "start_sample": 31974,
+      "end_sample": 41027,
+      "start_ms": 1998,
+      "end_ms": 2564
+    },
+    {
+      "lang": "en",
+      "text": "one and the difference is huge.",
+      "start_sample": 41027,
+      "end_sample": 73482,
+      "start_ms": 2564,
+      "end_ms": 4593
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I replaced my old makeup sponge with a yawaraka one and the difference is huge.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4702,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I replaced my old makeup sponge with a",
+          "start_sample": 0,
+          "end_sample": 32174,
+          "start_ms": 0,
+          "end_ms": 2011
+        },
+        {
+          "lang": "ja",
+          "text": "柔らか",
+          "start_sample": 32174,
+          "end_sample": 42579,
+          "start_ms": 2011,
+          "end_ms": 2661
+        },
+        {
+          "lang": "en",
+          "text": "one and the difference is huge.",
+          "start_sample": 42579,
+          "end_sample": 75234,
+          "start_ms": 2661,
+          "end_ms": 4702
+        }
+      ]
+    },
+    "ja": {
+      "text": "I replaced my old makeup sponge with a 柔らか one and the difference is huge.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 10413,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I replaced my old makeup sponge with a",
+          "start_sample": 0,
+          "end_sample": 55751,
+          "start_ms": 0,
+          "end_ms": 3484
+        },
+        {
+          "lang": "ja",
+          "text": "柔らか",
+          "start_sample": 55751,
+          "end_sample": 65204,
+          "start_ms": 3484,
+          "end_ms": 4075
+        },
+        {
+          "lang": "en",
+          "text": "one and the difference is huge.",
+          "start_sample": 65204,
+          "end_sample": 166615,
+          "start_ms": 4075,
+          "end_ms": 10413
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 230,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

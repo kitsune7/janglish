@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_007_70c21ca1cc3d/cs9285.flac",
+  "sentence": "The checkout line was so 長い that I switched to self-service.",
+  "sample_rate": 16000,
+  "duration_ms": 3267,
+  "reference_speaker": "en/speaker_007_70c21ca1cc3d.mp3",
+  "seed": 9327,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The checkout line was so",
+      "start_sample": 0,
+      "end_sample": 17914,
+      "start_ms": 0,
+      "end_ms": 1120
+    },
+    {
+      "lang": "ja",
+      "text": "長い",
+      "start_sample": 17914,
+      "end_sample": 24256,
+      "start_ms": 1120,
+      "end_ms": 1516
+    },
+    {
+      "lang": "en",
+      "text": "that I switched to self-service.",
+      "start_sample": 24256,
+      "end_sample": 52268,
+      "start_ms": 1516,
+      "end_ms": 3267
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The checkout line was so nagai that I switched to self-service.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3386,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The checkout line was so",
+          "start_sample": 0,
+          "end_sample": 18114,
+          "start_ms": 0,
+          "end_ms": 1132
+        },
+        {
+          "lang": "ja",
+          "text": "長い",
+          "start_sample": 18114,
+          "end_sample": 25969,
+          "start_ms": 1132,
+          "end_ms": 1623
+        },
+        {
+          "lang": "en",
+          "text": "that I switched to self-service.",
+          "start_sample": 25969,
+          "end_sample": 54181,
+          "start_ms": 1623,
+          "end_ms": 3386
+        }
+      ]
+    },
+    "ja": {
+      "text": "The checkout line was so 長い that I switched to self-service.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4033,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The checkout line was so",
+          "start_sample": 0,
+          "end_sample": 24719,
+          "start_ms": 0,
+          "end_ms": 1545
+        },
+        {
+          "lang": "ja",
+          "text": "長い",
+          "start_sample": 24719,
+          "end_sample": 31461,
+          "start_ms": 1545,
+          "end_ms": 1966
+        },
+        {
+          "lang": "en",
+          "text": "that I switched to self-service.",
+          "start_sample": 31461,
+          "end_sample": 64527,
+          "start_ms": 1966,
+          "end_ms": 4033
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 164,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

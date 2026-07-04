@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_034_3e5442a60675/cs9818.flac",
+  "sentence": "His guitar solos have this 繊細 quality that makes the whole crowd go quiet.",
+  "sample_rate": 16000,
+  "duration_ms": 5727,
+  "reference_speaker": "jp/speaker_034_3e5442a60675.mp3",
+  "seed": 9860,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His guitar solos have this",
+      "start_sample": 0,
+      "end_sample": 34400,
+      "start_ms": 0,
+      "end_ms": 2150
+    },
+    {
+      "lang": "ja",
+      "text": "繊細",
+      "start_sample": 34400,
+      "end_sample": 44574,
+      "start_ms": 2150,
+      "end_ms": 2786
+    },
+    {
+      "lang": "en",
+      "text": "quality that makes the whole crowd go quiet.",
+      "start_sample": 44574,
+      "end_sample": 91628,
+      "start_ms": 2786,
+      "end_ms": 5727
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His guitar solos have this sensai quality that makes the whole crowd go quiet.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5626,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His guitar solos have this",
+          "start_sample": 0,
+          "end_sample": 34600,
+          "start_ms": 0,
+          "end_ms": 2162
+        },
+        {
+          "lang": "ja",
+          "text": "繊細",
+          "start_sample": 34600,
+          "end_sample": 42770,
+          "start_ms": 2162,
+          "end_ms": 2673
+        },
+        {
+          "lang": "en",
+          "text": "quality that makes the whole crowd go quiet.",
+          "start_sample": 42770,
+          "end_sample": 90024,
+          "start_ms": 2673,
+          "end_ms": 5626
+        }
+      ]
+    },
+    "ja": {
+      "text": "His guitar solos have this 繊細 quality that makes the whole crowd go quiet.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6569,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His guitar solos have this",
+          "start_sample": 0,
+          "end_sample": 35247,
+          "start_ms": 0,
+          "end_ms": 2203
+        },
+        {
+          "lang": "ja",
+          "text": "繊細",
+          "start_sample": 35247,
+          "end_sample": 45821,
+          "start_ms": 2203,
+          "end_ms": 2864
+        },
+        {
+          "lang": "en",
+          "text": "quality that makes the whole crowd go quiet.",
+          "start_sample": 45821,
+          "end_sample": 105101,
+          "start_ms": 2864,
+          "end_ms": 6569
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 287,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_008_cc7e6dc77979/cs7634.flac",
+  "sentence": "このバーはhappy hourが夕方五時から始まる。",
+  "sample_rate": 16000,
+  "duration_ms": 4085,
+  "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 7676,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このバーは",
+      "start_sample": 0,
+      "end_sample": 9767,
+      "start_ms": 0,
+      "end_ms": 610
+    },
+    {
+      "lang": "en",
+      "text": "happy hour",
+      "start_sample": 9767,
+      "end_sample": 26504,
+      "start_ms": 610,
+      "end_ms": 1656
+    },
+    {
+      "lang": "ja",
+      "text": "が夕方五時から始まる。",
+      "start_sample": 26504,
+      "end_sample": 65365,
+      "start_ms": 1656,
+      "end_ms": 4085
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono baa ha happy hour ga yuugata go toki kara hajimaru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5385,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このバーは",
+          "start_sample": 0,
+          "end_sample": 12491,
+          "start_ms": 0,
+          "end_ms": 781
+        },
+        {
+          "lang": "en",
+          "text": "happy hour",
+          "start_sample": 12491,
+          "end_sample": 29628,
+          "start_ms": 781,
+          "end_ms": 1852
+        },
+        {
+          "lang": "ja",
+          "text": "が夕方五時から始まる。",
+          "start_sample": 29628,
+          "end_sample": 86161,
+          "start_ms": 1852,
+          "end_ms": 5385
+        }
+      ]
+    },
+    "ja": {
+      "text": "このバーはhappy hourが夕方五時から始まる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3838,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このバーは",
+          "start_sample": 0,
+          "end_sample": 9967,
+          "start_ms": 0,
+          "end_ms": 623
+        },
+        {
+          "lang": "en",
+          "text": "happy hour",
+          "start_sample": 9967,
+          "end_sample": 22345,
+          "start_ms": 623,
+          "end_ms": 1397
+        },
+        {
+          "lang": "ja",
+          "text": "が夕方五時から始まる。",
+          "start_sample": 22345,
+          "end_sample": 61406,
+          "start_ms": 1397,
+          "end_ms": 3838
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 205,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

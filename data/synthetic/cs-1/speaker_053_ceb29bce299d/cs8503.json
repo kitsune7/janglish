@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_053_ceb29bce299d/cs8503.flac",
+  "sentence": "wide angle レンズで撮ると空がとても広く見えます。",
+  "sample_rate": 16000,
+  "duration_ms": 3081,
+  "reference_speaker": "en/speaker_053_ceb29bce299d.mp3",
+  "seed": 8545,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "wide angle",
+      "start_sample": 0,
+      "end_sample": 9916,
+      "start_ms": 0,
+      "end_ms": 620
+    },
+    {
+      "lang": "ja",
+      "text": "レンズで撮ると空がとても広く見えます。",
+      "start_sample": 9916,
+      "end_sample": 49292,
+      "start_ms": 620,
+      "end_ms": 3081
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "wide angle renzu de toru to sora ga totemo hiroku mie masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4898,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "wide angle",
+          "start_sample": 0,
+          "end_sample": 10116,
+          "start_ms": 0,
+          "end_ms": 632
+        },
+        {
+          "lang": "ja",
+          "text": "レンズで撮ると空がとても広く見えます。",
+          "start_sample": 10116,
+          "end_sample": 78363,
+          "start_ms": 632,
+          "end_ms": 4898
+        }
+      ]
+    },
+    "ja": {
+      "text": "wide angle レンズで撮ると空がとても広く見えます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3258,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "wide angle",
+          "start_sample": 0,
+          "end_sample": 12550,
+          "start_ms": 0,
+          "end_ms": 784
+        },
+        {
+          "lang": "ja",
+          "text": "レンズで撮ると空がとても広く見えます。",
+          "start_sample": 12550,
+          "end_sample": 52126,
+          "start_ms": 784,
+          "end_ms": 3258
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 155,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

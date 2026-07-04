@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_087_849529715d29/cs2308.flac",
+  "sentence": "彼女のedit、本当にセンスがいいと思う。",
+  "sample_rate": 16000,
+  "duration_ms": 3188,
+  "reference_speaker": "jp/speaker_087_849529715d29.mp3",
+  "seed": 2350,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女の",
+      "start_sample": 0,
+      "end_sample": 8625,
+      "start_ms": 0,
+      "end_ms": 539
+    },
+    {
+      "lang": "en",
+      "text": "edit、",
+      "start_sample": 8625,
+      "end_sample": 23614,
+      "start_ms": 539,
+      "end_ms": 1476
+    },
+    {
+      "lang": "ja",
+      "text": "本当にセンスがいいと思う。",
+      "start_sample": 23614,
+      "end_sample": 51014,
+      "start_ms": 1476,
+      "end_ms": 3188
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo no edit、 hontou ni sensu ga ii to omou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7814,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の",
+          "start_sample": 0,
+          "end_sample": 28210,
+          "start_ms": 0,
+          "end_ms": 1763
+        },
+        {
+          "lang": "en",
+          "text": "edit、",
+          "start_sample": 28210,
+          "end_sample": 43599,
+          "start_ms": 1763,
+          "end_ms": 2725
+        },
+        {
+          "lang": "ja",
+          "text": "本当にセンスがいいと思う。",
+          "start_sample": 43599,
+          "end_sample": 125025,
+          "start_ms": 2725,
+          "end_ms": 7814
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女のedit、本当にセンスがいいと思う。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2748,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の",
+          "start_sample": 0,
+          "end_sample": 8825,
+          "start_ms": 0,
+          "end_ms": 552
+        },
+        {
+          "lang": "en",
+          "text": "edit、",
+          "start_sample": 8825,
+          "end_sample": 16368,
+          "start_ms": 552,
+          "end_ms": 1023
+        },
+        {
+          "lang": "ja",
+          "text": "本当にセンスがいいと思う。",
+          "start_sample": 16368,
+          "end_sample": 43968,
+          "start_ms": 1023,
+          "end_ms": 2748
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

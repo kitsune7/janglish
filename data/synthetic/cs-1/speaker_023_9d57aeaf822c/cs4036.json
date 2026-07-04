@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_023_9d57aeaf822c/cs4036.flac",
+  "sentence": "He swims with a really 丁寧な stroke that covers serious distance.",
+  "sample_rate": 16000,
+  "duration_ms": 4003,
+  "reference_speaker": "en/speaker_023_9d57aeaf822c.mp3",
+  "seed": 4078,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He swims with a really",
+      "start_sample": 0,
+      "end_sample": 19383,
+      "start_ms": 0,
+      "end_ms": 1211
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧な",
+      "start_sample": 19383,
+      "end_sample": 28288,
+      "start_ms": 1211,
+      "end_ms": 1768
+    },
+    {
+      "lang": "en",
+      "text": "stroke that covers serious distance.",
+      "start_sample": 28288,
+      "end_sample": 64041,
+      "start_ms": 1768,
+      "end_ms": 4003
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He swims with a really teinei na stroke that covers serious distance.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4093,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He swims with a really",
+          "start_sample": 0,
+          "end_sample": 19583,
+          "start_ms": 0,
+          "end_ms": 1224
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧な",
+          "start_sample": 19583,
+          "end_sample": 29535,
+          "start_ms": 1224,
+          "end_ms": 1846
+        },
+        {
+          "lang": "en",
+          "text": "stroke that covers serious distance.",
+          "start_sample": 29535,
+          "end_sample": 65488,
+          "start_ms": 1846,
+          "end_ms": 4093
+        }
+      ]
+    },
+    "ja": {
+      "text": "He swims with a really 丁寧な stroke that covers serious distance.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4512,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He swims with a really",
+          "start_sample": 0,
+          "end_sample": 24223,
+          "start_ms": 0,
+          "end_ms": 1514
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧な",
+          "start_sample": 24223,
+          "end_sample": 33528,
+          "start_ms": 1514,
+          "end_ms": 2096
+        },
+        {
+          "lang": "en",
+          "text": "stroke that covers serious distance.",
+          "start_sample": 33528,
+          "end_sample": 72191,
+          "start_ms": 2096,
+          "end_ms": 4512
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

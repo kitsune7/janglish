@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_035_dd783030d2b8/cs10506.flac",
+  "sentence": "Are you feeling 大丈夫 after everything that happened yesterday?",
+  "sample_rate": 16000,
+  "duration_ms": 2638,
+  "reference_speaker": "jp/speaker_035_dd783030d2b8.mp3",
+  "seed": 10548,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Are you feeling",
+      "start_sample": 0,
+      "end_sample": 9101,
+      "start_ms": 0,
+      "end_ms": 569
+    },
+    {
+      "lang": "ja",
+      "text": "大丈夫",
+      "start_sample": 9101,
+      "end_sample": 17390,
+      "start_ms": 569,
+      "end_ms": 1087
+    },
+    {
+      "lang": "en",
+      "text": "after everything that happened yesterday?",
+      "start_sample": 17390,
+      "end_sample": 42207,
+      "start_ms": 1087,
+      "end_ms": 2638
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Are you feeling daijoubu after everything that happened yesterday?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2646,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Are you feeling",
+          "start_sample": 0,
+          "end_sample": 9301,
+          "start_ms": 0,
+          "end_ms": 581
+        },
+        {
+          "lang": "ja",
+          "text": "大丈夫",
+          "start_sample": 9301,
+          "end_sample": 17320,
+          "start_ms": 581,
+          "end_ms": 1082
+        },
+        {
+          "lang": "en",
+          "text": "after everything that happened yesterday?",
+          "start_sample": 17320,
+          "end_sample": 42337,
+          "start_ms": 1082,
+          "end_ms": 2646
+        }
+      ]
+    },
+    "ja": {
+      "text": "Are you feeling 大丈夫 after everything that happened yesterday?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3198,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Are you feeling",
+          "start_sample": 0,
+          "end_sample": 11906,
+          "start_ms": 0,
+          "end_ms": 744
+        },
+        {
+          "lang": "ja",
+          "text": "大丈夫",
+          "start_sample": 11906,
+          "end_sample": 20595,
+          "start_ms": 744,
+          "end_ms": 1287
+        },
+        {
+          "lang": "en",
+          "text": "after everything that happened yesterday?",
+          "start_sample": 20595,
+          "end_sample": 51160,
+          "start_ms": 1287,
+          "end_ms": 3198
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 132,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

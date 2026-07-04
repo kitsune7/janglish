@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_015_c26b5026d437/cs4604.flac",
+  "sentence": "The parrot learned to say 美味しい whenever we brought fruit near his cage.",
+  "sample_rate": 16000,
+  "duration_ms": 4452,
+  "reference_speaker": "jp/speaker_015_c26b5026d437.mp3",
+  "seed": 4646,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The parrot learned to say",
+      "start_sample": 0,
+      "end_sample": 26434,
+      "start_ms": 0,
+      "end_ms": 1652
+    },
+    {
+      "lang": "ja",
+      "text": "美味しい",
+      "start_sample": 26434,
+      "end_sample": 32924,
+      "start_ms": 1652,
+      "end_ms": 2058
+    },
+    {
+      "lang": "en",
+      "text": "whenever we brought fruit near his cage.",
+      "start_sample": 32924,
+      "end_sample": 71230,
+      "start_ms": 2058,
+      "end_ms": 4452
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The parrot learned to say oishii whenever we brought fruit near his cage.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5134,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The parrot learned to say",
+          "start_sample": 0,
+          "end_sample": 26634,
+          "start_ms": 0,
+          "end_ms": 1665
+        },
+        {
+          "lang": "ja",
+          "text": "美味しい",
+          "start_sample": 26634,
+          "end_sample": 43643,
+          "start_ms": 1665,
+          "end_ms": 2728
+        },
+        {
+          "lang": "en",
+          "text": "whenever we brought fruit near his cage.",
+          "start_sample": 43643,
+          "end_sample": 82149,
+          "start_ms": 2728,
+          "end_ms": 5134
+        }
+      ]
+    },
+    "ja": {
+      "text": "The parrot learned to say 美味しい whenever we brought fruit near his cage.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5848,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The parrot learned to say",
+          "start_sample": 0,
+          "end_sample": 36208,
+          "start_ms": 0,
+          "end_ms": 2263
+        },
+        {
+          "lang": "ja",
+          "text": "美味しい",
+          "start_sample": 36208,
+          "end_sample": 43098,
+          "start_ms": 2263,
+          "end_ms": 2694
+        },
+        {
+          "lang": "en",
+          "text": "whenever we brought fruit near his cage.",
+          "start_sample": 43098,
+          "end_sample": 93566,
+          "start_ms": 2694,
+          "end_ms": 5848
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 223,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

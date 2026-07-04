@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_001_e5689aea6ff3/cs3201.flac",
+  "sentence": "That new AI assistant is 賢い enough to write entire paragraphs.",
+  "sample_rate": 16000,
+  "duration_ms": 4568,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 3243,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That new AI assistant is",
+      "start_sample": 0,
+      "end_sample": 32492,
+      "start_ms": 0,
+      "end_ms": 2031
+    },
+    {
+      "lang": "ja",
+      "text": "賢い",
+      "start_sample": 32492,
+      "end_sample": 39790,
+      "start_ms": 2031,
+      "end_ms": 2487
+    },
+    {
+      "lang": "en",
+      "text": "enough to write entire paragraphs.",
+      "start_sample": 39790,
+      "end_sample": 73083,
+      "start_ms": 2487,
+      "end_ms": 4568
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That new AI assistant is kashikoi enough to write entire paragraphs.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4768,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That new AI assistant is",
+          "start_sample": 0,
+          "end_sample": 32692,
+          "start_ms": 0,
+          "end_ms": 2043
+        },
+        {
+          "lang": "ja",
+          "text": "賢い",
+          "start_sample": 32692,
+          "end_sample": 42788,
+          "start_ms": 2043,
+          "end_ms": 2674
+        },
+        {
+          "lang": "en",
+          "text": "enough to write entire paragraphs.",
+          "start_sample": 42788,
+          "end_sample": 76281,
+          "start_ms": 2674,
+          "end_ms": 4768
+        }
+      ]
+    },
+    "ja": {
+      "text": "That new AI assistant is 賢い enough to write entire paragraphs.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4450,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That new AI assistant is",
+          "start_sample": 0,
+          "end_sample": 31270,
+          "start_ms": 0,
+          "end_ms": 1954
+        },
+        {
+          "lang": "ja",
+          "text": "賢い",
+          "start_sample": 31270,
+          "end_sample": 38968,
+          "start_ms": 1954,
+          "end_ms": 2436
+        },
+        {
+          "lang": "en",
+          "text": "enough to write entire paragraphs.",
+          "start_sample": 38968,
+          "end_sample": 71201,
+          "start_ms": 2436,
+          "end_ms": 4450
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 229,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

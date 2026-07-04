@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_071_c593127a0954/cs9194.flac",
+  "sentence": "今日はfloorをきれいに拭きました。",
+  "sample_rate": 16000,
+  "duration_ms": 2093,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 9236,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日は",
+      "start_sample": 0,
+      "end_sample": 3511,
+      "start_ms": 0,
+      "end_ms": 219
+    },
+    {
+      "lang": "en",
+      "text": "floor",
+      "start_sample": 3511,
+      "end_sample": 15950,
+      "start_ms": 219,
+      "end_ms": 997
+    },
+    {
+      "lang": "ja",
+      "text": "をきれいに拭きました。",
+      "start_sample": 15950,
+      "end_sample": 33495,
+      "start_ms": 997,
+      "end_ms": 2093
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou ha floor wo kirei ni fuki mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4594,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日は",
+          "start_sample": 0,
+          "end_sample": 9307,
+          "start_ms": 0,
+          "end_ms": 582
+        },
+        {
+          "lang": "en",
+          "text": "floor",
+          "start_sample": 9307,
+          "end_sample": 22146,
+          "start_ms": 582,
+          "end_ms": 1384
+        },
+        {
+          "lang": "ja",
+          "text": "をきれいに拭きました。",
+          "start_sample": 22146,
+          "end_sample": 73498,
+          "start_ms": 1384,
+          "end_ms": 4594
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日はfloorをきれいに拭きました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 1694,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日は",
+          "start_sample": 0,
+          "end_sample": 3711,
+          "start_ms": 0,
+          "end_ms": 232
+        },
+        {
+          "lang": "en",
+          "text": "floor",
+          "start_sample": 3711,
+          "end_sample": 9360,
+          "start_ms": 232,
+          "end_ms": 585
+        },
+        {
+          "lang": "ja",
+          "text": "をきれいに拭きました。",
+          "start_sample": 9360,
+          "end_sample": 27105,
+          "start_ms": 585,
+          "end_ms": 1694
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 105,
+  "frame_labels": "jjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

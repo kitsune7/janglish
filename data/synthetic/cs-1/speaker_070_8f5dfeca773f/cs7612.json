@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_070_8f5dfeca773f/cs7612.flac",
+  "sentence": "The sudden dog barking in the background was pretty 恥ずかしい on that call.",
+  "sample_rate": 16000,
+  "duration_ms": 3402,
+  "reference_speaker": "jp/speaker_070_8f5dfeca773f.mp3",
+  "seed": 7654,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The sudden dog barking in the background was pretty",
+      "start_sample": 0,
+      "end_sample": 35289,
+      "start_ms": 0,
+      "end_ms": 2206
+    },
+    {
+      "lang": "ja",
+      "text": "恥ずかしい",
+      "start_sample": 35289,
+      "end_sample": 44192,
+      "start_ms": 2206,
+      "end_ms": 2762
+    },
+    {
+      "lang": "en",
+      "text": "on that call.",
+      "start_sample": 44192,
+      "end_sample": 54427,
+      "start_ms": 2762,
+      "end_ms": 3402
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The sudden dog barking in the background was pretty hazukashii on that call.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3533,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The sudden dog barking in the background was pretty",
+          "start_sample": 0,
+          "end_sample": 35489,
+          "start_ms": 0,
+          "end_ms": 2218
+        },
+        {
+          "lang": "ja",
+          "text": "恥ずかしい",
+          "start_sample": 35489,
+          "end_sample": 46088,
+          "start_ms": 2218,
+          "end_ms": 2880
+        },
+        {
+          "lang": "en",
+          "text": "on that call.",
+          "start_sample": 46088,
+          "end_sample": 56523,
+          "start_ms": 2880,
+          "end_ms": 3533
+        }
+      ]
+    },
+    "ja": {
+      "text": "The sudden dog barking in the background was pretty 恥ずかしい on that call.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5133,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The sudden dog barking in the background was pretty",
+          "start_sample": 0,
+          "end_sample": 53252,
+          "start_ms": 0,
+          "end_ms": 3328
+        },
+        {
+          "lang": "ja",
+          "text": "恥ずかしい",
+          "start_sample": 53252,
+          "end_sample": 62555,
+          "start_ms": 3328,
+          "end_ms": 3910
+        },
+        {
+          "lang": "en",
+          "text": "on that call.",
+          "start_sample": 62555,
+          "end_sample": 82122,
+          "start_ms": 3910,
+          "end_ms": 5133
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 171,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

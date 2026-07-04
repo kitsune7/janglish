@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_075_373f531aa159/cs11045.flac",
+  "sentence": "I love how the 祭り downtown brings the whole neighborhood together every summer.",
+  "sample_rate": 16000,
+  "duration_ms": 4062,
+  "reference_speaker": "en/speaker_075_373f531aa159.mp3",
+  "seed": 11087,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I love how the",
+      "start_sample": 0,
+      "end_sample": 11349,
+      "start_ms": 0,
+      "end_ms": 709
+    },
+    {
+      "lang": "ja",
+      "text": "祭り",
+      "start_sample": 11349,
+      "end_sample": 19143,
+      "start_ms": 709,
+      "end_ms": 1196
+    },
+    {
+      "lang": "en",
+      "text": "downtown brings the whole neighborhood together every summer.",
+      "start_sample": 19143,
+      "end_sample": 64986,
+      "start_ms": 1196,
+      "end_ms": 4062
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I love how the matsuri downtown brings the whole neighborhood together every summer.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4271,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I love how the",
+          "start_sample": 0,
+          "end_sample": 11549,
+          "start_ms": 0,
+          "end_ms": 722
+        },
+        {
+          "lang": "ja",
+          "text": "祭り",
+          "start_sample": 11549,
+          "end_sample": 22298,
+          "start_ms": 722,
+          "end_ms": 1394
+        },
+        {
+          "lang": "en",
+          "text": "downtown brings the whole neighborhood together every summer.",
+          "start_sample": 22298,
+          "end_sample": 68341,
+          "start_ms": 1394,
+          "end_ms": 4271
+        }
+      ]
+    },
+    "ja": {
+      "text": "I love how the 祭り downtown brings the whole neighborhood together every summer.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4940,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I love how the",
+          "start_sample": 0,
+          "end_sample": 13170,
+          "start_ms": 0,
+          "end_ms": 823
+        },
+        {
+          "lang": "ja",
+          "text": "祭り",
+          "start_sample": 13170,
+          "end_sample": 21364,
+          "start_ms": 823,
+          "end_ms": 1335
+        },
+        {
+          "lang": "en",
+          "text": "downtown brings the whole neighborhood together every summer.",
+          "start_sample": 21364,
+          "end_sample": 79040,
+          "start_ms": 1335,
+          "end_ms": 4940
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

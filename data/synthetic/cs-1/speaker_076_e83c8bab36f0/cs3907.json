@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_076_e83c8bab36f0/cs3907.flac",
+  "sentence": "I noticed a sudden 変化 in the way she talks to me lately.",
+  "sample_rate": 16000,
+  "duration_ms": 4624,
+  "reference_speaker": "jp/speaker_076_e83c8bab36f0.mp3",
+  "seed": 3949,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I noticed a sudden",
+      "start_sample": 0,
+      "end_sample": 20938,
+      "start_ms": 0,
+      "end_ms": 1309
+    },
+    {
+      "lang": "ja",
+      "text": "変化",
+      "start_sample": 20938,
+      "end_sample": 27427,
+      "start_ms": 1309,
+      "end_ms": 1714
+    },
+    {
+      "lang": "en",
+      "text": "in the way she talks to me lately.",
+      "start_sample": 27427,
+      "end_sample": 73988,
+      "start_ms": 1714,
+      "end_ms": 4624
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I noticed a sudden henka in the way she talks to me lately.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5605,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I noticed a sudden",
+          "start_sample": 0,
+          "end_sample": 21138,
+          "start_ms": 0,
+          "end_ms": 1321
+        },
+        {
+          "lang": "ja",
+          "text": "変化",
+          "start_sample": 21138,
+          "end_sample": 42918,
+          "start_ms": 1321,
+          "end_ms": 2682
+        },
+        {
+          "lang": "en",
+          "text": "in the way she talks to me lately.",
+          "start_sample": 42918,
+          "end_sample": 89679,
+          "start_ms": 2682,
+          "end_ms": 5605
+        }
+      ]
+    },
+    "ja": {
+      "text": "I noticed a sudden 変化 in the way she talks to me lately.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3985,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I noticed a sudden",
+          "start_sample": 0,
+          "end_sample": 24351,
+          "start_ms": 0,
+          "end_ms": 1522
+        },
+        {
+          "lang": "ja",
+          "text": "変化",
+          "start_sample": 24351,
+          "end_sample": 31240,
+          "start_ms": 1522,
+          "end_ms": 1952
+        },
+        {
+          "lang": "en",
+          "text": "in the way she talks to me lately.",
+          "start_sample": 31240,
+          "end_sample": 63761,
+          "start_ms": 1952,
+          "end_ms": 3985
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 232,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

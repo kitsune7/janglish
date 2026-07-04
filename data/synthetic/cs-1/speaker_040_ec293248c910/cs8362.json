@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_040_ec293248c910/cs8362.flac",
+  "sentence": "弟のroommate が先週初めて家に遊びに来た。",
+  "sample_rate": 16000,
+  "duration_ms": 3787,
+  "reference_speaker": "en/speaker_040_ec293248c910.mp3",
+  "seed": 8404,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "弟の",
+      "start_sample": 0,
+      "end_sample": 10892,
+      "start_ms": 0,
+      "end_ms": 681
+    },
+    {
+      "lang": "en",
+      "text": "roommate",
+      "start_sample": 10892,
+      "end_sample": 23963,
+      "start_ms": 681,
+      "end_ms": 1498
+    },
+    {
+      "lang": "ja",
+      "text": "が先週初めて家に遊びに来た。",
+      "start_sample": 23963,
+      "end_sample": 60586,
+      "start_ms": 1498,
+      "end_ms": 3787
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "otouto no roommate ga senshuu hajimete ie ni asobi ni rai ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6074,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "弟の",
+          "start_sample": 0,
+          "end_sample": 12348,
+          "start_ms": 0,
+          "end_ms": 772
+        },
+        {
+          "lang": "en",
+          "text": "roommate",
+          "start_sample": 12348,
+          "end_sample": 25819,
+          "start_ms": 772,
+          "end_ms": 1614
+        },
+        {
+          "lang": "ja",
+          "text": "が先週初めて家に遊びに来た。",
+          "start_sample": 25819,
+          "end_sample": 97183,
+          "start_ms": 1614,
+          "end_ms": 6074
+        }
+      ]
+    },
+    "ja": {
+      "text": "弟のroommate が先週初めて家に遊びに来た。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3618,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "弟の",
+          "start_sample": 0,
+          "end_sample": 11092,
+          "start_ms": 0,
+          "end_ms": 693
+        },
+        {
+          "lang": "en",
+          "text": "roommate",
+          "start_sample": 11092,
+          "end_sample": 21063,
+          "start_ms": 693,
+          "end_ms": 1316
+        },
+        {
+          "lang": "ja",
+          "text": "が先週初めて家に遊びに来た。",
+          "start_sample": 21063,
+          "end_sample": 57886,
+          "start_ms": 1316,
+          "end_ms": 3618
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_002_7eff9a54bdb0/cs3597.flac",
+  "sentence": "お盆のperiodには帰省する人が多くて電車が混みます。",
+  "sample_rate": 16000,
+  "duration_ms": 4355,
+  "reference_speaker": "en/speaker_002_7eff9a54bdb0.mp3",
+  "seed": 3639,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "お盆の",
+      "start_sample": 0,
+      "end_sample": 7025,
+      "start_ms": 0,
+      "end_ms": 439
+    },
+    {
+      "lang": "en",
+      "text": "period",
+      "start_sample": 7025,
+      "end_sample": 26360,
+      "start_ms": 439,
+      "end_ms": 1648
+    },
+    {
+      "lang": "ja",
+      "text": "には帰省する人が多くて電車が混みます。",
+      "start_sample": 26360,
+      "end_sample": 69687,
+      "start_ms": 1648,
+      "end_ms": 4355
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "o bon no period ni ha kisei suru nin ga ooku te densha ga komi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8323,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お盆の",
+          "start_sample": 0,
+          "end_sample": 24386,
+          "start_ms": 0,
+          "end_ms": 1524
+        },
+        {
+          "lang": "en",
+          "text": "period",
+          "start_sample": 24386,
+          "end_sample": 44121,
+          "start_ms": 1524,
+          "end_ms": 2758
+        },
+        {
+          "lang": "ja",
+          "text": "には帰省する人が多くて電車が混みます。",
+          "start_sample": 44121,
+          "end_sample": 133169,
+          "start_ms": 2758,
+          "end_ms": 8323
+        }
+      ]
+    },
+    "ja": {
+      "text": "お盆のperiodには帰省する人が多くて電車が混みます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3594,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お盆の",
+          "start_sample": 0,
+          "end_sample": 7225,
+          "start_ms": 0,
+          "end_ms": 452
+        },
+        {
+          "lang": "en",
+          "text": "period",
+          "start_sample": 7225,
+          "end_sample": 13971,
+          "start_ms": 452,
+          "end_ms": 873
+        },
+        {
+          "lang": "ja",
+          "text": "には帰省する人が多くて電車が混みます。",
+          "start_sample": 13971,
+          "end_sample": 57498,
+          "start_ms": 873,
+          "end_ms": 3594
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

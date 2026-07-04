@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_015_995e028794f8/cs10962.flac",
+  "sentence": "The fact that he remembered small details showed real 思いやり.",
+  "sample_rate": 16000,
+  "duration_ms": 3824,
+  "reference_speaker": "en/speaker_015_995e028794f8.mp3",
+  "seed": 11004,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The fact that he remembered small details showed real",
+      "start_sample": 0,
+      "end_sample": 49355,
+      "start_ms": 0,
+      "end_ms": 3085
+    },
+    {
+      "lang": "ja",
+      "text": "思いやり.",
+      "start_sample": 49355,
+      "end_sample": 61189,
+      "start_ms": 3085,
+      "end_ms": 3824
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The fact that he remembered small details showed real omoiyari",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3809,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The fact that he remembered small details showed real",
+          "start_sample": 0,
+          "end_sample": 49555,
+          "start_ms": 0,
+          "end_ms": 3097
+        },
+        {
+          "lang": "ja",
+          "text": "思いやり.",
+          "start_sample": 49555,
+          "end_sample": 60940,
+          "start_ms": 3097,
+          "end_ms": 3809
+        }
+      ]
+    },
+    "ja": {
+      "text": "The fact that he remembered small details showed real 思いやり.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6098,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The fact that he remembered small details showed real",
+          "start_sample": 0,
+          "end_sample": 85536,
+          "start_ms": 0,
+          "end_ms": 5346
+        },
+        {
+          "lang": "ja",
+          "text": "思いやり.",
+          "start_sample": 85536,
+          "end_sample": 97570,
+          "start_ms": 5346,
+          "end_ms": 6098
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

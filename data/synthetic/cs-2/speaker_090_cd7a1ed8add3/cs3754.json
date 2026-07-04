@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_090_cd7a1ed8add3/cs3754.flac",
+  "sentence": "She wrapped the gift in 丈夫 paper and tied it with a ribbon before heading to the 郵便局.",
+  "sample_rate": 16000,
+  "duration_ms": 5503,
+  "reference_speaker": "en/speaker_090_cd7a1ed8add3.mp3",
+  "seed": 3796,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She wrapped the gift in",
+      "start_sample": 0,
+      "end_sample": 17742,
+      "start_ms": 0,
+      "end_ms": 1109
+    },
+    {
+      "lang": "ja",
+      "text": "丈夫",
+      "start_sample": 17742,
+      "end_sample": 26000,
+      "start_ms": 1109,
+      "end_ms": 1625
+    },
+    {
+      "lang": "en",
+      "text": "paper and tied it with a ribbon before heading to the",
+      "start_sample": 26000,
+      "end_sample": 70936,
+      "start_ms": 1625,
+      "end_ms": 4434
+    },
+    {
+      "lang": "ja",
+      "text": "郵便局.",
+      "start_sample": 70936,
+      "end_sample": 88051,
+      "start_ms": 4434,
+      "end_ms": 5503
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She wrapped the gift in joubu paper and tied it with a ribbon before heading to the yuubin kyoku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5226,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She wrapped the gift in",
+          "start_sample": 0,
+          "end_sample": 17942,
+          "start_ms": 0,
+          "end_ms": 1121
+        },
+        {
+          "lang": "ja",
+          "text": "丈夫",
+          "start_sample": 17942,
+          "end_sample": 23549,
+          "start_ms": 1121,
+          "end_ms": 1472
+        },
+        {
+          "lang": "en",
+          "text": "paper and tied it with a ribbon before heading to the",
+          "start_sample": 23549,
+          "end_sample": 68885,
+          "start_ms": 1472,
+          "end_ms": 4305
+        },
+        {
+          "lang": "ja",
+          "text": "郵便局.",
+          "start_sample": 68885,
+          "end_sample": 83622,
+          "start_ms": 4305,
+          "end_ms": 5226
+        }
+      ]
+    },
+    "ja": {
+      "text": "She wrapped the gift in 丈夫 paper and tied it with a ribbon before heading to the 郵便局.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7997,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She wrapped the gift in",
+          "start_sample": 0,
+          "end_sample": 27418,
+          "start_ms": 0,
+          "end_ms": 1714
+        },
+        {
+          "lang": "ja",
+          "text": "丈夫",
+          "start_sample": 27418,
+          "end_sample": 36076,
+          "start_ms": 1714,
+          "end_ms": 2255
+        },
+        {
+          "lang": "en",
+          "text": "paper and tied it with a ribbon before heading to the",
+          "start_sample": 36076,
+          "end_sample": 110635,
+          "start_ms": 2255,
+          "end_ms": 6915
+        },
+        {
+          "lang": "ja",
+          "text": "郵便局.",
+          "start_sample": 110635,
+          "end_sample": 127950,
+          "start_ms": 6915,
+          "end_ms": 7997
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 276,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_040_ec293248c910/cs11739.flac",
+  "sentence": "息子はscheduledな練習があるので、今夜は早く帰ります。",
+  "sample_rate": 16000,
+  "duration_ms": 5025,
+  "reference_speaker": "en/speaker_040_ec293248c910.mp3",
+  "seed": 11781,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "息子は",
+      "start_sample": 0,
+      "end_sample": 9248,
+      "start_ms": 0,
+      "end_ms": 578
+    },
+    {
+      "lang": "en",
+      "text": "scheduled",
+      "start_sample": 9248,
+      "end_sample": 20550,
+      "start_ms": 578,
+      "end_ms": 1284
+    },
+    {
+      "lang": "ja",
+      "text": "な練習があるので、今夜は早く帰ります。",
+      "start_sample": 20550,
+      "end_sample": 80404,
+      "start_ms": 1284,
+      "end_ms": 5025
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "musuko ha scheduled na renshuu ga aru no de konya ha hayaku kaeri masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6533,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "息子は",
+          "start_sample": 0,
+          "end_sample": 21001,
+          "start_ms": 0,
+          "end_ms": 1313
+        },
+        {
+          "lang": "en",
+          "text": "scheduled",
+          "start_sample": 21001,
+          "end_sample": 32703,
+          "start_ms": 1313,
+          "end_ms": 2044
+        },
+        {
+          "lang": "ja",
+          "text": "な練習があるので、今夜は早く帰ります。",
+          "start_sample": 32703,
+          "end_sample": 104523,
+          "start_ms": 2044,
+          "end_ms": 6533
+        }
+      ]
+    },
+    "ja": {
+      "text": "息子はscheduledな練習があるので、今夜は早く帰ります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5805,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "息子は",
+          "start_sample": 0,
+          "end_sample": 9448,
+          "start_ms": 0,
+          "end_ms": 590
+        },
+        {
+          "lang": "en",
+          "text": "scheduled",
+          "start_sample": 9448,
+          "end_sample": 32829,
+          "start_ms": 590,
+          "end_ms": 2052
+        },
+        {
+          "lang": "ja",
+          "text": "な練習があるので、今夜は早く帰ります。",
+          "start_sample": 32829,
+          "end_sample": 92883,
+          "start_ms": 2052,
+          "end_ms": 5805
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 252,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

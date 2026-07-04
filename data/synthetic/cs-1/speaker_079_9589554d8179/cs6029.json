@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_079_9589554d8179/cs6029.flac",
+  "sentence": "Can you send me the 資料 before Thursday's call?",
+  "sample_rate": 16000,
+  "duration_ms": 2308,
+  "reference_speaker": "en/speaker_079_9589554d8179.mp3",
+  "seed": 6071,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you send me the",
+      "start_sample": 0,
+      "end_sample": 10398,
+      "start_ms": 0,
+      "end_ms": 650
+    },
+    {
+      "lang": "ja",
+      "text": "資料",
+      "start_sample": 10398,
+      "end_sample": 17053,
+      "start_ms": 650,
+      "end_ms": 1066
+    },
+    {
+      "lang": "en",
+      "text": "before Thursday's call?",
+      "start_sample": 17053,
+      "end_sample": 36923,
+      "start_ms": 1066,
+      "end_ms": 2308
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you send me the shiryou before Thursday's call?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2328,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you send me the",
+          "start_sample": 0,
+          "end_sample": 10598,
+          "start_ms": 0,
+          "end_ms": 662
+        },
+        {
+          "lang": "ja",
+          "text": "資料",
+          "start_sample": 10598,
+          "end_sample": 17182,
+          "start_ms": 662,
+          "end_ms": 1074
+        },
+        {
+          "lang": "en",
+          "text": "before Thursday's call?",
+          "start_sample": 17182,
+          "end_sample": 37252,
+          "start_ms": 1074,
+          "end_ms": 2328
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you send me the 資料 before Thursday's call?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3046,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you send me the",
+          "start_sample": 0,
+          "end_sample": 16673,
+          "start_ms": 0,
+          "end_ms": 1042
+        },
+        {
+          "lang": "ja",
+          "text": "資料",
+          "start_sample": 16673,
+          "end_sample": 23728,
+          "start_ms": 1042,
+          "end_ms": 1483
+        },
+        {
+          "lang": "en",
+          "text": "before Thursday's call?",
+          "start_sample": 23728,
+          "end_sample": 48741,
+          "start_ms": 1483,
+          "end_ms": 3046
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 116,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

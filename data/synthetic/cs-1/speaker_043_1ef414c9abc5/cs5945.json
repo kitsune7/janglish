@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_043_1ef414c9abc5/cs5945.flac",
+  "sentence": "He kept a 丁寧 training log throughout his marathon prep.",
+  "sample_rate": 16000,
+  "duration_ms": 3370,
+  "reference_speaker": "jp/speaker_043_1ef414c9abc5.mp3",
+  "seed": 5987,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He kept a",
+      "start_sample": 0,
+      "end_sample": 7664,
+      "start_ms": 0,
+      "end_ms": 479
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧",
+      "start_sample": 7664,
+      "end_sample": 13681,
+      "start_ms": 479,
+      "end_ms": 855
+    },
+    {
+      "lang": "en",
+      "text": "training log throughout his marathon prep.",
+      "start_sample": 13681,
+      "end_sample": 53926,
+      "start_ms": 855,
+      "end_ms": 3370
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He kept a teinei training log throughout his marathon prep.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3571,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He kept a",
+          "start_sample": 0,
+          "end_sample": 7864,
+          "start_ms": 0,
+          "end_ms": 492
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 7864,
+          "end_sample": 16692,
+          "start_ms": 492,
+          "end_ms": 1043
+        },
+        {
+          "lang": "en",
+          "text": "training log throughout his marathon prep.",
+          "start_sample": 16692,
+          "end_sample": 57137,
+          "start_ms": 1043,
+          "end_ms": 3571
+        }
+      ]
+    },
+    "ja": {
+      "text": "He kept a 丁寧 training log throughout his marathon prep.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3730,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He kept a",
+          "start_sample": 0,
+          "end_sample": 9944,
+          "start_ms": 0,
+          "end_ms": 622
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 9944,
+          "end_sample": 16361,
+          "start_ms": 622,
+          "end_ms": 1023
+        },
+        {
+          "lang": "en",
+          "text": "training log throughout his marathon prep.",
+          "start_sample": 16361,
+          "end_sample": 59674,
+          "start_ms": 1023,
+          "end_ms": 3730
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 169,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

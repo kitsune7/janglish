@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_050_3d86fef9a9be/cs2759.flac",
+  "sentence": "He went completely 音信不通 for a week after that argument.",
+  "sample_rate": 16000,
+  "duration_ms": 3936,
+  "reference_speaker": "jp/speaker_050_3d86fef9a9be.mp3",
+  "seed": 2801,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He went completely",
+      "start_sample": 0,
+      "end_sample": 15184,
+      "start_ms": 0,
+      "end_ms": 949
+    },
+    {
+      "lang": "ja",
+      "text": "音信不通",
+      "start_sample": 15184,
+      "end_sample": 28884,
+      "start_ms": 949,
+      "end_ms": 1805
+    },
+    {
+      "lang": "en",
+      "text": "for a week after that argument.",
+      "start_sample": 28884,
+      "end_sample": 62976,
+      "start_ms": 1805,
+      "end_ms": 3936
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He went completely onshin futsuu for a week after that argument.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4126,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He went completely",
+          "start_sample": 0,
+          "end_sample": 15384,
+          "start_ms": 0,
+          "end_ms": 962
+        },
+        {
+          "lang": "ja",
+          "text": "音信不通",
+          "start_sample": 15384,
+          "end_sample": 31729,
+          "start_ms": 962,
+          "end_ms": 1983
+        },
+        {
+          "lang": "en",
+          "text": "for a week after that argument.",
+          "start_sample": 31729,
+          "end_sample": 66021,
+          "start_ms": 1983,
+          "end_ms": 4126
+        }
+      ]
+    },
+    "ja": {
+      "text": "He went completely 音信不通 for a week after that argument.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5348,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He went completely",
+          "start_sample": 0,
+          "end_sample": 20349,
+          "start_ms": 0,
+          "end_ms": 1272
+        },
+        {
+          "lang": "ja",
+          "text": "音信不通",
+          "start_sample": 20349,
+          "end_sample": 34449,
+          "start_ms": 1272,
+          "end_ms": 2153
+        },
+        {
+          "lang": "en",
+          "text": "for a week after that argument.",
+          "start_sample": 34449,
+          "end_sample": 85561,
+          "start_ms": 2153,
+          "end_ms": 5348
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 197,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

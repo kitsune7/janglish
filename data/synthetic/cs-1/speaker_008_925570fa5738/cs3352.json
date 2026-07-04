@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_008_925570fa5738/cs3352.flac",
+  "sentence": "道が flooding状態で、車が通れません。",
+  "sample_rate": 16000,
+  "duration_ms": 3048,
+  "reference_speaker": "jp/speaker_008_925570fa5738.mp3",
+  "seed": 3394,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "道が",
+      "start_sample": 0,
+      "end_sample": 5121,
+      "start_ms": 0,
+      "end_ms": 320
+    },
+    {
+      "lang": "en",
+      "text": "flooding",
+      "start_sample": 5121,
+      "end_sample": 19137,
+      "start_ms": 320,
+      "end_ms": 1196
+    },
+    {
+      "lang": "ja",
+      "text": "状態で、車が通れません。",
+      "start_sample": 19137,
+      "end_sample": 48761,
+      "start_ms": 1196,
+      "end_ms": 3048
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "michi ga flooding joutai de kuruma ga toure mase n",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5846,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "道が",
+          "start_sample": 0,
+          "end_sample": 16498,
+          "start_ms": 0,
+          "end_ms": 1031
+        },
+        {
+          "lang": "en",
+          "text": "flooding",
+          "start_sample": 16498,
+          "end_sample": 30914,
+          "start_ms": 1031,
+          "end_ms": 1932
+        },
+        {
+          "lang": "ja",
+          "text": "状態で、車が通れません。",
+          "start_sample": 30914,
+          "end_sample": 93542,
+          "start_ms": 1932,
+          "end_ms": 5846
+        }
+      ]
+    },
+    "ja": {
+      "text": "道が flooding状態で、車が通れません。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2781,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "道が",
+          "start_sample": 0,
+          "end_sample": 5321,
+          "start_ms": 0,
+          "end_ms": 333
+        },
+        {
+          "lang": "en",
+          "text": "flooding",
+          "start_sample": 5321,
+          "end_sample": 14673,
+          "start_ms": 333,
+          "end_ms": 917
+        },
+        {
+          "lang": "ja",
+          "text": "状態で、車が通れません。",
+          "start_sample": 14673,
+          "end_sample": 44497,
+          "start_ms": 917,
+          "end_ms": 2781
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 153,
+  "frame_labels": "jjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

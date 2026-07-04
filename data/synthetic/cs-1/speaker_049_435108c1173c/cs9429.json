@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_049_435108c1173c/cs9429.flac",
+  "sentence": "My 仕事部屋 is finally organized after three weeks of chaos.",
+  "sample_rate": 16000,
+  "duration_ms": 4044,
+  "reference_speaker": "jp/speaker_049_435108c1173c.mp3",
+  "seed": 9471,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My",
+      "start_sample": 0,
+      "end_sample": 2530,
+      "start_ms": 0,
+      "end_ms": 158
+    },
+    {
+      "lang": "ja",
+      "text": "仕事部屋",
+      "start_sample": 2530,
+      "end_sample": 13997,
+      "start_ms": 158,
+      "end_ms": 875
+    },
+    {
+      "lang": "en",
+      "text": "is finally organized after three weeks of chaos.",
+      "start_sample": 13997,
+      "end_sample": 64705,
+      "start_ms": 875,
+      "end_ms": 4044
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My shigoto heya is finally organized after three weeks of chaos.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4456,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 2730,
+          "start_ms": 0,
+          "end_ms": 171
+        },
+        {
+          "lang": "ja",
+          "text": "仕事部屋",
+          "start_sample": 2730,
+          "end_sample": 20396,
+          "start_ms": 171,
+          "end_ms": 1275
+        },
+        {
+          "lang": "en",
+          "text": "is finally organized after three weeks of chaos.",
+          "start_sample": 20396,
+          "end_sample": 71304,
+          "start_ms": 1275,
+          "end_ms": 4456
+        }
+      ]
+    },
+    "ja": {
+      "text": "My 仕事部屋 is finally organized after three weeks of chaos.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5312,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 4007,
+          "start_ms": 0,
+          "end_ms": 250
+        },
+        {
+          "lang": "ja",
+          "text": "仕事部屋",
+          "start_sample": 4007,
+          "end_sample": 15874,
+          "start_ms": 250,
+          "end_ms": 992
+        },
+        {
+          "lang": "en",
+          "text": "is finally organized after three weeks of chaos.",
+          "start_sample": 15874,
+          "end_sample": 84993,
+          "start_ms": 992,
+          "end_ms": 5312
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "eeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_071_72384e582e15/cs1904.flac",
+  "sentence": "The whole 連絡 chain broke down because one person didn't respond.",
+  "sample_rate": 16000,
+  "duration_ms": 3977,
+  "reference_speaker": "en/speaker_071_72384e582e15.mp3",
+  "seed": 1946,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole",
+      "start_sample": 0,
+      "end_sample": 5088,
+      "start_ms": 0,
+      "end_ms": 318
+    },
+    {
+      "lang": "ja",
+      "text": "連絡",
+      "start_sample": 5088,
+      "end_sample": 12710,
+      "start_ms": 318,
+      "end_ms": 794
+    },
+    {
+      "lang": "en",
+      "text": "chain broke down because one person didn't respond.",
+      "start_sample": 12710,
+      "end_sample": 63629,
+      "start_ms": 794,
+      "end_ms": 3977
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole renraku chain broke down because one person didn't respond.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4106,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole",
+          "start_sample": 0,
+          "end_sample": 5288,
+          "start_ms": 0,
+          "end_ms": 330
+        },
+        {
+          "lang": "ja",
+          "text": "連絡",
+          "start_sample": 5288,
+          "end_sample": 14582,
+          "start_ms": 330,
+          "end_ms": 911
+        },
+        {
+          "lang": "en",
+          "text": "chain broke down because one person didn't respond.",
+          "start_sample": 14582,
+          "end_sample": 65701,
+          "start_ms": 911,
+          "end_ms": 4106
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole 連絡 chain broke down because one person didn't respond.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4772,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole",
+          "start_sample": 0,
+          "end_sample": 9464,
+          "start_ms": 0,
+          "end_ms": 592
+        },
+        {
+          "lang": "ja",
+          "text": "連絡",
+          "start_sample": 9464,
+          "end_sample": 17486,
+          "start_ms": 592,
+          "end_ms": 1093
+        },
+        {
+          "lang": "en",
+          "text": "chain broke down because one person didn't respond.",
+          "start_sample": 17486,
+          "end_sample": 76360,
+          "start_ms": 1093,
+          "end_ms": 4772
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 199,
+  "frame_labels": "eeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

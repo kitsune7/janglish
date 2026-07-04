@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_003_7f373ff7d9ea/cs10084.flac",
+  "sentence": "Honestly, that chemistry 授業 was the hardest one all semester.",
+  "sample_rate": 16000,
+  "duration_ms": 5658,
+  "reference_speaker": "jp/speaker_003_7f373ff7d9ea.mp3",
+  "seed": 10126,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Honestly, that chemistry",
+      "start_sample": 0,
+      "end_sample": 34567,
+      "start_ms": 0,
+      "end_ms": 2160
+    },
+    {
+      "lang": "ja",
+      "text": "授業",
+      "start_sample": 34567,
+      "end_sample": 42185,
+      "start_ms": 2160,
+      "end_ms": 2637
+    },
+    {
+      "lang": "en",
+      "text": "was the hardest one all semester.",
+      "start_sample": 42185,
+      "end_sample": 90529,
+      "start_ms": 2637,
+      "end_ms": 5658
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Honestly, that chemistry jugyou was the hardest one all semester.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5708,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Honestly, that chemistry",
+          "start_sample": 0,
+          "end_sample": 34767,
+          "start_ms": 0,
+          "end_ms": 2173
+        },
+        {
+          "lang": "ja",
+          "text": "授業",
+          "start_sample": 34767,
+          "end_sample": 42778,
+          "start_ms": 2173,
+          "end_ms": 2674
+        },
+        {
+          "lang": "en",
+          "text": "was the hardest one all semester.",
+          "start_sample": 42778,
+          "end_sample": 91322,
+          "start_ms": 2674,
+          "end_ms": 5708
+        }
+      ]
+    },
+    "ja": {
+      "text": "Honestly, that chemistry 授業 was the hardest one all semester.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6534,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Honestly, that chemistry",
+          "start_sample": 0,
+          "end_sample": 41050,
+          "start_ms": 0,
+          "end_ms": 2566
+        },
+        {
+          "lang": "ja",
+          "text": "授業",
+          "start_sample": 41050,
+          "end_sample": 49068,
+          "start_ms": 2566,
+          "end_ms": 3067
+        },
+        {
+          "lang": "en",
+          "text": "was the hardest one all semester.",
+          "start_sample": 49068,
+          "end_sample": 104549,
+          "start_ms": 3067,
+          "end_ms": 6534
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 283,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

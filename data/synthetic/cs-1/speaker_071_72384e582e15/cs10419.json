@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_071_72384e582e15/cs10419.flac",
+  "sentence": "The festival had a deeply 伝統的 feel despite being only five years old.",
+  "sample_rate": 16000,
+  "duration_ms": 3939,
+  "reference_speaker": "en/speaker_071_72384e582e15.mp3",
+  "seed": 10461,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The festival had a deeply",
+      "start_sample": 0,
+      "end_sample": 17983,
+      "start_ms": 0,
+      "end_ms": 1124
+    },
+    {
+      "lang": "ja",
+      "text": "伝統的",
+      "start_sample": 17983,
+      "end_sample": 31531,
+      "start_ms": 1124,
+      "end_ms": 1971
+    },
+    {
+      "lang": "en",
+      "text": "feel despite being only five years old.",
+      "start_sample": 31531,
+      "end_sample": 63026,
+      "start_ms": 1971,
+      "end_ms": 3939
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The festival had a deeply dentou teki feel despite being only five years old.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4103,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The festival had a deeply",
+          "start_sample": 0,
+          "end_sample": 18183,
+          "start_ms": 0,
+          "end_ms": 1136
+        },
+        {
+          "lang": "ja",
+          "text": "伝統的",
+          "start_sample": 18183,
+          "end_sample": 33952,
+          "start_ms": 1136,
+          "end_ms": 2122
+        },
+        {
+          "lang": "en",
+          "text": "feel despite being only five years old.",
+          "start_sample": 33952,
+          "end_sample": 65647,
+          "start_ms": 2122,
+          "end_ms": 4103
+        }
+      ]
+    },
+    "ja": {
+      "text": "The festival had a deeply 伝統的 feel despite being only five years old.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6533,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The festival had a deeply",
+          "start_sample": 0,
+          "end_sample": 27894,
+          "start_ms": 0,
+          "end_ms": 1743
+        },
+        {
+          "lang": "ja",
+          "text": "伝統的",
+          "start_sample": 27894,
+          "end_sample": 41842,
+          "start_ms": 1743,
+          "end_ms": 2615
+        },
+        {
+          "lang": "en",
+          "text": "feel despite being only five years old.",
+          "start_sample": 41842,
+          "end_sample": 104523,
+          "start_ms": 2615,
+          "end_ms": 6533
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 197,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

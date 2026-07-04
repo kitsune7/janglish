@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_063_0760e257c60c/cs4940.flac",
+  "sentence": "交通事故のあと、保険会社にincident reportを提出しました。",
+  "sample_rate": 16000,
+  "duration_ms": 4048,
+  "reference_speaker": "jp/speaker_063_0760e257c60c.mp3",
+  "seed": 4982,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "交通事故のあと、保険会社に",
+      "start_sample": 0,
+      "end_sample": 28104,
+      "start_ms": 0,
+      "end_ms": 1756
+    },
+    {
+      "lang": "en",
+      "text": "incident report",
+      "start_sample": 28104,
+      "end_sample": 50019,
+      "start_ms": 1756,
+      "end_ms": 3126
+    },
+    {
+      "lang": "ja",
+      "text": "を提出しました。",
+      "start_sample": 50019,
+      "end_sample": 64771,
+      "start_ms": 3126,
+      "end_ms": 4048
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "koutsuu jiko no ato hoken kaisha ni incident report wo teishutsu shi mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6863,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "交通事故のあと、保険会社に",
+          "start_sample": 0,
+          "end_sample": 51373,
+          "start_ms": 0,
+          "end_ms": 3211
+        },
+        {
+          "lang": "en",
+          "text": "incident report",
+          "start_sample": 51373,
+          "end_sample": 73688,
+          "start_ms": 3211,
+          "end_ms": 4606
+        },
+        {
+          "lang": "ja",
+          "text": "を提出しました。",
+          "start_sample": 73688,
+          "end_sample": 109807,
+          "start_ms": 4606,
+          "end_ms": 6863
+        }
+      ]
+    },
+    "ja": {
+      "text": "交通事故のあと、保険会社にincident reportを提出しました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3518,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "交通事故のあと、保険会社に",
+          "start_sample": 0,
+          "end_sample": 28304,
+          "start_ms": 0,
+          "end_ms": 1769
+        },
+        {
+          "lang": "en",
+          "text": "incident report",
+          "start_sample": 28304,
+          "end_sample": 41330,
+          "start_ms": 1769,
+          "end_ms": 2583
+        },
+        {
+          "lang": "ja",
+          "text": "を提出しました。",
+          "start_sample": 41330,
+          "end_sample": 56282,
+          "start_ms": 2583,
+          "end_ms": 3518
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

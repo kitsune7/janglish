@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_007_70c21ca1cc3d/cs2528.flac",
+  "sentence": "昨日見た映画のplotがすごく複雑だった。",
+  "sample_rate": 16000,
+  "duration_ms": 3256,
+  "reference_speaker": "en/speaker_007_70c21ca1cc3d.mp3",
+  "seed": 2570,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "昨日見た映画の",
+      "start_sample": 0,
+      "end_sample": 17814,
+      "start_ms": 0,
+      "end_ms": 1113
+    },
+    {
+      "lang": "en",
+      "text": "plot",
+      "start_sample": 17814,
+      "end_sample": 25765,
+      "start_ms": 1113,
+      "end_ms": 1610
+    },
+    {
+      "lang": "ja",
+      "text": "がすごく複雑だった。",
+      "start_sample": 25765,
+      "end_sample": 52100,
+      "start_ms": 1610,
+      "end_ms": 3256
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kinou ken ta eiga no plot ga sugoku fukuzatsu datsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5882,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "昨日見た映画の",
+          "start_sample": 0,
+          "end_sample": 26658,
+          "start_ms": 0,
+          "end_ms": 1666
+        },
+        {
+          "lang": "en",
+          "text": "plot",
+          "start_sample": 26658,
+          "end_sample": 35009,
+          "start_ms": 1666,
+          "end_ms": 2188
+        },
+        {
+          "lang": "ja",
+          "text": "がすごく複雑だった。",
+          "start_sample": 35009,
+          "end_sample": 94105,
+          "start_ms": 2188,
+          "end_ms": 5882
+        }
+      ]
+    },
+    "ja": {
+      "text": "昨日見た映画のplotがすごく複雑だった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3237,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "昨日見た映画の",
+          "start_sample": 0,
+          "end_sample": 18014,
+          "start_ms": 0,
+          "end_ms": 1126
+        },
+        {
+          "lang": "en",
+          "text": "plot",
+          "start_sample": 18014,
+          "end_sample": 25253,
+          "start_ms": 1126,
+          "end_ms": 1578
+        },
+        {
+          "lang": "ja",
+          "text": "がすごく複雑だった。",
+          "start_sample": 25253,
+          "end_sample": 51788,
+          "start_ms": 1578,
+          "end_ms": 3237
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 163,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

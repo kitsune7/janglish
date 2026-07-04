@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_067_07a7e7b35c3a/cs3562.flac",
+  "sentence": "うちのトカゲはexoticな見た目で、よく話題になります。",
+  "sample_rate": 16000,
+  "duration_ms": 3694,
+  "reference_speaker": "jp/speaker_067_07a7e7b35c3a.mp3",
+  "seed": 3604,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "うちのトカゲは",
+      "start_sample": 0,
+      "end_sample": 13620,
+      "start_ms": 0,
+      "end_ms": 851
+    },
+    {
+      "lang": "en",
+      "text": "exotic",
+      "start_sample": 13620,
+      "end_sample": 26037,
+      "start_ms": 851,
+      "end_ms": 1627
+    },
+    {
+      "lang": "ja",
+      "text": "な見た目で、よく話題になります。",
+      "start_sample": 26037,
+      "end_sample": 59101,
+      "start_ms": 1627,
+      "end_ms": 3694
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "uchi no tokage ha exotic na ken ta me de yoku wadai ni nari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7890,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちのトカゲは",
+          "start_sample": 0,
+          "end_sample": 44857,
+          "start_ms": 0,
+          "end_ms": 2804
+        },
+        {
+          "lang": "en",
+          "text": "exotic",
+          "start_sample": 44857,
+          "end_sample": 57674,
+          "start_ms": 2804,
+          "end_ms": 3605
+        },
+        {
+          "lang": "ja",
+          "text": "な見た目で、よく話題になります。",
+          "start_sample": 57674,
+          "end_sample": 126243,
+          "start_ms": 3605,
+          "end_ms": 7890
+        }
+      ]
+    },
+    "ja": {
+      "text": "うちのトカゲはexoticな見た目で、よく話題になります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3535,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちのトカゲは",
+          "start_sample": 0,
+          "end_sample": 13820,
+          "start_ms": 0,
+          "end_ms": 864
+        },
+        {
+          "lang": "en",
+          "text": "exotic",
+          "start_sample": 13820,
+          "end_sample": 23302,
+          "start_ms": 864,
+          "end_ms": 1456
+        },
+        {
+          "lang": "ja",
+          "text": "な見た目で、よく話題になります。",
+          "start_sample": 23302,
+          "end_sample": 56566,
+          "start_ms": 1456,
+          "end_ms": 3535
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 185,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

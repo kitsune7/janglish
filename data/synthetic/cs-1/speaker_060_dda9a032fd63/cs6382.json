@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_060_dda9a032fd63/cs6382.flac",
+  "sentence": "It was so 静か up in the hills that we could hear our own breathing.",
+  "sample_rate": 16000,
+  "duration_ms": 3495,
+  "reference_speaker": "jp/speaker_060_dda9a032fd63.mp3",
+  "seed": 6424,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "It was so",
+      "start_sample": 0,
+      "end_sample": 7831,
+      "start_ms": 0,
+      "end_ms": 489
+    },
+    {
+      "lang": "ja",
+      "text": "静か",
+      "start_sample": 7831,
+      "end_sample": 14994,
+      "start_ms": 489,
+      "end_ms": 937
+    },
+    {
+      "lang": "en",
+      "text": "up in the hills that we could hear our own breathing.",
+      "start_sample": 14994,
+      "end_sample": 55915,
+      "start_ms": 937,
+      "end_ms": 3495
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "It was so shizuka up in the hills that we could hear our own breathing.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3815,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "It was so",
+          "start_sample": 0,
+          "end_sample": 8031,
+          "start_ms": 0,
+          "end_ms": 502
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 8031,
+          "end_sample": 19919,
+          "start_ms": 502,
+          "end_ms": 1245
+        },
+        {
+          "lang": "en",
+          "text": "up in the hills that we could hear our own breathing.",
+          "start_sample": 19919,
+          "end_sample": 61040,
+          "start_ms": 1245,
+          "end_ms": 3815
+        }
+      ]
+    },
+    "ja": {
+      "text": "It was so 静か up in the hills that we could hear our own breathing.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3399,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "It was so",
+          "start_sample": 0,
+          "end_sample": 7723,
+          "start_ms": 0,
+          "end_ms": 483
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 7723,
+          "end_sample": 15286,
+          "start_ms": 483,
+          "end_ms": 955
+        },
+        {
+          "lang": "en",
+          "text": "up in the hills that we could hear our own breathing.",
+          "start_sample": 15286,
+          "end_sample": 54383,
+          "start_ms": 955,
+          "end_ms": 3399
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

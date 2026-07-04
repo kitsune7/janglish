@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_063_66f0ab0f5d48/cs3795.flac",
+  "sentence": "The older film 現像 process takes patience, but the results feel so tactile.",
+  "sample_rate": 16000,
+  "duration_ms": 5360,
+  "reference_speaker": "en/speaker_063_66f0ab0f5d48.mp3",
+  "seed": 3837,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The older film",
+      "start_sample": 0,
+      "end_sample": 10217,
+      "start_ms": 0,
+      "end_ms": 639
+    },
+    {
+      "lang": "ja",
+      "text": "現像",
+      "start_sample": 10217,
+      "end_sample": 18960,
+      "start_ms": 639,
+      "end_ms": 1185
+    },
+    {
+      "lang": "en",
+      "text": "process takes patience, but the results feel so tactile.",
+      "start_sample": 18960,
+      "end_sample": 85753,
+      "start_ms": 1185,
+      "end_ms": 5360
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The older film genzou process takes patience, but the results feel so tactile.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5269,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The older film",
+          "start_sample": 0,
+          "end_sample": 10417,
+          "start_ms": 0,
+          "end_ms": 651
+        },
+        {
+          "lang": "ja",
+          "text": "現像",
+          "start_sample": 10417,
+          "end_sample": 17309,
+          "start_ms": 651,
+          "end_ms": 1082
+        },
+        {
+          "lang": "en",
+          "text": "process takes patience, but the results feel so tactile.",
+          "start_sample": 17309,
+          "end_sample": 84302,
+          "start_ms": 1082,
+          "end_ms": 5269
+        }
+      ]
+    },
+    "ja": {
+      "text": "The older film 現像 process takes patience, but the results feel so tactile.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7318,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The older film",
+          "start_sample": 0,
+          "end_sample": 24060,
+          "start_ms": 0,
+          "end_ms": 1504
+        },
+        {
+          "lang": "ja",
+          "text": "現像",
+          "start_sample": 24060,
+          "end_sample": 33203,
+          "start_ms": 1504,
+          "end_ms": 2075
+        },
+        {
+          "lang": "en",
+          "text": "process takes patience, but the results feel so tactile.",
+          "start_sample": 33203,
+          "end_sample": 117092,
+          "start_ms": 2075,
+          "end_ms": 7318
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 268,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

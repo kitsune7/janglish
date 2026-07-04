@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_065_22dd21ffb5a9/cs6923.flac",
+  "sentence": "The 雰囲気 in that rooftop bar is absolutely incredible on weekends.",
+  "sample_rate": 16000,
+  "duration_ms": 5600,
+  "reference_speaker": "en/speaker_065_22dd21ffb5a9.mp3",
+  "seed": 6965,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1242,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "雰囲気",
+      "start_sample": 1242,
+      "end_sample": 16380,
+      "start_ms": 78,
+      "end_ms": 1024
+    },
+    {
+      "lang": "en",
+      "text": "in that rooftop bar is absolutely incredible on weekends.",
+      "start_sample": 16380,
+      "end_sample": 89606,
+      "start_ms": 1024,
+      "end_ms": 5600
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The fun'iki in that rooftop bar is absolutely incredible on weekends.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5130,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1442,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "雰囲気",
+          "start_sample": 1442,
+          "end_sample": 8657,
+          "start_ms": 90,
+          "end_ms": 541
+        },
+        {
+          "lang": "en",
+          "text": "in that rooftop bar is absolutely incredible on weekends.",
+          "start_sample": 8657,
+          "end_sample": 82083,
+          "start_ms": 541,
+          "end_ms": 5130
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 雰囲気 in that rooftop bar is absolutely incredible on weekends.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8009,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2562,
+          "start_ms": 0,
+          "end_ms": 160
+        },
+        {
+          "lang": "ja",
+          "text": "雰囲気",
+          "start_sample": 2562,
+          "end_sample": 18100,
+          "start_ms": 160,
+          "end_ms": 1131
+        },
+        {
+          "lang": "en",
+          "text": "in that rooftop bar is absolutely incredible on weekends.",
+          "start_sample": 18100,
+          "end_sample": 128142,
+          "start_ms": 1131,
+          "end_ms": 8009
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 281,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

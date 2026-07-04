@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_029_debaa03f9928/cs2312.flac",
+  "sentence": "彼はflash無しで薄暗い部屋を撮ることが得意だ。",
+  "sample_rate": 16000,
+  "duration_ms": 2921,
+  "reference_speaker": "jp/speaker_029_debaa03f9928.mp3",
+  "seed": 2354,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼は",
+      "start_sample": 0,
+      "end_sample": 5742,
+      "start_ms": 0,
+      "end_ms": 359
+    },
+    {
+      "lang": "en",
+      "text": "flash",
+      "start_sample": 5742,
+      "end_sample": 14954,
+      "start_ms": 359,
+      "end_ms": 935
+    },
+    {
+      "lang": "ja",
+      "text": "無しで薄暗い部屋を撮ることが得意だ。",
+      "start_sample": 14954,
+      "end_sample": 46732,
+      "start_ms": 935,
+      "end_ms": 2921
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha flash nashi de usugurai heya wo toru koto ga tokui da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7049,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 4966,
+          "start_ms": 0,
+          "end_ms": 310
+        },
+        {
+          "lang": "en",
+          "text": "flash",
+          "start_sample": 4966,
+          "end_sample": 14578,
+          "start_ms": 310,
+          "end_ms": 911
+        },
+        {
+          "lang": "ja",
+          "text": "無しで薄暗い部屋を撮ることが得意だ。",
+          "start_sample": 14578,
+          "end_sample": 112784,
+          "start_ms": 911,
+          "end_ms": 7049
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はflash無しで薄暗い部屋を撮ることが得意だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2712,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 5942,
+          "start_ms": 0,
+          "end_ms": 371
+        },
+        {
+          "lang": "en",
+          "text": "flash",
+          "start_sample": 5942,
+          "end_sample": 11406,
+          "start_ms": 371,
+          "end_ms": 713
+        },
+        {
+          "lang": "ja",
+          "text": "無しで薄暗い部屋を撮ることが得意だ。",
+          "start_sample": 11406,
+          "end_sample": 43384,
+          "start_ms": 713,
+          "end_ms": 2712
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 147,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

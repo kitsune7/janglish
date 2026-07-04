@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_056_e4a42336440b/cs9190.flac",
+  "sentence": "The website went 完全 offline for three hours on the busiest shopping day.",
+  "sample_rate": 16000,
+  "duration_ms": 6783,
+  "reference_speaker": "jp/speaker_056_e4a42336440b.mp3",
+  "seed": 9232,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The website went",
+      "start_sample": 0,
+      "end_sample": 29618,
+      "start_ms": 0,
+      "end_ms": 1851
+    },
+    {
+      "lang": "ja",
+      "text": "完全",
+      "start_sample": 29618,
+      "end_sample": 41880,
+      "start_ms": 1851,
+      "end_ms": 2618
+    },
+    {
+      "lang": "en",
+      "text": "offline for three hours on the busiest shopping day.",
+      "start_sample": 41880,
+      "end_sample": 108530,
+      "start_ms": 2618,
+      "end_ms": 6783
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The website went kanzen offline for three hours on the busiest shopping day.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6593,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The website went",
+          "start_sample": 0,
+          "end_sample": 29818,
+          "start_ms": 0,
+          "end_ms": 1864
+        },
+        {
+          "lang": "ja",
+          "text": "完全",
+          "start_sample": 29818,
+          "end_sample": 38635,
+          "start_ms": 1864,
+          "end_ms": 2415
+        },
+        {
+          "lang": "en",
+          "text": "offline for three hours on the busiest shopping day.",
+          "start_sample": 38635,
+          "end_sample": 105485,
+          "start_ms": 2415,
+          "end_ms": 6593
+        }
+      ]
+    },
+    "ja": {
+      "text": "The website went 完全 offline for three hours on the busiest shopping day.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8174,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The website went",
+          "start_sample": 0,
+          "end_sample": 36703,
+          "start_ms": 0,
+          "end_ms": 2294
+        },
+        {
+          "lang": "ja",
+          "text": "完全",
+          "start_sample": 36703,
+          "end_sample": 49365,
+          "start_ms": 2294,
+          "end_ms": 3085
+        },
+        {
+          "lang": "en",
+          "text": "offline for three hours on the busiest shopping day.",
+          "start_sample": 49365,
+          "end_sample": 130786,
+          "start_ms": 3085,
+          "end_ms": 8174
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 340,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

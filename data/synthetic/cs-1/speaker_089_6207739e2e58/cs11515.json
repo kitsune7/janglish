@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_089_6207739e2e58/cs11515.flac",
+  "sentence": "The subway car was so 混雑 that I couldn't move my arms.",
+  "sample_rate": 16000,
+  "duration_ms": 3578,
+  "reference_speaker": "jp/speaker_089_6207739e2e58.mp3",
+  "seed": 11557,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The subway car was so",
+      "start_sample": 0,
+      "end_sample": 20154,
+      "start_ms": 0,
+      "end_ms": 1260
+    },
+    {
+      "lang": "ja",
+      "text": "混雑",
+      "start_sample": 20154,
+      "end_sample": 28921,
+      "start_ms": 1260,
+      "end_ms": 1808
+    },
+    {
+      "lang": "en",
+      "text": "that I couldn't move my arms.",
+      "start_sample": 28921,
+      "end_sample": 57248,
+      "start_ms": 1808,
+      "end_ms": 3578
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The subway car was so konzatsu that I couldn't move my arms.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3826,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The subway car was so",
+          "start_sample": 0,
+          "end_sample": 20354,
+          "start_ms": 0,
+          "end_ms": 1272
+        },
+        {
+          "lang": "ja",
+          "text": "混雑",
+          "start_sample": 20354,
+          "end_sample": 32695,
+          "start_ms": 1272,
+          "end_ms": 2043
+        },
+        {
+          "lang": "en",
+          "text": "that I couldn't move my arms.",
+          "start_sample": 32695,
+          "end_sample": 61222,
+          "start_ms": 2043,
+          "end_ms": 3826
+        }
+      ]
+    },
+    "ja": {
+      "text": "The subway car was so 混雑 that I couldn't move my arms.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3578,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The subway car was so",
+          "start_sample": 0,
+          "end_sample": 23153,
+          "start_ms": 0,
+          "end_ms": 1447
+        },
+        {
+          "lang": "ja",
+          "text": "混雑",
+          "start_sample": 23153,
+          "end_sample": 32320,
+          "start_ms": 1447,
+          "end_ms": 2020
+        },
+        {
+          "lang": "en",
+          "text": "that I couldn't move my arms.",
+          "start_sample": 32320,
+          "end_sample": 57243,
+          "start_ms": 2020,
+          "end_ms": 3578
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 179,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

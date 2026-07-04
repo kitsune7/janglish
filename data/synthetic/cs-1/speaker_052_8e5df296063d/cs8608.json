@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_052_8e5df296063d/cs8608.flac",
+  "sentence": "The 背景 is too cluttered — let's move the subject to the left.",
+  "sample_rate": 16000,
+  "duration_ms": 4634,
+  "reference_speaker": "jp/speaker_052_8e5df296063d.mp3",
+  "seed": 8650,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1244,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "背景",
+      "start_sample": 1244,
+      "end_sample": 10623,
+      "start_ms": 78,
+      "end_ms": 664
+    },
+    {
+      "lang": "en",
+      "text": "is too cluttered — let's move the subject to the left.",
+      "start_sample": 10623,
+      "end_sample": 74140,
+      "start_ms": 664,
+      "end_ms": 4634
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The haikei is too cluttered — let's move the subject to the left.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4594,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1444,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "背景",
+          "start_sample": 1444,
+          "end_sample": 9790,
+          "start_ms": 90,
+          "end_ms": 612
+        },
+        {
+          "lang": "en",
+          "text": "is too cluttered — let's move the subject to the left.",
+          "start_sample": 9790,
+          "end_sample": 73507,
+          "start_ms": 612,
+          "end_ms": 4594
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 背景 is too cluttered — let's move the subject to the left.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4068,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3204,
+          "start_ms": 0,
+          "end_ms": 200
+        },
+        {
+          "lang": "ja",
+          "text": "背景",
+          "start_sample": 3204,
+          "end_sample": 12983,
+          "start_ms": 200,
+          "end_ms": 811
+        },
+        {
+          "lang": "en",
+          "text": "is too cluttered — let's move the subject to the left.",
+          "start_sample": 12983,
+          "end_sample": 65080,
+          "start_ms": 811,
+          "end_ms": 4068
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 232,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

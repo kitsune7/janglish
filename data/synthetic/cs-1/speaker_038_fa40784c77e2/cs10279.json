@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_038_fa40784c77e2/cs10279.flac",
+  "sentence": "ひな祭りの飾りつけは本当にelegantだと思う。",
+  "sample_rate": 16000,
+  "duration_ms": 3000,
+  "reference_speaker": "jp/speaker_038_fa40784c77e2.mp3",
+  "seed": 10321,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "ひな祭りの飾りつけは本当に",
+      "start_sample": 0,
+      "end_sample": 24208,
+      "start_ms": 0,
+      "end_ms": 1513
+    },
+    {
+      "lang": "en",
+      "text": "elegant",
+      "start_sample": 24208,
+      "end_sample": 39531,
+      "start_ms": 1513,
+      "end_ms": 2471
+    },
+    {
+      "lang": "ja",
+      "text": "だと思う。",
+      "start_sample": 39531,
+      "end_sample": 47999,
+      "start_ms": 2471,
+      "end_ms": 3000
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "hinamatsuri no kazaritsuke ha hontou ni elegant da to omou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6237,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ひな祭りの飾りつけは本当に",
+          "start_sample": 0,
+          "end_sample": 72356,
+          "start_ms": 0,
+          "end_ms": 4522
+        },
+        {
+          "lang": "en",
+          "text": "elegant",
+          "start_sample": 72356,
+          "end_sample": 88079,
+          "start_ms": 4522,
+          "end_ms": 5505
+        },
+        {
+          "lang": "ja",
+          "text": "だと思う。",
+          "start_sample": 88079,
+          "end_sample": 99789,
+          "start_ms": 5505,
+          "end_ms": 6237
+        }
+      ]
+    },
+    "ja": {
+      "text": "ひな祭りの飾りつけは本当にelegantだと思う。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2449,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ひな祭りの飾りつけは本当に",
+          "start_sample": 0,
+          "end_sample": 24408,
+          "start_ms": 0,
+          "end_ms": 1526
+        },
+        {
+          "lang": "en",
+          "text": "elegant",
+          "start_sample": 24408,
+          "end_sample": 30511,
+          "start_ms": 1526,
+          "end_ms": 1907
+        },
+        {
+          "lang": "ja",
+          "text": "だと思う。",
+          "start_sample": 30511,
+          "end_sample": 39179,
+          "start_ms": 1907,
+          "end_ms": 2449
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 150,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

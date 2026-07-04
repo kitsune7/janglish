@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_062_05f0c617d0bb/cs5904.flac",
+  "sentence": "The 展望台 at the top of the tower lets you see three different cities on a clear day.",
+  "sample_rate": 16000,
+  "duration_ms": 5918,
+  "reference_speaker": "en/speaker_062_05f0c617d0bb.mp3",
+  "seed": 5946,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1565,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "展望台",
+      "start_sample": 1565,
+      "end_sample": 15589,
+      "start_ms": 98,
+      "end_ms": 974
+    },
+    {
+      "lang": "en",
+      "text": "at the top of the tower lets you see three different cities on a clear day.",
+      "start_sample": 15589,
+      "end_sample": 94687,
+      "start_ms": 974,
+      "end_ms": 5918
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The tenbou dai at the top of the tower lets you see three different cities on a clear day.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5899,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1765,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "展望台",
+          "start_sample": 1765,
+          "end_sample": 15089,
+          "start_ms": 110,
+          "end_ms": 943
+        },
+        {
+          "lang": "en",
+          "text": "at the top of the tower lets you see three different cities on a clear day.",
+          "start_sample": 15089,
+          "end_sample": 94387,
+          "start_ms": 943,
+          "end_ms": 5899
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 展望台 at the top of the tower lets you see three different cities on a clear day.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7212,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4006,
+          "start_ms": 0,
+          "end_ms": 250
+        },
+        {
+          "lang": "ja",
+          "text": "展望台",
+          "start_sample": 4006,
+          "end_sample": 18430,
+          "start_ms": 250,
+          "end_ms": 1152
+        },
+        {
+          "lang": "en",
+          "text": "at the top of the tower lets you see three different cities on a clear day.",
+          "start_sample": 18430,
+          "end_sample": 115393,
+          "start_ms": 1152,
+          "end_ms": 7212
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 296,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

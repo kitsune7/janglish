@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_003_7f373ff7d9ea/cs4324.flac",
+  "sentence": "I'm streaming tonight, so please keep the 結末 spoilers out of chat.",
+  "sample_rate": 16000,
+  "duration_ms": 6238,
+  "reference_speaker": "jp/speaker_003_7f373ff7d9ea.mp3",
+  "seed": 4366,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I'm streaming tonight, so please keep the",
+      "start_sample": 0,
+      "end_sample": 52280,
+      "start_ms": 0,
+      "end_ms": 3268
+    },
+    {
+      "lang": "ja",
+      "text": "結末",
+      "start_sample": 52280,
+      "end_sample": 65981,
+      "start_ms": 3268,
+      "end_ms": 4124
+    },
+    {
+      "lang": "en",
+      "text": "spoilers out of chat.",
+      "start_sample": 65981,
+      "end_sample": 99804,
+      "start_ms": 4124,
+      "end_ms": 6238
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I'm streaming tonight, so please keep the ketsumatsu spoilers out of chat.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6219,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I'm streaming tonight, so please keep the",
+          "start_sample": 0,
+          "end_sample": 52480,
+          "start_ms": 0,
+          "end_ms": 3280
+        },
+        {
+          "lang": "ja",
+          "text": "結末",
+          "start_sample": 52480,
+          "end_sample": 65481,
+          "start_ms": 3280,
+          "end_ms": 4093
+        },
+        {
+          "lang": "en",
+          "text": "spoilers out of chat.",
+          "start_sample": 65481,
+          "end_sample": 99504,
+          "start_ms": 4093,
+          "end_ms": 6219
+        }
+      ]
+    },
+    "ja": {
+      "text": "I'm streaming tonight, so please keep the 結末 spoilers out of chat.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5348,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I'm streaming tonight, so please keep the",
+          "start_sample": 0,
+          "end_sample": 46304,
+          "start_ms": 0,
+          "end_ms": 2894
+        },
+        {
+          "lang": "ja",
+          "text": "結末",
+          "start_sample": 46304,
+          "end_sample": 60405,
+          "start_ms": 2894,
+          "end_ms": 3775
+        },
+        {
+          "lang": "en",
+          "text": "spoilers out of chat.",
+          "start_sample": 60405,
+          "end_sample": 85560,
+          "start_ms": 3775,
+          "end_ms": 5348
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 312,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

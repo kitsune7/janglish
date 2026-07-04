@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_029_debaa03f9928/cs10895.flac",
+  "sentence": "今日のgallery tourは三時間もかかった。",
+  "sample_rate": 16000,
+  "duration_ms": 2880,
+  "reference_speaker": "jp/speaker_029_debaa03f9928.mp3",
+  "seed": 10937,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日の",
+      "start_sample": 0,
+      "end_sample": 5585,
+      "start_ms": 0,
+      "end_ms": 349
+    },
+    {
+      "lang": "en",
+      "text": "gallery tour",
+      "start_sample": 5585,
+      "end_sample": 25865,
+      "start_ms": 349,
+      "end_ms": 1617
+    },
+    {
+      "lang": "ja",
+      "text": "は三時間もかかった。",
+      "start_sample": 25865,
+      "end_sample": 46084,
+      "start_ms": 1617,
+      "end_ms": 2880
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou no gallery tour ha san jikan mo kakatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5430,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の",
+          "start_sample": 0,
+          "end_sample": 30938,
+          "start_ms": 0,
+          "end_ms": 1934
+        },
+        {
+          "lang": "en",
+          "text": "gallery tour",
+          "start_sample": 30938,
+          "end_sample": 51618,
+          "start_ms": 1934,
+          "end_ms": 3226
+        },
+        {
+          "lang": "ja",
+          "text": "は三時間もかかった。",
+          "start_sample": 51618,
+          "end_sample": 86883,
+          "start_ms": 3226,
+          "end_ms": 5430
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日のgallery tourは三時間もかかった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2251,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の",
+          "start_sample": 0,
+          "end_sample": 5785,
+          "start_ms": 0,
+          "end_ms": 362
+        },
+        {
+          "lang": "en",
+          "text": "gallery tour",
+          "start_sample": 5785,
+          "end_sample": 15595,
+          "start_ms": 362,
+          "end_ms": 975
+        },
+        {
+          "lang": "ja",
+          "text": "は三時間もかかった。",
+          "start_sample": 15595,
+          "end_sample": 36014,
+          "start_ms": 975,
+          "end_ms": 2251
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 145,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

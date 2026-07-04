@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_031_dcac4ff5a983/cs6450.flac",
+  "sentence": "今度の映画はoriginalかリメイクかまだわからない。",
+  "sample_rate": 16000,
+  "duration_ms": 4599,
+  "reference_speaker": "en/speaker_031_dcac4ff5a983.mp3",
+  "seed": 6492,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今度の映画は",
+      "start_sample": 0,
+      "end_sample": 20644,
+      "start_ms": 0,
+      "end_ms": 1290
+    },
+    {
+      "lang": "en",
+      "text": "original",
+      "start_sample": 20644,
+      "end_sample": 38190,
+      "start_ms": 1290,
+      "end_ms": 2387
+    },
+    {
+      "lang": "ja",
+      "text": "かリメイクかまだわからない。",
+      "start_sample": 38190,
+      "end_sample": 73585,
+      "start_ms": 2387,
+      "end_ms": 4599
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kondo no eiga ha original ka rimeiku ka mada wakara nai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9093,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今度の映画は",
+          "start_sample": 0,
+          "end_sample": 43261,
+          "start_ms": 0,
+          "end_ms": 2704
+        },
+        {
+          "lang": "en",
+          "text": "original",
+          "start_sample": 43261,
+          "end_sample": 61207,
+          "start_ms": 2704,
+          "end_ms": 3825
+        },
+        {
+          "lang": "ja",
+          "text": "かリメイクかまだわからない。",
+          "start_sample": 61207,
+          "end_sample": 145486,
+          "start_ms": 3825,
+          "end_ms": 9093
+        }
+      ]
+    },
+    "ja": {
+      "text": "今度の映画はoriginalかリメイクかまだわからない。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4249,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今度の映画は",
+          "start_sample": 0,
+          "end_sample": 20844,
+          "start_ms": 0,
+          "end_ms": 1303
+        },
+        {
+          "lang": "en",
+          "text": "original",
+          "start_sample": 20844,
+          "end_sample": 32389,
+          "start_ms": 1303,
+          "end_ms": 2024
+        },
+        {
+          "lang": "ja",
+          "text": "かリメイクかまだわからない。",
+          "start_sample": 32389,
+          "end_sample": 67984,
+          "start_ms": 2024,
+          "end_ms": 4249
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 230,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

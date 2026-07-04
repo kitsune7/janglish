@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_089_6207739e2e58/cs11488.flac",
+  "sentence": "His bathroom shelf is packed with more 美容 products than most people own.",
+  "sample_rate": 16000,
+  "duration_ms": 4521,
+  "reference_speaker": "jp/speaker_089_6207739e2e58.mp3",
+  "seed": 11530,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His bathroom shelf is packed with more",
+      "start_sample": 0,
+      "end_sample": 41763,
+      "start_ms": 0,
+      "end_ms": 2610
+    },
+    {
+      "lang": "ja",
+      "text": "美容",
+      "start_sample": 41763,
+      "end_sample": 46328,
+      "start_ms": 2610,
+      "end_ms": 2896
+    },
+    {
+      "lang": "en",
+      "text": "products than most people own.",
+      "start_sample": 46328,
+      "end_sample": 72331,
+      "start_ms": 2896,
+      "end_ms": 4521
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His bathroom shelf is packed with more biyou products than most people own.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4602,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His bathroom shelf is packed with more",
+          "start_sample": 0,
+          "end_sample": 41963,
+          "start_ms": 0,
+          "end_ms": 2623
+        },
+        {
+          "lang": "ja",
+          "text": "美容",
+          "start_sample": 41963,
+          "end_sample": 47429,
+          "start_ms": 2623,
+          "end_ms": 2964
+        },
+        {
+          "lang": "en",
+          "text": "products than most people own.",
+          "start_sample": 47429,
+          "end_sample": 73632,
+          "start_ms": 2964,
+          "end_ms": 4602
+        }
+      ]
+    },
+    "ja": {
+      "text": "His bathroom shelf is packed with more 美容 products than most people own.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5426,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His bathroom shelf is packed with more",
+          "start_sample": 0,
+          "end_sample": 43568,
+          "start_ms": 0,
+          "end_ms": 2723
+        },
+        {
+          "lang": "ja",
+          "text": "美容",
+          "start_sample": 43568,
+          "end_sample": 48533,
+          "start_ms": 2723,
+          "end_ms": 3033
+        },
+        {
+          "lang": "en",
+          "text": "products than most people own.",
+          "start_sample": 48533,
+          "end_sample": 86815,
+          "start_ms": 3033,
+          "end_ms": 5426
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 227,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

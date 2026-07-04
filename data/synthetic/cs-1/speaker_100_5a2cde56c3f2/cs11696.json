@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_100_5a2cde56c3f2/cs11696.flac",
+  "sentence": "evacuationの指示に従ってください。",
+  "sample_rate": 16000,
+  "duration_ms": 2612,
+  "reference_speaker": "jp/speaker_100_5a2cde56c3f2.mp3",
+  "seed": 11738,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "evacuation",
+      "start_sample": 0,
+      "end_sample": 20466,
+      "start_ms": 0,
+      "end_ms": 1279
+    },
+    {
+      "lang": "ja",
+      "text": "の指示に従ってください。",
+      "start_sample": 20466,
+      "end_sample": 41787,
+      "start_ms": 1279,
+      "end_ms": 2612
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "evacuation no shiji ni shitagatsu te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4626,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "evacuation",
+          "start_sample": 0,
+          "end_sample": 20666,
+          "start_ms": 0,
+          "end_ms": 1292
+        },
+        {
+          "lang": "ja",
+          "text": "の指示に従ってください。",
+          "start_sample": 20666,
+          "end_sample": 74018,
+          "start_ms": 1292,
+          "end_ms": 4626
+        }
+      ]
+    },
+    "ja": {
+      "text": "evacuationの指示に従ってください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2048,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "evacuation",
+          "start_sample": 0,
+          "end_sample": 11240,
+          "start_ms": 0,
+          "end_ms": 702
+        },
+        {
+          "lang": "ja",
+          "text": "の指示に従ってください。",
+          "start_sample": 11240,
+          "end_sample": 32761,
+          "start_ms": 702,
+          "end_ms": 2048
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 131,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

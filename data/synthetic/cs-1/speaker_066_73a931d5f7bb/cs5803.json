@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_066_73a931d5f7bb/cs5803.flac",
+  "sentence": "I made a 買い物リスト but I still forgot half of what I needed.",
+  "sample_rate": 16000,
+  "duration_ms": 4130,
+  "reference_speaker": "en/speaker_066_73a931d5f7bb.mp3",
+  "seed": 5845,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I made a",
+      "start_sample": 0,
+      "end_sample": 7016,
+      "start_ms": 0,
+      "end_ms": 438
+    },
+    {
+      "lang": "ja",
+      "text": "買い物リスト",
+      "start_sample": 7016,
+      "end_sample": 18321,
+      "start_ms": 438,
+      "end_ms": 1145
+    },
+    {
+      "lang": "en",
+      "text": "but I still forgot half of what I needed.",
+      "start_sample": 18321,
+      "end_sample": 66083,
+      "start_ms": 1145,
+      "end_ms": 4130
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I made a kaimono risuto but I still forgot half of what I needed.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5153,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I made a",
+          "start_sample": 0,
+          "end_sample": 7216,
+          "start_ms": 0,
+          "end_ms": 451
+        },
+        {
+          "lang": "ja",
+          "text": "買い物リスト",
+          "start_sample": 7216,
+          "end_sample": 34487,
+          "start_ms": 451,
+          "end_ms": 2155
+        },
+        {
+          "lang": "en",
+          "text": "but I still forgot half of what I needed.",
+          "start_sample": 34487,
+          "end_sample": 82449,
+          "start_ms": 2155,
+          "end_ms": 5153
+        }
+      ]
+    },
+    "ja": {
+      "text": "I made a 買い物リスト but I still forgot half of what I needed.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3608,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I made a",
+          "start_sample": 0,
+          "end_sample": 6732,
+          "start_ms": 0,
+          "end_ms": 421
+        },
+        {
+          "lang": "ja",
+          "text": "買い物リスト",
+          "start_sample": 6732,
+          "end_sample": 18437,
+          "start_ms": 421,
+          "end_ms": 1152
+        },
+        {
+          "lang": "en",
+          "text": "but I still forgot half of what I needed.",
+          "start_sample": 18437,
+          "end_sample": 57720,
+          "start_ms": 1152,
+          "end_ms": 3608
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 207,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

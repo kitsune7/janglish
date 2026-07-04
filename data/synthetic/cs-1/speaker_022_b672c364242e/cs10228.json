@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_022_b672c364242e/cs10228.flac",
+  "sentence": "Her parallel parking is 完璧, even in the tightest spaces.",
+  "sample_rate": 16000,
+  "duration_ms": 3888,
+  "reference_speaker": "jp/speaker_022_b672c364242e.mp3",
+  "seed": 10270,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Her parallel parking is",
+      "start_sample": 0,
+      "end_sample": 22396,
+      "start_ms": 0,
+      "end_ms": 1400
+    },
+    {
+      "lang": "ja",
+      "text": "完璧,",
+      "start_sample": 22396,
+      "end_sample": 35487,
+      "start_ms": 1400,
+      "end_ms": 2218
+    },
+    {
+      "lang": "en",
+      "text": "even in the tightest spaces.",
+      "start_sample": 35487,
+      "end_sample": 62209,
+      "start_ms": 2218,
+      "end_ms": 3888
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Her parallel parking is kanpeki even in the tightest spaces.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3786,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her parallel parking is",
+          "start_sample": 0,
+          "end_sample": 22596,
+          "start_ms": 0,
+          "end_ms": 1412
+        },
+        {
+          "lang": "ja",
+          "text": "完璧,",
+          "start_sample": 22596,
+          "end_sample": 33654,
+          "start_ms": 1412,
+          "end_ms": 2103
+        },
+        {
+          "lang": "en",
+          "text": "even in the tightest spaces.",
+          "start_sample": 33654,
+          "end_sample": 60576,
+          "start_ms": 2103,
+          "end_ms": 3786
+        }
+      ]
+    },
+    "ja": {
+      "text": "Her parallel parking is 完璧, even in the tightest spaces.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4497,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her parallel parking is",
+          "start_sample": 0,
+          "end_sample": 24411,
+          "start_ms": 0,
+          "end_ms": 1526
+        },
+        {
+          "lang": "ja",
+          "text": "完璧,",
+          "start_sample": 24411,
+          "end_sample": 37902,
+          "start_ms": 1526,
+          "end_ms": 2369
+        },
+        {
+          "lang": "en",
+          "text": "even in the tightest spaces.",
+          "start_sample": 37902,
+          "end_sample": 71947,
+          "start_ms": 2369,
+          "end_ms": 4497
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 195,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

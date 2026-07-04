@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_008_925570fa5738/cs1031.flac",
+  "sentence": "ちょっとdrinkをもう一杯だけ頼んでもいいですか？",
+  "sample_rate": 16000,
+  "duration_ms": 3235,
+  "reference_speaker": "jp/speaker_008_925570fa5738.mp3",
+  "seed": 1073,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "ちょっと",
+      "start_sample": 0,
+      "end_sample": 5752,
+      "start_ms": 0,
+      "end_ms": 360
+    },
+    {
+      "lang": "en",
+      "text": "drink",
+      "start_sample": 5752,
+      "end_sample": 15123,
+      "start_ms": 360,
+      "end_ms": 945
+    },
+    {
+      "lang": "ja",
+      "text": "をもう一杯だけ頼んでもいいですか？",
+      "start_sample": 15123,
+      "end_sample": 51765,
+      "start_ms": 945,
+      "end_ms": 3235
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "chotto drink wo mou ichi hai dake tanon de mo ii desu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6768,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ちょっと",
+          "start_sample": 0,
+          "end_sample": 5285,
+          "start_ms": 0,
+          "end_ms": 330
+        },
+        {
+          "lang": "en",
+          "text": "drink",
+          "start_sample": 5285,
+          "end_sample": 15056,
+          "start_ms": 330,
+          "end_ms": 941
+        },
+        {
+          "lang": "ja",
+          "text": "をもう一杯だけ頼んでもいいですか？",
+          "start_sample": 15056,
+          "end_sample": 108282,
+          "start_ms": 941,
+          "end_ms": 6768
+        }
+      ]
+    },
+    "ja": {
+      "text": "ちょっとdrinkをもう一杯だけ頼んでもいいですか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3177,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ちょっと",
+          "start_sample": 0,
+          "end_sample": 5952,
+          "start_ms": 0,
+          "end_ms": 372
+        },
+        {
+          "lang": "en",
+          "text": "drink",
+          "start_sample": 5952,
+          "end_sample": 13997,
+          "start_ms": 372,
+          "end_ms": 875
+        },
+        {
+          "lang": "ja",
+          "text": "をもう一杯だけ頼んでもいいですか？",
+          "start_sample": 13997,
+          "end_sample": 50839,
+          "start_ms": 875,
+          "end_ms": 3177
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 162,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

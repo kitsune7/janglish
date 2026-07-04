@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_077_a8ec885aec97/cs10653.flac",
+  "sentence": "The 踏切 barrier was stuck down, so traffic backed up for blocks.",
+  "sample_rate": 16000,
+  "duration_ms": 6815,
+  "reference_speaker": "jp/speaker_077_a8ec885aec97.mp3",
+  "seed": 10695,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 762,
+      "start_ms": 0,
+      "end_ms": 48
+    },
+    {
+      "lang": "ja",
+      "text": "踏切",
+      "start_sample": 762,
+      "end_sample": 23606,
+      "start_ms": 48,
+      "end_ms": 1475
+    },
+    {
+      "lang": "en",
+      "text": "barrier was stuck down, so traffic backed up for blocks.",
+      "start_sample": 23606,
+      "end_sample": 109034,
+      "start_ms": 1475,
+      "end_ms": 6815
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The fumikiri barrier was stuck down, so traffic backed up for blocks.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7737,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 962,
+          "start_ms": 0,
+          "end_ms": 60
+        },
+        {
+          "lang": "ja",
+          "text": "踏切",
+          "start_sample": 962,
+          "end_sample": 38164,
+          "start_ms": 60,
+          "end_ms": 2385
+        },
+        {
+          "lang": "en",
+          "text": "barrier was stuck down, so traffic backed up for blocks.",
+          "start_sample": 38164,
+          "end_sample": 123792,
+          "start_ms": 2385,
+          "end_ms": 7737
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 踏切 barrier was stuck down, so traffic backed up for blocks.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7734,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 11862,
+          "start_ms": 0,
+          "end_ms": 741
+        },
+        {
+          "lang": "ja",
+          "text": "踏切",
+          "start_sample": 11862,
+          "end_sample": 35106,
+          "start_ms": 741,
+          "end_ms": 2194
+        },
+        {
+          "lang": "en",
+          "text": "barrier was stuck down, so traffic backed up for blocks.",
+          "start_sample": 35106,
+          "end_sample": 123752,
+          "start_ms": 2194,
+          "end_ms": 7734
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 341,
+  "frame_labels": "eejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

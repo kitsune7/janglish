@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_058_a8a05baeecbd/cs5532.flac",
+  "sentence": "Could you scrub the grout? It's gotten really 黒ずんだ.",
+  "sample_rate": 16000,
+  "duration_ms": 4903,
+  "reference_speaker": "jp/speaker_058_a8a05baeecbd.mp3",
+  "seed": 5574,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Could you scrub the grout? It's gotten really",
+      "start_sample": 0,
+      "end_sample": 66922,
+      "start_ms": 0,
+      "end_ms": 4183
+    },
+    {
+      "lang": "ja",
+      "text": "黒ずんだ.",
+      "start_sample": 66922,
+      "end_sample": 78441,
+      "start_ms": 4183,
+      "end_ms": 4903
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Could you scrub the grout? It's gotten really kurozun da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5026,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you scrub the grout? It's gotten really",
+          "start_sample": 0,
+          "end_sample": 67122,
+          "start_ms": 0,
+          "end_ms": 4195
+        },
+        {
+          "lang": "ja",
+          "text": "黒ずんだ.",
+          "start_sample": 67122,
+          "end_sample": 80418,
+          "start_ms": 4195,
+          "end_ms": 5026
+        }
+      ]
+    },
+    "ja": {
+      "text": "Could you scrub the grout? It's gotten really 黒ずんだ.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4597,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you scrub the grout? It's gotten really",
+          "start_sample": 0,
+          "end_sample": 61829,
+          "start_ms": 0,
+          "end_ms": 3864
+        },
+        {
+          "lang": "ja",
+          "text": "黒ずんだ.",
+          "start_sample": 61829,
+          "end_sample": 73548,
+          "start_ms": 3864,
+          "end_ms": 4597
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 246,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

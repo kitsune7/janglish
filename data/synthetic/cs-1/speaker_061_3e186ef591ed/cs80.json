@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_061_3e186ef591ed/cs80.flac",
+  "sentence": "What a 素晴らしい harvest we got from those heirloom tomatoes this year!",
+  "sample_rate": 16000,
+  "duration_ms": 4390,
+  "reference_speaker": "jp/speaker_061_3e186ef591ed.mp3",
+  "seed": 122,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "What a",
+      "start_sample": 0,
+      "end_sample": 3817,
+      "start_ms": 0,
+      "end_ms": 239
+    },
+    {
+      "lang": "ja",
+      "text": "素晴らしい",
+      "start_sample": 3817,
+      "end_sample": 14993,
+      "start_ms": 239,
+      "end_ms": 937
+    },
+    {
+      "lang": "en",
+      "text": "harvest we got from those heirloom tomatoes this year!",
+      "start_sample": 14993,
+      "end_sample": 70234,
+      "start_ms": 937,
+      "end_ms": 4390
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "What a subarashii harvest we got from those heirloom tomatoes this year!",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4660,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "What a",
+          "start_sample": 0,
+          "end_sample": 4017,
+          "start_ms": 0,
+          "end_ms": 251
+        },
+        {
+          "lang": "ja",
+          "text": "素晴らしい",
+          "start_sample": 4017,
+          "end_sample": 19124,
+          "start_ms": 251,
+          "end_ms": 1195
+        },
+        {
+          "lang": "en",
+          "text": "harvest we got from those heirloom tomatoes this year!",
+          "start_sample": 19124,
+          "end_sample": 74565,
+          "start_ms": 1195,
+          "end_ms": 4660
+        }
+      ]
+    },
+    "ja": {
+      "text": "What a 素晴らしい harvest we got from those heirloom tomatoes this year!",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4642,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "What a",
+          "start_sample": 0,
+          "end_sample": 4180,
+          "start_ms": 0,
+          "end_ms": 261
+        },
+        {
+          "lang": "ja",
+          "text": "素晴らしい",
+          "start_sample": 4180,
+          "end_sample": 15756,
+          "start_ms": 261,
+          "end_ms": 985
+        },
+        {
+          "lang": "en",
+          "text": "harvest we got from those heirloom tomatoes this year!",
+          "start_sample": 15756,
+          "end_sample": 74275,
+          "start_ms": 985,
+          "end_ms": 4642
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 220,
+  "frame_labels": "eeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

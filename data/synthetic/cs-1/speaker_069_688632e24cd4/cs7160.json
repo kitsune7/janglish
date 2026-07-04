@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_069_688632e24cd4/cs7160.flac",
+  "sentence": "高速道路でのmergeがいつも緊張する。",
+  "sample_rate": 16000,
+  "duration_ms": 2281,
+  "reference_speaker": "en/speaker_069_688632e24cd4.mp3",
+  "seed": 7202,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "高速道路での",
+      "start_sample": 0,
+      "end_sample": 12993,
+      "start_ms": 0,
+      "end_ms": 812
+    },
+    {
+      "lang": "en",
+      "text": "merge",
+      "start_sample": 12993,
+      "end_sample": 17722,
+      "start_ms": 812,
+      "end_ms": 1108
+    },
+    {
+      "lang": "ja",
+      "text": "がいつも緊張する。",
+      "start_sample": 17722,
+      "end_sample": 36503,
+      "start_ms": 1108,
+      "end_ms": 2281
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kousoku douro de no merge ga itsu mo kinchou suru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3586,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "高速道路での",
+          "start_sample": 0,
+          "end_sample": 22597,
+          "start_ms": 0,
+          "end_ms": 1412
+        },
+        {
+          "lang": "en",
+          "text": "merge",
+          "start_sample": 22597,
+          "end_sample": 27726,
+          "start_ms": 1412,
+          "end_ms": 1733
+        },
+        {
+          "lang": "ja",
+          "text": "がいつも緊張する。",
+          "start_sample": 27726,
+          "end_sample": 57375,
+          "start_ms": 1733,
+          "end_ms": 3586
+        }
+      ]
+    },
+    "ja": {
+      "text": "高速道路でのmergeがいつも緊張する。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2313,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "高速道路での",
+          "start_sample": 0,
+          "end_sample": 13193,
+          "start_ms": 0,
+          "end_ms": 825
+        },
+        {
+          "lang": "en",
+          "text": "merge",
+          "start_sample": 13193,
+          "end_sample": 18020,
+          "start_ms": 825,
+          "end_ms": 1126
+        },
+        {
+          "lang": "ja",
+          "text": "がいつも緊張する。",
+          "start_sample": 18020,
+          "end_sample": 37001,
+          "start_ms": 1126,
+          "end_ms": 2313
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 115,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

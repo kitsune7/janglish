@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_019_45c9ebd0ae18/cs8991.flac",
+  "sentence": "That post office has a self-service 機械 where you can weigh and label packages yourself.",
+  "sample_rate": 16000,
+  "duration_ms": 4718,
+  "reference_speaker": "jp/speaker_019_45c9ebd0ae18.mp3",
+  "seed": 9033,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That post office has a self-service",
+      "start_sample": 0,
+      "end_sample": 30729,
+      "start_ms": 0,
+      "end_ms": 1921
+    },
+    {
+      "lang": "ja",
+      "text": "機械",
+      "start_sample": 30729,
+      "end_sample": 37712,
+      "start_ms": 1921,
+      "end_ms": 2357
+    },
+    {
+      "lang": "en",
+      "text": "where you can weigh and label packages yourself.",
+      "start_sample": 37712,
+      "end_sample": 75492,
+      "start_ms": 2357,
+      "end_ms": 4718
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That post office has a self-service kikai where you can weigh and label packages yourself.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4828,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That post office has a self-service",
+          "start_sample": 0,
+          "end_sample": 30929,
+          "start_ms": 0,
+          "end_ms": 1933
+        },
+        {
+          "lang": "ja",
+          "text": "機械",
+          "start_sample": 30929,
+          "end_sample": 39263,
+          "start_ms": 1933,
+          "end_ms": 2454
+        },
+        {
+          "lang": "en",
+          "text": "where you can weigh and label packages yourself.",
+          "start_sample": 39263,
+          "end_sample": 77243,
+          "start_ms": 2454,
+          "end_ms": 4828
+        }
+      ]
+    },
+    "ja": {
+      "text": "That post office has a self-service 機械 where you can weigh and label packages yourself.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4955,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That post office has a self-service",
+          "start_sample": 0,
+          "end_sample": 27286,
+          "start_ms": 0,
+          "end_ms": 1705
+        },
+        {
+          "lang": "ja",
+          "text": "機械",
+          "start_sample": 27286,
+          "end_sample": 34669,
+          "start_ms": 1705,
+          "end_ms": 2167
+        },
+        {
+          "lang": "en",
+          "text": "where you can weigh and label packages yourself.",
+          "start_sample": 34669,
+          "end_sample": 79287,
+          "start_ms": 2167,
+          "end_ms": 4955
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 236,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

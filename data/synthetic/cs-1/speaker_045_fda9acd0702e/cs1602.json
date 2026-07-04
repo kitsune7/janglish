@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_045_fda9acd0702e/cs1602.flac",
+  "sentence": "She filled three entire ノート during that semester-long seminar.",
+  "sample_rate": 16000,
+  "duration_ms": 4069,
+  "reference_speaker": "jp/speaker_045_fda9acd0702e.mp3",
+  "seed": 1644,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She filled three entire",
+      "start_sample": 0,
+      "end_sample": 21754,
+      "start_ms": 0,
+      "end_ms": 1360
+    },
+    {
+      "lang": "ja",
+      "text": "ノート",
+      "start_sample": 21754,
+      "end_sample": 30204,
+      "start_ms": 1360,
+      "end_ms": 1888
+    },
+    {
+      "lang": "en",
+      "text": "during that semester-long seminar.",
+      "start_sample": 30204,
+      "end_sample": 65097,
+      "start_ms": 1888,
+      "end_ms": 4069
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She filled three entire nooto during that semester-long seminar.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4126,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She filled three entire",
+          "start_sample": 0,
+          "end_sample": 21954,
+          "start_ms": 0,
+          "end_ms": 1372
+        },
+        {
+          "lang": "ja",
+          "text": "ノート",
+          "start_sample": 21954,
+          "end_sample": 30928,
+          "start_ms": 1372,
+          "end_ms": 1933
+        },
+        {
+          "lang": "en",
+          "text": "during that semester-long seminar.",
+          "start_sample": 30928,
+          "end_sample": 66021,
+          "start_ms": 1933,
+          "end_ms": 4126
+        }
+      ]
+    },
+    "ja": {
+      "text": "She filled three entire ノート during that semester-long seminar.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4224,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She filled three entire",
+          "start_sample": 0,
+          "end_sample": 23010,
+          "start_ms": 0,
+          "end_ms": 1438
+        },
+        {
+          "lang": "ja",
+          "text": "ノート",
+          "start_sample": 23010,
+          "end_sample": 31860,
+          "start_ms": 1438,
+          "end_ms": 1991
+        },
+        {
+          "lang": "en",
+          "text": "during that semester-long seminar.",
+          "start_sample": 31860,
+          "end_sample": 67584,
+          "start_ms": 1991,
+          "end_ms": 4224
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

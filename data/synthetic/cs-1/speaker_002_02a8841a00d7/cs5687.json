@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_002_02a8841a00d7/cs5687.flac",
+  "sentence": "Could you hold my 郵便物 while I'm traveling overseas?",
+  "sample_rate": 16000,
+  "duration_ms": 3585,
+  "reference_speaker": "jp/speaker_002_02a8841a00d7.mp3",
+  "seed": 5729,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Could you hold my",
+      "start_sample": 0,
+      "end_sample": 15059,
+      "start_ms": 0,
+      "end_ms": 941
+    },
+    {
+      "lang": "ja",
+      "text": "郵便物",
+      "start_sample": 15059,
+      "end_sample": 24633,
+      "start_ms": 941,
+      "end_ms": 1540
+    },
+    {
+      "lang": "en",
+      "text": "while I'm traveling overseas?",
+      "start_sample": 24633,
+      "end_sample": 57358,
+      "start_ms": 1540,
+      "end_ms": 3585
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Could you hold my yuubin mono while I'm traveling overseas?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4136,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you hold my",
+          "start_sample": 0,
+          "end_sample": 15259,
+          "start_ms": 0,
+          "end_ms": 954
+        },
+        {
+          "lang": "ja",
+          "text": "郵便物",
+          "start_sample": 15259,
+          "end_sample": 33249,
+          "start_ms": 954,
+          "end_ms": 2078
+        },
+        {
+          "lang": "en",
+          "text": "while I'm traveling overseas?",
+          "start_sample": 33249,
+          "end_sample": 66174,
+          "start_ms": 2078,
+          "end_ms": 4136
+        }
+      ]
+    },
+    "ja": {
+      "text": "Could you hold my 郵便物 while I'm traveling overseas?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3076,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you hold my",
+          "start_sample": 0,
+          "end_sample": 14640,
+          "start_ms": 0,
+          "end_ms": 915
+        },
+        {
+          "lang": "ja",
+          "text": "郵便物",
+          "start_sample": 14640,
+          "end_sample": 24614,
+          "start_ms": 915,
+          "end_ms": 1538
+        },
+        {
+          "lang": "en",
+          "text": "while I'm traveling overseas?",
+          "start_sample": 24614,
+          "end_sample": 49224,
+          "start_ms": 1538,
+          "end_ms": 3076
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 180,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

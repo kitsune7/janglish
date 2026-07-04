@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_012_29b1e5a58d16/cs1094.flac",
+  "sentence": "そのmissed callに気づいたのは三時間後だった。",
+  "sample_rate": 16000,
+  "duration_ms": 2639,
+  "reference_speaker": "en/speaker_012_29b1e5a58d16.mp3",
+  "seed": 1136,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その",
+      "start_sample": 0,
+      "end_sample": 3812,
+      "start_ms": 0,
+      "end_ms": 238
+    },
+    {
+      "lang": "en",
+      "text": "missed call",
+      "start_sample": 3812,
+      "end_sample": 12244,
+      "start_ms": 238,
+      "end_ms": 765
+    },
+    {
+      "lang": "ja",
+      "text": "に気づいたのは三時間後だった。",
+      "start_sample": 12244,
+      "end_sample": 42219,
+      "start_ms": 765,
+      "end_ms": 2639
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono missed call ni kizui ta no ha san jikan nochi datsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4756,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 4334,
+          "start_ms": 0,
+          "end_ms": 271
+        },
+        {
+          "lang": "en",
+          "text": "missed call",
+          "start_sample": 4334,
+          "end_sample": 13166,
+          "start_ms": 271,
+          "end_ms": 823
+        },
+        {
+          "lang": "ja",
+          "text": "に気づいたのは三時間後だった。",
+          "start_sample": 13166,
+          "end_sample": 76104,
+          "start_ms": 823,
+          "end_ms": 4756
+        }
+      ]
+    },
+    "ja": {
+      "text": "そのmissed callに気づいたのは三時間後だった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2769,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その",
+          "start_sample": 0,
+          "end_sample": 4012,
+          "start_ms": 0,
+          "end_ms": 251
+        },
+        {
+          "lang": "en",
+          "text": "missed call",
+          "start_sample": 4012,
+          "end_sample": 14125,
+          "start_ms": 251,
+          "end_ms": 883
+        },
+        {
+          "lang": "ja",
+          "text": "に気づいたのは三時間後だった。",
+          "start_sample": 14125,
+          "end_sample": 44300,
+          "start_ms": 883,
+          "end_ms": 2769
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 132,
+  "frame_labels": "jjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

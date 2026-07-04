@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_020_5f047713c8bd/cs6539.flac",
+  "sentence": "That actor's 演技 in the final scene honestly made me tear up.",
+  "sample_rate": 16000,
+  "duration_ms": 4051,
+  "reference_speaker": "en/speaker_020_5f047713c8bd.mp3",
+  "seed": 6581,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That actor's",
+      "start_sample": 0,
+      "end_sample": 9289,
+      "start_ms": 0,
+      "end_ms": 581
+    },
+    {
+      "lang": "ja",
+      "text": "演技",
+      "start_sample": 9289,
+      "end_sample": 15157,
+      "start_ms": 581,
+      "end_ms": 947
+    },
+    {
+      "lang": "en",
+      "text": "in the final scene honestly made me tear up.",
+      "start_sample": 15157,
+      "end_sample": 64815,
+      "start_ms": 947,
+      "end_ms": 4051
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That actor's engi in the final scene honestly made me tear up.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4443,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That actor's",
+          "start_sample": 0,
+          "end_sample": 9489,
+          "start_ms": 0,
+          "end_ms": 593
+        },
+        {
+          "lang": "ja",
+          "text": "演技",
+          "start_sample": 9489,
+          "end_sample": 21232,
+          "start_ms": 593,
+          "end_ms": 1327
+        },
+        {
+          "lang": "en",
+          "text": "in the final scene honestly made me tear up.",
+          "start_sample": 21232,
+          "end_sample": 71090,
+          "start_ms": 1327,
+          "end_ms": 4443
+        }
+      ]
+    },
+    "ja": {
+      "text": "That actor's 演技 in the final scene honestly made me tear up.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4761,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That actor's",
+          "start_sample": 0,
+          "end_sample": 11249,
+          "start_ms": 0,
+          "end_ms": 703
+        },
+        {
+          "lang": "ja",
+          "text": "演技",
+          "start_sample": 11249,
+          "end_sample": 17517,
+          "start_ms": 703,
+          "end_ms": 1095
+        },
+        {
+          "lang": "en",
+          "text": "in the final scene honestly made me tear up.",
+          "start_sample": 17517,
+          "end_sample": 76172,
+          "start_ms": 1095,
+          "end_ms": 4761
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_099_c404e17fc007/cs10661.flac",
+  "sentence": "She always does a 確認 of her mirrors before changing lanes.",
+  "sample_rate": 16000,
+  "duration_ms": 3865,
+  "reference_speaker": "jp/speaker_099_c404e17fc007.mp3",
+  "seed": 10703,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She always does a",
+      "start_sample": 0,
+      "end_sample": 11684,
+      "start_ms": 0,
+      "end_ms": 730
+    },
+    {
+      "lang": "ja",
+      "text": "確認",
+      "start_sample": 11684,
+      "end_sample": 23177,
+      "start_ms": 730,
+      "end_ms": 1449
+    },
+    {
+      "lang": "en",
+      "text": "of her mirrors before changing lanes.",
+      "start_sample": 23177,
+      "end_sample": 61840,
+      "start_ms": 1449,
+      "end_ms": 3865
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She always does a kakunin of her mirrors before changing lanes.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3694,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She always does a",
+          "start_sample": 0,
+          "end_sample": 11884,
+          "start_ms": 0,
+          "end_ms": 743
+        },
+        {
+          "lang": "ja",
+          "text": "確認",
+          "start_sample": 11884,
+          "end_sample": 20235,
+          "start_ms": 743,
+          "end_ms": 1265
+        },
+        {
+          "lang": "en",
+          "text": "of her mirrors before changing lanes.",
+          "start_sample": 20235,
+          "end_sample": 59098,
+          "start_ms": 1265,
+          "end_ms": 3694
+        }
+      ]
+    },
+    "ja": {
+      "text": "She always does a 確認 of her mirrors before changing lanes.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4801,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She always does a",
+          "start_sample": 0,
+          "end_sample": 18481,
+          "start_ms": 0,
+          "end_ms": 1155
+        },
+        {
+          "lang": "ja",
+          "text": "確認",
+          "start_sample": 18481,
+          "end_sample": 30374,
+          "start_ms": 1155,
+          "end_ms": 1898
+        },
+        {
+          "lang": "en",
+          "text": "of her mirrors before changing lanes.",
+          "start_sample": 30374,
+          "end_sample": 76815,
+          "start_ms": 1898,
+          "end_ms": 4801
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 194,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

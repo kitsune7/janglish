@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_011_d1413283d794/cs1654.flac",
+  "sentence": "The vet was so 親切 when our guinea pig needed emergency care.",
+  "sample_rate": 16000,
+  "duration_ms": 5159,
+  "reference_speaker": "en/speaker_011_d1413283d794.mp3",
+  "seed": 1696,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The vet was so",
+      "start_sample": 0,
+      "end_sample": 14383,
+      "start_ms": 0,
+      "end_ms": 899
+    },
+    {
+      "lang": "ja",
+      "text": "親切",
+      "start_sample": 14383,
+      "end_sample": 26014,
+      "start_ms": 899,
+      "end_ms": 1626
+    },
+    {
+      "lang": "en",
+      "text": "when our guinea pig needed emergency care.",
+      "start_sample": 26014,
+      "end_sample": 82545,
+      "start_ms": 1626,
+      "end_ms": 5159
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The vet was so shinsetsu when our guinea pig needed emergency care.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5308,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The vet was so",
+          "start_sample": 0,
+          "end_sample": 14583,
+          "start_ms": 0,
+          "end_ms": 911
+        },
+        {
+          "lang": "ja",
+          "text": "親切",
+          "start_sample": 14583,
+          "end_sample": 28205,
+          "start_ms": 911,
+          "end_ms": 1763
+        },
+        {
+          "lang": "en",
+          "text": "when our guinea pig needed emergency care.",
+          "start_sample": 28205,
+          "end_sample": 84936,
+          "start_ms": 1763,
+          "end_ms": 5308
+        }
+      ]
+    },
+    "ja": {
+      "text": "The vet was so 親切 when our guinea pig needed emergency care.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7178,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The vet was so",
+          "start_sample": 0,
+          "end_sample": 26144,
+          "start_ms": 0,
+          "end_ms": 1634
+        },
+        {
+          "lang": "ja",
+          "text": "親切",
+          "start_sample": 26144,
+          "end_sample": 38175,
+          "start_ms": 1634,
+          "end_ms": 2386
+        },
+        {
+          "lang": "en",
+          "text": "when our guinea pig needed emergency care.",
+          "start_sample": 38175,
+          "end_sample": 114848,
+          "start_ms": 2386,
+          "end_ms": 7178
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 258,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

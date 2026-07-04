@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_017_2adba246654a/cs6911.flac",
+  "sentence": "He described the route in such 細かい detail that we had no trouble at all.",
+  "sample_rate": 16000,
+  "duration_ms": 4673,
+  "reference_speaker": "jp/speaker_017_2adba246654a.mp3",
+  "seed": 6953,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He described the route in such",
+      "start_sample": 0,
+      "end_sample": 22580,
+      "start_ms": 0,
+      "end_ms": 1411
+    },
+    {
+      "lang": "ja",
+      "text": "細かい",
+      "start_sample": 22580,
+      "end_sample": 30846,
+      "start_ms": 1411,
+      "end_ms": 1928
+    },
+    {
+      "lang": "en",
+      "text": "detail that we had no trouble at all.",
+      "start_sample": 30846,
+      "end_sample": 74761,
+      "start_ms": 1928,
+      "end_ms": 4673
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He described the route in such komakai detail that we had no trouble at all.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4853,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He described the route in such",
+          "start_sample": 0,
+          "end_sample": 22780,
+          "start_ms": 0,
+          "end_ms": 1424
+        },
+        {
+          "lang": "ja",
+          "text": "細かい",
+          "start_sample": 22780,
+          "end_sample": 33528,
+          "start_ms": 1424,
+          "end_ms": 2096
+        },
+        {
+          "lang": "en",
+          "text": "detail that we had no trouble at all.",
+          "start_sample": 33528,
+          "end_sample": 77643,
+          "start_ms": 2096,
+          "end_ms": 4853
+        }
+      ]
+    },
+    "ja": {
+      "text": "He described the route in such 細かい detail that we had no trouble at all.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5215,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He described the route in such",
+          "start_sample": 0,
+          "end_sample": 33059,
+          "start_ms": 0,
+          "end_ms": 2066
+        },
+        {
+          "lang": "ja",
+          "text": "細かい",
+          "start_sample": 33059,
+          "end_sample": 41725,
+          "start_ms": 2066,
+          "end_ms": 2608
+        },
+        {
+          "lang": "en",
+          "text": "detail that we had no trouble at all.",
+          "start_sample": 41725,
+          "end_sample": 83447,
+          "start_ms": 2608,
+          "end_ms": 5215
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 234,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

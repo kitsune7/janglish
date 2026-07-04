@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_059_8cc960ae4dc2/cs3148.flac",
+  "sentence": "今日のlunchはパスタにしようと思っています。",
+  "sample_rate": 16000,
+  "duration_ms": 2869,
+  "reference_speaker": "en/speaker_059_8cc960ae4dc2.mp3",
+  "seed": 3190,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日の",
+      "start_sample": 0,
+      "end_sample": 5096,
+      "start_ms": 0,
+      "end_ms": 318
+    },
+    {
+      "lang": "en",
+      "text": "lunch",
+      "start_sample": 5096,
+      "end_sample": 12395,
+      "start_ms": 318,
+      "end_ms": 775
+    },
+    {
+      "lang": "ja",
+      "text": "はパスタにしようと思っています。",
+      "start_sample": 12395,
+      "end_sample": 45901,
+      "start_ms": 775,
+      "end_ms": 2869
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou no lunch ha pasuta ni shiyou to omotsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6335,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の",
+          "start_sample": 0,
+          "end_sample": 9783,
+          "start_ms": 0,
+          "end_ms": 611
+        },
+        {
+          "lang": "en",
+          "text": "lunch",
+          "start_sample": 9783,
+          "end_sample": 17482,
+          "start_ms": 611,
+          "end_ms": 1093
+        },
+        {
+          "lang": "ja",
+          "text": "はパスタにしようと思っています。",
+          "start_sample": 17482,
+          "end_sample": 101367,
+          "start_ms": 1093,
+          "end_ms": 6335
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日のlunchはパスタにしようと思っています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2789,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の",
+          "start_sample": 0,
+          "end_sample": 5296,
+          "start_ms": 0,
+          "end_ms": 331
+        },
+        {
+          "lang": "en",
+          "text": "lunch",
+          "start_sample": 5296,
+          "end_sample": 10915,
+          "start_ms": 331,
+          "end_ms": 682
+        },
+        {
+          "lang": "ja",
+          "text": "はパスタにしようと思っています。",
+          "start_sample": 10915,
+          "end_sample": 44621,
+          "start_ms": 682,
+          "end_ms": 2789
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 144,
+  "frame_labels": "jjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

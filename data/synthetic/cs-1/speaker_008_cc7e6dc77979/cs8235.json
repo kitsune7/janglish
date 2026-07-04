@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_008_cc7e6dc77979/cs8235.flac",
+  "sentence": "Her 体力 really dropped after two weeks in the hospital.",
+  "sample_rate": 16000,
+  "duration_ms": 2445,
+  "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 8277,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Her",
+      "start_sample": 0,
+      "end_sample": 1723,
+      "start_ms": 0,
+      "end_ms": 108
+    },
+    {
+      "lang": "ja",
+      "text": "体力",
+      "start_sample": 1723,
+      "end_sample": 9176,
+      "start_ms": 108,
+      "end_ms": 574
+    },
+    {
+      "lang": "en",
+      "text": "really dropped after two weeks in the hospital.",
+      "start_sample": 9176,
+      "end_sample": 39120,
+      "start_ms": 574,
+      "end_ms": 2445
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Her tairyoku really dropped after two weeks in the hospital.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2606,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 1923,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "体力",
+          "start_sample": 1923,
+          "end_sample": 11544,
+          "start_ms": 120,
+          "end_ms": 722
+        },
+        {
+          "lang": "en",
+          "text": "really dropped after two weeks in the hospital.",
+          "start_sample": 11544,
+          "end_sample": 41688,
+          "start_ms": 722,
+          "end_ms": 2606
+        }
+      ]
+    },
+    "ja": {
+      "text": "Her 体力 really dropped after two weeks in the hospital.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3305,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 3205,
+          "start_ms": 0,
+          "end_ms": 200
+        },
+        {
+          "lang": "ja",
+          "text": "体力",
+          "start_sample": 3205,
+          "end_sample": 11058,
+          "start_ms": 200,
+          "end_ms": 691
+        },
+        {
+          "lang": "en",
+          "text": "really dropped after two weeks in the hospital.",
+          "start_sample": 11058,
+          "end_sample": 52887,
+          "start_ms": 691,
+          "end_ms": 3305
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 123,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

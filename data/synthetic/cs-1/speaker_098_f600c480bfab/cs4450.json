@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_098_f600c480bfab/cs4450.flac",
+  "sentence": "His 着信音 went off right in the middle of the ceremony.",
+  "sample_rate": 16000,
+  "duration_ms": 2954,
+  "reference_speaker": "en/speaker_098_f600c480bfab.mp3",
+  "seed": 4492,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His",
+      "start_sample": 0,
+      "end_sample": 2361,
+      "start_ms": 0,
+      "end_ms": 148
+    },
+    {
+      "lang": "ja",
+      "text": "着信音",
+      "start_sample": 2361,
+      "end_sample": 13040,
+      "start_ms": 148,
+      "end_ms": 815
+    },
+    {
+      "lang": "en",
+      "text": "went off right in the middle of the ceremony.",
+      "start_sample": 13040,
+      "end_sample": 47260,
+      "start_ms": 815,
+      "end_ms": 2954
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His chakushin oto went off right in the middle of the ceremony.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3322,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His",
+          "start_sample": 0,
+          "end_sample": 2561,
+          "start_ms": 0,
+          "end_ms": 160
+        },
+        {
+          "lang": "ja",
+          "text": "着信音",
+          "start_sample": 2561,
+          "end_sample": 18731,
+          "start_ms": 160,
+          "end_ms": 1171
+        },
+        {
+          "lang": "en",
+          "text": "went off right in the middle of the ceremony.",
+          "start_sample": 18731,
+          "end_sample": 53151,
+          "start_ms": 1171,
+          "end_ms": 3322
+        }
+      ]
+    },
+    "ja": {
+      "text": "His 着信音 went off right in the middle of the ceremony.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4475,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His",
+          "start_sample": 0,
+          "end_sample": 4974,
+          "start_ms": 0,
+          "end_ms": 311
+        },
+        {
+          "lang": "ja",
+          "text": "着信音",
+          "start_sample": 4974,
+          "end_sample": 16053,
+          "start_ms": 311,
+          "end_ms": 1003
+        },
+        {
+          "lang": "en",
+          "text": "went off right in the middle of the ceremony.",
+          "start_sample": 16053,
+          "end_sample": 71605,
+          "start_ms": 1003,
+          "end_ms": 4475
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 148,
+  "frame_labels": "eeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

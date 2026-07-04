@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_073_3c0d9d6a3b88/cs6889.flac",
+  "sentence": "We need to head 南 for about three more kilometers.",
+  "sample_rate": 16000,
+  "duration_ms": 2387,
+  "reference_speaker": "en/speaker_073_3c0d9d6a3b88.mp3",
+  "seed": 6931,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We need to head",
+      "start_sample": 0,
+      "end_sample": 8946,
+      "start_ms": 0,
+      "end_ms": 559
+    },
+    {
+      "lang": "ja",
+      "text": "南",
+      "start_sample": 8946,
+      "end_sample": 14164,
+      "start_ms": 559,
+      "end_ms": 885
+    },
+    {
+      "lang": "en",
+      "text": "for about three more kilometers.",
+      "start_sample": 14164,
+      "end_sample": 38194,
+      "start_ms": 885,
+      "end_ms": 2387
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We need to head minami for about three more kilometers.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2547,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We need to head",
+          "start_sample": 0,
+          "end_sample": 9146,
+          "start_ms": 0,
+          "end_ms": 572
+        },
+        {
+          "lang": "ja",
+          "text": "南",
+          "start_sample": 9146,
+          "end_sample": 16528,
+          "start_ms": 572,
+          "end_ms": 1033
+        },
+        {
+          "lang": "en",
+          "text": "for about three more kilometers.",
+          "start_sample": 16528,
+          "end_sample": 40758,
+          "start_ms": 1033,
+          "end_ms": 2547
+        }
+      ]
+    },
+    "ja": {
+      "text": "We need to head 南 for about three more kilometers.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2749,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We need to head",
+          "start_sample": 0,
+          "end_sample": 11557,
+          "start_ms": 0,
+          "end_ms": 722
+        },
+        {
+          "lang": "ja",
+          "text": "南",
+          "start_sample": 11557,
+          "end_sample": 17175,
+          "start_ms": 722,
+          "end_ms": 1073
+        },
+        {
+          "lang": "en",
+          "text": "for about three more kilometers.",
+          "start_sample": 17175,
+          "end_sample": 43979,
+          "start_ms": 1073,
+          "end_ms": 2749
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 120,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

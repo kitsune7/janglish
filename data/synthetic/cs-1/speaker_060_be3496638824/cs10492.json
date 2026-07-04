@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_060_be3496638824/cs10492.flac",
+  "sentence": "Turn right at the big 交差点 by the old clock tower and keep going straight.",
+  "sample_rate": 16000,
+  "duration_ms": 3726,
+  "reference_speaker": "en/speaker_060_be3496638824.mp3",
+  "seed": 10534,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Turn right at the big",
+      "start_sample": 0,
+      "end_sample": 14544,
+      "start_ms": 0,
+      "end_ms": 909
+    },
+    {
+      "lang": "ja",
+      "text": "交差点",
+      "start_sample": 14544,
+      "end_sample": 26319,
+      "start_ms": 909,
+      "end_ms": 1645
+    },
+    {
+      "lang": "en",
+      "text": "by the old clock tower and keep going straight.",
+      "start_sample": 26319,
+      "end_sample": 59614,
+      "start_ms": 1645,
+      "end_ms": 3726
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Turn right at the big kousa ten by the old clock tower and keep going straight.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3846,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Turn right at the big",
+          "start_sample": 0,
+          "end_sample": 14744,
+          "start_ms": 0,
+          "end_ms": 922
+        },
+        {
+          "lang": "ja",
+          "text": "交差点",
+          "start_sample": 14744,
+          "end_sample": 28047,
+          "start_ms": 922,
+          "end_ms": 1753
+        },
+        {
+          "lang": "en",
+          "text": "by the old clock tower and keep going straight.",
+          "start_sample": 28047,
+          "end_sample": 61542,
+          "start_ms": 1753,
+          "end_ms": 3846
+        }
+      ]
+    },
+    "ja": {
+      "text": "Turn right at the big 交差点 by the old clock tower and keep going straight.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7189,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Turn right at the big",
+          "start_sample": 0,
+          "end_sample": 41011,
+          "start_ms": 0,
+          "end_ms": 2563
+        },
+        {
+          "lang": "ja",
+          "text": "交差点",
+          "start_sample": 41011,
+          "end_sample": 53186,
+          "start_ms": 2563,
+          "end_ms": 3324
+        },
+        {
+          "lang": "en",
+          "text": "by the old clock tower and keep going straight.",
+          "start_sample": 53186,
+          "end_sample": 115022,
+          "start_ms": 3324,
+          "end_ms": 7189
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 187,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

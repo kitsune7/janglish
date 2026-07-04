@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_053_8435a3c28f36/cs326.flac",
+  "sentence": "息子はhomeworkをなかなか始めようとしない。",
+  "sample_rate": 16000,
+  "duration_ms": 3419,
+  "reference_speaker": "jp/speaker_053_8435a3c28f36.mp3",
+  "seed": 368,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "息子は",
+      "start_sample": 0,
+      "end_sample": 8135,
+      "start_ms": 0,
+      "end_ms": 508
+    },
+    {
+      "lang": "en",
+      "text": "homework",
+      "start_sample": 8135,
+      "end_sample": 22366,
+      "start_ms": 508,
+      "end_ms": 1398
+    },
+    {
+      "lang": "ja",
+      "text": "をなかなか始めようとしない。",
+      "start_sample": 22366,
+      "end_sample": 54707,
+      "start_ms": 1398,
+      "end_ms": 3419
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "musuko ha homework wo nakanaka hajimeyou to shi nai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4582,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "息子は",
+          "start_sample": 0,
+          "end_sample": 9807,
+          "start_ms": 0,
+          "end_ms": 613
+        },
+        {
+          "lang": "en",
+          "text": "homework",
+          "start_sample": 9807,
+          "end_sample": 24438,
+          "start_ms": 613,
+          "end_ms": 1527
+        },
+        {
+          "lang": "ja",
+          "text": "をなかなか始めようとしない。",
+          "start_sample": 24438,
+          "end_sample": 73310,
+          "start_ms": 1527,
+          "end_ms": 4582
+        }
+      ]
+    },
+    "ja": {
+      "text": "息子はhomeworkをなかなか始めようとしない。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3346,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "息子は",
+          "start_sample": 0,
+          "end_sample": 8335,
+          "start_ms": 0,
+          "end_ms": 521
+        },
+        {
+          "lang": "en",
+          "text": "homework",
+          "start_sample": 8335,
+          "end_sample": 21000,
+          "start_ms": 521,
+          "end_ms": 1312
+        },
+        {
+          "lang": "ja",
+          "text": "をなかなか始めようとしない。",
+          "start_sample": 21000,
+          "end_sample": 53541,
+          "start_ms": 1312,
+          "end_ms": 3346
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 171,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

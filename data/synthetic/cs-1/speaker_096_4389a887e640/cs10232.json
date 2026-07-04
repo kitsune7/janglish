@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_096_4389a887e640/cs10232.flac",
+  "sentence": "I need to pick up a 小包 from the post office before it closes.",
+  "sample_rate": 16000,
+  "duration_ms": 3829,
+  "reference_speaker": "en/speaker_096_4389a887e640.mp3",
+  "seed": 10274,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I need to pick up a",
+      "start_sample": 0,
+      "end_sample": 12496,
+      "start_ms": 0,
+      "end_ms": 781
+    },
+    {
+      "lang": "ja",
+      "text": "小包",
+      "start_sample": 12496,
+      "end_sample": 21269,
+      "start_ms": 781,
+      "end_ms": 1329
+    },
+    {
+      "lang": "en",
+      "text": "from the post office before it closes.",
+      "start_sample": 21269,
+      "end_sample": 61259,
+      "start_ms": 1329,
+      "end_ms": 3829
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I need to pick up a kozutsumi from the post office before it closes.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4521,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need to pick up a",
+          "start_sample": 0,
+          "end_sample": 12696,
+          "start_ms": 0,
+          "end_ms": 794
+        },
+        {
+          "lang": "ja",
+          "text": "小包",
+          "start_sample": 12696,
+          "end_sample": 32151,
+          "start_ms": 794,
+          "end_ms": 2009
+        },
+        {
+          "lang": "en",
+          "text": "from the post office before it closes.",
+          "start_sample": 32151,
+          "end_sample": 72341,
+          "start_ms": 2009,
+          "end_ms": 4521
+        }
+      ]
+    },
+    "ja": {
+      "text": "I need to pick up a 小包 from the post office before it closes.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4224,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need to pick up a",
+          "start_sample": 0,
+          "end_sample": 20113,
+          "start_ms": 0,
+          "end_ms": 1257
+        },
+        {
+          "lang": "ja",
+          "text": "小包",
+          "start_sample": 20113,
+          "end_sample": 29286,
+          "start_ms": 1257,
+          "end_ms": 1830
+        },
+        {
+          "lang": "en",
+          "text": "from the post office before it closes.",
+          "start_sample": 29286,
+          "end_sample": 67578,
+          "start_ms": 1830,
+          "end_ms": 4224
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

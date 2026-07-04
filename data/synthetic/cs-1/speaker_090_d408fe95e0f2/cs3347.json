@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_090_d408fe95e0f2/cs3347.flac",
+  "sentence": "火事のsmokeが窓から見えます。",
+  "sample_rate": 16000,
+  "duration_ms": 3330,
+  "reference_speaker": "jp/speaker_090_d408fe95e0f2.mp3",
+  "seed": 3389,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "火事の",
+      "start_sample": 0,
+      "end_sample": 7030,
+      "start_ms": 0,
+      "end_ms": 439
+    },
+    {
+      "lang": "en",
+      "text": "smoke",
+      "start_sample": 7030,
+      "end_sample": 30498,
+      "start_ms": 439,
+      "end_ms": 1906
+    },
+    {
+      "lang": "ja",
+      "text": "が窓から見えます。",
+      "start_sample": 30498,
+      "end_sample": 53272,
+      "start_ms": 1906,
+      "end_ms": 3330
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kaji no smoke ga mado kara mie masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5506,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "火事の",
+          "start_sample": 0,
+          "end_sample": 23547,
+          "start_ms": 0,
+          "end_ms": 1472
+        },
+        {
+          "lang": "en",
+          "text": "smoke",
+          "start_sample": 23547,
+          "end_sample": 47415,
+          "start_ms": 1472,
+          "end_ms": 2963
+        },
+        {
+          "lang": "ja",
+          "text": "が窓から見えます。",
+          "start_sample": 47415,
+          "end_sample": 88102,
+          "start_ms": 2963,
+          "end_ms": 5506
+        }
+      ]
+    },
+    "ja": {
+      "text": "火事のsmokeが窓から見えます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2490,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "火事の",
+          "start_sample": 0,
+          "end_sample": 7230,
+          "start_ms": 0,
+          "end_ms": 452
+        },
+        {
+          "lang": "en",
+          "text": "smoke",
+          "start_sample": 7230,
+          "end_sample": 16872,
+          "start_ms": 452,
+          "end_ms": 1054
+        },
+        {
+          "lang": "ja",
+          "text": "が窓から見えます。",
+          "start_sample": 16872,
+          "end_sample": 39846,
+          "start_ms": 1054,
+          "end_ms": 2490
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 167,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

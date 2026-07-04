@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_069_688632e24cd4/cs2601.flac",
+  "sentence": "あの通りのstreet artはとてもカラフルで目を引きます。",
+  "sample_rate": 16000,
+  "duration_ms": 3248,
+  "reference_speaker": "en/speaker_069_688632e24cd4.mp3",
+  "seed": 2643,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの通りの",
+      "start_sample": 0,
+      "end_sample": 9943,
+      "start_ms": 0,
+      "end_ms": 621
+    },
+    {
+      "lang": "en",
+      "text": "street art",
+      "start_sample": 9943,
+      "end_sample": 21098,
+      "start_ms": 621,
+      "end_ms": 1319
+    },
+    {
+      "lang": "ja",
+      "text": "はとてもカラフルで目を引きます。",
+      "start_sample": 21098,
+      "end_sample": 51968,
+      "start_ms": 1319,
+      "end_ms": 3248
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano touri no street art ha totemo karafuru de me wo hiki masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4654,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの通りの",
+          "start_sample": 0,
+          "end_sample": 14443,
+          "start_ms": 0,
+          "end_ms": 903
+        },
+        {
+          "lang": "en",
+          "text": "street art",
+          "start_sample": 14443,
+          "end_sample": 25998,
+          "start_ms": 903,
+          "end_ms": 1625
+        },
+        {
+          "lang": "ja",
+          "text": "はとてもカラフルで目を引きます。",
+          "start_sample": 25998,
+          "end_sample": 74461,
+          "start_ms": 1625,
+          "end_ms": 4654
+        }
+      ]
+    },
+    "ja": {
+      "text": "あの通りのstreet artはとてもカラフルで目を引きます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3341,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの通りの",
+          "start_sample": 0,
+          "end_sample": 10143,
+          "start_ms": 0,
+          "end_ms": 634
+        },
+        {
+          "lang": "en",
+          "text": "street art",
+          "start_sample": 10143,
+          "end_sample": 22380,
+          "start_ms": 634,
+          "end_ms": 1399
+        },
+        {
+          "lang": "ja",
+          "text": "はとてもカラフルで目を引きます。",
+          "start_sample": 22380,
+          "end_sample": 53450,
+          "start_ms": 1399,
+          "end_ms": 3341
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 163,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

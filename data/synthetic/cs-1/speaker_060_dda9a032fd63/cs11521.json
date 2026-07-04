@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_060_dda9a032fd63/cs11521.flac",
+  "sentence": "The 定期券 I bought this semester already paid for itself.",
+  "sample_rate": 16000,
+  "duration_ms": 4459,
+  "reference_speaker": "jp/speaker_060_dda9a032fd63.mp3",
+  "seed": 11563,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1729,
+      "start_ms": 0,
+      "end_ms": 108
+    },
+    {
+      "lang": "ja",
+      "text": "定期券",
+      "start_sample": 1729,
+      "end_sample": 13348,
+      "start_ms": 108,
+      "end_ms": 834
+    },
+    {
+      "lang": "en",
+      "text": "I bought this semester already paid for itself.",
+      "start_sample": 13348,
+      "end_sample": 71346,
+      "start_ms": 834,
+      "end_ms": 4459
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The teiki ken I bought this semester already paid for itself.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4602,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1929,
+          "start_ms": 0,
+          "end_ms": 121
+        },
+        {
+          "lang": "ja",
+          "text": "定期券",
+          "start_sample": 1929,
+          "end_sample": 15434,
+          "start_ms": 121,
+          "end_ms": 965
+        },
+        {
+          "lang": "en",
+          "text": "I bought this semester already paid for itself.",
+          "start_sample": 15434,
+          "end_sample": 73632,
+          "start_ms": 965,
+          "end_ms": 4602
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 定期券 I bought this semester already paid for itself.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4146,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3684,
+          "start_ms": 0,
+          "end_ms": 230
+        },
+        {
+          "lang": "ja",
+          "text": "定期券",
+          "start_sample": 3684,
+          "end_sample": 15703,
+          "start_ms": 230,
+          "end_ms": 981
+        },
+        {
+          "lang": "en",
+          "text": "I bought this semester already paid for itself.",
+          "start_sample": 15703,
+          "end_sample": 66340,
+          "start_ms": 981,
+          "end_ms": 4146
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 223,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_085_c431b4a9ddfb/cs243.flac",
+  "sentence": "この古城にはdark な歴史があると地元の人が言っていました。",
+  "sample_rate": 16000,
+  "duration_ms": 4816,
+  "reference_speaker": "jp/speaker_085_c431b4a9ddfb.mp3",
+  "seed": 285,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この古城には",
+      "start_sample": 0,
+      "end_sample": 15019,
+      "start_ms": 0,
+      "end_ms": 939
+    },
+    {
+      "lang": "en",
+      "text": "dark",
+      "start_sample": 15019,
+      "end_sample": 31923,
+      "start_ms": 939,
+      "end_ms": 1995
+    },
+    {
+      "lang": "ja",
+      "text": "な歴史があると地元の人が言っていました。",
+      "start_sample": 31923,
+      "end_sample": 77063,
+      "start_ms": 1995,
+      "end_ms": 4816
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono kojou ni ha dark na rekishi ga aru to jimoto no nin ga itsutsu te i mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10414,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この古城には",
+          "start_sample": 0,
+          "end_sample": 35088,
+          "start_ms": 0,
+          "end_ms": 2193
+        },
+        {
+          "lang": "en",
+          "text": "dark",
+          "start_sample": 35088,
+          "end_sample": 52392,
+          "start_ms": 2193,
+          "end_ms": 3274
+        },
+        {
+          "lang": "ja",
+          "text": "な歴史があると地元の人が言っていました。",
+          "start_sample": 52392,
+          "end_sample": 166628,
+          "start_ms": 3274,
+          "end_ms": 10414
+        }
+      ]
+    },
+    "ja": {
+      "text": "この古城にはdark な歴史があると地元の人が言っていました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4166,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この古城には",
+          "start_sample": 0,
+          "end_sample": 15219,
+          "start_ms": 0,
+          "end_ms": 951
+        },
+        {
+          "lang": "en",
+          "text": "dark",
+          "start_sample": 15219,
+          "end_sample": 21308,
+          "start_ms": 951,
+          "end_ms": 1332
+        },
+        {
+          "lang": "ja",
+          "text": "な歴史があると地元の人が言っていました。",
+          "start_sample": 21308,
+          "end_sample": 66648,
+          "start_ms": 1332,
+          "end_ms": 4166
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 241,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

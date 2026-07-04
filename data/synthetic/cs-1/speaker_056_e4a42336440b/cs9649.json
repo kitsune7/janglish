@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_056_e4a42336440b/cs9649.flac",
+  "sentence": "I kept my reply short and 簡潔 so there'd be no confusion.",
+  "sample_rate": 16000,
+  "duration_ms": 4831,
+  "reference_speaker": "jp/speaker_056_e4a42336440b.mp3",
+  "seed": 9691,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I kept my reply short and",
+      "start_sample": 0,
+      "end_sample": 35240,
+      "start_ms": 0,
+      "end_ms": 2202
+    },
+    {
+      "lang": "ja",
+      "text": "簡潔",
+      "start_sample": 35240,
+      "end_sample": 45101,
+      "start_ms": 2202,
+      "end_ms": 2819
+    },
+    {
+      "lang": "en",
+      "text": "so there'd be no confusion.",
+      "start_sample": 45101,
+      "end_sample": 77295,
+      "start_ms": 2819,
+      "end_ms": 4831
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I kept my reply short and kanketsu so there'd be no confusion.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5032,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I kept my reply short and",
+          "start_sample": 0,
+          "end_sample": 35440,
+          "start_ms": 0,
+          "end_ms": 2215
+        },
+        {
+          "lang": "ja",
+          "text": "簡潔",
+          "start_sample": 35440,
+          "end_sample": 48110,
+          "start_ms": 2215,
+          "end_ms": 3007
+        },
+        {
+          "lang": "en",
+          "text": "so there'd be no confusion.",
+          "start_sample": 48110,
+          "end_sample": 80504,
+          "start_ms": 3007,
+          "end_ms": 5032
+        }
+      ]
+    },
+    "ja": {
+      "text": "I kept my reply short and 簡潔 so there'd be no confusion.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4349,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I kept my reply short and",
+          "start_sample": 0,
+          "end_sample": 33185,
+          "start_ms": 0,
+          "end_ms": 2074
+        },
+        {
+          "lang": "ja",
+          "text": "簡潔",
+          "start_sample": 33185,
+          "end_sample": 43446,
+          "start_ms": 2074,
+          "end_ms": 2715
+        },
+        {
+          "lang": "en",
+          "text": "so there'd be no confusion.",
+          "start_sample": 43446,
+          "end_sample": 69577,
+          "start_ms": 2715,
+          "end_ms": 4349
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 242,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

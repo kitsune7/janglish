@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_018_b0dec8b93359/cs10377.flac",
+  "sentence": "She turned the 納戸 into a cozy reading nook with just a cushion and a small lamp.",
+  "sample_rate": 16000,
+  "duration_ms": 6028,
+  "reference_speaker": "en/speaker_018_b0dec8b93359.mp3",
+  "seed": 10419,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She turned the",
+      "start_sample": 0,
+      "end_sample": 8628,
+      "start_ms": 0,
+      "end_ms": 539
+    },
+    {
+      "lang": "ja",
+      "text": "納戸",
+      "start_sample": 8628,
+      "end_sample": 22808,
+      "start_ms": 539,
+      "end_ms": 1426
+    },
+    {
+      "lang": "en",
+      "text": "into a cozy reading nook with just a cushion and a small lamp.",
+      "start_sample": 22808,
+      "end_sample": 96448,
+      "start_ms": 1426,
+      "end_ms": 6028
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She turned the nando into a cozy reading nook with just a cushion and a small lamp.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5618,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She turned the",
+          "start_sample": 0,
+          "end_sample": 8828,
+          "start_ms": 0,
+          "end_ms": 552
+        },
+        {
+          "lang": "ja",
+          "text": "納戸",
+          "start_sample": 8828,
+          "end_sample": 16052,
+          "start_ms": 552,
+          "end_ms": 1003
+        },
+        {
+          "lang": "en",
+          "text": "into a cozy reading nook with just a cushion and a small lamp.",
+          "start_sample": 16052,
+          "end_sample": 89892,
+          "start_ms": 1003,
+          "end_ms": 5618
+        }
+      ]
+    },
+    "ja": {
+      "text": "She turned the 納戸 into a cozy reading nook with just a cushion and a small lamp.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7350,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She turned the",
+          "start_sample": 0,
+          "end_sample": 20026,
+          "start_ms": 0,
+          "end_ms": 1252
+        },
+        {
+          "lang": "ja",
+          "text": "納戸",
+          "start_sample": 20026,
+          "end_sample": 34606,
+          "start_ms": 1252,
+          "end_ms": 2163
+        },
+        {
+          "lang": "en",
+          "text": "into a cozy reading nook with just a cushion and a small lamp.",
+          "start_sample": 34606,
+          "end_sample": 117600,
+          "start_ms": 2163,
+          "end_ms": 7350
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 302,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

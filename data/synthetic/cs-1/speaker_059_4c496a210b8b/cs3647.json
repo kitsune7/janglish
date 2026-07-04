@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_059_4c496a210b8b/cs3647.flac",
+  "sentence": "心臓のrhythmが少し乱れていると言われました。",
+  "sample_rate": 16000,
+  "duration_ms": 3511,
+  "reference_speaker": "jp/speaker_059_4c496a210b8b.mp3",
+  "seed": 3689,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "心臓の",
+      "start_sample": 0,
+      "end_sample": 8016,
+      "start_ms": 0,
+      "end_ms": 501
+    },
+    {
+      "lang": "en",
+      "text": "rhythm",
+      "start_sample": 8016,
+      "end_sample": 24152,
+      "start_ms": 501,
+      "end_ms": 1510
+    },
+    {
+      "lang": "ja",
+      "text": "が少し乱れていると言われました。",
+      "start_sample": 24152,
+      "end_sample": 56170,
+      "start_ms": 1510,
+      "end_ms": 3511
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shinzou no rhythm ga sukoshi midare te iru to iwa re mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6080,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "心臓の",
+          "start_sample": 0,
+          "end_sample": 9793,
+          "start_ms": 0,
+          "end_ms": 612
+        },
+        {
+          "lang": "en",
+          "text": "rhythm",
+          "start_sample": 9793,
+          "end_sample": 26329,
+          "start_ms": 612,
+          "end_ms": 1646
+        },
+        {
+          "lang": "ja",
+          "text": "が少し乱れていると言われました。",
+          "start_sample": 26329,
+          "end_sample": 97287,
+          "start_ms": 1646,
+          "end_ms": 6080
+        }
+      ]
+    },
+    "ja": {
+      "text": "心臓のrhythmが少し乱れていると言われました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2900,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "心臓の",
+          "start_sample": 0,
+          "end_sample": 8216,
+          "start_ms": 0,
+          "end_ms": 514
+        },
+        {
+          "lang": "en",
+          "text": "rhythm",
+          "start_sample": 8216,
+          "end_sample": 14178,
+          "start_ms": 514,
+          "end_ms": 886
+        },
+        {
+          "lang": "ja",
+          "text": "が少し乱れていると言われました。",
+          "start_sample": 14178,
+          "end_sample": 46396,
+          "start_ms": 886,
+          "end_ms": 2900
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 176,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

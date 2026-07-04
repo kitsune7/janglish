@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_012_29b1e5a58d16/cs9115.flac",
+  "sentence": "My controller broke right in the middle of a 大事な match.",
+  "sample_rate": 16000,
+  "duration_ms": 3881,
+  "reference_speaker": "en/speaker_012_29b1e5a58d16.mp3",
+  "seed": 9157,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My controller broke right in the middle of a",
+      "start_sample": 0,
+      "end_sample": 48234,
+      "start_ms": 0,
+      "end_ms": 3015
+    },
+    {
+      "lang": "ja",
+      "text": "大事な",
+      "start_sample": 48234,
+      "end_sample": 55375,
+      "start_ms": 3015,
+      "end_ms": 3461
+    },
+    {
+      "lang": "en",
+      "text": "match.",
+      "start_sample": 55375,
+      "end_sample": 62089,
+      "start_ms": 3461,
+      "end_ms": 3881
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My controller broke right in the middle of a daiji na match.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4083,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My controller broke right in the middle of a",
+          "start_sample": 0,
+          "end_sample": 48434,
+          "start_ms": 0,
+          "end_ms": 3027
+        },
+        {
+          "lang": "ja",
+          "text": "大事な",
+          "start_sample": 48434,
+          "end_sample": 58411,
+          "start_ms": 3027,
+          "end_ms": 3651
+        },
+        {
+          "lang": "en",
+          "text": "match.",
+          "start_sample": 58411,
+          "end_sample": 65325,
+          "start_ms": 3651,
+          "end_ms": 4083
+        }
+      ]
+    },
+    "ja": {
+      "text": "My controller broke right in the middle of a 大事な match.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3670,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My controller broke right in the middle of a",
+          "start_sample": 0,
+          "end_sample": 44282,
+          "start_ms": 0,
+          "end_ms": 2768
+        },
+        {
+          "lang": "ja",
+          "text": "大事な",
+          "start_sample": 44282,
+          "end_sample": 51823,
+          "start_ms": 2768,
+          "end_ms": 3239
+        },
+        {
+          "lang": "en",
+          "text": "match.",
+          "start_sample": 51823,
+          "end_sample": 58720,
+          "start_ms": 3239,
+          "end_ms": 3670
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 195,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_023_d9597f21cb60/cs9562.flac",
+  "sentence": "ちょっと待って、earphoneを探してから電話するね。",
+  "sample_rate": 16000,
+  "duration_ms": 3391,
+  "reference_speaker": "jp/speaker_023_d9597f21cb60.mp3",
+  "seed": 9604,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "ちょっと待って、",
+      "start_sample": 0,
+      "end_sample": 13604,
+      "start_ms": 0,
+      "end_ms": 850
+    },
+    {
+      "lang": "en",
+      "text": "earphone",
+      "start_sample": 13604,
+      "end_sample": 31993,
+      "start_ms": 850,
+      "end_ms": 2000
+    },
+    {
+      "lang": "ja",
+      "text": "を探してから電話するね。",
+      "start_sample": 31993,
+      "end_sample": 54263,
+      "start_ms": 2000,
+      "end_ms": 3391
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "chotto matsu te earphone wo sagashi te kara denwa suru ne",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5861,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ちょっと待って、",
+          "start_sample": 0,
+          "end_sample": 15417,
+          "start_ms": 0,
+          "end_ms": 964
+        },
+        {
+          "lang": "en",
+          "text": "earphone",
+          "start_sample": 15417,
+          "end_sample": 34206,
+          "start_ms": 964,
+          "end_ms": 2138
+        },
+        {
+          "lang": "ja",
+          "text": "を探してから電話するね。",
+          "start_sample": 34206,
+          "end_sample": 93783,
+          "start_ms": 2138,
+          "end_ms": 5861
+        }
+      ]
+    },
+    "ja": {
+      "text": "ちょっと待って、earphoneを探してから電話するね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2749,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ちょっと待って、",
+          "start_sample": 0,
+          "end_sample": 13804,
+          "start_ms": 0,
+          "end_ms": 863
+        },
+        {
+          "lang": "en",
+          "text": "earphone",
+          "start_sample": 13804,
+          "end_sample": 21509,
+          "start_ms": 863,
+          "end_ms": 1344
+        },
+        {
+          "lang": "ja",
+          "text": "を探してから電話するね。",
+          "start_sample": 21509,
+          "end_sample": 43979,
+          "start_ms": 1344,
+          "end_ms": 2749
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 170,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

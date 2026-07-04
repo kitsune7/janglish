@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_086_b5416e90d3b7/cs8692.flac",
+  "sentence": "He was acting very 危険 near the edge of that cliff.",
+  "sample_rate": 16000,
+  "duration_ms": 2671,
+  "reference_speaker": "jp/speaker_086_b5416e90d3b7.mp3",
+  "seed": 8734,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He was acting very",
+      "start_sample": 0,
+      "end_sample": 14738,
+      "start_ms": 0,
+      "end_ms": 921
+    },
+    {
+      "lang": "ja",
+      "text": "危険",
+      "start_sample": 14738,
+      "end_sample": 20284,
+      "start_ms": 921,
+      "end_ms": 1268
+    },
+    {
+      "lang": "en",
+      "text": "near the edge of that cliff.",
+      "start_sample": 20284,
+      "end_sample": 42729,
+      "start_ms": 1268,
+      "end_ms": 2671
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He was acting very kiken near the edge of that cliff.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2791,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He was acting very",
+          "start_sample": 0,
+          "end_sample": 14938,
+          "start_ms": 0,
+          "end_ms": 934
+        },
+        {
+          "lang": "ja",
+          "text": "危険",
+          "start_sample": 14938,
+          "end_sample": 22005,
+          "start_ms": 934,
+          "end_ms": 1375
+        },
+        {
+          "lang": "en",
+          "text": "near the edge of that cliff.",
+          "start_sample": 22005,
+          "end_sample": 44650,
+          "start_ms": 1375,
+          "end_ms": 2791
+        }
+      ]
+    },
+    "ja": {
+      "text": "He was acting very 危険 near the edge of that cliff.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3695,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He was acting very",
+          "start_sample": 0,
+          "end_sample": 22011,
+          "start_ms": 0,
+          "end_ms": 1376
+        },
+        {
+          "lang": "ja",
+          "text": "危険",
+          "start_sample": 22011,
+          "end_sample": 27957,
+          "start_ms": 1376,
+          "end_ms": 1747
+        },
+        {
+          "lang": "en",
+          "text": "near the edge of that cliff.",
+          "start_sample": 27957,
+          "end_sample": 59127,
+          "start_ms": 1747,
+          "end_ms": 3695
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 134,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

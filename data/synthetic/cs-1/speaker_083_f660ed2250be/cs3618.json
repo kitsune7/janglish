@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_083_f660ed2250be/cs3618.flac",
+  "sentence": "春のfirst dayに新しい手帳を買うのが毎年の楽しみです。",
+  "sample_rate": 16000,
+  "duration_ms": 4800,
+  "reference_speaker": "jp/speaker_083_f660ed2250be.mp3",
+  "seed": 3660,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "春の",
+      "start_sample": 0,
+      "end_sample": 5410,
+      "start_ms": 0,
+      "end_ms": 338
+    },
+    {
+      "lang": "en",
+      "text": "first day",
+      "start_sample": 5410,
+      "end_sample": 21216,
+      "start_ms": 338,
+      "end_ms": 1326
+    },
+    {
+      "lang": "ja",
+      "text": "に新しい手帳を買うのが毎年の楽しみです。",
+      "start_sample": 21216,
+      "end_sample": 76801,
+      "start_ms": 1326,
+      "end_ms": 4800
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "haru no first day ni atarashii techou wo kau no ga maitoshi no tanoshimi desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7541,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "春の",
+          "start_sample": 0,
+          "end_sample": 8021,
+          "start_ms": 0,
+          "end_ms": 501
+        },
+        {
+          "lang": "en",
+          "text": "first day",
+          "start_sample": 8021,
+          "end_sample": 24227,
+          "start_ms": 501,
+          "end_ms": 1514
+        },
+        {
+          "lang": "ja",
+          "text": "に新しい手帳を買うのが毎年の楽しみです。",
+          "start_sample": 24227,
+          "end_sample": 120651,
+          "start_ms": 1514,
+          "end_ms": 7541
+        }
+      ]
+    },
+    "ja": {
+      "text": "春のfirst dayに新しい手帳を買うのが毎年の楽しみです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4468,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "春の",
+          "start_sample": 0,
+          "end_sample": 5610,
+          "start_ms": 0,
+          "end_ms": 351
+        },
+        {
+          "lang": "en",
+          "text": "first day",
+          "start_sample": 5610,
+          "end_sample": 15709,
+          "start_ms": 351,
+          "end_ms": 982
+        },
+        {
+          "lang": "ja",
+          "text": "に新しい手帳を買うのが毎年の楽しみです。",
+          "start_sample": 15709,
+          "end_sample": 71494,
+          "start_ms": 982,
+          "end_ms": 4468
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 241,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_021_dc81e43724ca/cs9641.flac",
+  "sentence": "The whole 会話 went sideways the moment he brought that up.",
+  "sample_rate": 16000,
+  "duration_ms": 3238,
+  "reference_speaker": "jp/speaker_021_dc81e43724ca.mp3",
+  "seed": 9683,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole",
+      "start_sample": 0,
+      "end_sample": 6879,
+      "start_ms": 0,
+      "end_ms": 430
+    },
+    {
+      "lang": "ja",
+      "text": "会話",
+      "start_sample": 6879,
+      "end_sample": 14195,
+      "start_ms": 430,
+      "end_ms": 887
+    },
+    {
+      "lang": "en",
+      "text": "went sideways the moment he brought that up.",
+      "start_sample": 14195,
+      "end_sample": 51802,
+      "start_ms": 887,
+      "end_ms": 3238
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole kaiwa went sideways the moment he brought that up.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3258,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole",
+          "start_sample": 0,
+          "end_sample": 7079,
+          "start_ms": 0,
+          "end_ms": 442
+        },
+        {
+          "lang": "ja",
+          "text": "会話",
+          "start_sample": 7079,
+          "end_sample": 14319,
+          "start_ms": 442,
+          "end_ms": 895
+        },
+        {
+          "lang": "en",
+          "text": "went sideways the moment he brought that up.",
+          "start_sample": 14319,
+          "end_sample": 52126,
+          "start_ms": 895,
+          "end_ms": 3258
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole 会話 went sideways the moment he brought that up.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4481,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole",
+          "start_sample": 0,
+          "end_sample": 10123,
+          "start_ms": 0,
+          "end_ms": 633
+        },
+        {
+          "lang": "ja",
+          "text": "会話",
+          "start_sample": 10123,
+          "end_sample": 17839,
+          "start_ms": 633,
+          "end_ms": 1115
+        },
+        {
+          "lang": "en",
+          "text": "went sideways the moment he brought that up.",
+          "start_sample": 17839,
+          "end_sample": 71690,
+          "start_ms": 1115,
+          "end_ms": 4481
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 162,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

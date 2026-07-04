@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_072_6a4d94080268/cs2834.flac",
+  "sentence": "Does watercolor feel more 自由 than oil painting to you?",
+  "sample_rate": 16000,
+  "duration_ms": 3297,
+  "reference_speaker": "jp/speaker_072_6a4d94080268.mp3",
+  "seed": 2876,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Does watercolor feel more",
+      "start_sample": 0,
+      "end_sample": 22558,
+      "start_ms": 0,
+      "end_ms": 1410
+    },
+    {
+      "lang": "ja",
+      "text": "自由",
+      "start_sample": 22558,
+      "end_sample": 26982,
+      "start_ms": 1410,
+      "end_ms": 1686
+    },
+    {
+      "lang": "en",
+      "text": "than oil painting to you?",
+      "start_sample": 26982,
+      "end_sample": 52745,
+      "start_ms": 1686,
+      "end_ms": 3297
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Does watercolor feel more jiyuu than oil painting to you?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3726,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Does watercolor feel more",
+          "start_sample": 0,
+          "end_sample": 22758,
+          "start_ms": 0,
+          "end_ms": 1422
+        },
+        {
+          "lang": "ja",
+          "text": "自由",
+          "start_sample": 22758,
+          "end_sample": 33656,
+          "start_ms": 1422,
+          "end_ms": 2104
+        },
+        {
+          "lang": "en",
+          "text": "than oil painting to you?",
+          "start_sample": 33656,
+          "end_sample": 59619,
+          "start_ms": 2104,
+          "end_ms": 3726
+        }
+      ]
+    },
+    "ja": {
+      "text": "Does watercolor feel more 自由 than oil painting to you?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3336,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Does watercolor feel more",
+          "start_sample": 0,
+          "end_sample": 21868,
+          "start_ms": 0,
+          "end_ms": 1367
+        },
+        {
+          "lang": "ja",
+          "text": "自由",
+          "start_sample": 21868,
+          "end_sample": 26692,
+          "start_ms": 1367,
+          "end_ms": 1668
+        },
+        {
+          "lang": "en",
+          "text": "than oil painting to you?",
+          "start_sample": 26692,
+          "end_sample": 53380,
+          "start_ms": 1668,
+          "end_ms": 3336
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 165,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

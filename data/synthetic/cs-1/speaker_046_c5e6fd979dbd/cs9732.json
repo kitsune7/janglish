@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_046_c5e6fd979dbd/cs9732.flac",
+  "sentence": "猫が毎朝earlyに起こしに来るので、寝不足気味です。",
+  "sample_rate": 16000,
+  "duration_ms": 4141,
+  "reference_speaker": "en/speaker_046_c5e6fd979dbd.mp3",
+  "seed": 9774,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "猫が毎朝",
+      "start_sample": 0,
+      "end_sample": 14403,
+      "start_ms": 0,
+      "end_ms": 900
+    },
+    {
+      "lang": "en",
+      "text": "early",
+      "start_sample": 14403,
+      "end_sample": 24569,
+      "start_ms": 900,
+      "end_ms": 1536
+    },
+    {
+      "lang": "ja",
+      "text": "に起こしに来るので、寝不足気味です。",
+      "start_sample": 24569,
+      "end_sample": 66251,
+      "start_ms": 1536,
+      "end_ms": 4141
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "neko ga maiasa early ni okoshi ni kuru no de ne fusoku kimi desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8465,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "猫が毎朝",
+          "start_sample": 0,
+          "end_sample": 29137,
+          "start_ms": 0,
+          "end_ms": 1821
+        },
+        {
+          "lang": "en",
+          "text": "early",
+          "start_sample": 29137,
+          "end_sample": 39703,
+          "start_ms": 1821,
+          "end_ms": 2481
+        },
+        {
+          "lang": "ja",
+          "text": "に起こしに来るので、寝不足気味です。",
+          "start_sample": 39703,
+          "end_sample": 135441,
+          "start_ms": 2481,
+          "end_ms": 8465
+        }
+      ]
+    },
+    "ja": {
+      "text": "猫が毎朝earlyに起こしに来るので、寝不足気味です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3932,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "猫が毎朝",
+          "start_sample": 0,
+          "end_sample": 14603,
+          "start_ms": 0,
+          "end_ms": 913
+        },
+        {
+          "lang": "en",
+          "text": "early",
+          "start_sample": 14603,
+          "end_sample": 21022,
+          "start_ms": 913,
+          "end_ms": 1314
+        },
+        {
+          "lang": "ja",
+          "text": "に起こしに来るので、寝不足気味です。",
+          "start_sample": 21022,
+          "end_sample": 62904,
+          "start_ms": 1314,
+          "end_ms": 3932
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

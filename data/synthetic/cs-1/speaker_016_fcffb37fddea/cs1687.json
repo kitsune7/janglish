@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_016_fcffb37fddea/cs1687.flac",
+  "sentence": "彼女はshockを受けて、しばらく何も話せなかった。",
+  "sample_rate": 16000,
+  "duration_ms": 3647,
+  "reference_speaker": "en/speaker_016_fcffb37fddea.mp3",
+  "seed": 1729,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は",
+      "start_sample": 0,
+      "end_sample": 8776,
+      "start_ms": 0,
+      "end_ms": 548
+    },
+    {
+      "lang": "en",
+      "text": "shock",
+      "start_sample": 8776,
+      "end_sample": 16711,
+      "start_ms": 548,
+      "end_ms": 1044
+    },
+    {
+      "lang": "ja",
+      "text": "を受けて、しばらく何も話せなかった。",
+      "start_sample": 16711,
+      "end_sample": 58354,
+      "start_ms": 1044,
+      "end_ms": 3647
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha shock wo uke te shibaraku nani mo hanase nakatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7273,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 31574,
+          "start_ms": 0,
+          "end_ms": 1973
+        },
+        {
+          "lang": "en",
+          "text": "shock",
+          "start_sample": 31574,
+          "end_sample": 39909,
+          "start_ms": 1973,
+          "end_ms": 2494
+        },
+        {
+          "lang": "ja",
+          "text": "を受けて、しばらく何も話せなかった。",
+          "start_sample": 39909,
+          "end_sample": 116363,
+          "start_ms": 2494,
+          "end_ms": 7273
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はshockを受けて、しばらく何も話せなかった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3627,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 8976,
+          "start_ms": 0,
+          "end_ms": 561
+        },
+        {
+          "lang": "en",
+          "text": "shock",
+          "start_sample": 8976,
+          "end_sample": 16191,
+          "start_ms": 561,
+          "end_ms": 1012
+        },
+        {
+          "lang": "ja",
+          "text": "を受けて、しばらく何も話せなかった。",
+          "start_sample": 16191,
+          "end_sample": 58034,
+          "start_ms": 1012,
+          "end_ms": 3627
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 183,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

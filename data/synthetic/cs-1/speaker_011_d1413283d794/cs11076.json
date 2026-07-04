@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_011_d1413283d794/cs11076.flac",
+  "sentence": "Watching the 夕立 roll in over the hills is my favorite part of July.",
+  "sample_rate": 16000,
+  "duration_ms": 4451,
+  "reference_speaker": "en/speaker_011_d1413283d794.mp3",
+  "seed": 11118,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Watching the",
+      "start_sample": 0,
+      "end_sample": 8461,
+      "start_ms": 0,
+      "end_ms": 529
+    },
+    {
+      "lang": "ja",
+      "text": "夕立",
+      "start_sample": 8461,
+      "end_sample": 14319,
+      "start_ms": 529,
+      "end_ms": 895
+    },
+    {
+      "lang": "en",
+      "text": "roll in over the hills is my favorite part of July.",
+      "start_sample": 14319,
+      "end_sample": 71219,
+      "start_ms": 895,
+      "end_ms": 4451
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Watching the yuudachi roll in over the hills is my favorite part of July.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4692,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Watching the",
+          "start_sample": 0,
+          "end_sample": 8661,
+          "start_ms": 0,
+          "end_ms": 541
+        },
+        {
+          "lang": "ja",
+          "text": "夕立",
+          "start_sample": 8661,
+          "end_sample": 17964,
+          "start_ms": 541,
+          "end_ms": 1123
+        },
+        {
+          "lang": "en",
+          "text": "roll in over the hills is my favorite part of July.",
+          "start_sample": 17964,
+          "end_sample": 75064,
+          "start_ms": 1123,
+          "end_ms": 4692
+        }
+      ]
+    },
+    "ja": {
+      "text": "Watching the 夕立 roll in over the hills is my favorite part of July.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4573,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Watching the",
+          "start_sample": 0,
+          "end_sample": 13317,
+          "start_ms": 0,
+          "end_ms": 832
+        },
+        {
+          "lang": "ja",
+          "text": "夕立",
+          "start_sample": 13317,
+          "end_sample": 19575,
+          "start_ms": 832,
+          "end_ms": 1223
+        },
+        {
+          "lang": "en",
+          "text": "roll in over the hills is my favorite part of July.",
+          "start_sample": 19575,
+          "end_sample": 73164,
+          "start_ms": 1223,
+          "end_ms": 4573
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 223,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

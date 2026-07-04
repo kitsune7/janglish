@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_097_1c56b79c3d3b/cs10988.flac",
+  "sentence": "彼女はmicrophoneを持つと別人になる。",
+  "sample_rate": 16000,
+  "duration_ms": 4263,
+  "reference_speaker": "jp/speaker_097_1c56b79c3d3b.mp3",
+  "seed": 11030,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は",
+      "start_sample": 0,
+      "end_sample": 9593,
+      "start_ms": 0,
+      "end_ms": 600
+    },
+    {
+      "lang": "en",
+      "text": "microphone",
+      "start_sample": 9593,
+      "end_sample": 45137,
+      "start_ms": 600,
+      "end_ms": 2821
+    },
+    {
+      "lang": "ja",
+      "text": "を持つと別人になる。",
+      "start_sample": 45137,
+      "end_sample": 68214,
+      "start_ms": 2821,
+      "end_ms": 4263
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha microphone wo motsu to betsujin ni naru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7180,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 10590,
+          "start_ms": 0,
+          "end_ms": 662
+        },
+        {
+          "lang": "en",
+          "text": "microphone",
+          "start_sample": 10590,
+          "end_sample": 46534,
+          "start_ms": 662,
+          "end_ms": 2908
+        },
+        {
+          "lang": "ja",
+          "text": "を持つと別人になる。",
+          "start_sample": 46534,
+          "end_sample": 114888,
+          "start_ms": 2908,
+          "end_ms": 7180
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はmicrophoneを持つと別人になる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2789,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 9793,
+          "start_ms": 0,
+          "end_ms": 612
+        },
+        {
+          "lang": "en",
+          "text": "microphone",
+          "start_sample": 9793,
+          "end_sample": 21352,
+          "start_ms": 612,
+          "end_ms": 1334
+        },
+        {
+          "lang": "ja",
+          "text": "を持つと別人になる。",
+          "start_sample": 21352,
+          "end_sample": 44629,
+          "start_ms": 1334,
+          "end_ms": 2789
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 214,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_096_4389a887e640/cs77.flac",
+  "sentence": "She spends every 朝 out there before work, deadheading the dahlias.",
+  "sample_rate": 16000,
+  "duration_ms": 4087,
+  "reference_speaker": "en/speaker_096_4389a887e640.mp3",
+  "seed": 119,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She spends every",
+      "start_sample": 0,
+      "end_sample": 14538,
+      "start_ms": 0,
+      "end_ms": 909
+    },
+    {
+      "lang": "ja",
+      "text": "朝",
+      "start_sample": 14538,
+      "end_sample": 22333,
+      "start_ms": 909,
+      "end_ms": 1396
+    },
+    {
+      "lang": "en",
+      "text": "out there before work, deadheading the dahlias.",
+      "start_sample": 22333,
+      "end_sample": 65388,
+      "start_ms": 1396,
+      "end_ms": 4087
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She spends every asa out there before work, deadheading the dahlias.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3985,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She spends every",
+          "start_sample": 0,
+          "end_sample": 14738,
+          "start_ms": 0,
+          "end_ms": 921
+        },
+        {
+          "lang": "ja",
+          "text": "朝",
+          "start_sample": 14738,
+          "end_sample": 20506,
+          "start_ms": 921,
+          "end_ms": 1282
+        },
+        {
+          "lang": "en",
+          "text": "out there before work, deadheading the dahlias.",
+          "start_sample": 20506,
+          "end_sample": 63761,
+          "start_ms": 1282,
+          "end_ms": 3985
+        }
+      ]
+    },
+    "ja": {
+      "text": "She spends every 朝 out there before work, deadheading the dahlias.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5624,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She spends every",
+          "start_sample": 0,
+          "end_sample": 22977,
+          "start_ms": 0,
+          "end_ms": 1436
+        },
+        {
+          "lang": "ja",
+          "text": "朝",
+          "start_sample": 22977,
+          "end_sample": 31172,
+          "start_ms": 1436,
+          "end_ms": 1948
+        },
+        {
+          "lang": "en",
+          "text": "out there before work, deadheading the dahlias.",
+          "start_sample": 31172,
+          "end_sample": 89977,
+          "start_ms": 1948,
+          "end_ms": 5624
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 205,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

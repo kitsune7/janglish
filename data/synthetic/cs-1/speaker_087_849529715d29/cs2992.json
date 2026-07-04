@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_087_849529715d29/cs2992.flac",
+  "sentence": "He keeps his beard trim and his 頬 moisturized with a light balm.",
+  "sample_rate": 16000,
+  "duration_ms": 4958,
+  "reference_speaker": "jp/speaker_087_849529715d29.mp3",
+  "seed": 3034,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He keeps his beard trim and his",
+      "start_sample": 0,
+      "end_sample": 43076,
+      "start_ms": 0,
+      "end_ms": 2692
+    },
+    {
+      "lang": "ja",
+      "text": "頬",
+      "start_sample": 43076,
+      "end_sample": 52608,
+      "start_ms": 2692,
+      "end_ms": 3288
+    },
+    {
+      "lang": "en",
+      "text": "moisturized with a light balm.",
+      "start_sample": 52608,
+      "end_sample": 79334,
+      "start_ms": 3288,
+      "end_ms": 4958
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He keeps his beard trim and his hoo moisturized with a light balm.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4628,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He keeps his beard trim and his",
+          "start_sample": 0,
+          "end_sample": 43276,
+          "start_ms": 0,
+          "end_ms": 2705
+        },
+        {
+          "lang": "ja",
+          "text": "頬",
+          "start_sample": 43276,
+          "end_sample": 47123,
+          "start_ms": 2705,
+          "end_ms": 2945
+        },
+        {
+          "lang": "en",
+          "text": "moisturized with a light balm.",
+          "start_sample": 47123,
+          "end_sample": 74049,
+          "start_ms": 2945,
+          "end_ms": 4628
+        }
+      ]
+    },
+    "ja": {
+      "text": "He keeps his beard trim and his 頬 moisturized with a light balm.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5266,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He keeps his beard trim and his",
+          "start_sample": 0,
+          "end_sample": 41165,
+          "start_ms": 0,
+          "end_ms": 2573
+        },
+        {
+          "lang": "ja",
+          "text": "頬",
+          "start_sample": 41165,
+          "end_sample": 51097,
+          "start_ms": 2573,
+          "end_ms": 3194
+        },
+        {
+          "lang": "en",
+          "text": "moisturized with a light balm.",
+          "start_sample": 51097,
+          "end_sample": 84254,
+          "start_ms": 3194,
+          "end_ms": 5266
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 248,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

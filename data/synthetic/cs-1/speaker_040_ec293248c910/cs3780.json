@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_040_ec293248c910/cs3780.flac",
+  "sentence": "The shallow depth of field threw the 背景 into a beautiful soft blur.",
+  "sample_rate": 16000,
+  "duration_ms": 4429,
+  "reference_speaker": "en/speaker_040_ec293248c910.mp3",
+  "seed": 3822,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The shallow depth of field threw the",
+      "start_sample": 0,
+      "end_sample": 32116,
+      "start_ms": 0,
+      "end_ms": 2007
+    },
+    {
+      "lang": "ja",
+      "text": "背景",
+      "start_sample": 32116,
+      "end_sample": 40849,
+      "start_ms": 2007,
+      "end_ms": 2553
+    },
+    {
+      "lang": "en",
+      "text": "into a beautiful soft blur.",
+      "start_sample": 40849,
+      "end_sample": 70871,
+      "start_ms": 2553,
+      "end_ms": 4429
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shallow depth of field threw the haikei into a beautiful soft blur.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4522,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The shallow depth of field threw the",
+          "start_sample": 0,
+          "end_sample": 32316,
+          "start_ms": 0,
+          "end_ms": 2020
+        },
+        {
+          "lang": "ja",
+          "text": "背景",
+          "start_sample": 32316,
+          "end_sample": 42123,
+          "start_ms": 2020,
+          "end_ms": 2633
+        },
+        {
+          "lang": "en",
+          "text": "into a beautiful soft blur.",
+          "start_sample": 42123,
+          "end_sample": 72345,
+          "start_ms": 2633,
+          "end_ms": 4522
+        }
+      ]
+    },
+    "ja": {
+      "text": "The shallow depth of field threw the 背景 into a beautiful soft blur.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5408,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The shallow depth of field threw the",
+          "start_sample": 0,
+          "end_sample": 47747,
+          "start_ms": 0,
+          "end_ms": 2984
+        },
+        {
+          "lang": "ja",
+          "text": "背景",
+          "start_sample": 47747,
+          "end_sample": 56880,
+          "start_ms": 2984,
+          "end_ms": 3555
+        },
+        {
+          "lang": "en",
+          "text": "into a beautiful soft blur.",
+          "start_sample": 56880,
+          "end_sample": 86522,
+          "start_ms": 3555,
+          "end_ms": 5408
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 222,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

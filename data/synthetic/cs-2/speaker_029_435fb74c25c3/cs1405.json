@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_029_435fb74c25c3/cs1405.flac",
+  "sentence": "She bought a really 派手 jacket that turned heads at the 祭り.",
+  "sample_rate": 16000,
+  "duration_ms": 3172,
+  "reference_speaker": "en/speaker_029_435fb74c25c3.mp3",
+  "seed": 1447,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She bought a really",
+      "start_sample": 0,
+      "end_sample": 12836,
+      "start_ms": 0,
+      "end_ms": 802
+    },
+    {
+      "lang": "ja",
+      "text": "派手",
+      "start_sample": 12836,
+      "end_sample": 19498,
+      "start_ms": 802,
+      "end_ms": 1219
+    },
+    {
+      "lang": "en",
+      "text": "jacket that turned heads at the",
+      "start_sample": 19498,
+      "end_sample": 42284,
+      "start_ms": 1219,
+      "end_ms": 2643
+    },
+    {
+      "lang": "ja",
+      "text": "祭り.",
+      "start_sample": 42284,
+      "end_sample": 50748,
+      "start_ms": 2643,
+      "end_ms": 3172
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She bought a really hade jacket that turned heads at the matsuri",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3220,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She bought a really",
+          "start_sample": 0,
+          "end_sample": 13036,
+          "start_ms": 0,
+          "end_ms": 815
+        },
+        {
+          "lang": "ja",
+          "text": "派手",
+          "start_sample": 13036,
+          "end_sample": 18671,
+          "start_ms": 815,
+          "end_ms": 1167
+        },
+        {
+          "lang": "en",
+          "text": "jacket that turned heads at the",
+          "start_sample": 18671,
+          "end_sample": 41857,
+          "start_ms": 1167,
+          "end_ms": 2616
+        },
+        {
+          "lang": "ja",
+          "text": "祭り.",
+          "start_sample": 41857,
+          "end_sample": 51512,
+          "start_ms": 2616,
+          "end_ms": 3220
+        }
+      ]
+    },
+    "ja": {
+      "text": "She bought a really 派手 jacket that turned heads at the 祭り.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4434,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She bought a really",
+          "start_sample": 0,
+          "end_sample": 18776,
+          "start_ms": 0,
+          "end_ms": 1174
+        },
+        {
+          "lang": "ja",
+          "text": "派手",
+          "start_sample": 18776,
+          "end_sample": 25838,
+          "start_ms": 1174,
+          "end_ms": 1615
+        },
+        {
+          "lang": "en",
+          "text": "jacket that turned heads at the",
+          "start_sample": 25838,
+          "end_sample": 62274,
+          "start_ms": 1615,
+          "end_ms": 3892
+        },
+        {
+          "lang": "ja",
+          "text": "祭り.",
+          "start_sample": 62274,
+          "end_sample": 70938,
+          "start_ms": 3892,
+          "end_ms": 4434
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

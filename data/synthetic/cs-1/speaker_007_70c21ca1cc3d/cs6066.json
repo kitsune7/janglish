@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_007_70c21ca1cc3d/cs6066.flac",
+  "sentence": "I want the 結論 stated clearly at the top of the slide, not buried at the end.",
+  "sample_rate": 16000,
+  "duration_ms": 4376,
+  "reference_speaker": "en/speaker_007_70c21ca1cc3d.mp3",
+  "seed": 6108,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I want the",
+      "start_sample": 0,
+      "end_sample": 7666,
+      "start_ms": 0,
+      "end_ms": 479
+    },
+    {
+      "lang": "ja",
+      "text": "結論",
+      "start_sample": 7666,
+      "end_sample": 16733,
+      "start_ms": 479,
+      "end_ms": 1046
+    },
+    {
+      "lang": "en",
+      "text": "stated clearly at the top of the slide, not buried at the end.",
+      "start_sample": 16733,
+      "end_sample": 70011,
+      "start_ms": 1046,
+      "end_ms": 4376
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I want the ketsuron stated clearly at the top of the slide, not buried at the end.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4456,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I want the",
+          "start_sample": 0,
+          "end_sample": 7866,
+          "start_ms": 0,
+          "end_ms": 492
+        },
+        {
+          "lang": "ja",
+          "text": "結論",
+          "start_sample": 7866,
+          "end_sample": 17824,
+          "start_ms": 492,
+          "end_ms": 1114
+        },
+        {
+          "lang": "en",
+          "text": "stated clearly at the top of the slide, not buried at the end.",
+          "start_sample": 17824,
+          "end_sample": 71302,
+          "start_ms": 1114,
+          "end_ms": 4456
+        }
+      ]
+    },
+    "ja": {
+      "text": "I want the 結論 stated clearly at the top of the slide, not buried at the end.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6758,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I want the",
+          "start_sample": 0,
+          "end_sample": 11067,
+          "start_ms": 0,
+          "end_ms": 692
+        },
+        {
+          "lang": "ja",
+          "text": "結論",
+          "start_sample": 11067,
+          "end_sample": 20534,
+          "start_ms": 692,
+          "end_ms": 1283
+        },
+        {
+          "lang": "en",
+          "text": "stated clearly at the top of the slide, not buried at the end.",
+          "start_sample": 20534,
+          "end_sample": 108134,
+          "start_ms": 1283,
+          "end_ms": 6758
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 219,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

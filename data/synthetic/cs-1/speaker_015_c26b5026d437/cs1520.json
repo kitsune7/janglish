@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_015_c26b5026d437/cs1520.flac",
+  "sentence": "She said the 美顔器 changed her skin more than any cream ever did.",
+  "sample_rate": 16000,
+  "duration_ms": 5709,
+  "reference_speaker": "jp/speaker_015_c26b5026d437.mp3",
+  "seed": 1562,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She said the",
+      "start_sample": 0,
+      "end_sample": 17143,
+      "start_ms": 0,
+      "end_ms": 1071
+    },
+    {
+      "lang": "ja",
+      "text": "美顔器",
+      "start_sample": 17143,
+      "end_sample": 31484,
+      "start_ms": 1071,
+      "end_ms": 1968
+    },
+    {
+      "lang": "en",
+      "text": "changed her skin more than any cream ever did.",
+      "start_sample": 31484,
+      "end_sample": 91343,
+      "start_ms": 1968,
+      "end_ms": 5709
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She said the bigan utsuwa changed her skin more than any cream ever did.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6002,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She said the",
+          "start_sample": 0,
+          "end_sample": 17343,
+          "start_ms": 0,
+          "end_ms": 1084
+        },
+        {
+          "lang": "ja",
+          "text": "美顔器",
+          "start_sample": 17343,
+          "end_sample": 35973,
+          "start_ms": 1084,
+          "end_ms": 2248
+        },
+        {
+          "lang": "en",
+          "text": "changed her skin more than any cream ever did.",
+          "start_sample": 35973,
+          "end_sample": 96032,
+          "start_ms": 2248,
+          "end_ms": 6002
+        }
+      ]
+    },
+    "ja": {
+      "text": "She said the 美顔器 changed her skin more than any cream ever did.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5828,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She said the",
+          "start_sample": 0,
+          "end_sample": 22910,
+          "start_ms": 0,
+          "end_ms": 1432
+        },
+        {
+          "lang": "ja",
+          "text": "美顔器",
+          "start_sample": 22910,
+          "end_sample": 37651,
+          "start_ms": 1432,
+          "end_ms": 2353
+        },
+        {
+          "lang": "en",
+          "text": "changed her skin more than any cream ever did.",
+          "start_sample": 37651,
+          "end_sample": 93245,
+          "start_ms": 2353,
+          "end_ms": 5828
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 286,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

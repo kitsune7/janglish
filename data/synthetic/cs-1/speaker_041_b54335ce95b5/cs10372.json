@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_041_b54335ce95b5/cs10372.flac",
+  "sentence": "The real estate agent described it as 広々 but three people can barely stand in that kitchen.",
+  "sample_rate": 16000,
+  "duration_ms": 5546,
+  "reference_speaker": "en/speaker_041_b54335ce95b5.mp3",
+  "seed": 10414,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The real estate agent described it as",
+      "start_sample": 0,
+      "end_sample": 37196,
+      "start_ms": 0,
+      "end_ms": 2325
+    },
+    {
+      "lang": "ja",
+      "text": "広々",
+      "start_sample": 37196,
+      "end_sample": 45441,
+      "start_ms": 2325,
+      "end_ms": 2840
+    },
+    {
+      "lang": "en",
+      "text": "but three people can barely stand in that kitchen.",
+      "start_sample": 45441,
+      "end_sample": 88734,
+      "start_ms": 2840,
+      "end_ms": 5546
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The real estate agent described it as hirobiro but three people can barely stand in that kitchen.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6239,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The real estate agent described it as",
+          "start_sample": 0,
+          "end_sample": 37396,
+          "start_ms": 0,
+          "end_ms": 2337
+        },
+        {
+          "lang": "ja",
+          "text": "広々",
+          "start_sample": 37396,
+          "end_sample": 56335,
+          "start_ms": 2337,
+          "end_ms": 3521
+        },
+        {
+          "lang": "en",
+          "text": "but three people can barely stand in that kitchen.",
+          "start_sample": 56335,
+          "end_sample": 99828,
+          "start_ms": 3521,
+          "end_ms": 6239
+        }
+      ]
+    },
+    "ja": {
+      "text": "The real estate agent described it as 広々 but three people can barely stand in that kitchen.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8085,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The real estate agent described it as",
+          "start_sample": 0,
+          "end_sample": 63400,
+          "start_ms": 0,
+          "end_ms": 3962
+        },
+        {
+          "lang": "ja",
+          "text": "広々",
+          "start_sample": 63400,
+          "end_sample": 72045,
+          "start_ms": 3962,
+          "end_ms": 4503
+        },
+        {
+          "lang": "en",
+          "text": "but three people can barely stand in that kitchen.",
+          "start_sample": 72045,
+          "end_sample": 129362,
+          "start_ms": 4503,
+          "end_ms": 8085
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 278,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

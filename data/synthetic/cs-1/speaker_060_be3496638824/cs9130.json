@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_060_be3496638824/cs9130.flac",
+  "sentence": "Why does every 勇者 in JRPGs have the same spiky haircut?",
+  "sample_rate": 16000,
+  "duration_ms": 4136,
+  "reference_speaker": "en/speaker_060_be3496638824.mp3",
+  "seed": 9172,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Why does every",
+      "start_sample": 0,
+      "end_sample": 8613,
+      "start_ms": 0,
+      "end_ms": 538
+    },
+    {
+      "lang": "ja",
+      "text": "勇者",
+      "start_sample": 8613,
+      "end_sample": 13823,
+      "start_ms": 538,
+      "end_ms": 864
+    },
+    {
+      "lang": "en",
+      "text": "in JRPGs have the same spiky haircut?",
+      "start_sample": 13823,
+      "end_sample": 66184,
+      "start_ms": 864,
+      "end_ms": 4136
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Why does every yuusha in JRPGs have the same spiky haircut?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4206,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Why does every",
+          "start_sample": 0,
+          "end_sample": 8813,
+          "start_ms": 0,
+          "end_ms": 551
+        },
+        {
+          "lang": "ja",
+          "text": "勇者",
+          "start_sample": 8813,
+          "end_sample": 14742,
+          "start_ms": 551,
+          "end_ms": 921
+        },
+        {
+          "lang": "en",
+          "text": "in JRPGs have the same spiky haircut?",
+          "start_sample": 14742,
+          "end_sample": 67303,
+          "start_ms": 921,
+          "end_ms": 4206
+        }
+      ]
+    },
+    "ja": {
+      "text": "Why does every 勇者 in JRPGs have the same spiky haircut?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5229,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Why does every",
+          "start_sample": 0,
+          "end_sample": 15546,
+          "start_ms": 0,
+          "end_ms": 972
+        },
+        {
+          "lang": "ja",
+          "text": "勇者",
+          "start_sample": 15546,
+          "end_sample": 21156,
+          "start_ms": 972,
+          "end_ms": 1322
+        },
+        {
+          "lang": "en",
+          "text": "in JRPGs have the same spiky haircut?",
+          "start_sample": 21156,
+          "end_sample": 83661,
+          "start_ms": 1322,
+          "end_ms": 5229
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 207,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_041_36b0f2924199/cs5561.flac",
+  "sentence": "この季節はfoggyな朝が多いですね。",
+  "sample_rate": 16000,
+  "duration_ms": 2367,
+  "reference_speaker": "jp/speaker_041_36b0f2924199.mp3",
+  "seed": 5603,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この季節は",
+      "start_sample": 0,
+      "end_sample": 13600,
+      "start_ms": 0,
+      "end_ms": 850
+    },
+    {
+      "lang": "en",
+      "text": "foggy",
+      "start_sample": 13600,
+      "end_sample": 19304,
+      "start_ms": 850,
+      "end_ms": 1206
+    },
+    {
+      "lang": "ja",
+      "text": "な朝が多いですね。",
+      "start_sample": 19304,
+      "end_sample": 37877,
+      "start_ms": 1206,
+      "end_ms": 2367
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono kisetsu ha foggy na asa ga ooi desu ne",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5321,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この季節は",
+          "start_sample": 0,
+          "end_sample": 35341,
+          "start_ms": 0,
+          "end_ms": 2209
+        },
+        {
+          "lang": "en",
+          "text": "foggy",
+          "start_sample": 35341,
+          "end_sample": 41445,
+          "start_ms": 2209,
+          "end_ms": 2590
+        },
+        {
+          "lang": "ja",
+          "text": "な朝が多いですね。",
+          "start_sample": 41445,
+          "end_sample": 85137,
+          "start_ms": 2590,
+          "end_ms": 5321
+        }
+      ]
+    },
+    "ja": {
+      "text": "この季節はfoggyな朝が多いですね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2527,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この季節は",
+          "start_sample": 0,
+          "end_sample": 13800,
+          "start_ms": 0,
+          "end_ms": 862
+        },
+        {
+          "lang": "en",
+          "text": "foggy",
+          "start_sample": 13800,
+          "end_sample": 21664,
+          "start_ms": 862,
+          "end_ms": 1354
+        },
+        {
+          "lang": "ja",
+          "text": "な朝が多いですね。",
+          "start_sample": 21664,
+          "end_sample": 40437,
+          "start_ms": 1354,
+          "end_ms": 2527
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 119,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_085_c431b4a9ddfb/cs3266.flac",
+  "sentence": "I forwarded the 修正案 to everyone on the distribution list this morning.",
+  "sample_rate": 16000,
+  "duration_ms": 4257,
+  "reference_speaker": "jp/speaker_085_c431b4a9ddfb.mp3",
+  "seed": 3308,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I forwarded the",
+      "start_sample": 0,
+      "end_sample": 11336,
+      "start_ms": 0,
+      "end_ms": 708
+    },
+    {
+      "lang": "ja",
+      "text": "修正案",
+      "start_sample": 11336,
+      "end_sample": 25207,
+      "start_ms": 708,
+      "end_ms": 1575
+    },
+    {
+      "lang": "en",
+      "text": "to everyone on the distribution list this morning.",
+      "start_sample": 25207,
+      "end_sample": 68113,
+      "start_ms": 1575,
+      "end_ms": 4257
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I forwarded the shuusei an to everyone on the distribution list this morning.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4106,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I forwarded the",
+          "start_sample": 0,
+          "end_sample": 11536,
+          "start_ms": 0,
+          "end_ms": 721
+        },
+        {
+          "lang": "ja",
+          "text": "修正案",
+          "start_sample": 11536,
+          "end_sample": 22594,
+          "start_ms": 721,
+          "end_ms": 1412
+        },
+        {
+          "lang": "en",
+          "text": "to everyone on the distribution list this morning.",
+          "start_sample": 22594,
+          "end_sample": 65700,
+          "start_ms": 1412,
+          "end_ms": 4106
+        }
+      ]
+    },
+    "ja": {
+      "text": "I forwarded the 修正案 to everyone on the distribution list this morning.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5572,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I forwarded the",
+          "start_sample": 0,
+          "end_sample": 19240,
+          "start_ms": 0,
+          "end_ms": 1202
+        },
+        {
+          "lang": "ja",
+          "text": "修正案",
+          "start_sample": 19240,
+          "end_sample": 33511,
+          "start_ms": 1202,
+          "end_ms": 2094
+        },
+        {
+          "lang": "en",
+          "text": "to everyone on the distribution list this morning.",
+          "start_sample": 33511,
+          "end_sample": 89150,
+          "start_ms": 2094,
+          "end_ms": 5572
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 213,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

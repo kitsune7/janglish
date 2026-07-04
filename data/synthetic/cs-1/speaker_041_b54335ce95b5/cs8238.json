@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_041_b54335ce95b5/cs8238.flac",
+  "sentence": "I told my doctor that the 頭痛 comes on every afternoon around three.",
+  "sample_rate": 16000,
+  "duration_ms": 3513,
+  "reference_speaker": "en/speaker_041_b54335ce95b5.mp3",
+  "seed": 8280,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I told my doctor that the",
+      "start_sample": 0,
+      "end_sample": 17152,
+      "start_ms": 0,
+      "end_ms": 1072
+    },
+    {
+      "lang": "ja",
+      "text": "頭痛",
+      "start_sample": 17152,
+      "end_sample": 25881,
+      "start_ms": 1072,
+      "end_ms": 1618
+    },
+    {
+      "lang": "en",
+      "text": "comes on every afternoon around three.",
+      "start_sample": 25881,
+      "end_sample": 56212,
+      "start_ms": 1618,
+      "end_ms": 3513
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I told my doctor that the zutsuu comes on every afternoon around three.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3415,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I told my doctor that the",
+          "start_sample": 0,
+          "end_sample": 17352,
+          "start_ms": 0,
+          "end_ms": 1084
+        },
+        {
+          "lang": "ja",
+          "text": "頭痛",
+          "start_sample": 17352,
+          "end_sample": 24102,
+          "start_ms": 1084,
+          "end_ms": 1506
+        },
+        {
+          "lang": "en",
+          "text": "comes on every afternoon around three.",
+          "start_sample": 24102,
+          "end_sample": 54633,
+          "start_ms": 1506,
+          "end_ms": 3415
+        }
+      ]
+    },
+    "ja": {
+      "text": "I told my doctor that the 頭痛 comes on every afternoon around three.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6506,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I told my doctor that the",
+          "start_sample": 0,
+          "end_sample": 39716,
+          "start_ms": 0,
+          "end_ms": 2482
+        },
+        {
+          "lang": "ja",
+          "text": "頭痛",
+          "start_sample": 39716,
+          "end_sample": 48845,
+          "start_ms": 2482,
+          "end_ms": 3053
+        },
+        {
+          "lang": "en",
+          "text": "comes on every afternoon around three.",
+          "start_sample": 48845,
+          "end_sample": 104096,
+          "start_ms": 3053,
+          "end_ms": 6506
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 176,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

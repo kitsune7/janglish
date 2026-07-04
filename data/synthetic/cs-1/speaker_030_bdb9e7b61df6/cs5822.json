@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_030_bdb9e7b61df6/cs5822.flac",
+  "sentence": "I need to pick up some 調味料 before I can start cooking tonight.",
+  "sample_rate": 16000,
+  "duration_ms": 3213,
+  "reference_speaker": "en/speaker_030_bdb9e7b61df6.mp3",
+  "seed": 5864,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I need to pick up some",
+      "start_sample": 0,
+      "end_sample": 14910,
+      "start_ms": 0,
+      "end_ms": 932
+    },
+    {
+      "lang": "ja",
+      "text": "調味料",
+      "start_sample": 14910,
+      "end_sample": 23638,
+      "start_ms": 932,
+      "end_ms": 1477
+    },
+    {
+      "lang": "en",
+      "text": "before I can start cooking tonight.",
+      "start_sample": 23638,
+      "end_sample": 51413,
+      "start_ms": 1477,
+      "end_ms": 3213
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I need to pick up some choumi ryou before I can start cooking tonight.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3336,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need to pick up some",
+          "start_sample": 0,
+          "end_sample": 15110,
+          "start_ms": 0,
+          "end_ms": 944
+        },
+        {
+          "lang": "ja",
+          "text": "調味料",
+          "start_sample": 15110,
+          "end_sample": 25401,
+          "start_ms": 944,
+          "end_ms": 1588
+        },
+        {
+          "lang": "en",
+          "text": "before I can start cooking tonight.",
+          "start_sample": 25401,
+          "end_sample": 53376,
+          "start_ms": 1588,
+          "end_ms": 3336
+        }
+      ]
+    },
+    "ja": {
+      "text": "I need to pick up some 調味料 before I can start cooking tonight.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4344,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need to pick up some",
+          "start_sample": 0,
+          "end_sample": 22101,
+          "start_ms": 0,
+          "end_ms": 1381
+        },
+        {
+          "lang": "ja",
+          "text": "調味料",
+          "start_sample": 22101,
+          "end_sample": 31229,
+          "start_ms": 1381,
+          "end_ms": 1952
+        },
+        {
+          "lang": "en",
+          "text": "before I can start cooking tonight.",
+          "start_sample": 31229,
+          "end_sample": 69505,
+          "start_ms": 1952,
+          "end_ms": 4344
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 161,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

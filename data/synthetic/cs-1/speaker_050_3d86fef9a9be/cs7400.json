@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_050_3d86fef9a9be/cs7400.flac",
+  "sentence": "Is the 試合 this Saturday or next Saturday?",
+  "sample_rate": 16000,
+  "duration_ms": 3828,
+  "reference_speaker": "jp/speaker_050_3d86fef9a9be.mp3",
+  "seed": 7442,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Is the",
+      "start_sample": 0,
+      "end_sample": 5250,
+      "start_ms": 0,
+      "end_ms": 328
+    },
+    {
+      "lang": "ja",
+      "text": "試合",
+      "start_sample": 5250,
+      "end_sample": 15447,
+      "start_ms": 328,
+      "end_ms": 965
+    },
+    {
+      "lang": "en",
+      "text": "this Saturday or next Saturday?",
+      "start_sample": 15447,
+      "end_sample": 61254,
+      "start_ms": 965,
+      "end_ms": 3828
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Is the shiai this Saturday or next Saturday?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4048,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is the",
+          "start_sample": 0,
+          "end_sample": 5450,
+          "start_ms": 0,
+          "end_ms": 341
+        },
+        {
+          "lang": "ja",
+          "text": "試合",
+          "start_sample": 5450,
+          "end_sample": 18756,
+          "start_ms": 341,
+          "end_ms": 1172
+        },
+        {
+          "lang": "en",
+          "text": "this Saturday or next Saturday?",
+          "start_sample": 18756,
+          "end_sample": 64763,
+          "start_ms": 1172,
+          "end_ms": 4048
+        }
+      ]
+    },
+    "ja": {
+      "text": "Is the 試合 this Saturday or next Saturday?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3772,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is the",
+          "start_sample": 0,
+          "end_sample": 6418,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "ja",
+          "text": "試合",
+          "start_sample": 6418,
+          "end_sample": 17015,
+          "start_ms": 401,
+          "end_ms": 1063
+        },
+        {
+          "lang": "en",
+          "text": "this Saturday or next Saturday?",
+          "start_sample": 17015,
+          "end_sample": 60360,
+          "start_ms": 1063,
+          "end_ms": 3772
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "eeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

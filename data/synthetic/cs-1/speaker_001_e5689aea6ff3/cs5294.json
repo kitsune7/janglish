@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_001_e5689aea6ff3/cs5294.flac",
+  "sentence": "ねこじゃらしを使うと、いつも猫が playful になります。",
+  "sample_rate": 16000,
+  "duration_ms": 3348,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 5336,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "ねこじゃらしを使うと、いつも猫が",
+      "start_sample": 0,
+      "end_sample": 34936,
+      "start_ms": 0,
+      "end_ms": 2184
+    },
+    {
+      "lang": "en",
+      "text": "playful",
+      "start_sample": 34936,
+      "end_sample": 44147,
+      "start_ms": 2184,
+      "end_ms": 2759
+    },
+    {
+      "lang": "ja",
+      "text": "になります。",
+      "start_sample": 44147,
+      "end_sample": 53572,
+      "start_ms": 2759,
+      "end_ms": 3348
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "neko ja rashi wo tsukau to itsu mo neko ga playful ni nari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5366,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ねこじゃらしを使うと、いつも猫が",
+          "start_sample": 0,
+          "end_sample": 61026,
+          "start_ms": 0,
+          "end_ms": 3814
+        },
+        {
+          "lang": "en",
+          "text": "playful",
+          "start_sample": 61026,
+          "end_sample": 70637,
+          "start_ms": 3814,
+          "end_ms": 4415
+        },
+        {
+          "lang": "ja",
+          "text": "になります。",
+          "start_sample": 70637,
+          "end_sample": 85853,
+          "start_ms": 4415,
+          "end_ms": 5366
+        }
+      ]
+    },
+    "ja": {
+      "text": "ねこじゃらしを使うと、いつも猫が playful になります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3249,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ねこじゃらしを使うと、いつも猫が",
+          "start_sample": 0,
+          "end_sample": 35136,
+          "start_ms": 0,
+          "end_ms": 2196
+        },
+        {
+          "lang": "en",
+          "text": "playful",
+          "start_sample": 35136,
+          "end_sample": 42356,
+          "start_ms": 2196,
+          "end_ms": 2647
+        },
+        {
+          "lang": "ja",
+          "text": "になります。",
+          "start_sample": 42356,
+          "end_sample": 51981,
+          "start_ms": 2647,
+          "end_ms": 3249
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 168,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

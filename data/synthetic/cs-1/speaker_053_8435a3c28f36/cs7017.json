@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_053_8435a3c28f36/cs7017.flac",
+  "sentence": "The ticket queue stretched for what felt like 何時間 before the gates opened.",
+  "sample_rate": 16000,
+  "duration_ms": 4156,
+  "reference_speaker": "jp/speaker_053_8435a3c28f36.mp3",
+  "seed": 7059,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The ticket queue stretched for what felt like",
+      "start_sample": 0,
+      "end_sample": 32799,
+      "start_ms": 0,
+      "end_ms": 2050
+    },
+    {
+      "lang": "ja",
+      "text": "何時間",
+      "start_sample": 32799,
+      "end_sample": 44267,
+      "start_ms": 2050,
+      "end_ms": 2767
+    },
+    {
+      "lang": "en",
+      "text": "before the gates opened.",
+      "start_sample": 44267,
+      "end_sample": 66493,
+      "start_ms": 2767,
+      "end_ms": 4156
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The ticket queue stretched for what felt like nani jikan before the gates opened.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4285,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The ticket queue stretched for what felt like",
+          "start_sample": 0,
+          "end_sample": 32999,
+          "start_ms": 0,
+          "end_ms": 2062
+        },
+        {
+          "lang": "ja",
+          "text": "何時間",
+          "start_sample": 32999,
+          "end_sample": 46135,
+          "start_ms": 2062,
+          "end_ms": 2883
+        },
+        {
+          "lang": "en",
+          "text": "before the gates opened.",
+          "start_sample": 46135,
+          "end_sample": 68561,
+          "start_ms": 2883,
+          "end_ms": 4285
+        }
+      ]
+    },
+    "ja": {
+      "text": "The ticket queue stretched for what felt like 何時間 before the gates opened.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6515,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The ticket queue stretched for what felt like",
+          "start_sample": 0,
+          "end_sample": 57254,
+          "start_ms": 0,
+          "end_ms": 3578
+        },
+        {
+          "lang": "ja",
+          "text": "何時間",
+          "start_sample": 57254,
+          "end_sample": 69122,
+          "start_ms": 3578,
+          "end_ms": 4320
+        },
+        {
+          "lang": "en",
+          "text": "before the gates opened.",
+          "start_sample": 69122,
+          "end_sample": 104242,
+          "start_ms": 4320,
+          "end_ms": 6515
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

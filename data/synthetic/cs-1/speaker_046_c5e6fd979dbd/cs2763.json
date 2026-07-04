@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_046_c5e6fd979dbd/cs2763.flac",
+  "sentence": "I wrote out a whole 下書き before finally hitting send.",
+  "sample_rate": 16000,
+  "duration_ms": 4494,
+  "reference_speaker": "en/speaker_046_c5e6fd979dbd.mp3",
+  "seed": 2805,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I wrote out a whole",
+      "start_sample": 0,
+      "end_sample": 32309,
+      "start_ms": 0,
+      "end_ms": 2019
+    },
+    {
+      "lang": "ja",
+      "text": "下書き",
+      "start_sample": 32309,
+      "end_sample": 39439,
+      "start_ms": 2019,
+      "end_ms": 2465
+    },
+    {
+      "lang": "en",
+      "text": "before finally hitting send.",
+      "start_sample": 39439,
+      "end_sample": 71909,
+      "start_ms": 2465,
+      "end_ms": 4494
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I wrote out a whole shitagaki before finally hitting send.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5105,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I wrote out a whole",
+          "start_sample": 0,
+          "end_sample": 32509,
+          "start_ms": 0,
+          "end_ms": 2032
+        },
+        {
+          "lang": "ja",
+          "text": "下書き",
+          "start_sample": 32509,
+          "end_sample": 49004,
+          "start_ms": 2032,
+          "end_ms": 3063
+        },
+        {
+          "lang": "en",
+          "text": "before finally hitting send.",
+          "start_sample": 49004,
+          "end_sample": 81674,
+          "start_ms": 3063,
+          "end_ms": 5105
+        }
+      ]
+    },
+    "ja": {
+      "text": "I wrote out a whole 下書き before finally hitting send.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3765,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I wrote out a whole",
+          "start_sample": 0,
+          "end_sample": 22267,
+          "start_ms": 0,
+          "end_ms": 1392
+        },
+        {
+          "lang": "ja",
+          "text": "下書き",
+          "start_sample": 22267,
+          "end_sample": 29797,
+          "start_ms": 1392,
+          "end_ms": 1862
+        },
+        {
+          "lang": "en",
+          "text": "before finally hitting send.",
+          "start_sample": 29797,
+          "end_sample": 60236,
+          "start_ms": 1862,
+          "end_ms": 3765
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

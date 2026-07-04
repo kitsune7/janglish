@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_023_d9597f21cb60/cs2302.flac",
+  "sentence": "We've been trying to model 感謝 at dinner by naming one good thing, and the kids' responses have real 深み.",
+  "sample_rate": 16000,
+  "duration_ms": 5854,
+  "reference_speaker": "jp/speaker_023_d9597f21cb60.mp3",
+  "seed": 2344,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We've been trying to model",
+      "start_sample": 0,
+      "end_sample": 16462,
+      "start_ms": 0,
+      "end_ms": 1029
+    },
+    {
+      "lang": "ja",
+      "text": "感謝",
+      "start_sample": 16462,
+      "end_sample": 27609,
+      "start_ms": 1029,
+      "end_ms": 1726
+    },
+    {
+      "lang": "en",
+      "text": "at dinner by naming one good thing, and the kids' responses have real",
+      "start_sample": 27609,
+      "end_sample": 87131,
+      "start_ms": 1726,
+      "end_ms": 5446
+    },
+    {
+      "lang": "ja",
+      "text": "深み.",
+      "start_sample": 87131,
+      "end_sample": 93665,
+      "start_ms": 5446,
+      "end_ms": 5854
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We've been trying to model kansha at dinner by naming one good thing, and the kids' responses have real fukami",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5668,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We've been trying to model",
+          "start_sample": 0,
+          "end_sample": 16662,
+          "start_ms": 0,
+          "end_ms": 1041
+        },
+        {
+          "lang": "ja",
+          "text": "感謝",
+          "start_sample": 16662,
+          "end_sample": 22910,
+          "start_ms": 1041,
+          "end_ms": 1432
+        },
+        {
+          "lang": "en",
+          "text": "at dinner by naming one good thing, and the kids' responses have real",
+          "start_sample": 22910,
+          "end_sample": 82832,
+          "start_ms": 1432,
+          "end_ms": 5177
+        },
+        {
+          "lang": "ja",
+          "text": "深み.",
+          "start_sample": 82832,
+          "end_sample": 90681,
+          "start_ms": 5177,
+          "end_ms": 5668
+        }
+      ]
+    },
+    "ja": {
+      "text": "We've been trying to model 感謝 at dinner by naming one good thing, and the kids' responses have real 深み.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7898,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We've been trying to model",
+          "start_sample": 0,
+          "end_sample": 20848,
+          "start_ms": 0,
+          "end_ms": 1303
+        },
+        {
+          "lang": "ja",
+          "text": "感謝",
+          "start_sample": 20848,
+          "end_sample": 32395,
+          "start_ms": 1303,
+          "end_ms": 2025
+        },
+        {
+          "lang": "en",
+          "text": "at dinner by naming one good thing, and the kids' responses have real",
+          "start_sample": 32395,
+          "end_sample": 119639,
+          "start_ms": 2025,
+          "end_ms": 7477
+        },
+        {
+          "lang": "ja",
+          "text": "深み.",
+          "start_sample": 119639,
+          "end_sample": 126373,
+          "start_ms": 7477,
+          "end_ms": 7898
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 293,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjj"
+}

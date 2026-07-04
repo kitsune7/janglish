@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_089_6207739e2e58/cs10531.flac",
+  "sentence": "I admire how 強がり he acts, even though I know he's struggling inside.",
+  "sample_rate": 16000,
+  "duration_ms": 4953,
+  "reference_speaker": "jp/speaker_089_6207739e2e58.mp3",
+  "seed": 10573,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I admire how",
+      "start_sample": 0,
+      "end_sample": 16960,
+      "start_ms": 0,
+      "end_ms": 1060
+    },
+    {
+      "lang": "ja",
+      "text": "強がり",
+      "start_sample": 16960,
+      "end_sample": 26833,
+      "start_ms": 1060,
+      "end_ms": 1677
+    },
+    {
+      "lang": "en",
+      "text": "he acts, even though I know he's struggling inside.",
+      "start_sample": 26833,
+      "end_sample": 79242,
+      "start_ms": 1677,
+      "end_ms": 4953
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I admire how kyou gari he acts, even though I know he's struggling inside.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5213,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I admire how",
+          "start_sample": 0,
+          "end_sample": 17160,
+          "start_ms": 0,
+          "end_ms": 1072
+        },
+        {
+          "lang": "ja",
+          "text": "強がり",
+          "start_sample": 17160,
+          "end_sample": 30794,
+          "start_ms": 1072,
+          "end_ms": 1925
+        },
+        {
+          "lang": "en",
+          "text": "he acts, even though I know he's struggling inside.",
+          "start_sample": 30794,
+          "end_sample": 83403,
+          "start_ms": 1925,
+          "end_ms": 5213
+        }
+      ]
+    },
+    "ja": {
+      "text": "I admire how 強がり he acts, even though I know he's struggling inside.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5056,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I admire how",
+          "start_sample": 0,
+          "end_sample": 14926,
+          "start_ms": 0,
+          "end_ms": 933
+        },
+        {
+          "lang": "ja",
+          "text": "強がり",
+          "start_sample": 14926,
+          "end_sample": 25199,
+          "start_ms": 933,
+          "end_ms": 1575
+        },
+        {
+          "lang": "en",
+          "text": "he acts, even though I know he's struggling inside.",
+          "start_sample": 25199,
+          "end_sample": 80892,
+          "start_ms": 1575,
+          "end_ms": 5056
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 248,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

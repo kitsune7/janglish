@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_038_cc7cc15dbf19/cs2470.flac",
+  "sentence": "この本のthemeについて自分の意見を述べてください。",
+  "sample_rate": 16000,
+  "duration_ms": 3468,
+  "reference_speaker": "en/speaker_038_cc7cc15dbf19.mp3",
+  "seed": 2512,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この本の",
+      "start_sample": 0,
+      "end_sample": 7367,
+      "start_ms": 0,
+      "end_ms": 460
+    },
+    {
+      "lang": "en",
+      "text": "theme",
+      "start_sample": 7367,
+      "end_sample": 18818,
+      "start_ms": 460,
+      "end_ms": 1176
+    },
+    {
+      "lang": "ja",
+      "text": "について自分の意見を述べてください。",
+      "start_sample": 18818,
+      "end_sample": 55482,
+      "start_ms": 1176,
+      "end_ms": 3468
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono hon no theme ni tsui te jibun no iken wo nobe te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7046,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この本の",
+          "start_sample": 0,
+          "end_sample": 41478,
+          "start_ms": 0,
+          "end_ms": 2592
+        },
+        {
+          "lang": "en",
+          "text": "theme",
+          "start_sample": 41478,
+          "end_sample": 53329,
+          "start_ms": 2592,
+          "end_ms": 3333
+        },
+        {
+          "lang": "ja",
+          "text": "について自分の意見を述べてください。",
+          "start_sample": 53329,
+          "end_sample": 112744,
+          "start_ms": 3333,
+          "end_ms": 7046
+        }
+      ]
+    },
+    "ja": {
+      "text": "この本のthemeについて自分の意見を述べてください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3079,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この本の",
+          "start_sample": 0,
+          "end_sample": 7567,
+          "start_ms": 0,
+          "end_ms": 473
+        },
+        {
+          "lang": "en",
+          "text": "theme",
+          "start_sample": 7567,
+          "end_sample": 12397,
+          "start_ms": 473,
+          "end_ms": 775
+        },
+        {
+          "lang": "ja",
+          "text": "について自分の意見を述べてください。",
+          "start_sample": 12397,
+          "end_sample": 49261,
+          "start_ms": 775,
+          "end_ms": 3079
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 174,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

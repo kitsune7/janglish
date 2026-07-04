@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_097_1c56b79c3d3b/cs9441.flac",
+  "sentence": "Working alone all day can sometimes feel surprisingly 孤独.",
+  "sample_rate": 16000,
+  "duration_ms": 4608,
+  "reference_speaker": "jp/speaker_097_1c56b79c3d3b.mp3",
+  "seed": 9483,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Working alone all day can sometimes feel surprisingly",
+      "start_sample": 0,
+      "end_sample": 64793,
+      "start_ms": 0,
+      "end_ms": 4050
+    },
+    {
+      "lang": "ja",
+      "text": "孤独.",
+      "start_sample": 64793,
+      "end_sample": 73723,
+      "start_ms": 4050,
+      "end_ms": 4608
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Working alone all day can sometimes feel surprisingly kodoku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4634,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Working alone all day can sometimes feel surprisingly",
+          "start_sample": 0,
+          "end_sample": 64993,
+          "start_ms": 0,
+          "end_ms": 4062
+        },
+        {
+          "lang": "ja",
+          "text": "孤独.",
+          "start_sample": 64993,
+          "end_sample": 74138,
+          "start_ms": 4062,
+          "end_ms": 4634
+        }
+      ]
+    },
+    "ja": {
+      "text": "Working alone all day can sometimes feel surprisingly 孤独.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5526,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Working alone all day can sometimes feel surprisingly",
+          "start_sample": 0,
+          "end_sample": 79292,
+          "start_ms": 0,
+          "end_ms": 4956
+        },
+        {
+          "lang": "ja",
+          "text": "孤独.",
+          "start_sample": 79292,
+          "end_sample": 88422,
+          "start_ms": 4956,
+          "end_ms": 5526
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 231,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

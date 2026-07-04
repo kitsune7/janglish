@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_052_622e6181fea2/cs8186.flac",
+  "sentence": "こんなcomplexな地図は初めて見ました。",
+  "sample_rate": 16000,
+  "duration_ms": 3340,
+  "reference_speaker": "en/speaker_052_622e6181fea2.mp3",
+  "seed": 8228,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "こんな",
+      "start_sample": 0,
+      "end_sample": 6866,
+      "start_ms": 0,
+      "end_ms": 429
+    },
+    {
+      "lang": "en",
+      "text": "complex",
+      "start_sample": 6866,
+      "end_sample": 27937,
+      "start_ms": 429,
+      "end_ms": 1746
+    },
+    {
+      "lang": "ja",
+      "text": "な地図は初めて見ました。",
+      "start_sample": 27937,
+      "end_sample": 53443,
+      "start_ms": 1746,
+      "end_ms": 3340
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "konna complex na chizu ha hajimete ken mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7991,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "こんな",
+          "start_sample": 0,
+          "end_sample": 6248,
+          "start_ms": 0,
+          "end_ms": 390
+        },
+        {
+          "lang": "en",
+          "text": "complex",
+          "start_sample": 6248,
+          "end_sample": 27719,
+          "start_ms": 390,
+          "end_ms": 1732
+        },
+        {
+          "lang": "ja",
+          "text": "な地図は初めて見ました。",
+          "start_sample": 27719,
+          "end_sample": 127862,
+          "start_ms": 1732,
+          "end_ms": 7991
+        }
+      ]
+    },
+    "ja": {
+      "text": "こんなcomplexな地図は初めて見ました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2631,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "こんな",
+          "start_sample": 0,
+          "end_sample": 7066,
+          "start_ms": 0,
+          "end_ms": 442
+        },
+        {
+          "lang": "en",
+          "text": "complex",
+          "start_sample": 7066,
+          "end_sample": 16387,
+          "start_ms": 442,
+          "end_ms": 1024
+        },
+        {
+          "lang": "ja",
+          "text": "な地図は初めて見ました。",
+          "start_sample": 16387,
+          "end_sample": 42093,
+          "start_ms": 1024,
+          "end_ms": 2631
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 168,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_081_ce72da759902/cs5800.flac",
+  "sentence": "This fabric feels incredibly 柔らかい — it's perfect for curtains.",
+  "sample_rate": 16000,
+  "duration_ms": 4109,
+  "reference_speaker": "en/speaker_081_ce72da759902.mp3",
+  "seed": 5842,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This fabric feels incredibly",
+      "start_sample": 0,
+      "end_sample": 27463,
+      "start_ms": 0,
+      "end_ms": 1716
+    },
+    {
+      "lang": "ja",
+      "text": "柔らかい —",
+      "start_sample": 27463,
+      "end_sample": 41023,
+      "start_ms": 1716,
+      "end_ms": 2564
+    },
+    {
+      "lang": "en",
+      "text": "it's perfect for curtains.",
+      "start_sample": 41023,
+      "end_sample": 65747,
+      "start_ms": 2564,
+      "end_ms": 4109
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This fabric feels incredibly yawarakai it's perfect for curtains.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4242,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This fabric feels incredibly",
+          "start_sample": 0,
+          "end_sample": 27663,
+          "start_ms": 0,
+          "end_ms": 1729
+        },
+        {
+          "lang": "ja",
+          "text": "柔らかい —",
+          "start_sample": 27663,
+          "end_sample": 42943,
+          "start_ms": 1729,
+          "end_ms": 2684
+        },
+        {
+          "lang": "en",
+          "text": "it's perfect for curtains.",
+          "start_sample": 42943,
+          "end_sample": 67867,
+          "start_ms": 2684,
+          "end_ms": 4242
+        }
+      ]
+    },
+    "ja": {
+      "text": "This fabric feels incredibly 柔らかい — it's perfect for curtains.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5094,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This fabric feels incredibly",
+          "start_sample": 0,
+          "end_sample": 38508,
+          "start_ms": 0,
+          "end_ms": 2407
+        },
+        {
+          "lang": "ja",
+          "text": "柔らかい —",
+          "start_sample": 38508,
+          "end_sample": 52468,
+          "start_ms": 2407,
+          "end_ms": 3279
+        },
+        {
+          "lang": "en",
+          "text": "it's perfect for curtains.",
+          "start_sample": 52468,
+          "end_sample": 81507,
+          "start_ms": 3279,
+          "end_ms": 5094
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 206,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

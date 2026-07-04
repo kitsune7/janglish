@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_071_c593127a0954/cs6536.flac",
+  "sentence": "Have you read the 続編 yet, or are you still on the first book?",
+  "sample_rate": 16000,
+  "duration_ms": 3927,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 6578,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you read the",
+      "start_sample": 0,
+      "end_sample": 8937,
+      "start_ms": 0,
+      "end_ms": 559
+    },
+    {
+      "lang": "ja",
+      "text": "続編",
+      "start_sample": 8937,
+      "end_sample": 17507,
+      "start_ms": 559,
+      "end_ms": 1094
+    },
+    {
+      "lang": "en",
+      "text": "yet, or are you still on the first book?",
+      "start_sample": 17507,
+      "end_sample": 62834,
+      "start_ms": 1094,
+      "end_ms": 3927
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you read the zokuhen yet, or are you still on the first book?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4028,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you read the",
+          "start_sample": 0,
+          "end_sample": 9137,
+          "start_ms": 0,
+          "end_ms": 571
+        },
+        {
+          "lang": "ja",
+          "text": "続編",
+          "start_sample": 9137,
+          "end_sample": 18916,
+          "start_ms": 571,
+          "end_ms": 1182
+        },
+        {
+          "lang": "en",
+          "text": "yet, or are you still on the first book?",
+          "start_sample": 18916,
+          "end_sample": 64443,
+          "start_ms": 1182,
+          "end_ms": 4028
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you read the 続編 yet, or are you still on the first book?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3664,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you read the",
+          "start_sample": 0,
+          "end_sample": 13776,
+          "start_ms": 0,
+          "end_ms": 861
+        },
+        {
+          "lang": "ja",
+          "text": "続編",
+          "start_sample": 13776,
+          "end_sample": 22746,
+          "start_ms": 861,
+          "end_ms": 1422
+        },
+        {
+          "lang": "en",
+          "text": "yet, or are you still on the first book?",
+          "start_sample": 22746,
+          "end_sample": 58629,
+          "start_ms": 1422,
+          "end_ms": 3664
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 197,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

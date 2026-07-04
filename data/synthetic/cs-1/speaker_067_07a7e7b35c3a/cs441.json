@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_067_07a7e7b35c3a/cs441.flac",
+  "sentence": "There is a 大きな cobweb hanging in the corner above the bookshelf that I keep ignoring.",
+  "sample_rate": 16000,
+  "duration_ms": 5324,
+  "reference_speaker": "jp/speaker_067_07a7e7b35c3a.mp3",
+  "seed": 483,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "There is a",
+      "start_sample": 0,
+      "end_sample": 8463,
+      "start_ms": 0,
+      "end_ms": 529
+    },
+    {
+      "lang": "ja",
+      "text": "大きな",
+      "start_sample": 8463,
+      "end_sample": 14318,
+      "start_ms": 529,
+      "end_ms": 895
+    },
+    {
+      "lang": "en",
+      "text": "cobweb hanging in the corner above the bookshelf that I keep ignoring.",
+      "start_sample": 14318,
+      "end_sample": 85192,
+      "start_ms": 895,
+      "end_ms": 5324
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "There is a ookina cobweb hanging in the corner above the bookshelf that I keep ignoring.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5535,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "There is a",
+          "start_sample": 0,
+          "end_sample": 8663,
+          "start_ms": 0,
+          "end_ms": 541
+        },
+        {
+          "lang": "ja",
+          "text": "大きな",
+          "start_sample": 8663,
+          "end_sample": 17488,
+          "start_ms": 541,
+          "end_ms": 1093
+        },
+        {
+          "lang": "en",
+          "text": "cobweb hanging in the corner above the bookshelf that I keep ignoring.",
+          "start_sample": 17488,
+          "end_sample": 88562,
+          "start_ms": 1093,
+          "end_ms": 5535
+        }
+      ]
+    },
+    "ja": {
+      "text": "There is a 大きな cobweb hanging in the corner above the bookshelf that I keep ignoring.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6215,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "There is a",
+          "start_sample": 0,
+          "end_sample": 7217,
+          "start_ms": 0,
+          "end_ms": 451
+        },
+        {
+          "lang": "ja",
+          "text": "大きな",
+          "start_sample": 7217,
+          "end_sample": 13472,
+          "start_ms": 451,
+          "end_ms": 842
+        },
+        {
+          "lang": "en",
+          "text": "cobweb hanging in the corner above the bookshelf that I keep ignoring.",
+          "start_sample": 13472,
+          "end_sample": 99442,
+          "start_ms": 842,
+          "end_ms": 6215
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 267,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

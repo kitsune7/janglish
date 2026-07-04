@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_015_c26b5026d437/cs2965.flac",
+  "sentence": "Could you recommend a good 美容院 in this neighborhood?",
+  "sample_rate": 16000,
+  "duration_ms": 3421,
+  "reference_speaker": "jp/speaker_015_c26b5026d437.mp3",
+  "seed": 3007,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Could you recommend a good",
+      "start_sample": 0,
+      "end_sample": 22908,
+      "start_ms": 0,
+      "end_ms": 1432
+    },
+    {
+      "lang": "ja",
+      "text": "美容院",
+      "start_sample": 22908,
+      "end_sample": 33270,
+      "start_ms": 1432,
+      "end_ms": 2079
+    },
+    {
+      "lang": "en",
+      "text": "in this neighborhood?",
+      "start_sample": 33270,
+      "end_sample": 54732,
+      "start_ms": 2079,
+      "end_ms": 3421
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Could you recommend a good biyou in in this neighborhood?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3891,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you recommend a good",
+          "start_sample": 0,
+          "end_sample": 23108,
+          "start_ms": 0,
+          "end_ms": 1444
+        },
+        {
+          "lang": "ja",
+          "text": "美容院",
+          "start_sample": 23108,
+          "end_sample": 40600,
+          "start_ms": 1444,
+          "end_ms": 2538
+        },
+        {
+          "lang": "en",
+          "text": "in this neighborhood?",
+          "start_sample": 40600,
+          "end_sample": 62262,
+          "start_ms": 2538,
+          "end_ms": 3891
+        }
+      ]
+    },
+    "ja": {
+      "text": "Could you recommend a good 美容院 in this neighborhood?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3674,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you recommend a good",
+          "start_sample": 0,
+          "end_sample": 26503,
+          "start_ms": 0,
+          "end_ms": 1656
+        },
+        {
+          "lang": "ja",
+          "text": "美容院",
+          "start_sample": 26503,
+          "end_sample": 37265,
+          "start_ms": 1656,
+          "end_ms": 2329
+        },
+        {
+          "lang": "en",
+          "text": "in this neighborhood?",
+          "start_sample": 37265,
+          "end_sample": 58786,
+          "start_ms": 2329,
+          "end_ms": 3674
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 172,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

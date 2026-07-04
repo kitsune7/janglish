@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_055_a1e62e8e91e0/cs11680.flac",
+  "sentence": "私はいつもdeadlineの直前になって焦る。",
+  "sample_rate": 16000,
+  "duration_ms": 3680,
+  "reference_speaker": "en/speaker_055_a1e62e8e91e0.mp3",
+  "seed": 11722,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "私はいつも",
+      "start_sample": 0,
+      "end_sample": 13656,
+      "start_ms": 0,
+      "end_ms": 854
+    },
+    {
+      "lang": "en",
+      "text": "deadline",
+      "start_sample": 13656,
+      "end_sample": 33153,
+      "start_ms": 854,
+      "end_ms": 2072
+    },
+    {
+      "lang": "ja",
+      "text": "の直前になって焦る。",
+      "start_sample": 33153,
+      "end_sample": 58888,
+      "start_ms": 2072,
+      "end_ms": 3680
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "watashi ha itsu mo deadline no chokuzen ni natsu te aseru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6398,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私はいつも",
+          "start_sample": 0,
+          "end_sample": 27919,
+          "start_ms": 0,
+          "end_ms": 1745
+        },
+        {
+          "lang": "en",
+          "text": "deadline",
+          "start_sample": 27919,
+          "end_sample": 47816,
+          "start_ms": 1745,
+          "end_ms": 2988
+        },
+        {
+          "lang": "ja",
+          "text": "の直前になって焦る。",
+          "start_sample": 47816,
+          "end_sample": 102369,
+          "start_ms": 2988,
+          "end_ms": 6398
+        }
+      ]
+    },
+    "ja": {
+      "text": "私はいつもdeadlineの直前になって焦る。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3121,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私はいつも",
+          "start_sample": 0,
+          "end_sample": 13856,
+          "start_ms": 0,
+          "end_ms": 866
+        },
+        {
+          "lang": "en",
+          "text": "deadline",
+          "start_sample": 13856,
+          "end_sample": 24007,
+          "start_ms": 866,
+          "end_ms": 1500
+        },
+        {
+          "lang": "ja",
+          "text": "の直前になって焦る。",
+          "start_sample": 24007,
+          "end_sample": 49942,
+          "start_ms": 1500,
+          "end_ms": 3121
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 185,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

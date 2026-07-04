@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_045_fda9acd0702e/cs414.flac",
+  "sentence": "She uses a 古い toothbrush to scrub the grout between the tiles.",
+  "sample_rate": 16000,
+  "duration_ms": 4091,
+  "reference_speaker": "jp/speaker_045_fda9acd0702e.mp3",
+  "seed": 456,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She uses a",
+      "start_sample": 0,
+      "end_sample": 10415,
+      "start_ms": 0,
+      "end_ms": 651
+    },
+    {
+      "lang": "ja",
+      "text": "古い",
+      "start_sample": 10415,
+      "end_sample": 16447,
+      "start_ms": 651,
+      "end_ms": 1028
+    },
+    {
+      "lang": "en",
+      "text": "toothbrush to scrub the grout between the tiles.",
+      "start_sample": 16447,
+      "end_sample": 65458,
+      "start_ms": 1028,
+      "end_ms": 4091
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She uses a furui toothbrush to scrub the grout between the tiles.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4262,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She uses a",
+          "start_sample": 0,
+          "end_sample": 10615,
+          "start_ms": 0,
+          "end_ms": 663
+        },
+        {
+          "lang": "ja",
+          "text": "古い",
+          "start_sample": 10615,
+          "end_sample": 18978,
+          "start_ms": 663,
+          "end_ms": 1186
+        },
+        {
+          "lang": "en",
+          "text": "toothbrush to scrub the grout between the tiles.",
+          "start_sample": 18978,
+          "end_sample": 68189,
+          "start_ms": 1186,
+          "end_ms": 4262
+        }
+      ]
+    },
+    "ja": {
+      "text": "She uses a 古い toothbrush to scrub the grout between the tiles.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4522,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She uses a",
+          "start_sample": 0,
+          "end_sample": 10128,
+          "start_ms": 0,
+          "end_ms": 633
+        },
+        {
+          "lang": "ja",
+          "text": "古い",
+          "start_sample": 10128,
+          "end_sample": 16560,
+          "start_ms": 633,
+          "end_ms": 1035
+        },
+        {
+          "lang": "en",
+          "text": "toothbrush to scrub the grout between the tiles.",
+          "start_sample": 16560,
+          "end_sample": 72345,
+          "start_ms": 1035,
+          "end_ms": 4522
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 205,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

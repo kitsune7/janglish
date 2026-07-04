@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_009_33102318f73b/cs3373.flac",
+  "sentence": "川の水位がcriticalなレベルまで上がっています。",
+  "sample_rate": 16000,
+  "duration_ms": 3058,
+  "reference_speaker": "jp/speaker_009_33102318f73b.mp3",
+  "seed": 3415,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "川の水位が",
+      "start_sample": 0,
+      "end_sample": 11346,
+      "start_ms": 0,
+      "end_ms": 709
+    },
+    {
+      "lang": "en",
+      "text": "critical",
+      "start_sample": 11346,
+      "end_sample": 24751,
+      "start_ms": 709,
+      "end_ms": 1547
+    },
+    {
+      "lang": "ja",
+      "text": "なレベルまで上がっています。",
+      "start_sample": 24751,
+      "end_sample": 48926,
+      "start_ms": 1547,
+      "end_ms": 3058
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kawa no suii ga critical na reberu made agatsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4996,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "川の水位が",
+          "start_sample": 0,
+          "end_sample": 20708,
+          "start_ms": 0,
+          "end_ms": 1294
+        },
+        {
+          "lang": "en",
+          "text": "critical",
+          "start_sample": 20708,
+          "end_sample": 34513,
+          "start_ms": 1294,
+          "end_ms": 2157
+        },
+        {
+          "lang": "ja",
+          "text": "なレベルまで上がっています。",
+          "start_sample": 34513,
+          "end_sample": 79941,
+          "start_ms": 2157,
+          "end_ms": 4996
+        }
+      ]
+    },
+    "ja": {
+      "text": "川の水位がcriticalなレベルまで上がっています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2806,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "川の水位が",
+          "start_sample": 0,
+          "end_sample": 11546,
+          "start_ms": 0,
+          "end_ms": 722
+        },
+        {
+          "lang": "en",
+          "text": "critical",
+          "start_sample": 11546,
+          "end_sample": 20528,
+          "start_ms": 722,
+          "end_ms": 1283
+        },
+        {
+          "lang": "ja",
+          "text": "なレベルまで上がっています。",
+          "start_sample": 20528,
+          "end_sample": 44903,
+          "start_ms": 1283,
+          "end_ms": 2806
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 153,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

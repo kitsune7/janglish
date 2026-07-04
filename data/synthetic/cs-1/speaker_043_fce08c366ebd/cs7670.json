@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_043_fce08c366ebd/cs7670.flac",
+  "sentence": "Voter turnout was remarkably 高い in the northern districts this cycle.",
+  "sample_rate": 16000,
+  "duration_ms": 3639,
+  "reference_speaker": "en/speaker_043_fce08c366ebd.mp3",
+  "seed": 7712,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Voter turnout was remarkably",
+      "start_sample": 0,
+      "end_sample": 23541,
+      "start_ms": 0,
+      "end_ms": 1471
+    },
+    {
+      "lang": "ja",
+      "text": "高い",
+      "start_sample": 23541,
+      "end_sample": 30030,
+      "start_ms": 1471,
+      "end_ms": 1877
+    },
+    {
+      "lang": "en",
+      "text": "in the northern districts this cycle.",
+      "start_sample": 30030,
+      "end_sample": 58221,
+      "start_ms": 1877,
+      "end_ms": 3639
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Voter turnout was remarkably takai in the northern districts this cycle.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3770,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Voter turnout was remarkably",
+          "start_sample": 0,
+          "end_sample": 23741,
+          "start_ms": 0,
+          "end_ms": 1484
+        },
+        {
+          "lang": "ja",
+          "text": "高い",
+          "start_sample": 23741,
+          "end_sample": 31922,
+          "start_ms": 1484,
+          "end_ms": 1995
+        },
+        {
+          "lang": "en",
+          "text": "in the northern districts this cycle.",
+          "start_sample": 31922,
+          "end_sample": 60313,
+          "start_ms": 1995,
+          "end_ms": 3770
+        }
+      ]
+    },
+    "ja": {
+      "text": "Voter turnout was remarkably 高い in the northern districts this cycle.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5606,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Voter turnout was remarkably",
+          "start_sample": 0,
+          "end_sample": 31716,
+          "start_ms": 0,
+          "end_ms": 1982
+        },
+        {
+          "lang": "ja",
+          "text": "高い",
+          "start_sample": 31716,
+          "end_sample": 38605,
+          "start_ms": 1982,
+          "end_ms": 2413
+        },
+        {
+          "lang": "en",
+          "text": "in the northern districts this cycle.",
+          "start_sample": 38605,
+          "end_sample": 89703,
+          "start_ms": 2413,
+          "end_ms": 5606
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 182,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_063_0760e257c60c/cs5350.flac",
+  "sentence": "The hotel's 屋上 terrace offered a stunning panoramic view of the harbor.",
+  "sample_rate": 16000,
+  "duration_ms": 4617,
+  "reference_speaker": "jp/speaker_063_0760e257c60c.mp3",
+  "seed": 5392,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The hotel's",
+      "start_sample": 0,
+      "end_sample": 9253,
+      "start_ms": 0,
+      "end_ms": 578
+    },
+    {
+      "lang": "ja",
+      "text": "屋上",
+      "start_sample": 9253,
+      "end_sample": 16225,
+      "start_ms": 578,
+      "end_ms": 1014
+    },
+    {
+      "lang": "en",
+      "text": "terrace offered a stunning panoramic view of the harbor.",
+      "start_sample": 16225,
+      "end_sample": 73867,
+      "start_ms": 1014,
+      "end_ms": 4617
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hotel's okujou terrace offered a stunning panoramic view of the harbor.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4647,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hotel's",
+          "start_sample": 0,
+          "end_sample": 9453,
+          "start_ms": 0,
+          "end_ms": 591
+        },
+        {
+          "lang": "ja",
+          "text": "屋上",
+          "start_sample": 9453,
+          "end_sample": 16503,
+          "start_ms": 591,
+          "end_ms": 1031
+        },
+        {
+          "lang": "en",
+          "text": "terrace offered a stunning panoramic view of the harbor.",
+          "start_sample": 16503,
+          "end_sample": 74345,
+          "start_ms": 1031,
+          "end_ms": 4647
+        }
+      ]
+    },
+    "ja": {
+      "text": "The hotel's 屋上 terrace offered a stunning panoramic view of the harbor.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4607,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hotel's",
+          "start_sample": 0,
+          "end_sample": 12178,
+          "start_ms": 0,
+          "end_ms": 761
+        },
+        {
+          "lang": "ja",
+          "text": "屋上",
+          "start_sample": 12178,
+          "end_sample": 19550,
+          "start_ms": 761,
+          "end_ms": 1222
+        },
+        {
+          "lang": "en",
+          "text": "terrace offered a stunning panoramic view of the harbor.",
+          "start_sample": 19550,
+          "end_sample": 73716,
+          "start_ms": 1222,
+          "end_ms": 4607
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 231,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

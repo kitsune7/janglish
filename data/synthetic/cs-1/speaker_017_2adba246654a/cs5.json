@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_017_2adba246654a/cs5.flac",
+  "sentence": "My お母さん is coming to visit next week.",
+  "sample_rate": 16000,
+  "duration_ms": 2606,
+  "reference_speaker": "jp/speaker_017_2adba246654a.mp3",
+  "seed": 47,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My",
+      "start_sample": 0,
+      "end_sample": 3487,
+      "start_ms": 0,
+      "end_ms": 218
+    },
+    {
+      "lang": "ja",
+      "text": "お母さん",
+      "start_sample": 3487,
+      "end_sample": 11747,
+      "start_ms": 218,
+      "end_ms": 734
+    },
+    {
+      "lang": "en",
+      "text": "is coming to visit next week.",
+      "start_sample": 11747,
+      "end_sample": 41688,
+      "start_ms": 734,
+      "end_ms": 2606
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My o haha san is coming to visit next week.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3627,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 3687,
+          "start_ms": 0,
+          "end_ms": 230
+        },
+        {
+          "lang": "ja",
+          "text": "お母さん",
+          "start_sample": 3687,
+          "end_sample": 27898,
+          "start_ms": 230,
+          "end_ms": 1744
+        },
+        {
+          "lang": "en",
+          "text": "is coming to visit next week.",
+          "start_sample": 27898,
+          "end_sample": 58039,
+          "start_ms": 1744,
+          "end_ms": 3627
+        }
+      ]
+    },
+    "ja": {
+      "text": "My お母さん is coming to visit next week.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2726,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 4009,
+          "start_ms": 0,
+          "end_ms": 251
+        },
+        {
+          "lang": "ja",
+          "text": "お母さん",
+          "start_sample": 4009,
+          "end_sample": 12669,
+          "start_ms": 251,
+          "end_ms": 792
+        },
+        {
+          "lang": "en",
+          "text": "is coming to visit next week.",
+          "start_sample": 12669,
+          "end_sample": 43619,
+          "start_ms": 792,
+          "end_ms": 2726
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 131,
+  "frame_labels": "eeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

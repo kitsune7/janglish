@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_003_7f373ff7d9ea/cs10261.flac",
+  "sentence": "The 受取人 never showed up to claim the parcel, so it was returned.",
+  "sample_rate": 16000,
+  "duration_ms": 5189,
+  "reference_speaker": "jp/speaker_003_7f373ff7d9ea.mp3",
+  "seed": 10303,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1887,
+      "start_ms": 0,
+      "end_ms": 118
+    },
+    {
+      "lang": "ja",
+      "text": "受取人",
+      "start_sample": 1887,
+      "end_sample": 15451,
+      "start_ms": 118,
+      "end_ms": 966
+    },
+    {
+      "lang": "en",
+      "text": "never showed up to claim the parcel, so it was returned.",
+      "start_sample": 15451,
+      "end_sample": 83018,
+      "start_ms": 966,
+      "end_ms": 5189
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The uketori nin never showed up to claim the parcel, so it was returned.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6042,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2087,
+          "start_ms": 0,
+          "end_ms": 130
+        },
+        {
+          "lang": "ja",
+          "text": "受取人",
+          "start_sample": 2087,
+          "end_sample": 28907,
+          "start_ms": 130,
+          "end_ms": 1807
+        },
+        {
+          "lang": "en",
+          "text": "never showed up to claim the parcel, so it was returned.",
+          "start_sample": 28907,
+          "end_sample": 96674,
+          "start_ms": 1807,
+          "end_ms": 6042
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 受取人 never showed up to claim the parcel, so it was returned.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4835,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3691,
+          "start_ms": 0,
+          "end_ms": 231
+        },
+        {
+          "lang": "ja",
+          "text": "受取人",
+          "start_sample": 3691,
+          "end_sample": 17655,
+          "start_ms": 231,
+          "end_ms": 1103
+        },
+        {
+          "lang": "en",
+          "text": "never showed up to claim the parcel, so it was returned.",
+          "start_sample": 17655,
+          "end_sample": 77361,
+          "start_ms": 1103,
+          "end_ms": 4835
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 260,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

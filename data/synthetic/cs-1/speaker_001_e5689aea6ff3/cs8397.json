@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_001_e5689aea6ff3/cs8397.flac",
+  "sentence": "The whole apartment smells 清潔 now that we opened the windows.",
+  "sample_rate": 16000,
+  "duration_ms": 4510,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 8439,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole apartment smells",
+      "start_sample": 0,
+      "end_sample": 27120,
+      "start_ms": 0,
+      "end_ms": 1695
+    },
+    {
+      "lang": "ja",
+      "text": "清潔",
+      "start_sample": 27120,
+      "end_sample": 36840,
+      "start_ms": 1695,
+      "end_ms": 2302
+    },
+    {
+      "lang": "en",
+      "text": "now that we opened the windows.",
+      "start_sample": 36840,
+      "end_sample": 72153,
+      "start_ms": 2302,
+      "end_ms": 4510
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole apartment smells seiketsu now that we opened the windows.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4620,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole apartment smells",
+          "start_sample": 0,
+          "end_sample": 27320,
+          "start_ms": 0,
+          "end_ms": 1708
+        },
+        {
+          "lang": "ja",
+          "text": "清潔",
+          "start_sample": 27320,
+          "end_sample": 38409,
+          "start_ms": 1708,
+          "end_ms": 2401
+        },
+        {
+          "lang": "en",
+          "text": "now that we opened the windows.",
+          "start_sample": 38409,
+          "end_sample": 73922,
+          "start_ms": 2401,
+          "end_ms": 4620
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole apartment smells 清潔 now that we opened the windows.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4156,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole apartment smells",
+          "start_sample": 0,
+          "end_sample": 26021,
+          "start_ms": 0,
+          "end_ms": 1626
+        },
+        {
+          "lang": "ja",
+          "text": "清潔",
+          "start_sample": 26021,
+          "end_sample": 36141,
+          "start_ms": 1626,
+          "end_ms": 2259
+        },
+        {
+          "lang": "en",
+          "text": "now that we opened the windows.",
+          "start_sample": 36141,
+          "end_sample": 66499,
+          "start_ms": 2259,
+          "end_ms": 4156
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 226,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

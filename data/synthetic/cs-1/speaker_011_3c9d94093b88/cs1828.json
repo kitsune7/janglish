@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_011_3c9d94093b88/cs1828.flac",
+  "sentence": "The entire 天井 of the renovated hall has been turned into a single continuous mural.",
+  "sample_rate": 16000,
+  "duration_ms": 5630,
+  "reference_speaker": "jp/speaker_011_3c9d94093b88.mp3",
+  "seed": 1870,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The entire",
+      "start_sample": 0,
+      "end_sample": 9755,
+      "start_ms": 0,
+      "end_ms": 610
+    },
+    {
+      "lang": "ja",
+      "text": "天井",
+      "start_sample": 9755,
+      "end_sample": 18502,
+      "start_ms": 610,
+      "end_ms": 1156
+    },
+    {
+      "lang": "en",
+      "text": "of the renovated hall has been turned into a single continuous mural.",
+      "start_sample": 18502,
+      "end_sample": 90076,
+      "start_ms": 1156,
+      "end_ms": 5630
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The entire tenjou of the renovated hall has been turned into a single continuous mural.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5821,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The entire",
+          "start_sample": 0,
+          "end_sample": 9955,
+          "start_ms": 0,
+          "end_ms": 622
+        },
+        {
+          "lang": "ja",
+          "text": "天井",
+          "start_sample": 9955,
+          "end_sample": 21356,
+          "start_ms": 622,
+          "end_ms": 1335
+        },
+        {
+          "lang": "en",
+          "text": "of the renovated hall has been turned into a single continuous mural.",
+          "start_sample": 21356,
+          "end_sample": 93130,
+          "start_ms": 1335,
+          "end_ms": 5821
+        }
+      ]
+    },
+    "ja": {
+      "text": "The entire 天井 of the renovated hall has been turned into a single continuous mural.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6479,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The entire",
+          "start_sample": 0,
+          "end_sample": 15082,
+          "start_ms": 0,
+          "end_ms": 943
+        },
+        {
+          "lang": "ja",
+          "text": "天井",
+          "start_sample": 15082,
+          "end_sample": 24229,
+          "start_ms": 943,
+          "end_ms": 1514
+        },
+        {
+          "lang": "en",
+          "text": "of the renovated hall has been turned into a single continuous mural.",
+          "start_sample": 24229,
+          "end_sample": 103663,
+          "start_ms": 1514,
+          "end_ms": 6479
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 282,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_075_35b3b5e9beb2/cs2116.flac",
+  "sentence": "We spent two hours talking about 職場 culture before they mentioned compensation.",
+  "sample_rate": 16000,
+  "duration_ms": 4988,
+  "reference_speaker": "jp/speaker_075_35b3b5e9beb2.mp3",
+  "seed": 2158,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We spent two hours talking about",
+      "start_sample": 0,
+      "end_sample": 26619,
+      "start_ms": 0,
+      "end_ms": 1664
+    },
+    {
+      "lang": "ja",
+      "text": "職場",
+      "start_sample": 26619,
+      "end_sample": 35210,
+      "start_ms": 1664,
+      "end_ms": 2201
+    },
+    {
+      "lang": "en",
+      "text": "culture before they mentioned compensation.",
+      "start_sample": 35210,
+      "end_sample": 79812,
+      "start_ms": 2201,
+      "end_ms": 4988
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We spent two hours talking about shokuba culture before they mentioned compensation.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4998,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We spent two hours talking about",
+          "start_sample": 0,
+          "end_sample": 26819,
+          "start_ms": 0,
+          "end_ms": 1676
+        },
+        {
+          "lang": "ja",
+          "text": "職場",
+          "start_sample": 26819,
+          "end_sample": 35170,
+          "start_ms": 1676,
+          "end_ms": 2198
+        },
+        {
+          "lang": "en",
+          "text": "culture before they mentioned compensation.",
+          "start_sample": 35170,
+          "end_sample": 79972,
+          "start_ms": 2198,
+          "end_ms": 4998
+        }
+      ]
+    },
+    "ja": {
+      "text": "We spent two hours talking about 職場 culture before they mentioned compensation.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6282,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We spent two hours talking about",
+          "start_sample": 0,
+          "end_sample": 42710,
+          "start_ms": 0,
+          "end_ms": 2669
+        },
+        {
+          "lang": "ja",
+          "text": "職場",
+          "start_sample": 42710,
+          "end_sample": 51701,
+          "start_ms": 2669,
+          "end_ms": 3231
+        },
+        {
+          "lang": "en",
+          "text": "culture before they mentioned compensation.",
+          "start_sample": 51701,
+          "end_sample": 100510,
+          "start_ms": 3231,
+          "end_ms": 6282
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 250,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

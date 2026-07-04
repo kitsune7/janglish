@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_051_2b805c12b1e0/cs7357.flac",
+  "sentence": "The nurse explained the procedure in a very 丁寧 way.",
+  "sample_rate": 16000,
+  "duration_ms": 3045,
+  "reference_speaker": "jp/speaker_051_2b805c12b1e0.mp3",
+  "seed": 7399,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The nurse explained the procedure in a very",
+      "start_sample": 0,
+      "end_sample": 37105,
+      "start_ms": 0,
+      "end_ms": 2319
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧",
+      "start_sample": 37105,
+      "end_sample": 43294,
+      "start_ms": 2319,
+      "end_ms": 2706
+    },
+    {
+      "lang": "en",
+      "text": "way.",
+      "start_sample": 43294,
+      "end_sample": 48718,
+      "start_ms": 2706,
+      "end_ms": 3045
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The nurse explained the procedure in a very teinei way.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3276,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The nurse explained the procedure in a very",
+          "start_sample": 0,
+          "end_sample": 37305,
+          "start_ms": 0,
+          "end_ms": 2332
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 37305,
+          "end_sample": 46792,
+          "start_ms": 2332,
+          "end_ms": 2924
+        },
+        {
+          "lang": "en",
+          "text": "way.",
+          "start_sample": 46792,
+          "end_sample": 52416,
+          "start_ms": 2924,
+          "end_ms": 3276
+        }
+      ]
+    },
+    "ja": {
+      "text": "The nurse explained the procedure in a very 丁寧 way.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4660,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The nurse explained the procedure in a very",
+          "start_sample": 0,
+          "end_sample": 63480,
+          "start_ms": 0,
+          "end_ms": 3968
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 63480,
+          "end_sample": 70069,
+          "start_ms": 3968,
+          "end_ms": 4379
+        },
+        {
+          "lang": "en",
+          "text": "way.",
+          "start_sample": 70069,
+          "end_sample": 74565,
+          "start_ms": 4379,
+          "end_ms": 4660
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 153,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeee"
+}

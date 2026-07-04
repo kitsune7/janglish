@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_003_7f373ff7d9ea/cs1762.flac",
+  "sentence": "Could you pour me something 甘い but not too heavy before dinner?",
+  "sample_rate": 16000,
+  "duration_ms": 3212,
+  "reference_speaker": "jp/speaker_003_7f373ff7d9ea.mp3",
+  "seed": 1804,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Could you pour me something",
+      "start_sample": 0,
+      "end_sample": 17153,
+      "start_ms": 0,
+      "end_ms": 1072
+    },
+    {
+      "lang": "ja",
+      "text": "甘い",
+      "start_sample": 17153,
+      "end_sample": 23001,
+      "start_ms": 1072,
+      "end_ms": 1438
+    },
+    {
+      "lang": "en",
+      "text": "but not too heavy before dinner?",
+      "start_sample": 23001,
+      "end_sample": 51399,
+      "start_ms": 1438,
+      "end_ms": 3212
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Could you pour me something amai but not too heavy before dinner?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3314,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you pour me something",
+          "start_sample": 0,
+          "end_sample": 17353,
+          "start_ms": 0,
+          "end_ms": 1085
+        },
+        {
+          "lang": "ja",
+          "text": "甘い",
+          "start_sample": 17353,
+          "end_sample": 24424,
+          "start_ms": 1085,
+          "end_ms": 1526
+        },
+        {
+          "lang": "en",
+          "text": "but not too heavy before dinner?",
+          "start_sample": 24424,
+          "end_sample": 53022,
+          "start_ms": 1526,
+          "end_ms": 3314
+        }
+      ]
+    },
+    "ja": {
+      "text": "Could you pour me something 甘い but not too heavy before dinner?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3865,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you pour me something",
+          "start_sample": 0,
+          "end_sample": 21307,
+          "start_ms": 0,
+          "end_ms": 1332
+        },
+        {
+          "lang": "ja",
+          "text": "甘い",
+          "start_sample": 21307,
+          "end_sample": 27555,
+          "start_ms": 1332,
+          "end_ms": 1722
+        },
+        {
+          "lang": "en",
+          "text": "but not too heavy before dinner?",
+          "start_sample": 27555,
+          "end_sample": 61839,
+          "start_ms": 1722,
+          "end_ms": 3865
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 161,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_018_b0dec8b93359/cs9553.flac",
+  "sentence": "彼女はいつもtextの返信がめちゃくちゃ早い。",
+  "sample_rate": 16000,
+  "duration_ms": 3303,
+  "reference_speaker": "en/speaker_018_b0dec8b93359.mp3",
+  "seed": 9595,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女はいつも",
+      "start_sample": 0,
+      "end_sample": 15379,
+      "start_ms": 0,
+      "end_ms": 961
+    },
+    {
+      "lang": "en",
+      "text": "text",
+      "start_sample": 15379,
+      "end_sample": 22685,
+      "start_ms": 961,
+      "end_ms": 1418
+    },
+    {
+      "lang": "ja",
+      "text": "の返信がめちゃくちゃ早い。",
+      "start_sample": 22685,
+      "end_sample": 52844,
+      "start_ms": 1418,
+      "end_ms": 3303
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha itsu mo text no henshin ga mechakucha hayai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5939,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女はいつも",
+          "start_sample": 0,
+          "end_sample": 37723,
+          "start_ms": 0,
+          "end_ms": 2358
+        },
+        {
+          "lang": "en",
+          "text": "text",
+          "start_sample": 37723,
+          "end_sample": 45429,
+          "start_ms": 2358,
+          "end_ms": 2839
+        },
+        {
+          "lang": "ja",
+          "text": "の返信がめちゃくちゃ早い。",
+          "start_sample": 45429,
+          "end_sample": 95029,
+          "start_ms": 2839,
+          "end_ms": 5939
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はいつもtextの返信がめちゃくちゃ早い。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3393,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女はいつも",
+          "start_sample": 0,
+          "end_sample": 15579,
+          "start_ms": 0,
+          "end_ms": 974
+        },
+        {
+          "lang": "en",
+          "text": "text",
+          "start_sample": 15579,
+          "end_sample": 23932,
+          "start_ms": 974,
+          "end_ms": 1496
+        },
+        {
+          "lang": "ja",
+          "text": "の返信がめちゃくちゃ早い。",
+          "start_sample": 23932,
+          "end_sample": 54291,
+          "start_ms": 1496,
+          "end_ms": 3393
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 166,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

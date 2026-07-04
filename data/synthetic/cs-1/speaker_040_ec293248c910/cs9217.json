@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_040_ec293248c910/cs9217.flac",
+  "sentence": "窓をwet wipeで拭くと、意外にきれいになります。",
+  "sample_rate": 16000,
+  "duration_ms": 4030,
+  "reference_speaker": "en/speaker_040_ec293248c910.mp3",
+  "seed": 9259,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "窓を",
+      "start_sample": 0,
+      "end_sample": 6859,
+      "start_ms": 0,
+      "end_ms": 429
+    },
+    {
+      "lang": "en",
+      "text": "wet wipe",
+      "start_sample": 6859,
+      "end_sample": 23286,
+      "start_ms": 429,
+      "end_ms": 1455
+    },
+    {
+      "lang": "ja",
+      "text": "で拭くと、意外にきれいになります。",
+      "start_sample": 23286,
+      "end_sample": 64481,
+      "start_ms": 1455,
+      "end_ms": 4030
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mado wo wet wipe de fuku to igai ni kirei ni nari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5509,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "窓を",
+          "start_sample": 0,
+          "end_sample": 8492,
+          "start_ms": 0,
+          "end_ms": 531
+        },
+        {
+          "lang": "en",
+          "text": "wet wipe",
+          "start_sample": 8492,
+          "end_sample": 25319,
+          "start_ms": 531,
+          "end_ms": 1582
+        },
+        {
+          "lang": "ja",
+          "text": "で拭くと、意外にきれいになります。",
+          "start_sample": 25319,
+          "end_sample": 88140,
+          "start_ms": 1582,
+          "end_ms": 5509
+        }
+      ]
+    },
+    "ja": {
+      "text": "窓をwet wipeで拭くと、意外にきれいになります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3851,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "窓を",
+          "start_sample": 0,
+          "end_sample": 7059,
+          "start_ms": 0,
+          "end_ms": 441
+        },
+        {
+          "lang": "en",
+          "text": "wet wipe",
+          "start_sample": 7059,
+          "end_sample": 20216,
+          "start_ms": 441,
+          "end_ms": 1264
+        },
+        {
+          "lang": "ja",
+          "text": "で拭くと、意外にきれいになります。",
+          "start_sample": 20216,
+          "end_sample": 61611,
+          "start_ms": 1264,
+          "end_ms": 3851
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

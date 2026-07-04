@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_045_730ff605e95b/cs4851.flac",
+  "sentence": "We were amazed by the 細かい carvings on the temple gate.",
+  "sample_rate": 16000,
+  "duration_ms": 3643,
+  "reference_speaker": "en/speaker_045_730ff605e95b.mp3",
+  "seed": 4893,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We were amazed by the",
+      "start_sample": 0,
+      "end_sample": 18593,
+      "start_ms": 0,
+      "end_ms": 1162
+    },
+    {
+      "lang": "ja",
+      "text": "細かい",
+      "start_sample": 18593,
+      "end_sample": 29093,
+      "start_ms": 1162,
+      "end_ms": 1818
+    },
+    {
+      "lang": "en",
+      "text": "carvings on the temple gate.",
+      "start_sample": 29093,
+      "end_sample": 58284,
+      "start_ms": 1818,
+      "end_ms": 3643
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We were amazed by the komakai carvings on the temple gate.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3634,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We were amazed by the",
+          "start_sample": 0,
+          "end_sample": 18793,
+          "start_ms": 0,
+          "end_ms": 1175
+        },
+        {
+          "lang": "ja",
+          "text": "細かい",
+          "start_sample": 18793,
+          "end_sample": 28752,
+          "start_ms": 1175,
+          "end_ms": 1797
+        },
+        {
+          "lang": "en",
+          "text": "carvings on the temple gate.",
+          "start_sample": 28752,
+          "end_sample": 58143,
+          "start_ms": 1797,
+          "end_ms": 3634
+        }
+      ]
+    },
+    "ja": {
+      "text": "We were amazed by the 細かい carvings on the temple gate.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4328,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We were amazed by the",
+          "start_sample": 0,
+          "end_sample": 27729,
+          "start_ms": 0,
+          "end_ms": 1733
+        },
+        {
+          "lang": "ja",
+          "text": "細かい",
+          "start_sample": 27729,
+          "end_sample": 38629,
+          "start_ms": 1733,
+          "end_ms": 2414
+        },
+        {
+          "lang": "en",
+          "text": "carvings on the temple gate.",
+          "start_sample": 38629,
+          "end_sample": 69242,
+          "start_ms": 2414,
+          "end_ms": 4328
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 183,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

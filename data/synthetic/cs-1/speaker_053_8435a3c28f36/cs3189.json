@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_053_8435a3c28f36/cs3189.flac",
+  "sentence": "Can you help me set up this 無線 router before the meeting?",
+  "sample_rate": 16000,
+  "duration_ms": 3261,
+  "reference_speaker": "jp/speaker_053_8435a3c28f36.mp3",
+  "seed": 3231,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you help me set up this",
+      "start_sample": 0,
+      "end_sample": 16333,
+      "start_ms": 0,
+      "end_ms": 1021
+    },
+    {
+      "lang": "ja",
+      "text": "無線",
+      "start_sample": 16333,
+      "end_sample": 32795,
+      "start_ms": 1021,
+      "end_ms": 2050
+    },
+    {
+      "lang": "en",
+      "text": "router before the meeting?",
+      "start_sample": 32795,
+      "end_sample": 52175,
+      "start_ms": 2050,
+      "end_ms": 3261
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you help me set up this musen router before the meeting?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2729,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you help me set up this",
+          "start_sample": 0,
+          "end_sample": 16533,
+          "start_ms": 0,
+          "end_ms": 1033
+        },
+        {
+          "lang": "ja",
+          "text": "無線",
+          "start_sample": 16533,
+          "end_sample": 24078,
+          "start_ms": 1033,
+          "end_ms": 1505
+        },
+        {
+          "lang": "en",
+          "text": "router before the meeting?",
+          "start_sample": 24078,
+          "end_sample": 43658,
+          "start_ms": 1505,
+          "end_ms": 2729
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you help me set up this 無線 router before the meeting?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5841,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you help me set up this",
+          "start_sample": 0,
+          "end_sample": 37097,
+          "start_ms": 0,
+          "end_ms": 2319
+        },
+        {
+          "lang": "ja",
+          "text": "無線",
+          "start_sample": 37097,
+          "end_sample": 53959,
+          "start_ms": 2319,
+          "end_ms": 3372
+        },
+        {
+          "lang": "en",
+          "text": "router before the meeting?",
+          "start_sample": 53959,
+          "end_sample": 93462,
+          "start_ms": 3372,
+          "end_ms": 5841
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 164,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

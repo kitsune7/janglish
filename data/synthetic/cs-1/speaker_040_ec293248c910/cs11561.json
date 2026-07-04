@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_040_ec293248c910/cs11561.flac",
+  "sentence": "あなたは今、confusedな状態じゃないの？",
+  "sample_rate": 16000,
+  "duration_ms": 2822,
+  "reference_speaker": "en/speaker_040_ec293248c910.mp3",
+  "seed": 11603,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あなたは今、",
+      "start_sample": 0,
+      "end_sample": 14109,
+      "start_ms": 0,
+      "end_ms": 882
+    },
+    {
+      "lang": "en",
+      "text": "confused",
+      "start_sample": 14109,
+      "end_sample": 27026,
+      "start_ms": 882,
+      "end_ms": 1689
+    },
+    {
+      "lang": "ja",
+      "text": "な状態じゃないの？",
+      "start_sample": 27026,
+      "end_sample": 45151,
+      "start_ms": 1689,
+      "end_ms": 2822
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "anata ha ima confused na joutai ja nai no",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3650,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あなたは今、",
+          "start_sample": 0,
+          "end_sample": 24227,
+          "start_ms": 0,
+          "end_ms": 1514
+        },
+        {
+          "lang": "en",
+          "text": "confused",
+          "start_sample": 24227,
+          "end_sample": 37544,
+          "start_ms": 1514,
+          "end_ms": 2346
+        },
+        {
+          "lang": "ja",
+          "text": "な状態じゃないの？",
+          "start_sample": 37544,
+          "end_sample": 58399,
+          "start_ms": 2346,
+          "end_ms": 3650
+        }
+      ]
+    },
+    "ja": {
+      "text": "あなたは今、confusedな状態じゃないの？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3034,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あなたは今、",
+          "start_sample": 0,
+          "end_sample": 14309,
+          "start_ms": 0,
+          "end_ms": 894
+        },
+        {
+          "lang": "en",
+          "text": "confused",
+          "start_sample": 14309,
+          "end_sample": 30226,
+          "start_ms": 894,
+          "end_ms": 1889
+        },
+        {
+          "lang": "ja",
+          "text": "な状態じゃないの？",
+          "start_sample": 30226,
+          "end_sample": 48551,
+          "start_ms": 1889,
+          "end_ms": 3034
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 142,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

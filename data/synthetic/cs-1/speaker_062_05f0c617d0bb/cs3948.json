@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_062_05f0c617d0bb/cs3948.flac",
+  "sentence": "The encryption key needs to be kept 秘密 at all times.",
+  "sample_rate": 16000,
+  "duration_ms": 4493,
+  "reference_speaker": "en/speaker_062_05f0c617d0bb.mp3",
+  "seed": 3990,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The encryption key needs to be kept",
+      "start_sample": 0,
+      "end_sample": 39431,
+      "start_ms": 0,
+      "end_ms": 2464
+    },
+    {
+      "lang": "ja",
+      "text": "秘密",
+      "start_sample": 39431,
+      "end_sample": 48499,
+      "start_ms": 2464,
+      "end_ms": 3031
+    },
+    {
+      "lang": "en",
+      "text": "at all times.",
+      "start_sample": 48499,
+      "end_sample": 71884,
+      "start_ms": 3031,
+      "end_ms": 4493
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The encryption key needs to be kept himitsu at all times.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5014,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The encryption key needs to be kept",
+          "start_sample": 0,
+          "end_sample": 39631,
+          "start_ms": 0,
+          "end_ms": 2477
+        },
+        {
+          "lang": "ja",
+          "text": "秘密",
+          "start_sample": 39631,
+          "end_sample": 56639,
+          "start_ms": 2477,
+          "end_ms": 3540
+        },
+        {
+          "lang": "en",
+          "text": "at all times.",
+          "start_sample": 56639,
+          "end_sample": 80224,
+          "start_ms": 3540,
+          "end_ms": 5014
+        }
+      ]
+    },
+    "ja": {
+      "text": "The encryption key needs to be kept 秘密 at all times.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4573,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The encryption key needs to be kept",
+          "start_sample": 0,
+          "end_sample": 48142,
+          "start_ms": 0,
+          "end_ms": 3009
+        },
+        {
+          "lang": "ja",
+          "text": "秘密",
+          "start_sample": 48142,
+          "end_sample": 57610,
+          "start_ms": 3009,
+          "end_ms": 3601
+        },
+        {
+          "lang": "en",
+          "text": "at all times.",
+          "start_sample": 57610,
+          "end_sample": 73174,
+          "start_ms": 3601,
+          "end_ms": 4573
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

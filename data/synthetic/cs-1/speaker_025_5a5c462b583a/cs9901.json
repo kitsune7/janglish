@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_025_5a5c462b583a/cs9901.flac",
+  "sentence": "新しいbag、すごく安く手に入れましたよ！",
+  "sample_rate": 16000,
+  "duration_ms": 3113,
+  "reference_speaker": "en/speaker_025_5a5c462b583a.mp3",
+  "seed": 9943,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "新しい",
+      "start_sample": 0,
+      "end_sample": 8806,
+      "start_ms": 0,
+      "end_ms": 550
+    },
+    {
+      "lang": "en",
+      "text": "bag、",
+      "start_sample": 8806,
+      "end_sample": 22343,
+      "start_ms": 550,
+      "end_ms": 1396
+    },
+    {
+      "lang": "ja",
+      "text": "すごく安く手に入れましたよ！",
+      "start_sample": 22343,
+      "end_sample": 49815,
+      "start_ms": 1396,
+      "end_ms": 3113
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "atarashii bag、 sugoku yasuku te ni ire mashi ta yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5086,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 11373,
+          "start_ms": 0,
+          "end_ms": 711
+        },
+        {
+          "lang": "en",
+          "text": "bag、",
+          "start_sample": 11373,
+          "end_sample": 25310,
+          "start_ms": 711,
+          "end_ms": 1582
+        },
+        {
+          "lang": "ja",
+          "text": "すごく安く手に入れましたよ！",
+          "start_sample": 25310,
+          "end_sample": 81379,
+          "start_ms": 1582,
+          "end_ms": 5086
+        }
+      ]
+    },
+    "ja": {
+      "text": "新しいbag、すごく安く手に入れましたよ！",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2735,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新しい",
+          "start_sample": 0,
+          "end_sample": 9006,
+          "start_ms": 0,
+          "end_ms": 563
+        },
+        {
+          "lang": "en",
+          "text": "bag、",
+          "start_sample": 9006,
+          "end_sample": 16086,
+          "start_ms": 563,
+          "end_ms": 1005
+        },
+        {
+          "lang": "ja",
+          "text": "すごく安く手に入れましたよ！",
+          "start_sample": 16086,
+          "end_sample": 43758,
+          "start_ms": 1005,
+          "end_ms": 2735
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 156,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

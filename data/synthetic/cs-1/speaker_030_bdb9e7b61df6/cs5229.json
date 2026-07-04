@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_030_bdb9e7b61df6/cs5229.flac",
+  "sentence": "My 義兄 just moved across the country for a new job, and the family is still adjusting.",
+  "sample_rate": 16000,
+  "duration_ms": 4348,
+  "reference_speaker": "en/speaker_030_bdb9e7b61df6.mp3",
+  "seed": 5271,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My",
+      "start_sample": 0,
+      "end_sample": 2524,
+      "start_ms": 0,
+      "end_ms": 158
+    },
+    {
+      "lang": "ja",
+      "text": "義兄",
+      "start_sample": 2524,
+      "end_sample": 7091,
+      "start_ms": 158,
+      "end_ms": 443
+    },
+    {
+      "lang": "en",
+      "text": "just moved across the country for a new job, and the family is still adjusting.",
+      "start_sample": 7091,
+      "end_sample": 69562,
+      "start_ms": 443,
+      "end_ms": 4348
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My ani just moved across the country for a new job, and the family is still adjusting.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4348,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 2724,
+          "start_ms": 0,
+          "end_ms": 170
+        },
+        {
+          "lang": "ja",
+          "text": "義兄",
+          "start_sample": 2724,
+          "end_sample": 6892,
+          "start_ms": 170,
+          "end_ms": 431
+        },
+        {
+          "lang": "en",
+          "text": "just moved across the country for a new job, and the family is still adjusting.",
+          "start_sample": 6892,
+          "end_sample": 69563,
+          "start_ms": 431,
+          "end_ms": 4348
+        }
+      ]
+    },
+    "ja": {
+      "text": "My 義兄 just moved across the country for a new job, and the family is still adjusting.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5688,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 4806,
+          "start_ms": 0,
+          "end_ms": 300
+        },
+        {
+          "lang": "ja",
+          "text": "義兄",
+          "start_sample": 4806,
+          "end_sample": 9773,
+          "start_ms": 300,
+          "end_ms": 611
+        },
+        {
+          "lang": "en",
+          "text": "just moved across the country for a new job, and the family is still adjusting.",
+          "start_sample": 9773,
+          "end_sample": 91002,
+          "start_ms": 611,
+          "end_ms": 5688
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "eeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

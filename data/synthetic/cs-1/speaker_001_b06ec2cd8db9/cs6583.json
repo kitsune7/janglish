@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_001_b06ec2cd8db9/cs6583.flac",
+  "sentence": "Why does 春一番 always arrive right when you've gotten comfortable with winter?",
+  "sample_rate": 16000,
+  "duration_ms": 3479,
+  "reference_speaker": "en/speaker_001_b06ec2cd8db9.mp3",
+  "seed": 6625,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Why does",
+      "start_sample": 0,
+      "end_sample": 5096,
+      "start_ms": 0,
+      "end_ms": 318
+    },
+    {
+      "lang": "ja",
+      "text": "春一番",
+      "start_sample": 5096,
+      "end_sample": 17507,
+      "start_ms": 318,
+      "end_ms": 1094
+    },
+    {
+      "lang": "en",
+      "text": "always arrive right when you've gotten comfortable with winter?",
+      "start_sample": 17507,
+      "end_sample": 55668,
+      "start_ms": 1094,
+      "end_ms": 3479
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Why does haru ichiban always arrive right when you've gotten comfortable with winter?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3591,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Why does",
+          "start_sample": 0,
+          "end_sample": 5296,
+          "start_ms": 0,
+          "end_ms": 331
+        },
+        {
+          "lang": "ja",
+          "text": "春一番",
+          "start_sample": 5296,
+          "end_sample": 19101,
+          "start_ms": 331,
+          "end_ms": 1194
+        },
+        {
+          "lang": "en",
+          "text": "always arrive right when you've gotten comfortable with winter?",
+          "start_sample": 19101,
+          "end_sample": 57462,
+          "start_ms": 1194,
+          "end_ms": 3591
+        }
+      ]
+    },
+    "ja": {
+      "text": "Why does 春一番 always arrive right when you've gotten comfortable with winter?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5284,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Why does",
+          "start_sample": 0,
+          "end_sample": 4323,
+          "start_ms": 0,
+          "end_ms": 270
+        },
+        {
+          "lang": "ja",
+          "text": "春一番",
+          "start_sample": 4323,
+          "end_sample": 17134,
+          "start_ms": 270,
+          "end_ms": 1071
+        },
+        {
+          "lang": "en",
+          "text": "always arrive right when you've gotten comfortable with winter?",
+          "start_sample": 17134,
+          "end_sample": 84552,
+          "start_ms": 1071,
+          "end_ms": 5284
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 174,
+  "frame_labels": "eeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_030_78b8d1b530d5/cs1851.flac",
+  "sentence": "今夜の夕食にsalmonを焼こうと思っています。",
+  "sample_rate": 16000,
+  "duration_ms": 3161,
+  "reference_speaker": "jp/speaker_030_78b8d1b530d5.mp3",
+  "seed": 1893,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今夜の夕食に",
+      "start_sample": 0,
+      "end_sample": 15777,
+      "start_ms": 0,
+      "end_ms": 986
+    },
+    {
+      "lang": "en",
+      "text": "salmon",
+      "start_sample": 15777,
+      "end_sample": 30451,
+      "start_ms": 986,
+      "end_ms": 1903
+    },
+    {
+      "lang": "ja",
+      "text": "を焼こうと思っています。",
+      "start_sample": 30451,
+      "end_sample": 50577,
+      "start_ms": 1903,
+      "end_ms": 3161
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "konya no yuushoku ni salmon wo yakou to omotsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4891,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今夜の夕食に",
+          "start_sample": 0,
+          "end_sample": 23254,
+          "start_ms": 0,
+          "end_ms": 1453
+        },
+        {
+          "lang": "en",
+          "text": "salmon",
+          "start_sample": 23254,
+          "end_sample": 38328,
+          "start_ms": 1453,
+          "end_ms": 2396
+        },
+        {
+          "lang": "ja",
+          "text": "を焼こうと思っています。",
+          "start_sample": 38328,
+          "end_sample": 78260,
+          "start_ms": 2396,
+          "end_ms": 4891
+        }
+      ]
+    },
+    "ja": {
+      "text": "今夜の夕食にsalmonを焼こうと思っています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2662,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今夜の夕食に",
+          "start_sample": 0,
+          "end_sample": 15977,
+          "start_ms": 0,
+          "end_ms": 999
+        },
+        {
+          "lang": "en",
+          "text": "salmon",
+          "start_sample": 15977,
+          "end_sample": 22272,
+          "start_ms": 999,
+          "end_ms": 1392
+        },
+        {
+          "lang": "ja",
+          "text": "を焼こうと思っています。",
+          "start_sample": 22272,
+          "end_sample": 42598,
+          "start_ms": 1392,
+          "end_ms": 2662
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

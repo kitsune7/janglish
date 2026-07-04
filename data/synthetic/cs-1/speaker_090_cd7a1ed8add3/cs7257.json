@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_090_cd7a1ed8add3/cs7257.flac",
+  "sentence": "The 赤字 in her personal budget kept growing despite her best efforts.",
+  "sample_rate": 16000,
+  "duration_ms": 3998,
+  "reference_speaker": "en/speaker_090_cd7a1ed8add3.mp3",
+  "seed": 7299,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1242,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "赤字",
+      "start_sample": 1242,
+      "end_sample": 10137,
+      "start_ms": 78,
+      "end_ms": 634
+    },
+    {
+      "lang": "en",
+      "text": "in her personal budget kept growing despite her best efforts.",
+      "start_sample": 10137,
+      "end_sample": 63960,
+      "start_ms": 634,
+      "end_ms": 3998
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The akaji in her personal budget kept growing despite her best efforts.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4048,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1442,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "赤字",
+          "start_sample": 1442,
+          "end_sample": 10740,
+          "start_ms": 90,
+          "end_ms": 671
+        },
+        {
+          "lang": "en",
+          "text": "in her personal budget kept growing despite her best efforts.",
+          "start_sample": 10740,
+          "end_sample": 64763,
+          "start_ms": 671,
+          "end_ms": 4048
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 赤字 in her personal budget kept growing despite her best efforts.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5529,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3044,
+          "start_ms": 0,
+          "end_ms": 190
+        },
+        {
+          "lang": "ja",
+          "text": "赤字",
+          "start_sample": 3044,
+          "end_sample": 12339,
+          "start_ms": 190,
+          "end_ms": 771
+        },
+        {
+          "lang": "en",
+          "text": "in her personal budget kept growing despite her best efforts.",
+          "start_sample": 12339,
+          "end_sample": 88461,
+          "start_ms": 771,
+          "end_ms": 5529
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 200,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

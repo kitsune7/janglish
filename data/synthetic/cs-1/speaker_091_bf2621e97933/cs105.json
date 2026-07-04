@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_091_bf2621e97933/cs105.flac",
+  "sentence": "The 風 today is strong enough to knock over the taller sunflower stalks.",
+  "sample_rate": 16000,
+  "duration_ms": 4022,
+  "reference_speaker": "jp/speaker_091_bf2621e97933.mp3",
+  "seed": 147,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1891,
+      "start_ms": 0,
+      "end_ms": 118
+    },
+    {
+      "lang": "ja",
+      "text": "風",
+      "start_sample": 1891,
+      "end_sample": 6299,
+      "start_ms": 118,
+      "end_ms": 394
+    },
+    {
+      "lang": "en",
+      "text": "today is strong enough to knock over the taller sunflower stalks.",
+      "start_sample": 6299,
+      "end_sample": 64345,
+      "start_ms": 394,
+      "end_ms": 4022
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kaze today is strong enough to knock over the taller sunflower stalks.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4224,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2091,
+          "start_ms": 0,
+          "end_ms": 131
+        },
+        {
+          "lang": "ja",
+          "text": "風",
+          "start_sample": 2091,
+          "end_sample": 9332,
+          "start_ms": 131,
+          "end_ms": 583
+        },
+        {
+          "lang": "en",
+          "text": "today is strong enough to knock over the taller sunflower stalks.",
+          "start_sample": 9332,
+          "end_sample": 67578,
+          "start_ms": 583,
+          "end_ms": 4224
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 風 today is strong enough to knock over the taller sunflower stalks.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5489,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2243,
+          "start_ms": 0,
+          "end_ms": 140
+        },
+        {
+          "lang": "ja",
+          "text": "風",
+          "start_sample": 2243,
+          "end_sample": 7051,
+          "start_ms": 140,
+          "end_ms": 441
+        },
+        {
+          "lang": "en",
+          "text": "today is strong enough to knock over the taller sunflower stalks.",
+          "start_sample": 7051,
+          "end_sample": 87821,
+          "start_ms": 441,
+          "end_ms": 5489
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

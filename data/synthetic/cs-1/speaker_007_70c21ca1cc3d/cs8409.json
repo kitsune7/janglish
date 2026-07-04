@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_007_70c21ca1cc3d/cs8409.flac",
+  "sentence": "This cleaning spray is incredibly 効果的 on grease around the stove.",
+  "sample_rate": 16000,
+  "duration_ms": 5329,
+  "reference_speaker": "en/speaker_007_70c21ca1cc3d.mp3",
+  "seed": 8451,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This cleaning spray is incredibly",
+      "start_sample": 0,
+      "end_sample": 36655,
+      "start_ms": 0,
+      "end_ms": 2291
+    },
+    {
+      "lang": "ja",
+      "text": "効果的",
+      "start_sample": 36655,
+      "end_sample": 51487,
+      "start_ms": 2291,
+      "end_ms": 3218
+    },
+    {
+      "lang": "en",
+      "text": "on grease around the stove.",
+      "start_sample": 51487,
+      "end_sample": 85257,
+      "start_ms": 3218,
+      "end_ms": 5329
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This cleaning spray is incredibly kouka teki on grease around the stove.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5128,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This cleaning spray is incredibly",
+          "start_sample": 0,
+          "end_sample": 36855,
+          "start_ms": 0,
+          "end_ms": 2303
+        },
+        {
+          "lang": "ja",
+          "text": "効果的",
+          "start_sample": 36855,
+          "end_sample": 48072,
+          "start_ms": 2303,
+          "end_ms": 3004
+        },
+        {
+          "lang": "en",
+          "text": "on grease around the stove.",
+          "start_sample": 48072,
+          "end_sample": 82042,
+          "start_ms": 3004,
+          "end_ms": 5128
+        }
+      ]
+    },
+    "ja": {
+      "text": "This cleaning spray is incredibly 効果的 on grease around the stove.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6453,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This cleaning spray is incredibly",
+          "start_sample": 0,
+          "end_sample": 49704,
+          "start_ms": 0,
+          "end_ms": 3106
+        },
+        {
+          "lang": "ja",
+          "text": "効果的",
+          "start_sample": 49704,
+          "end_sample": 64936,
+          "start_ms": 3106,
+          "end_ms": 4059
+        },
+        {
+          "lang": "en",
+          "text": "on grease around the stove.",
+          "start_sample": 64936,
+          "end_sample": 103254,
+          "start_ms": 4059,
+          "end_ms": 6453
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 267,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

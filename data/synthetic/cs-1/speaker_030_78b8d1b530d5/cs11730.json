@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_030_78b8d1b530d5/cs11730.flac",
+  "sentence": "兄のapartmentは駅から歩いて五分のところにあります。",
+  "sample_rate": 16000,
+  "duration_ms": 4122,
+  "reference_speaker": "jp/speaker_030_78b8d1b530d5.mp3",
+  "seed": 11772,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "兄の",
+      "start_sample": 0,
+      "end_sample": 5902,
+      "start_ms": 0,
+      "end_ms": 369
+    },
+    {
+      "lang": "en",
+      "text": "apartment",
+      "start_sample": 5902,
+      "end_sample": 26335,
+      "start_ms": 369,
+      "end_ms": 1646
+    },
+    {
+      "lang": "ja",
+      "text": "は駅から歩いて五分のところにあります。",
+      "start_sample": 26335,
+      "end_sample": 65960,
+      "start_ms": 1646,
+      "end_ms": 4122
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ani no apartment ha eki kara arui te go fun no tokoro ni ari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6430,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "兄の",
+          "start_sample": 0,
+          "end_sample": 7691,
+          "start_ms": 0,
+          "end_ms": 481
+        },
+        {
+          "lang": "en",
+          "text": "apartment",
+          "start_sample": 7691,
+          "end_sample": 28524,
+          "start_ms": 481,
+          "end_ms": 1783
+        },
+        {
+          "lang": "ja",
+          "text": "は駅から歩いて五分のところにあります。",
+          "start_sample": 28524,
+          "end_sample": 102881,
+          "start_ms": 1783,
+          "end_ms": 6430
+        }
+      ]
+    },
+    "ja": {
+      "text": "兄のapartmentは駅から歩いて五分のところにあります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3473,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "兄の",
+          "start_sample": 0,
+          "end_sample": 6102,
+          "start_ms": 0,
+          "end_ms": 381
+        },
+        {
+          "lang": "en",
+          "text": "apartment",
+          "start_sample": 6102,
+          "end_sample": 15738,
+          "start_ms": 381,
+          "end_ms": 984
+        },
+        {
+          "lang": "ja",
+          "text": "は駅から歩いて五分のところにあります。",
+          "start_sample": 15738,
+          "end_sample": 55563,
+          "start_ms": 984,
+          "end_ms": 3473
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 207,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_092_0f181b6e11f2/cs10210.flac",
+  "sentence": "She learned to drive on a 急な slope, which made flat roads feel easy.",
+  "sample_rate": 16000,
+  "duration_ms": 4176,
+  "reference_speaker": "en/speaker_092_0f181b6e11f2.mp3",
+  "seed": 10252,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She learned to drive on a",
+      "start_sample": 0,
+      "end_sample": 17740,
+      "start_ms": 0,
+      "end_ms": 1109
+    },
+    {
+      "lang": "ja",
+      "text": "急な",
+      "start_sample": 17740,
+      "end_sample": 23281,
+      "start_ms": 1109,
+      "end_ms": 1455
+    },
+    {
+      "lang": "en",
+      "text": "slope, which made flat roads feel easy.",
+      "start_sample": 23281,
+      "end_sample": 66811,
+      "start_ms": 1455,
+      "end_ms": 4176
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She learned to drive on a kyuu na slope, which made flat roads feel easy.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4565,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She learned to drive on a",
+          "start_sample": 0,
+          "end_sample": 17940,
+          "start_ms": 0,
+          "end_ms": 1121
+        },
+        {
+          "lang": "ja",
+          "text": "急な",
+          "start_sample": 17940,
+          "end_sample": 29314,
+          "start_ms": 1121,
+          "end_ms": 1832
+        },
+        {
+          "lang": "en",
+          "text": "slope, which made flat roads feel easy.",
+          "start_sample": 29314,
+          "end_sample": 73044,
+          "start_ms": 1832,
+          "end_ms": 4565
+        }
+      ]
+    },
+    "ja": {
+      "text": "She learned to drive on a 急な slope, which made flat roads feel easy.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4777,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She learned to drive on a",
+          "start_sample": 0,
+          "end_sample": 23602,
+          "start_ms": 0,
+          "end_ms": 1475
+        },
+        {
+          "lang": "ja",
+          "text": "急な",
+          "start_sample": 23602,
+          "end_sample": 29543,
+          "start_ms": 1475,
+          "end_ms": 1846
+        },
+        {
+          "lang": "en",
+          "text": "slope, which made flat roads feel easy.",
+          "start_sample": 29543,
+          "end_sample": 76425,
+          "start_ms": 1846,
+          "end_ms": 4777
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 209,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

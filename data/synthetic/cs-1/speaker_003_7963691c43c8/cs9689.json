@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_003_7963691c43c8/cs9689.flac",
+  "sentence": "隣の部屋がloudで、夜中に音楽が聞こえてくることがある。",
+  "sample_rate": 16000,
+  "duration_ms": 4649,
+  "reference_speaker": "en/speaker_003_7963691c43c8.mp3",
+  "seed": 9731,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "隣の部屋が",
+      "start_sample": 0,
+      "end_sample": 12499,
+      "start_ms": 0,
+      "end_ms": 781
+    },
+    {
+      "lang": "en",
+      "text": "loud",
+      "start_sample": 12499,
+      "end_sample": 30698,
+      "start_ms": 781,
+      "end_ms": 1919
+    },
+    {
+      "lang": "ja",
+      "text": "で、夜中に音楽が聞こえてくることがある。",
+      "start_sample": 30698,
+      "end_sample": 74382,
+      "start_ms": 1919,
+      "end_ms": 4649
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "tonari no heya ga loud de yonaka ni ongaku ga kikoe te kuru koto ga aru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 11304,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "隣の部屋が",
+          "start_sample": 0,
+          "end_sample": 30463,
+          "start_ms": 0,
+          "end_ms": 1904
+        },
+        {
+          "lang": "en",
+          "text": "loud",
+          "start_sample": 30463,
+          "end_sample": 49062,
+          "start_ms": 1904,
+          "end_ms": 3066
+        },
+        {
+          "lang": "ja",
+          "text": "で、夜中に音楽が聞こえてくることがある。",
+          "start_sample": 49062,
+          "end_sample": 180857,
+          "start_ms": 3066,
+          "end_ms": 11304
+        }
+      ]
+    },
+    "ja": {
+      "text": "隣の部屋がloudで、夜中に音楽が聞こえてくることがある。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3918,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "隣の部屋が",
+          "start_sample": 0,
+          "end_sample": 12699,
+          "start_ms": 0,
+          "end_ms": 794
+        },
+        {
+          "lang": "en",
+          "text": "loud",
+          "start_sample": 12699,
+          "end_sample": 18808,
+          "start_ms": 794,
+          "end_ms": 1176
+        },
+        {
+          "lang": "ja",
+          "text": "で、夜中に音楽が聞こえてくることがある。",
+          "start_sample": 18808,
+          "end_sample": 62692,
+          "start_ms": 1176,
+          "end_ms": 3918
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 233,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

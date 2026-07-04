@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_095_1daf6547c74f/cs6257.flac",
+  "sentence": "She looked completely 茫然 standing in the doorway after the news.",
+  "sample_rate": 16000,
+  "duration_ms": 4373,
+  "reference_speaker": "jp/speaker_095_1daf6547c74f.mp3",
+  "seed": 6299,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She looked completely",
+      "start_sample": 0,
+      "end_sample": 19381,
+      "start_ms": 0,
+      "end_ms": 1211
+    },
+    {
+      "lang": "ja",
+      "text": "茫然",
+      "start_sample": 19381,
+      "end_sample": 26997,
+      "start_ms": 1211,
+      "end_ms": 1687
+    },
+    {
+      "lang": "en",
+      "text": "standing in the doorway after the news.",
+      "start_sample": 26997,
+      "end_sample": 69971,
+      "start_ms": 1687,
+      "end_ms": 4373
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She looked completely bouzen standing in the doorway after the news.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4875,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She looked completely",
+          "start_sample": 0,
+          "end_sample": 19581,
+          "start_ms": 0,
+          "end_ms": 1224
+        },
+        {
+          "lang": "ja",
+          "text": "茫然",
+          "start_sample": 19581,
+          "end_sample": 34829,
+          "start_ms": 1224,
+          "end_ms": 2177
+        },
+        {
+          "lang": "en",
+          "text": "standing in the doorway after the news.",
+          "start_sample": 34829,
+          "end_sample": 78003,
+          "start_ms": 2177,
+          "end_ms": 4875
+        }
+      ]
+    },
+    "ja": {
+      "text": "She looked completely 茫然 standing in the doorway after the news.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4349,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She looked completely",
+          "start_sample": 0,
+          "end_sample": 19559,
+          "start_ms": 0,
+          "end_ms": 1222
+        },
+        {
+          "lang": "ja",
+          "text": "茫然",
+          "start_sample": 19559,
+          "end_sample": 27575,
+          "start_ms": 1222,
+          "end_ms": 1723
+        },
+        {
+          "lang": "en",
+          "text": "standing in the doorway after the news.",
+          "start_sample": 27575,
+          "end_sample": 69578,
+          "start_ms": 1723,
+          "end_ms": 4349
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 219,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

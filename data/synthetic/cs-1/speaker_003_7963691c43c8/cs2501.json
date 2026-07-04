@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_003_7963691c43c8/cs2501.flac",
+  "sentence": "彼女はその批判を聞いてdepressedになってしまったらしい。",
+  "sample_rate": 16000,
+  "duration_ms": 4906,
+  "reference_speaker": "en/speaker_003_7963691c43c8.mp3",
+  "seed": 2543,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女はその批判を聞いて",
+      "start_sample": 0,
+      "end_sample": 29045,
+      "start_ms": 0,
+      "end_ms": 1815
+    },
+    {
+      "lang": "en",
+      "text": "depressed",
+      "start_sample": 29045,
+      "end_sample": 56364,
+      "start_ms": 1815,
+      "end_ms": 3523
+    },
+    {
+      "lang": "ja",
+      "text": "になってしまったらしい。",
+      "start_sample": 56364,
+      "end_sample": 78496,
+      "start_ms": 3523,
+      "end_ms": 4906
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha sono hihan wo kii te depressed ni natsu te shimatsu ta rashii",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 12117,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女はその批判を聞いて",
+          "start_sample": 0,
+          "end_sample": 107994,
+          "start_ms": 0,
+          "end_ms": 6750
+        },
+        {
+          "lang": "en",
+          "text": "depressed",
+          "start_sample": 107994,
+          "end_sample": 135713,
+          "start_ms": 6750,
+          "end_ms": 8482
+        },
+        {
+          "lang": "ja",
+          "text": "になってしまったらしい。",
+          "start_sample": 135713,
+          "end_sample": 193877,
+          "start_ms": 8482,
+          "end_ms": 12117
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はその批判を聞いてdepressedになってしまったらしい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3856,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女はその批判を聞いて",
+          "start_sample": 0,
+          "end_sample": 29245,
+          "start_ms": 0,
+          "end_ms": 1828
+        },
+        {
+          "lang": "en",
+          "text": "depressed",
+          "start_sample": 29245,
+          "end_sample": 39369,
+          "start_ms": 1828,
+          "end_ms": 2461
+        },
+        {
+          "lang": "ja",
+          "text": "になってしまったらしい。",
+          "start_sample": 39369,
+          "end_sample": 61701,
+          "start_ms": 2461,
+          "end_ms": 3856
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 246,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

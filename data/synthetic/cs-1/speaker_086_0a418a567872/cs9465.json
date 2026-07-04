@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_086_0a418a567872/cs9465.flac",
+  "sentence": "The sudden 停電 in the middle of my presentation was absolutely mortifying.",
+  "sample_rate": 16000,
+  "duration_ms": 5303,
+  "reference_speaker": "en/speaker_086_0a418a567872.mp3",
+  "seed": 9507,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The sudden",
+      "start_sample": 0,
+      "end_sample": 7502,
+      "start_ms": 0,
+      "end_ms": 469
+    },
+    {
+      "lang": "ja",
+      "text": "停電",
+      "start_sample": 7502,
+      "end_sample": 22471,
+      "start_ms": 469,
+      "end_ms": 1404
+    },
+    {
+      "lang": "en",
+      "text": "in the middle of my presentation was absolutely mortifying.",
+      "start_sample": 22471,
+      "end_sample": 84849,
+      "start_ms": 1404,
+      "end_ms": 5303
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The sudden teiden in the middle of my presentation was absolutely mortifying.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5335,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The sudden",
+          "start_sample": 0,
+          "end_sample": 7702,
+          "start_ms": 0,
+          "end_ms": 481
+        },
+        {
+          "lang": "ja",
+          "text": "停電",
+          "start_sample": 7702,
+          "end_sample": 22785,
+          "start_ms": 481,
+          "end_ms": 1424
+        },
+        {
+          "lang": "en",
+          "text": "in the middle of my presentation was absolutely mortifying.",
+          "start_sample": 22785,
+          "end_sample": 85363,
+          "start_ms": 1424,
+          "end_ms": 5335
+        }
+      ]
+    },
+    "ja": {
+      "text": "The sudden 停電 in the middle of my presentation was absolutely mortifying.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7965,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The sudden",
+          "start_sample": 0,
+          "end_sample": 20492,
+          "start_ms": 0,
+          "end_ms": 1281
+        },
+        {
+          "lang": "ja",
+          "text": "停電",
+          "start_sample": 20492,
+          "end_sample": 35861,
+          "start_ms": 1281,
+          "end_ms": 2241
+        },
+        {
+          "lang": "en",
+          "text": "in the middle of my presentation was absolutely mortifying.",
+          "start_sample": 35861,
+          "end_sample": 127435,
+          "start_ms": 2241,
+          "end_ms": 7965
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 266,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_021_dc81e43724ca/cs5934.flac",
+  "sentence": "She trained 一生懸命 all summer and it really showed at nationals.",
+  "sample_rate": 16000,
+  "duration_ms": 4111,
+  "reference_speaker": "jp/speaker_021_dc81e43724ca.mp3",
+  "seed": 5976,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She trained",
+      "start_sample": 0,
+      "end_sample": 9103,
+      "start_ms": 0,
+      "end_ms": 569
+    },
+    {
+      "lang": "ja",
+      "text": "一生懸命",
+      "start_sample": 9103,
+      "end_sample": 23310,
+      "start_ms": 569,
+      "end_ms": 1457
+    },
+    {
+      "lang": "en",
+      "text": "all summer and it really showed at nationals.",
+      "start_sample": 23310,
+      "end_sample": 65777,
+      "start_ms": 1457,
+      "end_ms": 4111
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She trained isshou kenmei all summer and it really showed at nationals.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4010,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She trained",
+          "start_sample": 0,
+          "end_sample": 9303,
+          "start_ms": 0,
+          "end_ms": 581
+        },
+        {
+          "lang": "ja",
+          "text": "一生懸命",
+          "start_sample": 9303,
+          "end_sample": 21494,
+          "start_ms": 581,
+          "end_ms": 1343
+        },
+        {
+          "lang": "en",
+          "text": "all summer and it really showed at nationals.",
+          "start_sample": 21494,
+          "end_sample": 64161,
+          "start_ms": 1343,
+          "end_ms": 4010
+        }
+      ]
+    },
+    "ja": {
+      "text": "She trained 一生懸命 all summer and it really showed at nationals.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4855,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She trained",
+          "start_sample": 0,
+          "end_sample": 14605,
+          "start_ms": 0,
+          "end_ms": 913
+        },
+        {
+          "lang": "ja",
+          "text": "一生懸命",
+          "start_sample": 14605,
+          "end_sample": 29212,
+          "start_ms": 913,
+          "end_ms": 1826
+        },
+        {
+          "lang": "en",
+          "text": "all summer and it really showed at nationals.",
+          "start_sample": 29212,
+          "end_sample": 77682,
+          "start_ms": 1826,
+          "end_ms": 4855
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 206,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

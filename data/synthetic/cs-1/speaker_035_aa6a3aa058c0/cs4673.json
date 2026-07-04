@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_035_aa6a3aa058c0/cs4673.flac",
+  "sentence": "Did you notice the 細部 on the back of that denim jacket?",
+  "sample_rate": 16000,
+  "duration_ms": 2748,
+  "reference_speaker": "en/speaker_035_aa6a3aa058c0.mp3",
+  "seed": 4715,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Did you notice the",
+      "start_sample": 0,
+      "end_sample": 11991,
+      "start_ms": 0,
+      "end_ms": 749
+    },
+    {
+      "lang": "ja",
+      "text": "細部",
+      "start_sample": 11991,
+      "end_sample": 17852,
+      "start_ms": 749,
+      "end_ms": 1116
+    },
+    {
+      "lang": "en",
+      "text": "on the back of that denim jacket?",
+      "start_sample": 17852,
+      "end_sample": 43960,
+      "start_ms": 1116,
+      "end_ms": 2748
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Did you notice the saibu on the back of that denim jacket?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2847,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you notice the",
+          "start_sample": 0,
+          "end_sample": 12191,
+          "start_ms": 0,
+          "end_ms": 762
+        },
+        {
+          "lang": "ja",
+          "text": "細部",
+          "start_sample": 12191,
+          "end_sample": 19250,
+          "start_ms": 762,
+          "end_ms": 1203
+        },
+        {
+          "lang": "en",
+          "text": "on the back of that denim jacket?",
+          "start_sample": 19250,
+          "end_sample": 45558,
+          "start_ms": 1203,
+          "end_ms": 2847
+        }
+      ]
+    },
+    "ja": {
+      "text": "Did you notice the 細部 on the back of that denim jacket?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3532,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you notice the",
+          "start_sample": 0,
+          "end_sample": 17981,
+          "start_ms": 0,
+          "end_ms": 1124
+        },
+        {
+          "lang": "ja",
+          "text": "細部",
+          "start_sample": 17981,
+          "end_sample": 24242,
+          "start_ms": 1124,
+          "end_ms": 1515
+        },
+        {
+          "lang": "en",
+          "text": "on the back of that denim jacket?",
+          "start_sample": 24242,
+          "end_sample": 56509,
+          "start_ms": 1515,
+          "end_ms": 3532
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 138,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

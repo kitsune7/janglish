@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_001_e5689aea6ff3/cs9659.flac",
+  "sentence": "I always feel 気まずい leaving a voicemail for someone I don't know.",
+  "sample_rate": 16000,
+  "duration_ms": 3465,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 9701,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always feel",
+      "start_sample": 0,
+      "end_sample": 10409,
+      "start_ms": 0,
+      "end_ms": 651
+    },
+    {
+      "lang": "ja",
+      "text": "気まずい",
+      "start_sample": 10409,
+      "end_sample": 20906,
+      "start_ms": 651,
+      "end_ms": 1307
+    },
+    {
+      "lang": "en",
+      "text": "leaving a voicemail for someone I don't know.",
+      "start_sample": 20906,
+      "end_sample": 55439,
+      "start_ms": 1307,
+      "end_ms": 3465
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always feel kimazui leaving a voicemail for someone I don't know.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3537,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel",
+          "start_sample": 0,
+          "end_sample": 10609,
+          "start_ms": 0,
+          "end_ms": 663
+        },
+        {
+          "lang": "ja",
+          "text": "気まずい",
+          "start_sample": 10609,
+          "end_sample": 21866,
+          "start_ms": 663,
+          "end_ms": 1367
+        },
+        {
+          "lang": "en",
+          "text": "leaving a voicemail for someone I don't know.",
+          "start_sample": 21866,
+          "end_sample": 56599,
+          "start_ms": 1367,
+          "end_ms": 3537
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always feel 気まずい leaving a voicemail for someone I don't know.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4147,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel",
+          "start_sample": 0,
+          "end_sample": 13300,
+          "start_ms": 0,
+          "end_ms": 831
+        },
+        {
+          "lang": "ja",
+          "text": "気まずい",
+          "start_sample": 13300,
+          "end_sample": 24197,
+          "start_ms": 831,
+          "end_ms": 1512
+        },
+        {
+          "lang": "en",
+          "text": "leaving a voicemail for someone I don't know.",
+          "start_sample": 24197,
+          "end_sample": 66345,
+          "start_ms": 1512,
+          "end_ms": 4147
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 174,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_008_925570fa5738/cs6185.flac",
+  "sentence": "The moment felt so 特別 — watching her take her very first steps.",
+  "sample_rate": 16000,
+  "duration_ms": 3975,
+  "reference_speaker": "jp/speaker_008_925570fa5738.mp3",
+  "seed": 6227,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The moment felt so",
+      "start_sample": 0,
+      "end_sample": 17260,
+      "start_ms": 0,
+      "end_ms": 1079
+    },
+    {
+      "lang": "ja",
+      "text": "特別 —",
+      "start_sample": 17260,
+      "end_sample": 27438,
+      "start_ms": 1079,
+      "end_ms": 1715
+    },
+    {
+      "lang": "en",
+      "text": "watching her take her very first steps.",
+      "start_sample": 27438,
+      "end_sample": 63601,
+      "start_ms": 1715,
+      "end_ms": 3975
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The moment felt so tokubetsu watching her take her very first steps.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4245,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The moment felt so",
+          "start_sample": 0,
+          "end_sample": 17460,
+          "start_ms": 0,
+          "end_ms": 1091
+        },
+        {
+          "lang": "ja",
+          "text": "特別 —",
+          "start_sample": 17460,
+          "end_sample": 31557,
+          "start_ms": 1091,
+          "end_ms": 1972
+        },
+        {
+          "lang": "en",
+          "text": "watching her take her very first steps.",
+          "start_sample": 31557,
+          "end_sample": 67920,
+          "start_ms": 1972,
+          "end_ms": 4245
+        }
+      ]
+    },
+    "ja": {
+      "text": "The moment felt so 特別 — watching her take her very first steps.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5269,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The moment felt so",
+          "start_sample": 0,
+          "end_sample": 30451,
+          "start_ms": 0,
+          "end_ms": 1903
+        },
+        {
+          "lang": "ja",
+          "text": "特別 —",
+          "start_sample": 30451,
+          "end_sample": 41029,
+          "start_ms": 1903,
+          "end_ms": 2564
+        },
+        {
+          "lang": "en",
+          "text": "watching her take her very first steps.",
+          "start_sample": 41029,
+          "end_sample": 84302,
+          "start_ms": 2564,
+          "end_ms": 5269
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 199,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_017_2adba246654a/cs8444.flac",
+  "sentence": "The new branch manager explained the 規則 around joint accounts.",
+  "sample_rate": 16000,
+  "duration_ms": 3497,
+  "reference_speaker": "jp/speaker_017_2adba246654a.mp3",
+  "seed": 8486,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The new branch manager explained the",
+      "start_sample": 0,
+      "end_sample": 27206,
+      "start_ms": 0,
+      "end_ms": 1700
+    },
+    {
+      "lang": "ja",
+      "text": "規則",
+      "start_sample": 27206,
+      "end_sample": 31790,
+      "start_ms": 1700,
+      "end_ms": 1987
+    },
+    {
+      "lang": "en",
+      "text": "around joint accounts.",
+      "start_sample": 31790,
+      "end_sample": 55950,
+      "start_ms": 1987,
+      "end_ms": 3497
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The new branch manager explained the kisoku around joint accounts.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3866,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new branch manager explained the",
+          "start_sample": 0,
+          "end_sample": 27406,
+          "start_ms": 0,
+          "end_ms": 1713
+        },
+        {
+          "lang": "ja",
+          "text": "規則",
+          "start_sample": 27406,
+          "end_sample": 37503,
+          "start_ms": 1713,
+          "end_ms": 2344
+        },
+        {
+          "lang": "en",
+          "text": "around joint accounts.",
+          "start_sample": 37503,
+          "end_sample": 61863,
+          "start_ms": 2344,
+          "end_ms": 3866
+        }
+      ]
+    },
+    "ja": {
+      "text": "The new branch manager explained the 規則 around joint accounts.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4441,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new branch manager explained the",
+          "start_sample": 0,
+          "end_sample": 42119,
+          "start_ms": 0,
+          "end_ms": 2632
+        },
+        {
+          "lang": "ja",
+          "text": "規則",
+          "start_sample": 42119,
+          "end_sample": 47103,
+          "start_ms": 2632,
+          "end_ms": 2944
+        },
+        {
+          "lang": "en",
+          "text": "around joint accounts.",
+          "start_sample": 47103,
+          "end_sample": 71055,
+          "start_ms": 2944,
+          "end_ms": 4441
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

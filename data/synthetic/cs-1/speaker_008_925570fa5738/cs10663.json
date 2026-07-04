@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_008_925570fa5738/cs10663.flac",
+  "sentence": "He gave a 丁寧 wave to the driver who let him merge.",
+  "sample_rate": 16000,
+  "duration_ms": 4098,
+  "reference_speaker": "jp/speaker_008_925570fa5738.mp3",
+  "seed": 10705,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He gave a",
+      "start_sample": 0,
+      "end_sample": 11697,
+      "start_ms": 0,
+      "end_ms": 731
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧",
+      "start_sample": 11697,
+      "end_sample": 19311,
+      "start_ms": 731,
+      "end_ms": 1207
+    },
+    {
+      "lang": "en",
+      "text": "wave to the driver who let him merge.",
+      "start_sample": 19311,
+      "end_sample": 65571,
+      "start_ms": 1207,
+      "end_ms": 4098
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He gave a teinei wave to the driver who let him merge.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4522,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He gave a",
+          "start_sample": 0,
+          "end_sample": 11897,
+          "start_ms": 0,
+          "end_ms": 744
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 11897,
+          "end_sample": 25885,
+          "start_ms": 744,
+          "end_ms": 1618
+        },
+        {
+          "lang": "en",
+          "text": "wave to the driver who let him merge.",
+          "start_sample": 25885,
+          "end_sample": 72345,
+          "start_ms": 1618,
+          "end_ms": 4522
+        }
+      ]
+    },
+    "ja": {
+      "text": "He gave a 丁寧 wave to the driver who let him merge.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4328,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He gave a",
+          "start_sample": 0,
+          "end_sample": 9777,
+          "start_ms": 0,
+          "end_ms": 611
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 9777,
+          "end_sample": 17791,
+          "start_ms": 611,
+          "end_ms": 1112
+        },
+        {
+          "lang": "en",
+          "text": "wave to the driver who let him merge.",
+          "start_sample": 17791,
+          "end_sample": 69242,
+          "start_ms": 1112,
+          "end_ms": 4328
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 205,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

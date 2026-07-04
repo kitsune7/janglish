@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_035_dd783030d2b8/cs5989.flac",
+  "sentence": "She finally found the perfect 洋服 for the graduation ceremony.",
+  "sample_rate": 16000,
+  "duration_ms": 3049,
+  "reference_speaker": "jp/speaker_035_dd783030d2b8.mp3",
+  "seed": 6031,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She finally found the perfect",
+      "start_sample": 0,
+      "end_sample": 19618,
+      "start_ms": 0,
+      "end_ms": 1226
+    },
+    {
+      "lang": "ja",
+      "text": "洋服",
+      "start_sample": 19618,
+      "end_sample": 26431,
+      "start_ms": 1226,
+      "end_ms": 1652
+    },
+    {
+      "lang": "en",
+      "text": "for the graduation ceremony.",
+      "start_sample": 26431,
+      "end_sample": 48783,
+      "start_ms": 1652,
+      "end_ms": 3049
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She finally found the perfect youfuku for the graduation ceremony.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3081,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She finally found the perfect",
+          "start_sample": 0,
+          "end_sample": 19818,
+          "start_ms": 0,
+          "end_ms": 1239
+        },
+        {
+          "lang": "ja",
+          "text": "洋服",
+          "start_sample": 19818,
+          "end_sample": 26746,
+          "start_ms": 1239,
+          "end_ms": 1672
+        },
+        {
+          "lang": "en",
+          "text": "for the graduation ceremony.",
+          "start_sample": 26746,
+          "end_sample": 49298,
+          "start_ms": 1672,
+          "end_ms": 3081
+        }
+      ]
+    },
+    "ja": {
+      "text": "She finally found the perfect 洋服 for the graduation ceremony.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4288,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She finally found the perfect",
+          "start_sample": 0,
+          "end_sample": 36064,
+          "start_ms": 0,
+          "end_ms": 2254
+        },
+        {
+          "lang": "ja",
+          "text": "洋服",
+          "start_sample": 36064,
+          "end_sample": 43277,
+          "start_ms": 2254,
+          "end_ms": 2705
+        },
+        {
+          "lang": "en",
+          "text": "for the graduation ceremony.",
+          "start_sample": 43277,
+          "end_sample": 68601,
+          "start_ms": 2705,
+          "end_ms": 4288
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 153,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

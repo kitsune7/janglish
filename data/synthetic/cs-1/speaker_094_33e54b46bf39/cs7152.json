@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_094_33e54b46bf39/cs7152.flac",
+  "sentence": "Have you talked to the 担任 about how he's settling in this semester?",
+  "sample_rate": 16000,
+  "duration_ms": 3800,
+  "reference_speaker": "jp/speaker_094_33e54b46bf39.mp3",
+  "seed": 7194,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you talked to the",
+      "start_sample": 0,
+      "end_sample": 15359,
+      "start_ms": 0,
+      "end_ms": 960
+    },
+    {
+      "lang": "ja",
+      "text": "担任",
+      "start_sample": 15359,
+      "end_sample": 22820,
+      "start_ms": 960,
+      "end_ms": 1426
+    },
+    {
+      "lang": "en",
+      "text": "about how he's settling in this semester?",
+      "start_sample": 22820,
+      "end_sample": 60795,
+      "start_ms": 1426,
+      "end_ms": 3800
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you talked to the tannin about how he's settling in this semester?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4050,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you talked to the",
+          "start_sample": 0,
+          "end_sample": 15559,
+          "start_ms": 0,
+          "end_ms": 972
+        },
+        {
+          "lang": "ja",
+          "text": "担任",
+          "start_sample": 15559,
+          "end_sample": 26628,
+          "start_ms": 972,
+          "end_ms": 1664
+        },
+        {
+          "lang": "en",
+          "text": "about how he's settling in this semester?",
+          "start_sample": 26628,
+          "end_sample": 64803,
+          "start_ms": 1664,
+          "end_ms": 4050
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you talked to the 担任 about how he's settling in this semester?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4853,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you talked to the",
+          "start_sample": 0,
+          "end_sample": 22619,
+          "start_ms": 0,
+          "end_ms": 1414
+        },
+        {
+          "lang": "ja",
+          "text": "担任",
+          "start_sample": 22619,
+          "end_sample": 30480,
+          "start_ms": 1414,
+          "end_ms": 1905
+        },
+        {
+          "lang": "en",
+          "text": "about how he's settling in this semester?",
+          "start_sample": 30480,
+          "end_sample": 77643,
+          "start_ms": 1905,
+          "end_ms": 4853
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_018_b5ccf3bf7c65/cs7984.flac",
+  "sentence": "庭仕事の後はgarden gloves、きちんと洗ってね。",
+  "sample_rate": 16000,
+  "duration_ms": 3302,
+  "reference_speaker": "jp/speaker_018_b5ccf3bf7c65.mp3",
+  "seed": 8026,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "庭仕事の後は",
+      "start_sample": 0,
+      "end_sample": 13957,
+      "start_ms": 0,
+      "end_ms": 872
+    },
+    {
+      "lang": "en",
+      "text": "garden gloves、",
+      "start_sample": 13957,
+      "end_sample": 35010,
+      "start_ms": 872,
+      "end_ms": 2188
+    },
+    {
+      "lang": "ja",
+      "text": "きちんと洗ってね。",
+      "start_sample": 35010,
+      "end_sample": 52824,
+      "start_ms": 2188,
+      "end_ms": 3302
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "niwashigoto no nochi ha garden gloves、 kichinto aratsu te ne",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8045,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "庭仕事の後は",
+          "start_sample": 0,
+          "end_sample": 62439,
+          "start_ms": 0,
+          "end_ms": 3902
+        },
+        {
+          "lang": "en",
+          "text": "garden gloves、",
+          "start_sample": 62439,
+          "end_sample": 83892,
+          "start_ms": 3902,
+          "end_ms": 5243
+        },
+        {
+          "lang": "ja",
+          "text": "きちんと洗ってね。",
+          "start_sample": 83892,
+          "end_sample": 128720,
+          "start_ms": 5243,
+          "end_ms": 8045
+        }
+      ]
+    },
+    "ja": {
+      "text": "庭仕事の後はgarden gloves、きちんと洗ってね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2956,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "庭仕事の後は",
+          "start_sample": 0,
+          "end_sample": 14157,
+          "start_ms": 0,
+          "end_ms": 885
+        },
+        {
+          "lang": "en",
+          "text": "garden gloves、",
+          "start_sample": 14157,
+          "end_sample": 29280,
+          "start_ms": 885,
+          "end_ms": 1830
+        },
+        {
+          "lang": "ja",
+          "text": "きちんと洗ってね。",
+          "start_sample": 29280,
+          "end_sample": 47294,
+          "start_ms": 1830,
+          "end_ms": 2956
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 166,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_071_c593127a0954/cs1037.flac",
+  "sentence": "乾杯の前にちょっとtoastをしましょう。",
+  "sample_rate": 16000,
+  "duration_ms": 2932,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 1079,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "乾杯の前にちょっと",
+      "start_sample": 0,
+      "end_sample": 23108,
+      "start_ms": 0,
+      "end_ms": 1444
+    },
+    {
+      "lang": "en",
+      "text": "toast",
+      "start_sample": 23108,
+      "end_sample": 36819,
+      "start_ms": 1444,
+      "end_ms": 2301
+    },
+    {
+      "lang": "ja",
+      "text": "をしましょう。",
+      "start_sample": 36819,
+      "end_sample": 46905,
+      "start_ms": 2301,
+      "end_ms": 2932
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanpai no mae ni chotto toast wo shi mashou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5271,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "乾杯の前にちょっと",
+          "start_sample": 0,
+          "end_sample": 48426,
+          "start_ms": 0,
+          "end_ms": 3027
+        },
+        {
+          "lang": "en",
+          "text": "toast",
+          "start_sample": 48426,
+          "end_sample": 62537,
+          "start_ms": 3027,
+          "end_ms": 3909
+        },
+        {
+          "lang": "ja",
+          "text": "をしましょう。",
+          "start_sample": 62537,
+          "end_sample": 84342,
+          "start_ms": 3909,
+          "end_ms": 5271
+        }
+      ]
+    },
+    "ja": {
+      "text": "乾杯の前にちょっとtoastをしましょう。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2431,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "乾杯の前にちょっと",
+          "start_sample": 0,
+          "end_sample": 23308,
+          "start_ms": 0,
+          "end_ms": 1457
+        },
+        {
+          "lang": "en",
+          "text": "toast",
+          "start_sample": 23308,
+          "end_sample": 28614,
+          "start_ms": 1457,
+          "end_ms": 1788
+        },
+        {
+          "lang": "ja",
+          "text": "をしましょう。",
+          "start_sample": 28614,
+          "end_sample": 38900,
+          "start_ms": 1788,
+          "end_ms": 2431
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 147,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_062_05f0c617d0bb/cs9496.flac",
+  "sentence": "Can you give me a quick 概要 of what was decided before I joined the call?",
+  "sample_rate": 16000,
+  "duration_ms": 3910,
+  "reference_speaker": "en/speaker_062_05f0c617d0bb.mp3",
+  "seed": 9538,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you give me a quick",
+      "start_sample": 0,
+      "end_sample": 12629,
+      "start_ms": 0,
+      "end_ms": 789
+    },
+    {
+      "lang": "ja",
+      "text": "概要",
+      "start_sample": 12629,
+      "end_sample": 25231,
+      "start_ms": 789,
+      "end_ms": 1577
+    },
+    {
+      "lang": "en",
+      "text": "of what was decided before I joined the call?",
+      "start_sample": 25231,
+      "end_sample": 62557,
+      "start_ms": 1577,
+      "end_ms": 3910
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you give me a quick gaiyou of what was decided before I joined the call?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3809,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you give me a quick",
+          "start_sample": 0,
+          "end_sample": 12829,
+          "start_ms": 0,
+          "end_ms": 802
+        },
+        {
+          "lang": "ja",
+          "text": "概要",
+          "start_sample": 12829,
+          "end_sample": 23414,
+          "start_ms": 802,
+          "end_ms": 1463
+        },
+        {
+          "lang": "en",
+          "text": "of what was decided before I joined the call?",
+          "start_sample": 23414,
+          "end_sample": 60940,
+          "start_ms": 1463,
+          "end_ms": 3809
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you give me a quick 概要 of what was decided before I joined the call?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5618,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you give me a quick",
+          "start_sample": 0,
+          "end_sample": 23756,
+          "start_ms": 0,
+          "end_ms": 1485
+        },
+        {
+          "lang": "ja",
+          "text": "概要",
+          "start_sample": 23756,
+          "end_sample": 36758,
+          "start_ms": 1485,
+          "end_ms": 2297
+        },
+        {
+          "lang": "en",
+          "text": "of what was decided before I joined the call?",
+          "start_sample": 36758,
+          "end_sample": 89887,
+          "start_ms": 2297,
+          "end_ms": 5618
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

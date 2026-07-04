@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_092_0f181b6e11f2/cs9313.flac",
+  "sentence": "Her 発言 during the press conference caught everyone off guard.",
+  "sample_rate": 16000,
+  "duration_ms": 4436,
+  "reference_speaker": "en/speaker_092_0f181b6e11f2.mp3",
+  "seed": 9355,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Her",
+      "start_sample": 0,
+      "end_sample": 2369,
+      "start_ms": 0,
+      "end_ms": 148
+    },
+    {
+      "lang": "ja",
+      "text": "発言",
+      "start_sample": 2369,
+      "end_sample": 11112,
+      "start_ms": 148,
+      "end_ms": 694
+    },
+    {
+      "lang": "en",
+      "text": "during the press conference caught everyone off guard.",
+      "start_sample": 11112,
+      "end_sample": 70984,
+      "start_ms": 694,
+      "end_ms": 4436
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Her hatsugen during the press conference caught everyone off guard.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4698,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 2569,
+          "start_ms": 0,
+          "end_ms": 161
+        },
+        {
+          "lang": "ja",
+          "text": "発言",
+          "start_sample": 2569,
+          "end_sample": 15098,
+          "start_ms": 161,
+          "end_ms": 944
+        },
+        {
+          "lang": "en",
+          "text": "during the press conference caught everyone off guard.",
+          "start_sample": 15098,
+          "end_sample": 75170,
+          "start_ms": 944,
+          "end_ms": 4698
+        }
+      ]
+    },
+    "ja": {
+      "text": "Her 発言 during the press conference caught everyone off guard.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4651,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Her",
+          "start_sample": 0,
+          "end_sample": 4491,
+          "start_ms": 0,
+          "end_ms": 281
+        },
+        {
+          "lang": "ja",
+          "text": "発言",
+          "start_sample": 4491,
+          "end_sample": 13634,
+          "start_ms": 281,
+          "end_ms": 852
+        },
+        {
+          "lang": "en",
+          "text": "during the press conference caught everyone off guard.",
+          "start_sample": 13634,
+          "end_sample": 74423,
+          "start_ms": 852,
+          "end_ms": 4651
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 222,
+  "frame_labels": "eeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_087_5027771311b0/cs1603.flac",
+  "sentence": "He gave a really 丁寧 explanation even though the question was kind of dumb.",
+  "sample_rate": 16000,
+  "duration_ms": 6160,
+  "reference_speaker": "en/speaker_087_5027771311b0.mp3",
+  "seed": 1645,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He gave a really",
+      "start_sample": 0,
+      "end_sample": 16142,
+      "start_ms": 0,
+      "end_ms": 1009
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧",
+      "start_sample": 16142,
+      "end_sample": 25053,
+      "start_ms": 1009,
+      "end_ms": 1566
+    },
+    {
+      "lang": "en",
+      "text": "explanation even though the question was kind of dumb.",
+      "start_sample": 25053,
+      "end_sample": 98552,
+      "start_ms": 1566,
+      "end_ms": 6160
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He gave a really teinei explanation even though the question was kind of dumb.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6088,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He gave a really",
+          "start_sample": 0,
+          "end_sample": 16342,
+          "start_ms": 0,
+          "end_ms": 1021
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 16342,
+          "end_sample": 23711,
+          "start_ms": 1021,
+          "end_ms": 1482
+        },
+        {
+          "lang": "en",
+          "text": "explanation even though the question was kind of dumb.",
+          "start_sample": 23711,
+          "end_sample": 97410,
+          "start_ms": 1482,
+          "end_ms": 6088
+        }
+      ]
+    },
+    "ja": {
+      "text": "He gave a really 丁寧 explanation even though the question was kind of dumb.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6802,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He gave a really",
+          "start_sample": 0,
+          "end_sample": 15890,
+          "start_ms": 0,
+          "end_ms": 993
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 15890,
+          "end_sample": 25201,
+          "start_ms": 993,
+          "end_ms": 1575
+        },
+        {
+          "lang": "en",
+          "text": "explanation even though the question was kind of dumb.",
+          "start_sample": 25201,
+          "end_sample": 108828,
+          "start_ms": 1575,
+          "end_ms": 6802
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 308,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

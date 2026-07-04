@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_071_72384e582e15/cs6074.flac",
+  "sentence": "She replied so 素早く that I thought she was waiting by her phone.",
+  "sample_rate": 16000,
+  "duration_ms": 3910,
+  "reference_speaker": "en/speaker_071_72384e582e15.mp3",
+  "seed": 6116,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She replied so",
+      "start_sample": 0,
+      "end_sample": 14076,
+      "start_ms": 0,
+      "end_ms": 880
+    },
+    {
+      "lang": "ja",
+      "text": "素早く",
+      "start_sample": 14076,
+      "end_sample": 26022,
+      "start_ms": 880,
+      "end_ms": 1626
+    },
+    {
+      "lang": "en",
+      "text": "that I thought she was waiting by her phone.",
+      "start_sample": 26022,
+      "end_sample": 62554,
+      "start_ms": 1626,
+      "end_ms": 3910
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She replied so subayaku that I thought she was waiting by her phone.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4070,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She replied so",
+          "start_sample": 0,
+          "end_sample": 14276,
+          "start_ms": 0,
+          "end_ms": 892
+        },
+        {
+          "lang": "ja",
+          "text": "素早く",
+          "start_sample": 14276,
+          "end_sample": 28392,
+          "start_ms": 892,
+          "end_ms": 1774
+        },
+        {
+          "lang": "en",
+          "text": "that I thought she was waiting by her phone.",
+          "start_sample": 28392,
+          "end_sample": 65124,
+          "start_ms": 1774,
+          "end_ms": 4070
+        }
+      ]
+    },
+    "ja": {
+      "text": "She replied so 素早く that I thought she was waiting by her phone.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5311,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She replied so",
+          "start_sample": 0,
+          "end_sample": 20682,
+          "start_ms": 0,
+          "end_ms": 1293
+        },
+        {
+          "lang": "ja",
+          "text": "素早く",
+          "start_sample": 20682,
+          "end_sample": 33028,
+          "start_ms": 1293,
+          "end_ms": 2064
+        },
+        {
+          "lang": "en",
+          "text": "that I thought she was waiting by her phone.",
+          "start_sample": 33028,
+          "end_sample": 84973,
+          "start_ms": 2064,
+          "end_ms": 5311
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

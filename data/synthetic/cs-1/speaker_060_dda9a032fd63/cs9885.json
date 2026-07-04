@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_060_dda9a032fd63/cs9885.flac",
+  "sentence": "展示の合間に美術館のcaféでゆっくり休憩するのが好きだ。",
+  "sample_rate": 16000,
+  "duration_ms": 3468,
+  "reference_speaker": "jp/speaker_060_dda9a032fd63.mp3",
+  "seed": 9927,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "展示の合間に美術館の",
+      "start_sample": 0,
+      "end_sample": 22810,
+      "start_ms": 0,
+      "end_ms": 1426
+    },
+    {
+      "lang": "en",
+      "text": "café",
+      "start_sample": 22810,
+      "end_sample": 27855,
+      "start_ms": 1426,
+      "end_ms": 1741
+    },
+    {
+      "lang": "ja",
+      "text": "でゆっくり休憩するのが好きだ。",
+      "start_sample": 27855,
+      "end_sample": 55488,
+      "start_ms": 1741,
+      "end_ms": 3468
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "tenji no aima ni bijutsu kan no café de yukkuri kyuukei suru no ga suki da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9668,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "展示の合間に美術館の",
+          "start_sample": 0,
+          "end_sample": 91753,
+          "start_ms": 0,
+          "end_ms": 5735
+        },
+        {
+          "lang": "en",
+          "text": "café",
+          "start_sample": 91753,
+          "end_sample": 97198,
+          "start_ms": 5735,
+          "end_ms": 6075
+        },
+        {
+          "lang": "ja",
+          "text": "でゆっくり休憩するのが好きだ。",
+          "start_sample": 97198,
+          "end_sample": 154684,
+          "start_ms": 6075,
+          "end_ms": 9668
+        }
+      ]
+    },
+    "ja": {
+      "text": "展示の合間に美術館のcaféでゆっくり休憩するのが好きだ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3399,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "展示の合間に美術館の",
+          "start_sample": 0,
+          "end_sample": 23010,
+          "start_ms": 0,
+          "end_ms": 1438
+        },
+        {
+          "lang": "en",
+          "text": "café",
+          "start_sample": 23010,
+          "end_sample": 26550,
+          "start_ms": 1438,
+          "end_ms": 1659
+        },
+        {
+          "lang": "ja",
+          "text": "でゆっくり休憩するのが好きだ。",
+          "start_sample": 26550,
+          "end_sample": 54383,
+          "start_ms": 1659,
+          "end_ms": 3399
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 174,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

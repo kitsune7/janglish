@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_037_fbb436f58f44/cs1020.flac",
+  "sentence": "その候補者はgrassrootsの支持を集めて当選した。",
+  "sample_rate": 16000,
+  "duration_ms": 4329,
+  "reference_speaker": "en/speaker_037_fbb436f58f44.mp3",
+  "seed": 1062,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その候補者は",
+      "start_sample": 0,
+      "end_sample": 19041,
+      "start_ms": 0,
+      "end_ms": 1190
+    },
+    {
+      "lang": "en",
+      "text": "grassroots",
+      "start_sample": 19041,
+      "end_sample": 39639,
+      "start_ms": 1190,
+      "end_ms": 2477
+    },
+    {
+      "lang": "ja",
+      "text": "の支持を集めて当選した。",
+      "start_sample": 39639,
+      "end_sample": 69262,
+      "start_ms": 2477,
+      "end_ms": 4329
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono kouho mono ha grassroots no shiji wo atsume te tousen shi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7874,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その候補者は",
+          "start_sample": 0,
+          "end_sample": 36064,
+          "start_ms": 0,
+          "end_ms": 2254
+        },
+        {
+          "lang": "en",
+          "text": "grassroots",
+          "start_sample": 36064,
+          "end_sample": 57062,
+          "start_ms": 2254,
+          "end_ms": 3566
+        },
+        {
+          "lang": "ja",
+          "text": "の支持を集めて当選した。",
+          "start_sample": 57062,
+          "end_sample": 125986,
+          "start_ms": 3566,
+          "end_ms": 7874
+        }
+      ]
+    },
+    "ja": {
+      "text": "その候補者はgrassrootsの支持を集めて当選した。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4149,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その候補者は",
+          "start_sample": 0,
+          "end_sample": 19241,
+          "start_ms": 0,
+          "end_ms": 1203
+        },
+        {
+          "lang": "en",
+          "text": "grassroots",
+          "start_sample": 19241,
+          "end_sample": 36558,
+          "start_ms": 1203,
+          "end_ms": 2285
+        },
+        {
+          "lang": "ja",
+          "text": "の支持を集めて当選した。",
+          "start_sample": 36558,
+          "end_sample": 66381,
+          "start_ms": 2285,
+          "end_ms": 4149
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 217,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

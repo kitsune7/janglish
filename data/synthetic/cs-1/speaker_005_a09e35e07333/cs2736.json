@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_005_a09e35e07333/cs2736.flac",
+  "sentence": "He always uses 敬語 even in casual group chats, which feels oddly formal.",
+  "sample_rate": 16000,
+  "duration_ms": 5002,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 2778,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He always uses",
+      "start_sample": 0,
+      "end_sample": 12311,
+      "start_ms": 0,
+      "end_ms": 769
+    },
+    {
+      "lang": "ja",
+      "text": "敬語",
+      "start_sample": 12311,
+      "end_sample": 18809,
+      "start_ms": 769,
+      "end_ms": 1176
+    },
+    {
+      "lang": "en",
+      "text": "even in casual group chats, which feels oddly formal.",
+      "start_sample": 18809,
+      "end_sample": 80040,
+      "start_ms": 1176,
+      "end_ms": 5002
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He always uses keigo even in casual group chats, which feels oddly formal.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5213,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He always uses",
+          "start_sample": 0,
+          "end_sample": 12511,
+          "start_ms": 0,
+          "end_ms": 782
+        },
+        {
+          "lang": "ja",
+          "text": "敬語",
+          "start_sample": 12511,
+          "end_sample": 21974,
+          "start_ms": 782,
+          "end_ms": 1373
+        },
+        {
+          "lang": "en",
+          "text": "even in casual group chats, which feels oddly formal.",
+          "start_sample": 21974,
+          "end_sample": 83405,
+          "start_ms": 1373,
+          "end_ms": 5213
+        }
+      ]
+    },
+    "ja": {
+      "text": "He always uses 敬語 even in casual group chats, which feels oddly formal.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6115,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He always uses",
+          "start_sample": 0,
+          "end_sample": 17323,
+          "start_ms": 0,
+          "end_ms": 1083
+        },
+        {
+          "lang": "ja",
+          "text": "敬語",
+          "start_sample": 17323,
+          "end_sample": 24221,
+          "start_ms": 1083,
+          "end_ms": 1514
+        },
+        {
+          "lang": "en",
+          "text": "even in casual group chats, which feels oddly formal.",
+          "start_sample": 24221,
+          "end_sample": 97847,
+          "start_ms": 1514,
+          "end_ms": 6115
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 251,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

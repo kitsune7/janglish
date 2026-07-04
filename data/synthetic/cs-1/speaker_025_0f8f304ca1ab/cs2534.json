@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_025_0f8f304ca1ab/cs2534.flac",
+  "sentence": "あの本のnarrationスタイルがとても独特で面白い。",
+  "sample_rate": 16000,
+  "duration_ms": 3049,
+  "reference_speaker": "jp/speaker_025_0f8f304ca1ab.mp3",
+  "seed": 2576,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの本の",
+      "start_sample": 0,
+      "end_sample": 8147,
+      "start_ms": 0,
+      "end_ms": 509
+    },
+    {
+      "lang": "en",
+      "text": "narration",
+      "start_sample": 8147,
+      "end_sample": 21378,
+      "start_ms": 509,
+      "end_ms": 1336
+    },
+    {
+      "lang": "ja",
+      "text": "スタイルがとても独特で面白い。",
+      "start_sample": 21378,
+      "end_sample": 48784,
+      "start_ms": 1336,
+      "end_ms": 3049
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano hon no narration sutairu ga totemo dokutoku de omoshiroi",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6454,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの本の",
+          "start_sample": 0,
+          "end_sample": 25173,
+          "start_ms": 0,
+          "end_ms": 1573
+        },
+        {
+          "lang": "en",
+          "text": "narration",
+          "start_sample": 25173,
+          "end_sample": 38804,
+          "start_ms": 1573,
+          "end_ms": 2425
+        },
+        {
+          "lang": "ja",
+          "text": "スタイルがとても独特で面白い。",
+          "start_sample": 38804,
+          "end_sample": 103264,
+          "start_ms": 2425,
+          "end_ms": 6454
+        }
+      ]
+    },
+    "ja": {
+      "text": "あの本のnarrationスタイルがとても独特で面白い。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2749,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの本の",
+          "start_sample": 0,
+          "end_sample": 8347,
+          "start_ms": 0,
+          "end_ms": 522
+        },
+        {
+          "lang": "en",
+          "text": "narration",
+          "start_sample": 8347,
+          "end_sample": 16373,
+          "start_ms": 522,
+          "end_ms": 1023
+        },
+        {
+          "lang": "ja",
+          "text": "スタイルがとても独特で面白い。",
+          "start_sample": 16373,
+          "end_sample": 43979,
+          "start_ms": 1023,
+          "end_ms": 2749
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 153,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

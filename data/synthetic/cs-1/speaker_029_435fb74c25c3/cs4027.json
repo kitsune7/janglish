@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_029_435fb74c25c3/cs4027.flac",
+  "sentence": "The team worked on 連携 during yesterday's scrimmage.",
+  "sample_rate": 16000,
+  "duration_ms": 3408,
+  "reference_speaker": "en/speaker_029_435fb74c25c3.mp3",
+  "seed": 4069,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The team worked on",
+      "start_sample": 0,
+      "end_sample": 16314,
+      "start_ms": 0,
+      "end_ms": 1020
+    },
+    {
+      "lang": "ja",
+      "text": "連携",
+      "start_sample": 16314,
+      "end_sample": 24589,
+      "start_ms": 1020,
+      "end_ms": 1537
+    },
+    {
+      "lang": "en",
+      "text": "during yesterday's scrimmage.",
+      "start_sample": 24589,
+      "end_sample": 54531,
+      "start_ms": 1537,
+      "end_ms": 3408
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The team worked on renkei during yesterday's scrimmage.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3547,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The team worked on",
+          "start_sample": 0,
+          "end_sample": 16514,
+          "start_ms": 0,
+          "end_ms": 1032
+        },
+        {
+          "lang": "ja",
+          "text": "連携",
+          "start_sample": 16514,
+          "end_sample": 26615,
+          "start_ms": 1032,
+          "end_ms": 1663
+        },
+        {
+          "lang": "en",
+          "text": "during yesterday's scrimmage.",
+          "start_sample": 26615,
+          "end_sample": 56757,
+          "start_ms": 1663,
+          "end_ms": 3547
+        }
+      ]
+    },
+    "ja": {
+      "text": "The team worked on 連携 during yesterday's scrimmage.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4317,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The team worked on",
+          "start_sample": 0,
+          "end_sample": 22647,
+          "start_ms": 0,
+          "end_ms": 1415
+        },
+        {
+          "lang": "ja",
+          "text": "連携",
+          "start_sample": 22647,
+          "end_sample": 31322,
+          "start_ms": 1415,
+          "end_ms": 1958
+        },
+        {
+          "lang": "en",
+          "text": "during yesterday's scrimmage.",
+          "start_sample": 31322,
+          "end_sample": 69071,
+          "start_ms": 1958,
+          "end_ms": 4317
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 171,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

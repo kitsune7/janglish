@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_075_373f531aa159/cs10213.flac",
+  "sentence": "Have you ever driven on the 左側 of the road in another country?",
+  "sample_rate": 16000,
+  "duration_ms": 4435,
+  "reference_speaker": "en/speaker_075_373f531aa159.mp3",
+  "seed": 10255,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you ever driven on the",
+      "start_sample": 0,
+      "end_sample": 28465,
+      "start_ms": 0,
+      "end_ms": 1779
+    },
+    {
+      "lang": "ja",
+      "text": "左側",
+      "start_sample": 28465,
+      "end_sample": 42494,
+      "start_ms": 1779,
+      "end_ms": 2656
+    },
+    {
+      "lang": "en",
+      "text": "of the road in another country?",
+      "start_sample": 42494,
+      "end_sample": 70960,
+      "start_ms": 2656,
+      "end_ms": 4435
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you ever driven on the hidarigawa of the road in another country?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4544,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever driven on the",
+          "start_sample": 0,
+          "end_sample": 28665,
+          "start_ms": 0,
+          "end_ms": 1792
+        },
+        {
+          "lang": "ja",
+          "text": "左側",
+          "start_sample": 28665,
+          "end_sample": 44039,
+          "start_ms": 1792,
+          "end_ms": 2752
+        },
+        {
+          "lang": "en",
+          "text": "of the road in another country?",
+          "start_sample": 44039,
+          "end_sample": 72705,
+          "start_ms": 2752,
+          "end_ms": 4544
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you ever driven on the 左側 of the road in another country?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4008,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever driven on the",
+          "start_sample": 0,
+          "end_sample": 20198,
+          "start_ms": 0,
+          "end_ms": 1262
+        },
+        {
+          "lang": "ja",
+          "text": "左側",
+          "start_sample": 20198,
+          "end_sample": 34627,
+          "start_ms": 1262,
+          "end_ms": 2164
+        },
+        {
+          "lang": "en",
+          "text": "of the road in another country?",
+          "start_sample": 34627,
+          "end_sample": 64122,
+          "start_ms": 2164,
+          "end_ms": 4008
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 222,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

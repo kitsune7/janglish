@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_046_c5e6fd979dbd/cs3938.flac",
+  "sentence": "I spent three hours on a 細かい bug that turned out to be a missing semicolon.",
+  "sample_rate": 16000,
+  "duration_ms": 5378,
+  "reference_speaker": "en/speaker_046_c5e6fd979dbd.mp3",
+  "seed": 3980,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I spent three hours on a",
+      "start_sample": 0,
+      "end_sample": 22711,
+      "start_ms": 0,
+      "end_ms": 1419
+    },
+    {
+      "lang": "ja",
+      "text": "細かい",
+      "start_sample": 22711,
+      "end_sample": 31445,
+      "start_ms": 1419,
+      "end_ms": 1965
+    },
+    {
+      "lang": "en",
+      "text": "bug that turned out to be a missing semicolon.",
+      "start_sample": 31445,
+      "end_sample": 86042,
+      "start_ms": 1965,
+      "end_ms": 5378
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I spent three hours on a komakai bug that turned out to be a missing semicolon.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5408,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I spent three hours on a",
+          "start_sample": 0,
+          "end_sample": 22911,
+          "start_ms": 0,
+          "end_ms": 1432
+        },
+        {
+          "lang": "ja",
+          "text": "細かい",
+          "start_sample": 22911,
+          "end_sample": 31724,
+          "start_ms": 1432,
+          "end_ms": 1983
+        },
+        {
+          "lang": "en",
+          "text": "bug that turned out to be a missing semicolon.",
+          "start_sample": 31724,
+          "end_sample": 86521,
+          "start_ms": 1983,
+          "end_ms": 5408
+        }
+      ]
+    },
+    "ja": {
+      "text": "I spent three hours on a 細かい bug that turned out to be a missing semicolon.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5569,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I spent three hours on a",
+          "start_sample": 0,
+          "end_sample": 31409,
+          "start_ms": 0,
+          "end_ms": 1963
+        },
+        {
+          "lang": "ja",
+          "text": "細かい",
+          "start_sample": 31409,
+          "end_sample": 40543,
+          "start_ms": 1963,
+          "end_ms": 2534
+        },
+        {
+          "lang": "en",
+          "text": "bug that turned out to be a missing semicolon.",
+          "start_sample": 40543,
+          "end_sample": 89101,
+          "start_ms": 2534,
+          "end_ms": 5569
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 269,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

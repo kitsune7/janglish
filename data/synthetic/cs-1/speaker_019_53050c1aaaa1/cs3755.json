@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_019_53050c1aaaa1/cs3755.flac",
+  "sentence": "冬のmorning fogの中を自転車で通勤するのは大変です。",
+  "sample_rate": 16000,
+  "duration_ms": 3630,
+  "reference_speaker": "en/speaker_019_53050c1aaaa1.mp3",
+  "seed": 3797,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "冬の",
+      "start_sample": 0,
+      "end_sample": 3972,
+      "start_ms": 0,
+      "end_ms": 248
+    },
+    {
+      "lang": "en",
+      "text": "morning fog",
+      "start_sample": 3972,
+      "end_sample": 19926,
+      "start_ms": 248,
+      "end_ms": 1245
+    },
+    {
+      "lang": "ja",
+      "text": "の中を自転車で通勤するのは大変です。",
+      "start_sample": 19926,
+      "end_sample": 58077,
+      "start_ms": 1245,
+      "end_ms": 3630
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "fuyu no morning fog no naka wo jiten kuruma de tsuukin suru no ha taihen desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6253,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冬の",
+          "start_sample": 0,
+          "end_sample": 6412,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "en",
+          "text": "morning fog",
+          "start_sample": 6412,
+          "end_sample": 22766,
+          "start_ms": 401,
+          "end_ms": 1423
+        },
+        {
+          "lang": "ja",
+          "text": "の中を自転車で通勤するのは大変です。",
+          "start_sample": 22766,
+          "end_sample": 100044,
+          "start_ms": 1423,
+          "end_ms": 6253
+        }
+      ]
+    },
+    "ja": {
+      "text": "冬のmorning fogの中を自転車で通勤するのは大変です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3310,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冬の",
+          "start_sample": 0,
+          "end_sample": 4172,
+          "start_ms": 0,
+          "end_ms": 261
+        },
+        {
+          "lang": "en",
+          "text": "morning fog",
+          "start_sample": 4172,
+          "end_sample": 14603,
+          "start_ms": 261,
+          "end_ms": 913
+        },
+        {
+          "lang": "ja",
+          "text": "の中を自転車で通勤するのは大変です。",
+          "start_sample": 14603,
+          "end_sample": 52954,
+          "start_ms": 913,
+          "end_ms": 3310
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 182,
+  "frame_labels": "jjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

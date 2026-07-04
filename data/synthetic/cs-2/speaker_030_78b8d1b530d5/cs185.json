@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_030_78b8d1b530d5/cs185.flac",
+  "sentence": "We ended up at the most 豪華 champagne bar, totally by 偶然.",
+  "sample_rate": 16000,
+  "duration_ms": 4123,
+  "reference_speaker": "jp/speaker_030_78b8d1b530d5.mp3",
+  "seed": 227,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We ended up at the most",
+      "start_sample": 0,
+      "end_sample": 17001,
+      "start_ms": 0,
+      "end_ms": 1063
+    },
+    {
+      "lang": "ja",
+      "text": "豪華",
+      "start_sample": 17001,
+      "end_sample": 22214,
+      "start_ms": 1063,
+      "end_ms": 1388
+    },
+    {
+      "lang": "en",
+      "text": "champagne bar, totally by",
+      "start_sample": 22214,
+      "end_sample": 57985,
+      "start_ms": 1388,
+      "end_ms": 3624
+    },
+    {
+      "lang": "ja",
+      "text": "偶然.",
+      "start_sample": 57985,
+      "end_sample": 65962,
+      "start_ms": 3624,
+      "end_ms": 4123
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We ended up at the most gouka champagne bar, totally by guuzen",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4300,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We ended up at the most",
+          "start_sample": 0,
+          "end_sample": 17201,
+          "start_ms": 0,
+          "end_ms": 1075
+        },
+        {
+          "lang": "ja",
+          "text": "豪華",
+          "start_sample": 17201,
+          "end_sample": 22667,
+          "start_ms": 1075,
+          "end_ms": 1417
+        },
+        {
+          "lang": "en",
+          "text": "champagne bar, totally by",
+          "start_sample": 22667,
+          "end_sample": 58838,
+          "start_ms": 1417,
+          "end_ms": 3677
+        },
+        {
+          "lang": "ja",
+          "text": "偶然.",
+          "start_sample": 58838,
+          "end_sample": 68801,
+          "start_ms": 3677,
+          "end_ms": 4300
+        }
+      ]
+    },
+    "ja": {
+      "text": "We ended up at the most 豪華 champagne bar, totally by 偶然.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3809,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We ended up at the most",
+          "start_sample": 0,
+          "end_sample": 20046,
+          "start_ms": 0,
+          "end_ms": 1253
+        },
+        {
+          "lang": "ja",
+          "text": "豪華",
+          "start_sample": 20046,
+          "end_sample": 25659,
+          "start_ms": 1253,
+          "end_ms": 1604
+        },
+        {
+          "lang": "en",
+          "text": "champagne bar, totally by",
+          "start_sample": 25659,
+          "end_sample": 52763,
+          "start_ms": 1604,
+          "end_ms": 3298
+        },
+        {
+          "lang": "ja",
+          "text": "偶然.",
+          "start_sample": 52763,
+          "end_sample": 60940,
+          "start_ms": 3298,
+          "end_ms": 3809
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 207,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

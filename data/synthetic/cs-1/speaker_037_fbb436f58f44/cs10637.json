@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_037_fbb436f58f44/cs10637.flac",
+  "sentence": "The 乗客 on the upper deck had a much better view of the bridge.",
+  "sample_rate": 16000,
+  "duration_ms": 5768,
+  "reference_speaker": "en/speaker_037_fbb436f58f44.mp3",
+  "seed": 10679,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1885,
+      "start_ms": 0,
+      "end_ms": 118
+    },
+    {
+      "lang": "ja",
+      "text": "乗客",
+      "start_sample": 1885,
+      "end_sample": 15932,
+      "start_ms": 118,
+      "end_ms": 996
+    },
+    {
+      "lang": "en",
+      "text": "on the upper deck had a much better view of the bridge.",
+      "start_sample": 15932,
+      "end_sample": 92280,
+      "start_ms": 996,
+      "end_ms": 5768
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The joukyaku on the upper deck had a much better view of the bridge.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6058,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2085,
+          "start_ms": 0,
+          "end_ms": 130
+        },
+        {
+          "lang": "ja",
+          "text": "乗客",
+          "start_sample": 2085,
+          "end_sample": 20380,
+          "start_ms": 130,
+          "end_ms": 1274
+        },
+        {
+          "lang": "en",
+          "text": "on the upper deck had a much better view of the bridge.",
+          "start_sample": 20380,
+          "end_sample": 96928,
+          "start_ms": 1274,
+          "end_ms": 6058
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 乗客 on the upper deck had a much better view of the bridge.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5097,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6100,
+          "start_ms": 0,
+          "end_ms": 381
+        },
+        {
+          "lang": "ja",
+          "text": "乗客",
+          "start_sample": 6100,
+          "end_sample": 20547,
+          "start_ms": 381,
+          "end_ms": 1284
+        },
+        {
+          "lang": "en",
+          "text": "on the upper deck had a much better view of the bridge.",
+          "start_sample": 20547,
+          "end_sample": 81546,
+          "start_ms": 1284,
+          "end_ms": 5097
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 289,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

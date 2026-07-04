@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_053_ceb29bce299d/cs5335.flac",
+  "sentence": "Do they offer a late チェックアウト option on weekends?",
+  "sample_rate": 16000,
+  "duration_ms": 3368,
+  "reference_speaker": "en/speaker_053_ceb29bce299d.mp3",
+  "seed": 5377,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Do they offer a late",
+      "start_sample": 0,
+      "end_sample": 18713,
+      "start_ms": 0,
+      "end_ms": 1170
+    },
+    {
+      "lang": "ja",
+      "text": "チェックアウト",
+      "start_sample": 18713,
+      "end_sample": 28436,
+      "start_ms": 1170,
+      "end_ms": 1777
+    },
+    {
+      "lang": "en",
+      "text": "option on weekends?",
+      "start_sample": 28436,
+      "end_sample": 53880,
+      "start_ms": 1777,
+      "end_ms": 3368
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Do they offer a late chekkuauto option on weekends?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4227,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Do they offer a late",
+          "start_sample": 0,
+          "end_sample": 18913,
+          "start_ms": 0,
+          "end_ms": 1182
+        },
+        {
+          "lang": "ja",
+          "text": "チェックアウト",
+          "start_sample": 18913,
+          "end_sample": 41995,
+          "start_ms": 1182,
+          "end_ms": 2625
+        },
+        {
+          "lang": "en",
+          "text": "option on weekends?",
+          "start_sample": 41995,
+          "end_sample": 67639,
+          "start_ms": 2625,
+          "end_ms": 4227
+        }
+      ]
+    },
+    "ja": {
+      "text": "Do they offer a late チェックアウト option on weekends?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3153,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Do they offer a late",
+          "start_sample": 0,
+          "end_sample": 20889,
+          "start_ms": 0,
+          "end_ms": 1306
+        },
+        {
+          "lang": "ja",
+          "text": "チェックアウト",
+          "start_sample": 20889,
+          "end_sample": 31012,
+          "start_ms": 1306,
+          "end_ms": 1938
+        },
+        {
+          "lang": "en",
+          "text": "option on weekends?",
+          "start_sample": 31012,
+          "end_sample": 50451,
+          "start_ms": 1938,
+          "end_ms": 3153
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 169,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

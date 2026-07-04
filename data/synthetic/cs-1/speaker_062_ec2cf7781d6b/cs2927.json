@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_062_ec2cf7781d6b/cs2927.flac",
+  "sentence": "Do you think the 額縁 actually changes how we perceive the painting?",
+  "sample_rate": 16000,
+  "duration_ms": 4188,
+  "reference_speaker": "jp/speaker_062_ec2cf7781d6b.mp3",
+  "seed": 2969,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Do you think the",
+      "start_sample": 0,
+      "end_sample": 16036,
+      "start_ms": 0,
+      "end_ms": 1002
+    },
+    {
+      "lang": "ja",
+      "text": "額縁",
+      "start_sample": 16036,
+      "end_sample": 26866,
+      "start_ms": 1002,
+      "end_ms": 1679
+    },
+    {
+      "lang": "en",
+      "text": "actually changes how we perceive the painting?",
+      "start_sample": 26866,
+      "end_sample": 67013,
+      "start_ms": 1679,
+      "end_ms": 4188
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Do you think the gakubuchi actually changes how we perceive the painting?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4421,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Do you think the",
+          "start_sample": 0,
+          "end_sample": 16236,
+          "start_ms": 0,
+          "end_ms": 1015
+        },
+        {
+          "lang": "ja",
+          "text": "額縁",
+          "start_sample": 16236,
+          "end_sample": 30383,
+          "start_ms": 1015,
+          "end_ms": 1899
+        },
+        {
+          "lang": "en",
+          "text": "actually changes how we perceive the painting?",
+          "start_sample": 30383,
+          "end_sample": 70730,
+          "start_ms": 1899,
+          "end_ms": 4421
+        }
+      ]
+    },
+    "ja": {
+      "text": "Do you think the 額縁 actually changes how we perceive the painting?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4793,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Do you think the",
+          "start_sample": 0,
+          "end_sample": 13475,
+          "start_ms": 0,
+          "end_ms": 842
+        },
+        {
+          "lang": "ja",
+          "text": "額縁",
+          "start_sample": 13475,
+          "end_sample": 24705,
+          "start_ms": 842,
+          "end_ms": 1544
+        },
+        {
+          "lang": "en",
+          "text": "actually changes how we perceive the painting?",
+          "start_sample": 24705,
+          "end_sample": 76681,
+          "start_ms": 1544,
+          "end_ms": 4793
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

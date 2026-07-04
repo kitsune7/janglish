@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_056_e4a42336440b/cs3038.flac",
+  "sentence": "The keyboard on this laptop is 快適 to type on, but the trackpad response is frankly 鈍い.",
+  "sample_rate": 16000,
+  "duration_ms": 6640,
+  "reference_speaker": "jp/speaker_056_e4a42336440b.mp3",
+  "seed": 3080,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The keyboard on this laptop is",
+      "start_sample": 0,
+      "end_sample": 26271,
+      "start_ms": 0,
+      "end_ms": 1642
+    },
+    {
+      "lang": "ja",
+      "text": "快適",
+      "start_sample": 26271,
+      "end_sample": 34840,
+      "start_ms": 1642,
+      "end_ms": 2178
+    },
+    {
+      "lang": "en",
+      "text": "to type on, but the trackpad response is frankly",
+      "start_sample": 34840,
+      "end_sample": 89630,
+      "start_ms": 2178,
+      "end_ms": 5602
+    },
+    {
+      "lang": "ja",
+      "text": "鈍い.",
+      "start_sample": 89630,
+      "end_sample": 106247,
+      "start_ms": 5602,
+      "end_ms": 6640
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The keyboard on this laptop is kaiteki to type on, but the trackpad response is frankly nibui",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6157,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The keyboard on this laptop is",
+          "start_sample": 0,
+          "end_sample": 26471,
+          "start_ms": 0,
+          "end_ms": 1654
+        },
+        {
+          "lang": "ja",
+          "text": "快適",
+          "start_sample": 26471,
+          "end_sample": 35937,
+          "start_ms": 1654,
+          "end_ms": 2246
+        },
+        {
+          "lang": "en",
+          "text": "to type on, but the trackpad response is frankly",
+          "start_sample": 35937,
+          "end_sample": 91127,
+          "start_ms": 2246,
+          "end_ms": 5695
+        },
+        {
+          "lang": "ja",
+          "text": "鈍い.",
+          "start_sample": 91127,
+          "end_sample": 98505,
+          "start_ms": 5695,
+          "end_ms": 6157
+        }
+      ]
+    },
+    "ja": {
+      "text": "The keyboard on this laptop is 快適 to type on, but the trackpad response is frankly 鈍い.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 10110,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The keyboard on this laptop is",
+          "start_sample": 0,
+          "end_sample": 44846,
+          "start_ms": 0,
+          "end_ms": 2803
+        },
+        {
+          "lang": "ja",
+          "text": "快適",
+          "start_sample": 44846,
+          "end_sample": 53815,
+          "start_ms": 2803,
+          "end_ms": 3363
+        },
+        {
+          "lang": "en",
+          "text": "to type on, but the trackpad response is frankly",
+          "start_sample": 53815,
+          "end_sample": 144950,
+          "start_ms": 3363,
+          "end_ms": 9059
+        },
+        {
+          "lang": "ja",
+          "text": "鈍い.",
+          "start_sample": 144950,
+          "end_sample": 161767,
+          "start_ms": 9059,
+          "end_ms": 10110
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 333,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_005_e790d1a6d652/cs5169.flac",
+  "sentence": "その言葉がずっとheart に残っている。",
+  "sample_rate": 16000,
+  "duration_ms": 3042,
+  "reference_speaker": "en/speaker_005_e790d1a6d652.mp3",
+  "seed": 5211,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その言葉がずっと",
+      "start_sample": 0,
+      "end_sample": 20528,
+      "start_ms": 0,
+      "end_ms": 1283
+    },
+    {
+      "lang": "en",
+      "text": "heart",
+      "start_sample": 20528,
+      "end_sample": 34582,
+      "start_ms": 1283,
+      "end_ms": 2161
+    },
+    {
+      "lang": "ja",
+      "text": "に残っている。",
+      "start_sample": 34582,
+      "end_sample": 48680,
+      "start_ms": 2161,
+      "end_ms": 3042
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono kotoba ga zutto heart ni nokotsu te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5922,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その言葉がずっと",
+          "start_sample": 0,
+          "end_sample": 54599,
+          "start_ms": 0,
+          "end_ms": 3412
+        },
+        {
+          "lang": "en",
+          "text": "heart",
+          "start_sample": 54599,
+          "end_sample": 69053,
+          "start_ms": 3412,
+          "end_ms": 4316
+        },
+        {
+          "lang": "ja",
+          "text": "に残っている。",
+          "start_sample": 69053,
+          "end_sample": 94744,
+          "start_ms": 4316,
+          "end_ms": 5922
+        }
+      ]
+    },
+    "ja": {
+      "text": "その言葉がずっとheart に残っている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2531,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その言葉がずっと",
+          "start_sample": 0,
+          "end_sample": 20728,
+          "start_ms": 0,
+          "end_ms": 1296
+        },
+        {
+          "lang": "en",
+          "text": "heart",
+          "start_sample": 20728,
+          "end_sample": 26191,
+          "start_ms": 1296,
+          "end_ms": 1637
+        },
+        {
+          "lang": "ja",
+          "text": "に残っている。",
+          "start_sample": 26191,
+          "end_sample": 40489,
+          "start_ms": 1637,
+          "end_ms": 2531
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 153,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

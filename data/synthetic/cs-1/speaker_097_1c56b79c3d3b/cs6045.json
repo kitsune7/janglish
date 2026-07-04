@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_097_1c56b79c3d3b/cs6045.flac",
+  "sentence": "I think we need a 休憩 — it's been three hours straight.",
+  "sample_rate": 16000,
+  "duration_ms": 4354,
+  "reference_speaker": "jp/speaker_097_1c56b79c3d3b.mp3",
+  "seed": 6087,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I think we need a",
+      "start_sample": 0,
+      "end_sample": 13284,
+      "start_ms": 0,
+      "end_ms": 830
+    },
+    {
+      "lang": "ja",
+      "text": "休憩 —",
+      "start_sample": 13284,
+      "end_sample": 23464,
+      "start_ms": 830,
+      "end_ms": 1466
+    },
+    {
+      "lang": "en",
+      "text": "it's been three hours straight.",
+      "start_sample": 23464,
+      "end_sample": 69664,
+      "start_ms": 1466,
+      "end_ms": 4354
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I think we need a kyuukei it's been three hours straight.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4796,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I think we need a",
+          "start_sample": 0,
+          "end_sample": 13484,
+          "start_ms": 0,
+          "end_ms": 843
+        },
+        {
+          "lang": "ja",
+          "text": "休憩 —",
+          "start_sample": 13484,
+          "end_sample": 30343,
+          "start_ms": 843,
+          "end_ms": 1896
+        },
+        {
+          "lang": "en",
+          "text": "it's been three hours straight.",
+          "start_sample": 30343,
+          "end_sample": 76743,
+          "start_ms": 1896,
+          "end_ms": 4796
+        }
+      ]
+    },
+    "ja": {
+      "text": "I think we need a 休憩 — it's been three hours straight.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4068,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I think we need a",
+          "start_sample": 0,
+          "end_sample": 22280,
+          "start_ms": 0,
+          "end_ms": 1392
+        },
+        {
+          "lang": "ja",
+          "text": "休憩 —",
+          "start_sample": 22280,
+          "end_sample": 32860,
+          "start_ms": 1392,
+          "end_ms": 2054
+        },
+        {
+          "lang": "en",
+          "text": "it's been three hours straight.",
+          "start_sample": 32860,
+          "end_sample": 65080,
+          "start_ms": 2054,
+          "end_ms": 4068
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

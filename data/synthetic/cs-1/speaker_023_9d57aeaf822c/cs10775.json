@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_023_9d57aeaf822c/cs10775.flac",
+  "sentence": "毎月automaticに家賃が引き落とされます。",
+  "sample_rate": 16000,
+  "duration_ms": 3987,
+  "reference_speaker": "en/speaker_023_9d57aeaf822c.mp3",
+  "seed": 10817,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "毎月",
+      "start_sample": 0,
+      "end_sample": 9299,
+      "start_ms": 0,
+      "end_ms": 581
+    },
+    {
+      "lang": "en",
+      "text": "automatic",
+      "start_sample": 9299,
+      "end_sample": 36948,
+      "start_ms": 581,
+      "end_ms": 2309
+    },
+    {
+      "lang": "ja",
+      "text": "に家賃が引き落とされます。",
+      "start_sample": 36948,
+      "end_sample": 63791,
+      "start_ms": 2309,
+      "end_ms": 3987
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "maitsuki automatic ni yachin ga hikiotosa re masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6631,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎月",
+          "start_sample": 0,
+          "end_sample": 13623,
+          "start_ms": 0,
+          "end_ms": 851
+        },
+        {
+          "lang": "en",
+          "text": "automatic",
+          "start_sample": 13623,
+          "end_sample": 41672,
+          "start_ms": 851,
+          "end_ms": 2604
+        },
+        {
+          "lang": "ja",
+          "text": "に家賃が引き落とされます。",
+          "start_sample": 41672,
+          "end_sample": 106102,
+          "start_ms": 2604,
+          "end_ms": 6631
+        }
+      ]
+    },
+    "ja": {
+      "text": "毎月automaticに家賃が引き落とされます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3099,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎月",
+          "start_sample": 0,
+          "end_sample": 9499,
+          "start_ms": 0,
+          "end_ms": 594
+        },
+        {
+          "lang": "en",
+          "text": "automatic",
+          "start_sample": 9499,
+          "end_sample": 22540,
+          "start_ms": 594,
+          "end_ms": 1409
+        },
+        {
+          "lang": "ja",
+          "text": "に家賃が引き落とされます。",
+          "start_sample": 22540,
+          "end_sample": 49583,
+          "start_ms": 1409,
+          "end_ms": 3099
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 200,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

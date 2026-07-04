@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_032_e63077fee9e9/cs794.flac",
+  "sentence": "She sliced the 大根 so thin you could almost see through it.",
+  "sample_rate": 16000,
+  "duration_ms": 4441,
+  "reference_speaker": "jp/speaker_032_e63077fee9e9.mp3",
+  "seed": 836,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She sliced the",
+      "start_sample": 0,
+      "end_sample": 12306,
+      "start_ms": 0,
+      "end_ms": 769
+    },
+    {
+      "lang": "ja",
+      "text": "大根",
+      "start_sample": 12306,
+      "end_sample": 23957,
+      "start_ms": 769,
+      "end_ms": 1497
+    },
+    {
+      "lang": "en",
+      "text": "so thin you could almost see through it.",
+      "start_sample": 23957,
+      "end_sample": 71057,
+      "start_ms": 1497,
+      "end_ms": 4441
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She sliced the daikon so thin you could almost see through it.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4189,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She sliced the",
+          "start_sample": 0,
+          "end_sample": 12506,
+          "start_ms": 0,
+          "end_ms": 782
+        },
+        {
+          "lang": "ja",
+          "text": "大根",
+          "start_sample": 12506,
+          "end_sample": 19722,
+          "start_ms": 782,
+          "end_ms": 1233
+        },
+        {
+          "lang": "en",
+          "text": "so thin you could almost see through it.",
+          "start_sample": 19722,
+          "end_sample": 67022,
+          "start_ms": 1233,
+          "end_ms": 4189
+        }
+      ]
+    },
+    "ja": {
+      "text": "She sliced the 大根 so thin you could almost see through it.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5543,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She sliced the",
+          "start_sample": 0,
+          "end_sample": 17353,
+          "start_ms": 0,
+          "end_ms": 1085
+        },
+        {
+          "lang": "ja",
+          "text": "大根",
+          "start_sample": 17353,
+          "end_sample": 29404,
+          "start_ms": 1085,
+          "end_ms": 1838
+        },
+        {
+          "lang": "en",
+          "text": "so thin you could almost see through it.",
+          "start_sample": 29404,
+          "end_sample": 88691,
+          "start_ms": 1838,
+          "end_ms": 5543
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 223,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

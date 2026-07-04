@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_017_2adba246654a/cs5360.flac",
+  "sentence": "We checked in 深夜 after our delayed train finally arrived at the station.",
+  "sample_rate": 16000,
+  "duration_ms": 4765,
+  "reference_speaker": "jp/speaker_017_2adba246654a.mp3",
+  "seed": 5402,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We checked in",
+      "start_sample": 0,
+      "end_sample": 10393,
+      "start_ms": 0,
+      "end_ms": 650
+    },
+    {
+      "lang": "ja",
+      "text": "深夜",
+      "start_sample": 10393,
+      "end_sample": 19469,
+      "start_ms": 650,
+      "end_ms": 1217
+    },
+    {
+      "lang": "en",
+      "text": "after our delayed train finally arrived at the station.",
+      "start_sample": 19469,
+      "end_sample": 76246,
+      "start_ms": 1217,
+      "end_ms": 4765
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We checked in shinya after our delayed train finally arrived at the station.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4955,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We checked in",
+          "start_sample": 0,
+          "end_sample": 10593,
+          "start_ms": 0,
+          "end_ms": 662
+        },
+        {
+          "lang": "ja",
+          "text": "深夜",
+          "start_sample": 10593,
+          "end_sample": 22310,
+          "start_ms": 662,
+          "end_ms": 1394
+        },
+        {
+          "lang": "en",
+          "text": "after our delayed train finally arrived at the station.",
+          "start_sample": 22310,
+          "end_sample": 79287,
+          "start_ms": 1394,
+          "end_ms": 4955
+        }
+      ]
+    },
+    "ja": {
+      "text": "We checked in 深夜 after our delayed train finally arrived at the station.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5561,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We checked in",
+          "start_sample": 0,
+          "end_sample": 14294,
+          "start_ms": 0,
+          "end_ms": 893
+        },
+        {
+          "lang": "ja",
+          "text": "深夜",
+          "start_sample": 14294,
+          "end_sample": 23770,
+          "start_ms": 893,
+          "end_ms": 1486
+        },
+        {
+          "lang": "en",
+          "text": "after our delayed train finally arrived at the station.",
+          "start_sample": 23770,
+          "end_sample": 88975,
+          "start_ms": 1486,
+          "end_ms": 5561
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 239,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

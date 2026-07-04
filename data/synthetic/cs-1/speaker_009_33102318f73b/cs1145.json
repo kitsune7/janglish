@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_009_33102318f73b/cs1145.flac",
+  "sentence": "She uses a 反射板 to bounce light back onto the subject's face.",
+  "sample_rate": 16000,
+  "duration_ms": 3948,
+  "reference_speaker": "jp/speaker_009_33102318f73b.mp3",
+  "seed": 1187,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She uses a",
+      "start_sample": 0,
+      "end_sample": 10699,
+      "start_ms": 0,
+      "end_ms": 669
+    },
+    {
+      "lang": "ja",
+      "text": "反射板",
+      "start_sample": 10699,
+      "end_sample": 19763,
+      "start_ms": 669,
+      "end_ms": 1235
+    },
+    {
+      "lang": "en",
+      "text": "to bounce light back onto the subject's face.",
+      "start_sample": 19763,
+      "end_sample": 63160,
+      "start_ms": 1235,
+      "end_ms": 3948
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She uses a hansha ita to bounce light back onto the subject's face.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4388,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She uses a",
+          "start_sample": 0,
+          "end_sample": 10899,
+          "start_ms": 0,
+          "end_ms": 681
+        },
+        {
+          "lang": "ja",
+          "text": "反射板",
+          "start_sample": 10899,
+          "end_sample": 26607,
+          "start_ms": 681,
+          "end_ms": 1663
+        },
+        {
+          "lang": "en",
+          "text": "to bounce light back onto the subject's face.",
+          "start_sample": 26607,
+          "end_sample": 70204,
+          "start_ms": 1663,
+          "end_ms": 4388
+        }
+      ]
+    },
+    "ja": {
+      "text": "She uses a 反射板 to bounce light back onto the subject's face.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4050,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She uses a",
+          "start_sample": 0,
+          "end_sample": 11228,
+          "start_ms": 0,
+          "end_ms": 702
+        },
+        {
+          "lang": "ja",
+          "text": "反射板",
+          "start_sample": 11228,
+          "end_sample": 20692,
+          "start_ms": 702,
+          "end_ms": 1293
+        },
+        {
+          "lang": "en",
+          "text": "to bounce light back onto the subject's face.",
+          "start_sample": 20692,
+          "end_sample": 64803,
+          "start_ms": 1293,
+          "end_ms": 4050
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 198,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

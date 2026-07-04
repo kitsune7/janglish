@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_018_b0dec8b93359/cs7704.flac",
+  "sentence": "玄関にwelcome matを置くだけで雰囲気が変わりますね。",
+  "sample_rate": 16000,
+  "duration_ms": 4634,
+  "reference_speaker": "en/speaker_018_b0dec8b93359.mp3",
+  "seed": 7746,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "玄関に",
+      "start_sample": 0,
+      "end_sample": 8953,
+      "start_ms": 0,
+      "end_ms": 560
+    },
+    {
+      "lang": "en",
+      "text": "welcome mat",
+      "start_sample": 8953,
+      "end_sample": 27935,
+      "start_ms": 560,
+      "end_ms": 1746
+    },
+    {
+      "lang": "ja",
+      "text": "を置くだけで雰囲気が変わりますね。",
+      "start_sample": 27935,
+      "end_sample": 74142,
+      "start_ms": 1746,
+      "end_ms": 4634
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "genkan ni welcome mat wo oku dake de fun'iki ga kawari masu ne",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6808,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "玄関に",
+          "start_sample": 0,
+          "end_sample": 20983,
+          "start_ms": 0,
+          "end_ms": 1311
+        },
+        {
+          "lang": "en",
+          "text": "welcome mat",
+          "start_sample": 20983,
+          "end_sample": 40365,
+          "start_ms": 1311,
+          "end_ms": 2523
+        },
+        {
+          "lang": "ja",
+          "text": "を置くだけで雰囲気が変わりますね。",
+          "start_sample": 40365,
+          "end_sample": 108923,
+          "start_ms": 2523,
+          "end_ms": 6808
+        }
+      ]
+    },
+    "ja": {
+      "text": "玄関にwelcome matを置くだけで雰囲気が変わりますね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4255,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "玄関に",
+          "start_sample": 0,
+          "end_sample": 9153,
+          "start_ms": 0,
+          "end_ms": 572
+        },
+        {
+          "lang": "en",
+          "text": "welcome mat",
+          "start_sample": 9153,
+          "end_sample": 21679,
+          "start_ms": 572,
+          "end_ms": 1355
+        },
+        {
+          "lang": "ja",
+          "text": "を置くだけで雰囲気が変わりますね。",
+          "start_sample": 21679,
+          "end_sample": 68086,
+          "start_ms": 1355,
+          "end_ms": 4255
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 232,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_016_fcffb37fddea/cs4144.flac",
+  "sentence": "弟のroomはいつも散らかっていて、母がよく怒る。",
+  "sample_rate": 16000,
+  "duration_ms": 3615,
+  "reference_speaker": "en/speaker_016_fcffb37fddea.mp3",
+  "seed": 4186,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "弟の",
+      "start_sample": 0,
+      "end_sample": 10053,
+      "start_ms": 0,
+      "end_ms": 628
+    },
+    {
+      "lang": "en",
+      "text": "room",
+      "start_sample": 10053,
+      "end_sample": 11255,
+      "start_ms": 628,
+      "end_ms": 703
+    },
+    {
+      "lang": "ja",
+      "text": "はいつも散らかっていて、母がよく怒る。",
+      "start_sample": 11255,
+      "end_sample": 57841,
+      "start_ms": 703,
+      "end_ms": 3615
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "otouto no room ha itsu mo chirakatsu te i te haha ga yoku ikaru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10431,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "弟の",
+          "start_sample": 0,
+          "end_sample": 11531,
+          "start_ms": 0,
+          "end_ms": 721
+        },
+        {
+          "lang": "en",
+          "text": "room",
+          "start_sample": 11531,
+          "end_sample": 13133,
+          "start_ms": 721,
+          "end_ms": 821
+        },
+        {
+          "lang": "ja",
+          "text": "はいつも散らかっていて、母がよく怒る。",
+          "start_sample": 13133,
+          "end_sample": 166896,
+          "start_ms": 821,
+          "end_ms": 10431
+        }
+      ]
+    },
+    "ja": {
+      "text": "弟のroomはいつも散らかっていて、母がよく怒る。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3885,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "弟の",
+          "start_sample": 0,
+          "end_sample": 10253,
+          "start_ms": 0,
+          "end_ms": 641
+        },
+        {
+          "lang": "en",
+          "text": "room",
+          "start_sample": 10253,
+          "end_sample": 15381,
+          "start_ms": 641,
+          "end_ms": 961
+        },
+        {
+          "lang": "ja",
+          "text": "はいつも散らかっていて、母がよく怒る。",
+          "start_sample": 15381,
+          "end_sample": 62167,
+          "start_ms": 961,
+          "end_ms": 3885
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 181,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

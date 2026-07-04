@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_070_8f5dfeca773f/cs11109.flac",
+  "sentence": "初雪のfluffyな感触が子どもたちを喜ばせた。",
+  "sample_rate": 16000,
+  "duration_ms": 3458,
+  "reference_speaker": "jp/speaker_070_8f5dfeca773f.mp3",
+  "seed": 11151,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "初雪の",
+      "start_sample": 0,
+      "end_sample": 8943,
+      "start_ms": 0,
+      "end_ms": 559
+    },
+    {
+      "lang": "en",
+      "text": "fluffy",
+      "start_sample": 8943,
+      "end_sample": 17033,
+      "start_ms": 559,
+      "end_ms": 1065
+    },
+    {
+      "lang": "ja",
+      "text": "な感触が子どもたちを喜ばせた。",
+      "start_sample": 17033,
+      "end_sample": 55329,
+      "start_ms": 1065,
+      "end_ms": 3458
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "hatsuyuki no fluffy na kanshoku ga kodomo tachi wo yorokoba se ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8029,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "初雪の",
+          "start_sample": 0,
+          "end_sample": 17779,
+          "start_ms": 0,
+          "end_ms": 1111
+        },
+        {
+          "lang": "en",
+          "text": "fluffy",
+          "start_sample": 17779,
+          "end_sample": 26269,
+          "start_ms": 1111,
+          "end_ms": 1642
+        },
+        {
+          "lang": "ja",
+          "text": "な感触が子どもたちを喜ばせた。",
+          "start_sample": 26269,
+          "end_sample": 128462,
+          "start_ms": 1642,
+          "end_ms": 8029
+        }
+      ]
+    },
+    "ja": {
+      "text": "初雪のfluffyな感触が子どもたちを喜ばせた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3388,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "初雪の",
+          "start_sample": 0,
+          "end_sample": 9143,
+          "start_ms": 0,
+          "end_ms": 571
+        },
+        {
+          "lang": "en",
+          "text": "fluffy",
+          "start_sample": 9143,
+          "end_sample": 15720,
+          "start_ms": 571,
+          "end_ms": 982
+        },
+        {
+          "lang": "ja",
+          "text": "な感触が子どもたちを喜ばせた。",
+          "start_sample": 15720,
+          "end_sample": 54216,
+          "start_ms": 982,
+          "end_ms": 3388
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 173,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

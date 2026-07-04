@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_095_862d569c1af2/cs1150.flac",
+  "sentence": "Let's schedule the outdoor session during the 黄金時間 tomorrow morning.",
+  "sample_rate": 16000,
+  "duration_ms": 3688,
+  "reference_speaker": "en/speaker_095_862d569c1af2.mp3",
+  "seed": 1192,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Let's schedule the outdoor session during the",
+      "start_sample": 0,
+      "end_sample": 33470,
+      "start_ms": 0,
+      "end_ms": 2092
+    },
+    {
+      "lang": "ja",
+      "text": "黄金時間",
+      "start_sample": 33470,
+      "end_sample": 45900,
+      "start_ms": 2092,
+      "end_ms": 2869
+    },
+    {
+      "lang": "en",
+      "text": "tomorrow morning.",
+      "start_sample": 45900,
+      "end_sample": 59007,
+      "start_ms": 2869,
+      "end_ms": 3688
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Let's schedule the outdoor session during the ougon jikan tomorrow morning.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3828,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Let's schedule the outdoor session during the",
+          "start_sample": 0,
+          "end_sample": 33670,
+          "start_ms": 0,
+          "end_ms": 2104
+        },
+        {
+          "lang": "ja",
+          "text": "黄金時間",
+          "start_sample": 33670,
+          "end_sample": 47941,
+          "start_ms": 2104,
+          "end_ms": 2996
+        },
+        {
+          "lang": "en",
+          "text": "tomorrow morning.",
+          "start_sample": 47941,
+          "end_sample": 61248,
+          "start_ms": 2996,
+          "end_ms": 3828
+        }
+      ]
+    },
+    "ja": {
+      "text": "Let's schedule the outdoor session during the 黄金時間 tomorrow morning.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4350,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Let's schedule the outdoor session during the",
+          "start_sample": 0,
+          "end_sample": 41695,
+          "start_ms": 0,
+          "end_ms": 2606
+        },
+        {
+          "lang": "ja",
+          "text": "黄金時間",
+          "start_sample": 41695,
+          "end_sample": 54525,
+          "start_ms": 2606,
+          "end_ms": 3408
+        },
+        {
+          "lang": "en",
+          "text": "tomorrow morning.",
+          "start_sample": 54525,
+          "end_sample": 69598,
+          "start_ms": 3408,
+          "end_ms": 4350
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 185,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

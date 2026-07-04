@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_005_a09e35e07333/cs329.flac",
+  "sentence": "子育てはとてもrewardingだけど、疲れることも多い。",
+  "sample_rate": 16000,
+  "duration_ms": 3416,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 371,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "子育てはとても",
+      "start_sample": 0,
+      "end_sample": 13313,
+      "start_ms": 0,
+      "end_ms": 832
+    },
+    {
+      "lang": "en",
+      "text": "rewarding",
+      "start_sample": 13313,
+      "end_sample": 27507,
+      "start_ms": 832,
+      "end_ms": 1719
+    },
+    {
+      "lang": "ja",
+      "text": "だけど、疲れることも多い。",
+      "start_sample": 27507,
+      "end_sample": 54653,
+      "start_ms": 1719,
+      "end_ms": 3416
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kosodate ha totemo rewarding da kedo tsukareru koto mo ooi",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5994,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "子育てはとても",
+          "start_sample": 0,
+          "end_sample": 30470,
+          "start_ms": 0,
+          "end_ms": 1904
+        },
+        {
+          "lang": "en",
+          "text": "rewarding",
+          "start_sample": 30470,
+          "end_sample": 45064,
+          "start_ms": 1904,
+          "end_ms": 2816
+        },
+        {
+          "lang": "ja",
+          "text": "だけど、疲れることも多い。",
+          "start_sample": 45064,
+          "end_sample": 95900,
+          "start_ms": 2816,
+          "end_ms": 5994
+        }
+      ]
+    },
+    "ja": {
+      "text": "子育てはとてもrewardingだけど、疲れることも多い。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3036,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "子育てはとても",
+          "start_sample": 0,
+          "end_sample": 13513,
+          "start_ms": 0,
+          "end_ms": 845
+        },
+        {
+          "lang": "en",
+          "text": "rewarding",
+          "start_sample": 13513,
+          "end_sample": 21235,
+          "start_ms": 845,
+          "end_ms": 1327
+        },
+        {
+          "lang": "ja",
+          "text": "だけど、疲れることも多い。",
+          "start_sample": 21235,
+          "end_sample": 48581,
+          "start_ms": 1327,
+          "end_ms": 3036
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 171,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

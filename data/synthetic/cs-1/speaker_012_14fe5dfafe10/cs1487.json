@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_012_14fe5dfafe10/cs1487.flac",
+  "sentence": "She wore her 髪 in a loose braid for the wedding.",
+  "sample_rate": 16000,
+  "duration_ms": 2770,
+  "reference_speaker": "jp/speaker_012_14fe5dfafe10.mp3",
+  "seed": 1529,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She wore her",
+      "start_sample": 0,
+      "end_sample": 11034,
+      "start_ms": 0,
+      "end_ms": 690
+    },
+    {
+      "lang": "ja",
+      "text": "髪",
+      "start_sample": 11034,
+      "end_sample": 16261,
+      "start_ms": 690,
+      "end_ms": 1016
+    },
+    {
+      "lang": "en",
+      "text": "in a loose braid for the wedding.",
+      "start_sample": 16261,
+      "end_sample": 44312,
+      "start_ms": 1016,
+      "end_ms": 2770
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She wore her kami in a loose braid for the wedding.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2969,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She wore her",
+          "start_sample": 0,
+          "end_sample": 11234,
+          "start_ms": 0,
+          "end_ms": 702
+        },
+        {
+          "lang": "ja",
+          "text": "髪",
+          "start_sample": 11234,
+          "end_sample": 19260,
+          "start_ms": 702,
+          "end_ms": 1204
+        },
+        {
+          "lang": "en",
+          "text": "in a loose braid for the wedding.",
+          "start_sample": 19260,
+          "end_sample": 47511,
+          "start_ms": 1204,
+          "end_ms": 2969
+        }
+      ]
+    },
+    "ja": {
+      "text": "She wore her 髪 in a loose braid for the wedding.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4280,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She wore her",
+          "start_sample": 0,
+          "end_sample": 14789,
+          "start_ms": 0,
+          "end_ms": 924
+        },
+        {
+          "lang": "ja",
+          "text": "髪",
+          "start_sample": 14789,
+          "end_sample": 20416,
+          "start_ms": 924,
+          "end_ms": 1276
+        },
+        {
+          "lang": "en",
+          "text": "in a loose braid for the wedding.",
+          "start_sample": 20416,
+          "end_sample": 68479,
+          "start_ms": 1276,
+          "end_ms": 4280
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 139,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

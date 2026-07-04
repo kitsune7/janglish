@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_084_122c648d361d/cs2018.flac",
+  "sentence": "She used a 長時間露光 technique to paint the sky with star trails.",
+  "sample_rate": 16000,
+  "duration_ms": 4702,
+  "reference_speaker": "jp/speaker_084_122c648d361d.mp3",
+  "seed": 2060,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She used a",
+      "start_sample": 0,
+      "end_sample": 9261,
+      "start_ms": 0,
+      "end_ms": 579
+    },
+    {
+      "lang": "ja",
+      "text": "長時間露光",
+      "start_sample": 9261,
+      "end_sample": 23151,
+      "start_ms": 579,
+      "end_ms": 1447
+    },
+    {
+      "lang": "en",
+      "text": "technique to paint the sky with star trails.",
+      "start_sample": 23151,
+      "end_sample": 75230,
+      "start_ms": 1447,
+      "end_ms": 4702
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She used a chou jikan rokou technique to paint the sky with star trails.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4991,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She used a",
+          "start_sample": 0,
+          "end_sample": 9461,
+          "start_ms": 0,
+          "end_ms": 591
+        },
+        {
+          "lang": "ja",
+          "text": "長時間露光",
+          "start_sample": 9461,
+          "end_sample": 27584,
+          "start_ms": 591,
+          "end_ms": 1724
+        },
+        {
+          "lang": "en",
+          "text": "technique to paint the sky with star trails.",
+          "start_sample": 27584,
+          "end_sample": 79863,
+          "start_ms": 1724,
+          "end_ms": 4991
+        }
+      ]
+    },
+    "ja": {
+      "text": "She used a 長時間露光 technique to paint the sky with star trails.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4756,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She used a",
+          "start_sample": 0,
+          "end_sample": 10597,
+          "start_ms": 0,
+          "end_ms": 662
+        },
+        {
+          "lang": "ja",
+          "text": "長時間露光",
+          "start_sample": 10597,
+          "end_sample": 24887,
+          "start_ms": 662,
+          "end_ms": 1555
+        },
+        {
+          "lang": "en",
+          "text": "technique to paint the sky with star trails.",
+          "start_sample": 24887,
+          "end_sample": 76104,
+          "start_ms": 1555,
+          "end_ms": 4756
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 236,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

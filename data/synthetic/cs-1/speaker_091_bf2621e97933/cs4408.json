@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_091_bf2621e97933/cs4408.flac",
+  "sentence": "The 部屋 on the top floor had the most incredible view of the harbor.",
+  "sample_rate": 16000,
+  "duration_ms": 3728,
+  "reference_speaker": "jp/speaker_091_bf2621e97933.mp3",
+  "seed": 4450,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1723,
+      "start_ms": 0,
+      "end_ms": 108
+    },
+    {
+      "lang": "ja",
+      "text": "部屋",
+      "start_sample": 1723,
+      "end_sample": 9183,
+      "start_ms": 108,
+      "end_ms": 574
+    },
+    {
+      "lang": "en",
+      "text": "on the top floor had the most incredible view of the harbor.",
+      "start_sample": 9183,
+      "end_sample": 59648,
+      "start_ms": 574,
+      "end_ms": 3728
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The heya on the top floor had the most incredible view of the harbor.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3648,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1923,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "部屋",
+          "start_sample": 1923,
+          "end_sample": 7695,
+          "start_ms": 120,
+          "end_ms": 481
+        },
+        {
+          "lang": "en",
+          "text": "on the top floor had the most incredible view of the harbor.",
+          "start_sample": 7695,
+          "end_sample": 58360,
+          "start_ms": 481,
+          "end_ms": 3648
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 部屋 on the top floor had the most incredible view of the harbor.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4772,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6254,
+          "start_ms": 0,
+          "end_ms": 391
+        },
+        {
+          "lang": "ja",
+          "text": "部屋",
+          "start_sample": 6254,
+          "end_sample": 14114,
+          "start_ms": 391,
+          "end_ms": 882
+        },
+        {
+          "lang": "en",
+          "text": "on the top floor had the most incredible view of the harbor.",
+          "start_sample": 14114,
+          "end_sample": 76357,
+          "start_ms": 882,
+          "end_ms": 4772
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 187,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

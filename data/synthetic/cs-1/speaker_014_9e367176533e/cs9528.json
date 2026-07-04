@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_014_9e367176533e/cs9528.flac",
+  "sentence": "He forgot to leave the 清算 slip at the front desk before heading to the airport.",
+  "sample_rate": 16000,
+  "duration_ms": 5219,
+  "reference_speaker": "jp/speaker_014_9e367176533e.mp3",
+  "seed": 9570,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He forgot to leave the",
+      "start_sample": 0,
+      "end_sample": 17747,
+      "start_ms": 0,
+      "end_ms": 1109
+    },
+    {
+      "lang": "ja",
+      "text": "清算",
+      "start_sample": 17747,
+      "end_sample": 25531,
+      "start_ms": 1109,
+      "end_ms": 1596
+    },
+    {
+      "lang": "en",
+      "text": "slip at the front desk before heading to the airport.",
+      "start_sample": 25531,
+      "end_sample": 83498,
+      "start_ms": 1596,
+      "end_ms": 5219
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He forgot to leave the seisan slip at the front desk before heading to the airport.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5268,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He forgot to leave the",
+          "start_sample": 0,
+          "end_sample": 17947,
+          "start_ms": 0,
+          "end_ms": 1122
+        },
+        {
+          "lang": "ja",
+          "text": "清算",
+          "start_sample": 17947,
+          "end_sample": 26119,
+          "start_ms": 1122,
+          "end_ms": 1632
+        },
+        {
+          "lang": "en",
+          "text": "slip at the front desk before heading to the airport.",
+          "start_sample": 26119,
+          "end_sample": 84286,
+          "start_ms": 1632,
+          "end_ms": 5268
+        }
+      ]
+    },
+    "ja": {
+      "text": "He forgot to leave the 清算 slip at the front desk before heading to the airport.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6740,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He forgot to leave the",
+          "start_sample": 0,
+          "end_sample": 22146,
+          "start_ms": 0,
+          "end_ms": 1384
+        },
+        {
+          "lang": "ja",
+          "text": "清算",
+          "start_sample": 22146,
+          "end_sample": 30330,
+          "start_ms": 1384,
+          "end_ms": 1896
+        },
+        {
+          "lang": "en",
+          "text": "slip at the front desk before heading to the airport.",
+          "start_sample": 30330,
+          "end_sample": 107840,
+          "start_ms": 1896,
+          "end_ms": 6740
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 261,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

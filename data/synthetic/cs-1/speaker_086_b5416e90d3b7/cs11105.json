@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_086_b5416e90d3b7/cs11105.flac",
+  "sentence": "海沿いのwindyな道を散歩した。",
+  "sample_rate": 16000,
+  "duration_ms": 1946,
+  "reference_speaker": "jp/speaker_086_b5416e90d3b7.mp3",
+  "seed": 11147,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "海沿いの",
+      "start_sample": 0,
+      "end_sample": 9008,
+      "start_ms": 0,
+      "end_ms": 563
+    },
+    {
+      "lang": "en",
+      "text": "windy",
+      "start_sample": 9008,
+      "end_sample": 15030,
+      "start_ms": 563,
+      "end_ms": 939
+    },
+    {
+      "lang": "ja",
+      "text": "な道を散歩した。",
+      "start_sample": 15030,
+      "end_sample": 31138,
+      "start_ms": 939,
+      "end_ms": 1946
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "umizoi no windy na michi wo sanpo shi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3692,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "海沿いの",
+          "start_sample": 0,
+          "end_sample": 13646,
+          "start_ms": 0,
+          "end_ms": 853
+        },
+        {
+          "lang": "en",
+          "text": "windy",
+          "start_sample": 13646,
+          "end_sample": 20068,
+          "start_ms": 853,
+          "end_ms": 1254
+        },
+        {
+          "lang": "ja",
+          "text": "な道を散歩した。",
+          "start_sample": 20068,
+          "end_sample": 59078,
+          "start_ms": 1254,
+          "end_ms": 3692
+        }
+      ]
+    },
+    "ja": {
+      "text": "海沿いのwindyな道を散歩した。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 1958,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "海沿いの",
+          "start_sample": 0,
+          "end_sample": 9208,
+          "start_ms": 0,
+          "end_ms": 576
+        },
+        {
+          "lang": "en",
+          "text": "windy",
+          "start_sample": 9208,
+          "end_sample": 15024,
+          "start_ms": 576,
+          "end_ms": 939
+        },
+        {
+          "lang": "ja",
+          "text": "な道を散歩した。",
+          "start_sample": 15024,
+          "end_sample": 31332,
+          "start_ms": 939,
+          "end_ms": 1958
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 98,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

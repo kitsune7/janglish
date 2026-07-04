@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_017_2adba246654a/cs4064.flac",
+  "sentence": "The vendors sold 甘い roasted chestnuts at every corner of the winter fair.",
+  "sample_rate": 16000,
+  "duration_ms": 5150,
+  "reference_speaker": "jp/speaker_017_2adba246654a.mp3",
+  "seed": 4106,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The vendors sold",
+      "start_sample": 0,
+      "end_sample": 19357,
+      "start_ms": 0,
+      "end_ms": 1210
+    },
+    {
+      "lang": "ja",
+      "text": "甘い",
+      "start_sample": 19357,
+      "end_sample": 26337,
+      "start_ms": 1210,
+      "end_ms": 1646
+    },
+    {
+      "lang": "en",
+      "text": "roasted chestnuts at every corner of the winter fair.",
+      "start_sample": 26337,
+      "end_sample": 82403,
+      "start_ms": 1646,
+      "end_ms": 5150
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The vendors sold amai roasted chestnuts at every corner of the winter fair.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5450,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The vendors sold",
+          "start_sample": 0,
+          "end_sample": 19557,
+          "start_ms": 0,
+          "end_ms": 1222
+        },
+        {
+          "lang": "ja",
+          "text": "甘い",
+          "start_sample": 19557,
+          "end_sample": 30938,
+          "start_ms": 1222,
+          "end_ms": 1934
+        },
+        {
+          "lang": "en",
+          "text": "roasted chestnuts at every corner of the winter fair.",
+          "start_sample": 30938,
+          "end_sample": 87204,
+          "start_ms": 1934,
+          "end_ms": 5450
+        }
+      ]
+    },
+    "ja": {
+      "text": "The vendors sold 甘い roasted chestnuts at every corner of the winter fair.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6316,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The vendors sold",
+          "start_sample": 0,
+          "end_sample": 21013,
+          "start_ms": 0,
+          "end_ms": 1313
+        },
+        {
+          "lang": "ja",
+          "text": "甘い",
+          "start_sample": 21013,
+          "end_sample": 28393,
+          "start_ms": 1313,
+          "end_ms": 1775
+        },
+        {
+          "lang": "en",
+          "text": "roasted chestnuts at every corner of the winter fair.",
+          "start_sample": 28393,
+          "end_sample": 101064,
+          "start_ms": 1775,
+          "end_ms": 6316
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 258,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

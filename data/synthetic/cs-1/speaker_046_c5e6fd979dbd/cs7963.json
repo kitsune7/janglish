@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_046_c5e6fd979dbd/cs7963.flac",
+  "sentence": "車のheadlightが片方切れていたので早急に交換した。",
+  "sample_rate": 16000,
+  "duration_ms": 3781,
+  "reference_speaker": "en/speaker_046_c5e6fd979dbd.mp3",
+  "seed": 8005,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "車の",
+      "start_sample": 0,
+      "end_sample": 5914,
+      "start_ms": 0,
+      "end_ms": 370
+    },
+    {
+      "lang": "en",
+      "text": "headlight",
+      "start_sample": 5914,
+      "end_sample": 21110,
+      "start_ms": 370,
+      "end_ms": 1319
+    },
+    {
+      "lang": "ja",
+      "text": "が片方切れていたので早急に交換した。",
+      "start_sample": 21110,
+      "end_sample": 60490,
+      "start_ms": 1319,
+      "end_ms": 3781
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kuruma no headlight ga katahou kire te i ta no de sakkyuu ni koukan shi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4522,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "車の",
+          "start_sample": 0,
+          "end_sample": 13022,
+          "start_ms": 0,
+          "end_ms": 814
+        },
+        {
+          "lang": "en",
+          "text": "headlight",
+          "start_sample": 13022,
+          "end_sample": 28618,
+          "start_ms": 814,
+          "end_ms": 1789
+        },
+        {
+          "lang": "ja",
+          "text": "が片方切れていたので早急に交換した。",
+          "start_sample": 28618,
+          "end_sample": 72345,
+          "start_ms": 1789,
+          "end_ms": 4522
+        }
+      ]
+    },
+    "ja": {
+      "text": "車のheadlightが片方切れていたので早急に交換した。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3379,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "車の",
+          "start_sample": 0,
+          "end_sample": 6114,
+          "start_ms": 0,
+          "end_ms": 382
+        },
+        {
+          "lang": "en",
+          "text": "headlight",
+          "start_sample": 6114,
+          "end_sample": 14481,
+          "start_ms": 382,
+          "end_ms": 905
+        },
+        {
+          "lang": "ja",
+          "text": "が片方切れていたので早急に交換した。",
+          "start_sample": 14481,
+          "end_sample": 54061,
+          "start_ms": 905,
+          "end_ms": 3379
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

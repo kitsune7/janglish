@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_053_ceb29bce299d/cs11400.flac",
+  "sentence": "このシャツのcollarが少し大きすぎると思います。",
+  "sample_rate": 16000,
+  "duration_ms": 2710,
+  "reference_speaker": "en/speaker_053_ceb29bce299d.mp3",
+  "seed": 11442,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このシャツの",
+      "start_sample": 0,
+      "end_sample": 8473,
+      "start_ms": 0,
+      "end_ms": 530
+    },
+    {
+      "lang": "en",
+      "text": "collar",
+      "start_sample": 8473,
+      "end_sample": 14645,
+      "start_ms": 530,
+      "end_ms": 915
+    },
+    {
+      "lang": "ja",
+      "text": "が少し大きすぎると思います。",
+      "start_sample": 14645,
+      "end_sample": 43354,
+      "start_ms": 915,
+      "end_ms": 2710
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono shatsu no collar ga sukoshi ooki sugiru to omoi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5189,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このシャツの",
+          "start_sample": 0,
+          "end_sample": 30451,
+          "start_ms": 0,
+          "end_ms": 1903
+        },
+        {
+          "lang": "en",
+          "text": "collar",
+          "start_sample": 30451,
+          "end_sample": 37023,
+          "start_ms": 1903,
+          "end_ms": 2314
+        },
+        {
+          "lang": "ja",
+          "text": "が少し大きすぎると思います。",
+          "start_sample": 37023,
+          "end_sample": 83020,
+          "start_ms": 2314,
+          "end_ms": 5189
+        }
+      ]
+    },
+    "ja": {
+      "text": "このシャツのcollarが少し大きすぎると思います。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2630,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このシャツの",
+          "start_sample": 0,
+          "end_sample": 8673,
+          "start_ms": 0,
+          "end_ms": 542
+        },
+        {
+          "lang": "en",
+          "text": "collar",
+          "start_sample": 8673,
+          "end_sample": 13171,
+          "start_ms": 542,
+          "end_ms": 823
+        },
+        {
+          "lang": "ja",
+          "text": "が少し大きすぎると思います。",
+          "start_sample": 13171,
+          "end_sample": 42080,
+          "start_ms": 823,
+          "end_ms": 2630
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 136,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

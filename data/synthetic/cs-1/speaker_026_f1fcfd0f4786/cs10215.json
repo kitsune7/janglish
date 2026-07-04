@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_026_f1fcfd0f4786/cs10215.flac",
+  "sentence": "He's saving up for a 中古 sports car he found online.",
+  "sample_rate": 16000,
+  "duration_ms": 3660,
+  "reference_speaker": "jp/speaker_026_f1fcfd0f4786.mp3",
+  "seed": 10257,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He's saving up for a",
+      "start_sample": 0,
+      "end_sample": 20167,
+      "start_ms": 0,
+      "end_ms": 1260
+    },
+    {
+      "lang": "ja",
+      "text": "中古",
+      "start_sample": 20167,
+      "end_sample": 24762,
+      "start_ms": 1260,
+      "end_ms": 1548
+    },
+    {
+      "lang": "en",
+      "text": "sports car he found online.",
+      "start_sample": 24762,
+      "end_sample": 58559,
+      "start_ms": 1548,
+      "end_ms": 3660
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He's saving up for a chuuko sports car he found online.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3789,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He's saving up for a",
+          "start_sample": 0,
+          "end_sample": 20367,
+          "start_ms": 0,
+          "end_ms": 1273
+        },
+        {
+          "lang": "ja",
+          "text": "中古",
+          "start_sample": 20367,
+          "end_sample": 26621,
+          "start_ms": 1273,
+          "end_ms": 1664
+        },
+        {
+          "lang": "en",
+          "text": "sports car he found online.",
+          "start_sample": 26621,
+          "end_sample": 60618,
+          "start_ms": 1664,
+          "end_ms": 3789
+        }
+      ]
+    },
+    "ja": {
+      "text": "He's saving up for a 中古 sports car he found online.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3182,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He's saving up for a",
+          "start_sample": 0,
+          "end_sample": 16112,
+          "start_ms": 0,
+          "end_ms": 1007
+        },
+        {
+          "lang": "ja",
+          "text": "中古",
+          "start_sample": 16112,
+          "end_sample": 21107,
+          "start_ms": 1007,
+          "end_ms": 1319
+        },
+        {
+          "lang": "en",
+          "text": "sports car he found online.",
+          "start_sample": 21107,
+          "end_sample": 50909,
+          "start_ms": 1319,
+          "end_ms": 3182
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 183,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

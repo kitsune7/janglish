@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_025_0f8f304ca1ab/cs10165.flac",
+  "sentence": "その映画のsoundtrackを聴きながら、料理をするのが好きです。",
+  "sample_rate": 16000,
+  "duration_ms": 3602,
+  "reference_speaker": "jp/speaker_025_0f8f304ca1ab.mp3",
+  "seed": 10207,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その映画の",
+      "start_sample": 0,
+      "end_sample": 9435,
+      "start_ms": 0,
+      "end_ms": 590
+    },
+    {
+      "lang": "en",
+      "text": "soundtrack",
+      "start_sample": 9435,
+      "end_sample": 21064,
+      "start_ms": 590,
+      "end_ms": 1316
+    },
+    {
+      "lang": "ja",
+      "text": "を聴きながら、料理をするのが好きです。",
+      "start_sample": 21064,
+      "end_sample": 57638,
+      "start_ms": 1316,
+      "end_ms": 3602
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono eiga no soundtrack wo kiki nagara ryouri wo suru no ga suki desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7378,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その映画の",
+          "start_sample": 0,
+          "end_sample": 17161,
+          "start_ms": 0,
+          "end_ms": 1073
+        },
+        {
+          "lang": "en",
+          "text": "soundtrack",
+          "start_sample": 17161,
+          "end_sample": 29190,
+          "start_ms": 1073,
+          "end_ms": 1824
+        },
+        {
+          "lang": "ja",
+          "text": "を聴きながら、料理をするのが好きです。",
+          "start_sample": 29190,
+          "end_sample": 118045,
+          "start_ms": 1824,
+          "end_ms": 7378
+        }
+      ]
+    },
+    "ja": {
+      "text": "その映画のsoundtrackを聴きながら、料理をするのが好きです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3493,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その映画の",
+          "start_sample": 0,
+          "end_sample": 9635,
+          "start_ms": 0,
+          "end_ms": 602
+        },
+        {
+          "lang": "en",
+          "text": "soundtrack",
+          "start_sample": 9635,
+          "end_sample": 19110,
+          "start_ms": 602,
+          "end_ms": 1194
+        },
+        {
+          "lang": "ja",
+          "text": "を聴きながら、料理をするのが好きです。",
+          "start_sample": 19110,
+          "end_sample": 55884,
+          "start_ms": 1194,
+          "end_ms": 3493
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 181,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

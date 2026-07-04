@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_086_b5416e90d3b7/cs9627.flac",
+  "sentence": "She replied 即座に, which honestly surprised me.",
+  "sample_rate": 16000,
+  "duration_ms": 3148,
+  "reference_speaker": "jp/speaker_086_b5416e90d3b7.mp3",
+  "seed": 9669,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She replied",
+      "start_sample": 0,
+      "end_sample": 11341,
+      "start_ms": 0,
+      "end_ms": 709
+    },
+    {
+      "lang": "ja",
+      "text": "即座に,",
+      "start_sample": 11341,
+      "end_sample": 19950,
+      "start_ms": 709,
+      "end_ms": 1247
+    },
+    {
+      "lang": "en",
+      "text": "which honestly surprised me.",
+      "start_sample": 19950,
+      "end_sample": 50367,
+      "start_ms": 1247,
+      "end_ms": 3148
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She replied sokuza ni which honestly surprised me.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3948,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She replied",
+          "start_sample": 0,
+          "end_sample": 11541,
+          "start_ms": 0,
+          "end_ms": 721
+        },
+        {
+          "lang": "ja",
+          "text": "即座に,",
+          "start_sample": 11541,
+          "end_sample": 32543,
+          "start_ms": 721,
+          "end_ms": 2034
+        },
+        {
+          "lang": "en",
+          "text": "which honestly surprised me.",
+          "start_sample": 32543,
+          "end_sample": 63160,
+          "start_ms": 2034,
+          "end_ms": 3948
+        }
+      ]
+    },
+    "ja": {
+      "text": "She replied 即座に, which honestly surprised me.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2956,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She replied",
+          "start_sample": 0,
+          "end_sample": 9652,
+          "start_ms": 0,
+          "end_ms": 603
+        },
+        {
+          "lang": "ja",
+          "text": "即座に,",
+          "start_sample": 9652,
+          "end_sample": 18661,
+          "start_ms": 603,
+          "end_ms": 1166
+        },
+        {
+          "lang": "en",
+          "text": "which honestly surprised me.",
+          "start_sample": 18661,
+          "end_sample": 47294,
+          "start_ms": 1166,
+          "end_ms": 2956
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 158,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

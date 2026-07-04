@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_099_c404e17fc007/cs9981.flac",
+  "sentence": "The 避難 route was clearly marked, but most people ignored it.",
+  "sample_rate": 16000,
+  "duration_ms": 3630,
+  "reference_speaker": "jp/speaker_099_c404e17fc007.mp3",
+  "seed": 10023,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1564,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "避難",
+      "start_sample": 1564,
+      "end_sample": 8376,
+      "start_ms": 98,
+      "end_ms": 524
+    },
+    {
+      "lang": "en",
+      "text": "route was clearly marked, but most people ignored it.",
+      "start_sample": 8376,
+      "end_sample": 58072,
+      "start_ms": 524,
+      "end_ms": 3630
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hinan route was clearly marked, but most people ignored it.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3710,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1764,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "避難",
+          "start_sample": 1764,
+          "end_sample": 9466,
+          "start_ms": 110,
+          "end_ms": 592
+        },
+        {
+          "lang": "en",
+          "text": "route was clearly marked, but most people ignored it.",
+          "start_sample": 9466,
+          "end_sample": 59362,
+          "start_ms": 592,
+          "end_ms": 3710
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 避難 route was clearly marked, but most people ignored it.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4226,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2403,
+          "start_ms": 0,
+          "end_ms": 150
+        },
+        {
+          "lang": "ja",
+          "text": "避難",
+          "start_sample": 2403,
+          "end_sample": 9615,
+          "start_ms": 150,
+          "end_ms": 601
+        },
+        {
+          "lang": "en",
+          "text": "route was clearly marked, but most people ignored it.",
+          "start_sample": 9615,
+          "end_sample": 67624,
+          "start_ms": 601,
+          "end_ms": 4226
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 182,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

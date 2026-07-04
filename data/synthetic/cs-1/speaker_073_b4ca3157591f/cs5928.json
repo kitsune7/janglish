@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_073_b4ca3157591f/cs5928.flac",
+  "sentence": "We could all use more 休憩 between heavy lifting sets.",
+  "sample_rate": 16000,
+  "duration_ms": 3266,
+  "reference_speaker": "jp/speaker_073_b4ca3157591f.mp3",
+  "seed": 5970,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We could all use more",
+      "start_sample": 0,
+      "end_sample": 17737,
+      "start_ms": 0,
+      "end_ms": 1109
+    },
+    {
+      "lang": "ja",
+      "text": "休憩",
+      "start_sample": 17737,
+      "end_sample": 27948,
+      "start_ms": 1109,
+      "end_ms": 1747
+    },
+    {
+      "lang": "en",
+      "text": "between heavy lifting sets.",
+      "start_sample": 27948,
+      "end_sample": 52251,
+      "start_ms": 1747,
+      "end_ms": 3266
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We could all use more kyuukei between heavy lifting sets.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3143,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We could all use more",
+          "start_sample": 0,
+          "end_sample": 17937,
+          "start_ms": 0,
+          "end_ms": 1121
+        },
+        {
+          "lang": "ja",
+          "text": "休憩",
+          "start_sample": 17937,
+          "end_sample": 25785,
+          "start_ms": 1121,
+          "end_ms": 1612
+        },
+        {
+          "lang": "en",
+          "text": "between heavy lifting sets.",
+          "start_sample": 25785,
+          "end_sample": 50288,
+          "start_ms": 1612,
+          "end_ms": 3143
+        }
+      ]
+    },
+    "ja": {
+      "text": "We could all use more 休憩 between heavy lifting sets.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4341,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We could all use more",
+          "start_sample": 0,
+          "end_sample": 22187,
+          "start_ms": 0,
+          "end_ms": 1387
+        },
+        {
+          "lang": "ja",
+          "text": "休憩",
+          "start_sample": 22187,
+          "end_sample": 32798,
+          "start_ms": 1387,
+          "end_ms": 2050
+        },
+        {
+          "lang": "en",
+          "text": "between heavy lifting sets.",
+          "start_sample": 32798,
+          "end_sample": 69451,
+          "start_ms": 2050,
+          "end_ms": 4341
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 164,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

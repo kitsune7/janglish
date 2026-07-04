@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_050_3d86fef9a9be/cs8383.flac",
+  "sentence": "Can you grab the ほうき and sweep the front steps?",
+  "sample_rate": 16000,
+  "duration_ms": 2923,
+  "reference_speaker": "jp/speaker_050_3d86fef9a9be.mp3",
+  "seed": 8425,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you grab the",
+      "start_sample": 0,
+      "end_sample": 10883,
+      "start_ms": 0,
+      "end_ms": 680
+    },
+    {
+      "lang": "ja",
+      "text": "ほうき",
+      "start_sample": 10883,
+      "end_sample": 24316,
+      "start_ms": 680,
+      "end_ms": 1520
+    },
+    {
+      "lang": "en",
+      "text": "and sweep the front steps?",
+      "start_sample": 24316,
+      "end_sample": 46761,
+      "start_ms": 1520,
+      "end_ms": 2923
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you grab the houki and sweep the front steps?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2630,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you grab the",
+          "start_sample": 0,
+          "end_sample": 11083,
+          "start_ms": 0,
+          "end_ms": 693
+        },
+        {
+          "lang": "ja",
+          "text": "ほうき",
+          "start_sample": 11083,
+          "end_sample": 19435,
+          "start_ms": 693,
+          "end_ms": 1215
+        },
+        {
+          "lang": "en",
+          "text": "and sweep the front steps?",
+          "start_sample": 19435,
+          "end_sample": 42080,
+          "start_ms": 1215,
+          "end_ms": 2630
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you grab the ほうき and sweep the front steps?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4302,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you grab the",
+          "start_sample": 0,
+          "end_sample": 20427,
+          "start_ms": 0,
+          "end_ms": 1277
+        },
+        {
+          "lang": "ja",
+          "text": "ほうき",
+          "start_sample": 20427,
+          "end_sample": 34260,
+          "start_ms": 1277,
+          "end_ms": 2141
+        },
+        {
+          "lang": "en",
+          "text": "and sweep the front steps?",
+          "start_sample": 34260,
+          "end_sample": 68838,
+          "start_ms": 2141,
+          "end_ms": 4302
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 147,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

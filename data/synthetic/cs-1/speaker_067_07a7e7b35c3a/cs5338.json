@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_067_07a7e7b35c3a/cs5338.flac",
+  "sentence": "She specifically requested a 禁煙 room because of her allergies.",
+  "sample_rate": 16000,
+  "duration_ms": 4778,
+  "reference_speaker": "jp/speaker_067_07a7e7b35c3a.mp3",
+  "seed": 5380,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She specifically requested a",
+      "start_sample": 0,
+      "end_sample": 30958,
+      "start_ms": 0,
+      "end_ms": 1935
+    },
+    {
+      "lang": "ja",
+      "text": "禁煙",
+      "start_sample": 30958,
+      "end_sample": 40991,
+      "start_ms": 1935,
+      "end_ms": 2562
+    },
+    {
+      "lang": "en",
+      "text": "room because of her allergies.",
+      "start_sample": 40991,
+      "end_sample": 76447,
+      "start_ms": 2562,
+      "end_ms": 4778
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She specifically requested a kin'en room because of her allergies.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4618,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She specifically requested a",
+          "start_sample": 0,
+          "end_sample": 31158,
+          "start_ms": 0,
+          "end_ms": 1947
+        },
+        {
+          "lang": "ja",
+          "text": "禁煙",
+          "start_sample": 31158,
+          "end_sample": 38226,
+          "start_ms": 1947,
+          "end_ms": 2389
+        },
+        {
+          "lang": "en",
+          "text": "room because of her allergies.",
+          "start_sample": 38226,
+          "end_sample": 73882,
+          "start_ms": 2389,
+          "end_ms": 4618
+        }
+      ]
+    },
+    "ja": {
+      "text": "She specifically requested a 禁煙 room because of her allergies.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6199,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She specifically requested a",
+          "start_sample": 0,
+          "end_sample": 43813,
+          "start_ms": 0,
+          "end_ms": 2738
+        },
+        {
+          "lang": "ja",
+          "text": "禁煙",
+          "start_sample": 43813,
+          "end_sample": 54246,
+          "start_ms": 2738,
+          "end_ms": 3390
+        },
+        {
+          "lang": "en",
+          "text": "room because of her allergies.",
+          "start_sample": 54246,
+          "end_sample": 99183,
+          "start_ms": 3390,
+          "end_ms": 6199
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 239,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

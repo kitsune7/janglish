@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_092_0f181b6e11f2/cs10728.flac",
+  "sentence": "She blanched the greens in 熱湯 for just thirty seconds.",
+  "sample_rate": 16000,
+  "duration_ms": 3910,
+  "reference_speaker": "en/speaker_092_0f181b6e11f2.mp3",
+  "seed": 10770,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She blanched the greens in",
+      "start_sample": 0,
+      "end_sample": 30277,
+      "start_ms": 0,
+      "end_ms": 1892
+    },
+    {
+      "lang": "ja",
+      "text": "熱湯",
+      "start_sample": 30277,
+      "end_sample": 39023,
+      "start_ms": 1892,
+      "end_ms": 2439
+    },
+    {
+      "lang": "en",
+      "text": "for just thirty seconds.",
+      "start_sample": 39023,
+      "end_sample": 62562,
+      "start_ms": 2439,
+      "end_ms": 3910
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She blanched the greens in nettou for just thirty seconds.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3990,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She blanched the greens in",
+          "start_sample": 0,
+          "end_sample": 30477,
+          "start_ms": 0,
+          "end_ms": 1905
+        },
+        {
+          "lang": "ja",
+          "text": "熱湯",
+          "start_sample": 30477,
+          "end_sample": 40102,
+          "start_ms": 1905,
+          "end_ms": 2506
+        },
+        {
+          "lang": "en",
+          "text": "for just thirty seconds.",
+          "start_sample": 40102,
+          "end_sample": 63841,
+          "start_ms": 2506,
+          "end_ms": 3990
+        }
+      ]
+    },
+    "ja": {
+      "text": "She blanched the greens in 熱湯 for just thirty seconds.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4914,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She blanched the greens in",
+          "start_sample": 0,
+          "end_sample": 35939,
+          "start_ms": 0,
+          "end_ms": 2246
+        },
+        {
+          "lang": "ja",
+          "text": "熱湯",
+          "start_sample": 35939,
+          "end_sample": 45085,
+          "start_ms": 2246,
+          "end_ms": 2818
+        },
+        {
+          "lang": "en",
+          "text": "for just thirty seconds.",
+          "start_sample": 45085,
+          "end_sample": 78617,
+          "start_ms": 2818,
+          "end_ms": 4914
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_055_a1e62e8e91e0/cs7559.flac",
+  "sentence": "私たちはlabで実験の結果をまとめた。",
+  "sample_rate": 16000,
+  "duration_ms": 2923,
+  "reference_speaker": "en/speaker_055_a1e62e8e91e0.mp3",
+  "seed": 7601,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "私たちは",
+      "start_sample": 0,
+      "end_sample": 11054,
+      "start_ms": 0,
+      "end_ms": 691
+    },
+    {
+      "lang": "en",
+      "text": "lab",
+      "start_sample": 11054,
+      "end_sample": 16904,
+      "start_ms": 691,
+      "end_ms": 1056
+    },
+    {
+      "lang": "ja",
+      "text": "で実験の結果をまとめた。",
+      "start_sample": 16904,
+      "end_sample": 46765,
+      "start_ms": 1056,
+      "end_ms": 2923
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "watashi tachi ha lab de jikken no kekka wo matome ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5549,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私たちは",
+          "start_sample": 0,
+          "end_sample": 29327,
+          "start_ms": 0,
+          "end_ms": 1833
+        },
+        {
+          "lang": "en",
+          "text": "lab",
+          "start_sample": 29327,
+          "end_sample": 35577,
+          "start_ms": 1833,
+          "end_ms": 2224
+        },
+        {
+          "lang": "ja",
+          "text": "で実験の結果をまとめた。",
+          "start_sample": 35577,
+          "end_sample": 88782,
+          "start_ms": 2224,
+          "end_ms": 5549
+        }
+      ]
+    },
+    "ja": {
+      "text": "私たちはlabで実験の結果をまとめた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2813,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私たちは",
+          "start_sample": 0,
+          "end_sample": 11254,
+          "start_ms": 0,
+          "end_ms": 703
+        },
+        {
+          "lang": "en",
+          "text": "lab",
+          "start_sample": 11254,
+          "end_sample": 14952,
+          "start_ms": 703,
+          "end_ms": 934
+        },
+        {
+          "lang": "ja",
+          "text": "で実験の結果をまとめた。",
+          "start_sample": 14952,
+          "end_sample": 45013,
+          "start_ms": 934,
+          "end_ms": 2813
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 147,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

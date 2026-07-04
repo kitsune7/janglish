@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_031_dcac4ff5a983/cs4993.flac",
+  "sentence": "雨の日はbraking distanceが伸びるから気をつけてください。",
+  "sample_rate": 16000,
+  "duration_ms": 4069,
+  "reference_speaker": "en/speaker_031_dcac4ff5a983.mp3",
+  "seed": 5035,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "雨の日は",
+      "start_sample": 0,
+      "end_sample": 10547,
+      "start_ms": 0,
+      "end_ms": 659
+    },
+    {
+      "lang": "en",
+      "text": "braking distance",
+      "start_sample": 10547,
+      "end_sample": 32581,
+      "start_ms": 659,
+      "end_ms": 2036
+    },
+    {
+      "lang": "ja",
+      "text": "が伸びるから気をつけてください。",
+      "start_sample": 32581,
+      "end_sample": 65102,
+      "start_ms": 2036,
+      "end_ms": 4069
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ame no nichi ha braking distance ga nobiru kara ki wo tsuke te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7771,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "雨の日は",
+          "start_sample": 0,
+          "end_sample": 36533,
+          "start_ms": 0,
+          "end_ms": 2283
+        },
+        {
+          "lang": "en",
+          "text": "braking distance",
+          "start_sample": 36533,
+          "end_sample": 58967,
+          "start_ms": 2283,
+          "end_ms": 3685
+        },
+        {
+          "lang": "ja",
+          "text": "が伸びるから気をつけてください。",
+          "start_sample": 58967,
+          "end_sample": 124343,
+          "start_ms": 3685,
+          "end_ms": 7771
+        }
+      ]
+    },
+    "ja": {
+      "text": "雨の日はbraking distanceが伸びるから気をつけてください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4030,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "雨の日は",
+          "start_sample": 0,
+          "end_sample": 10747,
+          "start_ms": 0,
+          "end_ms": 672
+        },
+        {
+          "lang": "en",
+          "text": "braking distance",
+          "start_sample": 10747,
+          "end_sample": 31761,
+          "start_ms": 672,
+          "end_ms": 1985
+        },
+        {
+          "lang": "ja",
+          "text": "が伸びるから気をつけてください。",
+          "start_sample": 31761,
+          "end_sample": 64482,
+          "start_ms": 1985,
+          "end_ms": 4030
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_036_d0b62ac1e57e/cs7615.flac",
+  "sentence": "Working from home has made me 敏感 to every small sound in the building.",
+  "sample_rate": 16000,
+  "duration_ms": 3449,
+  "reference_speaker": "en/speaker_036_d0b62ac1e57e.mp3",
+  "seed": 7657,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Working from home has made me",
+      "start_sample": 0,
+      "end_sample": 19846,
+      "start_ms": 0,
+      "end_ms": 1240
+    },
+    {
+      "lang": "ja",
+      "text": "敏感",
+      "start_sample": 19846,
+      "end_sample": 27800,
+      "start_ms": 1240,
+      "end_ms": 1738
+    },
+    {
+      "lang": "en",
+      "text": "to every small sound in the building.",
+      "start_sample": 27800,
+      "end_sample": 55183,
+      "start_ms": 1738,
+      "end_ms": 3449
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Working from home has made me binkan to every small sound in the building.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3388,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Working from home has made me",
+          "start_sample": 0,
+          "end_sample": 20046,
+          "start_ms": 0,
+          "end_ms": 1253
+        },
+        {
+          "lang": "ja",
+          "text": "敏感",
+          "start_sample": 20046,
+          "end_sample": 26621,
+          "start_ms": 1253,
+          "end_ms": 1664
+        },
+        {
+          "lang": "en",
+          "text": "to every small sound in the building.",
+          "start_sample": 26621,
+          "end_sample": 54204,
+          "start_ms": 1664,
+          "end_ms": 3388
+        }
+      ]
+    },
+    "ja": {
+      "text": "Working from home has made me 敏感 to every small sound in the building.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5763,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Working from home has made me",
+          "start_sample": 0,
+          "end_sample": 45783,
+          "start_ms": 0,
+          "end_ms": 2861
+        },
+        {
+          "lang": "ja",
+          "text": "敏感",
+          "start_sample": 45783,
+          "end_sample": 54137,
+          "start_ms": 2861,
+          "end_ms": 3384
+        },
+        {
+          "lang": "en",
+          "text": "to every small sound in the building.",
+          "start_sample": 54137,
+          "end_sample": 92205,
+          "start_ms": 3384,
+          "end_ms": 5763
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 173,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

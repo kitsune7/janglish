@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_051_2b805c12b1e0/cs8076.flac",
+  "sentence": "She didn't say anything, but her 悲しみ filled the entire room.",
+  "sample_rate": 16000,
+  "duration_ms": 5056,
+  "reference_speaker": "jp/speaker_051_2b805c12b1e0.mp3",
+  "seed": 8118,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She didn't say anything, but her",
+      "start_sample": 0,
+      "end_sample": 44745,
+      "start_ms": 0,
+      "end_ms": 2797
+    },
+    {
+      "lang": "ja",
+      "text": "悲しみ",
+      "start_sample": 44745,
+      "end_sample": 57819,
+      "start_ms": 2797,
+      "end_ms": 3614
+    },
+    {
+      "lang": "en",
+      "text": "filled the entire room.",
+      "start_sample": 57819,
+      "end_sample": 80893,
+      "start_ms": 3614,
+      "end_ms": 5056
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She didn't say anything, but her kanashimi filled the entire room.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5056,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She didn't say anything, but her",
+          "start_sample": 0,
+          "end_sample": 44945,
+          "start_ms": 0,
+          "end_ms": 2809
+        },
+        {
+          "lang": "ja",
+          "text": "悲しみ",
+          "start_sample": 44945,
+          "end_sample": 57627,
+          "start_ms": 2809,
+          "end_ms": 3602
+        },
+        {
+          "lang": "en",
+          "text": "filled the entire room.",
+          "start_sample": 57627,
+          "end_sample": 80901,
+          "start_ms": 3602,
+          "end_ms": 5056
+        }
+      ]
+    },
+    "ja": {
+      "text": "She didn't say anything, but her 悲しみ filled the entire room.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5193,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She didn't say anything, but her",
+          "start_sample": 0,
+          "end_sample": 35287,
+          "start_ms": 0,
+          "end_ms": 2205
+        },
+        {
+          "lang": "ja",
+          "text": "悲しみ",
+          "start_sample": 35287,
+          "end_sample": 48761,
+          "start_ms": 2205,
+          "end_ms": 3048
+        },
+        {
+          "lang": "en",
+          "text": "filled the entire room.",
+          "start_sample": 48761,
+          "end_sample": 83084,
+          "start_ms": 3048,
+          "end_ms": 5193
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 253,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

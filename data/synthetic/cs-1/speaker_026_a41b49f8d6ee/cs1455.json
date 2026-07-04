@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_026_a41b49f8d6ee/cs1455.flac",
+  "sentence": "今日はsubwayが遅れていて会議に遅刻しそうだ。",
+  "sample_rate": 16000,
+  "duration_ms": 3864,
+  "reference_speaker": "en/speaker_026_a41b49f8d6ee.mp3",
+  "seed": 1497,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日は",
+      "start_sample": 0,
+      "end_sample": 6847,
+      "start_ms": 0,
+      "end_ms": 428
+    },
+    {
+      "lang": "en",
+      "text": "subway",
+      "start_sample": 6847,
+      "end_sample": 21659,
+      "start_ms": 428,
+      "end_ms": 1354
+    },
+    {
+      "lang": "ja",
+      "text": "が遅れていて会議に遅刻しそうだ。",
+      "start_sample": 21659,
+      "end_sample": 61826,
+      "start_ms": 1354,
+      "end_ms": 3864
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou ha subway ga okure te i te kaigi ni chikoku shi sou da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8306,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日は",
+          "start_sample": 0,
+          "end_sample": 26420,
+          "start_ms": 0,
+          "end_ms": 1651
+        },
+        {
+          "lang": "en",
+          "text": "subway",
+          "start_sample": 26420,
+          "end_sample": 41632,
+          "start_ms": 1651,
+          "end_ms": 2602
+        },
+        {
+          "lang": "ja",
+          "text": "が遅れていて会議に遅刻しそうだ。",
+          "start_sample": 41632,
+          "end_sample": 132902,
+          "start_ms": 2602,
+          "end_ms": 8306
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日はsubwayが遅れていて会議に遅刻しそうだ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3444,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日は",
+          "start_sample": 0,
+          "end_sample": 7047,
+          "start_ms": 0,
+          "end_ms": 440
+        },
+        {
+          "lang": "en",
+          "text": "subway",
+          "start_sample": 7047,
+          "end_sample": 14737,
+          "start_ms": 440,
+          "end_ms": 921
+        },
+        {
+          "lang": "ja",
+          "text": "が遅れていて会議に遅刻しそうだ。",
+          "start_sample": 14737,
+          "end_sample": 55104,
+          "start_ms": 921,
+          "end_ms": 3444
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 194,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

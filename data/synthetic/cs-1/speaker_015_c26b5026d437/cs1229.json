@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_015_c26b5026d437/cs1229.flac",
+  "sentence": "先生はboardに大事なポイントを三つ書いた。",
+  "sample_rate": 16000,
+  "duration_ms": 3305,
+  "reference_speaker": "jp/speaker_015_c26b5026d437.mp3",
+  "seed": 1271,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "先生は",
+      "start_sample": 0,
+      "end_sample": 12342,
+      "start_ms": 0,
+      "end_ms": 771
+    },
+    {
+      "lang": "en",
+      "text": "board",
+      "start_sample": 12342,
+      "end_sample": 19317,
+      "start_ms": 771,
+      "end_ms": 1207
+    },
+    {
+      "lang": "ja",
+      "text": "に大事なポイントを三つ書いた。",
+      "start_sample": 19317,
+      "end_sample": 52880,
+      "start_ms": 1207,
+      "end_ms": 3305
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sensei ha board ni daiji na pointo wo san tsu kai ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6273,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先生は",
+          "start_sample": 0,
+          "end_sample": 8657,
+          "start_ms": 0,
+          "end_ms": 541
+        },
+        {
+          "lang": "en",
+          "text": "board",
+          "start_sample": 8657,
+          "end_sample": 16032,
+          "start_ms": 541,
+          "end_ms": 1002
+        },
+        {
+          "lang": "ja",
+          "text": "に大事なポイントを三つ書いた。",
+          "start_sample": 16032,
+          "end_sample": 100365,
+          "start_ms": 1002,
+          "end_ms": 6273
+        }
+      ]
+    },
+    "ja": {
+      "text": "先生はboardに大事なポイントを三つ書いた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3356,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先生は",
+          "start_sample": 0,
+          "end_sample": 12542,
+          "start_ms": 0,
+          "end_ms": 784
+        },
+        {
+          "lang": "en",
+          "text": "board",
+          "start_sample": 12542,
+          "end_sample": 19939,
+          "start_ms": 784,
+          "end_ms": 1246
+        },
+        {
+          "lang": "ja",
+          "text": "に大事なポイントを三つ書いた。",
+          "start_sample": 19939,
+          "end_sample": 53702,
+          "start_ms": 1246,
+          "end_ms": 3356
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 166,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

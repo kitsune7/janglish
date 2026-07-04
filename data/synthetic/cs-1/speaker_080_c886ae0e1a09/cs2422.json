@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_080_c886ae0e1a09/cs2422.flac",
+  "sentence": "Did you catch the 花火 last Saturday, or did you miss it because of work?",
+  "sample_rate": 16000,
+  "duration_ms": 3939,
+  "reference_speaker": "jp/speaker_080_c886ae0e1a09.mp3",
+  "seed": 2464,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Did you catch the",
+      "start_sample": 0,
+      "end_sample": 9289,
+      "start_ms": 0,
+      "end_ms": 581
+    },
+    {
+      "lang": "ja",
+      "text": "花火",
+      "start_sample": 9289,
+      "end_sample": 14981,
+      "start_ms": 581,
+      "end_ms": 936
+    },
+    {
+      "lang": "en",
+      "text": "last Saturday, or did you miss it because of work?",
+      "start_sample": 14981,
+      "end_sample": 63031,
+      "start_ms": 936,
+      "end_ms": 3939
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Did you catch the hanabi last Saturday, or did you miss it because of work?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4041,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you catch the",
+          "start_sample": 0,
+          "end_sample": 9489,
+          "start_ms": 0,
+          "end_ms": 593
+        },
+        {
+          "lang": "ja",
+          "text": "花火",
+          "start_sample": 9489,
+          "end_sample": 16406,
+          "start_ms": 593,
+          "end_ms": 1025
+        },
+        {
+          "lang": "en",
+          "text": "last Saturday, or did you miss it because of work?",
+          "start_sample": 16406,
+          "end_sample": 64656,
+          "start_ms": 1025,
+          "end_ms": 4041
+        }
+      ]
+    },
+    "ja": {
+      "text": "Did you catch the 花火 last Saturday, or did you miss it because of work?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3828,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you catch the",
+          "start_sample": 0,
+          "end_sample": 11222,
+          "start_ms": 0,
+          "end_ms": 701
+        },
+        {
+          "lang": "ja",
+          "text": "花火",
+          "start_sample": 11222,
+          "end_sample": 17314,
+          "start_ms": 701,
+          "end_ms": 1082
+        },
+        {
+          "lang": "en",
+          "text": "last Saturday, or did you miss it because of work?",
+          "start_sample": 17314,
+          "end_sample": 61241,
+          "start_ms": 1082,
+          "end_ms": 3828
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 197,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

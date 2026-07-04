@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_012_14fe5dfafe10/cs6313.flac",
+  "sentence": "He was 慎重 about choosing a mattress and tested at least seven of them.",
+  "sample_rate": 16000,
+  "duration_ms": 5081,
+  "reference_speaker": "jp/speaker_012_14fe5dfafe10.mp3",
+  "seed": 6355,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He was",
+      "start_sample": 0,
+      "end_sample": 3968,
+      "start_ms": 0,
+      "end_ms": 248
+    },
+    {
+      "lang": "ja",
+      "text": "慎重",
+      "start_sample": 3968,
+      "end_sample": 12703,
+      "start_ms": 248,
+      "end_ms": 794
+    },
+    {
+      "lang": "en",
+      "text": "about choosing a mattress and tested at least seven of them.",
+      "start_sample": 12703,
+      "end_sample": 81293,
+      "start_ms": 794,
+      "end_ms": 5081
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He was shinchou about choosing a mattress and tested at least seven of them.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5392,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He was",
+          "start_sample": 0,
+          "end_sample": 4168,
+          "start_ms": 0,
+          "end_ms": 260
+        },
+        {
+          "lang": "ja",
+          "text": "慎重",
+          "start_sample": 4168,
+          "end_sample": 17478,
+          "start_ms": 260,
+          "end_ms": 1092
+        },
+        {
+          "lang": "en",
+          "text": "about choosing a mattress and tested at least seven of them.",
+          "start_sample": 17478,
+          "end_sample": 86268,
+          "start_ms": 1092,
+          "end_ms": 5392
+        }
+      ]
+    },
+    "ja": {
+      "text": "He was 慎重 about choosing a mattress and tested at least seven of them.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5549,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He was",
+          "start_sample": 0,
+          "end_sample": 6249,
+          "start_ms": 0,
+          "end_ms": 391
+        },
+        {
+          "lang": "ja",
+          "text": "慎重",
+          "start_sample": 6249,
+          "end_sample": 15384,
+          "start_ms": 391,
+          "end_ms": 962
+        },
+        {
+          "lang": "en",
+          "text": "about choosing a mattress and tested at least seven of them.",
+          "start_sample": 15384,
+          "end_sample": 88782,
+          "start_ms": 962,
+          "end_ms": 5549
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 255,
+  "frame_labels": "eeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

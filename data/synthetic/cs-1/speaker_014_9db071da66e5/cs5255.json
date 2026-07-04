@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_014_9db071da66e5/cs5255.flac",
+  "sentence": "付き合って三年になるのに、まだflutterを感じることがある。",
+  "sample_rate": 16000,
+  "duration_ms": 3295,
+  "reference_speaker": "en/speaker_014_9db071da66e5.mp3",
+  "seed": 5297,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "付き合って三年になるのに、まだ",
+      "start_sample": 0,
+      "end_sample": 29065,
+      "start_ms": 0,
+      "end_ms": 1817
+    },
+    {
+      "lang": "en",
+      "text": "flutter",
+      "start_sample": 29065,
+      "end_sample": 36203,
+      "start_ms": 1817,
+      "end_ms": 2263
+    },
+    {
+      "lang": "ja",
+      "text": "を感じることがある。",
+      "start_sample": 36203,
+      "end_sample": 52721,
+      "start_ms": 2263,
+      "end_ms": 3295
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "tsukiatsu te san nen ni naru no ni mada flutter wo kanjiru koto ga aru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7858,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "付き合って三年になるのに、まだ",
+          "start_sample": 0,
+          "end_sample": 86602,
+          "start_ms": 0,
+          "end_ms": 5413
+        },
+        {
+          "lang": "en",
+          "text": "flutter",
+          "start_sample": 86602,
+          "end_sample": 94140,
+          "start_ms": 5413,
+          "end_ms": 5884
+        },
+        {
+          "lang": "ja",
+          "text": "を感じることがある。",
+          "start_sample": 94140,
+          "end_sample": 125732,
+          "start_ms": 5884,
+          "end_ms": 7858
+        }
+      ]
+    },
+    "ja": {
+      "text": "付き合って三年になるのに、まだflutterを感じることがある。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3336,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "付き合って三年になるのに、まだ",
+          "start_sample": 0,
+          "end_sample": 29265,
+          "start_ms": 0,
+          "end_ms": 1829
+        },
+        {
+          "lang": "en",
+          "text": "flutter",
+          "start_sample": 29265,
+          "end_sample": 36662,
+          "start_ms": 1829,
+          "end_ms": 2291
+        },
+        {
+          "lang": "ja",
+          "text": "を感じることがある。",
+          "start_sample": 36662,
+          "end_sample": 53380,
+          "start_ms": 2291,
+          "end_ms": 3336
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 165,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

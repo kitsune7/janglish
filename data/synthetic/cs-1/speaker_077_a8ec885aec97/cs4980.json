@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_077_a8ec885aec97/cs4980.flac",
+  "sentence": "このhighwayは夜になると混むから、早めに出発した方がいい。",
+  "sample_rate": 16000,
+  "duration_ms": 4248,
+  "reference_speaker": "jp/speaker_077_a8ec885aec97.mp3",
+  "seed": 5022,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 2845,
+      "start_ms": 0,
+      "end_ms": 178
+    },
+    {
+      "lang": "en",
+      "text": "highway",
+      "start_sample": 2845,
+      "end_sample": 15423,
+      "start_ms": 178,
+      "end_ms": 964
+    },
+    {
+      "lang": "ja",
+      "text": "は夜になると混むから、早めに出発した方がいい。",
+      "start_sample": 15423,
+      "end_sample": 67964,
+      "start_ms": 964,
+      "end_ms": 4248
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono highway ha yoru ni naru to komu kara hayame ni shuppatsu shi ta hou ga ii",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10635,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5286,
+          "start_ms": 0,
+          "end_ms": 330
+        },
+        {
+          "lang": "en",
+          "text": "highway",
+          "start_sample": 5286,
+          "end_sample": 18264,
+          "start_ms": 330,
+          "end_ms": 1142
+        },
+        {
+          "lang": "ja",
+          "text": "は夜になると混むから、早めに出発した方がいい。",
+          "start_sample": 18264,
+          "end_sample": 170155,
+          "start_ms": 1142,
+          "end_ms": 10635
+        }
+      ]
+    },
+    "ja": {
+      "text": "このhighwayは夜になると混むから、早めに出発した方がいい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3968,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3045,
+          "start_ms": 0,
+          "end_ms": 190
+        },
+        {
+          "lang": "en",
+          "text": "highway",
+          "start_sample": 3045,
+          "end_sample": 10740,
+          "start_ms": 190,
+          "end_ms": 671
+        },
+        {
+          "lang": "ja",
+          "text": "は夜になると混むから、早めに出発した方がいい。",
+          "start_sample": 10740,
+          "end_sample": 63481,
+          "start_ms": 671,
+          "end_ms": 3968
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 213,
+  "frame_labels": "jjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

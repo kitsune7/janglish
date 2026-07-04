@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_025_0f8f304ca1ab/cs9495.flac",
+  "sentence": "I spent all morning going through the 契約書 for the new software license.",
+  "sample_rate": 16000,
+  "duration_ms": 4799,
+  "reference_speaker": "jp/speaker_025_0f8f304ca1ab.mp3",
+  "seed": 9537,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I spent all morning going through the",
+      "start_sample": 0,
+      "end_sample": 33601,
+      "start_ms": 0,
+      "end_ms": 2100
+    },
+    {
+      "lang": "ja",
+      "text": "契約書",
+      "start_sample": 33601,
+      "end_sample": 47662,
+      "start_ms": 2100,
+      "end_ms": 2979
+    },
+    {
+      "lang": "en",
+      "text": "for the new software license.",
+      "start_sample": 47662,
+      "end_sample": 76778,
+      "start_ms": 2979,
+      "end_ms": 4799
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I spent all morning going through the keiyaku kaki for the new software license.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5166,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I spent all morning going through the",
+          "start_sample": 0,
+          "end_sample": 33801,
+          "start_ms": 0,
+          "end_ms": 2113
+        },
+        {
+          "lang": "ja",
+          "text": "契約書",
+          "start_sample": 33801,
+          "end_sample": 53345,
+          "start_ms": 2113,
+          "end_ms": 3334
+        },
+        {
+          "lang": "en",
+          "text": "for the new software license.",
+          "start_sample": 53345,
+          "end_sample": 82661,
+          "start_ms": 3334,
+          "end_ms": 5166
+        }
+      ]
+    },
+    "ja": {
+      "text": "I spent all morning going through the 契約書 for the new software license.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5081,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I spent all morning going through the",
+          "start_sample": 0,
+          "end_sample": 32454,
+          "start_ms": 0,
+          "end_ms": 2028
+        },
+        {
+          "lang": "ja",
+          "text": "契約書",
+          "start_sample": 32454,
+          "end_sample": 46915,
+          "start_ms": 2028,
+          "end_ms": 2932
+        },
+        {
+          "lang": "en",
+          "text": "for the new software license.",
+          "start_sample": 46915,
+          "end_sample": 81298,
+          "start_ms": 2932,
+          "end_ms": 5081
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 240,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

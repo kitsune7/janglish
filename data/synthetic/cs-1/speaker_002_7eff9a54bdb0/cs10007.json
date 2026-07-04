@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_002_7eff9a54bdb0/cs10007.flac",
+  "sentence": "He's been in a really 憂鬱 mood all week and nobody knows why.",
+  "sample_rate": 16000,
+  "duration_ms": 4079,
+  "reference_speaker": "en/speaker_002_7eff9a54bdb0.mp3",
+  "seed": 10049,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He's been in a really",
+      "start_sample": 0,
+      "end_sample": 14387,
+      "start_ms": 0,
+      "end_ms": 899
+    },
+    {
+      "lang": "ja",
+      "text": "憂鬱",
+      "start_sample": 14387,
+      "end_sample": 23940,
+      "start_ms": 899,
+      "end_ms": 1496
+    },
+    {
+      "lang": "en",
+      "text": "mood all week and nobody knows why.",
+      "start_sample": 23940,
+      "end_sample": 65259,
+      "start_ms": 1496,
+      "end_ms": 4079
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He's been in a really yuuutsu mood all week and nobody knows why.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3988,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He's been in a really",
+          "start_sample": 0,
+          "end_sample": 14587,
+          "start_ms": 0,
+          "end_ms": 912
+        },
+        {
+          "lang": "ja",
+          "text": "憂鬱",
+          "start_sample": 14587,
+          "end_sample": 22282,
+          "start_ms": 912,
+          "end_ms": 1393
+        },
+        {
+          "lang": "en",
+          "text": "mood all week and nobody knows why.",
+          "start_sample": 22282,
+          "end_sample": 63801,
+          "start_ms": 1393,
+          "end_ms": 3988
+        }
+      ]
+    },
+    "ja": {
+      "text": "He's been in a really 憂鬱 mood all week and nobody knows why.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5016,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He's been in a really",
+          "start_sample": 0,
+          "end_sample": 19584,
+          "start_ms": 0,
+          "end_ms": 1224
+        },
+        {
+          "lang": "ja",
+          "text": "憂鬱",
+          "start_sample": 19584,
+          "end_sample": 29537,
+          "start_ms": 1224,
+          "end_ms": 1846
+        },
+        {
+          "lang": "en",
+          "text": "mood all week and nobody knows why.",
+          "start_sample": 29537,
+          "end_sample": 80262,
+          "start_ms": 1846,
+          "end_ms": 5016
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_062_05f0c617d0bb/cs4555.flac",
+  "sentence": "Everyone on the チーム pulled together to hit the launch date.",
+  "sample_rate": 16000,
+  "duration_ms": 3109,
+  "reference_speaker": "en/speaker_062_05f0c617d0bb.mp3",
+  "seed": 4597,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Everyone on the",
+      "start_sample": 0,
+      "end_sample": 10872,
+      "start_ms": 0,
+      "end_ms": 680
+    },
+    {
+      "lang": "ja",
+      "text": "チーム",
+      "start_sample": 10872,
+      "end_sample": 16732,
+      "start_ms": 680,
+      "end_ms": 1046
+    },
+    {
+      "lang": "en",
+      "text": "pulled together to hit the launch date.",
+      "start_sample": 16732,
+      "end_sample": 49749,
+      "start_ms": 1046,
+      "end_ms": 3109
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Everyone on the chiimu pulled together to hit the launch date.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3290,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Everyone on the",
+          "start_sample": 0,
+          "end_sample": 11072,
+          "start_ms": 0,
+          "end_ms": 692
+        },
+        {
+          "lang": "ja",
+          "text": "チーム",
+          "start_sample": 11072,
+          "end_sample": 19418,
+          "start_ms": 692,
+          "end_ms": 1214
+        },
+        {
+          "lang": "en",
+          "text": "pulled together to hit the launch date.",
+          "start_sample": 19418,
+          "end_sample": 52635,
+          "start_ms": 1214,
+          "end_ms": 3290
+        }
+      ]
+    },
+    "ja": {
+      "text": "Everyone on the チーム pulled together to hit the launch date.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3611,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Everyone on the",
+          "start_sample": 0,
+          "end_sample": 15730,
+          "start_ms": 0,
+          "end_ms": 983
+        },
+        {
+          "lang": "ja",
+          "text": "チーム",
+          "start_sample": 15730,
+          "end_sample": 21990,
+          "start_ms": 983,
+          "end_ms": 1374
+        },
+        {
+          "lang": "en",
+          "text": "pulled together to hit the launch date.",
+          "start_sample": 21990,
+          "end_sample": 57783,
+          "start_ms": 1374,
+          "end_ms": 3611
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 156,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

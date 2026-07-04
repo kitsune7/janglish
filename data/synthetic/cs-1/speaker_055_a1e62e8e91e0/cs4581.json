@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_055_a1e62e8e91e0/cs4581.flac",
+  "sentence": "彼は頭にserious なけがを負っていた。",
+  "sample_rate": 16000,
+  "duration_ms": 2684,
+  "reference_speaker": "en/speaker_055_a1e62e8e91e0.mp3",
+  "seed": 4623,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼は頭に",
+      "start_sample": 0,
+      "end_sample": 12367,
+      "start_ms": 0,
+      "end_ms": 773
+    },
+    {
+      "lang": "en",
+      "text": "serious",
+      "start_sample": 12367,
+      "end_sample": 25098,
+      "start_ms": 773,
+      "end_ms": 1569
+    },
+    {
+      "lang": "ja",
+      "text": "なけがを負っていた。",
+      "start_sample": 25098,
+      "end_sample": 42938,
+      "start_ms": 1569,
+      "end_ms": 2684
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha atama ni serious na kega wo otsu te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8386,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は頭に",
+          "start_sample": 0,
+          "end_sample": 39870,
+          "start_ms": 0,
+          "end_ms": 2492
+        },
+        {
+          "lang": "en",
+          "text": "serious",
+          "start_sample": 39870,
+          "end_sample": 53001,
+          "start_ms": 2492,
+          "end_ms": 3313
+        },
+        {
+          "lang": "ja",
+          "text": "なけがを負っていた。",
+          "start_sample": 53001,
+          "end_sample": 134183,
+          "start_ms": 3313,
+          "end_ms": 8386
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼は頭にserious なけがを負っていた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2396,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は頭に",
+          "start_sample": 0,
+          "end_sample": 12567,
+          "start_ms": 0,
+          "end_ms": 785
+        },
+        {
+          "lang": "en",
+          "text": "serious",
+          "start_sample": 12567,
+          "end_sample": 20300,
+          "start_ms": 785,
+          "end_ms": 1269
+        },
+        {
+          "lang": "ja",
+          "text": "なけがを負っていた。",
+          "start_sample": 20300,
+          "end_sample": 38340,
+          "start_ms": 1269,
+          "end_ms": 2396
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 135,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

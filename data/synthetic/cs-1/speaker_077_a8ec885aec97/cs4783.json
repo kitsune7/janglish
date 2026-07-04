@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_077_a8ec885aec97/cs4783.flac",
+  "sentence": "We stopped at a 休憩所 halfway through the mountain trail to check the map.",
+  "sample_rate": 16000,
+  "duration_ms": 6112,
+  "reference_speaker": "jp/speaker_077_a8ec885aec97.mp3",
+  "seed": 4825,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We stopped at a",
+      "start_sample": 0,
+      "end_sample": 13585,
+      "start_ms": 0,
+      "end_ms": 849
+    },
+    {
+      "lang": "ja",
+      "text": "休憩所",
+      "start_sample": 13585,
+      "end_sample": 37239,
+      "start_ms": 849,
+      "end_ms": 2327
+    },
+    {
+      "lang": "en",
+      "text": "halfway through the mountain trail to check the map.",
+      "start_sample": 37239,
+      "end_sample": 97791,
+      "start_ms": 2327,
+      "end_ms": 6112
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We stopped at a kyuukei tokoro halfway through the mountain trail to check the map.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5911,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We stopped at a",
+          "start_sample": 0,
+          "end_sample": 13785,
+          "start_ms": 0,
+          "end_ms": 862
+        },
+        {
+          "lang": "ja",
+          "text": "休憩所",
+          "start_sample": 13785,
+          "end_sample": 33823,
+          "start_ms": 862,
+          "end_ms": 2114
+        },
+        {
+          "lang": "en",
+          "text": "halfway through the mountain trail to check the map.",
+          "start_sample": 33823,
+          "end_sample": 94575,
+          "start_ms": 2114,
+          "end_ms": 5911
+        }
+      ]
+    },
+    "ja": {
+      "text": "We stopped at a 休憩所 halfway through the mountain trail to check the map.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7958,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We stopped at a",
+          "start_sample": 0,
+          "end_sample": 21488,
+          "start_ms": 0,
+          "end_ms": 1343
+        },
+        {
+          "lang": "ja",
+          "text": "休憩所",
+          "start_sample": 21488,
+          "end_sample": 45542,
+          "start_ms": 1343,
+          "end_ms": 2846
+        },
+        {
+          "lang": "en",
+          "text": "halfway through the mountain trail to check the map.",
+          "start_sample": 45542,
+          "end_sample": 127325,
+          "start_ms": 2846,
+          "end_ms": 7958
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 306,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

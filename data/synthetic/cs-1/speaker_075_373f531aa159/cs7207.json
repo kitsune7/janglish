@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_075_373f531aa159/cs7207.flac",
+  "sentence": "She spreads 藁 over the beds to keep the moisture in.",
+  "sample_rate": 16000,
+  "duration_ms": 3501,
+  "reference_speaker": "en/speaker_075_373f531aa159.mp3",
+  "seed": 7249,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She spreads",
+      "start_sample": 0,
+      "end_sample": 11198,
+      "start_ms": 0,
+      "end_ms": 700
+    },
+    {
+      "lang": "ja",
+      "text": "藁",
+      "start_sample": 11198,
+      "end_sample": 18173,
+      "start_ms": 700,
+      "end_ms": 1136
+    },
+    {
+      "lang": "en",
+      "text": "over the beds to keep the moisture in.",
+      "start_sample": 18173,
+      "end_sample": 56020,
+      "start_ms": 1136,
+      "end_ms": 3501
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She spreads wara over the beds to keep the moisture in.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3813,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She spreads",
+          "start_sample": 0,
+          "end_sample": 11398,
+          "start_ms": 0,
+          "end_ms": 712
+        },
+        {
+          "lang": "ja",
+          "text": "藁",
+          "start_sample": 11398,
+          "end_sample": 22957,
+          "start_ms": 712,
+          "end_ms": 1435
+        },
+        {
+          "lang": "en",
+          "text": "over the beds to keep the moisture in.",
+          "start_sample": 22957,
+          "end_sample": 61004,
+          "start_ms": 1435,
+          "end_ms": 3813
+        }
+      ]
+    },
+    "ja": {
+      "text": "She spreads 藁 over the beds to keep the moisture in.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5070,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She spreads",
+          "start_sample": 0,
+          "end_sample": 14908,
+          "start_ms": 0,
+          "end_ms": 932
+        },
+        {
+          "lang": "ja",
+          "text": "藁",
+          "start_sample": 14908,
+          "end_sample": 22283,
+          "start_ms": 932,
+          "end_ms": 1393
+        },
+        {
+          "lang": "en",
+          "text": "over the beds to keep the moisture in.",
+          "start_sample": 22283,
+          "end_sample": 81120,
+          "start_ms": 1393,
+          "end_ms": 5070
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 176,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_076_e83c8bab36f0/cs268.flac",
+  "sentence": "うちの猫はとてもcuriousで、新しいものを見るとすぐ近づいてきます。",
+  "sample_rate": 16000,
+  "duration_ms": 5401,
+  "reference_speaker": "jp/speaker_076_e83c8bab36f0.mp3",
+  "seed": 310,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "うちの猫はとても",
+      "start_sample": 0,
+      "end_sample": 17435,
+      "start_ms": 0,
+      "end_ms": 1090
+    },
+    {
+      "lang": "en",
+      "text": "curious",
+      "start_sample": 17435,
+      "end_sample": 38994,
+      "start_ms": 1090,
+      "end_ms": 2437
+    },
+    {
+      "lang": "ja",
+      "text": "で、新しいものを見るとすぐ近づいてきます。",
+      "start_sample": 38994,
+      "end_sample": 86409,
+      "start_ms": 2437,
+      "end_ms": 5401
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "uchi no neko ha totemo curious de atarashii mono wo miru to sugu chikazui te ki masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9377,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちの猫はとても",
+          "start_sample": 0,
+          "end_sample": 58666,
+          "start_ms": 0,
+          "end_ms": 3667
+        },
+        {
+          "lang": "en",
+          "text": "curious",
+          "start_sample": 58666,
+          "end_sample": 80625,
+          "start_ms": 3667,
+          "end_ms": 5039
+        },
+        {
+          "lang": "ja",
+          "text": "で、新しいものを見るとすぐ近づいてきます。",
+          "start_sample": 80625,
+          "end_sample": 150030,
+          "start_ms": 5039,
+          "end_ms": 9377
+        }
+      ]
+    },
+    "ja": {
+      "text": "うちの猫はとてもcuriousで、新しいものを見るとすぐ近づいてきます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4589,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちの猫はとても",
+          "start_sample": 0,
+          "end_sample": 17635,
+          "start_ms": 0,
+          "end_ms": 1102
+        },
+        {
+          "lang": "en",
+          "text": "curious",
+          "start_sample": 17635,
+          "end_sample": 25811,
+          "start_ms": 1102,
+          "end_ms": 1613
+        },
+        {
+          "lang": "ja",
+          "text": "で、新しいものを見るとすぐ近づいてきます。",
+          "start_sample": 25811,
+          "end_sample": 73426,
+          "start_ms": 1613,
+          "end_ms": 4589
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 271,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

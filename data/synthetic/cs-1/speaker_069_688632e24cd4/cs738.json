@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_069_688632e24cd4/cs738.flac",
+  "sentence": "She is honestly the most 頼もしい person in the entire family.",
+  "sample_rate": 16000,
+  "duration_ms": 3361,
+  "reference_speaker": "en/speaker_069_688632e24cd4.mp3",
+  "seed": 780,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She is honestly the most",
+      "start_sample": 0,
+      "end_sample": 16502,
+      "start_ms": 0,
+      "end_ms": 1031
+    },
+    {
+      "lang": "ja",
+      "text": "頼もしい",
+      "start_sample": 16502,
+      "end_sample": 26039,
+      "start_ms": 1031,
+      "end_ms": 1627
+    },
+    {
+      "lang": "en",
+      "text": "person in the entire family.",
+      "start_sample": 26039,
+      "end_sample": 53780,
+      "start_ms": 1627,
+      "end_ms": 3361
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She is honestly the most tanomoshii person in the entire family.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3433,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She is honestly the most",
+          "start_sample": 0,
+          "end_sample": 16702,
+          "start_ms": 0,
+          "end_ms": 1044
+        },
+        {
+          "lang": "ja",
+          "text": "頼もしい",
+          "start_sample": 16702,
+          "end_sample": 26980,
+          "start_ms": 1044,
+          "end_ms": 1686
+        },
+        {
+          "lang": "en",
+          "text": "person in the entire family.",
+          "start_sample": 26980,
+          "end_sample": 54921,
+          "start_ms": 1686,
+          "end_ms": 3433
+        }
+      ]
+    },
+    "ja": {
+      "text": "She is honestly the most 頼もしい person in the entire family.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3806,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She is honestly the most",
+          "start_sample": 0,
+          "end_sample": 24840,
+          "start_ms": 0,
+          "end_ms": 1552
+        },
+        {
+          "lang": "ja",
+          "text": "頼もしい",
+          "start_sample": 24840,
+          "end_sample": 34777,
+          "start_ms": 1552,
+          "end_ms": 2174
+        },
+        {
+          "lang": "en",
+          "text": "person in the entire family.",
+          "start_sample": 34777,
+          "end_sample": 60900,
+          "start_ms": 2174,
+          "end_ms": 3806
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 169,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

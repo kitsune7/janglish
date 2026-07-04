@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_079_e96ebb016d7a/cs10192.flac",
+  "sentence": "The mechanic said the エンジン needs to be replaced before winter.",
+  "sample_rate": 16000,
+  "duration_ms": 5089,
+  "reference_speaker": "jp/speaker_079_e96ebb016d7a.mp3",
+  "seed": 10234,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The mechanic said the",
+      "start_sample": 0,
+      "end_sample": 34024,
+      "start_ms": 0,
+      "end_ms": 2126
+    },
+    {
+      "lang": "ja",
+      "text": "エンジン",
+      "start_sample": 34024,
+      "end_sample": 47245,
+      "start_ms": 2126,
+      "end_ms": 2953
+    },
+    {
+      "lang": "en",
+      "text": "needs to be replaced before winter.",
+      "start_sample": 47245,
+      "end_sample": 81427,
+      "start_ms": 2953,
+      "end_ms": 5089
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The mechanic said the enjin needs to be replaced before winter.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4820,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The mechanic said the",
+          "start_sample": 0,
+          "end_sample": 34224,
+          "start_ms": 0,
+          "end_ms": 2139
+        },
+        {
+          "lang": "ja",
+          "text": "エンジン",
+          "start_sample": 34224,
+          "end_sample": 42740,
+          "start_ms": 2139,
+          "end_ms": 2671
+        },
+        {
+          "lang": "en",
+          "text": "needs to be replaced before winter.",
+          "start_sample": 42740,
+          "end_sample": 77122,
+          "start_ms": 2671,
+          "end_ms": 4820
+        }
+      ]
+    },
+    "ja": {
+      "text": "The mechanic said the エンジン needs to be replaced before winter.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6590,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The mechanic said the",
+          "start_sample": 0,
+          "end_sample": 42145,
+          "start_ms": 0,
+          "end_ms": 2634
+        },
+        {
+          "lang": "ja",
+          "text": "エンジン",
+          "start_sample": 42145,
+          "end_sample": 55766,
+          "start_ms": 2634,
+          "end_ms": 3485
+        },
+        {
+          "lang": "en",
+          "text": "needs to be replaced before winter.",
+          "start_sample": 55766,
+          "end_sample": 105444,
+          "start_ms": 3485,
+          "end_ms": 6590
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 255,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

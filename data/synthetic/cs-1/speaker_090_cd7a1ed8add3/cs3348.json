@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_090_cd7a1ed8add3/cs3348.flac",
+  "sentence": "救急車をcallしてください、早く！",
+  "sample_rate": 16000,
+  "duration_ms": 2759,
+  "reference_speaker": "en/speaker_090_cd7a1ed8add3.mp3",
+  "seed": 3390,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "救急車を",
+      "start_sample": 0,
+      "end_sample": 10394,
+      "start_ms": 0,
+      "end_ms": 650
+    },
+    {
+      "lang": "en",
+      "text": "call",
+      "start_sample": 10394,
+      "end_sample": 19141,
+      "start_ms": 650,
+      "end_ms": 1196
+    },
+    {
+      "lang": "ja",
+      "text": "してください、早く！",
+      "start_sample": 19141,
+      "end_sample": 44140,
+      "start_ms": 1196,
+      "end_ms": 2759
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyuukyuu kuruma wo call shi te kudasai hayaku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4634,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "救急車を",
+          "start_sample": 0,
+          "end_sample": 27121,
+          "start_ms": 0,
+          "end_ms": 1695
+        },
+        {
+          "lang": "en",
+          "text": "call",
+          "start_sample": 27121,
+          "end_sample": 36268,
+          "start_ms": 1695,
+          "end_ms": 2267
+        },
+        {
+          "lang": "ja",
+          "text": "してください、早く！",
+          "start_sample": 36268,
+          "end_sample": 74140,
+          "start_ms": 2267,
+          "end_ms": 4634
+        }
+      ]
+    },
+    "ja": {
+      "text": "救急車をcallしてください、早く！",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2648,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "救急車を",
+          "start_sample": 0,
+          "end_sample": 10594,
+          "start_ms": 0,
+          "end_ms": 662
+        },
+        {
+          "lang": "en",
+          "text": "call",
+          "start_sample": 10594,
+          "end_sample": 17175,
+          "start_ms": 662,
+          "end_ms": 1073
+        },
+        {
+          "lang": "ja",
+          "text": "してください、早く！",
+          "start_sample": 17175,
+          "end_sample": 42374,
+          "start_ms": 1073,
+          "end_ms": 2648
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 138,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

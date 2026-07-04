@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_029_435fb74c25c3/cs9245.flac",
+  "sentence": "His 叔父 runs a small bakery in the old part of town.",
+  "sample_rate": 16000,
+  "duration_ms": 3016,
+  "reference_speaker": "en/speaker_029_435fb74c25c3.mp3",
+  "seed": 9287,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His",
+      "start_sample": 0,
+      "end_sample": 3178,
+      "start_ms": 0,
+      "end_ms": 199
+    },
+    {
+      "lang": "ja",
+      "text": "叔父",
+      "start_sample": 3178,
+      "end_sample": 6624,
+      "start_ms": 199,
+      "end_ms": 414
+    },
+    {
+      "lang": "en",
+      "text": "runs a small bakery in the old part of town.",
+      "start_sample": 6624,
+      "end_sample": 48253,
+      "start_ms": 414,
+      "end_ms": 3016
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His oji runs a small bakery in the old part of town.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3238,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His",
+          "start_sample": 0,
+          "end_sample": 3378,
+          "start_ms": 0,
+          "end_ms": 211
+        },
+        {
+          "lang": "ja",
+          "text": "叔父",
+          "start_sample": 3378,
+          "end_sample": 9975,
+          "start_ms": 211,
+          "end_ms": 623
+        },
+        {
+          "lang": "en",
+          "text": "runs a small bakery in the old part of town.",
+          "start_sample": 9975,
+          "end_sample": 51804,
+          "start_ms": 623,
+          "end_ms": 3238
+        }
+      ]
+    },
+    "ja": {
+      "text": "His 叔父 runs a small bakery in the old part of town.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4126,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His",
+          "start_sample": 0,
+          "end_sample": 4006,
+          "start_ms": 0,
+          "end_ms": 250
+        },
+        {
+          "lang": "ja",
+          "text": "叔父",
+          "start_sample": 4006,
+          "end_sample": 7852,
+          "start_ms": 250,
+          "end_ms": 491
+        },
+        {
+          "lang": "en",
+          "text": "runs a small bakery in the old part of town.",
+          "start_sample": 7852,
+          "end_sample": 66021,
+          "start_ms": 491,
+          "end_ms": 4126
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 151,
+  "frame_labels": "eeeeeeeeeejjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

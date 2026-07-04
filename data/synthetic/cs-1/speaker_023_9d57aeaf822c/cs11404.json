@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_023_9d57aeaf822c/cs11404.flac",
+  "sentence": "このジャケットはstretchyな生地なので、動きやすいです。",
+  "sample_rate": 16000,
+  "duration_ms": 3983,
+  "reference_speaker": "en/speaker_023_9d57aeaf822c.mp3",
+  "seed": 11446,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このジャケットは",
+      "start_sample": 0,
+      "end_sample": 15208,
+      "start_ms": 0,
+      "end_ms": 950
+    },
+    {
+      "lang": "en",
+      "text": "stretchy",
+      "start_sample": 15208,
+      "end_sample": 30863,
+      "start_ms": 950,
+      "end_ms": 1929
+    },
+    {
+      "lang": "ja",
+      "text": "な生地なので、動きやすいです。",
+      "start_sample": 30863,
+      "end_sample": 63729,
+      "start_ms": 1929,
+      "end_ms": 3983
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono jaketto ha stretchy na kiji na no de ugoki yasui desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6261,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このジャケットは",
+          "start_sample": 0,
+          "end_sample": 35480,
+          "start_ms": 0,
+          "end_ms": 2218
+        },
+        {
+          "lang": "en",
+          "text": "stretchy",
+          "start_sample": 35480,
+          "end_sample": 51535,
+          "start_ms": 2218,
+          "end_ms": 3221
+        },
+        {
+          "lang": "ja",
+          "text": "な生地なので、動きやすいです。",
+          "start_sample": 51535,
+          "end_sample": 100181,
+          "start_ms": 3221,
+          "end_ms": 6261
+        }
+      ]
+    },
+    "ja": {
+      "text": "このジャケットはstretchyな生地なので、動きやすいです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3672,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このジャケットは",
+          "start_sample": 0,
+          "end_sample": 15408,
+          "start_ms": 0,
+          "end_ms": 963
+        },
+        {
+          "lang": "en",
+          "text": "stretchy",
+          "start_sample": 15408,
+          "end_sample": 25682,
+          "start_ms": 963,
+          "end_ms": 1605
+        },
+        {
+          "lang": "ja",
+          "text": "な生地なので、動きやすいです。",
+          "start_sample": 25682,
+          "end_sample": 58748,
+          "start_ms": 1605,
+          "end_ms": 3672
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 200,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

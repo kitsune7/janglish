@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_046_c5e6fd979dbd/cs2540.flac",
+  "sentence": "映画のtrailerを見ただけで泣いてしまった。",
+  "sample_rate": 16000,
+  "duration_ms": 2815,
+  "reference_speaker": "en/speaker_046_c5e6fd979dbd.mp3",
+  "seed": 2582,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "映画の",
+      "start_sample": 0,
+      "end_sample": 6052,
+      "start_ms": 0,
+      "end_ms": 378
+    },
+    {
+      "lang": "en",
+      "text": "trailer",
+      "start_sample": 6052,
+      "end_sample": 18633,
+      "start_ms": 378,
+      "end_ms": 1165
+    },
+    {
+      "lang": "ja",
+      "text": "を見ただけで泣いてしまった。",
+      "start_sample": 18633,
+      "end_sample": 45045,
+      "start_ms": 1165,
+      "end_ms": 2815
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "eiga no trailer wo ken ta dake de nai te shimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5509,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "映画の",
+          "start_sample": 0,
+          "end_sample": 8012,
+          "start_ms": 0,
+          "end_ms": 501
+        },
+        {
+          "lang": "en",
+          "text": "trailer",
+          "start_sample": 8012,
+          "end_sample": 20993,
+          "start_ms": 501,
+          "end_ms": 1312
+        },
+        {
+          "lang": "ja",
+          "text": "を見ただけで泣いてしまった。",
+          "start_sample": 20993,
+          "end_sample": 88141,
+          "start_ms": 1312,
+          "end_ms": 5509
+        }
+      ]
+    },
+    "ja": {
+      "text": "映画のtrailerを見ただけで泣いてしまった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2505,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "映画の",
+          "start_sample": 0,
+          "end_sample": 6252,
+          "start_ms": 0,
+          "end_ms": 391
+        },
+        {
+          "lang": "en",
+          "text": "trailer",
+          "start_sample": 6252,
+          "end_sample": 13466,
+          "start_ms": 391,
+          "end_ms": 842
+        },
+        {
+          "lang": "ja",
+          "text": "を見ただけで泣いてしまった。",
+          "start_sample": 13466,
+          "end_sample": 40078,
+          "start_ms": 842,
+          "end_ms": 2505
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 141,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

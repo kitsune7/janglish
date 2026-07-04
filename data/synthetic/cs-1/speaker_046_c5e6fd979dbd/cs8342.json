@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_046_c5e6fd979dbd/cs8342.flac",
+  "sentence": "母はいつもとてもpositive思考を持っている。",
+  "sample_rate": 16000,
+  "duration_ms": 3628,
+  "reference_speaker": "en/speaker_046_c5e6fd979dbd.mp3",
+  "seed": 8384,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "母はいつもとても",
+      "start_sample": 0,
+      "end_sample": 20494,
+      "start_ms": 0,
+      "end_ms": 1281
+    },
+    {
+      "lang": "en",
+      "text": "positive",
+      "start_sample": 20494,
+      "end_sample": 41080,
+      "start_ms": 1281,
+      "end_ms": 2568
+    },
+    {
+      "lang": "ja",
+      "text": "思考を持っている。",
+      "start_sample": 41080,
+      "end_sample": 58044,
+      "start_ms": 2568,
+      "end_ms": 3628
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "haha ha itsu mo totemo positive shikou wo motsu te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 10132,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "母はいつもとても",
+          "start_sample": 0,
+          "end_sample": 94515,
+          "start_ms": 0,
+          "end_ms": 5907
+        },
+        {
+          "lang": "en",
+          "text": "positive",
+          "start_sample": 94515,
+          "end_sample": 115501,
+          "start_ms": 5907,
+          "end_ms": 7219
+        },
+        {
+          "lang": "ja",
+          "text": "思考を持っている。",
+          "start_sample": 115501,
+          "end_sample": 162118,
+          "start_ms": 7219,
+          "end_ms": 10132
+        }
+      ]
+    },
+    "ja": {
+      "text": "母はいつもとてもpositive思考を持っている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2908,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "母はいつもとても",
+          "start_sample": 0,
+          "end_sample": 20694,
+          "start_ms": 0,
+          "end_ms": 1293
+        },
+        {
+          "lang": "en",
+          "text": "positive",
+          "start_sample": 20694,
+          "end_sample": 29357,
+          "start_ms": 1293,
+          "end_ms": 1835
+        },
+        {
+          "lang": "ja",
+          "text": "思考を持っている。",
+          "start_sample": 29357,
+          "end_sample": 46521,
+          "start_ms": 1835,
+          "end_ms": 2908
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 182,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

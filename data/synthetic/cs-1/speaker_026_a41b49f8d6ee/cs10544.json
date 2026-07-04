@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_026_a41b49f8d6ee/cs10544.flac",
+  "sentence": "ハムスターがcageの中でぐるぐる走り回っている。",
+  "sample_rate": 16000,
+  "duration_ms": 3682,
+  "reference_speaker": "en/speaker_026_a41b49f8d6ee.mp3",
+  "seed": 10586,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "ハムスターが",
+      "start_sample": 0,
+      "end_sample": 10244,
+      "start_ms": 0,
+      "end_ms": 640
+    },
+    {
+      "lang": "en",
+      "text": "cage",
+      "start_sample": 10244,
+      "end_sample": 29228,
+      "start_ms": 640,
+      "end_ms": 1827
+    },
+    {
+      "lang": "ja",
+      "text": "の中でぐるぐる走り回っている。",
+      "start_sample": 29228,
+      "end_sample": 58912,
+      "start_ms": 1827,
+      "end_ms": 3682
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "hamusutaa ga cage no naka de guruguru hashirimawatsu te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6408,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ハムスターが",
+          "start_sample": 0,
+          "end_sample": 13937,
+          "start_ms": 0,
+          "end_ms": 871
+        },
+        {
+          "lang": "en",
+          "text": "cage",
+          "start_sample": 13937,
+          "end_sample": 33321,
+          "start_ms": 871,
+          "end_ms": 2083
+        },
+        {
+          "lang": "ja",
+          "text": "の中でぐるぐる走り回っている。",
+          "start_sample": 33321,
+          "end_sample": 102528,
+          "start_ms": 2083,
+          "end_ms": 6408
+        }
+      ]
+    },
+    "ja": {
+      "text": "ハムスターがcageの中でぐるぐる走り回っている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2892,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ハムスターが",
+          "start_sample": 0,
+          "end_sample": 10444,
+          "start_ms": 0,
+          "end_ms": 653
+        },
+        {
+          "lang": "en",
+          "text": "cage",
+          "start_sample": 10444,
+          "end_sample": 16389,
+          "start_ms": 653,
+          "end_ms": 1024
+        },
+        {
+          "lang": "ja",
+          "text": "の中でぐるぐる走り回っている。",
+          "start_sample": 16389,
+          "end_sample": 46273,
+          "start_ms": 1024,
+          "end_ms": 2892
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 185,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

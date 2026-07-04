@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_017_11ec372417df/cs3902.flac",
+  "sentence": "He asked her out with such a 真剣な look on his face.",
+  "sample_rate": 16000,
+  "duration_ms": 3421,
+  "reference_speaker": "en/speaker_017_11ec372417df.mp3",
+  "seed": 3944,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He asked her out with such a",
+      "start_sample": 0,
+      "end_sample": 20745,
+      "start_ms": 0,
+      "end_ms": 1297
+    },
+    {
+      "lang": "ja",
+      "text": "真剣な",
+      "start_sample": 20745,
+      "end_sample": 38342,
+      "start_ms": 1297,
+      "end_ms": 2396
+    },
+    {
+      "lang": "en",
+      "text": "look on his face.",
+      "start_sample": 38342,
+      "end_sample": 54731,
+      "start_ms": 2396,
+      "end_ms": 3421
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He asked her out with such a shinken na look on his face.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2980,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He asked her out with such a",
+          "start_sample": 0,
+          "end_sample": 20945,
+          "start_ms": 0,
+          "end_ms": 1309
+        },
+        {
+          "lang": "ja",
+          "text": "真剣な",
+          "start_sample": 20945,
+          "end_sample": 31096,
+          "start_ms": 1309,
+          "end_ms": 1944
+        },
+        {
+          "lang": "en",
+          "text": "look on his face.",
+          "start_sample": 31096,
+          "end_sample": 47685,
+          "start_ms": 1944,
+          "end_ms": 2980
+        }
+      ]
+    },
+    "ja": {
+      "text": "He asked her out with such a 真剣な look on his face.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5583,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He asked her out with such a",
+          "start_sample": 0,
+          "end_sample": 42097,
+          "start_ms": 0,
+          "end_ms": 2631
+        },
+        {
+          "lang": "ja",
+          "text": "真剣な",
+          "start_sample": 42097,
+          "end_sample": 60094,
+          "start_ms": 2631,
+          "end_ms": 3756
+        },
+        {
+          "lang": "en",
+          "text": "look on his face.",
+          "start_sample": 60094,
+          "end_sample": 89334,
+          "start_ms": 3756,
+          "end_ms": 5583
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 172,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

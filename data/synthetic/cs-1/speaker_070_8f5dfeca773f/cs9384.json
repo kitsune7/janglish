@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_070_8f5dfeca773f/cs9384.flac",
+  "sentence": "曲のintroが始まった瞬間、会場が歓声で包まれた。",
+  "sample_rate": 16000,
+  "duration_ms": 4300,
+  "reference_speaker": "jp/speaker_070_8f5dfeca773f.mp3",
+  "seed": 9426,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "曲の",
+      "start_sample": 0,
+      "end_sample": 6536,
+      "start_ms": 0,
+      "end_ms": 408
+    },
+    {
+      "lang": "en",
+      "text": "intro",
+      "start_sample": 6536,
+      "end_sample": 17032,
+      "start_ms": 408,
+      "end_ms": 1064
+    },
+    {
+      "lang": "ja",
+      "text": "が始まった瞬間、会場が歓声で包まれた。",
+      "start_sample": 17032,
+      "end_sample": 68803,
+      "start_ms": 1064,
+      "end_ms": 4300
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyoku no intro ga hajimatsu ta shunkan kaijou ga kansei de tsutsuma re ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8031,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "曲の",
+          "start_sample": 0,
+          "end_sample": 11375,
+          "start_ms": 0,
+          "end_ms": 711
+        },
+        {
+          "lang": "en",
+          "text": "intro",
+          "start_sample": 11375,
+          "end_sample": 22271,
+          "start_ms": 711,
+          "end_ms": 1392
+        },
+        {
+          "lang": "ja",
+          "text": "が始まった瞬間、会場が歓声で包まれた。",
+          "start_sample": 22271,
+          "end_sample": 128502,
+          "start_ms": 1392,
+          "end_ms": 8031
+        }
+      ]
+    },
+    "ja": {
+      "text": "曲のintroが始まった瞬間、会場が歓声で包まれた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4050,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "曲の",
+          "start_sample": 0,
+          "end_sample": 6736,
+          "start_ms": 0,
+          "end_ms": 421
+        },
+        {
+          "lang": "en",
+          "text": "intro",
+          "start_sample": 6736,
+          "end_sample": 12832,
+          "start_ms": 421,
+          "end_ms": 802
+        },
+        {
+          "lang": "ja",
+          "text": "が始まった瞬間、会場が歓声で包まれた。",
+          "start_sample": 12832,
+          "end_sample": 64803,
+          "start_ms": 802,
+          "end_ms": 4050
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 216,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

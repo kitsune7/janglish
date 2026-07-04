@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_049_4b799abf92c3/cs5862.flac",
+  "sentence": "The receipt was so 長い it practically fell off the counter.",
+  "sample_rate": 16000,
+  "duration_ms": 3178,
+  "reference_speaker": "en/speaker_049_4b799abf92c3.mp3",
+  "seed": 5904,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The receipt was so",
+      "start_sample": 0,
+      "end_sample": 15679,
+      "start_ms": 0,
+      "end_ms": 980
+    },
+    {
+      "lang": "ja",
+      "text": "長い",
+      "start_sample": 15679,
+      "end_sample": 22656,
+      "start_ms": 980,
+      "end_ms": 1416
+    },
+    {
+      "lang": "en",
+      "text": "it practically fell off the counter.",
+      "start_sample": 22656,
+      "end_sample": 50845,
+      "start_ms": 1416,
+      "end_ms": 3178
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The receipt was so nagai it practically fell off the counter.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3368,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The receipt was so",
+          "start_sample": 0,
+          "end_sample": 15879,
+          "start_ms": 0,
+          "end_ms": 992
+        },
+        {
+          "lang": "ja",
+          "text": "長い",
+          "start_sample": 15879,
+          "end_sample": 25503,
+          "start_ms": 992,
+          "end_ms": 1594
+        },
+        {
+          "lang": "en",
+          "text": "it practically fell off the counter.",
+          "start_sample": 25503,
+          "end_sample": 53892,
+          "start_ms": 1594,
+          "end_ms": 3368
+        }
+      ]
+    },
+    "ja": {
+      "text": "The receipt was so 長い it practically fell off the counter.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5012,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The receipt was so",
+          "start_sample": 0,
+          "end_sample": 29508,
+          "start_ms": 0,
+          "end_ms": 1844
+        },
+        {
+          "lang": "ja",
+          "text": "長い",
+          "start_sample": 29508,
+          "end_sample": 36885,
+          "start_ms": 1844,
+          "end_ms": 2305
+        },
+        {
+          "lang": "en",
+          "text": "it practically fell off the counter.",
+          "start_sample": 36885,
+          "end_sample": 80184,
+          "start_ms": 2305,
+          "end_ms": 5012
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

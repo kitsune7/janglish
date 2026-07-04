@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_066_73a931d5f7bb/cs2272.flac",
+  "sentence": "We finally found a 保育士 who speaks two languages, which gives us so much 安心.",
+  "sample_rate": 16000,
+  "duration_ms": 6112,
+  "reference_speaker": "en/speaker_066_73a931d5f7bb.mp3",
+  "seed": 2314,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We finally found a",
+      "start_sample": 0,
+      "end_sample": 16335,
+      "start_ms": 0,
+      "end_ms": 1021
+    },
+    {
+      "lang": "ja",
+      "text": "保育士",
+      "start_sample": 16335,
+      "end_sample": 31312,
+      "start_ms": 1021,
+      "end_ms": 1957
+    },
+    {
+      "lang": "en",
+      "text": "who speaks two languages, which gives us so much",
+      "start_sample": 31312,
+      "end_sample": 87423,
+      "start_ms": 1957,
+      "end_ms": 5464
+    },
+    {
+      "lang": "ja",
+      "text": "安心.",
+      "start_sample": 87423,
+      "end_sample": 97794,
+      "start_ms": 5464,
+      "end_ms": 6112
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We finally found a hoiku samurai who speaks two languages, which gives us so much anshin",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6221,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We finally found a",
+          "start_sample": 0,
+          "end_sample": 16535,
+          "start_ms": 0,
+          "end_ms": 1033
+        },
+        {
+          "lang": "ja",
+          "text": "保育士",
+          "start_sample": 16535,
+          "end_sample": 32910,
+          "start_ms": 1033,
+          "end_ms": 2057
+        },
+        {
+          "lang": "en",
+          "text": "who speaks two languages, which gives us so much",
+          "start_sample": 32910,
+          "end_sample": 89421,
+          "start_ms": 2057,
+          "end_ms": 5589
+        },
+        {
+          "lang": "ja",
+          "text": "安心.",
+          "start_sample": 89421,
+          "end_sample": 99533,
+          "start_ms": 5589,
+          "end_ms": 6221
+        }
+      ]
+    },
+    "ja": {
+      "text": "We finally found a 保育士 who speaks two languages, which gives us so much 安心.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6607,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We finally found a",
+          "start_sample": 0,
+          "end_sample": 16017,
+          "start_ms": 0,
+          "end_ms": 1001
+        },
+        {
+          "lang": "ja",
+          "text": "保育士",
+          "start_sample": 16017,
+          "end_sample": 31394,
+          "start_ms": 1001,
+          "end_ms": 1962
+        },
+        {
+          "lang": "en",
+          "text": "who speaks two languages, which gives us so much",
+          "start_sample": 31394,
+          "end_sample": 95143,
+          "start_ms": 1962,
+          "end_ms": 5946
+        },
+        {
+          "lang": "ja",
+          "text": "安心.",
+          "start_sample": 95143,
+          "end_sample": 105714,
+          "start_ms": 5946,
+          "end_ms": 6607
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 306,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

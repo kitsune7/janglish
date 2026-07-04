@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_094_33e54b46bf39/cs3089.flac",
+  "sentence": "He gave a very 具体的 example of a time he resolved a conflict at work.",
+  "sample_rate": 16000,
+  "duration_ms": 5066,
+  "reference_speaker": "jp/speaker_094_33e54b46bf39.mp3",
+  "seed": 3131,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He gave a very",
+      "start_sample": 0,
+      "end_sample": 19022,
+      "start_ms": 0,
+      "end_ms": 1189
+    },
+    {
+      "lang": "ja",
+      "text": "具体的",
+      "start_sample": 19022,
+      "end_sample": 30316,
+      "start_ms": 1189,
+      "end_ms": 1895
+    },
+    {
+      "lang": "en",
+      "text": "example of a time he resolved a conflict at work.",
+      "start_sample": 30316,
+      "end_sample": 81055,
+      "start_ms": 1895,
+      "end_ms": 5066
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He gave a very gutai teki example of a time he resolved a conflict at work.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5626,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He gave a very",
+          "start_sample": 0,
+          "end_sample": 19222,
+          "start_ms": 0,
+          "end_ms": 1201
+        },
+        {
+          "lang": "ja",
+          "text": "具体的",
+          "start_sample": 19222,
+          "end_sample": 39085,
+          "start_ms": 1201,
+          "end_ms": 2443
+        },
+        {
+          "lang": "en",
+          "text": "example of a time he resolved a conflict at work.",
+          "start_sample": 39085,
+          "end_sample": 90024,
+          "start_ms": 2443,
+          "end_ms": 5626
+        }
+      ]
+    },
+    "ja": {
+      "text": "He gave a very 具体的 example of a time he resolved a conflict at work.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5646,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He gave a very",
+          "start_sample": 0,
+          "end_sample": 17940,
+          "start_ms": 0,
+          "end_ms": 1121
+        },
+        {
+          "lang": "ja",
+          "text": "具体的",
+          "start_sample": 17940,
+          "end_sample": 29634,
+          "start_ms": 1121,
+          "end_ms": 1852
+        },
+        {
+          "lang": "en",
+          "text": "example of a time he resolved a conflict at work.",
+          "start_sample": 29634,
+          "end_sample": 90344,
+          "start_ms": 1852,
+          "end_ms": 5646
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 254,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

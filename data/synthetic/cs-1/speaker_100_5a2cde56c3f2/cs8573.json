@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_100_5a2cde56c3f2/cs8573.flac",
+  "sentence": "Would you say the 床 in the living room is hardwood or just a good laminate?",
+  "sample_rate": 16000,
+  "duration_ms": 5163,
+  "reference_speaker": "jp/speaker_100_5a2cde56c3f2.mp3",
+  "seed": 8615,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Would you say the",
+      "start_sample": 0,
+      "end_sample": 11992,
+      "start_ms": 0,
+      "end_ms": 750
+    },
+    {
+      "lang": "ja",
+      "text": "床",
+      "start_sample": 11992,
+      "end_sample": 20401,
+      "start_ms": 750,
+      "end_ms": 1275
+    },
+    {
+      "lang": "en",
+      "text": "in the living room is hardwood or just a good laminate?",
+      "start_sample": 20401,
+      "end_sample": 82608,
+      "start_ms": 1275,
+      "end_ms": 5163
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Would you say the toko in the living room is hardwood or just a good laminate?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5174,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Would you say the",
+          "start_sample": 0,
+          "end_sample": 12192,
+          "start_ms": 0,
+          "end_ms": 762
+        },
+        {
+          "lang": "ja",
+          "text": "床",
+          "start_sample": 12192,
+          "end_sample": 20375,
+          "start_ms": 762,
+          "end_ms": 1273
+        },
+        {
+          "lang": "en",
+          "text": "in the living room is hardwood or just a good laminate?",
+          "start_sample": 20375,
+          "end_sample": 82782,
+          "start_ms": 1273,
+          "end_ms": 5174
+        }
+      ]
+    },
+    "ja": {
+      "text": "Would you say the 床 in the living room is hardwood or just a good laminate?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6187,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Would you say the",
+          "start_sample": 0,
+          "end_sample": 23385,
+          "start_ms": 0,
+          "end_ms": 1462
+        },
+        {
+          "lang": "ja",
+          "text": "床",
+          "start_sample": 23385,
+          "end_sample": 32194,
+          "start_ms": 1462,
+          "end_ms": 2012
+        },
+        {
+          "lang": "en",
+          "text": "in the living room is hardwood or just a good laminate?",
+          "start_sample": 32194,
+          "end_sample": 98987,
+          "start_ms": 2012,
+          "end_ms": 6187
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 259,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

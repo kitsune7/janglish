@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_016_f3aac8b73f15/cs1514.flac",
+  "sentence": "That old 手鏡 on her vanity has been in the family for decades.",
+  "sample_rate": 16000,
+  "duration_ms": 4160,
+  "reference_speaker": "jp/speaker_016_f3aac8b73f15.mp3",
+  "seed": 1556,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That old",
+      "start_sample": 0,
+      "end_sample": 5268,
+      "start_ms": 0,
+      "end_ms": 329
+    },
+    {
+      "lang": "ja",
+      "text": "手鏡",
+      "start_sample": 5268,
+      "end_sample": 15290,
+      "start_ms": 329,
+      "end_ms": 956
+    },
+    {
+      "lang": "en",
+      "text": "on her vanity has been in the family for decades.",
+      "start_sample": 15290,
+      "end_sample": 66552,
+      "start_ms": 956,
+      "end_ms": 4160
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That old tekagami on her vanity has been in the family for decades.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4302,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That old",
+          "start_sample": 0,
+          "end_sample": 5468,
+          "start_ms": 0,
+          "end_ms": 342
+        },
+        {
+          "lang": "ja",
+          "text": "手鏡",
+          "start_sample": 5468,
+          "end_sample": 17370,
+          "start_ms": 342,
+          "end_ms": 1086
+        },
+        {
+          "lang": "en",
+          "text": "on her vanity has been in the family for decades.",
+          "start_sample": 17370,
+          "end_sample": 68832,
+          "start_ms": 1086,
+          "end_ms": 4302
+        }
+      ]
+    },
+    "ja": {
+      "text": "That old 手鏡 on her vanity has been in the family for decades.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5231,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That old",
+          "start_sample": 0,
+          "end_sample": 9781,
+          "start_ms": 0,
+          "end_ms": 611
+        },
+        {
+          "lang": "ja",
+          "text": "手鏡",
+          "start_sample": 9781,
+          "end_sample": 20203,
+          "start_ms": 611,
+          "end_ms": 1263
+        },
+        {
+          "lang": "en",
+          "text": "on her vanity has been in the family for decades.",
+          "start_sample": 20203,
+          "end_sample": 83701,
+          "start_ms": 1263,
+          "end_ms": 5231
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "eeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

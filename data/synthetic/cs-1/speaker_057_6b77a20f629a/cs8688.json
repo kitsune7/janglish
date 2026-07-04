@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_057_6b77a20f629a/cs8688.flac",
+  "sentence": "Is there a 出口 on the north side of this floor?",
+  "sample_rate": 16000,
+  "duration_ms": 2392,
+  "reference_speaker": "jp/speaker_057_6b77a20f629a.mp3",
+  "seed": 8730,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Is there a",
+      "start_sample": 0,
+      "end_sample": 6393,
+      "start_ms": 0,
+      "end_ms": 400
+    },
+    {
+      "lang": "ja",
+      "text": "出口",
+      "start_sample": 6393,
+      "end_sample": 12268,
+      "start_ms": 400,
+      "end_ms": 767
+    },
+    {
+      "lang": "en",
+      "text": "on the north side of this floor?",
+      "start_sample": 12268,
+      "end_sample": 38280,
+      "start_ms": 767,
+      "end_ms": 2392
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Is there a deguchi on the north side of this floor?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2613,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is there a",
+          "start_sample": 0,
+          "end_sample": 6593,
+          "start_ms": 0,
+          "end_ms": 412
+        },
+        {
+          "lang": "ja",
+          "text": "出口",
+          "start_sample": 6593,
+          "end_sample": 15600,
+          "start_ms": 412,
+          "end_ms": 975
+        },
+        {
+          "lang": "en",
+          "text": "on the north side of this floor?",
+          "start_sample": 15600,
+          "end_sample": 41812,
+          "start_ms": 975,
+          "end_ms": 2613
+        }
+      ]
+    },
+    "ja": {
+      "text": "Is there a 出口 on the north side of this floor?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2352,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is there a",
+          "start_sample": 0,
+          "end_sample": 7077,
+          "start_ms": 0,
+          "end_ms": 442
+        },
+        {
+          "lang": "ja",
+          "text": "出口",
+          "start_sample": 7077,
+          "end_sample": 13352,
+          "start_ms": 442,
+          "end_ms": 834
+        },
+        {
+          "lang": "en",
+          "text": "on the north side of this floor?",
+          "start_sample": 13352,
+          "end_sample": 37639,
+          "start_ms": 834,
+          "end_ms": 2352
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 120,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

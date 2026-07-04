@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_070_8f5dfeca773f/cs2225.flac",
+  "sentence": "We stood in line for three hours, but the concert was totally 価値がある.",
+  "sample_rate": 16000,
+  "duration_ms": 3822,
+  "reference_speaker": "jp/speaker_070_8f5dfeca773f.mp3",
+  "seed": 2267,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We stood in line for three hours, but the concert was totally",
+      "start_sample": 0,
+      "end_sample": 52213,
+      "start_ms": 0,
+      "end_ms": 3263
+    },
+    {
+      "lang": "ja",
+      "text": "価値がある.",
+      "start_sample": 52213,
+      "end_sample": 61159,
+      "start_ms": 3263,
+      "end_ms": 3822
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We stood in line for three hours, but the concert was totally kachi ga aru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4522,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We stood in line for three hours, but the concert was totally",
+          "start_sample": 0,
+          "end_sample": 52413,
+          "start_ms": 0,
+          "end_ms": 3276
+        },
+        {
+          "lang": "ja",
+          "text": "価値がある.",
+          "start_sample": 52413,
+          "end_sample": 72345,
+          "start_ms": 3276,
+          "end_ms": 4522
+        }
+      ]
+    },
+    "ja": {
+      "text": "We stood in line for three hours, but the concert was totally 価値がある.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4895,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We stood in line for three hours, but the concert was totally",
+          "start_sample": 0,
+          "end_sample": 69175,
+          "start_ms": 0,
+          "end_ms": 4323
+        },
+        {
+          "lang": "ja",
+          "text": "価値がある.",
+          "start_sample": 69175,
+          "end_sample": 78321,
+          "start_ms": 4323,
+          "end_ms": 4895
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

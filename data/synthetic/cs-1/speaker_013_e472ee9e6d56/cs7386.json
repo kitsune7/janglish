@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_013_e472ee9e6d56/cs7386.flac",
+  "sentence": "The hospital's 設備 is truly state-of-the-art.",
+  "sample_rate": 16000,
+  "duration_ms": 4703,
+  "reference_speaker": "jp/speaker_013_e472ee9e6d56.mp3",
+  "seed": 7428,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The hospital's",
+      "start_sample": 0,
+      "end_sample": 13442,
+      "start_ms": 0,
+      "end_ms": 840
+    },
+    {
+      "lang": "ja",
+      "text": "設備",
+      "start_sample": 13442,
+      "end_sample": 25379,
+      "start_ms": 840,
+      "end_ms": 1586
+    },
+    {
+      "lang": "en",
+      "text": "is truly state-of-the-art.",
+      "start_sample": 25379,
+      "end_sample": 75254,
+      "start_ms": 1586,
+      "end_ms": 4703
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hospital's setsubi is truly state-of-the-art.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4955,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hospital's",
+          "start_sample": 0,
+          "end_sample": 13642,
+          "start_ms": 0,
+          "end_ms": 853
+        },
+        {
+          "lang": "ja",
+          "text": "設備",
+          "start_sample": 13642,
+          "end_sample": 29212,
+          "start_ms": 853,
+          "end_ms": 1826
+        },
+        {
+          "lang": "en",
+          "text": "is truly state-of-the-art.",
+          "start_sample": 29212,
+          "end_sample": 79287,
+          "start_ms": 1826,
+          "end_ms": 4955
+        }
+      ]
+    },
+    "ja": {
+      "text": "The hospital's 設備 is truly state-of-the-art.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5247,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hospital's",
+          "start_sample": 0,
+          "end_sample": 16503,
+          "start_ms": 0,
+          "end_ms": 1031
+        },
+        {
+          "lang": "ja",
+          "text": "設備",
+          "start_sample": 16503,
+          "end_sample": 28840,
+          "start_ms": 1031,
+          "end_ms": 1802
+        },
+        {
+          "lang": "en",
+          "text": "is truly state-of-the-art.",
+          "start_sample": 28840,
+          "end_sample": 83959,
+          "start_ms": 1802,
+          "end_ms": 5247
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 236,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

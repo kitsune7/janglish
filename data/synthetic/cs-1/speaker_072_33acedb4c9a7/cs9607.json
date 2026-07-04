@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_072_33acedb4c9a7/cs9607.flac",
+  "sentence": "このスープはwarmで体に染みます。",
+  "sample_rate": 16000,
+  "duration_ms": 2387,
+  "reference_speaker": "en/speaker_072_33acedb4c9a7.mp3",
+  "seed": 9649,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このスープは",
+      "start_sample": 0,
+      "end_sample": 14884,
+      "start_ms": 0,
+      "end_ms": 930
+    },
+    {
+      "lang": "en",
+      "text": "warm",
+      "start_sample": 14884,
+      "end_sample": 19303,
+      "start_ms": 930,
+      "end_ms": 1206
+    },
+    {
+      "lang": "ja",
+      "text": "で体に染みます。",
+      "start_sample": 19303,
+      "end_sample": 38198,
+      "start_ms": 1206,
+      "end_ms": 2387
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono suupu ha warm de karada ni somi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3534,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このスープは",
+          "start_sample": 0,
+          "end_sample": 25539,
+          "start_ms": 0,
+          "end_ms": 1596
+        },
+        {
+          "lang": "en",
+          "text": "warm",
+          "start_sample": 25539,
+          "end_sample": 30358,
+          "start_ms": 1596,
+          "end_ms": 1897
+        },
+        {
+          "lang": "ja",
+          "text": "で体に染みます。",
+          "start_sample": 30358,
+          "end_sample": 56537,
+          "start_ms": 1897,
+          "end_ms": 3534
+        }
+      ]
+    },
+    "ja": {
+      "text": "このスープはwarmで体に染みます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2648,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このスープは",
+          "start_sample": 0,
+          "end_sample": 15084,
+          "start_ms": 0,
+          "end_ms": 943
+        },
+        {
+          "lang": "en",
+          "text": "warm",
+          "start_sample": 15084,
+          "end_sample": 23268,
+          "start_ms": 943,
+          "end_ms": 1454
+        },
+        {
+          "lang": "ja",
+          "text": "で体に染みます。",
+          "start_sample": 23268,
+          "end_sample": 42363,
+          "start_ms": 1454,
+          "end_ms": 2648
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 120,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

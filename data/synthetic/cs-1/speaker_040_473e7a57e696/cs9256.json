@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_040_473e7a57e696/cs9256.flac",
+  "sentence": "She seems 寂しい ever since her older sister moved abroad.",
+  "sample_rate": 16000,
+  "duration_ms": 4157,
+  "reference_speaker": "jp/speaker_040_473e7a57e696.mp3",
+  "seed": 9298,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She seems",
+      "start_sample": 0,
+      "end_sample": 8452,
+      "start_ms": 0,
+      "end_ms": 528
+    },
+    {
+      "lang": "ja",
+      "text": "寂しい",
+      "start_sample": 8452,
+      "end_sample": 17205,
+      "start_ms": 528,
+      "end_ms": 1075
+    },
+    {
+      "lang": "en",
+      "text": "ever since her older sister moved abroad.",
+      "start_sample": 17205,
+      "end_sample": 66515,
+      "start_ms": 1075,
+      "end_ms": 4157
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She seems sabishii ever since her older sister moved abroad.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4747,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She seems",
+          "start_sample": 0,
+          "end_sample": 8652,
+          "start_ms": 0,
+          "end_ms": 541
+        },
+        {
+          "lang": "ja",
+          "text": "寂しい",
+          "start_sample": 8652,
+          "end_sample": 26437,
+          "start_ms": 541,
+          "end_ms": 1652
+        },
+        {
+          "lang": "en",
+          "text": "ever since her older sister moved abroad.",
+          "start_sample": 26437,
+          "end_sample": 75947,
+          "start_ms": 1652,
+          "end_ms": 4747
+        }
+      ]
+    },
+    "ja": {
+      "text": "She seems 寂しい ever since her older sister moved abroad.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4817,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She seems",
+          "start_sample": 0,
+          "end_sample": 10275,
+          "start_ms": 0,
+          "end_ms": 642
+        },
+        {
+          "lang": "ja",
+          "text": "寂しい",
+          "start_sample": 10275,
+          "end_sample": 19428,
+          "start_ms": 642,
+          "end_ms": 1214
+        },
+        {
+          "lang": "en",
+          "text": "ever since her older sister moved abroad.",
+          "start_sample": 19428,
+          "end_sample": 77067,
+          "start_ms": 1214,
+          "end_ms": 4817
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

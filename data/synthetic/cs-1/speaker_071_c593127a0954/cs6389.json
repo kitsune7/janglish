@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_071_c593127a0954/cs6389.flac",
+  "sentence": "The 灯台 stood alone on the cliff like it had been there forever.",
+  "sample_rate": 16000,
+  "duration_ms": 3377,
+  "reference_speaker": "jp/speaker_071_c593127a0954.mp3",
+  "seed": 6431,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2372,
+      "start_ms": 0,
+      "end_ms": 148
+    },
+    {
+      "lang": "ja",
+      "text": "灯台",
+      "start_sample": 2372,
+      "end_sample": 8882,
+      "start_ms": 148,
+      "end_ms": 555
+    },
+    {
+      "lang": "en",
+      "text": "stood alone on the cliff like it had been there forever.",
+      "start_sample": 8882,
+      "end_sample": 54029,
+      "start_ms": 555,
+      "end_ms": 3377
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The toudai stood alone on the cliff like it had been there forever.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3538,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2572,
+          "start_ms": 0,
+          "end_ms": 161
+        },
+        {
+          "lang": "ja",
+          "text": "灯台",
+          "start_sample": 2572,
+          "end_sample": 11257,
+          "start_ms": 161,
+          "end_ms": 704
+        },
+        {
+          "lang": "en",
+          "text": "stood alone on the cliff like it had been there forever.",
+          "start_sample": 11257,
+          "end_sample": 56604,
+          "start_ms": 704,
+          "end_ms": 3538
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 灯台 stood alone on the cliff like it had been there forever.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4700,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2410,
+          "start_ms": 0,
+          "end_ms": 151
+        },
+        {
+          "lang": "ja",
+          "text": "灯台",
+          "start_sample": 2410,
+          "end_sample": 9320,
+          "start_ms": 151,
+          "end_ms": 582
+        },
+        {
+          "lang": "en",
+          "text": "stood alone on the cliff like it had been there forever.",
+          "start_sample": 9320,
+          "end_sample": 75208,
+          "start_ms": 582,
+          "end_ms": 4700
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 169,
+  "frame_labels": "eeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

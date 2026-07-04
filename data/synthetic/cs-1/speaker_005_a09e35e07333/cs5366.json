@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_005_a09e35e07333/cs5366.flac",
+  "sentence": "大統領のagendaはまだ公表されていません。",
+  "sample_rate": 16000,
+  "duration_ms": 3107,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 5408,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "大統領の",
+      "start_sample": 0,
+      "end_sample": 10220,
+      "start_ms": 0,
+      "end_ms": 639
+    },
+    {
+      "lang": "en",
+      "text": "agenda",
+      "start_sample": 10220,
+      "end_sample": 25701,
+      "start_ms": 639,
+      "end_ms": 1606
+    },
+    {
+      "lang": "ja",
+      "text": "はまだ公表されていません。",
+      "start_sample": 25701,
+      "end_sample": 49708,
+      "start_ms": 1606,
+      "end_ms": 3107
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "daitouryou no agenda hamada kouhyou sa re te i mase n",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5875,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "大統領の",
+          "start_sample": 0,
+          "end_sample": 18928,
+          "start_ms": 0,
+          "end_ms": 1183
+        },
+        {
+          "lang": "en",
+          "text": "agenda",
+          "start_sample": 18928,
+          "end_sample": 34809,
+          "start_ms": 1183,
+          "end_ms": 2176
+        },
+        {
+          "lang": "ja",
+          "text": "はまだ公表されていません。",
+          "start_sample": 34809,
+          "end_sample": 94001,
+          "start_ms": 2176,
+          "end_ms": 5875
+        }
+      ]
+    },
+    "ja": {
+      "text": "大統領のagendaはまだ公表されていません。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2545,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "大統領の",
+          "start_sample": 0,
+          "end_sample": 10420,
+          "start_ms": 0,
+          "end_ms": 651
+        },
+        {
+          "lang": "en",
+          "text": "agenda",
+          "start_sample": 10420,
+          "end_sample": 16512,
+          "start_ms": 651,
+          "end_ms": 1032
+        },
+        {
+          "lang": "ja",
+          "text": "はまだ公表されていません。",
+          "start_sample": 16512,
+          "end_sample": 40719,
+          "start_ms": 1032,
+          "end_ms": 2545
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 156,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

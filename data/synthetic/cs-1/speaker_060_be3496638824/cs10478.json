@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_060_be3496638824/cs10478.flac",
+  "sentence": "The GPS kept recalculating because we missed the 高速道路 on-ramp.",
+  "sample_rate": 16000,
+  "duration_ms": 5179,
+  "reference_speaker": "en/speaker_060_be3496638824.mp3",
+  "seed": 10520,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The GPS kept recalculating because we missed the",
+      "start_sample": 0,
+      "end_sample": 48378,
+      "start_ms": 0,
+      "end_ms": 3024
+    },
+    {
+      "lang": "ja",
+      "text": "高速道路",
+      "start_sample": 48378,
+      "end_sample": 69275,
+      "start_ms": 3024,
+      "end_ms": 4330
+    },
+    {
+      "lang": "en",
+      "text": "on-ramp.",
+      "start_sample": 69275,
+      "end_sample": 82861,
+      "start_ms": 4330,
+      "end_ms": 5179
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The GPS kept recalculating because we missed the kousoku douro on-ramp.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5210,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The GPS kept recalculating because we missed the",
+          "start_sample": 0,
+          "end_sample": 48578,
+          "start_ms": 0,
+          "end_ms": 3036
+        },
+        {
+          "lang": "ja",
+          "text": "高速道路",
+          "start_sample": 48578,
+          "end_sample": 69580,
+          "start_ms": 3036,
+          "end_ms": 4349
+        },
+        {
+          "lang": "en",
+          "text": "on-ramp.",
+          "start_sample": 69580,
+          "end_sample": 83366,
+          "start_ms": 4349,
+          "end_ms": 5210
+        }
+      ]
+    },
+    "ja": {
+      "text": "The GPS kept recalculating because we missed the 高速道路 on-ramp.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8286,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The GPS kept recalculating because we missed the",
+          "start_sample": 0,
+          "end_sample": 99757,
+          "start_ms": 0,
+          "end_ms": 6235
+        },
+        {
+          "lang": "ja",
+          "text": "高速道路",
+          "start_sample": 99757,
+          "end_sample": 121054,
+          "start_ms": 6235,
+          "end_ms": 7566
+        },
+        {
+          "lang": "en",
+          "text": "on-ramp.",
+          "start_sample": 121054,
+          "end_sample": 132582,
+          "start_ms": 7566,
+          "end_ms": 8286
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 259,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

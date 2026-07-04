@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_020_5f047713c8bd/cs5728.flac",
+  "sentence": "She's been really 積極的 about planning their dates, and he loves that about her.",
+  "sample_rate": 16000,
+  "duration_ms": 4248,
+  "reference_speaker": "en/speaker_020_5f047713c8bd.mp3",
+  "seed": 5770,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She's been really",
+      "start_sample": 0,
+      "end_sample": 8935,
+      "start_ms": 0,
+      "end_ms": 558
+    },
+    {
+      "lang": "ja",
+      "text": "積極的",
+      "start_sample": 8935,
+      "end_sample": 17678,
+      "start_ms": 558,
+      "end_ms": 1105
+    },
+    {
+      "lang": "en",
+      "text": "about planning their dates, and he loves that about her.",
+      "start_sample": 17678,
+      "end_sample": 67963,
+      "start_ms": 1105,
+      "end_ms": 4248
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She's been really sekkyoku teki about planning their dates, and he loves that about her.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4708,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She's been really",
+          "start_sample": 0,
+          "end_sample": 9135,
+          "start_ms": 0,
+          "end_ms": 571
+        },
+        {
+          "lang": "ja",
+          "text": "積極的",
+          "start_sample": 9135,
+          "end_sample": 24842,
+          "start_ms": 571,
+          "end_ms": 1553
+        },
+        {
+          "lang": "en",
+          "text": "about planning their dates, and he loves that about her.",
+          "start_sample": 24842,
+          "end_sample": 75327,
+          "start_ms": 1553,
+          "end_ms": 4708
+        }
+      ]
+    },
+    "ja": {
+      "text": "She's been really 積極的 about planning their dates, and he loves that about her.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5173,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She's been really",
+          "start_sample": 0,
+          "end_sample": 11067,
+          "start_ms": 0,
+          "end_ms": 692
+        },
+        {
+          "lang": "ja",
+          "text": "積極的",
+          "start_sample": 11067,
+          "end_sample": 20210,
+          "start_ms": 692,
+          "end_ms": 1263
+        },
+        {
+          "lang": "en",
+          "text": "about planning their dates, and he loves that about her.",
+          "start_sample": 20210,
+          "end_sample": 82764,
+          "start_ms": 1263,
+          "end_ms": 5173
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 213,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_054_a553b6ec02eb/cs9433.flac",
+  "sentence": "She handles every deadline with remarkable 落ち着き.",
+  "sample_rate": 16000,
+  "duration_ms": 3602,
+  "reference_speaker": "jp/speaker_054_a553b6ec02eb.mp3",
+  "seed": 9475,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She handles every deadline with remarkable",
+      "start_sample": 0,
+      "end_sample": 49459,
+      "start_ms": 0,
+      "end_ms": 3091
+    },
+    {
+      "lang": "ja",
+      "text": "落ち着き.",
+      "start_sample": 49459,
+      "end_sample": 57631,
+      "start_ms": 3091,
+      "end_ms": 3602
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She handles every deadline with remarkable ochitsuki",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4185,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She handles every deadline with remarkable",
+          "start_sample": 0,
+          "end_sample": 49659,
+          "start_ms": 0,
+          "end_ms": 3104
+        },
+        {
+          "lang": "ja",
+          "text": "落ち着き.",
+          "start_sample": 49659,
+          "end_sample": 66959,
+          "start_ms": 3104,
+          "end_ms": 4185
+        }
+      ]
+    },
+    "ja": {
+      "text": "She handles every deadline with remarkable 落ち着き.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3081,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She handles every deadline with remarkable",
+          "start_sample": 0,
+          "end_sample": 40926,
+          "start_ms": 0,
+          "end_ms": 2558
+        },
+        {
+          "lang": "ja",
+          "text": "落ち着き.",
+          "start_sample": 40926,
+          "end_sample": 49298,
+          "start_ms": 2558,
+          "end_ms": 3081
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 181,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

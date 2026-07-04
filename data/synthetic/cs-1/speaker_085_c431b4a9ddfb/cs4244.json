@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_085_c431b4a9ddfb/cs4244.flac",
+  "sentence": "The 石垣 along the garden terrace is completely covered in ivy now.",
+  "sample_rate": 16000,
+  "duration_ms": 4362,
+  "reference_speaker": "jp/speaker_085_c431b4a9ddfb.mp3",
+  "seed": 4286,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1080,
+      "start_ms": 0,
+      "end_ms": 68
+    },
+    {
+      "lang": "ja",
+      "text": "石垣",
+      "start_sample": 1080,
+      "end_sample": 15249,
+      "start_ms": 68,
+      "end_ms": 953
+    },
+    {
+      "lang": "en",
+      "text": "along the garden terrace is completely covered in ivy now.",
+      "start_sample": 15249,
+      "end_sample": 69792,
+      "start_ms": 953,
+      "end_ms": 4362
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The ishigaki along the garden terrace is completely covered in ivy now.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4222,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1280,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "石垣",
+          "start_sample": 1280,
+          "end_sample": 12804,
+          "start_ms": 80,
+          "end_ms": 800
+        },
+        {
+          "lang": "en",
+          "text": "along the garden terrace is completely covered in ivy now.",
+          "start_sample": 12804,
+          "end_sample": 67547,
+          "start_ms": 800,
+          "end_ms": 4222
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 石垣 along the garden terrace is completely covered in ivy now.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6024,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6083,
+          "start_ms": 0,
+          "end_ms": 380
+        },
+        {
+          "lang": "ja",
+          "text": "石垣",
+          "start_sample": 6083,
+          "end_sample": 20652,
+          "start_ms": 380,
+          "end_ms": 1291
+        },
+        {
+          "lang": "en",
+          "text": "along the garden terrace is completely covered in ivy now.",
+          "start_sample": 20652,
+          "end_sample": 96380,
+          "start_ms": 1291,
+          "end_ms": 6024
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 219,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_017_11ec372417df/cs1437.flac",
+  "sentence": "彼はいつもsimpleな服を上品に着こなしています。",
+  "sample_rate": 16000,
+  "duration_ms": 4361,
+  "reference_speaker": "en/speaker_017_11ec372417df.mp3",
+  "seed": 1479,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼はいつも",
+      "start_sample": 0,
+      "end_sample": 14403,
+      "start_ms": 0,
+      "end_ms": 900
+    },
+    {
+      "lang": "en",
+      "text": "simple",
+      "start_sample": 14403,
+      "end_sample": 30975,
+      "start_ms": 900,
+      "end_ms": 1936
+    },
+    {
+      "lang": "ja",
+      "text": "な服を上品に着こなしています。",
+      "start_sample": 30975,
+      "end_sample": 69769,
+      "start_ms": 1936,
+      "end_ms": 4361
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha itsu mo simple na fuku wo jouhin ni chaku konashi te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7085,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼はいつも",
+          "start_sample": 0,
+          "end_sample": 22256,
+          "start_ms": 0,
+          "end_ms": 1391
+        },
+        {
+          "lang": "en",
+          "text": "simple",
+          "start_sample": 22256,
+          "end_sample": 39228,
+          "start_ms": 1391,
+          "end_ms": 2452
+        },
+        {
+          "lang": "ja",
+          "text": "な服を上品に着こなしています。",
+          "start_sample": 39228,
+          "end_sample": 113361,
+          "start_ms": 2452,
+          "end_ms": 7085
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はいつもsimpleな服を上品に着こなしています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3891,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼はいつも",
+          "start_sample": 0,
+          "end_sample": 14603,
+          "start_ms": 0,
+          "end_ms": 913
+        },
+        {
+          "lang": "en",
+          "text": "simple",
+          "start_sample": 14603,
+          "end_sample": 23268,
+          "start_ms": 913,
+          "end_ms": 1454
+        },
+        {
+          "lang": "ja",
+          "text": "な服を上品に着こなしています。",
+          "start_sample": 23268,
+          "end_sample": 62262,
+          "start_ms": 1454,
+          "end_ms": 3891
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 219,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

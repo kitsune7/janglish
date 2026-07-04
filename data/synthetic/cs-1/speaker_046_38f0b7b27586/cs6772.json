@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_046_38f0b7b27586/cs6772.flac",
+  "sentence": "I realized 途中で that I had completely misunderstood the question.",
+  "sample_rate": 16000,
+  "duration_ms": 5589,
+  "reference_speaker": "jp/speaker_046_38f0b7b27586.mp3",
+  "seed": 6814,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I realized",
+      "start_sample": 0,
+      "end_sample": 12322,
+      "start_ms": 0,
+      "end_ms": 770
+    },
+    {
+      "lang": "ja",
+      "text": "途中で",
+      "start_sample": 12322,
+      "end_sample": 21227,
+      "start_ms": 770,
+      "end_ms": 1327
+    },
+    {
+      "lang": "en",
+      "text": "that I had completely misunderstood the question.",
+      "start_sample": 21227,
+      "end_sample": 89429,
+      "start_ms": 1327,
+      "end_ms": 5589
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I realized tochuu de that I had completely misunderstood the question.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5740,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I realized",
+          "start_sample": 0,
+          "end_sample": 12522,
+          "start_ms": 0,
+          "end_ms": 783
+        },
+        {
+          "lang": "ja",
+          "text": "途中で",
+          "start_sample": 12522,
+          "end_sample": 23441,
+          "start_ms": 783,
+          "end_ms": 1465
+        },
+        {
+          "lang": "en",
+          "text": "that I had completely misunderstood the question.",
+          "start_sample": 23441,
+          "end_sample": 91843,
+          "start_ms": 1465,
+          "end_ms": 5740
+        }
+      ]
+    },
+    "ja": {
+      "text": "I realized 途中で that I had completely misunderstood the question.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4792,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I realized",
+          "start_sample": 0,
+          "end_sample": 12831,
+          "start_ms": 0,
+          "end_ms": 802
+        },
+        {
+          "lang": "ja",
+          "text": "途中で",
+          "start_sample": 12831,
+          "end_sample": 22136,
+          "start_ms": 802,
+          "end_ms": 1384
+        },
+        {
+          "lang": "en",
+          "text": "that I had completely misunderstood the question.",
+          "start_sample": 22136,
+          "end_sample": 76678,
+          "start_ms": 1384,
+          "end_ms": 4792
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 280,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

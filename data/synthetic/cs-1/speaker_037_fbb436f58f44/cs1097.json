@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_037_fbb436f58f44/cs1097.flac",
+  "sentence": "The 薬局 on the corner closes at nine, so hurry.",
+  "sample_rate": 16000,
+  "duration_ms": 3759,
+  "reference_speaker": "en/speaker_037_fbb436f58f44.mp3",
+  "seed": 1139,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1082,
+      "start_ms": 0,
+      "end_ms": 68
+    },
+    {
+      "lang": "ja",
+      "text": "薬局",
+      "start_sample": 1082,
+      "end_sample": 16095,
+      "start_ms": 68,
+      "end_ms": 1006
+    },
+    {
+      "lang": "en",
+      "text": "on the corner closes at nine, so hurry.",
+      "start_sample": 16095,
+      "end_sample": 60150,
+      "start_ms": 1006,
+      "end_ms": 3759
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The yakkyoku on the corner closes at nine, so hurry.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3568,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1282,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "薬局",
+          "start_sample": 1282,
+          "end_sample": 12828,
+          "start_ms": 80,
+          "end_ms": 802
+        },
+        {
+          "lang": "en",
+          "text": "on the corner closes at nine, so hurry.",
+          "start_sample": 12828,
+          "end_sample": 57083,
+          "start_ms": 802,
+          "end_ms": 3568
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 薬局 on the corner closes at nine, so hurry.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4595,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5939,
+          "start_ms": 0,
+          "end_ms": 371
+        },
+        {
+          "lang": "ja",
+          "text": "薬局",
+          "start_sample": 5939,
+          "end_sample": 21352,
+          "start_ms": 371,
+          "end_ms": 1334
+        },
+        {
+          "lang": "en",
+          "text": "on the corner closes at nine, so hurry.",
+          "start_sample": 21352,
+          "end_sample": 73525,
+          "start_ms": 1334,
+          "end_ms": 4595
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_085_1a04e2db0811/cs5405.flac",
+  "sentence": "今夜のscreeningのチケットはもう売り切れた。",
+  "sample_rate": 16000,
+  "duration_ms": 3367,
+  "reference_speaker": "en/speaker_085_1a04e2db0811.mp3",
+  "seed": 5447,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今夜の",
+      "start_sample": 0,
+      "end_sample": 8655,
+      "start_ms": 0,
+      "end_ms": 541
+    },
+    {
+      "lang": "en",
+      "text": "screening",
+      "start_sample": 8655,
+      "end_sample": 25092,
+      "start_ms": 541,
+      "end_ms": 1568
+    },
+    {
+      "lang": "ja",
+      "text": "のチケットはもう売り切れた。",
+      "start_sample": 25092,
+      "end_sample": 53867,
+      "start_ms": 1568,
+      "end_ms": 3367
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "konya no screening no chiketto ha mou urikire ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5191,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今夜の",
+          "start_sample": 0,
+          "end_sample": 21326,
+          "start_ms": 0,
+          "end_ms": 1333
+        },
+        {
+          "lang": "en",
+          "text": "screening",
+          "start_sample": 21326,
+          "end_sample": 38163,
+          "start_ms": 1333,
+          "end_ms": 2385
+        },
+        {
+          "lang": "ja",
+          "text": "のチケットはもう売り切れた。",
+          "start_sample": 38163,
+          "end_sample": 83060,
+          "start_ms": 2385,
+          "end_ms": 5191
+        }
+      ]
+    },
+    "ja": {
+      "text": "今夜のscreeningのチケットはもう売り切れた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3139,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今夜の",
+          "start_sample": 0,
+          "end_sample": 8855,
+          "start_ms": 0,
+          "end_ms": 553
+        },
+        {
+          "lang": "en",
+          "text": "screening",
+          "start_sample": 8855,
+          "end_sample": 21252,
+          "start_ms": 553,
+          "end_ms": 1328
+        },
+        {
+          "lang": "ja",
+          "text": "のチケットはもう売り切れた。",
+          "start_sample": 21252,
+          "end_sample": 50227,
+          "start_ms": 1328,
+          "end_ms": 3139
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 169,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

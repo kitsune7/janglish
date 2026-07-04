@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_052_8e5df296063d/cs3258.flac",
+  "sentence": "The team's 協力 made the product launch go surprisingly smoothly.",
+  "sample_rate": 16000,
+  "duration_ms": 4582,
+  "reference_speaker": "jp/speaker_052_8e5df296063d.mp3",
+  "seed": 3300,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The team's",
+      "start_sample": 0,
+      "end_sample": 9105,
+      "start_ms": 0,
+      "end_ms": 569
+    },
+    {
+      "lang": "ja",
+      "text": "協力",
+      "start_sample": 9105,
+      "end_sample": 16233,
+      "start_ms": 569,
+      "end_ms": 1015
+    },
+    {
+      "lang": "en",
+      "text": "made the product launch go surprisingly smoothly.",
+      "start_sample": 16233,
+      "end_sample": 73312,
+      "start_ms": 1015,
+      "end_ms": 4582
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The team's kyouryoku made the product launch go surprisingly smoothly.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5295,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The team's",
+          "start_sample": 0,
+          "end_sample": 9305,
+          "start_ms": 0,
+          "end_ms": 582
+        },
+        {
+          "lang": "ja",
+          "text": "協力",
+          "start_sample": 9305,
+          "end_sample": 27436,
+          "start_ms": 582,
+          "end_ms": 1715
+        },
+        {
+          "lang": "en",
+          "text": "made the product launch go surprisingly smoothly.",
+          "start_sample": 27436,
+          "end_sample": 84715,
+          "start_ms": 1715,
+          "end_ms": 5295
+        }
+      ]
+    },
+    "ja": {
+      "text": "The team's 協力 made the product launch go surprisingly smoothly.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4585,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The team's",
+          "start_sample": 0,
+          "end_sample": 10731,
+          "start_ms": 0,
+          "end_ms": 671
+        },
+        {
+          "lang": "ja",
+          "text": "協力",
+          "start_sample": 10731,
+          "end_sample": 18259,
+          "start_ms": 671,
+          "end_ms": 1141
+        },
+        {
+          "lang": "en",
+          "text": "made the product launch go surprisingly smoothly.",
+          "start_sample": 18259,
+          "end_sample": 73362,
+          "start_ms": 1141,
+          "end_ms": 4585
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 230,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

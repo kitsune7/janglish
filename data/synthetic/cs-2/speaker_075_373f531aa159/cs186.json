@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_075_373f531aa159/cs186.flac",
+  "sentence": "Their house gin has a 繊細 herbal note and an almost 透明 finish.",
+  "sample_rate": 16000,
+  "duration_ms": 5118,
+  "reference_speaker": "en/speaker_075_373f531aa159.mp3",
+  "seed": 228,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Their house gin has a",
+      "start_sample": 0,
+      "end_sample": 34259,
+      "start_ms": 0,
+      "end_ms": 2141
+    },
+    {
+      "lang": "ja",
+      "text": "繊細",
+      "start_sample": 34259,
+      "end_sample": 44908,
+      "start_ms": 2141,
+      "end_ms": 2807
+    },
+    {
+      "lang": "en",
+      "text": "herbal note and an almost",
+      "start_sample": 44908,
+      "end_sample": 67587,
+      "start_ms": 2807,
+      "end_ms": 4224
+    },
+    {
+      "lang": "ja",
+      "text": "透明",
+      "start_sample": 67587,
+      "end_sample": 73111,
+      "start_ms": 4224,
+      "end_ms": 4569
+    },
+    {
+      "lang": "en",
+      "text": "finish.",
+      "start_sample": 73111,
+      "end_sample": 81884,
+      "start_ms": 4569,
+      "end_ms": 5118
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Their house gin has a sensai herbal note and an almost toumei finish.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5269,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their house gin has a",
+          "start_sample": 0,
+          "end_sample": 34459,
+          "start_ms": 0,
+          "end_ms": 2154
+        },
+        {
+          "lang": "ja",
+          "text": "繊細",
+          "start_sample": 34459,
+          "end_sample": 42793,
+          "start_ms": 2154,
+          "end_ms": 2675
+        },
+        {
+          "lang": "en",
+          "text": "herbal note and an almost",
+          "start_sample": 42793,
+          "end_sample": 65872,
+          "start_ms": 2675,
+          "end_ms": 4117
+        },
+        {
+          "lang": "ja",
+          "text": "透明",
+          "start_sample": 65872,
+          "end_sample": 75329,
+          "start_ms": 4117,
+          "end_ms": 4708
+        },
+        {
+          "lang": "en",
+          "text": "finish.",
+          "start_sample": 75329,
+          "end_sample": 84302,
+          "start_ms": 4708,
+          "end_ms": 5269
+        }
+      ]
+    },
+    "ja": {
+      "text": "Their house gin has a 繊細 herbal note and an almost 透明 finish.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6745,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their house gin has a",
+          "start_sample": 0,
+          "end_sample": 46434,
+          "start_ms": 0,
+          "end_ms": 2902
+        },
+        {
+          "lang": "ja",
+          "text": "繊細",
+          "start_sample": 46434,
+          "end_sample": 57483,
+          "start_ms": 2902,
+          "end_ms": 3593
+        },
+        {
+          "lang": "en",
+          "text": "herbal note and an almost",
+          "start_sample": 57483,
+          "end_sample": 93511,
+          "start_ms": 3593,
+          "end_ms": 5844
+        },
+        {
+          "lang": "ja",
+          "text": "透明",
+          "start_sample": 93511,
+          "end_sample": 99435,
+          "start_ms": 5844,
+          "end_ms": 6215
+        },
+        {
+          "lang": "en",
+          "text": "finish.",
+          "start_sample": 99435,
+          "end_sample": 107921,
+          "start_ms": 6215,
+          "end_ms": 6745
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 256,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

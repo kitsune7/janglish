@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_054_a553b6ec02eb/cs6164.flac",
+  "sentence": "The baby's first 笑顔 made every sleepless night feel completely worth it.",
+  "sample_rate": 16000,
+  "duration_ms": 4010,
+  "reference_speaker": "jp/speaker_054_a553b6ec02eb.mp3",
+  "seed": 6206,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The baby's first",
+      "start_sample": 0,
+      "end_sample": 13755,
+      "start_ms": 0,
+      "end_ms": 860
+    },
+    {
+      "lang": "ja",
+      "text": "笑顔",
+      "start_sample": 13755,
+      "end_sample": 20082,
+      "start_ms": 860,
+      "end_ms": 1255
+    },
+    {
+      "lang": "en",
+      "text": "made every sleepless night feel completely worth it.",
+      "start_sample": 20082,
+      "end_sample": 64153,
+      "start_ms": 1255,
+      "end_ms": 4010
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The baby's first egao made every sleepless night feel completely worth it.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4050,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The baby's first",
+          "start_sample": 0,
+          "end_sample": 13955,
+          "start_ms": 0,
+          "end_ms": 872
+        },
+        {
+          "lang": "ja",
+          "text": "笑顔",
+          "start_sample": 13955,
+          "end_sample": 20532,
+          "start_ms": 872,
+          "end_ms": 1283
+        },
+        {
+          "lang": "en",
+          "text": "made every sleepless night feel completely worth it.",
+          "start_sample": 20532,
+          "end_sample": 64803,
+          "start_ms": 1283,
+          "end_ms": 4050
+        }
+      ]
+    },
+    "ja": {
+      "text": "The baby's first 笑顔 made every sleepless night feel completely worth it.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8349,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The baby's first",
+          "start_sample": 0,
+          "end_sample": 24986,
+          "start_ms": 0,
+          "end_ms": 1562
+        },
+        {
+          "lang": "ja",
+          "text": "笑顔",
+          "start_sample": 24986,
+          "end_sample": 31713,
+          "start_ms": 1562,
+          "end_ms": 1982
+        },
+        {
+          "lang": "en",
+          "text": "made every sleepless night feel completely worth it.",
+          "start_sample": 31713,
+          "end_sample": 133583,
+          "start_ms": 1982,
+          "end_ms": 8349
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

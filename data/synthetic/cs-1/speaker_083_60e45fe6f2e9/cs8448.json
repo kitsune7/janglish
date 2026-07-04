@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_083_60e45fe6f2e9/cs8448.flac",
+  "sentence": "The financial advisor's 助言 turned out to be spot-on.",
+  "sample_rate": 16000,
+  "duration_ms": 3135,
+  "reference_speaker": "en/speaker_083_60e45fe6f2e9.mp3",
+  "seed": 8490,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The financial advisor's",
+      "start_sample": 0,
+      "end_sample": 20058,
+      "start_ms": 0,
+      "end_ms": 1254
+    },
+    {
+      "lang": "ja",
+      "text": "助言",
+      "start_sample": 20058,
+      "end_sample": 27053,
+      "start_ms": 1254,
+      "end_ms": 1691
+    },
+    {
+      "lang": "en",
+      "text": "turned out to be spot-on.",
+      "start_sample": 27053,
+      "end_sample": 50162,
+      "start_ms": 1691,
+      "end_ms": 3135
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The financial advisor's jogen turned out to be spot-on.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3195,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The financial advisor's",
+          "start_sample": 0,
+          "end_sample": 20258,
+          "start_ms": 0,
+          "end_ms": 1266
+        },
+        {
+          "lang": "ja",
+          "text": "助言",
+          "start_sample": 20258,
+          "end_sample": 27814,
+          "start_ms": 1266,
+          "end_ms": 1738
+        },
+        {
+          "lang": "en",
+          "text": "turned out to be spot-on.",
+          "start_sample": 27814,
+          "end_sample": 51123,
+          "start_ms": 1738,
+          "end_ms": 3195
+        }
+      ]
+    },
+    "ja": {
+      "text": "The financial advisor's 助言 turned out to be spot-on.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4380,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The financial advisor's",
+          "start_sample": 0,
+          "end_sample": 30544,
+          "start_ms": 0,
+          "end_ms": 1909
+        },
+        {
+          "lang": "ja",
+          "text": "助言",
+          "start_sample": 30544,
+          "end_sample": 37939,
+          "start_ms": 1909,
+          "end_ms": 2371
+        },
+        {
+          "lang": "en",
+          "text": "turned out to be spot-on.",
+          "start_sample": 37939,
+          "end_sample": 70087,
+          "start_ms": 2371,
+          "end_ms": 4380
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 157,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

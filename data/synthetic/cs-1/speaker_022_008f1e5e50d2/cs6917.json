@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_022_008f1e5e50d2/cs6917.flac",
+  "sentence": "That 標識 is so faded you can barely read the town name on it.",
+  "sample_rate": 16000,
+  "duration_ms": 3669,
+  "reference_speaker": "en/speaker_022_008f1e5e50d2.mp3",
+  "seed": 6959,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That",
+      "start_sample": 0,
+      "end_sample": 3487,
+      "start_ms": 0,
+      "end_ms": 218
+    },
+    {
+      "lang": "ja",
+      "text": "標識",
+      "start_sample": 3487,
+      "end_sample": 14336,
+      "start_ms": 218,
+      "end_ms": 896
+    },
+    {
+      "lang": "en",
+      "text": "is so faded you can barely read the town name on it.",
+      "start_sample": 14336,
+      "end_sample": 58708,
+      "start_ms": 896,
+      "end_ms": 3669
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That hyoushiki is so faded you can barely read the town name on it.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3708,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That",
+          "start_sample": 0,
+          "end_sample": 3687,
+          "start_ms": 0,
+          "end_ms": 230
+        },
+        {
+          "lang": "ja",
+          "text": "標識",
+          "start_sample": 3687,
+          "end_sample": 14750,
+          "start_ms": 230,
+          "end_ms": 922
+        },
+        {
+          "lang": "en",
+          "text": "is so faded you can barely read the town name on it.",
+          "start_sample": 14750,
+          "end_sample": 59322,
+          "start_ms": 922,
+          "end_ms": 3708
+        }
+      ]
+    },
+    "ja": {
+      "text": "That 標識 is so faded you can barely read the town name on it.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4580,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That",
+          "start_sample": 0,
+          "end_sample": 3692,
+          "start_ms": 0,
+          "end_ms": 231
+        },
+        {
+          "lang": "ja",
+          "text": "標識",
+          "start_sample": 3692,
+          "end_sample": 14941,
+          "start_ms": 231,
+          "end_ms": 934
+        },
+        {
+          "lang": "en",
+          "text": "is so faded you can barely read the town name on it.",
+          "start_sample": 14941,
+          "end_sample": 73275,
+          "start_ms": 934,
+          "end_ms": 4580
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 184,
+  "frame_labels": "eeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

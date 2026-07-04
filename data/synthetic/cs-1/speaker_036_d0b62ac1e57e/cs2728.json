@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_036_d0b62ac1e57e/cs2728.flac",
+  "sentence": "My 着信音 keeps going off during the most awkward moments.",
+  "sample_rate": 16000,
+  "duration_ms": 3897,
+  "reference_speaker": "en/speaker_036_d0b62ac1e57e.mp3",
+  "seed": 2770,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My",
+      "start_sample": 0,
+      "end_sample": 4766,
+      "start_ms": 0,
+      "end_ms": 298
+    },
+    {
+      "lang": "ja",
+      "text": "着信音",
+      "start_sample": 4766,
+      "end_sample": 16727,
+      "start_ms": 298,
+      "end_ms": 1045
+    },
+    {
+      "lang": "en",
+      "text": "keeps going off during the most awkward moments.",
+      "start_sample": 16727,
+      "end_sample": 62348,
+      "start_ms": 1045,
+      "end_ms": 3897
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My chakushin oto keeps going off during the most awkward moments.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5628,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 4966,
+          "start_ms": 0,
+          "end_ms": 310
+        },
+        {
+          "lang": "ja",
+          "text": "着信音",
+          "start_sample": 4966,
+          "end_sample": 44219,
+          "start_ms": 310,
+          "end_ms": 2764
+        },
+        {
+          "lang": "en",
+          "text": "keeps going off during the most awkward moments.",
+          "start_sample": 44219,
+          "end_sample": 90040,
+          "start_ms": 2764,
+          "end_ms": 5628
+        }
+      ]
+    },
+    "ja": {
+      "text": "My 着信音 keeps going off during the most awkward moments.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4555,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 3049,
+          "start_ms": 0,
+          "end_ms": 191
+        },
+        {
+          "lang": "ja",
+          "text": "着信音",
+          "start_sample": 3049,
+          "end_sample": 15410,
+          "start_ms": 191,
+          "end_ms": 963
+        },
+        {
+          "lang": "en",
+          "text": "keeps going off during the most awkward moments.",
+          "start_sample": 15410,
+          "end_sample": 72877,
+          "start_ms": 963,
+          "end_ms": 4555
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 195,
+  "frame_labels": "eeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

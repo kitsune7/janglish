@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_083_f660ed2250be/cs10556.flac",
+  "sentence": "子犬がplayfulすぎて、なかなか訓練できない。",
+  "sample_rate": 16000,
+  "duration_ms": 3436,
+  "reference_speaker": "jp/speaker_083_f660ed2250be.mp3",
+  "seed": 10598,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "子犬が",
+      "start_sample": 0,
+      "end_sample": 8133,
+      "start_ms": 0,
+      "end_ms": 508
+    },
+    {
+      "lang": "en",
+      "text": "playful",
+      "start_sample": 8133,
+      "end_sample": 26168,
+      "start_ms": 508,
+      "end_ms": 1636
+    },
+    {
+      "lang": "ja",
+      "text": "すぎて、なかなか訓練できない。",
+      "start_sample": 26168,
+      "end_sample": 54978,
+      "start_ms": 1636,
+      "end_ms": 3436
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "koinu ga playful sugi te nakanaka kunren deki nai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5470,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "子犬が",
+          "start_sample": 0,
+          "end_sample": 11541,
+          "start_ms": 0,
+          "end_ms": 721
+        },
+        {
+          "lang": "en",
+          "text": "playful",
+          "start_sample": 11541,
+          "end_sample": 29976,
+          "start_ms": 721,
+          "end_ms": 1874
+        },
+        {
+          "lang": "ja",
+          "text": "すぎて、なかなか訓練できない。",
+          "start_sample": 29976,
+          "end_sample": 87524,
+          "start_ms": 1874,
+          "end_ms": 5470
+        }
+      ]
+    },
+    "ja": {
+      "text": "子犬がplayfulすぎて、なかなか訓練できない。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2765,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "子犬が",
+          "start_sample": 0,
+          "end_sample": 8333,
+          "start_ms": 0,
+          "end_ms": 521
+        },
+        {
+          "lang": "en",
+          "text": "playful",
+          "start_sample": 8333,
+          "end_sample": 15226,
+          "start_ms": 521,
+          "end_ms": 952
+        },
+        {
+          "lang": "ja",
+          "text": "すぎて、なかなか訓練できない。",
+          "start_sample": 15226,
+          "end_sample": 44236,
+          "start_ms": 952,
+          "end_ms": 2765
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 172,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

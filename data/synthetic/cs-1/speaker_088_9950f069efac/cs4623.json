@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_088_9950f069efac/cs4623.flac",
+  "sentence": "My fish tank looks so 綺麗 now that I added the new plants and driftwood.",
+  "sample_rate": 16000,
+  "duration_ms": 5430,
+  "reference_speaker": "en/speaker_088_9950f069efac.mp3",
+  "seed": 4665,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My fish tank looks so",
+      "start_sample": 0,
+      "end_sample": 19356,
+      "start_ms": 0,
+      "end_ms": 1210
+    },
+    {
+      "lang": "ja",
+      "text": "綺麗",
+      "start_sample": 19356,
+      "end_sample": 25364,
+      "start_ms": 1210,
+      "end_ms": 1585
+    },
+    {
+      "lang": "en",
+      "text": "now that I added the new plants and driftwood.",
+      "start_sample": 25364,
+      "end_sample": 86878,
+      "start_ms": 1585,
+      "end_ms": 5430
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My fish tank looks so kirei now that I added the new plants and driftwood.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7013,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My fish tank looks so",
+          "start_sample": 0,
+          "end_sample": 19556,
+          "start_ms": 0,
+          "end_ms": 1222
+        },
+        {
+          "lang": "ja",
+          "text": "綺麗",
+          "start_sample": 19556,
+          "end_sample": 50494,
+          "start_ms": 1222,
+          "end_ms": 3156
+        },
+        {
+          "lang": "en",
+          "text": "now that I added the new plants and driftwood.",
+          "start_sample": 50494,
+          "end_sample": 112208,
+          "start_ms": 3156,
+          "end_ms": 7013
+        }
+      ]
+    },
+    "ja": {
+      "text": "My fish tank looks so 綺麗 now that I added the new plants and driftwood.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8070,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My fish tank looks so",
+          "start_sample": 0,
+          "end_sample": 27874,
+          "start_ms": 0,
+          "end_ms": 1742
+        },
+        {
+          "lang": "ja",
+          "text": "綺麗",
+          "start_sample": 27874,
+          "end_sample": 34282,
+          "start_ms": 1742,
+          "end_ms": 2143
+        },
+        {
+          "lang": "en",
+          "text": "now that I added the new plants and driftwood.",
+          "start_sample": 34282,
+          "end_sample": 129121,
+          "start_ms": 2143,
+          "end_ms": 8070
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 272,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

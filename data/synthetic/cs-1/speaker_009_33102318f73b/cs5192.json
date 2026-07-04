@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_009_33102318f73b/cs5192.flac",
+  "sentence": "あなたの成功を見てproudな気持ちでいっぱいだよ。",
+  "sample_rate": 16000,
+  "duration_ms": 2989,
+  "reference_speaker": "jp/speaker_009_33102318f73b.mp3",
+  "seed": 5234,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あなたの成功を見て",
+      "start_sample": 0,
+      "end_sample": 20746,
+      "start_ms": 0,
+      "end_ms": 1297
+    },
+    {
+      "lang": "en",
+      "text": "proud",
+      "start_sample": 20746,
+      "end_sample": 26917,
+      "start_ms": 1297,
+      "end_ms": 1682
+    },
+    {
+      "lang": "ja",
+      "text": "な気持ちでいっぱいだよ。",
+      "start_sample": 26917,
+      "end_sample": 47819,
+      "start_ms": 1682,
+      "end_ms": 2989
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "anata no seikou wo ken te proud na kimochi de ippai da yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5289,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あなたの成功を見て",
+          "start_sample": 0,
+          "end_sample": 46158,
+          "start_ms": 0,
+          "end_ms": 2885
+        },
+        {
+          "lang": "en",
+          "text": "proud",
+          "start_sample": 46158,
+          "end_sample": 52729,
+          "start_ms": 2885,
+          "end_ms": 3296
+        },
+        {
+          "lang": "ja",
+          "text": "な気持ちでいっぱいだよ。",
+          "start_sample": 52729,
+          "end_sample": 84622,
+          "start_ms": 3296,
+          "end_ms": 5289
+        }
+      ]
+    },
+    "ja": {
+      "text": "あなたの成功を見てproudな気持ちでいっぱいだよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3081,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あなたの成功を見て",
+          "start_sample": 0,
+          "end_sample": 20946,
+          "start_ms": 0,
+          "end_ms": 1309
+        },
+        {
+          "lang": "en",
+          "text": "proud",
+          "start_sample": 20946,
+          "end_sample": 28196,
+          "start_ms": 1309,
+          "end_ms": 1762
+        },
+        {
+          "lang": "ja",
+          "text": "な気持ちでいっぱいだよ。",
+          "start_sample": 28196,
+          "end_sample": 49298,
+          "start_ms": 1762,
+          "end_ms": 3081
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 150,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

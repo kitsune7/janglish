@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_039_c39ab9ed59f2/cs7546.flac",
+  "sentence": "今日のlectureはとても長かった。",
+  "sample_rate": 16000,
+  "duration_ms": 2602,
+  "reference_speaker": "jp/speaker_039_c39ab9ed59f2.mp3",
+  "seed": 7588,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日の",
+      "start_sample": 0,
+      "end_sample": 5424,
+      "start_ms": 0,
+      "end_ms": 339
+    },
+    {
+      "lang": "en",
+      "text": "lecture",
+      "start_sample": 5424,
+      "end_sample": 18378,
+      "start_ms": 339,
+      "end_ms": 1149
+    },
+    {
+      "lang": "ja",
+      "text": "はとても長かった。",
+      "start_sample": 18378,
+      "end_sample": 41638,
+      "start_ms": 1149,
+      "end_ms": 2602
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou no lecture ha totemo nagakatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2956,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の",
+          "start_sample": 0,
+          "end_sample": 4825,
+          "start_ms": 0,
+          "end_ms": 302
+        },
+        {
+          "lang": "en",
+          "text": "lecture",
+          "start_sample": 4825,
+          "end_sample": 18179,
+          "start_ms": 302,
+          "end_ms": 1136
+        },
+        {
+          "lang": "ja",
+          "text": "はとても長かった。",
+          "start_sample": 18179,
+          "end_sample": 47294,
+          "start_ms": 1136,
+          "end_ms": 2956
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日のlectureはとても長かった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2310,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の",
+          "start_sample": 0,
+          "end_sample": 5624,
+          "start_ms": 0,
+          "end_ms": 352
+        },
+        {
+          "lang": "en",
+          "text": "lecture",
+          "start_sample": 5624,
+          "end_sample": 13499,
+          "start_ms": 352,
+          "end_ms": 844
+        },
+        {
+          "lang": "ja",
+          "text": "はとても長かった。",
+          "start_sample": 13499,
+          "end_sample": 36959,
+          "start_ms": 844,
+          "end_ms": 2310
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 131,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

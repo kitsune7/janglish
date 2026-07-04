@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_094_291d9dee87c4/cs7277.flac",
+  "sentence": "The children were so 元気 running through the piles of fallen leaves.",
+  "sample_rate": 16000,
+  "duration_ms": 3494,
+  "reference_speaker": "en/speaker_094_291d9dee87c4.mp3",
+  "seed": 7319,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The children were so",
+      "start_sample": 0,
+      "end_sample": 14906,
+      "start_ms": 0,
+      "end_ms": 932
+    },
+    {
+      "lang": "ja",
+      "text": "元気",
+      "start_sample": 14906,
+      "end_sample": 23964,
+      "start_ms": 932,
+      "end_ms": 1498
+    },
+    {
+      "lang": "en",
+      "text": "running through the piles of fallen leaves.",
+      "start_sample": 23964,
+      "end_sample": 55903,
+      "start_ms": 1498,
+      "end_ms": 3494
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The children were so genki running through the piles of fallen leaves.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3495,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The children were so",
+          "start_sample": 0,
+          "end_sample": 15106,
+          "start_ms": 0,
+          "end_ms": 944
+        },
+        {
+          "lang": "ja",
+          "text": "元気",
+          "start_sample": 15106,
+          "end_sample": 23784,
+          "start_ms": 944,
+          "end_ms": 1486
+        },
+        {
+          "lang": "en",
+          "text": "running through the piles of fallen leaves.",
+          "start_sample": 23784,
+          "end_sample": 55923,
+          "start_ms": 1486,
+          "end_ms": 3495
+        }
+      ]
+    },
+    "ja": {
+      "text": "The children were so 元気 running through the piles of fallen leaves.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5470,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The children were so",
+          "start_sample": 0,
+          "end_sample": 21480,
+          "start_ms": 0,
+          "end_ms": 1342
+        },
+        {
+          "lang": "ja",
+          "text": "元気",
+          "start_sample": 21480,
+          "end_sample": 30938,
+          "start_ms": 1342,
+          "end_ms": 1934
+        },
+        {
+          "lang": "en",
+          "text": "running through the piles of fallen leaves.",
+          "start_sample": 30938,
+          "end_sample": 87524,
+          "start_ms": 1934,
+          "end_ms": 5470
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

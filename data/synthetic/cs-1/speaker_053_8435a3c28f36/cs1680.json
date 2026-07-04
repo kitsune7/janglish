@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_053_8435a3c28f36/cs1680.flac",
+  "sentence": "病院のemergency roomはけが人でいっぱいだった。",
+  "sample_rate": 16000,
+  "duration_ms": 3206,
+  "reference_speaker": "jp/speaker_053_8435a3c28f36.mp3",
+  "seed": 1722,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "病院の",
+      "start_sample": 0,
+      "end_sample": 8478,
+      "start_ms": 0,
+      "end_ms": 530
+    },
+    {
+      "lang": "en",
+      "text": "emergency room",
+      "start_sample": 8478,
+      "end_sample": 27388,
+      "start_ms": 530,
+      "end_ms": 1712
+    },
+    {
+      "lang": "ja",
+      "text": "はけが人でいっぱいだった。",
+      "start_sample": 27388,
+      "end_sample": 51291,
+      "start_ms": 1712,
+      "end_ms": 3206
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "byouin no emergency room hake ga nin de ippai datsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3982,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "病院の",
+          "start_sample": 0,
+          "end_sample": 10298,
+          "start_ms": 0,
+          "end_ms": 644
+        },
+        {
+          "lang": "en",
+          "text": "emergency room",
+          "start_sample": 10298,
+          "end_sample": 29608,
+          "start_ms": 644,
+          "end_ms": 1850
+        },
+        {
+          "lang": "ja",
+          "text": "はけが人でいっぱいだった。",
+          "start_sample": 29608,
+          "end_sample": 63716,
+          "start_ms": 1850,
+          "end_ms": 3982
+        }
+      ]
+    },
+    "ja": {
+      "text": "病院のemergency roomはけが人でいっぱいだった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3154,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "病院の",
+          "start_sample": 0,
+          "end_sample": 8678,
+          "start_ms": 0,
+          "end_ms": 542
+        },
+        {
+          "lang": "en",
+          "text": "emergency room",
+          "start_sample": 8678,
+          "end_sample": 26356,
+          "start_ms": 542,
+          "end_ms": 1647
+        },
+        {
+          "lang": "ja",
+          "text": "はけが人でいっぱいだった。",
+          "start_sample": 26356,
+          "end_sample": 50459,
+          "start_ms": 1647,
+          "end_ms": 3154
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 161,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

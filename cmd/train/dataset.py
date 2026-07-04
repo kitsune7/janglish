@@ -56,6 +56,30 @@ def discover_examples(
     return examples
 
 
+def speaker_group(example: LidExample, data_root: Path = DEFAULT_DATA_ROOT) -> str:
+    """Return the speaker identity used to keep train/validation/test disjoint.
+
+    Synthetic audio lives in data/synthetic/<subset>/<speaker>/<name>.flac, and the
+    same speaker appears under multiple subsets (cs-1..cs-4, en, jp), so the group
+    key must be the speaker directory name alone. Manual audio lives in
+    data/manual/<contributor>/<name>.flac, one directory per speaker.
+    """
+    parent = example.audio_path.parent
+    try:
+        parts = parent.relative_to(data_root).parts
+    except ValueError:
+        parts = parent.parts
+
+    if len(parts) >= 3 and parts[0] == "synthetic":
+        return f"synthetic-speaker/{parts[2]}"
+    if len(parts) == 2 and parts[0] == "synthetic":
+        raise ValueError(
+            f"{example.audio_path} is not inside a per-speaker subdirectory; "
+            "run the speaker split migration before training"
+        )
+    return str(parent)
+
+
 def split_examples(
     examples: list[LidExample],
     train_ratio: float = 0.70,
@@ -69,7 +93,7 @@ def split_examples(
     if train_ratio <= 0 or validation_ratio <= 0 or test_ratio <= 0:
         raise ValueError("train_ratio, validation_ratio, and test_ratio must be positive")
 
-    groups = np.asarray([str(example.audio_path.parent) for example in examples])
+    groups = np.asarray([speaker_group(example) for example in examples])
     unique_groups = np.unique(groups)
     if len(unique_groups) < 3:
         raise ValueError("Need at least 3 speaker groups to create speaker-disjoint train, validation, and test splits")

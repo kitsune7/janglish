@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_046_c5e6fd979dbd/cs11531.flac",
+  "sentence": "The 車掌 asked everyone to step back from the closing doors.",
+  "sample_rate": 16000,
+  "duration_ms": 3337,
+  "reference_speaker": "en/speaker_046_c5e6fd979dbd.mp3",
+  "seed": 11573,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1408,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "車掌",
+      "start_sample": 1408,
+      "end_sample": 14176,
+      "start_ms": 88,
+      "end_ms": 886
+    },
+    {
+      "lang": "en",
+      "text": "asked everyone to step back from the closing doors.",
+      "start_sample": 14176,
+      "end_sample": 53391,
+      "start_ms": 886,
+      "end_ms": 3337
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shashou asked everyone to step back from the closing doors.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3097,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1608,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "車掌",
+          "start_sample": 1608,
+          "end_sample": 10136,
+          "start_ms": 100,
+          "end_ms": 634
+        },
+        {
+          "lang": "en",
+          "text": "asked everyone to step back from the closing doors.",
+          "start_sample": 10136,
+          "end_sample": 49551,
+          "start_ms": 634,
+          "end_ms": 3097
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 車掌 asked everyone to step back from the closing doors.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5760,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6101,
+          "start_ms": 0,
+          "end_ms": 381
+        },
+        {
+          "lang": "ja",
+          "text": "車掌",
+          "start_sample": 6101,
+          "end_sample": 19269,
+          "start_ms": 381,
+          "end_ms": 1204
+        },
+        {
+          "lang": "en",
+          "text": "asked everyone to step back from the closing doors.",
+          "start_sample": 19269,
+          "end_sample": 92167,
+          "start_ms": 1204,
+          "end_ms": 5760
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 167,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

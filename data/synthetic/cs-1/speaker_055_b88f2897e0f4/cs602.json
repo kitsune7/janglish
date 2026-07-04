@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_055_b88f2897e0f4/cs602.flac",
+  "sentence": "Could you help me move the 棚 against the far wall?",
+  "sample_rate": 16000,
+  "duration_ms": 2427,
+  "reference_speaker": "jp/speaker_055_b88f2897e0f4.mp3",
+  "seed": 644,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Could you help me move the",
+      "start_sample": 0,
+      "end_sample": 15511,
+      "start_ms": 0,
+      "end_ms": 969
+    },
+    {
+      "lang": "ja",
+      "text": "棚",
+      "start_sample": 15511,
+      "end_sample": 20912,
+      "start_ms": 969,
+      "end_ms": 1307
+    },
+    {
+      "lang": "en",
+      "text": "against the far wall?",
+      "start_sample": 20912,
+      "end_sample": 38826,
+      "start_ms": 1307,
+      "end_ms": 2427
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Could you help me move the tana against the far wall?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2485,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you help me move the",
+          "start_sample": 0,
+          "end_sample": 15711,
+          "start_ms": 0,
+          "end_ms": 982
+        },
+        {
+          "lang": "ja",
+          "text": "棚",
+          "start_sample": 15711,
+          "end_sample": 21643,
+          "start_ms": 982,
+          "end_ms": 1353
+        },
+        {
+          "lang": "en",
+          "text": "against the far wall?",
+          "start_sample": 21643,
+          "end_sample": 39757,
+          "start_ms": 1353,
+          "end_ms": 2485
+        }
+      ]
+    },
+    "ja": {
+      "text": "Could you help me move the 棚 against the far wall?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2880,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you help me move the",
+          "start_sample": 0,
+          "end_sample": 21589,
+          "start_ms": 0,
+          "end_ms": 1349
+        },
+        {
+          "lang": "ja",
+          "text": "棚",
+          "start_sample": 21589,
+          "end_sample": 27390,
+          "start_ms": 1349,
+          "end_ms": 1712
+        },
+        {
+          "lang": "en",
+          "text": "against the far wall?",
+          "start_sample": 27390,
+          "end_sample": 46074,
+          "start_ms": 1712,
+          "end_ms": 2880
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 122,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

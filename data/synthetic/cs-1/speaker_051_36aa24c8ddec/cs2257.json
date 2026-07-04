@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_051_36aa24c8ddec/cs2257.flac",
+  "sentence": "庭のsoilがとても乾いているから、水をあげてください。",
+  "sample_rate": 16000,
+  "duration_ms": 4650,
+  "reference_speaker": "en/speaker_051_36aa24c8ddec.mp3",
+  "seed": 2299,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "庭の",
+      "start_sample": 0,
+      "end_sample": 6551,
+      "start_ms": 0,
+      "end_ms": 409
+    },
+    {
+      "lang": "en",
+      "text": "soil",
+      "start_sample": 6551,
+      "end_sample": 17530,
+      "start_ms": 409,
+      "end_ms": 1096
+    },
+    {
+      "lang": "ja",
+      "text": "がとても乾いているから、水をあげてください。",
+      "start_sample": 17530,
+      "end_sample": 74396,
+      "start_ms": 1096,
+      "end_ms": 4650
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "niwa no soil ga totemo kawai te iru kara mizu wo age te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8093,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "庭の",
+          "start_sample": 0,
+          "end_sample": 20352,
+          "start_ms": 0,
+          "end_ms": 1272
+        },
+        {
+          "lang": "en",
+          "text": "soil",
+          "start_sample": 20352,
+          "end_sample": 31731,
+          "start_ms": 1272,
+          "end_ms": 1983
+        },
+        {
+          "lang": "ja",
+          "text": "がとても乾いているから、水をあげてください。",
+          "start_sample": 31731,
+          "end_sample": 129488,
+          "start_ms": 1983,
+          "end_ms": 8093
+        }
+      ]
+    },
+    "ja": {
+      "text": "庭のsoilがとても乾いているから、水をあげてください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4380,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "庭の",
+          "start_sample": 0,
+          "end_sample": 6751,
+          "start_ms": 0,
+          "end_ms": 422
+        },
+        {
+          "lang": "en",
+          "text": "soil",
+          "start_sample": 6751,
+          "end_sample": 13021,
+          "start_ms": 422,
+          "end_ms": 814
+        },
+        {
+          "lang": "ja",
+          "text": "がとても乾いているから、水をあげてください。",
+          "start_sample": 13021,
+          "end_sample": 70087,
+          "start_ms": 814,
+          "end_ms": 4380
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 233,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

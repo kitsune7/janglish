@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_003_7f373ff7d9ea/cs5579.flac",
+  "sentence": "今週末はoutdoorイベントがあるので、晴れてほしいです。",
+  "sample_rate": 16000,
+  "duration_ms": 4011,
+  "reference_speaker": "jp/speaker_003_7f373ff7d9ea.mp3",
+  "seed": 5621,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今週末は",
+      "start_sample": 0,
+      "end_sample": 16052,
+      "start_ms": 0,
+      "end_ms": 1003
+    },
+    {
+      "lang": "en",
+      "text": "outdoor",
+      "start_sample": 16052,
+      "end_sample": 27212,
+      "start_ms": 1003,
+      "end_ms": 1701
+    },
+    {
+      "lang": "ja",
+      "text": "イベントがあるので、晴れてほしいです。",
+      "start_sample": 27212,
+      "end_sample": 64178,
+      "start_ms": 1701,
+      "end_ms": 4011
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "konshuu matsu ha outdoor ibento ga aru no de hare te hoshii desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5960,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今週末は",
+          "start_sample": 0,
+          "end_sample": 18622,
+          "start_ms": 0,
+          "end_ms": 1164
+        },
+        {
+          "lang": "en",
+          "text": "outdoor",
+          "start_sample": 18622,
+          "end_sample": 30182,
+          "start_ms": 1164,
+          "end_ms": 1886
+        },
+        {
+          "lang": "ja",
+          "text": "イベントがあるので、晴れてほしいです。",
+          "start_sample": 30182,
+          "end_sample": 95361,
+          "start_ms": 1886,
+          "end_ms": 5960
+        }
+      ]
+    },
+    "ja": {
+      "text": "今週末はoutdoorイベントがあるので、晴れてほしいです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4224,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今週末は",
+          "start_sample": 0,
+          "end_sample": 16252,
+          "start_ms": 0,
+          "end_ms": 1016
+        },
+        {
+          "lang": "en",
+          "text": "outdoor",
+          "start_sample": 16252,
+          "end_sample": 30412,
+          "start_ms": 1016,
+          "end_ms": 1901
+        },
+        {
+          "lang": "ja",
+          "text": "イベントがあるので、晴れてほしいです。",
+          "start_sample": 30412,
+          "end_sample": 67578,
+          "start_ms": 1901,
+          "end_ms": 4224
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

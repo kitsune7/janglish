@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_090_cd7a1ed8add3/cs10.flac",
+  "sentence": "I bought a new 自転車 and 傘 yesterday.",
+  "sample_rate": 16000,
+  "duration_ms": 2490,
+  "reference_speaker": "en/speaker_090_cd7a1ed8add3.mp3",
+  "seed": 52,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I bought a new",
+      "start_sample": 0,
+      "end_sample": 10397,
+      "start_ms": 0,
+      "end_ms": 650
+    },
+    {
+      "lang": "ja",
+      "text": "自転車",
+      "start_sample": 10397,
+      "end_sample": 21080,
+      "start_ms": 650,
+      "end_ms": 1318
+    },
+    {
+      "lang": "en",
+      "text": "and",
+      "start_sample": 21080,
+      "end_sample": 22286,
+      "start_ms": 1318,
+      "end_ms": 1393
+    },
+    {
+      "lang": "ja",
+      "text": "傘",
+      "start_sample": 22286,
+      "end_sample": 31363,
+      "start_ms": 1393,
+      "end_ms": 1960
+    },
+    {
+      "lang": "en",
+      "text": "yesterday.",
+      "start_sample": 31363,
+      "end_sample": 39834,
+      "start_ms": 1960,
+      "end_ms": 2490
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I bought a new jiten kuruma and kasa yesterday.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2570,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I bought a new",
+          "start_sample": 0,
+          "end_sample": 10597,
+          "start_ms": 0,
+          "end_ms": 662
+        },
+        {
+          "lang": "ja",
+          "text": "自転車",
+          "start_sample": 10597,
+          "end_sample": 23769,
+          "start_ms": 662,
+          "end_ms": 1486
+        },
+        {
+          "lang": "en",
+          "text": "and",
+          "start_sample": 23769,
+          "end_sample": 25375,
+          "start_ms": 1486,
+          "end_ms": 1586
+        },
+        {
+          "lang": "ja",
+          "text": "傘",
+          "start_sample": 25375,
+          "end_sample": 32442,
+          "start_ms": 1586,
+          "end_ms": 2028
+        },
+        {
+          "lang": "en",
+          "text": "yesterday.",
+          "start_sample": 32442,
+          "end_sample": 41113,
+          "start_ms": 2028,
+          "end_ms": 2570
+        }
+      ]
+    },
+    "ja": {
+      "text": "I bought a new 自転車 and 傘 yesterday.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3553,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I bought a new",
+          "start_sample": 0,
+          "end_sample": 15416,
+          "start_ms": 0,
+          "end_ms": 964
+        },
+        {
+          "lang": "ja",
+          "text": "自転車",
+          "start_sample": 15416,
+          "end_sample": 26499,
+          "start_ms": 964,
+          "end_ms": 1656
+        },
+        {
+          "lang": "en",
+          "text": "and",
+          "start_sample": 26499,
+          "end_sample": 33085,
+          "start_ms": 1656,
+          "end_ms": 2068
+        },
+        {
+          "lang": "ja",
+          "text": "傘",
+          "start_sample": 33085,
+          "end_sample": 42562,
+          "start_ms": 2068,
+          "end_ms": 2660
+        },
+        {
+          "lang": "en",
+          "text": "yesterday.",
+          "start_sample": 42562,
+          "end_sample": 56854,
+          "start_ms": 2660,
+          "end_ms": 3553
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 125,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

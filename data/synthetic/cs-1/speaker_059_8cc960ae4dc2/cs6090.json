@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_059_8cc960ae4dc2/cs6090.flac",
+  "sentence": "I find it 不思議 how she never picks up but always texts right back.",
+  "sample_rate": 16000,
+  "duration_ms": 4486,
+  "reference_speaker": "en/speaker_059_8cc960ae4dc2.mp3",
+  "seed": 6132,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I find it",
+      "start_sample": 0,
+      "end_sample": 8952,
+      "start_ms": 0,
+      "end_ms": 560
+    },
+    {
+      "lang": "ja",
+      "text": "不思議",
+      "start_sample": 8952,
+      "end_sample": 15927,
+      "start_ms": 560,
+      "end_ms": 995
+    },
+    {
+      "lang": "en",
+      "text": "how she never picks up but always texts right back.",
+      "start_sample": 15927,
+      "end_sample": 71783,
+      "start_ms": 995,
+      "end_ms": 4486
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I find it fushigi how she never picks up but always texts right back.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4658,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I find it",
+          "start_sample": 0,
+          "end_sample": 9152,
+          "start_ms": 0,
+          "end_ms": 572
+        },
+        {
+          "lang": "ja",
+          "text": "不思議",
+          "start_sample": 9152,
+          "end_sample": 18468,
+          "start_ms": 572,
+          "end_ms": 1154
+        },
+        {
+          "lang": "en",
+          "text": "how she never picks up but always texts right back.",
+          "start_sample": 18468,
+          "end_sample": 74524,
+          "start_ms": 1154,
+          "end_ms": 4658
+        }
+      ]
+    },
+    "ja": {
+      "text": "I find it 不思議 how she never picks up but always texts right back.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5150,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I find it",
+          "start_sample": 0,
+          "end_sample": 10579,
+          "start_ms": 0,
+          "end_ms": 661
+        },
+        {
+          "lang": "ja",
+          "text": "不思議",
+          "start_sample": 10579,
+          "end_sample": 17954,
+          "start_ms": 661,
+          "end_ms": 1122
+        },
+        {
+          "lang": "en",
+          "text": "how she never picks up but always texts right back.",
+          "start_sample": 17954,
+          "end_sample": 82403,
+          "start_ms": 1122,
+          "end_ms": 5150
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

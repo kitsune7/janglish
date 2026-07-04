@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_026_f1fcfd0f4786/cs4568.flac",
+  "sentence": "今すぐdoctorに診てもらわないといけない。",
+  "sample_rate": 16000,
+  "duration_ms": 2601,
+  "reference_speaker": "jp/speaker_026_f1fcfd0f4786.mp3",
+  "seed": 4610,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今すぐ",
+      "start_sample": 0,
+      "end_sample": 6870,
+      "start_ms": 0,
+      "end_ms": 429
+    },
+    {
+      "lang": "en",
+      "text": "doctor",
+      "start_sample": 6870,
+      "end_sample": 18512,
+      "start_ms": 429,
+      "end_ms": 1157
+    },
+    {
+      "lang": "ja",
+      "text": "に診てもらわないといけない。",
+      "start_sample": 18512,
+      "end_sample": 41611,
+      "start_ms": 1157,
+      "end_ms": 2601
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ima sugu doctor ni shin te morawa nai to ike nai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4777,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今すぐ",
+          "start_sample": 0,
+          "end_sample": 15735,
+          "start_ms": 0,
+          "end_ms": 983
+        },
+        {
+          "lang": "en",
+          "text": "doctor",
+          "start_sample": 15735,
+          "end_sample": 27777,
+          "start_ms": 983,
+          "end_ms": 1736
+        },
+        {
+          "lang": "ja",
+          "text": "に診てもらわないといけない。",
+          "start_sample": 27777,
+          "end_sample": 76425,
+          "start_ms": 1736,
+          "end_ms": 4777
+        }
+      ]
+    },
+    "ja": {
+      "text": "今すぐdoctorに診てもらわないといけない。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2290,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今すぐ",
+          "start_sample": 0,
+          "end_sample": 7070,
+          "start_ms": 0,
+          "end_ms": 442
+        },
+        {
+          "lang": "en",
+          "text": "doctor",
+          "start_sample": 7070,
+          "end_sample": 13339,
+          "start_ms": 442,
+          "end_ms": 834
+        },
+        {
+          "lang": "ja",
+          "text": "に診てもらわないといけない。",
+          "start_sample": 13339,
+          "end_sample": 36638,
+          "start_ms": 834,
+          "end_ms": 2290
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 131,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

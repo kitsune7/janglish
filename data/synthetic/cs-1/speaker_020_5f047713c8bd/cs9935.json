@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_020_5f047713c8bd/cs9935.flac",
+  "sentence": "今日のリハーサルでsetlistを変えることにした。",
+  "sample_rate": 16000,
+  "duration_ms": 3048,
+  "reference_speaker": "en/speaker_020_5f047713c8bd.mp3",
+  "seed": 9977,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日のリハーサルで",
+      "start_sample": 0,
+      "end_sample": 16892,
+      "start_ms": 0,
+      "end_ms": 1056
+    },
+    {
+      "lang": "en",
+      "text": "setlist",
+      "start_sample": 16892,
+      "end_sample": 29953,
+      "start_ms": 1056,
+      "end_ms": 1872
+    },
+    {
+      "lang": "ja",
+      "text": "を変えることにした。",
+      "start_sample": 29953,
+      "end_sample": 48773,
+      "start_ms": 1872,
+      "end_ms": 3048
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou no rihaasaru de setlist wo kaeru koto ni shi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5569,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日のリハーサルで",
+          "start_sample": 0,
+          "end_sample": 21955,
+          "start_ms": 0,
+          "end_ms": 1372
+        },
+        {
+          "lang": "en",
+          "text": "setlist",
+          "start_sample": 21955,
+          "end_sample": 35416,
+          "start_ms": 1372,
+          "end_ms": 2214
+        },
+        {
+          "lang": "ja",
+          "text": "を変えることにした。",
+          "start_sample": 35416,
+          "end_sample": 89102,
+          "start_ms": 2214,
+          "end_ms": 5569
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日のリハーサルでsetlistを変えることにした。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2821,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日のリハーサルで",
+          "start_sample": 0,
+          "end_sample": 17092,
+          "start_ms": 0,
+          "end_ms": 1068
+        },
+        {
+          "lang": "en",
+          "text": "setlist",
+          "start_sample": 17092,
+          "end_sample": 26122,
+          "start_ms": 1068,
+          "end_ms": 1633
+        },
+        {
+          "lang": "ja",
+          "text": "を変えることにした。",
+          "start_sample": 26122,
+          "end_sample": 45142,
+          "start_ms": 1633,
+          "end_ms": 2821
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 153,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

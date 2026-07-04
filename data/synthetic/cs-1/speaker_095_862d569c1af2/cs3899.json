@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_095_862d569c1af2/cs3899.flac",
+  "sentence": "Are you two still in that awkward 気まずい phase after the argument?",
+  "sample_rate": 16000,
+  "duration_ms": 3181,
+  "reference_speaker": "en/speaker_095_862d569c1af2.mp3",
+  "seed": 3941,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Are you two still in that awkward",
+      "start_sample": 0,
+      "end_sample": 20995,
+      "start_ms": 0,
+      "end_ms": 1312
+    },
+    {
+      "lang": "ja",
+      "text": "気まずい",
+      "start_sample": 20995,
+      "end_sample": 31021,
+      "start_ms": 1312,
+      "end_ms": 1939
+    },
+    {
+      "lang": "en",
+      "text": "phase after the argument?",
+      "start_sample": 31021,
+      "end_sample": 50893,
+      "start_ms": 1939,
+      "end_ms": 3181
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Are you two still in that awkward kimazui phase after the argument?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3051,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Are you two still in that awkward",
+          "start_sample": 0,
+          "end_sample": 21195,
+          "start_ms": 0,
+          "end_ms": 1325
+        },
+        {
+          "lang": "ja",
+          "text": "気まずい",
+          "start_sample": 21195,
+          "end_sample": 28743,
+          "start_ms": 1325,
+          "end_ms": 1796
+        },
+        {
+          "lang": "en",
+          "text": "phase after the argument?",
+          "start_sample": 28743,
+          "end_sample": 48815,
+          "start_ms": 1796,
+          "end_ms": 3051
+        }
+      ]
+    },
+    "ja": {
+      "text": "Are you two still in that awkward 気まずい phase after the argument?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4411,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Are you two still in that awkward",
+          "start_sample": 0,
+          "end_sample": 34002,
+          "start_ms": 0,
+          "end_ms": 2125
+        },
+        {
+          "lang": "ja",
+          "text": "気まずい",
+          "start_sample": 34002,
+          "end_sample": 44428,
+          "start_ms": 2125,
+          "end_ms": 2777
+        },
+        {
+          "lang": "en",
+          "text": "phase after the argument?",
+          "start_sample": 44428,
+          "end_sample": 70571,
+          "start_ms": 2777,
+          "end_ms": 4411
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

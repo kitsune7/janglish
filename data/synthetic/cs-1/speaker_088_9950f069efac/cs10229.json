@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_088_9950f069efac/cs10229.flac",
+  "sentence": "The 右折 lane was blocked by a delivery truck for twenty minutes.",
+  "sample_rate": 16000,
+  "duration_ms": 3507,
+  "reference_speaker": "en/speaker_088_9950f069efac.mp3",
+  "seed": 10271,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1403,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "右折",
+      "start_sample": 1403,
+      "end_sample": 10453,
+      "start_ms": 88,
+      "end_ms": 653
+    },
+    {
+      "lang": "en",
+      "text": "lane was blocked by a delivery truck for twenty minutes.",
+      "start_sample": 10453,
+      "end_sample": 56115,
+      "start_ms": 653,
+      "end_ms": 3507
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The usetsu lane was blocked by a delivery truck for twenty minutes.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3408,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1603,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "右折",
+          "start_sample": 1603,
+          "end_sample": 8658,
+          "start_ms": 100,
+          "end_ms": 541
+        },
+        {
+          "lang": "en",
+          "text": "lane was blocked by a delivery truck for twenty minutes.",
+          "start_sample": 8658,
+          "end_sample": 54520,
+          "start_ms": 541,
+          "end_ms": 3408
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 右折 lane was blocked by a delivery truck for twenty minutes.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5766,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3523,
+          "start_ms": 0,
+          "end_ms": 220
+        },
+        {
+          "lang": "ja",
+          "text": "右折",
+          "start_sample": 3523,
+          "end_sample": 12973,
+          "start_ms": 220,
+          "end_ms": 811
+        },
+        {
+          "lang": "en",
+          "text": "lane was blocked by a delivery truck for twenty minutes.",
+          "start_sample": 12973,
+          "end_sample": 92261,
+          "start_ms": 811,
+          "end_ms": 5766
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 176,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

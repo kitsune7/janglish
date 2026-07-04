@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_055_b88f2897e0f4/cs6736.flac",
+  "sentence": "We waited over forty minutes, but the 出来立て pasta was completely worth it.",
+  "sample_rate": 16000,
+  "duration_ms": 4696,
+  "reference_speaker": "jp/speaker_055_b88f2897e0f4.mp3",
+  "seed": 6778,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We waited over forty minutes, but the",
+      "start_sample": 0,
+      "end_sample": 39459,
+      "start_ms": 0,
+      "end_ms": 2466
+    },
+    {
+      "lang": "ja",
+      "text": "出来立て",
+      "start_sample": 39459,
+      "end_sample": 46917,
+      "start_ms": 2466,
+      "end_ms": 2932
+    },
+    {
+      "lang": "en",
+      "text": "pasta was completely worth it.",
+      "start_sample": 46917,
+      "end_sample": 75134,
+      "start_ms": 2932,
+      "end_ms": 4696
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We waited over forty minutes, but the dekitatete pasta was completely worth it.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4857,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We waited over forty minutes, but the",
+          "start_sample": 0,
+          "end_sample": 39659,
+          "start_ms": 0,
+          "end_ms": 2479
+        },
+        {
+          "lang": "ja",
+          "text": "出来立て",
+          "start_sample": 39659,
+          "end_sample": 49293,
+          "start_ms": 2479,
+          "end_ms": 3081
+        },
+        {
+          "lang": "en",
+          "text": "pasta was completely worth it.",
+          "start_sample": 49293,
+          "end_sample": 77710,
+          "start_ms": 3081,
+          "end_ms": 4857
+        }
+      ]
+    },
+    "ja": {
+      "text": "We waited over forty minutes, but the 出来立て pasta was completely worth it.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4710,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We waited over forty minutes, but the",
+          "start_sample": 0,
+          "end_sample": 33192,
+          "start_ms": 0,
+          "end_ms": 2074
+        },
+        {
+          "lang": "ja",
+          "text": "出来立て",
+          "start_sample": 33192,
+          "end_sample": 41050,
+          "start_ms": 2074,
+          "end_ms": 2566
+        },
+        {
+          "lang": "en",
+          "text": "pasta was completely worth it.",
+          "start_sample": 41050,
+          "end_sample": 75363,
+          "start_ms": 2566,
+          "end_ms": 4710
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 235,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

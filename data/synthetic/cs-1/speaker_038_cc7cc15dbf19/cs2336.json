@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_038_cc7cc15dbf19/cs2336.flac",
+  "sentence": "窓をsqueegeeで拭くと、すごくきれいになるよ。",
+  "sample_rate": 16000,
+  "duration_ms": 2907,
+  "reference_speaker": "en/speaker_038_cc7cc15dbf19.mp3",
+  "seed": 2378,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "窓を",
+      "start_sample": 0,
+      "end_sample": 5599,
+      "start_ms": 0,
+      "end_ms": 350
+    },
+    {
+      "lang": "en",
+      "text": "squeegee",
+      "start_sample": 5599,
+      "end_sample": 14980,
+      "start_ms": 350,
+      "end_ms": 936
+    },
+    {
+      "lang": "ja",
+      "text": "で拭くと、すごくきれいになるよ。",
+      "start_sample": 14980,
+      "end_sample": 46515,
+      "start_ms": 936,
+      "end_ms": 2907
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mado wo squeegee de fuku to sugoku kirei ni naru yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7857,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "窓を",
+          "start_sample": 0,
+          "end_sample": 34152,
+          "start_ms": 0,
+          "end_ms": 2134
+        },
+        {
+          "lang": "en",
+          "text": "squeegee",
+          "start_sample": 34152,
+          "end_sample": 43933,
+          "start_ms": 2134,
+          "end_ms": 2746
+        },
+        {
+          "lang": "ja",
+          "text": "で拭くと、すごくきれいになるよ。",
+          "start_sample": 43933,
+          "end_sample": 125706,
+          "start_ms": 2746,
+          "end_ms": 7857
+        }
+      ]
+    },
+    "ja": {
+      "text": "窓をsqueegeeで拭くと、すごくきれいになるよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2900,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "窓を",
+          "start_sample": 0,
+          "end_sample": 5799,
+          "start_ms": 0,
+          "end_ms": 362
+        },
+        {
+          "lang": "en",
+          "text": "squeegee",
+          "start_sample": 5799,
+          "end_sample": 14661,
+          "start_ms": 362,
+          "end_ms": 916
+        },
+        {
+          "lang": "ja",
+          "text": "で拭くと、すごくきれいになるよ。",
+          "start_sample": 14661,
+          "end_sample": 46396,
+          "start_ms": 916,
+          "end_ms": 2900
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 146,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

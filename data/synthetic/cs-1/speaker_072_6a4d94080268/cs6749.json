@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_072_6a4d94080268/cs6749.flac",
+  "sentence": "I noticed the 内装 has completely changed since the last time I came here.",
+  "sample_rate": 16000,
+  "duration_ms": 4041,
+  "reference_speaker": "jp/speaker_072_6a4d94080268.mp3",
+  "seed": 6791,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I noticed the",
+      "start_sample": 0,
+      "end_sample": 9288,
+      "start_ms": 0,
+      "end_ms": 580
+    },
+    {
+      "lang": "ja",
+      "text": "内装",
+      "start_sample": 9288,
+      "end_sample": 16265,
+      "start_ms": 580,
+      "end_ms": 1017
+    },
+    {
+      "lang": "en",
+      "text": "has completely changed since the last time I came here.",
+      "start_sample": 16265,
+      "end_sample": 64656,
+      "start_ms": 1017,
+      "end_ms": 4041
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I noticed the naisou has completely changed since the last time I came here.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4103,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I noticed the",
+          "start_sample": 0,
+          "end_sample": 9488,
+          "start_ms": 0,
+          "end_ms": 593
+        },
+        {
+          "lang": "ja",
+          "text": "内装",
+          "start_sample": 9488,
+          "end_sample": 17051,
+          "start_ms": 593,
+          "end_ms": 1066
+        },
+        {
+          "lang": "en",
+          "text": "has completely changed since the last time I came here.",
+          "start_sample": 17051,
+          "end_sample": 65642,
+          "start_ms": 1066,
+          "end_ms": 4103
+        }
+      ]
+    },
+    "ja": {
+      "text": "I noticed the 内装 has completely changed since the last time I came here.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4570,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I noticed the",
+          "start_sample": 0,
+          "end_sample": 13950,
+          "start_ms": 0,
+          "end_ms": 872
+        },
+        {
+          "lang": "ja",
+          "text": "内装",
+          "start_sample": 13950,
+          "end_sample": 21327,
+          "start_ms": 872,
+          "end_ms": 1333
+        },
+        {
+          "lang": "en",
+          "text": "has completely changed since the last time I came here.",
+          "start_sample": 21327,
+          "end_sample": 73127,
+          "start_ms": 1333,
+          "end_ms": 4570
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

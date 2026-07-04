@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_080_2ec83f7b270e/cs5863.flac",
+  "sentence": "She asked the 店員 to hold the last dress in her size until Friday.",
+  "sample_rate": 16000,
+  "duration_ms": 4477,
+  "reference_speaker": "en/speaker_080_2ec83f7b270e.mp3",
+  "seed": 5905,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She asked the",
+      "start_sample": 0,
+      "end_sample": 9095,
+      "start_ms": 0,
+      "end_ms": 568
+    },
+    {
+      "lang": "ja",
+      "text": "店員",
+      "start_sample": 9095,
+      "end_sample": 21512,
+      "start_ms": 568,
+      "end_ms": 1344
+    },
+    {
+      "lang": "en",
+      "text": "to hold the last dress in her size until Friday.",
+      "start_sample": 21512,
+      "end_sample": 71637,
+      "start_ms": 1344,
+      "end_ms": 4477
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She asked the ten'in to hold the last dress in her size until Friday.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4147,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She asked the",
+          "start_sample": 0,
+          "end_sample": 9295,
+          "start_ms": 0,
+          "end_ms": 581
+        },
+        {
+          "lang": "ja",
+          "text": "店員",
+          "start_sample": 9295,
+          "end_sample": 16027,
+          "start_ms": 581,
+          "end_ms": 1002
+        },
+        {
+          "lang": "en",
+          "text": "to hold the last dress in her size until Friday.",
+          "start_sample": 16027,
+          "end_sample": 66352,
+          "start_ms": 1002,
+          "end_ms": 4147
+        }
+      ]
+    },
+    "ja": {
+      "text": "She asked the 店員 to hold the last dress in her size until Friday.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6268,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She asked the",
+          "start_sample": 0,
+          "end_sample": 21308,
+          "start_ms": 0,
+          "end_ms": 1332
+        },
+        {
+          "lang": "ja",
+          "text": "店員",
+          "start_sample": 21308,
+          "end_sample": 34125,
+          "start_ms": 1332,
+          "end_ms": 2133
+        },
+        {
+          "lang": "en",
+          "text": "to hold the last dress in her size until Friday.",
+          "start_sample": 34125,
+          "end_sample": 100294,
+          "start_ms": 2133,
+          "end_ms": 6268
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 224,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

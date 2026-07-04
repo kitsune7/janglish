@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_086_b5416e90d3b7/cs5441.flac",
+  "sentence": "このlensは古くて、もう使えない。",
+  "sample_rate": 16000,
+  "duration_ms": 2211,
+  "reference_speaker": "jp/speaker_086_b5416e90d3b7.mp3",
+  "seed": 5483,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3496,
+      "start_ms": 0,
+      "end_ms": 218
+    },
+    {
+      "lang": "en",
+      "text": "lens",
+      "start_sample": 3496,
+      "end_sample": 7292,
+      "start_ms": 218,
+      "end_ms": 456
+    },
+    {
+      "lang": "ja",
+      "text": "は古くて、もう使えない。",
+      "start_sample": 7292,
+      "end_sample": 35373,
+      "start_ms": 456,
+      "end_ms": 2211
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono lens ha furuku te mou tsukae nai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2622,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3873,
+          "start_ms": 0,
+          "end_ms": 242
+        },
+        {
+          "lang": "en",
+          "text": "lens",
+          "start_sample": 3873,
+          "end_sample": 8069,
+          "start_ms": 242,
+          "end_ms": 504
+        },
+        {
+          "lang": "ja",
+          "text": "は古くて、もう使えない。",
+          "start_sample": 8069,
+          "end_sample": 41953,
+          "start_ms": 504,
+          "end_ms": 2622
+        }
+      ]
+    },
+    "ja": {
+      "text": "このlensは古くて、もう使えない。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2310,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3696,
+          "start_ms": 0,
+          "end_ms": 231
+        },
+        {
+          "lang": "en",
+          "text": "lens",
+          "start_sample": 3696,
+          "end_sample": 8678,
+          "start_ms": 231,
+          "end_ms": 542
+        },
+        {
+          "lang": "ja",
+          "text": "は古くて、もう使えない。",
+          "start_sample": 8678,
+          "end_sample": 36959,
+          "start_ms": 542,
+          "end_ms": 2310
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 111,
+  "frame_labels": "jjjjjjjjjjjeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

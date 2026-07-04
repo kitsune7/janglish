@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_022_b672c364242e/cs11672.flac",
+  "sentence": "highlighterで重要な部分をマークした。",
+  "sample_rate": 16000,
+  "duration_ms": 2836,
+  "reference_speaker": "jp/speaker_022_b672c364242e.mp3",
+  "seed": 11714,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "highlighter",
+      "start_sample": 0,
+      "end_sample": 15363,
+      "start_ms": 0,
+      "end_ms": 960
+    },
+    {
+      "lang": "ja",
+      "text": "で重要な部分をマークした。",
+      "start_sample": 15363,
+      "end_sample": 45378,
+      "start_ms": 960,
+      "end_ms": 2836
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "highlighter de juuyou na bubun wo maaku shi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4813,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "highlighter",
+          "start_sample": 0,
+          "end_sample": 15563,
+          "start_ms": 0,
+          "end_ms": 973
+        },
+        {
+          "lang": "ja",
+          "text": "で重要な部分をマークした。",
+          "start_sample": 15563,
+          "end_sample": 77015,
+          "start_ms": 973,
+          "end_ms": 4813
+        }
+      ]
+    },
+    "ja": {
+      "text": "highlighterで重要な部分をマークした。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2471,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "highlighter",
+          "start_sample": 0,
+          "end_sample": 9323,
+          "start_ms": 0,
+          "end_ms": 583
+        },
+        {
+          "lang": "ja",
+          "text": "で重要な部分をマークした。",
+          "start_sample": 9323,
+          "end_sample": 39538,
+          "start_ms": 583,
+          "end_ms": 2471
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 142,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

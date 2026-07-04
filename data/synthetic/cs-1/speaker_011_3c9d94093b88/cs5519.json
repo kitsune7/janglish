@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_011_3c9d94093b88/cs5519.flac",
+  "sentence": "The 伝記 about that jazz musician made me want to learn everything about the era.",
+  "sample_rate": 16000,
+  "duration_ms": 4527,
+  "reference_speaker": "jp/speaker_011_3c9d94093b88.mp3",
+  "seed": 5561,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1245,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "伝記",
+      "start_sample": 1245,
+      "end_sample": 9186,
+      "start_ms": 78,
+      "end_ms": 574
+    },
+    {
+      "lang": "en",
+      "text": "about that jazz musician made me want to learn everything about the era.",
+      "start_sample": 9186,
+      "end_sample": 72430,
+      "start_ms": 574,
+      "end_ms": 4527
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The denki about that jazz musician made me want to learn everything about the era.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4678,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1445,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "伝記",
+          "start_sample": 1445,
+          "end_sample": 11404,
+          "start_ms": 90,
+          "end_ms": 713
+        },
+        {
+          "lang": "en",
+          "text": "about that jazz musician made me want to learn everything about the era.",
+          "start_sample": 11404,
+          "end_sample": 74848,
+          "start_ms": 713,
+          "end_ms": 4678
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 伝記 about that jazz musician made me want to learn everything about the era.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5193,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4007,
+          "start_ms": 0,
+          "end_ms": 250
+        },
+        {
+          "lang": "ja",
+          "text": "伝記",
+          "start_sample": 4007,
+          "end_sample": 12348,
+          "start_ms": 250,
+          "end_ms": 772
+        },
+        {
+          "lang": "en",
+          "text": "about that jazz musician made me want to learn everything about the era.",
+          "start_sample": 12348,
+          "end_sample": 83082,
+          "start_ms": 772,
+          "end_ms": 5193
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 227,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

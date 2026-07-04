@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_001_e5689aea6ff3/cs1853.flac",
+  "sentence": "お母さんはいつもfreshなハーブを庭で育てている。",
+  "sample_rate": 16000,
+  "duration_ms": 2943,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 1895,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "お母さんはいつも",
+      "start_sample": 0,
+      "end_sample": 14271,
+      "start_ms": 0,
+      "end_ms": 892
+    },
+    {
+      "lang": "en",
+      "text": "fresh",
+      "start_sample": 14271,
+      "end_sample": 23005,
+      "start_ms": 892,
+      "end_ms": 1438
+    },
+    {
+      "lang": "ja",
+      "text": "なハーブを庭で育てている。",
+      "start_sample": 23005,
+      "end_sample": 47089,
+      "start_ms": 1438,
+      "end_ms": 2943
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "o haha san ha itsu mo fresh na haabu wo niwa de sodate te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6089,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お母さんはいつも",
+          "start_sample": 0,
+          "end_sample": 34610,
+          "start_ms": 0,
+          "end_ms": 2163
+        },
+        {
+          "lang": "en",
+          "text": "fresh",
+          "start_sample": 34610,
+          "end_sample": 43744,
+          "start_ms": 2163,
+          "end_ms": 2734
+        },
+        {
+          "lang": "ja",
+          "text": "なハーブを庭で育てている。",
+          "start_sample": 43744,
+          "end_sample": 97423,
+          "start_ms": 2734,
+          "end_ms": 6089
+        }
+      ]
+    },
+    "ja": {
+      "text": "お母さんはいつもfreshなハーブを庭で育てている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2734,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お母さんはいつも",
+          "start_sample": 0,
+          "end_sample": 14471,
+          "start_ms": 0,
+          "end_ms": 904
+        },
+        {
+          "lang": "en",
+          "text": "fresh",
+          "start_sample": 14471,
+          "end_sample": 19457,
+          "start_ms": 904,
+          "end_ms": 1216
+        },
+        {
+          "lang": "ja",
+          "text": "なハーブを庭で育てている。",
+          "start_sample": 19457,
+          "end_sample": 43741,
+          "start_ms": 1216,
+          "end_ms": 2734
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 148,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

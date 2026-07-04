@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_035_aa6a3aa058c0/cs9379.flac",
+  "sentence": "会場全体がone momentのうちに静まり返った。",
+  "sample_rate": 16000,
+  "duration_ms": 3048,
+  "reference_speaker": "en/speaker_035_aa6a3aa058c0.mp3",
+  "seed": 9421,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "会場全体が",
+      "start_sample": 0,
+      "end_sample": 16164,
+      "start_ms": 0,
+      "end_ms": 1010
+    },
+    {
+      "lang": "en",
+      "text": "one moment",
+      "start_sample": 16164,
+      "end_sample": 25710,
+      "start_ms": 1010,
+      "end_ms": 1607
+    },
+    {
+      "lang": "ja",
+      "text": "のうちに静まり返った。",
+      "start_sample": 25710,
+      "end_sample": 48773,
+      "start_ms": 1607,
+      "end_ms": 3048
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kaijou zentai ga one moment no uchi ni shizumarikaetsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4833,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "会場全体が",
+          "start_sample": 0,
+          "end_sample": 28716,
+          "start_ms": 0,
+          "end_ms": 1795
+        },
+        {
+          "lang": "en",
+          "text": "one moment",
+          "start_sample": 28716,
+          "end_sample": 38662,
+          "start_ms": 1795,
+          "end_ms": 2416
+        },
+        {
+          "lang": "ja",
+          "text": "のうちに静まり返った。",
+          "start_sample": 38662,
+          "end_sample": 77322,
+          "start_ms": 2416,
+          "end_ms": 4833
+        }
+      ]
+    },
+    "ja": {
+      "text": "会場全体がone momentのうちに静まり返った。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3169,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "会場全体が",
+          "start_sample": 0,
+          "end_sample": 16364,
+          "start_ms": 0,
+          "end_ms": 1023
+        },
+        {
+          "lang": "en",
+          "text": "one moment",
+          "start_sample": 16364,
+          "end_sample": 27435,
+          "start_ms": 1023,
+          "end_ms": 1715
+        },
+        {
+          "lang": "ja",
+          "text": "のうちに静まり返った。",
+          "start_sample": 27435,
+          "end_sample": 50698,
+          "start_ms": 1715,
+          "end_ms": 3169
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 153,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

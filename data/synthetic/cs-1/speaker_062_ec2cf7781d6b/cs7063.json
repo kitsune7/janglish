@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_062_ec2cf7781d6b/cs7063.flac",
+  "sentence": "He looked so 青白い after the blood draw that the nurse had him lie down.",
+  "sample_rate": 16000,
+  "duration_ms": 4682,
+  "reference_speaker": "jp/speaker_062_ec2cf7781d6b.mp3",
+  "seed": 7105,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He looked so",
+      "start_sample": 0,
+      "end_sample": 8780,
+      "start_ms": 0,
+      "end_ms": 549
+    },
+    {
+      "lang": "ja",
+      "text": "青白い",
+      "start_sample": 8780,
+      "end_sample": 21542,
+      "start_ms": 549,
+      "end_ms": 1346
+    },
+    {
+      "lang": "en",
+      "text": "after the blood draw that the nurse had him lie down.",
+      "start_sample": 21542,
+      "end_sample": 74904,
+      "start_ms": 1346,
+      "end_ms": 4682
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He looked so aojiroi after the blood draw that the nurse had him lie down.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4991,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He looked so",
+          "start_sample": 0,
+          "end_sample": 8980,
+          "start_ms": 0,
+          "end_ms": 561
+        },
+        {
+          "lang": "ja",
+          "text": "青白い",
+          "start_sample": 8980,
+          "end_sample": 26301,
+          "start_ms": 561,
+          "end_ms": 1644
+        },
+        {
+          "lang": "en",
+          "text": "after the blood draw that the nurse had him lie down.",
+          "start_sample": 26301,
+          "end_sample": 79863,
+          "start_ms": 1644,
+          "end_ms": 4991
+        }
+      ]
+    },
+    "ja": {
+      "text": "He looked so 青白い after the blood draw that the nurse had him lie down.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4895,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He looked so",
+          "start_sample": 0,
+          "end_sample": 12358,
+          "start_ms": 0,
+          "end_ms": 772
+        },
+        {
+          "lang": "ja",
+          "text": "青白い",
+          "start_sample": 12358,
+          "end_sample": 25520,
+          "start_ms": 772,
+          "end_ms": 1595
+        },
+        {
+          "lang": "en",
+          "text": "after the blood draw that the nurse had him lie down.",
+          "start_sample": 25520,
+          "end_sample": 78324,
+          "start_ms": 1595,
+          "end_ms": 4895
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 235,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

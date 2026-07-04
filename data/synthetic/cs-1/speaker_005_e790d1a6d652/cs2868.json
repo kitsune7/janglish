@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_005_e790d1a6d652/cs2868.flac",
+  "sentence": "The lighting in here is so 暗い that I can barely read the menu.",
+  "sample_rate": 16000,
+  "duration_ms": 3484,
+  "reference_speaker": "en/speaker_005_e790d1a6d652.mp3",
+  "seed": 2910,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The lighting in here is so",
+      "start_sample": 0,
+      "end_sample": 20531,
+      "start_ms": 0,
+      "end_ms": 1283
+    },
+    {
+      "lang": "ja",
+      "text": "暗い",
+      "start_sample": 20531,
+      "end_sample": 26866,
+      "start_ms": 1283,
+      "end_ms": 1679
+    },
+    {
+      "lang": "en",
+      "text": "that I can barely read the menu.",
+      "start_sample": 26866,
+      "end_sample": 55751,
+      "start_ms": 1679,
+      "end_ms": 3484
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The lighting in here is so kurai that I can barely read the menu.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3897,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The lighting in here is so",
+          "start_sample": 0,
+          "end_sample": 20731,
+          "start_ms": 0,
+          "end_ms": 1296
+        },
+        {
+          "lang": "ja",
+          "text": "暗い",
+          "start_sample": 20731,
+          "end_sample": 33266,
+          "start_ms": 1296,
+          "end_ms": 2079
+        },
+        {
+          "lang": "en",
+          "text": "that I can barely read the menu.",
+          "start_sample": 33266,
+          "end_sample": 62351,
+          "start_ms": 2079,
+          "end_ms": 3897
+        }
+      ]
+    },
+    "ja": {
+      "text": "The lighting in here is so 暗い that I can barely read the menu.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7797,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The lighting in here is so",
+          "start_sample": 0,
+          "end_sample": 46502,
+          "start_ms": 0,
+          "end_ms": 2906
+        },
+        {
+          "lang": "ja",
+          "text": "暗い",
+          "start_sample": 46502,
+          "end_sample": 53237,
+          "start_ms": 2906,
+          "end_ms": 3327
+        },
+        {
+          "lang": "en",
+          "text": "that I can barely read the menu.",
+          "start_sample": 53237,
+          "end_sample": 124755,
+          "start_ms": 3327,
+          "end_ms": 7797
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

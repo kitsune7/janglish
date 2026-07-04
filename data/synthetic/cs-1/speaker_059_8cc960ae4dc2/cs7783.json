@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_059_8cc960ae4dc2/cs7783.flac",
+  "sentence": "今日みたいなfoggyな日は運転に気をつけたほうがいい。",
+  "sample_rate": 16000,
+  "duration_ms": 3334,
+  "reference_speaker": "en/speaker_059_8cc960ae4dc2.mp3",
+  "seed": 7825,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日みたいな",
+      "start_sample": 0,
+      "end_sample": 9285,
+      "start_ms": 0,
+      "end_ms": 580
+    },
+    {
+      "lang": "en",
+      "text": "foggy",
+      "start_sample": 9285,
+      "end_sample": 20098,
+      "start_ms": 580,
+      "end_ms": 1256
+    },
+    {
+      "lang": "ja",
+      "text": "な日は運転に気をつけたほうがいい。",
+      "start_sample": 20098,
+      "end_sample": 53336,
+      "start_ms": 1256,
+      "end_ms": 3334
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou mitai na foggy na nichi ha unten ni ki wo tsuke ta hou ga ii",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7008,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日みたいな",
+          "start_sample": 0,
+          "end_sample": 38603,
+          "start_ms": 0,
+          "end_ms": 2413
+        },
+        {
+          "lang": "en",
+          "text": "foggy",
+          "start_sample": 38603,
+          "end_sample": 49816,
+          "start_ms": 2413,
+          "end_ms": 3114
+        },
+        {
+          "lang": "ja",
+          "text": "な日は運転に気をつけたほうがいい。",
+          "start_sample": 49816,
+          "end_sample": 112128,
+          "start_ms": 3114,
+          "end_ms": 7008
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日みたいなfoggyな日は運転に気をつけたほうがいい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3075,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日みたいな",
+          "start_sample": 0,
+          "end_sample": 9485,
+          "start_ms": 0,
+          "end_ms": 593
+        },
+        {
+          "lang": "en",
+          "text": "foggy",
+          "start_sample": 9485,
+          "end_sample": 15756,
+          "start_ms": 593,
+          "end_ms": 985
+        },
+        {
+          "lang": "ja",
+          "text": "な日は運転に気をつけたほうがいい。",
+          "start_sample": 15756,
+          "end_sample": 49194,
+          "start_ms": 985,
+          "end_ms": 3075
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 167,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

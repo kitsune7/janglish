@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_024_53a01817659b/cs8204.flac",
+  "sentence": "今月はprojectが重なっていてとても忙しい。",
+  "sample_rate": 16000,
+  "duration_ms": 3128,
+  "reference_speaker": "jp/speaker_024_53a01817659b.mp3",
+  "seed": 8246,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今月は",
+      "start_sample": 0,
+      "end_sample": 7850,
+      "start_ms": 0,
+      "end_ms": 491
+    },
+    {
+      "lang": "en",
+      "text": "project",
+      "start_sample": 7850,
+      "end_sample": 17412,
+      "start_ms": 491,
+      "end_ms": 1088
+    },
+    {
+      "lang": "ja",
+      "text": "が重なっていてとても忙しい。",
+      "start_sample": 17412,
+      "end_sample": 50051,
+      "start_ms": 1088,
+      "end_ms": 3128
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kongetsu ha project ga kasanatsu te i te totemo isogashii",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5503,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今月は",
+          "start_sample": 0,
+          "end_sample": 20888,
+          "start_ms": 0,
+          "end_ms": 1306
+        },
+        {
+          "lang": "en",
+          "text": "project",
+          "start_sample": 20888,
+          "end_sample": 30850,
+          "start_ms": 1306,
+          "end_ms": 1928
+        },
+        {
+          "lang": "ja",
+          "text": "が重なっていてとても忙しい。",
+          "start_sample": 30850,
+          "end_sample": 88049,
+          "start_ms": 1928,
+          "end_ms": 5503
+        }
+      ]
+    },
+    "ja": {
+      "text": "今月はprojectが重なっていてとても忙しい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3079,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今月は",
+          "start_sample": 0,
+          "end_sample": 8050,
+          "start_ms": 0,
+          "end_ms": 503
+        },
+        {
+          "lang": "en",
+          "text": "project",
+          "start_sample": 8050,
+          "end_sample": 16422,
+          "start_ms": 503,
+          "end_ms": 1026
+        },
+        {
+          "lang": "ja",
+          "text": "が重なっていてとても忙しい。",
+          "start_sample": 16422,
+          "end_sample": 49261,
+          "start_ms": 1026,
+          "end_ms": 3079
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 157,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

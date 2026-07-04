@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_040_473e7a57e696/cs10873.flac",
+  "sentence": "The children's 仮装 were so creative that the judges couldn't pick a winner.",
+  "sample_rate": 16000,
+  "duration_ms": 4967,
+  "reference_speaker": "jp/speaker_040_473e7a57e696.mp3",
+  "seed": 10915,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The children's",
+      "start_sample": 0,
+      "end_sample": 8930,
+      "start_ms": 0,
+      "end_ms": 558
+    },
+    {
+      "lang": "ja",
+      "text": "仮装",
+      "start_sample": 8930,
+      "end_sample": 16549,
+      "start_ms": 558,
+      "end_ms": 1034
+    },
+    {
+      "lang": "en",
+      "text": "were so creative that the judges couldn't pick a winner.",
+      "start_sample": 16549,
+      "end_sample": 79467,
+      "start_ms": 1034,
+      "end_ms": 4967
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The children's kasou were so creative that the judges couldn't pick a winner.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5206,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The children's",
+          "start_sample": 0,
+          "end_sample": 9130,
+          "start_ms": 0,
+          "end_ms": 571
+        },
+        {
+          "lang": "ja",
+          "text": "仮装",
+          "start_sample": 9130,
+          "end_sample": 20184,
+          "start_ms": 571,
+          "end_ms": 1262
+        },
+        {
+          "lang": "en",
+          "text": "were so creative that the judges couldn't pick a winner.",
+          "start_sample": 20184,
+          "end_sample": 83302,
+          "start_ms": 1262,
+          "end_ms": 5206
+        }
+      ]
+    },
+    "ja": {
+      "text": "The children's 仮装 were so creative that the judges couldn't pick a winner.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6395,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The children's",
+          "start_sample": 0,
+          "end_sample": 15878,
+          "start_ms": 0,
+          "end_ms": 992
+        },
+        {
+          "lang": "ja",
+          "text": "仮装",
+          "start_sample": 15878,
+          "end_sample": 23897,
+          "start_ms": 992,
+          "end_ms": 1494
+        },
+        {
+          "lang": "en",
+          "text": "were so creative that the judges couldn't pick a winner.",
+          "start_sample": 23897,
+          "end_sample": 102327,
+          "start_ms": 1494,
+          "end_ms": 6395
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 249,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

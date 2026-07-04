@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_092_0f181b6e11f2/cs4215.flac",
+  "sentence": "She described the texture of fresh soil as 柔らかい and alive.",
+  "sample_rate": 16000,
+  "duration_ms": 5435,
+  "reference_speaker": "en/speaker_092_0f181b6e11f2.mp3",
+  "seed": 4257,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She described the texture of fresh soil as",
+      "start_sample": 0,
+      "end_sample": 53451,
+      "start_ms": 0,
+      "end_ms": 3341
+    },
+    {
+      "lang": "ja",
+      "text": "柔らかい",
+      "start_sample": 53451,
+      "end_sample": 70832,
+      "start_ms": 3341,
+      "end_ms": 4427
+    },
+    {
+      "lang": "en",
+      "text": "and alive.",
+      "start_sample": 70832,
+      "end_sample": 86967,
+      "start_ms": 4427,
+      "end_ms": 5435
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She described the texture of fresh soil as yawarakai and alive.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5365,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She described the texture of fresh soil as",
+          "start_sample": 0,
+          "end_sample": 53651,
+          "start_ms": 0,
+          "end_ms": 3353
+        },
+        {
+          "lang": "ja",
+          "text": "柔らかい",
+          "start_sample": 53651,
+          "end_sample": 69506,
+          "start_ms": 3353,
+          "end_ms": 4344
+        },
+        {
+          "lang": "en",
+          "text": "and alive.",
+          "start_sample": 69506,
+          "end_sample": 85841,
+          "start_ms": 4344,
+          "end_ms": 5365
+        }
+      ]
+    },
+    "ja": {
+      "text": "She described the texture of fresh soil as 柔らかい and alive.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6928,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She described the texture of fresh soil as",
+          "start_sample": 0,
+          "end_sample": 78007,
+          "start_ms": 0,
+          "end_ms": 4875
+        },
+        {
+          "lang": "ja",
+          "text": "柔らかい",
+          "start_sample": 78007,
+          "end_sample": 95788,
+          "start_ms": 4875,
+          "end_ms": 5987
+        },
+        {
+          "lang": "en",
+          "text": "and alive.",
+          "start_sample": 95788,
+          "end_sample": 110844,
+          "start_ms": 5987,
+          "end_ms": 6928
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 272,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

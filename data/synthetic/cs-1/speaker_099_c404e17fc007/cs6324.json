@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_099_c404e17fc007/cs6324.flac",
+  "sentence": "I asked the clerk if they had the 在庫 in the back, but they were sold out.",
+  "sample_rate": 16000,
+  "duration_ms": 3392,
+  "reference_speaker": "jp/speaker_099_c404e17fc007.mp3",
+  "seed": 6366,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I asked the clerk if they had the",
+      "start_sample": 0,
+      "end_sample": 20192,
+      "start_ms": 0,
+      "end_ms": 1262
+    },
+    {
+      "lang": "ja",
+      "text": "在庫",
+      "start_sample": 20192,
+      "end_sample": 26208,
+      "start_ms": 1262,
+      "end_ms": 1638
+    },
+    {
+      "lang": "en",
+      "text": "in the back, but they were sold out.",
+      "start_sample": 26208,
+      "end_sample": 54270,
+      "start_ms": 1638,
+      "end_ms": 3392
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I asked the clerk if they had the zaiko in the back, but they were sold out.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3392,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I asked the clerk if they had the",
+          "start_sample": 0,
+          "end_sample": 20392,
+          "start_ms": 0,
+          "end_ms": 1274
+        },
+        {
+          "lang": "ja",
+          "text": "在庫",
+          "start_sample": 20392,
+          "end_sample": 26013,
+          "start_ms": 1274,
+          "end_ms": 1626
+        },
+        {
+          "lang": "en",
+          "text": "in the back, but they were sold out.",
+          "start_sample": 26013,
+          "end_sample": 54275,
+          "start_ms": 1626,
+          "end_ms": 3392
+        }
+      ]
+    },
+    "ja": {
+      "text": "I asked the clerk if they had the 在庫 in the back, but they were sold out.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4972,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I asked the clerk if they had the",
+          "start_sample": 0,
+          "end_sample": 37212,
+          "start_ms": 0,
+          "end_ms": 2326
+        },
+        {
+          "lang": "ja",
+          "text": "在庫",
+          "start_sample": 37212,
+          "end_sample": 43628,
+          "start_ms": 2326,
+          "end_ms": 2727
+        },
+        {
+          "lang": "en",
+          "text": "in the back, but they were sold out.",
+          "start_sample": 43628,
+          "end_sample": 79556,
+          "start_ms": 2727,
+          "end_ms": 4972
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 170,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

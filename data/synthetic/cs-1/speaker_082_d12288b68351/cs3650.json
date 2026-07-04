@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_082_d12288b68351/cs3650.flac",
+  "sentence": "ambulanceを呼ぶべきか、とても迷いました。",
+  "sample_rate": 16000,
+  "duration_ms": 3163,
+  "reference_speaker": "jp/speaker_082_d12288b68351.mp3",
+  "seed": 3692,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "ambulance",
+      "start_sample": 0,
+      "end_sample": 11008,
+      "start_ms": 0,
+      "end_ms": 688
+    },
+    {
+      "lang": "ja",
+      "text": "を呼ぶべきか、とても迷いました。",
+      "start_sample": 11008,
+      "end_sample": 50611,
+      "start_ms": 688,
+      "end_ms": 3163
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ambulance wo yobu beki ka totemo mayoi mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8586,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "ambulance",
+          "start_sample": 0,
+          "end_sample": 11208,
+          "start_ms": 0,
+          "end_ms": 700
+        },
+        {
+          "lang": "ja",
+          "text": "を呼ぶべきか、とても迷いました。",
+          "start_sample": 11208,
+          "end_sample": 137382,
+          "start_ms": 700,
+          "end_ms": 8586
+        }
+      ]
+    },
+    "ja": {
+      "text": "ambulanceを呼ぶべきか、とても迷いました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3270,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "ambulance",
+          "start_sample": 0,
+          "end_sample": 12517,
+          "start_ms": 0,
+          "end_ms": 782
+        },
+        {
+          "lang": "ja",
+          "text": "を呼ぶべきか、とても迷いました。",
+          "start_sample": 12517,
+          "end_sample": 52320,
+          "start_ms": 782,
+          "end_ms": 3270
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

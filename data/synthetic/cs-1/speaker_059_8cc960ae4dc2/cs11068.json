@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_059_8cc960ae4dc2/cs11068.flac",
+  "sentence": "I always sleep 深く on the first truly cold night of the year.",
+  "sample_rate": 16000,
+  "duration_ms": 5227,
+  "reference_speaker": "en/speaker_059_8cc960ae4dc2.mp3",
+  "seed": 11110,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always sleep",
+      "start_sample": 0,
+      "end_sample": 19986,
+      "start_ms": 0,
+      "end_ms": 1249
+    },
+    {
+      "lang": "ja",
+      "text": "深く",
+      "start_sample": 19986,
+      "end_sample": 27440,
+      "start_ms": 1249,
+      "end_ms": 1715
+    },
+    {
+      "lang": "en",
+      "text": "on the first truly cold night of the year.",
+      "start_sample": 27440,
+      "end_sample": 83636,
+      "start_ms": 1715,
+      "end_ms": 5227
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always sleep fukaku on the first truly cold night of the year.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5648,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always sleep",
+          "start_sample": 0,
+          "end_sample": 20186,
+          "start_ms": 0,
+          "end_ms": 1262
+        },
+        {
+          "lang": "ja",
+          "text": "深く",
+          "start_sample": 20186,
+          "end_sample": 33965,
+          "start_ms": 1262,
+          "end_ms": 2123
+        },
+        {
+          "lang": "en",
+          "text": "on the first truly cold night of the year.",
+          "start_sample": 33965,
+          "end_sample": 90361,
+          "start_ms": 2123,
+          "end_ms": 5648
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always sleep 深く on the first truly cold night of the year.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5329,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always sleep",
+          "start_sample": 0,
+          "end_sample": 19713,
+          "start_ms": 0,
+          "end_ms": 1232
+        },
+        {
+          "lang": "ja",
+          "text": "深く",
+          "start_sample": 19713,
+          "end_sample": 27567,
+          "start_ms": 1232,
+          "end_ms": 1723
+        },
+        {
+          "lang": "en",
+          "text": "on the first truly cold night of the year.",
+          "start_sample": 27567,
+          "end_sample": 85264,
+          "start_ms": 1723,
+          "end_ms": 5329
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 262,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

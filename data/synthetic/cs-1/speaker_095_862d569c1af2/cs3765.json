@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_095_862d569c1af2/cs3765.flac",
+  "sentence": "秋のharvest moonはいつもより大きく見える気がします。",
+  "sample_rate": 16000,
+  "duration_ms": 4253,
+  "reference_speaker": "en/speaker_095_862d569c1af2.mp3",
+  "seed": 3807,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "秋の",
+      "start_sample": 0,
+      "end_sample": 6061,
+      "start_ms": 0,
+      "end_ms": 379
+    },
+    {
+      "lang": "en",
+      "text": "harvest moon",
+      "start_sample": 6061,
+      "end_sample": 25033,
+      "start_ms": 379,
+      "end_ms": 1565
+    },
+    {
+      "lang": "ja",
+      "text": "はいつもより大きく見える気がします。",
+      "start_sample": 25033,
+      "end_sample": 68044,
+      "start_ms": 1565,
+      "end_ms": 4253
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "aki no harvest moon ha itsu mo yori ookiku mieru ki ga shi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7825,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "秋の",
+          "start_sample": 0,
+          "end_sample": 7043,
+          "start_ms": 0,
+          "end_ms": 440
+        },
+        {
+          "lang": "en",
+          "text": "harvest moon",
+          "start_sample": 7043,
+          "end_sample": 26415,
+          "start_ms": 440,
+          "end_ms": 1651
+        },
+        {
+          "lang": "ja",
+          "text": "はいつもより大きく見える気がします。",
+          "start_sample": 26415,
+          "end_sample": 125197,
+          "start_ms": 1651,
+          "end_ms": 7825
+        }
+      ]
+    },
+    "ja": {
+      "text": "秋のharvest moonはいつもより大きく見える気がします。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3956,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "秋の",
+          "start_sample": 0,
+          "end_sample": 6261,
+          "start_ms": 0,
+          "end_ms": 391
+        },
+        {
+          "lang": "en",
+          "text": "harvest moon",
+          "start_sample": 6261,
+          "end_sample": 20077,
+          "start_ms": 391,
+          "end_ms": 1255
+        },
+        {
+          "lang": "ja",
+          "text": "はいつもより大きく見える気がします。",
+          "start_sample": 20077,
+          "end_sample": 63288,
+          "start_ms": 1255,
+          "end_ms": 3956
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 213,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_029_435fb74c25c3/cs6822.flac",
+  "sentence": "We parked in the 地下 lot beneath the shopping center.",
+  "sample_rate": 16000,
+  "duration_ms": 3081,
+  "reference_speaker": "en/speaker_029_435fb74c25c3.mp3",
+  "seed": 6864,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We parked in the",
+      "start_sample": 0,
+      "end_sample": 13022,
+      "start_ms": 0,
+      "end_ms": 814
+    },
+    {
+      "lang": "ja",
+      "text": "地下",
+      "start_sample": 13022,
+      "end_sample": 23213,
+      "start_ms": 814,
+      "end_ms": 1451
+    },
+    {
+      "lang": "en",
+      "text": "lot beneath the shopping center.",
+      "start_sample": 23213,
+      "end_sample": 49289,
+      "start_ms": 1451,
+      "end_ms": 3081
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We parked in the chika lot beneath the shopping center.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2862,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We parked in the",
+          "start_sample": 0,
+          "end_sample": 13222,
+          "start_ms": 0,
+          "end_ms": 826
+        },
+        {
+          "lang": "ja",
+          "text": "地下",
+          "start_sample": 13222,
+          "end_sample": 19511,
+          "start_ms": 826,
+          "end_ms": 1219
+        },
+        {
+          "lang": "en",
+          "text": "lot beneath the shopping center.",
+          "start_sample": 19511,
+          "end_sample": 45787,
+          "start_ms": 1219,
+          "end_ms": 2862
+        }
+      ]
+    },
+    "ja": {
+      "text": "We parked in the 地下 lot beneath the shopping center.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4774,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We parked in the",
+          "start_sample": 0,
+          "end_sample": 25356,
+          "start_ms": 0,
+          "end_ms": 1585
+        },
+        {
+          "lang": "ja",
+          "text": "地下",
+          "start_sample": 25356,
+          "end_sample": 35947,
+          "start_ms": 1585,
+          "end_ms": 2247
+        },
+        {
+          "lang": "en",
+          "text": "lot beneath the shopping center.",
+          "start_sample": 35947,
+          "end_sample": 76387,
+          "start_ms": 2247,
+          "end_ms": 4774
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 155,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

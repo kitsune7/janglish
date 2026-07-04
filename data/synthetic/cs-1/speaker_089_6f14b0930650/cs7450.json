@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_089_6f14b0930650/cs7450.flac",
+  "sentence": "山の中のtrailを三時間かけてゆっくり歩きました。",
+  "sample_rate": 16000,
+  "duration_ms": 3713,
+  "reference_speaker": "en/speaker_089_6f14b0930650.mp3",
+  "seed": 7492,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "山の中の",
+      "start_sample": 0,
+      "end_sample": 11523,
+      "start_ms": 0,
+      "end_ms": 720
+    },
+    {
+      "lang": "en",
+      "text": "trail",
+      "start_sample": 11523,
+      "end_sample": 19461,
+      "start_ms": 720,
+      "end_ms": 1216
+    },
+    {
+      "lang": "ja",
+      "text": "を三時間かけてゆっくり歩きました。",
+      "start_sample": 19461,
+      "end_sample": 59409,
+      "start_ms": 1216,
+      "end_ms": 3713
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "yama no naka no trail wo san jikan kake te yukkuri aruki mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6394,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "山の中の",
+          "start_sample": 0,
+          "end_sample": 19241,
+          "start_ms": 0,
+          "end_ms": 1203
+        },
+        {
+          "lang": "en",
+          "text": "trail",
+          "start_sample": 19241,
+          "end_sample": 27579,
+          "start_ms": 1203,
+          "end_ms": 1724
+        },
+        {
+          "lang": "ja",
+          "text": "を三時間かけてゆっくり歩きました。",
+          "start_sample": 27579,
+          "end_sample": 102303,
+          "start_ms": 1724,
+          "end_ms": 6394
+        }
+      ]
+    },
+    "ja": {
+      "text": "山の中のtrailを三時間かけてゆっくり歩きました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3633,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "山の中の",
+          "start_sample": 0,
+          "end_sample": 11723,
+          "start_ms": 0,
+          "end_ms": 733
+        },
+        {
+          "lang": "en",
+          "text": "trail",
+          "start_sample": 11723,
+          "end_sample": 17987,
+          "start_ms": 733,
+          "end_ms": 1124
+        },
+        {
+          "lang": "ja",
+          "text": "を三時間かけてゆっくり歩きました。",
+          "start_sample": 17987,
+          "end_sample": 58135,
+          "start_ms": 1124,
+          "end_ms": 3633
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 186,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

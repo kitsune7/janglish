@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_040_473e7a57e696/cs11148.flac",
+  "sentence": "春分の日を過ぎると、日がgraduallyに長くなる。",
+  "sample_rate": 16000,
+  "duration_ms": 3521,
+  "reference_speaker": "jp/speaker_040_473e7a57e696.mp3",
+  "seed": 11190,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "春分の日を過ぎると、日が",
+      "start_sample": 0,
+      "end_sample": 31588,
+      "start_ms": 0,
+      "end_ms": 1974
+    },
+    {
+      "lang": "en",
+      "text": "gradually",
+      "start_sample": 31588,
+      "end_sample": 45301,
+      "start_ms": 1974,
+      "end_ms": 2831
+    },
+    {
+      "lang": "ja",
+      "text": "に長くなる。",
+      "start_sample": 45301,
+      "end_sample": 56336,
+      "start_ms": 2831,
+      "end_ms": 3521
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shunbun no nichi wo sugiru to nichi ga gradually ni nagaku naru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6054,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "春分の日を過ぎると、日が",
+          "start_sample": 0,
+          "end_sample": 62545,
+          "start_ms": 0,
+          "end_ms": 3909
+        },
+        {
+          "lang": "en",
+          "text": "gradually",
+          "start_sample": 62545,
+          "end_sample": 76658,
+          "start_ms": 3909,
+          "end_ms": 4791
+        },
+        {
+          "lang": "ja",
+          "text": "に長くなる。",
+          "start_sample": 76658,
+          "end_sample": 96863,
+          "start_ms": 4791,
+          "end_ms": 6054
+        }
+      ]
+    },
+    "ja": {
+      "text": "春分の日を過ぎると、日がgraduallyに長くなる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3311,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "春分の日を過ぎると、日が",
+          "start_sample": 0,
+          "end_sample": 31788,
+          "start_ms": 0,
+          "end_ms": 1987
+        },
+        {
+          "lang": "en",
+          "text": "gradually",
+          "start_sample": 31788,
+          "end_sample": 41742,
+          "start_ms": 1987,
+          "end_ms": 2609
+        },
+        {
+          "lang": "ja",
+          "text": "に長くなる。",
+          "start_sample": 41742,
+          "end_sample": 52977,
+          "start_ms": 2609,
+          "end_ms": 3311
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

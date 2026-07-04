@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_090_d408fe95e0f2/cs1480.flac",
+  "sentence": "雨の日はtaxi乗り場にいつも長い列ができている。",
+  "sample_rate": 16000,
+  "duration_ms": 3830,
+  "reference_speaker": "jp/speaker_090_d408fe95e0f2.mp3",
+  "seed": 1522,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "雨の日は",
+      "start_sample": 0,
+      "end_sample": 13759,
+      "start_ms": 0,
+      "end_ms": 860
+    },
+    {
+      "lang": "en",
+      "text": "taxi",
+      "start_sample": 13759,
+      "end_sample": 20883,
+      "start_ms": 860,
+      "end_ms": 1305
+    },
+    {
+      "lang": "ja",
+      "text": "乗り場にいつも長い列ができている。",
+      "start_sample": 20883,
+      "end_sample": 61283,
+      "start_ms": 1305,
+      "end_ms": 3830
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ame no nichi ha taxi noriba ni itsu mo nagai retsu ga deki te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8445,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "雨の日は",
+          "start_sample": 0,
+          "end_sample": 34100,
+          "start_ms": 0,
+          "end_ms": 2131
+        },
+        {
+          "lang": "en",
+          "text": "taxi",
+          "start_sample": 34100,
+          "end_sample": 41624,
+          "start_ms": 2131,
+          "end_ms": 2602
+        },
+        {
+          "lang": "ja",
+          "text": "乗り場にいつも長い列ができている。",
+          "start_sample": 41624,
+          "end_sample": 135121,
+          "start_ms": 2602,
+          "end_ms": 8445
+        }
+      ]
+    },
+    "ja": {
+      "text": "雨の日はtaxi乗り場にいつも長い列ができている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4052,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "雨の日は",
+          "start_sample": 0,
+          "end_sample": 13959,
+          "start_ms": 0,
+          "end_ms": 872
+        },
+        {
+          "lang": "en",
+          "text": "taxi",
+          "start_sample": 13959,
+          "end_sample": 24230,
+          "start_ms": 872,
+          "end_ms": 1514
+        },
+        {
+          "lang": "ja",
+          "text": "乗り場にいつも長い列ができている。",
+          "start_sample": 24230,
+          "end_sample": 64830,
+          "start_ms": 1514,
+          "end_ms": 4052
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

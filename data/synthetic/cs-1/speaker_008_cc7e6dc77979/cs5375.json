@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_008_cc7e6dc77979/cs5375.flac",
+  "sentence": "新聞社はその情報のsourceを明かさないと言っています。",
+  "sample_rate": 16000,
+  "duration_ms": 3545,
+  "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 5417,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "新聞社はその情報の",
+      "start_sample": 0,
+      "end_sample": 29852,
+      "start_ms": 0,
+      "end_ms": 1866
+    },
+    {
+      "lang": "en",
+      "text": "source",
+      "start_sample": 29852,
+      "end_sample": 35229,
+      "start_ms": 1866,
+      "end_ms": 2202
+    },
+    {
+      "lang": "ja",
+      "text": "を明かさないと言っています。",
+      "start_sample": 35229,
+      "end_sample": 56726,
+      "start_ms": 2202,
+      "end_ms": 3545
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shinbun sha ha sono jouhou no source wo akasa nai to itsutsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7201,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新聞社はその情報の",
+          "start_sample": 0,
+          "end_sample": 77182,
+          "start_ms": 0,
+          "end_ms": 4824
+        },
+        {
+          "lang": "en",
+          "text": "source",
+          "start_sample": 77182,
+          "end_sample": 82959,
+          "start_ms": 4824,
+          "end_ms": 5185
+        },
+        {
+          "lang": "ja",
+          "text": "を明かさないと言っています。",
+          "start_sample": 82959,
+          "end_sample": 115209,
+          "start_ms": 5185,
+          "end_ms": 7201
+        }
+      ]
+    },
+    "ja": {
+      "text": "新聞社はその情報のsourceを明かさないと言っています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3616,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "新聞社はその情報の",
+          "start_sample": 0,
+          "end_sample": 30052,
+          "start_ms": 0,
+          "end_ms": 1878
+        },
+        {
+          "lang": "en",
+          "text": "source",
+          "start_sample": 30052,
+          "end_sample": 36159,
+          "start_ms": 1878,
+          "end_ms": 2260
+        },
+        {
+          "lang": "ja",
+          "text": "を明かさないと言っています。",
+          "start_sample": 36159,
+          "end_sample": 57856,
+          "start_ms": 2260,
+          "end_ms": 3616
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 178,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

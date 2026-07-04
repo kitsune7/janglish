@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_100_5a2cde56c3f2/cs9849.flac",
+  "sentence": "It was a deeply 感動的 concert, and several people around me were openly crying.",
+  "sample_rate": 16000,
+  "duration_ms": 5869,
+  "reference_speaker": "jp/speaker_100_5a2cde56c3f2.mp3",
+  "seed": 9891,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "It was a deeply",
+      "start_sample": 0,
+      "end_sample": 15051,
+      "start_ms": 0,
+      "end_ms": 941
+    },
+    {
+      "lang": "ja",
+      "text": "感動的",
+      "start_sample": 15051,
+      "end_sample": 24428,
+      "start_ms": 941,
+      "end_ms": 1527
+    },
+    {
+      "lang": "en",
+      "text": "concert, and several people around me were openly crying.",
+      "start_sample": 24428,
+      "end_sample": 93902,
+      "start_ms": 1527,
+      "end_ms": 5869
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "It was a deeply kandou teki concert, and several people around me were openly crying.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6141,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "It was a deeply",
+          "start_sample": 0,
+          "end_sample": 15251,
+          "start_ms": 0,
+          "end_ms": 953
+        },
+        {
+          "lang": "ja",
+          "text": "感動的",
+          "start_sample": 15251,
+          "end_sample": 28577,
+          "start_ms": 953,
+          "end_ms": 1786
+        },
+        {
+          "lang": "en",
+          "text": "concert, and several people around me were openly crying.",
+          "start_sample": 28577,
+          "end_sample": 98251,
+          "start_ms": 1786,
+          "end_ms": 6141
+        }
+      ]
+    },
+    "ja": {
+      "text": "It was a deeply 感動的 concert, and several people around me were openly crying.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7914,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "It was a deeply",
+          "start_sample": 0,
+          "end_sample": 13142,
+          "start_ms": 0,
+          "end_ms": 821
+        },
+        {
+          "lang": "ja",
+          "text": "感動的",
+          "start_sample": 13142,
+          "end_sample": 22919,
+          "start_ms": 821,
+          "end_ms": 1432
+        },
+        {
+          "lang": "en",
+          "text": "concert, and several people around me were openly crying.",
+          "start_sample": 22919,
+          "end_sample": 126618,
+          "start_ms": 1432,
+          "end_ms": 7914
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 294,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

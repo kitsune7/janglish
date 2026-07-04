@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_058_a8a05baeecbd/cs1266.flac",
+  "sentence": "He took a 近道 through the alley and got there before the rest of us.",
+  "sample_rate": 16000,
+  "duration_ms": 5112,
+  "reference_speaker": "jp/speaker_058_a8a05baeecbd.mp3",
+  "seed": 1308,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He took a",
+      "start_sample": 0,
+      "end_sample": 6378,
+      "start_ms": 0,
+      "end_ms": 399
+    },
+    {
+      "lang": "ja",
+      "text": "近道",
+      "start_sample": 6378,
+      "end_sample": 23272,
+      "start_ms": 399,
+      "end_ms": 1454
+    },
+    {
+      "lang": "en",
+      "text": "through the alley and got there before the rest of us.",
+      "start_sample": 23272,
+      "end_sample": 81796,
+      "start_ms": 1454,
+      "end_ms": 5112
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He took a chikamichi through the alley and got there before the rest of us.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5034,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He took a",
+          "start_sample": 0,
+          "end_sample": 6578,
+          "start_ms": 0,
+          "end_ms": 411
+        },
+        {
+          "lang": "ja",
+          "text": "近道",
+          "start_sample": 6578,
+          "end_sample": 21821,
+          "start_ms": 411,
+          "end_ms": 1364
+        },
+        {
+          "lang": "en",
+          "text": "through the alley and got there before the rest of us.",
+          "start_sample": 21821,
+          "end_sample": 80545,
+          "start_ms": 1364,
+          "end_ms": 5034
+        }
+      ]
+    },
+    "ja": {
+      "text": "He took a 近道 through the alley and got there before the rest of us.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6865,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He took a",
+          "start_sample": 0,
+          "end_sample": 26419,
+          "start_ms": 0,
+          "end_ms": 1651
+        },
+        {
+          "lang": "ja",
+          "text": "近道",
+          "start_sample": 26419,
+          "end_sample": 43713,
+          "start_ms": 1651,
+          "end_ms": 2732
+        },
+        {
+          "lang": "en",
+          "text": "through the alley and got there before the rest of us.",
+          "start_sample": 43713,
+          "end_sample": 109843,
+          "start_ms": 2732,
+          "end_ms": 6865
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 256,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

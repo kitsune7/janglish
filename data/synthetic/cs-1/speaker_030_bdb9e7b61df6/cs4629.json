@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_030_bdb9e7b61df6/cs4629.flac",
+  "sentence": "The 大型犬 at the park always seems to think it's a lap dog.",
+  "sample_rate": 16000,
+  "duration_ms": 4471,
+  "reference_speaker": "en/speaker_030_bdb9e7b61df6.mp3",
+  "seed": 4671,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1246,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "大型犬",
+      "start_sample": 1246,
+      "end_sample": 15310,
+      "start_ms": 78,
+      "end_ms": 957
+    },
+    {
+      "lang": "en",
+      "text": "at the park always seems to think it's a lap dog.",
+      "start_sample": 15310,
+      "end_sample": 71539,
+      "start_ms": 957,
+      "end_ms": 4471
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The oogata inu at the park always seems to think it's a lap dog.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4562,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1446,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "大型犬",
+          "start_sample": 1446,
+          "end_sample": 16559,
+          "start_ms": 90,
+          "end_ms": 1035
+        },
+        {
+          "lang": "en",
+          "text": "at the park always seems to think it's a lap dog.",
+          "start_sample": 16559,
+          "end_sample": 72988,
+          "start_ms": 1035,
+          "end_ms": 4562
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 大型犬 at the park always seems to think it's a lap dog.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4700,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3695,
+          "start_ms": 0,
+          "end_ms": 231
+        },
+        {
+          "lang": "ja",
+          "text": "大型犬",
+          "start_sample": 3695,
+          "end_sample": 18159,
+          "start_ms": 231,
+          "end_ms": 1135
+        },
+        {
+          "lang": "en",
+          "text": "at the park always seems to think it's a lap dog.",
+          "start_sample": 18159,
+          "end_sample": 75208,
+          "start_ms": 1135,
+          "end_ms": 4700
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 224,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

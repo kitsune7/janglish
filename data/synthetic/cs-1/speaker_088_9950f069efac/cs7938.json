@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_088_9950f069efac/cs7938.flac",
+  "sentence": "この道はone wayなので逆走したら大変だ。",
+  "sample_rate": 16000,
+  "duration_ms": 3744,
+  "reference_speaker": "en/speaker_088_9950f069efac.mp3",
+  "seed": 7980,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この道は",
+      "start_sample": 0,
+      "end_sample": 13092,
+      "start_ms": 0,
+      "end_ms": 818
+    },
+    {
+      "lang": "en",
+      "text": "one way",
+      "start_sample": 13092,
+      "end_sample": 30797,
+      "start_ms": 818,
+      "end_ms": 1925
+    },
+    {
+      "lang": "ja",
+      "text": "なので逆走したら大変だ。",
+      "start_sample": 30797,
+      "end_sample": 59905,
+      "start_ms": 1925,
+      "end_ms": 3744
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono michi ha one way na no de gyakusou shi tara taihen da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9193,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この道は",
+          "start_sample": 0,
+          "end_sample": 60566,
+          "start_ms": 0,
+          "end_ms": 3785
+        },
+        {
+          "lang": "en",
+          "text": "one way",
+          "start_sample": 60566,
+          "end_sample": 78671,
+          "start_ms": 3785,
+          "end_ms": 4917
+        },
+        {
+          "lang": "ja",
+          "text": "なので逆走したら大変だ。",
+          "start_sample": 78671,
+          "end_sample": 147088,
+          "start_ms": 4917,
+          "end_ms": 9193
+        }
+      ]
+    },
+    "ja": {
+      "text": "この道はone wayなので逆走したら大変だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2903,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この道は",
+          "start_sample": 0,
+          "end_sample": 13292,
+          "start_ms": 0,
+          "end_ms": 831
+        },
+        {
+          "lang": "en",
+          "text": "one way",
+          "start_sample": 13292,
+          "end_sample": 17135,
+          "start_ms": 831,
+          "end_ms": 1071
+        },
+        {
+          "lang": "ja",
+          "text": "なので逆走したら大変だ。",
+          "start_sample": 17135,
+          "end_sample": 46443,
+          "start_ms": 1071,
+          "end_ms": 2903
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

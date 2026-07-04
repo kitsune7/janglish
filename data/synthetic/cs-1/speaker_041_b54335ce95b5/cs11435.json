@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_041_b54335ce95b5/cs11435.flac",
+  "sentence": "I love how 静か the neighborhood is after ten at night.",
+  "sample_rate": 16000,
+  "duration_ms": 3980,
+  "reference_speaker": "en/speaker_041_b54335ce95b5.mp3",
+  "seed": 11477,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I love how",
+      "start_sample": 0,
+      "end_sample": 12470,
+      "start_ms": 0,
+      "end_ms": 779
+    },
+    {
+      "lang": "ja",
+      "text": "静か",
+      "start_sample": 12470,
+      "end_sample": 23941,
+      "start_ms": 779,
+      "end_ms": 1496
+    },
+    {
+      "lang": "en",
+      "text": "the neighborhood is after ten at night.",
+      "start_sample": 23941,
+      "end_sample": 63680,
+      "start_ms": 1496,
+      "end_ms": 3980
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I love how shizuka the neighborhood is after ten at night.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3950,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I love how",
+          "start_sample": 0,
+          "end_sample": 12670,
+          "start_ms": 0,
+          "end_ms": 792
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 12670,
+          "end_sample": 23258,
+          "start_ms": 792,
+          "end_ms": 1454
+        },
+        {
+          "lang": "en",
+          "text": "the neighborhood is after ten at night.",
+          "start_sample": 23258,
+          "end_sample": 63197,
+          "start_ms": 1454,
+          "end_ms": 3950
+        }
+      ]
+    },
+    "ja": {
+      "text": "I love how 静か the neighborhood is after ten at night.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5895,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I love how",
+          "start_sample": 0,
+          "end_sample": 13633,
+          "start_ms": 0,
+          "end_ms": 852
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 13633,
+          "end_sample": 25504,
+          "start_ms": 852,
+          "end_ms": 1594
+        },
+        {
+          "lang": "en",
+          "text": "the neighborhood is after ten at night.",
+          "start_sample": 25504,
+          "end_sample": 94320,
+          "start_ms": 1594,
+          "end_ms": 5895
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 199,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

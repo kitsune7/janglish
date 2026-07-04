@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_028_70a7ca54d459/cs1135.flac",
+  "sentence": "She finally got the 露出 right after a dozen test shots.",
+  "sample_rate": 16000,
+  "duration_ms": 3114,
+  "reference_speaker": "jp/speaker_028_70a7ca54d459.mp3",
+  "seed": 1177,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She finally got the",
+      "start_sample": 0,
+      "end_sample": 14582,
+      "start_ms": 0,
+      "end_ms": 911
+    },
+    {
+      "lang": "ja",
+      "text": "露出",
+      "start_sample": 14582,
+      "end_sample": 21419,
+      "start_ms": 911,
+      "end_ms": 1339
+    },
+    {
+      "lang": "en",
+      "text": "right after a dozen test shots.",
+      "start_sample": 21419,
+      "end_sample": 49817,
+      "start_ms": 1339,
+      "end_ms": 3114
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She finally got the roshutsu right after a dozen test shots.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3314,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She finally got the",
+          "start_sample": 0,
+          "end_sample": 14782,
+          "start_ms": 0,
+          "end_ms": 924
+        },
+        {
+          "lang": "ja",
+          "text": "露出",
+          "start_sample": 14782,
+          "end_sample": 24424,
+          "start_ms": 924,
+          "end_ms": 1526
+        },
+        {
+          "lang": "en",
+          "text": "right after a dozen test shots.",
+          "start_sample": 24424,
+          "end_sample": 53022,
+          "start_ms": 1526,
+          "end_ms": 3314
+        }
+      ]
+    },
+    "ja": {
+      "text": "She finally got the 露出 right after a dozen test shots.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3457,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She finally got the",
+          "start_sample": 0,
+          "end_sample": 16885,
+          "start_ms": 0,
+          "end_ms": 1055
+        },
+        {
+          "lang": "ja",
+          "text": "露出",
+          "start_sample": 16885,
+          "end_sample": 24122,
+          "start_ms": 1055,
+          "end_ms": 1508
+        },
+        {
+          "lang": "en",
+          "text": "right after a dozen test shots.",
+          "start_sample": 24122,
+          "end_sample": 55317,
+          "start_ms": 1508,
+          "end_ms": 3457
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 156,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

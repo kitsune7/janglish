@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_054_a553b6ec02eb/cs11399.flac",
+  "sentence": "彼のコートはoversizedで、とてもおしゃれに見えます。",
+  "sample_rate": 16000,
+  "duration_ms": 3424,
+  "reference_speaker": "jp/speaker_054_a553b6ec02eb.mp3",
+  "seed": 11441,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼のコートは",
+      "start_sample": 0,
+      "end_sample": 15073,
+      "start_ms": 0,
+      "end_ms": 942
+    },
+    {
+      "lang": "en",
+      "text": "oversized",
+      "start_sample": 15073,
+      "end_sample": 26369,
+      "start_ms": 942,
+      "end_ms": 1648
+    },
+    {
+      "lang": "ja",
+      "text": "で、とてもおしゃれに見えます。",
+      "start_sample": 26369,
+      "end_sample": 54783,
+      "start_ms": 1648,
+      "end_ms": 3424
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare no kooto ha oversized de totemo oshare ni mie masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5768,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼のコートは",
+          "start_sample": 0,
+          "end_sample": 36529,
+          "start_ms": 0,
+          "end_ms": 2283
+        },
+        {
+          "lang": "en",
+          "text": "oversized",
+          "start_sample": 36529,
+          "end_sample": 48225,
+          "start_ms": 2283,
+          "end_ms": 3014
+        },
+        {
+          "lang": "ja",
+          "text": "で、とてもおしゃれに見えます。",
+          "start_sample": 48225,
+          "end_sample": 92284,
+          "start_ms": 3014,
+          "end_ms": 5768
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼のコートはoversizedで、とてもおしゃれに見えます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3698,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼のコートは",
+          "start_sample": 0,
+          "end_sample": 15273,
+          "start_ms": 0,
+          "end_ms": 955
+        },
+        {
+          "lang": "en",
+          "text": "oversized",
+          "start_sample": 15273,
+          "end_sample": 30547,
+          "start_ms": 955,
+          "end_ms": 1909
+        },
+        {
+          "lang": "ja",
+          "text": "で、とてもおしゃれに見えます。",
+          "start_sample": 30547,
+          "end_sample": 59161,
+          "start_ms": 1909,
+          "end_ms": 3698
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 172,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

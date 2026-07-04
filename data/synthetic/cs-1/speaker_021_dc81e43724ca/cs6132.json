@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_021_dc81e43724ca/cs6132.flac",
+  "sentence": "She finished the design with 丁寧 attention to every small detail.",
+  "sample_rate": 16000,
+  "duration_ms": 4130,
+  "reference_speaker": "jp/speaker_021_dc81e43724ca.mp3",
+  "seed": 6174,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She finished the design with",
+      "start_sample": 0,
+      "end_sample": 22576,
+      "start_ms": 0,
+      "end_ms": 1411
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧",
+      "start_sample": 22576,
+      "end_sample": 31960,
+      "start_ms": 1411,
+      "end_ms": 1998
+    },
+    {
+      "lang": "en",
+      "text": "attention to every small detail.",
+      "start_sample": 31960,
+      "end_sample": 66086,
+      "start_ms": 1998,
+      "end_ms": 4130
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She finished the design with teinei attention to every small detail.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3930,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She finished the design with",
+          "start_sample": 0,
+          "end_sample": 22776,
+          "start_ms": 0,
+          "end_ms": 1424
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 22776,
+          "end_sample": 28550,
+          "start_ms": 1424,
+          "end_ms": 1784
+        },
+        {
+          "lang": "en",
+          "text": "attention to every small detail.",
+          "start_sample": 28550,
+          "end_sample": 62876,
+          "start_ms": 1784,
+          "end_ms": 3930
+        }
+      ]
+    },
+    "ja": {
+      "text": "She finished the design with 丁寧 attention to every small detail.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5052,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She finished the design with",
+          "start_sample": 0,
+          "end_sample": 29832,
+          "start_ms": 0,
+          "end_ms": 1864
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧",
+          "start_sample": 29832,
+          "end_sample": 39616,
+          "start_ms": 1864,
+          "end_ms": 2476
+        },
+        {
+          "lang": "en",
+          "text": "attention to every small detail.",
+          "start_sample": 39616,
+          "end_sample": 80837,
+          "start_ms": 2476,
+          "end_ms": 5052
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 207,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

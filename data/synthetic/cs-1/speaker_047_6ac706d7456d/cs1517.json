@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_047_6ac706d7456d/cs1517.flac",
+  "sentence": "The new 洗髪 bar I bought lathers way better than I expected.",
+  "sample_rate": 16000,
+  "duration_ms": 7495,
+  "reference_speaker": "jp/speaker_047_6ac706d7456d.mp3",
+  "seed": 1559,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The new",
+      "start_sample": 0,
+      "end_sample": 5892,
+      "start_ms": 0,
+      "end_ms": 368
+    },
+    {
+      "lang": "ja",
+      "text": "洗髪",
+      "start_sample": 5892,
+      "end_sample": 20074,
+      "start_ms": 368,
+      "end_ms": 1255
+    },
+    {
+      "lang": "en",
+      "text": "bar I bought lathers way better than I expected.",
+      "start_sample": 20074,
+      "end_sample": 119922,
+      "start_ms": 1255,
+      "end_ms": 7495
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The new senpatsu bar I bought lathers way better than I expected.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7536,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new",
+          "start_sample": 0,
+          "end_sample": 6092,
+          "start_ms": 0,
+          "end_ms": 381
+        },
+        {
+          "lang": "ja",
+          "text": "洗髪",
+          "start_sample": 6092,
+          "end_sample": 20523,
+          "start_ms": 381,
+          "end_ms": 1283
+        },
+        {
+          "lang": "en",
+          "text": "bar I bought lathers way better than I expected.",
+          "start_sample": 20523,
+          "end_sample": 120571,
+          "start_ms": 1283,
+          "end_ms": 7536
+        }
+      ]
+    },
+    "ja": {
+      "text": "The new 洗髪 bar I bought lathers way better than I expected.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6990,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new",
+          "start_sample": 0,
+          "end_sample": 11377,
+          "start_ms": 0,
+          "end_ms": 711
+        },
+        {
+          "lang": "ja",
+          "text": "洗髪",
+          "start_sample": 11377,
+          "end_sample": 25959,
+          "start_ms": 711,
+          "end_ms": 1622
+        },
+        {
+          "lang": "en",
+          "text": "bar I bought lathers way better than I expected.",
+          "start_sample": 25959,
+          "end_sample": 111848,
+          "start_ms": 1622,
+          "end_ms": 6990
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 375,
+  "frame_labels": "eeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

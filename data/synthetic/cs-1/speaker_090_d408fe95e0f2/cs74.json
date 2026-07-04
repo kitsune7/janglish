@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_090_d408fe95e0f2/cs74.flac",
+  "sentence": "That old 木 in the neighbor's yard casts too much shade on our tomatoes.",
+  "sample_rate": 16000,
+  "duration_ms": 6016,
+  "reference_speaker": "jp/speaker_090_d408fe95e0f2.mp3",
+  "seed": 116,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That old",
+      "start_sample": 0,
+      "end_sample": 11992,
+      "start_ms": 0,
+      "end_ms": 750
+    },
+    {
+      "lang": "ja",
+      "text": "木",
+      "start_sample": 11992,
+      "end_sample": 16247,
+      "start_ms": 750,
+      "end_ms": 1015
+    },
+    {
+      "lang": "en",
+      "text": "in the neighbor's yard casts too much shade on our tomatoes.",
+      "start_sample": 16247,
+      "end_sample": 96263,
+      "start_ms": 1015,
+      "end_ms": 6016
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That old ki in the neighbor's yard casts too much shade on our tomatoes.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6177,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That old",
+          "start_sample": 0,
+          "end_sample": 12192,
+          "start_ms": 0,
+          "end_ms": 762
+        },
+        {
+          "lang": "ja",
+          "text": "木",
+          "start_sample": 12192,
+          "end_sample": 18610,
+          "start_ms": 762,
+          "end_ms": 1163
+        },
+        {
+          "lang": "en",
+          "text": "in the neighbor's yard casts too much shade on our tomatoes.",
+          "start_sample": 18610,
+          "end_sample": 98826,
+          "start_ms": 1163,
+          "end_ms": 6177
+        }
+      ]
+    },
+    "ja": {
+      "text": "That old 木 in the neighbor's yard casts too much shade on our tomatoes.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6139,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That old",
+          "start_sample": 0,
+          "end_sample": 8185,
+          "start_ms": 0,
+          "end_ms": 512
+        },
+        {
+          "lang": "ja",
+          "text": "木",
+          "start_sample": 8185,
+          "end_sample": 12840,
+          "start_ms": 512,
+          "end_ms": 802
+        },
+        {
+          "lang": "en",
+          "text": "in the neighbor's yard casts too much shade on our tomatoes.",
+          "start_sample": 12840,
+          "end_sample": 98224,
+          "start_ms": 802,
+          "end_ms": 6139
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 301,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_090_cd7a1ed8add3/cs4499.flac",
+  "sentence": "彼はspeakerを使って電話していたから、周りに全部聞こえていた。",
+  "sample_rate": 16000,
+  "duration_ms": 4807,
+  "reference_speaker": "en/speaker_090_cd7a1ed8add3.mp3",
+  "seed": 4541,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼は",
+      "start_sample": 0,
+      "end_sample": 6386,
+      "start_ms": 0,
+      "end_ms": 399
+    },
+    {
+      "lang": "en",
+      "text": "speaker",
+      "start_sample": 6386,
+      "end_sample": 16878,
+      "start_ms": 399,
+      "end_ms": 1055
+    },
+    {
+      "lang": "ja",
+      "text": "を使って電話していたから、周りに全部聞こえていた。",
+      "start_sample": 16878,
+      "end_sample": 76917,
+      "start_ms": 1055,
+      "end_ms": 4807
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha speaker wo tsukatsu te denwa shi te i ta kara mawari ni zenbu kikoe te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7148,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 11051,
+          "start_ms": 0,
+          "end_ms": 691
+        },
+        {
+          "lang": "en",
+          "text": "speaker",
+          "start_sample": 11051,
+          "end_sample": 21943,
+          "start_ms": 691,
+          "end_ms": 1371
+        },
+        {
+          "lang": "ja",
+          "text": "を使って電話していたから、周りに全部聞こえていた。",
+          "start_sample": 21943,
+          "end_sample": 114363,
+          "start_ms": 1371,
+          "end_ms": 7148
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はspeakerを使って電話していたから、周りに全部聞こえていた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4799,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 6586,
+          "start_ms": 0,
+          "end_ms": 412
+        },
+        {
+          "lang": "en",
+          "text": "speaker",
+          "start_sample": 6586,
+          "end_sample": 16546,
+          "start_ms": 412,
+          "end_ms": 1034
+        },
+        {
+          "lang": "ja",
+          "text": "を使って電話していたから、周りに全部聞こえていた。",
+          "start_sample": 16546,
+          "end_sample": 76785,
+          "start_ms": 1034,
+          "end_ms": 4799
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 241,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_011_d1413283d794/cs11161.flac",
+  "sentence": "今日のうちにgroceriesを買いに行かないといけない。",
+  "sample_rate": 16000,
+  "duration_ms": 3161,
+  "reference_speaker": "en/speaker_011_d1413283d794.mp3",
+  "seed": 11203,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日のうちに",
+      "start_sample": 0,
+      "end_sample": 14570,
+      "start_ms": 0,
+      "end_ms": 911
+    },
+    {
+      "lang": "en",
+      "text": "groceries",
+      "start_sample": 14570,
+      "end_sample": 25406,
+      "start_ms": 911,
+      "end_ms": 1588
+    },
+    {
+      "lang": "ja",
+      "text": "を買いに行かないといけない。",
+      "start_sample": 25406,
+      "end_sample": 50570,
+      "start_ms": 1588,
+      "end_ms": 3161
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou no uchi ni groceries wo kai ni ika nai to ike nai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4875,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日のうちに",
+          "start_sample": 0,
+          "end_sample": 25520,
+          "start_ms": 0,
+          "end_ms": 1595
+        },
+        {
+          "lang": "en",
+          "text": "groceries",
+          "start_sample": 25520,
+          "end_sample": 36756,
+          "start_ms": 1595,
+          "end_ms": 2297
+        },
+        {
+          "lang": "ja",
+          "text": "を買いに行かないといけない。",
+          "start_sample": 36756,
+          "end_sample": 78003,
+          "start_ms": 2297,
+          "end_ms": 4875
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日のうちにgroceriesを買いに行かないといけない。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3231,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日のうちに",
+          "start_sample": 0,
+          "end_sample": 14770,
+          "start_ms": 0,
+          "end_ms": 923
+        },
+        {
+          "lang": "en",
+          "text": "groceries",
+          "start_sample": 14770,
+          "end_sample": 26329,
+          "start_ms": 923,
+          "end_ms": 1646
+        },
+        {
+          "lang": "ja",
+          "text": "を買いに行かないといけない。",
+          "start_sample": 26329,
+          "end_sample": 51693,
+          "start_ms": 1646,
+          "end_ms": 3231
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_001_e5689aea6ff3/cs4500.flac",
+  "sentence": "このpasscodeを忘れたら、携帯が開けなくなるよ。",
+  "sample_rate": 16000,
+  "duration_ms": 2813,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 4542,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3655,
+      "start_ms": 0,
+      "end_ms": 228
+    },
+    {
+      "lang": "en",
+      "text": "passcode",
+      "start_sample": 3655,
+      "end_sample": 13850,
+      "start_ms": 228,
+      "end_ms": 866
+    },
+    {
+      "lang": "ja",
+      "text": "を忘れたら、携帯が開けなくなるよ。",
+      "start_sample": 13850,
+      "end_sample": 45011,
+      "start_ms": 866,
+      "end_ms": 2813
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono passcode wo wasure tara keitai ga hirake naku naru yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5237,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5457,
+          "start_ms": 0,
+          "end_ms": 341
+        },
+        {
+          "lang": "en",
+          "text": "passcode",
+          "start_sample": 5457,
+          "end_sample": 16052,
+          "start_ms": 341,
+          "end_ms": 1003
+        },
+        {
+          "lang": "ja",
+          "text": "を忘れたら、携帯が開けなくなるよ。",
+          "start_sample": 16052,
+          "end_sample": 83792,
+          "start_ms": 1003,
+          "end_ms": 5237
+        }
+      ]
+    },
+    "ja": {
+      "text": "このpasscodeを忘れたら、携帯が開けなくなるよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2754,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3855,
+          "start_ms": 0,
+          "end_ms": 241
+        },
+        {
+          "lang": "en",
+          "text": "passcode",
+          "start_sample": 3855,
+          "end_sample": 12702,
+          "start_ms": 241,
+          "end_ms": 794
+        },
+        {
+          "lang": "ja",
+          "text": "を忘れたら、携帯が開けなくなるよ。",
+          "start_sample": 12702,
+          "end_sample": 44063,
+          "start_ms": 794,
+          "end_ms": 2754
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 141,
+  "frame_labels": "jjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

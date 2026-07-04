@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_056_e4a42336440b/cs2838.flac",
+  "sentence": "We try to visit a 違う museum district every time we travel.",
+  "sample_rate": 16000,
+  "duration_ms": 3310,
+  "reference_speaker": "jp/speaker_056_e4a42336440b.mp3",
+  "seed": 2880,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We try to visit a",
+      "start_sample": 0,
+      "end_sample": 13438,
+      "start_ms": 0,
+      "end_ms": 840
+    },
+    {
+      "lang": "ja",
+      "text": "違う",
+      "start_sample": 13438,
+      "end_sample": 19625,
+      "start_ms": 840,
+      "end_ms": 1227
+    },
+    {
+      "lang": "en",
+      "text": "museum district every time we travel.",
+      "start_sample": 19625,
+      "end_sample": 52957,
+      "start_ms": 1227,
+      "end_ms": 3310
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We try to visit a chigau museum district every time we travel.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3389,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We try to visit a",
+          "start_sample": 0,
+          "end_sample": 13638,
+          "start_ms": 0,
+          "end_ms": 852
+        },
+        {
+          "lang": "ja",
+          "text": "違う",
+          "start_sample": 13638,
+          "end_sample": 20698,
+          "start_ms": 852,
+          "end_ms": 1294
+        },
+        {
+          "lang": "en",
+          "text": "museum district every time we travel.",
+          "start_sample": 20698,
+          "end_sample": 54230,
+          "start_ms": 1294,
+          "end_ms": 3389
+        }
+      ]
+    },
+    "ja": {
+      "text": "We try to visit a 違う museum district every time we travel.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4779,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We try to visit a",
+          "start_sample": 0,
+          "end_sample": 21205,
+          "start_ms": 0,
+          "end_ms": 1325
+        },
+        {
+          "lang": "ja",
+          "text": "違う",
+          "start_sample": 21205,
+          "end_sample": 27792,
+          "start_ms": 1325,
+          "end_ms": 1737
+        },
+        {
+          "lang": "en",
+          "text": "museum district every time we travel.",
+          "start_sample": 27792,
+          "end_sample": 76464,
+          "start_ms": 1737,
+          "end_ms": 4779
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 166,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

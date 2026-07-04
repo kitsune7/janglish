@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_002_7eff9a54bdb0/cs8644.flac",
+  "sentence": "Have you ever noticed how 静か your dog gets right before a thunderstorm?",
+  "sample_rate": 16000,
+  "duration_ms": 4758,
+  "reference_speaker": "en/speaker_002_7eff9a54bdb0.mp3",
+  "seed": 8686,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you ever noticed how",
+      "start_sample": 0,
+      "end_sample": 19085,
+      "start_ms": 0,
+      "end_ms": 1193
+    },
+    {
+      "lang": "ja",
+      "text": "静か",
+      "start_sample": 19085,
+      "end_sample": 29732,
+      "start_ms": 1193,
+      "end_ms": 1858
+    },
+    {
+      "lang": "en",
+      "text": "your dog gets right before a thunderstorm?",
+      "start_sample": 29732,
+      "end_sample": 76134,
+      "start_ms": 1858,
+      "end_ms": 4758
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you ever noticed how shizuka your dog gets right before a thunderstorm?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4680,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever noticed how",
+          "start_sample": 0,
+          "end_sample": 19285,
+          "start_ms": 0,
+          "end_ms": 1205
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 19285,
+          "end_sample": 28284,
+          "start_ms": 1205,
+          "end_ms": 1768
+        },
+        {
+          "lang": "en",
+          "text": "your dog gets right before a thunderstorm?",
+          "start_sample": 28284,
+          "end_sample": 74886,
+          "start_ms": 1768,
+          "end_ms": 4680
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you ever noticed how 静か your dog gets right before a thunderstorm?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6144,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever noticed how",
+          "start_sample": 0,
+          "end_sample": 34419,
+          "start_ms": 0,
+          "end_ms": 2151
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 34419,
+          "end_sample": 45466,
+          "start_ms": 2151,
+          "end_ms": 2842
+        },
+        {
+          "lang": "en",
+          "text": "your dog gets right before a thunderstorm?",
+          "start_sample": 45466,
+          "end_sample": 98297,
+          "start_ms": 2842,
+          "end_ms": 6144
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 238,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_089_6f14b0930650/cs1144.flac",
+  "sentence": "The 絞り was set too wide and the depth of field suffered badly.",
+  "sample_rate": 16000,
+  "duration_ms": 4248,
+  "reference_speaker": "en/speaker_089_6f14b0930650.mp3",
+  "seed": 1186,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1563,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "絞り",
+      "start_sample": 1563,
+      "end_sample": 9823,
+      "start_ms": 98,
+      "end_ms": 614
+    },
+    {
+      "lang": "en",
+      "text": "was set too wide and the depth of field suffered badly.",
+      "start_sample": 9823,
+      "end_sample": 67966,
+      "start_ms": 614,
+      "end_ms": 4248
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The shibori was set too wide and the depth of field suffered badly.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4248,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1763,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "絞り",
+          "start_sample": 1763,
+          "end_sample": 9617,
+          "start_ms": 110,
+          "end_ms": 601
+        },
+        {
+          "lang": "en",
+          "text": "was set too wide and the depth of field suffered badly.",
+          "start_sample": 9617,
+          "end_sample": 67960,
+          "start_ms": 601,
+          "end_ms": 4248
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 絞り was set too wide and the depth of field suffered badly.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6154,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3848,
+          "start_ms": 0,
+          "end_ms": 240
+        },
+        {
+          "lang": "ja",
+          "text": "絞り",
+          "start_sample": 3848,
+          "end_sample": 12508,
+          "start_ms": 240,
+          "end_ms": 782
+        },
+        {
+          "lang": "en",
+          "text": "was set too wide and the depth of field suffered badly.",
+          "start_sample": 12508,
+          "end_sample": 98466,
+          "start_ms": 782,
+          "end_ms": 6154
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 213,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

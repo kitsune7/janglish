@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_025_5a5c462b583a/cs5395.flac",
+  "sentence": "今回の選挙はhistoricだと多くの評論家が述べています。",
+  "sample_rate": 16000,
+  "duration_ms": 4387,
+  "reference_speaker": "en/speaker_025_5a5c462b583a.mp3",
+  "seed": 5437,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今回の選挙は",
+      "start_sample": 0,
+      "end_sample": 15988,
+      "start_ms": 0,
+      "end_ms": 999
+    },
+    {
+      "lang": "en",
+      "text": "historic",
+      "start_sample": 15988,
+      "end_sample": 30007,
+      "start_ms": 999,
+      "end_ms": 1875
+    },
+    {
+      "lang": "ja",
+      "text": "だと多くの評論家が述べています。",
+      "start_sample": 30007,
+      "end_sample": 70198,
+      "start_ms": 1875,
+      "end_ms": 4387
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "konkai no senkyo ha historic da to ooku no hyouron ie ga nobe te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7890,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今回の選挙は",
+          "start_sample": 0,
+          "end_sample": 49504,
+          "start_ms": 0,
+          "end_ms": 3094
+        },
+        {
+          "lang": "en",
+          "text": "historic",
+          "start_sample": 49504,
+          "end_sample": 63923,
+          "start_ms": 3094,
+          "end_ms": 3995
+        },
+        {
+          "lang": "ja",
+          "text": "だと多くの評論家が述べています。",
+          "start_sample": 63923,
+          "end_sample": 126243,
+          "start_ms": 3995,
+          "end_ms": 7890
+        }
+      ]
+    },
+    "ja": {
+      "text": "今回の選挙はhistoricだと多くの評論家が述べています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4167,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今回の選挙は",
+          "start_sample": 0,
+          "end_sample": 16188,
+          "start_ms": 0,
+          "end_ms": 1012
+        },
+        {
+          "lang": "en",
+          "text": "historic",
+          "start_sample": 16188,
+          "end_sample": 26287,
+          "start_ms": 1012,
+          "end_ms": 1643
+        },
+        {
+          "lang": "ja",
+          "text": "だと多くの評論家が述べています。",
+          "start_sample": 26287,
+          "end_sample": 66678,
+          "start_ms": 1643,
+          "end_ms": 4167
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 220,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

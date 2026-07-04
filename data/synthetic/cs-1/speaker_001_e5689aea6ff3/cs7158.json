@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_001_e5689aea6ff3/cs7158.flac",
+  "sentence": "雨の日はbraking distanceが長くなるから速度を落とすべきだ。",
+  "sample_rate": 16000,
+  "duration_ms": 4006,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 7200,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "雨の日は",
+      "start_sample": 0,
+      "end_sample": 11330,
+      "start_ms": 0,
+      "end_ms": 708
+    },
+    {
+      "lang": "en",
+      "text": "braking distance",
+      "start_sample": 11330,
+      "end_sample": 30674,
+      "start_ms": 708,
+      "end_ms": 1917
+    },
+    {
+      "lang": "ja",
+      "text": "が長くなるから速度を落とすべきだ。",
+      "start_sample": 30674,
+      "end_sample": 64104,
+      "start_ms": 1917,
+      "end_ms": 4006
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ame no nichi ha braking distance ga nagaku naru kara sokudo wo otosu beki da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7323,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "雨の日は",
+          "start_sample": 0,
+          "end_sample": 33708,
+          "start_ms": 0,
+          "end_ms": 2107
+        },
+        {
+          "lang": "en",
+          "text": "braking distance",
+          "start_sample": 33708,
+          "end_sample": 53452,
+          "start_ms": 2107,
+          "end_ms": 3341
+        },
+        {
+          "lang": "ja",
+          "text": "が長くなるから速度を落とすべきだ。",
+          "start_sample": 53452,
+          "end_sample": 117175,
+          "start_ms": 3341,
+          "end_ms": 7323
+        }
+      ]
+    },
+    "ja": {
+      "text": "雨の日はbraking distanceが長くなるから速度を落とすべきだ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3984,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "雨の日は",
+          "start_sample": 0,
+          "end_sample": 11530,
+          "start_ms": 0,
+          "end_ms": 721
+        },
+        {
+          "lang": "en",
+          "text": "braking distance",
+          "start_sample": 11530,
+          "end_sample": 30106,
+          "start_ms": 721,
+          "end_ms": 1882
+        },
+        {
+          "lang": "ja",
+          "text": "が長くなるから速度を落とすべきだ。",
+          "start_sample": 30106,
+          "end_sample": 63736,
+          "start_ms": 1882,
+          "end_ms": 3984
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

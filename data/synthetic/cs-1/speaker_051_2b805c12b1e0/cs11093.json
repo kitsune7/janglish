@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_051_2b805c12b1e0/cs11093.flac",
+  "sentence": "山のtopには雪がまだ残っている。",
+  "sample_rate": 16000,
+  "duration_ms": 3340,
+  "reference_speaker": "jp/speaker_051_2b805c12b1e0.mp3",
+  "seed": 11135,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "山の",
+      "start_sample": 0,
+      "end_sample": 6244,
+      "start_ms": 0,
+      "end_ms": 390
+    },
+    {
+      "lang": "en",
+      "text": "top",
+      "start_sample": 6244,
+      "end_sample": 16588,
+      "start_ms": 390,
+      "end_ms": 1037
+    },
+    {
+      "lang": "ja",
+      "text": "には雪がまだ残っている。",
+      "start_sample": 16588,
+      "end_sample": 53441,
+      "start_ms": 1037,
+      "end_ms": 3340
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "yama no top ni ha yuki ga mada nokotsu te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6434,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "山の",
+          "start_sample": 0,
+          "end_sample": 24213,
+          "start_ms": 0,
+          "end_ms": 1513
+        },
+        {
+          "lang": "en",
+          "text": "top",
+          "start_sample": 24213,
+          "end_sample": 34957,
+          "start_ms": 1513,
+          "end_ms": 2185
+        },
+        {
+          "lang": "ja",
+          "text": "には雪がまだ残っている。",
+          "start_sample": 34957,
+          "end_sample": 102945,
+          "start_ms": 2185,
+          "end_ms": 6434
+        }
+      ]
+    },
+    "ja": {
+      "text": "山のtopには雪がまだ残っている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3101,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "山の",
+          "start_sample": 0,
+          "end_sample": 6444,
+          "start_ms": 0,
+          "end_ms": 403
+        },
+        {
+          "lang": "en",
+          "text": "top",
+          "start_sample": 6444,
+          "end_sample": 12567,
+          "start_ms": 403,
+          "end_ms": 785
+        },
+        {
+          "lang": "ja",
+          "text": "には雪がまだ残っている。",
+          "start_sample": 12567,
+          "end_sample": 49620,
+          "start_ms": 785,
+          "end_ms": 3101
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 168,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

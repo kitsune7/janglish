@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_023_d9597f21cb60/cs3209.flac",
+  "sentence": "The patch fixed the 深刻な security vulnerability in the firewall.",
+  "sample_rate": 16000,
+  "duration_ms": 4353,
+  "reference_speaker": "jp/speaker_023_d9597f21cb60.mp3",
+  "seed": 3251,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The patch fixed the",
+      "start_sample": 0,
+      "end_sample": 15364,
+      "start_ms": 0,
+      "end_ms": 960
+    },
+    {
+      "lang": "ja",
+      "text": "深刻な",
+      "start_sample": 15364,
+      "end_sample": 25721,
+      "start_ms": 960,
+      "end_ms": 1608
+    },
+    {
+      "lang": "en",
+      "text": "security vulnerability in the firewall.",
+      "start_sample": 25721,
+      "end_sample": 69645,
+      "start_ms": 1608,
+      "end_ms": 4353
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The patch fixed the shinkoku na security vulnerability in the firewall.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5355,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The patch fixed the",
+          "start_sample": 0,
+          "end_sample": 15564,
+          "start_ms": 0,
+          "end_ms": 973
+        },
+        {
+          "lang": "ja",
+          "text": "深刻な",
+          "start_sample": 15564,
+          "end_sample": 41558,
+          "start_ms": 973,
+          "end_ms": 2597
+        },
+        {
+          "lang": "en",
+          "text": "security vulnerability in the firewall.",
+          "start_sample": 41558,
+          "end_sample": 85682,
+          "start_ms": 2597,
+          "end_ms": 5355
+        }
+      ]
+    },
+    "ja": {
+      "text": "The patch fixed the 深刻な security vulnerability in the firewall.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4635,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The patch fixed the",
+          "start_sample": 0,
+          "end_sample": 22151,
+          "start_ms": 0,
+          "end_ms": 1384
+        },
+        {
+          "lang": "ja",
+          "text": "深刻な",
+          "start_sample": 22151,
+          "end_sample": 32908,
+          "start_ms": 1384,
+          "end_ms": 2057
+        },
+        {
+          "lang": "en",
+          "text": "security vulnerability in the firewall.",
+          "start_sample": 32908,
+          "end_sample": 74164,
+          "start_ms": 2057,
+          "end_ms": 4635
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

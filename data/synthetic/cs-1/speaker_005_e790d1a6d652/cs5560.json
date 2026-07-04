@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_005_e790d1a6d652/cs5560.flac",
+  "sentence": "今日のheatはとても厳しくて、外に出たくないです。",
+  "sample_rate": 16000,
+  "duration_ms": 4416,
+  "reference_speaker": "en/speaker_005_e790d1a6d652.mp3",
+  "seed": 5602,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日の",
+      "start_sample": 0,
+      "end_sample": 5408,
+      "start_ms": 0,
+      "end_ms": 338
+    },
+    {
+      "lang": "en",
+      "text": "heat",
+      "start_sample": 5408,
+      "end_sample": 16375,
+      "start_ms": 338,
+      "end_ms": 1023
+    },
+    {
+      "lang": "ja",
+      "text": "はとても厳しくて、外に出たくないです。",
+      "start_sample": 16375,
+      "end_sample": 70659,
+      "start_ms": 1023,
+      "end_ms": 4416
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou no heat ha totemo ikameshiku te soto ni shutsu taku nai desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8045,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の",
+          "start_sample": 0,
+          "end_sample": 14889,
+          "start_ms": 0,
+          "end_ms": 931
+        },
+        {
+          "lang": "en",
+          "text": "heat",
+          "start_sample": 14889,
+          "end_sample": 26256,
+          "start_ms": 931,
+          "end_ms": 1641
+        },
+        {
+          "lang": "ja",
+          "text": "はとても厳しくて、外に出たくないです。",
+          "start_sample": 26256,
+          "end_sample": 128720,
+          "start_ms": 1641,
+          "end_ms": 8045
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日のheatはとても厳しくて、外に出たくないです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4106,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日の",
+          "start_sample": 0,
+          "end_sample": 5608,
+          "start_ms": 0,
+          "end_ms": 350
+        },
+        {
+          "lang": "en",
+          "text": "heat",
+          "start_sample": 5608,
+          "end_sample": 11217,
+          "start_ms": 350,
+          "end_ms": 701
+        },
+        {
+          "lang": "ja",
+          "text": "はとても厳しくて、外に出たくないです。",
+          "start_sample": 11217,
+          "end_sample": 65701,
+          "start_ms": 701,
+          "end_ms": 4106
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 221,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

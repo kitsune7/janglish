@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_028_70a7ca54d459/cs7681.flac",
+  "sentence": "The press corps was given 許可 to attend the closed committee hearing.",
+  "sample_rate": 16000,
+  "duration_ms": 3878,
+  "reference_speaker": "jp/speaker_028_70a7ca54d459.mp3",
+  "seed": 7723,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The press corps was given",
+      "start_sample": 0,
+      "end_sample": 23051,
+      "start_ms": 0,
+      "end_ms": 1441
+    },
+    {
+      "lang": "ja",
+      "text": "許可",
+      "start_sample": 23051,
+      "end_sample": 27782,
+      "start_ms": 1441,
+      "end_ms": 1736
+    },
+    {
+      "lang": "en",
+      "text": "to attend the closed committee hearing.",
+      "start_sample": 27782,
+      "end_sample": 62056,
+      "start_ms": 1736,
+      "end_ms": 3878
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The press corps was given kyoka to attend the closed committee hearing.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4249,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The press corps was given",
+          "start_sample": 0,
+          "end_sample": 23251,
+          "start_ms": 0,
+          "end_ms": 1453
+        },
+        {
+          "lang": "ja",
+          "text": "許可",
+          "start_sample": 23251,
+          "end_sample": 33514,
+          "start_ms": 1453,
+          "end_ms": 2095
+        },
+        {
+          "lang": "en",
+          "text": "to attend the closed committee hearing.",
+          "start_sample": 33514,
+          "end_sample": 67988,
+          "start_ms": 2095,
+          "end_ms": 4249
+        }
+      ]
+    },
+    "ja": {
+      "text": "The press corps was given 許可 to attend the closed committee hearing.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5271,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The press corps was given",
+          "start_sample": 0,
+          "end_sample": 41689,
+          "start_ms": 0,
+          "end_ms": 2606
+        },
+        {
+          "lang": "ja",
+          "text": "許可",
+          "start_sample": 41689,
+          "end_sample": 46820,
+          "start_ms": 2606,
+          "end_ms": 2926
+        },
+        {
+          "lang": "en",
+          "text": "to attend the closed committee hearing.",
+          "start_sample": 46820,
+          "end_sample": 84340,
+          "start_ms": 2926,
+          "end_ms": 5271
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 194,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

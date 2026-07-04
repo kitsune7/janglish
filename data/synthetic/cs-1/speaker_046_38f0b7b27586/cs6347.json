@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_046_38f0b7b27586/cs6347.flac",
+  "sentence": "その人のことがずっとhead の中にある。",
+  "sample_rate": 16000,
+  "duration_ms": 2629,
+  "reference_speaker": "jp/speaker_046_38f0b7b27586.mp3",
+  "seed": 6389,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その人のことがずっと",
+      "start_sample": 0,
+      "end_sample": 19884,
+      "start_ms": 0,
+      "end_ms": 1243
+    },
+    {
+      "lang": "en",
+      "text": "head",
+      "start_sample": 19884,
+      "end_sample": 31343,
+      "start_ms": 1243,
+      "end_ms": 1959
+    },
+    {
+      "lang": "ja",
+      "text": "の中にある。",
+      "start_sample": 31343,
+      "end_sample": 42067,
+      "start_ms": 1959,
+      "end_ms": 2629
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono nin no koto ga zutto head no naka ni aru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6530,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その人のことがずっと",
+          "start_sample": 0,
+          "end_sample": 69388,
+          "start_ms": 0,
+          "end_ms": 4337
+        },
+        {
+          "lang": "en",
+          "text": "head",
+          "start_sample": 69388,
+          "end_sample": 81247,
+          "start_ms": 4337,
+          "end_ms": 5078
+        },
+        {
+          "lang": "ja",
+          "text": "の中にある。",
+          "start_sample": 81247,
+          "end_sample": 104483,
+          "start_ms": 5078,
+          "end_ms": 6530
+        }
+      ]
+    },
+    "ja": {
+      "text": "その人のことがずっとhead の中にある。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2209,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その人のことがずっと",
+          "start_sample": 0,
+          "end_sample": 20084,
+          "start_ms": 0,
+          "end_ms": 1255
+        },
+        {
+          "lang": "en",
+          "text": "head",
+          "start_sample": 20084,
+          "end_sample": 24424,
+          "start_ms": 1255,
+          "end_ms": 1526
+        },
+        {
+          "lang": "ja",
+          "text": "の中にある。",
+          "start_sample": 24424,
+          "end_sample": 35348,
+          "start_ms": 1526,
+          "end_ms": 2209
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 132,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

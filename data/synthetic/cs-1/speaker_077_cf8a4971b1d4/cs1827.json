@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_077_cf8a4971b1d4/cs1827.flac",
+  "sentence": "We almost missed the 紙 works tucked away in the corridor between the two main halls.",
+  "sample_rate": 16000,
+  "duration_ms": 5086,
+  "reference_speaker": "en/speaker_077_cf8a4971b1d4.mp3",
+  "seed": 1869,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We almost missed the",
+      "start_sample": 0,
+      "end_sample": 16940,
+      "start_ms": 0,
+      "end_ms": 1059
+    },
+    {
+      "lang": "ja",
+      "text": "紙",
+      "start_sample": 16940,
+      "end_sample": 22789,
+      "start_ms": 1059,
+      "end_ms": 1424
+    },
+    {
+      "lang": "en",
+      "text": "works tucked away in the corridor between the two main halls.",
+      "start_sample": 22789,
+      "end_sample": 81381,
+      "start_ms": 1424,
+      "end_ms": 5086
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We almost missed the kami works tucked away in the corridor between the two main halls.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5146,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We almost missed the",
+          "start_sample": 0,
+          "end_sample": 17140,
+          "start_ms": 0,
+          "end_ms": 1071
+        },
+        {
+          "lang": "ja",
+          "text": "紙",
+          "start_sample": 17140,
+          "end_sample": 23549,
+          "start_ms": 1071,
+          "end_ms": 1472
+        },
+        {
+          "lang": "en",
+          "text": "works tucked away in the corridor between the two main halls.",
+          "start_sample": 23549,
+          "end_sample": 82341,
+          "start_ms": 1472,
+          "end_ms": 5146
+        }
+      ]
+    },
+    "ja": {
+      "text": "We almost missed the 紙 works tucked away in the corridor between the two main halls.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6710,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We almost missed the",
+          "start_sample": 0,
+          "end_sample": 32849,
+          "start_ms": 0,
+          "end_ms": 2053
+        },
+        {
+          "lang": "ja",
+          "text": "紙",
+          "start_sample": 32849,
+          "end_sample": 39098,
+          "start_ms": 2053,
+          "end_ms": 2444
+        },
+        {
+          "lang": "en",
+          "text": "works tucked away in the corridor between the two main halls.",
+          "start_sample": 39098,
+          "end_sample": 107361,
+          "start_ms": 2444,
+          "end_ms": 6710
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 255,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

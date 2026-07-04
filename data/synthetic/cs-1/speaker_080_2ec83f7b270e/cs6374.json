@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_080_2ec83f7b270e/cs6374.flac",
+  "sentence": "彼女のvibe がとても心地よくて好きだ。",
+  "sample_rate": 16000,
+  "duration_ms": 3130,
+  "reference_speaker": "en/speaker_080_2ec83f7b270e.mp3",
+  "seed": 6416,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女の",
+      "start_sample": 0,
+      "end_sample": 8949,
+      "start_ms": 0,
+      "end_ms": 559
+    },
+    {
+      "lang": "en",
+      "text": "vibe",
+      "start_sample": 8949,
+      "end_sample": 21863,
+      "start_ms": 559,
+      "end_ms": 1366
+    },
+    {
+      "lang": "ja",
+      "text": "がとても心地よくて好きだ。",
+      "start_sample": 21863,
+      "end_sample": 50072,
+      "start_ms": 1366,
+      "end_ms": 3130
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo no vibe ga totemo kokochiyoku te suki da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6477,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の",
+          "start_sample": 0,
+          "end_sample": 21014,
+          "start_ms": 0,
+          "end_ms": 1313
+        },
+        {
+          "lang": "en",
+          "text": "vibe",
+          "start_sample": 21014,
+          "end_sample": 34328,
+          "start_ms": 1313,
+          "end_ms": 2146
+        },
+        {
+          "lang": "ja",
+          "text": "がとても心地よくて好きだ。",
+          "start_sample": 34328,
+          "end_sample": 103626,
+          "start_ms": 2146,
+          "end_ms": 6477
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女のvibe がとても心地よくて好きだ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2729,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女の",
+          "start_sample": 0,
+          "end_sample": 9149,
+          "start_ms": 0,
+          "end_ms": 572
+        },
+        {
+          "lang": "en",
+          "text": "vibe",
+          "start_sample": 9149,
+          "end_sample": 15249,
+          "start_ms": 572,
+          "end_ms": 953
+        },
+        {
+          "lang": "ja",
+          "text": "がとても心地よくて好きだ。",
+          "start_sample": 15249,
+          "end_sample": 43658,
+          "start_ms": 953,
+          "end_ms": 2729
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 157,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

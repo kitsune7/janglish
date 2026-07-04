@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_091_bf2621e97933/cs10384.flac",
+  "sentence": "The moving company managed to fit everything from our 旧居 into two trucks, which was impressive.",
+  "sample_rate": 16000,
+  "duration_ms": 5981,
+  "reference_speaker": "jp/speaker_091_bf2621e97933.mp3",
+  "seed": 10426,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The moving company managed to fit everything from our",
+      "start_sample": 0,
+      "end_sample": 42526,
+      "start_ms": 0,
+      "end_ms": 2658
+    },
+    {
+      "lang": "ja",
+      "text": "旧居",
+      "start_sample": 42526,
+      "end_sample": 55106,
+      "start_ms": 2658,
+      "end_ms": 3444
+    },
+    {
+      "lang": "en",
+      "text": "into two trucks, which was impressive.",
+      "start_sample": 55106,
+      "end_sample": 95702,
+      "start_ms": 3444,
+      "end_ms": 5981
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The moving company managed to fit everything from our kyuukyo into two trucks, which was impressive.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5802,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The moving company managed to fit everything from our",
+          "start_sample": 0,
+          "end_sample": 42726,
+          "start_ms": 0,
+          "end_ms": 2670
+        },
+        {
+          "lang": "ja",
+          "text": "旧居",
+          "start_sample": 42726,
+          "end_sample": 52043,
+          "start_ms": 2670,
+          "end_ms": 3253
+        },
+        {
+          "lang": "en",
+          "text": "into two trucks, which was impressive.",
+          "start_sample": 52043,
+          "end_sample": 92839,
+          "start_ms": 3253,
+          "end_ms": 5802
+        }
+      ]
+    },
+    "ja": {
+      "text": "The moving company managed to fit everything from our 旧居 into two trucks, which was impressive.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 9314,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The moving company managed to fit everything from our",
+          "start_sample": 0,
+          "end_sample": 83007,
+          "start_ms": 0,
+          "end_ms": 5188
+        },
+        {
+          "lang": "ja",
+          "text": "旧居",
+          "start_sample": 83007,
+          "end_sample": 95987,
+          "start_ms": 5188,
+          "end_ms": 5999
+        },
+        {
+          "lang": "en",
+          "text": "into two trucks, which was impressive.",
+          "start_sample": 95987,
+          "end_sample": 149028,
+          "start_ms": 5999,
+          "end_ms": 9314
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 300,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

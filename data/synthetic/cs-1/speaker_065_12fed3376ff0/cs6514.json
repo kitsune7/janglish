@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_065_12fed3376ff0/cs6514.flac",
+  "sentence": "お年玉のenvelopeに名前を書いてから子どもに渡した。",
+  "sample_rate": 16000,
+  "duration_ms": 3531,
+  "reference_speaker": "jp/speaker_065_12fed3376ff0.mp3",
+  "seed": 6556,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "お年玉の",
+      "start_sample": 0,
+      "end_sample": 11684,
+      "start_ms": 0,
+      "end_ms": 730
+    },
+    {
+      "lang": "en",
+      "text": "envelope",
+      "start_sample": 11684,
+      "end_sample": 21854,
+      "start_ms": 730,
+      "end_ms": 1366
+    },
+    {
+      "lang": "ja",
+      "text": "に名前を書いてから子どもに渡した。",
+      "start_sample": 21854,
+      "end_sample": 56501,
+      "start_ms": 1366,
+      "end_ms": 3531
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "o toshidama no envelope ni namae wo kai te kara kodomo ni watashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6666,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お年玉の",
+          "start_sample": 0,
+          "end_sample": 36992,
+          "start_ms": 0,
+          "end_ms": 2312
+        },
+        {
+          "lang": "en",
+          "text": "envelope",
+          "start_sample": 36992,
+          "end_sample": 47562,
+          "start_ms": 2312,
+          "end_ms": 2973
+        },
+        {
+          "lang": "ja",
+          "text": "に名前を書いてから子どもに渡した。",
+          "start_sample": 47562,
+          "end_sample": 106654,
+          "start_ms": 2973,
+          "end_ms": 6666
+        }
+      ]
+    },
+    "ja": {
+      "text": "お年玉のenvelopeに名前を書いてから子どもに渡した。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3593,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お年玉の",
+          "start_sample": 0,
+          "end_sample": 11884,
+          "start_ms": 0,
+          "end_ms": 743
+        },
+        {
+          "lang": "en",
+          "text": "envelope",
+          "start_sample": 11884,
+          "end_sample": 22645,
+          "start_ms": 743,
+          "end_ms": 1415
+        },
+        {
+          "lang": "ja",
+          "text": "に名前を書いてから子どもに渡した。",
+          "start_sample": 22645,
+          "end_sample": 57492,
+          "start_ms": 1415,
+          "end_ms": 3593
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

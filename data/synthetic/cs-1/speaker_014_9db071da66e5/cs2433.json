@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_014_9db071da66e5/cs2433.flac",
+  "sentence": "She decorated the whole house with 松 branches and white candles for the new year.",
+  "sample_rate": 16000,
+  "duration_ms": 4352,
+  "reference_speaker": "en/speaker_014_9db071da66e5.mp3",
+  "seed": 2475,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She decorated the whole house with",
+      "start_sample": 0,
+      "end_sample": 27948,
+      "start_ms": 0,
+      "end_ms": 1747
+    },
+    {
+      "lang": "ja",
+      "text": "松",
+      "start_sample": 27948,
+      "end_sample": 33329,
+      "start_ms": 1747,
+      "end_ms": 2083
+    },
+    {
+      "lang": "en",
+      "text": "branches and white candles for the new year.",
+      "start_sample": 33329,
+      "end_sample": 69637,
+      "start_ms": 2083,
+      "end_ms": 4352
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She decorated the whole house with matsu branches and white candles for the new year.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4423,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She decorated the whole house with",
+          "start_sample": 0,
+          "end_sample": 28148,
+          "start_ms": 0,
+          "end_ms": 1759
+        },
+        {
+          "lang": "ja",
+          "text": "松",
+          "start_sample": 28148,
+          "end_sample": 34260,
+          "start_ms": 1759,
+          "end_ms": 2141
+        },
+        {
+          "lang": "en",
+          "text": "branches and white candles for the new year.",
+          "start_sample": 34260,
+          "end_sample": 70768,
+          "start_ms": 2141,
+          "end_ms": 4423
+        }
+      ]
+    },
+    "ja": {
+      "text": "She decorated the whole house with 松 branches and white candles for the new year.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6463,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She decorated the whole house with",
+          "start_sample": 0,
+          "end_sample": 44320,
+          "start_ms": 0,
+          "end_ms": 2770
+        },
+        {
+          "lang": "ja",
+          "text": "松",
+          "start_sample": 44320,
+          "end_sample": 50101,
+          "start_ms": 2770,
+          "end_ms": 3131
+        },
+        {
+          "lang": "en",
+          "text": "branches and white candles for the new year.",
+          "start_sample": 50101,
+          "end_sample": 103411,
+          "start_ms": 3131,
+          "end_ms": 6463
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

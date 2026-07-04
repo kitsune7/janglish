@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_092_0f181b6e11f2/cs38.flac",
+  "sentence": "We need to monitor his 体温 every four hours throughout the night.",
+  "sample_rate": 16000,
+  "duration_ms": 3751,
+  "reference_speaker": "en/speaker_092_0f181b6e11f2.mp3",
+  "seed": 80,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We need to monitor his",
+      "start_sample": 0,
+      "end_sample": 15203,
+      "start_ms": 0,
+      "end_ms": 950
+    },
+    {
+      "lang": "ja",
+      "text": "体温",
+      "start_sample": 15203,
+      "end_sample": 26684,
+      "start_ms": 950,
+      "end_ms": 1668
+    },
+    {
+      "lang": "en",
+      "text": "every four hours throughout the night.",
+      "start_sample": 26684,
+      "end_sample": 60017,
+      "start_ms": 1668,
+      "end_ms": 3751
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We need to monitor his taion every four hours throughout the night.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3710,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We need to monitor his",
+          "start_sample": 0,
+          "end_sample": 15403,
+          "start_ms": 0,
+          "end_ms": 963
+        },
+        {
+          "lang": "ja",
+          "text": "体温",
+          "start_sample": 15403,
+          "end_sample": 25832,
+          "start_ms": 963,
+          "end_ms": 1614
+        },
+        {
+          "lang": "en",
+          "text": "every four hours throughout the night.",
+          "start_sample": 25832,
+          "end_sample": 59365,
+          "start_ms": 1614,
+          "end_ms": 3710
+        }
+      ]
+    },
+    "ja": {
+      "text": "We need to monitor his 体温 every four hours throughout the night.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5318,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We need to monitor his",
+          "start_sample": 0,
+          "end_sample": 27932,
+          "start_ms": 0,
+          "end_ms": 1746
+        },
+        {
+          "lang": "ja",
+          "text": "体温",
+          "start_sample": 27932,
+          "end_sample": 39813,
+          "start_ms": 1746,
+          "end_ms": 2488
+        },
+        {
+          "lang": "en",
+          "text": "every four hours throughout the night.",
+          "start_sample": 39813,
+          "end_sample": 85084,
+          "start_ms": 2488,
+          "end_ms": 5318
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

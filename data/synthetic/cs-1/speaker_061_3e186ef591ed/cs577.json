@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_061_3e186ef591ed/cs577.flac",
+  "sentence": "カメラのlightingが暗くて、顔がよく見えないと言われた。",
+  "sample_rate": 16000,
+  "duration_ms": 3843,
+  "reference_speaker": "jp/speaker_061_3e186ef591ed.mp3",
+  "seed": 619,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "カメラの",
+      "start_sample": 0,
+      "end_sample": 6706,
+      "start_ms": 0,
+      "end_ms": 419
+    },
+    {
+      "lang": "en",
+      "text": "lighting",
+      "start_sample": 6706,
+      "end_sample": 21048,
+      "start_ms": 419,
+      "end_ms": 1316
+    },
+    {
+      "lang": "ja",
+      "text": "が暗くて、顔がよく見えないと言われた。",
+      "start_sample": 21048,
+      "end_sample": 61484,
+      "start_ms": 1316,
+      "end_ms": 3843
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kamera no lighting ga kuraku te kao ga yoku mie nai to iwa re ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7852,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "カメラの",
+          "start_sample": 0,
+          "end_sample": 10094,
+          "start_ms": 0,
+          "end_ms": 631
+        },
+        {
+          "lang": "en",
+          "text": "lighting",
+          "start_sample": 10094,
+          "end_sample": 24836,
+          "start_ms": 631,
+          "end_ms": 1552
+        },
+        {
+          "lang": "ja",
+          "text": "が暗くて、顔がよく見えないと言われた。",
+          "start_sample": 24836,
+          "end_sample": 125626,
+          "start_ms": 1552,
+          "end_ms": 7852
+        }
+      ]
+    },
+    "ja": {
+      "text": "カメラのlightingが暗くて、顔がよく見えないと言われた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3594,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "カメラの",
+          "start_sample": 0,
+          "end_sample": 6906,
+          "start_ms": 0,
+          "end_ms": 432
+        },
+        {
+          "lang": "en",
+          "text": "lighting",
+          "start_sample": 6906,
+          "end_sample": 16865,
+          "start_ms": 432,
+          "end_ms": 1054
+        },
+        {
+          "lang": "ja",
+          "text": "が暗くて、顔がよく見えないと言われた。",
+          "start_sample": 16865,
+          "end_sample": 57501,
+          "start_ms": 1054,
+          "end_ms": 3594
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 193,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_075_35b3b5e9beb2/cs4948.flac",
+  "sentence": "この冬はunusuallyあたたかくて、雪がほとんど降らなかった。",
+  "sample_rate": 16000,
+  "duration_ms": 4348,
+  "reference_speaker": "jp/speaker_075_35b3b5e9beb2.mp3",
+  "seed": 4990,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この冬は",
+      "start_sample": 0,
+      "end_sample": 13455,
+      "start_ms": 0,
+      "end_ms": 841
+    },
+    {
+      "lang": "en",
+      "text": "unusually",
+      "start_sample": 13455,
+      "end_sample": 29751,
+      "start_ms": 841,
+      "end_ms": 1859
+    },
+    {
+      "lang": "ja",
+      "text": "あたたかくて、雪がほとんど降らなかった。",
+      "start_sample": 29751,
+      "end_sample": 69560,
+      "start_ms": 1859,
+      "end_ms": 4348
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono fuyu ha unusually atatakaku te yuki ga hotondo fura nakatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6903,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この冬は",
+          "start_sample": 0,
+          "end_sample": 30663,
+          "start_ms": 0,
+          "end_ms": 1916
+        },
+        {
+          "lang": "en",
+          "text": "unusually",
+          "start_sample": 30663,
+          "end_sample": 47359,
+          "start_ms": 1916,
+          "end_ms": 2960
+        },
+        {
+          "lang": "ja",
+          "text": "あたたかくて、雪がほとんど降らなかった。",
+          "start_sample": 47359,
+          "end_sample": 110449,
+          "start_ms": 2960,
+          "end_ms": 6903
+        }
+      ]
+    },
+    "ja": {
+      "text": "この冬はunusuallyあたたかくて、雪がほとんど降らなかった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4218,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この冬は",
+          "start_sample": 0,
+          "end_sample": 13655,
+          "start_ms": 0,
+          "end_ms": 853
+        },
+        {
+          "lang": "en",
+          "text": "unusually",
+          "start_sample": 13655,
+          "end_sample": 27474,
+          "start_ms": 853,
+          "end_ms": 1717
+        },
+        {
+          "lang": "ja",
+          "text": "あたたかくて、雪がほとんど降らなかった。",
+          "start_sample": 27474,
+          "end_sample": 67483,
+          "start_ms": 1717,
+          "end_ms": 4218
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

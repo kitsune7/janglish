@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_037_97f38629e8a3/cs9661.flac",
+  "sentence": "このapartmentは駅から徒歩五分で、とても便利です。",
+  "sample_rate": 16000,
+  "duration_ms": 4074,
+  "reference_speaker": "jp/speaker_037_97f38629e8a3.mp3",
+  "seed": 9703,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 2690,
+      "start_ms": 0,
+      "end_ms": 168
+    },
+    {
+      "lang": "en",
+      "text": "apartment",
+      "start_sample": 2690,
+      "end_sample": 16877,
+      "start_ms": 168,
+      "end_ms": 1055
+    },
+    {
+      "lang": "ja",
+      "text": "は駅から徒歩五分で、とても便利です。",
+      "start_sample": 16877,
+      "end_sample": 65183,
+      "start_ms": 1055,
+      "end_ms": 4074
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono apartment ha eki kara toho go fun de totemo benri desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6351,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4327,
+          "start_ms": 0,
+          "end_ms": 270
+        },
+        {
+          "lang": "en",
+          "text": "apartment",
+          "start_sample": 4327,
+          "end_sample": 18914,
+          "start_ms": 270,
+          "end_ms": 1182
+        },
+        {
+          "lang": "ja",
+          "text": "は駅から徒歩五分で、とても便利です。",
+          "start_sample": 18914,
+          "end_sample": 101623,
+          "start_ms": 1182,
+          "end_ms": 6351
+        }
+      ]
+    },
+    "ja": {
+      "text": "このapartmentは駅から徒歩五分で、とても便利です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3694,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 2890,
+          "start_ms": 0,
+          "end_ms": 181
+        },
+        {
+          "lang": "en",
+          "text": "apartment",
+          "start_sample": 2890,
+          "end_sample": 10601,
+          "start_ms": 181,
+          "end_ms": 663
+        },
+        {
+          "lang": "ja",
+          "text": "は駅から徒歩五分で、とても便利です。",
+          "start_sample": 10601,
+          "end_sample": 59107,
+          "start_ms": 663,
+          "end_ms": 3694
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "jjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

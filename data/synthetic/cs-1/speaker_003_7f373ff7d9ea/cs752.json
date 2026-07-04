@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_003_7f373ff7d9ea/cs752.flac",
+  "sentence": "My dad's side of the family is very 賑やか at every gathering.",
+  "sample_rate": 16000,
+  "duration_ms": 5418,
+  "reference_speaker": "jp/speaker_003_7f373ff7d9ea.mp3",
+  "seed": 794,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My dad's side of the family is very",
+      "start_sample": 0,
+      "end_sample": 52822,
+      "start_ms": 0,
+      "end_ms": 3301
+    },
+    {
+      "lang": "ja",
+      "text": "賑やか",
+      "start_sample": 52822,
+      "end_sample": 63978,
+      "start_ms": 3301,
+      "end_ms": 3999
+    },
+    {
+      "lang": "en",
+      "text": "at every gathering.",
+      "start_sample": 63978,
+      "end_sample": 86684,
+      "start_ms": 3999,
+      "end_ms": 5418
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My dad's side of the family is very nigiyaka at every gathering.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5566,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My dad's side of the family is very",
+          "start_sample": 0,
+          "end_sample": 53022,
+          "start_ms": 0,
+          "end_ms": 3314
+        },
+        {
+          "lang": "ja",
+          "text": "賑やか",
+          "start_sample": 53022,
+          "end_sample": 66157,
+          "start_ms": 3314,
+          "end_ms": 4135
+        },
+        {
+          "lang": "en",
+          "text": "at every gathering.",
+          "start_sample": 66157,
+          "end_sample": 89063,
+          "start_ms": 4135,
+          "end_ms": 5566
+        }
+      ]
+    },
+    "ja": {
+      "text": "My dad's side of the family is very 賑やか at every gathering.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5016,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My dad's side of the family is very",
+          "start_sample": 0,
+          "end_sample": 46868,
+          "start_ms": 0,
+          "end_ms": 2929
+        },
+        {
+          "lang": "ja",
+          "text": "賑やか",
+          "start_sample": 46868,
+          "end_sample": 58424,
+          "start_ms": 2929,
+          "end_ms": 3652
+        },
+        {
+          "lang": "en",
+          "text": "at every gathering.",
+          "start_sample": 58424,
+          "end_sample": 80250,
+          "start_ms": 3652,
+          "end_ms": 5016
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 271,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

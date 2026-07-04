@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_057_6b77a20f629a/cs2380.flac",
+  "sentence": "intensiveな合宿でみんなぐったりしていた。",
+  "sample_rate": 16000,
+  "duration_ms": 3110,
+  "reference_speaker": "jp/speaker_057_6b77a20f629a.mp3",
+  "seed": 2422,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "intensive",
+      "start_sample": 0,
+      "end_sample": 22450,
+      "start_ms": 0,
+      "end_ms": 1403
+    },
+    {
+      "lang": "ja",
+      "text": "な合宿でみんなぐったりしていた。",
+      "start_sample": 22450,
+      "end_sample": 49754,
+      "start_ms": 1403,
+      "end_ms": 3110
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "intensive na gasshuku de minna guttari shi te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5743,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "intensive",
+          "start_sample": 0,
+          "end_sample": 22650,
+          "start_ms": 0,
+          "end_ms": 1416
+        },
+        {
+          "lang": "ja",
+          "text": "な合宿でみんなぐったりしていた。",
+          "start_sample": 22650,
+          "end_sample": 91884,
+          "start_ms": 1416,
+          "end_ms": 5743
+        }
+      ]
+    },
+    "ja": {
+      "text": "intensiveな合宿でみんなぐったりしていた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2312,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "intensive",
+          "start_sample": 0,
+          "end_sample": 9491,
+          "start_ms": 0,
+          "end_ms": 593
+        },
+        {
+          "lang": "ja",
+          "text": "な合宿でみんなぐったりしていた。",
+          "start_sample": 9491,
+          "end_sample": 36995,
+          "start_ms": 593,
+          "end_ms": 2312
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 156,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

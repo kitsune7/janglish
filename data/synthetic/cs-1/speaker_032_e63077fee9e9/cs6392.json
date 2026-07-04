@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_032_e63077fee9e9/cs6392.flac",
+  "sentence": "It's worth waking up 早朝 just to see the sunrise over the valley.",
+  "sample_rate": 16000,
+  "duration_ms": 3663,
+  "reference_speaker": "jp/speaker_032_e63077fee9e9.mp3",
+  "seed": 6434,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "It's worth waking up",
+      "start_sample": 0,
+      "end_sample": 13611,
+      "start_ms": 0,
+      "end_ms": 851
+    },
+    {
+      "lang": "ja",
+      "text": "早朝",
+      "start_sample": 13611,
+      "end_sample": 27177,
+      "start_ms": 851,
+      "end_ms": 1699
+    },
+    {
+      "lang": "en",
+      "text": "just to see the sunrise over the valley.",
+      "start_sample": 27177,
+      "end_sample": 58611,
+      "start_ms": 1699,
+      "end_ms": 3663
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "It's worth waking up souchou just to see the sunrise over the valley.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3392,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "It's worth waking up",
+          "start_sample": 0,
+          "end_sample": 13811,
+          "start_ms": 0,
+          "end_ms": 863
+        },
+        {
+          "lang": "ja",
+          "text": "早朝",
+          "start_sample": 13811,
+          "end_sample": 22644,
+          "start_ms": 863,
+          "end_ms": 1415
+        },
+        {
+          "lang": "en",
+          "text": "just to see the sunrise over the valley.",
+          "start_sample": 22644,
+          "end_sample": 54278,
+          "start_ms": 1415,
+          "end_ms": 3392
+        }
+      ]
+    },
+    "ja": {
+      "text": "It's worth waking up 早朝 just to see the sunrise over the valley.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5959,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "It's worth waking up",
+          "start_sample": 0,
+          "end_sample": 29854,
+          "start_ms": 0,
+          "end_ms": 1866
+        },
+        {
+          "lang": "ja",
+          "text": "早朝",
+          "start_sample": 29854,
+          "end_sample": 43820,
+          "start_ms": 1866,
+          "end_ms": 2739
+        },
+        {
+          "lang": "en",
+          "text": "just to see the sunrise over the valley.",
+          "start_sample": 43820,
+          "end_sample": 95347,
+          "start_ms": 2739,
+          "end_ms": 5959
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 184,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

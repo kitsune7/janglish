@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_027_12abacd76d5f/cs6532.flac",
+  "sentence": "She has this really 独特 way of reviewing films that I find completely refreshing.",
+  "sample_rate": 16000,
+  "duration_ms": 5116,
+  "reference_speaker": "en/speaker_027_12abacd76d5f.mp3",
+  "seed": 6574,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She has this really",
+      "start_sample": 0,
+      "end_sample": 12960,
+      "start_ms": 0,
+      "end_ms": 810
+    },
+    {
+      "lang": "ja",
+      "text": "独特",
+      "start_sample": 12960,
+      "end_sample": 24263,
+      "start_ms": 810,
+      "end_ms": 1516
+    },
+    {
+      "lang": "en",
+      "text": "way of reviewing films that I find completely refreshing.",
+      "start_sample": 24263,
+      "end_sample": 81851,
+      "start_ms": 1516,
+      "end_ms": 5116
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She has this really dokutoku way of reviewing films that I find completely refreshing.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5096,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She has this really",
+          "start_sample": 0,
+          "end_sample": 13160,
+          "start_ms": 0,
+          "end_ms": 822
+        },
+        {
+          "lang": "ja",
+          "text": "独特",
+          "start_sample": 13160,
+          "end_sample": 23755,
+          "start_ms": 822,
+          "end_ms": 1485
+        },
+        {
+          "lang": "en",
+          "text": "way of reviewing films that I find completely refreshing.",
+          "start_sample": 23755,
+          "end_sample": 81543,
+          "start_ms": 1485,
+          "end_ms": 5096
+        }
+      ]
+    },
+    "ja": {
+      "text": "She has this really 独特 way of reviewing films that I find completely refreshing.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 11222,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She has this really",
+          "start_sample": 0,
+          "end_sample": 36871,
+          "start_ms": 0,
+          "end_ms": 2304
+        },
+        {
+          "lang": "ja",
+          "text": "独特",
+          "start_sample": 36871,
+          "end_sample": 48574,
+          "start_ms": 2304,
+          "end_ms": 3036
+        },
+        {
+          "lang": "en",
+          "text": "way of reviewing films that I find completely refreshing.",
+          "start_sample": 48574,
+          "end_sample": 179553,
+          "start_ms": 3036,
+          "end_ms": 11222
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 256,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_041_36b0f2924199/cs10203.flac",
+  "sentence": "That intersection is 危険 after dark because the lights are too dim.",
+  "sample_rate": 16000,
+  "duration_ms": 3910,
+  "reference_speaker": "jp/speaker_041_36b0f2924199.mp3",
+  "seed": 10245,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That intersection is",
+      "start_sample": 0,
+      "end_sample": 13113,
+      "start_ms": 0,
+      "end_ms": 820
+    },
+    {
+      "lang": "ja",
+      "text": "危険",
+      "start_sample": 13113,
+      "end_sample": 18328,
+      "start_ms": 820,
+      "end_ms": 1146
+    },
+    {
+      "lang": "en",
+      "text": "after dark because the lights are too dim.",
+      "start_sample": 18328,
+      "end_sample": 62560,
+      "start_ms": 1146,
+      "end_ms": 3910
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That intersection is kiken after dark because the lights are too dim.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3990,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That intersection is",
+          "start_sample": 0,
+          "end_sample": 13313,
+          "start_ms": 0,
+          "end_ms": 832
+        },
+        {
+          "lang": "ja",
+          "text": "危険",
+          "start_sample": 13313,
+          "end_sample": 19409,
+          "start_ms": 832,
+          "end_ms": 1213
+        },
+        {
+          "lang": "en",
+          "text": "after dark because the lights are too dim.",
+          "start_sample": 19409,
+          "end_sample": 63841,
+          "start_ms": 1213,
+          "end_ms": 3990
+        }
+      ]
+    },
+    "ja": {
+      "text": "That intersection is 危険 after dark because the lights are too dim.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3790,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That intersection is",
+          "start_sample": 0,
+          "end_sample": 20853,
+          "start_ms": 0,
+          "end_ms": 1303
+        },
+        {
+          "lang": "ja",
+          "text": "危険",
+          "start_sample": 20853,
+          "end_sample": 26468,
+          "start_ms": 1303,
+          "end_ms": 1654
+        },
+        {
+          "lang": "en",
+          "text": "after dark because the lights are too dim.",
+          "start_sample": 26468,
+          "end_sample": 60636,
+          "start_ms": 1654,
+          "end_ms": 3790
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_003_7963691c43c8/cs6288.flac",
+  "sentence": "毎週一回、faceマスクをすると肌がとてもすっきりする。",
+  "sample_rate": 16000,
+  "duration_ms": 4355,
+  "reference_speaker": "en/speaker_003_7963691c43c8.mp3",
+  "seed": 6330,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "毎週一回、",
+      "start_sample": 0,
+      "end_sample": 16620,
+      "start_ms": 0,
+      "end_ms": 1039
+    },
+    {
+      "lang": "en",
+      "text": "face",
+      "start_sample": 16620,
+      "end_sample": 30793,
+      "start_ms": 1039,
+      "end_ms": 1925
+    },
+    {
+      "lang": "ja",
+      "text": "マスクをすると肌がとてもすっきりする。",
+      "start_sample": 30793,
+      "end_sample": 69680,
+      "start_ms": 1925,
+      "end_ms": 4355
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "maishuu ichi kai face masuku wo suru to hada ga totemo sukkiri suru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 12250,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎週一回、",
+          "start_sample": 0,
+          "end_sample": 48200,
+          "start_ms": 0,
+          "end_ms": 3012
+        },
+        {
+          "lang": "en",
+          "text": "face",
+          "start_sample": 48200,
+          "end_sample": 62773,
+          "start_ms": 3012,
+          "end_ms": 3923
+        },
+        {
+          "lang": "ja",
+          "text": "マスクをすると肌がとてもすっきりする。",
+          "start_sample": 62773,
+          "end_sample": 196006,
+          "start_ms": 3923,
+          "end_ms": 12250
+        }
+      ]
+    },
+    "ja": {
+      "text": "毎週一回、faceマスクをすると肌がとてもすっきりする。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4005,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎週一回、",
+          "start_sample": 0,
+          "end_sample": 16820,
+          "start_ms": 0,
+          "end_ms": 1051
+        },
+        {
+          "lang": "en",
+          "text": "face",
+          "start_sample": 16820,
+          "end_sample": 24989,
+          "start_ms": 1051,
+          "end_ms": 1562
+        },
+        {
+          "lang": "ja",
+          "text": "マスクをすると肌がとてもすっきりする。",
+          "start_sample": 24989,
+          "end_sample": 64076,
+          "start_ms": 1562,
+          "end_ms": 4005
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

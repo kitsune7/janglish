@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_095_1daf6547c74f/cs5544.flac",
+  "sentence": "I prefer cleaning in 静寂 so I can think while I work.",
+  "sample_rate": 16000,
+  "duration_ms": 4314,
+  "reference_speaker": "jp/speaker_095_1daf6547c74f.mp3",
+  "seed": 5586,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I prefer cleaning in",
+      "start_sample": 0,
+      "end_sample": 21415,
+      "start_ms": 0,
+      "end_ms": 1338
+    },
+    {
+      "lang": "ja",
+      "text": "静寂",
+      "start_sample": 21415,
+      "end_sample": 29192,
+      "start_ms": 1338,
+      "end_ms": 1824
+    },
+    {
+      "lang": "en",
+      "text": "so I can think while I work.",
+      "start_sample": 29192,
+      "end_sample": 69021,
+      "start_ms": 1824,
+      "end_ms": 4314
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I prefer cleaning in seijaku so I can think while I work.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5064,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I prefer cleaning in",
+          "start_sample": 0,
+          "end_sample": 21615,
+          "start_ms": 0,
+          "end_ms": 1351
+        },
+        {
+          "lang": "ja",
+          "text": "静寂",
+          "start_sample": 21615,
+          "end_sample": 40988,
+          "start_ms": 1351,
+          "end_ms": 2562
+        },
+        {
+          "lang": "en",
+          "text": "so I can think while I work.",
+          "start_sample": 40988,
+          "end_sample": 81017,
+          "start_ms": 2562,
+          "end_ms": 5064
+        }
+      ]
+    },
+    "ja": {
+      "text": "I prefer cleaning in 静寂 so I can think while I work.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4109,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I prefer cleaning in",
+          "start_sample": 0,
+          "end_sample": 23891,
+          "start_ms": 0,
+          "end_ms": 1493
+        },
+        {
+          "lang": "ja",
+          "text": "静寂",
+          "start_sample": 23891,
+          "end_sample": 32068,
+          "start_ms": 1493,
+          "end_ms": 2004
+        },
+        {
+          "lang": "en",
+          "text": "so I can think while I work.",
+          "start_sample": 32068,
+          "end_sample": 65739,
+          "start_ms": 2004,
+          "end_ms": 4109
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 216,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

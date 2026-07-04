@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_018_b5ccf3bf7c65/cs5127.flac",
+  "sentence": "I find tonic water a little 苦い for my taste.",
+  "sample_rate": 16000,
+  "duration_ms": 3376,
+  "reference_speaker": "jp/speaker_018_b5ccf3bf7c65.mp3",
+  "seed": 5169,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I find tonic water a little",
+      "start_sample": 0,
+      "end_sample": 27794,
+      "start_ms": 0,
+      "end_ms": 1737
+    },
+    {
+      "lang": "ja",
+      "text": "苦い",
+      "start_sample": 27794,
+      "end_sample": 38286,
+      "start_ms": 1737,
+      "end_ms": 2393
+    },
+    {
+      "lang": "en",
+      "text": "for my taste.",
+      "start_sample": 38286,
+      "end_sample": 54011,
+      "start_ms": 2393,
+      "end_ms": 3376
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I find tonic water a little nigai for my taste.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3318,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I find tonic water a little",
+          "start_sample": 0,
+          "end_sample": 27994,
+          "start_ms": 0,
+          "end_ms": 1750
+        },
+        {
+          "lang": "ja",
+          "text": "苦い",
+          "start_sample": 27994,
+          "end_sample": 37166,
+          "start_ms": 1750,
+          "end_ms": 2323
+        },
+        {
+          "lang": "en",
+          "text": "for my taste.",
+          "start_sample": 37166,
+          "end_sample": 53091,
+          "start_ms": 2323,
+          "end_ms": 3318
+        }
+      ]
+    },
+    "ja": {
+      "text": "I find tonic water a little 苦い for my taste.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4725,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I find tonic water a little",
+          "start_sample": 0,
+          "end_sample": 45489,
+          "start_ms": 0,
+          "end_ms": 2843
+        },
+        {
+          "lang": "ja",
+          "text": "苦い",
+          "start_sample": 45489,
+          "end_sample": 56381,
+          "start_ms": 2843,
+          "end_ms": 3524
+        },
+        {
+          "lang": "en",
+          "text": "for my taste.",
+          "start_sample": 56381,
+          "end_sample": 75601,
+          "start_ms": 3524,
+          "end_ms": 4725
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 169,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_017_11ec372417df/cs3683.flac",
+  "sentence": "The 配送料 jumped dramatically once the 重量 exceeded two kilograms.",
+  "sample_rate": 16000,
+  "duration_ms": 5238,
+  "reference_speaker": "en/speaker_017_11ec372417df.mp3",
+  "seed": 3725,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1562,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "配送料",
+      "start_sample": 1562,
+      "end_sample": 13662,
+      "start_ms": 98,
+      "end_ms": 854
+    },
+    {
+      "lang": "en",
+      "text": "jumped dramatically once the",
+      "start_sample": 13662,
+      "end_sample": 48830,
+      "start_ms": 854,
+      "end_ms": 3052
+    },
+    {
+      "lang": "ja",
+      "text": "重量",
+      "start_sample": 48830,
+      "end_sample": 60289,
+      "start_ms": 3052,
+      "end_ms": 3768
+    },
+    {
+      "lang": "en",
+      "text": "exceeded two kilograms.",
+      "start_sample": 60289,
+      "end_sample": 83800,
+      "start_ms": 3768,
+      "end_ms": 5238
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The haisou ryou jumped dramatically once the juuryou exceeded two kilograms.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5788,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1762,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "配送料",
+          "start_sample": 1762,
+          "end_sample": 26275,
+          "start_ms": 110,
+          "end_ms": 1642
+        },
+        {
+          "lang": "en",
+          "text": "jumped dramatically once the",
+          "start_sample": 26275,
+          "end_sample": 61843,
+          "start_ms": 1642,
+          "end_ms": 3865
+        },
+        {
+          "lang": "ja",
+          "text": "重量",
+          "start_sample": 61843,
+          "end_sample": 68893,
+          "start_ms": 3865,
+          "end_ms": 4306
+        },
+        {
+          "lang": "en",
+          "text": "exceeded two kilograms.",
+          "start_sample": 68893,
+          "end_sample": 92604,
+          "start_ms": 4306,
+          "end_ms": 5788
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 配送料 jumped dramatically once the 重量 exceeded two kilograms.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5529,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3365,
+          "start_ms": 0,
+          "end_ms": 210
+        },
+        {
+          "lang": "ja",
+          "text": "配送料",
+          "start_sample": 3365,
+          "end_sample": 15865,
+          "start_ms": 210,
+          "end_ms": 992
+        },
+        {
+          "lang": "en",
+          "text": "jumped dramatically once the",
+          "start_sample": 15865,
+          "end_sample": 47917,
+          "start_ms": 992,
+          "end_ms": 2995
+        },
+        {
+          "lang": "ja",
+          "text": "重量",
+          "start_sample": 47917,
+          "end_sample": 59776,
+          "start_ms": 2995,
+          "end_ms": 3736
+        },
+        {
+          "lang": "en",
+          "text": "exceeded two kilograms.",
+          "start_sample": 59776,
+          "end_sample": 88461,
+          "start_ms": 3736,
+          "end_ms": 5529
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 262,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

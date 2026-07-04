@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_029_debaa03f9928/cs1262.flac",
+  "sentence": "The 海岸 stretched for miles without a single person on it.",
+  "sample_rate": 16000,
+  "duration_ms": 2981,
+  "reference_speaker": "jp/speaker_029_debaa03f9928.mp3",
+  "seed": 1304,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2527,
+      "start_ms": 0,
+      "end_ms": 158
+    },
+    {
+      "lang": "ja",
+      "text": "海岸",
+      "start_sample": 2527,
+      "end_sample": 8378,
+      "start_ms": 158,
+      "end_ms": 524
+    },
+    {
+      "lang": "en",
+      "text": "stretched for miles without a single person on it.",
+      "start_sample": 8378,
+      "end_sample": 47693,
+      "start_ms": 524,
+      "end_ms": 2981
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kaigan stretched for miles without a single person on it.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3152,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2727,
+          "start_ms": 0,
+          "end_ms": 170
+        },
+        {
+          "lang": "ja",
+          "text": "海岸",
+          "start_sample": 2727,
+          "end_sample": 10920,
+          "start_ms": 170,
+          "end_ms": 682
+        },
+        {
+          "lang": "en",
+          "text": "stretched for miles without a single person on it.",
+          "start_sample": 10920,
+          "end_sample": 50435,
+          "start_ms": 682,
+          "end_ms": 3152
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 海岸 stretched for miles without a single person on it.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3186,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3364,
+          "start_ms": 0,
+          "end_ms": 210
+        },
+        {
+          "lang": "ja",
+          "text": "海岸",
+          "start_sample": 3364,
+          "end_sample": 9615,
+          "start_ms": 210,
+          "end_ms": 601
+        },
+        {
+          "lang": "en",
+          "text": "stretched for miles without a single person on it.",
+          "start_sample": 9615,
+          "end_sample": 50968,
+          "start_ms": 601,
+          "end_ms": 3186
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 150,
+  "frame_labels": "eeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

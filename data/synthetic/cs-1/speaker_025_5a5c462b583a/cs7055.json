@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_025_5a5c462b583a/cs7055.flac",
+  "sentence": "The 病院 downtown just opened a brand-new cardiology wing.",
+  "sample_rate": 16000,
+  "duration_ms": 4151,
+  "reference_speaker": "en/speaker_025_5a5c462b583a.mp3",
+  "seed": 7097,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1724,
+      "start_ms": 0,
+      "end_ms": 108
+    },
+    {
+      "lang": "ja",
+      "text": "病院",
+      "start_sample": 1724,
+      "end_sample": 10472,
+      "start_ms": 108,
+      "end_ms": 654
+    },
+    {
+      "lang": "en",
+      "text": "downtown just opened a brand-new cardiology wing.",
+      "start_sample": 10472,
+      "end_sample": 66414,
+      "start_ms": 654,
+      "end_ms": 4151
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The byouin downtown just opened a brand-new cardiology wing.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3970,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1924,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "病院",
+          "start_sample": 1924,
+          "end_sample": 7378,
+          "start_ms": 120,
+          "end_ms": 461
+        },
+        {
+          "lang": "en",
+          "text": "downtown just opened a brand-new cardiology wing.",
+          "start_sample": 7378,
+          "end_sample": 63520,
+          "start_ms": 461,
+          "end_ms": 3970
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 病院 downtown just opened a brand-new cardiology wing.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4513,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4972,
+          "start_ms": 0,
+          "end_ms": 311
+        },
+        {
+          "lang": "ja",
+          "text": "病院",
+          "start_sample": 4972,
+          "end_sample": 14120,
+          "start_ms": 311,
+          "end_ms": 882
+        },
+        {
+          "lang": "en",
+          "text": "downtown just opened a brand-new cardiology wing.",
+          "start_sample": 14120,
+          "end_sample": 72211,
+          "start_ms": 882,
+          "end_ms": 4513
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

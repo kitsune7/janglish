@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_035_aa6a3aa058c0/cs8648.flac",
+  "sentence": "I think parrots are 賢い enough to understand more than we give them credit for.",
+  "sample_rate": 16000,
+  "duration_ms": 4348,
+  "reference_speaker": "en/speaker_035_aa6a3aa058c0.mp3",
+  "seed": 8690,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I think parrots are",
+      "start_sample": 0,
+      "end_sample": 15391,
+      "start_ms": 0,
+      "end_ms": 962
+    },
+    {
+      "lang": "ja",
+      "text": "賢い",
+      "start_sample": 15391,
+      "end_sample": 27962,
+      "start_ms": 962,
+      "end_ms": 1748
+    },
+    {
+      "lang": "en",
+      "text": "enough to understand more than we give them credit for.",
+      "start_sample": 27962,
+      "end_sample": 69560,
+      "start_ms": 1748,
+      "end_ms": 4348
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I think parrots are kashikoi enough to understand more than we give them credit for.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4160,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I think parrots are",
+          "start_sample": 0,
+          "end_sample": 15591,
+          "start_ms": 0,
+          "end_ms": 974
+        },
+        {
+          "lang": "ja",
+          "text": "賢い",
+          "start_sample": 15591,
+          "end_sample": 24755,
+          "start_ms": 974,
+          "end_ms": 1547
+        },
+        {
+          "lang": "en",
+          "text": "enough to understand more than we give them credit for.",
+          "start_sample": 24755,
+          "end_sample": 66553,
+          "start_ms": 1547,
+          "end_ms": 4160
+        }
+      ]
+    },
+    "ja": {
+      "text": "I think parrots are 賢い enough to understand more than we give them credit for.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7406,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I think parrots are",
+          "start_sample": 0,
+          "end_sample": 28984,
+          "start_ms": 0,
+          "end_ms": 1812
+        },
+        {
+          "lang": "ja",
+          "text": "賢い",
+          "start_sample": 28984,
+          "end_sample": 41955,
+          "start_ms": 1812,
+          "end_ms": 2622
+        },
+        {
+          "lang": "en",
+          "text": "enough to understand more than we give them credit for.",
+          "start_sample": 41955,
+          "end_sample": 118500,
+          "start_ms": 2622,
+          "end_ms": 7406
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

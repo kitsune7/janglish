@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_003_7f373ff7d9ea/cs5798.flac",
+  "sentence": "The 特売 ends tomorrow, so we should go to the store today.",
+  "sample_rate": 16000,
+  "duration_ms": 4338,
+  "reference_speaker": "jp/speaker_003_7f373ff7d9ea.mp3",
+  "seed": 5840,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1407,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "特売",
+      "start_sample": 1407,
+      "end_sample": 13022,
+      "start_ms": 88,
+      "end_ms": 814
+    },
+    {
+      "lang": "en",
+      "text": "ends tomorrow, so we should go to the store today.",
+      "start_sample": 13022,
+      "end_sample": 69405,
+      "start_ms": 814,
+      "end_ms": 4338
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The tokubai ends tomorrow, so we should go to the store today.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4280,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1607,
+          "start_ms": 0,
+          "end_ms": 100
+        },
+        {
+          "lang": "ja",
+          "text": "特売",
+          "start_sample": 1607,
+          "end_sample": 11896,
+          "start_ms": 100,
+          "end_ms": 744
+        },
+        {
+          "lang": "en",
+          "text": "ends tomorrow, so we should go to the store today.",
+          "start_sample": 11896,
+          "end_sample": 68479,
+          "start_ms": 744,
+          "end_ms": 4280
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 特売 ends tomorrow, so we should go to the store today.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5266,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4004,
+          "start_ms": 0,
+          "end_ms": 250
+        },
+        {
+          "lang": "ja",
+          "text": "特売",
+          "start_sample": 4004,
+          "end_sample": 16019,
+          "start_ms": 250,
+          "end_ms": 1001
+        },
+        {
+          "lang": "en",
+          "text": "ends tomorrow, so we should go to the store today.",
+          "start_sample": 16019,
+          "end_sample": 84263,
+          "start_ms": 1001,
+          "end_ms": 5266
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 217,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

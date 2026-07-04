@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_093_c561f370b1dd/cs4945.flac",
+  "sentence": "春になると、町全体がvibrantな色に染まる。",
+  "sample_rate": 16000,
+  "duration_ms": 3990,
+  "reference_speaker": "en/speaker_093_c561f370b1dd.mp3",
+  "seed": 4987,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "春になると、町全体が",
+      "start_sample": 0,
+      "end_sample": 32829,
+      "start_ms": 0,
+      "end_ms": 2052
+    },
+    {
+      "lang": "en",
+      "text": "vibrant",
+      "start_sample": 32829,
+      "end_sample": 49613,
+      "start_ms": 2052,
+      "end_ms": 3101
+    },
+    {
+      "lang": "ja",
+      "text": "な色に染まる。",
+      "start_sample": 49613,
+      "end_sample": 63842,
+      "start_ms": 3101,
+      "end_ms": 3990
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "haru ni naru to machi zentai ga vibrant na iro ni somaru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6082,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "春になると、町全体が",
+          "start_sample": 0,
+          "end_sample": 51390,
+          "start_ms": 0,
+          "end_ms": 3212
+        },
+        {
+          "lang": "en",
+          "text": "vibrant",
+          "start_sample": 51390,
+          "end_sample": 68574,
+          "start_ms": 3212,
+          "end_ms": 4286
+        },
+        {
+          "lang": "ja",
+          "text": "な色に染まる。",
+          "start_sample": 68574,
+          "end_sample": 97317,
+          "start_ms": 4286,
+          "end_ms": 6082
+        }
+      ]
+    },
+    "ja": {
+      "text": "春になると、町全体がvibrantな色に染まる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3728,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "春になると、町全体が",
+          "start_sample": 0,
+          "end_sample": 33029,
+          "start_ms": 0,
+          "end_ms": 2064
+        },
+        {
+          "lang": "en",
+          "text": "vibrant",
+          "start_sample": 33029,
+          "end_sample": 45214,
+          "start_ms": 2064,
+          "end_ms": 2826
+        },
+        {
+          "lang": "ja",
+          "text": "な色に染まる。",
+          "start_sample": 45214,
+          "end_sample": 59643,
+          "start_ms": 2826,
+          "end_ms": 3728
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 200,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

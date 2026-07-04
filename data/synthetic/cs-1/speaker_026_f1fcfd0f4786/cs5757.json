@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_026_f1fcfd0f4786/cs5757.flac",
+  "sentence": "Could you water the 苗 before the afternoon heat sets in?",
+  "sample_rate": 16000,
+  "duration_ms": 3526,
+  "reference_speaker": "jp/speaker_026_f1fcfd0f4786.mp3",
+  "seed": 5799,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Could you water the",
+      "start_sample": 0,
+      "end_sample": 18711,
+      "start_ms": 0,
+      "end_ms": 1169
+    },
+    {
+      "lang": "ja",
+      "text": "苗",
+      "start_sample": 18711,
+      "end_sample": 22808,
+      "start_ms": 1169,
+      "end_ms": 1426
+    },
+    {
+      "lang": "en",
+      "text": "before the afternoon heat sets in?",
+      "start_sample": 22808,
+      "end_sample": 56423,
+      "start_ms": 1426,
+      "end_ms": 3526
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Could you water the nae before the afternoon heat sets in?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3746,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you water the",
+          "start_sample": 0,
+          "end_sample": 18911,
+          "start_ms": 0,
+          "end_ms": 1182
+        },
+        {
+          "lang": "ja",
+          "text": "苗",
+          "start_sample": 18911,
+          "end_sample": 26124,
+          "start_ms": 1182,
+          "end_ms": 1633
+        },
+        {
+          "lang": "en",
+          "text": "before the afternoon heat sets in?",
+          "start_sample": 26124,
+          "end_sample": 59939,
+          "start_ms": 1633,
+          "end_ms": 3746
+        }
+      ]
+    },
+    "ja": {
+      "text": "Could you water the 苗 before the afternoon heat sets in?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3352,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you water the",
+          "start_sample": 0,
+          "end_sample": 12687,
+          "start_ms": 0,
+          "end_ms": 793
+        },
+        {
+          "lang": "ja",
+          "text": "苗",
+          "start_sample": 12687,
+          "end_sample": 17184,
+          "start_ms": 793,
+          "end_ms": 1074
+        },
+        {
+          "lang": "en",
+          "text": "before the afternoon heat sets in?",
+          "start_sample": 17184,
+          "end_sample": 53636,
+          "start_ms": 1074,
+          "end_ms": 3352
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

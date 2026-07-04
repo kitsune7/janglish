@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_038_cc7cc15dbf19/cs4410.flac",
+  "sentence": "Could you please send 枕 to my room? I need an extra one.",
+  "sample_rate": 16000,
+  "duration_ms": 6013,
+  "reference_speaker": "en/speaker_038_cc7cc15dbf19.mp3",
+  "seed": 4452,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Could you please send",
+      "start_sample": 0,
+      "end_sample": 23372,
+      "start_ms": 0,
+      "end_ms": 1461
+    },
+    {
+      "lang": "ja",
+      "text": "枕",
+      "start_sample": 23372,
+      "end_sample": 29703,
+      "start_ms": 1461,
+      "end_ms": 1856
+    },
+    {
+      "lang": "en",
+      "text": "to my room? I need an extra one.",
+      "start_sample": 29703,
+      "end_sample": 96209,
+      "start_ms": 1856,
+      "end_ms": 6013
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Could you please send makura to my room? I need an extra one.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6534,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you please send",
+          "start_sample": 0,
+          "end_sample": 23572,
+          "start_ms": 0,
+          "end_ms": 1473
+        },
+        {
+          "lang": "ja",
+          "text": "枕",
+          "start_sample": 23572,
+          "end_sample": 37843,
+          "start_ms": 1473,
+          "end_ms": 2365
+        },
+        {
+          "lang": "en",
+          "text": "to my room? I need an extra one.",
+          "start_sample": 37843,
+          "end_sample": 104549,
+          "start_ms": 2365,
+          "end_ms": 6534
+        }
+      ]
+    },
+    "ja": {
+      "text": "Could you please send 枕 to my room? I need an extra one.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4126,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you please send",
+          "start_sample": 0,
+          "end_sample": 14742,
+          "start_ms": 0,
+          "end_ms": 921
+        },
+        {
+          "lang": "ja",
+          "text": "枕",
+          "start_sample": 14742,
+          "end_sample": 21473,
+          "start_ms": 921,
+          "end_ms": 1342
+        },
+        {
+          "lang": "en",
+          "text": "to my room? I need an extra one.",
+          "start_sample": 21473,
+          "end_sample": 66021,
+          "start_ms": 1342,
+          "end_ms": 4126
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 301,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

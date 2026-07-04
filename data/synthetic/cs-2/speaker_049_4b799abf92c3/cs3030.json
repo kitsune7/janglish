@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_049_4b799abf92c3/cs3030.flac",
+  "sentence": "The compiler threw a 大量 of errors this morning, and honestly the whole codebase feels 不安定.",
+  "sample_rate": 16000,
+  "duration_ms": 6200,
+  "reference_speaker": "en/speaker_049_4b799abf92c3.mp3",
+  "seed": 3072,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The compiler threw a",
+      "start_sample": 0,
+      "end_sample": 14239,
+      "start_ms": 0,
+      "end_ms": 890
+    },
+    {
+      "lang": "ja",
+      "text": "大量",
+      "start_sample": 14239,
+      "end_sample": 26817,
+      "start_ms": 890,
+      "end_ms": 1676
+    },
+    {
+      "lang": "en",
+      "text": "of errors this morning, and honestly the whole codebase feels",
+      "start_sample": 26817,
+      "end_sample": 89148,
+      "start_ms": 1676,
+      "end_ms": 5572
+    },
+    {
+      "lang": "ja",
+      "text": "不安定.",
+      "start_sample": 89148,
+      "end_sample": 99201,
+      "start_ms": 5572,
+      "end_ms": 6200
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The compiler threw a tairyou of errors this morning, and honestly the whole codebase feels fu antei",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6177,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The compiler threw a",
+          "start_sample": 0,
+          "end_sample": 14439,
+          "start_ms": 0,
+          "end_ms": 902
+        },
+        {
+          "lang": "ja",
+          "text": "大量",
+          "start_sample": 14439,
+          "end_sample": 21979,
+          "start_ms": 902,
+          "end_ms": 1374
+        },
+        {
+          "lang": "en",
+          "text": "of errors this morning, and honestly the whole codebase feels",
+          "start_sample": 21979,
+          "end_sample": 84710,
+          "start_ms": 1374,
+          "end_ms": 5294
+        },
+        {
+          "lang": "ja",
+          "text": "不安定.",
+          "start_sample": 84710,
+          "end_sample": 98826,
+          "start_ms": 5294,
+          "end_ms": 6177
+        }
+      ]
+    },
+    "ja": {
+      "text": "The compiler threw a 大量 of errors this morning, and honestly the whole codebase feels 不安定.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 10715,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The compiler threw a",
+          "start_sample": 0,
+          "end_sample": 35410,
+          "start_ms": 0,
+          "end_ms": 2213
+        },
+        {
+          "lang": "ja",
+          "text": "大量",
+          "start_sample": 35410,
+          "end_sample": 48388,
+          "start_ms": 2213,
+          "end_ms": 3024
+        },
+        {
+          "lang": "en",
+          "text": "of errors this morning, and honestly the whole codebase feels",
+          "start_sample": 48388,
+          "end_sample": 161191,
+          "start_ms": 3024,
+          "end_ms": 10074
+        },
+        {
+          "lang": "ja",
+          "text": "不安定.",
+          "start_sample": 161191,
+          "end_sample": 171444,
+          "start_ms": 10074,
+          "end_ms": 10715
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 311,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_017_11ec372417df/cs11072.flac",
+  "sentence": "The 朝露 on the grass made the spring garden look freshly painted every day.",
+  "sample_rate": 16000,
+  "duration_ms": 5541,
+  "reference_speaker": "en/speaker_017_11ec372417df.mp3",
+  "seed": 11114,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1566,
+      "start_ms": 0,
+      "end_ms": 98
+    },
+    {
+      "lang": "ja",
+      "text": "朝露",
+      "start_sample": 1566,
+      "end_sample": 11751,
+      "start_ms": 98,
+      "end_ms": 734
+    },
+    {
+      "lang": "en",
+      "text": "on the grass made the spring garden look freshly painted every day.",
+      "start_sample": 11751,
+      "end_sample": 88649,
+      "start_ms": 734,
+      "end_ms": 5541
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The asatsuyu on the grass made the spring garden look freshly painted every day.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5642,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1766,
+          "start_ms": 0,
+          "end_ms": 110
+        },
+        {
+          "lang": "ja",
+          "text": "朝露",
+          "start_sample": 1766,
+          "end_sample": 13171,
+          "start_ms": 110,
+          "end_ms": 823
+        },
+        {
+          "lang": "en",
+          "text": "on the grass made the spring garden look freshly painted every day.",
+          "start_sample": 13171,
+          "end_sample": 90269,
+          "start_ms": 823,
+          "end_ms": 5642
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 朝露 on the grass made the spring garden look freshly painted every day.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6695,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1282,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "朝露",
+          "start_sample": 1282,
+          "end_sample": 11867,
+          "start_ms": 80,
+          "end_ms": 742
+        },
+        {
+          "lang": "en",
+          "text": "on the grass made the spring garden look freshly painted every day.",
+          "start_sample": 11867,
+          "end_sample": 107127,
+          "start_ms": 742,
+          "end_ms": 6695
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 278,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

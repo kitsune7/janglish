@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_070_8f5dfeca773f/cs10253.flac",
+  "sentence": "I asked the clerk to put extra 梱包材 around the ceramic bowl.",
+  "sample_rate": 16000,
+  "duration_ms": 3267,
+  "reference_speaker": "jp/speaker_070_8f5dfeca773f.mp3",
+  "seed": 10295,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I asked the clerk to put extra",
+      "start_sample": 0,
+      "end_sample": 22731,
+      "start_ms": 0,
+      "end_ms": 1421
+    },
+    {
+      "lang": "ja",
+      "text": "梱包材",
+      "start_sample": 22731,
+      "end_sample": 33064,
+      "start_ms": 1421,
+      "end_ms": 2066
+    },
+    {
+      "lang": "en",
+      "text": "around the ceramic bowl.",
+      "start_sample": 33064,
+      "end_sample": 52267,
+      "start_ms": 2066,
+      "end_ms": 3267
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I asked the clerk to put extra konpou zai around the ceramic bowl.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3388,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I asked the clerk to put extra",
+          "start_sample": 0,
+          "end_sample": 22931,
+          "start_ms": 0,
+          "end_ms": 1433
+        },
+        {
+          "lang": "ja",
+          "text": "梱包材",
+          "start_sample": 22931,
+          "end_sample": 34799,
+          "start_ms": 1433,
+          "end_ms": 2175
+        },
+        {
+          "lang": "en",
+          "text": "around the ceramic bowl.",
+          "start_sample": 34799,
+          "end_sample": 54202,
+          "start_ms": 2175,
+          "end_ms": 3388
+        }
+      ]
+    },
+    "ja": {
+      "text": "I asked the clerk to put extra 梱包材 around the ceramic bowl.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4806,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I asked the clerk to put extra",
+          "start_sample": 0,
+          "end_sample": 44374,
+          "start_ms": 0,
+          "end_ms": 2773
+        },
+        {
+          "lang": "ja",
+          "text": "梱包材",
+          "start_sample": 44374,
+          "end_sample": 55107,
+          "start_ms": 2773,
+          "end_ms": 3444
+        },
+        {
+          "lang": "en",
+          "text": "around the ceramic bowl.",
+          "start_sample": 55107,
+          "end_sample": 76893,
+          "start_ms": 3444,
+          "end_ms": 4806
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 164,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_046_c5e6fd979dbd/cs2842.flac",
+  "sentence": "I always order something 甘い when I'm stressed after work.",
+  "sample_rate": 16000,
+  "duration_ms": 3562,
+  "reference_speaker": "en/speaker_046_c5e6fd979dbd.mp3",
+  "seed": 2884,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always order something",
+      "start_sample": 0,
+      "end_sample": 29338,
+      "start_ms": 0,
+      "end_ms": 1834
+    },
+    {
+      "lang": "ja",
+      "text": "甘い",
+      "start_sample": 29338,
+      "end_sample": 34878,
+      "start_ms": 1834,
+      "end_ms": 2180
+    },
+    {
+      "lang": "en",
+      "text": "when I'm stressed after work.",
+      "start_sample": 34878,
+      "end_sample": 56992,
+      "start_ms": 2180,
+      "end_ms": 3562
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always order something amai when I'm stressed after work.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3672,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always order something",
+          "start_sample": 0,
+          "end_sample": 29538,
+          "start_ms": 0,
+          "end_ms": 1846
+        },
+        {
+          "lang": "ja",
+          "text": "甘い",
+          "start_sample": 29538,
+          "end_sample": 36441,
+          "start_ms": 1846,
+          "end_ms": 2278
+        },
+        {
+          "lang": "en",
+          "text": "when I'm stressed after work.",
+          "start_sample": 36441,
+          "end_sample": 58755,
+          "start_ms": 2278,
+          "end_ms": 3672
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always order something 甘い when I'm stressed after work.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4455,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always order something",
+          "start_sample": 0,
+          "end_sample": 27131,
+          "start_ms": 0,
+          "end_ms": 1696
+        },
+        {
+          "lang": "ja",
+          "text": "甘い",
+          "start_sample": 27131,
+          "end_sample": 33071,
+          "start_ms": 1696,
+          "end_ms": 2067
+        },
+        {
+          "lang": "en",
+          "text": "when I'm stressed after work.",
+          "start_sample": 33071,
+          "end_sample": 71277,
+          "start_ms": 2067,
+          "end_ms": 4455
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 179,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

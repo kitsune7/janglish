@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_062_ec2cf7781d6b/cs509.flac",
+  "sentence": "I always feel more 自信 after doing a mock interview the night before.",
+  "sample_rate": 16000,
+  "duration_ms": 3870,
+  "reference_speaker": "jp/speaker_062_ec2cf7781d6b.mp3",
+  "seed": 551,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always feel more",
+      "start_sample": 0,
+      "end_sample": 13472,
+      "start_ms": 0,
+      "end_ms": 842
+    },
+    {
+      "lang": "ja",
+      "text": "自信",
+      "start_sample": 13472,
+      "end_sample": 19961,
+      "start_ms": 842,
+      "end_ms": 1248
+    },
+    {
+      "lang": "en",
+      "text": "after doing a mock interview the night before.",
+      "start_sample": 19961,
+      "end_sample": 61915,
+      "start_ms": 1248,
+      "end_ms": 3870
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always feel more jishin after doing a mock interview the night before.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4123,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel more",
+          "start_sample": 0,
+          "end_sample": 13672,
+          "start_ms": 0,
+          "end_ms": 854
+        },
+        {
+          "lang": "ja",
+          "text": "自信",
+          "start_sample": 13672,
+          "end_sample": 23810,
+          "start_ms": 854,
+          "end_ms": 1488
+        },
+        {
+          "lang": "en",
+          "text": "after doing a mock interview the night before.",
+          "start_sample": 23810,
+          "end_sample": 65964,
+          "start_ms": 1488,
+          "end_ms": 4123
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always feel more 自信 after doing a mock interview the night before.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4045,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel more",
+          "start_sample": 0,
+          "end_sample": 18102,
+          "start_ms": 0,
+          "end_ms": 1131
+        },
+        {
+          "lang": "ja",
+          "text": "自信",
+          "start_sample": 18102,
+          "end_sample": 24991,
+          "start_ms": 1131,
+          "end_ms": 1562
+        },
+        {
+          "lang": "en",
+          "text": "after doing a mock interview the night before.",
+          "start_sample": 24991,
+          "end_sample": 64721,
+          "start_ms": 1562,
+          "end_ms": 4045
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 194,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

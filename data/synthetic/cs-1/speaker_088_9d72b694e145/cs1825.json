@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_088_9d72b694e145/cs1825.flac",
+  "sentence": "The new director curated the 常設展 with a much more international eye than her predecessor.",
+  "sample_rate": 16000,
+  "duration_ms": 5112,
+  "reference_speaker": "jp/speaker_088_9d72b694e145.mp3",
+  "seed": 1867,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The new director curated the",
+      "start_sample": 0,
+      "end_sample": 22096,
+      "start_ms": 0,
+      "end_ms": 1381
+    },
+    {
+      "lang": "ja",
+      "text": "常設展",
+      "start_sample": 22096,
+      "end_sample": 36919,
+      "start_ms": 1381,
+      "end_ms": 2307
+    },
+    {
+      "lang": "en",
+      "text": "with a much more international eye than her predecessor.",
+      "start_sample": 36919,
+      "end_sample": 81792,
+      "start_ms": 2307,
+      "end_ms": 5112
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The new director curated the jousetsu ten with a much more international eye than her predecessor.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5113,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new director curated the",
+          "start_sample": 0,
+          "end_sample": 22296,
+          "start_ms": 0,
+          "end_ms": 1394
+        },
+        {
+          "lang": "ja",
+          "text": "常設展",
+          "start_sample": 22296,
+          "end_sample": 36733,
+          "start_ms": 1394,
+          "end_ms": 2296
+        },
+        {
+          "lang": "en",
+          "text": "with a much more international eye than her predecessor.",
+          "start_sample": 36733,
+          "end_sample": 81806,
+          "start_ms": 2296,
+          "end_ms": 5113
+        }
+      ]
+    },
+    "ja": {
+      "text": "The new director curated the 常設展 with a much more international eye than her predecessor.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8713,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new director curated the",
+          "start_sample": 0,
+          "end_sample": 49995,
+          "start_ms": 0,
+          "end_ms": 3125
+        },
+        {
+          "lang": "ja",
+          "text": "常設展",
+          "start_sample": 49995,
+          "end_sample": 65218,
+          "start_ms": 3125,
+          "end_ms": 4076
+        },
+        {
+          "lang": "en",
+          "text": "with a much more international eye than her predecessor.",
+          "start_sample": 65218,
+          "end_sample": 139409,
+          "start_ms": 4076,
+          "end_ms": 8713
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 256,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

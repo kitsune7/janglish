@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_050_3d86fef9a9be/cs6300.flac",
+  "sentence": "I need to return this jacket because the 色 is completely different from what I ordered online.",
+  "sample_rate": 16000,
+  "duration_ms": 5642,
+  "reference_speaker": "jp/speaker_050_3d86fef9a9be.mp3",
+  "seed": 6342,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I need to return this jacket because the",
+      "start_sample": 0,
+      "end_sample": 36583,
+      "start_ms": 0,
+      "end_ms": 2286
+    },
+    {
+      "lang": "ja",
+      "text": "色",
+      "start_sample": 36583,
+      "end_sample": 40354,
+      "start_ms": 2286,
+      "end_ms": 2522
+    },
+    {
+      "lang": "en",
+      "text": "is completely different from what I ordered online.",
+      "start_sample": 40354,
+      "end_sample": 90272,
+      "start_ms": 2522,
+      "end_ms": 5642
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I need to return this jacket because the iro is completely different from what I ordered online.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5823,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need to return this jacket because the",
+          "start_sample": 0,
+          "end_sample": 36783,
+          "start_ms": 0,
+          "end_ms": 2299
+        },
+        {
+          "lang": "ja",
+          "text": "色",
+          "start_sample": 36783,
+          "end_sample": 43048,
+          "start_ms": 2299,
+          "end_ms": 2690
+        },
+        {
+          "lang": "en",
+          "text": "is completely different from what I ordered online.",
+          "start_sample": 43048,
+          "end_sample": 93166,
+          "start_ms": 2690,
+          "end_ms": 5823
+        }
+      ]
+    },
+    "ja": {
+      "text": "I need to return this jacket because the 色 is completely different from what I ordered online.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6537,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I need to return this jacket because the",
+          "start_sample": 0,
+          "end_sample": 38499,
+          "start_ms": 0,
+          "end_ms": 2406
+        },
+        {
+          "lang": "ja",
+          "text": "色",
+          "start_sample": 38499,
+          "end_sample": 42670,
+          "start_ms": 2406,
+          "end_ms": 2667
+        },
+        {
+          "lang": "en",
+          "text": "is completely different from what I ordered online.",
+          "start_sample": 42670,
+          "end_sample": 104588,
+          "start_ms": 2667,
+          "end_ms": 6537
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 283,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_061_3e186ef591ed/cs10196.flac",
+  "sentence": "Can you check if the 後部座席 seatbelts are fastened?",
+  "sample_rate": 16000,
+  "duration_ms": 4179,
+  "reference_speaker": "jp/speaker_061_3e186ef591ed.mp3",
+  "seed": 10238,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you check if the",
+      "start_sample": 0,
+      "end_sample": 15560,
+      "start_ms": 0,
+      "end_ms": 972
+    },
+    {
+      "lang": "ja",
+      "text": "後部座席",
+      "start_sample": 15560,
+      "end_sample": 44226,
+      "start_ms": 972,
+      "end_ms": 2764
+    },
+    {
+      "lang": "en",
+      "text": "seatbelts are fastened?",
+      "start_sample": 44226,
+      "end_sample": 66858,
+      "start_ms": 2764,
+      "end_ms": 4179
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you check if the koubu zaseki seatbelts are fastened?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3558,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you check if the",
+          "start_sample": 0,
+          "end_sample": 15760,
+          "start_ms": 0,
+          "end_ms": 985
+        },
+        {
+          "lang": "ja",
+          "text": "後部座席",
+          "start_sample": 15760,
+          "end_sample": 34093,
+          "start_ms": 985,
+          "end_ms": 2131
+        },
+        {
+          "lang": "en",
+          "text": "seatbelts are fastened?",
+          "start_sample": 34093,
+          "end_sample": 56925,
+          "start_ms": 2131,
+          "end_ms": 3558
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you check if the 後部座席 seatbelts are fastened?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4858,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you check if the",
+          "start_sample": 0,
+          "end_sample": 21358,
+          "start_ms": 0,
+          "end_ms": 1335
+        },
+        {
+          "lang": "ja",
+          "text": "後部座席",
+          "start_sample": 21358,
+          "end_sample": 50424,
+          "start_ms": 1335,
+          "end_ms": 3152
+        },
+        {
+          "lang": "en",
+          "text": "seatbelts are fastened?",
+          "start_sample": 50424,
+          "end_sample": 77721,
+          "start_ms": 3152,
+          "end_ms": 4858
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 209,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

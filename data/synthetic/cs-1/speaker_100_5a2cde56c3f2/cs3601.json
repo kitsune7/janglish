@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_100_5a2cde56c3f2/cs3601.flac",
+  "sentence": "秋の文化祭でhandcraftのアクセサリーを売りました。",
+  "sample_rate": 16000,
+  "duration_ms": 3589,
+  "reference_speaker": "jp/speaker_100_5a2cde56c3f2.mp3",
+  "seed": 3643,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "秋の文化祭で",
+      "start_sample": 0,
+      "end_sample": 17771,
+      "start_ms": 0,
+      "end_ms": 1111
+    },
+    {
+      "lang": "en",
+      "text": "handcraft",
+      "start_sample": 17771,
+      "end_sample": 34033,
+      "start_ms": 1111,
+      "end_ms": 2127
+    },
+    {
+      "lang": "ja",
+      "text": "のアクセサリーを売りました。",
+      "start_sample": 34033,
+      "end_sample": 57422,
+      "start_ms": 2127,
+      "end_ms": 3589
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "aki no bunka matsuri de handcraft no akusesarii wo uri mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6508,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "秋の文化祭で",
+          "start_sample": 0,
+          "end_sample": 35084,
+          "start_ms": 0,
+          "end_ms": 2193
+        },
+        {
+          "lang": "en",
+          "text": "handcraft",
+          "start_sample": 35084,
+          "end_sample": 51746,
+          "start_ms": 2193,
+          "end_ms": 3234
+        },
+        {
+          "lang": "ja",
+          "text": "のアクセサリーを売りました。",
+          "start_sample": 51746,
+          "end_sample": 104133,
+          "start_ms": 3234,
+          "end_ms": 6508
+        }
+      ]
+    },
+    "ja": {
+      "text": "秋の文化祭でhandcraftのアクセサリーを売りました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3330,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "秋の文化祭で",
+          "start_sample": 0,
+          "end_sample": 17971,
+          "start_ms": 0,
+          "end_ms": 1123
+        },
+        {
+          "lang": "en",
+          "text": "handcraft",
+          "start_sample": 17971,
+          "end_sample": 29686,
+          "start_ms": 1123,
+          "end_ms": 1855
+        },
+        {
+          "lang": "ja",
+          "text": "のアクセサリーを売りました。",
+          "start_sample": 29686,
+          "end_sample": 53275,
+          "start_ms": 1855,
+          "end_ms": 3330
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 180,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

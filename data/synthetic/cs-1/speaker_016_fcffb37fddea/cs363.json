@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_016_fcffb37fddea/cs363.flac",
+  "sentence": "息子が学校でbullyingに遭っていないか、心配している。",
+  "sample_rate": 16000,
+  "duration_ms": 4477,
+  "reference_speaker": "en/speaker_016_fcffb37fddea.mp3",
+  "seed": 405,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "息子が学校で",
+      "start_sample": 0,
+      "end_sample": 17584,
+      "start_ms": 0,
+      "end_ms": 1099
+    },
+    {
+      "lang": "en",
+      "text": "bullying",
+      "start_sample": 17584,
+      "end_sample": 32731,
+      "start_ms": 1099,
+      "end_ms": 2046
+    },
+    {
+      "lang": "ja",
+      "text": "に遭っていないか、心配している。",
+      "start_sample": 32731,
+      "end_sample": 71626,
+      "start_ms": 2046,
+      "end_ms": 4477
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "musuko ga gakkou de bullying ni atsu te i nai ka shinpai shi te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9376,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "息子が学校で",
+          "start_sample": 0,
+          "end_sample": 30613,
+          "start_ms": 0,
+          "end_ms": 1913
+        },
+        {
+          "lang": "en",
+          "text": "bullying",
+          "start_sample": 30613,
+          "end_sample": 46160,
+          "start_ms": 1913,
+          "end_ms": 2885
+        },
+        {
+          "lang": "ja",
+          "text": "に遭っていないか、心配している。",
+          "start_sample": 46160,
+          "end_sample": 150023,
+          "start_ms": 2885,
+          "end_ms": 9376
+        }
+      ]
+    },
+    "ja": {
+      "text": "息子が学校でbullyingに遭っていないか、心配している。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4126,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "息子が学校で",
+          "start_sample": 0,
+          "end_sample": 17784,
+          "start_ms": 0,
+          "end_ms": 1112
+        },
+        {
+          "lang": "en",
+          "text": "bullying",
+          "start_sample": 17784,
+          "end_sample": 26917,
+          "start_ms": 1112,
+          "end_ms": 1682
+        },
+        {
+          "lang": "ja",
+          "text": "に遭っていないか、心配している。",
+          "start_sample": 26917,
+          "end_sample": 66012,
+          "start_ms": 1682,
+          "end_ms": 4126
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 224,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

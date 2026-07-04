@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_001_b06ec2cd8db9/cs807.flac",
+  "sentence": "The 焼き色 on that bread is exactly the golden brown I was going for.",
+  "sample_rate": 16000,
+  "duration_ms": 4006,
+  "reference_speaker": "en/speaker_001_b06ec2cd8db9.mp3",
+  "seed": 849,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1081,
+      "start_ms": 0,
+      "end_ms": 68
+    },
+    {
+      "lang": "ja",
+      "text": "焼き色",
+      "start_sample": 1081,
+      "end_sample": 10794,
+      "start_ms": 68,
+      "end_ms": 675
+    },
+    {
+      "lang": "en",
+      "text": "on that bread is exactly the golden brown I was going for.",
+      "start_sample": 10794,
+      "end_sample": 64102,
+      "start_ms": 675,
+      "end_ms": 4006
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The yakiiro on that bread is exactly the golden brown I was going for.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3945,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1281,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "焼き色",
+          "start_sample": 1281,
+          "end_sample": 9612,
+          "start_ms": 80,
+          "end_ms": 601
+        },
+        {
+          "lang": "en",
+          "text": "on that bread is exactly the golden brown I was going for.",
+          "start_sample": 9612,
+          "end_sample": 63120,
+          "start_ms": 601,
+          "end_ms": 3945
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 焼き色 on that bread is exactly the golden brown I was going for.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5117,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3210,
+          "start_ms": 0,
+          "end_ms": 201
+        },
+        {
+          "lang": "ja",
+          "text": "焼き色",
+          "start_sample": 3210,
+          "end_sample": 13323,
+          "start_ms": 201,
+          "end_ms": 833
+        },
+        {
+          "lang": "en",
+          "text": "on that bread is exactly the golden brown I was going for.",
+          "start_sample": 13323,
+          "end_sample": 81867,
+          "start_ms": 833,
+          "end_ms": 5117
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

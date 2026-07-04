@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_095_862d569c1af2/cs10837.flac",
+  "sentence": "The curry paste was 辛い enough to clear your sinuses.",
+  "sample_rate": 16000,
+  "duration_ms": 2733,
+  "reference_speaker": "en/speaker_095_862d569c1af2.mp3",
+  "seed": 10879,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The curry paste was",
+      "start_sample": 0,
+      "end_sample": 13149,
+      "start_ms": 0,
+      "end_ms": 822
+    },
+    {
+      "lang": "ja",
+      "text": "辛い",
+      "start_sample": 13149,
+      "end_sample": 22055,
+      "start_ms": 822,
+      "end_ms": 1378
+    },
+    {
+      "lang": "en",
+      "text": "enough to clear your sinuses.",
+      "start_sample": 22055,
+      "end_sample": 43732,
+      "start_ms": 1378,
+      "end_ms": 2733
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The curry paste was tsurai enough to clear your sinuses.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2534,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The curry paste was",
+          "start_sample": 0,
+          "end_sample": 13349,
+          "start_ms": 0,
+          "end_ms": 834
+        },
+        {
+          "lang": "ja",
+          "text": "辛い",
+          "start_sample": 13349,
+          "end_sample": 18659,
+          "start_ms": 834,
+          "end_ms": 1166
+        },
+        {
+          "lang": "en",
+          "text": "enough to clear your sinuses.",
+          "start_sample": 18659,
+          "end_sample": 40536,
+          "start_ms": 1166,
+          "end_ms": 2534
+        }
+      ]
+    },
+    "ja": {
+      "text": "The curry paste was 辛い enough to clear your sinuses.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3971,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The curry paste was",
+          "start_sample": 0,
+          "end_sample": 25028,
+          "start_ms": 0,
+          "end_ms": 1564
+        },
+        {
+          "lang": "ja",
+          "text": "辛い",
+          "start_sample": 25028,
+          "end_sample": 34334,
+          "start_ms": 1564,
+          "end_ms": 2146
+        },
+        {
+          "lang": "en",
+          "text": "enough to clear your sinuses.",
+          "start_sample": 34334,
+          "end_sample": 63534,
+          "start_ms": 2146,
+          "end_ms": 3971
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 137,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

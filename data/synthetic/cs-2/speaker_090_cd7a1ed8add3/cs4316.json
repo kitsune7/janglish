@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_090_cd7a1ed8add3/cs4316.flac",
+  "sentence": "She felt real 安堵 when the biopsy results came back 陰性.",
+  "sample_rate": 16000,
+  "duration_ms": 4562,
+  "reference_speaker": "en/speaker_090_cd7a1ed8add3.mp3",
+  "seed": 4358,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She felt real",
+      "start_sample": 0,
+      "end_sample": 13458,
+      "start_ms": 0,
+      "end_ms": 841
+    },
+    {
+      "lang": "ja",
+      "text": "安堵",
+      "start_sample": 13458,
+      "end_sample": 25407,
+      "start_ms": 841,
+      "end_ms": 1588
+    },
+    {
+      "lang": "en",
+      "text": "when the biopsy results came back",
+      "start_sample": 25407,
+      "end_sample": 62770,
+      "start_ms": 1588,
+      "end_ms": 3923
+    },
+    {
+      "lang": "ja",
+      "text": "陰性.",
+      "start_sample": 62770,
+      "end_sample": 72993,
+      "start_ms": 3923,
+      "end_ms": 4562
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She felt real ando when the biopsy results came back insei",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4459,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She felt real",
+          "start_sample": 0,
+          "end_sample": 13658,
+          "start_ms": 0,
+          "end_ms": 854
+        },
+        {
+          "lang": "ja",
+          "text": "安堵",
+          "start_sample": 13658,
+          "end_sample": 23782,
+          "start_ms": 854,
+          "end_ms": 1486
+        },
+        {
+          "lang": "en",
+          "text": "when the biopsy results came back",
+          "start_sample": 23782,
+          "end_sample": 61545,
+          "start_ms": 1486,
+          "end_ms": 3847
+        },
+        {
+          "lang": "ja",
+          "text": "陰性.",
+          "start_sample": 61545,
+          "end_sample": 71343,
+          "start_ms": 3847,
+          "end_ms": 4459
+        }
+      ]
+    },
+    "ja": {
+      "text": "She felt real 安堵 when the biopsy results came back 陰性.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6174,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She felt real",
+          "start_sample": 0,
+          "end_sample": 18761,
+          "start_ms": 0,
+          "end_ms": 1173
+        },
+        {
+          "lang": "ja",
+          "text": "安堵",
+          "start_sample": 18761,
+          "end_sample": 31110,
+          "start_ms": 1173,
+          "end_ms": 1944
+        },
+        {
+          "lang": "en",
+          "text": "when the biopsy results came back",
+          "start_sample": 31110,
+          "end_sample": 88363,
+          "start_ms": 1944,
+          "end_ms": 5523
+        },
+        {
+          "lang": "ja",
+          "text": "陰性.",
+          "start_sample": 88363,
+          "end_sample": 98786,
+          "start_ms": 5523,
+          "end_ms": 6174
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 229,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

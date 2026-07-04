@@ -29,13 +29,14 @@ class TrainingConfig:
     seed: int = 13
     output_dir: Path = Path("./models/lid-wav2vec2")
     train_batch_size: int = 2
-    eval_batch_size: int = 2
+    eval_batch_size: int = 1
     gradient_accumulation_steps: int = 4  # effective batch 8; tune to your VRAM
-    learning_rate: float = 3e-5  # standard for wav2vec2 fine-tuning
-    warmup_steps: int = 4
-    num_train_epochs: int = 40
+    learning_rate: float = 1e-5
+    warmup_steps: int = 100
+    num_train_epochs: int = 3
     lr_scheduler_type: str = "linear"
     logging_steps: int = 5
+    evaluation_logging_steps: int = 100
     run_name: str = "lid-wav2vec2"
     dataloader_num_workers: int = 0
     dataloader_pin_memory: bool = False
@@ -222,7 +223,17 @@ def train(
                 recent_batches = 0
 
         train_loss = epoch_loss / epoch_batches
-        metrics = evaluate(model, validation_loader, device)
+        print(f"epoch={epoch} starting validation batches={len(validation_loader)}")
+        try:
+            metrics = evaluate(
+                model,
+                validation_loader,
+                device,
+                logging_steps=config.evaluation_logging_steps,
+                phase="validation",
+            )
+        except Exception as exc:
+            raise RuntimeError(f"Validation failed after epoch {epoch}") from exc
         validation_loss = float(metrics["loss"])
         is_best = validation_loss < best_validation_loss
         if is_best:
@@ -289,6 +300,11 @@ def move_to_device(batch: dict[str, torch.Tensor], device: torch.device) -> dict
     return {key: value.to(device) for key, value in batch.items()}
 
 
+def release_device_cache(device: torch.device) -> None:
+    if device.type == "mps":
+        torch.mps.empty_cache()
+
+
 def copy_model_state_dict(model: torch.nn.Module) -> dict[str, torch.Tensor]:
     return {name: value.detach().cpu().clone() for name, value in model.state_dict().items()}
 
@@ -318,6 +334,8 @@ def evaluate(
     model: torch.nn.Module,
     data_loader: DataLoader,
     device: torch.device,
+    logging_steps: int = 100,
+    phase: str = "evaluation",
 ) -> dict[str, float | list[float]]:
     model.eval()
     all_predictions = []
@@ -325,7 +343,10 @@ def evaluate(
     total_loss = 0.0
     total_frames = 0
 
-    for batch in data_loader:
+    for batch_index, batch in enumerate(data_loader, start=1):
+        if logging_steps > 0 and (batch_index == 1 or batch_index % logging_steps == 0):
+            print(f"{phase} batch={batch_index}/{len(data_loader)}")
+
         batch = move_to_device(batch, device)
         with autocast_context(device):
             loss, logits = compute_loss(model, batch)
@@ -333,6 +354,7 @@ def evaluate(
         labels = batch["labels"]
         mask = labels.sum(-1) > 0
         if not mask.any():
+            release_device_cache(device)
             continue
 
         frame_count = mask.sum().item()
@@ -340,6 +362,7 @@ def evaluate(
         total_frames += frame_count
         all_predictions.append(logits.argmax(-1)[mask].cpu())
         all_labels.append(labels.argmax(-1)[mask].cpu())
+        release_device_cache(device)
 
     if not all_labels:
         return {"loss": 0.0, "accuracy": 0.0, "f1_macro": 0.0, "f1_per_class": [0.0, 0.0]}

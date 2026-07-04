@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_038_fa40784c77e2/cs11614.flac",
+  "sentence": "replyが来るまでずっとスマホを見ていた。",
+  "sample_rate": 16000,
+  "duration_ms": 2320,
+  "reference_speaker": "jp/speaker_038_fa40784c77e2.mp3",
+  "seed": 11656,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "reply",
+      "start_sample": 0,
+      "end_sample": 7351,
+      "start_ms": 0,
+      "end_ms": 459
+    },
+    {
+      "lang": "ja",
+      "text": "が来るまでずっとスマホを見ていた。",
+      "start_sample": 7351,
+      "end_sample": 37113,
+      "start_ms": 459,
+      "end_ms": 2320
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "reply ga kuru made zutto sumaho wo ken te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5382,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "reply",
+          "start_sample": 0,
+          "end_sample": 7551,
+          "start_ms": 0,
+          "end_ms": 472
+        },
+        {
+          "lang": "ja",
+          "text": "が来るまでずっとスマホを見ていた。",
+          "start_sample": 7551,
+          "end_sample": 86120,
+          "start_ms": 472,
+          "end_ms": 5382
+        }
+      ]
+    },
+    "ja": {
+      "text": "replyが来るまでずっとスマホを見ていた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2316,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "reply",
+          "start_sample": 0,
+          "end_sample": 7089,
+          "start_ms": 0,
+          "end_ms": 443
+        },
+        {
+          "lang": "ja",
+          "text": "が来るまでずっとスマホを見ていた。",
+          "start_sample": 7089,
+          "end_sample": 37051,
+          "start_ms": 443,
+          "end_ms": 2316
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 116,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_090_cd7a1ed8add3/cs7025.flac",
+  "sentence": "Every 公演 on this tour has sold out within minutes of tickets going on sale.",
+  "sample_rate": 16000,
+  "duration_ms": 4546,
+  "reference_speaker": "en/speaker_090_cd7a1ed8add3.mp3",
+  "seed": 7067,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Every",
+      "start_sample": 0,
+      "end_sample": 4296,
+      "start_ms": 0,
+      "end_ms": 268
+    },
+    {
+      "lang": "ja",
+      "text": "公演",
+      "start_sample": 4296,
+      "end_sample": 13679,
+      "start_ms": 268,
+      "end_ms": 855
+    },
+    {
+      "lang": "en",
+      "text": "on this tour has sold out within minutes of tickets going on sale.",
+      "start_sample": 13679,
+      "end_sample": 72739,
+      "start_ms": 855,
+      "end_ms": 4546
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Every kouen on this tour has sold out within minutes of tickets going on sale.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4477,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Every",
+          "start_sample": 0,
+          "end_sample": 4496,
+          "start_ms": 0,
+          "end_ms": 281
+        },
+        {
+          "lang": "ja",
+          "text": "公演",
+          "start_sample": 4496,
+          "end_sample": 12366,
+          "start_ms": 281,
+          "end_ms": 773
+        },
+        {
+          "lang": "en",
+          "text": "on this tour has sold out within minutes of tickets going on sale.",
+          "start_sample": 12366,
+          "end_sample": 71626,
+          "start_ms": 773,
+          "end_ms": 4477
+        }
+      ]
+    },
+    "ja": {
+      "text": "Every 公演 on this tour has sold out within minutes of tickets going on sale.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6475,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Every",
+          "start_sample": 0,
+          "end_sample": 6896,
+          "start_ms": 0,
+          "end_ms": 431
+        },
+        {
+          "lang": "ja",
+          "text": "公演",
+          "start_sample": 6896,
+          "end_sample": 16679,
+          "start_ms": 431,
+          "end_ms": 1042
+        },
+        {
+          "lang": "en",
+          "text": "on this tour has sold out within minutes of tickets going on sale.",
+          "start_sample": 16679,
+          "end_sample": 103603,
+          "start_ms": 1042,
+          "end_ms": 6475
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 228,
+  "frame_labels": "eeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

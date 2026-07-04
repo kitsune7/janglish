@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_072_33acedb4c9a7/cs1380.flac",
+  "sentence": "tunnelを抜けると景色が急に開けました。",
+  "sample_rate": 16000,
+  "duration_ms": 2623,
+  "reference_speaker": "en/speaker_072_33acedb4c9a7.mp3",
+  "seed": 1422,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "tunnel",
+      "start_sample": 0,
+      "end_sample": 4130,
+      "start_ms": 0,
+      "end_ms": 258
+    },
+    {
+      "lang": "ja",
+      "text": "を抜けると景色が急に開けました。",
+      "start_sample": 4130,
+      "end_sample": 41971,
+      "start_ms": 258,
+      "end_ms": 2623
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "tunnel wo nukeru to keshiki ga kyuu ni hirake mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3950,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "tunnel",
+          "start_sample": 0,
+          "end_sample": 4330,
+          "start_ms": 0,
+          "end_ms": 271
+        },
+        {
+          "lang": "ja",
+          "text": "を抜けると景色が急に開けました。",
+          "start_sample": 4330,
+          "end_sample": 63199,
+          "start_ms": 271,
+          "end_ms": 3950
+        }
+      ]
+    },
+    "ja": {
+      "text": "tunnelを抜けると景色が急に開けました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2749,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "tunnel",
+          "start_sample": 0,
+          "end_sample": 5938,
+          "start_ms": 0,
+          "end_ms": 371
+        },
+        {
+          "lang": "ja",
+          "text": "を抜けると景色が急に開けました。",
+          "start_sample": 5938,
+          "end_sample": 43979,
+          "start_ms": 371,
+          "end_ms": 2749
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 132,
+  "frame_labels": "eeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

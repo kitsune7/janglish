@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_009_33102318f73b/cs9704.flac",
+  "sentence": "あなたの鳥はそんなにvocalなんですか？",
+  "sample_rate": 16000,
+  "duration_ms": 2528,
+  "reference_speaker": "jp/speaker_009_33102318f73b.mp3",
+  "seed": 9746,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あなたの鳥はそんなに",
+      "start_sample": 0,
+      "end_sample": 21157,
+      "start_ms": 0,
+      "end_ms": 1322
+    },
+    {
+      "lang": "en",
+      "text": "vocal",
+      "start_sample": 21157,
+      "end_sample": 30862,
+      "start_ms": 1322,
+      "end_ms": 1929
+    },
+    {
+      "lang": "ja",
+      "text": "なんですか？",
+      "start_sample": 30862,
+      "end_sample": 40454,
+      "start_ms": 1929,
+      "end_ms": 2528
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "anata no tori ha sonna ni vocal na n desu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5112,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あなたの鳥はそんなに",
+          "start_sample": 0,
+          "end_sample": 35446,
+          "start_ms": 0,
+          "end_ms": 2215
+        },
+        {
+          "lang": "en",
+          "text": "vocal",
+          "start_sample": 35446,
+          "end_sample": 45551,
+          "start_ms": 2215,
+          "end_ms": 2847
+        },
+        {
+          "lang": "ja",
+          "text": "なんですか？",
+          "start_sample": 45551,
+          "end_sample": 81799,
+          "start_ms": 2847,
+          "end_ms": 5112
+        }
+      ]
+    },
+    "ja": {
+      "text": "あなたの鳥はそんなにvocalなんですか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2429,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あなたの鳥はそんなに",
+          "start_sample": 0,
+          "end_sample": 21357,
+          "start_ms": 0,
+          "end_ms": 1335
+        },
+        {
+          "lang": "en",
+          "text": "vocal",
+          "start_sample": 21357,
+          "end_sample": 29066,
+          "start_ms": 1335,
+          "end_ms": 1817
+        },
+        {
+          "lang": "ja",
+          "text": "なんですか？",
+          "start_sample": 29066,
+          "end_sample": 38858,
+          "start_ms": 1817,
+          "end_ms": 2429
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 127,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_009_33102318f73b/cs545.flac",
+  "sentence": "面接後にthank-you noteを送ることにしました。",
+  "sample_rate": 16000,
+  "duration_ms": 2990,
+  "reference_speaker": "jp/speaker_009_33102318f73b.mp3",
+  "seed": 587,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "面接後に",
+      "start_sample": 0,
+      "end_sample": 11371,
+      "start_ms": 0,
+      "end_ms": 711
+    },
+    {
+      "lang": "en",
+      "text": "thank-you note",
+      "start_sample": 11371,
+      "end_sample": 27952,
+      "start_ms": 711,
+      "end_ms": 1747
+    },
+    {
+      "lang": "ja",
+      "text": "を送ることにしました。",
+      "start_sample": 27952,
+      "end_sample": 47836,
+      "start_ms": 1747,
+      "end_ms": 2990
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mensetsu nochi ni thank-you note wo okuru koto ni shi mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5106,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "面接後に",
+          "start_sample": 0,
+          "end_sample": 23387,
+          "start_ms": 0,
+          "end_ms": 1462
+        },
+        {
+          "lang": "en",
+          "text": "thank-you note",
+          "start_sample": 23387,
+          "end_sample": 40368,
+          "start_ms": 1462,
+          "end_ms": 2523
+        },
+        {
+          "lang": "ja",
+          "text": "を送ることにしました。",
+          "start_sample": 40368,
+          "end_sample": 81699,
+          "start_ms": 2523,
+          "end_ms": 5106
+        }
+      ]
+    },
+    "ja": {
+      "text": "面接後にthank-you noteを送ることにしました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2913,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "面接後に",
+          "start_sample": 0,
+          "end_sample": 11571,
+          "start_ms": 0,
+          "end_ms": 723
+        },
+        {
+          "lang": "en",
+          "text": "thank-you note",
+          "start_sample": 11571,
+          "end_sample": 26517,
+          "start_ms": 723,
+          "end_ms": 1657
+        },
+        {
+          "lang": "ja",
+          "text": "を送ることにしました。",
+          "start_sample": 26517,
+          "end_sample": 46601,
+          "start_ms": 1657,
+          "end_ms": 2913
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 150,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_020_8ca1bbc6858e/cs969.flac",
+  "sentence": "spicyな料理が苦手なので、辛さを抑えてもらえますか？",
+  "sample_rate": 16000,
+  "duration_ms": 3952,
+  "reference_speaker": "jp/speaker_020_8ca1bbc6858e.mp3",
+  "seed": 1011,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "spicy",
+      "start_sample": 0,
+      "end_sample": 9264,
+      "start_ms": 0,
+      "end_ms": 579
+    },
+    {
+      "lang": "ja",
+      "text": "な料理が苦手なので、辛さを抑えてもらえますか？",
+      "start_sample": 9264,
+      "end_sample": 63235,
+      "start_ms": 579,
+      "end_ms": 3952
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "spicy na ryouri ga nigate na no de shin sa wo osae te morae masu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6396,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "spicy",
+          "start_sample": 0,
+          "end_sample": 9464,
+          "start_ms": 0,
+          "end_ms": 592
+        },
+        {
+          "lang": "ja",
+          "text": "な料理が苦手なので、辛さを抑えてもらえますか？",
+          "start_sample": 9464,
+          "end_sample": 102342,
+          "start_ms": 592,
+          "end_ms": 6396
+        }
+      ]
+    },
+    "ja": {
+      "text": "spicyな料理が苦手なので、辛さを抑えてもらえますか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3766,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "spicy",
+          "start_sample": 0,
+          "end_sample": 6089,
+          "start_ms": 0,
+          "end_ms": 381
+        },
+        {
+          "lang": "ja",
+          "text": "な料理が苦手なので、辛さを抑えてもらえますか？",
+          "start_sample": 6089,
+          "end_sample": 60260,
+          "start_ms": 381,
+          "end_ms": 3766
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 198,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

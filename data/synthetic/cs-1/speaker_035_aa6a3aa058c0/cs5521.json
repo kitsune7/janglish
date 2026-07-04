@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_035_aa6a3aa058c0/cs5521.flac",
+  "sentence": "Can you please 片付ける the stuff on the kitchen counter?",
+  "sample_rate": 16000,
+  "duration_ms": 2683,
+  "reference_speaker": "en/speaker_035_aa6a3aa058c0.mp3",
+  "seed": 5563,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you please",
+      "start_sample": 0,
+      "end_sample": 8006,
+      "start_ms": 0,
+      "end_ms": 500
+    },
+    {
+      "lang": "ja",
+      "text": "片付ける",
+      "start_sample": 8006,
+      "end_sample": 19961,
+      "start_ms": 500,
+      "end_ms": 1248
+    },
+    {
+      "lang": "en",
+      "text": "the stuff on the kitchen counter?",
+      "start_sample": 19961,
+      "end_sample": 42928,
+      "start_ms": 1248,
+      "end_ms": 2683
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you please katazukeru the stuff on the kitchen counter?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2876,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you please",
+          "start_sample": 0,
+          "end_sample": 8206,
+          "start_ms": 0,
+          "end_ms": 513
+        },
+        {
+          "lang": "ja",
+          "text": "片付ける",
+          "start_sample": 8206,
+          "end_sample": 22849,
+          "start_ms": 513,
+          "end_ms": 1428
+        },
+        {
+          "lang": "en",
+          "text": "the stuff on the kitchen counter?",
+          "start_sample": 22849,
+          "end_sample": 46016,
+          "start_ms": 1428,
+          "end_ms": 2876
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you please 片付ける the stuff on the kitchen counter?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3991,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you please",
+          "start_sample": 0,
+          "end_sample": 15882,
+          "start_ms": 0,
+          "end_ms": 993
+        },
+        {
+          "lang": "ja",
+          "text": "片付ける",
+          "start_sample": 15882,
+          "end_sample": 28237,
+          "start_ms": 993,
+          "end_ms": 1765
+        },
+        {
+          "lang": "en",
+          "text": "the stuff on the kitchen counter?",
+          "start_sample": 28237,
+          "end_sample": 63855,
+          "start_ms": 1765,
+          "end_ms": 3991
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 135,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

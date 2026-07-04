@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_089_6f14b0930650/cs3371.flac",
+  "sentence": "その建物からの evacuationはとてもスムーズでした。",
+  "sample_rate": 16000,
+  "duration_ms": 4108,
+  "reference_speaker": "en/speaker_089_6f14b0930650.mp3",
+  "seed": 3413,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その建物からの",
+      "start_sample": 0,
+      "end_sample": 19184,
+      "start_ms": 0,
+      "end_ms": 1199
+    },
+    {
+      "lang": "en",
+      "text": "evacuation",
+      "start_sample": 19184,
+      "end_sample": 36123,
+      "start_ms": 1199,
+      "end_ms": 2258
+    },
+    {
+      "lang": "ja",
+      "text": "はとてもスムーズでした。",
+      "start_sample": 36123,
+      "end_sample": 65721,
+      "start_ms": 2258,
+      "end_ms": 4108
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono tatemono kara no evacuation ha totemo sumuuzu deshi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6201,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その建物からの",
+          "start_sample": 0,
+          "end_sample": 46073,
+          "start_ms": 0,
+          "end_ms": 2880
+        },
+        {
+          "lang": "en",
+          "text": "evacuation",
+          "start_sample": 46073,
+          "end_sample": 63412,
+          "start_ms": 2880,
+          "end_ms": 3963
+        },
+        {
+          "lang": "ja",
+          "text": "はとてもスムーズでした。",
+          "start_sample": 63412,
+          "end_sample": 99211,
+          "start_ms": 3963,
+          "end_ms": 6201
+        }
+      ]
+    },
+    "ja": {
+      "text": "その建物からの evacuationはとてもスムーズでした。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3965,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その建物からの",
+          "start_sample": 0,
+          "end_sample": 19384,
+          "start_ms": 0,
+          "end_ms": 1212
+        },
+        {
+          "lang": "en",
+          "text": "evacuation",
+          "start_sample": 19384,
+          "end_sample": 33643,
+          "start_ms": 1212,
+          "end_ms": 2103
+        },
+        {
+          "lang": "ja",
+          "text": "はとてもスムーズでした。",
+          "start_sample": 33643,
+          "end_sample": 63441,
+          "start_ms": 2103,
+          "end_ms": 3965
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 206,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

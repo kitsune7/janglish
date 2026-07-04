@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_085_1a04e2db0811/cs2084.flac",
+  "sentence": "Have you ever watched 花火 burst over the water and thought — I want to paint that?",
+  "sample_rate": 16000,
+  "duration_ms": 4626,
+  "reference_speaker": "en/speaker_085_1a04e2db0811.mp3",
+  "seed": 2126,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you ever watched",
+      "start_sample": 0,
+      "end_sample": 15372,
+      "start_ms": 0,
+      "end_ms": 961
+    },
+    {
+      "lang": "ja",
+      "text": "花火",
+      "start_sample": 15372,
+      "end_sample": 22689,
+      "start_ms": 961,
+      "end_ms": 1418
+    },
+    {
+      "lang": "en",
+      "text": "burst over the water and thought — I want to paint that?",
+      "start_sample": 22689,
+      "end_sample": 74020,
+      "start_ms": 1418,
+      "end_ms": 4626
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you ever watched hanabi burst over the water and thought — I want to paint that?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4615,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever watched",
+          "start_sample": 0,
+          "end_sample": 15572,
+          "start_ms": 0,
+          "end_ms": 973
+        },
+        {
+          "lang": "ja",
+          "text": "花火",
+          "start_sample": 15572,
+          "end_sample": 22315,
+          "start_ms": 973,
+          "end_ms": 1395
+        },
+        {
+          "lang": "en",
+          "text": "burst over the water and thought — I want to paint that?",
+          "start_sample": 22315,
+          "end_sample": 73846,
+          "start_ms": 1395,
+          "end_ms": 4615
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you ever watched 花火 burst over the water and thought — I want to paint that?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4400,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever watched",
+          "start_sample": 0,
+          "end_sample": 27007,
+          "start_ms": 0,
+          "end_ms": 1688
+        },
+        {
+          "lang": "ja",
+          "text": "花火",
+          "start_sample": 27007,
+          "end_sample": 34724,
+          "start_ms": 1688,
+          "end_ms": 2170
+        },
+        {
+          "lang": "en",
+          "text": "burst over the water and thought — I want to paint that?",
+          "start_sample": 34724,
+          "end_sample": 70408,
+          "start_ms": 2170,
+          "end_ms": 4400
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 232,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

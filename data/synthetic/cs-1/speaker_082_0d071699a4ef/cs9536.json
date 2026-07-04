@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_082_0d071699a4ef/cs9536.flac",
+  "sentence": "The 冷蔵庫 in the minibar had already been half-emptied by the previous guest.",
+  "sample_rate": 16000,
+  "duration_ms": 5045,
+  "reference_speaker": "en/speaker_082_0d071699a4ef.mp3",
+  "seed": 9578,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 923,
+      "start_ms": 0,
+      "end_ms": 58
+    },
+    {
+      "lang": "ja",
+      "text": "冷蔵庫",
+      "start_sample": 923,
+      "end_sample": 16060,
+      "start_ms": 58,
+      "end_ms": 1004
+    },
+    {
+      "lang": "en",
+      "text": "in the minibar had already been half-emptied by the previous guest.",
+      "start_sample": 16060,
+      "end_sample": 80726,
+      "start_ms": 1004,
+      "end_ms": 5045
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The reizou ko in the minibar had already been half-emptied by the previous guest.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4736,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1123,
+          "start_ms": 0,
+          "end_ms": 70
+        },
+        {
+          "lang": "ja",
+          "text": "冷蔵庫",
+          "start_sample": 1123,
+          "end_sample": 10917,
+          "start_ms": 70,
+          "end_ms": 682
+        },
+        {
+          "lang": "en",
+          "text": "in the minibar had already been half-emptied by the previous guest.",
+          "start_sample": 10917,
+          "end_sample": 75783,
+          "start_ms": 682,
+          "end_ms": 4736
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 冷蔵庫 in the minibar had already been half-emptied by the previous guest.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7668,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5764,
+          "start_ms": 0,
+          "end_ms": 360
+        },
+        {
+          "lang": "ja",
+          "text": "冷蔵庫",
+          "start_sample": 5764,
+          "end_sample": 21301,
+          "start_ms": 360,
+          "end_ms": 1331
+        },
+        {
+          "lang": "en",
+          "text": "in the minibar had already been half-emptied by the previous guest.",
+          "start_sample": 21301,
+          "end_sample": 122690,
+          "start_ms": 1331,
+          "end_ms": 7668
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 253,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

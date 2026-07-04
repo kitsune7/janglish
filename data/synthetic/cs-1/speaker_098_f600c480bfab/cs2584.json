@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_098_f600c480bfab/cs2584.flac",
+  "sentence": "荷物が多すぎてoverweightの料金を取られてしまいました。",
+  "sample_rate": 16000,
+  "duration_ms": 4472,
+  "reference_speaker": "en/speaker_098_f600c480bfab.mp3",
+  "seed": 2626,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "荷物が多すぎて",
+      "start_sample": 0,
+      "end_sample": 19534,
+      "start_ms": 0,
+      "end_ms": 1221
+    },
+    {
+      "lang": "en",
+      "text": "overweight",
+      "start_sample": 19534,
+      "end_sample": 40460,
+      "start_ms": 1221,
+      "end_ms": 2529
+    },
+    {
+      "lang": "ja",
+      "text": "の料金を取られてしまいました。",
+      "start_sample": 40460,
+      "end_sample": 71546,
+      "start_ms": 2529,
+      "end_ms": 4472
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "nimotsu ga ta sugi te overweight no ryoukin wo tora re te shimai mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9079,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "荷物が多すぎて",
+          "start_sample": 0,
+          "end_sample": 46980,
+          "start_ms": 0,
+          "end_ms": 2936
+        },
+        {
+          "lang": "en",
+          "text": "overweight",
+          "start_sample": 46980,
+          "end_sample": 68306,
+          "start_ms": 2936,
+          "end_ms": 4269
+        },
+        {
+          "lang": "ja",
+          "text": "の料金を取られてしまいました。",
+          "start_sample": 68306,
+          "end_sample": 145271,
+          "start_ms": 4269,
+          "end_ms": 9079
+        }
+      ]
+    },
+    "ja": {
+      "text": "荷物が多すぎてoverweightの料金を取られてしまいました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3951,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "荷物が多すぎて",
+          "start_sample": 0,
+          "end_sample": 19734,
+          "start_ms": 0,
+          "end_ms": 1233
+        },
+        {
+          "lang": "en",
+          "text": "overweight",
+          "start_sample": 19734,
+          "end_sample": 31928,
+          "start_ms": 1233,
+          "end_ms": 1996
+        },
+        {
+          "lang": "ja",
+          "text": "の料金を取られてしまいました。",
+          "start_sample": 31928,
+          "end_sample": 63214,
+          "start_ms": 1996,
+          "end_ms": 3951
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 224,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

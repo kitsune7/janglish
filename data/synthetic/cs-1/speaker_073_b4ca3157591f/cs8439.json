@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_073_b4ca3157591f/cs8439.flac",
+  "sentence": "The 融資 came through just in time to save the business.",
+  "sample_rate": 16000,
+  "duration_ms": 2850,
+  "reference_speaker": "jp/speaker_073_b4ca3157591f.mp3",
+  "seed": 8481,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1244,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "融資",
+      "start_sample": 1244,
+      "end_sample": 9040,
+      "start_ms": 78,
+      "end_ms": 565
+    },
+    {
+      "lang": "en",
+      "text": "came through just in time to save the business.",
+      "start_sample": 9040,
+      "end_sample": 45597,
+      "start_ms": 565,
+      "end_ms": 2850
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The yuushi came through just in time to save the business.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2729,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1444,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "融資",
+          "start_sample": 1444,
+          "end_sample": 6901,
+          "start_ms": 90,
+          "end_ms": 431
+        },
+        {
+          "lang": "en",
+          "text": "came through just in time to save the business.",
+          "start_sample": 6901,
+          "end_sample": 43658,
+          "start_ms": 431,
+          "end_ms": 2729
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 融資 came through just in time to save the business.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4559,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3695,
+          "start_ms": 0,
+          "end_ms": 231
+        },
+        {
+          "lang": "ja",
+          "text": "融資",
+          "start_sample": 3695,
+          "end_sample": 11891,
+          "start_ms": 231,
+          "end_ms": 743
+        },
+        {
+          "lang": "en",
+          "text": "came through just in time to save the business.",
+          "start_sample": 11891,
+          "end_sample": 72950,
+          "start_ms": 743,
+          "end_ms": 4559
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 143,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

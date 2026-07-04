@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_097_44a775a22921/cs1813.flac",
+  "sentence": "His sketches are surprisingly 細かい given how broad and loose the final paintings appear.",
+  "sample_rate": 16000,
+  "duration_ms": 5789,
+  "reference_speaker": "en/speaker_097_44a775a22921.mp3",
+  "seed": 1855,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His sketches are surprisingly",
+      "start_sample": 0,
+      "end_sample": 26771,
+      "start_ms": 0,
+      "end_ms": 1673
+    },
+    {
+      "lang": "ja",
+      "text": "細かい",
+      "start_sample": 26771,
+      "end_sample": 35988,
+      "start_ms": 1673,
+      "end_ms": 2249
+    },
+    {
+      "lang": "en",
+      "text": "given how broad and loose the final paintings appear.",
+      "start_sample": 35988,
+      "end_sample": 92619,
+      "start_ms": 2249,
+      "end_ms": 5789
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His sketches are surprisingly komakai given how broad and loose the final paintings appear.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6121,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His sketches are surprisingly",
+          "start_sample": 0,
+          "end_sample": 26971,
+          "start_ms": 0,
+          "end_ms": 1686
+        },
+        {
+          "lang": "ja",
+          "text": "細かい",
+          "start_sample": 26971,
+          "end_sample": 41099,
+          "start_ms": 1686,
+          "end_ms": 2569
+        },
+        {
+          "lang": "en",
+          "text": "given how broad and loose the final paintings appear.",
+          "start_sample": 41099,
+          "end_sample": 97930,
+          "start_ms": 2569,
+          "end_ms": 6121
+        }
+      ]
+    },
+    "ja": {
+      "text": "His sketches are surprisingly 細かい given how broad and loose the final paintings appear.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8555,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His sketches are surprisingly",
+          "start_sample": 0,
+          "end_sample": 40393,
+          "start_ms": 0,
+          "end_ms": 2525
+        },
+        {
+          "lang": "ja",
+          "text": "細かい",
+          "start_sample": 40393,
+          "end_sample": 50010,
+          "start_ms": 2525,
+          "end_ms": 3126
+        },
+        {
+          "lang": "en",
+          "text": "given how broad and loose the final paintings appear.",
+          "start_sample": 50010,
+          "end_sample": 136886,
+          "start_ms": 3126,
+          "end_ms": 8555
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 290,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

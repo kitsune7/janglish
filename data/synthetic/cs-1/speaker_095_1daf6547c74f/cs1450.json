@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_095_1daf6547c74f/cs1450.flac",
+  "sentence": "あの駅のcrowdはいつも想像以上だね。",
+  "sample_rate": 16000,
+  "duration_ms": 3167,
+  "reference_speaker": "jp/speaker_095_1daf6547c74f.mp3",
+  "seed": 1492,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの駅の",
+      "start_sample": 0,
+      "end_sample": 8615,
+      "start_ms": 0,
+      "end_ms": 538
+    },
+    {
+      "lang": "en",
+      "text": "crowd",
+      "start_sample": 8615,
+      "end_sample": 22177,
+      "start_ms": 538,
+      "end_ms": 1386
+    },
+    {
+      "lang": "ja",
+      "text": "はいつも想像以上だね。",
+      "start_sample": 22177,
+      "end_sample": 50667,
+      "start_ms": 1386,
+      "end_ms": 3167
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano eki no crowd ha itsu mo souzou ijou da ne",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7001,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの駅の",
+          "start_sample": 0,
+          "end_sample": 61622,
+          "start_ms": 0,
+          "end_ms": 3851
+        },
+        {
+          "lang": "en",
+          "text": "crowd",
+          "start_sample": 61622,
+          "end_sample": 75584,
+          "start_ms": 3851,
+          "end_ms": 4724
+        },
+        {
+          "lang": "ja",
+          "text": "はいつも想像以上だね。",
+          "start_sample": 75584,
+          "end_sample": 112011,
+          "start_ms": 4724,
+          "end_ms": 7001
+        }
+      ]
+    },
+    "ja": {
+      "text": "あの駅のcrowdはいつも想像以上だね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2805,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの駅の",
+          "start_sample": 0,
+          "end_sample": 8815,
+          "start_ms": 0,
+          "end_ms": 551
+        },
+        {
+          "lang": "en",
+          "text": "crowd",
+          "start_sample": 8815,
+          "end_sample": 16188,
+          "start_ms": 551,
+          "end_ms": 1012
+        },
+        {
+          "lang": "ja",
+          "text": "はいつも想像以上だね。",
+          "start_sample": 16188,
+          "end_sample": 44878,
+          "start_ms": 1012,
+          "end_ms": 2805
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

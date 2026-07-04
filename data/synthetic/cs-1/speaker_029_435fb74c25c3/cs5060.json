@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_029_435fb74c25c3/cs5060.flac",
+  "sentence": "respawnした瞬間にまた撃たれた。",
+  "sample_rate": 16000,
+  "duration_ms": 2420,
+  "reference_speaker": "en/speaker_029_435fb74c25c3.mp3",
+  "seed": 5102,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "respawn",
+      "start_sample": 0,
+      "end_sample": 11678,
+      "start_ms": 0,
+      "end_ms": 730
+    },
+    {
+      "lang": "ja",
+      "text": "した瞬間にまた撃たれた。",
+      "start_sample": 11678,
+      "end_sample": 38722,
+      "start_ms": 730,
+      "end_ms": 2420
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "respawn shi ta shunkan ni mata uta re ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4636,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "respawn",
+          "start_sample": 0,
+          "end_sample": 11878,
+          "start_ms": 0,
+          "end_ms": 742
+        },
+        {
+          "lang": "ja",
+          "text": "した瞬間にまた撃たれた。",
+          "start_sample": 11878,
+          "end_sample": 74174,
+          "start_ms": 742,
+          "end_ms": 4636
+        }
+      ]
+    },
+    "ja": {
+      "text": "respawnした瞬間にまた撃たれた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2237,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "respawn",
+          "start_sample": 0,
+          "end_sample": 8546,
+          "start_ms": 0,
+          "end_ms": 534
+        },
+        {
+          "lang": "ja",
+          "text": "した瞬間にまた撃たれた。",
+          "start_sample": 8546,
+          "end_sample": 35790,
+          "start_ms": 534,
+          "end_ms": 2237
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 122,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

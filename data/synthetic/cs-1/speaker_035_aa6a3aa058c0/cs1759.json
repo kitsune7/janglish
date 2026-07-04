@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_035_aa6a3aa058c0/cs1759.flac",
+  "sentence": "They only serve 地酒 from small regional breweries at that hidden bar downtown.",
+  "sample_rate": 16000,
+  "duration_ms": 4885,
+  "reference_speaker": "en/speaker_035_aa6a3aa058c0.mp3",
+  "seed": 1801,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "They only serve",
+      "start_sample": 0,
+      "end_sample": 11042,
+      "start_ms": 0,
+      "end_ms": 690
+    },
+    {
+      "lang": "ja",
+      "text": "地酒",
+      "start_sample": 11042,
+      "end_sample": 26976,
+      "start_ms": 690,
+      "end_ms": 1686
+    },
+    {
+      "lang": "en",
+      "text": "from small regional breweries at that hidden bar downtown.",
+      "start_sample": 26976,
+      "end_sample": 78166,
+      "start_ms": 1686,
+      "end_ms": 4885
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "They only serve jizake from small regional breweries at that hidden bar downtown.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4436,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "They only serve",
+          "start_sample": 0,
+          "end_sample": 11242,
+          "start_ms": 0,
+          "end_ms": 703
+        },
+        {
+          "lang": "ja",
+          "text": "地酒",
+          "start_sample": 11242,
+          "end_sample": 19593,
+          "start_ms": 703,
+          "end_ms": 1225
+        },
+        {
+          "lang": "en",
+          "text": "from small regional breweries at that hidden bar downtown.",
+          "start_sample": 19593,
+          "end_sample": 70983,
+          "start_ms": 1225,
+          "end_ms": 4436
+        }
+      ]
+    },
+    "ja": {
+      "text": "They only serve 地酒 from small regional breweries at that hidden bar downtown.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8888,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "They only serve",
+          "start_sample": 0,
+          "end_sample": 21138,
+          "start_ms": 0,
+          "end_ms": 1321
+        },
+        {
+          "lang": "ja",
+          "text": "地酒",
+          "start_sample": 21138,
+          "end_sample": 37472,
+          "start_ms": 1321,
+          "end_ms": 2342
+        },
+        {
+          "lang": "en",
+          "text": "from small regional breweries at that hidden bar downtown.",
+          "start_sample": 37472,
+          "end_sample": 142202,
+          "start_ms": 2342,
+          "end_ms": 8888
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 245,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

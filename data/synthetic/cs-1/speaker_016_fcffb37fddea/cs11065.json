@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_016_fcffb37fddea/cs11065.flac",
+  "sentence": "She picked wild 桔梗 from the hillside to decorate the autumn table.",
+  "sample_rate": 16000,
+  "duration_ms": 4287,
+  "reference_speaker": "en/speaker_016_fcffb37fddea.mp3",
+  "seed": 11107,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She picked wild",
+      "start_sample": 0,
+      "end_sample": 17268,
+      "start_ms": 0,
+      "end_ms": 1079
+    },
+    {
+      "lang": "ja",
+      "text": "桔梗",
+      "start_sample": 17268,
+      "end_sample": 23592,
+      "start_ms": 1079,
+      "end_ms": 1474
+    },
+    {
+      "lang": "en",
+      "text": "from the hillside to decorate the autumn table.",
+      "start_sample": 23592,
+      "end_sample": 68589,
+      "start_ms": 1474,
+      "end_ms": 4287
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She picked wild kikyou from the hillside to decorate the autumn table.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4428,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She picked wild",
+          "start_sample": 0,
+          "end_sample": 17468,
+          "start_ms": 0,
+          "end_ms": 1092
+        },
+        {
+          "lang": "ja",
+          "text": "桔梗",
+          "start_sample": 17468,
+          "end_sample": 25643,
+          "start_ms": 1092,
+          "end_ms": 1603
+        },
+        {
+          "lang": "en",
+          "text": "from the hillside to decorate the autumn table.",
+          "start_sample": 25643,
+          "end_sample": 70840,
+          "start_ms": 1603,
+          "end_ms": 4428
+        }
+      ]
+    },
+    "ja": {
+      "text": "She picked wild 桔梗 from the hillside to decorate the autumn table.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6344,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She picked wild",
+          "start_sample": 0,
+          "end_sample": 20972,
+          "start_ms": 0,
+          "end_ms": 1311
+        },
+        {
+          "lang": "ja",
+          "text": "桔梗",
+          "start_sample": 20972,
+          "end_sample": 27696,
+          "start_ms": 1311,
+          "end_ms": 1731
+        },
+        {
+          "lang": "en",
+          "text": "from the hillside to decorate the autumn table.",
+          "start_sample": 27696,
+          "end_sample": 101501,
+          "start_ms": 1731,
+          "end_ms": 6344
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 215,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

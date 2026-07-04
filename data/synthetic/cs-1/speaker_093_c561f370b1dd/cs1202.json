@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_093_c561f370b1dd/cs1202.flac",
+  "sentence": "地下鉄のpassengerが急増して、新しい車両が追加された。",
+  "sample_rate": 16000,
+  "duration_ms": 5142,
+  "reference_speaker": "en/speaker_093_c561f370b1dd.mp3",
+  "seed": 1244,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "地下鉄の",
+      "start_sample": 0,
+      "end_sample": 11505,
+      "start_ms": 0,
+      "end_ms": 719
+    },
+    {
+      "lang": "en",
+      "text": "passenger",
+      "start_sample": 11505,
+      "end_sample": 22017,
+      "start_ms": 719,
+      "end_ms": 1376
+    },
+    {
+      "lang": "ja",
+      "text": "が急増して、新しい車両が追加された。",
+      "start_sample": 22017,
+      "end_sample": 82267,
+      "start_ms": 1376,
+      "end_ms": 5142
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "chika tetsu no passenger ga kyuuzou shi te atarashii sharyou ga tsuika sa re ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7261,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "地下鉄の",
+          "start_sample": 0,
+          "end_sample": 27759,
+          "start_ms": 0,
+          "end_ms": 1735
+        },
+        {
+          "lang": "en",
+          "text": "passenger",
+          "start_sample": 27759,
+          "end_sample": 38671,
+          "start_ms": 1735,
+          "end_ms": 2417
+        },
+        {
+          "lang": "ja",
+          "text": "が急増して、新しい車両が追加された。",
+          "start_sample": 38671,
+          "end_sample": 116172,
+          "start_ms": 2417,
+          "end_ms": 7261
+        }
+      ]
+    },
+    "ja": {
+      "text": "地下鉄のpassengerが急増して、新しい車両が追加された。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5332,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "地下鉄の",
+          "start_sample": 0,
+          "end_sample": 11705,
+          "start_ms": 0,
+          "end_ms": 732
+        },
+        {
+          "lang": "en",
+          "text": "passenger",
+          "start_sample": 11705,
+          "end_sample": 24854,
+          "start_ms": 732,
+          "end_ms": 1553
+        },
+        {
+          "lang": "ja",
+          "text": "が急増して、新しい車両が追加された。",
+          "start_sample": 24854,
+          "end_sample": 85304,
+          "start_ms": 1553,
+          "end_ms": 5332
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 258,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

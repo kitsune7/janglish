@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_080_2ec83f7b270e/cs9644.flac",
+  "sentence": "She spoke very 率直に about everything on the call.",
+  "sample_rate": 16000,
+  "duration_ms": 4429,
+  "reference_speaker": "en/speaker_080_2ec83f7b270e.mp3",
+  "seed": 9686,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She spoke very",
+      "start_sample": 0,
+      "end_sample": 11178,
+      "start_ms": 0,
+      "end_ms": 699
+    },
+    {
+      "lang": "ja",
+      "text": "率直に",
+      "start_sample": 11178,
+      "end_sample": 21230,
+      "start_ms": 699,
+      "end_ms": 1327
+    },
+    {
+      "lang": "en",
+      "text": "about everything on the call.",
+      "start_sample": 21230,
+      "end_sample": 70870,
+      "start_ms": 1327,
+      "end_ms": 4429
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She spoke very sotchoku ni about everything on the call.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5168,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She spoke very",
+          "start_sample": 0,
+          "end_sample": 11378,
+          "start_ms": 0,
+          "end_ms": 711
+        },
+        {
+          "lang": "ja",
+          "text": "率直に",
+          "start_sample": 11378,
+          "end_sample": 32852,
+          "start_ms": 711,
+          "end_ms": 2053
+        },
+        {
+          "lang": "en",
+          "text": "about everything on the call.",
+          "start_sample": 32852,
+          "end_sample": 82692,
+          "start_ms": 2053,
+          "end_ms": 5168
+        }
+      ]
+    },
+    "ja": {
+      "text": "She spoke very 率直に about everything on the call.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3356,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She spoke very",
+          "start_sample": 0,
+          "end_sample": 15275,
+          "start_ms": 0,
+          "end_ms": 955
+        },
+        {
+          "lang": "ja",
+          "text": "率直に",
+          "start_sample": 15275,
+          "end_sample": 25727,
+          "start_ms": 955,
+          "end_ms": 1608
+        },
+        {
+          "lang": "en",
+          "text": "about everything on the call.",
+          "start_sample": 25727,
+          "end_sample": 53702,
+          "start_ms": 1608,
+          "end_ms": 3356
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 222,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

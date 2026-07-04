@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_059_4c496a210b8b/cs7900.flac",
+  "sentence": "I bought a small 御守り at the shrine to keep in my wallet through the new year.",
+  "sample_rate": 16000,
+  "duration_ms": 4639,
+  "reference_speaker": "jp/speaker_059_4c496a210b8b.mp3",
+  "seed": 7942,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I bought a small",
+      "start_sample": 0,
+      "end_sample": 13265,
+      "start_ms": 0,
+      "end_ms": 829
+    },
+    {
+      "lang": "ja",
+      "text": "御守り",
+      "start_sample": 13265,
+      "end_sample": 20081,
+      "start_ms": 829,
+      "end_ms": 1255
+    },
+    {
+      "lang": "en",
+      "text": "at the shrine to keep in my wallet through the new year.",
+      "start_sample": 20081,
+      "end_sample": 74229,
+      "start_ms": 1255,
+      "end_ms": 4639
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I bought a small o mamori at the shrine to keep in my wallet through the new year.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5130,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I bought a small",
+          "start_sample": 0,
+          "end_sample": 13465,
+          "start_ms": 0,
+          "end_ms": 842
+        },
+        {
+          "lang": "ja",
+          "text": "御守り",
+          "start_sample": 13465,
+          "end_sample": 27734,
+          "start_ms": 842,
+          "end_ms": 1733
+        },
+        {
+          "lang": "en",
+          "text": "at the shrine to keep in my wallet through the new year.",
+          "start_sample": 27734,
+          "end_sample": 82082,
+          "start_ms": 1733,
+          "end_ms": 5130
+        }
+      ]
+    },
+    "ja": {
+      "text": "I bought a small 御守り at the shrine to keep in my wallet through the new year.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6134,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I bought a small",
+          "start_sample": 0,
+          "end_sample": 19884,
+          "start_ms": 0,
+          "end_ms": 1243
+        },
+        {
+          "lang": "ja",
+          "text": "御守り",
+          "start_sample": 19884,
+          "end_sample": 27100,
+          "start_ms": 1243,
+          "end_ms": 1694
+        },
+        {
+          "lang": "en",
+          "text": "at the shrine to keep in my wallet through the new year.",
+          "start_sample": 27100,
+          "end_sample": 98143,
+          "start_ms": 1694,
+          "end_ms": 6134
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 232,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_045_fda9acd0702e/cs3075.flac",
+  "sentence": "I felt the interviewer was being completely 公平 throughout the whole process.",
+  "sample_rate": 16000,
+  "duration_ms": 4482,
+  "reference_speaker": "jp/speaker_045_fda9acd0702e.mp3",
+  "seed": 3117,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I felt the interviewer was being completely",
+      "start_sample": 0,
+      "end_sample": 37351,
+      "start_ms": 0,
+      "end_ms": 2334
+    },
+    {
+      "lang": "ja",
+      "text": "公平",
+      "start_sample": 37351,
+      "end_sample": 47198,
+      "start_ms": 2334,
+      "end_ms": 2950
+    },
+    {
+      "lang": "en",
+      "text": "throughout the whole process.",
+      "start_sample": 47198,
+      "end_sample": 71710,
+      "start_ms": 2950,
+      "end_ms": 4482
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I felt the interviewer was being completely kouhei throughout the whole process.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4754,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I felt the interviewer was being completely",
+          "start_sample": 0,
+          "end_sample": 37551,
+          "start_ms": 0,
+          "end_ms": 2347
+        },
+        {
+          "lang": "ja",
+          "text": "公平",
+          "start_sample": 37551,
+          "end_sample": 51352,
+          "start_ms": 2347,
+          "end_ms": 3210
+        },
+        {
+          "lang": "en",
+          "text": "throughout the whole process.",
+          "start_sample": 51352,
+          "end_sample": 76064,
+          "start_ms": 3210,
+          "end_ms": 4754
+        }
+      ]
+    },
+    "ja": {
+      "text": "I felt the interviewer was being completely 公平 throughout the whole process.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6385,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I felt the interviewer was being completely",
+          "start_sample": 0,
+          "end_sample": 60203,
+          "start_ms": 0,
+          "end_ms": 3763
+        },
+        {
+          "lang": "ja",
+          "text": "公平",
+          "start_sample": 60203,
+          "end_sample": 70450,
+          "start_ms": 3763,
+          "end_ms": 4403
+        },
+        {
+          "lang": "en",
+          "text": "throughout the whole process.",
+          "start_sample": 70450,
+          "end_sample": 102153,
+          "start_ms": 4403,
+          "end_ms": 6385
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

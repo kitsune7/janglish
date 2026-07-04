@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_024_53a01817659b/cs3865.flac",
+  "sentence": "このサプリはvitaminが豊富で、体に良いですよ。",
+  "sample_rate": 16000,
+  "duration_ms": 3774,
+  "reference_speaker": "jp/speaker_024_53a01817659b.mp3",
+  "seed": 3907,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このサプリは",
+      "start_sample": 0,
+      "end_sample": 19396,
+      "start_ms": 0,
+      "end_ms": 1212
+    },
+    {
+      "lang": "en",
+      "text": "vitamin",
+      "start_sample": 19396,
+      "end_sample": 31994,
+      "start_ms": 1212,
+      "end_ms": 2000
+    },
+    {
+      "lang": "ja",
+      "text": "が豊富で、体に良いですよ。",
+      "start_sample": 31994,
+      "end_sample": 60383,
+      "start_ms": 2000,
+      "end_ms": 3774
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono sapuri ha vitamin ga houfu de karada ni yoi desu yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6318,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このサプリは",
+          "start_sample": 0,
+          "end_sample": 36102,
+          "start_ms": 0,
+          "end_ms": 2256
+        },
+        {
+          "lang": "en",
+          "text": "vitamin",
+          "start_sample": 36102,
+          "end_sample": 49100,
+          "start_ms": 2256,
+          "end_ms": 3069
+        },
+        {
+          "lang": "ja",
+          "text": "が豊富で、体に良いですよ。",
+          "start_sample": 49100,
+          "end_sample": 101086,
+          "start_ms": 3069,
+          "end_ms": 6318
+        }
+      ]
+    },
+    "ja": {
+      "text": "このサプリはvitaminが豊富で、体に良いですよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3594,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このサプリは",
+          "start_sample": 0,
+          "end_sample": 19596,
+          "start_ms": 0,
+          "end_ms": 1225
+        },
+        {
+          "lang": "en",
+          "text": "vitamin",
+          "start_sample": 19596,
+          "end_sample": 28912,
+          "start_ms": 1225,
+          "end_ms": 1807
+        },
+        {
+          "lang": "ja",
+          "text": "が豊富で、体に良いですよ。",
+          "start_sample": 28912,
+          "end_sample": 57501,
+          "start_ms": 1807,
+          "end_ms": 3594
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 189,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

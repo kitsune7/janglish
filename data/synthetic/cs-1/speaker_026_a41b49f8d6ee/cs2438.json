@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_026_a41b49f8d6ee/cs2438.flac",
+  "sentence": "The mountains are incredibly 美しい when the first spring wildflowers appear.",
+  "sample_rate": 16000,
+  "duration_ms": 5899,
+  "reference_speaker": "en/speaker_026_a41b49f8d6ee.mp3",
+  "seed": 2480,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The mountains are incredibly",
+      "start_sample": 0,
+      "end_sample": 31690,
+      "start_ms": 0,
+      "end_ms": 1981
+    },
+    {
+      "lang": "ja",
+      "text": "美しい",
+      "start_sample": 31690,
+      "end_sample": 41378,
+      "start_ms": 1981,
+      "end_ms": 2586
+    },
+    {
+      "lang": "en",
+      "text": "when the first spring wildflowers appear.",
+      "start_sample": 41378,
+      "end_sample": 94381,
+      "start_ms": 2586,
+      "end_ms": 5899
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The mountains are incredibly utsukushii when the first spring wildflowers appear.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6570,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The mountains are incredibly",
+          "start_sample": 0,
+          "end_sample": 31890,
+          "start_ms": 0,
+          "end_ms": 1993
+        },
+        {
+          "lang": "ja",
+          "text": "美しい",
+          "start_sample": 31890,
+          "end_sample": 51922,
+          "start_ms": 1993,
+          "end_ms": 3245
+        },
+        {
+          "lang": "en",
+          "text": "when the first spring wildflowers appear.",
+          "start_sample": 51922,
+          "end_sample": 105125,
+          "start_ms": 3245,
+          "end_ms": 6570
+        }
+      ]
+    },
+    "ja": {
+      "text": "The mountains are incredibly 美しい when the first spring wildflowers appear.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6265,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The mountains are incredibly",
+          "start_sample": 0,
+          "end_sample": 31866,
+          "start_ms": 0,
+          "end_ms": 1992
+        },
+        {
+          "lang": "ja",
+          "text": "美しい",
+          "start_sample": 31866,
+          "end_sample": 41954,
+          "start_ms": 1992,
+          "end_ms": 2622
+        },
+        {
+          "lang": "en",
+          "text": "when the first spring wildflowers appear.",
+          "start_sample": 41954,
+          "end_sample": 100242,
+          "start_ms": 2622,
+          "end_ms": 6265
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 295,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

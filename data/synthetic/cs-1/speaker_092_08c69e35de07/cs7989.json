@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_092_08c69e35de07/cs7989.flac",
+  "sentence": "庭のpond周りにコケが広がってきてしまった。",
+  "sample_rate": 16000,
+  "duration_ms": 3128,
+  "reference_speaker": "jp/speaker_092_08c69e35de07.mp3",
+  "seed": 8031,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "庭の",
+      "start_sample": 0,
+      "end_sample": 6375,
+      "start_ms": 0,
+      "end_ms": 398
+    },
+    {
+      "lang": "en",
+      "text": "pond",
+      "start_sample": 6375,
+      "end_sample": 11260,
+      "start_ms": 398,
+      "end_ms": 704
+    },
+    {
+      "lang": "ja",
+      "text": "周りにコケが広がってきてしまった。",
+      "start_sample": 11260,
+      "end_sample": 50041,
+      "start_ms": 704,
+      "end_ms": 3128
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "niwa no pond mawari ni koke ga hirogatsu te ki te shimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6586,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "庭の",
+          "start_sample": 0,
+          "end_sample": 25785,
+          "start_ms": 0,
+          "end_ms": 1612
+        },
+        {
+          "lang": "en",
+          "text": "pond",
+          "start_sample": 25785,
+          "end_sample": 31070,
+          "start_ms": 1612,
+          "end_ms": 1942
+        },
+        {
+          "lang": "ja",
+          "text": "周りにコケが広がってきてしまった。",
+          "start_sample": 31070,
+          "end_sample": 105382,
+          "start_ms": 1942,
+          "end_ms": 6586
+        }
+      ]
+    },
+    "ja": {
+      "text": "庭のpond周りにコケが広がってきてしまった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3108,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "庭の",
+          "start_sample": 0,
+          "end_sample": 6575,
+          "start_ms": 0,
+          "end_ms": 411
+        },
+        {
+          "lang": "en",
+          "text": "pond",
+          "start_sample": 6575,
+          "end_sample": 10746,
+          "start_ms": 411,
+          "end_ms": 672
+        },
+        {
+          "lang": "ja",
+          "text": "周りにコケが広がってきてしまった。",
+          "start_sample": 10746,
+          "end_sample": 49727,
+          "start_ms": 672,
+          "end_ms": 3108
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 157,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

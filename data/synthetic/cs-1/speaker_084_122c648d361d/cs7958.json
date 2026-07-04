@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_084_122c648d361d/cs7958.flac",
+  "sentence": "この車にはlane assist機能がついていて運転が楽になった。",
+  "sample_rate": 16000,
+  "duration_ms": 4048,
+  "reference_speaker": "jp/speaker_084_122c648d361d.mp3",
+  "seed": 8000,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この車には",
+      "start_sample": 0,
+      "end_sample": 10699,
+      "start_ms": 0,
+      "end_ms": 669
+    },
+    {
+      "lang": "en",
+      "text": "lane assist",
+      "start_sample": 10699,
+      "end_sample": 29225,
+      "start_ms": 669,
+      "end_ms": 1827
+    },
+    {
+      "lang": "ja",
+      "text": "機能がついていて運転が楽になった。",
+      "start_sample": 29225,
+      "end_sample": 64768,
+      "start_ms": 1827,
+      "end_ms": 4048
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono kuruma ni ha lane assist kinou ga tsui te i te unten ga raku ni natsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8661,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この車には",
+          "start_sample": 0,
+          "end_sample": 38171,
+          "start_ms": 0,
+          "end_ms": 2386
+        },
+        {
+          "lang": "en",
+          "text": "lane assist",
+          "start_sample": 38171,
+          "end_sample": 57097,
+          "start_ms": 2386,
+          "end_ms": 3569
+        },
+        {
+          "lang": "ja",
+          "text": "機能がついていて運転が楽になった。",
+          "start_sample": 57097,
+          "end_sample": 138572,
+          "start_ms": 3569,
+          "end_ms": 8661
+        }
+      ]
+    },
+    "ja": {
+      "text": "この車にはlane assist機能がついていて運転が楽になった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3546,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この車には",
+          "start_sample": 0,
+          "end_sample": 10899,
+          "start_ms": 0,
+          "end_ms": 681
+        },
+        {
+          "lang": "en",
+          "text": "lane assist",
+          "start_sample": 10899,
+          "end_sample": 20997,
+          "start_ms": 681,
+          "end_ms": 1312
+        },
+        {
+          "lang": "ja",
+          "text": "機能がついていて運転が楽になった。",
+          "start_sample": 20997,
+          "end_sample": 56740,
+          "start_ms": 1312,
+          "end_ms": 3546
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

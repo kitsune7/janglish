@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_030_bdb9e7b61df6/cs10246.flac",
+  "sentence": "The postman delivered a 葉書 that was meant for my next-door neighbor.",
+  "sample_rate": 16000,
+  "duration_ms": 3155,
+  "reference_speaker": "en/speaker_030_bdb9e7b61df6.mp3",
+  "seed": 10288,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The postman delivered a",
+      "start_sample": 0,
+      "end_sample": 14603,
+      "start_ms": 0,
+      "end_ms": 913
+    },
+    {
+      "lang": "ja",
+      "text": "葉書",
+      "start_sample": 14603,
+      "end_sample": 22531,
+      "start_ms": 913,
+      "end_ms": 1408
+    },
+    {
+      "lang": "en",
+      "text": "that was meant for my next-door neighbor.",
+      "start_sample": 22531,
+      "end_sample": 50486,
+      "start_ms": 1408,
+      "end_ms": 3155
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The postman delivered a hagaki that was meant for my next-door neighbor.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3399,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The postman delivered a",
+          "start_sample": 0,
+          "end_sample": 14803,
+          "start_ms": 0,
+          "end_ms": 925
+        },
+        {
+          "lang": "ja",
+          "text": "葉書",
+          "start_sample": 14803,
+          "end_sample": 26228,
+          "start_ms": 925,
+          "end_ms": 1639
+        },
+        {
+          "lang": "en",
+          "text": "that was meant for my next-door neighbor.",
+          "start_sample": 26228,
+          "end_sample": 54383,
+          "start_ms": 1639,
+          "end_ms": 3399
+        }
+      ]
+    },
+    "ja": {
+      "text": "The postman delivered a 葉書 that was meant for my next-door neighbor.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5425,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The postman delivered a",
+          "start_sample": 0,
+          "end_sample": 29628,
+          "start_ms": 0,
+          "end_ms": 1852
+        },
+        {
+          "lang": "ja",
+          "text": "葉書",
+          "start_sample": 29628,
+          "end_sample": 37956,
+          "start_ms": 1852,
+          "end_ms": 2372
+        },
+        {
+          "lang": "en",
+          "text": "that was meant for my next-door neighbor.",
+          "start_sample": 37956,
+          "end_sample": 86802,
+          "start_ms": 2372,
+          "end_ms": 5425
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 158,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

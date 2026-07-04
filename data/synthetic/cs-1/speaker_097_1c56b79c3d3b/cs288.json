@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_097_1c56b79c3d3b/cs288.flac",
+  "sentence": "commute中に読書するのが私の習慣です。",
+  "sample_rate": 16000,
+  "duration_ms": 3835,
+  "reference_speaker": "jp/speaker_097_1c56b79c3d3b.mp3",
+  "seed": 330,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "commute",
+      "start_sample": 0,
+      "end_sample": 18211,
+      "start_ms": 0,
+      "end_ms": 1138
+    },
+    {
+      "lang": "ja",
+      "text": "中に読書するのが私の習慣です。",
+      "start_sample": 18211,
+      "end_sample": 61356,
+      "start_ms": 1138,
+      "end_ms": 3835
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "commute naka ni dokusho suru no ga watashi no shuukan desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8445,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "commute",
+          "start_sample": 0,
+          "end_sample": 18411,
+          "start_ms": 0,
+          "end_ms": 1151
+        },
+        {
+          "lang": "ja",
+          "text": "中に読書するのが私の習慣です。",
+          "start_sample": 18411,
+          "end_sample": 135121,
+          "start_ms": 1151,
+          "end_ms": 8445
+        }
+      ]
+    },
+    "ja": {
+      "text": "commute中に読書するのが私の習慣です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3050,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "commute",
+          "start_sample": 0,
+          "end_sample": 5458,
+          "start_ms": 0,
+          "end_ms": 341
+        },
+        {
+          "lang": "ja",
+          "text": "中に読書するのが私の習慣です。",
+          "start_sample": 5458,
+          "end_sample": 48803,
+          "start_ms": 341,
+          "end_ms": 3050
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 192,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

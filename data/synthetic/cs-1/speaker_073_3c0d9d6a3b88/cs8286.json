@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_073_3c0d9d6a3b88/cs8286.flac",
+  "sentence": "上司からのfeedbackがなかなか来ません。",
+  "sample_rate": 16000,
+  "duration_ms": 2208,
+  "reference_speaker": "en/speaker_073_3c0d9d6a3b88.mp3",
+  "seed": 8328,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "上司からの",
+      "start_sample": 0,
+      "end_sample": 10246,
+      "start_ms": 0,
+      "end_ms": 640
+    },
+    {
+      "lang": "en",
+      "text": "feedback",
+      "start_sample": 10246,
+      "end_sample": 17856,
+      "start_ms": 640,
+      "end_ms": 1116
+    },
+    {
+      "lang": "ja",
+      "text": "がなかなか来ません。",
+      "start_sample": 17856,
+      "end_sample": 35331,
+      "start_ms": 1116,
+      "end_ms": 2208
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "joushi kara no feedback ga nakanaka rai mase n",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4145,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "上司からの",
+          "start_sample": 0,
+          "end_sample": 21465,
+          "start_ms": 0,
+          "end_ms": 1342
+        },
+        {
+          "lang": "en",
+          "text": "feedback",
+          "start_sample": 21465,
+          "end_sample": 29475,
+          "start_ms": 1342,
+          "end_ms": 1842
+        },
+        {
+          "lang": "ja",
+          "text": "がなかなか来ません。",
+          "start_sample": 29475,
+          "end_sample": 66318,
+          "start_ms": 1842,
+          "end_ms": 4145
+        }
+      ]
+    },
+    "ja": {
+      "text": "上司からのfeedbackがなかなか来ません。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2290,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "上司からの",
+          "start_sample": 0,
+          "end_sample": 10446,
+          "start_ms": 0,
+          "end_ms": 653
+        },
+        {
+          "lang": "en",
+          "text": "feedback",
+          "start_sample": 10446,
+          "end_sample": 18963,
+          "start_ms": 653,
+          "end_ms": 1185
+        },
+        {
+          "lang": "ja",
+          "text": "がなかなか来ません。",
+          "start_sample": 18963,
+          "end_sample": 36638,
+          "start_ms": 1185,
+          "end_ms": 2290
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 111,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

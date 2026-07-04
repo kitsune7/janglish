@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_046_38f0b7b27586/cs9242.flac",
+  "sentence": "My 祖父 taught me how to fish when I was seven years old.",
+  "sample_rate": 16000,
+  "duration_ms": 4309,
+  "reference_speaker": "jp/speaker_046_38f0b7b27586.mp3",
+  "seed": 9284,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My",
+      "start_sample": 0,
+      "end_sample": 3013,
+      "start_ms": 0,
+      "end_ms": 188
+    },
+    {
+      "lang": "ja",
+      "text": "祖父",
+      "start_sample": 3013,
+      "end_sample": 8401,
+      "start_ms": 188,
+      "end_ms": 525
+    },
+    {
+      "lang": "en",
+      "text": "taught me how to fish when I was seven years old.",
+      "start_sample": 8401,
+      "end_sample": 68939,
+      "start_ms": 525,
+      "end_ms": 4309
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My sofu taught me how to fish when I was seven years old.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4499,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 3213,
+          "start_ms": 0,
+          "end_ms": 201
+        },
+        {
+          "lang": "ja",
+          "text": "祖父",
+          "start_sample": 3213,
+          "end_sample": 11248,
+          "start_ms": 201,
+          "end_ms": 703
+        },
+        {
+          "lang": "en",
+          "text": "taught me how to fish when I was seven years old.",
+          "start_sample": 11248,
+          "end_sample": 71986,
+          "start_ms": 703,
+          "end_ms": 4499
+        }
+      ]
+    },
+    "ja": {
+      "text": "My 祖父 taught me how to fish when I was seven years old.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3216,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 4663,
+          "start_ms": 0,
+          "end_ms": 291
+        },
+        {
+          "lang": "ja",
+          "text": "祖父",
+          "start_sample": 4663,
+          "end_sample": 10451,
+          "start_ms": 291,
+          "end_ms": 653
+        },
+        {
+          "lang": "en",
+          "text": "taught me how to fish when I was seven years old.",
+          "start_sample": 10451,
+          "end_sample": 51451,
+          "start_ms": 653,
+          "end_ms": 3216
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 216,
+  "frame_labels": "eeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

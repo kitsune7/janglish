@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_023_9d57aeaf822c/cs10738.flac",
+  "sentence": "I always taste the broth first and adjust the 旨味 before serving.",
+  "sample_rate": 16000,
+  "duration_ms": 4228,
+  "reference_speaker": "en/speaker_023_9d57aeaf822c.mp3",
+  "seed": 10780,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always taste the broth first and adjust the",
+      "start_sample": 0,
+      "end_sample": 42879,
+      "start_ms": 0,
+      "end_ms": 2680
+    },
+    {
+      "lang": "ja",
+      "text": "旨味",
+      "start_sample": 42879,
+      "end_sample": 51930,
+      "start_ms": 2680,
+      "end_ms": 3246
+    },
+    {
+      "lang": "en",
+      "text": "before serving.",
+      "start_sample": 51930,
+      "end_sample": 67641,
+      "start_ms": 3246,
+      "end_ms": 4228
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always taste the broth first and adjust the umami before serving.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4300,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always taste the broth first and adjust the",
+          "start_sample": 0,
+          "end_sample": 43079,
+          "start_ms": 0,
+          "end_ms": 2692
+        },
+        {
+          "lang": "ja",
+          "text": "旨味",
+          "start_sample": 43079,
+          "end_sample": 52886,
+          "start_ms": 2692,
+          "end_ms": 3305
+        },
+        {
+          "lang": "en",
+          "text": "before serving.",
+          "start_sample": 52886,
+          "end_sample": 68797,
+          "start_ms": 3305,
+          "end_ms": 4300
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always taste the broth first and adjust the 旨味 before serving.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6007,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always taste the broth first and adjust the",
+          "start_sample": 0,
+          "end_sample": 68878,
+          "start_ms": 0,
+          "end_ms": 4305
+        },
+        {
+          "lang": "ja",
+          "text": "旨味",
+          "start_sample": 68878,
+          "end_sample": 78329,
+          "start_ms": 4305,
+          "end_ms": 4896
+        },
+        {
+          "lang": "en",
+          "text": "before serving.",
+          "start_sample": 78329,
+          "end_sample": 96108,
+          "start_ms": 4896,
+          "end_ms": 6007
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 212,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

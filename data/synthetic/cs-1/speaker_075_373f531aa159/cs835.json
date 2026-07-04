@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_075_373f531aa159/cs835.flac",
+  "sentence": "このホテルはdowntownにあるので、観光にとても便利です。",
+  "sample_rate": 16000,
+  "duration_ms": 4930,
+  "reference_speaker": "en/speaker_075_373f531aa159.mp3",
+  "seed": 877,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このホテルは",
+      "start_sample": 0,
+      "end_sample": 17435,
+      "start_ms": 0,
+      "end_ms": 1090
+    },
+    {
+      "lang": "en",
+      "text": "downtown",
+      "start_sample": 17435,
+      "end_sample": 28413,
+      "start_ms": 1090,
+      "end_ms": 1776
+    },
+    {
+      "lang": "ja",
+      "text": "にあるので、観光にとても便利です。",
+      "start_sample": 28413,
+      "end_sample": 78874,
+      "start_ms": 1776,
+      "end_ms": 4930
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono hoteru ha downtown ni aru no de kankou ni totemo benri desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6670,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このホテルは",
+          "start_sample": 0,
+          "end_sample": 33009,
+          "start_ms": 0,
+          "end_ms": 2063
+        },
+        {
+          "lang": "en",
+          "text": "downtown",
+          "start_sample": 33009,
+          "end_sample": 44387,
+          "start_ms": 2063,
+          "end_ms": 2774
+        },
+        {
+          "lang": "ja",
+          "text": "にあるので、観光にとても便利です。",
+          "start_sample": 44387,
+          "end_sample": 106720,
+          "start_ms": 2774,
+          "end_ms": 6670
+        }
+      ]
+    },
+    "ja": {
+      "text": "このホテルはdowntownにあるので、観光にとても便利です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5270,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このホテルは",
+          "start_sample": 0,
+          "end_sample": 17635,
+          "start_ms": 0,
+          "end_ms": 1102
+        },
+        {
+          "lang": "en",
+          "text": "downtown",
+          "start_sample": 17635,
+          "end_sample": 33667,
+          "start_ms": 1102,
+          "end_ms": 2104
+        },
+        {
+          "lang": "ja",
+          "text": "にあるので、観光にとても便利です。",
+          "start_sample": 33667,
+          "end_sample": 84328,
+          "start_ms": 2104,
+          "end_ms": 5270
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 247,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

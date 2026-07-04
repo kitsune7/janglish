@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_061_3e186ef591ed/cs3564.flac",
+  "sentence": "この犬種はloyalで、飼い主をいつも守ろうとします。",
+  "sample_rate": 16000,
+  "duration_ms": 3208,
+  "reference_speaker": "jp/speaker_061_3e186ef591ed.mp3",
+  "seed": 3606,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この犬種は",
+      "start_sample": 0,
+      "end_sample": 10224,
+      "start_ms": 0,
+      "end_ms": 639
+    },
+    {
+      "lang": "en",
+      "text": "loyal",
+      "start_sample": 10224,
+      "end_sample": 16882,
+      "start_ms": 639,
+      "end_ms": 1055
+    },
+    {
+      "lang": "ja",
+      "text": "で、飼い主をいつも守ろうとします。",
+      "start_sample": 16882,
+      "end_sample": 51321,
+      "start_ms": 1055,
+      "end_ms": 3208
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono kenshu ha loyal de kainushi wo itsu mo mamorou to shi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6015,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この犬種は",
+          "start_sample": 0,
+          "end_sample": 30318,
+          "start_ms": 0,
+          "end_ms": 1895
+        },
+        {
+          "lang": "en",
+          "text": "loyal",
+          "start_sample": 30318,
+          "end_sample": 37376,
+          "start_ms": 1895,
+          "end_ms": 2336
+        },
+        {
+          "lang": "ja",
+          "text": "で、飼い主をいつも守ろうとします。",
+          "start_sample": 37376,
+          "end_sample": 96246,
+          "start_ms": 2336,
+          "end_ms": 6015
+        }
+      ]
+    },
+    "ja": {
+      "text": "この犬種はloyalで、飼い主をいつも守ろうとします。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3227,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この犬種は",
+          "start_sample": 0,
+          "end_sample": 10424,
+          "start_ms": 0,
+          "end_ms": 652
+        },
+        {
+          "lang": "en",
+          "text": "loyal",
+          "start_sample": 10424,
+          "end_sample": 16999,
+          "start_ms": 652,
+          "end_ms": 1062
+        },
+        {
+          "lang": "ja",
+          "text": "で、飼い主をいつも守ろうとします。",
+          "start_sample": 16999,
+          "end_sample": 51638,
+          "start_ms": 1062,
+          "end_ms": 3227
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 161,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

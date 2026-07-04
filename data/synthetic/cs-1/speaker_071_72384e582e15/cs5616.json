@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_071_72384e582e15/cs5616.flac",
+  "sentence": "The bellhop carried our 荷物 up to the room without being asked.",
+  "sample_rate": 16000,
+  "duration_ms": 4337,
+  "reference_speaker": "en/speaker_071_72384e582e15.mp3",
+  "seed": 5658,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The bellhop carried our",
+      "start_sample": 0,
+      "end_sample": 17110,
+      "start_ms": 0,
+      "end_ms": 1069
+    },
+    {
+      "lang": "ja",
+      "text": "荷物",
+      "start_sample": 17110,
+      "end_sample": 29999,
+      "start_ms": 1069,
+      "end_ms": 1875
+    },
+    {
+      "lang": "en",
+      "text": "up to the room without being asked.",
+      "start_sample": 29999,
+      "end_sample": 69389,
+      "start_ms": 1875,
+      "end_ms": 4337
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The bellhop carried our nimotsu up to the room without being asked.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4348,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bellhop carried our",
+          "start_sample": 0,
+          "end_sample": 17310,
+          "start_ms": 0,
+          "end_ms": 1082
+        },
+        {
+          "lang": "ja",
+          "text": "荷物",
+          "start_sample": 17310,
+          "end_sample": 29973,
+          "start_ms": 1082,
+          "end_ms": 1873
+        },
+        {
+          "lang": "en",
+          "text": "up to the room without being asked.",
+          "start_sample": 29973,
+          "end_sample": 69563,
+          "start_ms": 1873,
+          "end_ms": 4348
+        }
+      ]
+    },
+    "ja": {
+      "text": "The bellhop carried our 荷物 up to the room without being asked.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6884,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bellhop carried our",
+          "start_sample": 0,
+          "end_sample": 48030,
+          "start_ms": 0,
+          "end_ms": 3002
+        },
+        {
+          "lang": "ja",
+          "text": "荷物",
+          "start_sample": 48030,
+          "end_sample": 61319,
+          "start_ms": 3002,
+          "end_ms": 3832
+        },
+        {
+          "lang": "en",
+          "text": "up to the room without being asked.",
+          "start_sample": 61319,
+          "end_sample": 110150,
+          "start_ms": 3832,
+          "end_ms": 6884
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 217,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

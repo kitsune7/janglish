@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_001_b06ec2cd8db9/cs322.flac",
+  "sentence": "The therapist encouraged her to express 本音 in sessions rather than hiding behind a polished 建前.",
+  "sample_rate": 16000,
+  "duration_ms": 6372,
+  "reference_speaker": "en/speaker_001_b06ec2cd8db9.mp3",
+  "seed": 364,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The therapist encouraged her to express",
+      "start_sample": 0,
+      "end_sample": 37502,
+      "start_ms": 0,
+      "end_ms": 2344
+    },
+    {
+      "lang": "ja",
+      "text": "本音",
+      "start_sample": 37502,
+      "end_sample": 44639,
+      "start_ms": 2344,
+      "end_ms": 2790
+    },
+    {
+      "lang": "en",
+      "text": "in sessions rather than hiding behind a polished",
+      "start_sample": 44639,
+      "end_sample": 93814,
+      "start_ms": 2790,
+      "end_ms": 5863
+    },
+    {
+      "lang": "ja",
+      "text": "建前.",
+      "start_sample": 93814,
+      "end_sample": 101951,
+      "start_ms": 5863,
+      "end_ms": 6372
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The therapist encouraged her to express honne in sessions rather than hiding behind a polished tatemae",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6257,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The therapist encouraged her to express",
+          "start_sample": 0,
+          "end_sample": 37702,
+          "start_ms": 0,
+          "end_ms": 2356
+        },
+        {
+          "lang": "ja",
+          "text": "本音",
+          "start_sample": 37702,
+          "end_sample": 43478,
+          "start_ms": 2356,
+          "end_ms": 2717
+        },
+        {
+          "lang": "en",
+          "text": "in sessions rather than hiding behind a polished",
+          "start_sample": 43478,
+          "end_sample": 93053,
+          "start_ms": 2717,
+          "end_ms": 5816
+        },
+        {
+          "lang": "ja",
+          "text": "建前.",
+          "start_sample": 93053,
+          "end_sample": 100110,
+          "start_ms": 5816,
+          "end_ms": 6257
+        }
+      ]
+    },
+    "ja": {
+      "text": "The therapist encouraged her to express 本音 in sessions rather than hiding behind a polished 建前.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8659,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The therapist encouraged her to express",
+          "start_sample": 0,
+          "end_sample": 47785,
+          "start_ms": 0,
+          "end_ms": 2987
+        },
+        {
+          "lang": "ja",
+          "text": "本音",
+          "start_sample": 47785,
+          "end_sample": 55322,
+          "start_ms": 2987,
+          "end_ms": 3458
+        },
+        {
+          "lang": "en",
+          "text": "in sessions rather than hiding behind a polished",
+          "start_sample": 55322,
+          "end_sample": 130210,
+          "start_ms": 3458,
+          "end_ms": 8138
+        },
+        {
+          "lang": "ja",
+          "text": "建前.",
+          "start_sample": 130210,
+          "end_sample": 138547,
+          "start_ms": 8138,
+          "end_ms": 8659
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 319,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

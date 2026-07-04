@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_097_44a775a22921/cs670.flac",
+  "sentence": "この炒め物はspicyすぎて、口の中が燃えるようです。",
+  "sample_rate": 16000,
+  "duration_ms": 4961,
+  "reference_speaker": "en/speaker_097_44a775a22921.mp3",
+  "seed": 712,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この炒め物は",
+      "start_sample": 0,
+      "end_sample": 18450,
+      "start_ms": 0,
+      "end_ms": 1153
+    },
+    {
+      "lang": "en",
+      "text": "spicy",
+      "start_sample": 18450,
+      "end_sample": 33919,
+      "start_ms": 1153,
+      "end_ms": 2120
+    },
+    {
+      "lang": "ja",
+      "text": "すぎて、口の中が燃えるようです。",
+      "start_sample": 33919,
+      "end_sample": 79381,
+      "start_ms": 2120,
+      "end_ms": 4961
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono itamemono ha spicy sugi te kuchi no naka ga moeru you desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6271,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この炒め物は",
+          "start_sample": 0,
+          "end_sample": 25325,
+          "start_ms": 0,
+          "end_ms": 1583
+        },
+        {
+          "lang": "en",
+          "text": "spicy",
+          "start_sample": 25325,
+          "end_sample": 41194,
+          "start_ms": 1583,
+          "end_ms": 2575
+        },
+        {
+          "lang": "ja",
+          "text": "すぎて、口の中が燃えるようです。",
+          "start_sample": 41194,
+          "end_sample": 100340,
+          "start_ms": 2575,
+          "end_ms": 6271
+        }
+      ]
+    },
+    "ja": {
+      "text": "この炒め物はspicyすぎて、口の中が燃えるようです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4683,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この炒め物は",
+          "start_sample": 0,
+          "end_sample": 18650,
+          "start_ms": 0,
+          "end_ms": 1166
+        },
+        {
+          "lang": "en",
+          "text": "spicy",
+          "start_sample": 18650,
+          "end_sample": 29261,
+          "start_ms": 1166,
+          "end_ms": 1829
+        },
+        {
+          "lang": "ja",
+          "text": "すぎて、口の中が燃えるようです。",
+          "start_sample": 29261,
+          "end_sample": 74923,
+          "start_ms": 1829,
+          "end_ms": 4683
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 249,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

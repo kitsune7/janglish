@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_034_add467545a59/cs10628.flac",
+  "sentence": "The 乗り換え at central station always confuses first-time visitors.",
+  "sample_rate": 16000,
+  "duration_ms": 7635,
+  "reference_speaker": "en/speaker_034_add467545a59.mp3",
+  "seed": 10670,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1883,
+      "start_ms": 0,
+      "end_ms": 118
+    },
+    {
+      "lang": "ja",
+      "text": "乗り換え",
+      "start_sample": 1883,
+      "end_sample": 12542,
+      "start_ms": 118,
+      "end_ms": 784
+    },
+    {
+      "lang": "en",
+      "text": "at central station always confuses first-time visitors.",
+      "start_sample": 12542,
+      "end_sample": 122162,
+      "start_ms": 784,
+      "end_ms": 7635
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The norikae at central station always confuses first-time visitors.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7756,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2083,
+          "start_ms": 0,
+          "end_ms": 130
+        },
+        {
+          "lang": "ja",
+          "text": "乗り換え",
+          "start_sample": 2083,
+          "end_sample": 14268,
+          "start_ms": 130,
+          "end_ms": 892
+        },
+        {
+          "lang": "en",
+          "text": "at central station always confuses first-time visitors.",
+          "start_sample": 14268,
+          "end_sample": 124088,
+          "start_ms": 892,
+          "end_ms": 7756
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 乗り換え at central station always confuses first-time visitors.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5630,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5928,
+          "start_ms": 0,
+          "end_ms": 370
+        },
+        {
+          "lang": "ja",
+          "text": "乗り換え",
+          "start_sample": 5928,
+          "end_sample": 16987,
+          "start_ms": 370,
+          "end_ms": 1062
+        },
+        {
+          "lang": "en",
+          "text": "at central station always confuses first-time visitors.",
+          "start_sample": 16987,
+          "end_sample": 90073,
+          "start_ms": 1062,
+          "end_ms": 5630
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 382,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

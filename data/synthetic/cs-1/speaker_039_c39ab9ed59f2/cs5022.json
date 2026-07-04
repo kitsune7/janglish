@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_039_c39ab9ed59f2/cs5022.flac",
+  "sentence": "雨の後、庭全体がfreshな香りに包まれていた。",
+  "sample_rate": 16000,
+  "duration_ms": 3608,
+  "reference_speaker": "jp/speaker_039_c39ab9ed59f2.mp3",
+  "seed": 5064,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "雨の後、庭全体が",
+      "start_sample": 0,
+      "end_sample": 28660,
+      "start_ms": 0,
+      "end_ms": 1791
+    },
+    {
+      "lang": "en",
+      "text": "fresh",
+      "start_sample": 28660,
+      "end_sample": 34521,
+      "start_ms": 1791,
+      "end_ms": 2158
+    },
+    {
+      "lang": "ja",
+      "text": "な香りに包まれていた。",
+      "start_sample": 34521,
+      "end_sample": 57729,
+      "start_ms": 2158,
+      "end_ms": 3608
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ame no nochi niwa zentai ga fresh na kaori ni tsutsuma re te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6140,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "雨の後、庭全体が",
+          "start_sample": 0,
+          "end_sample": 48963,
+          "start_ms": 0,
+          "end_ms": 3060
+        },
+        {
+          "lang": "en",
+          "text": "fresh",
+          "start_sample": 48963,
+          "end_sample": 55224,
+          "start_ms": 3060,
+          "end_ms": 3452
+        },
+        {
+          "lang": "ja",
+          "text": "な香りに包まれていた。",
+          "start_sample": 55224,
+          "end_sample": 98248,
+          "start_ms": 3452,
+          "end_ms": 6140
+        }
+      ]
+    },
+    "ja": {
+      "text": "雨の後、庭全体がfreshな香りに包まれていた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3668,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "雨の後、庭全体が",
+          "start_sample": 0,
+          "end_sample": 28860,
+          "start_ms": 0,
+          "end_ms": 1804
+        },
+        {
+          "lang": "en",
+          "text": "fresh",
+          "start_sample": 28860,
+          "end_sample": 35273,
+          "start_ms": 1804,
+          "end_ms": 2205
+        },
+        {
+          "lang": "ja",
+          "text": "な香りに包まれていた。",
+          "start_sample": 35273,
+          "end_sample": 58681,
+          "start_ms": 2205,
+          "end_ms": 3668
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 181,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

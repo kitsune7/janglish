@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_044_225f82fe72eb/cs10813.flac",
+  "sentence": "She added a pinch of 塩 to the broth and let it simmer.",
+  "sample_rate": 16000,
+  "duration_ms": 2761,
+  "reference_speaker": "jp/speaker_044_225f82fe72eb.mp3",
+  "seed": 10855,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She added a pinch of",
+      "start_sample": 0,
+      "end_sample": 14097,
+      "start_ms": 0,
+      "end_ms": 881
+    },
+    {
+      "lang": "ja",
+      "text": "塩",
+      "start_sample": 14097,
+      "end_sample": 19632,
+      "start_ms": 881,
+      "end_ms": 1227
+    },
+    {
+      "lang": "en",
+      "text": "to the broth and let it simmer.",
+      "start_sample": 19632,
+      "end_sample": 44175,
+      "start_ms": 1227,
+      "end_ms": 2761
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She added a pinch of shio to the broth and let it simmer.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2751,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She added a pinch of",
+          "start_sample": 0,
+          "end_sample": 14297,
+          "start_ms": 0,
+          "end_ms": 894
+        },
+        {
+          "lang": "ja",
+          "text": "塩",
+          "start_sample": 14297,
+          "end_sample": 19278,
+          "start_ms": 894,
+          "end_ms": 1205
+        },
+        {
+          "lang": "en",
+          "text": "to the broth and let it simmer.",
+          "start_sample": 19278,
+          "end_sample": 44021,
+          "start_ms": 1205,
+          "end_ms": 2751
+        }
+      ]
+    },
+    "ja": {
+      "text": "She added a pinch of 塩 to the broth and let it simmer.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5253,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She added a pinch of",
+          "start_sample": 0,
+          "end_sample": 28551,
+          "start_ms": 0,
+          "end_ms": 1784
+        },
+        {
+          "lang": "ja",
+          "text": "塩",
+          "start_sample": 28551,
+          "end_sample": 34486,
+          "start_ms": 1784,
+          "end_ms": 2155
+        },
+        {
+          "lang": "en",
+          "text": "to the broth and let it simmer.",
+          "start_sample": 34486,
+          "end_sample": 84053,
+          "start_ms": 2155,
+          "end_ms": 5253
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 139,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

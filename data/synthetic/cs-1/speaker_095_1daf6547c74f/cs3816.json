@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_095_1daf6547c74f/cs3816.flac",
+  "sentence": "今日はhome officeで集中して仕事ができた。",
+  "sample_rate": 16000,
+  "duration_ms": 3297,
+  "reference_speaker": "jp/speaker_095_1daf6547c74f.mp3",
+  "seed": 3858,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日は",
+      "start_sample": 0,
+      "end_sample": 6211,
+      "start_ms": 0,
+      "end_ms": 388
+    },
+    {
+      "lang": "en",
+      "text": "home office",
+      "start_sample": 6211,
+      "end_sample": 26190,
+      "start_ms": 388,
+      "end_ms": 1637
+    },
+    {
+      "lang": "ja",
+      "text": "で集中して仕事ができた。",
+      "start_sample": 26190,
+      "end_sample": 52757,
+      "start_ms": 1637,
+      "end_ms": 3297
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou ha home office de shuuchuu shi te shigoto ga deki ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7140,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日は",
+          "start_sample": 0,
+          "end_sample": 21020,
+          "start_ms": 0,
+          "end_ms": 1314
+        },
+        {
+          "lang": "en",
+          "text": "home office",
+          "start_sample": 21020,
+          "end_sample": 41399,
+          "start_ms": 1314,
+          "end_ms": 2587
+        },
+        {
+          "lang": "ja",
+          "text": "で集中して仕事ができた。",
+          "start_sample": 41399,
+          "end_sample": 114247,
+          "start_ms": 2587,
+          "end_ms": 7140
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日はhome officeで集中して仕事ができた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2825,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日は",
+          "start_sample": 0,
+          "end_sample": 6411,
+          "start_ms": 0,
+          "end_ms": 401
+        },
+        {
+          "lang": "en",
+          "text": "home office",
+          "start_sample": 6411,
+          "end_sample": 18432,
+          "start_ms": 401,
+          "end_ms": 1152
+        },
+        {
+          "lang": "ja",
+          "text": "で集中して仕事ができた。",
+          "start_sample": 18432,
+          "end_sample": 45199,
+          "start_ms": 1152,
+          "end_ms": 2825
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 165,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

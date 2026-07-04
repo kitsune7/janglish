@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_029_435fb74c25c3/cs3104.flac",
+  "sentence": "She answered every difficult question with a 冷静 and measured tone throughout.",
+  "sample_rate": 16000,
+  "duration_ms": 4571,
+  "reference_speaker": "en/speaker_029_435fb74c25c3.mp3",
+  "seed": 3146,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She answered every difficult question with a",
+      "start_sample": 0,
+      "end_sample": 35181,
+      "start_ms": 0,
+      "end_ms": 2199
+    },
+    {
+      "lang": "ja",
+      "text": "冷静",
+      "start_sample": 35181,
+      "end_sample": 47287,
+      "start_ms": 2199,
+      "end_ms": 2955
+    },
+    {
+      "lang": "en",
+      "text": "and measured tone throughout.",
+      "start_sample": 47287,
+      "end_sample": 73140,
+      "start_ms": 2955,
+      "end_ms": 4571
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She answered every difficult question with a reisei and measured tone throughout.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4443,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She answered every difficult question with a",
+          "start_sample": 0,
+          "end_sample": 35381,
+          "start_ms": 0,
+          "end_ms": 2211
+        },
+        {
+          "lang": "ja",
+          "text": "冷静",
+          "start_sample": 35381,
+          "end_sample": 45032,
+          "start_ms": 2211,
+          "end_ms": 2814
+        },
+        {
+          "lang": "en",
+          "text": "and measured tone throughout.",
+          "start_sample": 45032,
+          "end_sample": 71085,
+          "start_ms": 2814,
+          "end_ms": 4443
+        }
+      ]
+    },
+    "ja": {
+      "text": "She answered every difficult question with a 冷静 and measured tone throughout.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6172,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She answered every difficult question with a",
+          "start_sample": 0,
+          "end_sample": 50983,
+          "start_ms": 0,
+          "end_ms": 3186
+        },
+        {
+          "lang": "ja",
+          "text": "冷静",
+          "start_sample": 50983,
+          "end_sample": 63489,
+          "start_ms": 3186,
+          "end_ms": 3968
+        },
+        {
+          "lang": "en",
+          "text": "and measured tone throughout.",
+          "start_sample": 63489,
+          "end_sample": 98760,
+          "start_ms": 3968,
+          "end_ms": 6172
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 229,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

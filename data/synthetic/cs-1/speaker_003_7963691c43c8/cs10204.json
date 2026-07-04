@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_003_7963691c43c8/cs10204.flac",
+  "sentence": "Could you pull into the 給油所 before we get on the freeway?",
+  "sample_rate": 16000,
+  "duration_ms": 4952,
+  "reference_speaker": "en/speaker_003_7963691c43c8.mp3",
+  "seed": 10246,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Could you pull into the",
+      "start_sample": 0,
+      "end_sample": 31380,
+      "start_ms": 0,
+      "end_ms": 1961
+    },
+    {
+      "lang": "ja",
+      "text": "給油所",
+      "start_sample": 31380,
+      "end_sample": 48181,
+      "start_ms": 1961,
+      "end_ms": 3011
+    },
+    {
+      "lang": "en",
+      "text": "before we get on the freeway?",
+      "start_sample": 48181,
+      "end_sample": 79239,
+      "start_ms": 3011,
+      "end_ms": 4952
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Could you pull into the kyuuyu tokoro before we get on the freeway?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5430,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you pull into the",
+          "start_sample": 0,
+          "end_sample": 31580,
+          "start_ms": 0,
+          "end_ms": 1974
+        },
+        {
+          "lang": "ja",
+          "text": "給油所",
+          "start_sample": 31580,
+          "end_sample": 55625,
+          "start_ms": 1974,
+          "end_ms": 3477
+        },
+        {
+          "lang": "en",
+          "text": "before we get on the freeway?",
+          "start_sample": 55625,
+          "end_sample": 86883,
+          "start_ms": 3477,
+          "end_ms": 5430
+        }
+      ]
+    },
+    "ja": {
+      "text": "Could you pull into the 給油所 before we get on the freeway?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4280,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you pull into the",
+          "start_sample": 0,
+          "end_sample": 25400,
+          "start_ms": 0,
+          "end_ms": 1588
+        },
+        {
+          "lang": "ja",
+          "text": "給油所",
+          "start_sample": 25400,
+          "end_sample": 42601,
+          "start_ms": 1588,
+          "end_ms": 2663
+        },
+        {
+          "lang": "en",
+          "text": "before we get on the freeway?",
+          "start_sample": 42601,
+          "end_sample": 68479,
+          "start_ms": 2663,
+          "end_ms": 4280
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 248,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

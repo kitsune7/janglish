@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_049_435108c1173c/cs3456.flac",
+  "sentence": "Are those shoes really 快適 enough for a ten-hour flight?",
+  "sample_rate": 16000,
+  "duration_ms": 3466,
+  "reference_speaker": "jp/speaker_049_435108c1173c.mp3",
+  "seed": 3498,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Are those shoes really",
+      "start_sample": 0,
+      "end_sample": 24000,
+      "start_ms": 0,
+      "end_ms": 1500
+    },
+    {
+      "lang": "ja",
+      "text": "快適",
+      "start_sample": 24000,
+      "end_sample": 32581,
+      "start_ms": 1500,
+      "end_ms": 2036
+    },
+    {
+      "lang": "en",
+      "text": "enough for a ten-hour flight?",
+      "start_sample": 32581,
+      "end_sample": 55459,
+      "start_ms": 2036,
+      "end_ms": 3466
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Are those shoes really kaiteki enough for a ten-hour flight?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3826,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Are those shoes really",
+          "start_sample": 0,
+          "end_sample": 24200,
+          "start_ms": 0,
+          "end_ms": 1512
+        },
+        {
+          "lang": "ja",
+          "text": "快適",
+          "start_sample": 24200,
+          "end_sample": 38144,
+          "start_ms": 1512,
+          "end_ms": 2384
+        },
+        {
+          "lang": "en",
+          "text": "enough for a ten-hour flight?",
+          "start_sample": 38144,
+          "end_sample": 61222,
+          "start_ms": 2384,
+          "end_ms": 3826
+        }
+      ]
+    },
+    "ja": {
+      "text": "Are those shoes really 快適 enough for a ten-hour flight?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3528,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Are those shoes really",
+          "start_sample": 0,
+          "end_sample": 20686,
+          "start_ms": 0,
+          "end_ms": 1293
+        },
+        {
+          "lang": "ja",
+          "text": "快適",
+          "start_sample": 20686,
+          "end_sample": 29667,
+          "start_ms": 1293,
+          "end_ms": 1854
+        },
+        {
+          "lang": "en",
+          "text": "enough for a ten-hour flight?",
+          "start_sample": 29667,
+          "end_sample": 56447,
+          "start_ms": 1854,
+          "end_ms": 3528
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 174,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

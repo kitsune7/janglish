@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_006_3447120ac93b/cs419.flac",
+  "sentence": "The windows look so much 明るい now that we finally washed off all that grime.",
+  "sample_rate": 16000,
+  "duration_ms": 5403,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 461,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The windows look so much",
+      "start_sample": 0,
+      "end_sample": 20333,
+      "start_ms": 0,
+      "end_ms": 1271
+    },
+    {
+      "lang": "ja",
+      "text": "明るい",
+      "start_sample": 20333,
+      "end_sample": 26499,
+      "start_ms": 1271,
+      "end_ms": 1656
+    },
+    {
+      "lang": "en",
+      "text": "now that we finally washed off all that grime.",
+      "start_sample": 26499,
+      "end_sample": 86452,
+      "start_ms": 1656,
+      "end_ms": 5403
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The windows look so much akarui now that we finally washed off all that grime.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5915,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The windows look so much",
+          "start_sample": 0,
+          "end_sample": 20533,
+          "start_ms": 0,
+          "end_ms": 1283
+        },
+        {
+          "lang": "ja",
+          "text": "明るい",
+          "start_sample": 20533,
+          "end_sample": 34489,
+          "start_ms": 1283,
+          "end_ms": 2156
+        },
+        {
+          "lang": "en",
+          "text": "now that we finally washed off all that grime.",
+          "start_sample": 34489,
+          "end_sample": 94642,
+          "start_ms": 2156,
+          "end_ms": 5915
+        }
+      ]
+    },
+    "ja": {
+      "text": "The windows look so much 明るい now that we finally washed off all that grime.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4124,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The windows look so much",
+          "start_sample": 0,
+          "end_sample": 19060,
+          "start_ms": 0,
+          "end_ms": 1191
+        },
+        {
+          "lang": "ja",
+          "text": "明るい",
+          "start_sample": 19060,
+          "end_sample": 25626,
+          "start_ms": 1191,
+          "end_ms": 1602
+        },
+        {
+          "lang": "en",
+          "text": "now that we finally washed off all that grime.",
+          "start_sample": 25626,
+          "end_sample": 65989,
+          "start_ms": 1602,
+          "end_ms": 4124
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 271,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

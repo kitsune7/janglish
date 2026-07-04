@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_077_a8ec885aec97/cs1624.flac",
+  "sentence": "He kept checking the 時計 every two minutes during the practice test.",
+  "sample_rate": 16000,
+  "duration_ms": 7009,
+  "reference_speaker": "jp/speaker_077_a8ec885aec97.mp3",
+  "seed": 1666,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He kept checking the",
+      "start_sample": 0,
+      "end_sample": 17743,
+      "start_ms": 0,
+      "end_ms": 1109
+    },
+    {
+      "lang": "ja",
+      "text": "時計",
+      "start_sample": 17743,
+      "end_sample": 27431,
+      "start_ms": 1109,
+      "end_ms": 1714
+    },
+    {
+      "lang": "en",
+      "text": "every two minutes during the practice test.",
+      "start_sample": 27431,
+      "end_sample": 112141,
+      "start_ms": 1714,
+      "end_ms": 7009
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He kept checking the tokei every two minutes during the practice test.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8091,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He kept checking the",
+          "start_sample": 0,
+          "end_sample": 17943,
+          "start_ms": 0,
+          "end_ms": 1121
+        },
+        {
+          "lang": "ja",
+          "text": "時計",
+          "start_sample": 17943,
+          "end_sample": 44538,
+          "start_ms": 1121,
+          "end_ms": 2784
+        },
+        {
+          "lang": "en",
+          "text": "every two minutes during the practice test.",
+          "start_sample": 44538,
+          "end_sample": 129448,
+          "start_ms": 2784,
+          "end_ms": 8091
+        }
+      ]
+    },
+    "ja": {
+      "text": "He kept checking the 時計 every two minutes during the practice test.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6285,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He kept checking the",
+          "start_sample": 0,
+          "end_sample": 25139,
+          "start_ms": 0,
+          "end_ms": 1571
+        },
+        {
+          "lang": "ja",
+          "text": "時計",
+          "start_sample": 25139,
+          "end_sample": 35227,
+          "start_ms": 1571,
+          "end_ms": 2202
+        },
+        {
+          "lang": "en",
+          "text": "every two minutes during the practice test.",
+          "start_sample": 35227,
+          "end_sample": 100557,
+          "start_ms": 2202,
+          "end_ms": 6285
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 351,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_053_ceb29bce299d/cs4300.flac",
+  "sentence": "I accidentally skipped the 主人公's backstory cutscene and now I'm confused.",
+  "sample_rate": 16000,
+  "duration_ms": 4519,
+  "reference_speaker": "en/speaker_053_ceb29bce299d.mp3",
+  "seed": 4342,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I accidentally skipped the",
+      "start_sample": 0,
+      "end_sample": 14865,
+      "start_ms": 0,
+      "end_ms": 929
+    },
+    {
+      "lang": "ja",
+      "text": "主人公'",
+      "start_sample": 14865,
+      "end_sample": 29229,
+      "start_ms": 929,
+      "end_ms": 1827
+    },
+    {
+      "lang": "en",
+      "text": "s backstory cutscene and now I'm confused.",
+      "start_sample": 29229,
+      "end_sample": 72305,
+      "start_ms": 1827,
+      "end_ms": 4519
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I accidentally skipped the shujin kou' s backstory cutscene and now I'm confused.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4247,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I accidentally skipped the",
+          "start_sample": 0,
+          "end_sample": 15065,
+          "start_ms": 0,
+          "end_ms": 942
+        },
+        {
+          "lang": "ja",
+          "text": "主人公'",
+          "start_sample": 15065,
+          "end_sample": 24683,
+          "start_ms": 942,
+          "end_ms": 1543
+        },
+        {
+          "lang": "en",
+          "text": "s backstory cutscene and now I'm confused.",
+          "start_sample": 24683,
+          "end_sample": 67959,
+          "start_ms": 1543,
+          "end_ms": 4247
+        }
+      ]
+    },
+    "ja": {
+      "text": "I accidentally skipped the 主人公's backstory cutscene and now I'm confused.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7322,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I accidentally skipped the",
+          "start_sample": 0,
+          "end_sample": 31614,
+          "start_ms": 0,
+          "end_ms": 1976
+        },
+        {
+          "lang": "ja",
+          "text": "主人公'",
+          "start_sample": 31614,
+          "end_sample": 46378,
+          "start_ms": 1976,
+          "end_ms": 2899
+        },
+        {
+          "lang": "en",
+          "text": "s backstory cutscene and now I'm confused.",
+          "start_sample": 46378,
+          "end_sample": 117148,
+          "start_ms": 2899,
+          "end_ms": 7322
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 226,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

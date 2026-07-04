@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_077_a8ec885aec97/cs6913.flac",
+  "sentence": "I wrote the 住所 on my hand just in case my phone died.",
+  "sample_rate": 16000,
+  "duration_ms": 4536,
+  "reference_speaker": "jp/speaker_077_a8ec885aec97.mp3",
+  "seed": 6955,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I wrote the",
+      "start_sample": 0,
+      "end_sample": 8629,
+      "start_ms": 0,
+      "end_ms": 539
+    },
+    {
+      "lang": "ja",
+      "text": "住所",
+      "start_sample": 8629,
+      "end_sample": 18180,
+      "start_ms": 539,
+      "end_ms": 1136
+    },
+    {
+      "lang": "en",
+      "text": "on my hand just in case my phone died.",
+      "start_sample": 18180,
+      "end_sample": 72583,
+      "start_ms": 1136,
+      "end_ms": 4536
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I wrote the juusho on my hand just in case my phone died.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4396,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I wrote the",
+          "start_sample": 0,
+          "end_sample": 8829,
+          "start_ms": 0,
+          "end_ms": 552
+        },
+        {
+          "lang": "ja",
+          "text": "住所",
+          "start_sample": 8829,
+          "end_sample": 15735,
+          "start_ms": 552,
+          "end_ms": 983
+        },
+        {
+          "lang": "en",
+          "text": "on my hand just in case my phone died.",
+          "start_sample": 15735,
+          "end_sample": 70338,
+          "start_ms": 983,
+          "end_ms": 4396
+        }
+      ]
+    },
+    "ja": {
+      "text": "I wrote the 住所 on my hand just in case my phone died.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5055,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I wrote the",
+          "start_sample": 0,
+          "end_sample": 20380,
+          "start_ms": 0,
+          "end_ms": 1274
+        },
+        {
+          "lang": "ja",
+          "text": "住所",
+          "start_sample": 20380,
+          "end_sample": 30331,
+          "start_ms": 1274,
+          "end_ms": 1896
+        },
+        {
+          "lang": "en",
+          "text": "on my hand just in case my phone died.",
+          "start_sample": 30331,
+          "end_sample": 80886,
+          "start_ms": 1896,
+          "end_ms": 5055
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 227,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

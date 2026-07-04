@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_090_cd7a1ed8add3/cs3891.flac",
+  "sentence": "心臓のpalpitationsが続いたので、すぐに病院へ行きました。",
+  "sample_rate": 16000,
+  "duration_ms": 5491,
+  "reference_speaker": "en/speaker_090_cd7a1ed8add3.mp3",
+  "seed": 3933,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "心臓の",
+      "start_sample": 0,
+      "end_sample": 10565,
+      "start_ms": 0,
+      "end_ms": 660
+    },
+    {
+      "lang": "en",
+      "text": "palpitations",
+      "start_sample": 10565,
+      "end_sample": 28770,
+      "start_ms": 660,
+      "end_ms": 1798
+    },
+    {
+      "lang": "ja",
+      "text": "が続いたので、すぐに病院へ行きました。",
+      "start_sample": 28770,
+      "end_sample": 87858,
+      "start_ms": 1798,
+      "end_ms": 5491
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shinzou no palpitations ga tsuzui ta no de sugu ni byouin he iki mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8621,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "心臓の",
+          "start_sample": 0,
+          "end_sample": 21651,
+          "start_ms": 0,
+          "end_ms": 1353
+        },
+        {
+          "lang": "en",
+          "text": "palpitations",
+          "start_sample": 21651,
+          "end_sample": 40256,
+          "start_ms": 1353,
+          "end_ms": 2516
+        },
+        {
+          "lang": "ja",
+          "text": "が続いたので、すぐに病院へ行きました。",
+          "start_sample": 40256,
+          "end_sample": 137930,
+          "start_ms": 2516,
+          "end_ms": 8621
+        }
+      ]
+    },
+    "ja": {
+      "text": "心臓のpalpitationsが続いたので、すぐに病院へ行きました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5563,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "心臓の",
+          "start_sample": 0,
+          "end_sample": 10765,
+          "start_ms": 0,
+          "end_ms": 673
+        },
+        {
+          "lang": "en",
+          "text": "palpitations",
+          "start_sample": 10765,
+          "end_sample": 29725,
+          "start_ms": 673,
+          "end_ms": 1858
+        },
+        {
+          "lang": "ja",
+          "text": "が続いたので、すぐに病院へ行きました。",
+          "start_sample": 29725,
+          "end_sample": 89013,
+          "start_ms": 1858,
+          "end_ms": 5563
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 275,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

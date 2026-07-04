@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_044_225f82fe72eb/cs10589.flac",
+  "sentence": "Can you move the 植木鉢 closer to the window so it gets more light?",
+  "sample_rate": 16000,
+  "duration_ms": 4331,
+  "reference_speaker": "jp/speaker_044_225f82fe72eb.mp3",
+  "seed": 10631,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you move the",
+      "start_sample": 0,
+      "end_sample": 11219,
+      "start_ms": 0,
+      "end_ms": 701
+    },
+    {
+      "lang": "ja",
+      "text": "植木鉢",
+      "start_sample": 11219,
+      "end_sample": 25594,
+      "start_ms": 701,
+      "end_ms": 1600
+    },
+    {
+      "lang": "en",
+      "text": "closer to the window so it gets more light?",
+      "start_sample": 25594,
+      "end_sample": 69298,
+      "start_ms": 1600,
+      "end_ms": 4331
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you move the ueki hachi closer to the window so it gets more light?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4222,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you move the",
+          "start_sample": 0,
+          "end_sample": 11419,
+          "start_ms": 0,
+          "end_ms": 714
+        },
+        {
+          "lang": "ja",
+          "text": "植木鉢",
+          "start_sample": 11419,
+          "end_sample": 23642,
+          "start_ms": 714,
+          "end_ms": 1478
+        },
+        {
+          "lang": "en",
+          "text": "closer to the window so it gets more light?",
+          "start_sample": 23642,
+          "end_sample": 67546,
+          "start_ms": 1478,
+          "end_ms": 4222
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you move the 植木鉢 closer to the window so it gets more light?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5139,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you move the",
+          "start_sample": 0,
+          "end_sample": 20071,
+          "start_ms": 0,
+          "end_ms": 1254
+        },
+        {
+          "lang": "ja",
+          "text": "植木鉢",
+          "start_sample": 20071,
+          "end_sample": 34846,
+          "start_ms": 1254,
+          "end_ms": 2178
+        },
+        {
+          "lang": "en",
+          "text": "closer to the window so it gets more light?",
+          "start_sample": 34846,
+          "end_sample": 82218,
+          "start_ms": 2178,
+          "end_ms": 5139
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 217,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

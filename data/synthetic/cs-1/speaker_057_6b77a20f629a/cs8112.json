@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_057_6b77a20f629a/cs8112.flac",
+  "sentence": "彼の一言一言がso sweetで、毎回ドキドキしてしまう。",
+  "sample_rate": 16000,
+  "duration_ms": 3149,
+  "reference_speaker": "jp/speaker_057_6b77a20f629a.mp3",
+  "seed": 8154,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼の一言一言が",
+      "start_sample": 0,
+      "end_sample": 17846,
+      "start_ms": 0,
+      "end_ms": 1115
+    },
+    {
+      "lang": "en",
+      "text": "so sweet",
+      "start_sample": 17846,
+      "end_sample": 25457,
+      "start_ms": 1115,
+      "end_ms": 1591
+    },
+    {
+      "lang": "ja",
+      "text": "で、毎回ドキドキしてしまう。",
+      "start_sample": 25457,
+      "end_sample": 50386,
+      "start_ms": 1591,
+      "end_ms": 3149
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare no hitokoto hitokoto ga so sweet de maikai dokidoki shi te shimau",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5728,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼の一言一言が",
+          "start_sample": 0,
+          "end_sample": 42617,
+          "start_ms": 0,
+          "end_ms": 2664
+        },
+        {
+          "lang": "en",
+          "text": "so sweet",
+          "start_sample": 42617,
+          "end_sample": 50628,
+          "start_ms": 2664,
+          "end_ms": 3164
+        },
+        {
+          "lang": "ja",
+          "text": "で、毎回ドキドキしてしまう。",
+          "start_sample": 50628,
+          "end_sample": 91643,
+          "start_ms": 3164,
+          "end_ms": 5728
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼の一言一言がso sweetで、毎回ドキドキしてしまう。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3121,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼の一言一言が",
+          "start_sample": 0,
+          "end_sample": 18046,
+          "start_ms": 0,
+          "end_ms": 1128
+        },
+        {
+          "lang": "en",
+          "text": "so sweet",
+          "start_sample": 18046,
+          "end_sample": 24813,
+          "start_ms": 1128,
+          "end_ms": 1551
+        },
+        {
+          "lang": "ja",
+          "text": "で、毎回ドキドキしてしまう。",
+          "start_sample": 24813,
+          "end_sample": 49942,
+          "start_ms": 1551,
+          "end_ms": 3121
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 158,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

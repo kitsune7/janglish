@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_030_bdb9e7b61df6/cs8707.flac",
+  "sentence": "She pressed her sleeve against the 出血 to slow the bleeding.",
+  "sample_rate": 16000,
+  "duration_ms": 3789,
+  "reference_speaker": "en/speaker_030_bdb9e7b61df6.mp3",
+  "seed": 8749,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She pressed her sleeve against the",
+      "start_sample": 0,
+      "end_sample": 28911,
+      "start_ms": 0,
+      "end_ms": 1807
+    },
+    {
+      "lang": "ja",
+      "text": "出血",
+      "start_sample": 28911,
+      "end_sample": 36539,
+      "start_ms": 1807,
+      "end_ms": 2284
+    },
+    {
+      "lang": "en",
+      "text": "to slow the bleeding.",
+      "start_sample": 36539,
+      "end_sample": 60621,
+      "start_ms": 2284,
+      "end_ms": 3789
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She pressed her sleeve against the shukketsu to slow the bleeding.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4222,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She pressed her sleeve against the",
+          "start_sample": 0,
+          "end_sample": 29111,
+          "start_ms": 0,
+          "end_ms": 1819
+        },
+        {
+          "lang": "ja",
+          "text": "出血",
+          "start_sample": 29111,
+          "end_sample": 43264,
+          "start_ms": 1819,
+          "end_ms": 2704
+        },
+        {
+          "lang": "en",
+          "text": "to slow the bleeding.",
+          "start_sample": 43264,
+          "end_sample": 67546,
+          "start_ms": 2704,
+          "end_ms": 4222
+        }
+      ]
+    },
+    "ja": {
+      "text": "She pressed her sleeve against the 出血 to slow the bleeding.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3773,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She pressed her sleeve against the",
+          "start_sample": 0,
+          "end_sample": 32430,
+          "start_ms": 0,
+          "end_ms": 2027
+        },
+        {
+          "lang": "ja",
+          "text": "出血",
+          "start_sample": 32430,
+          "end_sample": 40458,
+          "start_ms": 2027,
+          "end_ms": 2529
+        },
+        {
+          "lang": "en",
+          "text": "to slow the bleeding.",
+          "start_sample": 40458,
+          "end_sample": 60363,
+          "start_ms": 2529,
+          "end_ms": 3773
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

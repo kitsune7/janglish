@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_008_cc7e6dc77979/cs6804.flac",
+  "sentence": "Could you point out our current 場所 on this map?",
+  "sample_rate": 16000,
+  "duration_ms": 2298,
+  "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 6846,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Could you point out our current",
+      "start_sample": 0,
+      "end_sample": 18588,
+      "start_ms": 0,
+      "end_ms": 1162
+    },
+    {
+      "lang": "ja",
+      "text": "場所",
+      "start_sample": 18588,
+      "end_sample": 24284,
+      "start_ms": 1162,
+      "end_ms": 1518
+    },
+    {
+      "lang": "en",
+      "text": "on this map?",
+      "start_sample": 24284,
+      "end_sample": 36767,
+      "start_ms": 1518,
+      "end_ms": 2298
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Could you point out our current basho on this map?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2449,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you point out our current",
+          "start_sample": 0,
+          "end_sample": 18788,
+          "start_ms": 0,
+          "end_ms": 1174
+        },
+        {
+          "lang": "ja",
+          "text": "場所",
+          "start_sample": 18788,
+          "end_sample": 26496,
+          "start_ms": 1174,
+          "end_ms": 1656
+        },
+        {
+          "lang": "en",
+          "text": "on this map?",
+          "start_sample": 26496,
+          "end_sample": 39179,
+          "start_ms": 1656,
+          "end_ms": 2449
+        }
+      ]
+    },
+    "ja": {
+      "text": "Could you point out our current 場所 on this map?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2928,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you point out our current",
+          "start_sample": 0,
+          "end_sample": 29037,
+          "start_ms": 0,
+          "end_ms": 1815
+        },
+        {
+          "lang": "ja",
+          "text": "場所",
+          "start_sample": 29037,
+          "end_sample": 35133,
+          "start_ms": 1815,
+          "end_ms": 2196
+        },
+        {
+          "lang": "en",
+          "text": "on this map?",
+          "start_sample": 35133,
+          "end_sample": 46842,
+          "start_ms": 2196,
+          "end_ms": 2928
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 115,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

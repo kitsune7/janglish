@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_092_0f181b6e11f2/cs5925.flac",
+  "sentence": "Have you ever tried training in 寒い weather without gloves?",
+  "sample_rate": 16000,
+  "duration_ms": 3035,
+  "reference_speaker": "en/speaker_092_0f181b6e11f2.mp3",
+  "seed": 5967,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you ever tried training in",
+      "start_sample": 0,
+      "end_sample": 22162,
+      "start_ms": 0,
+      "end_ms": 1385
+    },
+    {
+      "lang": "ja",
+      "text": "寒い",
+      "start_sample": 22162,
+      "end_sample": 30743,
+      "start_ms": 1385,
+      "end_ms": 1921
+    },
+    {
+      "lang": "en",
+      "text": "weather without gloves?",
+      "start_sample": 30743,
+      "end_sample": 48557,
+      "start_ms": 1921,
+      "end_ms": 3035
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you ever tried training in samui weather without gloves?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2976,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever tried training in",
+          "start_sample": 0,
+          "end_sample": 22362,
+          "start_ms": 0,
+          "end_ms": 1398
+        },
+        {
+          "lang": "ja",
+          "text": "寒い",
+          "start_sample": 22362,
+          "end_sample": 29601,
+          "start_ms": 1398,
+          "end_ms": 1850
+        },
+        {
+          "lang": "en",
+          "text": "weather without gloves?",
+          "start_sample": 29601,
+          "end_sample": 47615,
+          "start_ms": 1850,
+          "end_ms": 2976
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you ever tried training in 寒い weather without gloves?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4711,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever tried training in",
+          "start_sample": 0,
+          "end_sample": 41534,
+          "start_ms": 0,
+          "end_ms": 2596
+        },
+        {
+          "lang": "ja",
+          "text": "寒い",
+          "start_sample": 41534,
+          "end_sample": 50515,
+          "start_ms": 2596,
+          "end_ms": 3157
+        },
+        {
+          "lang": "en",
+          "text": "weather without gloves?",
+          "start_sample": 50515,
+          "end_sample": 75371,
+          "start_ms": 3157,
+          "end_ms": 4711
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 152,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

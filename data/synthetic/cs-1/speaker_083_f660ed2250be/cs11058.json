@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_083_f660ed2250be/cs11058.flac",
+  "sentence": "He stayed 一人 at home while everyone else went to the holiday party.",
+  "sample_rate": 16000,
+  "duration_ms": 4497,
+  "reference_speaker": "jp/speaker_083_f660ed2250be.mp3",
+  "seed": 11100,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He stayed",
+      "start_sample": 0,
+      "end_sample": 6385,
+      "start_ms": 0,
+      "end_ms": 399
+    },
+    {
+      "lang": "ja",
+      "text": "一人",
+      "start_sample": 6385,
+      "end_sample": 11764,
+      "start_ms": 399,
+      "end_ms": 735
+    },
+    {
+      "lang": "en",
+      "text": "at home while everyone else went to the holiday party.",
+      "start_sample": 11764,
+      "end_sample": 71957,
+      "start_ms": 735,
+      "end_ms": 4497
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He stayed hitori at home while everyone else went to the holiday party.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4618,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He stayed",
+          "start_sample": 0,
+          "end_sample": 6585,
+          "start_ms": 0,
+          "end_ms": 412
+        },
+        {
+          "lang": "ja",
+          "text": "一人",
+          "start_sample": 6585,
+          "end_sample": 13492,
+          "start_ms": 412,
+          "end_ms": 843
+        },
+        {
+          "lang": "en",
+          "text": "at home while everyone else went to the holiday party.",
+          "start_sample": 13492,
+          "end_sample": 73885,
+          "start_ms": 843,
+          "end_ms": 4618
+        }
+      ]
+    },
+    "ja": {
+      "text": "He stayed 一人 at home while everyone else went to the holiday party.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3793,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He stayed",
+          "start_sample": 0,
+          "end_sample": 7064,
+          "start_ms": 0,
+          "end_ms": 442
+        },
+        {
+          "lang": "ja",
+          "text": "一人",
+          "start_sample": 7064,
+          "end_sample": 12843,
+          "start_ms": 442,
+          "end_ms": 803
+        },
+        {
+          "lang": "en",
+          "text": "at home while everyone else went to the holiday party.",
+          "start_sample": 12843,
+          "end_sample": 60684,
+          "start_ms": 803,
+          "end_ms": 3793
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

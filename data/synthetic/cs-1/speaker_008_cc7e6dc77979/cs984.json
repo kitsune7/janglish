@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_008_cc7e6dc77979/cs984.flac",
+  "sentence": "ここのseasonal メニューは毎月変わるそうです。",
+  "sample_rate": 16000,
+  "duration_ms": 2796,
+  "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 1026,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "ここの",
+      "start_sample": 0,
+      "end_sample": 7173,
+      "start_ms": 0,
+      "end_ms": 448
+    },
+    {
+      "lang": "en",
+      "text": "seasonal",
+      "start_sample": 7173,
+      "end_sample": 15120,
+      "start_ms": 448,
+      "end_ms": 945
+    },
+    {
+      "lang": "ja",
+      "text": "メニューは毎月変わるそうです。",
+      "start_sample": 15120,
+      "end_sample": 44744,
+      "start_ms": 945,
+      "end_ms": 2796
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "koko no seasonal menyuu ha maitsuki kawaru sou desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5217,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ここの",
+          "start_sample": 0,
+          "end_sample": 28893,
+          "start_ms": 0,
+          "end_ms": 1806
+        },
+        {
+          "lang": "en",
+          "text": "seasonal",
+          "start_sample": 28893,
+          "end_sample": 37240,
+          "start_ms": 1806,
+          "end_ms": 2328
+        },
+        {
+          "lang": "ja",
+          "text": "メニューは毎月変わるそうです。",
+          "start_sample": 37240,
+          "end_sample": 83466,
+          "start_ms": 2328,
+          "end_ms": 5217
+        }
+      ]
+    },
+    "ja": {
+      "text": "ここのseasonal メニューは毎月変わるそうです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2926,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "ここの",
+          "start_sample": 0,
+          "end_sample": 7373,
+          "start_ms": 0,
+          "end_ms": 461
+        },
+        {
+          "lang": "en",
+          "text": "seasonal",
+          "start_sample": 7373,
+          "end_sample": 16993,
+          "start_ms": 461,
+          "end_ms": 1062
+        },
+        {
+          "lang": "ja",
+          "text": "メニューは毎月変わるそうです。",
+          "start_sample": 16993,
+          "end_sample": 46817,
+          "start_ms": 1062,
+          "end_ms": 2926
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 140,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

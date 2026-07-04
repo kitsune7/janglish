@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_012_14fe5dfafe10/cs11268.flac",
+  "sentence": "topsoilを足してから種をまくといいですよ。",
+  "sample_rate": 16000,
+  "duration_ms": 2665,
+  "reference_speaker": "jp/speaker_012_14fe5dfafe10.mp3",
+  "seed": 11310,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "topsoil",
+      "start_sample": 0,
+      "end_sample": 8952,
+      "start_ms": 0,
+      "end_ms": 560
+    },
+    {
+      "lang": "ja",
+      "text": "を足してから種をまくといいですよ。",
+      "start_sample": 8952,
+      "end_sample": 42641,
+      "start_ms": 560,
+      "end_ms": 2665
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "topsoil wo tashi te kara tane wo maku to ii desu yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4596,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "topsoil",
+          "start_sample": 0,
+          "end_sample": 9152,
+          "start_ms": 0,
+          "end_ms": 572
+        },
+        {
+          "lang": "ja",
+          "text": "を足してから種をまくといいですよ。",
+          "start_sample": 9152,
+          "end_sample": 73540,
+          "start_ms": 572,
+          "end_ms": 4596
+        }
+      ]
+    },
+    "ja": {
+      "text": "topsoilを足してから種をまくといいですよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2570,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "topsoil",
+          "start_sample": 0,
+          "end_sample": 7228,
+          "start_ms": 0,
+          "end_ms": 452
+        },
+        {
+          "lang": "ja",
+          "text": "を足してから種をまくといいですよ。",
+          "start_sample": 7228,
+          "end_sample": 41117,
+          "start_ms": 452,
+          "end_ms": 2570
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 134,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

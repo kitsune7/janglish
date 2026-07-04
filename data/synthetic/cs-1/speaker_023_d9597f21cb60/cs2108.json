@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_023_d9597f21cb60/cs2108.flac",
+  "sentence": "I practiced answering 想定外 questions with a friend the night before.",
+  "sample_rate": 16000,
+  "duration_ms": 4248,
+  "reference_speaker": "jp/speaker_023_d9597f21cb60.mp3",
+  "seed": 2150,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I practiced answering",
+      "start_sample": 0,
+      "end_sample": 19078,
+      "start_ms": 0,
+      "end_ms": 1192
+    },
+    {
+      "lang": "ja",
+      "text": "想定外",
+      "start_sample": 19078,
+      "end_sample": 30409,
+      "start_ms": 1192,
+      "end_ms": 1901
+    },
+    {
+      "lang": "en",
+      "text": "questions with a friend the night before.",
+      "start_sample": 30409,
+      "end_sample": 67966,
+      "start_ms": 1901,
+      "end_ms": 4248
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I practiced answering soutei soto questions with a friend the night before.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5362,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I practiced answering",
+          "start_sample": 0,
+          "end_sample": 19278,
+          "start_ms": 0,
+          "end_ms": 1205
+        },
+        {
+          "lang": "ja",
+          "text": "想定外",
+          "start_sample": 19278,
+          "end_sample": 48039,
+          "start_ms": 1205,
+          "end_ms": 3002
+        },
+        {
+          "lang": "en",
+          "text": "questions with a friend the night before.",
+          "start_sample": 48039,
+          "end_sample": 85796,
+          "start_ms": 3002,
+          "end_ms": 5362
+        }
+      ]
+    },
+    "ja": {
+      "text": "I practiced answering 想定外 questions with a friend the night before.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4479,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I practiced answering",
+          "start_sample": 0,
+          "end_sample": 24103,
+          "start_ms": 0,
+          "end_ms": 1506
+        },
+        {
+          "lang": "ja",
+          "text": "想定外",
+          "start_sample": 24103,
+          "end_sample": 35834,
+          "start_ms": 1506,
+          "end_ms": 2240
+        },
+        {
+          "lang": "en",
+          "text": "questions with a friend the night before.",
+          "start_sample": 35834,
+          "end_sample": 71664,
+          "start_ms": 2240,
+          "end_ms": 4479
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 213,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

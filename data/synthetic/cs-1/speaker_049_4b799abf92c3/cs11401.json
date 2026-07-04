@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_049_4b799abf92c3/cs11401.flac",
+  "sentence": "展示会にはformalな服装で行くべきでしょうか？",
+  "sample_rate": 16000,
+  "duration_ms": 3397,
+  "reference_speaker": "en/speaker_049_4b799abf92c3.mp3",
+  "seed": 11443,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "展示会には",
+      "start_sample": 0,
+      "end_sample": 12472,
+      "start_ms": 0,
+      "end_ms": 780
+    },
+    {
+      "lang": "en",
+      "text": "formal",
+      "start_sample": 12472,
+      "end_sample": 29216,
+      "start_ms": 780,
+      "end_ms": 1826
+    },
+    {
+      "lang": "ja",
+      "text": "な服装で行くべきでしょうか？",
+      "start_sample": 29216,
+      "end_sample": 54359,
+      "start_ms": 1826,
+      "end_ms": 3397
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "tenji kai ni ha formal na fukusou de iku beki deshou ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8031,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "展示会には",
+          "start_sample": 0,
+          "end_sample": 56721,
+          "start_ms": 0,
+          "end_ms": 3545
+        },
+        {
+          "lang": "en",
+          "text": "formal",
+          "start_sample": 56721,
+          "end_sample": 73865,
+          "start_ms": 3545,
+          "end_ms": 4617
+        },
+        {
+          "lang": "ja",
+          "text": "な服装で行くべきでしょうか？",
+          "start_sample": 73865,
+          "end_sample": 128503,
+          "start_ms": 4617,
+          "end_ms": 8031
+        }
+      ]
+    },
+    "ja": {
+      "text": "展示会にはformalな服装で行くべきでしょうか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2867,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "展示会には",
+          "start_sample": 0,
+          "end_sample": 12672,
+          "start_ms": 0,
+          "end_ms": 792
+        },
+        {
+          "lang": "en",
+          "text": "formal",
+          "start_sample": 12672,
+          "end_sample": 20532,
+          "start_ms": 792,
+          "end_ms": 1283
+        },
+        {
+          "lang": "ja",
+          "text": "な服装で行くべきでしょうか？",
+          "start_sample": 20532,
+          "end_sample": 45875,
+          "start_ms": 1283,
+          "end_ms": 2867
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 170,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

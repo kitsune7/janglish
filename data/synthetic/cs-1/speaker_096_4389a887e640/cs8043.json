@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_096_4389a887e640/cs8043.flac",
+  "sentence": "His 表情 during the meeting told me everything I needed to know.",
+  "sample_rate": 16000,
+  "duration_ms": 3989,
+  "reference_speaker": "en/speaker_096_4389a887e640.mp3",
+  "seed": 8085,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His",
+      "start_sample": 0,
+      "end_sample": 2687,
+      "start_ms": 0,
+      "end_ms": 168
+    },
+    {
+      "lang": "ja",
+      "text": "表情",
+      "start_sample": 2687,
+      "end_sample": 13179,
+      "start_ms": 168,
+      "end_ms": 824
+    },
+    {
+      "lang": "en",
+      "text": "during the meeting told me everything I needed to know.",
+      "start_sample": 13179,
+      "end_sample": 63827,
+      "start_ms": 824,
+      "end_ms": 3989
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His hyoujou during the meeting told me everything I needed to know.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3970,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His",
+          "start_sample": 0,
+          "end_sample": 2887,
+          "start_ms": 0,
+          "end_ms": 180
+        },
+        {
+          "lang": "ja",
+          "text": "表情",
+          "start_sample": 2887,
+          "end_sample": 12672,
+          "start_ms": 180,
+          "end_ms": 792
+        },
+        {
+          "lang": "en",
+          "text": "during the meeting told me everything I needed to know.",
+          "start_sample": 12672,
+          "end_sample": 63520,
+          "start_ms": 792,
+          "end_ms": 3970
+        }
+      ]
+    },
+    "ja": {
+      "text": "His 表情 during the meeting told me everything I needed to know.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5146,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His",
+          "start_sample": 0,
+          "end_sample": 3043,
+          "start_ms": 0,
+          "end_ms": 190
+        },
+        {
+          "lang": "ja",
+          "text": "表情",
+          "start_sample": 3043,
+          "end_sample": 13935,
+          "start_ms": 190,
+          "end_ms": 871
+        },
+        {
+          "lang": "en",
+          "text": "during the meeting told me everything I needed to know.",
+          "start_sample": 13935,
+          "end_sample": 82330,
+          "start_ms": 871,
+          "end_ms": 5146
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 200,
+  "frame_labels": "eeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

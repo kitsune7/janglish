@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_045_fda9acd0702e/cs1777.flac",
+  "sentence": "Pouring drinks for guests all night is more 大変 than people give bartenders credit for.",
+  "sample_rate": 16000,
+  "duration_ms": 4742,
+  "reference_speaker": "jp/speaker_045_fda9acd0702e.mp3",
+  "seed": 1819,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Pouring drinks for guests all night is more",
+      "start_sample": 0,
+      "end_sample": 34451,
+      "start_ms": 0,
+      "end_ms": 2153
+    },
+    {
+      "lang": "ja",
+      "text": "大変",
+      "start_sample": 34451,
+      "end_sample": 42547,
+      "start_ms": 2153,
+      "end_ms": 2659
+    },
+    {
+      "lang": "en",
+      "text": "than people give bartenders credit for.",
+      "start_sample": 42547,
+      "end_sample": 75873,
+      "start_ms": 2659,
+      "end_ms": 4742
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Pouring drinks for guests all night is more taihen than people give bartenders credit for.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4953,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Pouring drinks for guests all night is more",
+          "start_sample": 0,
+          "end_sample": 34651,
+          "start_ms": 0,
+          "end_ms": 2166
+        },
+        {
+          "lang": "ja",
+          "text": "大変",
+          "start_sample": 34651,
+          "end_sample": 45721,
+          "start_ms": 2166,
+          "end_ms": 2858
+        },
+        {
+          "lang": "en",
+          "text": "than people give bartenders credit for.",
+          "start_sample": 45721,
+          "end_sample": 79247,
+          "start_ms": 2858,
+          "end_ms": 4953
+        }
+      ]
+    },
+    "ja": {
+      "text": "Pouring drinks for guests all night is more 大変 than people give bartenders credit for.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6933,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Pouring drinks for guests all night is more",
+          "start_sample": 0,
+          "end_sample": 55945,
+          "start_ms": 0,
+          "end_ms": 3497
+        },
+        {
+          "lang": "ja",
+          "text": "大変",
+          "start_sample": 55945,
+          "end_sample": 64441,
+          "start_ms": 3497,
+          "end_ms": 4028
+        },
+        {
+          "lang": "en",
+          "text": "than people give bartenders credit for.",
+          "start_sample": 64441,
+          "end_sample": 110927,
+          "start_ms": 4028,
+          "end_ms": 6933
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 238,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

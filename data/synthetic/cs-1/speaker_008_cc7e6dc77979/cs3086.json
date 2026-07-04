@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_008_cc7e6dc77979/cs3086.flac",
+  "sentence": "She came across as very 誠実 when talking about her previous employer.",
+  "sample_rate": 16000,
+  "duration_ms": 4048,
+  "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 3128,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She came across as very",
+      "start_sample": 0,
+      "end_sample": 19743,
+      "start_ms": 0,
+      "end_ms": 1234
+    },
+    {
+      "lang": "ja",
+      "text": "誠実",
+      "start_sample": 19743,
+      "end_sample": 30235,
+      "start_ms": 1234,
+      "end_ms": 1890
+    },
+    {
+      "lang": "en",
+      "text": "when talking about her previous employer.",
+      "start_sample": 30235,
+      "end_sample": 64771,
+      "start_ms": 1890,
+      "end_ms": 4048
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She came across as very seijitsu when talking about her previous employer.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4161,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She came across as very",
+          "start_sample": 0,
+          "end_sample": 19943,
+          "start_ms": 0,
+          "end_ms": 1246
+        },
+        {
+          "lang": "ja",
+          "text": "誠実",
+          "start_sample": 19943,
+          "end_sample": 31845,
+          "start_ms": 1246,
+          "end_ms": 1990
+        },
+        {
+          "lang": "en",
+          "text": "when talking about her previous employer.",
+          "start_sample": 31845,
+          "end_sample": 66581,
+          "start_ms": 1990,
+          "end_ms": 4161
+        }
+      ]
+    },
+    "ja": {
+      "text": "She came across as very 誠実 when talking about her previous employer.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5226,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She came across as very",
+          "start_sample": 0,
+          "end_sample": 30113,
+          "start_ms": 0,
+          "end_ms": 1882
+        },
+        {
+          "lang": "ja",
+          "text": "誠実",
+          "start_sample": 30113,
+          "end_sample": 41005,
+          "start_ms": 1882,
+          "end_ms": 2563
+        },
+        {
+          "lang": "en",
+          "text": "when talking about her previous employer.",
+          "start_sample": 41005,
+          "end_sample": 83613,
+          "start_ms": 2563,
+          "end_ms": 5226
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

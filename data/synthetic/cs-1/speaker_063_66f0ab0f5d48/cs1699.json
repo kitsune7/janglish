@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_063_66f0ab0f5d48/cs1699.flac",
+  "sentence": "彼女は骨折しているのに、painに耐えながら歩き続けた。",
+  "sample_rate": 16000,
+  "duration_ms": 3782,
+  "reference_speaker": "en/speaker_063_66f0ab0f5d48.mp3",
+  "seed": 1741,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は骨折しているのに、",
+      "start_sample": 0,
+      "end_sample": 29976,
+      "start_ms": 0,
+      "end_ms": 1874
+    },
+    {
+      "lang": "en",
+      "text": "pain",
+      "start_sample": 29976,
+      "end_sample": 35505,
+      "start_ms": 1874,
+      "end_ms": 2219
+    },
+    {
+      "lang": "ja",
+      "text": "に耐えながら歩き続けた。",
+      "start_sample": 35505,
+      "end_sample": 60506,
+      "start_ms": 2219,
+      "end_ms": 3782
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha kossetsu shi te iru no ni pain ni tae nagara aruki tsuzuke ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7792,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は骨折しているのに、",
+          "start_sample": 0,
+          "end_sample": 86849,
+          "start_ms": 0,
+          "end_ms": 5428
+        },
+        {
+          "lang": "en",
+          "text": "pain",
+          "start_sample": 86849,
+          "end_sample": 92778,
+          "start_ms": 5428,
+          "end_ms": 5799
+        },
+        {
+          "lang": "ja",
+          "text": "に耐えながら歩き続けた。",
+          "start_sample": 92778,
+          "end_sample": 124664,
+          "start_ms": 5799,
+          "end_ms": 7792
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女は骨折しているのに、painに耐えながら歩き続けた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3832,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は骨折しているのに、",
+          "start_sample": 0,
+          "end_sample": 30176,
+          "start_ms": 0,
+          "end_ms": 1886
+        },
+        {
+          "lang": "en",
+          "text": "pain",
+          "start_sample": 30176,
+          "end_sample": 36116,
+          "start_ms": 1886,
+          "end_ms": 2257
+        },
+        {
+          "lang": "ja",
+          "text": "に耐えながら歩き続けた。",
+          "start_sample": 36116,
+          "end_sample": 61317,
+          "start_ms": 2257,
+          "end_ms": 3832
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

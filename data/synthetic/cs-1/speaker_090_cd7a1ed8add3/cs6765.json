@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_090_cd7a1ed8add3/cs6765.flac",
+  "sentence": "I stayed 冷静 even when the interviewer threw an unexpected curveball at me.",
+  "sample_rate": 16000,
+  "duration_ms": 4588,
+  "reference_speaker": "en/speaker_090_cd7a1ed8add3.mp3",
+  "seed": 6807,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I stayed",
+      "start_sample": 0,
+      "end_sample": 7670,
+      "start_ms": 0,
+      "end_ms": 479
+    },
+    {
+      "lang": "ja",
+      "text": "冷静",
+      "start_sample": 7670,
+      "end_sample": 16892,
+      "start_ms": 479,
+      "end_ms": 1056
+    },
+    {
+      "lang": "en",
+      "text": "even when the interviewer threw an unexpected curveball at me.",
+      "start_sample": 16892,
+      "end_sample": 73413,
+      "start_ms": 1056,
+      "end_ms": 4588
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I stayed reisei even when the interviewer threw an unexpected curveball at me.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4479,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I stayed",
+          "start_sample": 0,
+          "end_sample": 7870,
+          "start_ms": 0,
+          "end_ms": 492
+        },
+        {
+          "lang": "ja",
+          "text": "冷静",
+          "start_sample": 7870,
+          "end_sample": 14940,
+          "start_ms": 492,
+          "end_ms": 934
+        },
+        {
+          "lang": "en",
+          "text": "even when the interviewer threw an unexpected curveball at me.",
+          "start_sample": 14940,
+          "end_sample": 71661,
+          "start_ms": 934,
+          "end_ms": 4479
+        }
+      ]
+    },
+    "ja": {
+      "text": "I stayed 冷静 even when the interviewer threw an unexpected curveball at me.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7277,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I stayed",
+          "start_sample": 0,
+          "end_sample": 8981,
+          "start_ms": 0,
+          "end_ms": 561
+        },
+        {
+          "lang": "ja",
+          "text": "冷静",
+          "start_sample": 8981,
+          "end_sample": 18603,
+          "start_ms": 561,
+          "end_ms": 1163
+        },
+        {
+          "lang": "en",
+          "text": "even when the interviewer threw an unexpected curveball at me.",
+          "start_sample": 18603,
+          "end_sample": 116430,
+          "start_ms": 1163,
+          "end_ms": 7277
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 230,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

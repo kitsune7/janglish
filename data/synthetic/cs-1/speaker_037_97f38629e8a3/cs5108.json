@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_037_97f38629e8a3/cs5108.flac",
+  "sentence": "峠を越えるrailwayは景色が素晴らしいと聞いた。",
+  "sample_rate": 16000,
+  "duration_ms": 4025,
+  "reference_speaker": "jp/speaker_037_97f38629e8a3.mp3",
+  "seed": 5150,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "峠を越える",
+      "start_sample": 0,
+      "end_sample": 12971,
+      "start_ms": 0,
+      "end_ms": 811
+    },
+    {
+      "lang": "en",
+      "text": "railway",
+      "start_sample": 12971,
+      "end_sample": 28622,
+      "start_ms": 811,
+      "end_ms": 1789
+    },
+    {
+      "lang": "ja",
+      "text": "は景色が素晴らしいと聞いた。",
+      "start_sample": 28622,
+      "end_sample": 64400,
+      "start_ms": 1789,
+      "end_ms": 4025
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "touge wo koeru railway ha keshiki ga subarashii to kii ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5056,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "峠を越える",
+          "start_sample": 0,
+          "end_sample": 24397,
+          "start_ms": 0,
+          "end_ms": 1525
+        },
+        {
+          "lang": "en",
+          "text": "railway",
+          "start_sample": 24397,
+          "end_sample": 40448,
+          "start_ms": 1525,
+          "end_ms": 2528
+        },
+        {
+          "lang": "ja",
+          "text": "は景色が素晴らしいと聞いた。",
+          "start_sample": 40448,
+          "end_sample": 80896,
+          "start_ms": 2528,
+          "end_ms": 5056
+        }
+      ]
+    },
+    "ja": {
+      "text": "峠を越えるrailwayは景色が素晴らしいと聞いた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3594,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "峠を越える",
+          "start_sample": 0,
+          "end_sample": 13171,
+          "start_ms": 0,
+          "end_ms": 823
+        },
+        {
+          "lang": "en",
+          "text": "railway",
+          "start_sample": 13171,
+          "end_sample": 21523,
+          "start_ms": 823,
+          "end_ms": 1345
+        },
+        {
+          "lang": "ja",
+          "text": "は景色が素晴らしいと聞いた。",
+          "start_sample": 21523,
+          "end_sample": 57501,
+          "start_ms": 1345,
+          "end_ms": 3594
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

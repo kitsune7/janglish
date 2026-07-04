@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_014_9e367176533e/cs10541.flac",
+  "sentence": "うちの猫はとてもfussyで、決まったご飯しか食べません。",
+  "sample_rate": 16000,
+  "duration_ms": 3873,
+  "reference_speaker": "jp/speaker_014_9e367176533e.mp3",
+  "seed": 10583,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "うちの猫はとても",
+      "start_sample": 0,
+      "end_sample": 20994,
+      "start_ms": 0,
+      "end_ms": 1312
+    },
+    {
+      "lang": "en",
+      "text": "fussy",
+      "start_sample": 20994,
+      "end_sample": 27328,
+      "start_ms": 1312,
+      "end_ms": 1708
+    },
+    {
+      "lang": "ja",
+      "text": "で、決まったご飯しか食べません。",
+      "start_sample": 27328,
+      "end_sample": 61967,
+      "start_ms": 1708,
+      "end_ms": 3873
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "uchi no neko ha totemo fussy de kimatsu ta gomeshi shika tabe mase n",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6593,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちの猫はとても",
+          "start_sample": 0,
+          "end_sample": 25007,
+          "start_ms": 0,
+          "end_ms": 1563
+        },
+        {
+          "lang": "en",
+          "text": "fussy",
+          "start_sample": 25007,
+          "end_sample": 31741,
+          "start_ms": 1563,
+          "end_ms": 1984
+        },
+        {
+          "lang": "ja",
+          "text": "で、決まったご飯しか食べません。",
+          "start_sample": 31741,
+          "end_sample": 105484,
+          "start_ms": 1984,
+          "end_ms": 6593
+        }
+      ]
+    },
+    "ja": {
+      "text": "うちの猫はとてもfussyで、決まったご飯しか食べません。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3994,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちの猫はとても",
+          "start_sample": 0,
+          "end_sample": 21194,
+          "start_ms": 0,
+          "end_ms": 1325
+        },
+        {
+          "lang": "en",
+          "text": "fussy",
+          "start_sample": 21194,
+          "end_sample": 29062,
+          "start_ms": 1325,
+          "end_ms": 1816
+        },
+        {
+          "lang": "ja",
+          "text": "で、決まったご飯しか食べません。",
+          "start_sample": 29062,
+          "end_sample": 63901,
+          "start_ms": 1816,
+          "end_ms": 3994
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 194,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

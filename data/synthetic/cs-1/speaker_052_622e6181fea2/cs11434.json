@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_052_622e6181fea2/cs11434.flac",
+  "sentence": "Could you help me move this 本棚 into the corner by the window?",
+  "sample_rate": 16000,
+  "duration_ms": 3938,
+  "reference_speaker": "en/speaker_052_622e6181fea2.mp3",
+  "seed": 11476,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Could you help me move this",
+      "start_sample": 0,
+      "end_sample": 19575,
+      "start_ms": 0,
+      "end_ms": 1223
+    },
+    {
+      "lang": "ja",
+      "text": "本棚",
+      "start_sample": 19575,
+      "end_sample": 26717,
+      "start_ms": 1223,
+      "end_ms": 1670
+    },
+    {
+      "lang": "en",
+      "text": "into the corner by the window?",
+      "start_sample": 26717,
+      "end_sample": 63009,
+      "start_ms": 1670,
+      "end_ms": 3938
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Could you help me move this hondana into the corner by the window?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4502,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you help me move this",
+          "start_sample": 0,
+          "end_sample": 19775,
+          "start_ms": 0,
+          "end_ms": 1236
+        },
+        {
+          "lang": "ja",
+          "text": "本棚",
+          "start_sample": 19775,
+          "end_sample": 35532,
+          "start_ms": 1236,
+          "end_ms": 2221
+        },
+        {
+          "lang": "en",
+          "text": "into the corner by the window?",
+          "start_sample": 35532,
+          "end_sample": 72024,
+          "start_ms": 2221,
+          "end_ms": 4502
+        }
+      ]
+    },
+    "ja": {
+      "text": "Could you help me move this 本棚 into the corner by the window?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3270,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could you help me move this",
+          "start_sample": 0,
+          "end_sample": 21181,
+          "start_ms": 0,
+          "end_ms": 1324
+        },
+        {
+          "lang": "ja",
+          "text": "本棚",
+          "start_sample": 21181,
+          "end_sample": 28723,
+          "start_ms": 1324,
+          "end_ms": 1795
+        },
+        {
+          "lang": "en",
+          "text": "into the corner by the window?",
+          "start_sample": 28723,
+          "end_sample": 52312,
+          "start_ms": 1795,
+          "end_ms": 3270
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 197,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

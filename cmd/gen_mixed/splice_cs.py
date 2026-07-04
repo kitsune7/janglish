@@ -21,7 +21,10 @@ PAIRS_PATH = REPO_ROOT / "data" / "data-pairs.csv"
 MULTI_PATH = REPO_ROOT / "data" / "cs-multi.csv"
 MULTI_HEADER = "cs_level|direction|sentence"
 
-PATH_RE = re.compile(r"^synthetic/cs-(\d+)/cs(\d+)\.flac$")
+# Matches both flat rows awaiting generation (synthetic/cs-N/csM.flac) and
+# generated rows placed in a per-speaker subdirectory
+# (synthetic/cs-N/<speaker>/csM.flac).
+PATH_RE = re.compile(r"^synthetic/cs-(\d+)/(?:[^/|]+/)?cs(\d+)\.flac$")
 
 
 def read_pairs() -> list[str]:

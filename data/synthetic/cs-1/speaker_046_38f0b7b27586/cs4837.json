@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_046_38f0b7b27586/cs4837.flac",
+  "sentence": "Have you ever visited a 神社 tucked away in the mountains?",
+  "sample_rate": 16000,
+  "duration_ms": 3377,
+  "reference_speaker": "jp/speaker_046_38f0b7b27586.mp3",
+  "seed": 4879,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you ever visited a",
+      "start_sample": 0,
+      "end_sample": 18710,
+      "start_ms": 0,
+      "end_ms": 1169
+    },
+    {
+      "lang": "ja",
+      "text": "神社",
+      "start_sample": 18710,
+      "end_sample": 25063,
+      "start_ms": 1169,
+      "end_ms": 1566
+    },
+    {
+      "lang": "en",
+      "text": "tucked away in the mountains?",
+      "start_sample": 25063,
+      "end_sample": 54028,
+      "start_ms": 1566,
+      "end_ms": 3377
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you ever visited a jinja tucked away in the mountains?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3826,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever visited a",
+          "start_sample": 0,
+          "end_sample": 18910,
+          "start_ms": 0,
+          "end_ms": 1182
+        },
+        {
+          "lang": "ja",
+          "text": "神社",
+          "start_sample": 18910,
+          "end_sample": 32050,
+          "start_ms": 1182,
+          "end_ms": 2003
+        },
+        {
+          "lang": "en",
+          "text": "tucked away in the mountains?",
+          "start_sample": 32050,
+          "end_sample": 61215,
+          "start_ms": 2003,
+          "end_ms": 3826
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you ever visited a 神社 tucked away in the mountains?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3034,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever visited a",
+          "start_sample": 0,
+          "end_sample": 18810,
+          "start_ms": 0,
+          "end_ms": 1176
+        },
+        {
+          "lang": "ja",
+          "text": "神社",
+          "start_sample": 18810,
+          "end_sample": 25563,
+          "start_ms": 1176,
+          "end_ms": 1598
+        },
+        {
+          "lang": "en",
+          "text": "tucked away in the mountains?",
+          "start_sample": 25563,
+          "end_sample": 48551,
+          "start_ms": 1598,
+          "end_ms": 3034
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 169,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

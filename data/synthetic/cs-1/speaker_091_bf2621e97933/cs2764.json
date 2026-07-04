@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_091_bf2621e97933/cs2764.flac",
+  "sentence": "His 口調 over text always sounds angrier than he means it to.",
+  "sample_rate": 16000,
+  "duration_ms": 4789,
+  "reference_speaker": "jp/speaker_091_bf2621e97933.mp3",
+  "seed": 2806,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "His",
+      "start_sample": 0,
+      "end_sample": 3656,
+      "start_ms": 0,
+      "end_ms": 228
+    },
+    {
+      "lang": "ja",
+      "text": "口調",
+      "start_sample": 3656,
+      "end_sample": 14311,
+      "start_ms": 228,
+      "end_ms": 894
+    },
+    {
+      "lang": "en",
+      "text": "over text always sounds angrier than he means it to.",
+      "start_sample": 14311,
+      "end_sample": 76623,
+      "start_ms": 894,
+      "end_ms": 4789
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "His kuchou over text always sounds angrier than he means it to.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4680,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His",
+          "start_sample": 0,
+          "end_sample": 3856,
+          "start_ms": 0,
+          "end_ms": 241
+        },
+        {
+          "lang": "ja",
+          "text": "口調",
+          "start_sample": 3856,
+          "end_sample": 12374,
+          "start_ms": 241,
+          "end_ms": 773
+        },
+        {
+          "lang": "en",
+          "text": "over text always sounds angrier than he means it to.",
+          "start_sample": 12374,
+          "end_sample": 74886,
+          "start_ms": 773,
+          "end_ms": 4680
+        }
+      ]
+    },
+    "ja": {
+      "text": "His 口調 over text always sounds angrier than he means it to.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5768,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "His",
+          "start_sample": 0,
+          "end_sample": 3684,
+          "start_ms": 0,
+          "end_ms": 230
+        },
+        {
+          "lang": "ja",
+          "text": "口調",
+          "start_sample": 3684,
+          "end_sample": 14739,
+          "start_ms": 230,
+          "end_ms": 921
+        },
+        {
+          "lang": "en",
+          "text": "over text always sounds angrier than he means it to.",
+          "start_sample": 14739,
+          "end_sample": 92284,
+          "start_ms": 921,
+          "end_ms": 5768
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 240,
+  "frame_labels": "eeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

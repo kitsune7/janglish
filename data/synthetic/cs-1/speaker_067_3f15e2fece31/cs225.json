@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_067_3f15e2fece31/cs225.flac",
+  "sentence": "夜のcruiseでライトアップされた橋を見ました。",
+  "sample_rate": 16000,
+  "duration_ms": 2740,
+  "reference_speaker": "en/speaker_067_3f15e2fece31.mp3",
+  "seed": 267,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "夜の",
+      "start_sample": 0,
+      "end_sample": 5605,
+      "start_ms": 0,
+      "end_ms": 350
+    },
+    {
+      "lang": "en",
+      "text": "cruise",
+      "start_sample": 5605,
+      "end_sample": 11470,
+      "start_ms": 350,
+      "end_ms": 717
+    },
+    {
+      "lang": "ja",
+      "text": "でライトアップされた橋を見ました。",
+      "start_sample": 11470,
+      "end_sample": 43836,
+      "start_ms": 717,
+      "end_ms": 2740
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "yoru no cruise de raito appu sa re ta hashi wo ken mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5582,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "夜の",
+          "start_sample": 0,
+          "end_sample": 16865,
+          "start_ms": 0,
+          "end_ms": 1054
+        },
+        {
+          "lang": "en",
+          "text": "cruise",
+          "start_sample": 16865,
+          "end_sample": 23130,
+          "start_ms": 1054,
+          "end_ms": 1446
+        },
+        {
+          "lang": "ja",
+          "text": "でライトアップされた橋を見ました。",
+          "start_sample": 23130,
+          "end_sample": 89305,
+          "start_ms": 1446,
+          "end_ms": 5582
+        }
+      ]
+    },
+    "ja": {
+      "text": "夜のcruiseでライトアップされた橋を見ました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2842,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "夜の",
+          "start_sample": 0,
+          "end_sample": 5805,
+          "start_ms": 0,
+          "end_ms": 363
+        },
+        {
+          "lang": "en",
+          "text": "cruise",
+          "start_sample": 5805,
+          "end_sample": 12899,
+          "start_ms": 363,
+          "end_ms": 806
+        },
+        {
+          "lang": "ja",
+          "text": "でライトアップされた橋を見ました。",
+          "start_sample": 12899,
+          "end_sample": 45465,
+          "start_ms": 806,
+          "end_ms": 2842
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 137,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

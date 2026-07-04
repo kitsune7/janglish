@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_075_35b3b5e9beb2/cs8117.flac",
+  "sentence": "冷蔵庫にfresh野菜がたくさん残っています。",
+  "sample_rate": 16000,
+  "duration_ms": 3554,
+  "reference_speaker": "jp/speaker_075_35b3b5e9beb2.mp3",
+  "seed": 8159,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "冷蔵庫に",
+      "start_sample": 0,
+      "end_sample": 13779,
+      "start_ms": 0,
+      "end_ms": 861
+    },
+    {
+      "lang": "en",
+      "text": "fresh",
+      "start_sample": 13779,
+      "end_sample": 26216,
+      "start_ms": 861,
+      "end_ms": 1638
+    },
+    {
+      "lang": "ja",
+      "text": "野菜がたくさん残っています。",
+      "start_sample": 26216,
+      "end_sample": 56864,
+      "start_ms": 1638,
+      "end_ms": 3554
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "reizou ko ni fresh yasai ga takusan nokotsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6218,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冷蔵庫に",
+          "start_sample": 0,
+          "end_sample": 21500,
+          "start_ms": 0,
+          "end_ms": 1344
+        },
+        {
+          "lang": "en",
+          "text": "fresh",
+          "start_sample": 21500,
+          "end_sample": 34337,
+          "start_ms": 1344,
+          "end_ms": 2146
+        },
+        {
+          "lang": "ja",
+          "text": "野菜がたくさん残っています。",
+          "start_sample": 34337,
+          "end_sample": 99481,
+          "start_ms": 2146,
+          "end_ms": 6218
+        }
+      ]
+    },
+    "ja": {
+      "text": "冷蔵庫にfresh野菜がたくさん残っています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3354,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "冷蔵庫に",
+          "start_sample": 0,
+          "end_sample": 13979,
+          "start_ms": 0,
+          "end_ms": 874
+        },
+        {
+          "lang": "en",
+          "text": "fresh",
+          "start_sample": 13979,
+          "end_sample": 22817,
+          "start_ms": 874,
+          "end_ms": 1426
+        },
+        {
+          "lang": "ja",
+          "text": "野菜がたくさん残っています。",
+          "start_sample": 22817,
+          "end_sample": 53665,
+          "start_ms": 1426,
+          "end_ms": 3354
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 178,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

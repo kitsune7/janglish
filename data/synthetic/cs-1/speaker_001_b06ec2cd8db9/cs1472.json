@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_001_b06ec2cd8db9/cs1472.flac",
+  "sentence": "毎朝乗る電車のdriverが同じ人だといつも気づく。",
+  "sample_rate": 16000,
+  "duration_ms": 2939,
+  "reference_speaker": "en/speaker_001_b06ec2cd8db9.mp3",
+  "seed": 1514,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "毎朝乗る電車の",
+      "start_sample": 0,
+      "end_sample": 15369,
+      "start_ms": 0,
+      "end_ms": 961
+    },
+    {
+      "lang": "en",
+      "text": "driver",
+      "start_sample": 15369,
+      "end_sample": 24112,
+      "start_ms": 961,
+      "end_ms": 1507
+    },
+    {
+      "lang": "ja",
+      "text": "が同じ人だといつも気づく。",
+      "start_sample": 24112,
+      "end_sample": 47024,
+      "start_ms": 1507,
+      "end_ms": 2939
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "maiasa noru densha no driver ga onaji nin da to itsu mo kizuku",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7498,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝乗る電車の",
+          "start_sample": 0,
+          "end_sample": 40257,
+          "start_ms": 0,
+          "end_ms": 2516
+        },
+        {
+          "lang": "en",
+          "text": "driver",
+          "start_sample": 40257,
+          "end_sample": 49400,
+          "start_ms": 2516,
+          "end_ms": 3088
+        },
+        {
+          "lang": "ja",
+          "text": "が同じ人だといつも気づく。",
+          "start_sample": 49400,
+          "end_sample": 119970,
+          "start_ms": 3088,
+          "end_ms": 7498
+        }
+      ]
+    },
+    "ja": {
+      "text": "毎朝乗る電車のdriverが同じ人だといつも気づく。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2849,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "毎朝乗る電車の",
+          "start_sample": 0,
+          "end_sample": 15569,
+          "start_ms": 0,
+          "end_ms": 973
+        },
+        {
+          "lang": "en",
+          "text": "driver",
+          "start_sample": 15569,
+          "end_sample": 22472,
+          "start_ms": 973,
+          "end_ms": 1404
+        },
+        {
+          "lang": "ja",
+          "text": "が同じ人だといつも気づく。",
+          "start_sample": 22472,
+          "end_sample": 45584,
+          "start_ms": 1404,
+          "end_ms": 2849
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 147,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

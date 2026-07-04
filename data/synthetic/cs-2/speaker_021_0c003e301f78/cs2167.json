@@ -1,0 +1,153 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_021_0c003e301f78/cs2167.flac",
+  "sentence": "The sudden 着信 interrupted my 集中 completely.",
+  "sample_rate": 16000,
+  "duration_ms": 3254,
+  "reference_speaker": "en/speaker_021_0c003e301f78.mp3",
+  "seed": 2209,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The sudden",
+      "start_sample": 0,
+      "end_sample": 5885,
+      "start_ms": 0,
+      "end_ms": 368
+    },
+    {
+      "lang": "ja",
+      "text": "着信",
+      "start_sample": 5885,
+      "end_sample": 14620,
+      "start_ms": 368,
+      "end_ms": 914
+    },
+    {
+      "lang": "en",
+      "text": "interrupted my",
+      "start_sample": 14620,
+      "end_sample": 35040,
+      "start_ms": 914,
+      "end_ms": 2190
+    },
+    {
+      "lang": "ja",
+      "text": "集中",
+      "start_sample": 35040,
+      "end_sample": 41852,
+      "start_ms": 2190,
+      "end_ms": 2616
+    },
+    {
+      "lang": "en",
+      "text": "completely.",
+      "start_sample": 41852,
+      "end_sample": 52062,
+      "start_ms": 2616,
+      "end_ms": 3254
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The sudden chakushin interrupted my shuuchuu completely.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3964,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The sudden",
+          "start_sample": 0,
+          "end_sample": 6085,
+          "start_ms": 0,
+          "end_ms": 380
+        },
+        {
+          "lang": "ja",
+          "text": "着信",
+          "start_sample": 6085,
+          "end_sample": 24343,
+          "start_ms": 380,
+          "end_ms": 1521
+        },
+        {
+          "lang": "en",
+          "text": "interrupted my",
+          "start_sample": 24343,
+          "end_sample": 45163,
+          "start_ms": 1521,
+          "end_ms": 2823
+        },
+        {
+          "lang": "ja",
+          "text": "集中",
+          "start_sample": 45163,
+          "end_sample": 53011,
+          "start_ms": 2823,
+          "end_ms": 3313
+        },
+        {
+          "lang": "en",
+          "text": "completely.",
+          "start_sample": 53011,
+          "end_sample": 63421,
+          "start_ms": 3313,
+          "end_ms": 3964
+        }
+      ]
+    },
+    "ja": {
+      "text": "The sudden 着信 interrupted my 集中 completely.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3826,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The sudden",
+          "start_sample": 0,
+          "end_sample": 14423,
+          "start_ms": 0,
+          "end_ms": 901
+        },
+        {
+          "lang": "ja",
+          "text": "着信",
+          "start_sample": 14423,
+          "end_sample": 23558,
+          "start_ms": 901,
+          "end_ms": 1472
+        },
+        {
+          "lang": "en",
+          "text": "interrupted my",
+          "start_sample": 23558,
+          "end_sample": 44554,
+          "start_ms": 1472,
+          "end_ms": 2785
+        },
+        {
+          "lang": "ja",
+          "text": "集中",
+          "start_sample": 44554,
+          "end_sample": 51766,
+          "start_ms": 2785,
+          "end_ms": 3235
+        },
+        {
+          "lang": "en",
+          "text": "completely.",
+          "start_sample": 51766,
+          "end_sample": 61221,
+          "start_ms": 3235,
+          "end_ms": 3826
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 163,
+  "frame_labels": "eeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

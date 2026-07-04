@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_094_291d9dee87c4/cs9341.flac",
+  "sentence": "We watched the 討論 live and the moderator kept losing control.",
+  "sample_rate": 16000,
+  "duration_ms": 4005,
+  "reference_speaker": "en/speaker_094_291d9dee87c4.mp3",
+  "seed": 9383,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We watched the",
+      "start_sample": 0,
+      "end_sample": 8771,
+      "start_ms": 0,
+      "end_ms": 548
+    },
+    {
+      "lang": "ja",
+      "text": "討論",
+      "start_sample": 8771,
+      "end_sample": 17182,
+      "start_ms": 548,
+      "end_ms": 1074
+    },
+    {
+      "lang": "en",
+      "text": "live and the moderator kept losing control.",
+      "start_sample": 17182,
+      "end_sample": 64082,
+      "start_ms": 1074,
+      "end_ms": 4005
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We watched the touron live and the moderator kept losing control.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3885,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We watched the",
+          "start_sample": 0,
+          "end_sample": 8971,
+          "start_ms": 0,
+          "end_ms": 561
+        },
+        {
+          "lang": "ja",
+          "text": "討論",
+          "start_sample": 8971,
+          "end_sample": 15059,
+          "start_ms": 561,
+          "end_ms": 941
+        },
+        {
+          "lang": "en",
+          "text": "live and the moderator kept losing control.",
+          "start_sample": 15059,
+          "end_sample": 62159,
+          "start_ms": 941,
+          "end_ms": 3885
+        }
+      ]
+    },
+    "ja": {
+      "text": "We watched the 討論 live and the moderator kept losing control.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4405,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We watched the",
+          "start_sample": 0,
+          "end_sample": 14096,
+          "start_ms": 0,
+          "end_ms": 881
+        },
+        {
+          "lang": "ja",
+          "text": "討論",
+          "start_sample": 14096,
+          "end_sample": 22907,
+          "start_ms": 881,
+          "end_ms": 1432
+        },
+        {
+          "lang": "en",
+          "text": "live and the moderator kept losing control.",
+          "start_sample": 22907,
+          "end_sample": 70485,
+          "start_ms": 1432,
+          "end_ms": 4405
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_025_5a5c462b583a/cs6815.flac",
+  "sentence": "It's about 五分 on foot from the bus stop.",
+  "sample_rate": 16000,
+  "duration_ms": 3303,
+  "reference_speaker": "en/speaker_025_5a5c462b583a.mp3",
+  "seed": 6857,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "It's about",
+      "start_sample": 0,
+      "end_sample": 8472,
+      "start_ms": 0,
+      "end_ms": 530
+    },
+    {
+      "lang": "ja",
+      "text": "五分",
+      "start_sample": 8472,
+      "end_sample": 16749,
+      "start_ms": 530,
+      "end_ms": 1047
+    },
+    {
+      "lang": "en",
+      "text": "on foot from the bus stop.",
+      "start_sample": 16749,
+      "end_sample": 52841,
+      "start_ms": 1047,
+      "end_ms": 3303
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "It's about go fun on foot from the bus stop.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3412,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "It's about",
+          "start_sample": 0,
+          "end_sample": 8672,
+          "start_ms": 0,
+          "end_ms": 542
+        },
+        {
+          "lang": "ja",
+          "text": "五分",
+          "start_sample": 8672,
+          "end_sample": 18307,
+          "start_ms": 542,
+          "end_ms": 1144
+        },
+        {
+          "lang": "en",
+          "text": "on foot from the bus stop.",
+          "start_sample": 18307,
+          "end_sample": 54599,
+          "start_ms": 1144,
+          "end_ms": 3412
+        }
+      ]
+    },
+    "ja": {
+      "text": "It's about 五分 on foot from the bus stop.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3153,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "It's about",
+          "start_sample": 0,
+          "end_sample": 9962,
+          "start_ms": 0,
+          "end_ms": 623
+        },
+        {
+          "lang": "ja",
+          "text": "五分",
+          "start_sample": 9962,
+          "end_sample": 18639,
+          "start_ms": 623,
+          "end_ms": 1165
+        },
+        {
+          "lang": "en",
+          "text": "on foot from the bus stop.",
+          "start_sample": 18639,
+          "end_sample": 50451,
+          "start_ms": 1165,
+          "end_ms": 3153
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 166,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

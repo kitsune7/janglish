@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_061_3e186ef591ed/cs4060.flac",
+  "sentence": "Did you hear that the 花火 show has been extended by fifteen minutes this year?",
+  "sample_rate": 16000,
+  "duration_ms": 5756,
+  "reference_speaker": "jp/speaker_061_3e186ef591ed.mp3",
+  "seed": 4102,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Did you hear that the",
+      "start_sample": 0,
+      "end_sample": 24462,
+      "start_ms": 0,
+      "end_ms": 1529
+    },
+    {
+      "lang": "ja",
+      "text": "花火",
+      "start_sample": 24462,
+      "end_sample": 33524,
+      "start_ms": 1529,
+      "end_ms": 2095
+    },
+    {
+      "lang": "en",
+      "text": "show has been extended by fifteen minutes this year?",
+      "start_sample": 33524,
+      "end_sample": 92097,
+      "start_ms": 2095,
+      "end_ms": 5756
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Did you hear that the hanabi show has been extended by fifteen minutes this year?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5725,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you hear that the",
+          "start_sample": 0,
+          "end_sample": 24662,
+          "start_ms": 0,
+          "end_ms": 1541
+        },
+        {
+          "lang": "ja",
+          "text": "花火",
+          "start_sample": 24662,
+          "end_sample": 32829,
+          "start_ms": 1541,
+          "end_ms": 2052
+        },
+        {
+          "lang": "en",
+          "text": "show has been extended by fifteen minutes this year?",
+          "start_sample": 32829,
+          "end_sample": 91602,
+          "start_ms": 2052,
+          "end_ms": 5725
+        }
+      ]
+    },
+    "ja": {
+      "text": "Did you hear that the 花火 show has been extended by fifteen minutes this year?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5473,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you hear that the",
+          "start_sample": 0,
+          "end_sample": 18764,
+          "start_ms": 0,
+          "end_ms": 1173
+        },
+        {
+          "lang": "ja",
+          "text": "花火",
+          "start_sample": 18764,
+          "end_sample": 28226,
+          "start_ms": 1173,
+          "end_ms": 1764
+        },
+        {
+          "lang": "en",
+          "text": "show has been extended by fifteen minutes this year?",
+          "start_sample": 28226,
+          "end_sample": 87563,
+          "start_ms": 1764,
+          "end_ms": 5473
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 288,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_051_36aa24c8ddec/cs6816.flac",
+  "sentence": "The 標識 at the fork in the road was completely faded.",
+  "sample_rate": 16000,
+  "duration_ms": 4189,
+  "reference_speaker": "en/speaker_051_36aa24c8ddec.mp3",
+  "seed": 6858,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1087,
+      "start_ms": 0,
+      "end_ms": 68
+    },
+    {
+      "lang": "ja",
+      "text": "標識",
+      "start_sample": 1087,
+      "end_sample": 18312,
+      "start_ms": 68,
+      "end_ms": 1144
+    },
+    {
+      "lang": "en",
+      "text": "at the fork in the road was completely faded.",
+      "start_sample": 18312,
+      "end_sample": 67025,
+      "start_ms": 1144,
+      "end_ms": 4189
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hyoushiki at the fork in the road was completely faded.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4143,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1287,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "標識",
+          "start_sample": 1287,
+          "end_sample": 17378,
+          "start_ms": 80,
+          "end_ms": 1086
+        },
+        {
+          "lang": "en",
+          "text": "at the fork in the road was completely faded.",
+          "start_sample": 17378,
+          "end_sample": 66291,
+          "start_ms": 1086,
+          "end_ms": 4143
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 標識 at the fork in the road was completely faded.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5468,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2563,
+          "start_ms": 0,
+          "end_ms": 160
+        },
+        {
+          "lang": "ja",
+          "text": "標識",
+          "start_sample": 2563,
+          "end_sample": 20188,
+          "start_ms": 160,
+          "end_ms": 1262
+        },
+        {
+          "lang": "en",
+          "text": "at the fork in the road was completely faded.",
+          "start_sample": 20188,
+          "end_sample": 87484,
+          "start_ms": 1262,
+          "end_ms": 5468
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

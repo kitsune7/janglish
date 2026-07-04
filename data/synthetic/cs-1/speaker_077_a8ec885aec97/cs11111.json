@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_077_a8ec885aec97/cs11111.flac",
+  "sentence": "梅雨の季節はとくにstickyで不快だ。",
+  "sample_rate": 16000,
+  "duration_ms": 2126,
+  "reference_speaker": "jp/speaker_077_a8ec885aec97.mp3",
+  "seed": 11153,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "梅雨の季節はとくに",
+      "start_sample": 0,
+      "end_sample": 20501,
+      "start_ms": 0,
+      "end_ms": 1281
+    },
+    {
+      "lang": "en",
+      "text": "sticky",
+      "start_sample": 20501,
+      "end_sample": 23153,
+      "start_ms": 1281,
+      "end_ms": 1447
+    },
+    {
+      "lang": "ja",
+      "text": "で不快だ。",
+      "start_sample": 23153,
+      "end_sample": 34023,
+      "start_ms": 1447,
+      "end_ms": 2126
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "tsuyu no kisetsu ha tokuni sticky de fukai da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5843,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "梅雨の季節はとくに",
+          "start_sample": 0,
+          "end_sample": 82892,
+          "start_ms": 0,
+          "end_ms": 5181
+        },
+        {
+          "lang": "en",
+          "text": "sticky",
+          "start_sample": 82892,
+          "end_sample": 85944,
+          "start_ms": 5181,
+          "end_ms": 5372
+        },
+        {
+          "lang": "ja",
+          "text": "で不快だ。",
+          "start_sample": 85944,
+          "end_sample": 93491,
+          "start_ms": 5372,
+          "end_ms": 5843
+        }
+      ]
+    },
+    "ja": {
+      "text": "梅雨の季節はとくにstickyで不快だ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2427,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "梅雨の季節はとくに",
+          "start_sample": 0,
+          "end_sample": 20701,
+          "start_ms": 0,
+          "end_ms": 1294
+        },
+        {
+          "lang": "en",
+          "text": "sticky",
+          "start_sample": 20701,
+          "end_sample": 27762,
+          "start_ms": 1294,
+          "end_ms": 1735
+        },
+        {
+          "lang": "ja",
+          "text": "で不快だ。",
+          "start_sample": 27762,
+          "end_sample": 38832,
+          "start_ms": 1735,
+          "end_ms": 2427
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 107,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

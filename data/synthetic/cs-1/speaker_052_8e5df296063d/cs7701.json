@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_052_8e5df296063d/cs7701.flac",
+  "sentence": "寝室にblackout curtainをつけてからよく眠れるようになった。",
+  "sample_rate": 16000,
+  "duration_ms": 4988,
+  "reference_speaker": "jp/speaker_052_8e5df296063d.mp3",
+  "seed": 7743,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "寝室に",
+      "start_sample": 0,
+      "end_sample": 11665,
+      "start_ms": 0,
+      "end_ms": 729
+    },
+    {
+      "lang": "en",
+      "text": "blackout curtain",
+      "start_sample": 11665,
+      "end_sample": 42168,
+      "start_ms": 729,
+      "end_ms": 2636
+    },
+    {
+      "lang": "ja",
+      "text": "をつけてからよく眠れるようになった。",
+      "start_sample": 42168,
+      "end_sample": 79809,
+      "start_ms": 2636,
+      "end_ms": 4988
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "shinshitsu ni blackout curtain wo tsuke te kara yoku nemureru you ni natsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8666,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "寝室に",
+          "start_sample": 0,
+          "end_sample": 20815,
+          "start_ms": 0,
+          "end_ms": 1301
+        },
+        {
+          "lang": "en",
+          "text": "blackout curtain",
+          "start_sample": 20815,
+          "end_sample": 51718,
+          "start_ms": 1301,
+          "end_ms": 3232
+        },
+        {
+          "lang": "ja",
+          "text": "をつけてからよく眠れるようになった。",
+          "start_sample": 51718,
+          "end_sample": 138663,
+          "start_ms": 3232,
+          "end_ms": 8666
+        }
+      ]
+    },
+    "ja": {
+      "text": "寝室にblackout curtainをつけてからよく眠れるようになった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4249,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "寝室に",
+          "start_sample": 0,
+          "end_sample": 11865,
+          "start_ms": 0,
+          "end_ms": 742
+        },
+        {
+          "lang": "en",
+          "text": "blackout curtain",
+          "start_sample": 11865,
+          "end_sample": 30145,
+          "start_ms": 742,
+          "end_ms": 1884
+        },
+        {
+          "lang": "ja",
+          "text": "をつけてからよく眠れるようになった。",
+          "start_sample": 30145,
+          "end_sample": 67986,
+          "start_ms": 1884,
+          "end_ms": 4249
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 250,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

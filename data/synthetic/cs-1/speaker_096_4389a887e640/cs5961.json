@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_096_4389a887e640/cs5961.flac",
+  "sentence": "このバスはairportまで直行しますか？",
+  "sample_rate": 16000,
+  "duration_ms": 2942,
+  "reference_speaker": "en/speaker_096_4389a887e640.mp3",
+  "seed": 6003,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このバスは",
+      "start_sample": 0,
+      "end_sample": 15393,
+      "start_ms": 0,
+      "end_ms": 962
+    },
+    {
+      "lang": "en",
+      "text": "airport",
+      "start_sample": 15393,
+      "end_sample": 27180,
+      "start_ms": 962,
+      "end_ms": 1699
+    },
+    {
+      "lang": "ja",
+      "text": "まで直行しますか？",
+      "start_sample": 27180,
+      "end_sample": 47071,
+      "start_ms": 1699,
+      "end_ms": 2942
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono basu ha airport ma de chokkou shi masu ka",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6294,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このバスは",
+          "start_sample": 0,
+          "end_sample": 35117,
+          "start_ms": 0,
+          "end_ms": 2195
+        },
+        {
+          "lang": "en",
+          "text": "airport",
+          "start_sample": 35117,
+          "end_sample": 47304,
+          "start_ms": 2195,
+          "end_ms": 2956
+        },
+        {
+          "lang": "ja",
+          "text": "まで直行しますか？",
+          "start_sample": 47304,
+          "end_sample": 100700,
+          "start_ms": 2956,
+          "end_ms": 6294
+        }
+      ]
+    },
+    "ja": {
+      "text": "このバスはairportまで直行しますか？",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3215,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このバスは",
+          "start_sample": 0,
+          "end_sample": 15593,
+          "start_ms": 0,
+          "end_ms": 975
+        },
+        {
+          "lang": "en",
+          "text": "airport",
+          "start_sample": 15593,
+          "end_sample": 31348,
+          "start_ms": 975,
+          "end_ms": 1959
+        },
+        {
+          "lang": "ja",
+          "text": "まで直行しますか？",
+          "start_sample": 31348,
+          "end_sample": 51439,
+          "start_ms": 1959,
+          "end_ms": 3215
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 148,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

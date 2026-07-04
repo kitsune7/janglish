@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_087_849529715d29/cs6520.flac",
+  "sentence": "鯉のぼりがwindyな空に気持ちよさそうになびいていた。",
+  "sample_rate": 16000,
+  "duration_ms": 3045,
+  "reference_speaker": "jp/speaker_087_849529715d29.mp3",
+  "seed": 6562,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "鯉のぼりが",
+      "start_sample": 0,
+      "end_sample": 10576,
+      "start_ms": 0,
+      "end_ms": 661
+    },
+    {
+      "lang": "en",
+      "text": "windy",
+      "start_sample": 10576,
+      "end_sample": 15628,
+      "start_ms": 661,
+      "end_ms": 977
+    },
+    {
+      "lang": "ja",
+      "text": "な空に気持ちよさそうになびいていた。",
+      "start_sample": 15628,
+      "end_sample": 48719,
+      "start_ms": 977,
+      "end_ms": 3045
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "koinobori ga windy na sora ni kimochi yosa sou ni nabii te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7496,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "鯉のぼりが",
+          "start_sample": 0,
+          "end_sample": 39447,
+          "start_ms": 0,
+          "end_ms": 2465
+        },
+        {
+          "lang": "en",
+          "text": "windy",
+          "start_sample": 39447,
+          "end_sample": 44899,
+          "start_ms": 2465,
+          "end_ms": 2806
+        },
+        {
+          "lang": "ja",
+          "text": "な空に気持ちよさそうになびいていた。",
+          "start_sample": 44899,
+          "end_sample": 119944,
+          "start_ms": 2806,
+          "end_ms": 7496
+        }
+      ]
+    },
+    "ja": {
+      "text": "鯉のぼりがwindyな空に気持ちよさそうになびいていた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3096,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "鯉のぼりが",
+          "start_sample": 0,
+          "end_sample": 10776,
+          "start_ms": 0,
+          "end_ms": 674
+        },
+        {
+          "lang": "en",
+          "text": "windy",
+          "start_sample": 10776,
+          "end_sample": 16245,
+          "start_ms": 674,
+          "end_ms": 1015
+        },
+        {
+          "lang": "ja",
+          "text": "な空に気持ちよさそうになびいていた。",
+          "start_sample": 16245,
+          "end_sample": 49536,
+          "start_ms": 1015,
+          "end_ms": 3096
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 153,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

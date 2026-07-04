@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_003_7963691c43c8/cs10239.flac",
+  "sentence": "Is there a 郵便局 near the train station on your side of town?",
+  "sample_rate": 16000,
+  "duration_ms": 3920,
+  "reference_speaker": "en/speaker_003_7963691c43c8.mp3",
+  "seed": 10281,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Is there a",
+      "start_sample": 0,
+      "end_sample": 8134,
+      "start_ms": 0,
+      "end_ms": 508
+    },
+    {
+      "lang": "ja",
+      "text": "郵便局",
+      "start_sample": 8134,
+      "end_sample": 19159,
+      "start_ms": 508,
+      "end_ms": 1197
+    },
+    {
+      "lang": "en",
+      "text": "near the train station on your side of town?",
+      "start_sample": 19159,
+      "end_sample": 62716,
+      "start_ms": 1197,
+      "end_ms": 3920
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Is there a yuubin kyoku near the train station on your side of town?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4328,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is there a",
+          "start_sample": 0,
+          "end_sample": 8334,
+          "start_ms": 0,
+          "end_ms": 521
+        },
+        {
+          "lang": "ja",
+          "text": "郵便局",
+          "start_sample": 8334,
+          "end_sample": 25485,
+          "start_ms": 521,
+          "end_ms": 1593
+        },
+        {
+          "lang": "en",
+          "text": "near the train station on your side of town?",
+          "start_sample": 25485,
+          "end_sample": 69242,
+          "start_ms": 1593,
+          "end_ms": 4328
+        }
+      ]
+    },
+    "ja": {
+      "text": "Is there a 郵便局 near the train station on your side of town?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4042,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is there a",
+          "start_sample": 0,
+          "end_sample": 8040,
+          "start_ms": 0,
+          "end_ms": 502
+        },
+        {
+          "lang": "ja",
+          "text": "郵便局",
+          "start_sample": 8040,
+          "end_sample": 19465,
+          "start_ms": 502,
+          "end_ms": 1217
+        },
+        {
+          "lang": "en",
+          "text": "near the train station on your side of town?",
+          "start_sample": 19465,
+          "end_sample": 64677,
+          "start_ms": 1217,
+          "end_ms": 4042
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 196,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

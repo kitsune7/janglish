@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_035_aa6a3aa058c0/cs6569.flac",
+  "sentence": "I love how the 紅葉 transforms the mountains into something almost unreal.",
+  "sample_rate": 16000,
+  "duration_ms": 4338,
+  "reference_speaker": "en/speaker_035_aa6a3aa058c0.mp3",
+  "seed": 6611,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I love how the",
+      "start_sample": 0,
+      "end_sample": 12622,
+      "start_ms": 0,
+      "end_ms": 789
+    },
+    {
+      "lang": "ja",
+      "text": "紅葉",
+      "start_sample": 12622,
+      "end_sample": 21530,
+      "start_ms": 789,
+      "end_ms": 1346
+    },
+    {
+      "lang": "en",
+      "text": "transforms the mountains into something almost unreal.",
+      "start_sample": 21530,
+      "end_sample": 69415,
+      "start_ms": 1346,
+      "end_ms": 4338
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I love how the kouyou transforms the mountains into something almost unreal.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4268,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I love how the",
+          "start_sample": 0,
+          "end_sample": 12822,
+          "start_ms": 0,
+          "end_ms": 801
+        },
+        {
+          "lang": "ja",
+          "text": "紅葉",
+          "start_sample": 12822,
+          "end_sample": 20195,
+          "start_ms": 801,
+          "end_ms": 1262
+        },
+        {
+          "lang": "en",
+          "text": "transforms the mountains into something almost unreal.",
+          "start_sample": 20195,
+          "end_sample": 68280,
+          "start_ms": 1262,
+          "end_ms": 4268
+        }
+      ]
+    },
+    "ja": {
+      "text": "I love how the 紅葉 transforms the mountains into something almost unreal.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6900,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I love how the",
+          "start_sample": 0,
+          "end_sample": 15884,
+          "start_ms": 0,
+          "end_ms": 993
+        },
+        {
+          "lang": "ja",
+          "text": "紅葉",
+          "start_sample": 15884,
+          "end_sample": 25192,
+          "start_ms": 993,
+          "end_ms": 1574
+        },
+        {
+          "lang": "en",
+          "text": "transforms the mountains into something almost unreal.",
+          "start_sample": 25192,
+          "end_sample": 110403,
+          "start_ms": 1574,
+          "end_ms": 6900
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 217,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

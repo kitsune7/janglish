@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_050_6b3579133fec/cs2554.flac",
+  "sentence": "あのfilmは批評家には受けなかったけど私は好きだ。",
+  "sample_rate": 16000,
+  "duration_ms": 4856,
+  "reference_speaker": "en/speaker_050_6b3579133fec.mp3",
+  "seed": 2596,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "あの",
+      "start_sample": 0,
+      "end_sample": 3964,
+      "start_ms": 0,
+      "end_ms": 248
+    },
+    {
+      "lang": "en",
+      "text": "film",
+      "start_sample": 3964,
+      "end_sample": 27755,
+      "start_ms": 248,
+      "end_ms": 1735
+    },
+    {
+      "lang": "ja",
+      "text": "は批評家には受けなかったけど私は好きだ。",
+      "start_sample": 27755,
+      "end_sample": 77702,
+      "start_ms": 1735,
+      "end_ms": 4856
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ano film ha hihyou ie ni ha uke nakatsu ta kedo watashi ha suki da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 14558,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 4804,
+          "start_ms": 0,
+          "end_ms": 300
+        },
+        {
+          "lang": "en",
+          "text": "film",
+          "start_sample": 4804,
+          "end_sample": 28995,
+          "start_ms": 300,
+          "end_ms": 1812
+        },
+        {
+          "lang": "ja",
+          "text": "は批評家には受けなかったけど私は好きだ。",
+          "start_sample": 28995,
+          "end_sample": 232930,
+          "start_ms": 1812,
+          "end_ms": 14558
+        }
+      ]
+    },
+    "ja": {
+      "text": "あのfilmは批評家には受けなかったけど私は好きだ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3785,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "あの",
+          "start_sample": 0,
+          "end_sample": 4164,
+          "start_ms": 0,
+          "end_ms": 260
+        },
+        {
+          "lang": "en",
+          "text": "film",
+          "start_sample": 4164,
+          "end_sample": 10413,
+          "start_ms": 260,
+          "end_ms": 651
+        },
+        {
+          "lang": "ja",
+          "text": "は批評家には受けなかったけど私は好きだ。",
+          "start_sample": 10413,
+          "end_sample": 60560,
+          "start_ms": 651,
+          "end_ms": 3785
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 243,
+  "frame_labels": "jjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

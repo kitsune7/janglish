@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_019_53050c1aaaa1/cs1333.flac",
+  "sentence": "Have you ever seen 雪景色 this beautiful after a fresh snowfall?",
+  "sample_rate": 16000,
+  "duration_ms": 3900,
+  "reference_speaker": "en/speaker_019_53050c1aaaa1.mp3",
+  "seed": 1375,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you ever seen",
+      "start_sample": 0,
+      "end_sample": 11823,
+      "start_ms": 0,
+      "end_ms": 739
+    },
+    {
+      "lang": "ja",
+      "text": "雪景色",
+      "start_sample": 11823,
+      "end_sample": 24928,
+      "start_ms": 739,
+      "end_ms": 1558
+    },
+    {
+      "lang": "en",
+      "text": "this beautiful after a fresh snowfall?",
+      "start_sample": 24928,
+      "end_sample": 62400,
+      "start_ms": 1558,
+      "end_ms": 3900
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you ever seen yuki keshiki this beautiful after a fresh snowfall?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4048,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever seen",
+          "start_sample": 0,
+          "end_sample": 12023,
+          "start_ms": 0,
+          "end_ms": 751
+        },
+        {
+          "lang": "ja",
+          "text": "雪景色",
+          "start_sample": 12023,
+          "end_sample": 27093,
+          "start_ms": 751,
+          "end_ms": 1693
+        },
+        {
+          "lang": "en",
+          "text": "this beautiful after a fresh snowfall?",
+          "start_sample": 27093,
+          "end_sample": 64765,
+          "start_ms": 1693,
+          "end_ms": 4048
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you ever seen 雪景色 this beautiful after a fresh snowfall?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4441,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you ever seen",
+          "start_sample": 0,
+          "end_sample": 15756,
+          "start_ms": 0,
+          "end_ms": 985
+        },
+        {
+          "lang": "ja",
+          "text": "雪景色",
+          "start_sample": 15756,
+          "end_sample": 29261,
+          "start_ms": 985,
+          "end_ms": 1829
+        },
+        {
+          "lang": "en",
+          "text": "this beautiful after a fresh snowfall?",
+          "start_sample": 29261,
+          "end_sample": 71059,
+          "start_ms": 1829,
+          "end_ms": 4441
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 195,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

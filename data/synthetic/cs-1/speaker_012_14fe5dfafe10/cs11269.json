@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_012_14fe5dfafe10/cs11269.flac",
+  "sentence": "日当たりのいいspotにラベンダーを移しました。",
+  "sample_rate": 16000,
+  "duration_ms": 3700,
+  "reference_speaker": "jp/speaker_012_14fe5dfafe10.mp3",
+  "seed": 11311,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "日当たりのいい",
+      "start_sample": 0,
+      "end_sample": 10222,
+      "start_ms": 0,
+      "end_ms": 639
+    },
+    {
+      "lang": "en",
+      "text": "spot",
+      "start_sample": 10222,
+      "end_sample": 36794,
+      "start_ms": 639,
+      "end_ms": 2300
+    },
+    {
+      "lang": "ja",
+      "text": "にラベンダーを移しました。",
+      "start_sample": 36794,
+      "end_sample": 59201,
+      "start_ms": 2300,
+      "end_ms": 3700
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "hiatari no ii spot ni rabendaa wo utsushi mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6080,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "日当たりのいい",
+          "start_sample": 0,
+          "end_sample": 17338,
+          "start_ms": 0,
+          "end_ms": 1084
+        },
+        {
+          "lang": "en",
+          "text": "spot",
+          "start_sample": 17338,
+          "end_sample": 44310,
+          "start_ms": 1084,
+          "end_ms": 2769
+        },
+        {
+          "lang": "ja",
+          "text": "にラベンダーを移しました。",
+          "start_sample": 44310,
+          "end_sample": 97287,
+          "start_ms": 2769,
+          "end_ms": 6080
+        }
+      ]
+    },
+    "ja": {
+      "text": "日当たりのいいspotにラベンダーを移しました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2465,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "日当たりのいい",
+          "start_sample": 0,
+          "end_sample": 10422,
+          "start_ms": 0,
+          "end_ms": 651
+        },
+        {
+          "lang": "en",
+          "text": "spot",
+          "start_sample": 10422,
+          "end_sample": 16836,
+          "start_ms": 651,
+          "end_ms": 1052
+        },
+        {
+          "lang": "ja",
+          "text": "にラベンダーを移しました。",
+          "start_sample": 16836,
+          "end_sample": 39443,
+          "start_ms": 1052,
+          "end_ms": 2465
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 186,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

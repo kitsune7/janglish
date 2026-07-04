@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_095_862d569c1af2/cs73.flac",
+  "sentence": "We planted a whole row of 苗 along the south-facing fence last weekend.",
+  "sample_rate": 16000,
+  "duration_ms": 4220,
+  "reference_speaker": "en/speaker_095_862d569c1af2.mp3",
+  "seed": 115,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We planted a whole row of",
+      "start_sample": 0,
+      "end_sample": 19685,
+      "start_ms": 0,
+      "end_ms": 1230
+    },
+    {
+      "lang": "ja",
+      "text": "苗",
+      "start_sample": 19685,
+      "end_sample": 30989,
+      "start_ms": 1230,
+      "end_ms": 1937
+    },
+    {
+      "lang": "en",
+      "text": "along the south-facing fence last weekend.",
+      "start_sample": 30989,
+      "end_sample": 67513,
+      "start_ms": 1937,
+      "end_ms": 4220
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We planted a whole row of nae along the south-facing fence last weekend.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3849,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We planted a whole row of",
+          "start_sample": 0,
+          "end_sample": 19885,
+          "start_ms": 0,
+          "end_ms": 1243
+        },
+        {
+          "lang": "ja",
+          "text": "苗",
+          "start_sample": 19885,
+          "end_sample": 24857,
+          "start_ms": 1243,
+          "end_ms": 1554
+        },
+        {
+          "lang": "en",
+          "text": "along the south-facing fence last weekend.",
+          "start_sample": 24857,
+          "end_sample": 61581,
+          "start_ms": 1554,
+          "end_ms": 3849
+        }
+      ]
+    },
+    "ja": {
+      "text": "We planted a whole row of 苗 along the south-facing fence last weekend.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6653,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We planted a whole row of",
+          "start_sample": 0,
+          "end_sample": 36872,
+          "start_ms": 0,
+          "end_ms": 2304
+        },
+        {
+          "lang": "ja",
+          "text": "苗",
+          "start_sample": 36872,
+          "end_sample": 48576,
+          "start_ms": 2304,
+          "end_ms": 3036
+        },
+        {
+          "lang": "en",
+          "text": "along the south-facing fence last weekend.",
+          "start_sample": 48576,
+          "end_sample": 106451,
+          "start_ms": 3036,
+          "end_ms": 6653
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 211,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

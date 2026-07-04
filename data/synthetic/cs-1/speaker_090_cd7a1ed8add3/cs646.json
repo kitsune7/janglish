@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_090_cd7a1ed8add3/cs646.flac",
+  "sentence": "朝ごはんにsmoky風味のベーコンエッグを作りました。",
+  "sample_rate": 16000,
+  "duration_ms": 4206,
+  "reference_speaker": "en/speaker_090_cd7a1ed8add3.mp3",
+  "seed": 688,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "朝ごはんに",
+      "start_sample": 0,
+      "end_sample": 16143,
+      "start_ms": 0,
+      "end_ms": 1009
+    },
+    {
+      "lang": "en",
+      "text": "smoky",
+      "start_sample": 16143,
+      "end_sample": 25995,
+      "start_ms": 1009,
+      "end_ms": 1625
+    },
+    {
+      "lang": "ja",
+      "text": "風味のベーコンエッグを作りました。",
+      "start_sample": 25995,
+      "end_sample": 67293,
+      "start_ms": 1625,
+      "end_ms": 4206
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "asagohan ni smoky fuumi no beekon eggu wo tsukuri mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5766,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "朝ごはんに",
+          "start_sample": 0,
+          "end_sample": 23385,
+          "start_ms": 0,
+          "end_ms": 1462
+        },
+        {
+          "lang": "en",
+          "text": "smoky",
+          "start_sample": 23385,
+          "end_sample": 33637,
+          "start_ms": 1462,
+          "end_ms": 2102
+        },
+        {
+          "lang": "ja",
+          "text": "風味のベーコンエッグを作りました。",
+          "start_sample": 33637,
+          "end_sample": 92261,
+          "start_ms": 2102,
+          "end_ms": 5766
+        }
+      ]
+    },
+    "ja": {
+      "text": "朝ごはんにsmoky風味のベーコンエッグを作りました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4366,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "朝ごはんに",
+          "start_sample": 0,
+          "end_sample": 16343,
+          "start_ms": 0,
+          "end_ms": 1021
+        },
+        {
+          "lang": "en",
+          "text": "smoky",
+          "start_sample": 16343,
+          "end_sample": 28360,
+          "start_ms": 1021,
+          "end_ms": 1772
+        },
+        {
+          "lang": "ja",
+          "text": "風味のベーコンエッグを作りました。",
+          "start_sample": 28360,
+          "end_sample": 69858,
+          "start_ms": 1772,
+          "end_ms": 4366
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 211,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

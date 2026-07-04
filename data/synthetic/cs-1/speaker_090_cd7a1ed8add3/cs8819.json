@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_090_cd7a1ed8add3/cs8819.flac",
+  "sentence": "He turned his 写真 hobby into a small portrait business on weekends.",
+  "sample_rate": 16000,
+  "duration_ms": 3607,
+  "reference_speaker": "en/speaker_090_cd7a1ed8add3.mp3",
+  "seed": 8861,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He turned his",
+      "start_sample": 0,
+      "end_sample": 7679,
+      "start_ms": 0,
+      "end_ms": 480
+    },
+    {
+      "lang": "ja",
+      "text": "写真",
+      "start_sample": 7679,
+      "end_sample": 15625,
+      "start_ms": 480,
+      "end_ms": 977
+    },
+    {
+      "lang": "en",
+      "text": "hobby into a small portrait business on weekends.",
+      "start_sample": 15625,
+      "end_sample": 57716,
+      "start_ms": 977,
+      "end_ms": 3607
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He turned his shashin hobby into a small portrait business on weekends.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3578,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He turned his",
+          "start_sample": 0,
+          "end_sample": 7879,
+          "start_ms": 0,
+          "end_ms": 492
+        },
+        {
+          "lang": "ja",
+          "text": "写真",
+          "start_sample": 7879,
+          "end_sample": 14956,
+          "start_ms": 492,
+          "end_ms": 935
+        },
+        {
+          "lang": "en",
+          "text": "hobby into a small portrait business on weekends.",
+          "start_sample": 14956,
+          "end_sample": 57247,
+          "start_ms": 935,
+          "end_ms": 3578
+        }
+      ]
+    },
+    "ja": {
+      "text": "He turned his 写真 hobby into a small portrait business on weekends.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6138,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He turned his",
+          "start_sample": 0,
+          "end_sample": 17652,
+          "start_ms": 0,
+          "end_ms": 1103
+        },
+        {
+          "lang": "ja",
+          "text": "写真",
+          "start_sample": 17652,
+          "end_sample": 25998,
+          "start_ms": 1103,
+          "end_ms": 1625
+        },
+        {
+          "lang": "en",
+          "text": "hobby into a small portrait business on weekends.",
+          "start_sample": 25998,
+          "end_sample": 98212,
+          "start_ms": 1625,
+          "end_ms": 6138
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 181,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

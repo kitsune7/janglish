@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_012_14fe5dfafe10/cs3436.flac",
+  "sentence": "I always feel more 自信 when I wear a well-fitted blazer.",
+  "sample_rate": 16000,
+  "duration_ms": 2616,
+  "reference_speaker": "jp/speaker_012_14fe5dfafe10.mp3",
+  "seed": 3478,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always feel more",
+      "start_sample": 0,
+      "end_sample": 11820,
+      "start_ms": 0,
+      "end_ms": 739
+    },
+    {
+      "lang": "ja",
+      "text": "自信",
+      "start_sample": 11820,
+      "end_sample": 18972,
+      "start_ms": 739,
+      "end_ms": 1186
+    },
+    {
+      "lang": "en",
+      "text": "when I wear a well-fitted blazer.",
+      "start_sample": 18972,
+      "end_sample": 41852,
+      "start_ms": 1186,
+      "end_ms": 2616
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always feel more jishin when I wear a well-fitted blazer.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2624,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel more",
+          "start_sample": 0,
+          "end_sample": 12020,
+          "start_ms": 0,
+          "end_ms": 751
+        },
+        {
+          "lang": "ja",
+          "text": "自信",
+          "start_sample": 12020,
+          "end_sample": 18912,
+          "start_ms": 751,
+          "end_ms": 1182
+        },
+        {
+          "lang": "en",
+          "text": "when I wear a well-fitted blazer.",
+          "start_sample": 18912,
+          "end_sample": 41992,
+          "start_ms": 1182,
+          "end_ms": 2624
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always feel more 自信 when I wear a well-fitted blazer.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4459,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always feel more",
+          "start_sample": 0,
+          "end_sample": 23459,
+          "start_ms": 0,
+          "end_ms": 1466
+        },
+        {
+          "lang": "ja",
+          "text": "自信",
+          "start_sample": 23459,
+          "end_sample": 31011,
+          "start_ms": 1466,
+          "end_ms": 1938
+        },
+        {
+          "lang": "en",
+          "text": "when I wear a well-fitted blazer.",
+          "start_sample": 31011,
+          "end_sample": 71338,
+          "start_ms": 1938,
+          "end_ms": 4459
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 131,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

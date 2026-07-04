@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_066_73a931d5f7bb/cs423.flac",
+  "sentence": "Would you mind 丁寧に wiping the counters after you cook?",
+  "sample_rate": 16000,
+  "duration_ms": 4378,
+  "reference_speaker": "en/speaker_066_73a931d5f7bb.mp3",
+  "seed": 465,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Would you mind",
+      "start_sample": 0,
+      "end_sample": 13296,
+      "start_ms": 0,
+      "end_ms": 831
+    },
+    {
+      "lang": "ja",
+      "text": "丁寧に",
+      "start_sample": 13296,
+      "end_sample": 21721,
+      "start_ms": 831,
+      "end_ms": 1358
+    },
+    {
+      "lang": "en",
+      "text": "wiping the counters after you cook?",
+      "start_sample": 21721,
+      "end_sample": 70042,
+      "start_ms": 1358,
+      "end_ms": 4378
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Would you mind teinei ni wiping the counters after you cook?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5382,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Would you mind",
+          "start_sample": 0,
+          "end_sample": 13496,
+          "start_ms": 0,
+          "end_ms": 844
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧に",
+          "start_sample": 13496,
+          "end_sample": 37599,
+          "start_ms": 844,
+          "end_ms": 2350
+        },
+        {
+          "lang": "en",
+          "text": "wiping the counters after you cook?",
+          "start_sample": 37599,
+          "end_sample": 86120,
+          "start_ms": 2350,
+          "end_ms": 5382
+        }
+      ]
+    },
+    "ja": {
+      "text": "Would you mind 丁寧に wiping the counters after you cook?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3530,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Would you mind",
+          "start_sample": 0,
+          "end_sample": 10107,
+          "start_ms": 0,
+          "end_ms": 632
+        },
+        {
+          "lang": "ja",
+          "text": "丁寧に",
+          "start_sample": 10107,
+          "end_sample": 18932,
+          "start_ms": 632,
+          "end_ms": 1183
+        },
+        {
+          "lang": "en",
+          "text": "wiping the counters after you cook?",
+          "start_sample": 18932,
+          "end_sample": 56474,
+          "start_ms": 1183,
+          "end_ms": 3530
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 219,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

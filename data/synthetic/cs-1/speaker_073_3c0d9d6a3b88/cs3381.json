@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_073_3c0d9d6a3b88/cs3381.flac",
+  "sentence": "緊急連絡先にimmediatelyに電話してください。",
+  "sample_rate": 16000,
+  "duration_ms": 3488,
+  "reference_speaker": "en/speaker_073_3c0d9d6a3b88.mp3",
+  "seed": 3423,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "緊急連絡先に",
+      "start_sample": 0,
+      "end_sample": 19050,
+      "start_ms": 0,
+      "end_ms": 1191
+    },
+    {
+      "lang": "en",
+      "text": "immediately",
+      "start_sample": 19050,
+      "end_sample": 39804,
+      "start_ms": 1191,
+      "end_ms": 2488
+    },
+    {
+      "lang": "ja",
+      "text": "に電話してください。",
+      "start_sample": 39804,
+      "end_sample": 55805,
+      "start_ms": 2488,
+      "end_ms": 3488
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kinkyuu renraku saki ni immediately ni denwa shi te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5208,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "緊急連絡先に",
+          "start_sample": 0,
+          "end_sample": 29327,
+          "start_ms": 0,
+          "end_ms": 1833
+        },
+        {
+          "lang": "en",
+          "text": "immediately",
+          "start_sample": 29327,
+          "end_sample": 50481,
+          "start_ms": 1833,
+          "end_ms": 3155
+        },
+        {
+          "lang": "ja",
+          "text": "に電話してください。",
+          "start_sample": 50481,
+          "end_sample": 83333,
+          "start_ms": 3155,
+          "end_ms": 5208
+        }
+      ]
+    },
+    "ja": {
+      "text": "緊急連絡先にimmediatelyに電話してください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2908,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "緊急連絡先に",
+          "start_sample": 0,
+          "end_sample": 19250,
+          "start_ms": 0,
+          "end_ms": 1203
+        },
+        {
+          "lang": "en",
+          "text": "immediately",
+          "start_sample": 19250,
+          "end_sample": 30320,
+          "start_ms": 1203,
+          "end_ms": 1895
+        },
+        {
+          "lang": "ja",
+          "text": "に電話してください。",
+          "start_sample": 30320,
+          "end_sample": 46521,
+          "start_ms": 1895,
+          "end_ms": 2908
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

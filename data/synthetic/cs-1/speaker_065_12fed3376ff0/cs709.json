@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_065_12fed3376ff0/cs709.flac",
+  "sentence": "このマスカラはsmudge-proofなので雨の日も安心です。",
+  "sample_rate": 16000,
+  "duration_ms": 3974,
+  "reference_speaker": "jp/speaker_065_12fed3376ff0.mp3",
+  "seed": 751,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このマスカラは",
+      "start_sample": 0,
+      "end_sample": 14906,
+      "start_ms": 0,
+      "end_ms": 932
+    },
+    {
+      "lang": "en",
+      "text": "smudge-proof",
+      "start_sample": 14906,
+      "end_sample": 33254,
+      "start_ms": 932,
+      "end_ms": 2078
+    },
+    {
+      "lang": "ja",
+      "text": "なので雨の日も安心です。",
+      "start_sample": 33254,
+      "end_sample": 63585,
+      "start_ms": 2078,
+      "end_ms": 3974
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono masukara ha smudge-proof na no de ame no nichi mo anshin desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6970,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このマスカラは",
+          "start_sample": 0,
+          "end_sample": 37656,
+          "start_ms": 0,
+          "end_ms": 2354
+        },
+        {
+          "lang": "en",
+          "text": "smudge-proof",
+          "start_sample": 37656,
+          "end_sample": 56404,
+          "start_ms": 2354,
+          "end_ms": 3525
+        },
+        {
+          "lang": "ja",
+          "text": "なので雨の日も安心です。",
+          "start_sample": 56404,
+          "end_sample": 111525,
+          "start_ms": 3525,
+          "end_ms": 6970
+        }
+      ]
+    },
+    "ja": {
+      "text": "このマスカラはsmudge-proofなので雨の日も安心です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4058,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このマスカラは",
+          "start_sample": 0,
+          "end_sample": 15106,
+          "start_ms": 0,
+          "end_ms": 944
+        },
+        {
+          "lang": "en",
+          "text": "smudge-proof",
+          "start_sample": 15106,
+          "end_sample": 34391,
+          "start_ms": 944,
+          "end_ms": 2149
+        },
+        {
+          "lang": "ja",
+          "text": "なので雨の日も安心です。",
+          "start_sample": 34391,
+          "end_sample": 64922,
+          "start_ms": 2149,
+          "end_ms": 4058
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 199,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

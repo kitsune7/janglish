@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_085_c431b4a9ddfb/cs5292.flac",
+  "sentence": "うちのとりは毎朝 cheerful な声でさえずってくれます。",
+  "sample_rate": 16000,
+  "duration_ms": 5401,
+  "reference_speaker": "jp/speaker_085_c431b4a9ddfb.mp3",
+  "seed": 5334,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "うちのとりは毎朝",
+      "start_sample": 0,
+      "end_sample": 30599,
+      "start_ms": 0,
+      "end_ms": 1912
+    },
+    {
+      "lang": "en",
+      "text": "cheerful",
+      "start_sample": 30599,
+      "end_sample": 51651,
+      "start_ms": 1912,
+      "end_ms": 3228
+    },
+    {
+      "lang": "ja",
+      "text": "な声でさえずってくれます。",
+      "start_sample": 51651,
+      "end_sample": 86420,
+      "start_ms": 3228,
+      "end_ms": 5401
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "uchi no tori ha maiasa cheerful na koe de saezutsu te kure masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9885,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちのとりは毎朝",
+          "start_sample": 0,
+          "end_sample": 79080,
+          "start_ms": 0,
+          "end_ms": 4942
+        },
+        {
+          "lang": "en",
+          "text": "cheerful",
+          "start_sample": 79080,
+          "end_sample": 100532,
+          "start_ms": 4942,
+          "end_ms": 6283
+        },
+        {
+          "lang": "ja",
+          "text": "な声でさえずってくれます。",
+          "start_sample": 100532,
+          "end_sample": 158162,
+          "start_ms": 6283,
+          "end_ms": 9885
+        }
+      ]
+    },
+    "ja": {
+      "text": "うちのとりは毎朝 cheerful な声でさえずってくれます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4792,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちのとりは毎朝",
+          "start_sample": 0,
+          "end_sample": 30799,
+          "start_ms": 0,
+          "end_ms": 1925
+        },
+        {
+          "lang": "en",
+          "text": "cheerful",
+          "start_sample": 30799,
+          "end_sample": 41707,
+          "start_ms": 1925,
+          "end_ms": 2607
+        },
+        {
+          "lang": "ja",
+          "text": "な声でさえずってくれます。",
+          "start_sample": 41707,
+          "end_sample": 76676,
+          "start_ms": 2607,
+          "end_ms": 4792
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 271,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

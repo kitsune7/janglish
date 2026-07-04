@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_017_2adba246654a/cs8290.flac",
+  "sentence": "会議でのdiscussionがとても活発でした。",
+  "sample_rate": 16000,
+  "duration_ms": 2728,
+  "reference_speaker": "jp/speaker_017_2adba246654a.mp3",
+  "seed": 8332,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "会議での",
+      "start_sample": 0,
+      "end_sample": 9483,
+      "start_ms": 0,
+      "end_ms": 593
+    },
+    {
+      "lang": "en",
+      "text": "discussion",
+      "start_sample": 9483,
+      "end_sample": 21430,
+      "start_ms": 593,
+      "end_ms": 1339
+    },
+    {
+      "lang": "ja",
+      "text": "がとても活発でした。",
+      "start_sample": 21430,
+      "end_sample": 43655,
+      "start_ms": 1339,
+      "end_ms": 2728
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kaigi de no discussion ga totemo kappatsu deshi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5231,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "会議での",
+          "start_sample": 0,
+          "end_sample": 22288,
+          "start_ms": 0,
+          "end_ms": 1393
+        },
+        {
+          "lang": "en",
+          "text": "discussion",
+          "start_sample": 22288,
+          "end_sample": 34635,
+          "start_ms": 1393,
+          "end_ms": 2165
+        },
+        {
+          "lang": "ja",
+          "text": "がとても活発でした。",
+          "start_sample": 34635,
+          "end_sample": 83701,
+          "start_ms": 2165,
+          "end_ms": 5231
+        }
+      ]
+    },
+    "ja": {
+      "text": "会議でのdiscussionがとても活発でした。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2683,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "会議での",
+          "start_sample": 0,
+          "end_sample": 9683,
+          "start_ms": 0,
+          "end_ms": 605
+        },
+        {
+          "lang": "en",
+          "text": "discussion",
+          "start_sample": 9683,
+          "end_sample": 20496,
+          "start_ms": 605,
+          "end_ms": 1281
+        },
+        {
+          "lang": "ja",
+          "text": "がとても活発でした。",
+          "start_sample": 20496,
+          "end_sample": 42921,
+          "start_ms": 1281,
+          "end_ms": 2683
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 137,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

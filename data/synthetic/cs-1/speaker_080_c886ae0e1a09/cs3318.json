@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_080_c886ae0e1a09/cs3318.flac",
+  "sentence": "救急車でemergencyルームに運ばれたと聞いて驚きました。",
+  "sample_rate": 16000,
+  "duration_ms": 3540,
+  "reference_speaker": "jp/speaker_080_c886ae0e1a09.mp3",
+  "seed": 3360,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "救急車で",
+      "start_sample": 0,
+      "end_sample": 12478,
+      "start_ms": 0,
+      "end_ms": 780
+    },
+    {
+      "lang": "en",
+      "text": "emergency",
+      "start_sample": 12478,
+      "end_sample": 23780,
+      "start_ms": 780,
+      "end_ms": 1486
+    },
+    {
+      "lang": "ja",
+      "text": "ルームに運ばれたと聞いて驚きました。",
+      "start_sample": 23780,
+      "end_sample": 56646,
+      "start_ms": 1486,
+      "end_ms": 3540
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyuukyuu kuruma de emergency ruumu ni hakoba re ta to kii te odoroki mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8015,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "救急車で",
+          "start_sample": 0,
+          "end_sample": 34306,
+          "start_ms": 0,
+          "end_ms": 2144
+        },
+        {
+          "lang": "en",
+          "text": "emergency",
+          "start_sample": 34306,
+          "end_sample": 46008,
+          "start_ms": 2144,
+          "end_ms": 2876
+        },
+        {
+          "lang": "ja",
+          "text": "ルームに運ばれたと聞いて驚きました。",
+          "start_sample": 46008,
+          "end_sample": 128246,
+          "start_ms": 2876,
+          "end_ms": 8015
+        }
+      ]
+    },
+    "ja": {
+      "text": "救急車でemergencyルームに運ばれたと聞いて驚きました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3632,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "救急車で",
+          "start_sample": 0,
+          "end_sample": 12678,
+          "start_ms": 0,
+          "end_ms": 792
+        },
+        {
+          "lang": "en",
+          "text": "emergency",
+          "start_sample": 12678,
+          "end_sample": 25039,
+          "start_ms": 792,
+          "end_ms": 1565
+        },
+        {
+          "lang": "ja",
+          "text": "ルームに運ばれたと聞いて驚きました。",
+          "start_sample": 25039,
+          "end_sample": 58105,
+          "start_ms": 1565,
+          "end_ms": 3632
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 178,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

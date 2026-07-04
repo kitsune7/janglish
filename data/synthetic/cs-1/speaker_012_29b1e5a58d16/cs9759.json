@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_012_29b1e5a58d16/cs9759.flac",
+  "sentence": "彼のcommunication 能力はとても高く評価されました。",
+  "sample_rate": 16000,
+  "duration_ms": 3787,
+  "reference_speaker": "en/speaker_012_29b1e5a58d16.mp3",
+  "seed": 9801,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼の",
+      "start_sample": 0,
+      "end_sample": 5248,
+      "start_ms": 0,
+      "end_ms": 328
+    },
+    {
+      "lang": "en",
+      "text": "communication",
+      "start_sample": 5248,
+      "end_sample": 24411,
+      "start_ms": 328,
+      "end_ms": 1526
+    },
+    {
+      "lang": "ja",
+      "text": "能力はとても高く評価されました。",
+      "start_sample": 24411,
+      "end_sample": 60586,
+      "start_ms": 1526,
+      "end_ms": 3787
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare no communication nouryoku ha totemo takaku hyouka sa re mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6454,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼の",
+          "start_sample": 0,
+          "end_sample": 7376,
+          "start_ms": 0,
+          "end_ms": 461
+        },
+        {
+          "lang": "en",
+          "text": "communication",
+          "start_sample": 7376,
+          "end_sample": 26939,
+          "start_ms": 461,
+          "end_ms": 1684
+        },
+        {
+          "lang": "ja",
+          "text": "能力はとても高く評価されました。",
+          "start_sample": 26939,
+          "end_sample": 103266,
+          "start_ms": 1684,
+          "end_ms": 6454
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼のcommunication 能力はとても高く評価されました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3405,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼の",
+          "start_sample": 0,
+          "end_sample": 5448,
+          "start_ms": 0,
+          "end_ms": 340
+        },
+        {
+          "lang": "en",
+          "text": "communication",
+          "start_sample": 5448,
+          "end_sample": 18108,
+          "start_ms": 340,
+          "end_ms": 1132
+        },
+        {
+          "lang": "ja",
+          "text": "能力はとても高く評価されました。",
+          "start_sample": 18108,
+          "end_sample": 54483,
+          "start_ms": 1132,
+          "end_ms": 3405
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "jjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

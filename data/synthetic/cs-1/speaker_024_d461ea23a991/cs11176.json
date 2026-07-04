@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_024_d461ea23a991/cs11176.flac",
+  "sentence": "online orderが届くまであと三日かかります。",
+  "sample_rate": 16000,
+  "duration_ms": 3753,
+  "reference_speaker": "en/speaker_024_d461ea23a991.mp3",
+  "seed": 11218,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "online order",
+      "start_sample": 0,
+      "end_sample": 16638,
+      "start_ms": 0,
+      "end_ms": 1040
+    },
+    {
+      "lang": "ja",
+      "text": "が届くまであと三日かかります。",
+      "start_sample": 16638,
+      "end_sample": 60048,
+      "start_ms": 1040,
+      "end_ms": 3753
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "online order ga todoku made ato san nichi kakari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4911,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "online order",
+          "start_sample": 0,
+          "end_sample": 16838,
+          "start_ms": 0,
+          "end_ms": 1052
+        },
+        {
+          "lang": "ja",
+          "text": "が届くまであと三日かかります。",
+          "start_sample": 16838,
+          "end_sample": 78580,
+          "start_ms": 1052,
+          "end_ms": 4911
+        }
+      ]
+    },
+    "ja": {
+      "text": "online orderが届くまであと三日かかります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3708,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "online order",
+          "start_sample": 0,
+          "end_sample": 15712,
+          "start_ms": 0,
+          "end_ms": 982
+        },
+        {
+          "lang": "ja",
+          "text": "が届くまであと三日かかります。",
+          "start_sample": 15712,
+          "end_sample": 59322,
+          "start_ms": 982,
+          "end_ms": 3708
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 188,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

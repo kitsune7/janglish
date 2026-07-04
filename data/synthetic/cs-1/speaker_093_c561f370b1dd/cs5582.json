@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_093_c561f370b1dd/cs5582.flac",
+  "sentence": "この地域のwinterはびっくりするほど温かいです。",
+  "sample_rate": 16000,
+  "duration_ms": 3786,
+  "reference_speaker": "en/speaker_093_c561f370b1dd.mp3",
+  "seed": 5624,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この地域の",
+      "start_sample": 0,
+      "end_sample": 13422,
+      "start_ms": 0,
+      "end_ms": 839
+    },
+    {
+      "lang": "en",
+      "text": "winter",
+      "start_sample": 13422,
+      "end_sample": 20551,
+      "start_ms": 839,
+      "end_ms": 1284
+    },
+    {
+      "lang": "ja",
+      "text": "はびっくりするほど温かいです。",
+      "start_sample": 20551,
+      "end_sample": 60578,
+      "start_ms": 1284,
+      "end_ms": 3786
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono chiiki no winter ha bikkuri suru hodo atatakai desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4165,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この地域の",
+          "start_sample": 0,
+          "end_sample": 30436,
+          "start_ms": 0,
+          "end_ms": 1902
+        },
+        {
+          "lang": "en",
+          "text": "winter",
+          "start_sample": 30436,
+          "end_sample": 37965,
+          "start_ms": 1902,
+          "end_ms": 2373
+        },
+        {
+          "lang": "ja",
+          "text": "はびっくりするほど温かいです。",
+          "start_sample": 37965,
+          "end_sample": 66639,
+          "start_ms": 2373,
+          "end_ms": 4165
+        }
+      ]
+    },
+    "ja": {
+      "text": "この地域のwinterはびっくりするほど温かいです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3906,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この地域の",
+          "start_sample": 0,
+          "end_sample": 13622,
+          "start_ms": 0,
+          "end_ms": 851
+        },
+        {
+          "lang": "en",
+          "text": "winter",
+          "start_sample": 13622,
+          "end_sample": 22277,
+          "start_ms": 851,
+          "end_ms": 1392
+        },
+        {
+          "lang": "ja",
+          "text": "はびっくりするほど温かいです。",
+          "start_sample": 22277,
+          "end_sample": 62504,
+          "start_ms": 1392,
+          "end_ms": 3906
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_095_1daf6547c74f/cs3600.flac",
+  "sentence": "春雨のseasonは道がぬかるんでいて歩きにくいです。",
+  "sample_rate": 16000,
+  "duration_ms": 3657,
+  "reference_speaker": "jp/speaker_095_1daf6547c74f.mp3",
+  "seed": 3642,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "春雨の",
+      "start_sample": 0,
+      "end_sample": 8967,
+      "start_ms": 0,
+      "end_ms": 560
+    },
+    {
+      "lang": "en",
+      "text": "season",
+      "start_sample": 8967,
+      "end_sample": 16733,
+      "start_ms": 560,
+      "end_ms": 1046
+    },
+    {
+      "lang": "ja",
+      "text": "は道がぬかるんでいて歩きにくいです。",
+      "start_sample": 16733,
+      "end_sample": 58506,
+      "start_ms": 1046,
+      "end_ms": 3657
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "harusame no season ha michi ga nukarun de i te aruki nikui desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6985,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "春雨の",
+          "start_sample": 0,
+          "end_sample": 30582,
+          "start_ms": 0,
+          "end_ms": 1911
+        },
+        {
+          "lang": "en",
+          "text": "season",
+          "start_sample": 30582,
+          "end_sample": 38748,
+          "start_ms": 1911,
+          "end_ms": 2422
+        },
+        {
+          "lang": "ja",
+          "text": "は道がぬかるんでいて歩きにくいです。",
+          "start_sample": 38748,
+          "end_sample": 111760,
+          "start_ms": 2422,
+          "end_ms": 6985
+        }
+      ]
+    },
+    "ja": {
+      "text": "春雨のseasonは道がぬかるんでいて歩きにくいです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3699,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "春雨の",
+          "start_sample": 0,
+          "end_sample": 9167,
+          "start_ms": 0,
+          "end_ms": 573
+        },
+        {
+          "lang": "en",
+          "text": "season",
+          "start_sample": 9167,
+          "end_sample": 17209,
+          "start_ms": 573,
+          "end_ms": 1076
+        },
+        {
+          "lang": "ja",
+          "text": "は道がぬかるんでいて歩きにくいです。",
+          "start_sample": 17209,
+          "end_sample": 59182,
+          "start_ms": 1076,
+          "end_ms": 3699
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 183,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

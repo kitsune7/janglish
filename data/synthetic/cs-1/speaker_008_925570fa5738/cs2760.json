@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_008_925570fa5738/cs2760.flac",
+  "sentence": "My 受信箱 is an absolute disaster — I need to clean it up.",
+  "sample_rate": 16000,
+  "duration_ms": 4724,
+  "reference_speaker": "jp/speaker_008_925570fa5738.mp3",
+  "seed": 2802,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My",
+      "start_sample": 0,
+      "end_sample": 3010,
+      "start_ms": 0,
+      "end_ms": 188
+    },
+    {
+      "lang": "ja",
+      "text": "受信箱",
+      "start_sample": 3010,
+      "end_sample": 14319,
+      "start_ms": 188,
+      "end_ms": 895
+    },
+    {
+      "lang": "en",
+      "text": "is an absolute disaster — I need to clean it up.",
+      "start_sample": 14319,
+      "end_sample": 75589,
+      "start_ms": 895,
+      "end_ms": 4724
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My jushin hako is an absolute disaster — I need to clean it up.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4875,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 3210,
+          "start_ms": 0,
+          "end_ms": 201
+        },
+        {
+          "lang": "ja",
+          "text": "受信箱",
+          "start_sample": 3210,
+          "end_sample": 16531,
+          "start_ms": 201,
+          "end_ms": 1033
+        },
+        {
+          "lang": "en",
+          "text": "is an absolute disaster — I need to clean it up.",
+          "start_sample": 16531,
+          "end_sample": 78001,
+          "start_ms": 1033,
+          "end_ms": 4875
+        }
+      ]
+    },
+    "ja": {
+      "text": "My 受信箱 is an absolute disaster — I need to clean it up.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5273,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 3368,
+          "start_ms": 0,
+          "end_ms": 210
+        },
+        {
+          "lang": "ja",
+          "text": "受信箱",
+          "start_sample": 3368,
+          "end_sample": 15077,
+          "start_ms": 210,
+          "end_ms": 942
+        },
+        {
+          "lang": "en",
+          "text": "is an absolute disaster — I need to clean it up.",
+          "start_sample": 15077,
+          "end_sample": 84368,
+          "start_ms": 942,
+          "end_ms": 5273
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 237,
+  "frame_labels": "eeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

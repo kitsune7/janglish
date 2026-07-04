@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_065_12fed3376ff0/cs2007.flac",
+  "sentence": "This 反射 of the city skyline in the puddle is breathtaking.",
+  "sample_rate": 16000,
+  "duration_ms": 4155,
+  "reference_speaker": "jp/speaker_065_12fed3376ff0.mp3",
+  "seed": 2049,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This",
+      "start_sample": 0,
+      "end_sample": 5245,
+      "start_ms": 0,
+      "end_ms": 328
+    },
+    {
+      "lang": "ja",
+      "text": "反射",
+      "start_sample": 5245,
+      "end_sample": 15590,
+      "start_ms": 328,
+      "end_ms": 974
+    },
+    {
+      "lang": "en",
+      "text": "of the city skyline in the puddle is breathtaking.",
+      "start_sample": 15590,
+      "end_sample": 66485,
+      "start_ms": 974,
+      "end_ms": 4155
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This hansha of the city skyline in the puddle is breathtaking.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4164,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This",
+          "start_sample": 0,
+          "end_sample": 5445,
+          "start_ms": 0,
+          "end_ms": 340
+        },
+        {
+          "lang": "ja",
+          "text": "反射",
+          "start_sample": 5445,
+          "end_sample": 15536,
+          "start_ms": 340,
+          "end_ms": 971
+        },
+        {
+          "lang": "en",
+          "text": "of the city skyline in the puddle is breathtaking.",
+          "start_sample": 15536,
+          "end_sample": 66631,
+          "start_ms": 971,
+          "end_ms": 4164
+        }
+      ]
+    },
+    "ja": {
+      "text": "This 反射 of the city skyline in the puddle is breathtaking.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5613,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This",
+          "start_sample": 0,
+          "end_sample": 2886,
+          "start_ms": 0,
+          "end_ms": 180
+        },
+        {
+          "lang": "ja",
+          "text": "反射",
+          "start_sample": 2886,
+          "end_sample": 13631,
+          "start_ms": 180,
+          "end_ms": 852
+        },
+        {
+          "lang": "en",
+          "text": "of the city skyline in the puddle is breathtaking.",
+          "start_sample": 13631,
+          "end_sample": 89806,
+          "start_ms": 852,
+          "end_ms": 5613
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 208,
+  "frame_labels": "eeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

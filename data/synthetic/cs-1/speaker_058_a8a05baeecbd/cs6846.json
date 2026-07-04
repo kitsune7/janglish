@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_058_a8a05baeecbd/cs6846.flac",
+  "sentence": "The whole town feels 静か on New Year's morning, like the world is holding its breath.",
+  "sample_rate": 16000,
+  "duration_ms": 5793,
+  "reference_speaker": "jp/speaker_058_a8a05baeecbd.mp3",
+  "seed": 6888,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole town feels",
+      "start_sample": 0,
+      "end_sample": 20324,
+      "start_ms": 0,
+      "end_ms": 1270
+    },
+    {
+      "lang": "ja",
+      "text": "静か",
+      "start_sample": 20324,
+      "end_sample": 35807,
+      "start_ms": 1270,
+      "end_ms": 2238
+    },
+    {
+      "lang": "en",
+      "text": "on New Year's morning, like the world is holding its breath.",
+      "start_sample": 35807,
+      "end_sample": 92691,
+      "start_ms": 2238,
+      "end_ms": 5793
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole town feels shizuka on New Year's morning, like the world is holding its breath.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5392,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole town feels",
+          "start_sample": 0,
+          "end_sample": 20524,
+          "start_ms": 0,
+          "end_ms": 1283
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 20524,
+          "end_sample": 29183,
+          "start_ms": 1283,
+          "end_ms": 1824
+        },
+        {
+          "lang": "en",
+          "text": "on New Year's morning, like the world is holding its breath.",
+          "start_sample": 29183,
+          "end_sample": 86267,
+          "start_ms": 1824,
+          "end_ms": 5392
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole town feels 静か on New Year's morning, like the world is holding its breath.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8764,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole town feels",
+          "start_sample": 0,
+          "end_sample": 40589,
+          "start_ms": 0,
+          "end_ms": 2537
+        },
+        {
+          "lang": "ja",
+          "text": "静か",
+          "start_sample": 40589,
+          "end_sample": 56472,
+          "start_ms": 2537,
+          "end_ms": 3530
+        },
+        {
+          "lang": "en",
+          "text": "on New Year's morning, like the world is holding its breath.",
+          "start_sample": 56472,
+          "end_sample": 140217,
+          "start_ms": 3530,
+          "end_ms": 8764
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 290,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

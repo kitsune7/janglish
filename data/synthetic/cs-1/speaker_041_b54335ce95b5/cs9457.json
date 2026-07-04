@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_041_b54335ce95b5/cs9457.flac",
+  "sentence": "Working from home made me realize how much 無駄 was in my old commute.",
+  "sample_rate": 16000,
+  "duration_ms": 4208,
+  "reference_speaker": "en/speaker_041_b54335ce95b5.mp3",
+  "seed": 9499,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Working from home made me realize how much",
+      "start_sample": 0,
+      "end_sample": 41634,
+      "start_ms": 0,
+      "end_ms": 2602
+    },
+    {
+      "lang": "ja",
+      "text": "無駄",
+      "start_sample": 41634,
+      "end_sample": 46049,
+      "start_ms": 2602,
+      "end_ms": 2878
+    },
+    {
+      "lang": "en",
+      "text": "was in my old commute.",
+      "start_sample": 46049,
+      "end_sample": 67326,
+      "start_ms": 2878,
+      "end_ms": 4208
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Working from home made me realize how much muda was in my old commute.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4348,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Working from home made me realize how much",
+          "start_sample": 0,
+          "end_sample": 41834,
+          "start_ms": 0,
+          "end_ms": 2615
+        },
+        {
+          "lang": "ja",
+          "text": "無駄",
+          "start_sample": 41834,
+          "end_sample": 48086,
+          "start_ms": 2615,
+          "end_ms": 3005
+        },
+        {
+          "lang": "en",
+          "text": "was in my old commute.",
+          "start_sample": 48086,
+          "end_sample": 69563,
+          "start_ms": 3005,
+          "end_ms": 4348
+        }
+      ]
+    },
+    "ja": {
+      "text": "Working from home made me realize how much 無駄 was in my old commute.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5016,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Working from home made me realize how much",
+          "start_sample": 0,
+          "end_sample": 53288,
+          "start_ms": 0,
+          "end_ms": 3330
+        },
+        {
+          "lang": "ja",
+          "text": "無駄",
+          "start_sample": 53288,
+          "end_sample": 58103,
+          "start_ms": 3330,
+          "end_ms": 3631
+        },
+        {
+          "lang": "en",
+          "text": "was in my old commute.",
+          "start_sample": 58103,
+          "end_sample": 80250,
+          "start_ms": 3631,
+          "end_ms": 5016
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 211,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

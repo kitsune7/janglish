@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_061_3e186ef591ed/cs5087.flac",
+  "sentence": "今朝のバスはdelayedで、会議に遅刻してしまった。",
+  "sample_rate": 16000,
+  "duration_ms": 2975,
+  "reference_speaker": "jp/speaker_061_3e186ef591ed.mp3",
+  "seed": 5129,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今朝のバスは",
+      "start_sample": 0,
+      "end_sample": 12187,
+      "start_ms": 0,
+      "end_ms": 762
+    },
+    {
+      "lang": "en",
+      "text": "delayed",
+      "start_sample": 12187,
+      "end_sample": 18685,
+      "start_ms": 762,
+      "end_ms": 1168
+    },
+    {
+      "lang": "ja",
+      "text": "で、会議に遅刻してしまった。",
+      "start_sample": 18685,
+      "end_sample": 47600,
+      "start_ms": 1168,
+      "end_ms": 2975
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kesa no basu ha delayed de kaigi ni chikoku shi te shimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7699,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今朝のバスは",
+          "start_sample": 0,
+          "end_sample": 45876,
+          "start_ms": 0,
+          "end_ms": 2867
+        },
+        {
+          "lang": "en",
+          "text": "delayed",
+          "start_sample": 45876,
+          "end_sample": 52774,
+          "start_ms": 2867,
+          "end_ms": 3298
+        },
+        {
+          "lang": "ja",
+          "text": "で、会議に遅刻してしまった。",
+          "start_sample": 52774,
+          "end_sample": 123191,
+          "start_ms": 3298,
+          "end_ms": 7699
+        }
+      ]
+    },
+    "ja": {
+      "text": "今朝のバスはdelayedで、会議に遅刻してしまった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3016,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今朝のバスは",
+          "start_sample": 0,
+          "end_sample": 12387,
+          "start_ms": 0,
+          "end_ms": 774
+        },
+        {
+          "lang": "en",
+          "text": "delayed",
+          "start_sample": 12387,
+          "end_sample": 19144,
+          "start_ms": 774,
+          "end_ms": 1196
+        },
+        {
+          "lang": "ja",
+          "text": "で、会議に遅刻してしまった。",
+          "start_sample": 19144,
+          "end_sample": 48259,
+          "start_ms": 1196,
+          "end_ms": 3016
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 149,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

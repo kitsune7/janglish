@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_085_1a04e2db0811/cs7352.flac",
+  "sentence": "The 汚れ on the stovetop won't come off no matter how hard I scrub.",
+  "sample_rate": 16000,
+  "duration_ms": 4251,
+  "reference_speaker": "en/speaker_085_1a04e2db0811.mp3",
+  "seed": 7394,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1247,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "汚れ",
+      "start_sample": 1247,
+      "end_sample": 13508,
+      "start_ms": 78,
+      "end_ms": 844
+    },
+    {
+      "lang": "en",
+      "text": "on the stovetop won't come off no matter how hard I scrub.",
+      "start_sample": 13508,
+      "end_sample": 68013,
+      "start_ms": 844,
+      "end_ms": 4251
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The yogore on the stovetop won't come off no matter how hard I scrub.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4083,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1447,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "汚れ",
+          "start_sample": 1447,
+          "end_sample": 10620,
+          "start_ms": 90,
+          "end_ms": 664
+        },
+        {
+          "lang": "en",
+          "text": "on the stovetop won't come off no matter how hard I scrub.",
+          "start_sample": 10620,
+          "end_sample": 65325,
+          "start_ms": 664,
+          "end_ms": 4083
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 汚れ on the stovetop won't come off no matter how hard I scrub.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5189,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 6570,
+          "start_ms": 0,
+          "end_ms": 411
+        },
+        {
+          "lang": "ja",
+          "text": "汚れ",
+          "start_sample": 6570,
+          "end_sample": 19231,
+          "start_ms": 411,
+          "end_ms": 1202
+        },
+        {
+          "lang": "en",
+          "text": "on the stovetop won't come off no matter how hard I scrub.",
+          "start_sample": 19231,
+          "end_sample": 83019,
+          "start_ms": 1202,
+          "end_ms": 5189
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 213,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

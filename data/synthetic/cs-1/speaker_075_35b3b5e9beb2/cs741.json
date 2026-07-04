@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_075_35b3b5e9beb2/cs741.flac",
+  "sentence": "Their 長男 moved abroad but still calls home every single week.",
+  "sample_rate": 16000,
+  "duration_ms": 6070,
+  "reference_speaker": "jp/speaker_075_35b3b5e9beb2.mp3",
+  "seed": 783,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Their",
+      "start_sample": 0,
+      "end_sample": 2207,
+      "start_ms": 0,
+      "end_ms": 138
+    },
+    {
+      "lang": "ja",
+      "text": "長男",
+      "start_sample": 2207,
+      "end_sample": 12878,
+      "start_ms": 138,
+      "end_ms": 805
+    },
+    {
+      "lang": "en",
+      "text": "moved abroad but still calls home every single week.",
+      "start_sample": 12878,
+      "end_sample": 97113,
+      "start_ms": 805,
+      "end_ms": 6070
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Their chounan moved abroad but still calls home every single week.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5879,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their",
+          "start_sample": 0,
+          "end_sample": 2407,
+          "start_ms": 0,
+          "end_ms": 150
+        },
+        {
+          "lang": "ja",
+          "text": "長男",
+          "start_sample": 2407,
+          "end_sample": 9631,
+          "start_ms": 150,
+          "end_ms": 602
+        },
+        {
+          "lang": "en",
+          "text": "moved abroad but still calls home every single week.",
+          "start_sample": 9631,
+          "end_sample": 94066,
+          "start_ms": 602,
+          "end_ms": 5879
+        }
+      ]
+    },
+    "ja": {
+      "text": "Their 長男 moved abroad but still calls home every single week.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6197,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their",
+          "start_sample": 0,
+          "end_sample": 4170,
+          "start_ms": 0,
+          "end_ms": 261
+        },
+        {
+          "lang": "ja",
+          "text": "長男",
+          "start_sample": 4170,
+          "end_sample": 15241,
+          "start_ms": 261,
+          "end_ms": 953
+        },
+        {
+          "lang": "en",
+          "text": "moved abroad but still calls home every single week.",
+          "start_sample": 15241,
+          "end_sample": 99147,
+          "start_ms": 953,
+          "end_ms": 6197
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 304,
+  "frame_labels": "eeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

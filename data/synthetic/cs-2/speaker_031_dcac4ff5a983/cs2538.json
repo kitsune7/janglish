@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_031_dcac4ff5a983/cs2538.flac",
+  "sentence": "I think the dessert needed more 酸味 to cut through its 重さ.",
+  "sample_rate": 16000,
+  "duration_ms": 3386,
+  "reference_speaker": "en/speaker_031_dcac4ff5a983.mp3",
+  "seed": 2580,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I think the dessert needed more",
+      "start_sample": 0,
+      "end_sample": 21947,
+      "start_ms": 0,
+      "end_ms": 1372
+    },
+    {
+      "lang": "ja",
+      "text": "酸味",
+      "start_sample": 21947,
+      "end_sample": 28774,
+      "start_ms": 1372,
+      "end_ms": 1798
+    },
+    {
+      "lang": "en",
+      "text": "to cut through its",
+      "start_sample": 28774,
+      "end_sample": 47474,
+      "start_ms": 1798,
+      "end_ms": 2967
+    },
+    {
+      "lang": "ja",
+      "text": "重さ.",
+      "start_sample": 47474,
+      "end_sample": 54177,
+      "start_ms": 2967,
+      "end_ms": 3386
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I think the dessert needed more sanmi to cut through its juu sa",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4654,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I think the dessert needed more",
+          "start_sample": 0,
+          "end_sample": 22147,
+          "start_ms": 0,
+          "end_ms": 1384
+        },
+        {
+          "lang": "ja",
+          "text": "酸味",
+          "start_sample": 22147,
+          "end_sample": 34666,
+          "start_ms": 1384,
+          "end_ms": 2167
+        },
+        {
+          "lang": "en",
+          "text": "to cut through its",
+          "start_sample": 34666,
+          "end_sample": 53766,
+          "start_ms": 2167,
+          "end_ms": 3360
+        },
+        {
+          "lang": "ja",
+          "text": "重さ.",
+          "start_sample": 53766,
+          "end_sample": 74469,
+          "start_ms": 3360,
+          "end_ms": 4654
+        }
+      ]
+    },
+    "ja": {
+      "text": "I think the dessert needed more 酸味 to cut through its 重さ.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4477,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I think the dessert needed more",
+          "start_sample": 0,
+          "end_sample": 38705,
+          "start_ms": 0,
+          "end_ms": 2419
+        },
+        {
+          "lang": "ja",
+          "text": "酸味",
+          "start_sample": 38705,
+          "end_sample": 45932,
+          "start_ms": 2419,
+          "end_ms": 2871
+        },
+        {
+          "lang": "en",
+          "text": "to cut through its",
+          "start_sample": 45932,
+          "end_sample": 64723,
+          "start_ms": 2871,
+          "end_ms": 4045
+        },
+        {
+          "lang": "ja",
+          "text": "重さ.",
+          "start_sample": 64723,
+          "end_sample": 71626,
+          "start_ms": 4045,
+          "end_ms": 4477
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 170,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjj"
+}

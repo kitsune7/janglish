@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_025_0f8f304ca1ab/cs2106.flac",
+  "sentence": "The hiring manager made the whole process feel surprisingly 自然.",
+  "sample_rate": 16000,
+  "duration_ms": 3720,
+  "reference_speaker": "jp/speaker_025_0f8f304ca1ab.mp3",
+  "seed": 2148,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The hiring manager made the whole process feel surprisingly",
+      "start_sample": 0,
+      "end_sample": 53469,
+      "start_ms": 0,
+      "end_ms": 3342
+    },
+    {
+      "lang": "ja",
+      "text": "自然.",
+      "start_sample": 53469,
+      "end_sample": 59522,
+      "start_ms": 3342,
+      "end_ms": 3720
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hiring manager made the whole process feel surprisingly shizen",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3925,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hiring manager made the whole process feel surprisingly",
+          "start_sample": 0,
+          "end_sample": 53669,
+          "start_ms": 0,
+          "end_ms": 3354
+        },
+        {
+          "lang": "ja",
+          "text": "自然.",
+          "start_sample": 53669,
+          "end_sample": 62800,
+          "start_ms": 3354,
+          "end_ms": 3925
+        }
+      ]
+    },
+    "ja": {
+      "text": "The hiring manager made the whole process feel surprisingly 自然.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4010,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hiring manager made the whole process feel surprisingly",
+          "start_sample": 0,
+          "end_sample": 57908,
+          "start_ms": 0,
+          "end_ms": 3619
+        },
+        {
+          "lang": "ja",
+          "text": "自然.",
+          "start_sample": 57908,
+          "end_sample": 64161,
+          "start_ms": 3619,
+          "end_ms": 4010
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 187,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjj"
+}

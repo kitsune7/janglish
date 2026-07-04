@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_024_53a01817659b/cs2866.flac",
+  "sentence": "I was surprised how 新鮮 the fish tasted for a landlocked city.",
+  "sample_rate": 16000,
+  "duration_ms": 3672,
+  "reference_speaker": "jp/speaker_024_53a01817659b.mp3",
+  "seed": 2908,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I was surprised how",
+      "start_sample": 0,
+      "end_sample": 17304,
+      "start_ms": 0,
+      "end_ms": 1082
+    },
+    {
+      "lang": "ja",
+      "text": "新鮮",
+      "start_sample": 17304,
+      "end_sample": 26513,
+      "start_ms": 1082,
+      "end_ms": 1657
+    },
+    {
+      "lang": "en",
+      "text": "the fish tasted for a landlocked city.",
+      "start_sample": 26513,
+      "end_sample": 58756,
+      "start_ms": 1657,
+      "end_ms": 3672
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I was surprised how shinsen the fish tasted for a landlocked city.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3513,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I was surprised how",
+          "start_sample": 0,
+          "end_sample": 17504,
+          "start_ms": 0,
+          "end_ms": 1094
+        },
+        {
+          "lang": "ja",
+          "text": "新鮮",
+          "start_sample": 17504,
+          "end_sample": 23769,
+          "start_ms": 1094,
+          "end_ms": 1486
+        },
+        {
+          "lang": "en",
+          "text": "the fish tasted for a landlocked city.",
+          "start_sample": 23769,
+          "end_sample": 56212,
+          "start_ms": 1486,
+          "end_ms": 3513
+        }
+      ]
+    },
+    "ja": {
+      "text": "I was surprised how 新鮮 the fish tasted for a landlocked city.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5365,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I was surprised how",
+          "start_sample": 0,
+          "end_sample": 23222,
+          "start_ms": 0,
+          "end_ms": 1451
+        },
+        {
+          "lang": "ja",
+          "text": "新鮮",
+          "start_sample": 23222,
+          "end_sample": 32831,
+          "start_ms": 1451,
+          "end_ms": 2052
+        },
+        {
+          "lang": "en",
+          "text": "the fish tasted for a landlocked city.",
+          "start_sample": 32831,
+          "end_sample": 85841,
+          "start_ms": 2052,
+          "end_ms": 5365
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 184,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

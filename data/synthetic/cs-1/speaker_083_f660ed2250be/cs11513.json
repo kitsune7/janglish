@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_083_f660ed2250be/cs11513.flac",
+  "sentence": "She looked completely 眠そう on the morning commute.",
+  "sample_rate": 16000,
+  "duration_ms": 3623,
+  "reference_speaker": "jp/speaker_083_f660ed2250be.mp3",
+  "seed": 11555,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She looked completely",
+      "start_sample": 0,
+      "end_sample": 23397,
+      "start_ms": 0,
+      "end_ms": 1462
+    },
+    {
+      "lang": "ja",
+      "text": "眠そう",
+      "start_sample": 23397,
+      "end_sample": 36502,
+      "start_ms": 1462,
+      "end_ms": 2281
+    },
+    {
+      "lang": "en",
+      "text": "on the morning commute.",
+      "start_sample": 36502,
+      "end_sample": 57971,
+      "start_ms": 2281,
+      "end_ms": 3623
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She looked completely min sou on the morning commute.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4113,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She looked completely",
+          "start_sample": 0,
+          "end_sample": 23597,
+          "start_ms": 0,
+          "end_ms": 1475
+        },
+        {
+          "lang": "ja",
+          "text": "眠そう",
+          "start_sample": 23597,
+          "end_sample": 44145,
+          "start_ms": 1475,
+          "end_ms": 2759
+        },
+        {
+          "lang": "en",
+          "text": "on the morning commute.",
+          "start_sample": 44145,
+          "end_sample": 65814,
+          "start_ms": 2759,
+          "end_ms": 4113
+        }
+      ]
+    },
+    "ja": {
+      "text": "She looked completely 眠そう on the morning commute.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4481,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She looked completely",
+          "start_sample": 0,
+          "end_sample": 34884,
+          "start_ms": 0,
+          "end_ms": 2180
+        },
+        {
+          "lang": "ja",
+          "text": "眠そう",
+          "start_sample": 34884,
+          "end_sample": 48389,
+          "start_ms": 2180,
+          "end_ms": 3024
+        },
+        {
+          "lang": "en",
+          "text": "on the morning commute.",
+          "start_sample": 48389,
+          "end_sample": 71698,
+          "start_ms": 3024,
+          "end_ms": 4481
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 182,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

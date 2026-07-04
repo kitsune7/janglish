@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_020_5f047713c8bd/cs1121.flac",
+  "sentence": "The new treatment targets 炎症 at the cellular level.",
+  "sample_rate": 16000,
+  "duration_ms": 3627,
+  "reference_speaker": "en/speaker_020_5f047713c8bd.mp3",
+  "seed": 1163,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The new treatment targets",
+      "start_sample": 0,
+      "end_sample": 27533,
+      "start_ms": 0,
+      "end_ms": 1721
+    },
+    {
+      "lang": "ja",
+      "text": "炎症",
+      "start_sample": 27533,
+      "end_sample": 36908,
+      "start_ms": 1721,
+      "end_ms": 2307
+    },
+    {
+      "lang": "en",
+      "text": "at the cellular level.",
+      "start_sample": 36908,
+      "end_sample": 58028,
+      "start_ms": 2307,
+      "end_ms": 3627
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The new treatment targets enshou at the cellular level.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3968,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new treatment targets",
+          "start_sample": 0,
+          "end_sample": 27733,
+          "start_ms": 0,
+          "end_ms": 1733
+        },
+        {
+          "lang": "ja",
+          "text": "炎症",
+          "start_sample": 27733,
+          "end_sample": 42161,
+          "start_ms": 1733,
+          "end_ms": 2635
+        },
+        {
+          "lang": "en",
+          "text": "at the cellular level.",
+          "start_sample": 42161,
+          "end_sample": 63481,
+          "start_ms": 2635,
+          "end_ms": 3968
+        }
+      ]
+    },
+    "ja": {
+      "text": "The new treatment targets 炎症 at the cellular level.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4126,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new treatment targets",
+          "start_sample": 0,
+          "end_sample": 25157,
+          "start_ms": 0,
+          "end_ms": 1572
+        },
+        {
+          "lang": "ja",
+          "text": "炎症",
+          "start_sample": 25157,
+          "end_sample": 34932,
+          "start_ms": 1572,
+          "end_ms": 2183
+        },
+        {
+          "lang": "en",
+          "text": "at the cellular level.",
+          "start_sample": 34932,
+          "end_sample": 66020,
+          "start_ms": 2183,
+          "end_ms": 4126
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 182,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

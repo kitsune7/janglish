@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_100_5a2cde56c3f2/cs7319.flac",
+  "sentence": "Please put the clean 食器 back in the cupboard when you're done.",
+  "sample_rate": 16000,
+  "duration_ms": 3399,
+  "reference_speaker": "jp/speaker_100_5a2cde56c3f2.mp3",
+  "seed": 7361,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Please put the clean",
+      "start_sample": 0,
+      "end_sample": 18242,
+      "start_ms": 0,
+      "end_ms": 1140
+    },
+    {
+      "lang": "ja",
+      "text": "食器",
+      "start_sample": 18242,
+      "end_sample": 27966,
+      "start_ms": 1140,
+      "end_ms": 1748
+    },
+    {
+      "lang": "en",
+      "text": "back in the cupboard when you're done.",
+      "start_sample": 27966,
+      "end_sample": 54387,
+      "start_ms": 1748,
+      "end_ms": 3399
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Please put the clean shokki back in the cupboard when you're done.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3167,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Please put the clean",
+          "start_sample": 0,
+          "end_sample": 18442,
+          "start_ms": 0,
+          "end_ms": 1153
+        },
+        {
+          "lang": "ja",
+          "text": "食器",
+          "start_sample": 18442,
+          "end_sample": 24055,
+          "start_ms": 1153,
+          "end_ms": 1503
+        },
+        {
+          "lang": "en",
+          "text": "back in the cupboard when you're done.",
+          "start_sample": 24055,
+          "end_sample": 50676,
+          "start_ms": 1503,
+          "end_ms": 3167
+        }
+      ]
+    },
+    "ja": {
+      "text": "Please put the clean 食器 back in the cupboard when you're done.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4138,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Please put the clean",
+          "start_sample": 0,
+          "end_sample": 22978,
+          "start_ms": 0,
+          "end_ms": 1436
+        },
+        {
+          "lang": "ja",
+          "text": "食器",
+          "start_sample": 22978,
+          "end_sample": 33102,
+          "start_ms": 1436,
+          "end_ms": 2069
+        },
+        {
+          "lang": "en",
+          "text": "back in the cupboard when you're done.",
+          "start_sample": 33102,
+          "end_sample": 66201,
+          "start_ms": 2069,
+          "end_ms": 4138
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 170,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

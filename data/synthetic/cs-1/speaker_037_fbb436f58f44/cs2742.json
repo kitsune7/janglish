@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_037_fbb436f58f44/cs2742.flac",
+  "sentence": "He sent a completely 唐突 message at two in the morning.",
+  "sample_rate": 16000,
+  "duration_ms": 4927,
+  "reference_speaker": "en/speaker_037_fbb436f58f44.mp3",
+  "seed": 2784,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He sent a completely",
+      "start_sample": 0,
+      "end_sample": 20625,
+      "start_ms": 0,
+      "end_ms": 1289
+    },
+    {
+      "lang": "ja",
+      "text": "唐突",
+      "start_sample": 20625,
+      "end_sample": 28413,
+      "start_ms": 1289,
+      "end_ms": 1776
+    },
+    {
+      "lang": "en",
+      "text": "message at two in the morning.",
+      "start_sample": 28413,
+      "end_sample": 78836,
+      "start_ms": 1776,
+      "end_ms": 4927
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He sent a completely toutotsu message at two in the morning.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5246,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He sent a completely",
+          "start_sample": 0,
+          "end_sample": 20825,
+          "start_ms": 0,
+          "end_ms": 1302
+        },
+        {
+          "lang": "ja",
+          "text": "唐突",
+          "start_sample": 20825,
+          "end_sample": 33320,
+          "start_ms": 1302,
+          "end_ms": 2082
+        },
+        {
+          "lang": "en",
+          "text": "message at two in the morning.",
+          "start_sample": 33320,
+          "end_sample": 83943,
+          "start_ms": 2082,
+          "end_ms": 5246
+        }
+      ]
+    },
+    "ja": {
+      "text": "He sent a completely 唐突 message at two in the morning.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3793,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He sent a completely",
+          "start_sample": 0,
+          "end_sample": 22958,
+          "start_ms": 0,
+          "end_ms": 1435
+        },
+        {
+          "lang": "ja",
+          "text": "唐突",
+          "start_sample": 22958,
+          "end_sample": 31146,
+          "start_ms": 1435,
+          "end_ms": 1947
+        },
+        {
+          "lang": "en",
+          "text": "message at two in the morning.",
+          "start_sample": 31146,
+          "end_sample": 60684,
+          "start_ms": 1947,
+          "end_ms": 3793
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 247,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

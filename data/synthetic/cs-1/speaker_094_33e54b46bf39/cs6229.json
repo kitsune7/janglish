@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_094_33e54b46bf39/cs6229.flac",
+  "sentence": "That movie left me with such a deep sense of 哀愁.",
+  "sample_rate": 16000,
+  "duration_ms": 3971,
+  "reference_speaker": "jp/speaker_094_33e54b46bf39.mp3",
+  "seed": 6271,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That movie left me with such a deep sense of",
+      "start_sample": 0,
+      "end_sample": 54431,
+      "start_ms": 0,
+      "end_ms": 3402
+    },
+    {
+      "lang": "ja",
+      "text": "哀愁.",
+      "start_sample": 54431,
+      "end_sample": 63529,
+      "start_ms": 3402,
+      "end_ms": 3971
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That movie left me with such a deep sense of aishuu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3925,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That movie left me with such a deep sense of",
+          "start_sample": 0,
+          "end_sample": 54631,
+          "start_ms": 0,
+          "end_ms": 3414
+        },
+        {
+          "lang": "ja",
+          "text": "哀愁.",
+          "start_sample": 54631,
+          "end_sample": 62800,
+          "start_ms": 3414,
+          "end_ms": 3925
+        }
+      ]
+    },
+    "ja": {
+      "text": "That movie left me with such a deep sense of 哀愁.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4189,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That movie left me with such a deep sense of",
+          "start_sample": 0,
+          "end_sample": 57724,
+          "start_ms": 0,
+          "end_ms": 3608
+        },
+        {
+          "lang": "ja",
+          "text": "哀愁.",
+          "start_sample": 57724,
+          "end_sample": 67022,
+          "start_ms": 3608,
+          "end_ms": 4189
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 199,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

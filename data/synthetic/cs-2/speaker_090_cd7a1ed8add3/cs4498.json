@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_090_cd7a1ed8add3/cs4498.flac",
+  "sentence": "The 窓 looked so much brighter after a thorough 掃除.",
+  "sample_rate": 16000,
+  "duration_ms": 2891,
+  "reference_speaker": "en/speaker_090_cd7a1ed8add3.mp3",
+  "seed": 4540,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1410,
+      "start_ms": 0,
+      "end_ms": 88
+    },
+    {
+      "lang": "ja",
+      "text": "窓",
+      "start_sample": 1410,
+      "end_sample": 7262,
+      "start_ms": 88,
+      "end_ms": 454
+    },
+    {
+      "lang": "en",
+      "text": "looked so much brighter after a thorough",
+      "start_sample": 7262,
+      "end_sample": 38441,
+      "start_ms": 454,
+      "end_ms": 2403
+    },
+    {
+      "lang": "ja",
+      "text": "掃除.",
+      "start_sample": 38441,
+      "end_sample": 46255,
+      "start_ms": 2403,
+      "end_ms": 2891
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The mado looked so much brighter after a thorough souji",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2859,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1610,
+          "start_ms": 0,
+          "end_ms": 101
+        },
+        {
+          "lang": "ja",
+          "text": "窓",
+          "start_sample": 1610,
+          "end_sample": 7250,
+          "start_ms": 101,
+          "end_ms": 453
+        },
+        {
+          "lang": "en",
+          "text": "looked so much brighter after a thorough",
+          "start_sample": 7250,
+          "end_sample": 38829,
+          "start_ms": 453,
+          "end_ms": 2427
+        },
+        {
+          "lang": "ja",
+          "text": "掃除.",
+          "start_sample": 38829,
+          "end_sample": 45751,
+          "start_ms": 2427,
+          "end_ms": 2859
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 窓 looked so much brighter after a thorough 掃除.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4187,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4325,
+          "start_ms": 0,
+          "end_ms": 270
+        },
+        {
+          "lang": "ja",
+          "text": "窓",
+          "start_sample": 4325,
+          "end_sample": 10577,
+          "start_ms": 270,
+          "end_ms": 661
+        },
+        {
+          "lang": "en",
+          "text": "looked so much brighter after a thorough",
+          "start_sample": 10577,
+          "end_sample": 58983,
+          "start_ms": 661,
+          "end_ms": 3686
+        },
+        {
+          "lang": "ja",
+          "text": "掃除.",
+          "start_sample": 58983,
+          "end_sample": 66997,
+          "start_ms": 3686,
+          "end_ms": 4187
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 145,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjj"
+}

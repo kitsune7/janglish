@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_040_ec293248c910/cs4432.flac",
+  "sentence": "He left a generous 心付け for the housekeeper on his last morning.",
+  "sample_rate": 16000,
+  "duration_ms": 4221,
+  "reference_speaker": "en/speaker_040_ec293248c910.mp3",
+  "seed": 4474,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He left a generous",
+      "start_sample": 0,
+      "end_sample": 15828,
+      "start_ms": 0,
+      "end_ms": 989
+    },
+    {
+      "lang": "ja",
+      "text": "心付け",
+      "start_sample": 15828,
+      "end_sample": 31345,
+      "start_ms": 989,
+      "end_ms": 1959
+    },
+    {
+      "lang": "en",
+      "text": "for the housekeeper on his last morning.",
+      "start_sample": 31345,
+      "end_sample": 67529,
+      "start_ms": 1959,
+      "end_ms": 4221
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He left a generous kokorozuke for the housekeeper on his last morning.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4388,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He left a generous",
+          "start_sample": 0,
+          "end_sample": 16028,
+          "start_ms": 0,
+          "end_ms": 1002
+        },
+        {
+          "lang": "ja",
+          "text": "心付け",
+          "start_sample": 16028,
+          "end_sample": 33820,
+          "start_ms": 1002,
+          "end_ms": 2114
+        },
+        {
+          "lang": "en",
+          "text": "for the housekeeper on his last morning.",
+          "start_sample": 33820,
+          "end_sample": 70204,
+          "start_ms": 2114,
+          "end_ms": 4388
+        }
+      ]
+    },
+    "ja": {
+      "text": "He left a generous 心付け for the housekeeper on his last morning.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4622,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He left a generous",
+          "start_sample": 0,
+          "end_sample": 17203,
+          "start_ms": 0,
+          "end_ms": 1075
+        },
+        {
+          "lang": "ja",
+          "text": "心付け",
+          "start_sample": 17203,
+          "end_sample": 33120,
+          "start_ms": 1075,
+          "end_ms": 2070
+        },
+        {
+          "lang": "en",
+          "text": "for the housekeeper on his last morning.",
+          "start_sample": 33120,
+          "end_sample": 73953,
+          "start_ms": 2070,
+          "end_ms": 4622
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 212,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

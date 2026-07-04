@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_017_11ec372417df/cs1611.flac",
+  "sentence": "I wrote down every 単語 from the vocabulary list and drilled them all weekend.",
+  "sample_rate": 16000,
+  "duration_ms": 5317,
+  "reference_speaker": "en/speaker_017_11ec372417df.mp3",
+  "seed": 1653,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I wrote down every",
+      "start_sample": 0,
+      "end_sample": 17782,
+      "start_ms": 0,
+      "end_ms": 1111
+    },
+    {
+      "lang": "ja",
+      "text": "単語",
+      "start_sample": 17782,
+      "end_sample": 32286,
+      "start_ms": 1111,
+      "end_ms": 2018
+    },
+    {
+      "lang": "en",
+      "text": "from the vocabulary list and drilled them all weekend.",
+      "start_sample": 32286,
+      "end_sample": 85077,
+      "start_ms": 2018,
+      "end_ms": 5317
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I wrote down every tango from the vocabulary list and drilled them all weekend.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4958,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I wrote down every",
+          "start_sample": 0,
+          "end_sample": 17982,
+          "start_ms": 0,
+          "end_ms": 1124
+        },
+        {
+          "lang": "ja",
+          "text": "単語",
+          "start_sample": 17982,
+          "end_sample": 26333,
+          "start_ms": 1124,
+          "end_ms": 1646
+        },
+        {
+          "lang": "en",
+          "text": "from the vocabulary list and drilled them all weekend.",
+          "start_sample": 26333,
+          "end_sample": 79324,
+          "start_ms": 1646,
+          "end_ms": 4958
+        }
+      ]
+    },
+    "ja": {
+      "text": "I wrote down every 単語 from the vocabulary list and drilled them all weekend.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6571,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I wrote down every",
+          "start_sample": 0,
+          "end_sample": 27404,
+          "start_ms": 0,
+          "end_ms": 1713
+        },
+        {
+          "lang": "ja",
+          "text": "単語",
+          "start_sample": 27404,
+          "end_sample": 42308,
+          "start_ms": 1713,
+          "end_ms": 2644
+        },
+        {
+          "lang": "en",
+          "text": "from the vocabulary list and drilled them all weekend.",
+          "start_sample": 42308,
+          "end_sample": 105131,
+          "start_ms": 2644,
+          "end_ms": 6571
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 266,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_060_be3496638824/cs1529.flac",
+  "sentence": "このお店のinteriorデザインはとてもおしゃれです。",
+  "sample_rate": 16000,
+  "duration_ms": 4549,
+  "reference_speaker": "en/speaker_060_be3496638824.mp3",
+  "seed": 1571,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このお店の",
+      "start_sample": 0,
+      "end_sample": 13586,
+      "start_ms": 0,
+      "end_ms": 849
+    },
+    {
+      "lang": "en",
+      "text": "interior",
+      "start_sample": 13586,
+      "end_sample": 32260,
+      "start_ms": 849,
+      "end_ms": 2016
+    },
+    {
+      "lang": "ja",
+      "text": "デザインはとてもおしゃれです。",
+      "start_sample": 32260,
+      "end_sample": 72778,
+      "start_ms": 2016,
+      "end_ms": 4549
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono o mise no interior dezain ha totemo oshare desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6671,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このお店の",
+          "start_sample": 0,
+          "end_sample": 36863,
+          "start_ms": 0,
+          "end_ms": 2304
+        },
+        {
+          "lang": "en",
+          "text": "interior",
+          "start_sample": 36863,
+          "end_sample": 55937,
+          "start_ms": 2304,
+          "end_ms": 3496
+        },
+        {
+          "lang": "ja",
+          "text": "デザインはとてもおしゃれです。",
+          "start_sample": 55937,
+          "end_sample": 106743,
+          "start_ms": 3496,
+          "end_ms": 6671
+        }
+      ]
+    },
+    "ja": {
+      "text": "このお店のinteriorデザインはとてもおしゃれです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4028,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このお店の",
+          "start_sample": 0,
+          "end_sample": 13786,
+          "start_ms": 0,
+          "end_ms": 862
+        },
+        {
+          "lang": "en",
+          "text": "interior",
+          "start_sample": 13786,
+          "end_sample": 23725,
+          "start_ms": 862,
+          "end_ms": 1483
+        },
+        {
+          "lang": "ja",
+          "text": "デザインはとてもおしゃれです。",
+          "start_sample": 23725,
+          "end_sample": 64443,
+          "start_ms": 1483,
+          "end_ms": 4028
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 228,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

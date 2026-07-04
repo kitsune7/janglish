@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_073_3c0d9d6a3b88/cs4949.flac",
+  "sentence": "明日の天気はclearになるって予報が言ってたよ。",
+  "sample_rate": 16000,
+  "duration_ms": 2580,
+  "reference_speaker": "en/speaker_073_3c0d9d6a3b88.mp3",
+  "seed": 4991,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "明日の天気は",
+      "start_sample": 0,
+      "end_sample": 12807,
+      "start_ms": 0,
+      "end_ms": 800
+    },
+    {
+      "lang": "en",
+      "text": "clear",
+      "start_sample": 12807,
+      "end_sample": 18991,
+      "start_ms": 800,
+      "end_ms": 1187
+    },
+    {
+      "lang": "ja",
+      "text": "になるって予報が言ってたよ。",
+      "start_sample": 18991,
+      "end_sample": 41275,
+      "start_ms": 1187,
+      "end_ms": 2580
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ashita no tenki ha clear ni naru tte yohou ga itsutsu te ta yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4716,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "明日の天気は",
+          "start_sample": 0,
+          "end_sample": 22478,
+          "start_ms": 0,
+          "end_ms": 1405
+        },
+        {
+          "lang": "en",
+          "text": "clear",
+          "start_sample": 22478,
+          "end_sample": 29062,
+          "start_ms": 1405,
+          "end_ms": 1816
+        },
+        {
+          "lang": "ja",
+          "text": "になるって予報が言ってたよ。",
+          "start_sample": 29062,
+          "end_sample": 75462,
+          "start_ms": 1816,
+          "end_ms": 4716
+        }
+      ]
+    },
+    "ja": {
+      "text": "明日の天気はclearになるって予報が言ってたよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2529,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "明日の天気は",
+          "start_sample": 0,
+          "end_sample": 13007,
+          "start_ms": 0,
+          "end_ms": 813
+        },
+        {
+          "lang": "en",
+          "text": "clear",
+          "start_sample": 13007,
+          "end_sample": 17986,
+          "start_ms": 813,
+          "end_ms": 1124
+        },
+        {
+          "lang": "ja",
+          "text": "になるって予報が言ってたよ。",
+          "start_sample": 17986,
+          "end_sample": 40470,
+          "start_ms": 1124,
+          "end_ms": 2529
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 129,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

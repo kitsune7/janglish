@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_067_07a7e7b35c3a/cs2993.flac",
+  "sentence": "The 染料 in that drugstore dye is too harsh for bleached hair.",
+  "sample_rate": 16000,
+  "duration_ms": 4624,
+  "reference_speaker": "jp/speaker_067_07a7e7b35c3a.mp3",
+  "seed": 3035,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 2206,
+      "start_ms": 0,
+      "end_ms": 138
+    },
+    {
+      "lang": "ja",
+      "text": "染料",
+      "start_sample": 2206,
+      "end_sample": 11774,
+      "start_ms": 138,
+      "end_ms": 736
+    },
+    {
+      "lang": "en",
+      "text": "in that drugstore dye is too harsh for bleached hair.",
+      "start_sample": 11774,
+      "end_sample": 73977,
+      "start_ms": 736,
+      "end_ms": 4624
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The senryou in that drugstore dye is too harsh for bleached hair.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4893,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2406,
+          "start_ms": 0,
+          "end_ms": 150
+        },
+        {
+          "lang": "ja",
+          "text": "染料",
+          "start_sample": 2406,
+          "end_sample": 15882,
+          "start_ms": 150,
+          "end_ms": 993
+        },
+        {
+          "lang": "en",
+          "text": "in that drugstore dye is too harsh for bleached hair.",
+          "start_sample": 15882,
+          "end_sample": 78285,
+          "start_ms": 993,
+          "end_ms": 4893
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 染料 in that drugstore dye is too harsh for bleached hair.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4502,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2733,
+          "start_ms": 0,
+          "end_ms": 171
+        },
+        {
+          "lang": "ja",
+          "text": "染料",
+          "start_sample": 2733,
+          "end_sample": 12701,
+          "start_ms": 171,
+          "end_ms": 794
+        },
+        {
+          "lang": "en",
+          "text": "in that drugstore dye is too harsh for bleached hair.",
+          "start_sample": 12701,
+          "end_sample": 72024,
+          "start_ms": 794,
+          "end_ms": 4502
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 232,
+  "frame_labels": "eeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

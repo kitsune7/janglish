@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_088_9950f069efac/cs531.flac",
+  "sentence": "彼はprojectの経験を具体的に説明することができた。",
+  "sample_rate": 16000,
+  "duration_ms": 4354,
+  "reference_speaker": "en/speaker_088_9950f069efac.mp3",
+  "seed": 573,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼は",
+      "start_sample": 0,
+      "end_sample": 7647,
+      "start_ms": 0,
+      "end_ms": 478
+    },
+    {
+      "lang": "en",
+      "text": "project",
+      "start_sample": 7647,
+      "end_sample": 20862,
+      "start_ms": 478,
+      "end_ms": 1304
+    },
+    {
+      "lang": "ja",
+      "text": "の経験を具体的に説明することができた。",
+      "start_sample": 20862,
+      "end_sample": 69669,
+      "start_ms": 1304,
+      "end_ms": 4354
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha project no keiken wo gutai teki ni setsumei suru koto ga deki ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 11973,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 44047,
+          "start_ms": 0,
+          "end_ms": 2753
+        },
+        {
+          "lang": "en",
+          "text": "project",
+          "start_sample": 44047,
+          "end_sample": 57662,
+          "start_ms": 2753,
+          "end_ms": 3604
+        },
+        {
+          "lang": "ja",
+          "text": "の経験を具体的に説明することができた。",
+          "start_sample": 57662,
+          "end_sample": 191567,
+          "start_ms": 3604,
+          "end_ms": 11973
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はprojectの経験を具体的に説明することができた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4244,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼は",
+          "start_sample": 0,
+          "end_sample": 7847,
+          "start_ms": 0,
+          "end_ms": 490
+        },
+        {
+          "lang": "en",
+          "text": "project",
+          "start_sample": 7847,
+          "end_sample": 18898,
+          "start_ms": 490,
+          "end_ms": 1181
+        },
+        {
+          "lang": "ja",
+          "text": "の経験を具体的に説明することができた。",
+          "start_sample": 18898,
+          "end_sample": 67905,
+          "start_ms": 1181,
+          "end_ms": 4244
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

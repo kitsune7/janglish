@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_012_14fe5dfafe10/cs7066.flac",
+  "sentence": "I've been drinking warm 生姜 tea every morning to help with my cough.",
+  "sample_rate": 16000,
+  "duration_ms": 3378,
+  "reference_speaker": "jp/speaker_012_14fe5dfafe10.mp3",
+  "seed": 7108,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I've been drinking warm",
+      "start_sample": 0,
+      "end_sample": 17757,
+      "start_ms": 0,
+      "end_ms": 1110
+    },
+    {
+      "lang": "ja",
+      "text": "生姜",
+      "start_sample": 17757,
+      "end_sample": 24898,
+      "start_ms": 1110,
+      "end_ms": 1556
+    },
+    {
+      "lang": "en",
+      "text": "tea every morning to help with my cough.",
+      "start_sample": 24898,
+      "end_sample": 54041,
+      "start_ms": 1556,
+      "end_ms": 3378
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I've been drinking warm shouga tea every morning to help with my cough.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3347,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've been drinking warm",
+          "start_sample": 0,
+          "end_sample": 17957,
+          "start_ms": 0,
+          "end_ms": 1122
+        },
+        {
+          "lang": "ja",
+          "text": "生姜",
+          "start_sample": 17957,
+          "end_sample": 24210,
+          "start_ms": 1122,
+          "end_ms": 1513
+        },
+        {
+          "lang": "en",
+          "text": "tea every morning to help with my cough.",
+          "start_sample": 24210,
+          "end_sample": 53553,
+          "start_ms": 1513,
+          "end_ms": 3347
+        }
+      ]
+    },
+    "ja": {
+      "text": "I've been drinking warm 生姜 tea every morning to help with my cough.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4833,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I've been drinking warm",
+          "start_sample": 0,
+          "end_sample": 23584,
+          "start_ms": 0,
+          "end_ms": 1474
+        },
+        {
+          "lang": "ja",
+          "text": "生姜",
+          "start_sample": 23584,
+          "end_sample": 31125,
+          "start_ms": 1474,
+          "end_ms": 1945
+        },
+        {
+          "lang": "en",
+          "text": "tea every morning to help with my cough.",
+          "start_sample": 31125,
+          "end_sample": 77333,
+          "start_ms": 1945,
+          "end_ms": 4833
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 169,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

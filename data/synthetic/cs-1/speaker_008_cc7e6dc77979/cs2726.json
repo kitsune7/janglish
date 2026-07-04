@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_008_cc7e6dc77979/cs2726.flac",
+  "sentence": "The place was so 人気 that even on a Monday night there was a line outside.",
+  "sample_rate": 16000,
+  "duration_ms": 4339,
+  "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 2768,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The place was so",
+      "start_sample": 0,
+      "end_sample": 10703,
+      "start_ms": 0,
+      "end_ms": 669
+    },
+    {
+      "lang": "ja",
+      "text": "人気",
+      "start_sample": 10703,
+      "end_sample": 24882,
+      "start_ms": 669,
+      "end_ms": 1555
+    },
+    {
+      "lang": "en",
+      "text": "that even on a Monday night there was a line outside.",
+      "start_sample": 24882,
+      "end_sample": 69417,
+      "start_ms": 1555,
+      "end_ms": 4339
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The place was so ninki that even on a Monday night there was a line outside.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4189,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The place was so",
+          "start_sample": 0,
+          "end_sample": 10903,
+          "start_ms": 0,
+          "end_ms": 681
+        },
+        {
+          "lang": "ja",
+          "text": "人気",
+          "start_sample": 10903,
+          "end_sample": 22287,
+          "start_ms": 681,
+          "end_ms": 1393
+        },
+        {
+          "lang": "en",
+          "text": "that even on a Monday night there was a line outside.",
+          "start_sample": 22287,
+          "end_sample": 67022,
+          "start_ms": 1393,
+          "end_ms": 4189
+        }
+      ]
+    },
+    "ja": {
+      "text": "The place was so 人気 that even on a Monday night there was a line outside.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6008,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The place was so",
+          "start_sample": 0,
+          "end_sample": 19063,
+          "start_ms": 0,
+          "end_ms": 1191
+        },
+        {
+          "lang": "ja",
+          "text": "人気",
+          "start_sample": 19063,
+          "end_sample": 33642,
+          "start_ms": 1191,
+          "end_ms": 2103
+        },
+        {
+          "lang": "en",
+          "text": "that even on a Monday night there was a line outside.",
+          "start_sample": 33642,
+          "end_sample": 96122,
+          "start_ms": 2103,
+          "end_ms": 6008
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 217,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

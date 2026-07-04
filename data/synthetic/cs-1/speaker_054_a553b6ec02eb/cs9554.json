@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_054_a553b6ec02eb/cs9554.flac",
+  "sentence": "電波が弱くてvoiceがぶつぶつ途切れていた。",
+  "sample_rate": 16000,
+  "duration_ms": 2598,
+  "reference_speaker": "jp/speaker_054_a553b6ec02eb.mp3",
+  "seed": 9596,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "電波が弱くて",
+      "start_sample": 0,
+      "end_sample": 15691,
+      "start_ms": 0,
+      "end_ms": 981
+    },
+    {
+      "lang": "en",
+      "text": "voice",
+      "start_sample": 15691,
+      "end_sample": 21056,
+      "start_ms": 981,
+      "end_ms": 1316
+    },
+    {
+      "lang": "ja",
+      "text": "がぶつぶつ途切れていた。",
+      "start_sample": 21056,
+      "end_sample": 41561,
+      "start_ms": 1316,
+      "end_ms": 2598
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "denpa ga yowaku te voice ga butsubutsu togire te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5585,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "電波が弱くて",
+          "start_sample": 0,
+          "end_sample": 40196,
+          "start_ms": 0,
+          "end_ms": 2512
+        },
+        {
+          "lang": "en",
+          "text": "voice",
+          "start_sample": 40196,
+          "end_sample": 45961,
+          "start_ms": 2512,
+          "end_ms": 2873
+        },
+        {
+          "lang": "ja",
+          "text": "がぶつぶつ途切れていた。",
+          "start_sample": 45961,
+          "end_sample": 89360,
+          "start_ms": 2873,
+          "end_ms": 5585
+        }
+      ]
+    },
+    "ja": {
+      "text": "電波が弱くてvoiceがぶつぶつ途切れていた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2688,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "電波が弱くて",
+          "start_sample": 0,
+          "end_sample": 15891,
+          "start_ms": 0,
+          "end_ms": 993
+        },
+        {
+          "lang": "en",
+          "text": "voice",
+          "start_sample": 15891,
+          "end_sample": 22311,
+          "start_ms": 993,
+          "end_ms": 1394
+        },
+        {
+          "lang": "ja",
+          "text": "がぶつぶつ途切れていた。",
+          "start_sample": 22311,
+          "end_sample": 43016,
+          "start_ms": 1394,
+          "end_ms": 2688
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 130,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

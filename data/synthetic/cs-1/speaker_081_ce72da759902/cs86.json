@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_081_ce72da759902/cs86.flac",
+  "sentence": "We finally found a 日陰 corner where the ferns are actually thriving.",
+  "sample_rate": 16000,
+  "duration_ms": 4172,
+  "reference_speaker": "en/speaker_081_ce72da759902.mp3",
+  "seed": 128,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We finally found a",
+      "start_sample": 0,
+      "end_sample": 15891,
+      "start_ms": 0,
+      "end_ms": 993
+    },
+    {
+      "lang": "ja",
+      "text": "日陰",
+      "start_sample": 15891,
+      "end_sample": 22865,
+      "start_ms": 993,
+      "end_ms": 1429
+    },
+    {
+      "lang": "en",
+      "text": "corner where the ferns are actually thriving.",
+      "start_sample": 22865,
+      "end_sample": 66750,
+      "start_ms": 1429,
+      "end_ms": 4172
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We finally found a hikage corner where the ferns are actually thriving.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4123,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We finally found a",
+          "start_sample": 0,
+          "end_sample": 16091,
+          "start_ms": 0,
+          "end_ms": 1006
+        },
+        {
+          "lang": "ja",
+          "text": "日陰",
+          "start_sample": 16091,
+          "end_sample": 21884,
+          "start_ms": 1006,
+          "end_ms": 1368
+        },
+        {
+          "lang": "en",
+          "text": "corner where the ferns are actually thriving.",
+          "start_sample": 21884,
+          "end_sample": 65969,
+          "start_ms": 1368,
+          "end_ms": 4123
+        }
+      ]
+    },
+    "ja": {
+      "text": "We finally found a 日陰 corner where the ferns are actually thriving.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5110,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We finally found a",
+          "start_sample": 0,
+          "end_sample": 20839,
+          "start_ms": 0,
+          "end_ms": 1302
+        },
+        {
+          "lang": "ja",
+          "text": "日陰",
+          "start_sample": 20839,
+          "end_sample": 28213,
+          "start_ms": 1302,
+          "end_ms": 1763
+        },
+        {
+          "lang": "en",
+          "text": "corner where the ferns are actually thriving.",
+          "start_sample": 28213,
+          "end_sample": 81757,
+          "start_ms": 1763,
+          "end_ms": 5110
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 209,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

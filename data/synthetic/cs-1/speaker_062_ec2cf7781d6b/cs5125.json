@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_062_ec2cf7781d6b/cs5125.flac",
+  "sentence": "She ordered a 生ビール and immediately looked more relaxed.",
+  "sample_rate": 16000,
+  "duration_ms": 3324,
+  "reference_speaker": "jp/speaker_062_ec2cf7781d6b.mp3",
+  "seed": 5167,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She ordered a",
+      "start_sample": 0,
+      "end_sample": 9603,
+      "start_ms": 0,
+      "end_ms": 600
+    },
+    {
+      "lang": "ja",
+      "text": "生ビール",
+      "start_sample": 9603,
+      "end_sample": 21892,
+      "start_ms": 600,
+      "end_ms": 1368
+    },
+    {
+      "lang": "en",
+      "text": "and immediately looked more relaxed.",
+      "start_sample": 21892,
+      "end_sample": 53188,
+      "start_ms": 1368,
+      "end_ms": 3324
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She ordered a nama biiru and immediately looked more relaxed.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3535,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She ordered a",
+          "start_sample": 0,
+          "end_sample": 9803,
+          "start_ms": 0,
+          "end_ms": 613
+        },
+        {
+          "lang": "ja",
+          "text": "生ビール",
+          "start_sample": 9803,
+          "end_sample": 25070,
+          "start_ms": 613,
+          "end_ms": 1567
+        },
+        {
+          "lang": "en",
+          "text": "and immediately looked more relaxed.",
+          "start_sample": 25070,
+          "end_sample": 56566,
+          "start_ms": 1567,
+          "end_ms": 3535
+        }
+      ]
+    },
+    "ja": {
+      "text": "She ordered a 生ビール and immediately looked more relaxed.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3654,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She ordered a",
+          "start_sample": 0,
+          "end_sample": 10280,
+          "start_ms": 0,
+          "end_ms": 642
+        },
+        {
+          "lang": "ja",
+          "text": "生ビール",
+          "start_sample": 10280,
+          "end_sample": 22969,
+          "start_ms": 642,
+          "end_ms": 1436
+        },
+        {
+          "lang": "en",
+          "text": "and immediately looked more relaxed.",
+          "start_sample": 22969,
+          "end_sample": 58464,
+          "start_ms": 1436,
+          "end_ms": 3654
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 167,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

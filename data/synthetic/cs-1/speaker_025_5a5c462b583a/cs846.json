@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_025_5a5c462b583a/cs846.flac",
+  "sentence": "部屋からのmountain viewが予想以上に素晴らしかったです。",
+  "sample_rate": 16000,
+  "duration_ms": 3329,
+  "reference_speaker": "en/speaker_025_5a5c462b583a.mp3",
+  "seed": 888,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "部屋からの",
+      "start_sample": 0,
+      "end_sample": 8301,
+      "start_ms": 0,
+      "end_ms": 519
+    },
+    {
+      "lang": "en",
+      "text": "mountain view",
+      "start_sample": 8301,
+      "end_sample": 20579,
+      "start_ms": 519,
+      "end_ms": 1286
+    },
+    {
+      "lang": "ja",
+      "text": "が予想以上に素晴らしかったです。",
+      "start_sample": 20579,
+      "end_sample": 53261,
+      "start_ms": 1286,
+      "end_ms": 3329
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "heya kara no mountain view ga yosou ijou ni subarashikatsu ta desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7282,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "部屋からの",
+          "start_sample": 0,
+          "end_sample": 25676,
+          "start_ms": 0,
+          "end_ms": 1605
+        },
+        {
+          "lang": "en",
+          "text": "mountain view",
+          "start_sample": 25676,
+          "end_sample": 38354,
+          "start_ms": 1605,
+          "end_ms": 2397
+        },
+        {
+          "lang": "ja",
+          "text": "が予想以上に素晴らしかったです。",
+          "start_sample": 38354,
+          "end_sample": 116506,
+          "start_ms": 2397,
+          "end_ms": 7282
+        }
+      ]
+    },
+    "ja": {
+      "text": "部屋からのmountain viewが予想以上に素晴らしかったです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3308,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "部屋からの",
+          "start_sample": 0,
+          "end_sample": 8501,
+          "start_ms": 0,
+          "end_ms": 531
+        },
+        {
+          "lang": "en",
+          "text": "mountain view",
+          "start_sample": 8501,
+          "end_sample": 20051,
+          "start_ms": 531,
+          "end_ms": 1253
+        },
+        {
+          "lang": "ja",
+          "text": "が予想以上に素晴らしかったです。",
+          "start_sample": 20051,
+          "end_sample": 52933,
+          "start_ms": 1253,
+          "end_ms": 3308
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 167,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

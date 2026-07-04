@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_005_e790d1a6d652/cs7021.flac",
+  "sentence": "We stood in the 最前列 and could literally feel the bass in our chests.",
+  "sample_rate": 16000,
+  "duration_ms": 4675,
+  "reference_speaker": "en/speaker_005_e790d1a6d652.mp3",
+  "seed": 7063,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We stood in the",
+      "start_sample": 0,
+      "end_sample": 10530,
+      "start_ms": 0,
+      "end_ms": 658
+    },
+    {
+      "lang": "ja",
+      "text": "最前列",
+      "start_sample": 10530,
+      "end_sample": 25187,
+      "start_ms": 658,
+      "end_ms": 1574
+    },
+    {
+      "lang": "en",
+      "text": "and could literally feel the bass in our chests.",
+      "start_sample": 25187,
+      "end_sample": 74794,
+      "start_ms": 1574,
+      "end_ms": 4675
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We stood in the sai zenretsu and could literally feel the bass in our chests.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5325,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We stood in the",
+          "start_sample": 0,
+          "end_sample": 10730,
+          "start_ms": 0,
+          "end_ms": 671
+        },
+        {
+          "lang": "ja",
+          "text": "最前列",
+          "start_sample": 10730,
+          "end_sample": 35393,
+          "start_ms": 671,
+          "end_ms": 2212
+        },
+        {
+          "lang": "en",
+          "text": "and could literally feel the bass in our chests.",
+          "start_sample": 35393,
+          "end_sample": 85200,
+          "start_ms": 2212,
+          "end_ms": 5325
+        }
+      ]
+    },
+    "ja": {
+      "text": "We stood in the 最前列 and could literally feel the bass in our chests.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5906,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We stood in the",
+          "start_sample": 0,
+          "end_sample": 15215,
+          "start_ms": 0,
+          "end_ms": 951
+        },
+        {
+          "lang": "ja",
+          "text": "最前列",
+          "start_sample": 15215,
+          "end_sample": 30272,
+          "start_ms": 951,
+          "end_ms": 1892
+        },
+        {
+          "lang": "en",
+          "text": "and could literally feel the bass in our chests.",
+          "start_sample": 30272,
+          "end_sample": 94501,
+          "start_ms": 1892,
+          "end_ms": 5906
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 234,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

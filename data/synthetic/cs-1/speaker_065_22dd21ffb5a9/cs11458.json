@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_065_22dd21ffb5a9/cs11458.flac",
+  "sentence": "We painted the 柱 in the entryway white to brighten up the space.",
+  "sample_rate": 16000,
+  "duration_ms": 5458,
+  "reference_speaker": "en/speaker_065_22dd21ffb5a9.mp3",
+  "seed": 11500,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We painted the",
+      "start_sample": 0,
+      "end_sample": 15019,
+      "start_ms": 0,
+      "end_ms": 939
+    },
+    {
+      "lang": "ja",
+      "text": "柱",
+      "start_sample": 15019,
+      "end_sample": 25523,
+      "start_ms": 939,
+      "end_ms": 1595
+    },
+    {
+      "lang": "en",
+      "text": "in the entryway white to brighten up the space.",
+      "start_sample": 25523,
+      "end_sample": 87326,
+      "start_ms": 1595,
+      "end_ms": 5458
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We painted the hashira in the entryway white to brighten up the space.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5788,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We painted the",
+          "start_sample": 0,
+          "end_sample": 15219,
+          "start_ms": 0,
+          "end_ms": 951
+        },
+        {
+          "lang": "ja",
+          "text": "柱",
+          "start_sample": 15219,
+          "end_sample": 30600,
+          "start_ms": 951,
+          "end_ms": 1912
+        },
+        {
+          "lang": "en",
+          "text": "in the entryway white to brighten up the space.",
+          "start_sample": 30600,
+          "end_sample": 92603,
+          "start_ms": 1912,
+          "end_ms": 5788
+        }
+      ]
+    },
+    "ja": {
+      "text": "We painted the 柱 in the entryway white to brighten up the space.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6314,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We painted the",
+          "start_sample": 0,
+          "end_sample": 18921,
+          "start_ms": 0,
+          "end_ms": 1183
+        },
+        {
+          "lang": "ja",
+          "text": "柱",
+          "start_sample": 18921,
+          "end_sample": 29825,
+          "start_ms": 1183,
+          "end_ms": 1864
+        },
+        {
+          "lang": "en",
+          "text": "in the entryway white to brighten up the space.",
+          "start_sample": 29825,
+          "end_sample": 101021,
+          "start_ms": 1864,
+          "end_ms": 6314
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 273,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

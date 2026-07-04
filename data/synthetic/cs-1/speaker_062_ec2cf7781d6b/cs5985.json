@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_062_ec2cf7781d6b/cs5985.flac",
+  "sentence": "バスのdriverが丁寧に道を教えてくれた。",
+  "sample_rate": 16000,
+  "duration_ms": 3165,
+  "reference_speaker": "jp/speaker_062_ec2cf7781d6b.mp3",
+  "seed": 6027,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "バスの",
+      "start_sample": 0,
+      "end_sample": 5430,
+      "start_ms": 0,
+      "end_ms": 339
+    },
+    {
+      "lang": "en",
+      "text": "driver",
+      "start_sample": 5430,
+      "end_sample": 17383,
+      "start_ms": 339,
+      "end_ms": 1086
+    },
+    {
+      "lang": "ja",
+      "text": "が丁寧に道を教えてくれた。",
+      "start_sample": 17383,
+      "end_sample": 50642,
+      "start_ms": 1086,
+      "end_ms": 3165
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "basu no driver ga teinei ni michi wo oshie te kure ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4752,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "バスの",
+          "start_sample": 0,
+          "end_sample": 10587,
+          "start_ms": 0,
+          "end_ms": 662
+        },
+        {
+          "lang": "en",
+          "text": "driver",
+          "start_sample": 10587,
+          "end_sample": 22940,
+          "start_ms": 662,
+          "end_ms": 1434
+        },
+        {
+          "lang": "ja",
+          "text": "が丁寧に道を教えてくれた。",
+          "start_sample": 22940,
+          "end_sample": 76039,
+          "start_ms": 1434,
+          "end_ms": 4752
+        }
+      ]
+    },
+    "ja": {
+      "text": "バスのdriverが丁寧に道を教えてくれた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3016,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "バスの",
+          "start_sample": 0,
+          "end_sample": 5630,
+          "start_ms": 0,
+          "end_ms": 352
+        },
+        {
+          "lang": "en",
+          "text": "driver",
+          "start_sample": 5630,
+          "end_sample": 14800,
+          "start_ms": 352,
+          "end_ms": 925
+        },
+        {
+          "lang": "ja",
+          "text": "が丁寧に道を教えてくれた。",
+          "start_sample": 14800,
+          "end_sample": 48259,
+          "start_ms": 925,
+          "end_ms": 3016
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "jjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_008_925570fa5738/cs6792.flac",
+  "sentence": "I practiced my answers 何度も in front of the mirror the morning of.",
+  "sample_rate": 16000,
+  "duration_ms": 6466,
+  "reference_speaker": "jp/speaker_008_925570fa5738.mp3",
+  "seed": 6834,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I practiced my answers",
+      "start_sample": 0,
+      "end_sample": 50246,
+      "start_ms": 0,
+      "end_ms": 3140
+    },
+    {
+      "lang": "ja",
+      "text": "何度も",
+      "start_sample": 50246,
+      "end_sample": 63144,
+      "start_ms": 3140,
+      "end_ms": 3946
+    },
+    {
+      "lang": "en",
+      "text": "in front of the mirror the morning of.",
+      "start_sample": 63144,
+      "end_sample": 103462,
+      "start_ms": 3946,
+      "end_ms": 6466
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I practiced my answers nani do mo in front of the mirror the morning of.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6886,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I practiced my answers",
+          "start_sample": 0,
+          "end_sample": 50446,
+          "start_ms": 0,
+          "end_ms": 3153
+        },
+        {
+          "lang": "ja",
+          "text": "何度も",
+          "start_sample": 50446,
+          "end_sample": 69664,
+          "start_ms": 3153,
+          "end_ms": 4354
+        },
+        {
+          "lang": "en",
+          "text": "in front of the mirror the morning of.",
+          "start_sample": 69664,
+          "end_sample": 110182,
+          "start_ms": 4354,
+          "end_ms": 6886
+        }
+      ]
+    },
+    "ja": {
+      "text": "I practiced my answers 何度も in front of the mirror the morning of.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5828,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I practiced my answers",
+          "start_sample": 0,
+          "end_sample": 28517,
+          "start_ms": 0,
+          "end_ms": 1782
+        },
+        {
+          "lang": "ja",
+          "text": "何度も",
+          "start_sample": 28517,
+          "end_sample": 41815,
+          "start_ms": 1782,
+          "end_ms": 2613
+        },
+        {
+          "lang": "en",
+          "text": "in front of the mirror the morning of.",
+          "start_sample": 41815,
+          "end_sample": 93244,
+          "start_ms": 2613,
+          "end_ms": 5828
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 324,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

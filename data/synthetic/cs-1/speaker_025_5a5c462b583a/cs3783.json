@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_025_5a5c462b583a/cs3783.flac",
+  "sentence": "Can you check if the 焦点 is sharp on the subject's eyes?",
+  "sample_rate": 16000,
+  "duration_ms": 3096,
+  "reference_speaker": "en/speaker_025_5a5c462b583a.mp3",
+  "seed": 3825,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you check if the",
+      "start_sample": 0,
+      "end_sample": 13474,
+      "start_ms": 0,
+      "end_ms": 842
+    },
+    {
+      "lang": "ja",
+      "text": "焦点",
+      "start_sample": 13474,
+      "end_sample": 24636,
+      "start_ms": 842,
+      "end_ms": 1540
+    },
+    {
+      "lang": "en",
+      "text": "is sharp on the subject's eyes?",
+      "start_sample": 24636,
+      "end_sample": 49529,
+      "start_ms": 1540,
+      "end_ms": 3096
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you check if the shouten is sharp on the subject's eyes?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2916,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you check if the",
+          "start_sample": 0,
+          "end_sample": 13674,
+          "start_ms": 0,
+          "end_ms": 855
+        },
+        {
+          "lang": "ja",
+          "text": "焦点",
+          "start_sample": 13674,
+          "end_sample": 21557,
+          "start_ms": 855,
+          "end_ms": 1347
+        },
+        {
+          "lang": "en",
+          "text": "is sharp on the subject's eyes?",
+          "start_sample": 21557,
+          "end_sample": 46650,
+          "start_ms": 1347,
+          "end_ms": 2916
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you check if the 焦点 is sharp on the subject's eyes?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5760,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you check if the",
+          "start_sample": 0,
+          "end_sample": 22961,
+          "start_ms": 0,
+          "end_ms": 1435
+        },
+        {
+          "lang": "ja",
+          "text": "焦点",
+          "start_sample": 22961,
+          "end_sample": 34523,
+          "start_ms": 1435,
+          "end_ms": 2158
+        },
+        {
+          "lang": "en",
+          "text": "is sharp on the subject's eyes?",
+          "start_sample": 34523,
+          "end_sample": 92167,
+          "start_ms": 2158,
+          "end_ms": 5760
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 155,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

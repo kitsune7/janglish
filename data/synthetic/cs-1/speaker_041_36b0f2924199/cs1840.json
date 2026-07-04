@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_041_36b0f2924199/cs1840.flac",
+  "sentence": "このcheesecakeはバターの量が多すぎる気がする。",
+  "sample_rate": 16000,
+  "duration_ms": 3576,
+  "reference_speaker": "jp/speaker_041_36b0f2924199.mp3",
+  "seed": 1882,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 3499,
+      "start_ms": 0,
+      "end_ms": 219
+    },
+    {
+      "lang": "en",
+      "text": "cheesecake",
+      "start_sample": 3499,
+      "end_sample": 21223,
+      "start_ms": 219,
+      "end_ms": 1326
+    },
+    {
+      "lang": "ja",
+      "text": "はバターの量が多すぎる気がする。",
+      "start_sample": 21223,
+      "end_sample": 57216,
+      "start_ms": 1326,
+      "end_ms": 3576
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono cheesecake ha bataa no ryou ga ta sugiru ki ga suru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7478,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 6255,
+          "start_ms": 0,
+          "end_ms": 391
+        },
+        {
+          "lang": "en",
+          "text": "cheesecake",
+          "start_sample": 6255,
+          "end_sample": 24379,
+          "start_ms": 391,
+          "end_ms": 1524
+        },
+        {
+          "lang": "ja",
+          "text": "はバターの量が多すぎる気がする。",
+          "start_sample": 24379,
+          "end_sample": 119649,
+          "start_ms": 1524,
+          "end_ms": 7478
+        }
+      ]
+    },
+    "ja": {
+      "text": "このcheesecakeはバターの量が多すぎる気がする。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3056,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 3699,
+          "start_ms": 0,
+          "end_ms": 231
+        },
+        {
+          "lang": "en",
+          "text": "cheesecake",
+          "start_sample": 3699,
+          "end_sample": 12709,
+          "start_ms": 231,
+          "end_ms": 794
+        },
+        {
+          "lang": "ja",
+          "text": "はバターの量が多すぎる気がする。",
+          "start_sample": 12709,
+          "end_sample": 48902,
+          "start_ms": 794,
+          "end_ms": 3056
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 179,
+  "frame_labels": "jjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

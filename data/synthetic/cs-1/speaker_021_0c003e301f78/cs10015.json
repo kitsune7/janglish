@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_021_0c003e301f78/cs10015.flac",
+  "sentence": "Why do you always feel 恥ずかしい when someone praises you in public?",
+  "sample_rate": 16000,
+  "duration_ms": 4480,
+  "reference_speaker": "en/speaker_021_0c003e301f78.mp3",
+  "seed": 10057,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Why do you always feel",
+      "start_sample": 0,
+      "end_sample": 20167,
+      "start_ms": 0,
+      "end_ms": 1260
+    },
+    {
+      "lang": "ja",
+      "text": "恥ずかしい",
+      "start_sample": 20167,
+      "end_sample": 39799,
+      "start_ms": 1260,
+      "end_ms": 2487
+    },
+    {
+      "lang": "en",
+      "text": "when someone praises you in public?",
+      "start_sample": 39799,
+      "end_sample": 71672,
+      "start_ms": 2487,
+      "end_ms": 4480
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Why do you always feel hazukashii when someone praises you in public?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4450,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Why do you always feel",
+          "start_sample": 0,
+          "end_sample": 20367,
+          "start_ms": 0,
+          "end_ms": 1273
+        },
+        {
+          "lang": "ja",
+          "text": "恥ずかしい",
+          "start_sample": 20367,
+          "end_sample": 39130,
+          "start_ms": 1273,
+          "end_ms": 2446
+        },
+        {
+          "lang": "en",
+          "text": "when someone praises you in public?",
+          "start_sample": 39130,
+          "end_sample": 71203,
+          "start_ms": 2446,
+          "end_ms": 4450
+        }
+      ]
+    },
+    "ja": {
+      "text": "Why do you always feel 恥ずかしい when someone praises you in public?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5529,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Why do you always feel",
+          "start_sample": 0,
+          "end_sample": 26763,
+          "start_ms": 0,
+          "end_ms": 1673
+        },
+        {
+          "lang": "ja",
+          "text": "恥ずかしい",
+          "start_sample": 26763,
+          "end_sample": 46795,
+          "start_ms": 1673,
+          "end_ms": 2925
+        },
+        {
+          "lang": "en",
+          "text": "when someone praises you in public?",
+          "start_sample": 46795,
+          "end_sample": 88461,
+          "start_ms": 2925,
+          "end_ms": 5529
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 224,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

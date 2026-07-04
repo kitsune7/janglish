@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_083_60e45fe6f2e9/cs2909.flac",
+  "sentence": "The lag was so 深刻 last night that I just gave up on ranked.",
+  "sample_rate": 16000,
+  "duration_ms": 4609,
+  "reference_speaker": "en/speaker_083_60e45fe6f2e9.mp3",
+  "seed": 2951,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The lag was so",
+      "start_sample": 0,
+      "end_sample": 17149,
+      "start_ms": 0,
+      "end_ms": 1072
+    },
+    {
+      "lang": "ja",
+      "text": "深刻",
+      "start_sample": 17149,
+      "end_sample": 27192,
+      "start_ms": 1072,
+      "end_ms": 1700
+    },
+    {
+      "lang": "en",
+      "text": "last night that I just gave up on ranked.",
+      "start_sample": 27192,
+      "end_sample": 73737,
+      "start_ms": 1700,
+      "end_ms": 4609
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The lag was so shinkoku last night that I just gave up on ranked.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4799,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The lag was so",
+          "start_sample": 0,
+          "end_sample": 17349,
+          "start_ms": 0,
+          "end_ms": 1084
+        },
+        {
+          "lang": "ja",
+          "text": "深刻",
+          "start_sample": 17349,
+          "end_sample": 30040,
+          "start_ms": 1084,
+          "end_ms": 1878
+        },
+        {
+          "lang": "en",
+          "text": "last night that I just gave up on ranked.",
+          "start_sample": 30040,
+          "end_sample": 76785,
+          "start_ms": 1878,
+          "end_ms": 4799
+        }
+      ]
+    },
+    "ja": {
+      "text": "The lag was so 深刻 last night that I just gave up on ranked.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4257,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The lag was so",
+          "start_sample": 0,
+          "end_sample": 16385,
+          "start_ms": 0,
+          "end_ms": 1024
+        },
+        {
+          "lang": "ja",
+          "text": "深刻",
+          "start_sample": 16385,
+          "end_sample": 26828,
+          "start_ms": 1024,
+          "end_ms": 1677
+        },
+        {
+          "lang": "en",
+          "text": "last night that I just gave up on ranked.",
+          "start_sample": 26828,
+          "end_sample": 68110,
+          "start_ms": 1677,
+          "end_ms": 4257
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 231,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

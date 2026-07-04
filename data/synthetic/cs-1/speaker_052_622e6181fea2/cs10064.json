@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_052_622e6181fea2/cs10064.flac",
+  "sentence": "このfirmwareを更新しないと、セキュリティリスクがありますよ。",
+  "sample_rate": 16000,
+  "duration_ms": 3392,
+  "reference_speaker": "en/speaker_052_622e6181fea2.mp3",
+  "seed": 10106,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 2056,
+      "start_ms": 0,
+      "end_ms": 128
+    },
+    {
+      "lang": "en",
+      "text": "firmware",
+      "start_sample": 2056,
+      "end_sample": 16095,
+      "start_ms": 128,
+      "end_ms": 1006
+    },
+    {
+      "lang": "ja",
+      "text": "を更新しないと、セキュリティリスクがありますよ。",
+      "start_sample": 16095,
+      "end_sample": 54265,
+      "start_ms": 1006,
+      "end_ms": 3392
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono firmware wo koushin shi nai to sekyuritei risuku ga ari masu yo",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8442,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 5132,
+          "start_ms": 0,
+          "end_ms": 321
+        },
+        {
+          "lang": "en",
+          "text": "firmware",
+          "start_sample": 5132,
+          "end_sample": 19571,
+          "start_ms": 321,
+          "end_ms": 1223
+        },
+        {
+          "lang": "ja",
+          "text": "を更新しないと、セキュリティリスクがありますよ。",
+          "start_sample": 19571,
+          "end_sample": 135070,
+          "start_ms": 1223,
+          "end_ms": 8442
+        }
+      ]
+    },
+    "ja": {
+      "text": "このfirmwareを更新しないと、セキュリティリスクがありますよ。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2983,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 2256,
+          "start_ms": 0,
+          "end_ms": 141
+        },
+        {
+          "lang": "en",
+          "text": "firmware",
+          "start_sample": 2256,
+          "end_sample": 9351,
+          "start_ms": 141,
+          "end_ms": 584
+        },
+        {
+          "lang": "ja",
+          "text": "を更新しないと、セキュリティリスクがありますよ。",
+          "start_sample": 9351,
+          "end_sample": 47721,
+          "start_ms": 584,
+          "end_ms": 2983
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 170,
+  "frame_labels": "jjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_067_3f15e2fece31/cs6011.flac",
+  "sentence": "Please try to fold the 着物 sleeves carefully before packing them away.",
+  "sample_rate": 16000,
+  "duration_ms": 4436,
+  "reference_speaker": "en/speaker_067_3f15e2fece31.mp3",
+  "seed": 6053,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Please try to fold the",
+      "start_sample": 0,
+      "end_sample": 18222,
+      "start_ms": 0,
+      "end_ms": 1139
+    },
+    {
+      "lang": "ja",
+      "text": "着物",
+      "start_sample": 18222,
+      "end_sample": 26478,
+      "start_ms": 1139,
+      "end_ms": 1655
+    },
+    {
+      "lang": "en",
+      "text": "sleeves carefully before packing them away.",
+      "start_sample": 26478,
+      "end_sample": 70972,
+      "start_ms": 1655,
+      "end_ms": 4436
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Please try to fold the kimono sleeves carefully before packing them away.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4405,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Please try to fold the",
+          "start_sample": 0,
+          "end_sample": 18422,
+          "start_ms": 0,
+          "end_ms": 1151
+        },
+        {
+          "lang": "ja",
+          "text": "着物",
+          "start_sample": 18422,
+          "end_sample": 25792,
+          "start_ms": 1151,
+          "end_ms": 1612
+        },
+        {
+          "lang": "en",
+          "text": "sleeves carefully before packing them away.",
+          "start_sample": 25792,
+          "end_sample": 70486,
+          "start_ms": 1612,
+          "end_ms": 4405
+        }
+      ]
+    },
+    "ja": {
+      "text": "Please try to fold the 着物 sleeves carefully before packing them away.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5490,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Please try to fold the",
+          "start_sample": 0,
+          "end_sample": 30297,
+          "start_ms": 0,
+          "end_ms": 1894
+        },
+        {
+          "lang": "ja",
+          "text": "着物",
+          "start_sample": 30297,
+          "end_sample": 38953,
+          "start_ms": 1894,
+          "end_ms": 2435
+        },
+        {
+          "lang": "en",
+          "text": "sleeves carefully before packing them away.",
+          "start_sample": 38953,
+          "end_sample": 87845,
+          "start_ms": 2435,
+          "end_ms": 5490
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 222,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

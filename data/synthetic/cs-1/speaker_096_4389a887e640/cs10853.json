@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_096_4389a887e640/cs10853.flac",
+  "sentence": "The 花火 last night were absolutely stunning over the harbor.",
+  "sample_rate": 16000,
+  "duration_ms": 3523,
+  "reference_speaker": "en/speaker_096_4389a887e640.mp3",
+  "seed": 10895,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1084,
+      "start_ms": 0,
+      "end_ms": 68
+    },
+    {
+      "lang": "ja",
+      "text": "花火",
+      "start_sample": 1084,
+      "end_sample": 9669,
+      "start_ms": 68,
+      "end_ms": 604
+    },
+    {
+      "lang": "en",
+      "text": "last night were absolutely stunning over the harbor.",
+      "start_sample": 9669,
+      "end_sample": 56361,
+      "start_ms": 604,
+      "end_ms": 3523
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hanabi last night were absolutely stunning over the harbor.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3453,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1284,
+          "start_ms": 0,
+          "end_ms": 80
+        },
+        {
+          "lang": "ja",
+          "text": "花火",
+          "start_sample": 1284,
+          "end_sample": 8350,
+          "start_ms": 80,
+          "end_ms": 522
+        },
+        {
+          "lang": "en",
+          "text": "last night were absolutely stunning over the harbor.",
+          "start_sample": 8350,
+          "end_sample": 55242,
+          "start_ms": 522,
+          "end_ms": 3453
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 花火 last night were absolutely stunning over the harbor.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5134,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5453,
+          "start_ms": 0,
+          "end_ms": 341
+        },
+        {
+          "lang": "ja",
+          "text": "花火",
+          "start_sample": 5453,
+          "end_sample": 14438,
+          "start_ms": 341,
+          "end_ms": 902
+        },
+        {
+          "lang": "en",
+          "text": "last night were absolutely stunning over the harbor.",
+          "start_sample": 14438,
+          "end_sample": 82147,
+          "start_ms": 902,
+          "end_ms": 5134
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 177,
+  "frame_labels": "eeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

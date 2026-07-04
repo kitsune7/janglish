@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_045_730ff605e95b/cs8391.flac",
+  "sentence": "We should deep-clean the 冷蔵庫 before the holiday guests arrive.",
+  "sample_rate": 16000,
+  "duration_ms": 5072,
+  "reference_speaker": "en/speaker_045_730ff605e95b.mp3",
+  "seed": 8433,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We should deep-clean the",
+      "start_sample": 0,
+      "end_sample": 32825,
+      "start_ms": 0,
+      "end_ms": 2052
+    },
+    {
+      "lang": "ja",
+      "text": "冷蔵庫",
+      "start_sample": 32825,
+      "end_sample": 49926,
+      "start_ms": 2052,
+      "end_ms": 3120
+    },
+    {
+      "lang": "en",
+      "text": "before the holiday guests arrive.",
+      "start_sample": 49926,
+      "end_sample": 81147,
+      "start_ms": 3120,
+      "end_ms": 5072
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We should deep-clean the reizou ko before the holiday guests arrive.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4789,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We should deep-clean the",
+          "start_sample": 0,
+          "end_sample": 33025,
+          "start_ms": 0,
+          "end_ms": 2064
+        },
+        {
+          "lang": "ja",
+          "text": "冷蔵庫",
+          "start_sample": 33025,
+          "end_sample": 45209,
+          "start_ms": 2064,
+          "end_ms": 2826
+        },
+        {
+          "lang": "en",
+          "text": "before the holiday guests arrive.",
+          "start_sample": 45209,
+          "end_sample": 76630,
+          "start_ms": 2826,
+          "end_ms": 4789
+        }
+      ]
+    },
+    "ja": {
+      "text": "We should deep-clean the 冷蔵庫 before the holiday guests arrive.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4817,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We should deep-clean the",
+          "start_sample": 0,
+          "end_sample": 26814,
+          "start_ms": 0,
+          "end_ms": 1676
+        },
+        {
+          "lang": "ja",
+          "text": "冷蔵庫",
+          "start_sample": 26814,
+          "end_sample": 44315,
+          "start_ms": 1676,
+          "end_ms": 2770
+        },
+        {
+          "lang": "en",
+          "text": "before the holiday guests arrive.",
+          "start_sample": 44315,
+          "end_sample": 77067,
+          "start_ms": 2770,
+          "end_ms": 4817
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 254,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

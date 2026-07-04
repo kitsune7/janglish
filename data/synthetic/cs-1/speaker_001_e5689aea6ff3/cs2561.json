@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_001_e5689aea6ff3/cs2561.flac",
+  "sentence": "映画を見た後でその本のadaptationについて友達と話した。",
+  "sample_rate": 16000,
+  "duration_ms": 4196,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 2603,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "映画を見た後でその本の",
+      "start_sample": 0,
+      "end_sample": 26705,
+      "start_ms": 0,
+      "end_ms": 1669
+    },
+    {
+      "lang": "en",
+      "text": "adaptation",
+      "start_sample": 26705,
+      "end_sample": 42672,
+      "start_ms": 1669,
+      "end_ms": 2667
+    },
+    {
+      "lang": "ja",
+      "text": "について友達と話した。",
+      "start_sample": 42672,
+      "end_sample": 67135,
+      "start_ms": 2667,
+      "end_ms": 4196
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "eiga wo ken ta nochi de sono hon no adaptation ni tsui te tomodachi to hanashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7281,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "映画を見た後でその本の",
+          "start_sample": 0,
+          "end_sample": 57604,
+          "start_ms": 0,
+          "end_ms": 3600
+        },
+        {
+          "lang": "en",
+          "text": "adaptation",
+          "start_sample": 57604,
+          "end_sample": 73971,
+          "start_ms": 3600,
+          "end_ms": 4623
+        },
+        {
+          "lang": "ja",
+          "text": "について友達と話した。",
+          "start_sample": 73971,
+          "end_sample": 116491,
+          "start_ms": 4623,
+          "end_ms": 7281
+        }
+      ]
+    },
+    "ja": {
+      "text": "映画を見た後でその本のadaptationについて友達と話した。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3804,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "映画を見た後でその本の",
+          "start_sample": 0,
+          "end_sample": 26905,
+          "start_ms": 0,
+          "end_ms": 1682
+        },
+        {
+          "lang": "en",
+          "text": "adaptation",
+          "start_sample": 26905,
+          "end_sample": 36194,
+          "start_ms": 1682,
+          "end_ms": 2262
+        },
+        {
+          "lang": "ja",
+          "text": "について友達と話した。",
+          "start_sample": 36194,
+          "end_sample": 60857,
+          "start_ms": 2262,
+          "end_ms": 3804
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

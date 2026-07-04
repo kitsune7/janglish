@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_008_cc7e6dc77979/cs3085.flac",
+  "sentence": "I wore something 地味 but professional so the focus would stay on my words.",
+  "sample_rate": 16000,
+  "duration_ms": 4167,
+  "reference_speaker": "en/speaker_008_cc7e6dc77979.mp3",
+  "seed": 3127,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I wore something",
+      "start_sample": 0,
+      "end_sample": 11497,
+      "start_ms": 0,
+      "end_ms": 719
+    },
+    {
+      "lang": "ja",
+      "text": "地味",
+      "start_sample": 11497,
+      "end_sample": 15908,
+      "start_ms": 719,
+      "end_ms": 994
+    },
+    {
+      "lang": "en",
+      "text": "but professional so the focus would stay on my words.",
+      "start_sample": 15908,
+      "end_sample": 66666,
+      "start_ms": 994,
+      "end_ms": 4167
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I wore something jimi but professional so the focus would stay on my words.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4226,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I wore something",
+          "start_sample": 0,
+          "end_sample": 11697,
+          "start_ms": 0,
+          "end_ms": 731
+        },
+        {
+          "lang": "ja",
+          "text": "地味",
+          "start_sample": 11697,
+          "end_sample": 16665,
+          "start_ms": 731,
+          "end_ms": 1042
+        },
+        {
+          "lang": "en",
+          "text": "but professional so the focus would stay on my words.",
+          "start_sample": 16665,
+          "end_sample": 67623,
+          "start_ms": 1042,
+          "end_ms": 4226
+        }
+      ]
+    },
+    "ja": {
+      "text": "I wore something 地味 but professional so the focus would stay on my words.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5292,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I wore something",
+          "start_sample": 0,
+          "end_sample": 12667,
+          "start_ms": 0,
+          "end_ms": 792
+        },
+        {
+          "lang": "ja",
+          "text": "地味",
+          "start_sample": 12667,
+          "end_sample": 17478,
+          "start_ms": 792,
+          "end_ms": 1092
+        },
+        {
+          "lang": "en",
+          "text": "but professional so the focus would stay on my words.",
+          "start_sample": 17478,
+          "end_sample": 84674,
+          "start_ms": 1092,
+          "end_ms": 5292
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 209,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

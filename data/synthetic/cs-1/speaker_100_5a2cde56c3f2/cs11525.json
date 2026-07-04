@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_100_5a2cde56c3f2/cs11525.flac",
+  "sentence": "I'd rather stand near the 窓 than sit in the middle of the row.",
+  "sample_rate": 16000,
+  "duration_ms": 3584,
+  "reference_speaker": "jp/speaker_100_5a2cde56c3f2.mp3",
+  "seed": 11567,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I'd rather stand near the",
+      "start_sample": 0,
+      "end_sample": 19975,
+      "start_ms": 0,
+      "end_ms": 1248
+    },
+    {
+      "lang": "ja",
+      "text": "窓",
+      "start_sample": 19975,
+      "end_sample": 30323,
+      "start_ms": 1248,
+      "end_ms": 1895
+    },
+    {
+      "lang": "en",
+      "text": "than sit in the middle of the row.",
+      "start_sample": 30323,
+      "end_sample": 57343,
+      "start_ms": 1895,
+      "end_ms": 3584
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I'd rather stand near the mado than sit in the middle of the row.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3483,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I'd rather stand near the",
+          "start_sample": 0,
+          "end_sample": 20175,
+          "start_ms": 0,
+          "end_ms": 1261
+        },
+        {
+          "lang": "ja",
+          "text": "窓",
+          "start_sample": 20175,
+          "end_sample": 28501,
+          "start_ms": 1261,
+          "end_ms": 1781
+        },
+        {
+          "lang": "en",
+          "text": "than sit in the middle of the row.",
+          "start_sample": 28501,
+          "end_sample": 55721,
+          "start_ms": 1781,
+          "end_ms": 3483
+        }
+      ]
+    },
+    "ja": {
+      "text": "I'd rather stand near the 窓 than sit in the middle of the row.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4512,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I'd rather stand near the",
+          "start_sample": 0,
+          "end_sample": 20371,
+          "start_ms": 0,
+          "end_ms": 1273
+        },
+        {
+          "lang": "ja",
+          "text": "窓",
+          "start_sample": 20371,
+          "end_sample": 31119,
+          "start_ms": 1273,
+          "end_ms": 1945
+        },
+        {
+          "lang": "en",
+          "text": "than sit in the middle of the row.",
+          "start_sample": 31119,
+          "end_sample": 72186,
+          "start_ms": 1945,
+          "end_ms": 4512
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 180,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

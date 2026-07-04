@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_044_225f82fe72eb/cs10990.flac",
+  "sentence": "encoreの後にもう一曲やってくれた。",
+  "sample_rate": 16000,
+  "duration_ms": 2778,
+  "reference_speaker": "jp/speaker_044_225f82fe72eb.mp3",
+  "seed": 11032,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "encore",
+      "start_sample": 0,
+      "end_sample": 7983,
+      "start_ms": 0,
+      "end_ms": 499
+    },
+    {
+      "lang": "ja",
+      "text": "の後にもう一曲やってくれた。",
+      "start_sample": 7983,
+      "end_sample": 44452,
+      "start_ms": 499,
+      "end_ms": 2778
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "encore no nochi ni mou ichi kyoku yatsu te kure ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4695,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "encore",
+          "start_sample": 0,
+          "end_sample": 8183,
+          "start_ms": 0,
+          "end_ms": 511
+        },
+        {
+          "lang": "ja",
+          "text": "の後にもう一曲やってくれた。",
+          "start_sample": 8183,
+          "end_sample": 75122,
+          "start_ms": 511,
+          "end_ms": 4695
+        }
+      ]
+    },
+    "ja": {
+      "text": "encoreの後にもう一曲やってくれた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2774,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "encore",
+          "start_sample": 0,
+          "end_sample": 7715,
+          "start_ms": 0,
+          "end_ms": 482
+        },
+        {
+          "lang": "ja",
+          "text": "の後にもう一曲やってくれた。",
+          "start_sample": 7715,
+          "end_sample": 44384,
+          "start_ms": 482,
+          "end_ms": 2774
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 139,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

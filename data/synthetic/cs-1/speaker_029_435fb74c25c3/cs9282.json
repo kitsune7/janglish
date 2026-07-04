@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_029_435fb74c25c3/cs9282.flac",
+  "sentence": "I asked the clerk for a 袋 because my hands were full.",
+  "sample_rate": 16000,
+  "duration_ms": 3047,
+  "reference_speaker": "en/speaker_029_435fb74c25c3.mp3",
+  "seed": 9324,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I asked the clerk for a",
+      "start_sample": 0,
+      "end_sample": 16539,
+      "start_ms": 0,
+      "end_ms": 1034
+    },
+    {
+      "lang": "ja",
+      "text": "袋",
+      "start_sample": 16539,
+      "end_sample": 23033,
+      "start_ms": 1034,
+      "end_ms": 1440
+    },
+    {
+      "lang": "en",
+      "text": "because my hands were full.",
+      "start_sample": 23033,
+      "end_sample": 48750,
+      "start_ms": 1440,
+      "end_ms": 3047
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I asked the clerk for a fukuro because my hands were full.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3240,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I asked the clerk for a",
+          "start_sample": 0,
+          "end_sample": 16739,
+          "start_ms": 0,
+          "end_ms": 1046
+        },
+        {
+          "lang": "ja",
+          "text": "袋",
+          "start_sample": 16739,
+          "end_sample": 25917,
+          "start_ms": 1046,
+          "end_ms": 1620
+        },
+        {
+          "lang": "en",
+          "text": "because my hands were full.",
+          "start_sample": 25917,
+          "end_sample": 51834,
+          "start_ms": 1620,
+          "end_ms": 3240
+        }
+      ]
+    },
+    "ja": {
+      "text": "I asked the clerk for a 袋 because my hands were full.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3887,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I asked the clerk for a",
+          "start_sample": 0,
+          "end_sample": 28373,
+          "start_ms": 0,
+          "end_ms": 1773
+        },
+        {
+          "lang": "ja",
+          "text": "袋",
+          "start_sample": 28373,
+          "end_sample": 35267,
+          "start_ms": 1773,
+          "end_ms": 2204
+        },
+        {
+          "lang": "en",
+          "text": "because my hands were full.",
+          "start_sample": 35267,
+          "end_sample": 62197,
+          "start_ms": 2204,
+          "end_ms": 3887
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 153,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

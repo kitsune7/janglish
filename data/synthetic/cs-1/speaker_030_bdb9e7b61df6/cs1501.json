@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_030_bdb9e7b61df6/cs1501.flac",
+  "sentence": "She always keeps a tiny 鏡 in her bag for touch-ups.",
+  "sample_rate": 16000,
+  "duration_ms": 3133,
+  "reference_speaker": "en/speaker_030_bdb9e7b61df6.mp3",
+  "seed": 1543,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She always keeps a tiny",
+      "start_sample": 0,
+      "end_sample": 24706,
+      "start_ms": 0,
+      "end_ms": 1544
+    },
+    {
+      "lang": "ja",
+      "text": "鏡",
+      "start_sample": 24706,
+      "end_sample": 29609,
+      "start_ms": 1544,
+      "end_ms": 1851
+    },
+    {
+      "lang": "en",
+      "text": "in her bag for touch-ups.",
+      "start_sample": 29609,
+      "end_sample": 50134,
+      "start_ms": 1851,
+      "end_ms": 3133
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She always keeps a tiny kagami in her bag for touch-ups.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3354,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She always keeps a tiny",
+          "start_sample": 0,
+          "end_sample": 24906,
+          "start_ms": 0,
+          "end_ms": 1557
+        },
+        {
+          "lang": "ja",
+          "text": "鏡",
+          "start_sample": 24906,
+          "end_sample": 32940,
+          "start_ms": 1557,
+          "end_ms": 2059
+        },
+        {
+          "lang": "en",
+          "text": "in her bag for touch-ups.",
+          "start_sample": 32940,
+          "end_sample": 53665,
+          "start_ms": 2059,
+          "end_ms": 3354
+        }
+      ]
+    },
+    "ja": {
+      "text": "She always keeps a tiny 鏡 in her bag for touch-ups.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3576,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She always keeps a tiny",
+          "start_sample": 0,
+          "end_sample": 27963,
+          "start_ms": 0,
+          "end_ms": 1748
+        },
+        {
+          "lang": "ja",
+          "text": "鏡",
+          "start_sample": 27963,
+          "end_sample": 33266,
+          "start_ms": 1748,
+          "end_ms": 2079
+        },
+        {
+          "lang": "en",
+          "text": "in her bag for touch-ups.",
+          "start_sample": 33266,
+          "end_sample": 57208,
+          "start_ms": 2079,
+          "end_ms": 3576
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 157,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

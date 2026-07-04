@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_038_fa40784c77e2/cs1693.flac",
+  "sentence": "彼のけがはseriousで、すぐに手術が必要だった。",
+  "sample_rate": 16000,
+  "duration_ms": 3135,
+  "reference_speaker": "jp/speaker_038_fa40784c77e2.mp3",
+  "seed": 1735,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼のけがは",
+      "start_sample": 0,
+      "end_sample": 10533,
+      "start_ms": 0,
+      "end_ms": 658
+    },
+    {
+      "lang": "en",
+      "text": "serious",
+      "start_sample": 10533,
+      "end_sample": 20236,
+      "start_ms": 658,
+      "end_ms": 1265
+    },
+    {
+      "lang": "ja",
+      "text": "で、すぐに手術が必要だった。",
+      "start_sample": 20236,
+      "end_sample": 50154,
+      "start_ms": 1265,
+      "end_ms": 3135
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare no kega ha serious de sugu ni shujutsu ga hitsuyou datsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6074,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼のけがは",
+          "start_sample": 0,
+          "end_sample": 20527,
+          "start_ms": 0,
+          "end_ms": 1283
+        },
+        {
+          "lang": "en",
+          "text": "serious",
+          "start_sample": 20527,
+          "end_sample": 30630,
+          "start_ms": 1283,
+          "end_ms": 1914
+        },
+        {
+          "lang": "ja",
+          "text": "で、すぐに手術が必要だった。",
+          "start_sample": 30630,
+          "end_sample": 97183,
+          "start_ms": 1914,
+          "end_ms": 6074
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼のけがはseriousで、すぐに手術が必要だった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3004,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼のけがは",
+          "start_sample": 0,
+          "end_sample": 10733,
+          "start_ms": 0,
+          "end_ms": 671
+        },
+        {
+          "lang": "en",
+          "text": "serious",
+          "start_sample": 10733,
+          "end_sample": 17943,
+          "start_ms": 671,
+          "end_ms": 1121
+        },
+        {
+          "lang": "ja",
+          "text": "で、すぐに手術が必要だった。",
+          "start_sample": 17943,
+          "end_sample": 48061,
+          "start_ms": 1121,
+          "end_ms": 3004
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 157,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

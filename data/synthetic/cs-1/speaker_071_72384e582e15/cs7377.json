@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_071_72384e582e15/cs7377.flac",
+  "sentence": "The 看護師 on the night shift was incredibly patient with everyone.",
+  "sample_rate": 16000,
+  "duration_ms": 4421,
+  "reference_speaker": "en/speaker_071_72384e582e15.mp3",
+  "seed": 7419,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1247,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "看護師",
+      "start_sample": 1247,
+      "end_sample": 13845,
+      "start_ms": 78,
+      "end_ms": 865
+    },
+    {
+      "lang": "en",
+      "text": "on the night shift was incredibly patient with everyone.",
+      "start_sample": 13845,
+      "end_sample": 70742,
+      "start_ms": 865,
+      "end_ms": 4421
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kango shi on the night shift was incredibly patient with everyone.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4443,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1447,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "看護師",
+          "start_sample": 1447,
+          "end_sample": 13993,
+          "start_ms": 90,
+          "end_ms": 875
+        },
+        {
+          "lang": "en",
+          "text": "on the night shift was incredibly patient with everyone.",
+          "start_sample": 13993,
+          "end_sample": 71090,
+          "start_ms": 875,
+          "end_ms": 4443
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 看護師 on the night shift was incredibly patient with everyone.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6137,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 5294,
+          "start_ms": 0,
+          "end_ms": 331
+        },
+        {
+          "lang": "ja",
+          "text": "看護師",
+          "start_sample": 5294,
+          "end_sample": 18292,
+          "start_ms": 331,
+          "end_ms": 1143
+        },
+        {
+          "lang": "en",
+          "text": "on the night shift was incredibly patient with everyone.",
+          "start_sample": 18292,
+          "end_sample": 98197,
+          "start_ms": 1143,
+          "end_ms": 6137
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 222,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

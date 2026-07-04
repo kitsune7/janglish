@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_095_862d569c1af2/cs1569.flac",
+  "sentence": "私の趣味はcalligraphyで、毎日練習しています。",
+  "sample_rate": 16000,
+  "duration_ms": 4840,
+  "reference_speaker": "en/speaker_095_862d569c1af2.mp3",
+  "seed": 1611,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "私の趣味は",
+      "start_sample": 0,
+      "end_sample": 17918,
+      "start_ms": 0,
+      "end_ms": 1120
+    },
+    {
+      "lang": "en",
+      "text": "calligraphy",
+      "start_sample": 17918,
+      "end_sample": 40764,
+      "start_ms": 1120,
+      "end_ms": 2548
+    },
+    {
+      "lang": "ja",
+      "text": "で、毎日練習しています。",
+      "start_sample": 40764,
+      "end_sample": 77443,
+      "start_ms": 2548,
+      "end_ms": 4840
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "watashi no shumi ha calligraphy de mainichi renshuu shi te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9138,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私の趣味は",
+          "start_sample": 0,
+          "end_sample": 33987,
+          "start_ms": 0,
+          "end_ms": 2124
+        },
+        {
+          "lang": "en",
+          "text": "calligraphy",
+          "start_sample": 33987,
+          "end_sample": 57233,
+          "start_ms": 2124,
+          "end_ms": 3577
+        },
+        {
+          "lang": "ja",
+          "text": "で、毎日練習しています。",
+          "start_sample": 57233,
+          "end_sample": 146208,
+          "start_ms": 3577,
+          "end_ms": 9138
+        }
+      ]
+    },
+    "ja": {
+      "text": "私の趣味はcalligraphyで、毎日練習しています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4289,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "私の趣味は",
+          "start_sample": 0,
+          "end_sample": 18118,
+          "start_ms": 0,
+          "end_ms": 1132
+        },
+        {
+          "lang": "en",
+          "text": "calligraphy",
+          "start_sample": 18118,
+          "end_sample": 31748,
+          "start_ms": 1132,
+          "end_ms": 1984
+        },
+        {
+          "lang": "ja",
+          "text": "で、毎日練習しています。",
+          "start_sample": 31748,
+          "end_sample": 68627,
+          "start_ms": 1984,
+          "end_ms": 4289
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 243,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

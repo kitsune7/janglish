@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_019_45c9ebd0ae18/cs6854.flac",
+  "sentence": "The 霧 was so thick on Halloween morning that you couldn't see the end of the street.",
+  "sample_rate": 16000,
+  "duration_ms": 4846,
+  "reference_speaker": "jp/speaker_019_45c9ebd0ae18.mp3",
+  "seed": 6896,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1886,
+      "start_ms": 0,
+      "end_ms": 118
+    },
+    {
+      "lang": "ja",
+      "text": "霧",
+      "start_sample": 1886,
+      "end_sample": 6943,
+      "start_ms": 118,
+      "end_ms": 434
+    },
+    {
+      "lang": "en",
+      "text": "was so thick on Halloween morning that you couldn't see the end of the street.",
+      "start_sample": 6943,
+      "end_sample": 77533,
+      "start_ms": 434,
+      "end_ms": 4846
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kiri was so thick on Halloween morning that you couldn't see the end of the street.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4916,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2086,
+          "start_ms": 0,
+          "end_ms": 130
+        },
+        {
+          "lang": "ja",
+          "text": "霧",
+          "start_sample": 2086,
+          "end_sample": 7865,
+          "start_ms": 130,
+          "end_ms": 492
+        },
+        {
+          "lang": "en",
+          "text": "was so thick on Halloween morning that you couldn't see the end of the street.",
+          "start_sample": 7865,
+          "end_sample": 78655,
+          "start_ms": 492,
+          "end_ms": 4916
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 霧 was so thick on Halloween morning that you couldn't see the end of the street.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4634,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3530,
+          "start_ms": 0,
+          "end_ms": 221
+        },
+        {
+          "lang": "ja",
+          "text": "霧",
+          "start_sample": 3530,
+          "end_sample": 8987,
+          "start_ms": 221,
+          "end_ms": 562
+        },
+        {
+          "lang": "en",
+          "text": "was so thick on Halloween morning that you couldn't see the end of the street.",
+          "start_sample": 8987,
+          "end_sample": 74140,
+          "start_ms": 562,
+          "end_ms": 4634
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 243,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

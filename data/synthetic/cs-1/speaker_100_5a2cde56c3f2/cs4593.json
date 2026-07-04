@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_100_5a2cde56c3f2/cs4593.flac",
+  "sentence": "落石でroadが封鎖されていて迂回しなければならなかった。",
+  "sample_rate": 16000,
+  "duration_ms": 3786,
+  "reference_speaker": "jp/speaker_100_5a2cde56c3f2.mp3",
+  "seed": 4635,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "落石で",
+      "start_sample": 0,
+      "end_sample": 9095,
+      "start_ms": 0,
+      "end_ms": 568
+    },
+    {
+      "lang": "en",
+      "text": "road",
+      "start_sample": 9095,
+      "end_sample": 14143,
+      "start_ms": 568,
+      "end_ms": 884
+    },
+    {
+      "lang": "ja",
+      "text": "が封鎖されていて迂回しなければならなかった。",
+      "start_sample": 14143,
+      "end_sample": 60581,
+      "start_ms": 884,
+      "end_ms": 3786
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "rakuseki de road ga fuusa sa re te i te ukai shi nakere ba nara nakatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9333,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "落石で",
+          "start_sample": 0,
+          "end_sample": 15860,
+          "start_ms": 0,
+          "end_ms": 991
+        },
+        {
+          "lang": "en",
+          "text": "road",
+          "start_sample": 15860,
+          "end_sample": 21308,
+          "start_ms": 991,
+          "end_ms": 1332
+        },
+        {
+          "lang": "ja",
+          "text": "が封鎖されていて迂回しなければならなかった。",
+          "start_sample": 21308,
+          "end_sample": 149323,
+          "start_ms": 1332,
+          "end_ms": 9333
+        }
+      ]
+    },
+    "ja": {
+      "text": "落石でroadが封鎖されていて迂回しなければならなかった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3786,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "落石で",
+          "start_sample": 0,
+          "end_sample": 9295,
+          "start_ms": 0,
+          "end_ms": 581
+        },
+        {
+          "lang": "en",
+          "text": "road",
+          "start_sample": 9295,
+          "end_sample": 13943,
+          "start_ms": 581,
+          "end_ms": 871
+        },
+        {
+          "lang": "ja",
+          "text": "が封鎖されていて迂回しなければならなかった。",
+          "start_sample": 13943,
+          "end_sample": 60581,
+          "start_ms": 871,
+          "end_ms": 3786
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

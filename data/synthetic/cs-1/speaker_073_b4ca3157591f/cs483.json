@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_073_b4ca3157591f/cs483.flac",
+  "sentence": "She walked into the 面接 feeling completely prepared.",
+  "sample_rate": 16000,
+  "duration_ms": 4296,
+  "reference_speaker": "jp/speaker_073_b4ca3157591f.mp3",
+  "seed": 525,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She walked into the",
+      "start_sample": 0,
+      "end_sample": 16180,
+      "start_ms": 0,
+      "end_ms": 1011
+    },
+    {
+      "lang": "ja",
+      "text": "面接",
+      "start_sample": 16180,
+      "end_sample": 26213,
+      "start_ms": 1011,
+      "end_ms": 1638
+    },
+    {
+      "lang": "en",
+      "text": "feeling completely prepared.",
+      "start_sample": 26213,
+      "end_sample": 68736,
+      "start_ms": 1638,
+      "end_ms": 4296
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She walked into the mensetsu feeling completely prepared.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4678,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She walked into the",
+          "start_sample": 0,
+          "end_sample": 16380,
+          "start_ms": 0,
+          "end_ms": 1024
+        },
+        {
+          "lang": "ja",
+          "text": "面接",
+          "start_sample": 16380,
+          "end_sample": 32122,
+          "start_ms": 1024,
+          "end_ms": 2008
+        },
+        {
+          "lang": "en",
+          "text": "feeling completely prepared.",
+          "start_sample": 32122,
+          "end_sample": 74845,
+          "start_ms": 2008,
+          "end_ms": 4678
+        }
+      ]
+    },
+    "ja": {
+      "text": "She walked into the 面接 feeling completely prepared.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4815,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She walked into the",
+          "start_sample": 0,
+          "end_sample": 28088,
+          "start_ms": 0,
+          "end_ms": 1756
+        },
+        {
+          "lang": "ja",
+          "text": "面接",
+          "start_sample": 28088,
+          "end_sample": 38521,
+          "start_ms": 1756,
+          "end_ms": 2408
+        },
+        {
+          "lang": "en",
+          "text": "feeling completely prepared.",
+          "start_sample": 38521,
+          "end_sample": 77040,
+          "start_ms": 2408,
+          "end_ms": 4815
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 215,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

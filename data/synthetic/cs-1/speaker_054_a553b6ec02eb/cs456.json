@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_054_a553b6ec02eb/cs456.flac",
+  "sentence": "荷物をluggage rackに置いて、少し休みましょう。",
+  "sample_rate": 16000,
+  "duration_ms": 3623,
+  "reference_speaker": "jp/speaker_054_a553b6ec02eb.mp3",
+  "seed": 498,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "荷物を",
+      "start_sample": 0,
+      "end_sample": 7999,
+      "start_ms": 0,
+      "end_ms": 500
+    },
+    {
+      "lang": "en",
+      "text": "luggage rack",
+      "start_sample": 7999,
+      "end_sample": 30684,
+      "start_ms": 500,
+      "end_ms": 1918
+    },
+    {
+      "lang": "ja",
+      "text": "に置いて、少し休みましょう。",
+      "start_sample": 30684,
+      "end_sample": 57973,
+      "start_ms": 1918,
+      "end_ms": 3623
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "nimotsu wo luggage rack ni oi te sukoshi yasumi mashou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6573,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "荷物を",
+          "start_sample": 0,
+          "end_sample": 21801,
+          "start_ms": 0,
+          "end_ms": 1363
+        },
+        {
+          "lang": "en",
+          "text": "luggage rack",
+          "start_sample": 21801,
+          "end_sample": 44886,
+          "start_ms": 1363,
+          "end_ms": 2805
+        },
+        {
+          "lang": "ja",
+          "text": "に置いて、少し休みましょう。",
+          "start_sample": 44886,
+          "end_sample": 105163,
+          "start_ms": 2805,
+          "end_ms": 6573
+        }
+      ]
+    },
+    "ja": {
+      "text": "荷物をluggage rackに置いて、少し休みましょう。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3115,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "荷物を",
+          "start_sample": 0,
+          "end_sample": 8199,
+          "start_ms": 0,
+          "end_ms": 512
+        },
+        {
+          "lang": "en",
+          "text": "luggage rack",
+          "start_sample": 8199,
+          "end_sample": 22348,
+          "start_ms": 512,
+          "end_ms": 1397
+        },
+        {
+          "lang": "ja",
+          "text": "に置いて、少し休みましょう。",
+          "start_sample": 22348,
+          "end_sample": 49837,
+          "start_ms": 1397,
+          "end_ms": 3115
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 182,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

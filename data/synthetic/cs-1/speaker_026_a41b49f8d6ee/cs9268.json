@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_026_a41b49f8d6ee/cs9268.flac",
+  "sentence": "He was raised by his 祖母 after his parents moved overseas.",
+  "sample_rate": 16000,
+  "duration_ms": 3853,
+  "reference_speaker": "en/speaker_026_a41b49f8d6ee.mp3",
+  "seed": 9310,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He was raised by his",
+      "start_sample": 0,
+      "end_sample": 18743,
+      "start_ms": 0,
+      "end_ms": 1171
+    },
+    {
+      "lang": "ja",
+      "text": "祖母",
+      "start_sample": 18743,
+      "end_sample": 24279,
+      "start_ms": 1171,
+      "end_ms": 1517
+    },
+    {
+      "lang": "en",
+      "text": "after his parents moved overseas.",
+      "start_sample": 24279,
+      "end_sample": 61648,
+      "start_ms": 1517,
+      "end_ms": 3853
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He was raised by his sobo after his parents moved overseas.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4054,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He was raised by his",
+          "start_sample": 0,
+          "end_sample": 18943,
+          "start_ms": 0,
+          "end_ms": 1184
+        },
+        {
+          "lang": "ja",
+          "text": "祖母",
+          "start_sample": 18943,
+          "end_sample": 27293,
+          "start_ms": 1184,
+          "end_ms": 1706
+        },
+        {
+          "lang": "en",
+          "text": "after his parents moved overseas.",
+          "start_sample": 27293,
+          "end_sample": 64862,
+          "start_ms": 1706,
+          "end_ms": 4054
+        }
+      ]
+    },
+    "ja": {
+      "text": "He was raised by his 祖母 after his parents moved overseas.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4652,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He was raised by his",
+          "start_sample": 0,
+          "end_sample": 26790,
+          "start_ms": 0,
+          "end_ms": 1674
+        },
+        {
+          "lang": "ja",
+          "text": "祖母",
+          "start_sample": 26790,
+          "end_sample": 32726,
+          "start_ms": 1674,
+          "end_ms": 2045
+        },
+        {
+          "lang": "en",
+          "text": "after his parents moved overseas.",
+          "start_sample": 32726,
+          "end_sample": 74438,
+          "start_ms": 2045,
+          "end_ms": 4652
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 193,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

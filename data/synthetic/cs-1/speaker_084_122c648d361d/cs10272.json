@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_084_122c648d361d/cs10272.flac",
+  "sentence": "お正月にはfamilyみんなで集まるのが楽しみです。",
+  "sample_rate": 16000,
+  "duration_ms": 3124,
+  "reference_speaker": "jp/speaker_084_122c648d361d.mp3",
+  "seed": 10314,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "お正月には",
+      "start_sample": 0,
+      "end_sample": 11860,
+      "start_ms": 0,
+      "end_ms": 741
+    },
+    {
+      "lang": "en",
+      "text": "family",
+      "start_sample": 11860,
+      "end_sample": 21075,
+      "start_ms": 741,
+      "end_ms": 1317
+    },
+    {
+      "lang": "ja",
+      "text": "みんなで集まるのが楽しみです。",
+      "start_sample": 21075,
+      "end_sample": 49976,
+      "start_ms": 1317,
+      "end_ms": 3124
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "o shougatsu ni ha family minna de atsumaru no ga tanoshimi desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7611,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お正月には",
+          "start_sample": 0,
+          "end_sample": 43904,
+          "start_ms": 0,
+          "end_ms": 2744
+        },
+        {
+          "lang": "en",
+          "text": "family",
+          "start_sample": 43904,
+          "end_sample": 53519,
+          "start_ms": 2744,
+          "end_ms": 3345
+        },
+        {
+          "lang": "ja",
+          "text": "みんなで集まるのが楽しみです。",
+          "start_sample": 53519,
+          "end_sample": 121779,
+          "start_ms": 3345,
+          "end_ms": 7611
+        }
+      ]
+    },
+    "ja": {
+      "text": "お正月にはfamilyみんなで集まるのが楽しみです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3015,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "お正月には",
+          "start_sample": 0,
+          "end_sample": 12060,
+          "start_ms": 0,
+          "end_ms": 754
+        },
+        {
+          "lang": "en",
+          "text": "family",
+          "start_sample": 12060,
+          "end_sample": 19134,
+          "start_ms": 754,
+          "end_ms": 1196
+        },
+        {
+          "lang": "ja",
+          "text": "みんなで集まるのが楽しみです。",
+          "start_sample": 19134,
+          "end_sample": 48235,
+          "start_ms": 1196,
+          "end_ms": 3015
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 157,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

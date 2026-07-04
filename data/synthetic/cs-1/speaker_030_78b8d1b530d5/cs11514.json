@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_030_78b8d1b530d5/cs11514.flac",
+  "sentence": "Is this the right 乗り場 for the downtown shuttle?",
+  "sample_rate": 16000,
+  "duration_ms": 2572,
+  "reference_speaker": "jp/speaker_030_78b8d1b530d5.mp3",
+  "seed": 11556,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Is this the right",
+      "start_sample": 0,
+      "end_sample": 14002,
+      "start_ms": 0,
+      "end_ms": 875
+    },
+    {
+      "lang": "ja",
+      "text": "乗り場",
+      "start_sample": 14002,
+      "end_sample": 20536,
+      "start_ms": 875,
+      "end_ms": 1284
+    },
+    {
+      "lang": "en",
+      "text": "for the downtown shuttle?",
+      "start_sample": 20536,
+      "end_sample": 41147,
+      "start_ms": 1284,
+      "end_ms": 2572
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Is this the right noriba for the downtown shuttle?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2642,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is this the right",
+          "start_sample": 0,
+          "end_sample": 14202,
+          "start_ms": 0,
+          "end_ms": 888
+        },
+        {
+          "lang": "ja",
+          "text": "乗り場",
+          "start_sample": 14202,
+          "end_sample": 21465,
+          "start_ms": 888,
+          "end_ms": 1342
+        },
+        {
+          "lang": "en",
+          "text": "for the downtown shuttle?",
+          "start_sample": 21465,
+          "end_sample": 42276,
+          "start_ms": 1342,
+          "end_ms": 2642
+        }
+      ]
+    },
+    "ja": {
+      "text": "Is this the right 乗り場 for the downtown shuttle?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2922,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Is this the right",
+          "start_sample": 0,
+          "end_sample": 14189,
+          "start_ms": 0,
+          "end_ms": 887
+        },
+        {
+          "lang": "ja",
+          "text": "乗り場",
+          "start_sample": 14189,
+          "end_sample": 21123,
+          "start_ms": 887,
+          "end_ms": 1320
+        },
+        {
+          "lang": "en",
+          "text": "for the downtown shuttle?",
+          "start_sample": 21123,
+          "end_sample": 46754,
+          "start_ms": 1320,
+          "end_ms": 2922
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 129,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

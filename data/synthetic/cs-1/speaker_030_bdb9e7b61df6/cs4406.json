@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_030_bdb9e7b61df6/cs4406.flac",
+  "sentence": "The new AI model runs entirely on the 端末 without any cloud connection.",
+  "sample_rate": 16000,
+  "duration_ms": 4931,
+  "reference_speaker": "en/speaker_030_bdb9e7b61df6.mp3",
+  "seed": 4448,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The new AI model runs entirely on the",
+      "start_sample": 0,
+      "end_sample": 37796,
+      "start_ms": 0,
+      "end_ms": 2362
+    },
+    {
+      "lang": "ja",
+      "text": "端末",
+      "start_sample": 37796,
+      "end_sample": 47677,
+      "start_ms": 2362,
+      "end_ms": 2980
+    },
+    {
+      "lang": "en",
+      "text": "without any cloud connection.",
+      "start_sample": 47677,
+      "end_sample": 78899,
+      "start_ms": 2980,
+      "end_ms": 4931
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The new AI model runs entirely on the tanmatsu without any cloud connection.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5150,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new AI model runs entirely on the",
+          "start_sample": 0,
+          "end_sample": 37996,
+          "start_ms": 0,
+          "end_ms": 2375
+        },
+        {
+          "lang": "ja",
+          "text": "端末",
+          "start_sample": 37996,
+          "end_sample": 50982,
+          "start_ms": 2375,
+          "end_ms": 3186
+        },
+        {
+          "lang": "en",
+          "text": "without any cloud connection.",
+          "start_sample": 50982,
+          "end_sample": 82404,
+          "start_ms": 3186,
+          "end_ms": 5150
+        }
+      ]
+    },
+    "ja": {
+      "text": "The new AI model runs entirely on the 端末 without any cloud connection.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4678,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The new AI model runs entirely on the",
+          "start_sample": 0,
+          "end_sample": 38389,
+          "start_ms": 0,
+          "end_ms": 2399
+        },
+        {
+          "lang": "ja",
+          "text": "端末",
+          "start_sample": 38389,
+          "end_sample": 48670,
+          "start_ms": 2399,
+          "end_ms": 3042
+        },
+        {
+          "lang": "en",
+          "text": "without any cloud connection.",
+          "start_sample": 48670,
+          "end_sample": 74848,
+          "start_ms": 3042,
+          "end_ms": 4678
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 247,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_092_0f181b6e11f2/cs3557.flac",
+  "sentence": "この亀はslow ですが、長生きするそうです。",
+  "sample_rate": 16000,
+  "duration_ms": 3276,
+  "reference_speaker": "en/speaker_092_0f181b6e11f2.mp3",
+  "seed": 3599,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この亀は",
+      "start_sample": 0,
+      "end_sample": 15236,
+      "start_ms": 0,
+      "end_ms": 952
+    },
+    {
+      "lang": "en",
+      "text": "slow",
+      "start_sample": 15236,
+      "end_sample": 20929,
+      "start_ms": 952,
+      "end_ms": 1308
+    },
+    {
+      "lang": "ja",
+      "text": "ですが、長生きするそうです。",
+      "start_sample": 20929,
+      "end_sample": 52412,
+      "start_ms": 1308,
+      "end_ms": 3276
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono kame ha slow desu ga nagaiki suru sou desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5071,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この亀は",
+          "start_sample": 0,
+          "end_sample": 22609,
+          "start_ms": 0,
+          "end_ms": 1413
+        },
+        {
+          "lang": "en",
+          "text": "slow",
+          "start_sample": 22609,
+          "end_sample": 28702,
+          "start_ms": 1413,
+          "end_ms": 1794
+        },
+        {
+          "lang": "ja",
+          "text": "ですが、長生きするそうです。",
+          "start_sample": 28702,
+          "end_sample": 81135,
+          "start_ms": 1794,
+          "end_ms": 5071
+        }
+      ]
+    },
+    "ja": {
+      "text": "この亀はslow ですが、長生きするそうです。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3417,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この亀は",
+          "start_sample": 0,
+          "end_sample": 15436,
+          "start_ms": 0,
+          "end_ms": 965
+        },
+        {
+          "lang": "en",
+          "text": "slow",
+          "start_sample": 15436,
+          "end_sample": 22996,
+          "start_ms": 965,
+          "end_ms": 1437
+        },
+        {
+          "lang": "ja",
+          "text": "ですが、長生きするそうです。",
+          "start_sample": 22996,
+          "end_sample": 54679,
+          "start_ms": 1437,
+          "end_ms": 3417
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 164,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

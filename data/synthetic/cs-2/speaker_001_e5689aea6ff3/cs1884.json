@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_001_e5689aea6ff3/cs1884.flac",
+  "sentence": "The 改札 beeps so loudly in the morning that it always breaks my 集中.",
+  "sample_rate": 16000,
+  "duration_ms": 4342,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 1926,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1727,
+      "start_ms": 0,
+      "end_ms": 108
+    },
+    {
+      "lang": "ja",
+      "text": "改札",
+      "start_sample": 1727,
+      "end_sample": 9520,
+      "start_ms": 108,
+      "end_ms": 595
+    },
+    {
+      "lang": "en",
+      "text": "beeps so loudly in the morning that it always breaks my",
+      "start_sample": 9520,
+      "end_sample": 61477,
+      "start_ms": 595,
+      "end_ms": 3842
+    },
+    {
+      "lang": "ja",
+      "text": "集中.",
+      "start_sample": 61477,
+      "end_sample": 69466,
+      "start_ms": 3842,
+      "end_ms": 4342
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The kaisatsu beeps so loudly in the morning that it always breaks my shuuchuu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4477,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1927,
+          "start_ms": 0,
+          "end_ms": 120
+        },
+        {
+          "lang": "ja",
+          "text": "改札",
+          "start_sample": 1927,
+          "end_sample": 12205,
+          "start_ms": 120,
+          "end_ms": 763
+        },
+        {
+          "lang": "en",
+          "text": "beeps so loudly in the morning that it always breaks my",
+          "start_sample": 12205,
+          "end_sample": 64562,
+          "start_ms": 763,
+          "end_ms": 4035
+        },
+        {
+          "lang": "ja",
+          "text": "集中.",
+          "start_sample": 64562,
+          "end_sample": 71626,
+          "start_ms": 4035,
+          "end_ms": 4477
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 改札 beeps so loudly in the morning that it always breaks my 集中.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4397,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 4655,
+          "start_ms": 0,
+          "end_ms": 291
+        },
+        {
+          "lang": "ja",
+          "text": "改札",
+          "start_sample": 4655,
+          "end_sample": 12848,
+          "start_ms": 291,
+          "end_ms": 803
+        },
+        {
+          "lang": "en",
+          "text": "beeps so loudly in the morning that it always breaks my",
+          "start_sample": 12848,
+          "end_sample": 62166,
+          "start_ms": 803,
+          "end_ms": 3885
+        },
+        {
+          "lang": "ja",
+          "text": "集中.",
+          "start_sample": 62166,
+          "end_sample": 70355,
+          "start_ms": 3885,
+          "end_ms": 4397
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 218,
+  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

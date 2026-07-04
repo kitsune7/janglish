@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_015_995e028794f8/cs8756.flac",
+  "sentence": "addressが不完全だったにもかかわらず、配達員が見つけてくれました。",
+  "sample_rate": 16000,
+  "duration_ms": 4908,
+  "reference_speaker": "en/speaker_015_995e028794f8.mp3",
+  "seed": 8798,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "address",
+      "start_sample": 0,
+      "end_sample": 9569,
+      "start_ms": 0,
+      "end_ms": 598
+    },
+    {
+      "lang": "ja",
+      "text": "が不完全だったにもかかわらず、配達員が見つけてくれました。",
+      "start_sample": 9569,
+      "end_sample": 78535,
+      "start_ms": 598,
+      "end_ms": 4908
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "address ga fu kanzen datsu ta ni mo kakawara zu haitatsu in ga mitsuke te kure mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9549,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "address",
+          "start_sample": 0,
+          "end_sample": 9769,
+          "start_ms": 0,
+          "end_ms": 611
+        },
+        {
+          "lang": "ja",
+          "text": "が不完全だったにもかかわらず、配達員が見つけてくれました。",
+          "start_sample": 9769,
+          "end_sample": 152785,
+          "start_ms": 611,
+          "end_ms": 9549
+        }
+      ]
+    },
+    "ja": {
+      "text": "addressが不完全だったにもかかわらず、配達員が見つけてくれました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4774,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "address",
+          "start_sample": 0,
+          "end_sample": 7221,
+          "start_ms": 0,
+          "end_ms": 451
+        },
+        {
+          "lang": "ja",
+          "text": "が不完全だったにもかかわらず、配達員が見つけてくれました。",
+          "start_sample": 7221,
+          "end_sample": 76387,
+          "start_ms": 451,
+          "end_ms": 4774
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 246,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

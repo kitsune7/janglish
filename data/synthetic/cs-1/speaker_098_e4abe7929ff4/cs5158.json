@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_098_e4abe7929ff4/cs5158.flac",
+  "sentence": "He gets a little 大げさ after two glasses of wine, which is entertaining.",
+  "sample_rate": 16000,
+  "duration_ms": 5679,
+  "reference_speaker": "jp/speaker_098_e4abe7929ff4.mp3",
+  "seed": 5200,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He gets a little",
+      "start_sample": 0,
+      "end_sample": 22554,
+      "start_ms": 0,
+      "end_ms": 1410
+    },
+    {
+      "lang": "ja",
+      "text": "大げさ",
+      "start_sample": 22554,
+      "end_sample": 29533,
+      "start_ms": 1410,
+      "end_ms": 1846
+    },
+    {
+      "lang": "en",
+      "text": "after two glasses of wine, which is entertaining.",
+      "start_sample": 29533,
+      "end_sample": 90866,
+      "start_ms": 1846,
+      "end_ms": 5679
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He gets a little oogesa after two glasses of wine, which is entertaining.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6870,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He gets a little",
+          "start_sample": 0,
+          "end_sample": 22754,
+          "start_ms": 0,
+          "end_ms": 1422
+        },
+        {
+          "lang": "ja",
+          "text": "大げさ",
+          "start_sample": 22754,
+          "end_sample": 48392,
+          "start_ms": 1422,
+          "end_ms": 3024
+        },
+        {
+          "lang": "en",
+          "text": "after two glasses of wine, which is entertaining.",
+          "start_sample": 48392,
+          "end_sample": 109925,
+          "start_ms": 3024,
+          "end_ms": 6870
+        }
+      ]
+    },
+    "ja": {
+      "text": "He gets a little 大げさ after two glasses of wine, which is entertaining.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4793,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He gets a little",
+          "start_sample": 0,
+          "end_sample": 14117,
+          "start_ms": 0,
+          "end_ms": 882
+        },
+        {
+          "lang": "ja",
+          "text": "大げさ",
+          "start_sample": 14117,
+          "end_sample": 21496,
+          "start_ms": 882,
+          "end_ms": 1344
+        },
+        {
+          "lang": "en",
+          "text": "after two glasses of wine, which is entertaining.",
+          "start_sample": 21496,
+          "end_sample": 76681,
+          "start_ms": 1344,
+          "end_ms": 4793
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 284,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

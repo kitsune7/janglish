@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_081_ce72da759902/cs11073.flac",
+  "sentence": "Doesn't the 月明かり on a snowy winter night feel almost supernatural to you?",
+  "sample_rate": 16000,
+  "duration_ms": 5216,
+  "reference_speaker": "en/speaker_081_ce72da759902.mp3",
+  "seed": 11115,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Doesn't the",
+      "start_sample": 0,
+      "end_sample": 6045,
+      "start_ms": 0,
+      "end_ms": 378
+    },
+    {
+      "lang": "ja",
+      "text": "月明かり",
+      "start_sample": 6045,
+      "end_sample": 16552,
+      "start_ms": 378,
+      "end_ms": 1034
+    },
+    {
+      "lang": "en",
+      "text": "on a snowy winter night feel almost supernatural to you?",
+      "start_sample": 16552,
+      "end_sample": 83453,
+      "start_ms": 1034,
+      "end_ms": 5216
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Doesn't the getsumeikari on a snowy winter night feel almost supernatural to you?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5705,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Doesn't the",
+          "start_sample": 0,
+          "end_sample": 6245,
+          "start_ms": 0,
+          "end_ms": 390
+        },
+        {
+          "lang": "ja",
+          "text": "月明かり",
+          "start_sample": 6245,
+          "end_sample": 24181,
+          "start_ms": 390,
+          "end_ms": 1511
+        },
+        {
+          "lang": "en",
+          "text": "on a snowy winter night feel almost supernatural to you?",
+          "start_sample": 24181,
+          "end_sample": 91282,
+          "start_ms": 1511,
+          "end_ms": 5705
+        }
+      ]
+    },
+    "ja": {
+      "text": "Doesn't the 月明かり on a snowy winter night feel almost supernatural to you?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5754,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Doesn't the",
+          "start_sample": 0,
+          "end_sample": 7217,
+          "start_ms": 0,
+          "end_ms": 451
+        },
+        {
+          "lang": "ja",
+          "text": "月明かり",
+          "start_sample": 7217,
+          "end_sample": 18124,
+          "start_ms": 451,
+          "end_ms": 1133
+        },
+        {
+          "lang": "en",
+          "text": "on a snowy winter night feel almost supernatural to you?",
+          "start_sample": 18124,
+          "end_sample": 92065,
+          "start_ms": 1133,
+          "end_ms": 5754
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 261,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

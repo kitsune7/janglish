@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_082_d12288b68351/cs5967.flac",
+  "sentence": "commute中に本を一冊読み終えた。",
+  "sample_rate": 16000,
+  "duration_ms": 3174,
+  "reference_speaker": "jp/speaker_082_d12288b68351.mp3",
+  "seed": 6009,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "commute",
+      "start_sample": 0,
+      "end_sample": 13898,
+      "start_ms": 0,
+      "end_ms": 869
+    },
+    {
+      "lang": "ja",
+      "text": "中に本を一冊読み終えた。",
+      "start_sample": 13898,
+      "end_sample": 50776,
+      "start_ms": 869,
+      "end_ms": 3174
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "commute naka ni hon wo ichi satsu yomi oe ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7810,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "commute",
+          "start_sample": 0,
+          "end_sample": 14098,
+          "start_ms": 0,
+          "end_ms": 881
+        },
+        {
+          "lang": "ja",
+          "text": "中に本を一冊読み終えた。",
+          "start_sample": 14098,
+          "end_sample": 124962,
+          "start_ms": 881,
+          "end_ms": 7810
+        }
+      ]
+    },
+    "ja": {
+      "text": "commute中に本を一冊読み終えた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2729,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "commute",
+          "start_sample": 0,
+          "end_sample": 6580,
+          "start_ms": 0,
+          "end_ms": 411
+        },
+        {
+          "lang": "ja",
+          "text": "中に本を一冊読み終えた。",
+          "start_sample": 6580,
+          "end_sample": 43658,
+          "start_ms": 411,
+          "end_ms": 2729
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

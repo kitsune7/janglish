@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_005_a09e35e07333/cs238.flac",
+  "sentence": "この島へのferry は一日に二本しかありません。",
+  "sample_rate": 16000,
+  "duration_ms": 2651,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 280,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この島への",
+      "start_sample": 0,
+      "end_sample": 9967,
+      "start_ms": 0,
+      "end_ms": 623
+    },
+    {
+      "lang": "en",
+      "text": "ferry",
+      "start_sample": 9967,
+      "end_sample": 15030,
+      "start_ms": 623,
+      "end_ms": 939
+    },
+    {
+      "lang": "ja",
+      "text": "は一日に二本しかありません。",
+      "start_sample": 15030,
+      "end_sample": 42419,
+      "start_ms": 939,
+      "end_ms": 2651
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono shima he no ferry ha tsuitachi ni ni hon shika ari mase n",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5543,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この島への",
+          "start_sample": 0,
+          "end_sample": 23780,
+          "start_ms": 0,
+          "end_ms": 1486
+        },
+        {
+          "lang": "en",
+          "text": "ferry",
+          "start_sample": 23780,
+          "end_sample": 29243,
+          "start_ms": 1486,
+          "end_ms": 1828
+        },
+        {
+          "lang": "ja",
+          "text": "は一日に二本しかありません。",
+          "start_sample": 29243,
+          "end_sample": 88691,
+          "start_ms": 1828,
+          "end_ms": 5543
+        }
+      ]
+    },
+    "ja": {
+      "text": "この島へのferry は一日に二本しかありません。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2662,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この島への",
+          "start_sample": 0,
+          "end_sample": 10167,
+          "start_ms": 0,
+          "end_ms": 635
+        },
+        {
+          "lang": "en",
+          "text": "ferry",
+          "start_sample": 10167,
+          "end_sample": 15009,
+          "start_ms": 635,
+          "end_ms": 938
+        },
+        {
+          "lang": "ja",
+          "text": "は一日に二本しかありません。",
+          "start_sample": 15009,
+          "end_sample": 42598,
+          "start_ms": 938,
+          "end_ms": 2662
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 133,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

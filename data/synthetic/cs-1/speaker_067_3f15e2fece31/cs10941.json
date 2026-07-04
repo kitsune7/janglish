@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_067_3f15e2fece31/cs10941.flac",
+  "sentence": "She finally worked up the 勇気 to ask him out.",
+  "sample_rate": 16000,
+  "duration_ms": 2866,
+  "reference_speaker": "en/speaker_067_3f15e2fece31.mp3",
+  "seed": 10983,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She finally worked up the",
+      "start_sample": 0,
+      "end_sample": 21682,
+      "start_ms": 0,
+      "end_ms": 1355
+    },
+    {
+      "lang": "ja",
+      "text": "勇気",
+      "start_sample": 21682,
+      "end_sample": 27231,
+      "start_ms": 1355,
+      "end_ms": 1702
+    },
+    {
+      "lang": "en",
+      "text": "to ask him out.",
+      "start_sample": 27231,
+      "end_sample": 45851,
+      "start_ms": 1702,
+      "end_ms": 2866
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She finally worked up the yuuki to ask him out.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3198,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She finally worked up the",
+          "start_sample": 0,
+          "end_sample": 21882,
+          "start_ms": 0,
+          "end_ms": 1368
+        },
+        {
+          "lang": "ja",
+          "text": "勇気",
+          "start_sample": 21882,
+          "end_sample": 32340,
+          "start_ms": 1368,
+          "end_ms": 2021
+        },
+        {
+          "lang": "en",
+          "text": "to ask him out.",
+          "start_sample": 32340,
+          "end_sample": 51160,
+          "start_ms": 2021,
+          "end_ms": 3198
+        }
+      ]
+    },
+    "ja": {
+      "text": "She finally worked up the 勇気 to ask him out.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3115,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She finally worked up the",
+          "start_sample": 0,
+          "end_sample": 26206,
+          "start_ms": 0,
+          "end_ms": 1638
+        },
+        {
+          "lang": "ja",
+          "text": "勇気",
+          "start_sample": 26206,
+          "end_sample": 32155,
+          "start_ms": 1638,
+          "end_ms": 2010
+        },
+        {
+          "lang": "en",
+          "text": "to ask him out.",
+          "start_sample": 32155,
+          "end_sample": 49837,
+          "start_ms": 2010,
+          "end_ms": 3115
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 144,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

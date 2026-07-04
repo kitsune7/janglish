@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_019_53050c1aaaa1/cs6918.flac",
+  "sentence": "The pedestrian 通路 under the station connects all four exits.",
+  "sample_rate": 16000,
+  "duration_ms": 4037,
+  "reference_speaker": "en/speaker_019_53050c1aaaa1.mp3",
+  "seed": 6960,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The pedestrian",
+      "start_sample": 0,
+      "end_sample": 11499,
+      "start_ms": 0,
+      "end_ms": 719
+    },
+    {
+      "lang": "ja",
+      "text": "通路",
+      "start_sample": 11499,
+      "end_sample": 19117,
+      "start_ms": 719,
+      "end_ms": 1195
+    },
+    {
+      "lang": "en",
+      "text": "under the station connects all four exits.",
+      "start_sample": 19117,
+      "end_sample": 64594,
+      "start_ms": 1195,
+      "end_ms": 4037
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The pedestrian tsuuro under the station connects all four exits.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4307,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The pedestrian",
+          "start_sample": 0,
+          "end_sample": 11699,
+          "start_ms": 0,
+          "end_ms": 731
+        },
+        {
+          "lang": "ja",
+          "text": "通路",
+          "start_sample": 11699,
+          "end_sample": 23239,
+          "start_ms": 731,
+          "end_ms": 1452
+        },
+        {
+          "lang": "en",
+          "text": "under the station connects all four exits.",
+          "start_sample": 23239,
+          "end_sample": 68916,
+          "start_ms": 1452,
+          "end_ms": 4307
+        }
+      ]
+    },
+    "ja": {
+      "text": "The pedestrian 通路 under the station connects all four exits.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4089,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The pedestrian",
+          "start_sample": 0,
+          "end_sample": 17799,
+          "start_ms": 0,
+          "end_ms": 1112
+        },
+        {
+          "lang": "ja",
+          "text": "通路",
+          "start_sample": 17799,
+          "end_sample": 25817,
+          "start_ms": 1112,
+          "end_ms": 1614
+        },
+        {
+          "lang": "en",
+          "text": "under the station connects all four exits.",
+          "start_sample": 25817,
+          "end_sample": 65428,
+          "start_ms": 1614,
+          "end_ms": 4089
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

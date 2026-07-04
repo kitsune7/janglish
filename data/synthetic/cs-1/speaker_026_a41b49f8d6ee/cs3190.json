@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_026_a41b49f8d6ee/cs3190.flac",
+  "sentence": "I spent all weekend debugging that 厄介な piece of code.",
+  "sample_rate": 16000,
+  "duration_ms": 3074,
+  "reference_speaker": "en/speaker_026_a41b49f8d6ee.mp3",
+  "seed": 3232,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I spent all weekend debugging that",
+      "start_sample": 0,
+      "end_sample": 27610,
+      "start_ms": 0,
+      "end_ms": 1726
+    },
+    {
+      "lang": "ja",
+      "text": "厄介な",
+      "start_sample": 27610,
+      "end_sample": 35716,
+      "start_ms": 1726,
+      "end_ms": 2232
+    },
+    {
+      "lang": "en",
+      "text": "piece of code.",
+      "start_sample": 35716,
+      "end_sample": 49178,
+      "start_ms": 2232,
+      "end_ms": 3074
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I spent all weekend debugging that yakkai na piece of code.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3175,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I spent all weekend debugging that",
+          "start_sample": 0,
+          "end_sample": 27810,
+          "start_ms": 0,
+          "end_ms": 1738
+        },
+        {
+          "lang": "ja",
+          "text": "厄介な",
+          "start_sample": 27810,
+          "end_sample": 37135,
+          "start_ms": 1738,
+          "end_ms": 2321
+        },
+        {
+          "lang": "en",
+          "text": "piece of code.",
+          "start_sample": 37135,
+          "end_sample": 50797,
+          "start_ms": 2321,
+          "end_ms": 3175
+        }
+      ]
+    },
+    "ja": {
+      "text": "I spent all weekend debugging that 厄介な piece of code.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3671,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I spent all weekend debugging that",
+          "start_sample": 0,
+          "end_sample": 35463,
+          "start_ms": 0,
+          "end_ms": 2216
+        },
+        {
+          "lang": "ja",
+          "text": "厄介な",
+          "start_sample": 35463,
+          "end_sample": 43969,
+          "start_ms": 2216,
+          "end_ms": 2748
+        },
+        {
+          "lang": "en",
+          "text": "piece of code.",
+          "start_sample": 43969,
+          "end_sample": 58730,
+          "start_ms": 2748,
+          "end_ms": 3671
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 154,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_026_f1fcfd0f4786/cs4703.flac",
+  "sentence": "I prefer taking the 地下鉄 when it rains rather than walking.",
+  "sample_rate": 16000,
+  "duration_ms": 4717,
+  "reference_speaker": "jp/speaker_026_f1fcfd0f4786.mp3",
+  "seed": 4745,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I prefer taking the",
+      "start_sample": 0,
+      "end_sample": 19713,
+      "start_ms": 0,
+      "end_ms": 1232
+    },
+    {
+      "lang": "ja",
+      "text": "地下鉄",
+      "start_sample": 19713,
+      "end_sample": 28930,
+      "start_ms": 1232,
+      "end_ms": 1808
+    },
+    {
+      "lang": "en",
+      "text": "when it rains rather than walking.",
+      "start_sample": 28930,
+      "end_sample": 75469,
+      "start_ms": 1808,
+      "end_ms": 4717
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I prefer taking the chika tetsu when it rains rather than walking.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5581,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I prefer taking the",
+          "start_sample": 0,
+          "end_sample": 19913,
+          "start_ms": 0,
+          "end_ms": 1245
+        },
+        {
+          "lang": "ja",
+          "text": "地下鉄",
+          "start_sample": 19913,
+          "end_sample": 42562,
+          "start_ms": 1245,
+          "end_ms": 2660
+        },
+        {
+          "lang": "en",
+          "text": "when it rains rather than walking.",
+          "start_sample": 42562,
+          "end_sample": 89301,
+          "start_ms": 2660,
+          "end_ms": 5581
+        }
+      ]
+    },
+    "ja": {
+      "text": "I prefer taking the 地下鉄 when it rains rather than walking.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3546,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I prefer taking the",
+          "start_sample": 0,
+          "end_sample": 18753,
+          "start_ms": 0,
+          "end_ms": 1172
+        },
+        {
+          "lang": "ja",
+          "text": "地下鉄",
+          "start_sample": 18753,
+          "end_sample": 28370,
+          "start_ms": 1172,
+          "end_ms": 1773
+        },
+        {
+          "lang": "en",
+          "text": "when it rains rather than walking.",
+          "start_sample": 28370,
+          "end_sample": 56740,
+          "start_ms": 1773,
+          "end_ms": 3546
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 236,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

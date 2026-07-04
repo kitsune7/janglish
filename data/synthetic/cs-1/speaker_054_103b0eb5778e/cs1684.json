@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_054_103b0eb5778e/cs1684.flac",
+  "sentence": "その橋はdangerousな状態だから、通行禁止になっている。",
+  "sample_rate": 16000,
+  "duration_ms": 4910,
+  "reference_speaker": "en/speaker_054_103b0eb5778e.mp3",
+  "seed": 1726,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "その橋は",
+      "start_sample": 0,
+      "end_sample": 13299,
+      "start_ms": 0,
+      "end_ms": 831
+    },
+    {
+      "lang": "en",
+      "text": "dangerous",
+      "start_sample": 13299,
+      "end_sample": 29109,
+      "start_ms": 831,
+      "end_ms": 1819
+    },
+    {
+      "lang": "ja",
+      "text": "な状態だから、通行禁止になっている。",
+      "start_sample": 29109,
+      "end_sample": 78565,
+      "start_ms": 1819,
+      "end_ms": 4910
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sono hashi ha dangerous na joutai da kara tsuukou kinshi ni natsu te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7062,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その橋は",
+          "start_sample": 0,
+          "end_sample": 27282,
+          "start_ms": 0,
+          "end_ms": 1705
+        },
+        {
+          "lang": "en",
+          "text": "dangerous",
+          "start_sample": 27282,
+          "end_sample": 43492,
+          "start_ms": 1705,
+          "end_ms": 2718
+        },
+        {
+          "lang": "ja",
+          "text": "な状態だから、通行禁止になっている。",
+          "start_sample": 43492,
+          "end_sample": 112987,
+          "start_ms": 2718,
+          "end_ms": 7062
+        }
+      ]
+    },
+    "ja": {
+      "text": "その橋はdangerousな状態だから、通行禁止になっている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4721,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "その橋は",
+          "start_sample": 0,
+          "end_sample": 13499,
+          "start_ms": 0,
+          "end_ms": 844
+        },
+        {
+          "lang": "en",
+          "text": "dangerous",
+          "start_sample": 13499,
+          "end_sample": 25873,
+          "start_ms": 844,
+          "end_ms": 1617
+        },
+        {
+          "lang": "ja",
+          "text": "な状態だから、通行禁止になっている。",
+          "start_sample": 25873,
+          "end_sample": 75529,
+          "start_ms": 1617,
+          "end_ms": 4721
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 246,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

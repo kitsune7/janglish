@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_041_b54335ce95b5/cs5607.flac",
+  "sentence": "They offered a complimentary 夕食 voucher to guests who stayed three nights.",
+  "sample_rate": 16000,
+  "duration_ms": 5117,
+  "reference_speaker": "en/speaker_041_b54335ce95b5.mp3",
+  "seed": 5649,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "They offered a complimentary",
+      "start_sample": 0,
+      "end_sample": 23032,
+      "start_ms": 0,
+      "end_ms": 1440
+    },
+    {
+      "lang": "ja",
+      "text": "夕食",
+      "start_sample": 23032,
+      "end_sample": 31285,
+      "start_ms": 1440,
+      "end_ms": 1955
+    },
+    {
+      "lang": "en",
+      "text": "voucher to guests who stayed three nights.",
+      "start_sample": 31285,
+      "end_sample": 81877,
+      "start_ms": 1955,
+      "end_ms": 5117
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "They offered a complimentary yuushoku voucher to guests who stayed three nights.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5288,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "They offered a complimentary",
+          "start_sample": 0,
+          "end_sample": 23232,
+          "start_ms": 0,
+          "end_ms": 1452
+        },
+        {
+          "lang": "ja",
+          "text": "夕食",
+          "start_sample": 23232,
+          "end_sample": 33808,
+          "start_ms": 1452,
+          "end_ms": 2113
+        },
+        {
+          "lang": "en",
+          "text": "voucher to guests who stayed three nights.",
+          "start_sample": 33808,
+          "end_sample": 84600,
+          "start_ms": 2113,
+          "end_ms": 5288
+        }
+      ]
+    },
+    "ja": {
+      "text": "They offered a complimentary 夕食 voucher to guests who stayed three nights.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5428,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "They offered a complimentary",
+          "start_sample": 0,
+          "end_sample": 26439,
+          "start_ms": 0,
+          "end_ms": 1652
+        },
+        {
+          "lang": "ja",
+          "text": "夕食",
+          "start_sample": 26439,
+          "end_sample": 35092,
+          "start_ms": 1652,
+          "end_ms": 2193
+        },
+        {
+          "lang": "en",
+          "text": "voucher to guests who stayed three nights.",
+          "start_sample": 35092,
+          "end_sample": 86849,
+          "start_ms": 2193,
+          "end_ms": 5428
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 256,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

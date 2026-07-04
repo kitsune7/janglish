@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_070_eb9077114ebd/cs540.flac",
+  "sentence": "面接の前日にpresentationの練習を繰り返しました。",
+  "sample_rate": 16000,
+  "duration_ms": 4487,
+  "reference_speaker": "en/speaker_070_eb9077114ebd.mp3",
+  "seed": 582,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "面接の前日に",
+      "start_sample": 0,
+      "end_sample": 24160,
+      "start_ms": 0,
+      "end_ms": 1510
+    },
+    {
+      "lang": "en",
+      "text": "presentation",
+      "start_sample": 24160,
+      "end_sample": 43779,
+      "start_ms": 1510,
+      "end_ms": 2736
+    },
+    {
+      "lang": "ja",
+      "text": "の練習を繰り返しました。",
+      "start_sample": 43779,
+      "end_sample": 71786,
+      "start_ms": 2736,
+      "end_ms": 4487
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "mensetsu no zenjitsu ni presentation no renshuu wo kurikaeshi mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6886,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "面接の前日に",
+          "start_sample": 0,
+          "end_sample": 47884,
+          "start_ms": 0,
+          "end_ms": 2993
+        },
+        {
+          "lang": "en",
+          "text": "presentation",
+          "start_sample": 47884,
+          "end_sample": 67903,
+          "start_ms": 2993,
+          "end_ms": 4244
+        },
+        {
+          "lang": "ja",
+          "text": "の練習を繰り返しました。",
+          "start_sample": 67903,
+          "end_sample": 110182,
+          "start_ms": 4244,
+          "end_ms": 6886
+        }
+      ]
+    },
+    "ja": {
+      "text": "面接の前日にpresentationの練習を繰り返しました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4267,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "面接の前日に",
+          "start_sample": 0,
+          "end_sample": 24360,
+          "start_ms": 0,
+          "end_ms": 1522
+        },
+        {
+          "lang": "en",
+          "text": "presentation",
+          "start_sample": 24360,
+          "end_sample": 40067,
+          "start_ms": 1522,
+          "end_ms": 2504
+        },
+        {
+          "lang": "ja",
+          "text": "の練習を繰り返しました。",
+          "start_sample": 40067,
+          "end_sample": 68274,
+          "start_ms": 2504,
+          "end_ms": 4267
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_002_02a8841a00d7/cs8706.flac",
+  "sentence": "We should have stored more 水 before the storm cut off the supply.",
+  "sample_rate": 16000,
+  "duration_ms": 3284,
+  "reference_speaker": "jp/speaker_002_02a8841a00d7.mp3",
+  "seed": 8748,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We should have stored more",
+      "start_sample": 0,
+      "end_sample": 14372,
+      "start_ms": 0,
+      "end_ms": 898
+    },
+    {
+      "lang": "ja",
+      "text": "水",
+      "start_sample": 14372,
+      "end_sample": 16865,
+      "start_ms": 898,
+      "end_ms": 1054
+    },
+    {
+      "lang": "en",
+      "text": "before the storm cut off the supply.",
+      "start_sample": 16865,
+      "end_sample": 52537,
+      "start_ms": 1054,
+      "end_ms": 3284
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We should have stored more mizu before the storm cut off the supply.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3903,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We should have stored more",
+          "start_sample": 0,
+          "end_sample": 14572,
+          "start_ms": 0,
+          "end_ms": 911
+        },
+        {
+          "lang": "ja",
+          "text": "水",
+          "start_sample": 14572,
+          "end_sample": 26583,
+          "start_ms": 911,
+          "end_ms": 1661
+        },
+        {
+          "lang": "en",
+          "text": "before the storm cut off the supply.",
+          "start_sample": 26583,
+          "end_sample": 62455,
+          "start_ms": 1661,
+          "end_ms": 3903
+        }
+      ]
+    },
+    "ja": {
+      "text": "We should have stored more 水 before the storm cut off the supply.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3175,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We should have stored more",
+          "start_sample": 0,
+          "end_sample": 17364,
+          "start_ms": 0,
+          "end_ms": 1085
+        },
+        {
+          "lang": "ja",
+          "text": "水",
+          "start_sample": 17364,
+          "end_sample": 20257,
+          "start_ms": 1085,
+          "end_ms": 1266
+        },
+        {
+          "lang": "en",
+          "text": "before the storm cut off the supply.",
+          "start_sample": 20257,
+          "end_sample": 50801,
+          "start_ms": 1266,
+          "end_ms": 3175
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 165,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

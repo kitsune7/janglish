@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_083_f660ed2250be/cs3438.flac",
+  "sentence": "Can you find me something 暖かい but still stylish for the winter shoot?",
+  "sample_rate": 16000,
+  "duration_ms": 3686,
+  "reference_speaker": "jp/speaker_083_f660ed2250be.mp3",
+  "seed": 3480,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can you find me something",
+      "start_sample": 0,
+      "end_sample": 15708,
+      "start_ms": 0,
+      "end_ms": 982
+    },
+    {
+      "lang": "ja",
+      "text": "暖かい",
+      "start_sample": 15708,
+      "end_sample": 25590,
+      "start_ms": 982,
+      "end_ms": 1599
+    },
+    {
+      "lang": "en",
+      "text": "but still stylish for the winter shoot?",
+      "start_sample": 25590,
+      "end_sample": 58970,
+      "start_ms": 1599,
+      "end_ms": 3686
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can you find me something atatakai but still stylish for the winter shoot?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3856,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you find me something",
+          "start_sample": 0,
+          "end_sample": 15908,
+          "start_ms": 0,
+          "end_ms": 994
+        },
+        {
+          "lang": "ja",
+          "text": "暖かい",
+          "start_sample": 15908,
+          "end_sample": 28121,
+          "start_ms": 994,
+          "end_ms": 1758
+        },
+        {
+          "lang": "en",
+          "text": "but still stylish for the winter shoot?",
+          "start_sample": 28121,
+          "end_sample": 61701,
+          "start_ms": 1758,
+          "end_ms": 3856
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can you find me something 暖かい but still stylish for the winter shoot?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5743,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can you find me something",
+          "start_sample": 0,
+          "end_sample": 20722,
+          "start_ms": 0,
+          "end_ms": 1295
+        },
+        {
+          "lang": "ja",
+          "text": "暖かい",
+          "start_sample": 20722,
+          "end_sample": 31004,
+          "start_ms": 1295,
+          "end_ms": 1938
+        },
+        {
+          "lang": "en",
+          "text": "but still stylish for the winter shoot?",
+          "start_sample": 31004,
+          "end_sample": 91884,
+          "start_ms": 1938,
+          "end_ms": 5743
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 185,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

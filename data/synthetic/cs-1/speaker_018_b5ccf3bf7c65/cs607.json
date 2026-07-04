@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_018_b5ccf3bf7c65/cs607.flac",
+  "sentence": "The 玄関 in older homes here always has that beautiful tiled step down.",
+  "sample_rate": 16000,
+  "duration_ms": 5618,
+  "reference_speaker": "jp/speaker_018_b5ccf3bf7c65.mp3",
+  "seed": 649,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1244,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "玄関",
+      "start_sample": 1244,
+      "end_sample": 7735,
+      "start_ms": 78,
+      "end_ms": 483
+    },
+    {
+      "lang": "en",
+      "text": "in older homes here always has that beautiful tiled step down.",
+      "start_sample": 7735,
+      "end_sample": 89883,
+      "start_ms": 483,
+      "end_ms": 5618
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The genkan in older homes here always has that beautiful tiled step down.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5899,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1444,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "玄関",
+          "start_sample": 1444,
+          "end_sample": 12039,
+          "start_ms": 90,
+          "end_ms": 752
+        },
+        {
+          "lang": "en",
+          "text": "in older homes here always has that beautiful tiled step down.",
+          "start_sample": 12039,
+          "end_sample": 94387,
+          "start_ms": 752,
+          "end_ms": 5899
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 玄関 in older homes here always has that beautiful tiled step down.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5248,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 2883,
+          "start_ms": 0,
+          "end_ms": 180
+        },
+        {
+          "lang": "ja",
+          "text": "玄関",
+          "start_sample": 2883,
+          "end_sample": 9774,
+          "start_ms": 180,
+          "end_ms": 611
+        },
+        {
+          "lang": "en",
+          "text": "in older homes here always has that beautiful tiled step down.",
+          "start_sample": 9774,
+          "end_sample": 83971,
+          "start_ms": 611,
+          "end_ms": 5248
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 281,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

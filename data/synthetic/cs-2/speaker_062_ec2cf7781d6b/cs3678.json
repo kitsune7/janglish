@@ -1,0 +1,129 @@
+{
+  "audio_path": "synthetic/cs-2/speaker_062_ec2cf7781d6b/cs3678.flac",
+  "sentence": "My neighbor accepted the 小包 on my behalf, but forgot to hand over the 受領証.",
+  "sample_rate": 16000,
+  "duration_ms": 5341,
+  "reference_speaker": "jp/speaker_062_ec2cf7781d6b.mp3",
+  "seed": 3720,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My neighbor accepted the",
+      "start_sample": 0,
+      "end_sample": 18860,
+      "start_ms": 0,
+      "end_ms": 1179
+    },
+    {
+      "lang": "ja",
+      "text": "小包",
+      "start_sample": 18860,
+      "end_sample": 28549,
+      "start_ms": 1179,
+      "end_ms": 1784
+    },
+    {
+      "lang": "en",
+      "text": "on my behalf, but forgot to hand over the",
+      "start_sample": 28549,
+      "end_sample": 72358,
+      "start_ms": 1784,
+      "end_ms": 4522
+    },
+    {
+      "lang": "ja",
+      "text": "受領証.",
+      "start_sample": 72358,
+      "end_sample": 85449,
+      "start_ms": 4522,
+      "end_ms": 5341
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My neighbor accepted the kozutsumi on my behalf, but forgot to hand over the juryou shou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5866,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My neighbor accepted the",
+          "start_sample": 0,
+          "end_sample": 19060,
+          "start_ms": 0,
+          "end_ms": 1191
+        },
+        {
+          "lang": "ja",
+          "text": "小包",
+          "start_sample": 19060,
+          "end_sample": 35879,
+          "start_ms": 1191,
+          "end_ms": 2242
+        },
+        {
+          "lang": "en",
+          "text": "on my behalf, but forgot to hand over the",
+          "start_sample": 35879,
+          "end_sample": 80088,
+          "start_ms": 2242,
+          "end_ms": 5006
+        },
+        {
+          "lang": "ja",
+          "text": "受領証.",
+          "start_sample": 80088,
+          "end_sample": 93863,
+          "start_ms": 5006,
+          "end_ms": 5866
+        }
+      ]
+    },
+    "ja": {
+      "text": "My neighbor accepted the 小包 on my behalf, but forgot to hand over the 受領証.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7206,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My neighbor accepted the",
+          "start_sample": 0,
+          "end_sample": 33149,
+          "start_ms": 0,
+          "end_ms": 2072
+        },
+        {
+          "lang": "ja",
+          "text": "小包",
+          "start_sample": 33149,
+          "end_sample": 43238,
+          "start_ms": 2072,
+          "end_ms": 2702
+        },
+        {
+          "lang": "en",
+          "text": "on my behalf, but forgot to hand over the",
+          "start_sample": 43238,
+          "end_sample": 102011,
+          "start_ms": 2702,
+          "end_ms": 6376
+        },
+        {
+          "lang": "ja",
+          "text": "受領証.",
+          "start_sample": 102011,
+          "end_sample": 115302,
+          "start_ms": 6376,
+          "end_ms": 7206
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 268,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

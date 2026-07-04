@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_088_9950f069efac/cs1350.flac",
+  "sentence": "It's hard to stay motivated when the weather is this 陰気 for weeks.",
+  "sample_rate": 16000,
+  "duration_ms": 4854,
+  "reference_speaker": "en/speaker_088_9950f069efac.mp3",
+  "seed": 1392,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "It's hard to stay motivated when the weather is this",
+      "start_sample": 0,
+      "end_sample": 54187,
+      "start_ms": 0,
+      "end_ms": 3387
+    },
+    {
+      "lang": "ja",
+      "text": "陰気",
+      "start_sample": 54187,
+      "end_sample": 65828,
+      "start_ms": 3387,
+      "end_ms": 4114
+    },
+    {
+      "lang": "en",
+      "text": "for weeks.",
+      "start_sample": 65828,
+      "end_sample": 77658,
+      "start_ms": 4114,
+      "end_ms": 4854
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "It's hard to stay motivated when the weather is this inki for weeks.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4572,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "It's hard to stay motivated when the weather is this",
+          "start_sample": 0,
+          "end_sample": 54387,
+          "start_ms": 0,
+          "end_ms": 3399
+        },
+        {
+          "lang": "ja",
+          "text": "陰気",
+          "start_sample": 54387,
+          "end_sample": 61125,
+          "start_ms": 3399,
+          "end_ms": 3820
+        },
+        {
+          "lang": "en",
+          "text": "for weeks.",
+          "start_sample": 61125,
+          "end_sample": 73155,
+          "start_ms": 3820,
+          "end_ms": 4572
+        }
+      ]
+    },
+    "ja": {
+      "text": "It's hard to stay motivated when the weather is this 陰気 for weeks.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5458,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "It's hard to stay motivated when the weather is this",
+          "start_sample": 0,
+          "end_sample": 62126,
+          "start_ms": 0,
+          "end_ms": 3883
+        },
+        {
+          "lang": "ja",
+          "text": "陰気",
+          "start_sample": 62126,
+          "end_sample": 74167,
+          "start_ms": 3883,
+          "end_ms": 4635
+        },
+        {
+          "lang": "en",
+          "text": "for weeks.",
+          "start_sample": 74167,
+          "end_sample": 87328,
+          "start_ms": 4635,
+          "end_ms": 5458
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 243,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

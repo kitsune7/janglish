@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_012_29b1e5a58d16/cs8946.flac",
+  "sentence": "I submitted the 申請書 for the small business loan yesterday.",
+  "sample_rate": 16000,
+  "duration_ms": 3369,
+  "reference_speaker": "en/speaker_012_29b1e5a58d16.mp3",
+  "seed": 8988,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I submitted the",
+      "start_sample": 0,
+      "end_sample": 10547,
+      "start_ms": 0,
+      "end_ms": 659
+    },
+    {
+      "lang": "ja",
+      "text": "申請書",
+      "start_sample": 10547,
+      "end_sample": 23462,
+      "start_ms": 659,
+      "end_ms": 1466
+    },
+    {
+      "lang": "en",
+      "text": "for the small business loan yesterday.",
+      "start_sample": 23462,
+      "end_sample": 53906,
+      "start_ms": 1466,
+      "end_ms": 3369
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I submitted the shinsei kaki for the small business loan yesterday.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3389,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I submitted the",
+          "start_sample": 0,
+          "end_sample": 10747,
+          "start_ms": 0,
+          "end_ms": 672
+        },
+        {
+          "lang": "ja",
+          "text": "申請書",
+          "start_sample": 10747,
+          "end_sample": 23583,
+          "start_ms": 672,
+          "end_ms": 1474
+        },
+        {
+          "lang": "en",
+          "text": "for the small business loan yesterday.",
+          "start_sample": 23583,
+          "end_sample": 54227,
+          "start_ms": 1474,
+          "end_ms": 3389
+        }
+      ]
+    },
+    "ja": {
+      "text": "I submitted the 申請書 for the small business loan yesterday.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4913,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I submitted the",
+          "start_sample": 0,
+          "end_sample": 26149,
+          "start_ms": 0,
+          "end_ms": 1634
+        },
+        {
+          "lang": "ja",
+          "text": "申請書",
+          "start_sample": 26149,
+          "end_sample": 39464,
+          "start_ms": 1634,
+          "end_ms": 2466
+        },
+        {
+          "lang": "en",
+          "text": "for the small business loan yesterday.",
+          "start_sample": 39464,
+          "end_sample": 78606,
+          "start_ms": 2466,
+          "end_ms": 4913
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 169,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

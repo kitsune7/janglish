@@ -784,6 +784,47 @@ def reference_label(ref: Path, reference_dirs: list[Path]) -> str:
     return str(ref)
 
 
+def speaker_dir_name(ref_label: str) -> str:
+    """Speaker directory for a reference label: "jp/speaker_079_x.mp3" -> "speaker_079_x"."""
+    return Path(ref_label.replace("\\", "/")).stem
+
+
+def speaker_output_rel_path(rel_path: str, ref_label: str) -> str:
+    """Place flat synthetic paths inside the reference speaker's subdirectory.
+
+    Rows spliced into data-pairs.csv before generation look like
+    synthetic/cs-1/cs151.flac; generated audio must land at
+    synthetic/cs-1/<speaker>/cs151.flac so dataset splits stay speaker-disjoint.
+    Paths that already contain a speaker directory are returned unchanged.
+    """
+    normalized = rel_path.replace("\\", "/")
+    parts = normalized.split("/")
+    if parts[0] == "synthetic" and len(parts) == 3:
+        return "/".join([parts[0], parts[1], speaker_dir_name(ref_label), parts[2]])
+    return rel_path
+
+
+def update_pairs_csv_paths(csv_path: Path, out_root: Path, has_header: bool) -> int:
+    """Rewrite flat synthetic CSV rows to the speaker subdirectory their audio landed in."""
+    lines = csv_path.read_text(encoding="utf-8").splitlines()
+    updated = 0
+    for i in range(1 if has_header else 0, len(lines)):
+        path, sep, rest = lines[i].partition("|")
+        if not sep:
+            continue
+        normalized = path.strip().replace("\\", "/")
+        parts = normalized.split("/")
+        if len(parts) != 3 or parts[0] != "synthetic" or (out_root / normalized).exists():
+            continue
+        matches = sorted((out_root / parts[0] / parts[1]).glob(f"*/{parts[2]}"))
+        if len(matches) == 1:
+            lines[i] = f"{matches[0].relative_to(out_root).as_posix()}|{rest}"
+            updated += 1
+    if updated:
+        csv_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return updated
+
+
 def write_debug_renders(wav_path: Path, result: SynthesisResult) -> None:
     base = wav_path.with_suffix("")
     for lang, audio in result.render_audio.items():
@@ -827,6 +868,11 @@ def run_generation(args: argparse.Namespace, worker_index: int = 0, worker_count
         if (i - 1) % worker_count != worker_index:
             continue
 
+        row_seed = args.seed + i
+        ref = synth.pick_reference(random.Random(row_seed))
+        ref_label = reference_label(ref, reference_dirs)
+        rel_path = speaker_output_rel_path(rel_path, ref_label)
+
         wav_path = args.out_root / rel_path
         json_path = wav_path.with_suffix(".json")
 
@@ -836,8 +882,6 @@ def run_generation(args: argparse.Namespace, worker_index: int = 0, worker_count
             continue
 
         wav_path.parent.mkdir(parents=True, exist_ok=True)
-        row_seed = args.seed + i
-        ref = synth.pick_reference(random.Random(row_seed))
 
         try:
             seed_everything(row_seed)
@@ -854,7 +898,6 @@ def run_generation(args: argparse.Namespace, worker_index: int = 0, worker_count
                 write_debug_renders(wav_path, result)
 
             span_tuples = [(s["start_sample"], s["end_sample"], s["lang"]) for s in spans]
-            ref_label = reference_label(ref, reference_dirs)
 
             sidecar = {
                 "audio_path": str(rel_path),
@@ -981,8 +1024,14 @@ def main():
         sys.exit(1)
     if args.workers == 1:
         run_generation(args)
-        return
-    sys.exit(run_generation_workers(args))
+    else:
+        exit_code = run_generation_workers(args)
+        if exit_code:
+            sys.exit(exit_code)
+
+    updated = update_pairs_csv_paths(args.csv, args.out_root, args.has_header)
+    if updated:
+        print(f"Updated {updated} row(s) in {args.csv} to per-speaker paths.")
 
 
 if __name__ == "__main__":

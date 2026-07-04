@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_025_5a5c462b583a/cs9445.flac",
+  "sentence": "The lack of 雑談 in the office hallways is something I genuinely miss.",
+  "sample_rate": 16000,
+  "duration_ms": 4039,
+  "reference_speaker": "en/speaker_025_5a5c462b583a.mp3",
+  "seed": 9487,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The lack of",
+      "start_sample": 0,
+      "end_sample": 6377,
+      "start_ms": 0,
+      "end_ms": 399
+    },
+    {
+      "lang": "ja",
+      "text": "雑談",
+      "start_sample": 6377,
+      "end_sample": 22636,
+      "start_ms": 399,
+      "end_ms": 1415
+    },
+    {
+      "lang": "en",
+      "text": "in the office hallways is something I genuinely miss.",
+      "start_sample": 22636,
+      "end_sample": 64631,
+      "start_ms": 1415,
+      "end_ms": 4039
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The lack of zatsudan in the office hallways is something I genuinely miss.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3670,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The lack of",
+          "start_sample": 0,
+          "end_sample": 6577,
+          "start_ms": 0,
+          "end_ms": 411
+        },
+        {
+          "lang": "ja",
+          "text": "雑談",
+          "start_sample": 6577,
+          "end_sample": 16525,
+          "start_ms": 411,
+          "end_ms": 1033
+        },
+        {
+          "lang": "en",
+          "text": "in the office hallways is something I genuinely miss.",
+          "start_sample": 16525,
+          "end_sample": 58720,
+          "start_ms": 1033,
+          "end_ms": 3670
+        }
+      ]
+    },
+    "ja": {
+      "text": "The lack of 雑談 in the office hallways is something I genuinely miss.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 8750,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The lack of",
+          "start_sample": 0,
+          "end_sample": 20503,
+          "start_ms": 0,
+          "end_ms": 1281
+        },
+        {
+          "lang": "ja",
+          "text": "雑談",
+          "start_sample": 20503,
+          "end_sample": 37162,
+          "start_ms": 1281,
+          "end_ms": 2323
+        },
+        {
+          "lang": "en",
+          "text": "in the office hallways is something I genuinely miss.",
+          "start_sample": 37162,
+          "end_sample": 140001,
+          "start_ms": 2323,
+          "end_ms": 8750
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

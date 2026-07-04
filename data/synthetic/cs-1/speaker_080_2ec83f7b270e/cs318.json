@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_080_2ec83f7b270e/cs318.flac",
+  "sentence": "今日はoccasionallyしか来ないバスに乗ることにした。",
+  "sample_rate": 16000,
+  "duration_ms": 3222,
+  "reference_speaker": "en/speaker_080_2ec83f7b270e.mp3",
+  "seed": 360,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "今日は",
+      "start_sample": 0,
+      "end_sample": 6067,
+      "start_ms": 0,
+      "end_ms": 379
+    },
+    {
+      "lang": "en",
+      "text": "occasionally",
+      "start_sample": 6067,
+      "end_sample": 24436,
+      "start_ms": 379,
+      "end_ms": 1527
+    },
+    {
+      "lang": "ja",
+      "text": "しか来ないバスに乗ることにした。",
+      "start_sample": 24436,
+      "end_sample": 51553,
+      "start_ms": 1527,
+      "end_ms": 3222
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kyou ha occasionally shika rai nai basu ni noru koto ni shi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6376,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日は",
+          "start_sample": 0,
+          "end_sample": 11549,
+          "start_ms": 0,
+          "end_ms": 722
+        },
+        {
+          "lang": "en",
+          "text": "occasionally",
+          "start_sample": 11549,
+          "end_sample": 30318,
+          "start_ms": 722,
+          "end_ms": 1895
+        },
+        {
+          "lang": "ja",
+          "text": "しか来ないバスに乗ることにした。",
+          "start_sample": 30318,
+          "end_sample": 102022,
+          "start_ms": 1895,
+          "end_ms": 6376
+        }
+      ]
+    },
+    "ja": {
+      "text": "今日はoccasionallyしか来ないバスに乗ることにした。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2933,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "今日は",
+          "start_sample": 0,
+          "end_sample": 6267,
+          "start_ms": 0,
+          "end_ms": 392
+        },
+        {
+          "lang": "en",
+          "text": "occasionally",
+          "start_sample": 6267,
+          "end_sample": 19606,
+          "start_ms": 392,
+          "end_ms": 1225
+        },
+        {
+          "lang": "ja",
+          "text": "しか来ないバスに乗ることにした。",
+          "start_sample": 19606,
+          "end_sample": 46923,
+          "start_ms": 1225,
+          "end_ms": 2933
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 162,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

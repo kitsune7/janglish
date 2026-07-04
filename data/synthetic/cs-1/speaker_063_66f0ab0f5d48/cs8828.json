@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_063_66f0ab0f5d48/cs8828.flac",
+  "sentence": "She keeps a detailed 日記 of every bird species she spots on her walks.",
+  "sample_rate": 16000,
+  "duration_ms": 4556,
+  "reference_speaker": "en/speaker_063_66f0ab0f5d48.mp3",
+  "seed": 8870,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She keeps a detailed",
+      "start_sample": 0,
+      "end_sample": 18546,
+      "start_ms": 0,
+      "end_ms": 1159
+    },
+    {
+      "lang": "ja",
+      "text": "日記",
+      "start_sample": 18546,
+      "end_sample": 32084,
+      "start_ms": 1159,
+      "end_ms": 2005
+    },
+    {
+      "lang": "en",
+      "text": "of every bird species she spots on her walks.",
+      "start_sample": 32084,
+      "end_sample": 72902,
+      "start_ms": 2005,
+      "end_ms": 4556
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She keeps a detailed nikki of every bird species she spots on her walks.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4086,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She keeps a detailed",
+          "start_sample": 0,
+          "end_sample": 18746,
+          "start_ms": 0,
+          "end_ms": 1172
+        },
+        {
+          "lang": "ja",
+          "text": "日記",
+          "start_sample": 18746,
+          "end_sample": 24354,
+          "start_ms": 1172,
+          "end_ms": 1522
+        },
+        {
+          "lang": "en",
+          "text": "of every bird species she spots on her walks.",
+          "start_sample": 24354,
+          "end_sample": 65372,
+          "start_ms": 1522,
+          "end_ms": 4086
+        }
+      ]
+    },
+    "ja": {
+      "text": "She keeps a detailed 日記 of every bird species she spots on her walks.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6709,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She keeps a detailed",
+          "start_sample": 0,
+          "end_sample": 30439,
+          "start_ms": 0,
+          "end_ms": 1902
+        },
+        {
+          "lang": "ja",
+          "text": "日記",
+          "start_sample": 30439,
+          "end_sample": 44377,
+          "start_ms": 1902,
+          "end_ms": 2774
+        },
+        {
+          "lang": "en",
+          "text": "of every bird species she spots on her walks.",
+          "start_sample": 44377,
+          "end_sample": 107339,
+          "start_ms": 2774,
+          "end_ms": 6709
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 228,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

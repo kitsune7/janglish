@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_034_3e5442a60675/cs4764.flac",
+  "sentence": "Go straight until you hit the 橋 and then take a sharp right.",
+  "sample_rate": 16000,
+  "duration_ms": 3607,
+  "reference_speaker": "jp/speaker_034_3e5442a60675.mp3",
+  "seed": 4806,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Go straight until you hit the",
+      "start_sample": 0,
+      "end_sample": 22393,
+      "start_ms": 0,
+      "end_ms": 1400
+    },
+    {
+      "lang": "ja",
+      "text": "橋",
+      "start_sample": 22393,
+      "end_sample": 28585,
+      "start_ms": 1400,
+      "end_ms": 1787
+    },
+    {
+      "lang": "en",
+      "text": "and then take a sharp right.",
+      "start_sample": 28585,
+      "end_sample": 57708,
+      "start_ms": 1787,
+      "end_ms": 3607
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Go straight until you hit the hashi and then take a sharp right.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3886,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Go straight until you hit the",
+          "start_sample": 0,
+          "end_sample": 22593,
+          "start_ms": 0,
+          "end_ms": 1412
+        },
+        {
+          "lang": "ja",
+          "text": "橋",
+          "start_sample": 22593,
+          "end_sample": 32848,
+          "start_ms": 1412,
+          "end_ms": 2053
+        },
+        {
+          "lang": "en",
+          "text": "and then take a sharp right.",
+          "start_sample": 32848,
+          "end_sample": 62171,
+          "start_ms": 2053,
+          "end_ms": 3886
+        }
+      ]
+    },
+    "ja": {
+      "text": "Go straight until you hit the 橋 and then take a sharp right.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4481,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Go straight until you hit the",
+          "start_sample": 0,
+          "end_sample": 37782,
+          "start_ms": 0,
+          "end_ms": 2361
+        },
+        {
+          "lang": "ja",
+          "text": "橋",
+          "start_sample": 37782,
+          "end_sample": 44374,
+          "start_ms": 2361,
+          "end_ms": 2773
+        },
+        {
+          "lang": "en",
+          "text": "and then take a sharp right.",
+          "start_sample": 44374,
+          "end_sample": 71702,
+          "start_ms": 2773,
+          "end_ms": 4481
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 181,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

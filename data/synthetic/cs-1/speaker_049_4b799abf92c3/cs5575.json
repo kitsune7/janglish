@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_049_4b799abf92c3/cs5575.flac",
+  "sentence": "夕方になると気温がdramaticallyに下がりますね。",
+  "sample_rate": 16000,
+  "duration_ms": 4911,
+  "reference_speaker": "en/speaker_049_4b799abf92c3.mp3",
+  "seed": 5617,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "夕方になると気温が",
+      "start_sample": 0,
+      "end_sample": 21931,
+      "start_ms": 0,
+      "end_ms": 1371
+    },
+    {
+      "lang": "en",
+      "text": "dramatically",
+      "start_sample": 21931,
+      "end_sample": 62734,
+      "start_ms": 1371,
+      "end_ms": 3921
+    },
+    {
+      "lang": "ja",
+      "text": "に下がりますね。",
+      "start_sample": 62734,
+      "end_sample": 78570,
+      "start_ms": 3921,
+      "end_ms": 4911
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "yuugata ni naru to kion ga dramatically ni sagari masu ne",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7335,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "夕方になると気温が",
+          "start_sample": 0,
+          "end_sample": 45852,
+          "start_ms": 0,
+          "end_ms": 2866
+        },
+        {
+          "lang": "en",
+          "text": "dramatically",
+          "start_sample": 45852,
+          "end_sample": 87055,
+          "start_ms": 2866,
+          "end_ms": 5441
+        },
+        {
+          "lang": "ja",
+          "text": "に下がりますね。",
+          "start_sample": 87055,
+          "end_sample": 117354,
+          "start_ms": 5441,
+          "end_ms": 7335
+        }
+      ]
+    },
+    "ja": {
+      "text": "夕方になると気温がdramaticallyに下がりますね。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3247,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "夕方になると気温が",
+          "start_sample": 0,
+          "end_sample": 22131,
+          "start_ms": 0,
+          "end_ms": 1383
+        },
+        {
+          "lang": "en",
+          "text": "dramatically",
+          "start_sample": 22131,
+          "end_sample": 35923,
+          "start_ms": 1383,
+          "end_ms": 2245
+        },
+        {
+          "lang": "ja",
+          "text": "に下がりますね。",
+          "start_sample": 35923,
+          "end_sample": 51959,
+          "start_ms": 2245,
+          "end_ms": 3247
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 246,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

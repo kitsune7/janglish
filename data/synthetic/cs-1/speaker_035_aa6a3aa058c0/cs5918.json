@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_035_aa6a3aa058c0/cs5918.flac",
+  "sentence": "The whole 試合 came down to the final penalty kick.",
+  "sample_rate": 16000,
+  "duration_ms": 2535,
+  "reference_speaker": "en/speaker_035_aa6a3aa058c0.mp3",
+  "seed": 5960,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The whole",
+      "start_sample": 0,
+      "end_sample": 5413,
+      "start_ms": 0,
+      "end_ms": 338
+    },
+    {
+      "lang": "ja",
+      "text": "試合",
+      "start_sample": 5413,
+      "end_sample": 11419,
+      "start_ms": 338,
+      "end_ms": 714
+    },
+    {
+      "lang": "en",
+      "text": "came down to the final penalty kick.",
+      "start_sample": 11419,
+      "end_sample": 40567,
+      "start_ms": 714,
+      "end_ms": 2535
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The whole shiai came down to the final penalty kick.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2706,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole",
+          "start_sample": 0,
+          "end_sample": 5613,
+          "start_ms": 0,
+          "end_ms": 351
+        },
+        {
+          "lang": "ja",
+          "text": "試合",
+          "start_sample": 5613,
+          "end_sample": 13952,
+          "start_ms": 351,
+          "end_ms": 872
+        },
+        {
+          "lang": "en",
+          "text": "came down to the final penalty kick.",
+          "start_sample": 13952,
+          "end_sample": 43300,
+          "start_ms": 872,
+          "end_ms": 2706
+        }
+      ]
+    },
+    "ja": {
+      "text": "The whole 試合 came down to the final penalty kick.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4104,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The whole",
+          "start_sample": 0,
+          "end_sample": 12170,
+          "start_ms": 0,
+          "end_ms": 761
+        },
+        {
+          "lang": "ja",
+          "text": "試合",
+          "start_sample": 12170,
+          "end_sample": 18576,
+          "start_ms": 761,
+          "end_ms": 1161
+        },
+        {
+          "lang": "en",
+          "text": "came down to the final penalty kick.",
+          "start_sample": 18576,
+          "end_sample": 65661,
+          "start_ms": 1161,
+          "end_ms": 4104
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 127,
+  "frame_labels": "eeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

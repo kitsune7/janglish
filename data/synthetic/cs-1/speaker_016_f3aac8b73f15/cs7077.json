@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_016_f3aac8b73f15/cs7077.flac",
+  "sentence": "彼女はmarathonの練習で足を痛めてしまった。",
+  "sample_rate": 16000,
+  "duration_ms": 4012,
+  "reference_speaker": "jp/speaker_016_f3aac8b73f15.mp3",
+  "seed": 7119,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女は",
+      "start_sample": 0,
+      "end_sample": 7018,
+      "start_ms": 0,
+      "end_ms": 439
+    },
+    {
+      "lang": "en",
+      "text": "marathon",
+      "start_sample": 7018,
+      "end_sample": 31983,
+      "start_ms": 439,
+      "end_ms": 1999
+    },
+    {
+      "lang": "ja",
+      "text": "の練習で足を痛めてしまった。",
+      "start_sample": 31983,
+      "end_sample": 64187,
+      "start_ms": 1999,
+      "end_ms": 4012
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha marathon no renshuu de ashi wo itame te shimatsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6923,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 26489,
+          "start_ms": 0,
+          "end_ms": 1656
+        },
+        {
+          "lang": "en",
+          "text": "marathon",
+          "start_sample": 26489,
+          "end_sample": 51854,
+          "start_ms": 1656,
+          "end_ms": 3241
+        },
+        {
+          "lang": "ja",
+          "text": "の練習で足を痛めてしまった。",
+          "start_sample": 51854,
+          "end_sample": 110770,
+          "start_ms": 3241,
+          "end_ms": 6923
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はmarathonの練習で足を痛めてしまった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2928,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女は",
+          "start_sample": 0,
+          "end_sample": 7218,
+          "start_ms": 0,
+          "end_ms": 451
+        },
+        {
+          "lang": "en",
+          "text": "marathon",
+          "start_sample": 7218,
+          "end_sample": 14438,
+          "start_ms": 451,
+          "end_ms": 902
+        },
+        {
+          "lang": "ja",
+          "text": "の練習で足を痛めてしまった。",
+          "start_sample": 14438,
+          "end_sample": 46842,
+          "start_ms": 902,
+          "end_ms": 2928
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

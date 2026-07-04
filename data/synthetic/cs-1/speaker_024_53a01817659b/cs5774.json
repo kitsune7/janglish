@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_024_53a01817659b/cs5774.flac",
+  "sentence": "The butterflies seem especially drawn to that 紫色 lavender patch.",
+  "sample_rate": 16000,
+  "duration_ms": 4117,
+  "reference_speaker": "jp/speaker_024_53a01817659b.mp3",
+  "seed": 5816,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The butterflies seem especially drawn to that",
+      "start_sample": 0,
+      "end_sample": 32490,
+      "start_ms": 0,
+      "end_ms": 2031
+    },
+    {
+      "lang": "ja",
+      "text": "紫色",
+      "start_sample": 32490,
+      "end_sample": 48602,
+      "start_ms": 2031,
+      "end_ms": 3038
+    },
+    {
+      "lang": "en",
+      "text": "lavender patch.",
+      "start_sample": 48602,
+      "end_sample": 65868,
+      "start_ms": 3038,
+      "end_ms": 4117
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The butterflies seem especially drawn to that murasakiiro lavender patch.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4066,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The butterflies seem especially drawn to that",
+          "start_sample": 0,
+          "end_sample": 32690,
+          "start_ms": 0,
+          "end_ms": 2043
+        },
+        {
+          "lang": "ja",
+          "text": "紫色",
+          "start_sample": 32690,
+          "end_sample": 47594,
+          "start_ms": 2043,
+          "end_ms": 2975
+        },
+        {
+          "lang": "en",
+          "text": "lavender patch.",
+          "start_sample": 47594,
+          "end_sample": 65060,
+          "start_ms": 2975,
+          "end_ms": 4066
+        }
+      ]
+    },
+    "ja": {
+      "text": "The butterflies seem especially drawn to that 紫色 lavender patch.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5410,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The butterflies seem especially drawn to that",
+          "start_sample": 0,
+          "end_sample": 51457,
+          "start_ms": 0,
+          "end_ms": 3216
+        },
+        {
+          "lang": "ja",
+          "text": "紫色",
+          "start_sample": 51457,
+          "end_sample": 67969,
+          "start_ms": 3216,
+          "end_ms": 4248
+        },
+        {
+          "lang": "en",
+          "text": "lavender patch.",
+          "start_sample": 67969,
+          "end_sample": 86563,
+          "start_ms": 4248,
+          "end_ms": 5410
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 206,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

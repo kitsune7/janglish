@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_005_a09e35e07333/cs6935.flac",
+  "sentence": "This gin has a really 独特 flavor profile — almost floral.",
+  "sample_rate": 16000,
+  "duration_ms": 4825,
+  "reference_speaker": "jp/speaker_005_a09e35e07333.mp3",
+  "seed": 6977,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "This gin has a really",
+      "start_sample": 0,
+      "end_sample": 20658,
+      "start_ms": 0,
+      "end_ms": 1291
+    },
+    {
+      "lang": "ja",
+      "text": "独特",
+      "start_sample": 20658,
+      "end_sample": 30552,
+      "start_ms": 1291,
+      "end_ms": 1910
+    },
+    {
+      "lang": "en",
+      "text": "flavor profile — almost floral.",
+      "start_sample": 30552,
+      "end_sample": 77202,
+      "start_ms": 1910,
+      "end_ms": 4825
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "This gin has a really dokutoku flavor profile — almost floral.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5074,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This gin has a really",
+          "start_sample": 0,
+          "end_sample": 20858,
+          "start_ms": 0,
+          "end_ms": 1304
+        },
+        {
+          "lang": "ja",
+          "text": "独特",
+          "start_sample": 20858,
+          "end_sample": 34336,
+          "start_ms": 1304,
+          "end_ms": 2146
+        },
+        {
+          "lang": "en",
+          "text": "flavor profile — almost floral.",
+          "start_sample": 34336,
+          "end_sample": 81186,
+          "start_ms": 2146,
+          "end_ms": 5074
+        }
+      ]
+    },
+    "ja": {
+      "text": "This gin has a really 独特 flavor profile — almost floral.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4423,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "This gin has a really",
+          "start_sample": 0,
+          "end_sample": 20749,
+          "start_ms": 0,
+          "end_ms": 1297
+        },
+        {
+          "lang": "ja",
+          "text": "独特",
+          "start_sample": 20749,
+          "end_sample": 31043,
+          "start_ms": 1297,
+          "end_ms": 1940
+        },
+        {
+          "lang": "en",
+          "text": "flavor profile — almost floral.",
+          "start_sample": 31043,
+          "end_sample": 70768,
+          "start_ms": 1940,
+          "end_ms": 4423
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 242,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

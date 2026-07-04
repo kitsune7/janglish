@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_029_435fb74c25c3/cs7589.flac",
+  "sentence": "She printed the whole 書類 stack and spread it across the kitchen table.",
+  "sample_rate": 16000,
+  "duration_ms": 3701,
+  "reference_speaker": "en/speaker_029_435fb74c25c3.mp3",
+  "seed": 7631,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She printed the whole",
+      "start_sample": 0,
+      "end_sample": 15686,
+      "start_ms": 0,
+      "end_ms": 980
+    },
+    {
+      "lang": "ja",
+      "text": "書類",
+      "start_sample": 15686,
+      "end_sample": 21225,
+      "start_ms": 980,
+      "end_ms": 1327
+    },
+    {
+      "lang": "en",
+      "text": "stack and spread it across the kitchen table.",
+      "start_sample": 21225,
+      "end_sample": 59216,
+      "start_ms": 1327,
+      "end_ms": 3701
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She printed the whole shorui stack and spread it across the kitchen table.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3911,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She printed the whole",
+          "start_sample": 0,
+          "end_sample": 15886,
+          "start_ms": 0,
+          "end_ms": 993
+        },
+        {
+          "lang": "ja",
+          "text": "書類",
+          "start_sample": 15886,
+          "end_sample": 24392,
+          "start_ms": 993,
+          "end_ms": 1524
+        },
+        {
+          "lang": "en",
+          "text": "stack and spread it across the kitchen table.",
+          "start_sample": 24392,
+          "end_sample": 62583,
+          "start_ms": 1524,
+          "end_ms": 3911
+        }
+      ]
+    },
+    "ja": {
+      "text": "She printed the whole 書類 stack and spread it across the kitchen table.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4615,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She printed the whole",
+          "start_sample": 0,
+          "end_sample": 22794,
+          "start_ms": 0,
+          "end_ms": 1425
+        },
+        {
+          "lang": "ja",
+          "text": "書類",
+          "start_sample": 22794,
+          "end_sample": 28733,
+          "start_ms": 1425,
+          "end_ms": 1796
+        },
+        {
+          "lang": "en",
+          "text": "stack and spread it across the kitchen table.",
+          "start_sample": 28733,
+          "end_sample": 73843,
+          "start_ms": 1796,
+          "end_ms": 4615
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 186,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

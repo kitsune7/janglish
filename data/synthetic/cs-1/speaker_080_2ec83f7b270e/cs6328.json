@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_080_2ec83f7b270e/cs6328.flac",
+  "sentence": "That corner shop has such 豊富 variety that I never leave empty-handed.",
+  "sample_rate": 16000,
+  "duration_ms": 5767,
+  "reference_speaker": "en/speaker_080_2ec83f7b270e.mp3",
+  "seed": 6370,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "That corner shop has such",
+      "start_sample": 0,
+      "end_sample": 32698,
+      "start_ms": 0,
+      "end_ms": 2044
+    },
+    {
+      "lang": "ja",
+      "text": "豊富",
+      "start_sample": 32698,
+      "end_sample": 39843,
+      "start_ms": 2044,
+      "end_ms": 2490
+    },
+    {
+      "lang": "en",
+      "text": "variety that I never leave empty-handed.",
+      "start_sample": 39843,
+      "end_sample": 92278,
+      "start_ms": 2490,
+      "end_ms": 5767
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "That corner shop has such houfu variety that I never leave empty-handed.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5777,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That corner shop has such",
+          "start_sample": 0,
+          "end_sample": 32898,
+          "start_ms": 0,
+          "end_ms": 2056
+        },
+        {
+          "lang": "ja",
+          "text": "豊富",
+          "start_sample": 32898,
+          "end_sample": 39799,
+          "start_ms": 2056,
+          "end_ms": 2487
+        },
+        {
+          "lang": "en",
+          "text": "variety that I never leave empty-handed.",
+          "start_sample": 39799,
+          "end_sample": 92434,
+          "start_ms": 2487,
+          "end_ms": 5777
+        }
+      ]
+    },
+    "ja": {
+      "text": "That corner shop has such 豊富 variety that I never leave empty-handed.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6040,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "That corner shop has such",
+          "start_sample": 0,
+          "end_sample": 36118,
+          "start_ms": 0,
+          "end_ms": 2257
+        },
+        {
+          "lang": "ja",
+          "text": "豊富",
+          "start_sample": 36118,
+          "end_sample": 43663,
+          "start_ms": 2257,
+          "end_ms": 2729
+        },
+        {
+          "lang": "en",
+          "text": "variety that I never leave empty-handed.",
+          "start_sample": 43663,
+          "end_sample": 96634,
+          "start_ms": 2729,
+          "end_ms": 6040
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 289,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

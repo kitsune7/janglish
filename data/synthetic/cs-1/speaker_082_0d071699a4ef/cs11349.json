@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_082_0d071699a4ef/cs11349.flac",
+  "sentence": "interval トレーニングは短時間で効果が出る。",
+  "sample_rate": 16000,
+  "duration_ms": 3789,
+  "reference_speaker": "en/speaker_082_0d071699a4ef.mp3",
+  "seed": 11391,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "interval",
+      "start_sample": 0,
+      "end_sample": 14092,
+      "start_ms": 0,
+      "end_ms": 881
+    },
+    {
+      "lang": "ja",
+      "text": "トレーニングは短時間で効果が出る。",
+      "start_sample": 14092,
+      "end_sample": 60631,
+      "start_ms": 881,
+      "end_ms": 3789
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "interval toreeningu ha tan jikan de kouka ga deru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5882,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "interval",
+          "start_sample": 0,
+          "end_sample": 14292,
+          "start_ms": 0,
+          "end_ms": 893
+        },
+        {
+          "lang": "ja",
+          "text": "トレーニングは短時間で効果が出る。",
+          "start_sample": 14292,
+          "end_sample": 94105,
+          "start_ms": 893,
+          "end_ms": 5882
+        }
+      ]
+    },
+    "ja": {
+      "text": "interval トレーニングは短時間で効果が出る。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3634,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "interval",
+          "start_sample": 0,
+          "end_sample": 11404,
+          "start_ms": 0,
+          "end_ms": 713
+        },
+        {
+          "lang": "ja",
+          "text": "トレーニングは短時間で効果が出る。",
+          "start_sample": 11404,
+          "end_sample": 58143,
+          "start_ms": 713,
+          "end_ms": 3634
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_071_72384e582e15/cs3560.flac",
+  "sentence": "この馬はvery gentleで、子供たちも安心して乗れます。",
+  "sample_rate": 16000,
+  "duration_ms": 5004,
+  "reference_speaker": "en/speaker_071_72384e582e15.mp3",
+  "seed": 3602,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この馬は",
+      "start_sample": 0,
+      "end_sample": 13126,
+      "start_ms": 0,
+      "end_ms": 820
+    },
+    {
+      "lang": "en",
+      "text": "very gentle",
+      "start_sample": 13126,
+      "end_sample": 33870,
+      "start_ms": 820,
+      "end_ms": 2117
+    },
+    {
+      "lang": "ja",
+      "text": "で、子供たちも安心して乗れます。",
+      "start_sample": 33870,
+      "end_sample": 80070,
+      "start_ms": 2117,
+      "end_ms": 5004
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono uma ha very gentle de kodomo tachi mo anshin shi te nore masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5786,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この馬は",
+          "start_sample": 0,
+          "end_sample": 23865,
+          "start_ms": 0,
+          "end_ms": 1492
+        },
+        {
+          "lang": "en",
+          "text": "very gentle",
+          "start_sample": 23865,
+          "end_sample": 45009,
+          "start_ms": 1492,
+          "end_ms": 2813
+        },
+        {
+          "lang": "ja",
+          "text": "で、子供たちも安心して乗れます。",
+          "start_sample": 45009,
+          "end_sample": 92581,
+          "start_ms": 2813,
+          "end_ms": 5786
+        }
+      ]
+    },
+    "ja": {
+      "text": "この馬はvery gentleで、子供たちも安心して乗れます。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4877,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この馬は",
+          "start_sample": 0,
+          "end_sample": 13326,
+          "start_ms": 0,
+          "end_ms": 833
+        },
+        {
+          "lang": "en",
+          "text": "very gentle",
+          "start_sample": 13326,
+          "end_sample": 31631,
+          "start_ms": 833,
+          "end_ms": 1977
+        },
+        {
+          "lang": "ja",
+          "text": "で、子供たちも安心して乗れます。",
+          "start_sample": 31631,
+          "end_sample": 78031,
+          "start_ms": 1977,
+          "end_ms": 4877
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 251,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

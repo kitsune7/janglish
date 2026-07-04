@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_098_f600c480bfab/cs7584.flac",
+  "sentence": "Have you found a 静かな spot in your apartment for deep focus work?",
+  "sample_rate": 16000,
+  "duration_ms": 6288,
+  "reference_speaker": "en/speaker_098_f600c480bfab.mp3",
+  "seed": 7626,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Have you found a",
+      "start_sample": 0,
+      "end_sample": 13258,
+      "start_ms": 0,
+      "end_ms": 829
+    },
+    {
+      "lang": "ja",
+      "text": "静かな",
+      "start_sample": 13258,
+      "end_sample": 33681,
+      "start_ms": 829,
+      "end_ms": 2105
+    },
+    {
+      "lang": "en",
+      "text": "spot in your apartment for deep focus work?",
+      "start_sample": 33681,
+      "end_sample": 100610,
+      "start_ms": 2105,
+      "end_ms": 6288
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Have you found a shizuka na spot in your apartment for deep focus work?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5808,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you found a",
+          "start_sample": 0,
+          "end_sample": 13458,
+          "start_ms": 0,
+          "end_ms": 841
+        },
+        {
+          "lang": "ja",
+          "text": "静かな",
+          "start_sample": 13458,
+          "end_sample": 25795,
+          "start_ms": 841,
+          "end_ms": 1612
+        },
+        {
+          "lang": "en",
+          "text": "spot in your apartment for deep focus work?",
+          "start_sample": 25795,
+          "end_sample": 92924,
+          "start_ms": 1612,
+          "end_ms": 5808
+        }
+      ]
+    },
+    "ja": {
+      "text": "Have you found a 静かな spot in your apartment for deep focus work?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7128,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Have you found a",
+          "start_sample": 0,
+          "end_sample": 23064,
+          "start_ms": 0,
+          "end_ms": 1442
+        },
+        {
+          "lang": "ja",
+          "text": "静かな",
+          "start_sample": 23064,
+          "end_sample": 43887,
+          "start_ms": 1442,
+          "end_ms": 2743
+        },
+        {
+          "lang": "en",
+          "text": "spot in your apartment for deep focus work?",
+          "start_sample": 43887,
+          "end_sample": 114043,
+          "start_ms": 2743,
+          "end_ms": 7128
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 315,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_024_d461ea23a991/cs11749.flac",
+  "sentence": "Do you think a little 厳しさ is actually good for children?",
+  "sample_rate": 16000,
+  "duration_ms": 3356,
+  "reference_speaker": "en/speaker_024_d461ea23a991.mp3",
+  "seed": 11791,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Do you think a little",
+      "start_sample": 0,
+      "end_sample": 16461,
+      "start_ms": 0,
+      "end_ms": 1029
+    },
+    {
+      "lang": "ja",
+      "text": "厳しさ",
+      "start_sample": 16461,
+      "end_sample": 26506,
+      "start_ms": 1029,
+      "end_ms": 1657
+    },
+    {
+      "lang": "en",
+      "text": "is actually good for children?",
+      "start_sample": 26506,
+      "end_sample": 53700,
+      "start_ms": 1657,
+      "end_ms": 3356
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Do you think a little kibishi sa is actually good for children?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3845,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Do you think a little",
+          "start_sample": 0,
+          "end_sample": 16661,
+          "start_ms": 0,
+          "end_ms": 1041
+        },
+        {
+          "lang": "ja",
+          "text": "厳しさ",
+          "start_sample": 16661,
+          "end_sample": 34124,
+          "start_ms": 1041,
+          "end_ms": 2133
+        },
+        {
+          "lang": "en",
+          "text": "is actually good for children?",
+          "start_sample": 34124,
+          "end_sample": 61518,
+          "start_ms": 2133,
+          "end_ms": 3845
+        }
+      ]
+    },
+    "ja": {
+      "text": "Do you think a little 厳しさ is actually good for children?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4519,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Do you think a little",
+          "start_sample": 0,
+          "end_sample": 23456,
+          "start_ms": 0,
+          "end_ms": 1466
+        },
+        {
+          "lang": "ja",
+          "text": "厳しさ",
+          "start_sample": 23456,
+          "end_sample": 33901,
+          "start_ms": 1466,
+          "end_ms": 2119
+        },
+        {
+          "lang": "en",
+          "text": "is actually good for children?",
+          "start_sample": 33901,
+          "end_sample": 72303,
+          "start_ms": 2119,
+          "end_ms": 4519
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 168,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

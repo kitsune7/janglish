@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_089_6207739e2e58/cs7481.flac",
+  "sentence": "exchangeレートが急に変わって困っている。",
+  "sample_rate": 16000,
+  "duration_ms": 2393,
+  "reference_speaker": "jp/speaker_089_6207739e2e58.mp3",
+  "seed": 7523,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "exchange",
+      "start_sample": 0,
+      "end_sample": 9731,
+      "start_ms": 0,
+      "end_ms": 608
+    },
+    {
+      "lang": "ja",
+      "text": "レートが急に変わって困っている。",
+      "start_sample": 9731,
+      "end_sample": 38295,
+      "start_ms": 608,
+      "end_ms": 2393
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "exchange reeto ga kyuu ni kawatsu te komatsu te iru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5266,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "exchange",
+          "start_sample": 0,
+          "end_sample": 9931,
+          "start_ms": 0,
+          "end_ms": 621
+        },
+        {
+          "lang": "ja",
+          "text": "レートが急に変わって困っている。",
+          "start_sample": 9931,
+          "end_sample": 84263,
+          "start_ms": 621,
+          "end_ms": 5266
+        }
+      ]
+    },
+    "ja": {
+      "text": "exchangeレートが急に変わって困っている。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2290,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "exchange",
+          "start_sample": 0,
+          "end_sample": 7874,
+          "start_ms": 0,
+          "end_ms": 492
+        },
+        {
+          "lang": "ja",
+          "text": "レートが急に変わって困っている。",
+          "start_sample": 7874,
+          "end_sample": 36638,
+          "start_ms": 492,
+          "end_ms": 2290
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 120,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

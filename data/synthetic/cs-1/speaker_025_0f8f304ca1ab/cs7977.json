@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_025_0f8f304ca1ab/cs7977.flac",
+  "sentence": "雨の後は庭全体がfreshな香りがして気持ちいい。",
+  "sample_rate": 16000,
+  "duration_ms": 3304,
+  "reference_speaker": "jp/speaker_025_0f8f304ca1ab.mp3",
+  "seed": 8019,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "雨の後は庭全体が",
+      "start_sample": 0,
+      "end_sample": 23269,
+      "start_ms": 0,
+      "end_ms": 1454
+    },
+    {
+      "lang": "en",
+      "text": "fresh",
+      "start_sample": 23269,
+      "end_sample": 32008,
+      "start_ms": 1454,
+      "end_ms": 2001
+    },
+    {
+      "lang": "ja",
+      "text": "な香りがして気持ちいい。",
+      "start_sample": 32008,
+      "end_sample": 52866,
+      "start_ms": 2001,
+      "end_ms": 3304
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "ame no nochi ha niwa zentai ga fresh na kaori ga shi te kimochi ii",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6232,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "雨の後は庭全体が",
+          "start_sample": 0,
+          "end_sample": 44405,
+          "start_ms": 0,
+          "end_ms": 2775
+        },
+        {
+          "lang": "en",
+          "text": "fresh",
+          "start_sample": 44405,
+          "end_sample": 53544,
+          "start_ms": 2775,
+          "end_ms": 3346
+        },
+        {
+          "lang": "ja",
+          "text": "な香りがして気持ちいい。",
+          "start_sample": 53544,
+          "end_sample": 99713,
+          "start_ms": 3346,
+          "end_ms": 6232
+        }
+      ]
+    },
+    "ja": {
+      "text": "雨の後は庭全体がfreshな香りがして気持ちいい。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3135,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "雨の後は庭全体が",
+          "start_sample": 0,
+          "end_sample": 23469,
+          "start_ms": 0,
+          "end_ms": 1467
+        },
+        {
+          "lang": "en",
+          "text": "fresh",
+          "start_sample": 23469,
+          "end_sample": 29096,
+          "start_ms": 1467,
+          "end_ms": 1818
+        },
+        {
+          "lang": "ja",
+          "text": "な香りがして気持ちいい。",
+          "start_sample": 29096,
+          "end_sample": 50154,
+          "start_ms": 1818,
+          "end_ms": 3135
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 166,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

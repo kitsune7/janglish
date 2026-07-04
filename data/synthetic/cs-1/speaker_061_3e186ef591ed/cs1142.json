@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_061_3e186ef591ed/cs1142.flac",
+  "sentence": "He spent the whole afternoon fixing the 構図 of every single image.",
+  "sample_rate": 16000,
+  "duration_ms": 4976,
+  "reference_speaker": "jp/speaker_061_3e186ef591ed.mp3",
+  "seed": 1184,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He spent the whole afternoon fixing the",
+      "start_sample": 0,
+      "end_sample": 33199,
+      "start_ms": 0,
+      "end_ms": 2075
+    },
+    {
+      "lang": "ja",
+      "text": "構図",
+      "start_sample": 33199,
+      "end_sample": 42088,
+      "start_ms": 2075,
+      "end_ms": 2630
+    },
+    {
+      "lang": "en",
+      "text": "of every single image.",
+      "start_sample": 42088,
+      "end_sample": 79620,
+      "start_ms": 2630,
+      "end_ms": 4976
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He spent the whole afternoon fixing the kouzu of every single image.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5259,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He spent the whole afternoon fixing the",
+          "start_sample": 0,
+          "end_sample": 33399,
+          "start_ms": 0,
+          "end_ms": 2087
+        },
+        {
+          "lang": "ja",
+          "text": "構図",
+          "start_sample": 33399,
+          "end_sample": 46406,
+          "start_ms": 2087,
+          "end_ms": 2900
+        },
+        {
+          "lang": "en",
+          "text": "of every single image.",
+          "start_sample": 46406,
+          "end_sample": 84138,
+          "start_ms": 2900,
+          "end_ms": 5259
+        }
+      ]
+    },
+    "ja": {
+      "text": "He spent the whole afternoon fixing the 構図 of every single image.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5405,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He spent the whole afternoon fixing the",
+          "start_sample": 0,
+          "end_sample": 49647,
+          "start_ms": 0,
+          "end_ms": 3103
+        },
+        {
+          "lang": "ja",
+          "text": "構図",
+          "start_sample": 49647,
+          "end_sample": 58936,
+          "start_ms": 3103,
+          "end_ms": 3684
+        },
+        {
+          "lang": "en",
+          "text": "of every single image.",
+          "start_sample": 58936,
+          "end_sample": 86482,
+          "start_ms": 3684,
+          "end_ms": 5405
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 249,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

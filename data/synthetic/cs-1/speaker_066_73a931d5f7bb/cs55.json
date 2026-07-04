@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_066_73a931d5f7bb/cs55.flac",
+  "sentence": "Could the persistent 咳 be a sign of something more serious?",
+  "sample_rate": 16000,
+  "duration_ms": 4199,
+  "reference_speaker": "en/speaker_066_73a931d5f7bb.mp3",
+  "seed": 97,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Could the persistent",
+      "start_sample": 0,
+      "end_sample": 16956,
+      "start_ms": 0,
+      "end_ms": 1060
+    },
+    {
+      "lang": "ja",
+      "text": "咳",
+      "start_sample": 16956,
+      "end_sample": 22803,
+      "start_ms": 1060,
+      "end_ms": 1425
+    },
+    {
+      "lang": "en",
+      "text": "be a sign of something more serious?",
+      "start_sample": 22803,
+      "end_sample": 67178,
+      "start_ms": 1425,
+      "end_ms": 4199
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Could the persistent seki be a sign of something more serious?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4209,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could the persistent",
+          "start_sample": 0,
+          "end_sample": 17156,
+          "start_ms": 0,
+          "end_ms": 1072
+        },
+        {
+          "lang": "ja",
+          "text": "咳",
+          "start_sample": 17156,
+          "end_sample": 22768,
+          "start_ms": 1072,
+          "end_ms": 1423
+        },
+        {
+          "lang": "en",
+          "text": "be a sign of something more serious?",
+          "start_sample": 22768,
+          "end_sample": 67343,
+          "start_ms": 1423,
+          "end_ms": 4209
+        }
+      ]
+    },
+    "ja": {
+      "text": "Could the persistent 咳 be a sign of something more serious?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3744,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Could the persistent",
+          "start_sample": 0,
+          "end_sample": 23067,
+          "start_ms": 0,
+          "end_ms": 1442
+        },
+        {
+          "lang": "ja",
+          "text": "咳",
+          "start_sample": 23067,
+          "end_sample": 29314,
+          "start_ms": 1442,
+          "end_ms": 1832
+        },
+        {
+          "lang": "en",
+          "text": "be a sign of something more serious?",
+          "start_sample": 29314,
+          "end_sample": 59911,
+          "start_ms": 1832,
+          "end_ms": 3744
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 210,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

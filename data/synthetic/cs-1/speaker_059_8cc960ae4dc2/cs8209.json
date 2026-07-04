@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_059_8cc960ae4dc2/cs8209.flac",
+  "sentence": "自宅勤務だと、lunchの時間が自由で助かる。",
+  "sample_rate": 16000,
+  "duration_ms": 3560,
+  "reference_speaker": "en/speaker_059_8cc960ae4dc2.mp3",
+  "seed": 8251,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "自宅勤務だと、",
+      "start_sample": 0,
+      "end_sample": 21470,
+      "start_ms": 0,
+      "end_ms": 1342
+    },
+    {
+      "lang": "en",
+      "text": "lunch",
+      "start_sample": 21470,
+      "end_sample": 31164,
+      "start_ms": 1342,
+      "end_ms": 1948
+    },
+    {
+      "lang": "ja",
+      "text": "の時間が自由で助かる。",
+      "start_sample": 31164,
+      "end_sample": 56965,
+      "start_ms": 1948,
+      "end_ms": 3560
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "jitaku kinmu da to lunch no jikan ga jiyuu de tasukaru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6729,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "自宅勤務だと、",
+          "start_sample": 0,
+          "end_sample": 47263,
+          "start_ms": 0,
+          "end_ms": 2954
+        },
+        {
+          "lang": "en",
+          "text": "lunch",
+          "start_sample": 47263,
+          "end_sample": 57357,
+          "start_ms": 2954,
+          "end_ms": 3585
+        },
+        {
+          "lang": "ja",
+          "text": "の時間が自由で助かる。",
+          "start_sample": 57357,
+          "end_sample": 107664,
+          "start_ms": 3585,
+          "end_ms": 6729
+        }
+      ]
+    },
+    "ja": {
+      "text": "自宅勤務だと、lunchの時間が自由で助かる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3571,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "自宅勤務だと、",
+          "start_sample": 0,
+          "end_sample": 21670,
+          "start_ms": 0,
+          "end_ms": 1354
+        },
+        {
+          "lang": "en",
+          "text": "lunch",
+          "start_sample": 21670,
+          "end_sample": 31140,
+          "start_ms": 1354,
+          "end_ms": 1946
+        },
+        {
+          "lang": "ja",
+          "text": "の時間が自由で助かる。",
+          "start_sample": 31140,
+          "end_sample": 57141,
+          "start_ms": 1946,
+          "end_ms": 3571
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 179,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

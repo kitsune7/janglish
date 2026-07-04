@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_075_373f531aa159/cs7760.flac",
+  "sentence": "先生のadviceのおかげで生活習慣を改善できました。",
+  "sample_rate": 16000,
+  "duration_ms": 3787,
+  "reference_speaker": "en/speaker_075_373f531aa159.mp3",
+  "seed": 7802,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "先生の",
+      "start_sample": 0,
+      "end_sample": 8324,
+      "start_ms": 0,
+      "end_ms": 520
+    },
+    {
+      "lang": "en",
+      "text": "advice",
+      "start_sample": 8324,
+      "end_sample": 18016,
+      "start_ms": 520,
+      "end_ms": 1126
+    },
+    {
+      "lang": "ja",
+      "text": "のおかげで生活習慣を改善できました。",
+      "start_sample": 18016,
+      "end_sample": 60598,
+      "start_ms": 1126,
+      "end_ms": 3787
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sensei no advice no okage de seikatsu shuukan wo kaizen deki mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6768,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先生の",
+          "start_sample": 0,
+          "end_sample": 21943,
+          "start_ms": 0,
+          "end_ms": 1371
+        },
+        {
+          "lang": "en",
+          "text": "advice",
+          "start_sample": 21943,
+          "end_sample": 32035,
+          "start_ms": 1371,
+          "end_ms": 2002
+        },
+        {
+          "lang": "ja",
+          "text": "のおかげで生活習慣を改善できました。",
+          "start_sample": 32035,
+          "end_sample": 108281,
+          "start_ms": 2002,
+          "end_ms": 6768
+        }
+      ]
+    },
+    "ja": {
+      "text": "先生のadviceのおかげで生活習慣を改善できました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3659,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先生の",
+          "start_sample": 0,
+          "end_sample": 8524,
+          "start_ms": 0,
+          "end_ms": 533
+        },
+        {
+          "lang": "en",
+          "text": "advice",
+          "start_sample": 8524,
+          "end_sample": 15762,
+          "start_ms": 533,
+          "end_ms": 985
+        },
+        {
+          "lang": "ja",
+          "text": "のおかげで生活習慣を改善できました。",
+          "start_sample": 15762,
+          "end_sample": 58544,
+          "start_ms": 985,
+          "end_ms": 3659
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 190,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

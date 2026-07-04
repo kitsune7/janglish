@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_093_c561f370b1dd/cs3986.flac",
+  "sentence": "He has this 独特 way of making every date feel like a small adventure.",
+  "sample_rate": 16000,
+  "duration_ms": 6404,
+  "reference_speaker": "en/speaker_093_c561f370b1dd.mp3",
+  "seed": 4028,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He has this",
+      "start_sample": 0,
+      "end_sample": 19523,
+      "start_ms": 0,
+      "end_ms": 1220
+    },
+    {
+      "lang": "ja",
+      "text": "独特",
+      "start_sample": 19523,
+      "end_sample": 29858,
+      "start_ms": 1220,
+      "end_ms": 1866
+    },
+    {
+      "lang": "en",
+      "text": "way of making every date feel like a small adventure.",
+      "start_sample": 29858,
+      "end_sample": 102457,
+      "start_ms": 1866,
+      "end_ms": 6404
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He has this dokutoku way of making every date feel like a small adventure.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6574,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He has this",
+          "start_sample": 0,
+          "end_sample": 19723,
+          "start_ms": 0,
+          "end_ms": 1233
+        },
+        {
+          "lang": "ja",
+          "text": "独特",
+          "start_sample": 19723,
+          "end_sample": 32391,
+          "start_ms": 1233,
+          "end_ms": 2024
+        },
+        {
+          "lang": "en",
+          "text": "way of making every date feel like a small adventure.",
+          "start_sample": 32391,
+          "end_sample": 105190,
+          "start_ms": 2024,
+          "end_ms": 6574
+        }
+      ]
+    },
+    "ja": {
+      "text": "He has this 独特 way of making every date feel like a small adventure.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5848,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He has this",
+          "start_sample": 0,
+          "end_sample": 14579,
+          "start_ms": 0,
+          "end_ms": 911
+        },
+        {
+          "lang": "ja",
+          "text": "独特",
+          "start_sample": 14579,
+          "end_sample": 25314,
+          "start_ms": 911,
+          "end_ms": 1582
+        },
+        {
+          "lang": "en",
+          "text": "way of making every date feel like a small adventure.",
+          "start_sample": 25314,
+          "end_sample": 93565,
+          "start_ms": 1582,
+          "end_ms": 5848
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 321,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

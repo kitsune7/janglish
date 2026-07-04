@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_023_9d57aeaf822c/cs10669.flac",
+  "sentence": "He filled up at the last 給油所 before entering the desert.",
+  "sample_rate": 16000,
+  "duration_ms": 3644,
+  "reference_speaker": "en/speaker_023_9d57aeaf822c.mp3",
+  "seed": 10711,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He filled up at the last",
+      "start_sample": 0,
+      "end_sample": 20520,
+      "start_ms": 0,
+      "end_ms": 1282
+    },
+    {
+      "lang": "ja",
+      "text": "給油所",
+      "start_sample": 20520,
+      "end_sample": 28151,
+      "start_ms": 1282,
+      "end_ms": 1759
+    },
+    {
+      "lang": "en",
+      "text": "before entering the desert.",
+      "start_sample": 28151,
+      "end_sample": 58306,
+      "start_ms": 1759,
+      "end_ms": 3644
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He filled up at the last kyuuyu tokoro before entering the desert.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4658,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He filled up at the last",
+          "start_sample": 0,
+          "end_sample": 20720,
+          "start_ms": 0,
+          "end_ms": 1295
+        },
+        {
+          "lang": "ja",
+          "text": "給油所",
+          "start_sample": 20720,
+          "end_sample": 44172,
+          "start_ms": 1295,
+          "end_ms": 2761
+        },
+        {
+          "lang": "en",
+          "text": "before entering the desert.",
+          "start_sample": 44172,
+          "end_sample": 74527,
+          "start_ms": 2761,
+          "end_ms": 4658
+        }
+      ]
+    },
+    "ja": {
+      "text": "He filled up at the last 給油所 before entering the desert.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4276,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He filled up at the last",
+          "start_sample": 0,
+          "end_sample": 28748,
+          "start_ms": 0,
+          "end_ms": 1797
+        },
+        {
+          "lang": "ja",
+          "text": "給油所",
+          "start_sample": 28748,
+          "end_sample": 36779,
+          "start_ms": 1797,
+          "end_ms": 2299
+        },
+        {
+          "lang": "en",
+          "text": "before entering the desert.",
+          "start_sample": 36779,
+          "end_sample": 68420,
+          "start_ms": 2299,
+          "end_ms": 4276
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 183,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

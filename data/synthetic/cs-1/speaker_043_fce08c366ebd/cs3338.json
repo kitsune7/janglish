@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_043_fce08c366ebd/cs3338.flac",
+  "sentence": "アレルギー反応がacuteな場合はすぐに病院へ行ってください。",
+  "sample_rate": 16000,
+  "duration_ms": 3498,
+  "reference_speaker": "en/speaker_043_fce08c366ebd.mp3",
+  "seed": 3380,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "アレルギー反応が",
+      "start_sample": 0,
+      "end_sample": 15730,
+      "start_ms": 0,
+      "end_ms": 983
+    },
+    {
+      "lang": "en",
+      "text": "acute",
+      "start_sample": 15730,
+      "end_sample": 22376,
+      "start_ms": 983,
+      "end_ms": 1398
+    },
+    {
+      "lang": "ja",
+      "text": "な場合はすぐに病院へ行ってください。",
+      "start_sample": 22376,
+      "end_sample": 55963,
+      "start_ms": 1398,
+      "end_ms": 3498
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "arerugii hannou ga acute na baai ha sugu ni byouin he itsu te kudasai",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5265,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "アレルギー反応が",
+          "start_sample": 0,
+          "end_sample": 17296,
+          "start_ms": 0,
+          "end_ms": 1081
+        },
+        {
+          "lang": "en",
+          "text": "acute",
+          "start_sample": 17296,
+          "end_sample": 24342,
+          "start_ms": 1081,
+          "end_ms": 1521
+        },
+        {
+          "lang": "ja",
+          "text": "な場合はすぐに病院へ行ってください。",
+          "start_sample": 24342,
+          "end_sample": 84239,
+          "start_ms": 1521,
+          "end_ms": 5265
+        }
+      ]
+    },
+    "ja": {
+      "text": "アレルギー反応がacuteな場合はすぐに病院へ行ってください。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3459,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "アレルギー反応が",
+          "start_sample": 0,
+          "end_sample": 15930,
+          "start_ms": 0,
+          "end_ms": 996
+        },
+        {
+          "lang": "en",
+          "text": "acute",
+          "start_sample": 15930,
+          "end_sample": 21562,
+          "start_ms": 996,
+          "end_ms": 1348
+        },
+        {
+          "lang": "ja",
+          "text": "な場合はすぐに病院へ行ってください。",
+          "start_sample": 21562,
+          "end_sample": 55349,
+          "start_ms": 1348,
+          "end_ms": 3459
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 175,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

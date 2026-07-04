@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_018_b0dec8b93359/cs10331.flac",
+  "sentence": "この地図はoutdatedなので新しいのを使いましょう。",
+  "sample_rate": 16000,
+  "duration_ms": 4081,
+  "reference_speaker": "en/speaker_018_b0dec8b93359.mp3",
+  "seed": 10373,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この地図は",
+      "start_sample": 0,
+      "end_sample": 13766,
+      "start_ms": 0,
+      "end_ms": 860
+    },
+    {
+      "lang": "en",
+      "text": "outdated",
+      "start_sample": 13766,
+      "end_sample": 27136,
+      "start_ms": 860,
+      "end_ms": 1696
+    },
+    {
+      "lang": "ja",
+      "text": "なので新しいのを使いましょう。",
+      "start_sample": 27136,
+      "end_sample": 65303,
+      "start_ms": 1696,
+      "end_ms": 4081
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono chizu ha outdated na no de atarashii no wo tsukai mashou",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6765,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この地図は",
+          "start_sample": 0,
+          "end_sample": 36187,
+          "start_ms": 0,
+          "end_ms": 2262
+        },
+        {
+          "lang": "en",
+          "text": "outdated",
+          "start_sample": 36187,
+          "end_sample": 49957,
+          "start_ms": 2262,
+          "end_ms": 3122
+        },
+        {
+          "lang": "ja",
+          "text": "なので新しいのを使いましょう。",
+          "start_sample": 49957,
+          "end_sample": 108241,
+          "start_ms": 3122,
+          "end_ms": 6765
+        }
+      ]
+    },
+    "ja": {
+      "text": "この地図はoutdatedなので新しいのを使いましょう。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4595,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この地図は",
+          "start_sample": 0,
+          "end_sample": 13966,
+          "start_ms": 0,
+          "end_ms": 873
+        },
+        {
+          "lang": "en",
+          "text": "outdated",
+          "start_sample": 13966,
+          "end_sample": 35158,
+          "start_ms": 873,
+          "end_ms": 2197
+        },
+        {
+          "lang": "ja",
+          "text": "なので新しいのを使いましょう。",
+          "start_sample": 35158,
+          "end_sample": 73525,
+          "start_ms": 2197,
+          "end_ms": 4595
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 205,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

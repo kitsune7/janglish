@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_071_72384e582e15/cs10521.flac",
+  "sentence": "I tried to stay 冷静 during the argument, but it wasn't easy.",
+  "sample_rate": 16000,
+  "duration_ms": 4745,
+  "reference_speaker": "en/speaker_071_72384e582e15.mp3",
+  "seed": 10563,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I tried to stay",
+      "start_sample": 0,
+      "end_sample": 19699,
+      "start_ms": 0,
+      "end_ms": 1231
+    },
+    {
+      "lang": "ja",
+      "text": "冷静",
+      "start_sample": 19699,
+      "end_sample": 31019,
+      "start_ms": 1231,
+      "end_ms": 1939
+    },
+    {
+      "lang": "en",
+      "text": "during the argument, but it wasn't easy.",
+      "start_sample": 31019,
+      "end_sample": 75919,
+      "start_ms": 1939,
+      "end_ms": 4745
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I tried to stay reisei during the argument, but it wasn't easy.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4815,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I tried to stay",
+          "start_sample": 0,
+          "end_sample": 19899,
+          "start_ms": 0,
+          "end_ms": 1244
+        },
+        {
+          "lang": "ja",
+          "text": "冷静",
+          "start_sample": 19899,
+          "end_sample": 31937,
+          "start_ms": 1244,
+          "end_ms": 1996
+        },
+        {
+          "lang": "en",
+          "text": "during the argument, but it wasn't easy.",
+          "start_sample": 31937,
+          "end_sample": 77037,
+          "start_ms": 1996,
+          "end_ms": 4815
+        }
+      ]
+    },
+    "ja": {
+      "text": "I tried to stay 冷静 during the argument, but it wasn't easy.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5659,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I tried to stay",
+          "start_sample": 0,
+          "end_sample": 30985,
+          "start_ms": 0,
+          "end_ms": 1937
+        },
+        {
+          "lang": "ja",
+          "text": "冷静",
+          "start_sample": 30985,
+          "end_sample": 42705,
+          "start_ms": 1937,
+          "end_ms": 2669
+        },
+        {
+          "lang": "en",
+          "text": "during the argument, but it wasn't easy.",
+          "start_sample": 42705,
+          "end_sample": 90544,
+          "start_ms": 2669,
+          "end_ms": 5659
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 238,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

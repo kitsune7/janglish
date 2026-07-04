@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_035_aa6a3aa058c0/cs761.flac",
+  "sentence": "Did you remember to bring the 袋 from home to avoid the fee?",
+  "sample_rate": 16000,
+  "duration_ms": 3146,
+  "reference_speaker": "en/speaker_035_aa6a3aa058c0.mp3",
+  "seed": 803,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Did you remember to bring the",
+      "start_sample": 0,
+      "end_sample": 15408,
+      "start_ms": 0,
+      "end_ms": 963
+    },
+    {
+      "lang": "ja",
+      "text": "袋",
+      "start_sample": 15408,
+      "end_sample": 22702,
+      "start_ms": 963,
+      "end_ms": 1419
+    },
+    {
+      "lang": "en",
+      "text": "from home to avoid the fee?",
+      "start_sample": 22702,
+      "end_sample": 50335,
+      "start_ms": 1419,
+      "end_ms": 3146
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Did you remember to bring the fukuro from home to avoid the fee?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3318,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you remember to bring the",
+          "start_sample": 0,
+          "end_sample": 15608,
+          "start_ms": 0,
+          "end_ms": 976
+        },
+        {
+          "lang": "ja",
+          "text": "袋",
+          "start_sample": 15608,
+          "end_sample": 25263,
+          "start_ms": 976,
+          "end_ms": 1579
+        },
+        {
+          "lang": "en",
+          "text": "from home to avoid the fee?",
+          "start_sample": 25263,
+          "end_sample": 53096,
+          "start_ms": 1579,
+          "end_ms": 3318
+        }
+      ]
+    },
+    "ja": {
+      "text": "Did you remember to bring the 袋 from home to avoid the fee?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4328,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Did you remember to bring the",
+          "start_sample": 0,
+          "end_sample": 20516,
+          "start_ms": 0,
+          "end_ms": 1282
+        },
+        {
+          "lang": "ja",
+          "text": "袋",
+          "start_sample": 20516,
+          "end_sample": 28210,
+          "start_ms": 1282,
+          "end_ms": 1763
+        },
+        {
+          "lang": "en",
+          "text": "from home to avoid the fee?",
+          "start_sample": 28210,
+          "end_sample": 69242,
+          "start_ms": 1763,
+          "end_ms": 4328
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 158,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

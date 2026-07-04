@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_079_9589554d8179/cs735.flac",
+  "sentence": "My nephew has been really 元気 ever since he started that new school.",
+  "sample_rate": 16000,
+  "duration_ms": 4061,
+  "reference_speaker": "en/speaker_079_9589554d8179.mp3",
+  "seed": 777,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My nephew has been really",
+      "start_sample": 0,
+      "end_sample": 19376,
+      "start_ms": 0,
+      "end_ms": 1211
+    },
+    {
+      "lang": "ja",
+      "text": "元気",
+      "start_sample": 19376,
+      "end_sample": 27145,
+      "start_ms": 1211,
+      "end_ms": 1697
+    },
+    {
+      "lang": "en",
+      "text": "ever since he started that new school.",
+      "start_sample": 27145,
+      "end_sample": 64977,
+      "start_ms": 1697,
+      "end_ms": 4061
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My nephew has been really genki ever since he started that new school.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4433,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My nephew has been really",
+          "start_sample": 0,
+          "end_sample": 19576,
+          "start_ms": 0,
+          "end_ms": 1224
+        },
+        {
+          "lang": "ja",
+          "text": "元気",
+          "start_sample": 19576,
+          "end_sample": 32896,
+          "start_ms": 1224,
+          "end_ms": 2056
+        },
+        {
+          "lang": "en",
+          "text": "ever since he started that new school.",
+          "start_sample": 32896,
+          "end_sample": 70928,
+          "start_ms": 2056,
+          "end_ms": 4433
+        }
+      ]
+    },
+    "ja": {
+      "text": "My nephew has been really 元気 ever since he started that new school.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4985,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My nephew has been really",
+          "start_sample": 0,
+          "end_sample": 33316,
+          "start_ms": 0,
+          "end_ms": 2082
+        },
+        {
+          "lang": "ja",
+          "text": "元気",
+          "start_sample": 33316,
+          "end_sample": 41485,
+          "start_ms": 2082,
+          "end_ms": 2593
+        },
+        {
+          "lang": "en",
+          "text": "ever since he started that new school.",
+          "start_sample": 41485,
+          "end_sample": 79767,
+          "start_ms": 2593,
+          "end_ms": 4985
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

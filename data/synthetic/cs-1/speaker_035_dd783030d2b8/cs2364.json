@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_035_dd783030d2b8/cs2364.flac",
+  "sentence": "この雑巾はdampすぎて、かえって汚くなる。",
+  "sample_rate": 16000,
+  "duration_ms": 2617,
+  "reference_speaker": "jp/speaker_035_dd783030d2b8.mp3",
+  "seed": 2406,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この雑巾は",
+      "start_sample": 0,
+      "end_sample": 11507,
+      "start_ms": 0,
+      "end_ms": 719
+    },
+    {
+      "lang": "en",
+      "text": "damp",
+      "start_sample": 11507,
+      "end_sample": 15613,
+      "start_ms": 719,
+      "end_ms": 976
+    },
+    {
+      "lang": "ja",
+      "text": "すぎて、かえって汚くなる。",
+      "start_sample": 15613,
+      "end_sample": 41874,
+      "start_ms": 976,
+      "end_ms": 2617
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono zoukin ha damp sugi te kaette gitanaku naru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2735,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この雑巾は",
+          "start_sample": 0,
+          "end_sample": 12711,
+          "start_ms": 0,
+          "end_ms": 794
+        },
+        {
+          "lang": "en",
+          "text": "damp",
+          "start_sample": 12711,
+          "end_sample": 17217,
+          "start_ms": 794,
+          "end_ms": 1076
+        },
+        {
+          "lang": "ja",
+          "text": "すぎて、かえって汚くなる。",
+          "start_sample": 17217,
+          "end_sample": 43763,
+          "start_ms": 1076,
+          "end_ms": 2735
+        }
+      ]
+    },
+    "ja": {
+      "text": "この雑巾はdampすぎて、かえって汚くなる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2686,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この雑巾は",
+          "start_sample": 0,
+          "end_sample": 11707,
+          "start_ms": 0,
+          "end_ms": 732
+        },
+        {
+          "lang": "en",
+          "text": "damp",
+          "start_sample": 11707,
+          "end_sample": 16518,
+          "start_ms": 732,
+          "end_ms": 1032
+        },
+        {
+          "lang": "ja",
+          "text": "すぎて、かえって汚くなる。",
+          "start_sample": 16518,
+          "end_sample": 42979,
+          "start_ms": 1032,
+          "end_ms": 2686
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 131,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_006_3447120ac93b/cs1394.flac",
+  "sentence": "このmainstreetは週末に歩行者天国になります。",
+  "sample_rate": 16000,
+  "duration_ms": 3149,
+  "reference_speaker": "jp/speaker_006_3447120ac93b.mp3",
+  "seed": 1436,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この",
+      "start_sample": 0,
+      "end_sample": 2220,
+      "start_ms": 0,
+      "end_ms": 139
+    },
+    {
+      "lang": "en",
+      "text": "mainstreet",
+      "start_sample": 2220,
+      "end_sample": 20096,
+      "start_ms": 139,
+      "end_ms": 1256
+    },
+    {
+      "lang": "ja",
+      "text": "は週末に歩行者天国になります。",
+      "start_sample": 20096,
+      "end_sample": 50390,
+      "start_ms": 1256,
+      "end_ms": 3149
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono mainstreet ha shuumatsu ni hokou mono tengoku ni nari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6673,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 4488,
+          "start_ms": 0,
+          "end_ms": 280
+        },
+        {
+          "lang": "en",
+          "text": "mainstreet",
+          "start_sample": 4488,
+          "end_sample": 22764,
+          "start_ms": 280,
+          "end_ms": 1423
+        },
+        {
+          "lang": "ja",
+          "text": "は週末に歩行者天国になります。",
+          "start_sample": 22764,
+          "end_sample": 106767,
+          "start_ms": 1423,
+          "end_ms": 6673
+        }
+      ]
+    },
+    "ja": {
+      "text": "このmainstreetは週末に歩行者天国になります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2662,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この",
+          "start_sample": 0,
+          "end_sample": 2420,
+          "start_ms": 0,
+          "end_ms": 151
+        },
+        {
+          "lang": "en",
+          "text": "mainstreet",
+          "start_sample": 2420,
+          "end_sample": 12104,
+          "start_ms": 151,
+          "end_ms": 756
+        },
+        {
+          "lang": "ja",
+          "text": "は週末に歩行者天国になります。",
+          "start_sample": 12104,
+          "end_sample": 42598,
+          "start_ms": 756,
+          "end_ms": 2662
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 158,
+  "frame_labels": "jjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

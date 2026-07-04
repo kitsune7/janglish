@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_041_b54335ce95b5/cs6825.flac",
+  "sentence": "The fastest 経路 avoids the highway completely.",
+  "sample_rate": 16000,
+  "duration_ms": 2931,
+  "reference_speaker": "en/speaker_041_b54335ce95b5.mp3",
+  "seed": 6867,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The fastest",
+      "start_sample": 0,
+      "end_sample": 10128,
+      "start_ms": 0,
+      "end_ms": 633
+    },
+    {
+      "lang": "ja",
+      "text": "経路",
+      "start_sample": 10128,
+      "end_sample": 20955,
+      "start_ms": 633,
+      "end_ms": 1310
+    },
+    {
+      "lang": "en",
+      "text": "avoids the highway completely.",
+      "start_sample": 20955,
+      "end_sample": 46893,
+      "start_ms": 1310,
+      "end_ms": 2931
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The fastest keiro avoids the highway completely.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 2642,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The fastest",
+          "start_sample": 0,
+          "end_sample": 10328,
+          "start_ms": 0,
+          "end_ms": 646
+        },
+        {
+          "lang": "ja",
+          "text": "経路",
+          "start_sample": 10328,
+          "end_sample": 16138,
+          "start_ms": 646,
+          "end_ms": 1009
+        },
+        {
+          "lang": "en",
+          "text": "avoids the highway completely.",
+          "start_sample": 16138,
+          "end_sample": 42276,
+          "start_ms": 1009,
+          "end_ms": 2642
+        }
+      ]
+    },
+    "ja": {
+      "text": "The fastest 経路 avoids the highway completely.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5112,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The fastest",
+          "start_sample": 0,
+          "end_sample": 20208,
+          "start_ms": 0,
+          "end_ms": 1263
+        },
+        {
+          "lang": "ja",
+          "text": "経路",
+          "start_sample": 20208,
+          "end_sample": 31435,
+          "start_ms": 1263,
+          "end_ms": 1965
+        },
+        {
+          "lang": "en",
+          "text": "avoids the highway completely.",
+          "start_sample": 31435,
+          "end_sample": 81799,
+          "start_ms": 1965,
+          "end_ms": 5112
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 147,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

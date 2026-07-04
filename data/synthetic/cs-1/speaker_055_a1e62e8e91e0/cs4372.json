@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_055_a1e62e8e91e0/cs4372.flac",
+  "sentence": "I spent all afternoon fixing a 面倒くさい bug in the codebase.",
+  "sample_rate": 16000,
+  "duration_ms": 4265,
+  "reference_speaker": "en/speaker_055_a1e62e8e91e0.mp3",
+  "seed": 4414,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I spent all afternoon fixing a",
+      "start_sample": 0,
+      "end_sample": 35148,
+      "start_ms": 0,
+      "end_ms": 2197
+    },
+    {
+      "lang": "ja",
+      "text": "面倒くさい",
+      "start_sample": 35148,
+      "end_sample": 49165,
+      "start_ms": 2197,
+      "end_ms": 3073
+    },
+    {
+      "lang": "en",
+      "text": "bug in the codebase.",
+      "start_sample": 49165,
+      "end_sample": 68245,
+      "start_ms": 3073,
+      "end_ms": 4265
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I spent all afternoon fixing a mendou kusai bug in the codebase.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4559,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I spent all afternoon fixing a",
+          "start_sample": 0,
+          "end_sample": 35348,
+          "start_ms": 0,
+          "end_ms": 2209
+        },
+        {
+          "lang": "ja",
+          "text": "面倒くさい",
+          "start_sample": 35348,
+          "end_sample": 53667,
+          "start_ms": 2209,
+          "end_ms": 3354
+        },
+        {
+          "lang": "en",
+          "text": "bug in the codebase.",
+          "start_sample": 53667,
+          "end_sample": 72947,
+          "start_ms": 3354,
+          "end_ms": 4559
+        }
+      ]
+    },
+    "ja": {
+      "text": "I spent all afternoon fixing a 面倒くさい bug in the codebase.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5186,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I spent all afternoon fixing a",
+          "start_sample": 0,
+          "end_sample": 43733,
+          "start_ms": 0,
+          "end_ms": 2733
+        },
+        {
+          "lang": "ja",
+          "text": "面倒くさい",
+          "start_sample": 43733,
+          "end_sample": 58150,
+          "start_ms": 2733,
+          "end_ms": 3634
+        },
+        {
+          "lang": "en",
+          "text": "bug in the codebase.",
+          "start_sample": 58150,
+          "end_sample": 82981,
+          "start_ms": 3634,
+          "end_ms": 5186
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 214,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

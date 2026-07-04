@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_079_e96ebb016d7a/cs6112.flac",
+  "sentence": "My 上司 scheduled yet another video call that could have been an email.",
+  "sample_rate": 16000,
+  "duration_ms": 4560,
+  "reference_speaker": "jp/speaker_079_e96ebb016d7a.mp3",
+  "seed": 6154,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "My",
+      "start_sample": 0,
+      "end_sample": 2049,
+      "start_ms": 0,
+      "end_ms": 128
+    },
+    {
+      "lang": "ja",
+      "text": "上司",
+      "start_sample": 2049,
+      "end_sample": 10484,
+      "start_ms": 128,
+      "end_ms": 655
+    },
+    {
+      "lang": "en",
+      "text": "scheduled yet another video call that could have been an email.",
+      "start_sample": 10484,
+      "end_sample": 72957,
+      "start_ms": 655,
+      "end_ms": 4560
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "My joushi scheduled yet another video call that could have been an email.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4620,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 2249,
+          "start_ms": 0,
+          "end_ms": 141
+        },
+        {
+          "lang": "ja",
+          "text": "上司",
+          "start_sample": 2249,
+          "end_sample": 11249,
+          "start_ms": 141,
+          "end_ms": 703
+        },
+        {
+          "lang": "en",
+          "text": "scheduled yet another video call that could have been an email.",
+          "start_sample": 11249,
+          "end_sample": 73922,
+          "start_ms": 703,
+          "end_ms": 4620
+        }
+      ]
+    },
+    "ja": {
+      "text": "My 上司 scheduled yet another video call that could have been an email.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5722,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "My",
+          "start_sample": 0,
+          "end_sample": 4336,
+          "start_ms": 0,
+          "end_ms": 271
+        },
+        {
+          "lang": "ja",
+          "text": "上司",
+          "start_sample": 4336,
+          "end_sample": 13171,
+          "start_ms": 271,
+          "end_ms": 823
+        },
+        {
+          "lang": "en",
+          "text": "scheduled yet another video call that could have been an email.",
+          "start_sample": 13171,
+          "end_sample": 91554,
+          "start_ms": 823,
+          "end_ms": 5722
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 228,
+  "frame_labels": "eeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

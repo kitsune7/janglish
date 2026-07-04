@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_035_aa6a3aa058c0/cs7035.flac",
+  "sentence": "Their 技 has grown so much since I saw them play a small club show two years ago.",
+  "sample_rate": 16000,
+  "duration_ms": 4810,
+  "reference_speaker": "en/speaker_035_aa6a3aa058c0.mp3",
+  "seed": 7077,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Their",
+      "start_sample": 0,
+      "end_sample": 2210,
+      "start_ms": 0,
+      "end_ms": 138
+    },
+    {
+      "lang": "ja",
+      "text": "技",
+      "start_sample": 2210,
+      "end_sample": 10464,
+      "start_ms": 138,
+      "end_ms": 654
+    },
+    {
+      "lang": "en",
+      "text": "has grown so much since I saw them play a small club show two years ago.",
+      "start_sample": 10464,
+      "end_sample": 76954,
+      "start_ms": 654,
+      "end_ms": 4810
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Their waza has grown so much since I saw them play a small club show two years ago.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4640,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their",
+          "start_sample": 0,
+          "end_sample": 2410,
+          "start_ms": 0,
+          "end_ms": 151
+        },
+        {
+          "lang": "ja",
+          "text": "技",
+          "start_sample": 2410,
+          "end_sample": 7553,
+          "start_ms": 151,
+          "end_ms": 472
+        },
+        {
+          "lang": "en",
+          "text": "has grown so much since I saw them play a small club show two years ago.",
+          "start_sample": 7553,
+          "end_sample": 74243,
+          "start_ms": 472,
+          "end_ms": 4640
+        }
+      ]
+    },
+    "ja": {
+      "text": "Their 技 has grown so much since I saw them play a small club show two years ago.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7231,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Their",
+          "start_sample": 0,
+          "end_sample": 7049,
+          "start_ms": 0,
+          "end_ms": 441
+        },
+        {
+          "lang": "ja",
+          "text": "技",
+          "start_sample": 7049,
+          "end_sample": 15703,
+          "start_ms": 441,
+          "end_ms": 981
+        },
+        {
+          "lang": "en",
+          "text": "has grown so much since I saw them play a small club show two years ago.",
+          "start_sample": 15703,
+          "end_sample": 115700,
+          "start_ms": 981,
+          "end_ms": 7231
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 241,
+  "frame_labels": "eeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

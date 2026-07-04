@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_097_1c56b79c3d3b/cs1511.flac",
+  "sentence": "He buys the most expensive 剃刀 blades because he says they matter.",
+  "sample_rate": 16000,
+  "duration_ms": 4052,
+  "reference_speaker": "jp/speaker_097_1c56b79c3d3b.mp3",
+  "seed": 1553,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He buys the most expensive",
+      "start_sample": 0,
+      "end_sample": 23869,
+      "start_ms": 0,
+      "end_ms": 1492
+    },
+    {
+      "lang": "ja",
+      "text": "剃刀",
+      "start_sample": 23869,
+      "end_sample": 35348,
+      "start_ms": 1492,
+      "end_ms": 2209
+    },
+    {
+      "lang": "en",
+      "text": "blades because he says they matter.",
+      "start_sample": 35348,
+      "end_sample": 64831,
+      "start_ms": 2209,
+      "end_ms": 4052
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He buys the most expensive kamisori blades because he says they matter.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3991,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He buys the most expensive",
+          "start_sample": 0,
+          "end_sample": 24069,
+          "start_ms": 0,
+          "end_ms": 1504
+        },
+        {
+          "lang": "ja",
+          "text": "剃刀",
+          "start_sample": 24069,
+          "end_sample": 34178,
+          "start_ms": 1504,
+          "end_ms": 2136
+        },
+        {
+          "lang": "en",
+          "text": "blades because he says they matter.",
+          "start_sample": 34178,
+          "end_sample": 63861,
+          "start_ms": 2136,
+          "end_ms": 3991
+        }
+      ]
+    },
+    "ja": {
+      "text": "He buys the most expensive 剃刀 blades because he says they matter.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5819,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He buys the most expensive",
+          "start_sample": 0,
+          "end_sample": 42379,
+          "start_ms": 0,
+          "end_ms": 2649
+        },
+        {
+          "lang": "ja",
+          "text": "剃刀",
+          "start_sample": 42379,
+          "end_sample": 54258,
+          "start_ms": 2649,
+          "end_ms": 3391
+        },
+        {
+          "lang": "en",
+          "text": "blades because he says they matter.",
+          "start_sample": 54258,
+          "end_sample": 93103,
+          "start_ms": 3391,
+          "end_ms": 5819
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

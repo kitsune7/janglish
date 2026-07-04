@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_022_b672c364242e/cs10864.flac",
+  "sentence": "She wrapped each 贈り物 so carefully that nobody wanted to tear the paper.",
+  "sample_rate": 16000,
+  "duration_ms": 5363,
+  "reference_speaker": "jp/speaker_022_b672c364242e.mp3",
+  "seed": 10906,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She wrapped each",
+      "start_sample": 0,
+      "end_sample": 10543,
+      "start_ms": 0,
+      "end_ms": 659
+    },
+    {
+      "lang": "ja",
+      "text": "贈り物",
+      "start_sample": 10543,
+      "end_sample": 22668,
+      "start_ms": 659,
+      "end_ms": 1417
+    },
+    {
+      "lang": "en",
+      "text": "so carefully that nobody wanted to tear the paper.",
+      "start_sample": 22668,
+      "end_sample": 85805,
+      "start_ms": 1417,
+      "end_ms": 5363
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She wrapped each okurimono so carefully that nobody wanted to tear the paper.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5332,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She wrapped each",
+          "start_sample": 0,
+          "end_sample": 10743,
+          "start_ms": 0,
+          "end_ms": 671
+        },
+        {
+          "lang": "ja",
+          "text": "贈り物",
+          "start_sample": 10743,
+          "end_sample": 21967,
+          "start_ms": 671,
+          "end_ms": 1373
+        },
+        {
+          "lang": "en",
+          "text": "so carefully that nobody wanted to tear the paper.",
+          "start_sample": 21967,
+          "end_sample": 85304,
+          "start_ms": 1373,
+          "end_ms": 5332
+        }
+      ]
+    },
+    "ja": {
+      "text": "She wrapped each 贈り物 so carefully that nobody wanted to tear the paper.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5359,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She wrapped each",
+          "start_sample": 0,
+          "end_sample": 19430,
+          "start_ms": 0,
+          "end_ms": 1214
+        },
+        {
+          "lang": "ja",
+          "text": "贈り物",
+          "start_sample": 19430,
+          "end_sample": 31955,
+          "start_ms": 1214,
+          "end_ms": 1997
+        },
+        {
+          "lang": "en",
+          "text": "so carefully that nobody wanted to tear the paper.",
+          "start_sample": 31955,
+          "end_sample": 85747,
+          "start_ms": 1997,
+          "end_ms": 5359
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 269,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

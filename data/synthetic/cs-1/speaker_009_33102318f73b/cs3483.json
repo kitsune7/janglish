@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_009_33102318f73b/cs3483.flac",
+  "sentence": "クリスマスイブにはfrostedクッキーを焼く予定です。",
+  "sample_rate": 16000,
+  "duration_ms": 3178,
+  "reference_speaker": "jp/speaker_009_33102318f73b.mp3",
+  "seed": 3525,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "クリスマスイブには",
+      "start_sample": 0,
+      "end_sample": 17511,
+      "start_ms": 0,
+      "end_ms": 1094
+    },
+    {
+      "lang": "en",
+      "text": "frosted",
+      "start_sample": 17511,
+      "end_sample": 26742,
+      "start_ms": 1094,
+      "end_ms": 1671
+    },
+    {
+      "lang": "ja",
+      "text": "クッキーを焼く予定です。",
+      "start_sample": 26742,
+      "end_sample": 50849,
+      "start_ms": 1671,
+      "end_ms": 3178
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kurisumasu ibu ni ha frosted kukkii wo yaku yotei desu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4755,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "クリスマスイブには",
+          "start_sample": 0,
+          "end_sample": 35792,
+          "start_ms": 0,
+          "end_ms": 2237
+        },
+        {
+          "lang": "en",
+          "text": "frosted",
+          "start_sample": 35792,
+          "end_sample": 45423,
+          "start_ms": 2237,
+          "end_ms": 2839
+        },
+        {
+          "lang": "ja",
+          "text": "クッキーを焼く予定です。",
+          "start_sample": 45423,
+          "end_sample": 76077,
+          "start_ms": 2839,
+          "end_ms": 4755
+        }
+      ]
+    },
+    "ja": {
+      "text": "クリスマスイブにはfrostedクッキーを焼く予定です。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3341,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "クリスマスイブには",
+          "start_sample": 0,
+          "end_sample": 17711,
+          "start_ms": 0,
+          "end_ms": 1107
+        },
+        {
+          "lang": "en",
+          "text": "frosted",
+          "start_sample": 17711,
+          "end_sample": 29143,
+          "start_ms": 1107,
+          "end_ms": 1821
+        },
+        {
+          "lang": "ja",
+          "text": "クッキーを焼く予定です。",
+          "start_sample": 29143,
+          "end_sample": 53450,
+          "start_ms": 1821,
+          "end_ms": 3341
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 159,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

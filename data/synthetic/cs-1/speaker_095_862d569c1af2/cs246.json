@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_095_862d569c1af2/cs246.flac",
+  "sentence": "うちの犬はとてもplayfulで、毎日公園で走り回っています。",
+  "sample_rate": 16000,
+  "duration_ms": 5778,
+  "reference_speaker": "en/speaker_095_862d569c1af2.mp3",
+  "seed": 288,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "うちの犬はとても",
+      "start_sample": 0,
+      "end_sample": 21785,
+      "start_ms": 0,
+      "end_ms": 1362
+    },
+    {
+      "lang": "en",
+      "text": "playful",
+      "start_sample": 21785,
+      "end_sample": 34381,
+      "start_ms": 1362,
+      "end_ms": 2149
+    },
+    {
+      "lang": "ja",
+      "text": "で、毎日公園で走り回っています。",
+      "start_sample": 34381,
+      "end_sample": 92440,
+      "start_ms": 2149,
+      "end_ms": 5778
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "uchi no inu ha totemo playful de mainichi kouen de hashirimawatsu te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8082,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちの犬はとても",
+          "start_sample": 0,
+          "end_sample": 39629,
+          "start_ms": 0,
+          "end_ms": 2477
+        },
+        {
+          "lang": "en",
+          "text": "playful",
+          "start_sample": 39629,
+          "end_sample": 52625,
+          "start_ms": 2477,
+          "end_ms": 3289
+        },
+        {
+          "lang": "ja",
+          "text": "で、毎日公園で走り回っています。",
+          "start_sample": 52625,
+          "end_sample": 129318,
+          "start_ms": 3289,
+          "end_ms": 8082
+        }
+      ]
+    },
+    "ja": {
+      "text": "うちの犬はとてもplayfulで、毎日公園で走り回っています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5597,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "うちの犬はとても",
+          "start_sample": 0,
+          "end_sample": 21985,
+          "start_ms": 0,
+          "end_ms": 1374
+        },
+        {
+          "lang": "en",
+          "text": "playful",
+          "start_sample": 21985,
+          "end_sample": 31294,
+          "start_ms": 1374,
+          "end_ms": 1956
+        },
+        {
+          "lang": "ja",
+          "text": "で、毎日公園で走り回っています。",
+          "start_sample": 31294,
+          "end_sample": 89553,
+          "start_ms": 1956,
+          "end_ms": 5597
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 289,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_016_f3aac8b73f15/cs5957.flac",
+  "sentence": "地下鉄のdelayのせいで会議に遅刻した。",
+  "sample_rate": 16000,
+  "duration_ms": 2921,
+  "reference_speaker": "jp/speaker_016_f3aac8b73f15.mp3",
+  "seed": 5999,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "地下鉄の",
+      "start_sample": 0,
+      "end_sample": 9919,
+      "start_ms": 0,
+      "end_ms": 620
+    },
+    {
+      "lang": "en",
+      "text": "delay",
+      "start_sample": 9919,
+      "end_sample": 21238,
+      "start_ms": 620,
+      "end_ms": 1327
+    },
+    {
+      "lang": "ja",
+      "text": "のせいで会議に遅刻した。",
+      "start_sample": 21238,
+      "end_sample": 46735,
+      "start_ms": 1327,
+      "end_ms": 2921
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "chika tetsu no delay no sei de kaigi ni chikoku shi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5879,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "地下鉄の",
+          "start_sample": 0,
+          "end_sample": 30018,
+          "start_ms": 0,
+          "end_ms": 1876
+        },
+        {
+          "lang": "en",
+          "text": "delay",
+          "start_sample": 30018,
+          "end_sample": 41737,
+          "start_ms": 1876,
+          "end_ms": 2609
+        },
+        {
+          "lang": "ja",
+          "text": "のせいで会議に遅刻した。",
+          "start_sample": 41737,
+          "end_sample": 94066,
+          "start_ms": 2609,
+          "end_ms": 5879
+        }
+      ]
+    },
+    "ja": {
+      "text": "地下鉄のdelayのせいで会議に遅刻した。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2570,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "地下鉄の",
+          "start_sample": 0,
+          "end_sample": 10119,
+          "start_ms": 0,
+          "end_ms": 632
+        },
+        {
+          "lang": "en",
+          "text": "delay",
+          "start_sample": 10119,
+          "end_sample": 15420,
+          "start_ms": 632,
+          "end_ms": 964
+        },
+        {
+          "lang": "ja",
+          "text": "のせいで会議に遅刻した。",
+          "start_sample": 15420,
+          "end_sample": 41117,
+          "start_ms": 964,
+          "end_ms": 2570
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 147,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

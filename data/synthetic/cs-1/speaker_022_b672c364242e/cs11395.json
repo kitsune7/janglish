@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_022_b672c364242e/cs11395.flac",
+  "sentence": "彼女はいつもlayeredなコーディネートをしています。",
+  "sample_rate": 16000,
+  "duration_ms": 3095,
+  "reference_speaker": "jp/speaker_022_b672c364242e.mp3",
+  "seed": 11437,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼女はいつも",
+      "start_sample": 0,
+      "end_sample": 14922,
+      "start_ms": 0,
+      "end_ms": 933
+    },
+    {
+      "lang": "en",
+      "text": "layered",
+      "start_sample": 14922,
+      "end_sample": 23986,
+      "start_ms": 933,
+      "end_ms": 1499
+    },
+    {
+      "lang": "ja",
+      "text": "なコーディネートをしています。",
+      "start_sample": 23986,
+      "end_sample": 49522,
+      "start_ms": 1499,
+      "end_ms": 3095
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kanojo ha itsu mo layered na koodineeto wo shi te i masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7438,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女はいつも",
+          "start_sample": 0,
+          "end_sample": 59023,
+          "start_ms": 0,
+          "end_ms": 3689
+        },
+        {
+          "lang": "en",
+          "text": "layered",
+          "start_sample": 59023,
+          "end_sample": 68487,
+          "start_ms": 3689,
+          "end_ms": 4280
+        },
+        {
+          "lang": "ja",
+          "text": "なコーディネートをしています。",
+          "start_sample": 68487,
+          "end_sample": 119008,
+          "start_ms": 4280,
+          "end_ms": 7438
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼女はいつもlayeredなコーディネートをしています。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3056,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼女はいつも",
+          "start_sample": 0,
+          "end_sample": 15122,
+          "start_ms": 0,
+          "end_ms": 945
+        },
+        {
+          "lang": "en",
+          "text": "layered",
+          "start_sample": 15122,
+          "end_sample": 23166,
+          "start_ms": 945,
+          "end_ms": 1448
+        },
+        {
+          "lang": "ja",
+          "text": "なコーディネートをしています。",
+          "start_sample": 23166,
+          "end_sample": 48902,
+          "start_ms": 1448,
+          "end_ms": 3056
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 155,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

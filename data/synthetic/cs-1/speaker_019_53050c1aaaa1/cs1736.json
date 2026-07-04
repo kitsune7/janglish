@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_019_53050c1aaaa1/cs1736.flac",
+  "sentence": "彼の新しい車はsunroofが付いていて、晴れた日は最高だと言っていた。",
+  "sample_rate": 16000,
+  "duration_ms": 4285,
+  "reference_speaker": "en/speaker_019_53050c1aaaa1.mp3",
+  "seed": 1778,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼の新しい車は",
+      "start_sample": 0,
+      "end_sample": 19658,
+      "start_ms": 0,
+      "end_ms": 1229
+    },
+    {
+      "lang": "en",
+      "text": "sunroof",
+      "start_sample": 19658,
+      "end_sample": 28875,
+      "start_ms": 1229,
+      "end_ms": 1805
+    },
+    {
+      "lang": "ja",
+      "text": "が付いていて、晴れた日は最高だと言っていた。",
+      "start_sample": 28875,
+      "end_sample": 68553,
+      "start_ms": 1805,
+      "end_ms": 4285
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare no atarashii kuruma ha sunroof ga tsui te i te hare ta nichi ha saikou da to itsutsu te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7954,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼の新しい車は",
+          "start_sample": 0,
+          "end_sample": 49690,
+          "start_ms": 0,
+          "end_ms": 3106
+        },
+        {
+          "lang": "en",
+          "text": "sunroof",
+          "start_sample": 49690,
+          "end_sample": 59307,
+          "start_ms": 3106,
+          "end_ms": 3707
+        },
+        {
+          "lang": "ja",
+          "text": "が付いていて、晴れた日は最高だと言っていた。",
+          "start_sample": 59307,
+          "end_sample": 127269,
+          "start_ms": 3707,
+          "end_ms": 7954
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼の新しい車はsunroofが付いていて、晴れた日は最高だと言っていた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4244,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼の新しい車は",
+          "start_sample": 0,
+          "end_sample": 19858,
+          "start_ms": 0,
+          "end_ms": 1241
+        },
+        {
+          "lang": "en",
+          "text": "sunroof",
+          "start_sample": 19858,
+          "end_sample": 28026,
+          "start_ms": 1241,
+          "end_ms": 1752
+        },
+        {
+          "lang": "ja",
+          "text": "が付いていて、晴れた日は最高だと言っていた。",
+          "start_sample": 28026,
+          "end_sample": 67904,
+          "start_ms": 1752,
+          "end_ms": 4244
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 215,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

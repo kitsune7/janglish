@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_087_849529715d29/cs746.flac",
+  "sentence": "Your 伯父 just called and said he might stop by later tonight.",
+  "sample_rate": 16000,
+  "duration_ms": 4490,
+  "reference_speaker": "jp/speaker_087_849529715d29.mp3",
+  "seed": 788,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Your",
+      "start_sample": 0,
+      "end_sample": 6390,
+      "start_ms": 0,
+      "end_ms": 399
+    },
+    {
+      "lang": "ja",
+      "text": "伯父",
+      "start_sample": 6390,
+      "end_sample": 14973,
+      "start_ms": 399,
+      "end_ms": 936
+    },
+    {
+      "lang": "en",
+      "text": "just called and said he might stop by later tonight.",
+      "start_sample": 14973,
+      "end_sample": 71839,
+      "start_ms": 936,
+      "end_ms": 4490
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Your oji just called and said he might stop by later tonight.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4340,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Your",
+          "start_sample": 0,
+          "end_sample": 6590,
+          "start_ms": 0,
+          "end_ms": 412
+        },
+        {
+          "lang": "ja",
+          "text": "伯父",
+          "start_sample": 6590,
+          "end_sample": 12378,
+          "start_ms": 412,
+          "end_ms": 774
+        },
+        {
+          "lang": "en",
+          "text": "just called and said he might stop by later tonight.",
+          "start_sample": 12378,
+          "end_sample": 69444,
+          "start_ms": 774,
+          "end_ms": 4340
+        }
+      ]
+    },
+    "ja": {
+      "text": "Your 伯父 just called and said he might stop by later tonight.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5013,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Your",
+          "start_sample": 0,
+          "end_sample": 4170,
+          "start_ms": 0,
+          "end_ms": 261
+        },
+        {
+          "lang": "ja",
+          "text": "伯父",
+          "start_sample": 4170,
+          "end_sample": 13153,
+          "start_ms": 261,
+          "end_ms": 822
+        },
+        {
+          "lang": "en",
+          "text": "just called and said he might stop by later tonight.",
+          "start_sample": 13153,
+          "end_sample": 80205,
+          "start_ms": 822,
+          "end_ms": 5013
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 225,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_043_1ef414c9abc5/cs5613.flac",
+  "sentence": "Our room had a 小さな balcony overlooking the old town.",
+  "sample_rate": 16000,
+  "duration_ms": 2959,
+  "reference_speaker": "jp/speaker_043_1ef414c9abc5.mp3",
+  "seed": 5655,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Our room had a",
+      "start_sample": 0,
+      "end_sample": 9908,
+      "start_ms": 0,
+      "end_ms": 619
+    },
+    {
+      "lang": "ja",
+      "text": "小さな",
+      "start_sample": 9908,
+      "end_sample": 16888,
+      "start_ms": 619,
+      "end_ms": 1056
+    },
+    {
+      "lang": "en",
+      "text": "balcony overlooking the old town.",
+      "start_sample": 16888,
+      "end_sample": 47343,
+      "start_ms": 1056,
+      "end_ms": 2959
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Our room had a chiisana balcony overlooking the old town.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3109,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Our room had a",
+          "start_sample": 0,
+          "end_sample": 10108,
+          "start_ms": 0,
+          "end_ms": 632
+        },
+        {
+          "lang": "ja",
+          "text": "小さな",
+          "start_sample": 10108,
+          "end_sample": 19096,
+          "start_ms": 632,
+          "end_ms": 1194
+        },
+        {
+          "lang": "en",
+          "text": "balcony overlooking the old town.",
+          "start_sample": 19096,
+          "end_sample": 49751,
+          "start_ms": 1194,
+          "end_ms": 3109
+        }
+      ]
+    },
+    "ja": {
+      "text": "Our room had a 小さな balcony overlooking the old town.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3690,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Our room had a",
+          "start_sample": 0,
+          "end_sample": 14598,
+          "start_ms": 0,
+          "end_ms": 912
+        },
+        {
+          "lang": "ja",
+          "text": "小さな",
+          "start_sample": 14598,
+          "end_sample": 21978,
+          "start_ms": 912,
+          "end_ms": 1374
+        },
+        {
+          "lang": "en",
+          "text": "balcony overlooking the old town.",
+          "start_sample": 21978,
+          "end_sample": 59039,
+          "start_ms": 1374,
+          "end_ms": 3690
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 148,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

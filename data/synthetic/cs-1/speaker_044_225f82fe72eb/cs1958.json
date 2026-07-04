@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_044_225f82fe72eb/cs1958.flac",
+  "sentence": "彼はいつもfresh な印象で、どこへ行っても好かれる。",
+  "sample_rate": 16000,
+  "duration_ms": 4031,
+  "reference_speaker": "jp/speaker_044_225f82fe72eb.mp3",
+  "seed": 2000,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "彼はいつも",
+      "start_sample": 0,
+      "end_sample": 13271,
+      "start_ms": 0,
+      "end_ms": 829
+    },
+    {
+      "lang": "en",
+      "text": "fresh",
+      "start_sample": 13271,
+      "end_sample": 26035,
+      "start_ms": 829,
+      "end_ms": 1627
+    },
+    {
+      "lang": "ja",
+      "text": "な印象で、どこへ行っても好かれる。",
+      "start_sample": 26035,
+      "end_sample": 64489,
+      "start_ms": 1627,
+      "end_ms": 4031
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kare ha itsu mo fresh na inshou de doko he itsu te mo suka reru",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6201,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼はいつも",
+          "start_sample": 0,
+          "end_sample": 25363,
+          "start_ms": 0,
+          "end_ms": 1585
+        },
+        {
+          "lang": "en",
+          "text": "fresh",
+          "start_sample": 25363,
+          "end_sample": 38527,
+          "start_ms": 1585,
+          "end_ms": 2408
+        },
+        {
+          "lang": "ja",
+          "text": "な印象で、どこへ行っても好かれる。",
+          "start_sample": 38527,
+          "end_sample": 99209,
+          "start_ms": 2408,
+          "end_ms": 6201
+        }
+      ]
+    },
+    "ja": {
+      "text": "彼はいつもfresh な印象で、どこへ行っても好かれる。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3769,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "彼はいつも",
+          "start_sample": 0,
+          "end_sample": 13471,
+          "start_ms": 0,
+          "end_ms": 842
+        },
+        {
+          "lang": "en",
+          "text": "fresh",
+          "start_sample": 13471,
+          "end_sample": 21652,
+          "start_ms": 842,
+          "end_ms": 1353
+        },
+        {
+          "lang": "ja",
+          "text": "な印象で、どこへ行っても好かれる。",
+          "start_sample": 21652,
+          "end_sample": 60306,
+          "start_ms": 1353,
+          "end_ms": 3769
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

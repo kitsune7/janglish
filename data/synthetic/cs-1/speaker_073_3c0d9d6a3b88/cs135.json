@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_073_3c0d9d6a3b88/cs135.flac",
+  "sentence": "The 予告編 made it look like a comedy, but the actual film was devastating.",
+  "sample_rate": 16000,
+  "duration_ms": 4325,
+  "reference_speaker": "en/speaker_073_3c0d9d6a3b88.mp3",
+  "seed": 177,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The",
+      "start_sample": 0,
+      "end_sample": 1244,
+      "start_ms": 0,
+      "end_ms": 78
+    },
+    {
+      "lang": "ja",
+      "text": "予告編",
+      "start_sample": 1244,
+      "end_sample": 10000,
+      "start_ms": 78,
+      "end_ms": 625
+    },
+    {
+      "lang": "en",
+      "text": "made it look like a comedy, but the actual film was devastating.",
+      "start_sample": 10000,
+      "end_sample": 69198,
+      "start_ms": 625,
+      "end_ms": 4325
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The yokoku hen made it look like a comedy, but the actual film was devastating.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4635,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 1444,
+          "start_ms": 0,
+          "end_ms": 90
+        },
+        {
+          "lang": "ja",
+          "text": "予告編",
+          "start_sample": 1444,
+          "end_sample": 14769,
+          "start_ms": 90,
+          "end_ms": 923
+        },
+        {
+          "lang": "en",
+          "text": "made it look like a comedy, but the actual film was devastating.",
+          "start_sample": 14769,
+          "end_sample": 74167,
+          "start_ms": 923,
+          "end_ms": 4635
+        }
+      ]
+    },
+    "ja": {
+      "text": "The 予告編 made it look like a comedy, but the actual film was devastating.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4779,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The",
+          "start_sample": 0,
+          "end_sample": 3370,
+          "start_ms": 0,
+          "end_ms": 211
+        },
+        {
+          "lang": "ja",
+          "text": "予告編",
+          "start_sample": 3370,
+          "end_sample": 12526,
+          "start_ms": 211,
+          "end_ms": 783
+        },
+        {
+          "lang": "en",
+          "text": "made it look like a comedy, but the actual film was devastating.",
+          "start_sample": 12526,
+          "end_sample": 76459,
+          "start_ms": 783,
+          "end_ms": 4779
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 217,
+  "frame_labels": "eeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

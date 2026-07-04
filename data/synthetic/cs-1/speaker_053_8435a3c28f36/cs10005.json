@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_053_8435a3c28f36/cs10005.flac",
+  "sentence": "She felt so 切ない when she found his old letters in the drawer.",
+  "sample_rate": 16000,
+  "duration_ms": 4034,
+  "reference_speaker": "jp/speaker_053_8435a3c28f36.mp3",
+  "seed": 10047,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She felt so",
+      "start_sample": 0,
+      "end_sample": 12648,
+      "start_ms": 0,
+      "end_ms": 790
+    },
+    {
+      "lang": "ja",
+      "text": "切ない",
+      "start_sample": 12648,
+      "end_sample": 23953,
+      "start_ms": 790,
+      "end_ms": 1497
+    },
+    {
+      "lang": "en",
+      "text": "when she found his old letters in the drawer.",
+      "start_sample": 23953,
+      "end_sample": 64543,
+      "start_ms": 1497,
+      "end_ms": 4034
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She felt so setsunai when she found his old letters in the drawer.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4436,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She felt so",
+          "start_sample": 0,
+          "end_sample": 12848,
+          "start_ms": 0,
+          "end_ms": 803
+        },
+        {
+          "lang": "ja",
+          "text": "切ない",
+          "start_sample": 12848,
+          "end_sample": 30193,
+          "start_ms": 803,
+          "end_ms": 1887
+        },
+        {
+          "lang": "en",
+          "text": "when she found his old letters in the drawer.",
+          "start_sample": 30193,
+          "end_sample": 70983,
+          "start_ms": 1887,
+          "end_ms": 4436
+        }
+      ]
+    },
+    "ja": {
+      "text": "She felt so 切ない when she found his old letters in the drawer.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4109,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She felt so",
+          "start_sample": 0,
+          "end_sample": 8337,
+          "start_ms": 0,
+          "end_ms": 521
+        },
+        {
+          "lang": "ja",
+          "text": "切ない",
+          "start_sample": 8337,
+          "end_sample": 20042,
+          "start_ms": 521,
+          "end_ms": 1253
+        },
+        {
+          "lang": "en",
+          "text": "when she found his old letters in the drawer.",
+          "start_sample": 20042,
+          "end_sample": 65739,
+          "start_ms": 1253,
+          "end_ms": 4109
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 202,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

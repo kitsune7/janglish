@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_021_0c003e301f78/cs11490.flac",
+  "sentence": "The hairdresser said the problem was that my ends were completely 傷んだ.",
+  "sample_rate": 16000,
+  "duration_ms": 4072,
+  "reference_speaker": "en/speaker_021_0c003e301f78.mp3",
+  "seed": 11532,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The hairdresser said the problem was that my ends were completely",
+      "start_sample": 0,
+      "end_sample": 56857,
+      "start_ms": 0,
+      "end_ms": 3554
+    },
+    {
+      "lang": "ja",
+      "text": "傷んだ.",
+      "start_sample": 56857,
+      "end_sample": 65153,
+      "start_ms": 3554,
+      "end_ms": 4072
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hairdresser said the problem was that my ends were completely kizun da",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4888,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hairdresser said the problem was that my ends were completely",
+          "start_sample": 0,
+          "end_sample": 57057,
+          "start_ms": 0,
+          "end_ms": 3566
+        },
+        {
+          "lang": "ja",
+          "text": "傷んだ.",
+          "start_sample": 57057,
+          "end_sample": 78213,
+          "start_ms": 3566,
+          "end_ms": 4888
+        }
+      ]
+    },
+    "ja": {
+      "text": "The hairdresser said the problem was that my ends were completely 傷んだ.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6713,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hairdresser said the problem was that my ends were completely",
+          "start_sample": 0,
+          "end_sample": 98917,
+          "start_ms": 0,
+          "end_ms": 6182
+        },
+        {
+          "lang": "ja",
+          "text": "傷んだ.",
+          "start_sample": 98917,
+          "end_sample": 107413,
+          "start_ms": 6182,
+          "end_ms": 6713
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

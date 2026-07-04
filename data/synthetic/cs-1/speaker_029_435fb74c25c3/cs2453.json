@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_029_435fb74c25c3/cs2453.flac",
+  "sentence": "先生はとてもstrictで、遅刻を絶対に許しません。",
+  "sample_rate": 16000,
+  "duration_ms": 4048,
+  "reference_speaker": "en/speaker_029_435fb74c25c3.mp3",
+  "seed": 2495,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "先生はとても",
+      "start_sample": 0,
+      "end_sample": 17433,
+      "start_ms": 0,
+      "end_ms": 1090
+    },
+    {
+      "lang": "en",
+      "text": "strict",
+      "start_sample": 17433,
+      "end_sample": 27609,
+      "start_ms": 1090,
+      "end_ms": 1726
+    },
+    {
+      "lang": "ja",
+      "text": "で、遅刻を絶対に許しません。",
+      "start_sample": 27609,
+      "end_sample": 64760,
+      "start_ms": 1726,
+      "end_ms": 4048
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sensei ha totemo strict de chikoku wo zettai ni yurushi mase n",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6790,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先生はとても",
+          "start_sample": 0,
+          "end_sample": 30445,
+          "start_ms": 0,
+          "end_ms": 1903
+        },
+        {
+          "lang": "en",
+          "text": "strict",
+          "start_sample": 30445,
+          "end_sample": 41021,
+          "start_ms": 1903,
+          "end_ms": 2564
+        },
+        {
+          "lang": "ja",
+          "text": "で、遅刻を絶対に許しません。",
+          "start_sample": 41021,
+          "end_sample": 108642,
+          "start_ms": 2564,
+          "end_ms": 6790
+        }
+      ]
+    },
+    "ja": {
+      "text": "先生はとてもstrictで、遅刻を絶対に許しません。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4008,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "先生はとても",
+          "start_sample": 0,
+          "end_sample": 17633,
+          "start_ms": 0,
+          "end_ms": 1102
+        },
+        {
+          "lang": "en",
+          "text": "strict",
+          "start_sample": 17633,
+          "end_sample": 26771,
+          "start_ms": 1102,
+          "end_ms": 1673
+        },
+        {
+          "lang": "ja",
+          "text": "で、遅刻を絶対に許しません。",
+          "start_sample": 26771,
+          "end_sample": 64122,
+          "start_ms": 1673,
+          "end_ms": 4008
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 203,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

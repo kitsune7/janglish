@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_024_d461ea23a991/cs9925.flac",
+  "sentence": "handmadeのアクセサリーを市場で見つけて買いました。",
+  "sample_rate": 16000,
+  "duration_ms": 3184,
+  "reference_speaker": "en/speaker_024_d461ea23a991.mp3",
+  "seed": 9967,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "handmade",
+      "start_sample": 0,
+      "end_sample": 11498,
+      "start_ms": 0,
+      "end_ms": 719
+    },
+    {
+      "lang": "ja",
+      "text": "のアクセサリーを市場で見つけて買いました。",
+      "start_sample": 11498,
+      "end_sample": 50944,
+      "start_ms": 719,
+      "end_ms": 3184
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "handmade no akusesarii wo shijou de mitsuke te kai mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5429,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "handmade",
+          "start_sample": 0,
+          "end_sample": 11698,
+          "start_ms": 0,
+          "end_ms": 731
+        },
+        {
+          "lang": "ja",
+          "text": "のアクセサリーを市場で見つけて買いました。",
+          "start_sample": 11698,
+          "end_sample": 86859,
+          "start_ms": 731,
+          "end_ms": 5429
+        }
+      ]
+    },
+    "ja": {
+      "text": "handmadeのアクセサリーを市場で見つけて買いました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2929,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "handmade",
+          "start_sample": 0,
+          "end_sample": 7222,
+          "start_ms": 0,
+          "end_ms": 451
+        },
+        {
+          "lang": "ja",
+          "text": "のアクセサリーを市場で見つけて買いました。",
+          "start_sample": 7222,
+          "end_sample": 46868,
+          "start_ms": 451,
+          "end_ms": 2929
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

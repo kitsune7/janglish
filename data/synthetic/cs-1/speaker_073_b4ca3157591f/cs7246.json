@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_073_b4ca3157591f/cs7246.flac",
+  "sentence": "He put all his 余剰金 into a high-yield savings account.",
+  "sample_rate": 16000,
+  "duration_ms": 4219,
+  "reference_speaker": "jp/speaker_073_b4ca3157591f.mp3",
+  "seed": 7288,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "He put all his",
+      "start_sample": 0,
+      "end_sample": 14757,
+      "start_ms": 0,
+      "end_ms": 922
+    },
+    {
+      "lang": "ja",
+      "text": "余剰金",
+      "start_sample": 14757,
+      "end_sample": 27816,
+      "start_ms": 922,
+      "end_ms": 1738
+    },
+    {
+      "lang": "en",
+      "text": "into a high-yield savings account.",
+      "start_sample": 27816,
+      "end_sample": 67498,
+      "start_ms": 1738,
+      "end_ms": 4219
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "He put all his yojou kin into a high-yield savings account.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4202,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He put all his",
+          "start_sample": 0,
+          "end_sample": 14957,
+          "start_ms": 0,
+          "end_ms": 935
+        },
+        {
+          "lang": "ja",
+          "text": "余剰金",
+          "start_sample": 14957,
+          "end_sample": 27342,
+          "start_ms": 935,
+          "end_ms": 1709
+        },
+        {
+          "lang": "en",
+          "text": "into a high-yield savings account.",
+          "start_sample": 27342,
+          "end_sample": 67224,
+          "start_ms": 1709,
+          "end_ms": 4202
+        }
+      ]
+    },
+    "ja": {
+      "text": "He put all his 余剰金 into a high-yield savings account.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5308,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "He put all his",
+          "start_sample": 0,
+          "end_sample": 24034,
+          "start_ms": 0,
+          "end_ms": 1502
+        },
+        {
+          "lang": "ja",
+          "text": "余剰金",
+          "start_sample": 24034,
+          "end_sample": 37493,
+          "start_ms": 1502,
+          "end_ms": 2343
+        },
+        {
+          "lang": "en",
+          "text": "into a high-yield savings account.",
+          "start_sample": 37493,
+          "end_sample": 84920,
+          "start_ms": 2343,
+          "end_ms": 5308
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 211,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

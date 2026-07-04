@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_051_36aa24c8ddec/cs649.flac",
+  "sentence": "魚をmarinated一晩おいてから焼くと、とても深い味になります。",
+  "sample_rate": 16000,
+  "duration_ms": 5816,
+  "reference_speaker": "en/speaker_051_36aa24c8ddec.mp3",
+  "seed": 691,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "魚を",
+      "start_sample": 0,
+      "end_sample": 9088,
+      "start_ms": 0,
+      "end_ms": 568
+    },
+    {
+      "lang": "en",
+      "text": "marinated",
+      "start_sample": 9088,
+      "end_sample": 24708,
+      "start_ms": 568,
+      "end_ms": 1544
+    },
+    {
+      "lang": "ja",
+      "text": "一晩おいてから焼くと、とても深い味になります。",
+      "start_sample": 24708,
+      "end_sample": 93050,
+      "start_ms": 1544,
+      "end_ms": 5816
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "sakana wo marinated ichi ban oi te kara yaku to totemo fukai aji ni nari masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 9292,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "魚を",
+          "start_sample": 0,
+          "end_sample": 19384,
+          "start_ms": 0,
+          "end_ms": 1212
+        },
+        {
+          "lang": "en",
+          "text": "marinated",
+          "start_sample": 19384,
+          "end_sample": 35404,
+          "start_ms": 1212,
+          "end_ms": 2213
+        },
+        {
+          "lang": "ja",
+          "text": "一晩おいてから焼くと、とても深い味になります。",
+          "start_sample": 35404,
+          "end_sample": 148667,
+          "start_ms": 2213,
+          "end_ms": 9292
+        }
+      ]
+    },
+    "ja": {
+      "text": "魚をmarinated一晩おいてから焼くと、とても深い味になります。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5825,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "魚を",
+          "start_sample": 0,
+          "end_sample": 9288,
+          "start_ms": 0,
+          "end_ms": 580
+        },
+        {
+          "lang": "en",
+          "text": "marinated",
+          "start_sample": 9288,
+          "end_sample": 24661,
+          "start_ms": 580,
+          "end_ms": 1541
+        },
+        {
+          "lang": "ja",
+          "text": "一晩おいてから焼くと、とても深い味になります。",
+          "start_sample": 24661,
+          "end_sample": 93203,
+          "start_ms": 1541,
+          "end_ms": 5825
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 291,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

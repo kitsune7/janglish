@@ -1,0 +1,81 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_079_e96ebb016d7a/cs5074.flac",
+  "sentence": "tutorialをスキップしたら操作が分からなくなった。",
+  "sample_rate": 16000,
+  "duration_ms": 3193,
+  "reference_speaker": "jp/speaker_079_e96ebb016d7a.mp3",
+  "seed": 5116,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "tutorial",
+      "start_sample": 0,
+      "end_sample": 15689,
+      "start_ms": 0,
+      "end_ms": 981
+    },
+    {
+      "lang": "ja",
+      "text": "をスキップしたら操作が分からなくなった。",
+      "start_sample": 15689,
+      "end_sample": 51092,
+      "start_ms": 981,
+      "end_ms": 3193
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "tutorial wo sukippu shi tara sousa ga wakara naku natsu ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 7062,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "tutorial",
+          "start_sample": 0,
+          "end_sample": 15889,
+          "start_ms": 0,
+          "end_ms": 993
+        },
+        {
+          "lang": "ja",
+          "text": "をスキップしたら操作が分からなくなった。",
+          "start_sample": 15889,
+          "end_sample": 112990,
+          "start_ms": 993,
+          "end_ms": 7062
+        }
+      ]
+    },
+    "ja": {
+      "text": "tutorialをスキップしたら操作が分からなくなった。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2706,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "tutorial",
+          "start_sample": 0,
+          "end_sample": 7697,
+          "start_ms": 0,
+          "end_ms": 481
+        },
+        {
+          "lang": "ja",
+          "text": "をスキップしたら操作が分からなくなった。",
+          "start_sample": 7697,
+          "end_sample": 43300,
+          "start_ms": 481,
+          "end_ms": 2706
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 160,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

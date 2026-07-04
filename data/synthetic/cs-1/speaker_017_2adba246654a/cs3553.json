@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_017_2adba246654a/cs3553.flac",
+  "sentence": "この熱帯魚はcolorfulで、水槽が華やかになりました。",
+  "sample_rate": 16000,
+  "duration_ms": 4072,
+  "reference_speaker": "jp/speaker_017_2adba246654a.mp3",
+  "seed": 3595,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "この熱帯魚は",
+      "start_sample": 0,
+      "end_sample": 15526,
+      "start_ms": 0,
+      "end_ms": 970
+    },
+    {
+      "lang": "en",
+      "text": "colorful",
+      "start_sample": 15526,
+      "end_sample": 26679,
+      "start_ms": 970,
+      "end_ms": 1667
+    },
+    {
+      "lang": "ja",
+      "text": "で、水槽が華やかになりました。",
+      "start_sample": 26679,
+      "end_sample": 65152,
+      "start_ms": 1667,
+      "end_ms": 4072
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono nettai sakana ha colorful de suisou ga hanayaka ni nari mashi ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6258,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この熱帯魚は",
+          "start_sample": 0,
+          "end_sample": 24068,
+          "start_ms": 0,
+          "end_ms": 1504
+        },
+        {
+          "lang": "en",
+          "text": "colorful",
+          "start_sample": 24068,
+          "end_sample": 35621,
+          "start_ms": 1504,
+          "end_ms": 2226
+        },
+        {
+          "lang": "ja",
+          "text": "で、水槽が華やかになりました。",
+          "start_sample": 35621,
+          "end_sample": 100123,
+          "start_ms": 2226,
+          "end_ms": 6258
+        }
+      ]
+    },
+    "ja": {
+      "text": "この熱帯魚はcolorfulで、水槽が華やかになりました。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3932,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "この熱帯魚は",
+          "start_sample": 0,
+          "end_sample": 15726,
+          "start_ms": 0,
+          "end_ms": 983
+        },
+        {
+          "lang": "en",
+          "text": "colorful",
+          "start_sample": 15726,
+          "end_sample": 24231,
+          "start_ms": 983,
+          "end_ms": 1514
+        },
+        {
+          "lang": "ja",
+          "text": "で、水槽が華やかになりました。",
+          "start_sample": 24231,
+          "end_sample": 62904,
+          "start_ms": 1514,
+          "end_ms": 3932
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 204,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

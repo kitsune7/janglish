@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_037_97f38629e8a3/cs10608.flac",
+  "sentence": "The bees have been remarkably 活発 around the clover patch this week.",
+  "sample_rate": 16000,
+  "duration_ms": 3629,
+  "reference_speaker": "jp/speaker_037_97f38629e8a3.mp3",
+  "seed": 10650,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The bees have been remarkably",
+      "start_sample": 0,
+      "end_sample": 22479,
+      "start_ms": 0,
+      "end_ms": 1405
+    },
+    {
+      "lang": "ja",
+      "text": "活発",
+      "start_sample": 22479,
+      "end_sample": 30925,
+      "start_ms": 1405,
+      "end_ms": 1933
+    },
+    {
+      "lang": "en",
+      "text": "around the clover patch this week.",
+      "start_sample": 30925,
+      "end_sample": 58065,
+      "start_ms": 1933,
+      "end_ms": 3629
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The bees have been remarkably kappatsu around the clover patch this week.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3780,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bees have been remarkably",
+          "start_sample": 0,
+          "end_sample": 22679,
+          "start_ms": 0,
+          "end_ms": 1417
+        },
+        {
+          "lang": "ja",
+          "text": "活発",
+          "start_sample": 22679,
+          "end_sample": 33134,
+          "start_ms": 1417,
+          "end_ms": 2071
+        },
+        {
+          "lang": "en",
+          "text": "around the clover patch this week.",
+          "start_sample": 33134,
+          "end_sample": 60474,
+          "start_ms": 2071,
+          "end_ms": 3780
+        }
+      ]
+    },
+    "ja": {
+      "text": "The bees have been remarkably 活発 around the clover patch this week.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4181,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The bees have been remarkably",
+          "start_sample": 0,
+          "end_sample": 27824,
+          "start_ms": 0,
+          "end_ms": 1739
+        },
+        {
+          "lang": "ja",
+          "text": "活発",
+          "start_sample": 27824,
+          "end_sample": 36670,
+          "start_ms": 1739,
+          "end_ms": 2292
+        },
+        {
+          "lang": "en",
+          "text": "around the clover patch this week.",
+          "start_sample": 36670,
+          "end_sample": 66902,
+          "start_ms": 2292,
+          "end_ms": 4181
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 182,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

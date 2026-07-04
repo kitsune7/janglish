@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_001_e5689aea6ff3/cs9486.flac",
+  "sentence": "Can everyone please review the 提案 before we gather on Wednesday morning?",
+  "sample_rate": 16000,
+  "duration_ms": 4002,
+  "reference_speaker": "jp/speaker_001_e5689aea6ff3.mp3",
+  "seed": 9528,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "Can everyone please review the",
+      "start_sample": 0,
+      "end_sample": 28204,
+      "start_ms": 0,
+      "end_ms": 1763
+    },
+    {
+      "lang": "ja",
+      "text": "提案",
+      "start_sample": 28204,
+      "end_sample": 35984,
+      "start_ms": 1763,
+      "end_ms": 2249
+    },
+    {
+      "lang": "en",
+      "text": "before we gather on Wednesday morning?",
+      "start_sample": 35984,
+      "end_sample": 64026,
+      "start_ms": 2249,
+      "end_ms": 4002
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "Can everyone please review the teian before we gather on Wednesday morning?",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3972,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can everyone please review the",
+          "start_sample": 0,
+          "end_sample": 28404,
+          "start_ms": 0,
+          "end_ms": 1775
+        },
+        {
+          "lang": "ja",
+          "text": "提案",
+          "start_sample": 28404,
+          "end_sample": 35304,
+          "start_ms": 1775,
+          "end_ms": 2206
+        },
+        {
+          "lang": "en",
+          "text": "before we gather on Wednesday morning?",
+          "start_sample": 35304,
+          "end_sample": 63546,
+          "start_ms": 2206,
+          "end_ms": 3972
+        }
+      ]
+    },
+    "ja": {
+      "text": "Can everyone please review the 提案 before we gather on Wednesday morning?",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6977,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "Can everyone please review the",
+          "start_sample": 0,
+          "end_sample": 33679,
+          "start_ms": 0,
+          "end_ms": 2105
+        },
+        {
+          "lang": "ja",
+          "text": "提案",
+          "start_sample": 33679,
+          "end_sample": 41859,
+          "start_ms": 2105,
+          "end_ms": 2616
+        },
+        {
+          "lang": "en",
+          "text": "before we gather on Wednesday morning?",
+          "start_sample": 41859,
+          "end_sample": 111625,
+          "start_ms": 2616,
+          "end_ms": 6977
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 201,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

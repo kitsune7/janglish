@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_055_a1e62e8e91e0/cs1701.flac",
+  "sentence": "緊急のbroadcastが流れ、住民に避難を呼びかけていた。",
+  "sample_rate": 16000,
+  "duration_ms": 5121,
+  "reference_speaker": "en/speaker_055_a1e62e8e91e0.mp3",
+  "seed": 1743,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "緊急の",
+      "start_sample": 0,
+      "end_sample": 9101,
+      "start_ms": 0,
+      "end_ms": 569
+    },
+    {
+      "lang": "en",
+      "text": "broadcast",
+      "start_sample": 9101,
+      "end_sample": 24571,
+      "start_ms": 569,
+      "end_ms": 1536
+    },
+    {
+      "lang": "ja",
+      "text": "が流れ、住民に避難を呼びかけていた。",
+      "start_sample": 24571,
+      "end_sample": 81943,
+      "start_ms": 1536,
+      "end_ms": 5121
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kinkyuu no broadcast ga nagare juumin ni hinan wo yobikake te i ta",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8015,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "緊急の",
+          "start_sample": 0,
+          "end_sample": 17153,
+          "start_ms": 0,
+          "end_ms": 1072
+        },
+        {
+          "lang": "en",
+          "text": "broadcast",
+          "start_sample": 17153,
+          "end_sample": 33023,
+          "start_ms": 1072,
+          "end_ms": 2064
+        },
+        {
+          "lang": "ja",
+          "text": "が流れ、住民に避難を呼びかけていた。",
+          "start_sample": 33023,
+          "end_sample": 128246,
+          "start_ms": 2064,
+          "end_ms": 8015
+        }
+      ]
+    },
+    "ja": {
+      "text": "緊急のbroadcastが流れ、住民に避難を呼びかけていた。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 5012,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "緊急の",
+          "start_sample": 0,
+          "end_sample": 9301,
+          "start_ms": 0,
+          "end_ms": 581
+        },
+        {
+          "lang": "en",
+          "text": "broadcast",
+          "start_sample": 9301,
+          "end_sample": 22612,
+          "start_ms": 581,
+          "end_ms": 1413
+        },
+        {
+          "lang": "ja",
+          "text": "が流れ、住民に避難を呼びかけていた。",
+          "start_sample": 22612,
+          "end_sample": 80184,
+          "start_ms": 1413,
+          "end_ms": 5012
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 257,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

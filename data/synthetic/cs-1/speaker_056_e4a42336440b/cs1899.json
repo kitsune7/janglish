@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_056_e4a42336440b/cs1899.flac",
+  "sentence": "The group chat went 大騒ぎ after someone posted the wrong photo.",
+  "sample_rate": 16000,
+  "duration_ms": 5078,
+  "reference_speaker": "jp/speaker_056_e4a42336440b.mp3",
+  "seed": 1941,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The group chat went",
+      "start_sample": 0,
+      "end_sample": 26084,
+      "start_ms": 0,
+      "end_ms": 1630
+    },
+    {
+      "lang": "ja",
+      "text": "大騒ぎ",
+      "start_sample": 26084,
+      "end_sample": 42821,
+      "start_ms": 1630,
+      "end_ms": 2676
+    },
+    {
+      "lang": "en",
+      "text": "after someone posted the wrong photo.",
+      "start_sample": 42821,
+      "end_sample": 81246,
+      "start_ms": 2676,
+      "end_ms": 5078
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The group chat went oosawagi after someone posted the wrong photo.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 5229,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The group chat went",
+          "start_sample": 0,
+          "end_sample": 26284,
+          "start_ms": 0,
+          "end_ms": 1643
+        },
+        {
+          "lang": "ja",
+          "text": "大騒ぎ",
+          "start_sample": 26284,
+          "end_sample": 45036,
+          "start_ms": 1643,
+          "end_ms": 2815
+        },
+        {
+          "lang": "en",
+          "text": "after someone posted the wrong photo.",
+          "start_sample": 45036,
+          "end_sample": 83661,
+          "start_ms": 2815,
+          "end_ms": 5229
+        }
+      ]
+    },
+    "ja": {
+      "text": "The group chat went 大騒ぎ after someone posted the wrong photo.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6646,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The group chat went",
+          "start_sample": 0,
+          "end_sample": 27866,
+          "start_ms": 0,
+          "end_ms": 1742
+        },
+        {
+          "lang": "ja",
+          "text": "大騒ぎ",
+          "start_sample": 27866,
+          "end_sample": 45003,
+          "start_ms": 1742,
+          "end_ms": 2813
+        },
+        {
+          "lang": "en",
+          "text": "after someone posted the wrong photo.",
+          "start_sample": 45003,
+          "end_sample": 106343,
+          "start_ms": 2813,
+          "end_ms": 6646
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 254,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

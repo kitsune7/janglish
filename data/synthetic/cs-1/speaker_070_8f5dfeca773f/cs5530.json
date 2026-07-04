@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_070_8f5dfeca773f/cs5530.flac",
+  "sentence": "We should do a 大掃除 before the guests arrive this weekend.",
+  "sample_rate": 16000,
+  "duration_ms": 3103,
+  "reference_speaker": "jp/speaker_070_8f5dfeca773f.mp3",
+  "seed": 5572,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "We should do a",
+      "start_sample": 0,
+      "end_sample": 10728,
+      "start_ms": 0,
+      "end_ms": 670
+    },
+    {
+      "lang": "ja",
+      "text": "大掃除",
+      "start_sample": 10728,
+      "end_sample": 19154,
+      "start_ms": 670,
+      "end_ms": 1197
+    },
+    {
+      "lang": "en",
+      "text": "before the guests arrive this weekend.",
+      "start_sample": 19154,
+      "end_sample": 49646,
+      "start_ms": 1197,
+      "end_ms": 3103
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "We should do a dai souji before the guests arrive this weekend.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3475,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We should do a",
+          "start_sample": 0,
+          "end_sample": 10928,
+          "start_ms": 0,
+          "end_ms": 683
+        },
+        {
+          "lang": "ja",
+          "text": "大掃除",
+          "start_sample": 10928,
+          "end_sample": 24909,
+          "start_ms": 683,
+          "end_ms": 1557
+        },
+        {
+          "lang": "en",
+          "text": "before the guests arrive this weekend.",
+          "start_sample": 24909,
+          "end_sample": 55601,
+          "start_ms": 1557,
+          "end_ms": 3475
+        }
+      ]
+    },
+    "ja": {
+      "text": "We should do a 大掃除 before the guests arrive this weekend.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3410,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "We should do a",
+          "start_sample": 0,
+          "end_sample": 8986,
+          "start_ms": 0,
+          "end_ms": 562
+        },
+        {
+          "lang": "ja",
+          "text": "大掃除",
+          "start_sample": 8986,
+          "end_sample": 17812,
+          "start_ms": 562,
+          "end_ms": 1113
+        },
+        {
+          "lang": "en",
+          "text": "before the guests arrive this weekend.",
+          "start_sample": 17812,
+          "end_sample": 54559,
+          "start_ms": 1113,
+          "end_ms": 3410
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 156,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

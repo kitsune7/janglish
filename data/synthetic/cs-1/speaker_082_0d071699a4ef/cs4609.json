@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_082_0d071699a4ef/cs4609.flac",
+  "sentence": "The hamster runs on its wheel with such 一生懸命 energy every single night.",
+  "sample_rate": 16000,
+  "duration_ms": 6198,
+  "reference_speaker": "en/speaker_082_0d071699a4ef.mp3",
+  "seed": 4651,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "The hamster runs on its wheel with such",
+      "start_sample": 0,
+      "end_sample": 48271,
+      "start_ms": 0,
+      "end_ms": 3017
+    },
+    {
+      "lang": "ja",
+      "text": "一生懸命",
+      "start_sample": 48271,
+      "end_sample": 67906,
+      "start_ms": 3017,
+      "end_ms": 4244
+    },
+    {
+      "lang": "en",
+      "text": "energy every single night.",
+      "start_sample": 67906,
+      "end_sample": 99161,
+      "start_ms": 4244,
+      "end_ms": 6198
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "The hamster runs on its wheel with such isshou kenmei energy every single night.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6360,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hamster runs on its wheel with such",
+          "start_sample": 0,
+          "end_sample": 48471,
+          "start_ms": 0,
+          "end_ms": 3029
+        },
+        {
+          "lang": "ja",
+          "text": "一生懸命",
+          "start_sample": 48471,
+          "end_sample": 70299,
+          "start_ms": 3029,
+          "end_ms": 4394
+        },
+        {
+          "lang": "en",
+          "text": "energy every single night.",
+          "start_sample": 70299,
+          "end_sample": 101754,
+          "start_ms": 4394,
+          "end_ms": 6360
+        }
+      ]
+    },
+    "ja": {
+      "text": "The hamster runs on its wheel with such 一生懸命 energy every single night.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 6471,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "The hamster runs on its wheel with such",
+          "start_sample": 0,
+          "end_sample": 50647,
+          "start_ms": 0,
+          "end_ms": 3165
+        },
+        {
+          "lang": "ja",
+          "text": "一生懸命",
+          "start_sample": 50647,
+          "end_sample": 70682,
+          "start_ms": 3165,
+          "end_ms": 4418
+        },
+        {
+          "lang": "en",
+          "text": "energy every single night.",
+          "start_sample": 70682,
+          "end_sample": 103538,
+          "start_ms": 4418,
+          "end_ms": 6471
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 310,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

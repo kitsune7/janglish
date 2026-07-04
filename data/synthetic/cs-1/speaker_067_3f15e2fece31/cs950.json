@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_067_3f15e2fece31/cs950.flac",
+  "sentence": "このレストランのportionはかなり大きいと思います。",
+  "sample_rate": 16000,
+  "duration_ms": 3357,
+  "reference_speaker": "en/speaker_067_3f15e2fece31.mp3",
+  "seed": 992,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "このレストランの",
+      "start_sample": 0,
+      "end_sample": 14278,
+      "start_ms": 0,
+      "end_ms": 892
+    },
+    {
+      "lang": "en",
+      "text": "portion",
+      "start_sample": 14278,
+      "end_sample": 26729,
+      "start_ms": 892,
+      "end_ms": 1671
+    },
+    {
+      "lang": "ja",
+      "text": "はかなり大きいと思います。",
+      "start_sample": 26729,
+      "end_sample": 53713,
+      "start_ms": 1671,
+      "end_ms": 3357
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kono resutoran no portion ha kanari ookii to omoi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 4457,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このレストランの",
+          "start_sample": 0,
+          "end_sample": 21202,
+          "start_ms": 0,
+          "end_ms": 1325
+        },
+        {
+          "lang": "en",
+          "text": "portion",
+          "start_sample": 21202,
+          "end_sample": 34053,
+          "start_ms": 1325,
+          "end_ms": 2128
+        },
+        {
+          "lang": "ja",
+          "text": "はかなり大きいと思います。",
+          "start_sample": 34053,
+          "end_sample": 71315,
+          "start_ms": 2128,
+          "end_ms": 4457
+        }
+      ]
+    },
+    "ja": {
+      "text": "このレストランのportionはかなり大きいと思います。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 3076,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "このレストランの",
+          "start_sample": 0,
+          "end_sample": 14478,
+          "start_ms": 0,
+          "end_ms": 905
+        },
+        {
+          "lang": "en",
+          "text": "portion",
+          "start_sample": 14478,
+          "end_sample": 22040,
+          "start_ms": 905,
+          "end_ms": 1378
+        },
+        {
+          "lang": "ja",
+          "text": "はかなり大きいと思います。",
+          "start_sample": 22040,
+          "end_sample": 49224,
+          "start_ms": 1378,
+          "end_ms": 3076
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 168,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

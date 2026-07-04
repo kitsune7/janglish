@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_055_b88f2897e0f4/cs11657.flac",
+  "sentence": "家族の中で私がいちばんsensitiveだと思います。",
+  "sample_rate": 16000,
+  "duration_ms": 3247,
+  "reference_speaker": "jp/speaker_055_b88f2897e0f4.mp3",
+  "seed": 11699,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "ja",
+      "text": "家族の中で私がいちばん",
+      "start_sample": 0,
+      "end_sample": 25579,
+      "start_ms": 0,
+      "end_ms": 1599
+    },
+    {
+      "lang": "en",
+      "text": "sensitive",
+      "start_sample": 25579,
+      "end_sample": 39915,
+      "start_ms": 1599,
+      "end_ms": 2495
+    },
+    {
+      "lang": "ja",
+      "text": "だと思います。",
+      "start_sample": 39915,
+      "end_sample": 51953,
+      "start_ms": 2495,
+      "end_ms": 3247
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "kazoku no naka de watashi ga ichiban sensitive da to omoi masu",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 8089,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "家族の中で私がいちばん",
+          "start_sample": 0,
+          "end_sample": 87938,
+          "start_ms": 0,
+          "end_ms": 5496
+        },
+        {
+          "lang": "en",
+          "text": "sensitive",
+          "start_sample": 87938,
+          "end_sample": 102674,
+          "start_ms": 5496,
+          "end_ms": 6417
+        },
+        {
+          "lang": "ja",
+          "text": "だと思います。",
+          "start_sample": 102674,
+          "end_sample": 129423,
+          "start_ms": 6417,
+          "end_ms": 8089
+        }
+      ]
+    },
+    "ja": {
+      "text": "家族の中で私がいちばんsensitiveだと思います。",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 2940,
+      "spans": [
+        {
+          "lang": "ja",
+          "text": "家族の中で私がいちばん",
+          "start_sample": 0,
+          "end_sample": 25779,
+          "start_ms": 0,
+          "end_ms": 1611
+        },
+        {
+          "lang": "en",
+          "text": "sensitive",
+          "start_sample": 25779,
+          "end_sample": 34802,
+          "start_ms": 1611,
+          "end_ms": 2175
+        },
+        {
+          "lang": "ja",
+          "text": "だと思います。",
+          "start_sample": 34802,
+          "end_sample": 47040,
+          "start_ms": 2175,
+          "end_ms": 2940
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 163,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+}

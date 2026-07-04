@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_092_08c69e35de07/cs9458.flac",
+  "sentence": "She keeps a small 観葉植物 on her desk to make the space feel less sterile.",
+  "sample_rate": 16000,
+  "duration_ms": 6036,
+  "reference_speaker": "jp/speaker_092_08c69e35de07.mp3",
+  "seed": 9500,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "She keeps a small",
+      "start_sample": 0,
+      "end_sample": 16932,
+      "start_ms": 0,
+      "end_ms": 1058
+    },
+    {
+      "lang": "ja",
+      "text": "観葉植物",
+      "start_sample": 16932,
+      "end_sample": 34170,
+      "start_ms": 1058,
+      "end_ms": 2136
+    },
+    {
+      "lang": "en",
+      "text": "on her desk to make the space feel less sterile.",
+      "start_sample": 34170,
+      "end_sample": 96577,
+      "start_ms": 2136,
+      "end_ms": 6036
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "She keeps a small kanyou shokubutsu on her desk to make the space feel less sterile.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 6805,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She keeps a small",
+          "start_sample": 0,
+          "end_sample": 17132,
+          "start_ms": 0,
+          "end_ms": 1071
+        },
+        {
+          "lang": "ja",
+          "text": "観葉植物",
+          "start_sample": 17132,
+          "end_sample": 46275,
+          "start_ms": 1071,
+          "end_ms": 2892
+        },
+        {
+          "lang": "en",
+          "text": "on her desk to make the space feel less sterile.",
+          "start_sample": 46275,
+          "end_sample": 108882,
+          "start_ms": 2892,
+          "end_ms": 6805
+        }
+      ]
+    },
+    "ja": {
+      "text": "She keeps a small 観葉植物 on her desk to make the space feel less sterile.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 7616,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "She keeps a small",
+          "start_sample": 0,
+          "end_sample": 19239,
+          "start_ms": 0,
+          "end_ms": 1202
+        },
+        {
+          "lang": "ja",
+          "text": "観葉植物",
+          "start_sample": 19239,
+          "end_sample": 36877,
+          "start_ms": 1202,
+          "end_ms": 2305
+        },
+        {
+          "lang": "en",
+          "text": "on her desk to make the space feel less sterile.",
+          "start_sample": 36877,
+          "end_sample": 121859,
+          "start_ms": 2305,
+          "end_ms": 7616
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 302,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}

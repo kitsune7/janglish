@@ -1,0 +1,105 @@
+{
+  "audio_path": "synthetic/cs-1/speaker_012_29b1e5a58d16/cs7272.flac",
+  "sentence": "I always review my 明細書 at the end of each billing cycle.",
+  "sample_rate": 16000,
+  "duration_ms": 3459,
+  "reference_speaker": "en/speaker_012_29b1e5a58d16.mp3",
+  "seed": 7314,
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {
+      "lang": "en",
+      "text": "I always review my",
+      "start_sample": 0,
+      "end_sample": 12940,
+      "start_ms": 0,
+      "end_ms": 809
+    },
+    {
+      "lang": "ja",
+      "text": "明細書",
+      "start_sample": 12940,
+      "end_sample": 26695,
+      "start_ms": 809,
+      "end_ms": 1668
+    },
+    {
+      "lang": "en",
+      "text": "at the end of each billing cycle.",
+      "start_sample": 26695,
+      "end_sample": 55343,
+      "start_ms": 1668,
+      "end_ms": 3459
+    }
+  ],
+  "renders": {
+    "en": {
+      "text": "I always review my meisai kaki at the end of each billing cycle.",
+      "tts_language": "en",
+      "alignment": "forced",
+      "duration_ms": 3806,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always review my",
+          "start_sample": 0,
+          "end_sample": 13140,
+          "start_ms": 0,
+          "end_ms": 821
+        },
+        {
+          "lang": "ja",
+          "text": "明細書",
+          "start_sample": 13140,
+          "end_sample": 32052,
+          "start_ms": 821,
+          "end_ms": 2003
+        },
+        {
+          "lang": "en",
+          "text": "at the end of each billing cycle.",
+          "start_sample": 32052,
+          "end_sample": 60900,
+          "start_ms": 2003,
+          "end_ms": 3806
+        }
+      ]
+    },
+    "ja": {
+      "text": "I always review my 明細書 at the end of each billing cycle.",
+      "tts_language": "ja",
+      "alignment": "forced",
+      "duration_ms": 4463,
+      "spans": [
+        {
+          "lang": "en",
+          "text": "I always review my",
+          "start_sample": 0,
+          "end_sample": 20749,
+          "start_ms": 0,
+          "end_ms": 1297
+        },
+        {
+          "lang": "ja",
+          "text": "明細書",
+          "start_sample": 20749,
+          "end_sample": 34904,
+          "start_ms": 1297,
+          "end_ms": 2182
+        },
+        {
+          "lang": "en",
+          "text": "at the end of each billing cycle.",
+          "start_sample": 34904,
+          "end_sample": 71412,
+          "start_ms": 2182,
+          "end_ms": 4463
+        }
+      ]
+    }
+  },
+  "frame_rate_hz": 50,
+  "num_frames": 173,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+}
