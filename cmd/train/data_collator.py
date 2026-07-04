@@ -50,7 +50,9 @@ def _align_labels(labels: np.ndarray, target_length: int) -> np.ndarray:
     if len(labels) == target_length:
         return labels
     if len(labels) == 0 or target_length == 0:
-        return np.empty(target_length, dtype=np.int64)
+        # No aligned labels: return an empty array (never np.empty(target_length),
+        # which is uninitialized memory and would produce garbage one-hot targets).
+        return np.empty(0, dtype=np.int64)
 
     source_positions = (np.arange(target_length) + 0.5) * len(labels) / target_length
     source_indices = np.clip(source_positions.astype(np.int64), 0, len(labels) - 1)

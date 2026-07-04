@@ -1,7 +1,10 @@
 from __future__ import annotations
 
+import faulthandler
 import os
 import random
+import resource
+import sys
 from contextlib import nullcontext
 from dataclasses import asdict, dataclass
 from math import ceil
@@ -15,7 +18,7 @@ from dotenv import load_dotenv
 from model_setup import load_model_and_feature_extractor
 from sklearn.metrics import accuracy_score, f1_score
 from torch.nn import functional
-from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader, Subset
 from transformers import Wav2Vec2FeatureExtractor, get_scheduler
 
 import wandb
@@ -37,12 +40,15 @@ class TrainingConfig:
     lr_scheduler_type: str = "linear"
     logging_steps: int = 5
     evaluation_logging_steps: int = 100
+    quick_eval_steps: int = 100  # run a quick validation check every N optimizer steps (0 disables)
+    quick_eval_examples: int = 200  # size of the fixed validation subset used for quick checks
     run_name: str = "lid-wav2vec2"
     dataloader_num_workers: int = 0
     dataloader_pin_memory: bool = False
 
 
 def main() -> None:
+    faulthandler.enable()  # dump Python tracebacks on hard crashes (SIGSEGV, SIGABRT, SIGBUS)
     config = TrainingConfig()
     seed_everything(config.seed)
     training_data, validation_data, _ = load_datasets(seed=config.seed)
@@ -74,6 +80,7 @@ def main() -> None:
         generator=validation_generator,
         worker_init_fn=seed_worker,
     )
+    quick_validation_loader = build_quick_validation_loader(validation_data, collator, config)
 
     model.to(device)
     optimizer = torch.optim.AdamW(model.parameters(), lr=config.learning_rate)
@@ -93,10 +100,44 @@ def main() -> None:
     )
     configure_wandb_metrics()
     try:
-        train(model, feature_extractor, train_loader, validation_loader, optimizer, lr_scheduler, config, device)
+        train(
+            model,
+            feature_extractor,
+            train_loader,
+            validation_loader,
+            quick_validation_loader,
+            optimizer,
+            lr_scheduler,
+            config,
+            device,
+        )
     finally:
         if wandb.run is not None:
             wandb.finish()
+
+
+def build_quick_validation_loader(
+    validation_data,
+    collator: FrameLabelCollator,
+    config: TrainingConfig,
+) -> DataLoader | None:
+    """A small fixed validation subset for cheap mid-epoch checks.
+
+    The subset is chosen once with a seeded shuffle so quick metrics are comparable
+    across steps and runs. Full validation at epoch end still selects the best model.
+    """
+    if config.quick_eval_steps <= 0 or config.quick_eval_examples <= 0 or len(validation_data) == 0:
+        return None
+    subset_size = min(config.quick_eval_examples, len(validation_data))
+    indices = torch.randperm(len(validation_data), generator=seeded_torch_generator(config.seed))[:subset_size]
+    return DataLoader(
+        Subset(validation_data, indices.tolist()),
+        batch_size=config.eval_batch_size,
+        shuffle=False,
+        collate_fn=collator,
+        num_workers=config.dataloader_num_workers,
+        pin_memory=config.dataloader_pin_memory,
+    )
 
 
 def seed_everything(seed: int) -> None:
@@ -140,6 +181,7 @@ def configure_wandb_metrics() -> None:
     wandb.define_metric("train/epoch")
     wandb.define_metric("train/*", step_metric="train/epoch")
     wandb.define_metric("validation/*", step_metric="epoch")
+    wandb.define_metric("validation_quick/*", step_metric="train/global_step")
     wandb.define_metric("best/*", step_metric="epoch")
     wandb.define_metric("chosen/*", step_metric="epoch")
 
@@ -149,6 +191,7 @@ def train(
     feature_extractor: Wav2Vec2FeatureExtractor,
     train_loader: DataLoader,
     validation_loader: DataLoader,
+    quick_validation_loader: DataLoader | None,
     optimizer: torch.optim.Optimizer,
     lr_scheduler: torch.optim.lr_scheduler.LRScheduler,
     config: TrainingConfig,
@@ -221,6 +264,20 @@ def train(
                 )
                 recent_loss = 0.0
                 recent_batches = 0
+
+            if quick_validation_loader is not None and global_step % config.quick_eval_steps == 0:
+                quick_metrics = evaluate(model, quick_validation_loader, device, logging_steps=0, phase="quick")
+                model.train()
+                wandb.log(
+                    prefix_metrics(quick_metrics, "validation_quick") | {"train/global_step": global_step},
+                    step=global_step,
+                )
+                print(
+                    f"epoch={epoch} step={global_step} quick_validation_loss={quick_metrics['loss']:.4f} "
+                    f"accuracy={quick_metrics['accuracy']:.4f} f1_macro={quick_metrics['f1_macro']:.4f} "
+                    f"{memory_summary(device)}",
+                    flush=True,
+                )
 
         train_loss = epoch_loss / epoch_batches
         print(f"epoch={epoch} starting validation batches={len(validation_loader)}")
@@ -300,6 +357,19 @@ def move_to_device(batch: dict[str, torch.Tensor], device: torch.device) -> dict
     return {key: value.to(device) for key, value in batch.items()}
 
 
+def memory_summary(device: torch.device) -> str:
+    max_rss = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+    max_rss_gib = max_rss / 2**30 if sys.platform == "darwin" else max_rss / 2**20  # macOS reports bytes, Linux KiB
+    parts = [f"max_rss={max_rss_gib:.2f}GiB"]
+    if device.type == "mps":
+        parts.append(f"mps_allocated={torch.mps.current_allocated_memory() / 2**30:.2f}GiB")
+        parts.append(f"mps_driver={torch.mps.driver_allocated_memory() / 2**30:.2f}GiB")
+    elif device.type == "cuda":
+        parts.append(f"cuda_allocated={torch.cuda.memory_allocated() / 2**30:.2f}GiB")
+        parts.append(f"cuda_reserved={torch.cuda.memory_reserved() / 2**30:.2f}GiB")
+    return " ".join(parts)
+
+
 def release_device_cache(device: torch.device) -> None:
     if device.type == "mps":
         torch.mps.empty_cache()
@@ -345,7 +415,7 @@ def evaluate(
 
     for batch_index, batch in enumerate(data_loader, start=1):
         if logging_steps > 0 and (batch_index == 1 or batch_index % logging_steps == 0):
-            print(f"{phase} batch={batch_index}/{len(data_loader)}")
+            print(f"{phase} batch={batch_index}/{len(data_loader)} {memory_summary(device)}", flush=True)
 
         batch = move_to_device(batch, device)
         with autocast_context(device):
