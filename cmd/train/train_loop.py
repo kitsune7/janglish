@@ -1,12 +1,15 @@
 from __future__ import annotations
 
 import faulthandler
+import json
 import os
 import random
 import resource
+import shutil
 import sys
 from contextlib import nullcontext
 from dataclasses import asdict, dataclass
+from datetime import UTC, datetime
 from math import ceil
 from pathlib import Path
 
@@ -42,6 +45,7 @@ class TrainingConfig:
     evaluation_logging_steps: int = 100
     quick_eval_steps: int = 100  # run a quick validation check every N optimizer steps (0 disables)
     quick_eval_examples: int = 200  # size of the fixed validation subset used for quick checks
+    save_best_quick_checkpoints: bool = True
     run_name: str = "lid-wav2vec2"
     dataloader_num_workers: int = 0
     dataloader_pin_memory: bool = False
@@ -204,6 +208,7 @@ def train(
     best_epoch = 0
     best_global_step = 0
     best_train_loss = 0.0
+    best_quick_validation_loss = float("inf")
     global_step = 0
 
     optimizer.zero_grad(set_to_none=True)
@@ -279,6 +284,34 @@ def train(
                     f"{memory_summary(device)}",
                     flush=True,
                 )
+                quick_validation_loss = float(quick_metrics["loss"])
+                if config.save_best_quick_checkpoints and quick_validation_loss < best_quick_validation_loss:
+                    best_quick_validation_loss = quick_validation_loss
+                    save_checkpoint(
+                        model,
+                        feature_extractor,
+                        config.output_dir,
+                        metadata={
+                            "checkpoint_kind": "quick_validation_best",
+                            "epoch": epoch,
+                            "global_step": global_step,
+                            "validation_scope": "quick",
+                            "metrics": checkpoint_metrics(quick_metrics),
+                        },
+                    )
+                    wandb.log(
+                        {
+                            "checkpoint/quick_loss": quick_validation_loss,
+                            "checkpoint/epoch": epoch,
+                            "checkpoint/global_step": global_step,
+                        },
+                        step=global_step,
+                    )
+                    print(
+                        f"saved best quick checkpoint to {config.output_dir} "
+                        f"quick_validation_loss={quick_validation_loss:.4f} step={global_step}",
+                        flush=True,
+                    )
 
         train_loss = epoch_loss / epoch_batches
         print(f"epoch={epoch} starting validation batches={len(validation_loader)}")
@@ -301,6 +334,19 @@ def train(
             best_epoch = epoch
             best_global_step = global_step
             best_train_loss = train_loss
+            save_checkpoint(
+                model,
+                feature_extractor,
+                config.output_dir,
+                metadata={
+                    "checkpoint_kind": "full_validation_best",
+                    "epoch": epoch,
+                    "global_step": global_step,
+                    "train_loss": train_loss,
+                    "validation_scope": "full",
+                    "metrics": checkpoint_metrics(metrics),
+                },
+            )
 
         epoch_log = prefix_metrics(metrics, "validation") | {
             "train/epoch_loss": train_loss,
@@ -328,7 +374,19 @@ def train(
         raise RuntimeError("Training completed without selecting a best model.")
 
     model.load_state_dict(best_model_state)
-    save_final_model(model, feature_extractor, config.output_dir)
+    save_checkpoint(
+        model,
+        feature_extractor,
+        config.output_dir,
+        metadata={
+            "checkpoint_kind": "final_full_validation_best",
+            "epoch": best_epoch,
+            "global_step": best_global_step,
+            "train_loss": best_train_loss,
+            "validation_scope": "full",
+            "metrics": checkpoint_metrics(best_metrics),
+        },
+    )
     wandb.log(
         prefix_metrics(best_metrics, "chosen")
         | {
@@ -492,10 +550,42 @@ def format_per_class_f1(metrics: dict[str, float | list[float]]) -> str:
     return "f1_e=0.0000 f1_j=0.0000"
 
 
-def save_final_model(model: torch.nn.Module, feature_extractor: Wav2Vec2FeatureExtractor, output_dir: Path) -> None:
-    output_dir.mkdir(parents=True, exist_ok=True)
-    model.save_pretrained(output_dir)
-    feature_extractor.save_pretrained(output_dir)
+def checkpoint_metrics(metrics: dict[str, float | list[float]]) -> dict[str, float | list[float]]:
+    return {name: value.copy() if isinstance(value, list) else float(value) for name, value in metrics.items()}
+
+
+def save_checkpoint(
+    model: torch.nn.Module,
+    feature_extractor: Wav2Vec2FeatureExtractor,
+    output_dir: Path,
+    metadata: dict[str, object],
+) -> None:
+    output_dir.parent.mkdir(parents=True, exist_ok=True)
+    temporary_dir = output_dir.with_name(f".{output_dir.name}.tmp")
+    backup_dir = output_dir.with_name(f".{output_dir.name}.previous")
+
+    shutil.rmtree(temporary_dir, ignore_errors=True)
+    shutil.rmtree(backup_dir, ignore_errors=True)
+    temporary_dir.mkdir(parents=True)
+    model.save_pretrained(temporary_dir)
+    feature_extractor.save_pretrained(temporary_dir)
+    write_checkpoint_metadata(temporary_dir, metadata)
+
+    if output_dir.exists():
+        output_dir.rename(backup_dir)
+    temporary_dir.rename(output_dir)
+    shutil.rmtree(backup_dir, ignore_errors=True)
+
+
+def write_checkpoint_metadata(output_dir: Path, metadata: dict[str, object]) -> None:
+    metadata_path = output_dir / "training_checkpoint.json"
+    metadata_with_timestamp = {
+        "saved_at": datetime.now(UTC).isoformat(),
+        **metadata,
+    }
+    with metadata_path.open("w", encoding="utf-8") as file:
+        json.dump(metadata_with_timestamp, file, indent=2, sort_keys=True)
+        file.write("\n")
 
 
 if __name__ == "__main__":
