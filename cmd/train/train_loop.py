@@ -246,6 +246,7 @@ def train(
             optimizer.zero_grad(set_to_none=True)
 
             global_step += 1
+            release_device_cache(device)
             if global_step % config.logging_steps == 0:
                 average_loss = recent_loss / recent_batches
                 epoch_progress = epoch - 1 + batch_index / len(train_loader)
@@ -357,10 +358,34 @@ def move_to_device(batch: dict[str, torch.Tensor], device: torch.device) -> dict
     return {key: value.to(device) for key, value in batch.items()}
 
 
+def phys_footprint_gib() -> float | None:
+    """Current physical footprint (resident + compressed + swapped) on macOS.
+
+    This is the metric jetsam uses to pick OOM-kill victims. ru_maxrss misses
+    compressed pages entirely: the real footprint could grow to over 100GB before the kernel kills the process.
+    """
+    if sys.platform != "darwin":
+        return None
+    import ctypes
+
+    libproc = ctypes.CDLL("/usr/lib/libproc.dylib", use_errno=True)
+    buffer = ctypes.create_string_buffer(1024)
+    rusage_info_v4 = 4
+    if libproc.proc_pid_rusage(os.getpid(), rusage_info_v4, buffer) != 0:
+        return None
+    # rusage_info_v4: ri_uuid[16] then uint64 fields; ri_phys_footprint is the 8th
+    ri_phys_footprint_offset = 16 + 7 * 8
+    footprint = int.from_bytes(buffer.raw[ri_phys_footprint_offset : ri_phys_footprint_offset + 8], sys.byteorder)
+    return footprint / 2**30
+
+
 def memory_summary(device: torch.device) -> str:
     max_rss = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
     max_rss_gib = max_rss / 2**30 if sys.platform == "darwin" else max_rss / 2**20  # macOS reports bytes, Linux KiB
     parts = [f"max_rss={max_rss_gib:.2f}GiB"]
+    footprint = phys_footprint_gib()
+    if footprint is not None:
+        parts.insert(0, f"footprint={footprint:.2f}GiB")
     if device.type == "mps":
         parts.append(f"mps_allocated={torch.mps.current_allocated_memory() / 2**30:.2f}GiB")
         parts.append(f"mps_driver={torch.mps.driver_allocated_memory() / 2**30:.2f}GiB")

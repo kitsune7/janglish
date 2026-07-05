@@ -9,6 +9,12 @@ from transformers import Wav2Vec2FeatureExtractor
 class FrameLabelCollator:
     feature_extractor: Wav2Vec2FeatureExtractor
     num_labels: int = 2
+    # Round padded audio length up to a multiple of this many samples (0.5s at 16kHz).
+    # Batch-longest padding alone yields a unique tensor shape almost every batch, and
+    # the MPS backend caches a compiled graph per shape — unbounded shapes leaked ~100GB
+    # of host memory over 9 hours until jetsam killed the process. Bucketing collapses
+    # thousands of shapes into a few dozen so the graph cache stays bounded.
+    length_bucket_samples: int = 8_000
 
     def __call__(self, batch):
         # batch: list of dicts {"audio": np.ndarray, "labels": np.ndarray}
@@ -23,6 +29,7 @@ class FrameLabelCollator:
             return_tensors="pt",
             return_attention_mask=True,
         )
+        inputs = self._pad_to_length_bucket(inputs)
 
         frame_lengths = [_wav2vec2_frame_count(len(audio)) for audio in audios]
         max_frames = _wav2vec2_frame_count(inputs["input_values"].shape[1])
@@ -36,6 +43,20 @@ class FrameLabelCollator:
                 ).float()
 
         inputs["labels"] = padded_labels
+        return inputs
+
+    def _pad_to_length_bucket(self, inputs):
+        if self.length_bucket_samples <= 0:
+            return inputs
+        current_length = inputs["input_values"].shape[1]
+        bucket = self.length_bucket_samples
+        target_length = ((current_length + bucket - 1) // bucket) * bucket
+        padding = target_length - current_length
+        if padding == 0:
+            return inputs
+        inputs["input_values"] = torch.nn.functional.pad(inputs["input_values"], (0, padding))
+        if "attention_mask" in inputs:
+            inputs["attention_mask"] = torch.nn.functional.pad(inputs["attention_mask"], (0, padding))
         return inputs
 
 
