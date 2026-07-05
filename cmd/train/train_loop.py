@@ -474,10 +474,11 @@ def compute_loss(model: torch.nn.Module, batch: dict[str, torch.Tensor]) -> tupl
 
     mask = labels.sum(-1) > 0
     targets = labels.argmax(-1)
-    if mask.any():
-        loss = functional.cross_entropy(logits[mask], targets[mask])
+    supervised_logits = logits[mask]
+    if supervised_logits.numel() > 0:
+        loss = functional.cross_entropy(supervised_logits, targets[mask])
     else:
-        loss = logits.sum() * 0
+        loss = supervised_logits.sum() * 0
 
     return loss, logits
 
