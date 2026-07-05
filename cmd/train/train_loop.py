@@ -245,8 +245,18 @@ def train(
                 scaler.step(optimizer)
                 scaler.update()
             else:
-                torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
-                optimizer.step()
+                # If any grad is non-finite, clip_grad_norm_ would rescale every
+                # grad to nan and one bad batch would poison the weights for the
+                # rest of the run. Skip the step loudly instead.
+                grad_norm = torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+                if torch.isfinite(grad_norm):
+                    optimizer.step()
+                else:
+                    print(
+                        f"WARNING: non-finite grad norm ({grad_norm.item()}) at "
+                        f"epoch={epoch} batch={batch_index}; skipping optimizer step",
+                        flush=True,
+                    )
             lr_scheduler.step()
             optimizer.zero_grad(set_to_none=True)
 
@@ -455,6 +465,12 @@ def memory_summary(device: torch.device) -> str:
 
 def release_device_cache(device: torch.device) -> None:
     if device.type == "mps":
+        # Drain the command queue before freeing cached blocks. empty_cache()
+        # while backward/optimizer kernels are still in flight races with the
+        # MPS allocator: a freed block can be reused while a pending kernel
+        # still writes to it, corrupting gradients/weights (observed as a
+        # sudden, permanent nan loss at a random step).
+        torch.mps.synchronize()
         torch.mps.empty_cache()
 
 
