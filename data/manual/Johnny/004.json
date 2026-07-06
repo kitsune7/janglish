@@ -1,105 +1,34 @@
 {
-  "audio_path": "manual/Johnny/004.flac",
   "sentence": "The bank clerk was very 丁寧 about explaining the mortgage terms.",
   "sample_rate": 16000,
-  "duration_ms": 4126,
-  "reference_speaker": "en/speaker_055_a1e62e8e91e0.mp3",
-  "seed": 161,
-  "tts_language": "stitched",
-  "alignment": "forced-dual",
+  "duration_ms": 4367,
   "spans": [
     {
       "lang": "en",
       "text": "The bank clerk was very",
-      "start_sample": 0,
-      "end_sample": 19554,
       "start_ms": 0,
-      "end_ms": 1222
+      "end_ms": 1760,
+      "start_sample": 0,
+      "end_sample": 28160
     },
     {
       "lang": "ja",
       "text": "丁寧",
-      "start_sample": 19554,
-      "end_sample": 27506,
-      "start_ms": 1222,
-      "end_ms": 1719
+      "start_ms": 1760,
+      "end_ms": 2080,
+      "start_sample": 28160,
+      "end_sample": 33280
     },
     {
       "lang": "en",
       "text": "about explaining the mortgage terms.",
-      "start_sample": 27506,
-      "end_sample": 66009,
-      "start_ms": 1719,
-      "end_ms": 4126
+      "start_ms": 2080,
+      "end_ms": 4367,
+      "start_sample": 33280,
+      "end_sample": 69875
     }
   ],
-  "renders": {
-    "en": {
-      "text": "The bank clerk was very teinei about explaining the mortgage terms.",
-      "tts_language": "en",
-      "alignment": "forced",
-      "duration_ms": 4477,
-      "spans": [
-        {
-          "lang": "en",
-          "text": "The bank clerk was very",
-          "start_sample": 0,
-          "end_sample": 19754,
-          "start_ms": 0,
-          "end_ms": 1235
-        },
-        {
-          "lang": "ja",
-          "text": "丁寧",
-          "start_sample": 19754,
-          "end_sample": 32923,
-          "start_ms": 1235,
-          "end_ms": 2058
-        },
-        {
-          "lang": "en",
-          "text": "about explaining the mortgage terms.",
-          "start_sample": 32923,
-          "end_sample": 71626,
-          "start_ms": 2058,
-          "end_ms": 4477
-        }
-      ]
-    },
-    "ja": {
-      "text": "The bank clerk was very 丁寧 about explaining the mortgage terms.",
-      "tts_language": "ja",
-      "alignment": "forced",
-      "duration_ms": 4698,
-      "spans": [
-        {
-          "lang": "en",
-          "text": "The bank clerk was very",
-          "start_sample": 0,
-          "end_sample": 27146,
-          "start_ms": 0,
-          "end_ms": 1697
-        },
-        {
-          "lang": "ja",
-          "text": "丁寧",
-          "start_sample": 27146,
-          "end_sample": 35498,
-          "start_ms": 1697,
-          "end_ms": 2219
-        },
-        {
-          "lang": "en",
-          "text": "about explaining the mortgage terms.",
-          "start_sample": 35498,
-          "end_sample": 75170,
-          "start_ms": 2219,
-          "end_ms": 4698
-        }
-      ]
-    }
-  },
   "frame_rate_hz": 50,
-  "num_frames": 207,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 218,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

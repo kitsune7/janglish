@@ -1,105 +1,34 @@
 {
-  "audio_path": "manual/Ryan/002.flac",
   "sentence": "The 罰金 for late payment really adds up over time.",
   "sample_rate": 16000,
-  "duration_ms": 3645,
-  "reference_speaker": "en/speaker_017_11ec372417df.mp3",
-  "seed": 199,
-  "tts_language": "stitched",
-  "alignment": "forced-dual",
+  "duration_ms": 5853,
   "spans": [
     {
       "lang": "en",
       "text": "The",
-      "start_sample": 0,
-      "end_sample": 1728,
       "start_ms": 0,
-      "end_ms": 108
+      "end_ms": 300,
+      "start_sample": 0,
+      "end_sample": 4800
     },
     {
       "lang": "ja",
       "text": "罰金",
-      "start_sample": 1728,
-      "end_sample": 11925,
-      "start_ms": 108,
-      "end_ms": 745
+      "start_ms": 300,
+      "end_ms": 1120,
+      "start_sample": 4800,
+      "end_sample": 17920
     },
     {
       "lang": "en",
       "text": "for late payment really adds up over time.",
-      "start_sample": 11925,
-      "end_sample": 58327,
-      "start_ms": 745,
-      "end_ms": 3645
+      "start_ms": 1120,
+      "end_ms": 5853,
+      "start_sample": 17920,
+      "end_sample": 93654
     }
   ],
-  "renders": {
-    "en": {
-      "text": "The bakkin for late payment really adds up over time.",
-      "tts_language": "en",
-      "alignment": "forced",
-      "duration_ms": 3475,
-      "spans": [
-        {
-          "lang": "en",
-          "text": "The",
-          "start_sample": 0,
-          "end_sample": 1928,
-          "start_ms": 0,
-          "end_ms": 120
-        },
-        {
-          "lang": "ja",
-          "text": "罰金",
-          "start_sample": 1928,
-          "end_sample": 8999,
-          "start_ms": 120,
-          "end_ms": 562
-        },
-        {
-          "lang": "en",
-          "text": "for late payment really adds up over time.",
-          "start_sample": 8999,
-          "end_sample": 55601,
-          "start_ms": 562,
-          "end_ms": 3475
-        }
-      ]
-    },
-    "ja": {
-      "text": "The 罰金 for late payment really adds up over time.",
-      "tts_language": "ja",
-      "alignment": "forced",
-      "duration_ms": 4736,
-      "spans": [
-        {
-          "lang": "en",
-          "text": "The",
-          "start_sample": 0,
-          "end_sample": 5459,
-          "start_ms": 0,
-          "end_ms": 341
-        },
-        {
-          "lang": "ja",
-          "text": "罰金",
-          "start_sample": 5459,
-          "end_sample": 16056,
-          "start_ms": 341,
-          "end_ms": 1004
-        },
-        {
-          "lang": "en",
-          "text": "for late payment really adds up over time.",
-          "start_sample": 16056,
-          "end_sample": 75783,
-          "start_ms": 1004,
-          "end_ms": 4736
-        }
-      ]
-    }
-  },
   "frame_rate_hz": 50,
-  "num_frames": 183,
-  "frame_labels": "eeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 293,
+  "frame_labels": "eeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

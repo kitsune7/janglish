@@ -1,105 +1,34 @@
 {
-  "audio_path": "manual/Johnny/014.flac",
   "sentence": "このshutter speedでは手ぶれが起きやすいです。",
   "sample_rate": 16000,
-  "duration_ms": 4362,
-  "reference_speaker": "en/speaker_037_fbb436f58f44.mp3",
-  "seed": 171,
-  "tts_language": "stitched",
-  "alignment": "forced-dual",
+  "duration_ms": 4555,
   "spans": [
     {
       "lang": "ja",
       "text": "この",
-      "start_sample": 0,
-      "end_sample": 3011,
       "start_ms": 0,
-      "end_ms": 188
+      "end_ms": 400,
+      "start_sample": 0,
+      "end_sample": 6400
     },
     {
       "lang": "en",
       "text": "shutter speed",
-      "start_sample": 3011,
-      "end_sample": 34669,
-      "start_ms": 188,
-      "end_ms": 2167
+      "start_ms": 400,
+      "end_ms": 1460,
+      "start_sample": 6400,
+      "end_sample": 23360
     },
     {
       "lang": "ja",
       "text": "では手ぶれが起きやすいです。",
-      "start_sample": 34669,
-      "end_sample": 69798,
-      "start_ms": 2167,
-      "end_ms": 4362
+      "start_ms": 1460,
+      "end_ms": 4555,
+      "start_sample": 23360,
+      "end_sample": 72885
     }
   ],
-  "renders": {
-    "en": {
-      "text": "kono shutter speed de ha tebure ga oki yasui desu",
-      "tts_language": "en",
-      "alignment": "forced",
-      "duration_ms": 6351,
-      "spans": [
-        {
-          "lang": "ja",
-          "text": "この",
-          "start_sample": 0,
-          "end_sample": 7052,
-          "start_ms": 0,
-          "end_ms": 441
-        },
-        {
-          "lang": "en",
-          "text": "shutter speed",
-          "start_sample": 7052,
-          "end_sample": 39110,
-          "start_ms": 441,
-          "end_ms": 2444
-        },
-        {
-          "lang": "ja",
-          "text": "では手ぶれが起きやすいです。",
-          "start_sample": 39110,
-          "end_sample": 101623,
-          "start_ms": 2444,
-          "end_ms": 6351
-        }
-      ]
-    },
-    "ja": {
-      "text": "このshutter speedでは手ぶれが起きやすいです。",
-      "tts_language": "ja",
-      "alignment": "forced",
-      "duration_ms": 3433,
-      "spans": [
-        {
-          "lang": "ja",
-          "text": "この",
-          "start_sample": 0,
-          "end_sample": 3211,
-          "start_ms": 0,
-          "end_ms": 201
-        },
-        {
-          "lang": "en",
-          "text": "shutter speed",
-          "start_sample": 3211,
-          "end_sample": 19592,
-          "start_ms": 201,
-          "end_ms": 1224
-        },
-        {
-          "lang": "ja",
-          "text": "では手ぶれが起きやすいです。",
-          "start_sample": 19592,
-          "end_sample": 54921,
-          "start_ms": 1224,
-          "end_ms": 3433
-        }
-      ]
-    }
-  },
   "frame_rate_hz": 50,
-  "num_frames": 219,
-  "frame_labels": "jjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 228,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }

@@ -1,105 +1,34 @@
 {
-  "audio_path": "manual/Johnny/003.flac",
   "sentence": "He put all his extra 資金 into a low-risk bond.",
   "sample_rate": 16000,
-  "duration_ms": 2926,
-  "reference_speaker": "en/speaker_017_11ec372417df.mp3",
-  "seed": 160,
-  "tts_language": "stitched",
-  "alignment": "forced-dual",
+  "duration_ms": 4354,
   "spans": [
     {
       "lang": "en",
       "text": "He put all his extra",
-      "start_sample": 0,
-      "end_sample": 18301,
       "start_ms": 0,
-      "end_ms": 1144
+      "end_ms": 2320,
+      "start_sample": 0,
+      "end_sample": 37120
     },
     {
       "lang": "ja",
       "text": "資金",
-      "start_sample": 18301,
-      "end_sample": 24821,
-      "start_ms": 1144,
-      "end_ms": 1551
+      "start_ms": 2320,
+      "end_ms": 2780,
+      "start_sample": 37120,
+      "end_sample": 44480
     },
     {
       "lang": "en",
       "text": "into a low-risk bond.",
-      "start_sample": 24821,
-      "end_sample": 46818,
-      "start_ms": 1551,
-      "end_ms": 2926
+      "start_ms": 2780,
+      "end_ms": 4354,
+      "start_sample": 44480,
+      "end_sample": 69660
     }
   ],
-  "renders": {
-    "en": {
-      "text": "He put all his extra shikin into a low-risk bond.",
-      "tts_language": "en",
-      "alignment": "forced",
-      "duration_ms": 3036,
-      "spans": [
-        {
-          "lang": "en",
-          "text": "He put all his extra",
-          "start_sample": 0,
-          "end_sample": 18501,
-          "start_ms": 0,
-          "end_ms": 1156
-        },
-        {
-          "lang": "ja",
-          "text": "資金",
-          "start_sample": 18501,
-          "end_sample": 26384,
-          "start_ms": 1156,
-          "end_ms": 1649
-        },
-        {
-          "lang": "en",
-          "text": "into a low-risk bond.",
-          "start_sample": 26384,
-          "end_sample": 48581,
-          "start_ms": 1649,
-          "end_ms": 3036
-        }
-      ]
-    },
-    "ja": {
-      "text": "He put all his extra 資金 into a low-risk bond.",
-      "tts_language": "ja",
-      "alignment": "forced",
-      "duration_ms": 3298,
-      "spans": [
-        {
-          "lang": "en",
-          "text": "He put all his extra",
-          "start_sample": 0,
-          "end_sample": 24619,
-          "start_ms": 0,
-          "end_ms": 1539
-        },
-        {
-          "lang": "ja",
-          "text": "資金",
-          "start_sample": 24619,
-          "end_sample": 31539,
-          "start_ms": 1539,
-          "end_ms": 1971
-        },
-        {
-          "lang": "en",
-          "text": "into a low-risk bond.",
-          "start_sample": 31539,
-          "end_sample": 52774,
-          "start_ms": 1971,
-          "end_ms": 3298
-        }
-      ]
-    }
-  },
   "frame_rate_hz": 50,
-  "num_frames": 147,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 218,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

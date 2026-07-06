@@ -1,105 +1,34 @@
 {
-  "audio_path": "manual/Johnny/005.flac",
   "sentence": "I finally opened a 定期預金 account after months of hesitation.",
   "sample_rate": 16000,
-  "duration_ms": 5701,
-  "reference_speaker": "jp/speaker_046_38f0b7b27586.mp3",
-  "seed": 162,
-  "tts_language": "stitched",
-  "alignment": "forced-dual",
+  "duration_ms": 4717,
   "spans": [
     {
       "lang": "en",
       "text": "I finally opened a",
-      "start_sample": 0,
-      "end_sample": 18107,
       "start_ms": 0,
-      "end_ms": 1132
+      "end_ms": 2220,
+      "start_sample": 0,
+      "end_sample": 35520
     },
     {
       "lang": "ja",
       "text": "定期預金",
-      "start_sample": 18107,
-      "end_sample": 32637,
-      "start_ms": 1132,
-      "end_ms": 2040
+      "start_ms": 2220,
+      "end_ms": 3040,
+      "start_sample": 35520,
+      "end_sample": 48640
     },
     {
       "lang": "en",
       "text": "account after months of hesitation.",
-      "start_sample": 32637,
-      "end_sample": 91223,
-      "start_ms": 2040,
-      "end_ms": 5701
+      "start_ms": 3040,
+      "end_ms": 4717,
+      "start_sample": 48640,
+      "end_sample": 75465
     }
   ],
-  "renders": {
-    "en": {
-      "text": "I finally opened a teiki yokin account after months of hesitation.",
-      "tts_language": "en",
-      "alignment": "forced",
-      "duration_ms": 5581,
-      "spans": [
-        {
-          "lang": "en",
-          "text": "I finally opened a",
-          "start_sample": 0,
-          "end_sample": 18307,
-          "start_ms": 0,
-          "end_ms": 1144
-        },
-        {
-          "lang": "ja",
-          "text": "定期預金",
-          "start_sample": 18307,
-          "end_sample": 30515,
-          "start_ms": 1144,
-          "end_ms": 1907
-        },
-        {
-          "lang": "en",
-          "text": "account after months of hesitation.",
-          "start_sample": 30515,
-          "end_sample": 89301,
-          "start_ms": 1907,
-          "end_ms": 5581
-        }
-      ]
-    },
-    "ja": {
-      "text": "I finally opened a 定期預金 account after months of hesitation.",
-      "tts_language": "ja",
-      "alignment": "forced",
-      "duration_ms": 5077,
-      "spans": [
-        {
-          "lang": "en",
-          "text": "I finally opened a",
-          "start_sample": 0,
-          "end_sample": 27931,
-          "start_ms": 0,
-          "end_ms": 1746
-        },
-        {
-          "lang": "ja",
-          "text": "定期預金",
-          "start_sample": 27931,
-          "end_sample": 42861,
-          "start_ms": 1746,
-          "end_ms": 2679
-        },
-        {
-          "lang": "en",
-          "text": "account after months of hesitation.",
-          "start_sample": 42861,
-          "end_sample": 81225,
-          "start_ms": 2679,
-          "end_ms": 5077
-        }
-      ]
-    }
-  },
   "frame_rate_hz": 50,
-  "num_frames": 286,
-  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  "num_frames": 236,
+  "frame_labels": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 }

@@ -1,105 +1,34 @@
 {
-  "audio_path": "manual/Sakamoto/008.flac",
   "sentence": "ピントをmanualで合わせるのは難しいです。",
   "sample_rate": 16000,
-  "duration_ms": 2596,
-  "reference_speaker": "en/speaker_057_93a5d68bb49a.mp3",
-  "seed": 185,
-  "tts_language": "stitched",
-  "alignment": "forced-dual",
+  "duration_ms": 4424,
   "spans": [
     {
       "lang": "ja",
       "text": "ピントを",
-      "start_sample": 0,
-      "end_sample": 8333,
       "start_ms": 0,
-      "end_ms": 521
+      "end_ms": 1620,
+      "start_sample": 0,
+      "end_sample": 25920
     },
     {
       "lang": "en",
       "text": "manual",
-      "start_sample": 8333,
-      "end_sample": 14840,
-      "start_ms": 521,
-      "end_ms": 928
+      "start_ms": 1620,
+      "end_ms": 1960,
+      "start_sample": 25920,
+      "end_sample": 31360
     },
     {
       "lang": "ja",
       "text": "で合わせるのは難しいです。",
-      "start_sample": 14840,
-      "end_sample": 41541,
-      "start_ms": 928,
-      "end_ms": 2596
+      "start_ms": 1960,
+      "end_ms": 4424,
+      "start_sample": 31360,
+      "end_sample": 70778
     }
   ],
-  "renders": {
-    "en": {
-      "text": "pinto wo manual de awaseru no ha muzukashii desu",
-      "tts_language": "en",
-      "alignment": "forced",
-      "duration_ms": 4357,
-      "spans": [
-        {
-          "lang": "ja",
-          "text": "ピントを",
-          "start_sample": 0,
-          "end_sample": 9476,
-          "start_ms": 0,
-          "end_ms": 592
-        },
-        {
-          "lang": "en",
-          "text": "manual",
-          "start_sample": 9476,
-          "end_sample": 16383,
-          "start_ms": 592,
-          "end_ms": 1024
-        },
-        {
-          "lang": "ja",
-          "text": "で合わせるのは難しいです。",
-          "start_sample": 16383,
-          "end_sample": 69708,
-          "start_ms": 1024,
-          "end_ms": 4357
-        }
-      ]
-    },
-    "ja": {
-      "text": "ピントをmanualで合わせるのは難しいです。",
-      "tts_language": "ja",
-      "alignment": "forced",
-      "duration_ms": 2658,
-      "spans": [
-        {
-          "lang": "ja",
-          "text": "ピントを",
-          "start_sample": 0,
-          "end_sample": 8533,
-          "start_ms": 0,
-          "end_ms": 533
-        },
-        {
-          "lang": "en",
-          "text": "manual",
-          "start_sample": 8533,
-          "end_sample": 15622,
-          "start_ms": 533,
-          "end_ms": 976
-        },
-        {
-          "lang": "ja",
-          "text": "で合わせるのは難しいです。",
-          "start_sample": 15622,
-          "end_sample": 42523,
-          "start_ms": 976,
-          "end_ms": 2658
-        }
-      ]
-    }
-  },
   "frame_rate_hz": 50,
-  "num_frames": 130,
-  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+  "num_frames": 221,
+  "frame_labels": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjeeeeeeeeeeeeeeeeejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
 }
