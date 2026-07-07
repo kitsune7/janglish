@@ -264,6 +264,7 @@ def island_detail(direction: str, cs_level: int) -> str:
         f"count as ONE island, not two — keep them apart."
     )
 
+
 LINE_RE = re.compile(r"^(.+?)\|(.+)$")
 
 
@@ -412,11 +413,58 @@ def has_hiragana(s: str) -> bool:
 
 # English function words: their presence signals English grammatical scaffolding.
 _EN_FUNCTION_WORDS = {
-    "the", "a", "an", "is", "are", "was", "were", "be", "been", "to", "of", "in",
-    "on", "at", "and", "or", "but", "for", "with", "my", "your", "his", "her",
-    "their", "our", "this", "that", "these", "those", "i", "you", "he", "she",
-    "we", "they", "it", "do", "did", "does", "have", "has", "had", "will",
-    "would", "can", "could", "should", "from", "as", "so", "if", "when",
+    "the",
+    "a",
+    "an",
+    "is",
+    "are",
+    "was",
+    "were",
+    "be",
+    "been",
+    "to",
+    "of",
+    "in",
+    "on",
+    "at",
+    "and",
+    "or",
+    "but",
+    "for",
+    "with",
+    "my",
+    "your",
+    "his",
+    "her",
+    "their",
+    "our",
+    "this",
+    "that",
+    "these",
+    "those",
+    "i",
+    "you",
+    "he",
+    "she",
+    "we",
+    "they",
+    "it",
+    "do",
+    "did",
+    "does",
+    "have",
+    "has",
+    "had",
+    "will",
+    "would",
+    "can",
+    "could",
+    "should",
+    "from",
+    "as",
+    "so",
+    "if",
+    "when",
 }
 
 

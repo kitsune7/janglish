@@ -123,11 +123,7 @@ def resolve_audio_paths(audio_path: Path) -> list[Path]:
         return [resolved_path]
     if not resolved_path.is_dir():
         return []
-    return sorted(
-        path
-        for path in resolved_path.iterdir()
-        if path.is_file() and path.suffix.lower() in AUDIO_SUFFIXES
-    )
+    return sorted(path for path in resolved_path.iterdir() if path.is_file() and path.suffix.lower() in AUDIO_SUFFIXES)
 
 
 def resolve_device(device: str) -> torch.device:

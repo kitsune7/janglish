@@ -58,7 +58,9 @@ def main() -> int:
     )
 
     if args.baseline_only:
-        results = [evaluate(sentence, transcribe(model, sentence.audio_path, args.beam_size)) for sentence in sentence_data]
+        results = [
+            evaluate(sentence, transcribe(model, sentence.audio_path, args.beam_size)) for sentence in sentence_data
+        ]
         print_results(results)
         return 0
 
@@ -232,8 +234,12 @@ def coalesce_segments(segments: list, min_seconds: float) -> list:
 
         before = merged[index - 1] if index > 0 else None
         after = merged[index + 1] if index + 1 < len(merged) else None
-        neighbor = before if after is None else after if before is None else (
-            before if duration(before) >= duration(after) else after
+        neighbor = (
+            before
+            if after is None
+            else after
+            if before is None
+            else (before if duration(before) >= duration(after) else after)
         )
         merged[index] = lid.Segment(
             label=neighbor.label,
