@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Janglish: How It Works</title>
+<style>
+:root {
+  --bg: #fdfcf9;
+  --ink: #24292e;
+  --muted: #6a737d;
+  --accent: #0b5fa5;
+  --accent-soft: #e8f1f8;
+  --ja: #c2452d;
+  --ja-soft: #fbe9e4;
+  --en: #0b5fa5;
+  --en-soft: #e2eefa;
+  --amb: #b58a00;
+  --good: #1a7f37;
+  --good-soft: #e6f4ea;
+  --bad: #c62828;
+  --bad-soft: #fdecea;
+  --card: #ffffff;
+  --border: #e1e4e8;
+  --code-bg: #f4f2ec;
+  --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Hiragino Sans", "Noto Sans JP", sans-serif;
+}
+main { max-width: 46rem; margin: 0 auto; padding: 1.5rem 1.25rem 6rem; }
+h1 { font-size: 2.1rem; line-height: 1.2; margin: 1.5rem 0 0.5rem; letter-spacing: -0.01em; }
+h2 {
+  font-size: 1.55rem; line-height: 1.25; margin: 3.5rem 0 1rem;
+  padding-top: 1.2rem; border-top: 3px solid var(--ink); letter-spacing: -0.01em;
+}
+h2 .secnum { color: var(--muted); font-weight: 600; margin-right: 0.5rem; }
+h3 { font-size: 1.15rem; margin: 2rem 0 0.6rem; }
+p { margin: 0 0 1rem; }
+a { color: var(--accent); }
+.subtitle { color: var(--muted); font-size: 1.1rem; margin-bottom: 2rem; }
+code {
+  font-family: var(--mono); font-size: 0.85em;
+  background: var(--code-bg); padding: 0.1em 0.35em; border-radius: 4px;
+}
+pre {
+  font-family: var(--mono); font-size: 0.8rem; line-height: 1.55;
+  background: var(--code-bg); border: 1px solid var(--border); border-radius: 8px;
+  padding: 0.9rem 1.1rem; overflow-x: auto;
+  white-space: pre;
+  margin: 0 0 1.2rem;
+}
+pre code { background: none; padding: 0; font-size: inherit; }
+
+/* ---- table of contents ---- */
+nav.toc {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 1.1rem 1.4rem; margin: 1.5rem 0 2.5rem;
+}
+nav.toc .toc-title { font-weight: 700; margin-bottom: 0.5rem; }
+nav.toc ol { margin: 0; padding-left: 1.3rem; }
+nav.toc li { margin: 0.3rem 0; }
+nav.toc a { text-decoration: none; }
+nav.toc a:hover { text-decoration: underline; }
+
+/* ---- callouts ---- */
+.callout {
+  border-left: 4px solid var(--accent); background: var(--accent-soft);
+  border-radius: 0 8px 8px 0; padding: 0.8rem 1.1rem; margin: 0 0 1.2rem;
+}
+.callout.warn { border-color: var(--amb); background: #fdf6e3; }
+.callout.def { border-color: var(--good); background: var(--good-soft); }
+.callout .label {
+  display: block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--muted); margin-bottom: 0.25rem;
+}
+.callout p:last-child { margin-bottom: 0; }
+
+/* ---- tables ---- */
+table { border-collapse: collapse; width: 100%; margin: 0 0 1.2rem; font-size: 0.92rem; }
+th, td { border: 1px solid var(--border); padding: 0.45rem 0.7rem; text-align: left; }
+th { background: var(--code-bg); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+/* ---- generic diagram bits ---- */
+.diagram {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 1.2rem; margin: 0 0 1.2rem; overflow-x: auto;
+}
+.diagram .caption {
+  font-size: 0.82rem; color: var(--muted); margin-top: 0.8rem; text-align: center;
+}
+.flow { display: flex; flex-direction: column; align-items: center; gap: 0; }
+.fbox {
+  border: 1.5px solid var(--ink); border-radius: 8px; background: var(--bg);
+  padding: 0.5rem 1rem; text-align: center; min-width: 15rem; max-width: 100%;
+}
+.fbox .t { font-weight: 700; font-size: 0.95rem; }
+.fbox .d { font-size: 0.8rem; color: var(--muted); }
+.fbox.hl { border-color: var(--accent); background: var(--en-soft); }
+.arrow { font-size: 1.2rem; color: var(--muted); line-height: 1.4; text-align: center; }
+.arrow .lbl { font-size: 0.75rem; display: block; margin-top: -0.3rem; }
+.hflow { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 0.4rem; }
+.hflow .fbox { min-width: 0; }
+.hflow .harrow { color: var(--muted); font-size: 1.1rem; }
+
+/* ---- language span bars ---- */
+.spanbar { display: flex; width: 100%; height: 2.4rem; border-radius: 6px; overflow: hidden; border: 1px solid var(--border); }
+.spanbar .seg {
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.72rem; font-weight: 600; color: #fff; overflow: hidden; white-space: nowrap;
+}
+.seg.ja { background: var(--ja); }
+.seg.en { background: var(--en); }
+.barscale { display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--muted); margin-top: 0.25rem; font-variant-numeric: tabular-nums; }
+.legend { display: flex; gap: 1.2rem; font-size: 0.8rem; margin-top: 0.6rem; justify-content: center; flex-wrap: wrap; }
+.legend .key { display: inline-block; width: 0.85rem; height: 0.85rem; border-radius: 3px; vertical-align: -0.1em; margin-right: 0.35rem; }
+
+/* ---- sentence with colored spans ---- */
+.mixed { font-size: 1.15rem; line-height: 2; text-align: center; margin: 0.4rem 0 0.8rem; }
+.mixed .ja-t { background: var(--ja-soft); border-bottom: 2px solid var(--ja); padding: 0.05em 0.1em; border-radius: 3px; }
+.mixed .en-t { background: var(--en-soft); border-bottom: 2px solid var(--en); padding: 0.05em 0.1em; border-radius: 3px; }
+
+/* ---- quiz ---- */
+.quiz {
+  background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+  padding: 1.3rem 1.4rem; margin: 2.2rem 0 0.5rem;
+}
+.quiz > h3 { margin: 0 0 0.3rem; font-size: 1.05rem; }
+.quiz > .quiz-sub { font-size: 0.85rem; color: var(--muted); margin-bottom: 1.1rem; }
+.q { border-top: 1px solid var(--border); padding: 1rem 0 0.4rem; }
+.q p.qt { font-weight: 600; margin-bottom: 0.6rem; }
+.q .qnum { color: var(--accent); margin-right: 0.4rem; }
+.opts { display: flex; flex-direction: column; gap: 0.45rem; margin-bottom: 0.6rem; }
+.opts button {
+  font: inherit; font-size: 0.92rem; text-align: left; cursor: pointer;
+  background: var(--bg); color: var(--ink);
+  border: 1px solid var(--border); border-radius: 8px; padding: 0.5rem 0.8rem;
+  transition: background 0.15s, border-color 0.15s;
+}
+.opts button:hover:not(:disabled) { border-color: var(--accent); background: var(--accent-soft); }
+.opts button:disabled { cursor: default; opacity: 0.85; }
+.opts button.right { border-color: var(--good); background: var(--good-soft); opacity: 1; }
+.opts button.wrong { border-color: var(--bad); background: var(--bad-soft); opacity: 1; }
+.fb { font-size: 0.9rem; border-radius: 8px; padding: 0.6rem 0.9rem; margin-bottom: 0.6rem; }
+.fb.good { background: var(--good-soft); border: 1px solid var(--good); }
+.fb.bad { background: var(--bad-soft); border: 1px solid var(--bad); }
+.fb b { display: block; margin-bottom: 0.15rem; }
+
+/* ---- misc ---- */
+.filepath { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); }
+.smallnote { font-size: 0.85rem; color: var(--muted); }
+hr.sep { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+@media (max-width: 600px) {
+  body { font-size: 15.5px; }
+  main { padding: 1rem 0.9rem 4rem; }
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.3rem; }
+  .fbox { min-width: 0; width: 100%; }
+  .mixed { font-size: 1rem; }
+  pre { font-size: 0.72rem; }
+}
+</style>
+</head>
+<body>
+<main>
+
+<h1>Janglish: How It Works</h1>
+<p class="subtitle">A guided tour of a system that teaches machines to follow a conversation as it hops between Japanese and English — mid-sentence.</p>
+
+<nav class="toc">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#big-picture">The Big Picture</a> — why Whisper fails, and the plan to fix it</li>
+    <li><a href="#sentences">Manufacturing Sentences</a> — an LLM writes 14,000 code-switched sentences</li>
+    <li><a href="#audio">From Text to Labeled Audio</a> — voice cloning, forced alignment, and free labels</li>
+    <li><a href="#humans">Real Human Voices</a> — a mic CLI, a contributor website, and signed links</li>
+    <li><a href="#training">Training the Frame Classifier</a> — wav2vec2, honest splits, and hard-won stability</li>
+    <li><a href="#payoff">The Payoff</a> — LID-guided Whisper and the splice strategy</li>
+  </ol>
+</nav>
+
+<!-- ================================================================ -->
+<h2 id="big-picture"><span class="secnum">1</span>The Big Picture</h2>
+
+<p>People who live between two languages rarely speak just one of them. A bilingual Japanese-English speaker will happily say:</p>
+
+<p class="mixed"><span class="ja-t">娘はとても</span><span class="en-t">independent</span><span class="ja-t">で、いつも自分で</span><span class="en-t">choice</span><span class="ja-t">をしたがります。</span></p>
+
+<p>Linguists call this <em>code-switching</em>; this project calls it <em>Janglish</em>. And it breaks speech recognition. Whisper — the workhorse open transcription model — decodes each pass under a single language assumption. Run it in Japanese mode over the sentence above and the word <i>independent</i> comes back as katakana soup (「インディペンデント」-ish, if you're lucky). Run it in English mode and the Japanese comes back as mangled romaji or hallucinated English. Whisper isn't wrong about the sounds; it's wrong about which language's spelling system to write them in — and it has no way to change its mind halfway through a clip.</p>
+
+<p>The insight behind this repository is that you don't need to retrain Whisper. You need a small, fast <strong>referee</strong> that watches the audio and says, every 20&nbsp;milliseconds, "this instant is Japanese" or "this instant is English." With that timeline in hand, you can run Whisper in the right language over the right stretches and stitch the results together.</p>
+
+<div class="callout def">
+<span class="label">Key concept — frame-level LID</span>
+<p><strong>Language identification (LID)</strong> usually means labeling a whole clip ("this recording is French"). This project does something finer: <strong>frame classification</strong>. The model emits one EN/JA decision per <em>frame</em> — a 20&nbsp;ms slice of audio (320 samples at 16&nbsp;kHz, i.e. 50 frames per second). A five-second clip becomes a string of ~250 tiny language decisions, which trace exactly where the speaker switched.</p>
+</div>
+
+<p>That referee is a fine-tuned <code>wav2vec2-xls-r-300m</code> with a frame-classification head, and the best checkpoint in <span class="filepath">models/lid-wav2vec2-f1-98</span> reaches <strong>97.7% frame accuracy and 0.976 macro F1</strong> on held-out speakers. But the model is arguably the least interesting part. The interesting part is where its training data comes from — because nobody has a corpus of Japanese-English code-switched speech with per-20ms language labels, and no human wants to produce one by hand.</p>
+
+<h3>The pipeline at a glance</h3>
+
+<div class="diagram">
+  <div class="flow">
+    <div class="fbox"><div class="t">1 · Sentence factory</div><div class="d">cmd/gen_mixed — Claude on Bedrock writes 14k+ code-switched sentences, validators reject the junk</div></div>
+    <div class="arrow">↓<span class="lbl">cs-multi.csv → data-pairs.csv</span></div>
+    <div class="fbox"><div class="t">2 · Audio factory</div><div class="d">cmd/audio_gen — XTTS v2 voice cloning + forced alignment ⇒ audio with frame labels for free</div></div>
+    <div class="arrow">↓<span class="lbl">.flac + .json sidecars</span></div>
+    <div class="fbox"><div class="t">3 · Human recordings</div><div class="d">cmd/record (local mic + VAD) and web/ + worker/ + cmd/contrib (remote contributors)</div></div>
+    <div class="arrow">↓<span class="lbl">31,634 labeled clips</span></div>
+    <div class="fbox hl"><div class="t">4 · Train the referee</div><div class="d">cmd/train — wav2vec2 frame classifier, speaker-disjoint splits</div></div>
+    <div class="arrow">↓<span class="lbl">models/lid-wav2vec2-*</span></div>
+    <div class="fbox"><div class="t">5 · Guide Whisper</div><div class="d">cmd/eval — LID segments route Whisper passes; splice strategy assembles the transcript</div></div>
+  </div>
+  <div class="caption">The five stages. Everything upstream of stage 4 exists to manufacture training data; everything downstream proves it was worth it.</div>
+</div>
+
+<h3>What's actually in the dataset</h3>
+
+<p>The manifest is a single pipe-delimited file, <span class="filepath">data/data-pairs.csv</span>, mapping each audio path to its sentence. It currently holds 31,634 rows across seven subsets:</p>
+
+<table>
+<tr><th>Subset</th><th>What it is</th><th class="num">Clips</th></tr>
+<tr><td><code>synthetic/en</code></td><td>Pure English TTS</td><td class="num">2,515</td></tr>
+<tr><td><code>synthetic/jp</code></td><td>Pure Japanese TTS</td><td class="num">2,515</td></tr>
+<tr><td><code>synthetic/cs-1</code></td><td>One code-switch per sentence</td><td class="num">11,783</td></tr>
+<tr><td><code>synthetic/cs-2</code></td><td>Two switch islands</td><td class="num">8,821</td></tr>
+<tr><td><code>synthetic/cs-3</code></td><td>Three switch islands</td><td class="num">4,777</td></tr>
+<tr><td><code>synthetic/cs-4</code></td><td>Four or more islands</td><td class="num">1,148</td></tr>
+<tr><td><code>manual/*</code></td><td>Real human recordings (Chris, Johnny, Ryan, Sakamoto…)</td><td class="num">75</td></tr>
+</table>
+
+<p>Notice the shape of that table: the overwhelming majority is synthetic. That is a deliberate bet. Synthetic audio comes with <em>perfect, free frame labels</em> (section 3 explains how), so it does the heavy lifting of teaching the model what a language switch sounds like. The small pool of human recordings keeps the whole thing honest — real microphones, real accents, real disfluency.</p>
+
+<h3>A map of the repository</h3>
+
+<table>
+<tr><th>Path</th><th>Language</th><th>Role</th></tr>
+<tr><td><code>cmd/gen_mixed/</code></td><td>Python</td><td>Generate + validate code-switched sentences; splice them into the manifest</td></tr>
+<tr><td><code>cmd/audio_gen/</code></td><td>Python</td><td>XTTS v2 synthesis, forced alignment, frame-label sidecars</td></tr>
+<tr><td><code>cmd/record/</code></td><td>Go</td><td>Local mic capture with an energy VAD → FLAC</td></tr>
+<tr><td><code>cmd/contrib/</code> + <code>web/</code> + <code>worker/</code></td><td>Go / JS / TS</td><td>Remote contributor recording system (signed links, R2, Cloudflare Worker)</td></tr>
+<tr><td><code>cmd/train/</code></td><td>Python</td><td>Dataset, collator, model, training loop, inference</td></tr>
+<tr><td><code>cmd/eval/</code></td><td>Python</td><td>LID-guided Whisper pipeline + WER/CER scoring</td></tr>
+<tr><td><code>internal/audio</code>, <code>internal/token</code></td><td>Go</td><td>Shared VAD and HMAC token primitives</td></tr>
+</table>
+
+<p>Everything is orchestrated from a <code>justfile</code>: <code>just train</code>, <code>just predict</code>, <code>just eval</code>, <code>just record</code>, <code>just pull-recordings</code>, and so on. With the map in hand, let's walk the pipeline in order — starting with where the sentences come from.</p>
+
+<div class="quiz">
+<h3>Check your understanding</h3>
+<p class="quiz-sub">Five questions on the big picture. Click an answer to see whether you're right.</p>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q1.</span> What exactly does the trained LID model output for a 5-second audio clip?</p>
+<div class="opts">
+<button data-fb="Whole-clip labels are classic LID, but useless for code-switching: the model must say where the language changes, not just that two languages appear.">A single label saying which language dominates the clip</button>
+<button data-ok data-fb="The model is a frame classifier: 50 decisions per second, each covering 20 ms of audio. A 5-second clip yields ~250 EN/JA labels that trace the switch points.">One EN/JA decision per 20 ms frame — about 250 decisions for the clip</button>
+<button data-fb="The LID model never produces text. Transcription stays Whisper's job; the LID model only tells Whisper where each language lives.">A transcript with language tags on each word</button>
+<button data-fb="Word boundaries come later (from Whisper's word timestamps in cmd/eval). The LID model itself knows nothing about words — only frames.">A list of word boundaries with per-word confidence</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q2.</span> Why can't Whisper alone handle a sentence like 「娘はとても<i>independent</i>で…」?</p>
+<div class="opts">
+<button data-fb="Whisper hears the sounds fine — the audio isn't the problem. The problem is that each decoding pass is pinned to one language's writing system.">Whisper can't acoustically perceive English phonemes inside Japanese speech</button>
+<button data-fb="Whisper's training data actually contains plenty of both languages. The failure is architectural: one language assumption per pass.">Whisper was never trained on Japanese</button>
+<button data-ok data-fb="Each Whisper pass assumes one language, so embedded foreign words get transliterated into the wrong script — English becomes katakana in a ja pass, Japanese becomes mangled romaji in an en pass.">Each Whisper pass decodes under a single language, so mid-sentence switches get transliterated into the wrong script</button>
+<button data-fb="Length isn't the issue; Whisper handles 30-second windows. Short mixed sentences fail just as badly as long ones.">The sentences are too short for Whisper's 30-second window</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q3.</span> Why is the training set overwhelmingly synthetic (31,559 of 31,634 clips)?</p>
+<div class="opts">
+<button data-fb="Cost matters, but it's not the core reason — the core reason is the labels. No amount of money buys humans who can annotate language identity every 20 ms.">Synthetic audio is cheaper to store than human recordings</button>
+<button data-ok data-fb="Frame-level labels are the bottleneck. The synthesis pipeline knows exactly which text span produced which audio samples, so every synthetic clip arrives with perfect 20 ms labels that no human could practically annotate.">Synthesis produces frame-accurate language labels automatically — labeling real speech at 20 ms resolution by hand is impractical</button>
+<button data-fb="It's the opposite: real speech is the gold standard, which is why the project also collects human recordings. Synthetic data wins on labels, not on realism.">Synthetic speech is more realistic than human speech</button>
+<button data-fb="Privacy is a nice property but not the driver. The 75 manual clips show the project is happy to use consenting humans — it just can't label them at frame resolution cheaply.">Privacy rules forbid training on human voices</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q4.</span> How long is one "frame", and how many samples does it cover?</p>
+<div class="opts">
+<button data-fb="That would be 100 frames per second. The pipeline runs at half that rate.">10 ms — 160 samples at 16 kHz</button>
+<button data-ok data-fb="50 frames per second at 16 kHz means 16000 ÷ 50 = 320 samples ≈ 20 ms per frame. This matches wav2vec2's convolutional stride, which is why the sidecar labels line up with model outputs.">20 ms — 320 samples at 16 kHz</button>
+<button data-fb="At 100 ms per frame you'd only get 10 decisions per second — too coarse to place a switch inside a word boundary.">100 ms — 1,600 samples at 16 kHz</button>
+<button data-fb="One second per frame is whole-word (or whole-phrase) territory. The system needs decisions an order of magnitude finer.">1 second — 16,000 samples</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q5.</span> Which component actually <em>consumes</em> the LID model's output in the end?</p>
+<div class="opts">
+<button data-fb="Training produces the LID model; it doesn't consume its output downstream. Look at the other end of the pipeline.">The training loop in cmd/train</button>
+<button data-fb="The audio factory produces labels from the synthesis process itself — it never needs the LID model. The LID model learns from the factory's output, not the reverse.">The XTTS synthesis pipeline in cmd/audio_gen</button>
+<button data-ok data-fb="cmd/eval runs the LID model over each clip, coalesces frames into language segments, and uses those segments to decide how to run Whisper (pin a language, splice spans, etc.).">The evaluation pipeline in cmd/eval, which uses LID segments to route Whisper passes</button>
+<button data-fb="The contributor site only records and uploads audio — it never runs any model. It sits upstream of training, not downstream.">The contributor recording site in web/</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+</div>
+
+<!-- ================================================================ -->
+<h2 id="sentences"><span class="secnum">2</span>Manufacturing Sentences</h2>
+
+<p>Before you can synthesize code-switched speech, you need code-switched <em>text</em> — thousands of sentences that hop between languages the way real bilinguals do. Writing them by hand doesn't scale, so <span class="filepath">cmd/gen_mixed/generate.py</span> asks Claude (via AWS Bedrock) to write them. But an LLM given a vague prompt produces mush, so the script is really a small manufacturing operation: precise specifications going in, ruthless quality control coming out.</p>
+
+<h3>The order book: direction × switch count</h3>
+
+<p>Every sentence is ordered against a two-dimensional spec. The <strong>direction</strong> says which language provides the grammatical skeleton: <code>JP_BASE</code> sentences are structurally Japanese with English words dropped in; <code>EN_BASE</code> is the reverse. The <strong>cs_level</strong> counts <em>islands</em> — distinct runs of the minority language separated by the base language.</p>
+
+<div class="callout def">
+<span class="label">Key concept — islands</span>
+<p>An <strong>island</strong> is one contiguous run of minority-language text. In 「今日は<b>meeting</b>と<b>lunch</b>がありました」 there are two English islands. Two adjacent English words with nothing between them — 「新しい<b>laptop tablet</b>を…」 — count as <em>one</em> island, because acoustically there is only one switch into English and one switch back. Islands are what the LID model must detect, so the dataset is bucketed by island count.</p>
+</div>
+
+<p>The targets are explicit in the code, and they deliberately taper — many simple sentences, fewer gymnastic ones:</p>
+
+<table>
+<tr><th>Bucket</th><th class="num">EN_BASE target</th><th class="num">JP_BASE target</th></tr>
+<tr><td>cs-2 (two islands)</td><td class="num">3,388</td><td class="num">3,496</td></tr>
+<tr><td>cs-3 (three islands)</td><td class="num">1,850</td><td class="num">1,850</td></tr>
+<tr><td>cs-4 (four or more)</td><td class="num">500</td><td class="num">500</td></tr>
+</table>
+
+<p>Each generation request also carries a random theme (from a list of forty: "office work and meetings", "pets and animals", "banking and money"…) and a random batch-id salt, both there to stop the model from converging on the same twenty sentences over and over. A real output row from <span class="filepath">data/cs-multi.csv</span>:</p>
+
+<pre>cs_level|direction|sentence
+2|EN_BASE|The 一番 cocktail here has such a good 後味.
+2|EN_BASE|Can you recommend a 飲み放題 option that isn't too 高め?</pre>
+
+<h3>The quality gate: five validators</h3>
+
+<p>The LLM's output is treated as untrusted. Every line must survive a gauntlet of checks in <code>validate()</code>, and the interesting thing about each check is the <em>failure mode of the downstream model</em> it prevents:</p>
+
+<div class="diagram">
+  <div class="flow">
+    <div class="fbox"><div class="t">Raw LLM lines</div><div class="d">~40 per batch, one theme each</div></div>
+    <div class="arrow">↓</div>
+    <div class="fbox"><div class="t">Gate 1 — both scripts present?</div><div class="d">must contain Japanese chars AND a Latin word</div></div>
+    <div class="arrow">↓</div>
+    <div class="fbox"><div class="t">Gate 2 — no banned loanwords</div><div class="d">sushi, anime, karaoke… ~90 words rejected</div></div>
+    <div class="arrow">↓</div>
+    <div class="fbox"><div class="t">Gate 3 — grammar scaffolding check</div><div class="d">JP_BASE needs hiragana; EN_BASE needs English function words</div></div>
+    <div class="arrow">↓</div>
+    <div class="fbox"><div class="t">Gate 4 — no conjugated JP verbs in EN_BASE</div><div class="d">感動した, している, になった… rejected by suffix list</div></div>
+    <div class="arrow">↓</div>
+    <div class="fbox"><div class="t">Gate 5 — island count matches the bucket</div><div class="d">cs-2/3 exact; cs-4 means ≥ 4</div></div>
+    <div class="arrow">↓</div>
+    <div class="fbox hl"><div class="t">Dedup + append to cs-multi.csv</div><div class="d">~20% of lines die along the way; over-provisioning + top-up rounds compensate</div></div>
+  </div>
+  <div class="caption">The validation gauntlet in cmd/gen_mixed/generate.py. Each gate exists because of a specific way bad text would poison the audio or the labels.</div>
+</div>
+
+<p>Gate 2 deserves a pause, because it's the most instructive. Why ban <i>sushi</i>? Because "sushi" is pronounced essentially identically in English and Japanese. If it appears as an "English island" in a Japanese sentence, the audio at that spot carries <em>no acoustic evidence</em> of a language switch — yet the label says one happened. That's not training data; that's label noise wearing a costume. The same logic bans <i>anime</i>, <i>Tokyo</i>, <i>Nintendo</i>, and about ninety other shared-phonology words and proper nouns.</p>
+
+<p>Gate 3 fixes a subtler bug that once stalled the JP_BASE cs-4 bucket entirely. "Primarily Japanese" was originally judged by character count — but a Japanese sentence stuffed with four English islands can have <em>more Latin characters than Japanese ones</em> while still being grammatically Japanese. The fix: judge by grammar, not census. Hiragana (particles like は・が・を, verb endings) signals a Japanese skeleton; English function words (<i>the, is, of, my</i>…) signal an English one. A sentence like 「彼は<b>meeting</b>で<b>presentation</b>をしてから<b>client</b>に<b>email</b>と<b>report</b>を送りました」 is majority-Latin by character count but passes as JP_BASE, correctly.</p>
+
+<p>Island counting itself (Gate 5) is charmingly mechanical: classify every character as Japanese script, Latin letter, or ignorable; run-length encode; count runs of the minority language. Which language counts as "minority" isn't inferred — it's known from the generation direction, which is more robust on borderline sentences.</p>
+
+<pre># count_islands("今日はmeetingとlunchとpresentationがありました。", "e")
+# char classes:  jjj eeeeeee j eeeee j eeeeeeeeeeee jjjjjjj
+# runs:          [j, e, j, e, j, e, j]
+# runs.count("e") = 3   →  this is a cs-3 sentence</pre>
+
+<div class="callout">
+<span class="label">Engineering note — resumability</span>
+<p>The generator is designed to be killed and restarted. On startup it re-reads <code>cs-multi.csv</code>, rebuilds per-bucket counts and the dedup set, and only orders what's still missing. Because validation rejects ~20% of lines, the work queue is over-provisioned by 20%, and if buckets are still short when the queue drains, "top-up rounds" enqueue more batches — up to 40 of them. The whole thing runs 8 threads against Bedrock and prints a running ETA.</p>
+</div>
+
+<h3>Splicing into the manifest</h3>
+
+<p>Validated sentences aren't training data until they have a place in <span class="filepath">data/data-pairs.csv</span>. The companion script <span class="filepath">splice_cs.py</span> assigns each new sentence a path like <code>synthetic/cs-2/cs7395.flac</code> — continuing each block's numbering — and inserts the rows at the end of the matching cs-N block, keeping the file's order (cs-2, then cs-3, then cs-4; EN-primary before JP-primary within each). It's idempotent: sentences already present are skipped, so you can re-run it after every generation session. At this point the manifest has rows pointing at audio files <em>that don't exist yet</em>. Creating them is the next section's job.</p>
+
+<div class="quiz">
+<h3>Check your understanding</h3>
+<p class="quiz-sub">Five questions on the sentence factory.</p>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q1.</span> Why are words like <i>sushi</i> and <i>anime</i> banned from generated sentences?</p>
+<div class="opts">
+<button data-fb="Frequency isn't the issue — common words are generally good training material. The problem is what these particular words sound like.">They're too common, and the model would overfit to them</button>
+<button data-ok data-fb="These words are pronounced nearly identically in both languages, so the audio at that spot contains no acoustic signal of a switch — but the label claims one happened. That's label noise, and the ban list removes it at the source.">They sound the same in both languages, so a 'switch' onto them has no acoustic evidence — the frame labels would be noise</button>
+<button data-fb="XTTS synthesizes these words without trouble. The problem isn't synthesis quality; it's that the resulting labels would lie about where a language switch is audible.">The TTS engine can't pronounce them correctly</button>
+<button data-fb="Cultural specificity isn't a factor; the themes list happily includes Japanese cultural topics. The ban is purely about shared phonology.">They're culturally specific and would bias the themes</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q2.</span> In 「新しい<b>laptop tablet</b>を買いました」, how many English islands are there, and why?</p>
+<div class="opts">
+<button data-fb="Word count isn't island count. Ask instead: how many times does the audio switch into English and back?">Two — there are two English words</button>
+<button data-ok data-fb="Adjacent minority-language words with nothing between them form one contiguous run — acoustically there's one switch into English and one back out. The generator even tells the LLM explicitly: 'two adjacent words count as ONE island, keep them apart.'">One — adjacent English words with no Japanese between them form a single contiguous run</button>
+<button data-fb="There are clearly English letters present, so the count can't be zero. The question is how runs are counted, not whether English exists.">Zero — the words are too short to count</button>
+<button data-fb="Punctuation and spaces are classified as 'ignorable' and never split a run — only actual base-language text between the words would.">Three — the space between them counts as a separator</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q3.</span> Why does the validator judge "primarily Japanese" by the presence of hiragana rather than by counting characters?</p>
+<div class="opts">
+<button data-fb="Speed is irrelevant here — both checks are trivially fast on a sentence. The reason is correctness on a specific class of sentence.">Counting characters is too slow at this scale</button>
+<button data-fb="Kanji is shared with Chinese, but that's not the issue — the generator never produces Chinese. The issue is sentences where character counts mislead.">Kanji could be confused with Chinese characters</button>
+<button data-ok data-fb="A grammatically Japanese sentence packed with several English islands can end up majority-Latin by raw character count. Hiragana (particles, okurigana) marks the grammatical skeleton, which is what 'primarily Japanese' actually means. This bug once stalled the JP cs-4 bucket completely.">A Japanese-skeleton sentence with 4+ English islands can be majority-Latin by character count — grammar markers are the reliable signal</button>
+<button data-fb="Katakana words are fine and common in the data. The gate looks for hiragana specifically because particles and verb endings — the grammar — are written in hiragana.">Hiragana is easier for the TTS engine to pronounce</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q4.</span> Why does EN_BASE ban conjugated Japanese verb forms (like 感動した) as the borrowed word?</p>
+<div class="opts">
+<button data-ok data-fb="The spec says borrowed words must be bare nouns, adjectives, or adverbs — clean lexical insertions. A conjugated verb drags Japanese grammar (inflection) into an English sentence, producing unnatural hybrids that don't reflect how bilinguals actually borrow words.">Borrowed words should be clean lexical insertions; a conjugated verb smuggles Japanese grammar into an English-skeleton sentence</button>
+<button data-fb="Length isn't the criterion — 雰囲気 is long and allowed. The criterion is grammatical: no inflected forms.">Verbs are longer and would exceed the character limit</button>
+<button data-fb="The aligner works on romanized text and handles verbs fine. The ban is about linguistic naturalness of the generated text, not about alignment.">The forced aligner can't align Japanese verbs</button>
+<button data-fb="Whisper's abilities are irrelevant at generation time — this data trains the LID model. The ban keeps the text linguistically natural.">Whisper cannot transcribe Japanese verbs</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q5.</span> The work queue is over-provisioned by ~20%, and "top-up rounds" run after it drains. What problem does this solve?</p>
+<div class="opts">
+<button data-fb="Bedrock failures are retried at the API-client level (8 adaptive retries). The over-provisioning compensates for a different, entirely expected kind of loss.">Bedrock API calls fail 20% of the time</button>
+<button data-ok data-fb="Validation is strict by design — island counts, loanword bans, verb gates, dedup — and drops roughly a fifth of generated lines. Ordering extra batches up front, plus top-ups for still-short buckets, lets every bucket hit its exact target without manual babysitting.">The validators reject a significant fraction of generated lines, so more raw lines must be ordered than the targets require</button>
+<button data-fb="Dedup removes some lines, but it's only one of several filters. The 20% figure covers the combined loss across all validation gates.">Duplicate sentences make up exactly 20% of output</button>
+<button data-fb="Threads share a queue and locks handle contention; nothing is lost to threading. The loss happens in validation, after generation succeeds.">Worker threads lose batches when they contend for the file lock</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+</div>
+
+<!-- ================================================================ -->
+<h2 id="audio"><span class="secnum">3</span>From Text to Labeled Audio</h2>
+
+<p>Now the clever part. We have 14,000 sentences and a manifest full of paths to audio that doesn't exist. <span class="filepath">cmd/audio_gen/generate_audio.py</span> (the largest file in the repo, and it earns every line) turns each sentence into a spoken clip <em>and</em> — this is the whole point — a label for every 20&nbsp;ms of it, with no human in the loop.</p>
+
+<h3>Step 1: split the sentence into spans</h3>
+
+<p>Unicode does the first job for free. Every character is classified by script — hiragana/katakana/kanji ranges are Japanese, ASCII letters are English, and everything else (punctuation, digits, spaces) is "neutral" and attaches to the preceding span, so a trailing 。 or comma stays with the span that produced it (TTS prosody depends on this). Our running example splits into five spans:</p>
+
+<p class="mixed"><span class="ja-t">娘はとても</span><span class="en-t">independent</span><span class="ja-t">で、いつも自分で</span><span class="en-t">choice</span><span class="ja-t">をしたがります。</span></p>
+
+<h3>Step 2: render the whole sentence twice</h3>
+
+<p>The synthesizer is XTTS v2 with voice cloning: give it a few seconds of a reference speaker (from <span class="filepath">data/speaker-clips/en</span> and <span class="filepath">jp</span>, ~100 speakers each) and it speaks any text in that voice. But XTTS, too, wants one language per call. So the script renders the <em>entire sentence twice with the same cloned voice</em>:</p>
+
+<div class="diagram">
+  <div class="flow">
+    <div class="fbox"><div class="t">EN render &nbsp;<code>language="en"</code></div><div class="d">"musume wa totemo <b>independent</b> de, itsumo jibun de <b>choice</b> wo shitagarimasu" — Japanese spans converted to romaji</div></div>
+    <div class="fbox" style="margin-top:0.6rem"><div class="t">JA render &nbsp;<code>language="ja"</code></div><div class="d">「娘はとても<b>independent</b>で、いつも自分で<b>choice</b>をしたがります。」 — original mixed script</div></div>
+    <div class="arrow">↓<span class="lbl">forced alignment finds each span in each render</span></div>
+    <div class="fbox hl"><div class="t">Stitched output</div><div class="d">JA spans cut from the JA render + EN spans cut from the EN render, joined with 25 ms crossfades</div></div>
+  </div>
+  <div class="caption">Two full-sentence renders, one output. The same speaker latents drive both renders, so the stitched voice is consistent.</div>
+</div>
+
+<p>Why not just synthesize each span separately and concatenate? Because that was tried, and the docstring records the scar tissue: XTTS <em>degenerates on short text fragments</em> — a lone word like "choice" comes back as babble or padded with seconds of silence — and per-span stitching produced choppy prosody and loudness jumps. Full-sentence renders keep the prosody natural; the trick is knowing where to cut them.</p>
+
+<h3>Step 3: forced alignment finds the cut points</h3>
+
+<div class="callout def">
+<span class="label">Key concept — forced alignment</span>
+<p>A speech recognizer answers "what was said?" A <strong>forced aligner</strong> answers an easier question: "given that <em>this exact text</em> was said, <em>when</em> was each word said?" The script uses torchaudio's MMS_FA aligner, which works on lowercase romanized words (a–z plus apostrophe) — which is exactly why the Japanese spans are romanized with fugashi + pykakasi first. English words and romanized Japanese words go through the same aligner uniformly.</p>
+</div>
+
+<p>Alignment yields a start/end sample for every word, and each word knows which span owns it. The boundary between span <i>i</i> and span <i>i+1</i> is placed at the midpoint of the gap between span <i>i</i>'s last word and span <i>i+1</i>'s first word. Alignment gives a second gift: it reveals where real speech starts and ends, so XTTS's notorious end-of-clip hallucinated babble gets trimmed off every render. If alignment fails entirely, the script degrades gracefully to boundaries estimated from expected span durations (~13 chars/sec for English, ~7 for Japanese) and marks the sidecar <code>alignment: "fallback"</code> so you can filter on it later.</p>
+
+<h3>Step 4: emit the labels</h3>
+
+<p>After stitching, every output sample belongs to a known span, and every span has a language. Labels drop out by arithmetic: frame <i>f</i> covers samples <i>[320f, 320f+320)</i>; its label is the language of the span containing its center sample. Here is the <em>actual</em> sidecar for our example, <span class="filepath">data/synthetic/cs-2/speaker_012_29b1e5a58d16/cs7395.json</span>, abridged:</p>
+
+<pre>{
+  "sentence": "娘はとてもindependentで、いつも自分でchoiceをしたがります。",
+  "duration_ms": 4938,
+  "reference_speaker": "en/speaker_012_29b1e5a58d16.mp3",
+  "tts_language": "stitched",
+  "alignment": "forced-dual",
+  "spans": [
+    {"lang": "ja", "text": "娘はとても",        "start_ms": 0,    "end_ms": 819},
+    {"lang": "en", "text": "independent",       "start_ms": 819,  "end_ms": 2176},
+    {"lang": "ja", "text": "で、いつも自分で",   "start_ms": 2176, "end_ms": 3493},
+    {"lang": "en", "text": "choice",            "start_ms": 3493, "end_ms": 4059},
+    {"lang": "ja", "text": "をしたがります。",   "start_ms": 4059, "end_ms": 4938}
+  ],
+  "frame_rate_hz": 50,
+  "num_frames": 247,
+  "frame_labels": "jjjj…(41)eeee…(68)jjjj…(66)eee…(28)jjjj…(44)"
+}</pre>
+
+<p>And the same thing as a timeline — 247 frames, 4.94 seconds:</p>
+
+<div class="diagram">
+  <div class="spanbar">
+    <div class="seg ja" style="flex:41">娘はとても</div>
+    <div class="seg en" style="flex:68">independent</div>
+    <div class="seg ja" style="flex:66">で、いつも自分で</div>
+    <div class="seg en" style="flex:28">choice</div>
+    <div class="seg ja" style="flex:44">をしたがります。</div>
+  </div>
+  <div class="barscale"><span>0.0s</span><span>1.0s</span><span>2.0s</span><span>3.0s</span><span>4.0s</span><span>4.94s</span></div>
+  <div class="legend">
+    <span><span class="key" style="background:var(--ja)"></span>Japanese frames (j × 151)</span>
+    <span><span class="key" style="background:var(--en)"></span>English frames (e × 96)</span>
+  </div>
+  <div class="caption">The frame_labels string of cs7395, drawn to scale. This is exactly the supervision signal the model trains on: a language for every 20 ms.</div>
+</div>
+
+<p>One optional refinement: <code>--boundary-ambig-ms</code> labels frames within a window of each switch point as <code>'a'</code> (ambiguous), acknowledging that the precise switch instant inside a crossfade is guesswork. The training code treats only <code>e</code>/<code>j</code> as supervised.</p>
+
+<div class="callout warn">
+<span class="label">Edge case — degenerate outputs</span>
+<p>XTTS occasionally hallucinates: audio far longer than the text warrants, filled with babble. The script computes a duration budget from character counts and, if a render exceeds it, resynthesizes at progressively lower temperatures (0.7 → 0.5 → 0.35), keeping the shortest attempt if all three blow the budget. Japanese text also gets chunked below XTTS's ~70-character Japanese limit and concatenated. And speaker reference clips are loudness-normalized before conditioning, because several Common Voice references were so quiet they skewed the cloned voice.</p>
+</div>
+
+<p>One last detail matters enormously for the next-but-one section: output paths include the speaker, as in <code>synthetic/cs-2/<b>speaker_012_29b1e5a58d16</b>/cs7395.flac</code>, and <code>update_pairs_csv_paths()</code> rewrites the manifest's flat paths to match after generation. That directory name is what lets the training split guarantee that no speaker appears on both sides of the train/test line.</p>
+
+<div class="quiz">
+<h3>Check your understanding</h3>
+<p class="quiz-sub">Five questions on the audio factory.</p>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q1.</span> Why does the script render the <em>whole sentence</em> twice instead of synthesizing each span separately?</p>
+<div class="opts">
+<button data-fb="Two full renders are actually more compute, not less — the script pays that cost willingly. Ask what goes wrong with short fragments.">Rendering twice is cheaper than rendering five spans</button>
+<button data-ok data-fb="XTTS degenerates on short fragments (babble, seconds of silence padding), and per-span stitching gave choppy prosody and loudness jumps. Full-sentence renders keep prosody natural; alignment then finds where to cut them. The docstring records this as a lesson learned the hard way.">XTTS produces garbage on short text fragments, and per-span stitching had choppy prosody — full renders sound natural and get cut afterwards</button>
+<button data-fb="Same latents are used either way — the speaker consistency comes from caching latents, not from render strategy.">Voice cloning only works on full sentences</button>
+<button data-fb="The aligner happily aligns short clips. The constraint comes from the TTS side: XTTS needs enough text to speak naturally.">The forced aligner requires at least two renders to triangulate</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q2.</span> What two things does forced alignment provide in this pipeline?</p>
+<div class="opts">
+<button data-ok data-fb="MMS_FA gives per-word timestamps for a known transcript, from which span boundaries are computed (midpoint of the inter-span word gap) — and the first/last word positions reveal where real speech is, so XTTS's trailing hallucinated babble gets trimmed from every render.">Word-level timestamps (→ span cut points) and the real speech extent (→ trimming XTTS's trailing babble)</button>
+<button data-fb="Alignment never produces or checks a transcript — it takes the transcript as given. It answers 'when', not 'what'.">A transcript of the audio and a confidence score for it</button>
+<button data-fb="Language identity is already known from the text spans; alignment doesn't classify language. And it doesn't touch loudness — peak normalization is separate.">Language identification and loudness normalization</button>
+<button data-fb="Speaker latents come from XTTS's own conditioning; alignment plays no role there. Its outputs are timestamps and, implicitly, the speech boundaries.">Speaker embeddings and prosody contours</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q3.</span> Why are the Japanese spans romanized before being fed to the aligner?</p>
+<div class="opts">
+<button data-fb="Speed is not the issue; script conversion is trivial compared to the model forward pass. The constraint is the aligner's vocabulary.">Romaji aligns faster than kanji</button>
+<button data-fb="Kana would be phonetically transparent too — but the aligner simply doesn't have kana in its token set.">Kana is ambiguous, romaji is not</button>
+<button data-ok data-fb="MMS_FA's tokenizer covers lowercase a–z plus apostrophe. Romanizing Japanese (fugashi tokenization + pykakasi hepburn) puts both languages into the aligner's alphabet, so English words and Japanese words align through one uniform mechanism.">The MMS_FA aligner only understands lowercase Latin characters, so romanization puts both languages in its alphabet</button>
+<button data-fb="XTTS's ja render receives the original mixed script — it handles Japanese natively. Only the aligner (and the en render) needs romaji.">XTTS cannot speak Japanese script</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q4.</span> How is a frame's label determined in the sidecar's <code>frame_labels</code> string?</p>
+<div class="opts">
+<button data-fb="Majority voting over the frame's samples would be a reasonable design, but the code does something even simpler — check _frame_labels() in generate_audio.py.">Majority vote over all 320 samples in the frame</button>
+<button data-ok data-fb="Frame f's center sample is 320f + 160; the label is the language of the span containing that center. Optionally, frames whose centers fall near a switch point can be marked 'a' for ambiguous.">The language of the span containing the frame's center sample</button>
+<button data-fb="The LID model doesn't exist yet at this point in the pipeline — these labels are what it will be trained on. They come from the synthesis geometry, not from any classifier.">The LID model labels each frame and the result is stored</button>
+<button data-fb="Whisper appears nowhere in the audio factory. Labels come directly from knowing which text span produced which samples.">Whisper transcribes each frame and its language is recorded</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q5.</span> XTTS sometimes "babbles" — how does the script detect and handle a degenerate render?</p>
+<div class="opts">
+<button data-fb="No second model checks the audio. The detector is much cheaper: arithmetic on text length versus audio length.">A classifier network scores the audio quality</button>
+<button data-fb="A human never hears these clips before training. The pipeline generates tens of thousands of clips; review must be automatic.">A human reviews flagged clips before they're saved</button>
+<button data-ok data-fb="Expected duration ≈ chars ÷ speaking rate (13 chars/s EN, 7 chars/s JA). If the trimmed render exceeds the budget, retry at temperatures 0.7 → 0.5 → 0.35, keeping the shortest output if all attempts fail — with a WARN so it's visible in logs.">The render's duration is compared to a character-count budget; over-budget renders are retried at progressively lower temperature</button>
+<button data-fb="Length alone (in absolute terms) can't distinguish a long sentence from babble — the budget must be relative to the text. And the response is retry, not deletion.">Renders longer than 10 seconds are deleted automatically</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+</div>
+
+<!-- ================================================================ -->
+<h2 id="humans"><span class="secnum">4</span>Real Human Voices</h2>
+
+<p>Synthetic data has a lurking danger: a model trained only on XTTS output might learn to recognize <em>XTTS</em> rather than Japanese and English — the codec's texture, the crossfades, the cloned-voice artifacts. The antidote is real recordings from real people, and the repo contains two complete systems for collecting them: a one-command local recorder for Chris, and a full remote-contribution platform for everyone else.</p>
+
+<h3>The local recorder: <code>just record</code></h3>
+
+<p><span class="filepath">cmd/record/main.go</span> opens the default microphone at 16&nbsp;kHz mono, waits for you to speak, detects when you've finished, and writes <code>data/manual/chris/s<i>N</i>.flac</code> — numbering itself automatically. The interesting machinery is the voice-activity detector in <span class="filepath">internal/audio/vad.go</span>: a small state machine fed 20&nbsp;ms frames, using RMS energy against a threshold.</p>
+
+<div class="diagram">
+  <div class="hflow">
+    <div class="fbox"><div class="t">Waiting</div><div class="d">buffering 1s pre-roll ring</div></div>
+    <div class="harrow">→</div>
+    <div class="fbox"><div class="t">Speaking</div><div class="d">appending PCM</div></div>
+    <div class="harrow">→</div>
+    <div class="fbox"><div class="t">Trailing</div><div class="d">counting silence</div></div>
+    <div class="harrow">→</div>
+    <div class="fbox hl"><div class="t">Done</div><div class="d">trim tail, keep 160 ms</div></div>
+  </div>
+  <div class="caption">VAD states. Waiting→Speaking needs ~200 ms of loud frames; Trailing→Speaking on any loud frame; Trailing→Done after ~1.2 s of quiet. </div>
+</div>
+
+<p>The subtle touch is the <strong>pre-roll ring buffer</strong>. Speech onset detection needs ~200&nbsp;ms of sustained energy before it triggers — by which time the first syllable has already happened. So while waiting, the VAD continuously records the last second into a ring buffer, and on trigger it flushes that buffer into the capture first. The attack of your first word survives. Symmetrically, at the end it keeps only 160&nbsp;ms of the 1.2&nbsp;s of trailing silence it needed to be sure you were done.</p>
+
+<h3>The remote system: signed links, a static site, and R2</h3>
+
+<p>Seventy-five clips of one person's voice risks a speaker-overfit model, so the project recruits friends. The design constraint is written into the planning doc: contributors are non-technical, and Chris refuses to do per-contributor cleanup. The solution spans four components and costs nothing to run:</p>
+
+<div class="diagram">
+  <div class="flow">
+    <div class="fbox"><div class="t">Chris's laptop — cmd/contrib (Go CLI)</div><div class="d">add-wanted → gen-assignment → gen-token → prints a share link</div></div>
+    <div class="arrow">↓<span class="lbl">https://…/?t=eyJuYW1lIjoiTGF1cmllIi…</span></div>
+    <div class="fbox"><div class="t">Contributor's browser — web/ on GitHub Pages</div><div class="d">fetches assignment, shows sentences with furigana, records 16 kHz WAV via AudioWorklet</div></div>
+    <div class="arrow">↓<span class="lbl">PUT /upload?t=…&id=007</span></div>
+    <div class="fbox"><div class="t">Cloudflare Worker — worker/src/index.ts</div><div class="d">verifies the HMAC token, enforces 10 MB cap, writes manual/&lt;name&gt;/&lt;id&gt;.wav to R2</div></div>
+    <div class="arrow">↓<span class="lbl">just pull-recordings</span></div>
+    <div class="fbox hl"><div class="t">Back on the laptop — contrib pull</div><div class="d">rclone copies WAVs down, ffmpeg transcodes to 16 kHz FLAC, deletes from R2, appends to data-pairs.csv</div></div>
+  </div>
+  <div class="caption">The contribution loop. R2 is a staging area that drains to zero; the CSV append is deduplicated; every step is idempotent and re-runnable.</div>
+</div>
+
+<p>Authentication is charmingly minimal. There are no accounts and no passwords — just a signed link. <span class="filepath">internal/token</span> implements it in ~60 lines:</p>
+
+<pre>token = base64url({"name":"Laurie","exp":1730000000})
+        + "." +
+        base64url(HMAC-SHA256(secret, payload_b64))</pre>
+
+<p>The Go CLI signs tokens; the TypeScript Worker verifies them with the same shared secret (<code>JANGLISH_HMAC_SECRET</code>) and the same format — a deliberately boring two-implementation protocol. A token names one contributor and expires (default 7 days). If a link leaks, the blast radius is one person's upload prefix for a bounded time.</p>
+
+<p>The browser side (<span class="filepath">web/app.js</span>) has two touches worth noticing. First, audio capture doesn't trust the browser's sample rate: an <code>AudioWorklet</code> downsamples whatever the audio context provides to 16&nbsp;kHz before WAV encoding, so uploads match the dataset format regardless of hardware. Second, sentences containing kanji are rendered with <strong>furigana</strong> — ruby annotations from a bundled reading table — because contributors like Laurie may need reading help with sentences such as:</p>
+
+<pre>Laurie|Let's meet at the 駅 at seven o'clock.
+Laurie|新しいprojectを来週から始めます。</pre>
+
+<p>Progress lives in <code>localStorage</code> keyed by token, so closing the tab and reopening the link resumes exactly where the contributor left off. Meanwhile <code>just list-progress</code> shows Chris a one-line-per-contributor dashboard: assigned / staged in R2 / done locally.</p>
+
+<div class="callout">
+<span class="label">Design principle — idempotence everywhere</span>
+<p>Every command in this system can be re-run safely. <code>contrib pull</code> skips already-transcoded files and deduplicates CSV appends; <code>rclone copy</code> is a no-op on unchanged objects; deleting the WAV from R2 after transcoding means the staging area drains end-to-end and a re-pull can't double-process. The same philosophy shows up in the sentence generator (resumable buckets) and the audio factory (<code>--skip-existing</code>). Long-running data pipelines get interrupted; these are built to shrug it off.</p>
+</div>
+
+<p>One wrinkle: human recordings have sentences but no frame labels — nobody hand-labels 20&nbsp;ms frames. Manual clips with code-switching therefore serve as evaluation material for the <em>end-to-end</em> pipeline (section 6), while a helper script generates LID sidecars for the single-language portions. With data flowing in from both factories, we can finally train the model.</p>
+
+<div class="quiz">
+<h3>Check your understanding</h3>
+<p class="quiz-sub">Five questions on collecting human audio.</p>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q1.</span> Why does the VAD keep a pre-roll ring buffer while waiting for speech?</p>
+<div class="opts">
+<button data-fb="The ring buffer holds audio, not statistics — the threshold is a fixed constant. Think about what has already happened by the time detection triggers.">To measure background noise and adapt the threshold</button>
+<button data-ok data-fb="Detection requires ~200 ms of sustained energy, so by the time the VAD is sure you're speaking, your first syllable is history. The ring buffer holds the last second of audio and gets flushed into the capture on trigger, preserving the word's attack.">Onset detection triggers ~200 ms late, so the buffer preserves the beginning of the first word that already happened</button>
+<button data-fb="Echo cancellation isn't done here at all (the browser recorder even disables it). The buffer solves a latency problem, not an acoustic one.">To cancel echo from the speakers</button>
+<button data-fb="Warming up hardware isn't a thing the VAD needs — malgo delivers valid frames immediately. The buffer exists because detection is inherently retrospective.">To warm up the microphone hardware</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q2.</span> What ends a recording in the VAD state machine?</p>
+<div class="opts">
+<button data-fb="There's no key press — the whole point is hands-free capture. The trigger is acoustic.">The user presses a stop key</button>
+<button data-ok data-fb="In Trailing state, 60 consecutive below-threshold frames (60 × 20 ms = 1.2 s) end the clip. Any loud frame during Trailing bounces back to Speaking, so mid-sentence pauses don't cut you off.">About 1.2 seconds of continuous below-threshold audio (60 quiet frames in a row)</button>
+<button data-fb="There's no fixed duration cap — sentences vary in length. The stop condition is a run of silence.">A fixed 10-second timer expires</button>
+<button data-fb="A single quiet frame only moves Speaking → Trailing; one 20 ms dip would end every recording at the first consonant gap. The machine needs a sustained run of quiet.">The first below-threshold frame after speech</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q3.</span> What does a contributor token contain, and how does the Worker verify it?</p>
+<div class="opts">
+<button data-ok data-fb="The payload is compact JSON {name, exp}, base64url-encoded, followed by an HMAC-SHA256 signature over that encoded payload. Go signs, TypeScript verifies, both with the shared JANGLISH_HMAC_SECRET — same scheme, two implementations.">A name and expiry timestamp, signed with HMAC-SHA256 using a secret shared between the Go CLI and the Worker</button>
+<button data-fb="There are no accounts, hence no passwords to hash. The token itself is the credential.">A hashed password checked against a user database</button>
+<button data-fb="No third party is involved; the token is verified locally by the Worker with a shared secret, not by calling out to an identity provider.">An OAuth token validated against GitHub</button>
+<button data-fb="Asymmetric crypto would work but is overkill for one signer and one verifier. The implementation is symmetric HMAC — same secret on both sides.">An RSA-signed JWT verified with a public key</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q4.</span> Why does <code>contrib pull</code> delete each WAV from R2 after transcoding it?</p>
+<div class="opts">
+<button data-fb="Cost is negligible at this scale (R2's free tier covers it). The deletion serves the workflow's correctness, not the bill.">R2 storage is expensive</button>
+<button data-ok data-fb="R2 is a staging area, not an archive. Deleting after transcode means the staging area drains end-to-end: the next pull only sees genuinely new uploads, and re-runs can't double-process old files. The durable copy is the local FLAC plus its CSV row.">R2 is a staging area that should drain — deletion makes re-runs naturally process only new uploads</button>
+<button data-fb="WAVs from verified tokens are trusted input. Deletion is about pipeline hygiene, not security.">The WAVs are a security risk if left online</button>
+<button data-fb="Contributors can re-record and overwrite before the pull happens — that's a feature. Deletion happens only after the file is safely transcoded locally.">To prevent contributors from re-recording</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q5.</span> Why collect human recordings at all, when synthetic data comes with perfect labels?</p>
+<div class="opts">
+<button data-fb="Humans are far more expensive per clip than synthesis — that's exactly why there are only 75 manual clips against 31,559 synthetic ones. Their value lies elsewhere.">Human recordings are cheaper to produce at scale</button>
+<button data-fb="Manual clips mostly lack frame labels (nobody hand-labels 20 ms frames) — synthetic clips are the ones with the great labels. Humans contribute something labels can't capture.">Human recordings have more accurate frame labels</button>
+<button data-ok data-fb="A model trained only on XTTS output might key on synthesis artifacts — codec texture, crossfades, cloned-voice quirks — instead of on language. Real microphones, accents, and disfluency keep the model (and the end-to-end evaluation) honest.">To prevent the model from overfitting to TTS artifacts and to evaluate on real-world acoustic conditions</button>
+<button data-fb="XTTS's license constrains commercial use of the synthetic audio, but that's a legal footnote in the docstring, not the reason the contribution system exists.">Synthetic audio is illegal to train on</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+</div>
+
+<!-- ================================================================ -->
+<h2 id="training"><span class="secnum">5</span>Training the Frame Classifier</h2>
+
+<p>With 31,634 labeled clips on disk, training ought to be the easy part: fine-tune a pretrained speech model, log some curves, save the best checkpoint. And structurally it is — <span class="filepath">cmd/train</span> is a clean four-file affair (dataset, collator, model setup, loop). But each file contains one or two decisions that separate a model that <em>seems</em> to work from one that actually does. This section is about those decisions.</p>
+
+<h3>The model: stand on 436,000 hours of shoulders</h3>
+
+<p>The base model is <code>facebook/wav2vec2-xls-r-300m</code> — pretrained (self-supervised, no labels) on roughly 436k hours of speech across 128 languages. It already "knows" what Japanese and English sound like in its internal representations; fine-tuning just attaches a 2-class linear head (<code>Wav2Vec2ForAudioFrameClassification</code>) and teaches it which representation is which. The convolutional feature encoder — the part that turns raw waveform into frame vectors — is frozen: standard practice, a big speedup, and no observed quality loss.</p>
+
+<div class="diagram">
+  <div class="flow">
+    <div class="fbox"><div class="t">Raw waveform</div><div class="d">16,000 samples/sec</div></div>
+    <div class="arrow">↓<span class="lbl">frozen CNN encoder — 7 conv layers, total stride 320</span></div>
+    <div class="fbox"><div class="t">Frame vectors</div><div class="d">50 vectors/sec, one per 20 ms</div></div>
+    <div class="arrow">↓<span class="lbl">fine-tuned transformer layers</span></div>
+    <div class="fbox"><div class="t">Contextual frame vectors</div><div class="d">each frame sees the whole clip</div></div>
+    <div class="arrow">↓<span class="lbl">2-class linear head</span></div>
+    <div class="fbox hl"><div class="t">Logits per frame</div><div class="d">P(en), P(ja) — 50 decisions/sec</div></div>
+  </div>
+  <div class="caption">Why 20 ms frames everywhere: the CNN stack's kernel/stride schedule (10,5)(3,2)(3,2)(3,2)(3,2)(2,2)(2,2) multiplies out to a stride of 320 samples. The dataset's 50 Hz labels were chosen to match this exactly.</div>
+</div>
+
+<h3>The split: never test on a voice you trained on</h3>
+
+<p>Here is the most important honesty decision in the repo. Each synthetic speaker recorded many clips — and the same ~100 speakers appear across the en, jp, and cs-* subsets. If clips were split randomly, nearly every test clip would be spoken by a voice the model saw in training, and the model could lean on speaker-specific quirks. Test scores would be flattering and false.</p>
+
+<p>So <code>split_examples()</code> splits by <strong>speaker group</strong>, using scikit-learn's <code>GroupShuffleSplit</code> twice: first carving held-out speakers from training speakers, then dividing the held-out set into validation and test. The group key is the speaker directory (<code>speaker_012_29b1e5a58d16</code>), which is exactly why the audio factory went to the trouble of putting every clip in a per-speaker folder. The code even refuses to run on flat paths: <i>"run the speaker split migration before training."</i></p>
+
+<div class="diagram">
+  <div class="hflow">
+    <div class="fbox" style="border-color:var(--good)"><div class="t">Train ~70%</div><div class="d">speakers 012, 047, 091, …</div></div>
+    <div class="fbox" style="border-color:var(--amb)"><div class="t">Validation ~15%</div><div class="d">speakers 003, 058, …</div></div>
+    <div class="fbox" style="border-color:var(--bad)"><div class="t">Test ~15%</div><div class="d">speakers 019, 072, …</div></div>
+  </div>
+  <div class="caption">Speaker-disjoint splits: every clip by a given voice lands entirely on one side of every line. The 97.7% test accuracy is measured on voices the model has never heard.</div>
+</div>
+
+<h3>The collator: where the subtle bugs live</h3>
+
+<p>The collator's day job is boring — pad each batch's audio to a common length. But padding changes the frame count, and the sidecar's labels were written for the <em>unpadded</em> audio, so labels must be re-aligned to the model's output grid. <code>_align_labels()</code> does nearest-neighbor resampling: model frame <i>t</i> takes the label at source position <code>(t + 0.5) × len(labels) / target_len</code>. Padded frames beyond the real audio get an all-zero label vector — a deliberate "no supervision here" marker.</p>
+
+<p>That marker meets its partner in the loss function:</p>
+
+<pre>mask = labels.sum(-1) > 0          # real frames have a one-hot label; padding is all zeros
+targets = labels.argmax(-1)
+loss = cross_entropy(logits[mask], targets[mask])</pre>
+
+<p>Only genuinely labeled frames contribute gradient. Padding is invisible to the optimizer.</p>
+
+<div class="callout warn">
+<span class="label">War story — the 100 GB memory leak</span>
+<p>The collator's <code>length_bucket_samples = 8000</code> looks like a random knob. It is a tombstone. Padding each batch to its longest member yields a <em>unique tensor shape almost every batch</em>, and Apple's MPS backend caches a compiled graph per shape. Unbounded distinct shapes leaked ~100 GB of host memory over nine hours until macOS's jetsam killed the process. Rounding every batch up to a multiple of 0.5 s collapses thousands of shapes into a few dozen, and the graph cache stays bounded. The training loop carries matching scars: <code>torch.mps.synchronize()</code> before <code>empty_cache()</code> (an allocator race corrupted gradients into sudden permanent NaN), and a non-finite-gradient check that <em>skips</em> the optimizer step loudly rather than letting <code>clip_grad_norm_</code> rescale every gradient to NaN and poison the weights.</p>
+</div>
+
+<h3>The loop: small batches, honest checkpoints</h3>
+
+<p>The loop itself is hand-written PyTorch (no Trainer), tuned for a memory-constrained Mac: batch size 2 with 4-step gradient accumulation (effective batch 8), learning rate 1e-5 with linear warmup, three epochs, everything logged to Weights &amp; Biases. Two evaluation cadences run in parallel: a <strong>quick eval</strong> on a fixed, seeded 200-example validation subset every 100 optimizer steps (comparable across steps <em>because</em> it's fixed), and a full validation pass at each epoch end, which is what actually selects the best model.</p>
+
+<p>Checkpoint saving is atomic in the crash-safe sense: write to <code>.tmp</code>, rename the old checkpoint to <code>.previous</code>, rename <code>.tmp</code> into place, delete <code>.previous</code>. A crash at any instant leaves a loadable checkpoint on disk. Each checkpoint carries a <code>training_checkpoint.json</code> with its metrics and provenance — which is how we know the shipped model's exact report card:</p>
+
+<pre>{
+  "checkpoint_kind": "final_full_validation_best",
+  "epoch": 3,
+  "metrics": {
+    "accuracy": 0.9768,
+    "f1_macro": 0.9760,
+    "f1_per_class": [0.9804, 0.9716]   // [english, japanese]
+  }
+}</pre>
+
+<p>A frame classifier that's right 97.7% of the time on unseen voices, at 50 decisions per second. Time to see what it's for.</p>
+
+<div class="quiz">
+<h3>Check your understanding</h3>
+<p class="quiz-sub">Five questions on training.</p>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q1.</span> Why must the train/validation/test split be grouped by speaker rather than done randomly over clips?</p>
+<div class="opts">
+<button data-fb="Balance isn't the concern — GroupShuffleSplit doesn't balance languages, and the buckets already do. The concern is what information leaks across the split line.">To keep the language balance identical in every split</button>
+<button data-ok data-fb="Each speaker recorded many clips. A random split puts the same voice on both sides, letting the model exploit speaker-specific cues and inflating test scores. Grouping by the speaker directory guarantees every test voice is genuinely unheard — that's what makes 97.7% believable.">A random split would put the same voice in both train and test, letting the model score well via speaker recognition rather than language recognition</button>
+<button data-fb="Shuffling clips is trivially fast. The grouping is a statistical-validity requirement, not a performance one.">Random splits are computationally slower</button>
+<button data-fb="File organization follows from the split requirement, not the other way round — the per-speaker directories were created precisely so that grouping would be possible.">Speakers must stay together so their files stay in one directory</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q2.</span> Why does the collator need to re-align the sidecar's frame labels at all?</p>
+<div class="opts">
+<button data-fb="The sidecar labels are trusted — they came from the synthesis geometry. What changes between sidecar-time and training-time is the audio tensor itself.">The sidecar labels are unreliable and need smoothing</button>
+<button data-ok data-fb="Batch padding (and bucket rounding) changes the audio length, and wav2vec2's conv arithmetic maps that to a slightly different frame count than the sidecar assumed. Nearest-neighbor resampling maps sidecar labels onto the model's actual output grid; frames beyond the real audio get all-zero 'no supervision' vectors.">Padding changes the audio length, so the model's frame count no longer matches the sidecar's label count</button>
+<button data-fb="Both use 50 Hz by design — the sidecar's frame rate was chosen to match wav2vec2's stride. The mismatch comes from padding, not from differing rates.">The model runs at a different frame rate than the sidecar</button>
+<button data-fb="Labels are per-frame regardless of language; there's no per-language label geometry. The re-alignment is purely about tensor lengths.">Japanese labels use a different time base than English ones</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q3.</span> In the loss computation, what does <code>mask = labels.sum(-1) &gt; 0</code> accomplish?</p>
+<div class="opts">
+<button data-fb="Class weighting would rescale contributions; this mask is binary in/out. Ask which frames have an all-zero label vector.">It weights Japanese frames more heavily than English ones</button>
+<button data-fb="Confidence isn't in the labels — they're hard one-hot vectors. The all-zero rows aren't 'low confidence'; they're 'no label at all'.">It drops frames the model is unsure about</button>
+<button data-ok data-fb="Real frames carry a one-hot label (sums to 1); padding frames and any unlabeled frames are all-zero (sums to 0). The mask restricts cross-entropy to supervised frames, so padding contributes zero gradient.">It excludes padding and unlabeled frames — whose label vectors are all zeros — from the cross-entropy loss</button>
+<button data-fb="Silence is a real, labeled part of each clip (it belongs to some span) and the model should learn it. What's excluded is artificial padding added by the collator.">It removes silent frames from training</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q4.</span> Why does the collator round every batch's padded length up to a multiple of 8,000 samples?</p>
+<div class="opts">
+<button data-fb="wav2vec2 handles arbitrary lengths fine — the conv formula works for any input. The constraint comes from the training hardware's compiler, not the model.">wav2vec2 requires inputs in multiples of 0.5 seconds</button>
+<button data-ok data-fb="Pad-to-longest yields a nearly unique tensor shape per batch, and the MPS backend caches a compiled graph per shape — unbounded shapes leaked ~100 GB of host memory over 9 hours until the OS killed the process. Bucketing collapses thousands of shapes into a few dozen, bounding the cache.">Each distinct tensor shape gets its own cached compiled graph on Apple's MPS backend; bucketing bounds the number of shapes and stops a catastrophic memory leak</button>
+<button data-fb="FLAC decoding happens in the dataset, long before the collator, and doesn't care about batch shapes.">FLAC files can only be decoded in 8,000-sample blocks</button>
+<button data-fb="Accuracy is unaffected — padded frames are masked out of the loss entirely. The bucketing is about memory behavior on MPS.">Longer padding improves accuracy by giving more context</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q5.</span> Why is the checkpoint saved via a temp directory and two renames instead of writing in place?</p>
+<div class="opts">
+<button data-fb="Speed is roughly the same — the files are written once either way. The benefit appears only when things go wrong mid-save.">Renames are faster than writes for large model files</button>
+<button data-fb="Only the single best checkpoint is kept (plus a transient .previous during the swap); this isn't a versioning scheme.">To keep every historical checkpoint version</button>
+<button data-ok data-fb="model.save_pretrained() takes a while, and a crash (or jetsam kill — see the war story) mid-write would leave a half-written, unloadable checkpoint as your 'best model'. Writing to .tmp and renaming into place means the directory at the final path is always complete.">A crash during a slow multi-file save would corrupt the only good checkpoint; write-then-rename guarantees the final path always holds a complete one</button>
+<button data-fb="wandb logs metrics, not files — it never reads the checkpoint directory. The rename dance is purely local crash safety.">wandb requires checkpoints to arrive by rename</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+</div>
+
+<!-- ================================================================ -->
+<h2 id="payoff"><span class="secnum">6</span>The Payoff: LID-Guided Transcription</h2>
+
+<p>Everything so far built a referee. Now we put it on the field. Two scripts close the loop: <span class="filepath">cmd/train/predict.py</span> turns raw frame decisions into usable segments, and <span class="filepath">cmd/eval/main.py</span> uses those segments to make Whisper transcribe code-switched audio properly — and proves it with numbers.</p>
+
+<h3>From frames to segments</h3>
+
+<p><code>predict.py</code> runs the model, softmaxes the logits, and takes the argmax per frame — 250 tiny decisions for a 5-second clip. Nobody downstream wants 250 decisions; they want spans. So consecutive same-label frames are grouped into segments, each with a start time, end time, and mean confidence:</p>
+
+<pre>$ just predict lid-wav2vec2-f1-98 data/synthetic/cs-2/speaker_012_29b1e5a58d16/cs7395.flac
+000.00-000.82  j  confidence=0.98
+000.82-002.18  e  confidence=0.97
+002.18-003.49  j  confidence=0.99
+003.49-004.06  e  confidence=0.95
+004.06-004.94  j  confidence=0.99</pre>
+
+<p>When a sidecar exists, the script also scores itself against it, aligning label sequences of different lengths with the same nearest-neighbor trick the collator uses. But real model output is never this clean: a hard consonant or a breath can flip a frame or two, producing a 40&nbsp;ms "English" blip inside a Japanese sentence. The eval pipeline's first move is therefore <code>coalesce_segments()</code>: repeatedly find the shortest segment, and if it's under 0.2&nbsp;s, absorb it into its longer neighbor, re-merging until everything is plausible. Sub-second clips are exactly what makes Whisper hallucinate, so the blips must die first.</p>
+
+<h3>Three strategies, one winner</h3>
+
+<p>Given clean language segments, how should Whisper use them? The eval harness implements three strategies, and their ranking is a lesson in itself:</p>
+
+<table>
+<tr><th>Strategy</th><th>Idea</th><th>Why it wins/loses</th></tr>
+<tr><td><code>chop</code></td><td>Cut audio at LID boundaries; transcribe each piece in its language</td><td>Loses sentence context, clips phonemes at cut points, hallucinates on short clips. The naive baseline.</td></tr>
+<tr><td><code>dual</code></td><td>Transcribe the <em>full</em> audio twice (once en, once ja); keep each timestamped word only where the LID timeline says its language was spoken</td><td>Keeps full context. But both passes run over everything, and word timestamps jitter.</td></tr>
+<tr><td><code>splice</code></td><td>One full pass in the <em>dominant</em> language; surgically splice in words from the other pass only where LID demands it — behind safety gates</td><td>The default. Baseline behavior by construction, deviating only with evidence.</td></tr>
+</table>
+
+<p>The splice strategy embodies the pipeline's core philosophy: <strong>never be worse than the baseline</strong>. First, sum up LID time per language. If the clip is English-dominant, run one English pass and <em>stop</em> — Whisper-en renders embedded Japanese as romaji ("Setsuyaku" for 節約), which is a faithful romanization, while a forced Japanese pass over mostly-English audio produces garbage. Asymmetry is the insight: the same trick doesn't work in reverse. Whisper-ja can only katakana-ize embedded English (「リップグロス」 for "lip gloss"), so Japanese-dominant audio gets a second, English pass, and the English LID spans get their words swapped in:</p>
+
+<div class="diagram">
+  <div style="font-size:0.85rem; margin-bottom:0.35rem; color:var(--muted)">LID timeline &nbsp;·&nbsp; その lip gloss はどこで買いましたか？</div>
+  <div class="spanbar" style="height:1.8rem">
+    <div class="seg ja" style="flex:5">j 0.0–0.5</div>
+    <div class="seg en" style="flex:9">e 0.5–1.4</div>
+    <div class="seg ja" style="flex:16">j 1.4–3.0</div>
+  </div>
+  <div style="font-size:0.85rem; margin:0.9rem 0 0.35rem; color:var(--muted)">ja-pass words (full audio, language="ja")</div>
+  <div class="spanbar" style="height:1.8rem">
+    <div class="seg ja" style="flex:5">その</div>
+    <div class="seg ja" style="flex:9; opacity:0.35; text-decoration:line-through">リップグロス</div>
+    <div class="seg ja" style="flex:8">はどこで</div>
+    <div class="seg ja" style="flex:8">買いましたか？</div>
+  </div>
+  <div style="font-size:0.85rem; margin:0.9rem 0 0.35rem; color:var(--muted)">en-pass words (full audio, language="en")</div>
+  <div class="spanbar" style="height:1.8rem">
+    <div class="seg en" style="flex:5; opacity:0.35; text-decoration:line-through">Where</div>
+    <div class="seg en" style="flex:4.5">lip</div>
+    <div class="seg en" style="flex:4.5">gloss</div>
+    <div class="seg en" style="flex:16; opacity:0.35; text-decoration:line-through">where did you buy it</div>
+  </div>
+  <div class="arrow" style="margin-top:0.6rem">↓<span class="lbl">each LID span takes the words of its language's pass (midpoint-inside rule)</span></div>
+  <div style="text-align:center; font-size:1.05rem; font-weight:600; margin-top:0.3rem">そのlip glossはどこで買いましたか？</div>
+  <div class="caption">Splice assembly on a real test case from the eval self-check. Faded words are discarded: each pass only contributes words whose midpoints fall in that language's LID spans, in span order.</div>
+</div>
+
+<h3>The four gates</h3>
+
+<p>A forced English pass over Japanese-dominant audio is a hallucination machine — it will cheerfully invent "I painted a nude color manicure" over a stretch of Japanese. So before an English span's words are spliced in, they must clear four gates, and failing <em>any</em> gate falls back to the ja-pass words for that span. Text is never dropped:</p>
+
+<table>
+<tr><th>Gate</th><th>Default</th><th>Rejects</th></tr>
+<tr><td>Span duration</td><td>≥ 0.3 s</td><td>Tiny LID blips that survived coalescing — likely false positives</td></tr>
+<tr><td>LID confidence</td><td>≥ 0.85 mean</td><td>Spans the referee itself isn't sure about</td></tr>
+<tr><td>Word density</td><td>≤ 3 words/sec</td><td>Six en-pass words crammed into 0.9 s — those words didn't really come from this span</td></tr>
+<tr><td>Word probability</td><td>≥ 0.5 mean</td><td>Words Whisper's own decoder doubts</td></tr>
+</table>
+
+<div class="callout">
+<span class="label">Key principle — fail toward the baseline</span>
+<p>Every gate's failure mode is "keep what the single-language pass produced," never "output nothing." The pipeline can only ever <em>replace</em> baseline words with better ones; it cannot lose content. This is why the default strategy is safe to run over an entire dataset unsupervised.</p>
+</div>
+
+<p>One last subtlety in assembly: words are joined with spaces <em>only between Latin words</em>. Inserting spaces into Japanese text isn't cosmetic damage — it changes how fugashi tokenizes during scoring, which changes kanji readings ("新 しい" romanizes as <i>shin shii</i> instead of <i>atarashii</i>) and corrupts the metric itself.</p>
+
+<h3>Keeping score</h3>
+
+<p>How do you compare 「節約」 in the reference against "Setsuyaku" in a transcription without punishing a correct answer written in a different script? Normalize both sides to the same alphabet: anything containing Japanese is tokenized with fugashi and romanized with pykakasi, lowercased, and reduced to romaji tokens. Then <code>jiwer</code> computes word error rate and character error rate, and the harness prints a per-file and aggregate comparison — baseline Whisper versus the LID-guided pipeline, with improved/regressed/tied counts. The entire reason the LID model exists is to make that comparison come out favorably; every design choice in the previous five sections was in service of this one table.</p>
+
+<pre>$ just eval --limit 20
+...
+Base Aggregate WER/CER:      0.412 / 0.287     ← Whisper alone
+Pipeline Aggregate WER/CER:  0.203 / 0.130     ← LID-guided
+Improved / Regressed / Tied: 14 / 2 / 4 (by WER)</pre>
+
+<p class="smallnote">(Illustrative output shape — run it on your own slice of the data for live numbers.)</p>
+
+<p>And notably, the eval file ends with <code>--self-check</code>: a battery of assertions encoding every behavior discussed above — the blip-folding, the midpoint-inside word rule, each of the four gates, the CJK joining — runnable in milliseconds without any model. The test cases are the documentation; several examples in this section came straight from them.</p>
+
+<h3>Where this leaves us</h3>
+
+<p>Step back and the shape of the project is pleasingly circular. An LLM writes sentences that a TTS model speaks, a forced aligner labels them, a speech model learns the labels, and the result teaches a transcription model to hear the way bilinguals actually talk. Four pretrained models, none of them retrained from scratch, arranged so that each covers another's blind spot. The craft is all in the joints: the loanword ban, the island counter, the dual-render stitch, the speaker-disjoint split, the splice gates. None of those decisions is glamorous. All of them are the difference between a demo and a system.</p>
+
+<div class="quiz">
+<h3>Check your understanding</h3>
+<p class="quiz-sub">Five final questions on the transcription pipeline.</p>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q1.</span> Why is the <code>chop</code> strategy — cut at LID boundaries, transcribe each piece — the weakest?</p>
+<div class="opts">
+<button data-fb="Chop is actually the cheapest in Whisper compute for multi-language clips (each second is transcribed once). Its problems are quality problems.">It requires the most Whisper passes</button>
+<button data-ok data-fb="Cutting destroys the sentence context Whisper relies on, hard cut points clip phonemes mid-word, and Whisper is prone to hallucinating on sub-second fragments. The dual and splice strategies exist precisely to keep full-audio context while still using the LID timeline.">Cut clips lose sentence context, clip phonemes at boundaries, and short fragments make Whisper hallucinate</button>
+<button data-fb="Chop uses the LID output most literally of all three strategies. Its weakness is what the cutting does to Whisper, not any ignorance of LID.">It ignores the LID model's output</button>
+<button data-fb="Chop transcribes each piece in its own detected language — that part is right. The damage comes from the act of cutting itself.">It transcribes everything in one language</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q2.</span> Why does English-dominant audio get just <em>one</em> pass, while Japanese-dominant audio gets two?</p>
+<div class="opts">
+<button data-fb="Cost symmetry isn't the driver — the pipeline happily pays for two passes when it helps. The asymmetry is in what each Whisper mode does to embedded foreign words.">To halve the compute cost on English audio</button>
+<button data-ok data-fb="Whisper-en renders embedded Japanese as romaji — a faithful romanization that survives normalization — so there's nothing to fix. Whisper-ja can only katakana-ize embedded English (リップグロス for 'lip gloss'), which is wrong after normalization, so those spans need real English words from a second pass.">Whisper-en's romaji rendering of Japanese is acceptable after normalization, but Whisper-ja's katakana rendering of English is not</button>
+<button data-fb="The LID model is symmetric — per-class F1 is 0.980/0.972. The asymmetry lives in Whisper's transliteration behavior, not in the referee.">The LID model is more accurate on English</button>
+<button data-fb="Sentence length isn't a factor in the strategy choice; only the dominant-language time ratio is.">Japanese sentences are longer on average</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q3.</span> A candidate English span fails the word-density gate. What does the pipeline output for that span?</p>
+<div class="opts">
+<button data-fb="Dropping text is the one thing the design forbids — a failed gate must never make the transcript shorter than the baseline's.">Nothing — the span is omitted from the transcript</button>
+<button data-fb="Gates are hard filters, not evidence-combiners. There's no averaging step; the span's words come wholesale from one pass or the other.">A blend of both passes weighted by confidence</button>
+<button data-ok data-fb="Every gate fails toward the baseline: the span keeps the ja-pass words (e.g. the katakana rendering), which is exactly what a plain single-pass transcription would have produced. The pipeline can replace words with better ones but can never lose content.">The ja-pass words for that span — the baseline behavior, so the result is never worse than plain Whisper</button>
+<button data-fb="No re-transcription happens at splice time — both passes already ran over the full audio. The choice is only which existing words to keep.">The span is re-transcribed at a higher beam size</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q4.</span> What is the word-density gate (≤ 3 words/sec) actually detecting?</p>
+<div class="opts">
+<button data-fb="Fast speech is real and legitimate — and the LID labels would still be right about it. The gate targets words that were never really spoken in that span at all.">Contributors who speak too quickly</button>
+<button data-ok data-fb="A forced English pass over Japanese-dominant audio hallucinates phrases with sloppy timestamps — like six words ('I painted a nude color manicure.') crammed into a 0.9 s span. An implausible density means those words didn't actually come from that stretch of audio, so the splice is refused.">Whisper hallucinations: the en pass invents phrases whose timestamps pile implausibly many words into a short span</button>
+<button data-fb="LID blips are handled earlier, by coalescing and by the 0.3 s duration gate. Density specifically checks the candidate words from Whisper.">Errors in the LID segmentation</button>
+<button data-fb="Overlap between passes is expected — both transcribe the full audio. Selection by span already handles that; density guards against fabricated words.">Audio where both languages are spoken simultaneously</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+
+<div class="q">
+<p class="qt"><span class="qnum">Q5.</span> Why are both reference and transcription romanized before computing WER/CER?</p>
+<div class="opts">
+<button data-fb="jiwer handles Unicode fine. The problem is fairness: the same correct word can legitimately appear in two different scripts.">The jiwer library can't process Japanese characters</button>
+<button data-fb="Romanization doesn't shorten anything meaningfully, and speed isn't a concern for a metric computation.">Romaji strings are shorter, making WER faster to compute</button>
+<button data-ok data-fb="A transcription may correctly render 節約 as 'Setsuyaku' — different script, same word. Comparing raw strings would count that as a total miss. Normalizing both sides to lowercase romaji tokens (via fugashi + pykakasi) makes the metric measure content, not script choice. This is also why splice-joining must not insert spaces into Japanese text: it would change fugashi's tokenization and thus the romanization.">The same correct word can appear in different scripts (節約 vs 'Setsuyaku'); a shared alphabet makes the comparison fair</button>
+<button data-fb="Whisper outputs whatever script its language mode dictates — that's the very behavior being scored. Normalization happens after, in the metric.">Whisper only outputs romaji anyway</button>
+</div>
+<div class="fb" hidden></div>
+</div>
+</div>
+
+<hr class="sep">
+<p class="smallnote">Generated for the <code>janglish</code> repository · pipeline state as of July 2026 · 31,634 clips · best checkpoint <code>models/lid-wav2vec2-f1-98</code> (0.976 macro F1 on speaker-disjoint test data). All code excerpts, sidecar contents, and worked examples are taken directly from the repo.</p>
+
+</main>
+<script>
+document.querySelectorAll('.q').forEach(function (q) {
+  var fb = q.querySelector('.fb');
+  var buttons = q.querySelectorAll('.opts button');
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      if (q.classList.contains('answered')) return;
+      q.classList.add('answered');
+      var ok = btn.hasAttribute('data-ok');
+      btn.classList.add(ok ? 'right' : 'wrong');
+      buttons.forEach(function (b) {
+        if (b.hasAttribute('data-ok')) b.classList.add('right');
+        b.disabled = true;
+      });
+      fb.hidden = false;
+      fb.className = 'fb ' + (ok ? 'good' : 'bad');
+      fb.innerHTML = '<b>' + (ok ? '✓ Correct.' : '✗ Not quite.') + '</b>' + btn.dataset.fb;
+    });
+  });
+});
+</script>
+</body>
+</html>
