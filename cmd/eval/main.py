@@ -420,10 +420,14 @@ def transcribe_words(model, audio, beam_size: int, language: str) -> list["Timed
                         start=word.start,
                         end=word.end,
                         text=text,
-                        probability=getattr(word, "probability", 1.0) or 1.0,
+                        probability=word_probability(word),
                     )
                 )
     return words
+
+
+def word_probability(word) -> float:
+    return getattr(word, "probability", 1.0)
 
 
 def majority_inside(word: TimedWord, intervals: list[tuple[float, float]]) -> bool:
@@ -432,7 +436,10 @@ def majority_inside(word: TimedWord, intervals: list[tuple[float, float]]) -> bo
 
 
 def overlap_seconds(start: float, end: float, intervals: list[tuple[float, float]]) -> float:
-    return sum(max(0.0, min(end, interval_end) - max(start, interval_start)) for interval_start, interval_end in intervals)
+    return sum(
+        max(0.0, min(end, interval_end) - max(start, interval_start))
+        for interval_start, interval_end in intervals
+    )
 
 
 def transcribe_chopped(model, audio, beam_size: int, coalesced: list) -> str:
@@ -617,6 +624,15 @@ def print_comparison(pairs: list[tuple[EvalResult, EvalResult]]) -> None:
 
 
 def _self_check() -> None:
+    class WordWithoutProbability:
+        pass
+
+    class WordWithProbability:
+        probability = 0.0
+
+    assert word_probability(WordWithoutProbability()) == 1.0
+    assert word_probability(WordWithProbability()) == 0.0
+
     # ponytail: one assert that fails if the fold/re-merge logic breaks.
     segments = [
         lid.Segment(label="e", start_seconds=0.0, end_seconds=1.0, confidence=1.0),
