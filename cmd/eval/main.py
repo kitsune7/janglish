@@ -14,10 +14,18 @@ from pykakasi import kakasi
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_DATA_PAIRS = REPO_ROOT / "data" / "data-pairs.csv"
+DEFAULT_LID_CHECKPOINT = REPO_ROOT / "models" / "lid-wav2vec2-f1-974"
+SAMPLE_RATE = 16_000
+LID_TO_WHISPER = {"e": "en", "j": "ja"}
 JAPANESE_TEXT_PATTERN = re.compile(r"[\u3040-\u30ff\u3400-\u9fff]")
 ROMAJI_TOKEN_PATTERN = re.compile(r"[a-z0-9']+")
 JAPANESE_TAGGER = Tagger()
 KAKASI_CONVERTER = kakasi()
+
+# Reuse the trained LID inference code rather than reimplementing it. The cmd/*
+# scripts are not a package, so add cmd/train to the path before importing.
+sys.path.insert(0, str(REPO_ROOT / "cmd" / "train"))
+import predict as lid  # noqa: E402
 
 
 @dataclass(frozen=True)
@@ -49,10 +57,45 @@ def main() -> int:
         compute_type=args.compute_type,
     )
 
-    results = [evaluate(sentence, transcribe(model, sentence.audio_path, args.beam_size)) for sentence in sentence_data]
+    if args.baseline_only:
+        results = [evaluate(sentence, transcribe(model, sentence.audio_path, args.beam_size)) for sentence in sentence_data]
+        print_results(results)
+        return 0
 
-    print_results(results)
+    lid_model, feature_extractor, device = load_lid(args.lid_checkpoint, args.lid_device)
+    if lid_model is None:
+        return 1
+
+    def run_pipeline(sentence: SentenceData) -> EvalResult:
+        audio = lid.read_audio(sentence.audio_path, SAMPLE_RATE)
+        transcription = transcribe_pipeline(
+            model, lid_model, feature_extractor, audio, args.beam_size, args.min_segment_seconds, device
+        )
+        return evaluate(sentence, transcription)
+
+    if args.pipeline_only:
+        print_results([run_pipeline(sentence) for sentence in sentence_data])
+        return 0
+
+    pairs = [
+        (
+            evaluate(sentence, transcribe(model, sentence.audio_path, args.beam_size)),
+            run_pipeline(sentence),
+        )
+        for sentence in sentence_data
+    ]
+    print_comparison(pairs)
     return 0
+
+
+def load_lid(checkpoint: str, device_choice: str):
+    checkpoint_path = lid.resolve_checkpoint(checkpoint)
+    if not checkpoint_path.exists():
+        print(f"LID checkpoint not found: {checkpoint_path}", file=sys.stderr)
+        return None, None, None
+    device = lid.resolve_device(device_choice)
+    model = lid.Wav2Vec2ForAudioFrameClassification.from_pretrained(checkpoint_path).to(device)
+    return model, lid.load_feature_extractor(checkpoint_path), device
 
 
 def parse_args() -> argparse.Namespace:
@@ -97,6 +140,34 @@ def parse_args() -> argparse.Namespace:
         default="",
         help="only evaluate CSV audio paths with this prefix, e.g. manual/Johnny",
     )
+    parser.add_argument(
+        "--lid-checkpoint",
+        default=str(DEFAULT_LID_CHECKPOINT),
+        help="LID checkpoint number, name, or path used to segment audio before Whisper",
+    )
+    parser.add_argument(
+        "--lid-device",
+        default="auto",
+        choices=["auto", "cpu", "cuda", "mps"],
+        help="device to run the LID model on",
+    )
+    parser.add_argument(
+        "--min-segment-seconds",
+        type=float,
+        default=0.2,
+        help="fold LID segments shorter than this into a neighbor before transcribing",
+    )
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument(
+        "--baseline-only",
+        action="store_true",
+        help="only run plain base-Whisper transcription (no LID preprocessing)",
+    )
+    mode.add_argument(
+        "--pipeline-only",
+        action="store_true",
+        help="only run the LID-preprocessing pipeline (no baseline comparison)",
+    )
     return parser.parse_args()
 
 
@@ -126,6 +197,73 @@ def load_sentence_data(data_pairs_path: Path, limit: int, prefix: str) -> list[S
 def transcribe(model: WhisperModel, audio_path: Path, beam_size: int) -> str:
     segments, _ = model.transcribe(str(audio_path), beam_size=beam_size)
     return " ".join(segment.text.strip() for segment in segments).strip()
+
+
+def transcribe_pipeline(model, lid_model, feature_extractor, audio, beam_size, min_seconds, device) -> str:
+    lid_segments = lid.predict(lid_model, feature_extractor, audio, device).segments
+    coalesced = coalesce_segments(lid_segments, min_seconds)
+    if not coalesced:
+        segments, _ = model.transcribe(audio, beam_size=beam_size)
+        return " ".join(segment.text.strip() for segment in segments).strip()
+
+    texts: list[str] = []
+    for segment in coalesced:
+        language = LID_TO_WHISPER.get(segment.label)
+        if language is None:
+            continue
+        clip = audio[int(segment.start_seconds * SAMPLE_RATE) : int(segment.end_seconds * SAMPLE_RATE)]
+        if clip.size == 0:
+            continue
+        segments, _ = model.transcribe(clip, beam_size=beam_size, language=language)
+        texts.append(" ".join(part.text.strip() for part in segments).strip())
+
+    return " ".join(text for text in texts if text).strip()
+
+
+def coalesce_segments(segments: list, min_seconds: float) -> list:
+    # lid.predict already merges contiguous same-language runs; here we additionally
+    # fold sub-threshold blips into their longer neighbor so Whisper does not
+    # hallucinate on tiny clips, re-merging same-language runs after each fold.
+    merged = merge_adjacent(segments)
+    while len(merged) > 1:
+        index = min(range(len(merged)), key=lambda i: duration(merged[i]))
+        if duration(merged[index]) >= min_seconds:
+            break
+
+        before = merged[index - 1] if index > 0 else None
+        after = merged[index + 1] if index + 1 < len(merged) else None
+        neighbor = before if after is None else after if before is None else (
+            before if duration(before) >= duration(after) else after
+        )
+        merged[index] = lid.Segment(
+            label=neighbor.label,
+            start_seconds=merged[index].start_seconds,
+            end_seconds=merged[index].end_seconds,
+            confidence=merged[index].confidence,
+        )
+        merged = merge_adjacent(merged)
+
+    return merged
+
+
+def merge_adjacent(segments: list) -> list:
+    merged: list = []
+    for segment in segments:
+        if merged and merged[-1].label == segment.label:
+            previous = merged[-1]
+            merged[-1] = lid.Segment(
+                label=previous.label,
+                start_seconds=previous.start_seconds,
+                end_seconds=segment.end_seconds,
+                confidence=(previous.confidence + segment.confidence) / 2,
+            )
+        else:
+            merged.append(segment)
+    return merged
+
+
+def duration(segment) -> float:
+    return segment.end_seconds - segment.start_seconds
 
 
 def evaluate(sentence: SentenceData, transcription: str) -> EvalResult:
@@ -215,5 +353,50 @@ def print_results(results: list[EvalResult]) -> None:
     print(f"Aggregate Character Error Rate:\t{jiwer.cer(references, hypotheses):.6f}")
 
 
+def print_comparison(pairs: list[tuple[EvalResult, EvalResult]]) -> None:
+    improved = regressed = tied = 0
+    for base, pipeline in pairs:
+        print(f"Audio: {base.sentence.audio_path.relative_to(REPO_ROOT)}")
+        print(f"Sentence:\t{base.sentence.text}")
+        print(f"Base Transcription:\t{base.transcription}")
+        print(f"Pipeline Transcription:\t{pipeline.transcription}")
+        print(f"Base WER/CER:\t\t{base.word_error_rate:.6f} / {base.character_error_rate:.6f}")
+        print(f"Pipeline WER/CER:\t{pipeline.word_error_rate:.6f} / {pipeline.character_error_rate:.6f}")
+        wer_delta = pipeline.word_error_rate - base.word_error_rate
+        cer_delta = pipeline.character_error_rate - base.character_error_rate
+        print(f"Delta WER/CER:\t\t{wer_delta:+.6f} / {cer_delta:+.6f}")
+        if wer_delta < 0:
+            improved += 1
+        elif wer_delta > 0:
+            regressed += 1
+        else:
+            tied += 1
+        print("--------------------------------")
+
+    base_refs = [base.normalized_sentence for base, _ in pairs]
+    base_hyps = [base.normalized_transcription for base, _ in pairs]
+    pipe_hyps = [pipeline.normalized_transcription for _, pipeline in pairs]
+    print(f"Evaluated files:\t\t{len(pairs)}")
+    print(f"Base Aggregate WER/CER:\t\t{jiwer.wer(base_refs, base_hyps):.6f} / {jiwer.cer(base_refs, base_hyps):.6f}")
+    print(f"Pipeline Aggregate WER/CER:\t{jiwer.wer(base_refs, pipe_hyps):.6f} / {jiwer.cer(base_refs, pipe_hyps):.6f}")
+    print(f"Improved / Regressed / Tied:\t{improved} / {regressed} / {tied} (by WER)")
+
+
+def _self_check() -> None:
+    # ponytail: one assert that fails if the fold/re-merge logic breaks.
+    segments = [
+        lid.Segment(label="e", start_seconds=0.0, end_seconds=1.0, confidence=1.0),
+        lid.Segment(label="j", start_seconds=1.0, end_seconds=1.05, confidence=1.0),  # sub-threshold blip
+        lid.Segment(label="e", start_seconds=1.05, end_seconds=2.0, confidence=1.0),
+    ]
+    result = coalesce_segments(segments, min_seconds=0.2)
+    assert [s.label for s in result] == ["e"], result
+    assert result[0].start_seconds == 0.0 and result[0].end_seconds == 2.0, result
+    print("self-check passed")
+
+
 if __name__ == "__main__":
-    raise SystemExit(main())
+    if "--self-check" in sys.argv:
+        _self_check()
+    else:
+        raise SystemExit(main())
